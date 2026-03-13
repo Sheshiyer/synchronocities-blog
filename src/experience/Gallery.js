@@ -1,4 +1,6 @@
 import * as THREE from 'three'
+import planeVertexShader from './Plane/shaders/vertex.glsl'
+import planeFragmentShader from './Plane/shaders/fragment.glsl'
 
 class Gallery {
   constructor(planeData = []) {
@@ -80,14 +82,37 @@ class Gallery {
       const backgroundColor = plane.backgroundColor || fallbackColor
       const blob1Color = plane.blob1Color || fallbackColor
       const blob2Color = plane.blob2Color || fallbackColor
-      const planeMaterial = new THREE.MeshBasicMaterial({
-        color: fallbackColor,
-        map: texture,
-        side: THREE.DoubleSide,
-        transparent: true,
-        depthWrite: false,
-        opacity: index === 0 ? 1 : 0,
-      })
+
+      const hasTexture = Boolean(texture) && this.useTextures
+      let planeMaterial
+
+      if (hasTexture) {
+        planeMaterial = new THREE.MeshBasicMaterial({
+          color: '#ffffff',
+          map: texture,
+          side: THREE.DoubleSide,
+          transparent: true,
+          depthWrite: false,
+          opacity: index === 0 ? 1 : 0,
+        })
+      } else {
+        planeMaterial = new THREE.ShaderMaterial({
+          vertexShader: planeVertexShader,
+          fragmentShader: planeFragmentShader,
+          uniforms: {
+            uTime: { value: 0 },
+            uOpacity: { value: index === 0 ? 1 : 0 },
+            uBackgroundColor: { value: new THREE.Color(backgroundColor) },
+            uBlob1Color: { value: new THREE.Color(blob1Color) },
+            uBlob2Color: { value: new THREE.Color(blob2Color) },
+            uAccentColor: { value: new THREE.Color(accentColor) },
+          },
+          side: THREE.DoubleSide,
+          transparent: true,
+          depthWrite: false,
+        })
+      }
+
       const planeMesh = new THREE.Mesh(planeGeometry, planeMaterial)
       planeMesh.userData.basePosition = plane.position
       planeMesh.userData.baseColor = fallbackColor
@@ -98,6 +123,7 @@ class Gallery {
       planeMesh.userData.label = plane.label || {}
       planeMesh.userData.texture = texture
       planeMesh.userData.aspectRatio = aspectRatio
+      planeMesh.userData.isShaderMaterial = !hasTexture
       scene.add(planeMesh)
       this.planes.push(planeMesh)
     })
@@ -223,6 +249,7 @@ class Gallery {
 
   updatePlaneMaterialMode() {
     this.planes.forEach((plane) => {
+      if (plane.userData.isShaderMaterial) return
       const planeMaterial = plane.material
       const texture = plane.userData.texture || null
       const hasTexture = Boolean(texture)
@@ -243,9 +270,14 @@ class Gallery {
       if (index === currentPlaneIndex) targetOpacity = 1 - blend
       if (index === nextPlaneIndex) targetOpacity = Math.max(targetOpacity, blend)
 
-      const currentOpacity = Number.isFinite(plane.material.opacity) ? plane.material.opacity : 0
-      plane.material.opacity = THREE.MathUtils.lerp(currentOpacity, targetOpacity, this.planeFadeSmoothing)
-      plane.material.needsUpdate = true
+      if (plane.userData.isShaderMaterial) {
+        const currentOpacity = plane.material.uniforms.uOpacity.value
+        plane.material.uniforms.uOpacity.value = THREE.MathUtils.lerp(currentOpacity, targetOpacity, this.planeFadeSmoothing)
+      } else {
+        const currentOpacity = Number.isFinite(plane.material.opacity) ? plane.material.opacity : 0
+        plane.material.opacity = THREE.MathUtils.lerp(currentOpacity, targetOpacity, this.planeFadeSmoothing)
+        plane.material.needsUpdate = true
+      }
     })
   }
 
@@ -307,10 +339,19 @@ class Gallery {
     })
   }
 
-  update(camera = null, scroll = null) {
+  updateShaderTime(time) {
+    this.planes.forEach((plane) => {
+      if (plane.userData.isShaderMaterial) {
+        plane.material.uniforms.uTime.value = time
+      }
+    })
+  }
+
+  update(camera = null, scroll = null, time = 0) {
     if (!camera) return
     this.updatePlaneVisibility(camera.position.z)
     this.updatePlaneMotion(scroll)
+    this.updateShaderTime(time)
   }
 
   dispose() {

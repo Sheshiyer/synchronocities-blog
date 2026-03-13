@@ -29,7 +29,7 @@ class Experience {
     this.trailController.update(camera, scroll, time)
 
     // Gallery + label
-    this.gallery.update(camera, scroll)
+    this.gallery.update(camera, scroll, time)
     this.label.update(camera)
 
     // Camera-driven updates
