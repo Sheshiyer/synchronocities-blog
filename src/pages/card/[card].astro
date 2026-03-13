@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { MAJOR_ARCANA, getCardByNumeral } from '../../lib/tarot';
+
+export function getStaticPaths() {
+  return MAJOR_ARCANA.map((card) => ({
+    params: { card: card.numeral.toLowerCase() },
+    props: { card },
+  }));
+}
+
+const { card } = Astro.props;
+const allPosts = await getCollection('posts', ({ data }) => !data.draft && data.card === card.numeral);
+const sortedPosts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title={card.thothName} description={`Posts mapped to ${card.thothName} (${card.numeral}) — ${card.keyword}`}>
+  <div class="min-h-screen">
+    <nav class="px-8 py-6">
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 text-sm transition-colors"
+        style="font-family: var(--font-mono); color: var(--color-muted-silver);"
+      >
+        <span>←</span>
+        <span>Return to Spiral</span>
+      </a>
+    </nav>
+
+    <header class="px-8 pb-12 max-w-[780px] mx-auto">
+      <span
+        class="text-[110px] font-bold leading-none opacity-10 block"
+        style={`font-family: var(--font-display); color: ${card.color};`}
+      >
+        {card.numeral}
+      </span>
+      <h1
+        class="text-[42px] font-semibold -mt-8"
+        style="font-family: var(--font-display); color: var(--color-parchment);"
+      >
+        {card.thothName}
+      </h1>
+      <div class="flex gap-4 mt-3 text-xs" style="font-family: var(--font-mono);">
+        <span class="text-[var(--color-muted-silver)]">{card.element}</span>
+        <span class="text-[var(--color-sacred-gold)]">{card.keyword}</span>
+        {card.compass && (
+          <span class="text-[var(--color-coherence-emerald)]">{card.compass}</span>
+        )}
+      </div>
+      <p class="text-sm text-[var(--color-muted-silver)] mt-2" style="font-family: var(--font-body);">
+        Hero's Journey: {card.heroPhase}
+      </p>
+    </header>
+
+    <main class="px-8 max-w-[780px] mx-auto pb-20">
+      {sortedPosts.length > 0 ? (
+        <div class="space-y-6">
+          {sortedPosts.map((post) => (
+            <a
+              href={`/posts/${post.id}`}
+              class="block p-6 rounded-lg transition-all duration-300 hover:border-[var(--color-sacred-gold)]"
+              style="background: var(--color-deep-surface); border: 1px solid rgba(138, 155, 168, 0.1);"
+            >
+              <h2
+                class="text-xl font-medium mb-2"
+                style="font-family: var(--font-display); color: var(--color-parchment);"
+              >
+                {post.data.title}
+              </h2>
+              {post.data.excerpt && (
+                <p class="text-sm text-[var(--color-muted-silver)] mb-3 line-clamp-2">
+                  {post.data.excerpt}
+                </p>
+              )}
+              <div class="flex gap-3 text-xs" style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+                <time>{post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' })}</time>
+                {post.data.location && (
+                  <>
+                    <span>·</span>
+                    <span>{post.data.location}</span>
+                  </>
+                )}
+                <span>·</span>
+                <span>Rev {post.data.revolution}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-20">
+          <p class="text-[var(--color-muted-silver)] opacity-40" style="font-family: var(--font-body);">
+            This position on the spiral awaits its story.
+          </p>
+        </div>
+      )}
+    </main>
+  </div>
+</BaseLayout>

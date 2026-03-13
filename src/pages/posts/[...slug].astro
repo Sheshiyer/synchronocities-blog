@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { getCardByNumeral } from '../../lib/tarot';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const card = post.data.card ? getCardByNumeral(post.data.card) : null;
+---
+
+<BaseLayout title={post.data.title} description={post.data.excerpt}>
+  <article class="relative min-h-screen">
+    {/* Back navigation */}
+    <nav class="px-8 py-6">
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 text-sm transition-colors"
+        style="font-family: var(--font-mono); color: var(--color-muted-silver);"
+      >
+        <span>←</span>
+        <span>Return to Spiral</span>
+      </a>
+    </nav>
+
+    {/* Post Header */}
+    <header class="px-8 pb-8 max-w-[780px] mx-auto">
+      {card && (
+        <div class="flex items-center gap-3 mb-6">
+          <span
+            class="text-[68px] font-bold leading-none opacity-15"
+            style={`font-family: var(--font-display); color: ${card.color};`}
+          >
+            {card.numeral}
+          </span>
+          <div>
+            <span
+              class="text-xs uppercase tracking-[0.15em] block"
+              style="font-family: var(--font-mono); color: var(--color-sacred-gold);"
+            >
+              {card.thothName}
+            </span>
+            <span
+              class="text-xs block mt-0.5"
+              style="font-family: var(--font-mono); color: var(--color-muted-silver);"
+            >
+              {card.heroPhase} · {card.keyword}
+            </span>
+          </div>
+        </div>
+      )}
+
+      <h1
+        class="text-[42px] font-semibold leading-tight mb-4"
+        style="font-family: var(--font-display); color: var(--color-parchment);"
+      >
+        {post.data.title}
+      </h1>
+
+      <div
+        class="flex flex-wrap gap-4 text-xs"
+        style="font-family: var(--font-mono); color: var(--color-muted-silver);"
+      >
+        <time datetime={post.data.date.toISOString()}>
+          {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+        {post.data.location && (
+          <>
+            <span>·</span>
+            <span>{post.data.location}</span>
+          </>
+        )}
+        {post.data.kosha && (
+          <>
+            <span>·</span>
+            <span class="text-[var(--color-coherence-emerald)]">{post.data.kosha}</span>
+          </>
+        )}
+        {post.data.identity && (
+          <>
+            <span>·</span>
+            <span class="text-[var(--color-witness-violet)] opacity-70">{post.data.identity}</span>
+          </>
+        )}
+      </div>
+
+      {/* Suit badge */}
+      {post.data.suit && (
+        <div class="mt-4">
+          <span
+            class="inline-block px-3 py-1 rounded text-xs uppercase tracking-widest"
+            style={`
+              font-family: var(--font-mono);
+              border: 1px solid rgba(197, 160, 23, 0.3);
+              color: var(--color-sacred-gold);
+              background: rgba(14, 20, 40, 0.6);
+            `}
+          >
+            {post.data.suit}
+          </span>
+        </div>
+      )}
+
+      {/* Divider */}
+      <div
+        class="mt-8 h-px w-full"
+        style="background: linear-gradient(90deg, transparent 0%, var(--color-sacred-gold) 50%, transparent 100%); opacity: 0.2;"
+      />
+    </header>
+
+    {/* Post Content */}
+    <div
+      class="px-8 pb-20 max-w-[680px] mx-auto prose prose-invert prose-gold"
+      style="font-family: var(--font-body);"
+    >
+      <Content />
+    </div>
+
+    {/* Revolution marker */}
+    <footer class="px-8 py-12 max-w-[680px] mx-auto border-t border-[rgba(197,160,23,0.1)]">
+      <div class="flex items-center justify-between">
+        <span class="text-xs text-[var(--color-muted-silver)]" style="font-family: var(--font-mono);">
+          Revolution {post.data.revolution}
+        </span>
+        <a
+          href="/"
+          class="text-xs hover:text-[var(--color-sacred-gold)] transition-colors"
+          style="font-family: var(--font-mono); color: var(--color-muted-silver);"
+        >
+          Return to Spiral →
+        </a>
+      </div>
+
+      {/* Tags */}
+      {post.data.tags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-4">
+          {post.data.tags.map((tag: string) => (
+            <span
+              class="text-xs px-2 py-0.5 rounded"
+              style="color: var(--color-muted-silver); background: var(--color-deep-surface); font-family: var(--font-mono);"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+    </footer>
+  </article>
+</BaseLayout>

@@ -1,17 +1,51 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DepthGallery from '../components/DepthGallery';
+import { getCollection } from 'astro:content';
 
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+
+// Sort by card number for depth ordering (Fool → Universe)
+const cardOrder: Record<string, number> = {
+  '0': 0, 'IX': 9, 'XIV': 14, 'XVI': 16, 'XVII': 17, 'XVIII': 18, 'XX': 20, 'XXI': 21,
+};
+
+const sortedPosts = [...allPosts].sort((a, b) => {
+  const aOrder = cardOrder[a.data.card || ''] ?? 99;
+  const bOrder = cardOrder[b.data.card || ''] ?? 99;
+  return aOrder - bOrder;
+});
+
+const postsForGallery = sortedPosts.map((post) => ({
+  slug: post.id,
+  title: post.data.title,
+  card: post.data.card,
+  date: post.data.date.toISOString(),
+  excerpt: post.data.excerpt,
+}));
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Synchronocities">
+  <!-- Header overlay -->
+  <header class="fixed top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-6">
+    <a href="/" class="flex items-center gap-3">
+      <span
+        class="text-lg font-semibold tracking-[0.08em] uppercase"
+        style="font-family: var(--font-display); color: var(--color-sacred-gold);"
+      >
+        Synchronocities
+      </span>
+    </a>
+    <nav class="flex gap-6 text-sm" style="font-family: var(--font-mono);">
+      <a href="/" class="text-[var(--color-muted-silver)] hover:text-[var(--color-sacred-gold)] transition-colors">
+        Depth
+      </a>
+      <a href="/journeys" class="text-[var(--color-muted-silver)] hover:text-[var(--color-sacred-gold)] transition-colors">
+        Journeys
+      </a>
+    </nav>
+  </header>
+
+  <!-- The Depth Gallery IS the Interface -->
+  <DepthGallery client:only="react" posts={postsForGallery} />
+</BaseLayout>

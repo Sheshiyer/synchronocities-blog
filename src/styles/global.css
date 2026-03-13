@@ -1,0 +1,270 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════
+   TRYAMBAKAM NOESIS — Design Tokens
+   Consciousness Color Spectrum (Goethe's Zur Farbenlehre, 1810)
+   ═══════════════════════════════════════════════ */
+
+@theme {
+  /* ── Consciousness Color Spectrum ── */
+  --color-void-black: #070B1D;
+  --color-deep-surface: #0E1428;
+  --color-witness-violet: #2D0050;
+  --color-flow-indigo: #0B50FB;
+  --color-sacred-gold: #C5A017;
+  --color-coherence-emerald: #10B5A7;
+  --color-parchment: #F0EDE3;
+  --color-muted-silver: #8A9BA8;
+  --color-terracotta: #C65D3B;
+
+  /* ── Typography Scale (Golden Ratio φ = 1.618) ── */
+  --font-display: 'Panchang', system-ui, sans-serif;
+  --font-body: 'Satoshi', system-ui, sans-serif;
+  --font-mono: 'SF Mono', ui-monospace, monospace;
+
+  --text-xs: 0.625rem;    /* 10px */
+  --text-sm: 0.75rem;     /* 12px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg: 1.625rem;    /* 26px */
+  --text-xl: 2.625rem;    /* 42px */
+  --text-2xl: 4.25rem;    /* 68px */
+  --text-hero: 6.875rem;  /* 110px */
+
+  /* ── Spacing ── */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2.5rem;
+  --spacing-2xl: 4rem;
+
+  /* ── Transitions ── */
+  --ease-consciousness: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-subtle: 300ms;
+  --duration-reveal: 600ms;
+  --duration-drift: 8000ms;
+}
+
+/* ── Font Faces ── */
+@font-face {
+  font-family: 'Panchang';
+  src: url('/fonts/Panchang-Variable.woff2') format('woff2');
+  font-weight: 400 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Variable.woff2') format('woff2');
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+/* ── Global Reset ── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-void-black);
+  color: var(--color-parchment);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-void-black);
+  overflow-x: hidden;
+}
+
+/* ── Headings — Panchang, Wide Industrial-Panoramic ── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.15;
+  color: var(--color-parchment);
+}
+
+h1 { font-size: var(--text-2xl); }
+h2 { font-size: var(--text-xl); }
+h3 { font-size: var(--text-lg); }
+
+/* ── Body Text ── */
+p {
+  max-width: 680px;
+  color: var(--color-parchment);
+  opacity: 0.9;
+}
+
+/* ── Code/Data — SF Mono ── */
+code, pre {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+}
+
+/* ── Links ── */
+a {
+  color: var(--color-sacred-gold);
+  text-decoration: none;
+  transition: color var(--duration-subtle) var(--ease-consciousness);
+}
+
+a:hover {
+  color: var(--color-coherence-emerald);
+}
+
+/* ── Selection ── */
+::selection {
+  background-color: var(--color-witness-violet);
+  color: var(--color-parchment);
+}
+
+/* ── Scrollbar (Webkit) ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-void-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-deep-surface);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted-silver);
+}
+
+/* ── Utility: Gradients (Kha-Ba-La Arcs) ── */
+.gradient-kha {
+  background: linear-gradient(135deg, #070B1D 0%, #2D0050 50%, #0B50FB 100%);
+}
+
+.gradient-ba {
+  background: linear-gradient(90deg, #10B5A7 0%, #C5A017 100%);
+}
+
+.gradient-la {
+  background: linear-gradient(135deg, #C5A017 0%, #2D0050 50%, #070B1D 100%);
+}
+
+/* ── Utility: Bioluminescent Glow ── */
+.glow-gold {
+  filter: drop-shadow(0 0 8px rgba(197, 160, 23, 0.4));
+}
+
+.glow-emerald {
+  filter: drop-shadow(0 0 8px rgba(16, 181, 167, 0.4));
+}
+
+.glow-violet {
+  filter: drop-shadow(0 0 8px rgba(45, 0, 80, 0.6));
+}
+
+.glow-indigo {
+  filter: drop-shadow(0 0 8px rgba(11, 80, 251, 0.4));
+}
+
+/* ── Depth Gallery: Canvas ── */
+.depth-gallery-canvas {
+  display: block;
+  outline: none;
+}
+
+/* ── Depth Gallery: Card Label Overlay ── */
+.card-label-overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem 3rem;
+  pointer-events: none;
+  z-index: 10;
+  transition: opacity 0.6s var(--ease-consciousness);
+  font-family: var(--font-mono);
+}
+
+.card-label-overlay__left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.card-label-overlay__numeral {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--color-sacred-gold);
+  line-height: 1;
+  opacity: 0.9;
+  max-width: none;
+}
+
+.card-label-overlay__name {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 500;
+  color: var(--color-parchment);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  max-width: none;
+}
+
+.card-label-overlay__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+}
+
+.card-label-overlay__keyword {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-sacred-gold);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  max-width: none;
+}
+
+.card-label-overlay__phase {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-muted-silver);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  max-width: none;
+}
+
+@media (max-width: 768px) {
+  .card-label-overlay {
+    padding: 1.5rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .card-label-overlay__right {
+    align-items: flex-start;
+  }
+
+  .card-label-overlay__numeral {
+    font-size: var(--text-xl);
+  }
+
+  .card-label-overlay__name {
+    font-size: var(--text-base);
+  }
+}
