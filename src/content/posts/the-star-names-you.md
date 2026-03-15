@@ -9,6 +9,7 @@ revolution: 1
 kosha: "anandamaya"
 identity: "Pichet"
 excerpt: "On an island shaped like a teardrop, the Star poured its water. The name came not from the mind but from the mouth of a stranger who saw what the mirror couldn't show."
+featured_image: "/cards/tarot-17-star.webp"
 tags: ["star", "healing", "samui", "name-transmission", "victory"]
 ---
 

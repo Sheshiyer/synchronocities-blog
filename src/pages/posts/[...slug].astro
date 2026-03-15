@@ -2,6 +2,11 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
 import { getCardByNumeral } from '../../lib/tarot';
+import { getCardPalette } from '../../lib/cardColors';
+import { getCardExperience } from '../../lib/cardExperience';
+import ReadingProgress from '../../components/ReadingProgress';
+import ScrollReveal from '../../components/ScrollReveal';
+import JourneyProgress from '../../components/JourneyProgress';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -14,143 +19,367 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 const card = post.data.card ? getCardByNumeral(post.data.card) : null;
+const palette = post.data.card ? getCardPalette(post.data.card) : null;
+const experience = post.data.card ? getCardExperience(post.data.card) : null;
+
+// For posts without card palette, use featured_image as hero
+const heroImage = palette?.textureSrc || post.data.featured_image || null;
+
+const cardVars = palette ? [
+  `--card-bg: ${palette.backgroundColor}`,
+  `--card-blob1: ${palette.blob1Color}`,
+  `--card-blob2: ${palette.blob2Color}`,
+  `--card-accent: ${palette.accentColor}`,
+  `--card-gradient-from: ${palette.gradientFrom}`,
+  `--card-gradient-via: ${palette.gradientVia}`,
+  `--card-gradient-to: ${palette.gradientTo}`,
+].join('; ') : '';
+
+const bgGradient = palette
+  ? `background: linear-gradient(170deg, ${palette.gradientFrom} 0%, ${palette.gradientVia} 40%, ${palette.gradientTo} 100%);`
+  : 'background: var(--color-void-black);';
+const dividerColor = palette?.accentColor || 'var(--color-sacred-gold)';
+const layout = experience?.layout || 'cosmic-void';
+
+// Sorted posts for navigation
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const cardOrder: Record<string, number> = {
+  '0': 0, 'IX': 9, 'XIV': 14, 'XVI': 16, 'XVII': 17, 'XVIII': 18, 'XX': 20, 'XXI': 21,
+};
+const sorted = [...allPosts].sort((a, b) => (cardOrder[a.data.card || ''] ?? 99) - (cardOrder[b.data.card || ''] ?? 99));
+const currentIndex = sorted.findIndex(p => p.id === post.id);
+const prevPost = currentIndex > 0 ? sorted[currentIndex - 1] : null;
+const nextPost = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
+const prevCard = prevPost?.data.card ? getCardByNumeral(prevPost.data.card) : null;
+const nextCard = nextPost?.data.card ? getCardByNumeral(nextPost.data.card) : null;
+const prevPalette = prevPost?.data.card ? getCardPalette(prevPost.data.card) : null;
+const nextPalette = nextPost?.data.card ? getCardPalette(nextPost.data.card) : null;
+
+const journeyCards = sorted.map(p => {
+  const pal = p.data.card ? getCardPalette(p.data.card) : null;
+  return { numeral: p.data.card || '?', accentColor: pal?.accentColor || '#8A9BA8', slug: p.id };
+});
 ---
 
 <BaseLayout title={post.data.title} description={post.data.excerpt}>
-  <article class="relative min-h-screen">
-    {/* Back navigation */}
-    <nav class="px-8 py-6">
-      <a
-        href="/"
-        class="inline-flex items-center gap-2 text-sm transition-colors"
-        style="font-family: var(--font-mono); color: var(--color-muted-silver);"
-      >
-        <span>←</span>
-        <span>Return to Spiral</span>
+  <ReadingProgress client:load />
+  <article
+    class="relative min-h-screen"
+    style={cardVars}
+    data-element={card?.element || ''}
+    data-card={post.data.card || ''}
+    data-layout={layout}
+  >
+    {/* Background layers */}
+    <div class="fixed inset-0 -z-10" style={bgGradient} />
+    <div class="fixed inset-0 -z-[5] opacity-[0.04] pointer-events-none mix-blend-overlay"
+      style="background-image: repeating-conic-gradient(rgba(255,255,255,0.03) 0% 25%, transparent 0% 50%); background-size: 3px 3px;" />
+    {palette && (
+      <div class="fixed top-1/4 left-1/2 -translate-x-1/2 -z-[3] pointer-events-none"
+        style={`width: 60vw; height: 60vh; background: radial-gradient(ellipse, ${palette.blob1Color}22 0%, transparent 70%); filter: blur(80px);`} />
+    )}
+    <div class="card-hero-effects fixed inset-0 -z-[2] pointer-events-none" />
+    <div class="element-ambient" />
+
+    {/* Top nav */}
+    <nav class="relative z-10 px-6 md:px-8 py-5 flex items-center justify-between">
+      <a href="/" class="inline-flex items-center gap-2 text-sm transition-colors hover:text-[var(--color-sacred-gold)]"
+        style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+        <span>&larr;</span><span>Spiral</span>
       </a>
+      <JourneyProgress client:load cards={journeyCards} currentCard={post.data.card || ''} />
     </nav>
 
-    {/* Post Header */}
-    <header class="px-8 pb-8 max-w-[780px] mx-auto">
-      {card && (
-        <div class="flex items-center gap-3 mb-6">
-          <span
-            class="text-[68px] font-bold leading-none opacity-15"
-            style={`font-family: var(--font-display); color: ${card.color};`}
-          >
-            {card.numeral}
-          </span>
-          <div>
-            <span
-              class="text-xs uppercase tracking-[0.15em] block"
-              style="font-family: var(--font-mono); color: var(--color-sacred-gold);"
-            >
-              {card.thothName}
-            </span>
-            <span
-              class="text-xs block mt-0.5"
-              style="font-family: var(--font-mono); color: var(--color-muted-silver);"
-            >
-              {card.heroPhase} · {card.keyword}
-            </span>
-          </div>
+    {/* ═══════════════════════════════════════════
+        FULL-WIDTH IMMERSIVE HERO
+        Each layout fills the viewport
+    ═══════════════════════════════════════════ */}
+    <section class="relative w-full">
+      {/* Card image — FULL BLEED */}
+      {heroImage && (
+        <div class="relative w-full h-[60vh] md:h-[75vh] overflow-hidden">
+          <img
+            src={heroImage}
+            alt={card?.thothName || post.data.title}
+            class="absolute inset-0 w-full h-full object-cover object-center"
+            style={`opacity: ${layout === 'hermit-minimal' ? '0.15' : '0.4'}; mask-image: linear-gradient(to bottom, black 20%, transparent 90%);`}
+            loading="eager"
+          />
+          <div class="absolute inset-0"
+            style={`background: linear-gradient(to top, ${palette?.backgroundColor || '#070B1D'} 0%, ${palette?.backgroundColor || '#070B1D'}BB 35%, transparent 65%);`} />
+
+          {/* Location + Room marker — positioned in hero */}
+          {experience && (
+            <div class="absolute bottom-32 md:bottom-40 right-6 md:right-12 text-right z-10" style="font-family: var(--font-mono);">
+              <div class="text-xs text-[var(--color-muted-silver)] opacity-50 uppercase tracking-[0.2em]">
+                {experience.location.name}
+              </div>
+              <div class="text-[10px] text-[var(--color-muted-silver)] opacity-30 mt-0.5">
+                {experience.location.detail}
+              </div>
+              {experience.room && (
+                <div class="mt-2 text-xs opacity-25" style={`color: ${palette.accentColor};`}
+                  title={experience.room.meaning}>
+                  Room {experience.room.number}
+                </div>
+              )}
+            </div>
+          )}
         </div>
       )}
 
-      <h1
-        class="text-[42px] font-semibold leading-tight mb-4"
-        style="font-family: var(--font-display); color: var(--color-parchment);"
-      >
-        {post.data.title}
-      </h1>
+      {/* Title block — overlaps hero */}
+      <header class={`relative z-10 w-full ${heroImage ? '-mt-36 md:-mt-48' : 'pt-12'}`}>
+        <div class="post-header-block px-5 md:px-10 lg:px-16">
+          {/* Numeral — massive, full-width presence */}
+          {card && (
+            <div class="post-numeral-group flex items-end gap-6 md:gap-10 mb-4">
+              <span
+                class="text-[80px] md:text-[120px] lg:text-[160px] font-bold leading-none opacity-15"
+                style={`font-family: var(--font-display); color: ${palette?.accentColor || card.color};`}
+              >
+                {card.numeral}
+              </span>
+              <div class="pb-2 md:pb-4">
+                <span class="text-xs uppercase tracking-[0.2em] block"
+                  style={`font-family: var(--font-mono); color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
+                  {card.thothName}
+                </span>
+                <span class="text-[10px] block mt-0.5"
+                  style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+                  {card.heroPhase} &middot; {card.keyword}
+                </span>
+              </div>
+            </div>
+          )}
 
-      <div
-        class="flex flex-wrap gap-4 text-xs"
-        style="font-family: var(--font-mono); color: var(--color-muted-silver);"
-      >
-        <time datetime={post.data.date.toISOString()}>
-          {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-        </time>
-        {post.data.location && (
-          <>
-            <span>·</span>
-            <span>{post.data.location}</span>
-          </>
+          {/* Title — full width */}
+          <h1 class="text-[28px] md:text-[42px] lg:text-[52px] font-semibold leading-[1.1] mb-6 max-w-[900px]"
+            style="font-family: var(--font-display); color: var(--color-parchment);">
+            {post.data.title}
+          </h1>
+
+          {/* Metadata row — spread across width */}
+          <div class="flex flex-wrap items-center gap-3 md:gap-5 text-xs mb-6"
+            style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+            <time datetime={post.data.date.toISOString()}>
+              {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </time>
+            {post.data.location && (<><span class="opacity-30">/</span><span>{post.data.location}</span></>)}
+            {post.data.kosha && (<><span class="opacity-30">/</span><span style="color: var(--color-coherence-emerald);">{post.data.kosha}</span></>)}
+            {post.data.identity && (<><span class="opacity-30">/</span><span style="color: var(--color-witness-violet); opacity: 0.7;">{post.data.identity}</span></>)}
+            {post.data.suit && (
+              <span class="px-2.5 py-0.5 rounded text-[10px] uppercase tracking-widest"
+                style={`border: 1px solid ${palette ? `${palette.accentColor}33` : 'rgba(197,160,23,0.2)'}; color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
+                {post.data.suit}
+              </span>
+            )}
+          </div>
+
+          {/* Sensory note — hidden atmospheric detail */}
+          {experience && (
+            <p class="text-[11px] italic max-w-[600px] opacity-30 mb-8"
+              style="font-family: var(--font-body); color: var(--color-muted-silver);">
+              {experience.sensoryNote}
+            </p>
+          )}
+        </div>
+
+        {/* Full-width divider */}
+        <div class="w-full h-px"
+          style={`background: linear-gradient(90deg, transparent 5%, ${dividerColor}40 30%, ${dividerColor}40 70%, transparent 95%);`} />
+      </header>
+    </section>
+
+    {/* ═══════════════════════════════════════════
+        CONTENT AREA — LAYOUT-SPECIFIC
+    ═══════════════════════════════════════════ */}
+    <div class={`w-full ${layout === 'hermit-minimal' ? 'pt-16 pb-24' : 'pt-10 pb-20'}`}>
+
+      {/* Pull quote — inside content-area so it aligns with prose */}
+      {/* Main content + Easter eggs — CSS layout drives structure via [data-layout] */}
+      <div class="post-content-area px-5 md:px-10 lg:px-16">
+
+        {/* Pull quote — sits above prose, aligned to same column */}
+        {experience && layout !== 'hermit-minimal' && (
+          <div class="mb-10 lg:col-span-2">
+            <blockquote class="text-base md:text-lg italic leading-relaxed max-w-[640px] opacity-35"
+              style={`font-family: var(--font-body); color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
+              &ldquo;{experience.pullQuote}&rdquo;
+            </blockquote>
+          </div>
         )}
-        {post.data.kosha && (
-          <>
-            <span>·</span>
-            <span class="text-[var(--color-coherence-emerald)]">{post.data.kosha}</span>
-          </>
-        )}
-        {post.data.identity && (
-          <>
-            <span>·</span>
-            <span class="text-[var(--color-witness-violet)] opacity-70">{post.data.identity}</span>
-          </>
+
+        {/* Content column */}
+        <div class="prose-synchronocities">
+          <Content />
+
+          {/* Closing line */}
+          {experience && (
+            <div class="mt-16 pt-8" style={`border-top: 1px solid ${dividerColor}1A;`}>
+              <p class="text-sm italic opacity-50" style={`color: ${palette?.accentColor || 'var(--color-muted-silver)'};`}>
+                {experience.closingLine}
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* Easter eggs sidebar — hidden on mobile, visible on desktop */}
+        {experience && layout !== 'hermit-minimal' && (
+          <aside class="hidden lg:block sticky top-24 self-start space-y-6">
+            {/* Room marker */}
+            {experience.room && (
+              <div class="pb-5" style={`border-bottom: 1px solid ${dividerColor}15;`}>
+                <div class="text-[10px] uppercase tracking-[0.2em] mb-1"
+                  style={`font-family: var(--font-mono); color: ${palette?.accentColor || 'var(--color-muted-silver)'}; opacity: 0.5;`}>
+                  Room
+                </div>
+                <div class="text-2xl font-bold opacity-20"
+                  style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
+                  {experience.room.number}
+                </div>
+                <div class="text-[10px] mt-1 opacity-25 leading-tight"
+                  style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+                  {experience.room.meaning}
+                </div>
+              </div>
+            )}
+
+            {/* Easter egg items */}
+            <div class="space-y-4">
+              <div class="text-[10px] uppercase tracking-[0.2em]"
+                style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.4;`}>
+                Synchronicities
+              </div>
+              {experience.easterEggs.map((egg) => (
+                <div class="group cursor-default" title={egg.meaning}>
+                  {egg.number && (
+                    <span class="text-xs font-bold opacity-25 block"
+                      style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
+                      {egg.number}
+                    </span>
+                  )}
+                  <span class="text-[11px] block"
+                    style={`font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;`}>
+                    {egg.label}
+                  </span>
+                  <span class="text-[10px] block mt-0.5 opacity-0 group-hover:opacity-40 transition-opacity duration-500 leading-tight"
+                    style="font-family: var(--font-body); color: var(--color-parchment);">
+                    {egg.meaning}
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            {/* Breath pattern */}
+            {experience.breathPattern && (
+              <div class="pt-5" style={`border-top: 1px solid ${dividerColor}10;`}>
+                <div class="text-[10px] uppercase tracking-[0.2em] mb-1"
+                  style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.3;`}>
+                  Breath
+                </div>
+                <div class="text-lg font-bold opacity-15 tracking-[0.3em]"
+                  style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
+                  {experience.breathPattern}
+                </div>
+              </div>
+            )}
+          </aside>
         )}
       </div>
 
-      {/* Suit badge */}
-      {post.data.suit && (
-        <div class="mt-4">
-          <span
-            class="inline-block px-3 py-1 rounded text-xs uppercase tracking-widest"
-            style={`
-              font-family: var(--font-mono);
-              border: 1px solid rgba(197, 160, 23, 0.3);
-              color: var(--color-sacred-gold);
-              background: rgba(14, 20, 40, 0.6);
-            `}
-          >
-            {post.data.suit}
-          </span>
+      {/* Mobile Easter eggs — collapsible at bottom */}
+      {experience && layout !== 'hermit-minimal' && (
+        <div class="lg:hidden px-5 md:px-10 mt-12 max-w-[1100px] mx-auto">
+          <details class="group">
+            <summary class="text-[11px] uppercase tracking-[0.2em] cursor-pointer list-none"
+              style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.4;`}>
+              <span class="group-open:hidden">&#9656; Synchronicities</span>
+              <span class="hidden group-open:inline">&#9662; Synchronicities</span>
+            </summary>
+            <div class="mt-4 space-y-3 pl-2" style={`border-left: 1px solid ${dividerColor}20;`}>
+              {experience.easterEggs.map((egg) => (
+                <div>
+                  <span class="text-[11px] block" style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.5;">
+                    {egg.number ? `${egg.number} · ` : ''}{egg.label}
+                  </span>
+                  <span class="text-[10px] block mt-0.5 opacity-35 leading-tight"
+                    style="font-family: var(--font-body); color: var(--color-parchment);">
+                    {egg.meaning}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </details>
         </div>
       )}
-
-      {/* Divider */}
-      <div
-        class="mt-8 h-px w-full"
-        style="background: linear-gradient(90deg, transparent 0%, var(--color-sacred-gold) 50%, transparent 100%); opacity: 0.2;"
-      />
-    </header>
-
-    {/* Post Content */}
-    <div
-      class="px-8 pb-20 max-w-[680px] mx-auto prose prose-invert prose-gold"
-      style="font-family: var(--font-body);"
-    >
-      <Content />
     </div>
 
-    {/* Revolution marker */}
-    <footer class="px-8 py-12 max-w-[680px] mx-auto border-t border-[rgba(197,160,23,0.1)]">
-      <div class="flex items-center justify-between">
-        <span class="text-xs text-[var(--color-muted-silver)]" style="font-family: var(--font-mono);">
-          Revolution {post.data.revolution}
-        </span>
-        <a
-          href="/"
-          class="text-xs hover:text-[var(--color-sacred-gold)] transition-colors"
-          style="font-family: var(--font-mono); color: var(--color-muted-silver);"
-        >
-          Return to Spiral →
+    {/* ═══════════════════════════════════════════
+        FOOTER — Full Width Navigation
+    ═══════════════════════════════════════════ */}
+    <footer class="w-full border-t" style={`border-color: ${dividerColor}12;`}>
+      {/* Prev/Next — with consistent padding matching content */}
+      <div class="grid grid-cols-[1fr_auto_1fr] w-full px-5 md:px-10 lg:px-16 py-8 md:py-10 lg:py-12">
+        {prevPost ? (
+          <a href={`/posts/${prevPost.id}`}
+            class="group pr-4 transition-colors">
+            <span class="text-[10px] uppercase tracking-[0.15em] text-[var(--color-muted-silver)] group-hover:text-[var(--color-sacred-gold)] transition-colors block"
+              style="font-family: var(--font-mono);">
+              &larr; Previous
+            </span>
+            <span class="text-sm md:text-base font-medium mt-1 block"
+              style={`font-family: var(--font-display); color: ${prevPalette?.accentColor || 'var(--color-parchment)'};`}>
+              {prevCard?.thothName || prevPost.data.title}
+            </span>
+            <span class="text-[10px] text-[var(--color-muted-silver)] opacity-40 mt-0.5 block" style="font-family: var(--font-mono);">
+              {prevCard?.heroPhase || ''}
+            </span>
+          </a>
+        ) : <div />}
+
+        <a href="/" class="flex items-center px-6 text-[10px] uppercase tracking-[0.15em] hover:text-[var(--color-sacred-gold)] transition-colors"
+          style={`font-family: var(--font-mono); color: var(--color-muted-silver); border-left: 1px solid ${dividerColor}12; border-right: 1px solid ${dividerColor}12;`}>
+          Spiral
         </a>
+
+        {nextPost ? (
+          <a href={`/posts/${nextPost.id}`}
+            class="group pl-4 text-right transition-colors">
+            <span class="text-[10px] uppercase tracking-[0.15em] text-[var(--color-muted-silver)] group-hover:text-[var(--color-sacred-gold)] transition-colors block"
+              style="font-family: var(--font-mono);">
+              Next &rarr;
+            </span>
+            <span class="text-sm md:text-base font-medium mt-1 block"
+              style={`font-family: var(--font-display); color: ${nextPalette?.accentColor || 'var(--color-parchment)'};`}>
+              {nextCard?.thothName || nextPost.data.title}
+            </span>
+            <span class="text-[10px] text-[var(--color-muted-silver)] opacity-40 mt-0.5 block" style="font-family: var(--font-mono);">
+              {nextCard?.heroPhase || ''}
+            </span>
+          </a>
+        ) : <div />}
       </div>
 
-      {/* Tags */}
-      {post.data.tags.length > 0 && (
-        <div class="flex flex-wrap gap-2 mt-4">
-          {post.data.tags.map((tag: string) => (
-            <span
-              class="text-xs px-2 py-0.5 rounded"
-              style="color: var(--color-muted-silver); background: var(--color-deep-surface); font-family: var(--font-mono);"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-      )}
+      {/* Tags + Revolution */}
+      <div class="px-5 md:px-10 lg:px-16 py-5 flex flex-wrap items-center justify-between gap-4"
+        style={`border-top: 1px solid ${dividerColor}08;`}>
+        <span class="text-[10px] text-[var(--color-muted-silver)] opacity-40" style="font-family: var(--font-mono);">
+          Revolution {post.data.revolution}
+        </span>
+        {post.data.tags.length > 0 && (
+          <div class="flex flex-wrap gap-2">
+            {post.data.tags.map((tag: string) => (
+              <span class="text-[10px] px-2 py-0.5 rounded"
+                style={`color: var(--color-muted-silver); opacity: 0.4; background: ${palette ? `${palette.blob1Color}0A` : 'transparent'}; border: 1px solid ${palette ? `${palette.accentColor}10` : 'rgba(138,155,168,0.05)'}; font-family: var(--font-mono);`}>
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+      </div>
     </footer>
+
+    <ScrollReveal client:load />
   </article>
 </BaseLayout>

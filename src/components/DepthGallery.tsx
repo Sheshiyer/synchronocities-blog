@@ -8,6 +8,7 @@ interface Post {
   card?: string
   date: string
   excerpt?: string
+  featuredImage?: string
 }
 
 interface DepthGalleryProps {

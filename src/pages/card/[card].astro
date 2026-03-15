@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { MAJOR_ARCANA, getCardByNumeral } from '../../lib/tarot';
+import { getCardPalette } from '../../lib/cardColors';
 
 export function getStaticPaths() {
   return MAJOR_ARCANA.map((card) => ({
@@ -11,39 +12,65 @@ export function getStaticPaths() {
 }
 
 const { card } = Astro.props;
+const palette = getCardPalette(card.numeral);
 const allPosts = await getCollection('posts', ({ data }) => !data.draft && data.card === card.numeral);
 const sortedPosts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const bgGradient = palette
+  ? `background: linear-gradient(170deg, ${palette.gradientFrom} 0%, ${palette.gradientVia} 40%, ${palette.gradientTo} 100%);`
+  : 'background: var(--color-void-black);';
+const accent = palette?.accentColor || card.color;
 ---
 
 <BaseLayout title={card.thothName} description={`Posts mapped to ${card.thothName} (${card.numeral}) — ${card.keyword}`}>
-  <div class="min-h-screen">
-    <nav class="px-8 py-6">
+  <div class="min-h-screen relative">
+    {/* Card-specific gradient background */}
+    <div class="fixed inset-0 -z-10" style={bgGradient} />
+
+    {/* Card image hero */}
+    {palette?.textureSrc && (
+      <div class="relative h-[40vh] min-h-[280px] overflow-hidden">
+        <img
+          src={palette.textureSrc}
+          alt={card.thothName}
+          class="absolute inset-0 w-full h-full object-cover object-center opacity-30"
+          style="mask-image: linear-gradient(to bottom, black 20%, transparent 90%);"
+          loading="eager"
+        />
+        <div
+          class="absolute inset-0"
+          style={`background: linear-gradient(to top, ${palette.backgroundColor} 0%, transparent 60%);`}
+        />
+      </div>
+    )}
+
+    <nav class={`relative z-10 px-6 md:px-8 py-6 ${palette?.textureSrc ? '-mt-32' : ''}`}>
       <a
         href="/"
-        class="inline-flex items-center gap-2 text-sm transition-colors"
+        class="inline-flex items-center gap-2 text-sm transition-colors hover:text-[var(--color-sacred-gold)]"
         style="font-family: var(--font-mono); color: var(--color-muted-silver);"
       >
-        <span>←</span>
+        <span>&larr;</span>
         <span>Return to Spiral</span>
       </a>
     </nav>
 
-    <header class="px-8 pb-12 max-w-[780px] mx-auto">
+    <header class="relative z-10 px-6 md:px-8 pb-12 max-w-[780px] mx-auto">
       <span
-        class="text-[110px] font-bold leading-none opacity-10 block"
-        style={`font-family: var(--font-display); color: ${card.color};`}
+        class="text-[96px] md:text-[110px] font-bold leading-none opacity-15 block"
+        style={`font-family: var(--font-display); color: ${accent};`}
       >
         {card.numeral}
       </span>
       <h1
-        class="text-[42px] font-semibold -mt-8"
+        class="text-[36px] md:text-[42px] font-semibold -mt-6 md:-mt-8"
         style="font-family: var(--font-display); color: var(--color-parchment);"
       >
         {card.thothName}
       </h1>
       <div class="flex gap-4 mt-3 text-xs" style="font-family: var(--font-mono);">
         <span class="text-[var(--color-muted-silver)]">{card.element}</span>
-        <span class="text-[var(--color-sacred-gold)]">{card.keyword}</span>
+        <span style={`color: ${accent};`}>{card.keyword}</span>
         {card.compass && (
           <span class="text-[var(--color-coherence-emerald)]">{card.compass}</span>
         )}
@@ -51,25 +78,35 @@ const sortedPosts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.
       <p class="text-sm text-[var(--color-muted-silver)] mt-2" style="font-family: var(--font-body);">
         Hero's Journey: {card.heroPhase}
       </p>
+
+      {/* Divider */}
+      <div
+        class="mt-8 h-px w-full"
+        style={`background: linear-gradient(90deg, transparent 0%, ${accent} 50%, transparent 100%); opacity: 0.2;`}
+      />
     </header>
 
-    <main class="px-8 max-w-[780px] mx-auto pb-20">
+    <main class="relative z-10 px-6 md:px-8 max-w-[780px] mx-auto pb-20">
       {sortedPosts.length > 0 ? (
         <div class="space-y-6">
           {sortedPosts.map((post) => (
             <a
               href={`/posts/${post.id}`}
-              class="block p-6 rounded-lg transition-all duration-300 hover:border-[var(--color-sacred-gold)]"
-              style="background: var(--color-deep-surface); border: 1px solid rgba(138, 155, 168, 0.1);"
+              class="block p-6 rounded-lg transition-all duration-300 group"
+              style={`
+                background: ${palette ? `${palette.backgroundColor}CC` : 'var(--color-deep-surface)'};
+                border: 1px solid ${palette ? `${accent}1A` : 'rgba(138, 155, 168, 0.1)'};
+                backdrop-filter: blur(4px);
+              `}
             >
               <h2
-                class="text-xl font-medium mb-2"
+                class="text-xl font-medium mb-2 group-hover:text-[var(--color-sacred-gold)] transition-colors"
                 style="font-family: var(--font-display); color: var(--color-parchment);"
               >
                 {post.data.title}
               </h2>
               {post.data.excerpt && (
-                <p class="text-sm text-[var(--color-muted-silver)] mb-3 line-clamp-2">
+                <p class="text-sm text-[var(--color-muted-silver)] mb-3 line-clamp-2 max-w-none">
                   {post.data.excerpt}
                 </p>
               )}
@@ -77,11 +114,11 @@ const sortedPosts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.
                 <time>{post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' })}</time>
                 {post.data.location && (
                   <>
-                    <span>·</span>
+                    <span>&middot;</span>
                     <span>{post.data.location}</span>
                   </>
                 )}
-                <span>·</span>
+                <span>&middot;</span>
                 <span>Rev {post.data.revolution}</span>
               </div>
             </a>

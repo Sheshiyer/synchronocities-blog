@@ -1,16 +1,19 @@
 ---
 import '../styles/global.css';
+import { ClientRouter } from 'astro:transitions';
 
 interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  cardStyles?: string;
 }
 
 const {
   title,
   description = 'Synchronocities — A spiral mandala of lived archetypes. A Tryambakam Noesis sub-brand.',
   ogImage = '/images/og-default.png',
+  cardStyles,
 } = Astro.props;
 
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
@@ -47,8 +50,10 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <!-- Preload Fonts -->
     <link rel="preload" href="/fonts/Panchang-Variable.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/Satoshi-Variable.woff2" as="font" type="font/woff2" crossorigin />
+
+    <ClientRouter />
   </head>
-  <body class="min-h-screen bg-[var(--color-void-black)] text-[var(--color-parchment)] antialiased">
+  <body class="min-h-screen bg-[var(--color-void-black)] text-[var(--color-parchment)] antialiased" style={cardStyles || ''}>
     <slot />
   </body>
 </html>

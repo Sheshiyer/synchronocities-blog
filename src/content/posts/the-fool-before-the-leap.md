@@ -8,6 +8,7 @@ revolution: 1
 kosha: "annamaya"
 identity: "Shesh"
 excerpt: "Every spiral begins with a fool who doesn't know they're beginning. Card Zero — the numberless number, the potential before the act, the breath before the word."
+featured_image: "/cards/tarot-00-fool.webp"
 tags: ["fool", "beginning", "departure", "ordinary-world", "zero"]
 ---
 

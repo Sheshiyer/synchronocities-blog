@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* ═══════════════════════════════════════════════
    TRYAMBAKAM NOESIS — Design Tokens
@@ -310,5 +311,534 @@ a:hover {
 
   .card-label-overlay__excerpt {
     -webkit-line-clamp: 1;
+  }
+}
+
+/* ═══════════════════════════════════════════════
+   PROSE — Synchronocities Reading Experience
+   ═══════════════════════════════════════════════ */
+
+.prose-synchronocities {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  color: var(--color-parchment);
+}
+
+.prose-synchronocities p {
+  margin-bottom: 1.75em;
+  max-width: none;
+  opacity: 0.92;
+}
+
+.prose-synchronocities > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  font-size: 3.5em;
+  float: left;
+  line-height: 0.8;
+  margin-right: 0.12em;
+  margin-top: 0.08em;
+  color: var(--card-accent, var(--color-sacred-gold));
+  font-weight: 700;
+}
+
+.prose-synchronocities strong {
+  color: var(--color-parchment);
+  font-weight: 600;
+}
+
+.prose-synchronocities em {
+  color: var(--card-accent, var(--color-sacred-gold));
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.prose-synchronocities blockquote {
+  border-left: 2px solid var(--card-accent, var(--color-sacred-gold));
+  padding-left: 1.5em;
+  margin-left: 0;
+  font-style: italic;
+  color: var(--color-muted-silver);
+  opacity: 0.85;
+}
+
+.prose-synchronocities h2,
+.prose-synchronocities h3 {
+  font-family: var(--font-display);
+  color: var(--color-parchment);
+  margin-top: 2.5em;
+  margin-bottom: 0.8em;
+}
+
+.prose-synchronocities h2 {
+  font-size: 1.75rem;
+}
+
+.prose-synchronocities h3 {
+  font-size: 1.375rem;
+}
+
+.prose-synchronocities a {
+  color: var(--card-accent, var(--color-sacred-gold));
+  text-decoration: underline;
+  text-decoration-color: rgba(197, 160, 23, 0.3);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 300ms ease;
+}
+
+.prose-synchronocities a:hover {
+  text-decoration-color: var(--card-accent, var(--color-sacred-gold));
+}
+
+.prose-synchronocities hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--card-accent, var(--color-sacred-gold)), transparent);
+  opacity: 0.2;
+  margin: 3em auto;
+  max-width: 200px;
+}
+
+.prose-synchronocities code {
+  background: rgba(14, 20, 40, 0.6);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--color-coherence-emerald);
+}
+
+.prose-synchronocities pre {
+  background: rgba(14, 20, 40, 0.8);
+  border: 1px solid rgba(138, 155, 168, 0.1);
+  border-radius: 8px;
+  padding: 1.5em;
+  overflow-x: auto;
+  margin: 2em 0;
+}
+
+.prose-synchronocities pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.prose-synchronocities ul,
+.prose-synchronocities ol {
+  padding-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.prose-synchronocities li {
+  margin-bottom: 0.5em;
+  max-width: none;
+}
+
+/* ── Element-Specific Prose Accents ── */
+[data-element="Fire"] .prose-synchronocities blockquote {
+  border-left-color: var(--color-terracotta);
+}
+
+[data-element="Water"] .prose-synchronocities blockquote {
+  border-left-color: var(--color-flow-indigo);
+}
+
+[data-element="Air"] .prose-synchronocities blockquote {
+  border-left-color: var(--color-parchment);
+  border-left-width: 1px;
+}
+
+[data-element="Earth"] .prose-synchronocities blockquote {
+  border-left-color: var(--color-coherence-emerald);
+}
+
+/* ── Card-Specific Selection ── */
+[style*="--card-accent"] ::selection {
+  background-color: var(--card-blob2, var(--color-witness-violet));
+  color: var(--color-parchment);
+}
+
+/* ── Bold Glow (#17) ── */
+.prose-synchronocities strong {
+  text-shadow: 0 0 24px var(--card-blob1, transparent);
+}
+
+/* ═══════════════════════════════════════════════
+   CARD-SPECIFIC LAYOUT SYSTEMS
+   Each data-layout gets genuinely different structure.
+   ALL prose columns capped at readable line-length.
+   ═══════════════════════════════════════════════ */
+
+/* ── Global layout container — centered with generous margins ── */
+.post-content-area {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.post-header-block {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ── Cosmic Void (Fool) — centered floating in space ── */
+[data-layout="cosmic-void"] .post-content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+[data-layout="cosmic-void"] .prose-synchronocities {
+  text-align: left;
+  max-width: 660px;
+  margin: 0 auto;
+}
+[data-layout="cosmic-void"] .post-header-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+[data-layout="cosmic-void"] .post-numeral-group {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* ── Earthquake (Tower) — left-aligned, urgent, tighter ── */
+@media (min-width: 1024px) {
+  [data-layout="earthquake"] .post-content-area {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 3rem;
+  }
+}
+[data-layout="earthquake"] .prose-synchronocities {
+  max-width: 720px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* ── Water Healing (Star) — centered, flowing, generous whitespace ── */
+[data-layout="water-healing"] .post-content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+[data-layout="water-healing"] .prose-synchronocities {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  letter-spacing: 0.015em;
+}
+[data-layout="water-healing"] .prose-synchronocities p {
+  margin-bottom: 2.2em;
+}
+[data-layout="water-healing"] .post-header-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+[data-layout="water-healing"] .post-numeral-group {
+  justify-content: center;
+}
+
+/* ── Crescent (Moon) — asymmetric offset with left margin ── */
+@media (min-width: 1024px) {
+  [data-layout="crescent"] .post-content-area {
+    display: grid;
+    grid-template-columns: 80px 1fr 200px;
+    gap: 2rem;
+  }
+}
+[data-layout="crescent"] .prose-synchronocities {
+  max-width: 680px;
+}
+
+/* ── Hermit Minimal — extreme whitespace, narrow centered ── */
+[data-layout="hermit-minimal"] .post-content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+}
+[data-layout="hermit-minimal"] .prose-synchronocities {
+  max-width: 520px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 2;
+  letter-spacing: 0.02em;
+}
+[data-layout="hermit-minimal"] .prose-synchronocities p {
+  margin-bottom: 2.5em;
+  opacity: 0.8;
+}
+[data-layout="hermit-minimal"] .post-header-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  max-width: 800px;
+}
+[data-layout="hermit-minimal"] .post-numeral-group {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ── Alchemical (Art/Temperance) — content + sidebar ── */
+@media (min-width: 1024px) {
+  [data-layout="alchemical"] .post-content-area {
+    display: grid;
+    grid-template-columns: 1fr 240px;
+    gap: 4rem;
+  }
+}
+[data-layout="alchemical"] .prose-synchronocities {
+  max-width: 680px;
+}
+
+/* ── Spiral Recursive (Aeon) — indented, recursive feel ── */
+[data-layout="spiral-recursive"] .prose-synchronocities {
+  max-width: 660px;
+}
+[data-layout="spiral-recursive"] .prose-synchronocities p {
+  margin-bottom: 2em;
+}
+@media (min-width: 1024px) {
+  [data-layout="spiral-recursive"] .post-content-area {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 3rem;
+  }
+}
+
+/* ── Four Quadrant (Universe) — wide with prominent sidebar ── */
+@media (min-width: 1024px) {
+  [data-layout="four-quadrant"] .post-content-area {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 4rem;
+  }
+}
+[data-layout="four-quadrant"] .prose-synchronocities {
+  max-width: 700px;
+  font-size: 1.1rem;
+}
+
+/* ═══════════════════════════════════════════════
+   CARD-SPECIFIC UNIQUE EFFECTS (Phase 4)
+   ═══════════════════════════════════════════════ */
+
+/* ── #33: The Fool — Starfield ── */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.8; }
+}
+
+[data-card="0"] .card-hero-effects {
+  background-image:
+    radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 30% 60%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1.5px 1.5px at 50% 15%, rgba(255,255,255,0.8) 0%, transparent 100%),
+    radial-gradient(1px 1px at 70% 45%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 85% 75%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1.5px 1.5px at 15% 80%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1px 1px at 60% 85%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 90% 10%, rgba(255,255,255,0.6) 0%, transparent 100%);
+  animation: twinkle 4s ease-in-out infinite alternate;
+}
+
+/* ── #34: The Tower — Screen Shake ── */
+@keyframes tower-shake {
+  0% { transform: translate(0, 0); }
+  10% { transform: translate(-2px, 1px); }
+  20% { transform: translate(2px, -1px); }
+  30% { transform: translate(-1px, 2px); }
+  40% { transform: translate(1px, -1px); }
+  50% { transform: translate(-1px, 0); }
+  60% { transform: translate(0, 0); }
+  100% { transform: translate(0, 0); }
+}
+
+[data-card="XVI"] {
+  animation: tower-shake 0.6s ease-out 0.3s 1;
+}
+
+/* ── #35: The Moon — Prismatic Refraction on Headings ── */
+[data-card="XVIII"] .prose-synchronocities h2,
+[data-card="XVIII"] .prose-synchronocities h3,
+[data-card="XVIII"] header h1 {
+  text-shadow:
+    -1px 0 rgba(74, 63, 212, 0.25),
+    1px 0 rgba(138, 176, 212, 0.25);
+}
+
+/* ── #36: The Star — Golden Pulse on Drop Cap ── */
+@keyframes star-pulse {
+  0%, 100% { text-shadow: 0 0 8px rgba(212, 176, 48, 0.3); }
+  50% { text-shadow: 0 0 24px rgba(212, 176, 48, 0.6), 0 0 48px rgba(212, 176, 48, 0.2); }
+}
+
+[data-card="XVII"] .prose-synchronocities > p:first-of-type::first-letter {
+  animation: star-pulse 3s ease-in-out infinite;
+}
+
+/* ── #37: The Universe — Mandala Border ── */
+[data-card="XXI"] .card-hero-effects {
+  border: 1px solid rgba(197, 160, 48, 0.12);
+  border-radius: 50%;
+  width: 80vw;
+  height: 80vw;
+  max-width: 600px;
+  max-height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow:
+    inset 0 0 60px rgba(26, 107, 94, 0.1),
+    0 0 80px rgba(197, 160, 48, 0.05);
+  animation: mandala-rotate 60s linear infinite;
+}
+
+@keyframes mandala-rotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* ── #38: The Hermit — Minimal: Remove All Effects ── */
+[data-card="IX"] .card-hero-effects {
+  display: none !important;
+}
+
+[data-card="IX"] .prose-synchronocities {
+  border-left: none;
+  padding-left: 0;
+}
+
+[data-card="IX"] .prose-synchronocities > p:first-of-type::first-letter {
+  color: var(--color-muted-silver);
+  opacity: 0.6;
+}
+
+[data-card="IX"] .prose-synchronocities strong {
+  text-shadow: none;
+}
+
+/* ── #32: Element Ambient Particles ── */
+@keyframes float-up {
+  0% { transform: translateY(0) scale(1); opacity: 0; }
+  10% { opacity: 0.6; }
+  90% { opacity: 0.2; }
+  100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
+}
+
+@keyframes wave-drift {
+  0%, 100% { transform: translateX(0) scaleY(1); }
+  50% { transform: translateX(15px) scaleY(1.02); }
+}
+
+[data-element="Fire"] .element-ambient::before,
+[data-element="Fire"] .element-ambient::after {
+  content: '';
+  position: fixed;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--color-terracotta);
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+[data-element="Fire"] .element-ambient::before {
+  left: 15%;
+  bottom: 0;
+  animation: float-up 6s ease-out infinite;
+}
+
+[data-element="Fire"] .element-ambient::after {
+  left: 75%;
+  bottom: 0;
+  animation: float-up 8s ease-out 3s infinite;
+}
+
+[data-element="Water"] .element-ambient {
+  animation: wave-drift 6s ease-in-out infinite;
+}
+
+/* ── Reading Progress Bar (#25) ── */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--card-accent, var(--color-sacred-gold));
+  z-index: 50;
+  transition: width 50ms linear;
+  opacity: 0.8;
+}
+
+/* ── Scroll Reveal (#47) ── */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Journey Progress (#40) ── */
+.journey-progress {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.journey-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-muted-silver);
+  opacity: 0.25;
+  transition: all 300ms ease;
+}
+
+.journey-dot.active {
+  width: 8px;
+  height: 8px;
+  opacity: 1;
+  box-shadow: 0 0 8px currentColor;
+}
+
+.journey-dot-line {
+  width: 16px;
+  height: 1px;
+  background: var(--color-muted-silver);
+  opacity: 0.15;
+}
+
+/* ── Responsive Prose ── */
+@media (max-width: 768px) {
+  .prose-synchronocities {
+    font-size: 1rem;
+    line-height: 1.75;
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .prose-synchronocities > p:first-of-type::first-letter {
+    font-size: 2.8em;
+  }
+
+  .journey-dot-line {
+    width: 8px;
   }
 }
