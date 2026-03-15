@@ -2,6 +2,7 @@
 title: "Noetic Aether and the Einsteinian Knot: Untying Physics from Metaphysics"
 date: 2026-02-10
 excerpt: "The Noetic Aether theory cuts the Einsteinian knot by restoring metaphysics to physics — proposing consciousness as fundamental, matter as derivative, and the aether as a noetic field of possible interactions rather than a mechanical medium for light propagation."
+featured_image: "/cards/sync-noetic-aether.webp"
 tags: ["lorenz-kundli", "noetic", "aether", "einstein"]
 draft: false
 revolution: 1

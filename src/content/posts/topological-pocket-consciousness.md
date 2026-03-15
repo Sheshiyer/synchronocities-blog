@@ -2,6 +2,7 @@
 title: "Topological Pockets and Lorentz Invariance: Where Consciousness Bends Spacetime"
 date: 2026-02-05
 excerpt: "If consciousness is a field, it requires a topology. Topological pockets — regions where the usual rules of spacetime deform — may explain how awareness persists outside conventional causal structures. Lorentz invariance breaks where consciousness begins."
+featured_image: "/cards/sync-topological-pocket.webp"
 tags: ["lorenz-kundli", "topology", "lorentz", "consciousness"]
 draft: false
 revolution: 1
