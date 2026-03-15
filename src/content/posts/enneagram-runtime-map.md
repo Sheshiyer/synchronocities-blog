@@ -4,6 +4,7 @@ date: 2025-10-05
 revolution: 1
 draft: false
 excerpt: "Every type has a preferred defense. The bill shows up later as life-cost. Trigger, Defense, Cost — three layers that turn the Enneagram from a personality quiz into an accounting system for unconscious expenditure."
+featured_image: "/cards/sync-enneagram-runtime.webp"
 tags: ["enneagram", "runtime", "triggers", "defense"]
 ---
 
