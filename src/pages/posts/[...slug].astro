@@ -380,6 +380,25 @@ const journeyCards = sorted.map(p => {
       </div>
     </footer>
 
+    {/* Next Article Teaser — scroll into the next post */}
+    {nextPost && (
+      <a href={`/posts/${nextPost.id}`} class="next-article-teaser block w-full">
+        {(() => {
+          const nextImg = nextPost.data.featured_image;
+          const nextPal = nextPost.data.card ? getCardPalette(nextPost.data.card) : null;
+          const nextHero = nextPal?.textureSrc || nextImg;
+          return nextHero ? (
+            <img src={nextHero} alt="" class="next-article-teaser__image" loading="lazy" />
+          ) : null;
+        })()}
+        <div class="next-article-teaser__content">
+          <div class="next-article-teaser__label">Continue reading</div>
+          <div class="next-article-teaser__title">{nextPost.data.title}</div>
+          <div class="next-article-teaser__scroll-hint">&darr;</div>
+        </div>
+      </a>
+    )}
+
     <ScrollReveal client:load />
   </article>
 </BaseLayout>

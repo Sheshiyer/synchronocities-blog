@@ -825,6 +825,82 @@ a:hover {
   opacity: 0.15;
 }
 
+/* ── Next Article Teaser (Infinite Scroll Feel) ── */
+.next-article-teaser {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.next-article-teaser::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, var(--card-bg, #070B1D) 0%, transparent 40%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.next-article-teaser__image {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  opacity: 0.2;
+  transition: opacity 0.5s ease;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
+}
+
+.next-article-teaser:hover .next-article-teaser__image {
+  opacity: 0.35;
+}
+
+.next-article-teaser__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 2rem;
+  text-align: center;
+}
+
+.next-article-teaser__label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-muted-silver);
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+}
+
+.next-article-teaser__title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--color-parchment);
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.next-article-teaser:hover .next-article-teaser__title {
+  opacity: 1;
+}
+
+.next-article-teaser__scroll-hint {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-sacred-gold);
+  opacity: 0.3;
+  margin-top: 1rem;
+  animation: scroll-hint-pulse 2s ease-in-out infinite;
+}
+
+@keyframes scroll-hint-pulse {
+  0%, 100% { opacity: 0.2; transform: translateY(0); }
+  50% { opacity: 0.5; transform: translateY(4px); }
+}
+
 /* ── Responsive Prose ── */
 @media (max-width: 768px) {
   .prose-synchronocities {
