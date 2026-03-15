@@ -100,7 +100,7 @@ export function buildGalleryData(
 
     // Build a meaningful label from the post itself
     // The title IS the identity — the card numeral is context
-    const cardNumeral = post.card || `${index + 1}`
+    const cardNumeral = post.card || toRoman(index + 1)
     const thothName = post.card
       ? (CARD_COLORS[post.card] ? getThothName(post.card) : post.title)
       : post.title.split(':')[0] || post.title
@@ -124,6 +124,19 @@ export function buildGalleryData(
       },
     }
   })
+}
+
+function toRoman(num: number): string {
+  const pairs: [number, string][] = [
+    [1000,'M'],[900,'CM'],[500,'D'],[400,'CD'],
+    [100,'C'],[90,'XC'],[50,'L'],[40,'XL'],
+    [10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I'],
+  ]
+  let result = ''
+  for (const [value, numeral] of pairs) {
+    while (num >= value) { result += numeral; num -= value }
+  }
+  return result
 }
 
 function getThothName(card: string): string {
