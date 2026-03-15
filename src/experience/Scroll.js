@@ -63,6 +63,7 @@ class Scroll {
     this.rawVelocity = 0
     this.velocity = 0
 
+    this.useScrollBounds = false
     this.isInitialized = true
   }
 

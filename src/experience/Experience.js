@@ -26,6 +26,11 @@ class Experience {
   }
 
   update(time, camera = null, scroll = null) {
+    // Wrap planes around camera FIRST (infinite spiral loop)
+    if (camera) {
+      this.gallery.wrapPlanes(camera.position.z)
+    }
+
     this.trailController.update(camera, scroll, time)
 
     // Gallery + label

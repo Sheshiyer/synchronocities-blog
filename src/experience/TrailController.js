@@ -155,13 +155,7 @@ class TrailController {
   }
 
   getProgress(camera, scroll) {
-    const scrollRange = (scroll?.maxCameraZ ?? 0) - (scroll?.minCameraZ ?? 0)
-    if (Number.isFinite(scrollRange) && scrollRange > 0) {
-      return THREE.MathUtils.clamp(
-        ((scroll?.maxCameraZ ?? camera.position.z) - camera.position.z) / scrollRange,
-        0, 1
-      )
-    }
+    // Use blend-based progress which wraps correctly for infinite scroll
     const blend = this.gallery.getPlaneBlendData(camera.position.z)
     if (blend) {
       const lastIndex = Math.max(this.gallery.planes.length - 1, 1)

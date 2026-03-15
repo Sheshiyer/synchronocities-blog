@@ -149,6 +149,26 @@ class Gallery {
     })
   }
 
+  /**
+   * Infinite spiral loop — repositions planes in a ring around the camera.
+   * Planes that scroll off-screen behind the camera wrap ahead, and vice versa.
+   * This is the pool/recycling pattern used in infinite scroll implementations.
+   */
+  wrapPlanes(cameraZ) {
+    const planeCount = this.planes.length
+    if (planeCount === 0) return
+
+    const totalCycleLength = planeCount * this.planeGap
+
+    this.planes.forEach((plane, index) => {
+      const baseZ = -index * this.planeGap
+      let relativeZ = baseZ - cameraZ
+      // Wrap into [-totalCycleLength/2, +totalCycleLength/2]
+      relativeZ = ((relativeZ % totalCycleLength) + totalCycleLength + totalCycleLength / 2) % totalCycleLength - totalCycleLength / 2
+      plane.userData.wrappedZ = cameraZ + relativeZ
+    })
+  }
+
   getXSpreadFactor() {
     const isMobileViewport = window.innerWidth <= this.mobileBreakpoint
     return isMobileViewport ? this.mobileXSpreadFactor : 1
@@ -158,32 +178,29 @@ class Gallery {
     if (!this.planes.length) {
       return { nearestZ: 0, deepestZ: 0 }
     }
-    const zPositions = this.planes.map((plane) => plane.position.z)
+    // Return fixed base positions (unwrapped) for consistent scroll bounds reference
     return {
-      nearestZ: Math.max(...zPositions),
-      deepestZ: Math.min(...zPositions),
+      nearestZ: 0,
+      deepestZ: -(this.planes.length - 1) * this.planeGap,
     }
   }
 
   getDepthProgress(cameraZ) {
-    const { nearestZ, deepestZ } = this.getDepthRange()
-    const depthSpan = nearestZ - deepestZ
-    if (depthSpan <= 0) return 0
-    return THREE.MathUtils.clamp((nearestZ - cameraZ) / depthSpan, 0, 1)
+    const planeCount = this.planes.length
+    if (planeCount <= 1) return 0
+    const totalCycleLength = planeCount * this.planeGap
+    if (totalCycleLength <= 0) return 0
+    // Wrapping progress: maps camera position into [0, 1) within the cycle
+    const depth = -cameraZ
+    return ((depth / totalCycleLength) % 1 + 1) % 1
   }
 
   getActivePlaneIndex(cameraZ) {
     if (!this.planes.length) return -1
-    let closestPlaneIndex = 0
-    let smallestDistance = Infinity
-    this.planes.forEach((plane, index) => {
-      const distanceToPlane = Math.abs(cameraZ - plane.position.z)
-      if (distanceToPlane < smallestDistance) {
-        smallestDistance = distanceToPlane
-        closestPlaneIndex = index
-      }
-    })
-    return closestPlaneIndex
+    // Use virtual index (consistent with blend/visibility) for correct wrap behavior
+    const blendData = this.getPlaneBlendData(cameraZ)
+    if (!blendData) return -1
+    return blendData.blend >= 0.5 ? blendData.nextPlaneIndex : blendData.currentPlaneIndex
   }
 
   getMoodColorsByIndex(index) {
@@ -195,23 +212,22 @@ class Gallery {
 
   getMoodBlendData(cameraZ) {
     if (!this.planes.length) return null
-    const safeCameraZ = Number.isFinite(cameraZ) ? cameraZ : this.planes[0].position.z
+    const safeCameraZ = Number.isFinite(cameraZ) ? cameraZ : 0
+    const planeCount = this.planes.length
     const moodSampleZ = safeCameraZ - this.planeGap * this.moodSampleOffset
-    const lastPlaneIndex = this.planes.length - 1
 
-    if (lastPlaneIndex === 0 || this.planeGap <= 0) {
+    if (planeCount <= 1 || this.planeGap <= 0) {
       const singleMood = this.getMoodColorsByIndex(0)
       if (!singleMood) return null
       return { currentMood: singleMood, nextMood: singleMood, blend: 0 }
     }
 
-    const firstPlaneZ = this.planes[0].position.z
-    const normalizedDepth = THREE.MathUtils.clamp(
-      (firstPlaneZ - moodSampleZ) / this.planeGap, 0, lastPlaneIndex
-    )
-    const currentPlaneIndex = Math.floor(normalizedDepth)
-    const nextPlaneIndex = Math.min(currentPlaneIndex + 1, lastPlaneIndex)
-    const blend = normalizedDepth - currentPlaneIndex
+    // Virtual index with modulo wrapping for infinite loop
+    const normalizedDepth = -moodSampleZ / this.planeGap
+    const wrappedDepth = ((normalizedDepth % planeCount) + planeCount) % planeCount
+    const currentPlaneIndex = Math.floor(wrappedDepth) % planeCount
+    const nextPlaneIndex = (currentPlaneIndex + 1) % planeCount
+    const blend = wrappedDepth - Math.floor(wrappedDepth)
 
     const currentMood = this.getMoodColorsByIndex(currentPlaneIndex)
     const nextMood = this.getMoodColorsByIndex(nextPlaneIndex) || currentMood
@@ -223,15 +239,16 @@ class Gallery {
   getPlaneBlendData(cameraZ) {
     if (!this.planes.length) return null
     const planeGap = Math.max(this.planeGap, 0.0001)
-    const firstPlaneZ = this.planes[0].position.z
-    const lastPlaneIndex = this.planes.length - 1
+    const planeCount = this.planes.length
     const sampledCameraZ = cameraZ - planeGap * this.planeFadeSampleOffset
-    const normalizedDepth = THREE.MathUtils.clamp(
-      (firstPlaneZ - sampledCameraZ) / planeGap, 0, lastPlaneIndex
-    )
-    const currentPlaneIndex = Math.floor(normalizedDepth)
-    const nextPlaneIndex = Math.min(currentPlaneIndex + 1, lastPlaneIndex)
-    const blend = normalizedDepth - currentPlaneIndex
+
+    // Virtual index with modulo wrapping for infinite loop
+    // firstPlaneBaseZ = 0, so normalizedDepth = -sampledCameraZ / planeGap
+    const normalizedDepth = -sampledCameraZ / planeGap
+    const wrappedDepth = ((normalizedDepth % planeCount) + planeCount) % planeCount
+    const currentPlaneIndex = Math.floor(wrappedDepth) % planeCount
+    const nextPlaneIndex = (currentPlaneIndex + 1) % planeCount
+    const blend = wrappedDepth - Math.floor(wrappedDepth)
 
     return { currentPlaneIndex, nextPlaneIndex, blend }
   }
@@ -310,7 +327,7 @@ class Gallery {
       const basePosition = plane.userData.basePosition || { x: 0, y: 0 }
       const xPosition = basePosition.x * xSpreadFactor
       const yPosition = basePosition.y
-      const zPosition = -index * this.planeGap
+      const zPosition = plane.userData.wrappedZ !== undefined ? plane.userData.wrappedZ : -index * this.planeGap
       const opacity = Number.isFinite(plane.material.opacity) ? plane.material.opacity : 0
       const depthInfluence = 1 + index * 0.05
       const parallaxInfluence = this.parallaxEnabled ? opacity * depthInfluence : 0
