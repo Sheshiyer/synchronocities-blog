@@ -8,6 +8,7 @@ revolution: 1
 kosha: "pranamaya"
 identity: "Shesh"
 draft: false
+hidden: true
 excerpt: "Bangkok flipped the circuit the moment the helmet clicked. Map pinned. The street slid into a chrome river."
 featured_image: "/cards/tarot-bangkok-samui.webp"
 tags: ["bangkok", "koh-samui", "the-chariot", "the-fool", "thoth", "rider-waite", "kali", "kala", "witness-os"]

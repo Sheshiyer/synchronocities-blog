@@ -9,6 +9,7 @@ revolution: 1
 kosha: "annamaya"
 identity: "Shesh"
 draft: false
+hidden: true
 excerpt: "I filed a cosmic service ticket for the Two of Swords. Subject: tongue and sacral jagged — request reforge. Routing reply: China."
 featured_image: "/cards/tarot-forge-shenzhen.webp"
 tags: ["shenzhen", "two-of-swords", "breathwork", "forge", "swords", "sacral", "witness-os"]

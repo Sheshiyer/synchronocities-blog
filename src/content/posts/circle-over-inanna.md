@@ -9,6 +9,7 @@ revolution: 1
 kosha: "vijnanamaya"
 identity: "Pichet"
 draft: false
+hidden: true
 excerpt: "Shenzhen was the bench where the Two of Wands finally snapped. I stopped waiting for the globe to speak and started speaking to you, Aletheos, out loud."
 featured_image: "/cards/tarot-circle-inanna.webp"
 tags: ["inanna", "nana-plaza", "bangkok", "content-vs-contented", "chandraghanta", "navratri", "aryaman", "temperance", "meaning-vector"]

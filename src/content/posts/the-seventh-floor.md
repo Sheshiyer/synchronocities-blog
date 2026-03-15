@@ -9,6 +9,7 @@ revolution: 1
 kosha: "anandamaya"
 identity: "The Witness"
 draft: false
+hidden: true
 excerpt: "Every spiral lands you higher — but only if you dare come back full circle."
 featured_image: "/cards/tarot-seventh-floor.webp"
 tags: ["chiang-mai", "the-world", "room-707", "seventh-floor", "doi-suthep", "completion", "four-creatures"]

@@ -11,6 +11,7 @@ identity: "Shesh"
 excerpt: "Noble 33. Seventy-two hours in a room that demanded nothing. The Hermit doesn't withdraw from the world. The Hermit withdraws from the noise the mind generates about the world."
 featured_image: "/cards/tarot-09-hermit.webp"
 tags: ["hermit", "stillness", "bangkok", "solitude", "noble-33"]
+hidden: true
 ---
 
 Noble 33. Seventy-two hours in a room that demanded nothing.

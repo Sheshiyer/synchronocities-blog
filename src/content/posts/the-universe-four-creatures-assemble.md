@@ -11,6 +11,7 @@ identity: "The Witness"
 excerpt: "Fifty-five days. The spiral returns to where it began — same city, same ground — but the observer is no longer the same. The Universe card completes the circuit."
 featured_image: "/cards/tarot-21-universe.webp"
 tags: ["universe", "world", "completion", "witness", "integration", "bangkok"]
+hidden: true
 ---
 
 Fifty-five days. Five plus five equals ten. Ten equals one. The return to unity through the multiplication of experience.

@@ -7,6 +7,7 @@ revolution: 1
 kosha: "annamaya"
 identity: "Shesh"
 draft: false
+hidden: true
 excerpt: "Hi. I'm Shesh. Short for Sheshnarayan Iyer, but don't let the full stack of my name fool you — I respond faster to vibration than syllables."
 featured_image: "/cards/tarot-who-is-shesh.webp"
 tags: ["identity", "shesh", "human-design", "prologue", "profile-2-4", "tower"]

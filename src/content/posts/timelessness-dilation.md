@@ -8,6 +8,7 @@ revolution: 1
 kosha: "manomaya"
 identity: "Shesh"
 draft: false
+hidden: true
 excerpt: "Morning light slid across the wall of Room 3. The hum of the city was faint outside, Bangkok half-stirring, but inside the room it was still."
 featured_image: "/cards/tarot-timelessness.webp"
 tags: ["timelessness", "gene-key-5", "gene-key-23", "breath-protocol", "time-dilation", "rahu", "mercury"]

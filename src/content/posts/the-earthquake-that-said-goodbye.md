@@ -9,6 +9,7 @@ revolution: 1
 kosha: "anandamaya"
 identity: "The Witness"
 draft: false
+hidden: true
 excerpt: "What begins in rupture often ends in rhythm."
 featured_image: "/cards/tarot-earthquake-goodbye.webp"
 tags: ["bangkok", "the-world", "earthquake", "full-circle", "spiral", "signal", "witness", "closure"]

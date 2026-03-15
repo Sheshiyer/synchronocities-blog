@@ -8,6 +8,7 @@ revolution: 1
 kosha: "annamaya"
 identity: "Shesh"
 draft: false
+hidden: true
 excerpt: "Day two began with a turn of the deck and a turn of the path. The cards fell into sequence."
 featured_image: "/cards/tarot-satchel.webp"
 tags: ["the-fool", "the-lovers", "two-of-wands", "the-magician", "satchel", "coherence", "alignment"]

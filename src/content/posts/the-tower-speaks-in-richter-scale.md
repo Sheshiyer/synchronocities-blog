@@ -11,6 +11,7 @@ identity: "Shesh"
 excerpt: "The earth itself announced the departure. A 6.0 earthquake — Bangkok's strongest in living memory — cracked the ordinary world open on the first night."
 featured_image: "/cards/tarot-16-tower.webp"
 tags: ["earthquake", "tower", "rupture", "bangkok", "initiation"]
+hidden: true
 ---
 
 The earth itself announced the departure.

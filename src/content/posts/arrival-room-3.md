@@ -8,6 +8,7 @@ revolution: 1
 kosha: "pranamaya"
 identity: "Shesh"
 draft: false
+hidden: true
 excerpt: "Bangkok opened its doors to me again. The taxi dropped me at a familiar axis, but my body felt the spiral turn — same city, higher octave."
 featured_image: "/cards/tarot-arrival-room3.webp"
 tags: ["bangkok", "arrival", "room-3", "seven-of-wands", "knight-of-swords", "three-of-wands", "lovers", "numerology"]

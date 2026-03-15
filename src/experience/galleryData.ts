@@ -99,11 +99,13 @@ export function buildGalleryData(
     const colors = cardColors || journeyPalette
 
     // Build a meaningful label from the post itself
-    // The title IS the identity — the card numeral is context
     const cardNumeral = post.card || toRoman(index + 1)
+
+    // Truncate title for gallery display — split on colon, take first part
+    const shortTitle = truncateTitle(post.title, 40)
     const thothName = post.card
-      ? (CARD_COLORS[post.card] ? getThothName(post.card) : post.title)
-      : post.title.split(':')[0] || post.title
+      ? (CARD_COLORS[post.card] ? getThothName(post.card) : shortTitle)
+      : shortTitle
 
     return {
       fallbackColor: colors.color,
@@ -115,7 +117,7 @@ export function buildGalleryData(
       blob2Color: colors.blob2Color,
       label: {
         numeral: cardNumeral,
-        title: post.title,
+        title: shortTitle,
         thothName: thothName,
         keyword: lap > 1 ? `Lap ${lap}` : '',
         heroPhase: '',
@@ -124,6 +126,16 @@ export function buildGalleryData(
       },
     }
   })
+}
+
+function truncateTitle(title: string, maxLen: number): string {
+  // Split on colon — take just the main part
+  const parts = title.split(':')
+  const main = parts[0].trim()
+  if (main.length <= maxLen) return main
+  // Truncate at word boundary
+  const truncated = main.slice(0, maxLen).replace(/\s+\S*$/, '')
+  return truncated + '…'
 }
 
 function toRoman(num: number): string {

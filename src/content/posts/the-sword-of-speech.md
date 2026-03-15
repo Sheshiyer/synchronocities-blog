@@ -8,6 +8,7 @@ revolution: 1
 kosha: "manomaya"
 identity: "Shesh"
 draft: false
+hidden: true
 excerpt: "The Knight of Swords lives in the throat. Fast, cutting, restless. His blade is speech, his horse is thought, and he charges before the ground is checked."
 featured_image: "/cards/tarot-sword-speech.webp"
 tags: ["knight-of-swords", "gate-52", "speech", "stillness", "inter-phase", "aletheos", "witness-os"]

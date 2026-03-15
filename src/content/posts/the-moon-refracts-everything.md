@@ -11,6 +11,7 @@ identity: "Pichet"
 excerpt: "Crescent geometry on an island famous for its full moon. The Moon card doesn't illuminate — it refracts. Everything you see is bent by what you carry."
 featured_image: "/cards/tarot-18-moon.webp"
 tags: ["moon", "refraction", "phangan", "illusion", "crescent"]
+hidden: true
 ---
 
 Crescent geometry on an island famous for its full moon.

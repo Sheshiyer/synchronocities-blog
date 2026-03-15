@@ -8,6 +8,7 @@ revolution: 1
 kosha: "vijnanamaya"
 identity: "Shesh"
 draft: false
+hidden: true
 excerpt: "Evening settles in Room 3, and the Three of Wands leans closer. The sails are visible now, lines pulled taut, horizon painted in Venus tones."
 featured_image: "/cards/tarot-ports.webp"
 tags: ["three-of-wands", "venus", "ports", "bangkok", "witness-os", "pichet", "expansion", "declaration"]

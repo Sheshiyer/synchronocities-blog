@@ -7,6 +7,7 @@ revolution: 1
 kosha: "anandamaya"
 identity: "The Witness"
 draft: false
+hidden: true
 excerpt: "A 55-day pilgrimage through Thailand, following the Major Arcana from Tower to World."
 featured_image: "/cards/tarot-synthesis.webp"
 tags: ["synthesis", "pilgrimage", "tarot", "completion", "witness", "architecture", "55-days"]
