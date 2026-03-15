@@ -29,7 +29,7 @@ consciousness_runtime = {
 
 Let's begin with the root system specification, found in Purusha Sookta:
 
-```sanskrit
+```text
 puruṣa evedaṃ sarvaṃ yadbhūtaṃ yacca bhavyam |
 utāmṛtatvasyeśāno yadannenātirohati ||
 ```
@@ -56,7 +56,7 @@ universal_runtime = {
 
 The Shikshavalli provides our core training documentation:
 
-```sanskrit
+```text
 śīkṣāṃ vyākhyāsyāmaḥ | varṇaḥ svaraḥ | mātrā balam |
 sāma santānaḥ | ityuktaḥ śīkṣādhyāyaḥ ||
 ```
@@ -106,7 +106,7 @@ consciousness_compiler = {
 
 The ultimate goal is achieving root access to consciousness, as described in this powerful verse:
 
-```sanskrit
+```text
 yato vāco nivartante | aprāpya manasā saha |
 ānandaṃ brahmaṇo vidvān | na bibheti kutaścana ||
 ```

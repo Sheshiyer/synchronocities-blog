@@ -29,7 +29,7 @@ consciousness_runtime = {
 
 Let's begin with the root system specification, found in Purusha Sookta:
 
-```sanskrit
+```text
 पुरुष एवेदं सर्वं यद्भूतं यच्च भव्यम् |
 उतामृतत्वस्येशानो यदन्नेनातिरोहति ||
 
@@ -59,7 +59,7 @@ universal_runtime = {
 
 The Shikshavalli provides our core training documentation:
 
-```sanskrit
+```text
 शीक्षां व्याख्यास्यामः । वर्णः स्वरः । मात्रा बलम् |
 साम सन्तानः । इत्युक्तः शीक्षाध्यायः ||
 
@@ -112,7 +112,7 @@ consciousness_compiler = {
 
 The ultimate goal is achieving root access to consciousness, as described in this powerful verse:
 
-```sanskrit
+```text
 यतो वाचो निवर्तन्ते । अप्राप्य मनसा सह |
 आनन्दं ब्रह्मणो विद्वान् । न बिभेति कुतश्चन ||
 

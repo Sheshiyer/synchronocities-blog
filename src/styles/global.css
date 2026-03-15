@@ -94,9 +94,8 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-parchment);
 }
 
-h1 { font-size: var(--text-2xl); }
-h2 { font-size: var(--text-xl); }
-h3 { font-size: var(--text-lg); }
+/* h1/h2/h3 sizes removed — controlled per-component via Tailwind classes
+   to prevent 68px global h1 from overriding post page titles */
 
 /* ── Body Text ── */
 p {
