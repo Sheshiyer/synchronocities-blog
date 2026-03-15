@@ -4,6 +4,7 @@ date: 2025-08-10
 revolution: 1
 draft: false
 excerpt: "Most people debug at the story layer. The real bug is usually in state. And the real fix is always in signal. Three layers — not metaphor, architecture."
+featured_image: "/cards/sync-signal-state-story.webp"
 tags: ["consciousness", "signal", "state", "story", "stack"]
 ---
 

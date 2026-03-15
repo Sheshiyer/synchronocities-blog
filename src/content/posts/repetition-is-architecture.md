@@ -4,6 +4,7 @@ date: 2025-08-20
 revolution: 1
 draft: false
 excerpt: "If it repeats across contexts, it is architecture — not coincidence. Same conflict, different faces. Same avoidance, different packaging. Same loop, upgraded vocabulary. That's not bad luck. That's La."
+featured_image: "/cards/sync-repetition-architecture.webp"
 tags: ["consciousness", "repetition", "architecture", "patterns"]
 ---
 
