@@ -135,7 +135,7 @@ const journeyCards = sorted.map(p => {
           {card && (
             <div class="post-numeral-group flex items-end gap-6 md:gap-10 mb-4">
               <span
-                class="text-[80px] md:text-[120px] lg:text-[160px] font-bold leading-none opacity-15"
+                class="text-[60px] md:text-[80px] lg:text-[100px] font-bold leading-none opacity-12"
                 style={`font-family: var(--font-display); color: ${palette?.accentColor || card.color};`}
               >
                 {card.numeral}
@@ -154,7 +154,7 @@ const journeyCards = sorted.map(p => {
           )}
 
           {/* Title — full width */}
-          <h1 class="text-[28px] md:text-[42px] lg:text-[52px] font-semibold leading-[1.1] mb-6 max-w-[900px]"
+          <h1 class="text-[22px] md:text-[28px] lg:text-[34px] font-semibold leading-[1.15] mb-6 max-w-[700px]"
             style="font-family: var(--font-display); color: var(--color-parchment);">
             {post.data.title}
           </h1>
