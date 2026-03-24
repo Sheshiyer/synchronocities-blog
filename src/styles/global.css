@@ -363,6 +363,10 @@ a:hover {
   opacity: 0.85;
 }
 
+.prose-synchronocities h1 {
+  display: none; /* Title rendered by template header — hide duplicate markdown h1 */
+}
+
 .prose-synchronocities h2,
 .prose-synchronocities h3 {
   font-family: var(--font-display);
