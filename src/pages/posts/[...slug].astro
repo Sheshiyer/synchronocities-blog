@@ -317,53 +317,33 @@ const journeyCards = sorted.map(p => {
     </div>
 
     {/* ═══════════════════════════════════════════
-        FOOTER — Minimal End + Tags
+        FOOTER + NEXT POST — Merged Full-Screen Experience
+        Circle progress fills → auto-navigates at 100%
     ═══════════════════════════════════════════ */}
-    <footer class="w-full" style="padding-left: 4vw; padding-right: 4vw;">
-      {/* Divider */}
-      <div class="mx-auto"
-        style={`width: 45vw; max-width: 50vw; height: 1px; background: linear-gradient(90deg, transparent 0%, ${dividerColor}30 50%, transparent 100%);`} />
-
-      {/* Tags + Revolution + Return */}
-      <div class="mx-auto flex flex-col items-center" style="max-width: 45vw; padding-top: 4vh; padding-bottom: 4vh; gap: 2.5vh;">
-        <span style="font-size: clamp(0.55rem, 0.6vw, 0.65rem); color: var(--color-muted-silver); opacity: 0.3; font-family: var(--font-mono);">
-          Revolution {post.data.revolution}
-        </span>
-
-        {post.data.tags.length > 0 && (
-          <div class="flex flex-wrap justify-center" style="gap: 0.5vw;">
-            {post.data.tags.map((tag: string) => (
-              <span
-                style={`font-size: clamp(0.55rem, 0.6vw, 0.65rem); padding: 0.4vh 0.8vw; border-radius: 9999px; color: var(--color-muted-silver); opacity: 0.35; border: 1px solid ${palette ? `${palette.accentColor}15` : 'rgba(138,155,168,0.08)'}; font-family: var(--font-mono);`}>
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
-
-        <a href="/"
-          class="hover:text-[var(--color-sacred-gold)] transition-colors"
-          style="font-size: clamp(0.55rem, 0.6vw, 0.65rem); text-transform: uppercase; letter-spacing: 0.2em; font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4; margin-top: 1vh;">
-          Return to Spiral
-        </a>
-      </div>
-    </footer>
-
-    {/* ═══════════════════════════════════════════
-        NEXT POST — Overscroll Reveal
-    ═══════════════════════════════════════════ */}
-    {nextPost && (
+    {nextPost ? (
       <NextPostReveal
-        client:visible
+        client:load
         title={nextPost.data.title}
         slug={nextPost.id}
         card={nextPost.data.card}
         cardName={nextCard?.thothName}
         heroPhase={nextCard?.heroPhase}
-        accentColor={nextPalette?.accentColor || 'var(--color-sacred-gold)'}
+        accentColor={nextPalette?.accentColor || '#C5A017'}
         heroImage={nextPalette?.textureSrc || nextPost.data.featured_image}
         excerpt={nextPost.data.excerpt}
+        revolution={post.data.revolution}
+        tags={post.data.tags}
       />
+    ) : (
+      <footer class="w-full flex flex-col items-center justify-center" style="height: 50vh; gap: 2vh;">
+        <span style="font-size: clamp(0.55rem, 0.65vw, 0.7rem); color: var(--color-muted-silver); opacity: 0.3; font-family: var(--font-mono);">
+          Revolution {post.data.revolution}
+        </span>
+        <a href="/" class="transition-colors hover:text-[var(--color-sacred-gold)]"
+          style="font-size: clamp(0.55rem, 0.65vw, 0.7rem); text-transform: uppercase; letter-spacing: 0.2em; font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;">
+          Return to Spiral
+        </a>
+      </footer>
     )}
 
     <ScrollReveal client:load />
