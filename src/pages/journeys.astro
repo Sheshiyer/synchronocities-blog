@@ -6,26 +6,20 @@ import { getCardPalette } from '../lib/cardColors';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 
-// Separate into card posts (Major Arcana journey) and other posts
 const cardPosts = allPosts.filter((p) => p.data.card);
 const otherPosts = allPosts.filter((p) => !p.data.card);
 
-// Sort card posts by journey order
 const cardOrder: Record<string, number> = {
   '0': 0, 'IX': 9, 'XIV': 14, 'XVI': 16, 'XVII': 17, 'XVIII': 18, 'XX': 20, 'XXI': 21,
 };
-const sortedCardPosts = [...cardPosts].sort((a, b) => {
-  const aOrder = cardOrder[a.data.card || ''] ?? 99;
-  const bOrder = cardOrder[b.data.card || ''] ?? 99;
-  return aOrder - bOrder;
-});
+const sortedCardPosts = [...cardPosts].sort((a, b) =>
+  (cardOrder[a.data.card || ''] ?? 99) - (cardOrder[b.data.card || ''] ?? 99)
+);
 
-// Sort other posts by date (newest first)
 const sortedOtherPosts = [...otherPosts].sort(
   (a, b) => b.data.date.getTime() - a.data.date.getTime()
 );
 
-// Collect all unique tags
 const tagCounts = new Map<string, number>();
 allPosts.forEach((post) => {
   post.data.tags.forEach((tag) => {
@@ -38,26 +32,22 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
 <BaseLayout title="Journeys" description="All writings — travel journals, consciousness architecture, vedic mathematics, and more.">
   <!-- Header -->
   <header class="fixed top-0 left-0 right-0 z-20 flex items-center justify-between backdrop-blur-md"
-    style="padding: 2vh 4vw; background: rgba(7,11,29,0.8);">
+    style="padding: 2vh 4vw; background: rgba(7,11,29,0.85);">
     <a href="/">
       <span style="font-family: var(--font-display); font-size: clamp(0.85rem, 1vw, 1.1rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-sacred-gold);">
         Synchronocities
       </span>
     </a>
     <nav class="flex" style="gap: 2.5vw; font-family: var(--font-mono); font-size: clamp(0.7rem, 0.75vw, 0.8rem);">
-      <a href="/" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">
-        Depth
-      </a>
-      <a href="/journeys" style="color: var(--color-sacred-gold);">
-        Journeys
-      </a>
+      <a href="/" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Depth</a>
+      <a href="/journeys" style="color: var(--color-sacred-gold);">Journeys</a>
     </nav>
   </header>
 
   <main style="padding-top: 14vh; padding-bottom: 12vh;">
 
     <!-- ═══ HERO ═══ -->
-    <section style="padding: 0 6vw 10vh;">
+    <section style="padding: 0 6vw 8vh;">
       <h1 style="font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 600; line-height: 1.05; color: var(--color-parchment); margin-bottom: 2vh;">
         Journeys
       </h1>
@@ -66,52 +56,94 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
       </p>
     </section>
 
-    <!-- ═══ MAJOR ARCANA ═══ -->
+    <!-- ═══ MAJOR ARCANA — Visual Cards ═══ -->
     {sortedCardPosts.length > 0 && (
       <section style="padding: 0 6vw 12vh;">
         <div style="display: flex; align-items: center; gap: 2vw; margin-bottom: 5vh;">
           <span style="font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.6; white-space: nowrap;">
             Major Arcana
           </span>
-          <div style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(197,160,23,0.2), transparent);" />
+          <div style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(197,160,23,0.25), transparent);" />
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 28vw), 1fr)); gap: 2vw;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 25vw), 1fr)); gap: 1.5vw;">
           {sortedCardPosts.map((post) => {
             const card = post.data.card ? getCardByNumeral(post.data.card) : null;
             const palette = post.data.card ? getCardPalette(post.data.card) : null;
+            const accent = palette?.accentColor || '#C5A017';
+            const bg = palette?.backgroundColor || '#0E1428';
+            const gFrom = palette?.gradientFrom || '#070B1D';
+            const gVia = palette?.gradientVia || '#0E1428';
             return (
               <a
                 href={`/posts/${post.id}`}
-                class="group block cursor-pointer transition-all duration-300"
-                style={`padding: 2.5vh 2vw; border-radius: 0.6vw; border: 1px solid rgba(197,160,23,0.08); background: rgba(14,20,40,0.4);`}
+                class="journeys-card group block cursor-pointer relative overflow-hidden transition-all duration-500"
+                style={`border-radius: 0.8vw; border: 1px solid ${accent}15; background: linear-gradient(160deg, ${gFrom}, ${gVia});`}
               >
-                <div style="display: flex; align-items: baseline; gap: 1.2vw; margin-bottom: 1.2vh;">
-                  <span style={`font-family: var(--font-display); font-size: clamp(1.8rem, 2.5vw, 3rem); font-weight: 700; line-height: 1; color: ${palette?.accentColor || 'var(--color-sacred-gold)'}; opacity: 0.15;`}>
-                    {post.data.card}
-                  </span>
-                  {card && (
-                    <span style={`font-family: var(--font-mono); font-size: clamp(0.55rem, 0.6vw, 0.65rem); letter-spacing: 0.15em; text-transform: uppercase; color: ${palette?.accentColor || 'var(--color-sacred-gold)'}; opacity: 0.5;`}>
-                      {card.thothName}
-                    </span>
-                  )}
-                </div>
+                {/* Background image */}
+                {palette?.textureSrc && (
+                  <div class="absolute inset-0 transition-all duration-700 group-hover:scale-105 group-hover:opacity-30" style="opacity: 0.12;">
+                    <img src={palette.textureSrc} alt="" class="w-full h-full object-cover" style="filter: saturate(0.3);" />
+                    <div class="absolute inset-0" style={`background: linear-gradient(180deg, ${bg}DD 0%, ${bg}99 50%, ${bg}DD 100%);`} />
+                  </div>
+                )}
 
-                <h3
-                  class="group-hover:text-[var(--color-sacred-gold)] transition-colors"
-                  style="font-family: var(--font-display); font-size: clamp(1rem, 1.2vw, 1.35rem); font-weight: 500; line-height: 1.3; color: var(--color-parchment); margin-bottom: 1vh;"
-                >
-                  {post.data.title}
-                </h3>
+                {/* Glow on hover */}
+                <div
+                  class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
+                  style={`background: radial-gradient(ellipse at 50% 80%, ${accent}15 0%, transparent 60%); filter: blur(2vw);`}
+                />
 
-                <div style="display: flex; align-items: center; gap: 1vw;">
-                  <time style="font-family: var(--font-mono); font-size: clamp(0.55rem, 0.6vw, 0.65rem); color: var(--color-muted-silver); opacity: 0.5;">
-                    {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                  </time>
-                  {card && (
-                    <span style="font-family: var(--font-mono); font-size: clamp(0.5rem, 0.55vw, 0.6rem); color: var(--color-muted-silver); opacity: 0.3;">
-                      {card.heroPhase}
+                {/* Accent border glow on hover */}
+                <div
+                  class="absolute inset-0 rounded-[0.8vw] opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+                  style={`box-shadow: inset 0 0 0 1px ${accent}30, 0 0 3vw ${accent}10;`}
+                />
+
+                {/* Content */}
+                <div class="relative" style="padding: 2.5vh 2vw;">
+                  {/* Numeral + Name row */}
+                  <div style="display: flex; align-items: baseline; gap: 1vw; margin-bottom: 1.5vh;">
+                    <span class="transition-all duration-500 group-hover:opacity-25" style={`font-family: var(--font-display); font-size: clamp(2rem, 3vw, 3.5rem); font-weight: 700; line-height: 1; color: ${accent}; opacity: 0.12;`}>
+                      {post.data.card}
                     </span>
+                    {card && (
+                      <span style={`font-family: var(--font-mono); font-size: clamp(0.55rem, 0.6vw, 0.65rem); letter-spacing: 0.18em; text-transform: uppercase; color: ${accent}; opacity: 0.5;`}>
+                        {card.thothName}
+                      </span>
+                    )}
+                  </div>
+
+                  {/* Title */}
+                  <h3
+                    class="transition-colors duration-300"
+                    style={`font-family: var(--font-display); font-size: clamp(1rem, 1.3vw, 1.45rem); font-weight: 500; line-height: 1.25; color: var(--color-parchment); margin-bottom: 1.2vh;`}
+                  >
+                    {post.data.title}
+                  </h3>
+
+                  {/* Meta */}
+                  <div style="display: flex; align-items: center; gap: 1vw;">
+                    <time style={`font-family: var(--font-mono); font-size: clamp(0.55rem, 0.58vw, 0.62rem); color: var(--color-muted-silver); opacity: 0.4;`}>
+                      {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                    </time>
+                    {card && (
+                      <>
+                        <span style={`width: 0.3vw; height: 0.3vw; border-radius: 50%; background: ${accent}; opacity: 0.2;`} />
+                        <span style={`font-family: var(--font-mono); font-size: clamp(0.5rem, 0.55vw, 0.6rem); color: var(--color-muted-silver); opacity: 0.3;`}>
+                          {card.heroPhase}
+                        </span>
+                      </>
+                    )}
+                  </div>
+
+                  {/* Excerpt on hover */}
+                  {post.data.excerpt && (
+                    <p
+                      class="opacity-0 group-hover:opacity-50 transition-all duration-500"
+                      style={`font-family: var(--font-body); font-size: clamp(0.7rem, 0.78vw, 0.85rem); line-height: 1.5; color: var(--color-muted-silver); margin-top: 1.5vh; max-height: 0; overflow: hidden;`}
+                    >
+                    </p>
                   )}
                 </div>
               </a>
@@ -131,14 +163,14 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
           <div style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(197,160,23,0.2), transparent);" />
         </div>
 
-        <div class="flex flex-wrap" style="gap: 0.6vw;">
+        <div class="flex flex-wrap" style="gap: 0.5vw;">
           {sortedTags.slice(0, 30).map(([tag, count]) => (
             <span
-              class="transition-colors cursor-default"
-              style={`font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); padding: 0.6vh 1vw; border-radius: 9999px; color: var(--color-muted-silver); opacity: 0.5; border: 1px solid rgba(138,155,168,0.1);`}
+              class="transition-all duration-300 cursor-default hover:border-[rgba(197,160,23,0.3)]"
+              style={`font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); padding: 0.5vh 0.9vw; border-radius: 9999px; color: var(--color-muted-silver); opacity: 0.5; border: 1px solid rgba(138,155,168,0.1); background: rgba(14,20,40,0.3);`}
             >
               {tag}
-              <span style="opacity: 0.4; margin-left: 0.3vw;">{count}</span>
+              <span style="opacity: 0.35; margin-left: 0.3vw;">{count}</span>
             </span>
           ))}
         </div>
@@ -158,18 +190,18 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
       </div>
 
       <div>
-        {sortedOtherPosts.map((post) => (
+        {sortedOtherPosts.map((post, i) => (
           <a
             href={`/posts/${post.id}`}
-            class="group block cursor-pointer transition-colors"
-            style={`display: grid; grid-template-columns: 8vw 1fr auto; align-items: baseline; gap: 2vw; padding: 1.8vh 0; border-bottom: 1px solid rgba(138,155,168,0.06);`}
+            class="group block cursor-pointer transition-all duration-300 hover:bg-[rgba(14,20,40,0.4)]"
+            style={`display: grid; grid-template-columns: 7vw 1fr auto; align-items: baseline; gap: 2vw; padding: 1.6vh 1vw; border-bottom: 1px solid rgba(138,155,168,0.05); border-radius: 0.3vw;`}
           >
-            <time style="font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); color: var(--color-muted-silver); opacity: 0.4;">
+            <time style="font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); color: var(--color-muted-silver); opacity: 0.35;">
               {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: '2-digit' })}
             </time>
 
             <h3
-              class="group-hover:text-[var(--color-sacred-gold)] transition-colors"
+              class="group-hover:text-[var(--color-sacred-gold)] transition-colors duration-300"
               style="font-family: var(--font-body); font-size: clamp(0.9rem, 1vw, 1.1rem); font-weight: 400; line-height: 1.4; color: var(--color-parchment);"
             >
               {post.data.title}
@@ -177,8 +209,8 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
 
             {post.data.tags.length > 0 && (
               <span
-                class="hidden sm:inline"
-                style="font-family: var(--font-mono); font-size: clamp(0.5rem, 0.55vw, 0.6rem); color: var(--color-muted-silver); opacity: 0.25; text-align: right;"
+                class="hidden sm:inline opacity-0 group-hover:opacity-30 transition-opacity duration-300"
+                style="font-family: var(--font-mono); font-size: clamp(0.5rem, 0.55vw, 0.6rem); color: var(--color-muted-silver); text-align: right;"
               >
                 {post.data.tags[0]}
               </span>
