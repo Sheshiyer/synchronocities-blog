@@ -319,22 +319,22 @@ const journeyCards = sorted.map(p => {
     {/* ═══════════════════════════════════════════
         FOOTER — Minimal End + Tags
     ═══════════════════════════════════════════ */}
-    <footer class="w-full px-5 md:px-10 lg:px-16">
+    <footer class="w-full" style="padding-left: 4vw; padding-right: 4vw;">
       {/* Divider */}
-      <div class="w-full h-px mx-auto max-w-[660px]"
-        style={`background: linear-gradient(90deg, transparent 0%, ${dividerColor}30 50%, transparent 100%);`} />
+      <div class="mx-auto"
+        style={`width: 45vw; max-width: 50vw; height: 1px; background: linear-gradient(90deg, transparent 0%, ${dividerColor}30 50%, transparent 100%);`} />
 
       {/* Tags + Revolution + Return */}
-      <div class="max-w-[660px] mx-auto py-10 flex flex-col items-center gap-6">
-        <span class="text-[10px] text-[var(--color-muted-silver)] opacity-30" style="font-family: var(--font-mono);">
+      <div class="mx-auto flex flex-col items-center" style="max-width: 45vw; padding-top: 4vh; padding-bottom: 4vh; gap: 2.5vh;">
+        <span style="font-size: clamp(0.55rem, 0.6vw, 0.65rem); color: var(--color-muted-silver); opacity: 0.3; font-family: var(--font-mono);">
           Revolution {post.data.revolution}
         </span>
 
         {post.data.tags.length > 0 && (
-          <div class="flex flex-wrap justify-center gap-2">
+          <div class="flex flex-wrap justify-center" style="gap: 0.5vw;">
             {post.data.tags.map((tag: string) => (
-              <span class="text-[10px] px-2.5 py-1 rounded-full"
-                style={`color: var(--color-muted-silver); opacity: 0.35; border: 1px solid ${palette ? `${palette.accentColor}15` : 'rgba(138,155,168,0.08)'}; font-family: var(--font-mono);`}>
+              <span
+                style={`font-size: clamp(0.55rem, 0.6vw, 0.65rem); padding: 0.4vh 0.8vw; border-radius: 9999px; color: var(--color-muted-silver); opacity: 0.35; border: 1px solid ${palette ? `${palette.accentColor}15` : 'rgba(138,155,168,0.08)'}; font-family: var(--font-mono);`}>
                 {tag}
               </span>
             ))}
@@ -342,8 +342,8 @@ const journeyCards = sorted.map(p => {
         )}
 
         <a href="/"
-          class="text-[10px] uppercase tracking-[0.2em] hover:text-[var(--color-sacred-gold)] transition-colors mt-2"
-          style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;">
+          class="hover:text-[var(--color-sacred-gold)] transition-colors"
+          style="font-size: clamp(0.55rem, 0.6vw, 0.65rem); text-transform: uppercase; letter-spacing: 0.2em; font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4; margin-top: 1vh;">
           Return to Spiral
         </a>
       </div>

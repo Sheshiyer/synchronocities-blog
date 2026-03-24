@@ -1,4 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 interface NextPostProps {
   title: string;
@@ -21,195 +25,335 @@ export default function NextPostReveal({
   heroImage,
   excerpt,
 }: NextPostProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [progress, setProgress] = useState(0);
-  const [triggered, setTriggered] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
+  const cardRef = useRef<HTMLDivElement>(null);
+  const numeralRef = useRef<HTMLSpanElement>(null);
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const metaRef = useRef<HTMLDivElement>(null);
+  const excerptRef = useRef<HTMLParagraphElement>(null);
+  const ctaRef = useRef<HTMLDivElement>(null);
+  const bgRef = useRef<HTMLDivElement>(null);
+  const lineRef = useRef<HTMLDivElement>(null);
+  const labelRef = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
-    const container = containerRef.current;
-    if (!container) return;
+    const section = sectionRef.current;
+    const cardEl = cardRef.current;
+    if (!section || !cardEl) return;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const ratio = entry.intersectionRatio;
-          setProgress(Math.min(ratio * 2, 1)); // accelerate reveal
+    const ctx = gsap.context(() => {
+      // Main timeline scrubbed by scroll
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: section,
+          start: 'top bottom',
+          end: 'bottom bottom',
+          scrub: 0.8,
+          onUpdate: (self) => {
+            // Navigate when user scrolls to 95%+
+            if (self.progress > 0.95) {
+              section.dataset.ready = 'true';
+            } else {
+              section.dataset.ready = 'false';
+            }
+          },
+        },
+      });
 
-          if (ratio > 0.6 && !triggered) {
-            setTriggered(true);
-          }
-        });
-      },
-      { threshold: Array.from({ length: 20 }, (_, i) => i / 20) }
-    );
+      // Divider line expands
+      if (lineRef.current) {
+        tl.fromTo(
+          lineRef.current,
+          { scaleX: 0, opacity: 0 },
+          { scaleX: 1, opacity: 1, duration: 0.15, ease: 'power2.out' },
+          0
+        );
+      }
 
-    observer.observe(container);
-    return () => observer.disconnect();
-  }, [triggered]);
+      // Label fades in
+      if (labelRef.current) {
+        tl.fromTo(
+          labelRef.current,
+          { opacity: 0, y: '1vh' },
+          { opacity: 0.5, y: 0, duration: 0.15, ease: 'power2.out' },
+          0.05
+        );
+      }
+
+      // Background image reveals
+      if (bgRef.current) {
+        tl.fromTo(
+          bgRef.current,
+          { scale: 1.15, opacity: 0 },
+          { scale: 1, opacity: 0.15, duration: 0.6, ease: 'power2.out' },
+          0.1
+        );
+      }
+
+      // Card container scales up from depth
+      tl.fromTo(
+        cardEl,
+        { scale: 0.85, y: '8vh', opacity: 0, filter: 'blur(12px)' },
+        { scale: 1, y: 0, opacity: 1, filter: 'blur(0px)', duration: 0.6, ease: 'power3.out' },
+        0.15
+      );
+
+      // Numeral floats in
+      if (numeralRef.current) {
+        tl.fromTo(
+          numeralRef.current,
+          { y: '4vh', opacity: 0, scale: 0.9 },
+          { y: 0, opacity: 0.15, scale: 1, duration: 0.4, ease: 'power2.out' },
+          0.2
+        );
+      }
+
+      // Title slides up
+      if (titleRef.current) {
+        tl.fromTo(
+          titleRef.current,
+          { y: '3vh', opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.4, ease: 'power2.out' },
+          0.3
+        );
+      }
+
+      // Meta info
+      if (metaRef.current) {
+        tl.fromTo(
+          metaRef.current,
+          { y: '2vh', opacity: 0 },
+          { y: 0, opacity: 0.5, duration: 0.3, ease: 'power2.out' },
+          0.4
+        );
+      }
+
+      // Excerpt
+      if (excerptRef.current) {
+        tl.fromTo(
+          excerptRef.current,
+          { y: '2vh', opacity: 0 },
+          { y: 0, opacity: 0.6, duration: 0.3, ease: 'power2.out' },
+          0.45
+        );
+      }
+
+      // CTA
+      if (ctaRef.current) {
+        tl.fromTo(
+          ctaRef.current,
+          { opacity: 0, scale: 0.8 },
+          { opacity: 0.7, scale: 1, duration: 0.25, ease: 'back.out(1.5)' },
+          0.55
+        );
+      }
+    }, section);
+
+    return () => ctx.revert();
+  }, []);
 
   const handleClick = () => {
     window.location.href = `/posts/${slug}`;
   };
 
-  const scale = 0.92 + progress * 0.08;
-  const opacity = 0.3 + progress * 0.7;
-  const blur = (1 - progress) * 8;
-  const translateY = (1 - progress) * 40;
-
   return (
-    <div
-      ref={containerRef}
+    <section
+      ref={sectionRef}
       onClick={handleClick}
-      className="relative w-full min-h-[70vh] cursor-pointer overflow-hidden"
+      className="relative w-full cursor-pointer overflow-hidden"
       style={{
-        background: `linear-gradient(180deg, transparent 0%, rgba(7,11,29,0.95) 15%, rgba(7,11,29,1) 100%)`,
+        minHeight: '100dvh',
+        background: 'linear-gradient(180deg, transparent 0%, rgba(7,11,29,0.97) 8vw, rgba(7,11,29,1) 100%)',
       }}
     >
-      {/* Pull indicator */}
-      <div className="flex flex-col items-center pt-12 pb-8">
+      {/* Expanding divider line */}
+      <div
+        ref={lineRef}
+        className="mx-auto"
+        style={{
+          width: '40vw',
+          maxWidth: '60vw',
+          height: '1px',
+          marginTop: '4vh',
+          background: `linear-gradient(90deg, transparent, ${accentColor}, transparent)`,
+          opacity: 0.4,
+          transformOrigin: 'center',
+        }}
+      />
+
+      {/* Label */}
+      <span
+        ref={labelRef}
+        className="block text-center"
+        style={{
+          fontFamily: 'var(--font-mono)',
+          fontSize: 'clamp(0.55rem, 0.6vw, 0.7rem)',
+          letterSpacing: '0.25em',
+          textTransform: 'uppercase',
+          color: 'var(--color-muted-silver)',
+          marginTop: '2.5vh',
+          opacity: 0,
+        }}
+      >
+        Next in spiral
+      </span>
+
+      {/* Background hero image */}
+      {heroImage && (
         <div
-          className="w-8 h-1 rounded-full mb-4 transition-all duration-300"
-          style={{
-            background: accentColor,
-            opacity: 0.2 + progress * 0.5,
-            transform: `scaleX(${0.5 + progress * 0.5})`,
-          }}
-        />
-        <span
-          className="text-[10px] uppercase tracking-[0.25em] transition-all duration-300"
-          style={{
-            fontFamily: 'var(--font-mono)',
-            color: 'var(--color-muted-silver)',
-            opacity: 0.3 + progress * 0.4,
-          }}
+          ref={bgRef}
+          className="absolute inset-0 -z-10"
+          style={{ opacity: 0 }}
         >
-          {triggered ? 'Continue reading' : 'Next in spiral'}
-        </span>
-      </div>
+          <img
+            src={heroImage}
+            alt=""
+            className="w-full h-full object-cover"
+            style={{ filter: 'saturate(0.4) brightness(0.5)' }}
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              background: 'radial-gradient(ellipse at center 40%, transparent 10%, rgba(7,11,29,0.92) 60%, rgba(7,11,29,1) 100%)',
+            }}
+          />
+        </div>
+      )}
 
       {/* Next post card */}
       <div
-        className="relative mx-auto max-w-[800px] px-6 md:px-10 transition-all duration-500 ease-out"
+        ref={cardRef}
+        className="relative mx-auto text-center"
         style={{
-          transform: `scale(${scale}) translateY(${translateY}px)`,
-          opacity,
-          filter: `blur(${blur}px)`,
+          maxWidth: '50vw',
+          paddingLeft: '4vw',
+          paddingRight: '4vw',
+          paddingTop: '6vh',
+          paddingBottom: '10vh',
+          opacity: 0,
         }}
       >
-        {/* Hero image background */}
-        {heroImage && (
-          <div className="absolute inset-0 -z-10 rounded-2xl overflow-hidden">
-            <img
-              src={heroImage}
-              alt=""
-              className="w-full h-full object-cover"
-              style={{ opacity: 0.12, filter: 'saturate(0.5)' }}
-            />
-            <div
-              className="absolute inset-0"
-              style={{
-                background: `radial-gradient(ellipse at center, transparent 20%, rgba(7,11,29,0.95) 80%)`,
-              }}
-            />
-          </div>
+        {/* Card numeral */}
+        {card && (
+          <span
+            ref={numeralRef}
+            className="block font-bold leading-none"
+            style={{
+              fontFamily: 'var(--font-display)',
+              fontSize: 'clamp(3rem, 8vw, 10rem)',
+              color: accentColor,
+              opacity: 0,
+              marginBottom: '1.5vh',
+            }}
+          >
+            {card}
+          </span>
         )}
 
-        {/* Content */}
-        <div className="relative py-10 md:py-16 text-center">
-          {/* Card numeral */}
-          {card && (
+        {/* Card name */}
+        {cardName && (
+          <div ref={metaRef} style={{ opacity: 0 }}>
             <span
-              className="text-[60px] md:text-[80px] font-bold leading-none block mb-4"
-              style={{
-                fontFamily: 'var(--font-display)',
-                color: accentColor,
-                opacity: 0.12 + progress * 0.08,
-              }}
-            >
-              {card}
-            </span>
-          )}
-
-          {/* Card name */}
-          {cardName && (
-            <span
-              className="text-xs uppercase tracking-[0.2em] block mb-3"
+              className="block"
               style={{
                 fontFamily: 'var(--font-mono)',
+                fontSize: 'clamp(0.6rem, 0.7vw, 0.75rem)',
+                letterSpacing: '0.2em',
+                textTransform: 'uppercase',
                 color: accentColor,
-                opacity: 0.6,
+                opacity: 0.7,
+                marginBottom: '2vh',
               }}
             >
               {cardName}
             </span>
-          )}
+          </div>
+        )}
 
-          {/* Title */}
-          <h2
-            className="text-[24px] md:text-[36px] font-semibold leading-[1.15] mb-4 mx-auto max-w-[600px]"
-            style={{
-              fontFamily: 'var(--font-display)',
-              color: 'var(--color-parchment)',
-            }}
-          >
-            {title}
-          </h2>
+        {/* Title */}
+        <h2
+          ref={titleRef}
+          className="font-semibold leading-[1.1] mx-auto"
+          style={{
+            fontFamily: 'var(--font-display)',
+            fontSize: 'clamp(1.5rem, 3.5vw, 3.2rem)',
+            color: 'var(--color-parchment)',
+            maxWidth: '42vw',
+            marginBottom: '2vh',
+            opacity: 0,
+          }}
+        >
+          {title}
+        </h2>
 
-          {/* Hero phase */}
-          {heroPhase && (
-            <span
-              className="text-[10px] uppercase tracking-[0.15em] block mb-5"
-              style={{
-                fontFamily: 'var(--font-mono)',
-                color: 'var(--color-muted-silver)',
-                opacity: 0.5,
-              }}
-            >
-              {heroPhase}
-            </span>
-          )}
-
-          {/* Excerpt */}
-          {excerpt && (
-            <p
-              className="text-sm leading-relaxed mx-auto max-w-[480px]"
-              style={{
-                fontFamily: 'var(--font-body)',
-                color: 'var(--color-muted-silver)',
-                opacity: 0.6,
-              }}
-            >
-              {excerpt}
-            </p>
-          )}
-
-          {/* CTA hint */}
-          <div
-            className="mt-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.15em] transition-all duration-300"
+        {/* Hero phase */}
+        {heroPhase && (
+          <span
+            className="block"
             style={{
               fontFamily: 'var(--font-mono)',
-              color: accentColor,
-              opacity: triggered ? 0.7 : 0.3,
+              fontSize: 'clamp(0.55rem, 0.6vw, 0.65rem)',
+              letterSpacing: '0.15em',
+              textTransform: 'uppercase',
+              color: 'var(--color-muted-silver)',
+              opacity: 0.5,
+              marginBottom: '2.5vh',
             }}
           >
-            <span
-              className="inline-block w-6 h-px transition-all duration-500"
-              style={{
-                background: accentColor,
-                transform: `scaleX(${0.5 + progress * 0.5})`,
-              }}
-            />
-            Enter
-            <span
-              className="inline-block w-6 h-px transition-all duration-500"
-              style={{
-                background: accentColor,
-                transform: `scaleX(${0.5 + progress * 0.5})`,
-              }}
-            />
-          </div>
+            {heroPhase}
+          </span>
+        )}
+
+        {/* Excerpt */}
+        {excerpt && (
+          <p
+            ref={excerptRef}
+            className="mx-auto leading-relaxed"
+            style={{
+              fontFamily: 'var(--font-body)',
+              fontSize: 'clamp(0.8rem, 0.95vw, 1rem)',
+              color: 'var(--color-muted-silver)',
+              maxWidth: '35vw',
+              opacity: 0,
+            }}
+          >
+            {excerpt}
+          </p>
+        )}
+
+        {/* CTA */}
+        <div
+          ref={ctaRef}
+          className="inline-flex items-center gap-[0.8vw]"
+          style={{
+            fontFamily: 'var(--font-mono)',
+            fontSize: 'clamp(0.6rem, 0.65vw, 0.7rem)',
+            letterSpacing: '0.15em',
+            textTransform: 'uppercase',
+            color: accentColor,
+            marginTop: '4vh',
+            opacity: 0,
+          }}
+        >
+          <span
+            className="inline-block"
+            style={{
+              width: '2vw',
+              height: '1px',
+              background: accentColor,
+            }}
+          />
+          Enter
+          <span
+            className="inline-block"
+            style={{
+              width: '2vw',
+              height: '1px',
+              background: accentColor,
+            }}
+          />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
