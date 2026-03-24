@@ -7,6 +7,7 @@ import { getCardExperience } from '../../lib/cardExperience';
 import ReadingProgress from '../../components/ReadingProgress';
 import ScrollReveal from '../../components/ScrollReveal';
 import JourneyProgress from '../../components/JourneyProgress';
+import NextPostReveal from '../../components/NextPostReveal';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -316,69 +317,54 @@ const journeyCards = sorted.map(p => {
     </div>
 
     {/* ═══════════════════════════════════════════
-        FOOTER — Full Width Navigation
+        FOOTER — Minimal End + Tags
     ═══════════════════════════════════════════ */}
-    <footer class="w-full border-t" style={`border-color: ${dividerColor}12;`}>
-      {/* Prev/Next — with consistent padding matching content */}
-      <div class="grid grid-cols-[1fr_auto_1fr] w-full px-5 md:px-10 lg:px-16 py-8 md:py-10 lg:py-12">
-        {prevPost ? (
-          <a href={`/posts/${prevPost.id}`}
-            class="group pr-4 transition-colors">
-            <span class="text-[10px] uppercase tracking-[0.15em] text-[var(--color-muted-silver)] group-hover:text-[var(--color-sacred-gold)] transition-colors block"
-              style="font-family: var(--font-mono);">
-              &larr; Previous
-            </span>
-            <span class="text-sm md:text-base font-medium mt-1 block"
-              style={`font-family: var(--font-display); color: ${prevPalette?.accentColor || 'var(--color-parchment)'};`}>
-              {prevCard?.thothName || prevPost.data.title}
-            </span>
-            <span class="text-[10px] text-[var(--color-muted-silver)] opacity-40 mt-0.5 block" style="font-family: var(--font-mono);">
-              {prevCard?.heroPhase || ''}
-            </span>
-          </a>
-        ) : <div />}
+    <footer class="w-full px-5 md:px-10 lg:px-16">
+      {/* Divider */}
+      <div class="w-full h-px mx-auto max-w-[660px]"
+        style={`background: linear-gradient(90deg, transparent 0%, ${dividerColor}30 50%, transparent 100%);`} />
 
-        <a href="/" class="flex items-center px-6 text-[10px] uppercase tracking-[0.15em] hover:text-[var(--color-sacred-gold)] transition-colors"
-          style={`font-family: var(--font-mono); color: var(--color-muted-silver); border-left: 1px solid ${dividerColor}12; border-right: 1px solid ${dividerColor}12;`}>
-          Spiral
-        </a>
-
-        {nextPost ? (
-          <a href={`/posts/${nextPost.id}`}
-            class="group pl-4 text-right transition-colors">
-            <span class="text-[10px] uppercase tracking-[0.15em] text-[var(--color-muted-silver)] group-hover:text-[var(--color-sacred-gold)] transition-colors block"
-              style="font-family: var(--font-mono);">
-              Next &rarr;
-            </span>
-            <span class="text-sm md:text-base font-medium mt-1 block"
-              style={`font-family: var(--font-display); color: ${nextPalette?.accentColor || 'var(--color-parchment)'};`}>
-              {nextCard?.thothName || nextPost.data.title}
-            </span>
-            <span class="text-[10px] text-[var(--color-muted-silver)] opacity-40 mt-0.5 block" style="font-family: var(--font-mono);">
-              {nextCard?.heroPhase || ''}
-            </span>
-          </a>
-        ) : <div />}
-      </div>
-
-      {/* Tags + Revolution */}
-      <div class="px-5 md:px-10 lg:px-16 py-5 flex flex-wrap items-center justify-between gap-4"
-        style={`border-top: 1px solid ${dividerColor}08;`}>
-        <span class="text-[10px] text-[var(--color-muted-silver)] opacity-40" style="font-family: var(--font-mono);">
+      {/* Tags + Revolution + Return */}
+      <div class="max-w-[660px] mx-auto py-10 flex flex-col items-center gap-6">
+        <span class="text-[10px] text-[var(--color-muted-silver)] opacity-30" style="font-family: var(--font-mono);">
           Revolution {post.data.revolution}
         </span>
+
         {post.data.tags.length > 0 && (
-          <div class="flex flex-wrap gap-2">
+          <div class="flex flex-wrap justify-center gap-2">
             {post.data.tags.map((tag: string) => (
-              <span class="text-[10px] px-2 py-0.5 rounded"
-                style={`color: var(--color-muted-silver); opacity: 0.4; background: ${palette ? `${palette.blob1Color}0A` : 'transparent'}; border: 1px solid ${palette ? `${palette.accentColor}10` : 'rgba(138,155,168,0.05)'}; font-family: var(--font-mono);`}>
+              <span class="text-[10px] px-2.5 py-1 rounded-full"
+                style={`color: var(--color-muted-silver); opacity: 0.35; border: 1px solid ${palette ? `${palette.accentColor}15` : 'rgba(138,155,168,0.08)'}; font-family: var(--font-mono);`}>
                 {tag}
               </span>
             ))}
           </div>
         )}
+
+        <a href="/"
+          class="text-[10px] uppercase tracking-[0.2em] hover:text-[var(--color-sacred-gold)] transition-colors mt-2"
+          style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;">
+          Return to Spiral
+        </a>
       </div>
     </footer>
+
+    {/* ═══════════════════════════════════════════
+        NEXT POST — Overscroll Reveal
+    ═══════════════════════════════════════════ */}
+    {nextPost && (
+      <NextPostReveal
+        client:visible
+        title={nextPost.data.title}
+        slug={nextPost.id}
+        card={nextPost.data.card}
+        cardName={nextCard?.thothName}
+        heroPhase={nextCard?.heroPhase}
+        accentColor={nextPalette?.accentColor || 'var(--color-sacred-gold)'}
+        heroImage={nextPalette?.textureSrc || nextPost.data.featured_image}
+        excerpt={nextPost.data.excerpt}
+      />
+    )}
 
     <ScrollReveal client:load />
   </article>
