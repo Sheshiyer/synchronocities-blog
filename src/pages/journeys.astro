@@ -1,0 +1,234 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+
+// Separate into card posts (Major Arcana journey) and other posts
+const cardPosts = allPosts.filter((p) => p.data.card);
+const otherPosts = allPosts.filter((p) => !p.data.card);
+
+// Sort card posts by journey order
+const cardOrder: Record<string, number> = {
+  '0': 0, 'IX': 9, 'XIV': 14, 'XVI': 16, 'XVII': 17, 'XVIII': 18, 'XX': 20, 'XXI': 21,
+};
+const sortedCardPosts = [...cardPosts].sort((a, b) => {
+  const aOrder = cardOrder[a.data.card || ''] ?? 99;
+  const bOrder = cardOrder[b.data.card || ''] ?? 99;
+  return aOrder - bOrder;
+});
+
+// Sort other posts by date (newest first)
+const sortedOtherPosts = [...otherPosts].sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+
+// Collect all unique tags
+const tagCounts = new Map<string, number>();
+allPosts.forEach((post) => {
+  post.data.tags.forEach((tag) => {
+    tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+  });
+});
+const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
+
+// Group by suit
+const suitPosts = new Map<string, typeof otherPosts>();
+otherPosts.forEach((post) => {
+  if (post.data.suit) {
+    const list = suitPosts.get(post.data.suit) || [];
+    list.push(post);
+    suitPosts.set(post.data.suit, list);
+  }
+});
+
+const suitEmojis: Record<string, string> = {
+  wands: '🔥', cups: '🌊', swords: '⚔️', disks: '🪙',
+};
+---
+
+<BaseLayout title="Journeys" description="All writings — travel journals, consciousness architecture, vedic mathematics, and more.">
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-6 bg-[var(--color-void-black)]/80 backdrop-blur-md">
+    <a href="/" class="flex items-center gap-3">
+      <span
+        class="text-lg font-semibold tracking-[0.08em] uppercase"
+        style="font-family: var(--font-display); color: var(--color-sacred-gold);"
+      >
+        Synchronocities
+      </span>
+    </a>
+    <nav class="flex gap-6 text-sm" style="font-family: var(--font-mono);">
+      <a href="/" class="text-[var(--color-muted-silver)] hover:text-[var(--color-sacred-gold)] transition-colors">
+        Depth
+      </a>
+      <a href="/journeys" class="text-[var(--color-sacred-gold)] transition-colors">
+        Journeys
+      </a>
+    </nav>
+  </header>
+
+  <main class="pt-28 pb-20 px-8 max-w-[960px] mx-auto">
+    <!-- Page Title -->
+    <div class="mb-16">
+      <h1
+        class="text-[42px] font-semibold leading-tight mb-4"
+        style="font-family: var(--font-display); color: var(--color-parchment);"
+      >
+        All Journeys
+      </h1>
+      <p
+        class="text-base leading-relaxed max-w-[600px]"
+        style="font-family: var(--font-body); color: var(--color-muted-silver);"
+      >
+        {allPosts.length} writings across consciousness architecture, travel journals, vedic mathematics, enneagram frameworks, and more.
+      </p>
+    </div>
+
+    <!-- Major Arcana Journey -->
+    {sortedCardPosts.length > 0 && (
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-[0.15em] mb-8"
+          style="font-family: var(--font-mono); color: var(--color-sacred-gold);"
+        >
+          Major Arcana Journey
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {sortedCardPosts.map((post) => (
+            <a
+              href={`/posts/${post.id}`}
+              class="group block p-5 rounded-lg border border-[rgba(197,160,23,0.15)] hover:border-[rgba(197,160,23,0.4)] bg-[var(--color-deep-surface)] transition-all duration-300"
+            >
+              <div class="flex items-start gap-4">
+                {post.data.featured_image && (
+                  <img
+                    src={post.data.featured_image}
+                    alt=""
+                    class="w-16 h-16 rounded object-cover shrink-0 opacity-80 group-hover:opacity-100 transition-opacity"
+                  />
+                )}
+                <div class="min-w-0">
+                  <span
+                    class="text-xs uppercase tracking-[0.12em] block mb-1"
+                    style="font-family: var(--font-mono); color: var(--color-sacred-gold);"
+                  >
+                    {post.data.card}
+                  </span>
+                  <h3
+                    class="text-base font-medium leading-snug mb-1 group-hover:text-[var(--color-sacred-gold)] transition-colors truncate"
+                    style="font-family: var(--font-display); color: var(--color-parchment);"
+                  >
+                    {post.data.title}
+                  </h3>
+                  <time
+                    class="text-xs"
+                    style="font-family: var(--font-mono); color: var(--color-muted-silver);"
+                  >
+                    {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+                  </time>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- By Suit -->
+    {suitPosts.size > 0 && (
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-[0.15em] mb-8"
+          style="font-family: var(--font-mono); color: var(--color-sacred-gold);"
+        >
+          By Suit
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          {[...suitPosts.entries()].map(([suit, posts]) => (
+            <div>
+              <h3
+                class="text-sm font-medium mb-4 capitalize"
+                style="font-family: var(--font-display); color: var(--color-parchment);"
+              >
+                {suitEmojis[suit]} {suit}
+              </h3>
+              <div class="space-y-2">
+                {posts.map((post) => (
+                  <a
+                    href={`/posts/${post.id}`}
+                    class="block text-sm hover:text-[var(--color-sacred-gold)] transition-colors truncate"
+                    style="font-family: var(--font-body); color: var(--color-muted-silver);"
+                  >
+                    {post.data.title}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Tags -->
+    {sortedTags.length > 0 && (
+      <section class="mb-16">
+        <h2
+          class="text-xs uppercase tracking-[0.15em] mb-6"
+          style="font-family: var(--font-mono); color: var(--color-sacred-gold);"
+        >
+          Topics
+        </h2>
+        <div class="flex flex-wrap gap-2">
+          {sortedTags.slice(0, 30).map(([tag, count]) => (
+            <span
+              class="text-xs px-3 py-1.5 rounded-full border border-[rgba(138,155,168,0.2)] hover:border-[rgba(197,160,23,0.4)] transition-colors cursor-default"
+              style="font-family: var(--font-mono); color: var(--color-muted-silver);"
+            >
+              {tag} <span class="opacity-50">({count})</span>
+            </span>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- All Writings -->
+    <section>
+      <h2
+        class="text-xs uppercase tracking-[0.15em] mb-8"
+        style="font-family: var(--font-mono); color: var(--color-sacred-gold);"
+      >
+        All Writings ({sortedOtherPosts.length} articles)
+      </h2>
+      <div class="space-y-1">
+        {sortedOtherPosts.map((post) => (
+          <a
+            href={`/posts/${post.id}`}
+            class="group flex items-baseline gap-4 py-3 border-b border-[rgba(138,155,168,0.08)] hover:border-[rgba(197,160,23,0.2)] transition-colors"
+          >
+            <time
+              class="text-xs shrink-0 w-[90px]"
+              style="font-family: var(--font-mono); color: var(--color-muted-silver);"
+            >
+              {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: '2-digit' })}
+            </time>
+            <h3
+              class="text-sm font-normal leading-snug group-hover:text-[var(--color-sacred-gold)] transition-colors"
+              style="font-family: var(--font-body); color: var(--color-parchment);"
+            >
+              {post.data.title}
+            </h3>
+            {post.data.tags.length > 0 && (
+              <span
+                class="text-xs shrink-0 hidden sm:inline"
+                style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;"
+              >
+                {post.data.tags[0]}
+              </span>
+            )}
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

@@ -17,6 +17,7 @@ const posts = defineCollection({
     featured_image: z.string().optional(),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
+    hidden: z.boolean().default(false), // Hidden from gallery but visible on /journeys
     crosspost: z.object({
       x: z.boolean().default(false),
       substack: z.boolean().default(false),
