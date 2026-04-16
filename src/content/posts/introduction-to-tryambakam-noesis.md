@@ -6,6 +6,8 @@ draft: false
 excerpt: "You've optimized everything except the thing doing the optimizing. Tryambakam Noesis exists for the moment you realize the operating system itself needs replacing."
 featured_image: "/cards/sync-intro-noesis.webp"
 tags: ["noesis", "introduction", "operating-system", "consciousness"]
+pinned: true
+pin_rank: 3
 ---
 
 # An Introduction to Tryambakam Noesis: Rewrite Your Operating System

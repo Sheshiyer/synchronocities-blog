@@ -14,23 +14,36 @@ export default function JourneysAnimator() {
     // Wait for DOM
     requestAnimationFrame(() => {
       const ctx = gsap.context(() => {
+        const isMobile = window.matchMedia('(max-width: 639px)').matches;
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 
         // ── HERO TITLE — characters split + stagger ──
         const heroTitle = document.querySelector('[data-anim="hero-title"]');
         if (heroTitle) {
-          const text = heroTitle.textContent || '';
-          heroTitle.innerHTML = text.split('').map((ch, i) =>
-            ch === ' ' ? ' ' : `<span class="hero-char" style="display:inline-block;opacity:0;transform:translateY(1.5vh)">${ch}</span>`
-          ).join('');
+          if (isMobile || prefersReducedMotion) {
+            gsap.from(heroTitle, {
+              opacity: 0,
+              y: '2vh',
+              duration: 0.6,
+              ease: 'power2.out',
+              delay: 0.2,
+            });
+          } else {
+            const text = heroTitle.textContent || '';
+            heroTitle.innerHTML = text.split('').map((ch) =>
+              ch === ' ' ? ' ' : `<span class="hero-char" style="display:inline-block;opacity:0;transform:translateY(1.5vh)">${ch}</span>`
+            ).join('');
 
-          gsap.to('.hero-char', {
-            opacity: 1,
-            y: 0,
-            duration: 0.6,
-            stagger: 0.04,
-            ease: 'power3.out',
-            delay: 0.2,
-          });
+            gsap.to('.hero-char', {
+              opacity: 1,
+              y: 0,
+              duration: 0.6,
+              stagger: 0.04,
+              ease: 'power3.out',
+              delay: 0.2,
+            });
+          }
         }
 
         // ── HERO SUBTITLE — fade up ──
@@ -145,77 +158,81 @@ export default function JourneysAnimator() {
         });
 
         // ── WRITING TITLES — scale on hover ──
-        rows.forEach((row) => {
-          const title = row.querySelector('[data-anim="writing-title"]');
-          if (!title) return;
+        if (canHover) {
+          rows.forEach((row) => {
+            const title = row.querySelector('[data-anim="writing-title"]');
+            if (!title) return;
 
-          row.addEventListener('mouseenter', () => {
-            gsap.to(title, {
-              scale: 1.02,
-              x: '0.5vw',
-              color: '#C5A017',
-              duration: 0.35,
-              ease: 'power2.out',
-            });
-          });
-
-          row.addEventListener('mouseleave', () => {
-            gsap.to(title, {
-              scale: 1,
-              x: 0,
-              color: '#F0EDE3',
-              duration: 0.3,
-              ease: 'power2.inOut',
-            });
-          });
-        });
-
-        // ── CARD HOVER — title tracking + glow pulse ──
-        cards.forEach((card) => {
-          const titleEl = card.querySelector('[data-anim="card-title"]');
-          const numEl = card.querySelector('[data-anim="card-numeral"]');
-
-          card.addEventListener('mouseenter', () => {
-            if (titleEl) {
-              gsap.to(titleEl, {
-                letterSpacing: '0.02em',
-                textShadow: '0 0 2vw rgba(197,160,23,0.15)',
-                duration: 0.4,
+            row.addEventListener('mouseenter', () => {
+              gsap.to(title, {
+                scale: 1.02,
+                x: '0.5vw',
+                color: '#C5A017',
+                duration: 0.35,
                 ease: 'power2.out',
               });
-            }
-            if (numEl) {
-              gsap.to(numEl, {
-                scale: 1.08,
-                opacity: 0.25,
-                duration: 0.5,
-                ease: 'power2.out',
-              });
-            }
-          });
+            });
 
-          card.addEventListener('mouseleave', () => {
-            if (titleEl) {
-              gsap.to(titleEl, {
-                letterSpacing: '0em',
-                textShadow: 'none',
+            row.addEventListener('mouseleave', () => {
+              gsap.to(title, {
+                scale: 1,
+                x: 0,
+                color: '#F0EDE3',
                 duration: 0.3,
                 ease: 'power2.inOut',
               });
-            }
-            if (numEl) {
-              gsap.to(numEl, {
-                scale: 1,
-                opacity: 0.12,
-                duration: 0.4,
-                ease: 'power2.inOut',
-              });
-            }
+            });
           });
-        });
+        }
+
+        // ── CARD HOVER — title tracking + glow pulse ──
+        if (canHover) {
+          cards.forEach((card) => {
+            const titleEl = card.querySelector('[data-anim="card-title"]');
+            const numEl = card.querySelector('[data-anim="card-numeral"]');
+
+            card.addEventListener('mouseenter', () => {
+              if (titleEl) {
+                gsap.to(titleEl, {
+                  letterSpacing: '0.02em',
+                  textShadow: '0 0 2vw rgba(197,160,23,0.15)',
+                  duration: 0.4,
+                  ease: 'power2.out',
+                });
+              }
+              if (numEl) {
+                gsap.to(numEl, {
+                  scale: 1.08,
+                  opacity: 0.25,
+                  duration: 0.5,
+                  ease: 'power2.out',
+                });
+              }
+            });
+
+            card.addEventListener('mouseleave', () => {
+              if (titleEl) {
+                gsap.to(titleEl, {
+                  letterSpacing: '0em',
+                  textShadow: 'none',
+                  duration: 0.3,
+                  ease: 'power2.inOut',
+                });
+              }
+              if (numEl) {
+                gsap.to(numEl, {
+                  scale: 1,
+                  opacity: 0.12,
+                  duration: 0.4,
+                  ease: 'power2.inOut',
+                });
+              }
+            });
+          });
+        }
 
         // ── SCROLL-BASED TITLE SCALE — hero title shrinks as you scroll ──
-        if (heroTitle) {
+        if (heroTitle && !isMobile && !prefersReducedMotion) {
           gsap.to(heroTitle, {
             scrollTrigger: {
               trigger: heroTitle,

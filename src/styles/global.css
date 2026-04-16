@@ -94,9 +94,9 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-parchment);
 }
 
-h1 { font-size: var(--text-2xl); }
-h2 { font-size: var(--text-xl); }
-h3 { font-size: var(--text-lg); }
+h1:not([class]) { font-size: var(--text-2xl); }
+h2:not([class]) { font-size: var(--text-xl); }
+h3:not([class]) { font-size: var(--text-lg); }
 
 /* ── Body Text ── */
 p {
@@ -324,6 +324,13 @@ a:hover {
   line-height: 1.8;
   letter-spacing: 0.01em;
   color: var(--color-parchment);
+  background: linear-gradient(180deg, rgba(7, 11, 29, 0.68), rgba(7, 11, 29, 0.44));
+  border: 1px solid rgba(138, 155, 168, 0.08);
+  border-radius: 1.5rem;
+  box-shadow: 0 18px 48px rgba(5, 9, 24, 0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: clamp(1.25rem, 2.4vw, 2rem);
 }
 
 .prose-synchronocities p {
@@ -475,47 +482,132 @@ a:hover {
    ═══════════════════════════════════════════════ */
 
 /* ── Global layout container — centered with generous margins ── */
-.post-content-area {
-  max-width: 1100px;
+.post-intro-shell,
+.post-content-area,
+.post-related-area {
+  width: 100%;
+  max-width: 1120px;
   margin: 0 auto;
 }
 
-.post-header-block {
-  max-width: 1100px;
+.post-intro-grid {
+  display: grid;
+  gap: 1.75rem;
+  align-items: start;
+}
+
+.post-header-block,
+.post-header-main {
+  width: 100%;
+  min-width: 0;
+}
+
+.post-dek {
+  max-width: 33rem;
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.25vw, 1.18rem);
+  line-height: 1.7;
+  color: var(--color-muted-silver);
+  opacity: 0.82;
+}
+
+.post-meta-row {
+  max-width: 48rem;
+}
+
+.post-intro-aside {
+  display: grid;
+  gap: 1rem;
+  align-items: start;
+}
+
+.post-intro-media {
+  position: relative;
+  min-height: 13.5rem;
+  overflow: hidden;
+  border-radius: 1.65rem;
+  border: 1px solid rgba(138, 155, 168, 0.14);
+  background: rgba(7, 11, 29, 0.68);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.22);
+}
+
+.post-header-context {
+  max-width: 22rem;
+  padding: 1rem 1.1rem;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(138, 155, 168, 0.12);
+  background: rgba(7, 11, 29, 0.56);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  text-align: left;
+}
+
+.post-pull-quote {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto 2.5rem;
+}
+
+.post-reading-shell {
+  width: 100%;
+}
+
+.post-reading-shell.is-solo {
+  max-width: 640px;
   margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .post-intro-grid.has-hero {
+    grid-template-columns: minmax(0, 39rem) minmax(17.5rem, 21rem);
+    gap: clamp(2.5rem, 5vw, 4.5rem);
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .post-intro-aside {
+    width: 100%;
+    max-width: 21rem;
+    justify-self: end;
+  }
+
+  .post-reading-shell.is-railed {
+    max-width: 920px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 40rem) minmax(12.5rem, 14rem);
+    align-items: start;
+    gap: clamp(2.5rem, 5vw, 4rem);
+  }
+
+  .post-reading-rail {
+    position: sticky;
+    top: 6rem;
+    width: 100%;
+    max-width: 14rem;
+    justify-self: stretch;
+  }
+}
+
+@media (min-width: 1280px) {
+  .post-intro-shell,
+  .post-content-area,
+  .post-related-area {
+    max-width: 1160px;
+  }
 }
 
 /* ── Cosmic Void (Fool) — centered floating in space ── */
-[data-layout="cosmic-void"] .post-content-area {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 [data-layout="cosmic-void"] .prose-synchronocities {
   text-align: left;
-  max-width: 660px;
+  max-width: 680px;
   margin: 0 auto;
 }
-[data-layout="cosmic-void"] .post-header-block {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-[data-layout="cosmic-void"] .post-numeral-group {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+[data-layout="cosmic-void"] .post-header-context {
+  border-color: rgba(197, 160, 23, 0.14);
 }
 
 /* ── Earthquake (Tower) — left-aligned, urgent, tighter ── */
-@media (min-width: 1024px) {
-  [data-layout="earthquake"] .post-content-area {
-    display: grid;
-    grid-template-columns: 1fr 220px;
-    gap: 3rem;
-  }
-}
 [data-layout="earthquake"] .prose-synchronocities {
   max-width: 720px;
   font-size: 1.05rem;
@@ -523,11 +615,6 @@ a:hover {
 }
 
 /* ── Water Healing (Star) — centered, flowing, generous whitespace ── */
-[data-layout="water-healing"] .post-content-area {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 [data-layout="water-healing"] .prose-synchronocities {
   max-width: 700px;
   margin: 0 auto;
@@ -538,67 +625,60 @@ a:hover {
 [data-layout="water-healing"] .prose-synchronocities p {
   margin-bottom: 2.2em;
 }
-[data-layout="water-healing"] .post-header-block {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-[data-layout="water-healing"] .post-numeral-group {
-  justify-content: center;
+[data-layout="water-healing"] .post-header-context {
+  border-color: rgba(16, 181, 167, 0.16);
 }
 
 /* ── Crescent (Moon) — asymmetric offset with left margin ── */
-@media (min-width: 1024px) {
-  [data-layout="crescent"] .post-content-area {
-    display: grid;
-    grid-template-columns: 80px 1fr 200px;
-    gap: 2rem;
-  }
-}
 [data-layout="crescent"] .prose-synchronocities {
   max-width: 680px;
 }
 
 /* ── Hermit Minimal — extreme whitespace, narrow centered ── */
-[data-layout="hermit-minimal"] .post-content-area {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-}
 [data-layout="hermit-minimal"] .prose-synchronocities {
   max-width: 520px;
   margin: 0 auto;
   font-size: 1.1rem;
   line-height: 2;
   letter-spacing: 0.02em;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  padding: 0;
 }
 [data-layout="hermit-minimal"] .prose-synchronocities p {
   margin-bottom: 2.5em;
   opacity: 0.8;
 }
+[data-layout="hermit-minimal"] .post-intro-grid {
+  gap: 2rem;
+}
 [data-layout="hermit-minimal"] .post-header-block {
+  max-width: 760px;
+  margin: 0 auto;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 4rem;
-  max-width: 800px;
+}
+[data-layout="hermit-minimal"] .post-header-context {
+  display: none;
+}
+[data-layout="hermit-minimal"] .post-dek,
+[data-layout="hermit-minimal"] .post-meta-row {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 [data-layout="hermit-minimal"] .post-numeral-group {
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+}
+[data-layout="hermit-minimal"] .post-intro-media {
+  min-height: 11rem;
+  max-width: 34rem;
+  margin: 0 auto;
 }
 
 /* ── Alchemical (Art/Temperance) — content + sidebar ── */
-@media (min-width: 1024px) {
-  [data-layout="alchemical"] .post-content-area {
-    display: grid;
-    grid-template-columns: 1fr 240px;
-    gap: 4rem;
-  }
-}
 [data-layout="alchemical"] .prose-synchronocities {
   max-width: 680px;
 }
@@ -610,22 +690,8 @@ a:hover {
 [data-layout="spiral-recursive"] .prose-synchronocities p {
   margin-bottom: 2em;
 }
-@media (min-width: 1024px) {
-  [data-layout="spiral-recursive"] .post-content-area {
-    display: grid;
-    grid-template-columns: 1fr 220px;
-    gap: 3rem;
-  }
-}
 
 /* ── Four Quadrant (Universe) — wide with prominent sidebar ── */
-@media (min-width: 1024px) {
-  [data-layout="four-quadrant"] .post-content-area {
-    display: grid;
-    grid-template-columns: 1fr 280px;
-    gap: 4rem;
-  }
-}
 [data-layout="four-quadrant"] .prose-synchronocities {
   max-width: 700px;
   font-size: 1.1rem;
@@ -788,8 +854,8 @@ a:hover {
 /* ── Scroll Reveal (#47) ── */
 .scroll-reveal {
   opacity: 0;
-  transform: translateY(12px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateY(6px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
 }
 
 .scroll-reveal.revealed {
@@ -797,13 +863,46 @@ a:hover {
   transform: translateY(0);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .reading-progress {
+    transition: none;
+  }
+
+  .scroll-reveal,
+  .scroll-reveal.revealed {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  [data-card="0"] .card-hero-effects,
+  [data-card="XVI"],
+  [data-card="XVII"] .prose-synchronocities > p:first-of-type::first-letter,
+  [data-card="XXI"] .card-hero-effects,
+  [data-element="Fire"] .element-ambient::before,
+  [data-element="Fire"] .element-ambient::after,
+  [data-element="Water"] .element-ambient {
+    animation: none !important;
+  }
+}
+
 /* ── Journey Progress (#40) ── */
 .journey-progress {
   display: flex;
   align-items: center;
   gap: 6px;
-  justify-content: center;
-  padding: 0.5rem 0;
+  justify-content: flex-end;
+  padding: 0.5rem 0.25rem;
+  margin-left: auto;
+  max-width: min(62vw, 32rem);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.journey-progress::-webkit-scrollbar {
+  display: none;
 }
 
 .journey-dot {
@@ -813,6 +912,17 @@ a:hover {
   background: var(--color-muted-silver);
   opacity: 0.25;
   transition: all 300ms ease;
+  flex: 0 0 auto;
+}
+
+.journey-dot:hover,
+.journey-dot:focus-visible {
+  opacity: 0.7;
+}
+
+.journey-dot:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 3px;
 }
 
 .journey-dot.active {
@@ -842,8 +952,24 @@ a:hover {
     font-size: 2.8em;
   }
 
+  .journey-progress {
+    max-width: 58vw;
+    gap: 4px;
+    padding-block: 0.25rem;
+  }
+
+  .journey-dot {
+    width: 5px;
+    height: 5px;
+  }
+
+  .journey-dot.active {
+    width: 7px;
+    height: 7px;
+  }
+
   .journey-dot-line {
-    width: 8px;
+    width: 6px;
   }
 }
 

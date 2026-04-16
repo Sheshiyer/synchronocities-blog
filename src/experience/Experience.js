@@ -5,11 +5,15 @@ import { CardLabel } from './CardLabel.js'
 import { TrailController } from './TrailController.js'
 
 class Experience {
-  constructor(planeData = []) {
+  constructor(planeData = [], options = {}) {
     this.isInitialized = false
     this.isDisposed = false
+    this.options = {
+      showLabelOverlay: true,
+      ...options,
+    }
     this.gallery = new Gallery(planeData)
-    this.label = new CardLabel(this.gallery)
+    this.label = this.options.showLabelOverlay ? new CardLabel(this.gallery) : null
     this.background = new Background()
     this.trailController = new TrailController({ gallery: this.gallery })
   }
@@ -18,7 +22,7 @@ class Experience {
     if (this.isInitialized) return
 
     await this.gallery.init(scene)
-    this.label.init()
+    this.label?.init()
     this.background.init()
     this.trailController.init(scene, camera)
 
@@ -35,7 +39,7 @@ class Experience {
 
     // Gallery + label
     this.gallery.update(camera, scroll, time)
-    this.label.update(camera)
+    this.label?.update(camera)
 
     // Camera-driven updates
     if (camera) {
@@ -73,7 +77,7 @@ class Experience {
     if (this.isDisposed) return
     this.trailController.dispose()
     this.gallery.dispose()
-    this.label.dispose()
+    this.label?.dispose()
     this.background.dispose()
     this.isDisposed = true
   }

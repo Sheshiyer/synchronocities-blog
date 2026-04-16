@@ -1,0 +1,148 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { buildArchiveDataset, getArchivePreset } from '../lib/archive';
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const archiveDataset = buildArchiveDataset(allPosts);
+const researchRecords = getArchivePreset(archiveDataset.records, 'research');
+const foundationalRecords = getArchivePreset(archiveDataset.records, 'foundational').filter((record) => !record.card);
+const pilotRecords = getArchivePreset(archiveDataset.records, 'pilot-downstream-mind').filter((record) => !record.card).slice(0, 3);
+
+function formatDate(value: string) {
+  return new Date(value).toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  });
+}
+---
+
+<BaseLayout title="Research Library" description="Foundational essays, pilot nodes, and the broader research-facing archive.">
+  <header
+    class="fixed top-0 left-0 right-0 z-20 flex flex-wrap items-center justify-between gap-3 backdrop-blur-md"
+    style="padding: 2vh 4vw; background: rgba(7,11,29,0.85);"
+  >
+    <a href="/">
+      <span
+        style="font-family: var(--font-display); font-size: clamp(0.85rem, 1vw, 1.1rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-sacred-gold);"
+      >
+        Synchronocities
+      </span>
+    </a>
+    <nav class="flex max-w-[58vw] items-center justify-end gap-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-5 sm:pl-0" style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none;">
+      <a href="/" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Depth</a>
+      <a href="/journeys" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Journeys</a>
+      <a href="/research" style="color: var(--color-sacred-gold);">Research</a>
+      <a href="/maps" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Maps</a>
+    </nav>
+  </header>
+
+  <main style="padding: 14vh 6vw 10vh;">
+    <section style="display: grid; gap: 1.5rem; max-width: 68rem; margin-bottom: 5rem;">
+      <span style="font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-coherence-emerald); opacity: 0.8;">
+        Research Library
+      </span>
+      <h1 style="font-family: var(--font-display); font-size: clamp(2.4rem, 4.8vw, 4.8rem); line-height: 1.02; color: var(--color-parchment);">
+        Foundational essays, pilot routes, and the wider synthesis layer.
+      </h1>
+      <p style="font-family: var(--font-body); font-size: clamp(0.98rem, 1.05vw, 1.14rem); line-height: 1.75; color: var(--color-muted-silver); opacity: 0.8; max-width: 48rem;">
+        This route is the crawl-visible front door for the non-tarot corpus. Start with foundational nodes, open the pilot cluster, or move back to the full interactive archive when you need a broader cut.
+      </p>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+        <a href="/journeys" style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(16,181,167,0.2); background: rgba(16,181,167,0.08); color: var(--color-coherence-emerald);">
+          Open Interactive Archive
+        </a>
+        <a href="/posts/the-downstream-mind" style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(197,160,23,0.24); background: rgba(197,160,23,0.08); color: var(--color-sacred-gold);">
+          Enter The Pilot Essay
+        </a>
+      </div>
+    </section>
+
+    <section style="margin-bottom: 4rem;">
+      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+        <span style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.66;">
+          Foundational Nodes
+        </span>
+        <div style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(197,160,23,0.2), transparent);" />
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+        {foundationalRecords.map((record) => (
+          <a href={`/posts/${record.slug}`} style="display: grid; gap: 0.75rem; padding: 1.15rem; border-radius: 1rem; border: 1px solid rgba(138,155,168,0.12); background: linear-gradient(180deg, rgba(14,20,40,0.7), rgba(7,11,29,0.92));">
+            <span style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.74;">
+              {record.entryKind}
+            </span>
+            <h2 style="font-family: var(--font-display); font-size: 1.35rem; line-height: 1.1; color: var(--color-parchment);">
+              {record.title}
+            </h2>
+            {record.excerpt && (
+              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none;">
+                {record.excerpt}
+              </p>
+            )}
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin-bottom: 4rem;">
+      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+        <span style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-coherence-emerald); opacity: 0.72;">
+          Pilot Cluster
+        </span>
+        <div style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(16,181,167,0.2), transparent);" />
+      </div>
+
+      <div style="display: grid; gap: 1rem;">
+        {pilotRecords.map((record) => (
+          <a href={`/posts/${record.slug}`} style="display: grid; gap: 0.7rem; padding: 1rem 1.1rem; border-radius: 0.9rem; border: 1px solid rgba(138,155,168,0.1); background: rgba(14,20,40,0.36);">
+            <div style="display: flex; justify-content: space-between; gap: 0.75rem; align-items: baseline;">
+              <span style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-coherence-emerald); opacity: 0.74;">
+                {record.articleMode}
+              </span>
+              <time style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-muted-silver); opacity: 0.45;">
+                {formatDate(record.date)}
+              </time>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.2rem; line-height: 1.1; color: var(--color-parchment);">
+              {record.title}
+            </h3>
+            {record.excerpt && (
+              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none;">
+                {record.excerpt}
+              </p>
+            )}
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+        <span style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-muted-silver); opacity: 0.72;">
+          Recent Research
+        </span>
+        <div style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(138,155,168,0.18), transparent);" />
+      </div>
+
+      <div style="display: grid; gap: 0.85rem;">
+        {researchRecords.slice(0, 12).map((record) => (
+          <a href={`/posts/${record.slug}`} style="display: grid; gap: 0.6rem; padding: 0.95rem 1rem; border-radius: 0.9rem; border: 1px solid rgba(138,155,168,0.08); background: rgba(14,20,40,0.28);">
+            <div style="display: flex; justify-content: space-between; gap: 0.75rem; align-items: baseline; flex-wrap: wrap;">
+              <span style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-muted-silver); opacity: 0.7;">
+                {record.entryKind}
+              </span>
+              <time style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-muted-silver); opacity: 0.45;">
+                {formatDate(record.date)}
+              </time>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 1.12rem; line-height: 1.1; color: var(--color-parchment);">
+              {record.title}
+            </h3>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

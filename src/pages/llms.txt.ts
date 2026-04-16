@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
+import { normalizePostEntry } from '../lib/postMetadata';
 
 export const GET: APIRoute = async () => {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -27,11 +28,12 @@ export const GET: APIRoute = async () => {
     '## Articles',
     '',
     ...sorted.map((post) => {
+      const normalized = normalizePostEntry(post);
       const url = `${site}/posts/${post.id}/`;
-      const tags = post.data.tags.length > 0 ? ` [${post.data.tags.join(', ')}]` : '';
-      const excerpt = post.data.excerpt ? `  ${post.data.excerpt}` : '';
+      const tags = normalized.tags.length > 0 ? ` [${normalized.tags.join(', ')}]` : '';
+      const excerpt = normalized.excerpt ? `  ${normalized.excerpt}` : '';
       return [
-        `- [${post.data.title}](${url})${tags}`,
+        `- [${normalized.title}](${url})${tags}`,
         excerpt ? `  ${excerpt}` : '',
       ].filter(Boolean).join('\n');
     }),

@@ -72,7 +72,7 @@ class Engine {
     this.renderer.setSize(width, height, false)
     this.experience.gallery.updatePlaneScale()
     this.experience.gallery.layoutPlanes()
-    this.experience.label.resize(width, height)
+    this.experience.label?.resize(width, height)
   }
 
   async preloadTextures() {
@@ -111,7 +111,7 @@ class Engine {
     this.experience.background.render(this.renderer)
     this.renderer.clearDepth()
     this.renderer.render(this.scene, this.camera)
-    this.experience.label.render()
+    this.experience.label?.render()
   }
 
   dispose() {

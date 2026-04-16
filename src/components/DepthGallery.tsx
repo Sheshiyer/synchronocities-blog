@@ -13,9 +13,10 @@ interface Post {
 
 interface DepthGalleryProps {
   posts: Post[]
+  showLabelOverlay?: boolean
 }
 
-export default function DepthGallery({ posts }: DepthGalleryProps) {
+export default function DepthGallery({ posts, showLabelOverlay = true }: DepthGalleryProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const engineRef = useRef<any>(null)
   const experienceRef = useRef<any>(null)
@@ -52,7 +53,7 @@ export default function DepthGallery({ posts }: DepthGalleryProps) {
 
       const planeData = buildGalleryData(posts)
       planeDataRef.current = planeData as GalleryPlane[]
-      const experience = new Experience(planeData as any)
+      const experience = new Experience(planeData as any, { showLabelOverlay })
       const engine = new Engine(canvas!, experience)
 
       engineRef.current = engine
@@ -70,7 +71,7 @@ export default function DepthGallery({ posts }: DepthGalleryProps) {
       }
       experienceRef.current = null
     }
-  }, [posts])
+  }, [posts, showLabelOverlay])
 
   return (
     <canvas

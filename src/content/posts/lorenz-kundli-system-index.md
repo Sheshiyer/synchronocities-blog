@@ -6,6 +6,37 @@ featured_image: "/cards/sync-system-index.webp"
 tags: ["lorenz-kundli", "system", "index", "overview"]
 draft: false
 revolution: 1
+article_mode: reference
+series: lorenz-kundli
+entry_kind: reference
+foundational: true
+concepts:
+  - lorenz-kundli
+  - chaos theory
+  - jyotish
+  - system index
+  - pattern recognition
+related_posts:
+  - lorenz-kundli-pattern-hub
+  - vimshottari-dasha-markov-chains
+  - graha-friendship-cellular-automata
+  - pattern-cross-reference-system
+hero:
+  eyebrow: System Index
+  subtitle: A reference-first map of the full Lorenz-Kundli research program.
+  variant: image
+experience:
+  theme: codex
+  rail: none
+  density: minimal
+llm:
+  start_priority: foundational
+  summary: A reference index for the Lorenz-Kundli program, mapping the six parallel studies and their research vectors.
+  cluster: lorenz-kundli
+  canonical_questions:
+    - What are the six Lorenz-Kundli parallel studies?
+    - Where should I start in the Lorenz-Kundli corpus?
+    - Which essays document the implementation and research vectors?
 ---
 
 # Lorenz-Kundli System Index

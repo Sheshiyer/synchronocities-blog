@@ -1,13 +1,20 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Picture } from 'astro:assets';
 import { getCollection, render } from 'astro:content';
 import { getCardByNumeral } from '../../lib/tarot';
 import { getCardPalette } from '../../lib/cardColors';
 import { getCardExperience } from '../../lib/cardExperience';
+import { normalizePostEntry } from '../../lib/postMetadata';
+import { buildArchiveDataset, getRelatedArchiveRecords, getSeriesCompanions } from '../../lib/archive';
+import { getOptimizedCardImage } from '../../lib/cardImageAssets';
 import ReadingProgress from '../../components/ReadingProgress';
 import ScrollReveal from '../../components/ScrollReveal';
 import JourneyProgress from '../../components/JourneyProgress';
 import NextPostReveal from '../../components/NextPostReveal';
+import PostTOC from '../../components/PostTOC';
+import BackToTop from '../../components/BackToTop';
+import RelatedPostModules from '../../components/RelatedPostModules.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -19,12 +26,15 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const normalizedPost = normalizePostEntry(post);
 const card = post.data.card ? getCardByNumeral(post.data.card) : null;
 const palette = post.data.card ? getCardPalette(post.data.card) : null;
 const experience = post.data.card ? getCardExperience(post.data.card) : null;
 
 // For posts without card palette, use featured_image as hero
-const heroImage = palette?.textureSrc || post.data.featured_image || null;
+const heroImage = palette?.textureSrc || normalizedPost.heroImage || null;
+const heroImageAsset = getOptimizedCardImage(heroImage);
+const heroImageSizes = '(max-width: 639px) calc(100vw - 2.5rem), (max-width: 1023px) calc(100vw - 4rem), (max-width: 1279px) 20rem, 22rem';
 
 const cardVars = palette ? [
   `--card-bg: ${palette.backgroundColor}`,
@@ -41,13 +51,24 @@ const bgGradient = palette
   : 'background: var(--color-void-black);';
 const dividerColor = palette?.accentColor || 'var(--color-sacred-gold)';
 const layout = experience?.layout || 'cosmic-void';
+const hasDesktopReadingSidebar = Boolean(experience && layout !== 'hermit-minimal');
+const showIntroHero = Boolean(heroImage && layout !== 'hermit-minimal');
+const showIntroAside = Boolean(showIntroHero || (experience && layout !== 'hermit-minimal'));
+const introGridClass = showIntroHero ? 'has-hero' : 'text-only';
 
 // Sorted posts for navigation
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const archiveDataset = buildArchiveDataset(allPosts);
+const relatedArchiveRecords = getRelatedArchiveRecords(archiveDataset, post.id, 4);
+const seriesCompanions = getSeriesCompanions(archiveDataset.records, post.id, 3);
 const cardOrder: Record<string, number> = {
   '0': 0, 'IX': 9, 'XIV': 14, 'XVI': 16, 'XVII': 17, 'XVIII': 18, 'XX': 20, 'XXI': 21,
 };
-const sorted = [...allPosts].sort((a, b) => (cardOrder[a.data.card || ''] ?? 99) - (cardOrder[b.data.card || ''] ?? 99));
+const sorted = [...allPosts].sort((a, b) => {
+  const orderDelta = (cardOrder[a.data.card || ''] ?? 99) - (cardOrder[b.data.card || ''] ?? 99);
+  if (orderDelta !== 0) return orderDelta;
+  return a.data.date.getTime() - b.data.date.getTime();
+});
 const currentIndex = sorted.findIndex(p => p.id === post.id);
 const prevPost = currentIndex > 0 ? sorted[currentIndex - 1] : null;
 const nextPost = currentIndex < sorted.length - 1 ? sorted[currentIndex + 1] : null;
@@ -56,10 +77,49 @@ const nextCard = nextPost?.data.card ? getCardByNumeral(nextPost.data.card) : nu
 const prevPalette = prevPost?.data.card ? getCardPalette(prevPost.data.card) : null;
 const nextPalette = nextPost?.data.card ? getCardPalette(nextPost.data.card) : null;
 
-const journeyCards = sorted.map(p => {
-  const pal = p.data.card ? getCardPalette(p.data.card) : null;
-  return { numeral: p.data.card || '?', accentColor: pal?.accentColor || '#8A9BA8', slug: p.id };
-});
+const groupedJourneyCards = sorted
+  .filter((p) => {
+    const numeral = p.data.card || '';
+    return Boolean(numeral && numeral in cardOrder);
+  })
+  .reduce((groups, p) => {
+    const numeral = p.data.card || '?';
+    const pal = p.data.card ? getCardPalette(p.data.card) : null;
+    const journeyCard = p.data.card ? getCardByNumeral(p.data.card) : null;
+    const existing = groups.get(numeral);
+
+    if (!existing) {
+      groups.set(numeral, {
+        numeral,
+        accentColor: pal?.accentColor || '#8A9BA8',
+        slug: p.id,
+        title: p.data.title,
+        cardName: journeyCard?.thothName || 'Journey Entry',
+        entryCount: 1,
+      });
+      return groups;
+    }
+
+    existing.entryCount += 1;
+    if (p.id === post.id) {
+      existing.slug = p.id;
+      existing.title = p.data.title;
+    }
+
+    return groups;
+  }, new Map<string, {
+    numeral: string;
+    accentColor: string;
+    slug: string;
+    title: string;
+    cardName: string;
+    entryCount: number;
+  }>());
+
+const journeyCards = Object.entries(cardOrder)
+  .sort(([, leftOrder], [, rightOrder]) => leftOrder - rightOrder)
+  .map(([numeral]) => groupedJourneyCards.get(numeral))
+  .filter(Boolean);
 ---
 
 <BaseLayout title={post.data.title} description={post.data.excerpt}>
@@ -83,113 +143,157 @@ const journeyCards = sorted.map(p => {
     <div class="element-ambient" />
 
     {/* Top nav */}
-    <nav class="relative z-10 px-6 md:px-8 py-5 flex items-center justify-between">
+    <nav class="relative z-10 px-4 sm:px-6 md:px-8 py-3 sm:py-5 flex items-center gap-4 justify-between">
       <a href="/" class="inline-flex items-center gap-2 text-sm transition-colors hover:text-[var(--color-sacred-gold)]"
         style="font-family: var(--font-mono); color: var(--color-muted-silver);">
         <span>&larr;</span><span>Spiral</span>
       </a>
-      <JourneyProgress client:load cards={journeyCards} currentCard={post.data.card || ''} />
+      {journeyCards.length > 0 && (
+        <JourneyProgress client:load cards={journeyCards} currentNumeral={post.data.card || ''} currentSlug={post.id} />
+      )}
     </nav>
 
     {/* ═══════════════════════════════════════════
         FULL-WIDTH IMMERSIVE HERO
         Each layout fills the viewport
     ═══════════════════════════════════════════ */}
-    <section class="relative w-full">
-      {/* Card image — FULL BLEED */}
-      {heroImage && (
-        <div class="relative w-full h-[60vh] md:h-[75vh] overflow-hidden">
-          <img
-            src={heroImage}
-            alt={card?.thothName || post.data.title}
-            class="absolute inset-0 w-full h-full object-cover object-center"
-            style={`opacity: ${layout === 'hermit-minimal' ? '0.15' : '0.4'}; mask-image: linear-gradient(to bottom, black 20%, transparent 90%);`}
-            loading="eager"
-          />
-          <div class="absolute inset-0"
-            style={`background: linear-gradient(to top, ${palette?.backgroundColor || '#070B1D'} 0%, ${palette?.backgroundColor || '#070B1D'}BB 35%, transparent 65%);`} />
+    <section class="relative w-full pt-4 sm:pt-6 md:pt-8">
+      <div class="post-intro-shell px-5 sm:px-7 md:px-10 lg:px-14 xl:px-16">
+        <div class={`post-intro-grid ${introGridClass}`}>
+          <header class="post-header-block">
+            <div class="post-header-main">
+              {card && (
+                <div class="post-numeral-group flex flex-col items-start gap-2 sm:flex-row sm:items-end sm:gap-6 md:gap-8 mb-4">
+                  <span
+                    class="text-[44px] sm:text-[60px] md:text-[92px] lg:text-[112px] font-bold leading-none opacity-15"
+                    style={`font-family: var(--font-display); color: ${palette?.accentColor || card.color};`}
+                  >
+                    {card.numeral}
+                  </span>
+                  <div class="pb-0 sm:pb-2 md:pb-3">
+                    <span class="text-xs uppercase tracking-[0.2em] block"
+                      style={`font-family: var(--font-mono); color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
+                      {card.thothName}
+                    </span>
+                    <span class="text-[10px] block mt-0.5"
+                      style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+                      {card.heroPhase} &middot; {card.keyword}
+                    </span>
+                  </div>
+                </div>
+              )}
 
-          {/* Location + Room marker — positioned in hero */}
-          {experience && (
-            <div class="absolute bottom-32 md:bottom-40 right-6 md:right-12 text-right z-10" style="font-family: var(--font-mono);">
-              <div class="text-xs text-[var(--color-muted-silver)] opacity-50 uppercase tracking-[0.2em]">
-                {experience.location.name}
+              <h1
+                class="w-full max-w-[20ch] lg:max-w-[18ch] text-[clamp(1.95rem,4vw,3.55rem)] font-semibold leading-[0.96] md:leading-[1.02] mb-3 md:mb-4"
+                style="font-family: var(--font-display); color: var(--color-parchment); text-wrap: balance;"
+              >
+                {post.data.title}
+              </h1>
+
+              {normalizedPost.excerpt && (
+                <p class="post-dek mb-4 md:mb-5">
+                  {normalizedPost.excerpt}
+                </p>
+              )}
+
+              {experience && (
+                <div class="post-mobile-context lg:hidden mb-3 space-y-1" style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+                  <div class="text-[10px] uppercase tracking-[0.18em] opacity-55">
+                    {experience.location.name}
+                  </div>
+                  <div class="text-[11px] opacity-45">
+                    {experience.location.detail}
+                  </div>
+                  {experience.room && (
+                    <div class="text-[10px] uppercase tracking-[0.18em] opacity-35">
+                      Room {experience.room.number}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              <div class="post-meta-row flex flex-wrap items-center gap-2 sm:gap-3 md:gap-5 text-[11px] md:text-xs mb-0"
+                style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+                <time datetime={post.data.date.toISOString()}>
+                  {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                </time>
+                {post.data.location && (<><span class="opacity-30">/</span><span>{post.data.location}</span></>)}
+                {post.data.kosha && (<><span class="opacity-30">/</span><span style="color: var(--color-coherence-emerald);">{post.data.kosha}</span></>)}
+                {post.data.identity && (<><span class="opacity-30">/</span><span style="color: var(--color-witness-violet); opacity: 0.7;">{post.data.identity}</span></>)}
+                {post.data.suit && (
+                  <span class="px-2.5 py-0.5 rounded text-[10px] uppercase tracking-widest"
+                    style={`border: 1px solid ${palette ? `${palette.accentColor}33` : 'rgba(197,160,23,0.2)'}; color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
+                    {post.data.suit}
+                  </span>
+                )}
               </div>
-              <div class="text-[10px] text-[var(--color-muted-silver)] opacity-30 mt-0.5">
-                {experience.location.detail}
-              </div>
-              {experience.room && (
-                <div class="mt-2 text-xs opacity-25" style={`color: ${palette.accentColor};`}
-                  title={experience.room.meaning}>
-                  Room {experience.room.number}
+            </div>
+          </header>
+
+          {showIntroAside && (
+            <div class="post-intro-aside">
+              {showIntroHero && (
+                <figure class="post-intro-media">
+                  {heroImageAsset ? (
+                    <Picture
+                      src={heroImageAsset}
+                      alt={card?.thothName || post.data.title}
+                      formats={['avif']}
+                      fallbackFormat="webp"
+                      widths={[320, 480, 640, 800]}
+                      sizes={heroImageSizes}
+                      loading="eager"
+                      priority
+                      class="absolute inset-0 h-full w-full object-cover object-center"
+                      style={`opacity: ${layout === 'hermit-minimal' ? '0.18' : '0.58'};`}
+                      pictureAttributes={{ class: 'absolute inset-0 block h-full w-full' }}
+                    />
+                  ) : (
+                    <img
+                      src={heroImage}
+                      alt={card?.thothName || post.data.title}
+                      class="absolute inset-0 h-full w-full object-cover object-center"
+                      style={`opacity: ${layout === 'hermit-minimal' ? '0.18' : '0.58'};`}
+                      loading="eager"
+                      decoding="async"
+                      sizes={heroImageSizes}
+                    />
+                  )}
+                  <div
+                    class="absolute inset-0"
+                    style={`background: linear-gradient(180deg, rgba(7,11,29,0.08) 0%, ${palette?.backgroundColor || '#070B1D'}CC 100%);`}
+                  />
+                </figure>
+              )}
+
+              {experience && (
+                <div class="post-header-context hidden lg:block" style="font-family: var(--font-mono);">
+                  <div class="text-xs text-[var(--color-muted-silver)] opacity-52 uppercase tracking-[0.2em]">
+                    {experience.location.name}
+                  </div>
+                  <div class="text-[10px] text-[var(--color-muted-silver)] opacity-34 mt-0.5">
+                    {experience.location.detail}
+                  </div>
+                  {experience.room && (
+                    <div class="mt-3 text-[10px] uppercase tracking-[0.18em] opacity-28"
+                      style={`color: ${palette?.accentColor || 'var(--color-sacred-gold)'}`}
+                      title={experience.room.meaning}>
+                      Room {experience.room.number}
+                    </div>
+                  )}
+                  <p class="mt-6 text-[11px] italic leading-relaxed opacity-34"
+                    style="font-family: var(--font-body); color: var(--color-muted-silver);">
+                    {experience.sensoryNote}
+                  </p>
                 </div>
               )}
             </div>
           )}
         </div>
-      )}
 
-      {/* Title block — overlaps hero */}
-      <header class={`relative z-10 w-full ${heroImage ? '-mt-36 md:-mt-48' : 'pt-12'}`}>
-        <div class="post-header-block px-5 md:px-10 lg:px-16">
-          {/* Numeral — massive, full-width presence */}
-          {card && (
-            <div class="post-numeral-group flex items-end gap-6 md:gap-10 mb-4">
-              <span
-                class="text-[80px] md:text-[120px] lg:text-[160px] font-bold leading-none opacity-15"
-                style={`font-family: var(--font-display); color: ${palette?.accentColor || card.color};`}
-              >
-                {card.numeral}
-              </span>
-              <div class="pb-2 md:pb-4">
-                <span class="text-xs uppercase tracking-[0.2em] block"
-                  style={`font-family: var(--font-mono); color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
-                  {card.thothName}
-                </span>
-                <span class="text-[10px] block mt-0.5"
-                  style="font-family: var(--font-mono); color: var(--color-muted-silver);">
-                  {card.heroPhase} &middot; {card.keyword}
-                </span>
-              </div>
-            </div>
-          )}
-
-          {/* Title — full width */}
-          <h1 class="text-[28px] md:text-[42px] lg:text-[52px] font-semibold leading-[1.1] mb-6 max-w-[900px]"
-            style="font-family: var(--font-display); color: var(--color-parchment);">
-            {post.data.title}
-          </h1>
-
-          {/* Metadata row — spread across width */}
-          <div class="flex flex-wrap items-center gap-3 md:gap-5 text-xs mb-6"
-            style="font-family: var(--font-mono); color: var(--color-muted-silver);">
-            <time datetime={post.data.date.toISOString()}>
-              {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-            </time>
-            {post.data.location && (<><span class="opacity-30">/</span><span>{post.data.location}</span></>)}
-            {post.data.kosha && (<><span class="opacity-30">/</span><span style="color: var(--color-coherence-emerald);">{post.data.kosha}</span></>)}
-            {post.data.identity && (<><span class="opacity-30">/</span><span style="color: var(--color-witness-violet); opacity: 0.7;">{post.data.identity}</span></>)}
-            {post.data.suit && (
-              <span class="px-2.5 py-0.5 rounded text-[10px] uppercase tracking-widest"
-                style={`border: 1px solid ${palette ? `${palette.accentColor}33` : 'rgba(197,160,23,0.2)'}; color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
-                {post.data.suit}
-              </span>
-            )}
-          </div>
-
-          {/* Sensory note — hidden atmospheric detail */}
-          {experience && (
-            <p class="text-[11px] italic max-w-[600px] opacity-30 mb-8"
-              style="font-family: var(--font-body); color: var(--color-muted-silver);">
-              {experience.sensoryNote}
-            </p>
-          )}
-        </div>
-
-        {/* Full-width divider */}
-        <div class="w-full h-px"
+        <div class="w-full h-px mt-6 md:mt-8"
           style={`background: linear-gradient(90deg, transparent 5%, ${dividerColor}40 30%, ${dividerColor}40 70%, transparent 95%);`} />
-      </header>
+      </div>
     </section>
 
     {/* ═══════════════════════════════════════════
@@ -199,11 +303,11 @@ const journeyCards = sorted.map(p => {
 
       {/* Pull quote — inside content-area so it aligns with prose */}
       {/* Main content + Easter eggs — CSS layout drives structure via [data-layout] */}
-      <div class="post-content-area px-5 md:px-10 lg:px-16">
+      <div class="post-content-area px-5 sm:px-7 md:px-10 lg:px-14 xl:px-16">
 
         {/* Pull quote — sits above prose, aligned to same column */}
         {experience && layout !== 'hermit-minimal' && (
-          <div class="mb-10 lg:col-span-2">
+          <div class="post-pull-quote">
             <blockquote class="text-base md:text-lg italic leading-relaxed max-w-[640px] opacity-35"
               style={`font-family: var(--font-body); color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
               &ldquo;{experience.pullQuote}&rdquo;
@@ -211,82 +315,103 @@ const journeyCards = sorted.map(p => {
           </div>
         )}
 
-        {/* Content column */}
-        <div class="prose-synchronocities">
-          <Content />
-
-          {/* Closing line */}
-          {experience && (
-            <div class="mt-16 pt-8" style={`border-top: 1px solid ${dividerColor}1A;`}>
-              <p class="text-sm italic opacity-50" style={`color: ${palette?.accentColor || 'var(--color-muted-silver)'};`}>
-                {experience.closingLine}
-              </p>
-            </div>
-          )}
+        <div class={`${hasDesktopReadingSidebar ? 'lg:hidden' : ''} mb-8 space-y-4`}>
+          <PostTOC client:load />
+          <BackToTop client:load />
         </div>
 
-        {/* Easter eggs sidebar — hidden on mobile, visible on desktop */}
-        {experience && layout !== 'hermit-minimal' && (
-          <aside class="hidden lg:block sticky top-24 self-start space-y-6">
-            {/* Room marker */}
-            {experience.room && (
-              <div class="pb-5" style={`border-bottom: 1px solid ${dividerColor}15;`}>
-                <div class="text-[10px] uppercase tracking-[0.2em] mb-1"
-                  style={`font-family: var(--font-mono); color: ${palette?.accentColor || 'var(--color-muted-silver)'}; opacity: 0.5;`}>
-                  Room
-                </div>
-                <div class="text-2xl font-bold opacity-20"
-                  style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
-                  {experience.room.number}
-                </div>
-                <div class="text-[10px] mt-1 opacity-25 leading-tight"
-                  style="font-family: var(--font-mono); color: var(--color-muted-silver);">
-                  {experience.room.meaning}
-                </div>
+        <div class={`post-reading-shell ${hasDesktopReadingSidebar ? 'is-railed' : 'is-solo'}`}>
+          {/* Content column */}
+          <div id="post-reading" class="prose-synchronocities w-full">
+            <Content />
+
+            {/* Closing line */}
+            {experience && (
+              <div class="mt-16 pt-8" style={`border-top: 1px solid ${dividerColor}1A;`}>
+                <p class="text-sm italic opacity-50" style={`color: ${palette?.accentColor || 'var(--color-muted-silver)'};`}>
+                  {experience.closingLine}
+                </p>
               </div>
             )}
+          </div>
 
-            {/* Easter egg items */}
-            <div class="space-y-4">
-              <div class="text-[10px] uppercase tracking-[0.2em]"
-                style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.4;`}>
-                Synchronicities
+          {/* Easter eggs sidebar — hidden on mobile, visible on desktop */}
+          {experience && layout !== 'hermit-minimal' && (
+            <aside class="post-reading-rail hidden lg:block space-y-6">
+              <div class="space-y-4">
+                <PostTOC client:load />
+                <BackToTop client:load />
               </div>
-              {experience.easterEggs.map((egg) => (
-                <div class="group cursor-default" title={egg.meaning}>
-                  {egg.number && (
-                    <span class="text-xs font-bold opacity-25 block"
-                      style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
-                      {egg.number}
+
+              {/* Room marker */}
+              {experience.room && (
+                <div class="pb-5" style={`border-bottom: 1px solid ${dividerColor}15;`}>
+                  <div class="text-[10px] uppercase tracking-[0.2em] mb-1"
+                    style={`font-family: var(--font-mono); color: ${palette?.accentColor || 'var(--color-muted-silver)'}; opacity: 0.5;`}>
+                    Room
+                  </div>
+                  <div class="text-2xl font-bold opacity-20"
+                    style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
+                    {experience.room.number}
+                  </div>
+                  <div class="text-[10px] mt-1 opacity-25 leading-tight"
+                    style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+                    {experience.room.meaning}
+                  </div>
+                </div>
+              )}
+
+              {/* Easter egg items */}
+              <div class="space-y-4">
+                <div class="text-[10px] uppercase tracking-[0.2em]"
+                  style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.4;`}>
+                  Synchronicities
+                </div>
+                {experience.easterEggs.map((egg) => (
+                  <div class="group cursor-default" title={egg.meaning}>
+                    {egg.number && (
+                      <span class="text-xs font-bold opacity-25 block"
+                        style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
+                        {egg.number}
+                      </span>
+                    )}
+                    <span class="text-[11px] block"
+                      style={`font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;`}>
+                      {egg.label}
                     </span>
-                  )}
-                  <span class="text-[11px] block"
-                    style={`font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;`}>
-                    {egg.label}
-                  </span>
-                  <span class="text-[10px] block mt-0.5 opacity-0 group-hover:opacity-40 transition-opacity duration-500 leading-tight"
-                    style="font-family: var(--font-body); color: var(--color-parchment);">
-                    {egg.meaning}
-                  </span>
-                </div>
-              ))}
-            </div>
-
-            {/* Breath pattern */}
-            {experience.breathPattern && (
-              <div class="pt-5" style={`border-top: 1px solid ${dividerColor}10;`}>
-                <div class="text-[10px] uppercase tracking-[0.2em] mb-1"
-                  style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.3;`}>
-                  Breath
-                </div>
-                <div class="text-lg font-bold opacity-15 tracking-[0.3em]"
-                  style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
-                  {experience.breathPattern}
-                </div>
+                    <span class="text-[10px] block mt-0.5 opacity-0 group-hover:opacity-40 transition-opacity duration-500 leading-tight"
+                      style="font-family: var(--font-body); color: var(--color-parchment);">
+                      {egg.meaning}
+                    </span>
+                  </div>
+                ))}
               </div>
-            )}
-          </aside>
-        )}
+
+              {/* Breath pattern */}
+              {experience.breathPattern && (
+                <div class="pt-5" style={`border-top: 1px solid ${dividerColor}10;`}>
+                  <div class="text-[10px] uppercase tracking-[0.2em] mb-1"
+                    style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.3;`}>
+                    Breath
+                  </div>
+                  <div class="text-lg font-bold opacity-15 tracking-[0.3em]"
+                    style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
+                    {experience.breathPattern}
+                  </div>
+                </div>
+              )}
+            </aside>
+          )}
+        </div>
+      </div>
+
+      <div class="post-related-area px-5 sm:px-7 md:px-10 lg:px-14 xl:px-16">
+        <RelatedPostModules
+          currentTitle={post.data.title}
+          series={normalizedPost.series}
+          related={relatedArchiveRecords}
+          seriesCompanions={seriesCompanions}
+        />
       </div>
 
       {/* Mobile Easter eggs — collapsible at bottom */}
@@ -317,8 +442,8 @@ const journeyCards = sorted.map(p => {
     </div>
 
     {/* ═══════════════════════════════════════════
-        FOOTER + NEXT POST — Merged Full-Screen Experience
-        Circle progress fills → auto-navigates at 100%
+        FOOTER + NEXT POST — Opt-in continuation surface
+        Atmospheric transition remains, but navigation is explicit
     ═══════════════════════════════════════════ */}
     {nextPost ? (
       <NextPostReveal

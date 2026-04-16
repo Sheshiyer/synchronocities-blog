@@ -4,8 +4,40 @@ date: 2026-01-25
 excerpt: "A systematic framework for discovering and integrating patterns across mathematical, spiritual, historical, and technical domains — the cross-reference system that reveals hidden connections between seemingly unrelated knowledge structures."
 featured_image: "/cards/sync-cross-reference.webp"
 tags: ["lorenz-kundli", "cross-reference", "patterns", "system"]
+pinned: true
+pin_rank: 4
 draft: false
 revolution: 1
+article_mode: research-essay
+series: pattern-recognition
+entry_kind: essay
+concepts:
+  - knowledge graph
+  - cross-domain pattern
+  - mathematical-spiritual integration
+  - technical-mystical bridge
+  - pattern recognition
+related_posts:
+  - lorenz-kundli-system-index
+  - consciousness-architecture-hub
+  - historical-knowledge-patterns
+  - pattern-recognition-is-a-method
+hero:
+  eyebrow: Research System
+  subtitle: The navigation layer for discovering structural repeats across distant domains.
+  variant: image
+experience:
+  theme: lab
+  rail: concept
+  density: standard
+llm:
+  start_priority: supporting
+  summary: A research essay on the cross-reference system that turns fragmented knowledge into a navigable pattern graph.
+  cluster: pattern-recognition
+  canonical_questions:
+    - How does the cross-reference system connect mathematics, spirituality, and technical thinking?
+    - What workflows does the knowledge graph support?
+    - Why do patterns repeat across distant domains?
 ---
 
 # Pattern Cross-Reference System: Navigating the Knowledge Graph

@@ -22,3 +22,16 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# local QA / browser debug artifacts
+.playwright-mcp/
+.superset/
+/*.png
+*-after.png
+*-before.png
+*-current.png
+*-fixed.png
+*-final.png
+*-baseline.png
+*-snapshot.md
+tmp-*.png

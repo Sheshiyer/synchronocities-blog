@@ -11,6 +11,34 @@ draft: false
 excerpt: "Bangkok flipped the circuit the moment the helmet clicked. Map pinned. The street slid into a chrome river."
 featured_image: "/cards/tarot-bangkok-samui.webp"
 tags: ["bangkok", "koh-samui", "the-chariot", "the-fool", "thoth", "rider-waite", "kali", "kala", "witness-os"]
+article_mode: field-note
+series: thailand-journey
+entry_kind: essay
+concepts:
+  - travel initiation
+  - boundary and vector
+  - witness-os
+  - thailand journey
+  - field note
+related_posts:
+  - the-fool-before-the-leap
+  - ports-of-call
+  - the-star-names-you
+hero:
+  eyebrow: Field Note
+  subtitle: A hinge entry between Bangkok velocity and Samui radius.
+  variant: image
+experience:
+  theme: pilgrim
+  rail: timeline
+  density: standard
+llm:
+  start_priority: supporting
+  summary: A field note about travel initiation, boundary, and direction across Bangkok and Koh Samui.
+  cluster: thailand-journey
+  canonical_questions:
+    - What changed between the Bangkok initiation and the Samui invitation?
+    - How does this post encode direction, boundary, and travel rhythm?
 ---
 
 ## Bangkok: Thoth Initiation

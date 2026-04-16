@@ -3,63 +3,139 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { getCardByNumeral } from '../lib/tarot';
 import { getCardPalette } from '../lib/cardColors';
+import { buildArchiveDataset } from '../lib/archive';
 import JourneysAnimator from '../components/JourneysAnimator';
+import ArchiveDiscovery from '../components/ArchiveDiscovery';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
-
+const archiveDataset = buildArchiveDataset(allPosts);
 const cardPosts = allPosts.filter((p) => p.data.card);
-const otherPosts = allPosts.filter((p) => !p.data.card);
 
 const cardOrder: Record<string, number> = {
-  '0': 0, 'IX': 9, 'XIV': 14, 'XVI': 16, 'XVII': 17, 'XVIII': 18, 'XX': 20, 'XXI': 21,
+  '0': 0,
+  IX: 9,
+  XIV: 14,
+  XVI: 16,
+  XVII: 17,
+  XVIII: 18,
+  XX: 20,
+  XXI: 21,
 };
+
 const sortedCardPosts = [...cardPosts].sort((a, b) =>
   (cardOrder[a.data.card || ''] ?? 99) - (cardOrder[b.data.card || ''] ?? 99)
 );
-
-const sortedOtherPosts = [...otherPosts].sort(
-  (a, b) => b.data.date.getTime() - a.data.date.getTime()
-);
-
-const tagCounts = new Map<string, number>();
-allPosts.forEach((post) => {
-  post.data.tags.forEach((tag) => {
-    tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
-  });
-});
-const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
 ---
 
-<BaseLayout title="Journeys" description="All writings — travel journals, consciousness architecture, vedic mathematics, and more.">
-  <!-- Header -->
-  <header class="fixed top-0 left-0 right-0 z-20 flex items-center justify-between backdrop-blur-md"
-    style="padding: 2vh 4vw; background: rgba(7,11,29,0.85);">
+<BaseLayout title="Journeys" description="Interactive archive for the travel arc, research library, maps, and pilot essays.">
+  <header
+    class="fixed top-0 left-0 right-0 z-20 flex flex-wrap items-center justify-between gap-3 backdrop-blur-md"
+    style="padding: 2vh 4vw; background: rgba(7,11,29,0.85);"
+  >
     <a href="/">
-      <span style="font-family: var(--font-display); font-size: clamp(0.85rem, 1vw, 1.1rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-sacred-gold);">
+      <span
+        style="font-family: var(--font-display); font-size: clamp(0.85rem, 1vw, 1.1rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-sacred-gold);"
+      >
         Synchronocities
       </span>
     </a>
-    <nav class="flex" style="gap: 2.5vw; font-family: var(--font-mono); font-size: clamp(0.7rem, 0.75vw, 0.8rem);">
+    <nav class="flex max-w-[58vw] items-center justify-end gap-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-5 sm:pl-0" style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none;">
       <a href="/" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Depth</a>
       <a href="/journeys" style="color: var(--color-sacred-gold);">Journeys</a>
+      <a href="/research" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Research</a>
+      <a href="/maps" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Maps</a>
     </nav>
   </header>
 
   <main style="padding-top: 14vh; padding-bottom: 12vh;">
-
-    <!-- ═══ HERO ═══ -->
     <section style="padding: 0 6vw 8vh;">
-      <h1 data-anim="hero-title" style="font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 600; line-height: 1.05; color: var(--color-parchment); margin-bottom: 2vh;">
-        Journeys
-      </h1>
-      <p data-anim="hero-sub" style="font-family: var(--font-body); font-size: clamp(0.9rem, 1.05vw, 1.15rem); line-height: 1.7; color: var(--color-muted-silver); max-width: 45vw; opacity: 0.7;">
-        {allPosts.length} writings across consciousness architecture, travel journals, vedic mathematics, enneagram frameworks, and esoteric systems thinking.
-      </p>
+      <div style="display: grid; gap: 1.5rem; max-width: 72rem;">
+        <div style="display: flex; flex-wrap: wrap; gap: 0.65rem; align-items: center;">
+          <span
+            style="font-family: var(--font-mono); font-size: clamp(0.65rem, 0.7vw, 0.75rem); letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.68;"
+          >
+            Discovery Surface
+          </span>
+          <span
+            style="font-family: var(--font-mono); font-size: clamp(0.62rem, 0.68vw, 0.72rem); color: var(--color-muted-silver); opacity: 0.42;"
+          >
+            {archiveDataset.records.length} published records
+          </span>
+        </div>
+
+        <h1
+          data-anim="hero-title"
+          style="font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 600; line-height: 1.02; color: var(--color-parchment);"
+        >
+          Journeys, Maps, and the Research Library
+        </h1>
+
+        <p
+          data-anim="hero-sub"
+          style="font-family: var(--font-body); font-size: clamp(0.96rem, 1.05vw, 1.15rem); line-height: 1.75; color: var(--color-muted-silver); max-width: 52rem; opacity: 0.78;"
+        >
+          The tarot arc is still the signature entrance, but the archive now exposes hubs, reference pages, field notes, and pilot essays as first-class ways in. Browse the spiral, jump into maps, or search the research layer directly.
+        </p>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+          <a
+            href="#major-arcana"
+            style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(197,160,23,0.24); background: rgba(197,160,23,0.08); color: var(--color-sacred-gold);"
+          >
+            Walk The Travel Arc
+          </a>
+          <a
+            href="/research"
+            style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(16,181,167,0.2); background: rgba(16,181,167,0.08); color: var(--color-coherence-emerald);"
+          >
+            Browse Research
+          </a>
+          <a
+            href="/maps"
+            style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(138,155,168,0.18); background: rgba(14,20,40,0.5); color: var(--color-muted-silver);"
+          >
+            Open Maps & Indexes
+          </a>
+        </div>
+
+        <div style="display: grid; gap: 0.9rem; max-width: 60rem; border: 1px solid rgba(138,155,168,0.12); border-radius: 1rem; background: linear-gradient(180deg, rgba(14,20,40,0.78), rgba(7,11,29,0.94)); padding: 1rem 1.1rem;">
+          <span
+            style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.72;"
+          >
+            Start Here
+          </span>
+
+          <div style="display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+            <div style="display: grid; gap: 0.3rem;">
+              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-sacred-gold); opacity: 0.85;">01</span>
+              <strong style="font-family: var(--font-display); font-size: 1rem; color: var(--color-parchment);">Choose your reading mode</strong>
+              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none; font-size: 0.94rem; line-height: 1.6;">
+                Travel Arc for narrative continuity, Research for essay-first browsing, or Maps when you want orientation before depth.
+              </p>
+            </div>
+
+            <div style="display: grid; gap: 0.3rem;">
+              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-sacred-gold); opacity: 0.85;">02</span>
+              <strong style="font-family: var(--font-display); font-size: 1rem; color: var(--color-parchment);">Use the discovery controls</strong>
+              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none; font-size: 0.94rem; line-height: 1.6;">
+                Presets, topics, and search narrow the library once the page hydrates, but the default archive remains readable without them.
+              </p>
+            </div>
+
+            <div style="display: grid; gap: 0.3rem;">
+              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-sacred-gold); opacity: 0.85;">03</span>
+              <strong style="font-family: var(--font-display); font-size: 1rem; color: var(--color-parchment);">Enter through a flagship node</strong>
+              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none; font-size: 0.94rem; line-height: 1.6;">
+                If you want the fastest orientation, open the pilot essay or the hub and let the relationship links pull you deeper.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- ═══ MAJOR ARCANA — Visual Cards ═══ -->
     {sortedCardPosts.length > 0 && (
-      <section style="padding: 0 6vw 12vh;">
+      <section id="major-arcana" style="padding: 0 6vw 12vh;">
         <div data-anim="section-label" style="display: flex; align-items: center; gap: 2vw; margin-bottom: 5vh;">
           <span data-anim="section-text" style="font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.6; white-space: nowrap;">
             Major Arcana
@@ -75,6 +151,7 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
             const bg = palette?.backgroundColor || '#0E1428';
             const gFrom = palette?.gradientFrom || '#070B1D';
             const gVia = palette?.gradientVia || '#0E1428';
+
             return (
               <a
                 href={`/posts/${post.id}`}
@@ -82,7 +159,6 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
                 class="journeys-card group block cursor-pointer relative overflow-hidden transition-all duration-500"
                 style={`border-radius: 0.8vw; border: 1px solid ${accent}15; background: linear-gradient(160deg, ${gFrom}, ${gVia});`}
               >
-                {/* Background image */}
                 {palette?.textureSrc && (
                   <div class="absolute inset-0 transition-all duration-700 group-hover:scale-105 group-hover:opacity-30" style="opacity: 0.12;">
                     <img src={palette.textureSrc} alt="" class="w-full h-full object-cover" style="filter: saturate(0.3);" />
@@ -90,21 +166,17 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
                   </div>
                 )}
 
-                {/* Glow on hover */}
                 <div
                   class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
                   style={`background: radial-gradient(ellipse at 50% 80%, ${accent}15 0%, transparent 60%); filter: blur(2vw);`}
                 />
 
-                {/* Accent border glow on hover */}
                 <div
                   class="absolute inset-0 rounded-[0.8vw] opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
                   style={`box-shadow: inset 0 0 0 1px ${accent}30, 0 0 3vw ${accent}10;`}
                 />
 
-                {/* Content */}
                 <div class="relative" style="padding: 2.5vh 2vw;">
-                  {/* Numeral + Name row */}
                   <div style="display: flex; align-items: baseline; gap: 1vw; margin-bottom: 1.5vh;">
                     <span data-anim="card-numeral" class="transition-all duration-500 group-hover:opacity-25" style={`font-family: var(--font-display); font-size: clamp(2rem, 3vw, 3.5rem); font-weight: 700; line-height: 1; color: ${accent}; opacity: 0.12;`}>
                       {post.data.card}
@@ -116,7 +188,6 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
                     )}
                   </div>
 
-                  {/* Title */}
                   <h3
                     data-anim="card-title"
                     class="transition-colors duration-300"
@@ -125,7 +196,6 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
                     {post.data.title}
                   </h3>
 
-                  {/* Meta */}
                   <div style="display: flex; align-items: center; gap: 1vw;">
                     <time style={`font-family: var(--font-mono); font-size: clamp(0.55rem, 0.58vw, 0.62rem); color: var(--color-muted-silver); opacity: 0.4;`}>
                       {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
@@ -139,15 +209,6 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
                       </>
                     )}
                   </div>
-
-                  {/* Excerpt on hover */}
-                  {post.data.excerpt && (
-                    <p
-                      class="opacity-0 group-hover:opacity-50 transition-all duration-500"
-                      style={`font-family: var(--font-body); font-size: clamp(0.7rem, 0.78vw, 0.85rem); line-height: 1.5; color: var(--color-muted-silver); margin-top: 1.5vh; max-height: 0; overflow: hidden;`}
-                    >
-                    </p>
-                  )}
                 </div>
               </a>
             );
@@ -156,76 +217,7 @@ const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
       </section>
     )}
 
-    <!-- ═══ TOPICS ═══ -->
-    {sortedTags.length > 0 && (
-      <section style="padding: 0 6vw 10vh;">
-        <div data-anim="section-label" style="display: flex; align-items: center; gap: 2vw; margin-bottom: 4vh;">
-          <span data-anim="section-text" style="font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.6; white-space: nowrap;">
-            Topics
-          </span>
-          <div data-anim="section-line" style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(197,160,23,0.2), transparent);" />
-        </div>
-
-        <div class="flex flex-wrap" style="gap: 0.5vw;">
-          {sortedTags.slice(0, 30).map(([tag, count]) => (
-            <span
-              data-anim="topic"
-              class="transition-all duration-300 cursor-default hover:border-[rgba(197,160,23,0.3)]"
-              style={`font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); padding: 0.5vh 0.9vw; border-radius: 9999px; color: var(--color-muted-silver); opacity: 0.5; border: 1px solid rgba(138,155,168,0.1); background: rgba(14,20,40,0.3);`}
-            >
-              {tag}
-              <span style="opacity: 0.35; margin-left: 0.3vw;">{count}</span>
-            </span>
-          ))}
-        </div>
-      </section>
-    )}
-
-    <!-- ═══ ALL WRITINGS ═══ -->
-    <section style="padding: 0 6vw;">
-      <div data-anim="section-label" style="display: flex; align-items: center; gap: 2vw; margin-bottom: 5vh;">
-        <span data-anim="section-text" style="font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.6; white-space: nowrap;">
-          All Writings
-        </span>
-        <span style="font-family: var(--font-mono); font-size: clamp(0.55rem, 0.6vw, 0.65rem); color: var(--color-muted-silver); opacity: 0.3;">
-          {sortedOtherPosts.length}
-        </span>
-        <div data-anim="section-line" style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(197,160,23,0.2), transparent);" />
-      </div>
-
-      <div>
-        {sortedOtherPosts.map((post, i) => (
-          <a
-            href={`/posts/${post.id}`}
-            data-anim="writing-row"
-            class="group block cursor-pointer transition-all duration-300 hover:bg-[rgba(14,20,40,0.4)]"
-            style={`display: grid; grid-template-columns: 7vw 1fr auto; align-items: baseline; gap: 2vw; padding: 1.6vh 1vw; border-bottom: 1px solid rgba(138,155,168,0.05); border-radius: 0.3vw;`}
-          >
-            <time style="font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); color: var(--color-muted-silver); opacity: 0.35;">
-              {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: '2-digit' })}
-            </time>
-
-            <h3
-              data-anim="writing-title"
-              class="group-hover:text-[var(--color-sacred-gold)] transition-colors duration-300"
-              style="font-family: var(--font-body); font-size: clamp(0.9rem, 1vw, 1.1rem); font-weight: 400; line-height: 1.4; color: var(--color-parchment); transform-origin: left center;"
-            >
-              {post.data.title}
-            </h3>
-
-            {post.data.tags.length > 0 && (
-              <span
-                class="hidden sm:inline opacity-0 group-hover:opacity-30 transition-opacity duration-300"
-                style="font-family: var(--font-mono); font-size: clamp(0.5rem, 0.55vw, 0.6rem); color: var(--color-muted-silver); text-align: right;"
-              >
-                {post.data.tags[0]}
-              </span>
-            )}
-          </a>
-        ))}
-      </div>
-    </section>
-
+    <ArchiveDiscovery client:load dataset={archiveDataset} />
   </main>
 
   <JourneysAnimator client:load />

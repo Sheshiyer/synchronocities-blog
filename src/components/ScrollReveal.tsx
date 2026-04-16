@@ -2,6 +2,16 @@ import { useEffect } from 'react';
 
 export default function ScrollReveal() {
   useEffect(() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const paragraphs = document.querySelectorAll<HTMLElement>('.prose-synchronocities > p, .prose-synchronocities > blockquote');
+
+    if (prefersReducedMotion) {
+      paragraphs.forEach((paragraph) => {
+        paragraph.classList.add('scroll-reveal', 'revealed');
+      });
+      return;
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -10,13 +20,12 @@ export default function ScrollReveal() {
           }
         });
       },
-      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+      { threshold: 0.08, rootMargin: '0px 0px -20px 0px' }
     );
 
-    const paragraphs = document.querySelectorAll('.prose-synchronocities > p, .prose-synchronocities > blockquote');
-    paragraphs.forEach((p) => {
-      p.classList.add('scroll-reveal');
-      observer.observe(p);
+    paragraphs.forEach((paragraph) => {
+      paragraph.classList.add('scroll-reveal');
+      observer.observe(paragraph);
     });
 
     return () => observer.disconnect();

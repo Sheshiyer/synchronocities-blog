@@ -4,8 +4,41 @@ date: 2026-03-12
 excerpt: "A navigational hub for the consciousness-as-architecture research program — connecting bioelectric systems, information processing models, social programming analysis, and technical-mystical integration into a unified system design."
 featured_image: "/cards/sync-consciousness-hub.webp"
 tags: ["consciousness", "architecture", "hub", "overview"]
+pinned: true
+pin_rank: 1
 draft: false
 revolution: 1
+article_mode: hub
+series: consciousness-architecture
+entry_kind: hub
+foundational: true
+concepts:
+  - consciousness architecture
+  - bioelectric systems
+  - information processing
+  - social programming
+  - technical-mystical integration
+related_posts:
+  - bioelectric-pattern-framework
+  - pain-information-architecture
+  - consciousness-runtime-diagrams
+  - the-downstream-mind
+hero:
+  eyebrow: Orientation Hub
+  subtitle: A routing table for the consciousness-as-architecture research program.
+  variant: image
+experience:
+  theme: atlas
+  rail: index
+  density: standard
+llm:
+  start_priority: foundational
+  summary: A hub page that routes readers into the core consciousness architecture clusters, from bioelectric systems to technical-mystical integration.
+  cluster: consciousness-architecture
+  canonical_questions:
+    - Where should I start in the consciousness architecture research program?
+    - How do the bioelectric, information-processing, and social-programming clusters connect?
+    - Which essays define the core system design?
 ---
 
 # Consciousness Architecture Hub
