@@ -143,7 +143,7 @@ const journeyCards = Object.entries(cardOrder)
     <div class="element-ambient" />
 
     {/* Top nav */}
-    <nav class="relative z-10 px-4 sm:px-6 md:px-8 py-3 sm:py-5 flex items-center gap-4 justify-between">
+    <nav class="post-top-nav relative z-10 flex items-center gap-4 justify-between">
       <a href="/" class="inline-flex items-center gap-2 text-sm transition-colors hover:text-[var(--color-sacred-gold)]"
         style="font-family: var(--font-mono); color: var(--color-muted-silver);">
         <span>&larr;</span><span>Spiral</span>
@@ -157,20 +157,20 @@ const journeyCards = Object.entries(cardOrder)
         FULL-WIDTH IMMERSIVE HERO
         Each layout fills the viewport
     ═══════════════════════════════════════════ */}
-    <section class="relative w-full pt-4 sm:pt-6 md:pt-8">
-      <div class="post-intro-shell px-5 sm:px-7 md:px-10 lg:px-14 xl:px-16">
+    <section class="post-intro-section relative w-full">
+      <div class="post-intro-shell">
         <div class={`post-intro-grid ${introGridClass}`}>
           <header class="post-header-block">
             <div class="post-header-main">
               {card && (
-                <div class="post-numeral-group flex flex-col items-start gap-2 sm:flex-row sm:items-end sm:gap-6 md:gap-8 mb-4">
+                <div class="post-numeral-group flex flex-col items-start gap-2 sm:flex-row sm:items-end sm:gap-6 md:gap-8">
                   <span
                     class="text-[44px] sm:text-[60px] md:text-[92px] lg:text-[112px] font-bold leading-none opacity-15"
                     style={`font-family: var(--font-display); color: ${palette?.accentColor || card.color};`}
                   >
                     {card.numeral}
                   </span>
-                  <div class="pb-0 sm:pb-2 md:pb-3">
+                  <div class="post-numeral-copy">
                     <span class="text-xs uppercase tracking-[0.2em] block"
                       style={`font-family: var(--font-mono); color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
                       {card.thothName}
@@ -184,20 +184,20 @@ const journeyCards = Object.entries(cardOrder)
               )}
 
               <h1
-                class="w-full max-w-[20ch] lg:max-w-[18ch] text-[clamp(1.95rem,4vw,3.55rem)] font-semibold leading-[0.96] md:leading-[1.02] mb-3 md:mb-4"
+                class="post-title w-full max-w-[20ch] lg:max-w-[18ch] text-[clamp(1.95rem,4vw,3.55rem)] font-semibold leading-[0.96] md:leading-[1.02]"
                 style="font-family: var(--font-display); color: var(--color-parchment); text-wrap: balance;"
               >
                 {post.data.title}
               </h1>
 
               {normalizedPost.excerpt && (
-                <p class="post-dek mb-4 md:mb-5">
+                <p class="post-dek">
                   {normalizedPost.excerpt}
                 </p>
               )}
 
               {experience && (
-                <div class="post-mobile-context lg:hidden mb-3 space-y-1" style="font-family: var(--font-mono); color: var(--color-muted-silver);">
+                <div class="post-mobile-context lg:hidden" style="font-family: var(--font-mono); color: var(--color-muted-silver);">
                   <div class="text-[10px] uppercase tracking-[0.18em] opacity-55">
                     {experience.location.name}
                   </div>
@@ -221,7 +221,7 @@ const journeyCards = Object.entries(cardOrder)
                 {post.data.kosha && (<><span class="opacity-30">/</span><span style="color: var(--color-coherence-emerald);">{post.data.kosha}</span></>)}
                 {post.data.identity && (<><span class="opacity-30">/</span><span style="color: var(--color-witness-violet); opacity: 0.7;">{post.data.identity}</span></>)}
                 {post.data.suit && (
-                  <span class="px-2.5 py-0.5 rounded text-[10px] uppercase tracking-widest"
+                  <span class="post-suit-pill rounded text-[10px] uppercase tracking-widest"
                     style={`border: 1px solid ${palette ? `${palette.accentColor}33` : 'rgba(197,160,23,0.2)'}; color: ${palette?.accentColor || 'var(--color-sacred-gold)'};`}>
                     {post.data.suit}
                   </span>
@@ -268,20 +268,20 @@ const journeyCards = Object.entries(cardOrder)
 
               {experience && (
                 <div class="post-header-context hidden lg:block" style="font-family: var(--font-mono);">
-                  <div class="text-xs text-[var(--color-muted-silver)] opacity-52 uppercase tracking-[0.2em]">
+                  <div class="post-header-context-location text-xs text-[var(--color-muted-silver)] opacity-52 uppercase tracking-[0.2em]">
                     {experience.location.name}
                   </div>
-                  <div class="text-[10px] text-[var(--color-muted-silver)] opacity-34 mt-0.5">
+                  <div class="post-header-context-detail text-[10px] text-[var(--color-muted-silver)] opacity-34">
                     {experience.location.detail}
                   </div>
                   {experience.room && (
-                    <div class="mt-3 text-[10px] uppercase tracking-[0.18em] opacity-28"
+                    <div class="post-header-context-room text-[10px] uppercase tracking-[0.18em] opacity-28"
                       style={`color: ${palette?.accentColor || 'var(--color-sacred-gold)'}`}
                       title={experience.room.meaning}>
                       Room {experience.room.number}
                     </div>
                   )}
-                  <p class="mt-6 text-[11px] italic leading-relaxed opacity-34"
+                  <p class="post-header-context-note text-[11px] italic leading-relaxed opacity-34"
                     style="font-family: var(--font-body); color: var(--color-muted-silver);">
                     {experience.sensoryNote}
                   </p>
@@ -291,7 +291,7 @@ const journeyCards = Object.entries(cardOrder)
           )}
         </div>
 
-        <div class="w-full h-px mt-6 md:mt-8"
+        <div class="post-intro-divider w-full h-px"
           style={`background: linear-gradient(90deg, transparent 5%, ${dividerColor}40 30%, ${dividerColor}40 70%, transparent 95%);`} />
       </div>
     </section>
@@ -299,11 +299,11 @@ const journeyCards = Object.entries(cardOrder)
     {/* ═══════════════════════════════════════════
         CONTENT AREA — LAYOUT-SPECIFIC
     ═══════════════════════════════════════════ */}
-    <div class={`w-full ${layout === 'hermit-minimal' ? 'pt-16 pb-24' : 'pt-10 pb-20'}`}>
+    <div class={`post-body-shell w-full ${layout === 'hermit-minimal' ? 'is-hermit' : ''}`}>
 
       {/* Pull quote — inside content-area so it aligns with prose */}
       {/* Main content + Easter eggs — CSS layout drives structure via [data-layout] */}
-      <div class="post-content-area px-5 sm:px-7 md:px-10 lg:px-14 xl:px-16">
+      <div class="post-content-area">
 
         {/* Pull quote — sits above prose, aligned to same column */}
         {experience && layout !== 'hermit-minimal' && (
@@ -315,7 +315,7 @@ const journeyCards = Object.entries(cardOrder)
           </div>
         )}
 
-        <div class={`${hasDesktopReadingSidebar ? 'lg:hidden' : ''} mb-8 space-y-4`}>
+        <div class={`post-prelude-tools ${hasDesktopReadingSidebar ? 'lg:hidden' : ''}`}>
           <PostTOC client:load />
           <BackToTop client:load />
         </div>
@@ -327,7 +327,7 @@ const journeyCards = Object.entries(cardOrder)
 
             {/* Closing line */}
             {experience && (
-              <div class="mt-16 pt-8" style={`border-top: 1px solid ${dividerColor}1A;`}>
+              <div class="post-closing-line" style={`border-top: 1px solid ${dividerColor}1A;`}>
                 <p class="text-sm italic opacity-50" style={`color: ${palette?.accentColor || 'var(--color-muted-silver)'};`}>
                   {experience.closingLine}
                 </p>
@@ -337,16 +337,16 @@ const journeyCards = Object.entries(cardOrder)
 
           {/* Easter eggs sidebar — hidden on mobile, visible on desktop */}
           {experience && layout !== 'hermit-minimal' && (
-            <aside class="post-reading-rail hidden lg:block space-y-6">
-              <div class="space-y-4">
+            <aside class="post-reading-rail hidden lg:block">
+              <div class="post-rail-tools">
                 <PostTOC client:load />
                 <BackToTop client:load />
               </div>
 
               {/* Room marker */}
               {experience.room && (
-                <div class="pb-5" style={`border-bottom: 1px solid ${dividerColor}15;`}>
-                  <div class="text-[10px] uppercase tracking-[0.2em] mb-1"
+                <div class="post-rail-room" style={`border-bottom: 1px solid ${dividerColor}15;`}>
+                  <div class="post-rail-room-label text-[10px] uppercase tracking-[0.2em]"
                     style={`font-family: var(--font-mono); color: ${palette?.accentColor || 'var(--color-muted-silver)'}; opacity: 0.5;`}>
                     Room
                   </div>
@@ -354,7 +354,7 @@ const journeyCards = Object.entries(cardOrder)
                     style={`font-family: var(--font-display); color: ${palette?.accentColor};`}>
                     {experience.room.number}
                   </div>
-                  <div class="text-[10px] mt-1 opacity-25 leading-tight"
+                  <div class="post-rail-room-detail text-[10px] opacity-25 leading-tight"
                     style="font-family: var(--font-mono); color: var(--color-muted-silver);">
                     {experience.room.meaning}
                   </div>
@@ -362,7 +362,7 @@ const journeyCards = Object.entries(cardOrder)
               )}
 
               {/* Easter egg items */}
-              <div class="space-y-4">
+              <div class="post-rail-egg-list">
                 <div class="text-[10px] uppercase tracking-[0.2em]"
                   style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.4;`}>
                   Synchronicities
@@ -379,7 +379,7 @@ const journeyCards = Object.entries(cardOrder)
                       style={`font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;`}>
                       {egg.label}
                     </span>
-                    <span class="text-[10px] block mt-0.5 opacity-0 group-hover:opacity-40 transition-opacity duration-500 leading-tight"
+                    <span class="post-rail-egg-meaning text-[10px] block opacity-0 group-hover:opacity-40 transition-opacity duration-500 leading-tight"
                       style="font-family: var(--font-body); color: var(--color-parchment);">
                       {egg.meaning}
                     </span>
@@ -389,8 +389,8 @@ const journeyCards = Object.entries(cardOrder)
 
               {/* Breath pattern */}
               {experience.breathPattern && (
-                <div class="pt-5" style={`border-top: 1px solid ${dividerColor}10;`}>
-                  <div class="text-[10px] uppercase tracking-[0.2em] mb-1"
+                <div class="post-rail-breath" style={`border-top: 1px solid ${dividerColor}10;`}>
+                  <div class="post-rail-breath-label text-[10px] uppercase tracking-[0.2em]"
                     style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.3;`}>
                     Breath
                   </div>
@@ -405,7 +405,7 @@ const journeyCards = Object.entries(cardOrder)
         </div>
       </div>
 
-      <div class="post-related-area px-5 sm:px-7 md:px-10 lg:px-14 xl:px-16">
+      <div class="post-related-area">
         <RelatedPostModules
           currentTitle={post.data.title}
           series={normalizedPost.series}
@@ -416,20 +416,20 @@ const journeyCards = Object.entries(cardOrder)
 
       {/* Mobile Easter eggs — collapsible at bottom */}
       {experience && layout !== 'hermit-minimal' && (
-        <div class="lg:hidden px-5 md:px-10 mt-12 max-w-[1100px] mx-auto">
+        <div class="post-mobile-easter-eggs lg:hidden">
           <details class="group">
             <summary class="text-[11px] uppercase tracking-[0.2em] cursor-pointer list-none"
               style={`font-family: var(--font-mono); color: ${palette?.accentColor}; opacity: 0.4;`}>
               <span class="group-open:hidden">&#9656; Synchronicities</span>
               <span class="hidden group-open:inline">&#9662; Synchronicities</span>
             </summary>
-            <div class="mt-4 space-y-3 pl-2" style={`border-left: 1px solid ${dividerColor}20;`}>
+            <div class="post-mobile-egg-list" style={`border-left: 1px solid ${dividerColor}20;`}>
               {experience.easterEggs.map((egg) => (
                 <div>
                   <span class="text-[11px] block" style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.5;">
                     {egg.number ? `${egg.number} · ` : ''}{egg.label}
                   </span>
-                  <span class="text-[10px] block mt-0.5 opacity-35 leading-tight"
+                  <span class="post-mobile-egg-meaning text-[10px] block opacity-35 leading-tight"
                     style="font-family: var(--font-body); color: var(--color-parchment);">
                     {egg.meaning}
                   </span>

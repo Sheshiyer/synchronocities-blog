@@ -66,6 +66,121 @@
 
 ---
 
+# Article Intro Rhythm Pass
+
+## Discovery Summary
+
+- Trigger: the user flagged that the spacing between the article H1, description/dek, and quick-view panel still feels off on the shared post intro.
+- Requested guidance:
+  - `/Users/sheshnarayaniyer/.claude/skills/taste-skill/`
+  - `/Users/sheshnarayaniyer/.claude/skills/ui-ux-pro-max/`
+- Quality bar:
+  - refine the shared article intro rhythm, not a one-off page
+  - preserve Astro media behavior and the current article architecture
+  - verify the live intro on desktop and mobile after adjustment
+
+## Scope
+
+- [x] Reproduce the spacing issue on a representative article route.
+- [x] Identify which shared intro styles control the H1/dek/meta/quick-view rhythm.
+- [x] Adjust the shared spacing so the intro stack breathes more cleanly.
+- [x] Re-verify desktop and mobile intro spacing in-browser.
+- [x] Re-run relevant project checks and record the result.
+
+## Execution Plan
+
+### Phase 1 — Diagnose
+- [x] Inspect the live intro stack on `nadi-bioimpedance-protocol`.
+- [x] Read the shared post template and supporting CSS for the intro shell and quick-view panel.
+- [x] Convert the screenshot complaint into concrete spacing changes.
+
+### Phase 2 — Refine
+- [x] Improve the vertical rhythm between headline, dek, metadata, and quick-view panel.
+- [x] Keep the quick-view panel visually related to the intro without crowding the copy.
+- [x] Make sure the spacing still collapses well on mobile.
+
+### Phase 3 — Verify
+- [x] Re-check the representative article on desktop and mobile.
+- [x] Run the relevant verification commands.
+- [x] Record residual risk.
+
+## Review
+
+- Root cause: the shared article intro still depended on Tailwind spacing utilities for key rhythm between the H1, dek, metadata row, divider, and quick-view stack. On the affected route, those utilities were not producing real vertical separation, so the intro read as one compressed block.
+- Structural fix: the intro rhythm is now expressed in shared CSS instead of fragile per-element utility margins. `post-header-main` uses an explicit grid gap, the divider has its own top margin, and the pre-content quick-view wrapper uses explicit spacing and body-top padding.
+- Template fix:
+  - `src/pages/posts/[...slug].astro` now uses `post-title`, `post-intro-divider`, `post-body-shell`, and `post-prelude-tools` so the shared article intro can be tuned consistently.
+- CSS fix:
+  - `src/styles/global.css` now defines deterministic spacing for the intro stack and the quick-view section, plus a hermit-specific body-top override so the layout variants keep their intended feel.
+- Browser proof on `nadi-bioimpedance-protocol`:
+  - desktop (`1365x768`): H1→dek `22px`, dek→meta `22px`, meta→divider `38px`, divider→quick-view stack `52px`
+  - mobile (`390x844`): H1→dek `14px`, dek→meta `14px`, divider→quick-view stack `26px`
+  - outcome: the title block breathes properly and the quick-view panel now reads as the next section instead of a continuation of the dek.
+- Verification:
+  - `npm test` ✅
+  - `npm run validate:posts` ✅ `0` errors, `71` existing warnings
+  - `npm run build` ✅ success, `115` pages built
+- Residual risk: the underlying Tailwind spacing token issue still exists in the project, so any future layout relying on spacing utilities alone may drift again. This pass hardens the shared article intro specifically.
+
+---
+
+# Cross-Layout Article Audit
+
+## Discovery Summary
+
+- Trigger: the user asked to find issues like the intro-spacing problem across the posts and layouts, and to fix them using the shared strengths of the Astro framework rather than continuing with one-post patches.
+- Requested direction:
+  - audit representative posts across active layouts
+  - use the shared article shell and Astro-native structure where possible
+  - fix recurring layout/system issues instead of local anomalies
+
+## Scope
+
+- [x] Inventory the active article layouts and select representative routes.
+- [x] Audit representative posts for recurring intro/body spacing and containment issues.
+- [x] Refactor the shared Astro template/CSS where a repeated issue is confirmed.
+- [x] Re-verify representative routes on desktop and mobile.
+- [x] Re-run project checks and record residual risk.
+
+## Execution Plan
+
+### Phase 1 — Map
+- [x] Identify all active layout variants in the current post corpus.
+- [x] Choose representative posts that exercise each variant.
+
+### Phase 2 — Audit
+- [x] Inspect representative routes in-browser and measure recurring spacing failures.
+- [x] Distinguish shared-shell problems from intentional layout variance.
+
+### Phase 3 — Repair + Verify
+- [x] Adjust the shared article shell/CSS for repeated issues.
+- [x] Re-check representative routes on desktop and mobile.
+- [x] Run verification commands and document the outcome.
+
+## Review
+
+- Representative audit set:
+  - tarot layouts: `deep-trench-forge-shenzhen`, `the-tower-speaks-in-richter-scale`, `the-star-names-you`, `the-moon-refracts-everything`, `the-hermit-72-hours`, `temperance-compresses-to-essence`, `judgement-recollection-in-pai`, `the-universe-four-creatures-assemble`
+  - non-card modes: `hyperbolic-consciousness`, `pattern-cross-reference-system`, `bangkok-initiation-samui-invitation`, `consciousness-architecture-hub`, `lorenz-kundli-system-index`
+- Root cause: the shared post template still depended on utility `margin`/`padding` classes for key shell geometry, but the repo-wide reset in `src/styles/global.css` zeroes `margin` and `padding` after Tailwind is imported. That left post gutters, nav padding, section spacing, and some rail/mobile-module spacing partially stripped across layouts.
+- Structural fix:
+  - moved article-shell gutters, intro spacing, nav padding, title sizing, meta-row layout, rail stack spacing, closing-line spacing, and mobile easter-egg spacing into explicit shared post CSS
+  - removed the most important spacing-sensitive utility classes from `src/pages/posts/[...slug].astro` and replaced them with named article-shell classes
+- Browser proof:
+  - before fix on mobile representative routes: title/content/media often started at `0px` left gutter
+  - after fix on the full representative set:
+    - mobile title/content/media gutters: `20px`
+    - desktop intro/title left edge: `185px`
+    - desktop reading column left edge: `257px` on railed tarot layouts, `397px` on solo non-card layouts
+    - desktop rail gap: `64px` on railed tarot layouts
+- Verification:
+  - `npm test` ✅
+  - `npm run validate:posts` ✅ `0` errors, `71` existing legacy warnings
+  - `npm run build` ✅ success, `115` pages built
+- Residual risk: the underlying reset-order problem still exists project-wide, so any other surface that relies on utility `margin`/`padding` may still drift. The shared post system is now hardened against that by using explicit article CSS instead of utility spacing.
+
+---
+
 # Homepage Regression Recovery
 
 ## Discovery Summary
@@ -154,3 +269,60 @@
   - `npm test` ✅
   - `npm run validate:posts` ✅ `0` errors, `71` existing warnings
   - `npm run build` ✅ success, `115` pages built
+
+
+---
+
+# Global CSS Cascade Repair
+
+## Discovery Summary
+
+- Trigger: the user asked to eliminate the remaining repo-wide risk, not just harden the post system.
+- Root problem hypothesis:
+  - `src/styles/global.css` imports Tailwind first, then defines an unlayered universal reset and default element rules
+  - unlayered author rules outrank Tailwind's layered utilities, so utility `margin`/`padding` can fail globally
+- Quality bar:
+  - fix the cascade at the root, not just page-by-page
+  - preserve the established design tokens and site look
+  - verify representative non-post surfaces in-browser after the change
+  - rerun `npm test`, `npm run validate:posts`, and `npm run build`
+
+## Scope
+
+- [x] Move the global reset/default element rules into the correct Tailwind base layer.
+- [x] Keep component-level site styling intact while restoring utility spacing globally.
+- [x] Re-verify representative pages that rely on utility spacing outside the post system.
+- [x] Re-run project verification and record the outcome.
+
+## Execution Plan
+
+### Phase 1 — Isolate
+- [x] Confirm which `global.css` rules are globally shadowing utility spacing.
+- [x] Decide the minimal layer refactor that restores correct cascade behavior.
+
+### Phase 2 — Repair
+- [x] Refactor the global reset and element defaults into a base-layer block.
+- [x] Leave component/system-specific classes deterministic and avoid unnecessary visual churn.
+
+### Phase 3 — Verify
+- [x] Re-check representative pages in-browser.
+- [x] Run verification commands.
+- [x] Record residual risk.
+
+## Review
+
+- Root cause confirmed: `src/styles/global.css` imported Tailwind and then declared an unlayered universal reset plus default element rules. Because unlayered author CSS outranks Tailwind's layered utilities, shared `margin` and `padding` utilities could be zeroed out across the site.
+- System fix: moved the reset and default element rules into `@layer base`, restoring the intended Tailwind cascade without rewriting the project's existing component-class styling.
+- Intentional scope control: only the global reset/default element block was re-layered. Shared post-shell hardening from the previous pass remains in place, but the repo no longer depends on that workaround for utility spacing to function.
+- Browser proof:
+  - homepage `/`
+  - desktop (`1440x960`): header gutters `48px`; computed header padding `20px 20px 12px 12px`; nav gap `20px`
+  - mobile (`390x844`): header gutters `16px`; computed header padding `16px 16px 12px 12px`; nav inner left padding `12px`
+  - tarot detail `/card/0`
+  - desktop (`1440x960`): nav padding `32px`; header/main horizontal padding `32px`; negative title offset restored; meta row gap `16px`
+  - mobile (`390x844`): nav padding `24px`; header/main horizontal padding `24px`; title offset and meta spacing restored
+- Verification:
+  - `npm test` ✅
+  - `npm run validate:posts` ✅ `0` errors, `71` existing warnings
+  - `npm run build` ✅ success, `115` pages built
+- Residual risk: the repo-wide utility-spacing failure is fixed at the cascade level. Remaining layout variation risk is now normal page-level design work, not the previous systemic reset-order bug.

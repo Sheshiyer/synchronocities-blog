@@ -61,89 +61,91 @@
   font-display: swap;
 }
 
-/* ── Global Reset ── */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@layer base {
+  /* ── Global Reset ── */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-html {
-  background-color: var(--color-void-black);
-  color: var(--color-parchment);
-  font-family: var(--font-body);
-  font-size: 16px;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
-}
+  html {
+    background-color: var(--color-void-black);
+    color: var(--color-parchment);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
 
-body {
-  min-height: 100vh;
-  background-color: var(--color-void-black);
-  overflow-x: hidden;
-}
+  body {
+    min-height: 100vh;
+    background-color: var(--color-void-black);
+    overflow-x: hidden;
+  }
 
-/* ── Headings — Panchang, Wide Industrial-Panoramic ── */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-display);
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  line-height: 1.15;
-  color: var(--color-parchment);
-}
+  /* ── Headings — Panchang, Wide Industrial-Panoramic ── */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+    color: var(--color-parchment);
+  }
 
-h1:not([class]) { font-size: var(--text-2xl); }
-h2:not([class]) { font-size: var(--text-xl); }
-h3:not([class]) { font-size: var(--text-lg); }
+  h1:not([class]) { font-size: var(--text-2xl); }
+  h2:not([class]) { font-size: var(--text-xl); }
+  h3:not([class]) { font-size: var(--text-lg); }
 
-/* ── Body Text ── */
-p {
-  max-width: 680px;
-  color: var(--color-parchment);
-  opacity: 0.9;
-}
+  /* ── Body Text ── */
+  p {
+    max-width: 680px;
+    color: var(--color-parchment);
+    opacity: 0.9;
+  }
 
-/* ── Code/Data — SF Mono ── */
-code, pre {
-  font-family: var(--font-mono);
-  font-size: 0.875em;
-}
+  /* ── Code/Data — SF Mono ── */
+  code, pre {
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+  }
 
-/* ── Links ── */
-a {
-  color: var(--color-sacred-gold);
-  text-decoration: none;
-  transition: color var(--duration-subtle) var(--ease-consciousness);
-}
+  /* ── Links ── */
+  a {
+    color: var(--color-sacred-gold);
+    text-decoration: none;
+    transition: color var(--duration-subtle) var(--ease-consciousness);
+  }
 
-a:hover {
-  color: var(--color-coherence-emerald);
-}
+  a:hover {
+    color: var(--color-coherence-emerald);
+  }
 
-/* ── Selection ── */
-::selection {
-  background-color: var(--color-witness-violet);
-  color: var(--color-parchment);
-}
+  /* ── Selection ── */
+  ::selection {
+    background-color: var(--color-witness-violet);
+    color: var(--color-parchment);
+  }
 
-/* ── Scrollbar (Webkit) ── */
-::-webkit-scrollbar {
-  width: 6px;
-}
+  /* ── Scrollbar (Webkit) ── */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
 
-::-webkit-scrollbar-track {
-  background: var(--color-void-black);
-}
+  ::-webkit-scrollbar-track {
+    background: var(--color-void-black);
+  }
 
-::-webkit-scrollbar-thumb {
-  background: var(--color-deep-surface);
-  border-radius: 3px;
-}
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-deep-surface);
+    border-radius: 3px;
+  }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-muted-silver);
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-muted-silver);
+  }
 }
 
 /* ── Utility: Gradients (Kha-Ba-La Arcs) ── */
@@ -488,6 +490,16 @@ a:hover {
   width: 100%;
   max-width: 1120px;
   margin: 0 auto;
+  padding-inline: clamp(1.25rem, 4vw, 3rem);
+}
+
+.post-top-nav {
+  padding-inline: clamp(1rem, 4vw, 2rem);
+  padding-block: clamp(0.75rem, 2vw, 1.25rem);
+}
+
+.post-intro-section {
+  padding-top: clamp(1rem, 2.6vw, 2rem);
 }
 
 .post-intro-grid {
@@ -502,6 +514,25 @@ a:hover {
   min-width: 0;
 }
 
+.post-header-main {
+  display: grid;
+  align-content: start;
+  row-gap: clamp(0.9rem, 1.75vw, 1.35rem);
+}
+
+.post-header-main > * {
+  margin: 0;
+}
+
+.post-title {
+  width: 100%;
+  max-width: min(100%, 20ch);
+  font-size: clamp(1.95rem, 4vw, 3.55rem);
+  font-weight: 600;
+  line-height: 0.96;
+  letter-spacing: -0.025em;
+}
+
 .post-dek {
   max-width: 33rem;
   font-family: var(--font-body);
@@ -512,7 +543,15 @@ a:hover {
 }
 
 .post-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.875rem;
   max-width: 48rem;
+}
+
+.post-intro-divider {
+  margin-top: clamp(1.4rem, 3vw, 2.35rem);
 }
 
 .post-intro-aside {
@@ -542,10 +581,62 @@ a:hover {
   text-align: left;
 }
 
+.post-header-context > * {
+  margin: 0;
+}
+
+.post-header-context-detail {
+  margin-top: 0.125rem;
+}
+
+.post-header-context-room {
+  margin-top: 0.75rem;
+}
+
+.post-header-context-note {
+  margin-top: 1.25rem;
+}
+
+.post-numeral-group {
+  margin-bottom: 1rem;
+}
+
+.post-numeral-copy {
+  padding-bottom: clamp(0rem, 0.7vw, 0.75rem);
+}
+
+.post-mobile-context {
+  display: grid;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-suit-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.125rem 0.625rem;
+}
+
 .post-pull-quote {
   width: 100%;
   max-width: 640px;
   margin: 0 auto 2.5rem;
+}
+
+.post-body-shell {
+  width: 100%;
+  padding-top: clamp(1.6rem, 3.2vw, 2.65rem);
+  padding-bottom: clamp(4rem, 7vw, 5rem);
+}
+
+.post-body-shell.is-hermit {
+  padding-top: clamp(2.4rem, 4.8vw, 3.75rem);
+}
+
+.post-prelude-tools {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: clamp(1.85rem, 3vw, 2.6rem);
 }
 
 .post-reading-shell {
@@ -555,6 +646,50 @@ a:hover {
 .post-reading-shell.is-solo {
   max-width: 640px;
   margin: 0 auto;
+}
+
+.post-closing-line {
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+
+.post-rail-tools,
+.post-rail-egg-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.post-rail-room {
+  padding-bottom: 1.25rem;
+}
+
+.post-rail-room-label,
+.post-rail-breath-label {
+  margin-bottom: 0.25rem;
+}
+
+.post-rail-room-detail,
+.post-rail-egg-meaning,
+.post-mobile-egg-meaning {
+  margin-top: 0.125rem;
+}
+
+.post-rail-breath {
+  padding-top: 1.25rem;
+}
+
+.post-mobile-easter-eggs {
+  width: 100%;
+  max-width: 1120px;
+  margin: 3rem auto 0;
+  padding-inline: clamp(1.25rem, 4vw, 3rem);
+}
+
+.post-mobile-egg-list {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
 }
 
 @media (min-width: 1024px) {
@@ -586,6 +721,21 @@ a:hover {
     width: 100%;
     max-width: 14rem;
     justify-self: stretch;
+  }
+
+  .post-body-shell {
+    padding-top: clamp(2.1rem, 4vw, 3.25rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .post-title {
+    max-width: min(100%, 18ch);
+    line-height: 1.02;
+  }
+
+  .post-meta-row {
+    gap: 0.5rem 1.25rem;
   }
 }
 
@@ -659,6 +809,10 @@ a:hover {
   max-width: 760px;
   margin: 0 auto;
   text-align: center;
+}
+[data-layout="hermit-minimal"] .post-header-main {
+  justify-items: center;
+  row-gap: clamp(1rem, 2vw, 1.55rem);
 }
 [data-layout="hermit-minimal"] .post-header-context {
   display: none;
