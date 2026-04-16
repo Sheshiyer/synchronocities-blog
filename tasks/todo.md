@@ -63,6 +63,61 @@
   - `npm test` ✅
   - `npm run validate:posts` ✅ `0` errors, `71` existing warnings
   - `npm run build` ✅ success, `115` pages built
+
+---
+
+# Homepage Regression Recovery
+
+## Discovery Summary
+
+- Trigger: after the `main` push, the user reported that the overall homepage UI was broken and shared a screenshot of the landing composition collapsing into a visually incoherent overlay.
+- Primary suspicion: the new split-entry shell in `src/pages/index.astro` is competing with the existing `DepthGallery` canvas instead of composing with it.
+- Quality bar:
+  - fix the regression at the source, not with a cosmetic band-aid
+  - preserve Astro and the current media handling model
+  - verify the homepage on real desktop and mobile viewports
+  - rerun the relevant project checks before closing
+
+## Scope
+
+- [x] Reproduce the broken homepage locally and confirm the failure mode.
+- [x] Identify the exact layout interaction causing the visual collapse.
+- [x] Refactor the homepage shell so the entry UI sits inside intentional gutters and a coherent visual hierarchy.
+- [x] Re-verify desktop and mobile homepage rendering in-browser.
+- [x] Run project verification and capture residual risk.
+
+## Execution Plan
+
+### Phase 1 — Diagnose
+- [x] Inspect the current homepage shell against the existing depth gallery behavior.
+- [x] Compare current homepage markup to the pre-regression version if needed.
+- [x] Translate the screenshot into concrete layout failures.
+
+### Phase 2 — Repair
+- [x] Remove or reduce the conflicting composition layer that is making the page feel broken.
+- [x] Restore a clear relationship between the depth gallery and the start-here entry controls.
+- [x] Tighten desktop and mobile spacing so nothing feels edge-hugging or visually accidental.
+
+### Phase 3 — Verify
+- [x] Re-check the homepage on desktop and mobile.
+- [x] Run the relevant project verification commands.
+- [x] Record the result and any follow-on design risk.
+
+## Review
+
+- Root cause: the new homepage onboarding shell in `src/pages/index.astro` added two large editorial cards on top of the existing `DepthGallery` canvas, which displaced the gallery as the primary interface and made the landing page read as a broken overlay instead of a coherent entry point.
+- Structural fix: the homepage now returns to the gallery-first composition. The large split onboarding shell was removed entirely, and the gallery's native label overlay is restored.
+- Navigation fix: discovery routes are still preserved through a lighter floating header that links directly to `Depth`, `Journeys`, `Research`, and `Maps` without obscuring the gallery.
+- Spacing fix: the header now uses explicit centered floating-bar geometry instead of relying on the previous full-width overlay treatment, which restores clear left/right gutters on both desktop and mobile.
+- Browser proof:
+  - desktop homepage at `1440x960`
+  - mobile homepage at `390x844`
+  - outcome: no oversized entry cards remain, the gallery is visually dominant again, and the only foreground chrome is the bounded route header plus the original label rail.
+- Verification:
+  - `npm test` ✅
+  - `npm run validate:posts` ✅ `0` errors, `71` existing warnings
+  - `npm run build` ✅ success, `115` pages built
+- Residual risk: the homepage is intentionally conservative now. If the project still wants a richer non-tarot discovery layer on the front page, that should be designed as a lighter secondary system that does not compete with the gallery canvas.
 - Residual risk: some layout variants still intentionally use dramatic typography and atmosphere. If the user wants a denser or more magazine-like system across every tarot layout, that should be a follow-on design pass rather than another shell hotfix.
 
 ## Follow-on Pass — Desktop Proportion + Astro Media
