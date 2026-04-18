@@ -1,0 +1,479 @@
+---
+import PostTOC from '../PostTOC';
+import BackToTop from '../BackToTop';
+import RelatedPostModules from '../RelatedPostModules.astro';
+import { buildNonCardArticleModel } from '../../lib/nonCardArticle.ts';
+
+const {
+  post,
+  normalizedPost,
+  Content,
+  relatedArchiveRecords = [],
+  seriesCompanions = [],
+} = Astro.props;
+
+const model = buildNonCardArticleModel(
+  { id: post.id, data: post.data, body: post.body },
+  normalizedPost,
+);
+
+const showRail = normalizedPost.experience.rail !== 'none';
+const subtitle = normalizedPost.hero.subtitle ?? normalizedPost.excerpt;
+const importedAt = normalizedPost.sourceBridge.importedAt
+  ? new Date(normalizedPost.sourceBridge.importedAt).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+    })
+  : null;
+const relatedLookup = new Map(relatedArchiveRecords.map((item) => [item.record.slug, item]));
+const curatedRelated = normalizedPost.relatedPosts
+  .map((slug) => relatedLookup.get(slug))
+  .filter(Boolean);
+const supportingRelated = [
+  ...curatedRelated,
+  ...relatedArchiveRecords.filter((item) => !normalizedPost.relatedPosts.includes(item.record.slug)),
+].slice(0, 4);
+const sectionHeadings = model.reading.headings.filter((heading) => heading.depth === 2);
+const railCollectionHref = normalizedPost.articleMode === 'field-note'
+  ? '/research?preset=field-notes'
+  : normalizedPost.entryKind === 'hub' || normalizedPost.entryKind === 'reference'
+    ? '/maps'
+    : '/research';
+const railCollectionLabel = normalizedPost.articleMode === 'field-note'
+  ? 'Field Notes'
+  : normalizedPost.entryKind === 'hub' || normalizedPost.entryKind === 'reference'
+    ? 'Maps'
+    : 'Research';
+const themeVars = [
+  `--article-accent: ${model.theme.accentColor}`,
+  `--article-background: ${model.theme.backgroundColor}`,
+  `--article-surface: ${model.theme.surfaceColor}`,
+  `--article-surface-elevated: ${model.theme.surfaceElevated}`,
+  `--article-border: ${model.theme.borderColor}`,
+  `--article-muted: ${model.theme.mutedColor}`,
+  `--article-gradient-from: ${model.theme.gradientFrom}`,
+  `--article-gradient-via: ${model.theme.gradientVia}`,
+  `--article-gradient-to: ${model.theme.gradientTo}`,
+  `--article-glow: ${model.theme.glowColor}`,
+].join('; ');
+const sourceBridgeVisible = Boolean(
+  normalizedPost.sourceBridge.platform ||
+    normalizedPost.sourceBridge.importedFields.length > 0 ||
+    normalizedPost.sourceBridge.vaultSources.length > 0 ||
+    model.qualityGateSummary.total > 0,
+);
+---
+
+<article
+  class="non-card-article"
+  data-article-mode={normalizedPost.articleMode}
+  data-article-rail={normalizedPost.experience.rail}
+  data-article-density={normalizedPost.experience.density}
+  data-article-theme={normalizedPost.experience.theme}
+  style={themeVars}
+>
+  <div class="non-card-backdrop-glow" />
+  <div class="non-card-backdrop-grid" />
+
+  <nav class="post-top-nav non-card-top-nav">
+    <a href="/" class="inline-flex items-center gap-2">
+      <span>&larr;</span>
+      <span>Spiral</span>
+    </a>
+    <div class="non-card-top-nav-meta">
+      <a href={railCollectionHref}>{railCollectionLabel}</a>
+      <span class="non-card-top-nav-dot">&middot;</span>
+      <span>{model.mode.label}</span>
+    </div>
+  </nav>
+
+  <section class="non-card-hero-shell">
+    <div class="non-card-hero">
+      <header class="non-card-hero-copy">
+        {normalizedPost.hero.eyebrow && (
+          <span class="non-card-eyebrow">{normalizedPost.hero.eyebrow}</span>
+        )}
+
+        <h1 class="non-card-title">{normalizedPost.title}</h1>
+
+        {subtitle && (
+          <p class="non-card-subtitle">{subtitle}</p>
+        )}
+
+        <div class="non-card-meta-row">
+          <time datetime={post.data.date.toISOString()}>
+            {post.data.date.toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
+          </time>
+          <span class="non-card-top-nav-dot">&middot;</span>
+          <span>{model.reading.readTimeMinutes} min read</span>
+          <span class="non-card-top-nav-dot">&middot;</span>
+          <span>{model.reading.wordCount.toLocaleString()} words</span>
+          {normalizedPost.series && (
+            <>
+              <span class="non-card-top-nav-dot">&middot;</span>
+              <span>{normalizedPost.series}</span>
+            </>
+          )}
+        </div>
+
+        <div class="non-card-pill-row">
+          <span class="non-card-pill">
+            {model.mode.label}
+          </span>
+          {normalizedPost.foundational && (
+            <span class="non-card-pill">Foundational</span>
+          )}
+          {normalizedPost.llm.startPriority !== 'none' && (
+            <span class="non-card-pill">
+              LLM {normalizedPost.llm.startPriority}
+            </span>
+          )}
+        </div>
+
+        {normalizedPost.concepts.length > 0 && (
+          <div class="non-card-chip-list">
+            {normalizedPost.concepts.slice(0, 6).map((concept) => (
+              <span class="non-card-chip">{concept}</span>
+            ))}
+          </div>
+        )}
+      </header>
+
+      <div class="non-card-hero-side">
+        {(model.heroFigure || normalizedPost.heroImage) && (
+          <figure class="non-card-hero-media">
+            <img
+              src={model.heroFigure?.asset ?? normalizedPost.heroImage}
+              alt={model.heroFigure?.alt ?? normalizedPost.title}
+              loading="eager"
+              decoding="async"
+            />
+            <figcaption>
+              <span>{model.heroFigure?.caption ?? model.mode.description}</span>
+            </figcaption>
+          </figure>
+        )}
+
+        {normalizedPost.articleMode === 'signal-essay' && model.frameworkAxes.length > 0 && (
+          <section class="non-card-panel">
+            <h2>Framework Axes</h2>
+            <dl class="non-card-axis-list">
+              {model.frameworkAxes.map((axis) => (
+                <div>
+                  <dt>{axis.label}</dt>
+                  <dd>{axis.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )}
+
+        {normalizedPost.articleMode === 'research-essay' && normalizedPost.llm.canonicalQuestions.length > 0 && (
+          <section class="non-card-panel">
+            <h2>Questions This Essay Answers</h2>
+            <ul class="non-card-list">
+              {normalizedPost.llm.canonicalQuestions.map((question) => (
+                <li>{question}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {normalizedPost.articleMode === 'field-note' && (
+          <section class="non-card-panel">
+            <h2>Waypoint</h2>
+            <dl class="non-card-key-value">
+              {post.data.location && (
+                <div>
+                  <dt>Location</dt>
+                  <dd>{post.data.location}</dd>
+                </div>
+              )}
+              {post.data.kosha && (
+                <div>
+                  <dt>Kosha</dt>
+                  <dd>{post.data.kosha}</dd>
+                </div>
+              )}
+              {post.data.identity && (
+                <div>
+                  <dt>Identity</dt>
+                  <dd>{post.data.identity}</dd>
+                </div>
+              )}
+              <div>
+                <dt>Sections</dt>
+                <dd>{sectionHeadings.length}</dd>
+              </div>
+            </dl>
+          </section>
+        )}
+
+        {normalizedPost.articleMode === 'hub' && (
+          <section class="non-card-panel">
+            <h2>How To Use This Hub</h2>
+            <ul class="non-card-list">
+              <li>Start at the first top-level section and follow linked routes outward.</li>
+              <li>Use the related module below to jump into the adjacent cluster.</li>
+              <li>Treat this page as a routing table, not a terminal essay.</li>
+            </ul>
+          </section>
+        )}
+
+        {normalizedPost.articleMode === 'reference' && (
+          <section class="non-card-panel">
+            <h2>Reference Profile</h2>
+            <dl class="non-card-key-value">
+              <div>
+                <dt>Sections</dt>
+                <dd>{sectionHeadings.length}</dd>
+              </div>
+              <div>
+                <dt>Figures</dt>
+                <dd>{normalizedPost.figures.length}</dd>
+              </div>
+              <div>
+                <dt>Questions</dt>
+                <dd>{normalizedPost.llm.canonicalQuestions.length}</dd>
+              </div>
+              {normalizedPost.series && (
+                <div>
+                  <dt>Series</dt>
+                  <dd>{normalizedPost.series}</dd>
+                </div>
+              )}
+            </dl>
+          </section>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <div class="non-card-body">
+    <div class="post-content-area">
+      <div class={`non-card-prelude-tools ${showRail ? 'lg:hidden' : ''}`}>
+        <PostTOC client:load />
+        <BackToTop client:load />
+      </div>
+
+      <div class={`non-card-reading-shell ${showRail ? 'has-rail' : 'is-solo'}`}>
+        <div class="non-card-main">
+          <div id="post-reading" class="prose-synchronocities non-card-prose">
+            <Content />
+          </div>
+
+          {model.sectionFigures.length > 0 && (
+            <section class="non-card-module">
+              <div class="non-card-module-head">
+                <h2>Figure Choreography</h2>
+                <p>Section-level image surfaces wired from frontmatter instead of hidden implementation notes.</p>
+              </div>
+              <div class="non-card-figure-grid">
+                {model.sectionFigures.map((figure) => (
+                  <figure class={`non-card-figure-card is-${figure.placement}`}>
+                    <img src={figure.asset} alt={figure.alt} loading="lazy" decoding="async" />
+                    <figcaption>
+                      <div class="non-card-figure-meta">
+                        <span>{figure.placementLabel}</span>
+                        {figure.anchorHref ? (
+                          <a href={figure.anchorHref}>{figure.anchorLabel}</a>
+                        ) : (
+                          <span>{figure.anchorLabel}</span>
+                        )}
+                      </div>
+                      {figure.caption && <p>{figure.caption}</p>}
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {(normalizedPost.llm.summary || normalizedPost.llm.canonicalQuestions.length > 0) && (
+            <section class="non-card-module">
+              <div class="non-card-module-head">
+                <h2>LLM Entry Layer</h2>
+                <p>Normalized prompts and clustering hints exposed directly from article metadata.</p>
+              </div>
+              {normalizedPost.llm.summary && (
+                <p class="non-card-module-copy">{normalizedPost.llm.summary}</p>
+              )}
+              {normalizedPost.llm.canonicalQuestions.length > 0 && (
+                <ul class="non-card-list">
+                  {normalizedPost.llm.canonicalQuestions.map((question) => (
+                    <li>{question}</li>
+                  ))}
+                </ul>
+              )}
+            </section>
+          )}
+
+          {model.easterEggGroups.length > 0 && (
+            <section class="non-card-module">
+              <div class="non-card-module-head">
+                <h2>Easter Egg Layers</h2>
+                <p>Visible, discoverable, and decoder-only signals remain staged instead of flattening into a single annotation wall.</p>
+              </div>
+              <div class="non-card-egg-groups">
+                {model.easterEggGroups.map((group) => (
+                  <details class="non-card-egg-group" open={!group.collapsed}>
+                    <summary>{group.label}</summary>
+                    <div class="non-card-egg-list">
+                      {group.items.map((egg) => (
+                        <article class="non-card-egg-card">
+                          <div class="non-card-egg-header">
+                            <span>{egg.kind}</span>
+                            <h3>{egg.label}</h3>
+                          </div>
+                          <p>{egg.description}</p>
+                          {egg.clue && (
+                            <p class="non-card-egg-clue">Clue: {egg.clue}</p>
+                          )}
+                        </article>
+                      ))}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {sourceBridgeVisible && (
+            <section class="non-card-module">
+              <div class="non-card-module-head">
+                <h2>Source Bridge</h2>
+                <p>Import provenance and quality-state surfaced without leaking private local file paths.</p>
+              </div>
+              <div class="non-card-source-grid">
+                {normalizedPost.sourceBridge.platform && (
+                  <div class="non-card-source-card">
+                    <span>Platform</span>
+                    <strong>{normalizedPost.sourceBridge.platform}</strong>
+                  </div>
+                )}
+                {importedAt && (
+                  <div class="non-card-source-card">
+                    <span>Imported</span>
+                    <strong>{importedAt}</strong>
+                  </div>
+                )}
+                {normalizedPost.sourceBridge.importedFields.length > 0 && (
+                  <div class="non-card-source-card">
+                    <span>Imported fields</span>
+                    <strong>{normalizedPost.sourceBridge.importedFields.length}</strong>
+                  </div>
+                )}
+                {normalizedPost.sourceBridge.vaultSources.length > 0 && (
+                  <div class="non-card-source-card">
+                    <span>Vault sources</span>
+                    <strong>{normalizedPost.sourceBridge.vaultSources.length}</strong>
+                  </div>
+                )}
+                {model.qualityGateSummary.total > 0 && (
+                  <div class="non-card-source-card">
+                    <span>Quality gates</span>
+                    <strong>{model.qualityGateSummary.passed}/{model.qualityGateSummary.total}</strong>
+                  </div>
+                )}
+              </div>
+            </section>
+          )}
+
+          {model.closingFigure && (
+            <figure class="non-card-closing-figure">
+              <img src={model.closingFigure.asset} alt={model.closingFigure.alt} loading="lazy" decoding="async" />
+              <figcaption>
+                <span>{model.closingFigure.anchorLabel}</span>
+                {model.closingFigure.caption && <p>{model.closingFigure.caption}</p>}
+              </figcaption>
+            </figure>
+          )}
+        </div>
+
+        {showRail && (
+          <aside class="non-card-rail hidden lg:block">
+            <div class="non-card-rail-stack">
+              <PostTOC client:load />
+              <BackToTop client:load />
+
+              {normalizedPost.experience.rail === 'concept' && (
+                <section class="non-card-panel">
+                  <h2>Concept Rail</h2>
+                  <div class="non-card-chip-list">
+                    {normalizedPost.concepts.slice(0, 8).map((concept) => (
+                      <span class="non-card-chip">{concept}</span>
+                    ))}
+                  </div>
+                  {model.frameworkAxes.length > 0 && (
+                    <dl class="non-card-axis-list compact">
+                      {model.frameworkAxes.map((axis) => (
+                        <div>
+                          <dt>{axis.label}</dt>
+                          <dd>{axis.value}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  )}
+                </section>
+              )}
+
+              {normalizedPost.experience.rail === 'timeline' && (
+                <section class="non-card-panel">
+                  <h2>Timeline Rail</h2>
+                  <ol class="non-card-outline-list">
+                    {sectionHeadings.slice(0, 8).map((heading) => (
+                      <li>
+                        <a href={`#${heading.slug}`}>{heading.text}</a>
+                      </li>
+                    ))}
+                  </ol>
+                </section>
+              )}
+
+              {normalizedPost.experience.rail === 'index' && (
+                <section class="non-card-panel">
+                  <h2>Index Rail</h2>
+                  <ol class="non-card-outline-list">
+                    {sectionHeadings.slice(0, 8).map((heading) => (
+                      <li>
+                        <a href={`#${heading.slug}`}>{heading.text}</a>
+                      </li>
+                    ))}
+                  </ol>
+                </section>
+              )}
+
+              {supportingRelated.length > 0 && (
+                <section class="non-card-panel">
+                  <h2>Linked Routes</h2>
+                  <ul class="non-card-route-list">
+                    {supportingRelated.map((item) => (
+                      <li>
+                        <a href={`/posts/${item.record.slug}`}>{item.record.title}</a>
+                        <span>{item.record.articleMode}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
+            </div>
+          </aside>
+        )}
+      </div>
+    </div>
+
+    <div class="post-related-area">
+      <RelatedPostModules
+        currentTitle={post.data.title}
+        series={normalizedPost.series}
+        related={relatedArchiveRecords}
+        seriesCompanions={seriesCompanions}
+      />
+    </div>
+  </div>
+</article>

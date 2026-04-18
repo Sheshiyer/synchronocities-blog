@@ -103,6 +103,21 @@ class Scroll {
     this.scrollTarget += deltaY * scrollDirection
   }
 
+  setScrollPosition(scrollAmount) {
+    this.scrollTarget = scrollAmount
+    this.scrollCurrent = scrollAmount
+    this.previousScrollCurrent = scrollAmount
+    this.rawVelocity = 0
+    this.velocity = 0
+    this.camera.position.z = this.cameraZFromScroll(scrollAmount)
+  }
+
+  jumpToPlaneIndex(index) {
+    const safeIndex = Math.max(0, index)
+    const scrollAmount = (safeIndex * this.gallery.planeGap) / this.scrollToWorldFactor
+    this.setScrollPosition(scrollAmount)
+  }
+
   updateVelocity() {
     this.rawVelocity = this.scrollCurrent - this.previousScrollCurrent
     this.velocity = THREE.MathUtils.lerp(this.velocity, this.rawVelocity, this.velocityDamping)

@@ -45,6 +45,14 @@ export default function DepthGallery({ posts, showLabelOverlay = true }: DepthGa
 
     let disposed = false
 
+    const findInitialPlaneIndex = (planeData: GalleryPlane[]) => {
+      const params = new URLSearchParams(window.location.search)
+      const requestedCard = params.get('card')?.trim().toUpperCase()
+      if (!requestedCard) return -1
+
+      return planeData.findIndex((plane) => plane.label.numeral.toUpperCase() === requestedCard)
+    }
+
     async function init() {
       const { Engine } = await import('../experience/Engine.js')
       const { Experience } = await import('../experience/Experience.js')
@@ -59,6 +67,11 @@ export default function DepthGallery({ posts, showLabelOverlay = true }: DepthGa
       engineRef.current = engine
       experienceRef.current = experience
       await engine.init()
+
+      const initialPlaneIndex = findInitialPlaneIndex(planeData as GalleryPlane[])
+      if (initialPlaneIndex >= 0) {
+        engine.scroll.jumpToPlaneIndex(initialPlaneIndex)
+      }
     }
 
     init()

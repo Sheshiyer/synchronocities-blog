@@ -2,6 +2,7 @@ import {
   getArticleExperience,
   resolveArticleMode,
   resolveEntryKind,
+  shouldShowInDepthSpiral,
   type ArticleMode,
   type EntryKind,
   type ExperienceDensity,
@@ -155,6 +156,9 @@ export interface NormalizedPostEntry {
   easterEggs: EasterEggSignal[];
 }
 
+const DEPTH_SPIRAL_DOC_TAGS = new Set(['hub', 'index', 'overview', 'reference']);
+const DEPTH_SPIRAL_DOC_TITLE_PATTERN = /\b(hub|index|overview|reference)\b/i;
+
 export function normalizePostEntry(entry: PostEntryLike): NormalizedPostEntry {
   const articleMode = resolveArticleMode(entry.data);
   const config = getArticleExperience(articleMode);
@@ -212,6 +216,24 @@ export function normalizePostEntry(entry: PostEntryLike): NormalizedPostEntry {
     figures: entry.data.figures ?? [],
     easterEggs: entry.data.easter_eggs ?? [],
   };
+}
+
+export function isDepthSpiralEligiblePost(
+  entry: Pick<NormalizedPostEntry, 'card' | 'articleMode' | 'title' | 'tags'>
+): boolean {
+  if (entry.card) {
+    return true;
+  }
+
+  if (!shouldShowInDepthSpiral(entry.articleMode)) {
+    return false;
+  }
+
+  if (DEPTH_SPIRAL_DOC_TITLE_PATTERN.test(entry.title)) {
+    return false;
+  }
+
+  return !entry.tags.some((tag) => DEPTH_SPIRAL_DOC_TAGS.has(tag.toLowerCase()));
 }
 
 export function slugifyHeading(text: string): string {

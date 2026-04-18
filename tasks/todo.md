@@ -1,3 +1,60 @@
+# Journeys Travelogue Reprioritization
+
+## Discovery Summary
+
+- Trigger: the user said the Shesh travelogue series should not be the main focus, should sort latest-first, and earlier clarified that hub/docs-style posts should not clutter the journeys spiral.
+- Quality bar:
+  - keep `/journeys` clean and specific
+  - let `Research` and `Maps` own essay/hub/reference discovery
+  - sort the travelogue entries newest-first
+  - run a project verification gate before closing
+
+## Scope
+
+- [x] Remove hub/docs-style discovery content from `/journeys`.
+- [x] Demote the travelogue lane in page copy and navigation emphasis.
+- [x] Sort the Shesh travelogue entries newest-first.
+- [x] Run verification and record results.
+
+## Execution Plan
+
+### Phase 1 — Align
+- [x] Reconcile the user correction with the current `/journeys`, `/research`, and `/maps` page split.
+- [x] Decide the narrowest clean structure for `/journeys`.
+
+### Phase 2 — Implement
+- [x] Refactor `/journeys` hero and support copy so it no longer frames the travel arc as the primary archive entrance.
+- [x] Remove the mixed archive discovery surface from `/journeys`.
+- [x] Re-sort travelogue cards by descending publish date.
+
+### Phase 3 — Verify
+- [x] Run the relevant build/test command(s).
+- [x] Record the outcome and residual risk.
+
+## Review
+
+- Structural change:
+  - `src/pages/journeys.astro` is no longer a mixed archive shell. The page now stays focused on the Shesh travelogue itself, and the `ArchiveDiscovery` surface was removed so hubs, references, and research browsing stay on `/maps` and `/research`.
+  - the travelogue cards now sort by descending `data.date` instead of tarot card order, so `/journeys` reflects the latest movement first.
+- Copy and emphasis change:
+  - the hero no longer frames the travel arc as the signature entrance to the whole archive
+  - CTA order now points readers to `Research` and `Maps` before the travelogue anchor
+  - the support copy explicitly explains that this page is a narrow narrative lane and that hub/reference material belongs on the other discovery routes
+- Verification:
+  - `npm test` ✅
+  - `npm run build` ✅
+  - `npm run build` re-ran `npm run validate:posts` in `prebuild` with `0` errors and the existing `71` legacy fallback warnings
+  - built-output proof from `dist/journeys/index.html` shows the first five travelogue entries as:
+    - `the-earthquake-that-said-goodbye` (`2025-05-08`)
+    - `the-seventh-floor` (`2025-05-05`)
+    - `the-universe-four-creatures-assemble` (`2025-05-01`)
+    - `judgement-recollection-in-pai` (`2025-04-22`)
+    - `temperance-compresses-to-essence` (`2025-04-15`)
+- Residual risk:
+  - this pass intentionally removes the mixed archive block from `/journeys`. If the project later wants a second archive-like control surface there again, it should be a travelogue-only filter/search shell rather than reintroducing hubs and reference routes onto the page.
+
+---
+
 # Article Interior Layout Refinement
 
 ## Discovery Summary
@@ -326,3 +383,148 @@
   - `npm run validate:posts` ✅ `0` errors, `71` existing warnings
   - `npm run build` ✅ success, `115` pages built
 - Residual risk: the repo-wide utility-spacing failure is fixed at the cascade level. Remaining layout variation risk is now normal page-level design work, not the previous systemic reset-order bug.
+
+---
+
+# Status Review — 2026-04-18
+
+## Discovery Summary
+
+- Trigger: review the live GitHub backlog, local task artifacts, unfinished edits, and lessons, then decide what should happen next.
+- Review scope:
+  - local worktree state
+  - `tasks/todo.md`
+  - `tasks/lessons.md`
+  - live GitHub issues, PRs, and milestones
+  - the last explicit upgrade-plan artifacts versus the current source tree
+
+## Scope
+
+- [x] Confirm whether the local repo has unfinished edits.
+- [x] Check whether `tasks/todo.md` has unchecked work.
+- [x] Review `tasks/lessons.md` for active project guidance.
+- [x] Verify the live GitHub issue and PR backlog.
+- [x] Cross-check the March/April upgrade plans against current code so “what’s next” is based on reality, not stale planning.
+
+## Review
+
+- Local repo state:
+  - `git status --short` returned clean output.
+  - `main` is aligned with `origin/main` at `13c1f89` (`fix(layout): restore article spacing and global cascade`).
+- Local task artifacts:
+  - `tasks/todo.md` currently has no unchecked boxes.
+  - `tasks/lessons.md` is active and relevant; no new lesson was added because this review did not involve a user correction or a repeated mistake pattern.
+- Live GitHub backlog:
+  - `gh issue list --state open` returned `[]`.
+  - `gh pr list --state open` returned `[]`.
+  - There are no active GitHub execution issues or PRs right now.
+- Milestone state:
+  - milestones `#1`, `#2`, and `#3` still exist and are still marked open
+  - each milestone currently has `0` open issues
+  - milestone `#3` (`Upstream Discovery Foundation`) is historically useful, but it is no longer functioning as a live execution board
+- Gaps from the March audit that are now closed in source:
+  - archive search, presets, topic filtering, and a research-library layer now exist through `src/lib/archive.ts`, `src/components/ArchiveDiscovery.tsx`, `src/pages/journeys.astro`, `src/pages/research.astro`, and `src/pages/maps.astro`
+  - non-card article metadata contracts now exist in `src/content.config.ts`, `src/lib/articleExperience.ts`, and `src/lib/postMetadata.ts`
+  - related-post relationship modules exist in `src/components/RelatedPostModules.astro`
+- Gaps that still appear unresolved in current source:
+  - `src/pages/posts/[...slug].astro` still renders article chrome primarily through tarot `cardExperience`; the non-card metadata system (`article_mode`, `hero`, `experience`, `figures`, `easter_eggs`, `source_bridge`, `llm`) is not yet meaningfully driving the article experience
+  - `src/content/posts/the-downstream-mind.md` now contains rich pilot metadata, but the post route is not yet rendering that richer structure as a true pilot article mode
+  - `/start.txt` is still missing
+  - `/llms-manifest.json` is still missing
+  - `src/pages/llms.txt.ts` and `src/pages/llms-full.txt.ts` are still largely flat exports rather than the richer guided/structured LLM surfaces described in the contract docs
+- Historical low-priority residue that still exists:
+  - `prevPost` is computed in `src/pages/posts/[...slug].astro` but not rendered as a true two-way footer navigation
+  - the historical “return to spiral at current card position” behavior remains unimplemented
+  - some card-specific ambitions from the March audit remain partial rather than absent
+
+## Recommended Next Queue
+
+- [ ] GitHub hygiene pass: close or rename the empty historical milestones and recreate live execution issues for the next wave so the backlog is not functionally blank.
+- [ ] Phase 4 restart: make `src/pages/posts/[...slug].astro` consume the non-card article contract so `signal-essay`, `research-essay`, `field-note`, `hub`, and `reference` become real rendering modes instead of archive-only metadata.
+- [ ] Downstream Mind pilot: render `hero`, `experience`, `figures`, `easter_eggs`, and `source_bridge` data as the first fully realized non-card article experience.
+- [ ] Phase 5 LLM surfaces: ship `/start.txt`, add `/llms-manifest.json`, and upgrade `/llms.txt` plus `/llms-full.txt` to use the normalized metadata and foundational-entry model already present in content.
+- [ ] Optional cleanup wave: address legacy tarot residue such as two-way footer navigation, spiral return-state behavior, and any still-partial card treatments only after the non-card article/LLM work is in motion.
+
+---
+
+# Execution Queue — 2026-04-18
+
+- [x] Reopen GitHub execution tracking: milestones `#1`–`#3` closed, milestone `#4` created, issues `#136`–`#140` opened, and issue `#136` already closed as completed tracking setup.
+- [x] Implement real non-card article rendering modes in `src/pages/posts/[...slug].astro` and route them through a dedicated non-card shell.
+- [x] Ship the Downstream Mind pilot from its existing metadata contract.
+- [x] Add `/start.txt`, `/llms-manifest.json`, and upgrade the existing LLM text routes.
+- [x] Clean up lower-priority tarot residue only after the new article and LLM work is stable.
+- [x] Run `npm test`, `npm run validate:posts`, and `npm run build`, then record the results here.
+
+## Execution Update — 2026-04-18
+
+- GitHub execution state:
+  - issues `#137`, `#138`, `#139`, and `#140` are completed locally and ready to close in GitHub tracking
+  - milestone `#4` is ready to close once the final cleanup issue is closed
+- Delivered renderer work:
+  - non-card posts now branch out of the tarot shell and render through `src/components/non-card/NonCardArticleShell.astro`
+  - `signal-essay`, `research-essay`, `field-note`, `hub`, and `reference` now expose distinct hero/rail/module behavior driven by normalized metadata
+  - `src/lib/nonCardArticle.ts` now centralizes reading stats, figure choreography, framework axes, easter-egg layering, and source-bridge summaries for the non-card shell
+- Delivered pilot work:
+  - `/posts/the-downstream-mind` now promotes the hero figure, section figures, closing figure, framework axes, layered easter eggs, LLM entry metadata, and source-bridge state into first-class article modules
+- Delivered LLM entry surfaces:
+  - `/start.txt` now exists as the high-signal orientation layer
+  - `/llms.txt` now reads as a guided discovery surface instead of a flat dump
+  - `/llms-full.txt` and `/llms-manifest.json` now emit normalized metadata from the shared `src/lib/llmDiscovery.ts` helper
+- Delivered cleanup pass:
+  - tarot and non-card posts now render a true two-way footer navigation through `src/components/PostFooterNav.astro`
+  - tarot return links now preserve card context via `/?card=<numeral>` in both the footer navigation and `NextPostReveal`
+  - the homepage depth gallery now reads `?card=` and jumps directly to the matching plane on load
+- Verification:
+  - `npm test` passed
+  - `npm run validate:posts` passed with `0` errors and the existing corpus-wide warning that 71 legacy non-card posts still use the fallback contract
+  - `npm run build` passed
+  - browser verification on the built static site confirmed:
+    - `/posts/the-tower-speaks-in-richter-scale` exposes `Return to Spiral` and `Back to Spiral` links targeting `/?card=XVI`
+    - `/?card=XVI` loads with The Tower plane active in the homepage depth gallery
+  - static output checks confirmed the new article modules on:
+    - `/posts/the-downstream-mind`
+    - `/posts/consciousness-architecture-hub`
+    - `/posts/lorenz-kundli-system-index`
+    - `/posts/pattern-cross-reference-system`
+    - `/posts/bangkok-initiation-samui-invitation`
+    - `/start.txt`
+    - `/llms.txt`
+    - `/llms-manifest.json`
+
+---
+
+# Depth Spiral Curation — 2026-04-18
+
+## Discovery Summary
+
+- Trigger: the user wants the journey/depth spiral cleaned up so hub-like and docs-like posts do not appear there, while remaining reachable through the other discovery surfaces already in place.
+- Assumption for this pass:
+  - remove `hub` and `reference` entries from the homepage depth spiral
+  - preserve essays and field notes in the spiral
+  - leave `/maps`, `/research`, `/journeys`, and relationship modules unchanged
+
+## Scope
+
+- [x] Define an explicit rule for which article modes are eligible for the homepage depth spiral.
+- [x] Apply that rule at the spiral source in `src/pages/index.astro`.
+- [x] Run focused verification and record the result.
+
+## Review
+
+- Structural change:
+  - `src/lib/articleExperience.ts` now exposes `showInDepthSpiral` per article mode, so typed `hub` and `reference` entries are explicitly marked as non-spiral surfaces.
+  - `src/lib/postMetadata.ts` now adds `isDepthSpiralEligiblePost()` so the homepage spiral can also exclude legacy doc-like entries that still advertise themselves through `hub`, `index`, `overview`, or `reference` cues in the title/tags.
+  - `src/pages/index.astro` now filters the depth gallery source through that spiral-eligibility rule instead of sending every published post into the homepage sequence.
+- Verification:
+  - `npm test` passed.
+  - `npm run build` passed. (`prebuild` re-ran `npm run validate:posts` with `0` errors and the existing `71` fallback warnings.)
+  - built-output proof on `dist/index.html`:
+    - `consciousness-architecture-hub` absent
+    - `lorenz-kundli-system-index` absent
+    - `lorenz-kundli-pattern-hub` absent
+    - `muse-enneagram-framework-overview` absent
+    - `the-downstream-mind` still present
+  - alternate-route proof:
+    - `dist/research/index.html` still contains `consciousness-architecture-hub`, `lorenz-kundli-system-index`, and `lorenz-kundli-pattern-hub`
+    - `dist/journeys/index.html` still contains all four doc-like nodes, so they remain reachable through the other archive surfaces

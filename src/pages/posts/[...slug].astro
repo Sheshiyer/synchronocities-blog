@@ -5,6 +5,7 @@ import { getCollection, render } from 'astro:content';
 import { getCardByNumeral } from '../../lib/tarot';
 import { getCardPalette } from '../../lib/cardColors';
 import { getCardExperience } from '../../lib/cardExperience';
+import { getArticleExperience, getArticleThemeTokens } from '../../lib/articleExperience';
 import { normalizePostEntry } from '../../lib/postMetadata';
 import { buildArchiveDataset, getRelatedArchiveRecords, getSeriesCompanions } from '../../lib/archive';
 import { getOptimizedCardImage } from '../../lib/cardImageAssets';
@@ -15,6 +16,8 @@ import NextPostReveal from '../../components/NextPostReveal';
 import PostTOC from '../../components/PostTOC';
 import BackToTop from '../../components/BackToTop';
 import RelatedPostModules from '../../components/RelatedPostModules.astro';
+import NonCardArticleShell from '../../components/non-card/NonCardArticleShell.astro';
+import PostFooterNav from '../../components/PostFooterNav.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -27,6 +30,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 const normalizedPost = normalizePostEntry(post);
+const isCardJourney = normalizedPost.articleMode === 'card-journey';
 const card = post.data.card ? getCardByNumeral(post.data.card) : null;
 const palette = post.data.card ? getCardPalette(post.data.card) : null;
 const experience = post.data.card ? getCardExperience(post.data.card) : null;
@@ -76,6 +80,26 @@ const prevCard = prevPost?.data.card ? getCardByNumeral(prevPost.data.card) : nu
 const nextCard = nextPost?.data.card ? getCardByNumeral(nextPost.data.card) : null;
 const prevPalette = prevPost?.data.card ? getCardPalette(prevPost.data.card) : null;
 const nextPalette = nextPost?.data.card ? getCardPalette(nextPost.data.card) : null;
+const prevNormalizedPost = prevPost ? normalizePostEntry(prevPost) : null;
+const nextNormalizedPost = nextPost ? normalizePostEntry(nextPost) : null;
+const prevArticleTheme = prevNormalizedPost ? getArticleThemeTokens(prevNormalizedPost.experience.theme) : null;
+const nextArticleTheme = nextNormalizedPost ? getArticleThemeTokens(nextNormalizedPost.experience.theme) : null;
+const prevRevealAccentColor = prevPalette?.accentColor || prevArticleTheme?.accentColor || '#8A9BA8';
+const nextRevealAccentColor = nextPalette?.accentColor || nextArticleTheme?.accentColor || '#C5A017';
+const nextRevealHeroImage = nextPalette?.textureSrc || nextNormalizedPost?.heroImage || nextPost?.data.featured_image;
+const returnToSpiralHref = post.data.card ? `/?card=${encodeURIComponent(post.data.card)}` : '/';
+const prevFooterEntry = prevPost ? {
+  slug: prevPost.id,
+  title: prevPost.data.title,
+  context: prevCard?.thothName || getArticleExperience(prevNormalizedPost?.articleMode || 'research-essay').label,
+  accentColor: prevRevealAccentColor,
+} : null;
+const nextFooterEntry = nextPost ? {
+  slug: nextPost.id,
+  title: nextPost.data.title,
+  context: nextCard?.thothName || getArticleExperience(nextNormalizedPost?.articleMode || 'research-essay').label,
+  accentColor: nextRevealAccentColor,
+} : null;
 
 const groupedJourneyCards = sorted
   .filter((p) => {
@@ -124,6 +148,7 @@ const journeyCards = Object.entries(cardOrder)
 
 <BaseLayout title={post.data.title} description={post.data.excerpt}>
   <ReadingProgress client:load />
+  {isCardJourney ? (
   <article
     class="relative min-h-screen"
     style={cardVars}
@@ -414,6 +439,8 @@ const journeyCards = Object.entries(cardOrder)
         />
       </div>
 
+      <PostFooterNav prev={prevFooterEntry} next={nextFooterEntry} returnHref={returnToSpiralHref} />
+
       {/* Mobile Easter eggs — collapsible at bottom */}
       {experience && layout !== 'hermit-minimal' && (
         <div class="post-mobile-easter-eggs lg:hidden">
@@ -453,18 +480,19 @@ const journeyCards = Object.entries(cardOrder)
         card={nextPost.data.card}
         cardName={nextCard?.thothName}
         heroPhase={nextCard?.heroPhase}
-        accentColor={nextPalette?.accentColor || '#C5A017'}
-        heroImage={nextPalette?.textureSrc || nextPost.data.featured_image}
+        accentColor={nextRevealAccentColor}
+        heroImage={nextRevealHeroImage}
         excerpt={nextPost.data.excerpt}
         revolution={post.data.revolution}
         tags={post.data.tags}
+        returnHref={returnToSpiralHref}
       />
     ) : (
       <footer class="w-full flex flex-col items-center justify-center" style="height: 50vh; gap: 2vh;">
         <span style="font-size: clamp(0.55rem, 0.65vw, 0.7rem); color: var(--color-muted-silver); opacity: 0.3; font-family: var(--font-mono);">
           Revolution {post.data.revolution}
         </span>
-        <a href="/" class="transition-colors hover:text-[var(--color-sacred-gold)]"
+        <a href={returnToSpiralHref} class="transition-colors hover:text-[var(--color-sacred-gold)]"
           style="font-size: clamp(0.55rem, 0.65vw, 0.7rem); text-transform: uppercase; letter-spacing: 0.2em; font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;">
           Return to Spiral
         </a>
@@ -473,4 +501,46 @@ const journeyCards = Object.entries(cardOrder)
 
     <ScrollReveal client:load />
   </article>
+  ) : (
+    <div>
+      <NonCardArticleShell
+        post={post}
+        normalizedPost={normalizedPost}
+        Content={Content}
+        relatedArchiveRecords={relatedArchiveRecords}
+        seriesCompanions={seriesCompanions}
+      />
+
+      <PostFooterNav prev={prevFooterEntry} next={nextFooterEntry} returnHref={returnToSpiralHref} />
+
+      {nextPost ? (
+        <NextPostReveal
+          client:load
+          title={nextPost.data.title}
+          slug={nextPost.id}
+          card={nextPost.data.card}
+          cardName={nextCard?.thothName}
+          heroPhase={nextCard?.heroPhase}
+          accentColor={nextRevealAccentColor}
+          heroImage={nextRevealHeroImage}
+          excerpt={nextPost.data.excerpt}
+          revolution={post.data.revolution}
+          tags={post.data.tags}
+          returnHref={returnToSpiralHref}
+        />
+      ) : (
+        <footer class="w-full flex flex-col items-center justify-center" style="height: 50vh; gap: 2vh;">
+          <span style="font-size: clamp(0.55rem, 0.65vw, 0.7rem); color: var(--color-muted-silver); opacity: 0.3; font-family: var(--font-mono);">
+            Revolution {post.data.revolution}
+          </span>
+          <a href={returnToSpiralHref} class="transition-colors hover:text-[var(--color-sacred-gold)]"
+            style="font-size: clamp(0.55rem, 0.65vw, 0.7rem); text-transform: uppercase; letter-spacing: 0.2em; font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;">
+            Return to Spiral
+          </a>
+        </footer>
+      )}
+
+      <ScrollReveal client:load />
+    </div>
+  )}
 </BaseLayout>

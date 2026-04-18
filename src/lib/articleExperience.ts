@@ -45,6 +45,21 @@ export interface ArticleExperienceConfig {
   defaultRail: ExperienceRail;
   defaultDensity: ExperienceDensity;
   supportsDecoder: boolean;
+  showInDepthSpiral: boolean;
+}
+
+export interface ArticleThemeTokens {
+  theme: ExperienceTheme;
+  accentColor: string;
+  backgroundColor: string;
+  surfaceColor: string;
+  surfaceElevated: string;
+  borderColor: string;
+  mutedColor: string;
+  gradientFrom: string;
+  gradientVia: string;
+  gradientTo: string;
+  glowColor: string;
 }
 
 export interface ArticleModeResolverInput {
@@ -63,6 +78,7 @@ export const ARTICLE_EXPERIENCE_REGISTRY: Record<ArticleMode, ArticleExperienceC
     defaultRail: 'timeline',
     defaultDensity: 'immersive',
     supportsDecoder: false,
+    showInDepthSpiral: true,
   },
   'signal-essay': {
     mode: 'signal-essay',
@@ -73,6 +89,7 @@ export const ARTICLE_EXPERIENCE_REGISTRY: Record<ArticleMode, ArticleExperienceC
     defaultRail: 'concept',
     defaultDensity: 'immersive',
     supportsDecoder: true,
+    showInDepthSpiral: true,
   },
   'research-essay': {
     mode: 'research-essay',
@@ -83,6 +100,7 @@ export const ARTICLE_EXPERIENCE_REGISTRY: Record<ArticleMode, ArticleExperienceC
     defaultRail: 'concept',
     defaultDensity: 'standard',
     supportsDecoder: false,
+    showInDepthSpiral: true,
   },
   'field-note': {
     mode: 'field-note',
@@ -93,6 +111,7 @@ export const ARTICLE_EXPERIENCE_REGISTRY: Record<ArticleMode, ArticleExperienceC
     defaultRail: 'timeline',
     defaultDensity: 'standard',
     supportsDecoder: false,
+    showInDepthSpiral: true,
   },
   hub: {
     mode: 'hub',
@@ -103,6 +122,7 @@ export const ARTICLE_EXPERIENCE_REGISTRY: Record<ArticleMode, ArticleExperienceC
     defaultRail: 'index',
     defaultDensity: 'standard',
     supportsDecoder: false,
+    showInDepthSpiral: false,
   },
   reference: {
     mode: 'reference',
@@ -113,6 +133,88 @@ export const ARTICLE_EXPERIENCE_REGISTRY: Record<ArticleMode, ArticleExperienceC
     defaultRail: 'none',
     defaultDensity: 'minimal',
     supportsDecoder: false,
+    showInDepthSpiral: false,
+  },
+};
+
+export const ARTICLE_THEME_TOKENS: Record<ExperienceTheme, ArticleThemeTokens> = {
+  tarot: {
+    theme: 'tarot',
+    accentColor: '#C5A017',
+    backgroundColor: '#070B1D',
+    surfaceColor: 'rgba(14, 20, 40, 0.82)',
+    surfaceElevated: 'rgba(14, 20, 40, 0.92)',
+    borderColor: 'rgba(197, 160, 23, 0.2)',
+    mutedColor: '#8A9BA8',
+    gradientFrom: '#070B1D',
+    gradientVia: '#0E1428',
+    gradientTo: '#2D0050',
+    glowColor: 'rgba(197, 160, 23, 0.24)',
+  },
+  signal: {
+    theme: 'signal',
+    accentColor: '#10B5A7',
+    backgroundColor: '#070B1D',
+    surfaceColor: 'rgba(10, 25, 33, 0.82)',
+    surfaceElevated: 'rgba(8, 18, 29, 0.94)',
+    borderColor: 'rgba(16, 181, 167, 0.24)',
+    mutedColor: '#9BB8B6',
+    gradientFrom: '#07111A',
+    gradientVia: '#0A1C28',
+    gradientTo: '#102B34',
+    glowColor: 'rgba(16, 181, 167, 0.18)',
+  },
+  lab: {
+    theme: 'lab',
+    accentColor: '#0B50FB',
+    backgroundColor: '#070B1D',
+    surfaceColor: 'rgba(11, 18, 42, 0.82)',
+    surfaceElevated: 'rgba(8, 13, 31, 0.94)',
+    borderColor: 'rgba(11, 80, 251, 0.22)',
+    mutedColor: '#9DA9D1',
+    gradientFrom: '#08101F',
+    gradientVia: '#0D1730',
+    gradientTo: '#141F3F',
+    glowColor: 'rgba(11, 80, 251, 0.18)',
+  },
+  pilgrim: {
+    theme: 'pilgrim',
+    accentColor: '#C65D3B',
+    backgroundColor: '#0D101B',
+    surfaceColor: 'rgba(28, 17, 17, 0.82)',
+    surfaceElevated: 'rgba(24, 14, 14, 0.94)',
+    borderColor: 'rgba(198, 93, 59, 0.24)',
+    mutedColor: '#C9A79B',
+    gradientFrom: '#130D12',
+    gradientVia: '#22141A',
+    gradientTo: '#321C1D',
+    glowColor: 'rgba(198, 93, 59, 0.16)',
+  },
+  atlas: {
+    theme: 'atlas',
+    accentColor: '#C5A017',
+    backgroundColor: '#081017',
+    surfaceColor: 'rgba(16, 21, 29, 0.82)',
+    surfaceElevated: 'rgba(12, 16, 24, 0.94)',
+    borderColor: 'rgba(197, 160, 23, 0.22)',
+    mutedColor: '#AEB6C0',
+    gradientFrom: '#0A1118',
+    gradientVia: '#101826',
+    gradientTo: '#192230',
+    glowColor: 'rgba(197, 160, 23, 0.15)',
+  },
+  codex: {
+    theme: 'codex',
+    accentColor: '#B9C4D0',
+    backgroundColor: '#060A11',
+    surfaceColor: 'rgba(12, 16, 24, 0.86)',
+    surfaceElevated: 'rgba(9, 12, 18, 0.95)',
+    borderColor: 'rgba(185, 196, 208, 0.18)',
+    mutedColor: '#A5B0BC',
+    gradientFrom: '#060A11',
+    gradientVia: '#0D131D',
+    gradientTo: '#171F29',
+    glowColor: 'rgba(185, 196, 208, 0.14)',
   },
 };
 
@@ -142,4 +244,12 @@ export function resolveEntryKind(input: ArticleModeResolverInput, mode = resolve
 
 export function getArticleExperience(mode: ArticleMode): ArticleExperienceConfig {
   return ARTICLE_EXPERIENCE_REGISTRY[mode];
+}
+
+export function getArticleThemeTokens(theme: ExperienceTheme): ArticleThemeTokens {
+  return ARTICLE_THEME_TOKENS[theme];
+}
+
+export function shouldShowInDepthSpiral(mode: ArticleMode): boolean {
+  return ARTICLE_EXPERIENCE_REGISTRY[mode].showInDepthSpiral;
 }

@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import DepthGallery from '../components/DepthGallery';
 import { getCollection } from 'astro:content';
-import { normalizePostEntry } from '../lib/postMetadata';
+import { isDepthSpiralEligiblePost, normalizePostEntry } from '../lib/postMetadata';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft && !data.hidden);
 
@@ -11,18 +11,17 @@ const sortedPosts = [...allPosts].sort((a, b) => {
   return a.data.date.getTime() - b.data.date.getTime();
 });
 
-const postsForGallery = sortedPosts.map((post) => {
-  const normalized = normalizePostEntry(post);
-
-  return {
+const postsForGallery = sortedPosts
+  .map((post) => normalizePostEntry(post))
+  .filter((normalized) => isDepthSpiralEligiblePost(normalized))
+  .map((normalized) => ({
     slug: normalized.slug,
     title: normalized.title,
     card: normalized.card,
     date: normalized.date.toISOString(),
     excerpt: normalized.excerpt,
     featuredImage: normalized.heroImage,
-  };
-});
+  }));
 ---
 
 <BaseLayout title="Synchronocities">

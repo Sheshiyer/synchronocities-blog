@@ -1,0 +1,54 @@
+---
+interface FooterNavEntry {
+  slug: string;
+  title: string;
+  context: string;
+  accentColor: string;
+}
+
+const {
+  prev = null,
+  next = null,
+  returnHref = '/',
+} = Astro.props as {
+  prev?: FooterNavEntry | null;
+  next?: FooterNavEntry | null;
+  returnHref?: string;
+};
+---
+
+<nav class="post-footer-nav" aria-label="Post navigation">
+  <div class="post-footer-nav-grid">
+    {prev ? (
+      <a
+        href={`/posts/${prev.slug}`}
+        class="post-footer-nav-card is-prev"
+        style={`--footer-accent: ${prev.accentColor};`}
+      >
+        <span class="post-footer-nav-kicker">Previous</span>
+        <strong>{prev.title}</strong>
+        <span class="post-footer-nav-context">{prev.context}</span>
+      </a>
+    ) : (
+      <div class="post-footer-nav-spacer" aria-hidden="true" />
+    )}
+
+    <a href={returnHref} class="post-footer-nav-center">
+      Return to Spiral
+    </a>
+
+    {next ? (
+      <a
+        href={`/posts/${next.slug}`}
+        class="post-footer-nav-card is-next"
+        style={`--footer-accent: ${next.accentColor};`}
+      >
+        <span class="post-footer-nav-kicker">Next</span>
+        <strong>{next.title}</strong>
+        <span class="post-footer-nav-context">{next.context}</span>
+      </a>
+    ) : (
+      <div class="post-footer-nav-spacer" aria-hidden="true" />
+    )}
+  </div>
+</nav>

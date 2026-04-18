@@ -16,6 +16,7 @@ interface NextPostProps {
   // Footer data
   revolution?: number;
   tags?: string[];
+  returnHref?: string;
 }
 
 export default function NextPostReveal({
@@ -29,6 +30,7 @@ export default function NextPostReveal({
   excerpt,
   revolution = 1,
   tags = [],
+  returnHref = '/',
 }: NextPostProps) {
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const wrapRef = useRef<HTMLDivElement>(null);
@@ -347,7 +349,7 @@ export default function NextPostReveal({
           )}
 
           <a
-            href="/"
+            href={returnHref}
             className="transition-colors"
             style={{
               fontFamily: 'var(--font-mono)',
@@ -677,7 +679,7 @@ export default function NextPostReveal({
                   Read Next
                 </a>
                 <a
-                  href="/"
+                  href={returnHref}
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',
