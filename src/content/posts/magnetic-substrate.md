@@ -4,7 +4,7 @@ date: 2026-04-20
 excerpt: "The magnetic dynamo beneath your feet has been coupled to oxygen for 540 million years. When it weakens, oxygen drops, melanin degrades to dopamine, and the three vortexes that run your cognition lose coherence. The geometry changes. This is not metaphor. This is magnetohydrodynamics."
 featured_image: "/cards/sync-magnetic-substrate.webp"
 tags: ["consciousness", "magnetism", "bioelectric", "temperature", "lorenz-kundli", "runtime", "patterns"]
-draft: true
+draft: false
 revolution: 1
 article_mode: signal-essay
 entry_kind: essay
