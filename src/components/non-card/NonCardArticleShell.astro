@@ -128,11 +128,7 @@ const sourceBridgeVisible = Boolean(
           {normalizedPost.foundational && (
             <span class="non-card-pill">Foundational</span>
           )}
-          {normalizedPost.llm.startPriority !== 'none' && (
-            <span class="non-card-pill">
-              LLM {normalizedPost.llm.startPriority}
-            </span>
-          )}
+          {/* llm.startPriority used for scoring, not rendered to readers */}
         </div>
 
         {normalizedPost.concepts.length > 0 && (
@@ -272,8 +268,7 @@ const sourceBridgeVisible = Boolean(
           {model.sectionFigures.length > 0 && (
             <section class="non-card-module">
               <div class="non-card-module-head">
-                <h2>Figure Choreography</h2>
-                <p>Section-level image surfaces wired from frontmatter instead of hidden implementation notes.</p>
+                <h2>Figures</h2>
               </div>
               <div class="non-card-figure-grid">
                 {model.sectionFigures.map((figure) => (
@@ -299,8 +294,7 @@ const sourceBridgeVisible = Boolean(
           {(normalizedPost.llm.summary || normalizedPost.llm.canonicalQuestions.length > 0) && (
             <section class="non-card-module llm-entry-layer" aria-hidden="true">
               <div class="non-card-module-head">
-                <h2>LLM Entry Layer</h2>
-                <p>Normalized prompts and clustering hints exposed directly from article metadata.</p>
+                <h2>About This Article</h2>
               </div>
               {normalizedPost.llm.summary && (
                 <p class="non-card-module-copy">{normalizedPost.llm.summary}</p>
@@ -318,8 +312,7 @@ const sourceBridgeVisible = Boolean(
           {model.easterEggGroups.length > 0 && (
             <section class="non-card-module">
               <div class="non-card-module-head">
-                <h2>Easter Egg Layers</h2>
-                <p>Visible, discoverable, and decoder-only signals remain staged instead of flattening into a single annotation wall.</p>
+                <h2>Hidden Signals</h2>
               </div>
               <div class="non-card-egg-groups">
                 {model.easterEggGroups.map((group) => (
@@ -345,46 +338,7 @@ const sourceBridgeVisible = Boolean(
             </section>
           )}
 
-          {sourceBridgeVisible && (
-            <section class="non-card-module">
-              <div class="non-card-module-head">
-                <h2>Source Bridge</h2>
-                <p>Import provenance and quality-state surfaced without leaking private local file paths.</p>
-              </div>
-              <div class="non-card-source-grid">
-                {normalizedPost.sourceBridge.platform && (
-                  <div class="non-card-source-card">
-                    <span>Platform</span>
-                    <strong>{normalizedPost.sourceBridge.platform}</strong>
-                  </div>
-                )}
-                {importedAt && (
-                  <div class="non-card-source-card">
-                    <span>Imported</span>
-                    <strong>{importedAt}</strong>
-                  </div>
-                )}
-                {normalizedPost.sourceBridge.importedFields.length > 0 && (
-                  <div class="non-card-source-card">
-                    <span>Imported fields</span>
-                    <strong>{normalizedPost.sourceBridge.importedFields.length}</strong>
-                  </div>
-                )}
-                {normalizedPost.sourceBridge.vaultSources.length > 0 && (
-                  <div class="non-card-source-card">
-                    <span>Vault sources</span>
-                    <strong>{normalizedPost.sourceBridge.vaultSources.length}</strong>
-                  </div>
-                )}
-                {model.qualityGateSummary.total > 0 && (
-                  <div class="non-card-source-card">
-                    <span>Quality gates</span>
-                    <strong>{model.qualityGateSummary.passed}/{model.qualityGateSummary.total}</strong>
-                  </div>
-                )}
-              </div>
-            </section>
-          )}
+          {/* Source bridge metadata: internal provenance, not rendered to readers */}
 
           {model.closingFigure && (
             <figure class="non-card-closing-figure">
@@ -405,7 +359,7 @@ const sourceBridgeVisible = Boolean(
 
               {normalizedPost.experience.rail === 'concept' && (
                 <section class="non-card-panel">
-                  <h2>Concept Rail</h2>
+                  <h2>Key Concepts</h2>
                   <div class="non-card-chip-list">
                     {normalizedPost.concepts.slice(0, 8).map((concept) => (
                       <span class="non-card-chip">{concept}</span>
@@ -426,7 +380,7 @@ const sourceBridgeVisible = Boolean(
 
               {normalizedPost.experience.rail === 'timeline' && (
                 <section class="non-card-panel">
-                  <h2>Timeline Rail</h2>
+                  <h2>Sections</h2>
                   <ol class="non-card-outline-list">
                     {sectionHeadings.slice(0, 8).map((heading) => (
                       <li>
@@ -439,7 +393,7 @@ const sourceBridgeVisible = Boolean(
 
               {normalizedPost.experience.rail === 'index' && (
                 <section class="non-card-panel">
-                  <h2>Index Rail</h2>
+                  <h2>Contents</h2>
                   <ol class="non-card-outline-list">
                     {sectionHeadings.slice(0, 8).map((heading) => (
                       <li>
@@ -457,7 +411,7 @@ const sourceBridgeVisible = Boolean(
                     {supportingRelated.map((item) => (
                       <li>
                         <a href={`/posts/${item.record.slug}`}>{item.record.title}</a>
-                        <span>{item.record.articleMode}</span>
+                        <span>{item.record.articleMode.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}</span>
                       </li>
                     ))}
                   </ul>
