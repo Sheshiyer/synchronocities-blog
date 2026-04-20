@@ -6,12 +6,25 @@ import { isDepthSpiralEligiblePost, normalizePostEntry } from '../lib/postMetada
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft && !data.hidden);
 
-// Sort by date chronologically (journey order)
-const sortedPosts = [...allPosts].sort((a, b) => {
-  return a.data.date.getTime() - b.data.date.getTime();
+// Deterministic shuffle: hash each slug to produce a stable non-linear order.
+// Changes only when posts are added/removed, not on every build.
+function hashCode(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) {
+    h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+  }
+  return h;
+}
+
+// Seed the shuffle from the total post count so adding a post reshuffles everything
+const seed = allPosts.length;
+const shuffledPosts = [...allPosts].sort((a, b) => {
+  const ha = hashCode(a.id + seed) >>> 0;
+  const hb = hashCode(b.id + seed) >>> 0;
+  return ha - hb;
 });
 
-const postsForGallery = sortedPosts
+const postsForGallery = shuffledPosts
   .map((post) => normalizePostEntry(post))
   .filter((normalized) => isDepthSpiralEligiblePost(normalized))
   .map((normalized) => ({
