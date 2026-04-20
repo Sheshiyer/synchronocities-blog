@@ -146,7 +146,7 @@ export default function ArchiveDiscovery({ dataset }: ArchiveDiscoveryProps) {
               whiteSpace: 'nowrap',
             }}
           >
-            Discovery Controls
+            Browse By
           </span>
           <div
             style={{
@@ -448,7 +448,7 @@ export default function ArchiveDiscovery({ dataset }: ArchiveDiscoveryProps) {
                       opacity: 0.55,
                     }}
                   >
-                    {record.series ?? 'entry route'}
+                    {record.series ?? ''}
                   </span>
                 </div>
 

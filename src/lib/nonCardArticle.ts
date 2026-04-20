@@ -60,8 +60,8 @@ const FIGURE_PLACEMENT_LABELS: Record<FigureSlot['placement'], string> = {
 
 const EASTER_EGG_LAYER_ORDER: EasterEggSignal['layer'][] = ['visible', 'discoverable', 'decoder'];
 const EASTER_EGG_LAYER_LABELS: Record<EasterEggSignal['layer'], string> = {
-  visible: 'Visible signals',
-  discoverable: 'Discoverable layer',
+  visible: 'Surface signals',
+  discoverable: 'Between the lines',
   decoder: 'Decoder ring',
 };
 

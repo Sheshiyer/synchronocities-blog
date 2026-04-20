@@ -9,6 +9,18 @@ const researchRecords = getArchivePreset(archiveDataset.records, 'research');
 const foundationalRecords = getArchivePreset(archiveDataset.records, 'foundational').filter((record) => !record.card);
 const pilotRecords = getArchivePreset(archiveDataset.records, 'pilot-downstream-mind').filter((record) => !record.card).slice(0, 3);
 
+function formatKind(record: (typeof archiveDataset.records)[number]) {
+  if (record.card) return `Travel Arc ${record.card}`;
+  if (record.entryKind === 'hub') return 'Hub';
+  if (record.entryKind === 'reference') return 'Reference';
+  switch (record.articleMode) {
+    case 'signal-essay': return 'Signal Essay';
+    case 'field-note': return 'Field Note';
+    case 'research-essay': return 'Research Essay';
+    default: return 'Essay';
+  }
+}
+
 function formatDate(value: string) {
   return new Date(value).toLocaleDateString('en-US', {
     month: 'short',
@@ -71,7 +83,7 @@ function formatDate(value: string) {
         {foundationalRecords.map((record) => (
           <a href={`/posts/${record.slug}`} style="display: grid; gap: 0.75rem; padding: 1.15rem; border-radius: 1rem; border: 1px solid rgba(138,155,168,0.12); background: linear-gradient(180deg, rgba(14,20,40,0.7), rgba(7,11,29,0.92));">
             <span style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.74;">
-              {record.entryKind}
+              {formatKind(record)}
             </span>
             <h2 style="font-family: var(--font-display); font-size: 1.35rem; line-height: 1.1; color: var(--color-parchment);">
               {record.title}
@@ -99,7 +111,7 @@ function formatDate(value: string) {
           <a href={`/posts/${record.slug}`} style="display: grid; gap: 0.7rem; padding: 1rem 1.1rem; border-radius: 0.9rem; border: 1px solid rgba(138,155,168,0.1); background: rgba(14,20,40,0.36);">
             <div style="display: flex; justify-content: space-between; gap: 0.75rem; align-items: baseline;">
               <span style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-coherence-emerald); opacity: 0.74;">
-                {record.articleMode}
+                {formatKind(record)}
               </span>
               <time style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-muted-silver); opacity: 0.45;">
                 {formatDate(record.date)}
@@ -131,7 +143,7 @@ function formatDate(value: string) {
           <a href={`/posts/${record.slug}`} style="display: grid; gap: 0.6rem; padding: 0.95rem 1rem; border-radius: 0.9rem; border: 1px solid rgba(138,155,168,0.08); background: rgba(14,20,40,0.28);">
             <div style="display: flex; justify-content: space-between; gap: 0.75rem; align-items: baseline; flex-wrap: wrap;">
               <span style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-muted-silver); opacity: 0.7;">
-                {record.entryKind}
+                {formatKind(record)}
               </span>
               <time style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-muted-silver); opacity: 0.45;">
                 {formatDate(record.date)}

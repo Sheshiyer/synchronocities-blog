@@ -80,13 +80,7 @@ const visibleSeriesCompanions = seriesCompanions.filter(
                   </p>
                 )}
 
-                <div style="display: flex; flex-wrap: wrap; gap: 0.45rem;">
-                  {reasons.slice(0, 3).map((reason) => (
-                    <span style="font-family: var(--font-mono); font-size: 0.65rem; padding: 0.38rem 0.5rem; border-radius: 999px; border: 1px solid rgba(138,155,168,0.12); color: var(--color-muted-silver); opacity: 0.7;">
-                      {reason.replace(/^[^:]+:/, '').replace(/-/g, ' ')}
-                    </span>
-                  ))}
-                </div>
+                {/* Relationship reasons used for scoring only, not rendered to readers */}
               </a>
             ))}
           </div>
