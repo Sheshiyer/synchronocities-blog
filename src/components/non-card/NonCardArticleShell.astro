@@ -295,7 +295,7 @@ const sourceBridgeVisible = Boolean(
           )}
 
           {(normalizedPost.llm.summary || normalizedPost.llm.canonicalQuestions.length > 0) && (
-            <section class="non-card-module">
+            <section class="non-card-module llm-entry-layer" aria-hidden="true">
               <div class="non-card-module-head">
                 <h2>LLM Entry Layer</h2>
                 <p>Normalized prompts and clustering hints exposed directly from article metadata.</p>
