@@ -857,7 +857,9 @@
 }
 
 .non-card-prose {
-  max-width: min(100%, 48rem);
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: break-word;
   padding: clamp(1.35rem, 2.6vw, 2rem);
   border-radius: 1.65rem;
   border: 1px solid var(--article-border);
@@ -986,8 +988,14 @@
   }
 
   .non-card-reading-shell.has-rail {
-    grid-template-columns: minmax(0, 47rem) minmax(14rem, 18rem);
+    grid-template-columns: 1fr 15rem;
+    gap: clamp(1.5rem, 3vw, 2.5rem);
     align-items: start;
+  }
+
+  .non-card-rail {
+    max-width: 15rem;
+    justify-self: end;
   }
 }
 
@@ -1007,6 +1015,10 @@
 
   .non-card-title {
     max-width: 100%;
+  }
+
+  .non-card-rail {
+    display: none;
   }
 }
 
