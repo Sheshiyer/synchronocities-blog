@@ -106,38 +106,55 @@ export default function ReadingProgress() {
       {showContext && (
         <div
           aria-live="polite"
+          className="reading-context-pill"
           style={{
             position: 'fixed',
             top: '0.8rem',
             right: '0.8rem',
             zIndex: 40,
-            maxWidth: 'min(18rem, calc(100vw - 1.6rem))',
-            padding: '0.55rem 0.75rem',
-            borderRadius: '9999px',
-            border: '1px solid rgba(197, 160, 23, 0.18)',
-            background: 'rgba(5, 9, 24, 0.82)',
-            backdropFilter: 'blur(14px)',
-            WebkitBackdropFilter: 'blur(14px)',
-            boxShadow: '0 16px 40px rgba(0, 0, 0, 0.25)',
-            color: 'var(--color-muted-silver)',
-            fontFamily: 'var(--font-mono)',
-            fontSize: '0.7rem',
-            lineHeight: 1.3,
-            letterSpacing: '0.02em',
+            maxWidth: 'min(20rem, calc(100vw - 1.6rem))',
+            borderRadius: '0.85rem',
+            background: 'linear-gradient(135deg, rgba(197, 160, 23, 0.25), rgba(45, 0, 80, 0.35), rgba(16, 181, 167, 0.2))',
+            padding: '1px',
+            boxShadow: '0 0 18px rgba(197, 160, 23, 0.12), 0 0 40px rgba(45, 0, 80, 0.08), 0 16px 40px rgba(0, 0, 0, 0.3)',
           }}
         >
-          <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.4rem 0.6rem' }}>
-            {sectionTitle && (
-              <span style={{ color: 'rgba(242, 241, 236, 0.92)' }}>
-                {sectionTitle}
-              </span>
-            )}
+          <div
+            style={{
+              padding: '0.6rem 0.85rem',
+              borderRadius: 'calc(0.85rem - 1px)',
+              background: 'rgba(7, 11, 29, 0.92)',
+              backdropFilter: 'blur(16px)',
+              WebkitBackdropFilter: 'blur(16px)',
+              color: 'var(--color-muted-silver)',
+              fontFamily: 'var(--font-mono)',
+              fontSize: '0.7rem',
+              lineHeight: 1.4,
+              letterSpacing: '0.02em',
+            }}
+          >
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+              {sectionTitle && (
+                <span style={{
+                  color: 'var(--color-parchment)',
+                  fontWeight: 500,
+                  fontSize: '0.72rem',
+                }}>
+                  {sectionTitle}
+                </span>
+              )}
 
-            {minutesLeft !== null && (
-              <span style={{ opacity: 0.82 }}>
-                {minutesLeft} min left
-              </span>
-            )}
+              {minutesLeft !== null && (
+                <span style={{
+                  color: 'var(--color-sacred-gold)',
+                  opacity: 0.72,
+                  fontSize: '0.65rem',
+                  letterSpacing: '0.06em',
+                }}>
+                  {minutesLeft} min left
+                </span>
+              )}
+            </div>
           </div>
         </div>
       )}
