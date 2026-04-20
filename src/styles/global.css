@@ -562,6 +562,7 @@
   display: grid;
   gap: 1rem;
   min-width: 0;
+  overflow: hidden;
 }
 
 .non-card-eyebrow {
@@ -581,11 +582,11 @@
 
 .non-card-title {
   margin: 0;
-  max-width: 16ch;
+  max-width: 100%;
   font-family: var(--font-display);
-  font-size: clamp(2.3rem, 5.6vw, 5rem);
-  line-height: 0.94;
-  letter-spacing: -0.03em;
+  font-size: clamp(2rem, 4.2vw, 3.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
   text-wrap: balance;
 }
 
@@ -966,7 +967,7 @@
 }
 
 [data-article-mode="signal-essay"] .non-card-title {
-  max-width: 14ch;
+  max-width: 22ch;
 }
 
 [data-article-mode="field-note"] .non-card-prose {
@@ -980,7 +981,8 @@
 
 @media (min-width: 1024px) {
   .non-card-hero {
-    grid-template-columns: minmax(0, 45rem) minmax(18rem, 24rem);
+    grid-template-columns: 1fr minmax(16rem, 22rem);
+    gap: clamp(2rem, 4vw, 3.5rem);
   }
 
   .non-card-reading-shell.has-rail {
