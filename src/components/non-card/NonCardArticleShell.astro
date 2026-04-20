@@ -153,9 +153,11 @@ const sourceBridgeVisible = Boolean(
               loading="eager"
               decoding="async"
             />
-            <figcaption>
-              <span>{model.heroFigure?.caption ?? model.mode.description}</span>
-            </figcaption>
+            {model.heroFigure?.caption && (
+              <figcaption>
+                <span>{model.heroFigure.caption}</span>
+              </figcaption>
+            )}
           </figure>
         )}
 
