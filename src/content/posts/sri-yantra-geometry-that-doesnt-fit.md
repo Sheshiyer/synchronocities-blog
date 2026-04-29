@@ -3,19 +3,19 @@ title: "Sri Yantra and the Geometry That Doesn't Fit"
 date: 2026-04-30
 revolution: 1
 draft: false
-excerpt: "The Sri Yantra carries a 9-fold inner symmetry inside a 4-fold outer frame — a Penrose-class object whose inner figure is too rich for the plane to host periodically. The diagram is, in modern terms, signaling that its natural ambient is not flat. Empirical geometric mastery preceded formal classification by two thousand years."
+excerpt: "Nine interlocking triangles — five descending śakti, four ascending śiva. Forty-three intersecting regions plus the bindu. The inner figure carries D₉ dihedral symmetry, which the crystallographic restriction forbids on the flat plane. The yantra is a Penrose-class object engineered to signal that its natural ambient is not the page it is drawn on."
 featured_image: "/cards/sync-sri-yantra-geometry.webp"
 tags: ["runtime", "akshara", "sri-yantra", "meru", "symmetry", "geometry", "mantra", "pingala"]
 article_mode: signal-essay
 entry_kind: essay
 concepts:
   - sri yantra as quasi-periodic object
-  - non-crystallographic inner symmetry
+  - non-crystallographic inner symmetry as substrate signal
   - meru prastara as combinatorial generator
   - pingala pascal-triangle priority
   - 3d maha meru as resolution
   - empirical mastery preceding formal theory
-  - sacred geometry as substrate report
+  - traditions encode substrate reports
 related_posts:
   - hyperbolic-mantra
   - seventeen-ways-pattern-repeats
@@ -23,11 +23,11 @@ related_posts:
   - the-word-as-code
 hero:
   eyebrow: "Sonic Geometry"
-  subtitle: "Nine-fold inner, four-fold outer. The yantra signals — through its non-crystallographic core — that its natural embedding is not the page it sits on."
+  subtitle: "Nine-fold inner. Four-fold outer. The yantra signals — through its non-crystallographic core — that its natural embedding is not the page it sits on."
   variant: image
 llm:
   start_priority: supporting
-  summary: "The Sri Yantra is composed of nine interlocking triangles (5 śakti pointing down, 4 śiva pointing up) carrying D₉ dihedral symmetry — 9-fold rotation × reflection. 9-fold rotational symmetry is forbidden by the crystallographic restriction on the flat plane. The outer 8-petal lotus, 16-petal lotus, three circles, and square frame with cardinal gates carry periodic 4-fold or 8-fold structure. The figure is therefore structurally Penrose-class: its inner symmetry is too rich for the plane to host periodically. Read in modern terms, the yantra is signaling that its natural ambient is hyperbolic — the same conclusion the previous post (Hyperbolic Mantra) reached from DMT phenomenology. Pingala's Meru Prastara (~200 BCE) is Pascal's triangle ~1800 years before Pascal, originally constructed for enumerating Sanskrit prosodic patterns; it is the discrete combinatorial generator that yields the cardinality of the phonemic register itself. The 3D Maha Meru pyramid form resolves the planar quasi-periodicity by lifting off the plane. Both diagrams represent empirical geometric mastery long preceding formal theory — Fedorov 1891 for the wallpaper classification, Pascal 1654 for the binomial triangle. The substrate was reporting these structures, and the tradition was diagramming them."
+  summary: "The Sri Yantra is composed of nine interlocking triangles (5 śakti pointing down, 4 śiva pointing up) carrying D₉ dihedral symmetry — 9-fold rotation × reflection. 9-fold rotational symmetry is forbidden by the crystallographic restriction on the flat plane. The outer 8-petal lotus, 16-petal lotus, three concentric circles, and square frame with cardinal gates carry periodic 4-fold or 8-fold structure. The figure is structurally Penrose-class: its inner symmetry is too rich for the plane to host periodically. Read in modern terms, the yantra signals that its natural ambient is hyperbolic. Pingala's Meru Prastara (~200 BCE) is Pascal's triangle ~1800 years before Pascal, originally constructed for enumerating Sanskrit prosodic patterns; it is the discrete combinatorial generator that yields the cardinality of the phonemic register itself. The 3D Maha Meru pyramid form resolves the planar quasi-periodicity by lifting off the plane. Both diagrams represent empirical geometric mastery long preceding formal theory — Fedorov 1891 for the wallpaper classification, Pascal 1654 for the binomial triangle. Traditions doing empirical work on the substrate produced geometric structures whose formal classification only caught up centuries or millennia later. Through Kha-Ba-La: Kha is the bindu observer — the witness at the figure's center; Ba is the page the figure refuses to stay flat on; La is the planar restriction that the figure's inner symmetry deliberately exceeds."
   cluster: consciousness-architecture
   canonical_questions:
     - "Why does Sri Yantra not fit on a flat plane?"
@@ -39,9 +39,9 @@ experience:
   rail: concept
   density: immersive
   framework_axes:
-    kha: "The witness who recognizes a diagram structurally signaling that its natural ambient is not the plane it is drawn on — the yantra reporting back from the substrate's actual geometry."
-    ba: "The substrate that produces the yantra-perception under high-load — the hardware whose spontaneous geometric reports the tradition diagrammed and preserved."
-    la: "Sri Yantra and Meru Prastara — two diagrams encoding what the substrate spontaneously reports under high-load, formalized empirically two thousand years before mathematics caught up."
+    kha: "The witness at the bindu — the observer who recognizes the figure structurally signaling that its natural ambient is not the plane it is drawn on."
+    ba: "The page itself — the substrate the figure refuses to stay flat on, the hardware whose spontaneous geometric reports the tradition diagrammed and preserved."
+    la: "The planar crystallographic restriction — the structural friction that the inner figure deliberately exceeds, naming the cliff between flat and curved."
 ---
 
 # Sri Yantra and the Geometry That Doesn't Fit
@@ -51,24 +51,13 @@ experience:
 > "The Sri Yantra is the geometric body of mantra-energy."
 > — *Saundarya Laharī*, attr. Ādi Śaṅkara, 8th c. CE
 
-In [the previous post](/posts/hyperbolic-mantra) we established that the experience-manifold curves under high-load mantra and DMT-class states. The substrate enters a hyperbolic regime where five-fold, seven-fold, nine-fold periodic symmetries — forbidden on the flat plane — become routine. The reports across cultures and substances converge on this geometry.
+## The Figure
 
-Now we read the canonical Indian operational diagrams through that lens. The Sri Yantra is the most famous geometric figure in the tantric tradition. The Meru Prastara is the discrete combinatorial generator of Sanskrit prosody. Both are pre-formal — the modern geometric tools to classify them came two millennia later. Both are entirely consistent with the substrate-curving framework we have been building.
+Stripped to structure: nine interlocking triangles superimposed on a single center point (*bindu*). Five point downward — the *śakti* triangles, *yoni*, the descending feminine principle. Four point upward — the *śiva* triangles, *liṅga*, the ascending masculine principle. The five-and-four interlock through the center to produce, by their interpenetration, **43 smaller triangular regions** plus the central bindu — **44 triangles total** in the canonical *Tripurā* lineage.
 
-The thesis: **these diagrams are not mystical decorations. They are records of what the substrate spontaneously reports under high-load practice — empirical geometry, preserved as iconography, predating formal classification by roughly two thousand years.**
+Surrounding the inner triangle field, in concentric layers: an **8-petal lotus** (*aṣṭadala-padma*); a **16-petal lotus** (*ṣoḍaśadala-padma*); three concentric **circles** (*tribhuvana-cakra*); a **square frame** (*bhūpura*) with four T-shaped gates (*dvāra*) oriented to the cardinal directions — north, south, east, west.
 
-## The Sri Yantra Figure
-
-Stripped to its structure: nine interlocking triangles superimposed on a single center point (*bindu*). Five point downward — the *śakti* triangles, *yoni*, the descending feminine principle. Four point upward — the *śiva* triangles, *liṅga*, the ascending masculine principle. The five-and-four interlock through the center to produce, by their interpenetration, **43 smaller triangular regions** plus the central bindu = **44 triangles total** in the canonical *Tripurā* lineage's count.
-
-Surrounding the inner triangle field, in concentric layers:
-
-- An **8-petal lotus** (*aṣṭadala-padma*).
-- A **16-petal lotus** (*ṣoḍaśadala-padma*).
-- Three concentric **circles** (*tribhuvana-cakra*).
-- A **square frame** (*bhūpura*) with four T-shaped gates (*dvāra*) oriented to the cardinal directions — north, south, east, west.
-
-Read as a single planar figure, the yantra has structure at multiple radial scales. Each scale carries its own symmetry character. The interesting reading is what happens when you compare them.
+Read as a single planar figure, the yantra has structure at multiple radial scales. Each scale carries its own symmetry character. The interesting reading is what happens when the scales are compared.
 
 ## Quasi-Periodic Inner, Periodic Outer
 
@@ -76,25 +65,25 @@ The square frame with four cardinal gates carries **4-fold rotational symmetry p
 
 The inner nine-triangle figure — five down, four up, interlocking through the bindu — carries **D₉ dihedral symmetry**: 9-fold rotation combined with 9 reflection axes. Eighteen total isometries acting on the inner triangle field.
 
-Here is the key observation: **9-fold rotational symmetry is non-crystallographic**. It is one of the orders forbidden by the [crystallographic restriction](/posts/seventeen-ways-pattern-repeats). No wallpaper group carries 9-fold rotational symmetry. **You cannot tile the flat plane periodically with a 9-fold-symmetric pattern.** The Penrose tilings get five-fold; analogous quasi-periodic constructions can be made with seven-fold and nine-fold. None of them are wallpaper groups.
+Here is the load-bearing observation: **9-fold rotational symmetry is non-crystallographic**. It is one of the orders forbidden by the crystallographic restriction. No wallpaper group carries 9-fold rotational symmetry. **No periodic tiling of the flat plane is possible with a 9-fold-symmetric pattern.** The Penrose tilings get five-fold; analogous quasi-periodic constructions produce seven-fold and nine-fold. None of them are wallpaper groups.
 
-The Sri Yantra is therefore **structurally Penrose-class**. Its inner figure carries a higher rotational symmetry than the plane can host periodically. The outer frame carries the highest *crystallographic* symmetry available (4-fold or 8-fold). The figure as a whole is a composition: an inner non-periodic core inside a periodic outer frame.
+The Sri Yantra is therefore **structurally Penrose-class**. Its inner figure carries a higher rotational symmetry than the plane can host periodically. The outer frame carries the highest *crystallographic* symmetry available (4-fold, 8-fold). The figure as a whole is a composition: a non-periodic core inside a periodic outer frame.
 
 This is not coincidence. This is engineering. The yantra is built so that the inner core is *exactly* the symmetry order the plane refuses. The outer frame is the highest symmetry the plane permits. The composition forces the eye — and through the eye, the substrate — to confront the mismatch.
 
 The folk claim that *one can fall into the Sri Yantra* — that prolonged meditation on it produces apparent depth, three-dimensional emergence, the figure becoming a tunnel into something — is geometrically consistent with this engineering. The figure is signaling, structurally, that **it does not fit on the page**. Its natural ambient is not the flat plane. To honor the inner symmetry exactly, the figure must lift off the page into curved space.
 
-## What The Diagram Is Reporting
+## What the Diagram Is Reporting
 
 The geometric reading reframes a familiar question. What the tradition calls "the yantra is alive," "the yantra has presence," "extended gaze on the yantra opens onto a deity-experience" can now be read structurally:
 
-The yantra is a **diagram of a substrate-state**. The substrate, under high-load mantra practice or sustained meditative attention on the bindu, enters a regime where the experience-manifold curves. In that regime the natural local symmetries include 9-fold (and other forbidden orders). The tradition, observing these states for centuries, distilled their geometric character into a planar diagram. The diagram preserves the symmetry signature.
+The yantra is a **diagram of a substrate-state**. The substrate, under high-load mantra practice or sustained meditative attention on the bindu, enters a regime where the experience-manifold curves. In that regime the natural local symmetries include 9-fold and other forbidden orders. The tradition, observing these states for centuries, distilled their geometric character into a planar diagram. The diagram preserves the symmetry signature.
 
 When a practitioner attends to the yantra, the substrate begins to recreate the state the diagram records. The figure's structural signal — that it does not belong on the plane — is read by the substrate's own pattern-completion machinery as an instruction to enter the regime where the symmetry is at home. The diagram is, in this reading, a **substrate-driver** — a visual prompt engineered to drive the substrate toward the geometric state the diagram itself encodes.
 
-This is consistent with how the tradition uses the yantra. It is not a decorative symbol. It is an operational tool for inducing specific states. The induction works because the figure encodes the geometry of the target state, and the substrate completes the pattern by entering that geometry.
+This tracks with how the tradition uses the yantra. It is not a decorative symbol. It is an operational tool for inducing specific states. The induction works because the figure encodes the geometry of the target state, and the substrate completes the pattern by entering that geometry.
 
-The same observation applies to other non-crystallographic mystical-tradition figures: the pentagram (5-fold), the heptagonal seal (7-fold), the eight-petaled lotus (8-fold, which is borderline-periodic), the *pakua* (eight trigrams), the rose windows of European Gothic cathedrals (often 12-fold but with non-trivial inner structure). Each carries forbidden or borderline-forbidden symmetries. Each functions, in its tradition, as an inducer of altered geometric states. The pattern is consistent.
+The same observation extends to other non-crystallographic mystical-tradition figures: the pentagram (5-fold), the heptagonal seal (7-fold), the eight-petaled lotus (8-fold, borderline-periodic), the *pakua* (eight trigrams), the rose windows of European Gothic cathedrals (often 12-fold but with non-trivial inner structure). Each carries forbidden or borderline-forbidden symmetries. Each functions, in its tradition, as an inducer of altered geometric states. The pattern is consistent.
 
 ## Meru Prastara — The Combinatorial Spine
 
@@ -114,7 +103,7 @@ The construction:
 
 Each entry is the sum of the two above it. Row *n* contains the binomial coefficients $\binom{n}{k}$ — the number of ways to choose *k* heavy syllables out of *n* prosodic positions.
 
-This is **Pascal's triangle**. Pingala constructed it approximately 1,800 years before Blaise Pascal's *Traité du Triangle Arithmétique* (1654). The naming convention is one of those minor historical injustices; mathematicians who know the timeline have been inconsistent about it for centuries. The structure was Pingala's, and his motivation was sonic.
+This is **Pascal's triangle**. Pingala constructed it approximately 1,800 years before Blaise Pascal's *Traité du Triangle Arithmétique* (1654). The naming convention is one of those minor historical injustices; mathematicians who know the timeline have been inconsistent about it for centuries. The structure was Pingala's. His motivation was sonic.
 
 What it gives:
 
@@ -122,7 +111,7 @@ What it gives:
 - **The *mātrāmeru* sequence.** Pingala also derived a recursion for the number of prosodic patterns of total *duration* n (where laghu = 1 mātrā and guru = 2 mātrā). The recursion is F(n) = F(n−1) + F(n−2) — the **Fibonacci sequence**. About 1,400 years before Fibonacci.
 - **Combinatorial closure of the phonemic register.** The Meru Prastara is the discrete combinatorial generator that yields the cardinality of the phonemic register itself — the 16-svara closure, the 5×5 sparśa grid, the 49-varṇa total. The whole apparatus of Sanskrit phonology is combinatorially structured, and the Meru Prastara is the spine that holds the structure.
 
-The name **Meru** — Mount Meru, the cosmic axis in Indian cosmology — is not arbitrary. The Meru Prastara is rooted in a single apex (the topmost "1") and "spreads" (*prastāra*) downward through symmetric branching. Every entry traces back through a unique path to the apex. The triangle is a **rooted enumeration tree** for combinatorial structures, and Mount Meru is the cosmic image of that root.
+The name **Meru** — Mount Meru, the cosmic axis in Indian cosmology — is not arbitrary. The Meru Prastara is rooted in a single apex (the topmost "1") and "spreads" (*prastāra*) downward through symmetric branching. Every entry traces back through a unique route to the apex. The triangle is a **rooted enumeration tree** for combinatorial structures, and Mount Meru is the cosmic image of that root.
 
 ## Maha Meru — The 3D Resolution
 
@@ -132,13 +121,13 @@ Read combinatorially, Maha Meru is the **cumulative Meru Prastara**: each tier i
 
 Read geometrically, Maha Meru is the **resolution of the 2D yantra's planar quasi-periodicity**: by lifting off the plane into 3D, the 9-fold inner rotational symmetry is no longer constrained by the planar crystallographic restriction. In three dimensions, there are 230 space groups (Fedorov-Schoenflies, 1891), some of which support rotational orders that wallpaper groups cannot host. The 3D form is the ambient where the inner figure can sit comfortably.
 
-This is structurally significant: the tradition produced both forms — 2D and 3D. The 2D form *signals* the mismatch. The 3D form *resolves* it. The relationship between them is not "2D is simpler, 3D is more elaborate." It is "2D records the geometric tension; 3D records the resolution into a higher-dimensional ambient." The relationship is geometrically lawful.
+The tradition produced both forms — 2D and 3D. The 2D form *signals* the mismatch. The 3D form *resolves* it. The relationship between them is geometrically lawful.
 
-The same relationship plays out at one further dimension up — and this is where the framework opens onto deeper water. The 3D form's symmetry is one of the 230 crystallographic space groups. But the *hyperbolic* analogue lifts the constraint further: in 3D hyperbolic space, the symmetry options are richer still (Coxeter and Thurston classified some of them; the full picture is open research). Maha Meru in flat 3D is one resolution. Maha Meru as a structure in hyperbolic 3-space is another, more permissive one. Whether the tradition's deepest practice was reaching for the latter is conjecture; the geometric direction is clear.
+The same relationship plays out at one further dimension up — and this is where the framework opens onto deeper water. The 3D form's symmetry is one of the 230 crystallographic space groups. The *hyperbolic* analogue lifts the constraint further: in 3D hyperbolic space, the symmetry options are richer still (Coxeter and Thurston classified some of them; the full picture is open research). Maha Meru in flat 3D is one resolution. Maha Meru as a structure in hyperbolic 3-space is another, more permissive one. Whether the tradition's deepest practice was reaching for the latter is conjecture; the geometric direction is clear.
 
 ## Empirical Mastery Preceded Formal Theory
 
-The pattern is worth marking explicitly because it recurs.
+The pattern recurs and is worth marking explicitly.
 
 **Fedorov classified the 17 wallpaper groups in 1891.** The Indian tradition was constructing yantras using the 4-fold, 6-fold, and 8-fold (and forbidden 5-fold, 7-fold, 9-fold) structures for at least 1,500 years before that. Not formally — empirically.
 
@@ -150,33 +139,27 @@ The pattern is worth marking explicitly because it recurs.
 
 **Schläfli's regular hyperbolic tilings were classified in the mid-19th century.** Coxeter extended the classification in the 20th. Mystical traditions were drawing such symmetries into iconography long before.
 
-The recurring pattern: **traditions doing empirical work on the substrate produced geometric structures whose formal classification only caught up centuries or millennia later**. This is significant because it suggests a particular methodological asymmetry. The substrate produces consistent geometric reports under sustained practice. Skilled practitioners diagrammed those reports. The diagrams encoded structures that mathematical formalism would only develop tools for much later. The geometry was *real* — discoverable empirically through practice, before it was discovered formally through derivation.
+The recurring pattern: **traditions doing empirical work on the substrate produced geometric structures whose formal classification only caught up centuries or millennia later**. Methodologically asymmetric, and the asymmetry is informative.
 
-The implication is not that the traditions had access to mathematics they were not telling us about. The implication is that **the substrate has a small set of preferred geometric configurations under high-load, and those configurations are mathematically natural objects** — wallpaper groups, hyperbolic tilings, quasi-periodic structures, binomial-triangle enumerations. The traditions, by attending to the substrate, encountered these configurations and preserved them. The mathematicians, by attending to the geometry, derived them. The two routes converge because the substrate is a real physical system whose preferred configurations are mathematical objects.
+The substrate produces consistent geometric reports under sustained practice. Skilled practitioners diagrammed those reports. The diagrams encoded structures that mathematical formalism would only develop tools for much later. The geometry was *real* — discoverable empirically through inhabitation, before it was discoverable formally through derivation.
 
-This is what gives the framework we have been building its empirical traction. The four blog posts in this sequence — [Word-as-Code](/posts/the-word-as-code), [Spell-Work Reservoir](/posts/spell-work-reservoir), [Seventeen Ways](/posts/seventeen-ways-pattern-repeats), [Hyperbolic Mantra](/posts/hyperbolic-mantra) — and now this one — are not imposing modern mathematics on ancient mysticism. They are recognizing that the ancient mysticism's preserved structures and the modern mathematics' classified objects are the *same objects*, reached by two different routes.
+The implication is not that the traditions had access to mathematics they were not telling us about. The implication is that **the substrate has a small set of preferred geometric configurations under high load, and those configurations are mathematically natural objects** — wallpaper groups, hyperbolic tilings, quasi-periodic structures, binomial-triangle enumerations. The traditions, by attending to the substrate, encountered these configurations and preserved them. The mathematicians, by attending to the geometry, derived them. The two routes converge because the substrate is a real physical system whose preferred configurations are mathematical objects.
 
 ## The Stack
 
-The chain across the five posts compresses to:
+Akshara provides the imperishable phonemic primitives. The 49-varṇa register structures them. The 17 wallpaper groups classify how trajectories on the register can repeat. Hyperbolic geometry hosts the symmetries the flat plane forbids. Sri Yantra and Maha Meru are the canonical operational diagrams that record what the substrate spontaneously reports under high load. Meru Prastara is the combinatorial spine that yields the cardinality of the entire register.
 
-- **Akshara** — imperishable phonemic primitives, identity-preserving across speech transformations.
-- **The 49-varṇa register** — the structured periodic table of those primitives, with three orthogonal axes (sthāna × voicing × aspiration) and a sattva/rajas/tamas guna overlay.
-- **The Euclidean sonic lattice** — the discrete crystallographic substrate carrying V₄ × D₅ symmetry.
-- **The 17 wallpaper groups** — the closed grammar of how planar patterns can repeat. Each mantra structure picks one. Each is a valence signature by STV.
-- **Hyperbolic embedding under high-load** — the regime the substrate enters when mantra is run at depth, where the crystallographic restriction lifts and the forbidden symmetries become accessible.
-- **Sri Yantra and Maha Meru** — the canonical operational diagrams that record what the substrate spontaneously reports in this regime.
-- **Meru Prastara** — the combinatorial spine that yields the cardinality of the entire register.
+Each piece is independently grounded. Together they form one coherent geometric-sonic-consciousness stack. The traditions had the empirical core. The mathematics has the formal classification. The substrate is what runs both.
 
-Each piece is independently grounded. Together they form one coherent geometric-sonic-consciousness theory. The traditions had the empirical core. The mathematics has the formal classification. The substrate is what runs both.
+Read through Kha-Ba-La: **Kha** is the bindu observer — the witness at the figure's center, the consciousness for which the diagram is built. **Ba** is the page the figure refuses to stay flat on, the hardware whose spontaneous geometric reports the tradition preserved as iconography. **La** is the planar crystallographic restriction itself — the structural friction the inner figure deliberately exceeds, naming the cliff between flat and curved geometry. All three co-arise. Each yantra is the triad rendered in ink.
 
 ## Coda: The Hebrew Sibling
 
-A note worth marking. Stan Tenen's Meru Foundation has spent three decades reading Hebrew letters as **torus-knot projections** — three-dimensional forms whose 2D shadows are the alphabetic glyphs. The Hebrew tradition treats letters as creative forces, not symbols. Tenen's structural reading mirrors what we have done here for Devanagari: a geometric-substrate account of why a particular alphabet is engineered the way it is.
+A note worth marking. Stan Tenen's Meru Foundation has spent three decades reading Hebrew letters as **torus-knot projections** — three-dimensional forms whose 2D shadows are the alphabetic glyphs. The Hebrew tradition treats letters as creative forces, not symbols. Tenen's structural reading mirrors the akshara framing in geometric form: a substrate-level account of why a particular alphabet is engineered the way it is.
 
-The Hebrew route reaches a different geometry — torus-knot topology — because the Hebrew alphabet's structural register is different from Devanagari's. Hebrew is consonant-skeleton with vowel-pointing as a separate register; Devanagari is fully written vowel-and-consonant in the *mātṛkā* enumeration. Different alphabets, different geometries, both empirically encoding what the substrate produced.
+The Hebrew route reaches a different geometry — torus-knot topology — because the Hebrew alphabet's structural register is different from Devanagari's. Hebrew is consonant-skeleton with vowel-pointing as a separate register; Devanagari is fully written vowel-and-consonant in the *mātṛkā* enumeration. Different alphabets, different geometries, both empirically encoding what the substrate produced under sustained inquiry.
 
-Cross-tradition comparison is a future research thread. The structural fact for now: the same methodological asymmetry shows up in the Hebrew case as in the Devanagari case. Empirical mastery, ancient. Formal classification, modern. The substrate, the same in both.
+Cross-tradition comparison is open territory. The methodological asymmetry shows up in both cases: empirical mastery, ancient; formal classification, modern. The substrate, the same in both.
 
 ---
 
