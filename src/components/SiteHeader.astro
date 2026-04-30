@@ -65,8 +65,8 @@ const isActive = (href: string) => {
   </a>
 
   <nav
-    class="flex max-w-[58vw] items-center justify-end gap-x-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-x-5 sm:pl-0"
-    style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none;"
+    class="site-header-nav flex max-w-[58vw] items-center justify-end gap-x-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-x-5 sm:pl-0"
+    style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none; -webkit-mask-image: linear-gradient(to right, black 86%, transparent 100%); mask-image: linear-gradient(to right, black 86%, transparent 100%);"
   >
     {links.map(({ href, label, count }) => {
       const active = isActive(href);

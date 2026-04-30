@@ -52,7 +52,11 @@ export default function PostTOC() {
     });
 
     const updateActive = () => {
-      let currentId = tocItems[0]?.id ?? '';
+      // Walk headings in order; pick the last one whose top has scrolled
+      // past the active band threshold (160px from viewport top).
+      // If none have, leave activeId empty so the TOC isn't falsely
+      // highlighting the first heading on initial load.
+      let currentId = '';
 
       for (const item of tocItems) {
         const el = document.getElementById(item.id);
