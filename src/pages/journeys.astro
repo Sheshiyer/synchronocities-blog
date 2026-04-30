@@ -18,7 +18,21 @@ const sortedCardPosts = [...cardPosts].sort((a, b) =>
     class="fixed top-0 left-0 right-0 z-20 flex flex-wrap items-center justify-between gap-3 backdrop-blur-md"
     style="padding: 2vh 4vw; background: rgba(7,11,29,0.85);"
   >
-    <a href="/">
+    <a href="/" class="inline-flex items-center gap-2.5">
+      <model-viewer
+        src="/models/sigil-foil-hero.glb"
+        alt="Synchronocities sigil"
+        auto-rotate
+        rotation-per-second="18deg"
+        exposure="1.2"
+        shadow-intensity="0"
+        disable-zoom
+        interaction-prompt="none"
+        camera-orbit="0deg 75deg 2.4m"
+        poster="/models/sigil-foil-preview.png"
+        loading="lazy"
+        style="width: 32px; height: 32px; --poster-color: transparent; background: transparent; pointer-events: none;"
+      ></model-viewer>
       <span
         style="font-family: var(--font-display); font-size: clamp(0.85rem, 1vw, 1.1rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-sacred-gold);"
       >
