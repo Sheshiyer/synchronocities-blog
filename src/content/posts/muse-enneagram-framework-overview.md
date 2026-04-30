@@ -12,6 +12,17 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+related_posts:
+  - muse-enneagram-matrix
+  - endocrine-muse-integration
+  - endocrine-muse-pattern-analysis
+  - nine-muses-endocrine-system
+  - endocrine-constellation-patterns
+  - celestial-patterns-meteor-enneagram
+  - enneagram-planetary-market
+  - enneagram-runtime-map
+  - spolski-endocrine-framework
+  - leviathan-enneagram-analysis
 ---
 
 # Muse-Enneagram Framework Overview
