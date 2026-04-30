@@ -22,6 +22,11 @@ concepts:
   - consciousness
 llm:
   cluster: consciousness-architecture
+  canonical_questions:
+    - What is the difference between consciousness and self-consciousness?
+    - What is the Noesis Engine and what does it do?
+    - Why does optimizing habits fail to change underlying patterns?
+    - What does it mean to rewrite your own operating system?
 ---
 
 # An Introduction to Tryambakam Noesis: Rewrite Your Operating System

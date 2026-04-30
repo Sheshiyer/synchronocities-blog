@@ -20,6 +20,11 @@ concepts:
   - lorenz kundli
 llm:
   cluster: lorenz-kundli
+  canonical_questions:
+    - What structural parallels connect chaos theory and Vedic astrology?
+    - How does a Kundli function as a strange attractor for consciousness?
+    - What are the six Lorenz–Kundli parallel studies?
+    - Why are scale invariance and sensitivity-to-initial-conditions present in both systems?
 ---
 
 # Lorenz-Kundli Pattern Recognition Hub
