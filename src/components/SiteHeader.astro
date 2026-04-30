@@ -1,0 +1,63 @@
+---
+// Single source of truth for the site-wide nav header.
+// Used on /, /journeys, /research, /maps.
+// Pill-shaped, floating, backdrop-blurred. Sigil-forward brand mark.
+
+const currentPath = Astro.url.pathname;
+
+const links = [
+  { href: '/', label: 'Depth' },
+  { href: '/journeys', label: 'Journeys' },
+  { href: '/research', label: 'Research' },
+  { href: '/maps', label: 'Maps' },
+];
+
+const isActive = (href: string) => {
+  if (href === '/') return currentPath === '/';
+  return currentPath === href || currentPath.startsWith(`${href}/`);
+};
+---
+
+<header
+  class="fixed left-1/2 top-3 z-20 flex w-[min(calc(100%-1.5rem),84rem)] -translate-x-1/2 items-center justify-between gap-3 rounded-full border border-[rgba(138,155,168,0.18)] bg-[rgba(7,11,29,0.62)] px-3 py-1.5 shadow-[0_18px_50px_rgba(0,0,0,0.32)] backdrop-blur-md sm:top-5 sm:w-[min(calc(100%-3rem),84rem)] sm:gap-4 sm:px-5 sm:py-2 lg:top-6 lg:w-[min(calc(100%-4rem),84rem)]"
+>
+  <a href="/" class="flex items-center gap-2.5 sm:gap-3.5">
+    <span class="block h-14 w-14 shrink-0 sm:h-16 sm:w-16">
+      <model-viewer
+        src="/models/sigil-foil-hero.glb"
+        alt="Synchronocities sigil"
+        auto-rotate
+        rotation-per-second="18deg"
+        exposure="1.2"
+        shadow-intensity="0"
+        disable-zoom
+        interaction-prompt="none"
+        camera-orbit="0deg 75deg 2.4m"
+        poster="/models/sigil-foil-preview.png"
+        loading="lazy"
+        style="width: 100%; height: 100%; --poster-color: transparent; background: transparent; pointer-events: none;"
+      ></model-viewer>
+    </span>
+    <span
+      class="text-sm font-semibold tracking-[0.08em] uppercase sm:text-base"
+      style="font-family: var(--font-display); color: var(--color-sacred-gold);"
+    >
+      Synchronocities
+    </span>
+  </a>
+
+  <nav
+    class="flex max-w-[58vw] items-center justify-end gap-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-5 sm:pl-0"
+    style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none;"
+  >
+    {links.map(({ href, label }) => (
+      <a
+        href={href}
+        class="transition-colors hover:text-[var(--color-sacred-gold)]"
+        style={`color: ${isActive(href) ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
+      >
+        {label}
+      </a>
+    ))}
+  </nav>
+</header>

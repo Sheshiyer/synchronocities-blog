@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ArchiveSearchGateway from '../components/ArchiveSearchGateway.astro';
 import { getCollection } from 'astro:content';
 import { buildArchiveDataset, getArchivePreset, getPinnedArchiveRecords } from '../lib/archive';
+import SiteHeader from '../components/SiteHeader.astro';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const archiveDataset = buildArchiveDataset(allPosts);
@@ -37,40 +38,7 @@ function formatKind(record: (typeof archiveDataset.records)[number]) {
 ---
 
 <BaseLayout title="Maps & Indexes" description="Hub entries, pinned readings, and concept clusters. Navigate by framework family or system index.">
-  <header
-    class="fixed top-0 left-0 right-0 z-20 flex items-center justify-between gap-3 backdrop-blur-md sm:gap-4"
-    style="padding: 0.55rem 4vw; background: rgba(7,11,29,0.85);"
-  >
-    <a href="/" class="inline-flex items-center gap-2.5 sm:gap-3.5">
-      <span class="block h-10 w-10 shrink-0 sm:h-12 sm:w-12">
-        <model-viewer
-          src="/models/sigil-foil-hero.glb"
-          alt="Synchronocities sigil"
-          auto-rotate
-          rotation-per-second="18deg"
-          exposure="1.2"
-          shadow-intensity="0"
-          disable-zoom
-          interaction-prompt="none"
-          camera-orbit="0deg 75deg 2.4m"
-          poster="/models/sigil-foil-preview.png"
-          loading="lazy"
-          style="width: 100%; height: 100%; --poster-color: transparent; background: transparent; pointer-events: none;"
-        ></model-viewer>
-      </span>
-      <span
-        style="font-family: var(--font-display); font-size: clamp(0.85rem, 1vw, 1.1rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-sacred-gold);"
-      >
-        Synchronocities
-      </span>
-    </a>
-    <nav class="flex max-w-[58vw] items-center justify-end gap-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-5 sm:pl-0" style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none;">
-      <a href="/" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Depth</a>
-      <a href="/journeys" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Journeys</a>
-      <a href="/research" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Research</a>
-      <a href="/maps" style="color: var(--color-sacred-gold);">Maps</a>
-    </nav>
-  </header>
+  <SiteHeader />
 
   <main style="padding: 14vh 6vw 10vh;">
     <section style="display: grid; gap: 1.5rem; max-width: 64rem; margin-bottom: 4rem;">

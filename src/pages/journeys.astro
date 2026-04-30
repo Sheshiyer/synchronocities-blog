@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 import { getCardByNumeral } from '../lib/tarot';
 import { getCardPalette } from '../lib/cardColors';
 import JourneysAnimator from '../components/JourneysAnimator';
+import SiteHeader from '../components/SiteHeader.astro';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const cardPosts = allPosts.filter((p) => p.data.card);
@@ -14,40 +15,7 @@ const sortedCardPosts = [...cardPosts].sort((a, b) =>
 ---
 
 <BaseLayout title="The Shesh Travelogue" description="Field-movement entries. Each post sits at a tarot position on the spiral. The most recent reading appears first.">
-  <header
-    class="fixed top-0 left-0 right-0 z-20 flex items-center justify-between gap-3 backdrop-blur-md sm:gap-4"
-    style="padding: 0.55rem 4vw; background: rgba(7,11,29,0.85);"
-  >
-    <a href="/" class="inline-flex items-center gap-2.5 sm:gap-3.5">
-      <span class="block h-10 w-10 shrink-0 sm:h-12 sm:w-12">
-        <model-viewer
-          src="/models/sigil-foil-hero.glb"
-          alt="Synchronocities sigil"
-          auto-rotate
-          rotation-per-second="18deg"
-          exposure="1.2"
-          shadow-intensity="0"
-          disable-zoom
-          interaction-prompt="none"
-          camera-orbit="0deg 75deg 2.4m"
-          poster="/models/sigil-foil-preview.png"
-          loading="lazy"
-          style="width: 100%; height: 100%; --poster-color: transparent; background: transparent; pointer-events: none;"
-        ></model-viewer>
-      </span>
-      <span
-        style="font-family: var(--font-display); font-size: clamp(0.85rem, 1vw, 1.1rem); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-sacred-gold);"
-      >
-        Synchronocities
-      </span>
-    </a>
-    <nav class="flex max-w-[58vw] items-center justify-end gap-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-5 sm:pl-0" style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none;">
-      <a href="/" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Depth</a>
-      <a href="/journeys" style="color: var(--color-sacred-gold);">Journeys</a>
-      <a href="/research" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Research</a>
-      <a href="/maps" class="transition-colors hover:text-[var(--color-sacred-gold)]" style="color: var(--color-muted-silver);">Maps</a>
-    </nav>
-  </header>
+  <SiteHeader />
 
   <main style="padding-top: 14vh; padding-bottom: 12vh;">
     <section style="padding: 0 6vw 8vh;">
