@@ -91,12 +91,15 @@ export default function DepthGallery({ posts, showLabelOverlay = true }: DepthGa
       ref={canvasRef}
       className="depth-gallery-canvas"
       onClick={handleClick}
+      role="img"
+      aria-label={`Interactive 3D gallery of ${posts.length} posts. Use scroll or arrow keys to navigate; click a card to open its post.`}
+      title="Interactive 3D post gallery"
       style={{
         position: 'fixed',
         top: 0,
         left: 0,
-        width: '100vw',
-        height: '100vh',
+        width: '100%',
+        height: '100dvh',
         zIndex: 0,
         cursor: 'pointer',
       }}
