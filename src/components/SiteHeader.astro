@@ -1,15 +1,31 @@
 ---
 // Single source of truth for the site-wide nav header.
-// Used on /, /journeys, /research, /maps.
+// Used on /, /journeys, /research, /maps, /posts/*.
 // Pill-shaped, floating, backdrop-blurred. Sigil-forward brand mark.
+// Computes post counts at build time and displays them next to each nav label.
+
+import { getCollection } from 'astro:content';
+import { buildArchiveDataset, getArchivePreset } from '../lib/archive';
 
 const currentPath = Astro.url.pathname;
 
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const dataset = buildArchiveDataset(allPosts);
+
+const cardPosts = allPosts.filter((p) => p.data.card);
+const researchPosts = getArchivePreset(dataset.records, 'research');
+const hubPosts = getArchivePreset(dataset.records, 'hubs');
+
+const depthCount = allPosts.filter((p) => !p.data.hidden).length;
+const journeysCount = cardPosts.length;
+const researchCount = researchPosts.length;
+const mapsCount = hubPosts.length;
+
 const links = [
-  { href: '/', label: 'Depth' },
-  { href: '/journeys', label: 'Journeys' },
-  { href: '/research', label: 'Research' },
-  { href: '/maps', label: 'Maps' },
+  { href: '/', label: 'Depth', count: depthCount },
+  { href: '/journeys', label: 'Journeys', count: journeysCount },
+  { href: '/research', label: 'Research', count: researchCount },
+  { href: '/maps', label: 'Maps', count: mapsCount },
 ];
 
 const isActive = (href: string) => {
@@ -49,17 +65,24 @@ const isActive = (href: string) => {
   </a>
 
   <nav
-    class="flex max-w-[58vw] items-center justify-end gap-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-5 sm:pl-0"
+    class="flex max-w-[58vw] items-center justify-end gap-x-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-x-5 sm:pl-0"
     style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none;"
   >
-    {links.map(({ href, label }) => (
-      <a
-        href={href}
-        class="transition-colors hover:text-[var(--color-sacred-gold)]"
-        style={`color: ${isActive(href) ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
-      >
-        {label}
-      </a>
-    ))}
+    {links.map(({ href, label, count }) => {
+      const active = isActive(href);
+      return (
+        <a
+          href={href}
+          class="group inline-flex items-baseline gap-1 transition-colors hover:text-[var(--color-sacred-gold)]"
+          style={`color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
+        >
+          <span>{label}</span>
+          <span
+            class="tabular-nums transition-opacity"
+            style={`font-size: 0.78em; opacity: ${active ? 0.78 : 0.42}; color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
+          >{count}</span>
+        </a>
+      );
+    })}
   </nav>
 </header>

@@ -1,58 +1,23 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { buildArchiveDataset, getArchivePreset } from '../lib/archive';
+import { buildArchiveDataset } from '../lib/archive';
 import SiteHeader from '../components/SiteHeader.astro';
+import ResearchDiscovery from '../components/ResearchDiscovery';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
-const archiveDataset = buildArchiveDataset(allPosts);
-const researchRecords = getArchivePreset(archiveDataset.records, 'research');
-const foundationalRecords = getArchivePreset(
-  archiveDataset.records,
-  'foundational',
-).filter((record) => !record.card);
-const pilotRecords = getArchivePreset(
-  archiveDataset.records,
-  'pilot-downstream-mind',
-).filter((record) => !record.card);
-const featuredPilot = pilotRecords[0];
-const pilotCompanions = pilotRecords.slice(1, 5);
-
-function formatKind(record: (typeof archiveDataset.records)[number]) {
-  if (record.card) return `Travel Arc ${record.card}`;
-  if (record.entryKind === 'hub') return 'Hub';
-  if (record.entryKind === 'reference') return 'Reference';
-  switch (record.articleMode) {
-    case 'signal-essay':
-      return 'Signal Essay';
-    case 'field-note':
-      return 'Field Note';
-    case 'research-essay':
-      return 'Research Essay';
-    default:
-      return 'Essay';
-  }
-}
-
-function formatDate(value: string) {
-  return new Date(value).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  });
-}
-
-const recentResearch = researchRecords.slice(0, 12);
+const dataset = buildArchiveDataset(allPosts);
+const totalEntries = dataset.records.length;
 ---
 
 <BaseLayout
   title="Research Library"
-  description="Foundational essays mapping the consciousness-architecture program. The Downstream Mind cluster, recent inquiry, and the wider synthesis layer."
+  description="The full library — every essay, hub, reference, and field note. Search by title, concept, tag, or cluster."
 >
   <SiteHeader />
 
   <main class="min-h-[100dvh]">
-    {/* Hero — restrained, scholarly. Single declarative sentence. */}
+    {/* Hero — restrained, scholarly */}
     <section class="px-6 pt-[clamp(6rem,11vw,9rem)] pb-[clamp(2.5rem,5vw,4rem)] sm:px-10 lg:px-16">
       <div class="mx-auto max-w-[1280px]">
         <div class="grid grid-cols-12 gap-x-6">
@@ -64,164 +29,26 @@ const recentResearch = researchRecords.slice(0, 12);
           </div>
           <div class="col-span-12 sm:col-span-10">
             <h1
-              class="max-w-[24ch] text-[clamp(1.85rem,3.4vw,2.85rem)] leading-[1.06] tracking-tight text-[var(--color-parchment)]"
+              class="max-w-[26ch] text-[clamp(1.85rem,3.4vw,2.85rem)] leading-[1.06] tracking-tight text-[var(--color-parchment)]"
               style="font-family: var(--font-display); font-weight: 500;"
             >
-              An indexed reading. Foundational essays, the <em
-                class="not-italic"
-                style="color: var(--color-sacred-gold);"
-              >Downstream Mind</em> cluster, and recent inquiry.
+              The full library. <em class="not-italic" style="color: var(--color-sacred-gold);">{totalEntries}</em> entries indexed by title, concept, tag, and cluster.
             </h1>
+            <p
+              class="mt-6 max-w-[58ch] text-[0.98rem] leading-relaxed"
+              style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.72;"
+            >
+              Type a query to filter. Use the category links to narrow by kind. Results list every matching entry — newest first, no curation.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    {/* Two-column asymmetric: 5/7 split */}
+    {/* Discovery surface — search + filters + full list */}
     <section class="px-6 pb-[clamp(6rem,12vw,11rem)] sm:px-10 lg:px-16">
       <div class="mx-auto max-w-[1280px]">
-        <div class="grid grid-cols-12 gap-x-12 gap-y-16 lg:gap-x-16">
-          {/* LEFT: Numbered foundational index (5/12) */}
-          <div class="col-span-12 lg:col-span-5">
-            <div class="mb-8 flex items-baseline justify-between border-b border-[rgba(197,160,23,0.22)] pb-3">
-              <span
-                class="text-[0.62rem] uppercase"
-                style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-sacred-gold); opacity: 0.72;"
-              >Foundational</span>
-              <span
-                class="text-[0.62rem] tabular-nums uppercase"
-                style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.42;"
-              >{String(foundationalRecords.length).padStart(2, '0')} indexed</span>
-            </div>
-
-            <ol class="grid gap-0">
-              {foundationalRecords.map((record, idx) => (
-                <li>
-                  <a
-                    href={`/posts/${record.slug}`}
-                    class="group grid grid-cols-[2.25rem_1fr] items-baseline gap-4 border-b border-[rgba(138,155,168,0.08)] py-5 transition-colors hover:border-[rgba(197,160,23,0.4)]"
-                  >
-                    <span
-                      class="text-[0.7rem] tabular-nums"
-                      style="font-family: var(--font-mono); color: var(--color-sacred-gold); opacity: 0.55;"
-                    >{String(idx + 1).padStart(2, '0')}</span>
-                    <div class="grid gap-1.5">
-                      <h3
-                        class="text-[1.05rem] leading-snug text-[var(--color-parchment)] transition-colors duration-300 group-hover:text-[var(--color-sacred-gold)] sm:text-[1.12rem]"
-                        style="font-family: var(--font-display); font-weight: 500;"
-                      >{record.title}</h3>
-                      <span
-                        class="text-[0.62rem] uppercase"
-                        style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.5;"
-                      >{formatKind(record)}</span>
-                    </div>
-                  </a>
-                </li>
-              ))}
-            </ol>
-          </div>
-
-          {/* RIGHT: Featured pilot block + recent feed (7/12) */}
-          <div class="col-span-12 lg:col-span-7">
-            {/* Featured: The Downstream Mind */}
-            {featuredPilot && (
-              <article class="mb-16">
-                <div class="mb-6 flex items-baseline justify-between border-b border-[rgba(16,181,167,0.22)] pb-3">
-                  <span
-                    class="text-[0.62rem] uppercase"
-                    style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-coherence-emerald); opacity: 0.78;"
-                  >Pilot Cluster</span>
-                  <span
-                    class="text-[0.62rem] uppercase"
-                    style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.42;"
-                  >Currently active</span>
-                </div>
-
-                <a href={`/posts/${featuredPilot.slug}`} class="group block">
-                  <div
-                    class="text-[0.62rem] uppercase"
-                    style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-coherence-emerald); opacity: 0.6;"
-                  >{formatKind(featuredPilot)}</div>
-                  <h2
-                    class="mt-3 max-w-[18ch] text-[clamp(1.85rem,3.2vw,2.6rem)] leading-[1.06] text-[var(--color-parchment)] transition-colors duration-300 group-hover:text-[var(--color-sacred-gold)]"
-                    style="font-family: var(--font-display); font-weight: 500;"
-                  >{featuredPilot.title}</h2>
-                  {featuredPilot.excerpt && (
-                    <p
-                      class="mt-5 max-w-[58ch] text-[0.98rem] leading-relaxed"
-                      style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.78;"
-                    >{featuredPilot.excerpt}</p>
-                  )}
-                  <span
-                    class="mt-5 inline-flex items-center gap-2 text-[0.7rem] uppercase"
-                    style="font-family: var(--font-mono); letter-spacing: 0.22em; color: var(--color-coherence-emerald); opacity: 0.78;"
-                  >Read the essay <span aria-hidden="true">→</span></span>
-                </a>
-
-                {pilotCompanions.length > 0 && (
-                  <ul class="mt-8 grid gap-0">
-                    {pilotCompanions.map((record) => (
-                      <li>
-                        <a
-                          href={`/posts/${record.slug}`}
-                          class="group flex items-baseline justify-between gap-6 border-t border-[rgba(138,155,168,0.08)] py-3 transition-colors hover:border-[rgba(16,181,167,0.4)]"
-                        >
-                          <span
-                            class="text-[0.95rem] leading-snug text-[var(--color-muted-silver)] transition-colors group-hover:text-[var(--color-parchment)]"
-                            style="font-family: var(--font-display);"
-                          >{record.title}</span>
-                          <time
-                            class="shrink-0 text-[0.62rem] tabular-nums"
-                            style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;"
-                          >{formatDate(record.date)}</time>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </article>
-            )}
-
-            {/* Recent feed */}
-            <div>
-              <div class="mb-6 flex items-baseline justify-between border-b border-[rgba(138,155,168,0.18)] pb-3">
-                <span
-                  class="text-[0.62rem] uppercase"
-                  style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-muted-silver); opacity: 0.62;"
-                >Recent</span>
-                <span
-                  class="text-[0.62rem] tabular-nums uppercase"
-                  style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.4;"
-                >{recentResearch.length} entries</span>
-              </div>
-              <ul class="grid gap-0">
-                {recentResearch.map((record) => (
-                  <li>
-                    <a
-                      href={`/posts/${record.slug}`}
-                      class="group grid grid-cols-[1fr_auto] items-baseline gap-4 border-b border-[rgba(138,155,168,0.08)] py-3.5 transition-colors hover:border-[rgba(197,160,23,0.4)]"
-                    >
-                      <div class="grid gap-1.5">
-                        <span
-                          class="text-[0.95rem] leading-snug text-[var(--color-muted-silver)] transition-colors group-hover:text-[var(--color-parchment)]"
-                          style="font-family: var(--font-display);"
-                        >{record.title}</span>
-                        <span
-                          class="text-[0.6rem] uppercase"
-                          style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.45;"
-                        >{formatKind(record)}</span>
-                      </div>
-                      <time
-                        class="shrink-0 text-[0.62rem] tabular-nums"
-                        style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;"
-                      >{formatDate(record.date)}</time>
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
+        <ResearchDiscovery dataset={dataset} client:load />
       </div>
     </section>
   </main>
