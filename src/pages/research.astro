@@ -7,137 +7,221 @@ import SiteHeader from '../components/SiteHeader.astro';
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const archiveDataset = buildArchiveDataset(allPosts);
 const researchRecords = getArchivePreset(archiveDataset.records, 'research');
-const foundationalRecords = getArchivePreset(archiveDataset.records, 'foundational').filter((record) => !record.card);
-const pilotRecords = getArchivePreset(archiveDataset.records, 'pilot-downstream-mind').filter((record) => !record.card).slice(0, 3);
+const foundationalRecords = getArchivePreset(
+  archiveDataset.records,
+  'foundational',
+).filter((record) => !record.card);
+const pilotRecords = getArchivePreset(
+  archiveDataset.records,
+  'pilot-downstream-mind',
+).filter((record) => !record.card);
+const featuredPilot = pilotRecords[0];
+const pilotCompanions = pilotRecords.slice(1, 5);
 
 function formatKind(record: (typeof archiveDataset.records)[number]) {
   if (record.card) return `Travel Arc ${record.card}`;
   if (record.entryKind === 'hub') return 'Hub';
   if (record.entryKind === 'reference') return 'Reference';
   switch (record.articleMode) {
-    case 'signal-essay': return 'Signal Essay';
-    case 'field-note': return 'Field Note';
-    case 'research-essay': return 'Research Essay';
-    default: return 'Essay';
+    case 'signal-essay':
+      return 'Signal Essay';
+    case 'field-note':
+      return 'Field Note';
+    case 'research-essay':
+      return 'Research Essay';
+    default:
+      return 'Essay';
   }
 }
 
 function formatDate(value: string) {
   return new Date(value).toLocaleDateString('en-US', {
+    year: 'numeric',
     month: 'short',
     day: 'numeric',
-    year: 'numeric',
   });
 }
+
+const recentResearch = researchRecords.slice(0, 12);
 ---
 
-<BaseLayout title="Research Library" description="Foundational essays mapping the consciousness-architecture program. The Downstream Mind cluster, recent inquiry, and the wider synthesis layer.">
+<BaseLayout
+  title="Research Library"
+  description="Foundational essays mapping the consciousness-architecture program. The Downstream Mind cluster, recent inquiry, and the wider synthesis layer."
+>
   <SiteHeader />
 
-  <main style="padding: 14vh 6vw 10vh;">
-    <section style="display: grid; gap: 1.5rem; max-width: 68rem; margin-bottom: 5rem;">
-      <span style="font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-coherence-emerald); opacity: 0.8;">
-        Research Library
-      </span>
-      <h1 style="font-family: var(--font-display); font-size: clamp(2.4rem, 4.8vw, 4.8rem); line-height: 1.02; color: var(--color-parchment);">
-        Foundational essays. The Downstream Mind. Recent inquiry.
-      </h1>
-      <p style="font-family: var(--font-body); font-size: clamp(0.98rem, 1.05vw, 1.14rem); line-height: 1.75; color: var(--color-muted-silver); opacity: 0.8; max-width: 48rem;">
-        Essays mapping the consciousness-architecture program — bioelectric systems, four-tier speech models, sonic infrastructure, pattern-debugging protocols. Open a foundational essay, follow The Downstream Mind cluster, or move into the full archive.
-      </p>
-      <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
-        <a href="/journeys" style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(16,181,167,0.2); background: rgba(16,181,167,0.08); color: var(--color-coherence-emerald);">
-          Open Full Archive
-        </a>
-        <a href="/posts/the-downstream-mind" style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(197,160,23,0.24); background: rgba(197,160,23,0.08); color: var(--color-sacred-gold);">
-          Read The Downstream Mind
-        </a>
+  <main class="min-h-[100dvh]">
+    {/* Hero — restrained, scholarly. Single declarative sentence. */}
+    <section class="px-6 pt-[clamp(6rem,11vw,9rem)] pb-[clamp(2.5rem,5vw,4rem)] sm:px-10 lg:px-16">
+      <div class="mx-auto max-w-[1280px]">
+        <div class="grid grid-cols-12 gap-x-6">
+          <div class="col-span-12 mb-6 sm:col-span-2 sm:mb-0">
+            <span
+              class="text-[0.62rem] uppercase"
+              style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-coherence-emerald); opacity: 0.78;"
+            >Library</span>
+          </div>
+          <div class="col-span-12 sm:col-span-10">
+            <h1
+              class="max-w-[24ch] text-[clamp(1.85rem,3.4vw,2.85rem)] leading-[1.06] tracking-tight text-[var(--color-parchment)]"
+              style="font-family: var(--font-display); font-weight: 500;"
+            >
+              An indexed reading. Foundational essays, the <em
+                class="not-italic"
+                style="color: var(--color-sacred-gold);"
+              >Downstream Mind</em> cluster, and recent inquiry.
+            </h1>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section style="margin-bottom: 4rem;">
-      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
-        <span style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.66;">
-          Foundational Nodes
-        </span>
-        <div style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(197,160,23,0.2), transparent);" />
-      </div>
-
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
-        {foundationalRecords.map((record) => (
-          <a href={`/posts/${record.slug}`} style="display: grid; gap: 0.75rem; padding: 1.15rem; border-radius: 1rem; border: 1px solid rgba(138,155,168,0.12); background: linear-gradient(180deg, rgba(14,20,40,0.7), rgba(7,11,29,0.92));">
-            <span style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.74;">
-              {formatKind(record)}
-            </span>
-            <h2 style="font-family: var(--font-display); font-size: 1.35rem; line-height: 1.1; color: var(--color-parchment);">
-              {record.title}
-            </h2>
-            {record.excerpt && (
-              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none;">
-                {record.excerpt}
-              </p>
-            )}
-          </a>
-        ))}
-      </div>
-    </section>
-
-    <section style="margin-bottom: 4rem;">
-      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
-        <span style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-coherence-emerald); opacity: 0.72;">
-          The Downstream Mind
-        </span>
-        <div style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(16,181,167,0.2), transparent);" />
-      </div>
-
-      <div style="display: grid; gap: 1rem;">
-        {pilotRecords.map((record) => (
-          <a href={`/posts/${record.slug}`} style="display: grid; gap: 0.7rem; padding: 1rem 1.1rem; border-radius: 0.9rem; border: 1px solid rgba(138,155,168,0.1); background: rgba(14,20,40,0.36);">
-            <div style="display: flex; justify-content: space-between; gap: 0.75rem; align-items: baseline;">
-              <span style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-coherence-emerald); opacity: 0.74;">
-                {formatKind(record)}
-              </span>
-              <time style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-muted-silver); opacity: 0.45;">
-                {formatDate(record.date)}
-              </time>
+    {/* Two-column asymmetric: 5/7 split */}
+    <section class="px-6 pb-[clamp(6rem,12vw,11rem)] sm:px-10 lg:px-16">
+      <div class="mx-auto max-w-[1280px]">
+        <div class="grid grid-cols-12 gap-x-12 gap-y-16 lg:gap-x-16">
+          {/* LEFT: Numbered foundational index (5/12) */}
+          <div class="col-span-12 lg:col-span-5">
+            <div class="mb-8 flex items-baseline justify-between border-b border-[rgba(197,160,23,0.22)] pb-3">
+              <span
+                class="text-[0.62rem] uppercase"
+                style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-sacred-gold); opacity: 0.72;"
+              >Foundational</span>
+              <span
+                class="text-[0.62rem] tabular-nums uppercase"
+                style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.42;"
+              >{String(foundationalRecords.length).padStart(2, '0')} indexed</span>
             </div>
-            <h3 style="font-family: var(--font-display); font-size: 1.2rem; line-height: 1.1; color: var(--color-parchment);">
-              {record.title}
-            </h3>
-            {record.excerpt && (
-              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none;">
-                {record.excerpt}
-              </p>
+
+            <ol class="grid gap-0">
+              {foundationalRecords.map((record, idx) => (
+                <li>
+                  <a
+                    href={`/posts/${record.slug}`}
+                    class="group grid grid-cols-[2.25rem_1fr] items-baseline gap-4 border-b border-[rgba(138,155,168,0.08)] py-5 transition-colors hover:border-[rgba(197,160,23,0.4)]"
+                  >
+                    <span
+                      class="text-[0.7rem] tabular-nums"
+                      style="font-family: var(--font-mono); color: var(--color-sacred-gold); opacity: 0.55;"
+                    >{String(idx + 1).padStart(2, '0')}</span>
+                    <div class="grid gap-1.5">
+                      <h3
+                        class="text-[1.05rem] leading-snug text-[var(--color-parchment)] transition-colors duration-300 group-hover:text-[var(--color-sacred-gold)] sm:text-[1.12rem]"
+                        style="font-family: var(--font-display); font-weight: 500;"
+                      >{record.title}</h3>
+                      <span
+                        class="text-[0.62rem] uppercase"
+                        style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.5;"
+                      >{formatKind(record)}</span>
+                    </div>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </div>
+
+          {/* RIGHT: Featured pilot block + recent feed (7/12) */}
+          <div class="col-span-12 lg:col-span-7">
+            {/* Featured: The Downstream Mind */}
+            {featuredPilot && (
+              <article class="mb-16">
+                <div class="mb-6 flex items-baseline justify-between border-b border-[rgba(16,181,167,0.22)] pb-3">
+                  <span
+                    class="text-[0.62rem] uppercase"
+                    style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-coherence-emerald); opacity: 0.78;"
+                  >Pilot Cluster</span>
+                  <span
+                    class="text-[0.62rem] uppercase"
+                    style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.42;"
+                  >Currently active</span>
+                </div>
+
+                <a href={`/posts/${featuredPilot.slug}`} class="group block">
+                  <div
+                    class="text-[0.62rem] uppercase"
+                    style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-coherence-emerald); opacity: 0.6;"
+                  >{formatKind(featuredPilot)}</div>
+                  <h2
+                    class="mt-3 max-w-[18ch] text-[clamp(1.85rem,3.2vw,2.6rem)] leading-[1.06] text-[var(--color-parchment)] transition-colors duration-300 group-hover:text-[var(--color-sacred-gold)]"
+                    style="font-family: var(--font-display); font-weight: 500;"
+                  >{featuredPilot.title}</h2>
+                  {featuredPilot.excerpt && (
+                    <p
+                      class="mt-5 max-w-[58ch] text-[0.98rem] leading-relaxed"
+                      style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.78;"
+                    >{featuredPilot.excerpt}</p>
+                  )}
+                  <span
+                    class="mt-5 inline-flex items-center gap-2 text-[0.7rem] uppercase"
+                    style="font-family: var(--font-mono); letter-spacing: 0.22em; color: var(--color-coherence-emerald); opacity: 0.78;"
+                  >Read the essay <span aria-hidden="true">→</span></span>
+                </a>
+
+                {pilotCompanions.length > 0 && (
+                  <ul class="mt-8 grid gap-0">
+                    {pilotCompanions.map((record) => (
+                      <li>
+                        <a
+                          href={`/posts/${record.slug}`}
+                          class="group flex items-baseline justify-between gap-6 border-t border-[rgba(138,155,168,0.08)] py-3 transition-colors hover:border-[rgba(16,181,167,0.4)]"
+                        >
+                          <span
+                            class="text-[0.95rem] leading-snug text-[var(--color-muted-silver)] transition-colors group-hover:text-[var(--color-parchment)]"
+                            style="font-family: var(--font-display);"
+                          >{record.title}</span>
+                          <time
+                            class="shrink-0 text-[0.62rem] tabular-nums"
+                            style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;"
+                          >{formatDate(record.date)}</time>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </article>
             )}
-          </a>
-        ))}
-      </div>
-    </section>
 
-    <section>
-      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
-        <span style="font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-muted-silver); opacity: 0.72;">
-          Recent Research
-        </span>
-        <div style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(138,155,168,0.18), transparent);" />
-      </div>
-
-      <div style="display: grid; gap: 0.85rem;">
-        {researchRecords.slice(0, 12).map((record) => (
-          <a href={`/posts/${record.slug}`} style="display: grid; gap: 0.6rem; padding: 0.95rem 1rem; border-radius: 0.9rem; border: 1px solid rgba(138,155,168,0.08); background: rgba(14,20,40,0.28);">
-            <div style="display: flex; justify-content: space-between; gap: 0.75rem; align-items: baseline; flex-wrap: wrap;">
-              <span style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-muted-silver); opacity: 0.7;">
-                {formatKind(record)}
-              </span>
-              <time style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-muted-silver); opacity: 0.45;">
-                {formatDate(record.date)}
-              </time>
+            {/* Recent feed */}
+            <div>
+              <div class="mb-6 flex items-baseline justify-between border-b border-[rgba(138,155,168,0.18)] pb-3">
+                <span
+                  class="text-[0.62rem] uppercase"
+                  style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-muted-silver); opacity: 0.62;"
+                >Recent</span>
+                <span
+                  class="text-[0.62rem] tabular-nums uppercase"
+                  style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.4;"
+                >{recentResearch.length} entries</span>
+              </div>
+              <ul class="grid gap-0">
+                {recentResearch.map((record) => (
+                  <li>
+                    <a
+                      href={`/posts/${record.slug}`}
+                      class="group grid grid-cols-[1fr_auto] items-baseline gap-4 border-b border-[rgba(138,155,168,0.08)] py-3.5 transition-colors hover:border-[rgba(197,160,23,0.4)]"
+                    >
+                      <div class="grid gap-1.5">
+                        <span
+                          class="text-[0.95rem] leading-snug text-[var(--color-muted-silver)] transition-colors group-hover:text-[var(--color-parchment)]"
+                          style="font-family: var(--font-display);"
+                        >{record.title}</span>
+                        <span
+                          class="text-[0.6rem] uppercase"
+                          style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.45;"
+                        >{formatKind(record)}</span>
+                      </div>
+                      <time
+                        class="shrink-0 text-[0.62rem] tabular-nums"
+                        style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.4;"
+                      >{formatDate(record.date)}</time>
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <h3 style="font-family: var(--font-display); font-size: 1.12rem; line-height: 1.1; color: var(--color-parchment);">
-              {record.title}
-            </h3>
-          </a>
-        ))}
+          </div>
+        </div>
       </div>
     </section>
   </main>

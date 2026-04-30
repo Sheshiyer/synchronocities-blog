@@ -3,160 +3,168 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { getCardByNumeral } from '../lib/tarot';
 import { getCardPalette } from '../lib/cardColors';
-import JourneysAnimator from '../components/JourneysAnimator';
 import SiteHeader from '../components/SiteHeader.astro';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const cardPosts = allPosts.filter((p) => p.data.card);
 
-const sortedCardPosts = [...cardPosts].sort((a, b) =>
-  b.data.date.getTime() - a.data.date.getTime()
+const sortedCardPosts = [...cardPosts].sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
 );
+
+const totalEntries = sortedCardPosts.length;
+const yearsActive =
+  sortedCardPosts.length > 0
+    ? (() => {
+        const years = sortedCardPosts.map((p) => p.data.date.getFullYear());
+        const lo = Math.min(...years);
+        const hi = Math.max(...years);
+        return lo === hi ? `${lo}` : `${lo}–${hi}`;
+      })()
+    : '';
 ---
 
-<BaseLayout title="The Shesh Travelogue" description="Field-movement entries. Each post sits at a tarot position on the spiral. The most recent reading appears first.">
+<BaseLayout
+  title="The Shesh Travelogue"
+  description="Field-movement entries. Each post sits at a tarot position on the spiral. The most recent reading appears first."
+>
   <SiteHeader />
 
-  <main style="padding-top: 14vh; padding-bottom: 12vh;">
-    <section style="padding: 0 6vw 8vh;">
-      <div style="display: grid; gap: 1.5rem; max-width: 72rem;">
-        <div style="display: flex; flex-wrap: wrap; gap: 0.65rem; align-items: center;">
-          <span
-            style="font-family: var(--font-mono); font-size: clamp(0.65rem, 0.7vw, 0.75rem); letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.68;"
-          >
-            Travelogue Lane
-          </span>
-          <span
-            style="font-family: var(--font-mono); font-size: clamp(0.62rem, 0.68vw, 0.72rem); color: var(--color-muted-silver); opacity: 0.42;"
-          >
-            {sortedCardPosts.length} travel entries
-          </span>
+  <main class="min-h-[100dvh]">
+    {/* Hero — left-aligned, asymmetric, intentional whitespace */}
+    <section class="px-6 pt-[clamp(6rem,11vw,9rem)] pb-[clamp(3rem,6vw,5rem)] sm:px-10 lg:px-16">
+      <div class="mx-auto grid max-w-[1280px] grid-cols-12 gap-x-6">
+        <div class="col-span-12 mb-8 sm:col-span-3 sm:mb-0 lg:col-span-2">
+          <div class="grid gap-1.5">
+            <span
+              class="text-[0.62rem] uppercase"
+              style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-sacred-gold); opacity: 0.65;"
+            >Almanac</span>
+            <span
+              class="text-[0.7rem] tabular-nums"
+              style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.42;"
+            >{totalEntries} entries · {yearsActive}</span>
+          </div>
         </div>
 
-        <h1
-          data-anim="hero-title"
-          style="font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 600; line-height: 1.02; color: var(--color-parchment);"
-        >
-          The Shesh Travelogue.
-        </h1>
-
-        <p
-          data-anim="hero-sub"
-          style="font-family: var(--font-body); font-size: clamp(0.96rem, 1.05vw, 1.15rem); line-height: 1.75; color: var(--color-muted-silver); max-width: 52rem; opacity: 0.78;"
-        >
-          Field-movement entries. The body went here, the field changed, the tarot card names the position. Each entry sits at a node on the spiral.
-        </p>
-
-        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
-          <a
-            href="#travelogue-sequence"
-            style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(197,160,23,0.24); background: rgba(197,160,23,0.08); color: var(--color-sacred-gold);"
+        <div class="col-span-12 sm:col-span-9 lg:col-span-9 lg:col-start-4">
+          <h1
+            class="text-[clamp(2.4rem,5.4vw,4.4rem)] leading-[0.96] tracking-tight text-[var(--color-parchment)]"
+            style="font-family: var(--font-display); font-weight: 600;"
           >
-            Read The Travelogue
-          </a>
-          <a
-            href="/research"
-            style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(16,181,167,0.2); background: rgba(16,181,167,0.08); color: var(--color-coherence-emerald);"
+            The Shesh<br />
+            <em class="not-italic" style="color: var(--color-sacred-gold);">Travelogue</em>.
+          </h1>
+          <p
+            class="mt-8 max-w-[52ch] text-base leading-relaxed sm:text-[1.05rem]"
+            style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.78;"
           >
-            Browse Research
-          </a>
-          <a
-            href="/maps"
-            style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(138,155,168,0.18); background: rgba(14,20,40,0.5); color: var(--color-muted-silver);"
-          >
-            Open Maps & Indexes
-          </a>
+            Field-movement entries. The body went here, the field changed, the tarot card names the position. Each entry sits at a node on the spiral.
+          </p>
         </div>
       </div>
     </section>
 
+    {/* Timeline — vertical chronological log */}
     {sortedCardPosts.length > 0 && (
-      <section id="travelogue-sequence" style="padding: 0 6vw 12vh;">
-        <div data-anim="section-label" style="display: flex; align-items: center; gap: 2vw; margin-bottom: 5vh;">
-          <span data-anim="section-text" style="font-family: var(--font-mono); font-size: clamp(0.6rem, 0.65vw, 0.7rem); letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.6; white-space: nowrap;">
-            Field Sequence
-          </span>
-          <div data-anim="section-line" style="flex: 1; height: 1px; background: linear-gradient(90deg, rgba(197,160,23,0.25), transparent);" />
-        </div>
-
-        <p style="font-family: var(--font-body); font-size: clamp(0.92rem, 1vw, 1.05rem); line-height: 1.75; color: var(--color-muted-silver); max-width: 44rem; opacity: 0.76; margin-bottom: 2rem;">
-          Each entry is dated and tarot-anchored. The card numeral marks the position; the date marks when the body was there.
-        </p>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 25vw), 1fr)); gap: 1.5vw;">
-          {sortedCardPosts.map((post) => {
-            const card = post.data.card ? getCardByNumeral(post.data.card) : null;
-            const palette = post.data.card ? getCardPalette(post.data.card) : null;
-            const accent = palette?.accentColor || '#C5A017';
-            const bg = palette?.backgroundColor || '#0E1428';
-            const gFrom = palette?.gradientFrom || '#070B1D';
-            const gVia = palette?.gradientVia || '#0E1428';
-
-            return (
-              <a
-                href={`/posts/${post.id}`}
-                data-anim="arcana-card"
-                class="journeys-card group block cursor-pointer relative overflow-hidden transition-all duration-500"
-                style={`border-radius: 0.8vw; border: 1px solid ${accent}15; background: linear-gradient(160deg, ${gFrom}, ${gVia});`}
+      <section
+        id="travelogue-sequence"
+        class="px-6 pb-[clamp(6rem,12vw,11rem)] sm:px-10 lg:px-16"
+      >
+        <div class="mx-auto max-w-[1280px]">
+          <div class="grid grid-cols-12 gap-6 border-t border-[rgba(197,160,23,0.18)] pt-4">
+            <div class="col-span-12 sm:col-span-3 lg:col-span-2">
+              <span
+                class="text-[0.62rem] uppercase"
+                style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-sacred-gold); opacity: 0.65;"
+              >Field Sequence</span>
+            </div>
+            <div class="col-span-12 sm:col-span-9 lg:col-span-9 lg:col-start-4">
+              <p
+                class="max-w-[52ch] text-[0.92rem] leading-relaxed"
+                style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.62;"
               >
-                {palette?.textureSrc && (
-                  <div class="absolute inset-0 transition-all duration-700 group-hover:scale-105 group-hover:opacity-30" style="opacity: 0.12;">
-                    <img src={palette.textureSrc} alt="" class="w-full h-full object-cover" style="filter: saturate(0.3);" />
-                    <div class="absolute inset-0" style={`background: linear-gradient(180deg, ${bg}DD 0%, ${bg}99 50%, ${bg}DD 100%);`} />
-                  </div>
-                )}
+                Each entry is dated and tarot-anchored. The card numeral marks the position; the date marks when the body was there. Newest first.
+              </p>
+            </div>
+          </div>
 
-                <div
-                  class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
-                  style={`background: radial-gradient(ellipse at 50% 80%, ${accent}15 0%, transparent 60%); filter: blur(2vw);`}
-                />
-
-                <div
-                  class="absolute inset-0 rounded-[0.8vw] opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-                  style={`box-shadow: inset 0 0 0 1px ${accent}30, 0 0 3vw ${accent}10;`}
-                />
-
-                <div class="relative" style="padding: 2.5vh 2vw;">
-                  <div style="display: flex; align-items: baseline; gap: 1vw; margin-bottom: 1.5vh;">
-                    <span data-anim="card-numeral" class="transition-all duration-500 group-hover:opacity-25" style={`font-family: var(--font-display); font-size: clamp(2rem, 3vw, 3.5rem); font-weight: 700; line-height: 1; color: ${accent}; opacity: 0.12;`}>
-                      {post.data.card}
-                    </span>
-                    {card && (
-                      <span style={`font-family: var(--font-mono); font-size: clamp(0.55rem, 0.6vw, 0.65rem); letter-spacing: 0.18em; text-transform: uppercase; color: ${accent}; opacity: 0.5;`}>
-                        {card.thothName}
-                      </span>
-                    )}
-                  </div>
-
-                  <h3
-                    data-anim="card-title"
-                    class="transition-colors duration-300"
-                    style={`font-family: var(--font-display); font-size: clamp(1rem, 1.3vw, 1.45rem); font-weight: 500; line-height: 1.25; color: var(--color-parchment); margin-bottom: 1.2vh;`}
+          <ol class="mt-10 grid gap-0">
+            {sortedCardPosts.map((post) => {
+              const card = post.data.card ? getCardByNumeral(post.data.card) : null;
+              const palette = post.data.card ? getCardPalette(post.data.card) : null;
+              const accent = palette?.accentColor || '#C5A017';
+              const day = post.data.date.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+              });
+              const year = post.data.date.getFullYear();
+              return (
+                <li>
+                  <a
+                    href={`/posts/${post.id}`}
+                    class="group grid grid-cols-12 gap-x-6 border-t border-[rgba(138,155,168,0.1)] py-7 transition-transform duration-500 hover:translate-x-1.5 sm:py-8"
+                    style={`--row-accent: ${accent};`}
                   >
-                    {post.data.title}
-                  </h3>
+                    {/* Date stamp */}
+                    <div class="col-span-12 mb-3 flex items-baseline gap-3 sm:col-span-3 sm:mb-0 sm:flex-col sm:items-start sm:gap-1.5 lg:col-span-2">
+                      <time
+                        class="text-[0.7rem] tabular-nums uppercase"
+                        style="font-family: var(--font-mono); letter-spacing: 0.16em; color: var(--color-muted-silver); opacity: 0.55;"
+                      >{day} <span class="opacity-60">{year}</span></time>
+                      <span
+                        class="text-[2.2rem] font-light leading-none tracking-tight tabular-nums sm:text-[2.6rem]"
+                        style={`font-family: var(--font-display); color: ${accent}; opacity: 0.62; transition: opacity 0.3s ease;`}
+                      >{post.data.card}</span>
+                    </div>
 
-                  <div style="display: flex; align-items: center; gap: 1vw;">
-                    <time style={`font-family: var(--font-mono); font-size: clamp(0.55rem, 0.58vw, 0.62rem); color: var(--color-muted-silver); opacity: 0.4;`}>
-                      {post.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                    </time>
-                    {card && (
-                      <>
-                        <span style={`width: 0.3vw; height: 0.3vw; border-radius: 50%; background: ${accent}; opacity: 0.2;`} />
-                        <span style={`font-family: var(--font-mono); font-size: clamp(0.5rem, 0.55vw, 0.6rem); color: var(--color-muted-silver); opacity: 0.3;`}>
-                          {card.heroPhase}
-                        </span>
-                      </>
-                    )}
-                  </div>
-                </div>
-              </a>
-            );
-          })}
+                    {/* Title + meta */}
+                    <div class="col-span-12 sm:col-span-9 lg:col-span-9 lg:col-start-4">
+                      <h3
+                        class="text-[clamp(1.2rem,1.95vw,1.55rem)] leading-[1.18] text-[var(--color-parchment)] transition-colors duration-300"
+                        style="font-family: var(--font-display); font-weight: 500;"
+                      >{post.data.title}</h3>
+
+                      <div
+                        class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.66rem] uppercase"
+                        style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.5;"
+                      >
+                        {card && <span>{card.thothName}</span>}
+                        {card && (
+                          <span style={`color: ${accent}; opacity: 0.6;`}>·</span>
+                        )}
+                        {card && <span>{card.heroPhase}</span>}
+                        {post.data.location && (
+                          <>
+                            <span style={`color: ${accent}; opacity: 0.6;`}>·</span>
+                            <span>{post.data.location}</span>
+                          </>
+                        )}
+                      </div>
+
+                      {post.data.excerpt && (
+                        <p
+                          class="mt-4 max-w-[60ch] text-[0.92rem] leading-relaxed"
+                          style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.65;"
+                        >{post.data.excerpt}</p>
+                      )}
+                    </div>
+                  </a>
+                </li>
+              );
+            })}
+          </ol>
         </div>
       </section>
     )}
   </main>
 
-  <JourneysAnimator client:load />
+  <style>
+    a.group:hover h3 {
+      color: var(--color-sacred-gold);
+    }
+    a.group:hover [style*='--row-accent'] {
+      opacity: 1;
+    }
+  </style>
 </BaseLayout>
