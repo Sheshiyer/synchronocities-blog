@@ -16,6 +16,7 @@
   --color-coherence-emerald: #10B5A7;
   --color-parchment: #F0EDE3;
   --color-muted-silver: #8A9BA8;
+  --color-muted-silver-strong: #B0BBC4; /* WCAG AA on void-black at full opacity (4.7:1). Use for body-tier text where muted-silver at <0.5 opacity fails contrast. */
   --color-terracotta: #C65D3B;
 
   /* ── Typography Scale (Golden Ratio φ = 1.618) ── */
@@ -1713,6 +1714,7 @@
 }
 
 .journey-dot {
+  position: relative;
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -1722,14 +1724,22 @@
   flex: 0 0 auto;
 }
 
+/* Expand the touch target to 36x36 without changing the visual size. */
+.journey-dot::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
+  border-radius: 50%;
+}
+
 .journey-dot:hover,
 .journey-dot:focus-visible {
   opacity: 0.7;
 }
 
 .journey-dot:focus-visible {
-  outline: 1px solid currentColor;
-  outline-offset: 3px;
+  outline: 2px solid var(--color-sacred-gold);
+  outline-offset: 6px;
 }
 
 .journey-dot.active {
@@ -1737,6 +1747,21 @@
   height: 8px;
   opacity: 1;
   box-shadow: 0 0 8px currentColor;
+}
+
+/* Site-wide focus-visible default — keyboard users see a clear ring. */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-sacred-gold);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-sacred-gold);
+  outline-offset: 2px;
 }
 
 .journey-dot-line {
