@@ -1,16 +1,24 @@
 ---
-title: "The Star Names You"
-date: 2025-03-28
-card: "XVII"
+title: The Star Names You
+date: 2025-03-28T00:00:00.000Z
+card: XVII
 suit: cups
 phase: 12
-location: "Koh Samui, Thailand"
+location: Koh Samui, Thailand
 revolution: 1
-kosha: "anandamaya"
-identity: "Pichet"
-excerpt: "On an island shaped like a teardrop, the Star poured its water. The name came not from the mind but from the mouth of a stranger who saw what the mirror couldn't show."
-featured_image: "/cards/tarot-17-star.webp"
-tags: ["tarot-17-star", "healing", "samui", "name-transmission", "victory"]
+kosha: anandamaya
+identity: Pichet
+excerpt: On an island shaped like a teardrop, the Star poured its water. The name came not from the mind but from the mouth of a stranger who saw what the mirror couldn't show.
+featured_image: /cards/tarot-17-star.webp
+tags:
+  - tarot-17-star
+  - healing
+  - samui
+  - name-transmission
+  - victory
+  - cluster:tarot
+  - cluster:travelogue
+  - cluster:sonic
 ---
 
 On an island shaped like a teardrop, the Star poured its water.

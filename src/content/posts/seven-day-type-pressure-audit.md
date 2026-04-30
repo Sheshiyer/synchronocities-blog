@@ -1,9 +1,14 @@
 ---
-title: "The Seven-Day Type Pressure Audit"
-date: 2025-11-20
-excerpt: "You do not know your Enneagram type from a quiz. You know your type from pressure. Seven days, four fields, one map of the defense architecture you have been running since before you could name it."
-featured_image: "/cards/sync-7day-audit.webp"
-tags: ["enneagram", "pressure", "audit", "seven-day"]
+title: The Seven-Day Type Pressure Audit
+date: 2025-11-20T00:00:00.000Z
+excerpt: You do not know your Enneagram type from a quiz. You know your type from pressure. Seven days, four fields, one map of the defense architecture you have been running since before you could name it.
+featured_image: /cards/sync-7day-audit.webp
+tags:
+  - enneagram
+  - pressure
+  - audit
+  - seven-day
+  - cluster:enneagram
 draft: false
 revolution: 1
 ---

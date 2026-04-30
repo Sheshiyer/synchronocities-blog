@@ -1,9 +1,14 @@
 ---
-title: "Lorenz-Kundli System Index"
-date: 2026-02-08
-excerpt: "A navigational index for the Lorenz-Kundli research program — mapping the complete topology of parallel studies between chaos mathematics, Vedic astronomical systems, and consciousness pattern recognition."
-featured_image: "/cards/sync-system-index.webp"
-tags: ["lorenz-kundli", "system", "index", "overview"]
+title: Lorenz-Kundli System Index
+date: 2026-02-08T00:00:00.000Z
+excerpt: A navigational index for the Lorenz-Kundli research program — mapping the complete topology of parallel studies between chaos mathematics, Vedic astronomical systems, and consciousness pattern recognition.
+featured_image: /cards/sync-system-index.webp
+tags:
+  - lorenz-kundli
+  - system
+  - index
+  - overview
+  - cluster:lorenz-kundli
 draft: false
 revolution: 1
 article_mode: reference

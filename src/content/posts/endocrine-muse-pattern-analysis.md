@@ -1,9 +1,14 @@
 ---
-title: "Endocrine-Muse Pattern Analysis"
-date: 2026-02-15
-excerpt: "A meta-analysis of the nine-point endocrine-muse correspondence system, revealing how biological rhythms and archetypal expressions synchronize through cyclical, hierarchical, and field-coherent patterns."
-featured_image: "/cards/sync-muse-analysis.webp"
-tags: ["enneagram", "endocrine", "muse", "meta-analysis"]
+title: Endocrine-Muse Pattern Analysis
+date: 2026-02-15T00:00:00.000Z
+excerpt: A meta-analysis of the nine-point endocrine-muse correspondence system, revealing how biological rhythms and archetypal expressions synchronize through cyclical, hierarchical, and field-coherent patterns.
+featured_image: /cards/sync-muse-analysis.webp
+tags:
+  - enneagram
+  - endocrine
+  - muse
+  - meta-analysis
+  - cluster:enneagram
 draft: false
 revolution: 1
 ---

@@ -1,11 +1,16 @@
 ---
-title: "The 72-Hour State Trace Protocol"
-date: 2025-08-15
+title: The 72-Hour State Trace Protocol
+date: 2025-08-15T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "If your state is unstable, your decisions are stress snapshots. Here's a 72-hour diagnostic that shows you the pattern underneath. Not a mood tracker. A state trace."
-featured_image: "/cards/sync-72-hour-trace.webp"
-tags: ["consciousness", "protocol", "state-trace", "72-hours"]
+excerpt: If your state is unstable, your decisions are stress snapshots. Here's a 72-hour diagnostic that shows you the pattern underneath. Not a mood tracker. A state trace.
+featured_image: /cards/sync-72-hour-trace.webp
+tags:
+  - consciousness
+  - protocol
+  - state-trace
+  - 72-hours
+  - cluster:consciousness
 ---
 
 # The 72-Hour State Trace Protocol

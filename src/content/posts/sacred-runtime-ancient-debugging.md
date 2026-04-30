@@ -1,11 +1,16 @@
 ---
-title: "The Sacred Runtime: When Ancient Debugging Actually Meant Throwing Someone Out of the City"
-date: 2025-05-15
+title: 'The Sacred Runtime: When Ancient Debugging Actually Meant Throwing Someone Out of the City'
+date: 2025-05-15T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Historical debugging practices mapped to modern consciousness work — where ancient rituals meet technical parallels, and humor becomes the teaching mechanism."
-featured_image: "/cards/sync-sacred-runtime.webp"
-tags: ["runtime", "debugging", "consciousness", "ancient-systems"]
+excerpt: Historical debugging practices mapped to modern consciousness work — where ancient rituals meet technical parallels, and humor becomes the teaching mechanism.
+featured_image: /cards/sync-sacred-runtime.webp
+tags:
+  - runtime
+  - debugging
+  - consciousness
+  - ancient-systems
+  - cluster:consciousness
 ---
 
 # The Sacred Runtime: When Ancient Debugging Actually Meant Throwing Someone Out of the City

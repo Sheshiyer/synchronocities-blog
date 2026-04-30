@@ -1,9 +1,14 @@
 ---
-title: "Graha Friendship Tables as Cellular Automata: Conway's Game of Planets"
-date: 2025-12-10
-excerpt: "The Vedic planetary friendship matrix operates like cellular automata rules — a 9x9 grid of relationships where Friend, Neutral, and Enemy states evolve through neighborhood logic identical to Conway's Game of Life."
-featured_image: "/cards/sync-graha-automata.webp"
-tags: ["lorenz-kundli", "graha", "cellular-automata", "vedic"]
+title: 'Graha Friendship Tables as Cellular Automata: Conway''s Game of Planets'
+date: 2025-12-10T00:00:00.000Z
+excerpt: The Vedic planetary friendship matrix operates like cellular automata rules — a 9x9 grid of relationships where Friend, Neutral, and Enemy states evolve through neighborhood logic identical to Conway's Game of Life.
+featured_image: /cards/sync-graha-automata.webp
+tags:
+  - lorenz-kundli
+  - graha
+  - cellular-automata
+  - vedic
+  - cluster:lorenz-kundli
 draft: false
 revolution: 1
 related_posts:

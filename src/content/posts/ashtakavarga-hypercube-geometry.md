@@ -1,9 +1,15 @@
 ---
-title: "Ashtakavarga as Hypercube Geometry: Eight Dimensions of Bindu Space"
-date: 2025-12-15
-excerpt: "The Ashtakavarga system maps benefic points across an 8-dimensional binary state space — each bindu a vertex on a hypercube, each chart a trajectory through 256 possible states. Vedic seers were doing quantum computing with chalk."
-featured_image: "/cards/sync-ashtakavarga-hypercube.webp"
-tags: ["lorenz-kundli", "ashtakavarga", "hypercube", "geometry"]
+title: 'Ashtakavarga as Hypercube Geometry: Eight Dimensions of Bindu Space'
+date: 2025-12-15T00:00:00.000Z
+excerpt: The Ashtakavarga system maps benefic points across an 8-dimensional binary state space — each bindu a vertex on a hypercube, each chart a trajectory through 256 possible states. Vedic seers were doing quantum computing with chalk.
+featured_image: /cards/sync-ashtakavarga-hypercube.webp
+tags:
+  - lorenz-kundli
+  - ashtakavarga
+  - hypercube
+  - geometry
+  - cluster:lorenz-kundli
+  - cluster:geometry
 draft: false
 revolution: 1
 ---

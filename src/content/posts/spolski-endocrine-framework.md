@@ -1,9 +1,15 @@
 ---
-title: "The Spolski Endocrine Framework: Chemical Archetypes in the Blood"
-date: 2025-10-20
-excerpt: "Nine hormones. Nine Muses. Nine archetypal functions. The Spolski correspondence framework maps endocrine chemistry to consciousness architecture — not as metaphor, but as system documentation."
-featured_image: "/cards/sync-spolski-endocrine.webp"
-tags: ["enneagram", "endocrine", "spolski", "framework"]
+title: 'The Spolski Endocrine Framework: Chemical Archetypes in the Blood'
+date: 2025-10-20T00:00:00.000Z
+excerpt: Nine hormones. Nine Muses. Nine archetypal functions. The Spolski correspondence framework maps endocrine chemistry to consciousness architecture — not as metaphor, but as system documentation.
+featured_image: /cards/sync-spolski-endocrine.webp
+tags:
+  - enneagram
+  - endocrine
+  - spolski
+  - framework
+  - cluster:enneagram
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

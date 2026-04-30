@@ -1,11 +1,17 @@
 ---
-title: "Signal, State, Story — The Debug Edition"
-date: 2025-09-15
+title: Signal, State, Story — The Debug Edition
+date: 2025-09-15T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Your body fires a signal at 80ms. Your nervous system locks into a state at 300ms. Your mind constructs a story at 800ms. Most self-work operates exclusively at Story. That's patching the UI while the kernel runs unchecked."
-featured_image: "/cards/sync-debug-edition.webp"
-tags: ["consciousness", "signal", "state", "story", "debugging"]
+excerpt: Your body fires a signal at 80ms. Your nervous system locks into a state at 300ms. Your mind constructs a story at 800ms. Most self-work operates exclusively at Story. That's patching the UI while the kernel runs unchecked.
+featured_image: /cards/sync-debug-edition.webp
+tags:
+  - consciousness
+  - signal
+  - state
+  - story
+  - debugging
+  - cluster:consciousness
 ---
 
 # Signal, State, Story — The Debug Edition

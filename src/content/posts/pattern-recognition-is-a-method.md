@@ -1,11 +1,17 @@
 ---
-title: "Pattern Recognition Is a Method, Not a Mood"
-date: 2025-09-05
+title: Pattern Recognition Is a Method, Not a Mood
+date: 2025-09-05T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Most people don't have an insight problem. They have a recurrence problem. Same conflict, different person. Same procrastination, different project. If the shape is identical across contexts, you're looking at architecture."
-featured_image: "/cards/sync-pattern-recognition.webp"
-tags: ["consciousness", "pattern-recognition", "method", "mood"]
+excerpt: Most people don't have an insight problem. They have a recurrence problem. Same conflict, different person. Same procrastination, different project. If the shape is identical across contexts, you're looking at architecture.
+featured_image: /cards/sync-pattern-recognition.webp
+tags:
+  - consciousness
+  - pattern-recognition
+  - method
+  - mood
+  - cluster:enneagram
+  - cluster:consciousness
 ---
 
 # Pattern Recognition Is a Method, Not a Mood

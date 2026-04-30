@@ -1,9 +1,15 @@
 ---
-title: "Endocrine-Constellation Transcript"
-date: 2026-03-01
-excerpt: "A deep analysis of the James True transmission on endocrine-constellation correspondences — mapping nine hormones to nine constellations through the Spolski framework, revealing the body as a celestial receiver."
-featured_image: "/cards/sync-constellation-transcript.webp"
-tags: ["enneagram", "endocrine", "constellation", "transcript"]
+title: Endocrine-Constellation Transcript
+date: 2026-03-01T00:00:00.000Z
+excerpt: A deep analysis of the James True transmission on endocrine-constellation correspondences — mapping nine hormones to nine constellations through the Spolski framework, revealing the body as a celestial receiver.
+featured_image: /cards/sync-constellation-transcript.webp
+tags:
+  - enneagram
+  - endocrine
+  - constellation
+  - transcript
+  - cluster:lorenz-kundli
+  - cluster:enneagram
 draft: false
 revolution: 1
 ---

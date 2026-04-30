@@ -1,11 +1,16 @@
 ---
-title: "You Don't Need More Frameworks. You Need Runtime Access."
-date: 2025-07-20
+title: You Don't Need More Frameworks. You Need Runtime Access.
+date: 2025-07-20T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Every self-improvement stack has the same architecture flaw: it adds applications to a machine whose kernel it never inspects. New habits. New vocabulary. Same defensive subroutines running underneath."
-featured_image: "/cards/sync-no-more-frameworks.webp"
-tags: ["runtime", "frameworks", "access", "consciousness"]
+excerpt: 'Every self-improvement stack has the same architecture flaw: it adds applications to a machine whose kernel it never inspects. New habits. New vocabulary. Same defensive subroutines running underneath.'
+featured_image: /cards/sync-no-more-frameworks.webp
+tags:
+  - runtime
+  - frameworks
+  - access
+  - consciousness
+  - cluster:consciousness
 ---
 
 # You Don't Need More Frameworks. You Need Runtime Access.

@@ -1,11 +1,16 @@
 ---
-title: "Repetition Is Architecture, Not Bad Luck"
-date: 2025-08-20
+title: Repetition Is Architecture, Not Bad Luck
+date: 2025-08-20T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "If it repeats across contexts, it is architecture — not coincidence. Same conflict, different faces. Same avoidance, different packaging. Same loop, upgraded vocabulary. That's not bad luck. That's La."
-featured_image: "/cards/sync-repetition-architecture.webp"
-tags: ["consciousness", "repetition", "architecture", "patterns"]
+excerpt: If it repeats across contexts, it is architecture — not coincidence. Same conflict, different faces. Same avoidance, different packaging. Same loop, upgraded vocabulary. That's not bad luck. That's La.
+featured_image: /cards/sync-repetition-architecture.webp
+tags:
+  - consciousness
+  - repetition
+  - architecture
+  - patterns
+  - cluster:consciousness
 ---
 
 # Repetition Is Architecture, Not Bad Luck

@@ -1,11 +1,19 @@
 ---
-title: "The Word as Code"
-date: 2025-05-30
+title: The Word as Code
+date: 2025-05-30T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Language is not a tool humans invented to describe reality. It is the executable layer through which subconscious pattern becomes conscious capacity. When karma metabolizes into samskara, the word is the compiler."
-featured_image: "/cards/sync-word-as-code.webp"
-tags: ["runtime", "language", "consciousness", "patterns", "lorenz-kundli"]
+excerpt: Language is not a tool humans invented to describe reality. It is the executable layer through which subconscious pattern becomes conscious capacity. When karma metabolizes into samskara, the word is the compiler.
+featured_image: /cards/sync-word-as-code.webp
+tags:
+  - runtime
+  - language
+  - consciousness
+  - patterns
+  - lorenz-kundli
+  - cluster:lorenz-kundli
+  - cluster:sonic
+  - cluster:consciousness
 article_mode: signal-essay
 entry_kind: essay
 concepts:
@@ -23,25 +31,25 @@ related_posts:
   - consciousness-architecture-hub
   - magnetic-substrate
 hero:
-  eyebrow: "Consciousness Runtime"
-  subtitle: "The word is not a label. It is an instruction set. The subconscious runs it whether you wrote it or not."
+  eyebrow: Consciousness Runtime
+  subtitle: The word is not a label. It is an instruction set. The subconscious runs it whether you wrote it or not.
   variant: image
 llm:
   start_priority: supporting
-  summary: "Language as executable code running on the nervous system. Four speech layers (Vaikhari/Madhyama/Pashyanti/Para) as access hierarchy from user space to root. Karma as inherited subconscious codebase. Samskara as metabolized karma — subconscious integrated into conscious, becoming executional permission. Mantra as compiled instruction that modifies somatic state through sphenoid/vagal/cranial resonance hardware."
+  summary: Language as executable code running on the nervous system. Four speech layers (Vaikhari/Madhyama/Pashyanti/Para) as access hierarchy from user space to root. Karma as inherited subconscious codebase. Samskara as metabolized karma — subconscious integrated into conscious, becoming executional permission. Mantra as compiled instruction that modifies somatic state through sphenoid/vagal/cranial resonance hardware.
   cluster: consciousness-architecture
   canonical_questions:
-    - "How does language function as executable code on the nervous system?"
-    - "What is the relationship between karma and samskara in terms of consciousness programming?"
-    - "How do the four levels of speech (Vaikhari, Madhyama, Pashyanti, Para) map to system access layers?"
+    - How does language function as executable code on the nervous system?
+    - What is the relationship between karma and samskara in terms of consciousness programming?
+    - How do the four levels of speech (Vaikhari, Madhyama, Pashyanti, Para) map to system access layers?
 experience:
   theme: signal
   rail: concept
   density: immersive
   framework_axes:
-    kha: "The observer who hears the instruction before it executes — the witness position from which all four speech layers are visible."
-    ba: "The nervous system as compiler — throat, mouth, cranium as hardware registers that transform phonemic input into somatic state change."
-    la: "Karma. The accumulated instruction set running in the subconscious. The code you did not write but are executing."
+    kha: The observer who hears the instruction before it executes — the witness position from which all four speech layers are visible.
+    ba: The nervous system as compiler — throat, mouth, cranium as hardware registers that transform phonemic input into somatic state change.
+    la: Karma. The accumulated instruction set running in the subconscious. The code you did not write but are executing.
 ---
 
 # The Word as Code

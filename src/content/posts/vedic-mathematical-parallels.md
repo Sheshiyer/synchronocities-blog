@@ -1,9 +1,14 @@
 ---
-title: "Advanced Vedic-Mathematical System Parallels: A Unified Field Guide"
-date: 2026-01-10
-excerpt: "Six Vedic systems map onto six mathematical frameworks with structural precision: Vimshottari to Markov chains, Graha friendships to cellular automata, Ashtakavarga to hypercubes, Nakshatras to Fibonacci, Shadbala to tensors, Bhavas to neural networks."
-featured_image: "/cards/sync-vedic-math.webp"
-tags: ["lorenz-kundli", "vedic", "mathematics", "parallels"]
+title: 'Advanced Vedic-Mathematical System Parallels: A Unified Field Guide'
+date: 2026-01-10T00:00:00.000Z
+excerpt: 'Six Vedic systems map onto six mathematical frameworks with structural precision: Vimshottari to Markov chains, Graha friendships to cellular automata, Ashtakavarga to hypercubes, Nakshatras to Fibonacci, Shadbala to tensors, Bhavas to neural networks.'
+featured_image: /cards/sync-vedic-math.webp
+tags:
+  - lorenz-kundli
+  - vedic
+  - mathematics
+  - parallels
+  - cluster:lorenz-kundli
 draft: false
 revolution: 1
 ---

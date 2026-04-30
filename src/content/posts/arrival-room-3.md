@@ -1,16 +1,26 @@
 ---
-title: "Arrival in Room 3"
-date: 2025-03-18
+title: Arrival in Room 3
+date: 2025-03-18T00:00:00.000Z
 suit: wands
 phase: 2
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "pranamaya"
-identity: "Shesh"
+kosha: pranamaya
+identity: Shesh
 draft: false
-excerpt: "Bangkok opened its doors to me again. The taxi dropped me at a familiar axis, but my body felt the spiral turn — same city, higher octave."
-featured_image: "/cards/tarot-arrival-room3.webp"
-tags: ["bangkok", "arrival", "room-3", "seven-of-wands", "knight-of-swords", "three-of-wands", "tarot-06-lovers", "numerology"]
+excerpt: Bangkok opened its doors to me again. The taxi dropped me at a familiar axis, but my body felt the spiral turn — same city, higher octave.
+featured_image: /cards/tarot-arrival-room3.webp
+tags:
+  - bangkok
+  - arrival
+  - room-3
+  - seven-of-wands
+  - knight-of-swords
+  - three-of-wands
+  - tarot-06-lovers
+  - numerology
+  - cluster:tarot
+  - cluster:travelogue
 ---
 
 ## The Return

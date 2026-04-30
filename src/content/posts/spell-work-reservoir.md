@@ -1,11 +1,21 @@
 ---
-title: "The Spell-Work Reservoir"
-date: 2026-04-30
+title: The Spell-Work Reservoir
+date: 2026-04-30T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Spell-work is engineering. The Sanskrit phoneme is a primitive whose structural relationships compose into trajectories that drive a known biological substrate into specified states. The reservoir from which the trajectories are drawn was built for that purpose. None of this is mystical."
-featured_image: "/cards/sync-spell-work-reservoir.webp"
-tags: ["runtime", "akshara", "sonic", "symmetry", "mantra", "qualia", "valence"]
+excerpt: Spell-work is engineering. The Sanskrit phoneme is a primitive whose structural relationships compose into trajectories that drive a known biological substrate into specified states. The reservoir from which the trajectories are drawn was built for that purpose. None of this is mystical.
+featured_image: /cards/sync-spell-work-reservoir.webp
+tags:
+  - runtime
+  - akshara
+  - sonic
+  - symmetry
+  - mantra
+  - qualia
+  - valence
+  - cluster:sonic
+  - cluster:geometry
+  - cluster:consciousness
 article_mode: signal-essay
 entry_kind: essay
 concepts:
@@ -23,26 +33,26 @@ related_posts:
   - chakra-bioelectricity-mapping
   - pain-information-architecture
 hero:
-  eyebrow: "Sonic Infrastructure"
-  subtitle: "What does not decay is the alphabet that compiles. The taxonomy is engineered. The substrate accepts what is drawn from it."
+  eyebrow: Sonic Infrastructure
+  subtitle: What does not decay is the alphabet that compiles. The taxonomy is engineered. The substrate accepts what is drawn from it.
   variant: image
 llm:
   start_priority: supporting
-  summary: "Akshara (अक्षर — literally 'non-decay') is the imperishable phonemic primitive. The Devanagari 49-varṇa register is engineered as a periodic table along three orthogonal axes: place of articulation (sthāna), voicing (kaṭhora ↔ mṛdu), aspiration (alpaprāṇa ↔ mahāprāṇa). The voicing × aspiration cross-axis carries a sattva/rajas/tamas guna overlay. The register forms a discrete Euclidean lattice with V₄ × D₅ symmetry. Mantra is a periodic trajectory through that lattice. The Symmetry Theory of Valence (Emilsson/QRI) makes the bridge: high-symmetry brain-states ARE high-valence experience. Mantra inhabits a symmetry orbit; the substrate entrains. Read through Kha-Ba-La: Kha witnesses the akshara invariant; Ba is the vagal-cranial-CSF hardware that compiles; La is the structural friction that gives the trajectory definite form. Spell-work is reproducible engineering, not metaphor."
+  summary: 'Akshara (अक्षर — literally ''non-decay'') is the imperishable phonemic primitive. The Devanagari 49-varṇa register is engineered as a periodic table along three orthogonal axes: place of articulation (sthāna), voicing (kaṭhora ↔ mṛdu), aspiration (alpaprāṇa ↔ mahāprāṇa). The voicing × aspiration cross-axis carries a sattva/rajas/tamas guna overlay. The register forms a discrete Euclidean lattice with V₄ × D₅ symmetry. Mantra is a periodic trajectory through that lattice. The Symmetry Theory of Valence (Emilsson/QRI) makes the bridge: high-symmetry brain-states ARE high-valence experience. Mantra inhabits a symmetry orbit; the substrate entrains. Read through Kha-Ba-La: Kha witnesses the akshara invariant; Ba is the vagal-cranial-CSF hardware that compiles; La is the structural friction that gives the trajectory definite form. Spell-work is reproducible engineering, not metaphor.'
   cluster: consciousness-architecture
   canonical_questions:
-    - "What does it mean for a phoneme to be imperishable?"
-    - "Why is the Devanagari register engineered the way it is?"
-    - "How does the Symmetry Theory of Valence connect mantra to brain-state?"
-    - "Why is spell-work reproducible engineering?"
+    - What does it mean for a phoneme to be imperishable?
+    - Why is the Devanagari register engineered the way it is?
+    - How does the Symmetry Theory of Valence connect mantra to brain-state?
+    - Why is spell-work reproducible engineering?
 experience:
   theme: signal
   rail: concept
   density: immersive
   framework_axes:
-    kha: "The witness that recognizes the akshara unchanged across every speaker, every register, every depth."
-    ba: "The vagal-cranial-vagal hardware as register-program runtime — phonemes as somatic instructions, not linguistic tokens."
-    la: "The structural friction of the closed register — the wallpaper grammar, the V₄ × D₅ lattice, the constraint that gives the trajectory definite form."
+    kha: The witness that recognizes the akshara unchanged across every speaker, every register, every depth.
+    ba: The vagal-cranial-vagal hardware as register-program runtime — phonemes as somatic instructions, not linguistic tokens.
+    la: The structural friction of the closed register — the wallpaper grammar, the V₄ × D₅ lattice, the constraint that gives the trajectory definite form.
 ---
 
 # The Spell-Work Reservoir

@@ -1,9 +1,14 @@
 ---
-title: "Pain Information Architecture"
-date: 2026-03-10
-excerpt: "Pain is not a malfunction report — it is an information packet. Reframing the body's distress signals as data architecture reveals a consciousness system with binary protocols, aperture controls, and a built-in dopamine casino."
-featured_image: "/cards/sync-pain-architecture.webp"
-tags: ["consciousness", "pain", "information", "architecture"]
+title: Pain Information Architecture
+date: 2026-03-10T00:00:00.000Z
+excerpt: Pain is not a malfunction report — it is an information packet. Reframing the body's distress signals as data architecture reveals a consciousness system with binary protocols, aperture controls, and a built-in dopamine casino.
+featured_image: /cards/sync-pain-architecture.webp
+tags:
+  - consciousness
+  - pain
+  - information
+  - architecture
+  - cluster:consciousness
 draft: false
 revolution: 1
 related_posts:

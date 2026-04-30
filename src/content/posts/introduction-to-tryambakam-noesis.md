@@ -1,11 +1,16 @@
 ---
-title: "An Introduction to Tryambakam Noesis: Rewrite Your Operating System"
-date: 2025-06-30
+title: 'An Introduction to Tryambakam Noesis: Rewrite Your Operating System'
+date: 2025-06-30T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "You've optimized everything except the thing doing the optimizing. Tryambakam Noesis exists for the moment you realize the operating system itself needs replacing."
-featured_image: "/cards/sync-intro-noesis.webp"
-tags: ["noesis", "introduction", "operating-system", "consciousness"]
+excerpt: You've optimized everything except the thing doing the optimizing. Tryambakam Noesis exists for the moment you realize the operating system itself needs replacing.
+featured_image: /cards/sync-intro-noesis.webp
+tags:
+  - noesis
+  - introduction
+  - operating-system
+  - consciousness
+  - cluster:consciousness
 pinned: true
 pin_rank: 3
 ---

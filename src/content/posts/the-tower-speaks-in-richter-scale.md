@@ -1,16 +1,23 @@
 ---
-title: "The Tower Speaks in Richter Scale"
-date: 2025-03-15
-card: "XVI"
+title: The Tower Speaks in Richter Scale
+date: 2025-03-15T00:00:00.000Z
+card: XVI
 suit: disks
 phase: 7
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "manomaya"
-identity: "Shesh"
-excerpt: "The earth itself announced the departure. A 6.0 earthquake — Bangkok's strongest in living memory — cracked the ordinary world open on the first night."
-featured_image: "/cards/tarot-16-tower.webp"
-tags: ["earthquake", "tarot-16-tower", "rupture", "bangkok", "initiation"]
+kosha: manomaya
+identity: Shesh
+excerpt: The earth itself announced the departure. A 6.0 earthquake — Bangkok's strongest in living memory — cracked the ordinary world open on the first night.
+featured_image: /cards/tarot-16-tower.webp
+tags:
+  - earthquake
+  - tarot-16-tower
+  - rupture
+  - bangkok
+  - initiation
+  - cluster:tarot
+  - cluster:travelogue
 ---
 
 The earth itself announced the departure.

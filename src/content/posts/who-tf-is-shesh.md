@@ -1,15 +1,23 @@
 ---
-title: "Who TF is Shesh Anyway?"
-date: 2025-03-11
+title: Who TF is Shesh Anyway?
+date: 2025-03-11T00:00:00.000Z
 phase: 1
-location: "Bangalore, India"
+location: Bangalore, India
 revolution: 1
-kosha: "annamaya"
-identity: "Shesh"
+kosha: annamaya
+identity: Shesh
 draft: false
-excerpt: "Hi. I'm Shesh. Short for Sheshnarayan Iyer, but don't let the full stack of my name fool you — I respond faster to vibration than syllables."
-featured_image: "/cards/tarot-who-is-shesh.webp"
-tags: ["identity", "shesh", "human-design", "prologue", "profile-2-4", "tarot-16-tower"]
+excerpt: Hi. I'm Shesh. Short for Sheshnarayan Iyer, but don't let the full stack of my name fool you — I respond faster to vibration than syllables.
+featured_image: /cards/tarot-who-is-shesh.webp
+tags:
+  - identity
+  - shesh
+  - human-design
+  - prologue
+  - profile-2-4
+  - tarot-16-tower
+  - cluster:tarot
+  - cluster:enneagram
 ---
 
 *Or how I learned to stop worrying and let the reptile brain debug the soul.*

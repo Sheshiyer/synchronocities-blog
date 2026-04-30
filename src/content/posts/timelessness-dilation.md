@@ -1,16 +1,25 @@
 ---
-title: "Timelessness Dilation"
-date: 2025-03-20
+title: Timelessness Dilation
+date: 2025-03-20T00:00:00.000Z
 suit: swords
 phase: 3
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "manomaya"
-identity: "Shesh"
+kosha: manomaya
+identity: Shesh
 draft: false
-excerpt: "Morning light slid across the wall of Room 3. The hum of the city was faint outside, Bangkok half-stirring, but inside the room it was still."
-featured_image: "/cards/tarot-timelessness.webp"
-tags: ["timelessness", "gene-key-5", "gene-key-23", "breath-protocol", "time-dilation", "rahu", "mercury"]
+excerpt: Morning light slid across the wall of Room 3. The hum of the city was faint outside, Bangkok half-stirring, but inside the room it was still.
+featured_image: /cards/tarot-timelessness.webp
+tags:
+  - timelessness
+  - gene-key-5
+  - gene-key-23
+  - breath-protocol
+  - time-dilation
+  - rahu
+  - mercury
+  - cluster:lorenz-kundli
+  - cluster:enneagram
 ---
 
 ## The Ritual

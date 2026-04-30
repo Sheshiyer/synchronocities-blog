@@ -1,11 +1,16 @@
 ---
-title: "Ancient Debugging: When Throwing Someone Out of the City Was a Feature"
-date: 2025-07-10
+title: 'Ancient Debugging: When Throwing Someone Out of the City Was a Feature'
+date: 2025-07-10T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Have you tried turning your consciousness off and on again? Ancient debugging protocols mirror modern exception handling — pain as an admin password to consciousness."
-featured_image: "/cards/sync-ancient-debugging.webp"
-tags: ["runtime", "debugging", "ancient-systems", "exile"]
+excerpt: Have you tried turning your consciousness off and on again? Ancient debugging protocols mirror modern exception handling — pain as an admin password to consciousness.
+featured_image: /cards/sync-ancient-debugging.webp
+tags:
+  - runtime
+  - debugging
+  - ancient-systems
+  - exile
+  - cluster:consciousness
 ---
 
 # Ancient Debugging: When Throwing Someone Out of the City Was a Feature

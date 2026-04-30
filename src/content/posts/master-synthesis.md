@@ -1,15 +1,25 @@
 ---
-title: "Master Synthesis"
-date: 2025-05-10
+title: Master Synthesis
+date: 2025-05-10T00:00:00.000Z
 phase: 12
-location: "Thailand"
+location: Thailand
 revolution: 1
-kosha: "anandamaya"
-identity: "The Witness"
+kosha: anandamaya
+identity: The Witness
 draft: false
-excerpt: "A 55-day pilgrimage through Thailand, following the Major Arcana from Tower to World."
-featured_image: "/cards/tarot-synthesis.webp"
-tags: ["synthesis", "pilgrimage", "tarot", "completion", "witness", "architecture", "55-days"]
+excerpt: A 55-day pilgrimage through Thailand, following the Major Arcana from Tower to World.
+featured_image: /cards/tarot-synthesis.webp
+tags:
+  - synthesis
+  - pilgrimage
+  - tarot
+  - completion
+  - witness
+  - architecture
+  - 55-days
+  - cluster:tarot
+  - cluster:travelogue
+  - cluster:consciousness
 ---
 
 *A 55-day pilgrimage through Thailand, following the Major Arcana from Tower to World.*

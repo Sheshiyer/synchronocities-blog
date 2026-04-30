@@ -1,9 +1,14 @@
 ---
-title: "Mitochondrial Subconsciousness: The Patterns Your Mother's Mother Compiled"
-date: 2025-11-30
-excerpt: "Mitochondrial DNA passes exclusively through the maternal line. With it come pattern templates — mythological frameworks, reality interpretation protocols, and subconscious programs that have been running since before your grandmother was born."
-featured_image: "/cards/sync-mitochondrial.webp"
-tags: ["mitochondria", "subconsciousness", "patterns", "biology"]
+title: 'Mitochondrial Subconsciousness: The Patterns Your Mother''s Mother Compiled'
+date: 2025-11-30T00:00:00.000Z
+excerpt: Mitochondrial DNA passes exclusively through the maternal line. With it come pattern templates — mythological frameworks, reality interpretation protocols, and subconscious programs that have been running since before your grandmother was born.
+featured_image: /cards/sync-mitochondrial.webp
+tags:
+  - mitochondria
+  - subconsciousness
+  - patterns
+  - biology
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

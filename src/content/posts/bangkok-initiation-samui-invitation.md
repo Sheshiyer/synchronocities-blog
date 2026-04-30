@@ -1,16 +1,28 @@
 ---
-title: "Bangkok Initiation, Samui Invitation"
-date: 2025-03-28
+title: Bangkok Initiation, Samui Invitation
+date: 2025-03-28T00:00:00.000Z
 suit: wands
 phase: 6
-location: "Bangkok / Koh Samui, Thailand"
+location: Bangkok / Koh Samui, Thailand
 revolution: 1
-kosha: "pranamaya"
-identity: "Shesh"
+kosha: pranamaya
+identity: Shesh
 draft: false
-excerpt: "Bangkok flipped the circuit the moment the helmet clicked. Map pinned. The street slid into a chrome river."
-featured_image: "/cards/tarot-bangkok-samui.webp"
-tags: ["bangkok", "koh-samui", "tarot-07-chariot", "tarot-00-fool", "thoth", "rider-waite", "kali", "kala", "witness-os"]
+excerpt: Bangkok flipped the circuit the moment the helmet clicked. Map pinned. The street slid into a chrome river.
+featured_image: /cards/tarot-bangkok-samui.webp
+tags:
+  - bangkok
+  - koh-samui
+  - tarot-07-chariot
+  - tarot-00-fool
+  - thoth
+  - rider-waite
+  - kali
+  - kala
+  - witness-os
+  - cluster:tarot
+  - cluster:travelogue
+  - cluster:consciousness
 article_mode: field-note
 entry_kind: essay
 concepts:

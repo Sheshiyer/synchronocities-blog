@@ -1,9 +1,15 @@
 ---
-title: "Historical Knowledge Patterns: Ancient Algorithms Across Civilizations"
-date: 2026-01-30
-excerpt: "Cross-civilizational pattern analysis reveals that mathematical structures — Markov chains, cellular automata, tensor fields — were independently discovered by multiple ancient cultures. The knowledge persists because the patterns are real."
-featured_image: "/cards/sync-historical-patterns.webp"
-tags: ["lorenz-kundli", "historical", "knowledge", "patterns"]
+title: 'Historical Knowledge Patterns: Ancient Algorithms Across Civilizations'
+date: 2026-01-30T00:00:00.000Z
+excerpt: Cross-civilizational pattern analysis reveals that mathematical structures — Markov chains, cellular automata, tensor fields — were independently discovered by multiple ancient cultures. The knowledge persists because the patterns are real.
+featured_image: /cards/sync-historical-patterns.webp
+tags:
+  - lorenz-kundli
+  - historical
+  - knowledge
+  - patterns
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

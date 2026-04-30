@@ -1,9 +1,14 @@
 ---
-title: "Sixteen Engines, One Purpose"
-date: 2025-07-02
-excerpt: "Sixteen perceptual lenses — from Vedic astronomy to sacred geometry — converge on a single function: revealing the architecture of your own awareness. Not a framework collection, but a triangulation protocol for consciousness."
-featured_image: "/cards/sync-16-engines.webp"
-tags: ["runtime", "engines", "consciousness", "noesis"]
+title: Sixteen Engines, One Purpose
+date: 2025-07-02T00:00:00.000Z
+excerpt: 'Sixteen perceptual lenses — from Vedic astronomy to sacred geometry — converge on a single function: revealing the architecture of your own awareness. Not a framework collection, but a triangulation protocol for consciousness.'
+featured_image: /cards/sync-16-engines.webp
+tags:
+  - runtime
+  - engines
+  - consciousness
+  - noesis
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

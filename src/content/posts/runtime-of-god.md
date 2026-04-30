@@ -1,11 +1,19 @@
 ---
-title: "Runtime of God: Ancient Debug Protocols For Modern Consciousness"
-date: 2025-06-20
+title: 'Runtime of God: Ancient Debug Protocols For Modern Consciousness'
+date: 2025-06-20T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Your consciousness isn't just running code — it's running the oldest source code in existence. Hidden within the Sanskrit verses of Purusha Sookta and Shikshavalli lies a sophisticated system architecture for consciousness engineering."
-featured_image: "/cards/sync-runtime-of-god.webp"
-tags: ["runtime", "sanskrit", "debugging", "ancient-code", "consciousness", "frameworks"]
+excerpt: Your consciousness isn't just running code — it's running the oldest source code in existence. Hidden within the Sanskrit verses of Purusha Sookta and Shikshavalli lies a sophisticated system architecture for consciousness engineering.
+featured_image: /cards/sync-runtime-of-god.webp
+tags:
+  - runtime
+  - sanskrit
+  - debugging
+  - ancient-code
+  - consciousness
+  - frameworks
+  - cluster:sonic
+  - cluster:consciousness
 ---
 
 # Runtime of God: Ancient Debug Protocols For Modern Consciousness

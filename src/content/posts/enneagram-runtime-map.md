@@ -1,11 +1,17 @@
 ---
-title: "The Enneagram Runtime Map: Trigger, Defense, Cost"
-date: 2025-10-05
+title: 'The Enneagram Runtime Map: Trigger, Defense, Cost'
+date: 2025-10-05T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Every type has a preferred defense. The bill shows up later as life-cost. Trigger, Defense, Cost — three layers that turn the Enneagram from a personality quiz into an accounting system for unconscious expenditure."
-featured_image: "/cards/sync-enneagram-runtime.webp"
-tags: ["enneagram", "runtime", "triggers", "defense"]
+excerpt: Every type has a preferred defense. The bill shows up later as life-cost. Trigger, Defense, Cost — three layers that turn the Enneagram from a personality quiz into an accounting system for unconscious expenditure.
+featured_image: /cards/sync-enneagram-runtime.webp
+tags:
+  - enneagram
+  - runtime
+  - triggers
+  - defense
+  - cluster:enneagram
+  - cluster:consciousness
 ---
 
 # The Enneagram Runtime Map: Trigger, Defense, Cost

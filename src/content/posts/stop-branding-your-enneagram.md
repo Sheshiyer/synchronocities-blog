@@ -1,11 +1,16 @@
 ---
-title: "Stop Branding Your Enneagram: The Seven-Day Type Pressure Audit"
-date: 2025-10-10
+title: 'Stop Branding Your Enneagram: The Seven-Day Type Pressure Audit'
+date: 2025-10-10T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Reading your type description is intake. Observing your type under pressure is diagnostics. Here is a seven-day field study of your own defense architecture — not self-improvement, but self-cartography."
-featured_image: "/cards/sync-stop-branding.webp"
-tags: ["enneagram", "branding", "identity", "pressure"]
+excerpt: Reading your type description is intake. Observing your type under pressure is diagnostics. Here is a seven-day field study of your own defense architecture — not self-improvement, but self-cartography.
+featured_image: /cards/sync-stop-branding.webp
+tags:
+  - enneagram
+  - branding
+  - identity
+  - pressure
+  - cluster:enneagram
 ---
 
 # Stop Branding Your Enneagram: The Seven-Day Type Pressure Audit

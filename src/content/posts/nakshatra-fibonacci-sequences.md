@@ -1,9 +1,15 @@
 ---
-title: "Nakshatra Divisions and Fibonacci Sequences: The Golden Ratio in Lunar Mansions"
-date: 2025-12-20
-excerpt: "27 nakshatras, 108 padas, and the golden angle of 137.5 degrees — the Vedic lunar mansion system encodes Fibonacci spiral mathematics into the architecture of celestial observation."
-featured_image: "/cards/sync-nakshatra-fibonacci.webp"
-tags: ["lorenz-kundli", "nakshatra", "fibonacci", "sequences"]
+title: 'Nakshatra Divisions and Fibonacci Sequences: The Golden Ratio in Lunar Mansions'
+date: 2025-12-20T00:00:00.000Z
+excerpt: 27 nakshatras, 108 padas, and the golden angle of 137.5 degrees — the Vedic lunar mansion system encodes Fibonacci spiral mathematics into the architecture of celestial observation.
+featured_image: /cards/sync-nakshatra-fibonacci.webp
+tags:
+  - lorenz-kundli
+  - nakshatra
+  - fibonacci
+  - sequences
+  - cluster:lorenz-kundli
+  - cluster:geometry
 draft: false
 revolution: 1
 ---

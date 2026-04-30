@@ -1,17 +1,27 @@
 ---
-title: "Deep-Trench Forge: Shenzhen"
-date: 2025-03-10
-card: "0"
+title: 'Deep-Trench Forge: Shenzhen'
+date: 2025-03-10T00:00:00.000Z
+card: '0'
 suit: swords
 phase: 1
-location: "Shenzhen, China"
+location: Shenzhen, China
 revolution: 1
-kosha: "annamaya"
-identity: "Shesh"
+kosha: annamaya
+identity: Shesh
 draft: false
-excerpt: "I filed a cosmic service ticket for the Two of Swords. Subject: tongue and sacral jagged — request reforge. Routing reply: China."
-featured_image: "/cards/tarot-forge-shenzhen.webp"
-tags: ["shenzhen", "two-of-swords", "breathwork", "forge", "swords", "sacral", "witness-os"]
+excerpt: 'I filed a cosmic service ticket for the Two of Swords. Subject: tongue and sacral jagged — request reforge. Routing reply: China.'
+featured_image: /cards/tarot-forge-shenzhen.webp
+tags:
+  - shenzhen
+  - two-of-swords
+  - breathwork
+  - forge
+  - swords
+  - sacral
+  - witness-os
+  - cluster:travelogue
+  - cluster:enneagram
+  - cluster:consciousness
 ---
 
 I filed a cosmic service ticket for the Two of Swords. Subject: tongue and sacral jagged — request reforge. Routing reply: China.

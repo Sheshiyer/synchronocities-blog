@@ -1,11 +1,17 @@
 ---
-title: "The Sacred Runtime: Pain as Admin Access"
-date: 2025-07-30
+title: 'The Sacred Runtime: Pain as Admin Access'
+date: 2025-07-30T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "The simulation isn't broken. You're just trying to play God with a guest account. Pain isn't an interrupt — it's a sudo prompt. When the system hits a high-intensity sensation, the Root Shell opens."
-featured_image: "/cards/sync-the-sacred-runtime.webp"
-tags: ["runtime", "sacred", "debugging", "consciousness"]
+excerpt: The simulation isn't broken. You're just trying to play God with a guest account. Pain isn't an interrupt — it's a sudo prompt. When the system hits a high-intensity sensation, the Root Shell opens.
+featured_image: /cards/sync-the-sacred-runtime.webp
+tags:
+  - runtime
+  - sacred
+  - debugging
+  - consciousness
+  - cluster:geometry
+  - cluster:consciousness
 ---
 
 # The Sacred Runtime: Pain as Admin Access

@@ -1,17 +1,28 @@
 ---
-title: "The Earthquake That Said Goodbye"
-date: 2025-05-08
-card: "XXI"
+title: The Earthquake That Said Goodbye
+date: 2025-05-08T00:00:00.000Z
+card: XXI
 suit: disks
 phase: 12
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "anandamaya"
-identity: "The Witness"
+kosha: anandamaya
+identity: The Witness
 draft: false
-excerpt: "What begins in rupture often ends in rhythm."
-featured_image: "/cards/tarot-earthquake-goodbye.webp"
-tags: ["bangkok", "tarot-21-universe", "earthquake", "full-circle", "spiral", "signal", "witness", "closure"]
+excerpt: What begins in rupture often ends in rhythm.
+featured_image: /cards/tarot-earthquake-goodbye.webp
+tags:
+  - bangkok
+  - tarot-21-universe
+  - earthquake
+  - full-circle
+  - spiral
+  - signal
+  - witness
+  - closure
+  - cluster:tarot
+  - cluster:travelogue
+  - cluster:consciousness
 ---
 
 *What begins in rupture often ends in rhythm.*

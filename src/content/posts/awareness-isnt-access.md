@@ -1,11 +1,16 @@
 ---
-title: "Awareness Isn't Access"
-date: 2025-08-05
+title: Awareness Isn't Access
+date: 2025-08-05T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "You can be self-aware and still run the same loop. Awareness is not access. Self-consciousness is. Here's the difference — and why better language didn't rewrite the code."
-featured_image: "/cards/sync-awareness-access.webp"
-tags: ["consciousness", "awareness", "access", "thread"]
+excerpt: You can be self-aware and still run the same loop. Awareness is not access. Self-consciousness is. Here's the difference — and why better language didn't rewrite the code.
+featured_image: /cards/sync-awareness-access.webp
+tags:
+  - consciousness
+  - awareness
+  - access
+  - thread
+  - cluster:consciousness
 ---
 
 # Awareness Isn't Access

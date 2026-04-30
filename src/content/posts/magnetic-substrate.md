@@ -1,9 +1,18 @@
 ---
-title: "The Magnetic Substrate: Why Your Consciousness Runs on Planetary Flux"
-date: 2026-04-20
-excerpt: "The magnetic dynamo beneath your feet has been coupled to oxygen for 540 million years. When it weakens, oxygen drops, melanin degrades to dopamine, and the three vortexes that run your cognition lose coherence. The geometry changes. This is not metaphor. This is magnetohydrodynamics."
-featured_image: "/cards/sync-magnetic-substrate.webp"
-tags: ["consciousness", "magnetism", "bioelectric", "temperature", "lorenz-kundli", "runtime", "patterns"]
+title: 'The Magnetic Substrate: Why Your Consciousness Runs on Planetary Flux'
+date: 2026-04-20T00:00:00.000Z
+excerpt: The magnetic dynamo beneath your feet has been coupled to oxygen for 540 million years. When it weakens, oxygen drops, melanin degrades to dopamine, and the three vortexes that run your cognition lose coherence. The geometry changes. This is not metaphor. This is magnetohydrodynamics.
+featured_image: /cards/sync-magnetic-substrate.webp
+tags:
+  - consciousness
+  - magnetism
+  - bioelectric
+  - temperature
+  - lorenz-kundli
+  - runtime
+  - patterns
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 draft: false
 revolution: 1
 article_mode: signal-essay
@@ -38,27 +47,27 @@ related_posts:
   - endocrine-constellation-patterns
   - consciousness-runtime-diagrams
 hero:
-  eyebrow: "Planetary Biophysics"
-  subtitle: "The magnetic field is not background. It is the substrate your consciousness is compiled on."
+  eyebrow: Planetary Biophysics
+  subtitle: The magnetic field is not background. It is the substrate your consciousness is compiled on.
   variant: image
 experience:
   theme: signal
   rail: concept
   density: immersive
   framework_axes:
-    kha: "The observer whose vortex operates independent of magnetic flux — but whose instrument does not."
-    ba: "The body as vortex engine — three axes of spin that require magnetic coherence to maintain cognition."
-    la: "Deuterium. The isotopic inertia that accumulates when the magnetic exhaust system fails."
+    kha: The observer whose vortex operates independent of magnetic flux — but whose instrument does not.
+    ba: The body as vortex engine — three axes of spin that require magnetic coherence to maintain cognition.
+    la: Deuterium. The isotopic inertia that accumulates when the magnetic exhaust system fails.
 llm:
   start_priority: supporting
-  summary: "Maps Earth's magnetic field as the physical substrate of consciousness. Magnetic dynamo coupled to oxygen for 540M years. When field weakens (South Atlantic Anomaly), oxygen drops, melanin degrades to dopamine, deuterium accumulates, and the three body vortexes (sphenoid X, notochord Y, heart Z) lose coherence. Connects planetary magnetohydrodynamics to the consciousness curvature framework from the Hyperbolic Consciousness article. Based on Dr. Jack Kruse's research on magnetic declination and evolutionary biology."
+  summary: Maps Earth's magnetic field as the physical substrate of consciousness. Magnetic dynamo coupled to oxygen for 540M years. When field weakens (South Atlantic Anomaly), oxygen drops, melanin degrades to dopamine, deuterium accumulates, and the three body vortexes (sphenoid X, notochord Y, heart Z) lose coherence. Connects planetary magnetohydrodynamics to the consciousness curvature framework from the Hyperbolic Consciousness article. Based on Dr. Jack Kruse's research on magnetic declination and evolutionary biology.
   cluster: consciousness-architecture
   canonical_questions:
-    - "How does Earth's magnetic field affect consciousness?"
-    - "What is the relationship between magnetic declination and disease?"
-    - "How do the three body vortexes relate to cognitive function?"
-    - "Why does melanin degrade into dopamine under low magnetic flux?"
-    - "What is the South Atlantic Anomaly and why does it matter for health?"
+    - How does Earth's magnetic field affect consciousness?
+    - What is the relationship between magnetic declination and disease?
+    - How do the three body vortexes relate to cognitive function?
+    - Why does melanin degrade into dopamine under low magnetic flux?
+    - What is the South Atlantic Anomaly and why does it matter for health?
 ---
 
 # The Magnetic Substrate: Why Your Consciousness Runs on Planetary Flux

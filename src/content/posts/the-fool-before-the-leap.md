@@ -1,15 +1,22 @@
 ---
-title: "The Fool Before the Leap"
-date: 2025-03-12
-card: "0"
+title: The Fool Before the Leap
+date: 2025-03-12T00:00:00.000Z
+card: '0'
 phase: 1
-location: "Mumbai, India"
+location: Mumbai, India
 revolution: 1
-kosha: "annamaya"
-identity: "Shesh"
-excerpt: "Every spiral begins with a fool who doesn't know they're beginning. Card Zero — the numberless number, the potential before the act, the breath before the word."
-featured_image: "/cards/tarot-00-fool.webp"
-tags: ["tarot-00-fool", "beginning", "departure", "ordinary-world", "zero"]
+kosha: annamaya
+identity: Shesh
+excerpt: Every spiral begins with a fool who doesn't know they're beginning. Card Zero — the numberless number, the potential before the act, the breath before the word.
+featured_image: /cards/tarot-00-fool.webp
+tags:
+  - tarot-00-fool
+  - beginning
+  - departure
+  - ordinary-world
+  - zero
+  - cluster:tarot
+  - cluster:travelogue
 ---
 
 Every spiral begins with a fool who doesn't know they're beginning.

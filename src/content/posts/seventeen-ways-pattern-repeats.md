@@ -1,11 +1,21 @@
 ---
-title: "The 17 Ways a Pattern Repeats"
-date: 2026-04-30
+title: The 17 Ways a Pattern Repeats
+date: 2026-04-30T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Seventeen, exhaustively. Fedorov classified them in 1891. The crystallographic restriction permits only 1, 2, 3, 4, and 6-fold rotations on the flat plane. The mantra traditions converged empirically on the high-symmetry subset two thousand years before the math caught up."
-featured_image: "/cards/sync-seventeen-ways-pattern-repeats.webp"
-tags: ["runtime", "akshara", "symmetry", "wallpaper-groups", "geometry", "mantra", "valence"]
+excerpt: Seventeen, exhaustively. Fedorov classified them in 1891. The crystallographic restriction permits only 1, 2, 3, 4, and 6-fold rotations on the flat plane. The mantra traditions converged empirically on the high-symmetry subset two thousand years before the math caught up.
+featured_image: /cards/sync-seventeen-ways-pattern-repeats.webp
+tags:
+  - runtime
+  - akshara
+  - symmetry
+  - wallpaper-groups
+  - geometry
+  - mantra
+  - valence
+  - cluster:sonic
+  - cluster:geometry
+  - cluster:consciousness
 article_mode: signal-essay
 entry_kind: essay
 concepts:
@@ -20,26 +30,26 @@ related_posts:
   - consciousness-architecture-hub
   - magnetic-substrate
 hero:
-  eyebrow: "Sonic Geometry"
-  subtitle: "Seventeen, exhaustively. The closed grammar of repetition on the flat plane. The high-symmetry subset is what the traditions converged on, by inhabitation, two millennia before the math."
+  eyebrow: Sonic Geometry
+  subtitle: Seventeen, exhaustively. The closed grammar of repetition on the flat plane. The high-symmetry subset is what the traditions converged on, by inhabitation, two millennia before the math.
   variant: image
 llm:
   start_priority: supporting
-  summary: "Fedorov (1891) and successors proved that on the flat 2D plane, exactly 17 distinct symmetry groups can govern a pattern that repeats with two independent translation directions. These are the wallpaper groups — the closed grammar of planar periodic pattern. The crystallographic restriction permits only 1, 2, 3, 4, and 6-fold rotations; no 5-fold, 7-fold, or 9-fold periodic symmetry exists on the flat plane. Sanskrit prosodic cadences map cleanly into the high-symmetry subset: six-syllable cycles like Om Mani Padme Hum tile as p6 or p6mm, the four-pada anuṣṭubh metric of Gāyatrī carries 4-fold structure mapping to p4mm. By the Symmetry Theory of Valence, the wallpaper group of a compiled mantra is its valence signature. The forbidden orders — 5-fold, 7-fold, 9-fold — show up in mystical iconography and DMT phenomenology, naming a cliff at the edge of flatness. Through Kha-Ba-La: Kha witnesses which class the cadence selects; Ba is the substrate that entrains; La is the crystallographic restriction itself — the structural friction that makes the orbit definite, and the cliff."
+  summary: 'Fedorov (1891) and successors proved that on the flat 2D plane, exactly 17 distinct symmetry groups can govern a pattern that repeats with two independent translation directions. These are the wallpaper groups — the closed grammar of planar periodic pattern. The crystallographic restriction permits only 1, 2, 3, 4, and 6-fold rotations; no 5-fold, 7-fold, or 9-fold periodic symmetry exists on the flat plane. Sanskrit prosodic cadences map cleanly into the high-symmetry subset: six-syllable cycles like Om Mani Padme Hum tile as p6 or p6mm, the four-pada anuṣṭubh metric of Gāyatrī carries 4-fold structure mapping to p4mm. By the Symmetry Theory of Valence, the wallpaper group of a compiled mantra is its valence signature. The forbidden orders — 5-fold, 7-fold, 9-fold — show up in mystical iconography and DMT phenomenology, naming a cliff at the edge of flatness. Through Kha-Ba-La: Kha witnesses which class the cadence selects; Ba is the substrate that entrains; La is the crystallographic restriction itself — the structural friction that makes the orbit definite, and the cliff.'
   cluster: consciousness-architecture
   canonical_questions:
-    - "What is a wallpaper group?"
-    - "Why are there exactly seventeen wallpaper groups on the flat plane?"
-    - "How does mantra structure select a wallpaper group?"
-    - "What is the crystallographic restriction?"
+    - What is a wallpaper group?
+    - Why are there exactly seventeen wallpaper groups on the flat plane?
+    - How does mantra structure select a wallpaper group?
+    - What is the crystallographic restriction?
 experience:
   theme: signal
   rail: concept
   density: immersive
   framework_axes:
-    kha: "The witness who recognizes that mantra cadence selects a symmetry class — and that the class IS the valence signature."
-    ba: "The substrate that entrains to the periodic trajectory — accepting the wallpaper group as the rhythm of its own oscillation."
-    la: "The crystallographic restriction — the structural friction that gives the orbit definite form, and names the cliff at the edge of flatness."
+    kha: The witness who recognizes that mantra cadence selects a symmetry class — and that the class IS the valence signature.
+    ba: The substrate that entrains to the periodic trajectory — accepting the wallpaper group as the rhythm of its own oscillation.
+    la: The crystallographic restriction — the structural friction that gives the orbit definite form, and names the cliff at the edge of flatness.
 ---
 
 # The 17 Ways a Pattern Repeats

@@ -1,11 +1,17 @@
 ---
-title: "Type Is Not Identity"
-date: 2025-10-01
+title: Type Is Not Identity
+date: 2025-10-01T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Type language helps until it becomes a prison you defend. 'I'm a 5, so I need space' — that's not self-knowledge. That's your defense architecture wearing a name tag."
-featured_image: "/cards/sync-type-not-identity.webp"
-tags: ["enneagram", "identity", "type", "consciousness"]
+excerpt: Type language helps until it becomes a prison you defend. 'I'm a 5, so I need space' — that's not self-knowledge. That's your defense architecture wearing a name tag.
+featured_image: /cards/sync-type-not-identity.webp
+tags:
+  - enneagram
+  - identity
+  - type
+  - consciousness
+  - cluster:enneagram
+  - cluster:consciousness
 ---
 
 # Type Is Not Identity

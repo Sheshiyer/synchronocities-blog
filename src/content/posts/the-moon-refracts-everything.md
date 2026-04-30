@@ -1,16 +1,23 @@
 ---
-title: "The Moon Refracts Everything"
-date: 2025-04-05
-card: "XVIII"
+title: The Moon Refracts Everything
+date: 2025-04-05T00:00:00.000Z
+card: XVIII
 suit: cups
 phase: 10
-location: "Koh Phangan, Thailand"
+location: Koh Phangan, Thailand
 revolution: 1
-kosha: "manomaya"
-identity: "Pichet"
-excerpt: "Crescent geometry on an island famous for its full moon. The Moon card doesn't illuminate — it refracts. Everything you see is bent by what you carry."
-featured_image: "/cards/tarot-18-moon.webp"
-tags: ["tarot-18-moon", "refraction", "phangan", "illusion", "crescent"]
+kosha: manomaya
+identity: Pichet
+excerpt: Crescent geometry on an island famous for its full moon. The Moon card doesn't illuminate — it refracts. Everything you see is bent by what you carry.
+featured_image: /cards/tarot-18-moon.webp
+tags:
+  - tarot-18-moon
+  - refraction
+  - phangan
+  - illusion
+  - crescent
+  - cluster:tarot
+  - cluster:travelogue
 ---
 
 Crescent geometry on an island famous for its full moon.

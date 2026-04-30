@@ -1,11 +1,16 @@
 ---
-title: "Enlightenment-LITE: Encryption Over Raw Light"
-date: 2025-09-25
+title: 'Enlightenment-LITE: Encryption Over Raw Light'
+date: 2025-09-25T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Enlightenment is not about carrying raw, uncompressed data at all times. It is about building better encryption and decryption systems — LITE protocols that let you access the admin layer without crashing the biological hardware."
-featured_image: "/cards/sync-enlightenment-lite.webp"
-tags: ["consciousness", "enlightenment", "encryption", "light"]
+excerpt: Enlightenment is not about carrying raw, uncompressed data at all times. It is about building better encryption and decryption systems — LITE protocols that let you access the admin layer without crashing the biological hardware.
+featured_image: /cards/sync-enlightenment-lite.webp
+tags:
+  - consciousness
+  - enlightenment
+  - encryption
+  - light
+  - cluster:consciousness
 ---
 
 # Enlightenment-LITE: Encryption Over Raw Light

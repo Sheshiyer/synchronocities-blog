@@ -1,11 +1,16 @@
 ---
-title: "The Source Code Has Authors"
-date: 2025-06-15
+title: The Source Code Has Authors
+date: 2025-06-15T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Self-consciousness is a technology. But a technology requires conditions to emerge. Not just intellectual conditions — structural ones. Relational ones. The kind that no amount of observation can produce on its own."
-featured_image: "/cards/sync-source-code-authors.webp"
-tags: ["consciousness", "credit", "lineage", "architecture"]
+excerpt: Self-consciousness is a technology. But a technology requires conditions to emerge. Not just intellectual conditions — structural ones. Relational ones. The kind that no amount of observation can produce on its own.
+featured_image: /cards/sync-source-code-authors.webp
+tags:
+  - consciousness
+  - credit
+  - lineage
+  - architecture
+  - cluster:consciousness
 ---
 
 # The Source Code Has Authors

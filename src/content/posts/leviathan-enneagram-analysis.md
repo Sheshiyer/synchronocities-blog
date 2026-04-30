@@ -1,9 +1,15 @@
 ---
-title: "Leviathan Enneagram Analysis"
-date: 2026-02-25
-excerpt: "SlickDissident's breakdown of the Leviathan through the Enneagram lens reveals how Hobbes' social contract, biblical sea monsters, and Type 4 envy are the same pattern — a sovereignty exploit running in the collective operating system."
-featured_image: "/cards/sync-leviathan.webp"
-tags: ["enneagram", "leviathan", "analysis", "consciousness"]
+title: Leviathan Enneagram Analysis
+date: 2026-02-25T00:00:00.000Z
+excerpt: SlickDissident's breakdown of the Leviathan through the Enneagram lens reveals how Hobbes' social contract, biblical sea monsters, and Type 4 envy are the same pattern — a sovereignty exploit running in the collective operating system.
+featured_image: /cards/sync-leviathan.webp
+tags:
+  - enneagram
+  - leviathan
+  - analysis
+  - consciousness
+  - cluster:enneagram
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

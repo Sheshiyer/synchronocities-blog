@@ -1,9 +1,16 @@
 ---
-title: "Endocrine-Constellation Pattern Recognition: The Code in the Sky and the Blood"
-date: 2025-10-25
-excerpt: "Each hormone maps to a constellation. Each constellation maps to an Enneagram type. The endocrine-constellation matrix is not astrology — it is pattern recognition applied to two systems that share the same architecture."
-featured_image: "/cards/sync-constellation-patterns.webp"
-tags: ["enneagram", "endocrine", "constellations", "pattern-recognition"]
+title: 'Endocrine-Constellation Pattern Recognition: The Code in the Sky and the Blood'
+date: 2025-10-25T00:00:00.000Z
+excerpt: Each hormone maps to a constellation. Each constellation maps to an Enneagram type. The endocrine-constellation matrix is not astrology — it is pattern recognition applied to two systems that share the same architecture.
+featured_image: /cards/sync-constellation-patterns.webp
+tags:
+  - enneagram
+  - endocrine
+  - constellations
+  - pattern-recognition
+  - cluster:lorenz-kundli
+  - cluster:enneagram
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

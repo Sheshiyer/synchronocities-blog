@@ -1,9 +1,15 @@
 ---
-title: "The Full 9-Point Endocrine-Muse Integration"
-date: 2025-11-05
-excerpt: "Nine hormones. Nine Muses. Nine complete circuits connecting biological function to archetypal expression. This is the full integration map — where chemistry meets creativity and the body reveals itself as the original temple architecture."
-featured_image: "/cards/sync-nine-point.webp"
-tags: ["enneagram", "endocrine", "muse", "integration"]
+title: The Full 9-Point Endocrine-Muse Integration
+date: 2025-11-05T00:00:00.000Z
+excerpt: Nine hormones. Nine Muses. Nine complete circuits connecting biological function to archetypal expression. This is the full integration map — where chemistry meets creativity and the body reveals itself as the original temple architecture.
+featured_image: /cards/sync-nine-point.webp
+tags:
+  - enneagram
+  - endocrine
+  - muse
+  - integration
+  - cluster:enneagram
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

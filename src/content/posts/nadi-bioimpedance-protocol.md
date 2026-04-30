@@ -1,9 +1,16 @@
 ---
-title: "Nadi-Bioimpedance Protocol"
-date: 2026-03-05
-excerpt: "The 14 principal Nadis of Vedic physiology are not metaphorical — they correspond to measurable bioelectric pathways within the fascial network, autonomic nervous system, and cerebrospinal fluid channels. This protocol maps the ancient to the measurable."
-featured_image: "/cards/sync-nadi-bioimpedance.webp"
-tags: ["enneagram", "nadi", "bioimpedance", "protocol"]
+title: Nadi-Bioimpedance Protocol
+date: 2026-03-05T00:00:00.000Z
+excerpt: The 14 principal Nadis of Vedic physiology are not metaphorical — they correspond to measurable bioelectric pathways within the fascial network, autonomic nervous system, and cerebrospinal fluid channels. This protocol maps the ancient to the measurable.
+featured_image: /cards/sync-nadi-bioimpedance.webp
+tags:
+  - enneagram
+  - nadi
+  - bioimpedance
+  - protocol
+  - cluster:enneagram
+  - cluster:sonic
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

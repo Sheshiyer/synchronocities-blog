@@ -1,9 +1,14 @@
 ---
-title: "Vimshottari Dasha as Markov Chains: State Machines of Destiny"
-date: 2025-12-05
-excerpt: "The 120-year Vimshottari Dasha system maps perfectly onto Markov chain mathematics — each planetary period a state, each transition a probability matrix. Ancient seers wrote the original state machines."
-featured_image: "/cards/sync-vimshottari-markov.webp"
-tags: ["lorenz-kundli", "vimshottari", "markov-chains", "vedic"]
+title: 'Vimshottari Dasha as Markov Chains: State Machines of Destiny'
+date: 2025-12-05T00:00:00.000Z
+excerpt: The 120-year Vimshottari Dasha system maps perfectly onto Markov chain mathematics — each planetary period a state, each transition a probability matrix. Ancient seers wrote the original state machines.
+featured_image: /cards/sync-vimshottari-markov.webp
+tags:
+  - lorenz-kundli
+  - vimshottari
+  - markov-chains
+  - vedic
+  - cluster:lorenz-kundli
 draft: false
 revolution: 1
 related_posts:

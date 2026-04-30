@@ -1,9 +1,15 @@
 ---
-title: "Lorenz-Kundli Pattern Recognition Hub"
-date: 2026-02-12
-excerpt: "Where chaos theory meets Vedic astrology — a pattern recognition hub documenting the structural parallels between Lorenz attractors and Kundli charts, revealing that both systems map dynamic evolution through geometric space."
-featured_image: "/cards/sync-pattern-hub.webp"
-tags: ["lorenz-kundli", "patterns", "hub", "overview"]
+title: Lorenz-Kundli Pattern Recognition Hub
+date: 2026-02-12T00:00:00.000Z
+excerpt: Where chaos theory meets Vedic astrology — a pattern recognition hub documenting the structural parallels between Lorenz attractors and Kundli charts, revealing that both systems map dynamic evolution through geometric space.
+featured_image: /cards/sync-pattern-hub.webp
+tags:
+  - lorenz-kundli
+  - patterns
+  - hub
+  - overview
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 draft: false
 revolution: 1
 related_posts:

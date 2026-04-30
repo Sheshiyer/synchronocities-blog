@@ -1,11 +1,16 @@
 ---
-title: "200 OK: Your Guide to Mental Status Codes"
-date: 2025-06-05
+title: '200 OK: Your Guide to Mental Status Codes'
+date: 2025-06-05T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Debugging the human response system — mapping HTTP status codes to mental states for a technical mystic's diagnostic framework."
-featured_image: "/cards/sync-200-ok.webp"
-tags: ["runtime", "http", "mental-states", "debugging"]
+excerpt: Debugging the human response system — mapping HTTP status codes to mental states for a technical mystic's diagnostic framework.
+featured_image: /cards/sync-200-ok.webp
+tags:
+  - runtime
+  - http
+  - mental-states
+  - debugging
+  - cluster:consciousness
 ---
 
 # 200 OK: Your Guide to Mental Status Codes

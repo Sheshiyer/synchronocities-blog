@@ -1,11 +1,16 @@
 ---
-title: "Consciousness Legacy Code: A Technical Debt Story"
-date: 2025-06-25
+title: 'Consciousness Legacy Code: A Technical Debt Story'
+date: 2025-06-25T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Your consciousness is running legacy code from your teenage years. Time to refactor — where modern mind architecture meets ancient development patterns."
-featured_image: "/cards/sync-legacy-code.webp"
-tags: ["runtime", "legacy-code", "refactoring", "technical-debt"]
+excerpt: Your consciousness is running legacy code from your teenage years. Time to refactor — where modern mind architecture meets ancient development patterns.
+featured_image: /cards/sync-legacy-code.webp
+tags:
+  - runtime
+  - legacy-code
+  - refactoring
+  - technical-debt
+  - cluster:consciousness
 ---
 
 # Consciousness Legacy Code: A Technical Debt Story

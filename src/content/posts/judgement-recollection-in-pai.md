@@ -1,16 +1,23 @@
 ---
-title: "Judgement: Re-collection in Pai"
-date: 2025-04-22
-card: "XX"
+title: 'Judgement: Re-collection in Pai'
+date: 2025-04-22T00:00:00.000Z
+card: XX
 suit: swords
 phase: 11
-location: "Pai, Thailand"
+location: Pai, Thailand
 revolution: 1
-kosha: "anandamaya"
-identity: "Pichet"
-excerpt: "The Aeon doesn't judge you. It shows you the judgment you've been running from. In Pai, between limestone cliffs and rice paddies, Ketu released its grip."
-featured_image: "/cards/tarot-20-aeon.webp"
-tags: ["tarot-20-aeon", "pai", "ketu", "recollection"]
+kosha: anandamaya
+identity: Pichet
+excerpt: The Aeon doesn't judge you. It shows you the judgment you've been running from. In Pai, between limestone cliffs and rice paddies, Ketu released its grip.
+featured_image: /cards/tarot-20-aeon.webp
+tags:
+  - tarot-20-aeon
+  - pai
+  - ketu
+  - recollection
+  - cluster:tarot
+  - cluster:travelogue
+  - cluster:lorenz-kundli
 ---
 
 The Thoth deck names this card The Aeon, not Judgement.

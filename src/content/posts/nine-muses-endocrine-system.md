@@ -1,9 +1,15 @@
 ---
-title: "Nine Muses and the Endocrine System"
-date: 2026-02-20
-excerpt: "The Greeks mapped nine creative archetypes onto the structure of reality. Modern endocrinology mapped nine hormones onto the structure of the body. The SlickDissident analysis reveals these are the same map."
-featured_image: "/cards/sync-nine-muses.webp"
-tags: ["enneagram", "muses", "endocrine", "consciousness"]
+title: Nine Muses and the Endocrine System
+date: 2026-02-20T00:00:00.000Z
+excerpt: The Greeks mapped nine creative archetypes onto the structure of reality. Modern endocrinology mapped nine hormones onto the structure of the body. The SlickDissident analysis reveals these are the same map.
+featured_image: /cards/sync-nine-muses.webp
+tags:
+  - enneagram
+  - muses
+  - endocrine
+  - consciousness
+  - cluster:enneagram
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

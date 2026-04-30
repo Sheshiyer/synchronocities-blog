@@ -1,16 +1,22 @@
 ---
-title: "Temperance Compresses to Essence"
-date: 2025-04-15
-card: "XIV"
+title: Temperance Compresses to Essence
+date: 2025-04-15T00:00:00.000Z
+card: XIV
 suit: wands
 phase: 8
-location: "Chiang Mai, Thailand"
+location: Chiang Mai, Thailand
 revolution: 1
-kosha: "vijnanamaya"
-identity: "Pichet"
-excerpt: "In the Thoth deck, card XIV isn't called Temperance. It's called Art. The alchemical marriage. Two substances becoming something neither could be alone."
-featured_image: "/cards/tarot-14-art.webp"
-tags: ["tarot-14-art", "chiang-mai", "alchemy", "compression"]
+kosha: vijnanamaya
+identity: Pichet
+excerpt: In the Thoth deck, card XIV isn't called Temperance. It's called Art. The alchemical marriage. Two substances becoming something neither could be alone.
+featured_image: /cards/tarot-14-art.webp
+tags:
+  - tarot-14-art
+  - chiang-mai
+  - alchemy
+  - compression
+  - cluster:tarot
+  - cluster:travelogue
 ---
 
 In the Thoth deck, card XIV isn't called Temperance. It's called Art.

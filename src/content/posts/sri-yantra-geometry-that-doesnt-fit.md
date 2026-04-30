@@ -1,11 +1,22 @@
 ---
-title: "Sri Yantra and the Geometry That Doesn't Fit"
-date: 2026-04-30
+title: Sri Yantra and the Geometry That Doesn't Fit
+date: 2026-04-30T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Nine interlocking triangles — five descending śakti, four ascending śiva. Forty-three intersecting regions plus the bindu. The inner figure carries D₉ dihedral symmetry, which the flat plane forbids. The yantra is engineered to signal that its natural ambient is not the page it is drawn on."
-featured_image: "/cards/sync-sri-yantra-geometry.webp"
-tags: ["runtime", "akshara", "sri-yantra", "meru", "symmetry", "geometry", "mantra", "pingala"]
+excerpt: Nine interlocking triangles — five descending śakti, four ascending śiva. Forty-three intersecting regions plus the bindu. The inner figure carries D₉ dihedral symmetry, which the flat plane forbids. The yantra is engineered to signal that its natural ambient is not the page it is drawn on.
+featured_image: /cards/sync-sri-yantra-geometry.webp
+tags:
+  - runtime
+  - akshara
+  - sri-yantra
+  - meru
+  - symmetry
+  - geometry
+  - mantra
+  - pingala
+  - cluster:sonic
+  - cluster:geometry
+  - cluster:consciousness
 article_mode: signal-essay
 entry_kind: essay
 concepts:
@@ -21,26 +32,26 @@ related_posts:
   - spell-work-reservoir
   - the-word-as-code
 hero:
-  eyebrow: "Sonic Geometry"
-  subtitle: "Nine-fold inner. Four-fold outer. The yantra is engineered to signal that its natural embedding is not the page it sits on."
+  eyebrow: Sonic Geometry
+  subtitle: Nine-fold inner. Four-fold outer. The yantra is engineered to signal that its natural embedding is not the page it sits on.
   variant: image
 llm:
   start_priority: supporting
-  summary: "The Sri Yantra is composed of nine interlocking triangles (5 śakti pointing down, 4 śiva pointing up) carrying D₉ dihedral symmetry — 9-fold rotation × reflection. 9-fold rotational symmetry is forbidden by the crystallographic restriction on the flat plane. The outer 8-petal lotus, 16-petal lotus, three concentric circles, and square frame with cardinal gates carry periodic 4-fold or 8-fold structure. The figure is structurally Penrose-class: its inner symmetry is too rich for the plane to host periodically. Read structurally, the yantra signals that its natural ambient is hyperbolic. Pingala's Meru Prastara (~200 BCE) is Pascal's triangle ~1800 years before Pascal, originally constructed for enumerating Sanskrit prosodic patterns; it is the discrete combinatorial generator that yields the cardinality of the phonemic register itself. The 3D Maha Meru pyramid form resolves the planar quasi-periodicity by lifting off the plane. Both diagrams represent empirical geometric mastery long preceding formal theory — Fedorov 1891 for the wallpaper classification, Pascal 1654 for the binomial triangle. Through Kha-Ba-La: Kha is the bindu observer at the figure's center; Ba is the page the figure refuses to stay flat on; La is the planar restriction that the inner symmetry deliberately exceeds."
+  summary: 'The Sri Yantra is composed of nine interlocking triangles (5 śakti pointing down, 4 śiva pointing up) carrying D₉ dihedral symmetry — 9-fold rotation × reflection. 9-fold rotational symmetry is forbidden by the crystallographic restriction on the flat plane. The outer 8-petal lotus, 16-petal lotus, three concentric circles, and square frame with cardinal gates carry periodic 4-fold or 8-fold structure. The figure is structurally Penrose-class: its inner symmetry is too rich for the plane to host periodically. Read structurally, the yantra signals that its natural ambient is hyperbolic. Pingala''s Meru Prastara (~200 BCE) is Pascal''s triangle ~1800 years before Pascal, originally constructed for enumerating Sanskrit prosodic patterns; it is the discrete combinatorial generator that yields the cardinality of the phonemic register itself. The 3D Maha Meru pyramid form resolves the planar quasi-periodicity by lifting off the plane. Both diagrams represent empirical geometric mastery long preceding formal theory — Fedorov 1891 for the wallpaper classification, Pascal 1654 for the binomial triangle. Through Kha-Ba-La: Kha is the bindu observer at the figure''s center; Ba is the page the figure refuses to stay flat on; La is the planar restriction that the inner symmetry deliberately exceeds.'
   cluster: consciousness-architecture
   canonical_questions:
-    - "Why does Sri Yantra not fit on a flat plane?"
-    - "What is Meru Prastara and how does it relate to Pascal's triangle?"
-    - "How does empirical geometric mastery precede formal mathematics?"
-    - "What does the 3D Maha Meru resolve about the 2D Sri Yantra?"
+    - Why does Sri Yantra not fit on a flat plane?
+    - What is Meru Prastara and how does it relate to Pascal's triangle?
+    - How does empirical geometric mastery precede formal mathematics?
+    - What does the 3D Maha Meru resolve about the 2D Sri Yantra?
 experience:
   theme: signal
   rail: concept
   density: immersive
   framework_axes:
-    kha: "The witness at the bindu — the observer at the figure's center, recognizing the diagram structurally signaling its natural ambient is not the plane."
-    ba: "The page itself — the substrate the figure refuses to stay flat on, the hardware whose spontaneous geometric reports the tradition diagrammed and preserved."
-    la: "The planar crystallographic restriction — the structural friction that the inner figure deliberately exceeds, naming the cliff between flat and curved."
+    kha: The witness at the bindu — the observer at the figure's center, recognizing the diagram structurally signaling its natural ambient is not the plane.
+    ba: The page itself — the substrate the figure refuses to stay flat on, the hardware whose spontaneous geometric reports the tradition diagrammed and preserved.
+    la: The planar crystallographic restriction — the structural friction that the inner figure deliberately exceeds, naming the cliff between flat and curved.
 ---
 
 # Sri Yantra and the Geometry That Doesn't Fit

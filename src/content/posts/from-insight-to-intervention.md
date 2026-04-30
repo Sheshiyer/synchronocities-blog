@@ -1,11 +1,16 @@
 ---
-title: "From Insight to Intervention: A 7-Day Protocol"
-date: 2025-09-20
+title: 'From Insight to Intervention: A 7-Day Protocol'
+date: 2025-09-20T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "You can name every pattern you run. You can explain why you do what you do with clinical precision. And you still do the thing next Tuesday. Here is the protocol that bridges the gap."
-featured_image: "/cards/sync-insight-intervention.webp"
-tags: ["consciousness", "insight", "intervention", "protocol"]
+excerpt: You can name every pattern you run. You can explain why you do what you do with clinical precision. And you still do the thing next Tuesday. Here is the protocol that bridges the gap.
+featured_image: /cards/sync-insight-intervention.webp
+tags:
+  - consciousness
+  - insight
+  - intervention
+  - protocol
+  - cluster:consciousness
 ---
 
 # From Insight to Intervention: A 7-Day Protocol

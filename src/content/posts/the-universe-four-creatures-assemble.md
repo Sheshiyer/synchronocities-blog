@@ -1,16 +1,24 @@
 ---
-title: "The Universe: Four Creatures Assemble"
-date: 2025-05-01
-card: "XXI"
+title: 'The Universe: Four Creatures Assemble'
+date: 2025-05-01T00:00:00.000Z
+card: XXI
 suit: disks
 phase: 12
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "anandamaya"
-identity: "The Witness"
-excerpt: "Fifty-five days. The spiral returns to where it began — same city, same ground — but the observer is no longer the same. The Universe card completes the circuit."
-featured_image: "/cards/tarot-21-universe.webp"
-tags: ["tarot-21-universe", "completion", "witness", "integration", "bangkok"]
+kosha: anandamaya
+identity: The Witness
+excerpt: Fifty-five days. The spiral returns to where it began — same city, same ground — but the observer is no longer the same. The Universe card completes the circuit.
+featured_image: /cards/tarot-21-universe.webp
+tags:
+  - tarot-21-universe
+  - completion
+  - witness
+  - integration
+  - bangkok
+  - cluster:tarot
+  - cluster:travelogue
+  - cluster:consciousness
 ---
 
 Fifty-five days. Five plus five equals ten. Ten equals one. The return to unity through the multiplication of experience.

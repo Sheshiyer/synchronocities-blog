@@ -1,9 +1,15 @@
 ---
-title: "Chaos Theory and Vedic Astrology: Strange Attractors in the Birth Chart"
-date: 2026-01-05
-excerpt: "The Lorenz attractor and the Kundli chart are both phase space portraits of deterministic systems sensitive to initial conditions. One uses differential equations. The other uses celestial mechanics. Both reveal order within apparent chaos."
-featured_image: "/cards/sync-chaos-vedic.webp"
-tags: ["lorenz-kundli", "chaos-theory", "vedic", "patterns"]
+title: 'Chaos Theory and Vedic Astrology: Strange Attractors in the Birth Chart'
+date: 2026-01-05T00:00:00.000Z
+excerpt: The Lorenz attractor and the Kundli chart are both phase space portraits of deterministic systems sensitive to initial conditions. One uses differential equations. The other uses celestial mechanics. Both reveal order within apparent chaos.
+featured_image: /cards/sync-chaos-vedic.webp
+tags:
+  - lorenz-kundli
+  - chaos-theory
+  - vedic
+  - patterns
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

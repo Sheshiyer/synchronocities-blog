@@ -1,11 +1,16 @@
 ---
-title: "Compassion Runtime: Optimizing Your Emotional Memory Management"
-date: 2025-07-05
+title: 'Compassion Runtime: Optimizing Your Emotional Memory Management'
+date: 2025-07-05T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Your emotions aren't bugs — they're background processes you haven't learned to monitor yet. A technical-mystical framework for emotional runtime optimization."
-featured_image: "/cards/sync-compassion-runtime.webp"
-tags: ["runtime", "compassion", "emotional-memory", "consciousness"]
+excerpt: Your emotions aren't bugs — they're background processes you haven't learned to monitor yet. A technical-mystical framework for emotional runtime optimization.
+featured_image: /cards/sync-compassion-runtime.webp
+tags:
+  - runtime
+  - compassion
+  - emotional-memory
+  - consciousness
+  - cluster:consciousness
 ---
 
 # Compassion Runtime: Optimizing Your Emotional Memory Management

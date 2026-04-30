@@ -1,11 +1,16 @@
 ---
-title: "Why Insight Isn't Change: A Runtime Model for Self-Authorship"
-date: 2025-07-25
+title: 'Why Insight Isn''t Change: A Runtime Model for Self-Authorship'
+date: 2025-07-25T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Most people are not lacking intelligence, effort, or language. They can explain their patterns in detail. And still, when pressure rises, the same loop executes. That gap between insight and repeated execution is where this inquiry begins."
-featured_image: "/cards/sync-insight-isnt-change.webp"
-tags: ["runtime", "insight", "change", "self-authorship"]
+excerpt: Most people are not lacking intelligence, effort, or language. They can explain their patterns in detail. And still, when pressure rises, the same loop executes. That gap between insight and repeated execution is where this inquiry begins.
+featured_image: /cards/sync-insight-isnt-change.webp
+tags:
+  - runtime
+  - insight
+  - change
+  - self-authorship
+  - cluster:consciousness
 ---
 
 # Why Insight Isn't Change

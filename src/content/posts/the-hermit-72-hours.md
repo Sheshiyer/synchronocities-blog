@@ -1,16 +1,23 @@
 ---
-title: "The Hermit: 72 Hours of Noble Stillness"
-date: 2025-03-20
-card: "IX"
+title: 'The Hermit: 72 Hours of Noble Stillness'
+date: 2025-03-20T00:00:00.000Z
+card: IX
 suit: disks
 phase: 7
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "pranamaya"
-identity: "Shesh"
-excerpt: "Noble 33. Seventy-two hours in a room that demanded nothing. The Hermit doesn't withdraw from the world. The Hermit withdraws from the noise the mind generates about the world."
-featured_image: "/cards/tarot-09-hermit.webp"
-tags: ["tarot-09-hermit", "stillness", "bangkok", "solitude", "noble-33"]
+kosha: pranamaya
+identity: Shesh
+excerpt: Noble 33. Seventy-two hours in a room that demanded nothing. The Hermit doesn't withdraw from the world. The Hermit withdraws from the noise the mind generates about the world.
+featured_image: /cards/tarot-09-hermit.webp
+tags:
+  - tarot-09-hermit
+  - stillness
+  - bangkok
+  - solitude
+  - noble-33
+  - cluster:tarot
+  - cluster:travelogue
 ---
 
 Noble 33. Seventy-two hours in a room that demanded nothing.

@@ -1,9 +1,16 @@
 ---
-title: "The Muse-Enneagram Matrix: 9 Types, 9 Hormones, 9 Constellations"
-date: 2025-10-15
-excerpt: "What if the nine Muses were not metaphors but function signatures — each mapped to an Enneagram type, a hormone, and a constellation? The matrix that emerges is not poetic. It is architectural."
-featured_image: "/cards/sync-muse-matrix.webp"
-tags: ["enneagram", "muses", "hormones", "constellations", "matrix"]
+title: 'The Muse-Enneagram Matrix: 9 Types, 9 Hormones, 9 Constellations'
+date: 2025-10-15T00:00:00.000Z
+excerpt: What if the nine Muses were not metaphors but function signatures — each mapped to an Enneagram type, a hormone, and a constellation? The matrix that emerges is not poetic. It is architectural.
+featured_image: /cards/sync-muse-matrix.webp
+tags:
+  - enneagram
+  - muses
+  - hormones
+  - constellations
+  - matrix
+  - cluster:lorenz-kundli
+  - cluster:enneagram
 draft: false
 revolution: 1
 ---

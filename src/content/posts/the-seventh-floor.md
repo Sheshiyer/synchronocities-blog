@@ -1,17 +1,26 @@
 ---
-title: "The Seventh Floor"
-date: 2025-05-05
-card: "XXI"
+title: The Seventh Floor
+date: 2025-05-05T00:00:00.000Z
+card: XXI
 suit: disks
 phase: 12
-location: "Chiang Mai, Thailand"
+location: Chiang Mai, Thailand
 revolution: 1
-kosha: "anandamaya"
-identity: "The Witness"
+kosha: anandamaya
+identity: The Witness
 draft: false
-excerpt: "Every spiral lands you higher — but only if you dare come back full circle."
-featured_image: "/cards/tarot-seventh-floor.webp"
-tags: ["chiang-mai", "tarot-21-universe", "room-707", "seventh-floor", "doi-suthep", "completion", "four-creatures"]
+excerpt: Every spiral lands you higher — but only if you dare come back full circle.
+featured_image: /cards/tarot-seventh-floor.webp
+tags:
+  - chiang-mai
+  - tarot-21-universe
+  - room-707
+  - seventh-floor
+  - doi-suthep
+  - completion
+  - four-creatures
+  - cluster:tarot
+  - cluster:travelogue
 ---
 
 *Every spiral lands you higher — but only if you dare come back full circle.*

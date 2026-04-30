@@ -1,11 +1,16 @@
 ---
-title: "The Downstream Mind"
-date: 2025-06-10
+title: The Downstream Mind
+date: 2025-06-10T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "How AI killed the thrill of finding things — and created the most powerful marketing exploit in history. A research article on curation collapse, the 50/50 dopamine coin toss, and the emerging Easter Egg Economy."
-featured_image: "/cards/sync-downstream-mind.webp"
-tags: ["consciousness", "curation", "dopamine", "easter-egg-economy"]
+excerpt: How AI killed the thrill of finding things — and created the most powerful marketing exploit in history. A research article on curation collapse, the 50/50 dopamine coin toss, and the emerging Easter Egg Economy.
+featured_image: /cards/sync-downstream-mind.webp
+tags:
+  - consciousness
+  - curation
+  - dopamine
+  - easter-egg-economy
+  - cluster:consciousness
 pinned: true
 pin_rank: 2
 article_mode: signal-essay
@@ -24,7 +29,7 @@ related_posts:
   - the-source-code-has-authors
 hero:
   eyebrow: Attention Architecture
-  subtitle: "How AI killed the thrill of finding things — and created the most powerful marketing exploit in history."
+  subtitle: How AI killed the thrill of finding things — and created the most powerful marketing exploit in history.
   variant: image
 experience:
   theme: signal
@@ -32,9 +37,9 @@ experience:
   density: immersive
   decoder: true
   framework_axes:
-    kha: "The observer who sees the curation collapse — recognition that you are downstream."
-    ba: "The easter egg as embodied encounter — findable signals in wild territory."
-    la: "The Vine of Determinism — algorithmic friction that narrows possibility."
+    kha: The observer who sees the curation collapse — recognition that you are downstream.
+    ba: The easter egg as embodied encounter — findable signals in wild territory.
+    la: The Vine of Determinism — algorithmic friction that narrows possibility.
 figures:
   - id: downstream-header
     anchor: hero
@@ -100,7 +105,7 @@ easter_eggs:
     clue: Read the section initials in order.
     payload:
       - Y-O-U-F-O-U-N-D-I-T
-      - "I. You're Being Fed"
+      - I. You're Being Fed
       - II. Orchestration of the Feed
       - III. Uncertainty Is the Mechanism
       - IV. Flat Terrain
@@ -116,16 +121,16 @@ easter_eggs:
     label: Major Arcana scaffolding
     description: Each section maps to a Major Arcana card with one subtle Thoth image or concept embedded in the prose.
     payload:
-      - "I -> Fool (0): the crocodile beneath the Fool."
-      - "II -> Magician (I): the ape behind the curtain and the mercury of attention."
-      - "III -> High Priestess (II): the veil and the scroll of data."
-      - "IV -> Emperor (IV): the narrowing window and the habitual rams."
-      - "V -> Chariot (VII): four forces, a carried grail, and the threshold."
-      - "VI -> Wheel of Fortune (X): ascending, descending, and the sphinx at the apex."
-      - "VII -> Hanged Man (XII): inversion and the dying god."
-      - "VIII -> Devil (XV): chains worn by choice."
-      - "IX -> Moon (XVIII): towers at the edge of perception."
-      - "X -> World (XXI): the serpent, the dancer, and the four corners."
+      - 'I -> Fool (0): the crocodile beneath the Fool.'
+      - 'II -> Magician (I): the ape behind the curtain and the mercury of attention.'
+      - 'III -> High Priestess (II): the veil and the scroll of data.'
+      - 'IV -> Emperor (IV): the narrowing window and the habitual rams.'
+      - 'V -> Chariot (VII): four forces, a carried grail, and the threshold.'
+      - 'VI -> Wheel of Fortune (X): ascending, descending, and the sphinx at the apex.'
+      - 'VII -> Hanged Man (XII): inversion and the dying god.'
+      - 'VIII -> Devil (XV): chains worn by choice.'
+      - 'IX -> Moon (XVIII): towers at the edge of perception.'
+      - 'X -> World (XXI): the serpent, the dancer, and the four corners.'
   - id: downstream-image-serial-codes
     layer: decoder
     kind: image
@@ -150,7 +155,7 @@ easter_eggs:
     kind: byline
     label: Byline signal
     description: The source draft uses @witnessalchemst as the only overt brand signal while the rest of the architecture stays implicit.
-    payload: "@witnessalchemst"
+    payload: '@witnessalchemst'
   - id: downstream-first-sentence-quine
     layer: decoder
     kind: sequence
@@ -164,10 +169,10 @@ easter_eggs:
       - Apply this to the current trajectory of AI and a specific problem becomes visible.
       - Card zero in any serious symbolic system is unnumbered — it carries no name and no address.
       - The emerging answer to curation collapse is already present in culture, unrecognized.
-      - "Consider a system built on a specific premise: that self-consciousness is a technology, not a state."
+      - 'Consider a system built on a specific premise: that self-consciousness is a technology, not a state.'
       - There is a version of this architecture that is manipulation.
       - Three phases structure the design of discovery in the AI era.
-      - "There is a concept in computer science called a quine: a program whose output is its own source code."
+      - 'There is a concept in computer science called a quine: a program whose output is its own source code.'
 llm:
   start_priority: foundational
   summary: A flagship signal essay on curation collapse, dopamine uncertainty, and why the AI era rewards engineered experiences of finding over pure personalization.
@@ -177,7 +182,7 @@ llm:
     - What is the easter egg economy?
     - How should brands design upstream signals in AI-mediated environments?
 source_bridge:
-  processing_doc: /Volumes/madara/2026/twc-vault/01-Projects/Content-Engine/_processing/downstream-mind-2026-03-08.md
+  processing_doc: /Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Content-Engine/_archive/deprecated-versions/processing-triage-2026-04-29/downstream-mind-2026-03-08.md
   platform: x-article
   vault_sources:
     - brand-voice-cheatsheet.md
@@ -195,8 +200,8 @@ source_bridge:
     - Somatic-Canticles-Vine-of-Determinism
     - Spolski-Endocrine-Correspondence-Framework
     - Pain-Information-Architecture-Dopamine-Casino
-  placement_guide: /Volumes/madara/2026/twc-vault/01-Projects/Content-Engine/_processing/downstream-mind-images/placement-guide.md
-  imported_at: "2026-04-02T12:00:00.000Z"
+  placement_guide: /Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/Paperclip-tn/vault/creative/distribution/tn-blog-the-downstream-mind-20260429t024012z/handoff.md
+  imported_at: '2026-04-02T12:00:00.000Z'
   imported_fields:
     - hero.subtitle
     - experience.framework_axes

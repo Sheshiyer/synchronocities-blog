@@ -1,16 +1,25 @@
 ---
-title: "The Fool's Satchel"
-date: 2025-03-26
+title: The Fool's Satchel
+date: 2025-03-26T00:00:00.000Z
 suit: disks
 phase: 5
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "annamaya"
-identity: "Shesh"
+kosha: annamaya
+identity: Shesh
 draft: false
-excerpt: "Day two began with a turn of the deck and a turn of the path. The cards fell into sequence."
-featured_image: "/cards/tarot-satchel.webp"
-tags: ["tarot-00-fool", "tarot-06-lovers", "two-of-wands", "tarot-01-magus", "satchel", "coherence", "alignment"]
+excerpt: Day two began with a turn of the deck and a turn of the path. The cards fell into sequence.
+featured_image: /cards/tarot-satchel.webp
+tags:
+  - tarot-00-fool
+  - tarot-06-lovers
+  - two-of-wands
+  - tarot-01-magus
+  - satchel
+  - coherence
+  - alignment
+  - cluster:tarot
+  - cluster:consciousness
 ---
 
 ## The Sequence

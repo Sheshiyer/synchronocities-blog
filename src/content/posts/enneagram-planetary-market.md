@@ -1,9 +1,16 @@
 ---
-title: "Enneagram-Planetary-Market Integration: Trading the Archetypal Cycle"
-date: 2025-11-10
-excerpt: "Each Enneagram type corresponds to a planet. Each planet influences a market phase. The lunar cycle is not astrology — it is the oldest pattern recognition framework for collective behavior, and it maps to the Enneagram with structural precision."
-featured_image: "/cards/sync-planetary-market.webp"
-tags: ["enneagram", "planetary", "market", "integration"]
+title: 'Enneagram-Planetary-Market Integration: Trading the Archetypal Cycle'
+date: 2025-11-10T00:00:00.000Z
+excerpt: Each Enneagram type corresponds to a planet. Each planet influences a market phase. The lunar cycle is not astrology — it is the oldest pattern recognition framework for collective behavior, and it maps to the Enneagram with structural precision.
+featured_image: /cards/sync-planetary-market.webp
+tags:
+  - enneagram
+  - planetary
+  - market
+  - integration
+  - cluster:lorenz-kundli
+  - cluster:enneagram
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

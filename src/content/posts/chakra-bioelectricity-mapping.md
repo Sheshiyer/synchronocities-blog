@@ -1,9 +1,15 @@
 ---
-title: "Chakra-Bioelectricity Mapping: The Seven Gates as Voltage Differentials"
-date: 2025-11-15
-excerpt: "Chakras are not energy centers in the mystical sense. They are bioelectric nodes — measurable voltage differentials along the spinal axis that regulate information processing, organ function, and consciousness state. The ancient map was always a circuit diagram."
-featured_image: "/cards/sync-chakra-bioelectric.webp"
-tags: ["chakra", "bioelectricity", "mapping", "enneagram"]
+title: 'Chakra-Bioelectricity Mapping: The Seven Gates as Voltage Differentials'
+date: 2025-11-15T00:00:00.000Z
+excerpt: Chakras are not energy centers in the mystical sense. They are bioelectric nodes — measurable voltage differentials along the spinal axis that regulate information processing, organ function, and consciousness state. The ancient map was always a circuit diagram.
+featured_image: /cards/sync-chakra-bioelectric.webp
+tags:
+  - chakra
+  - bioelectricity
+  - mapping
+  - enneagram
+  - cluster:enneagram
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

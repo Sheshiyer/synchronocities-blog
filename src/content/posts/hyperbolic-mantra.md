@@ -1,11 +1,22 @@
 ---
-title: "Hyperbolic Mantra: When the Plane Is Not Flat"
-date: 2026-04-30
+title: 'Hyperbolic Mantra: When the Plane Is Not Flat'
+date: 2026-04-30T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "The reports converge across cultures, substances, and centuries. Recursive self-similarity. Hypersymmetric tessellation. Five-fold, seven-fold, nine-fold periodic symmetries that the flat plane forbids. The geometry is data — and the data is hyperbolic."
-featured_image: "/cards/sync-hyperbolic-mantra.webp"
-tags: ["runtime", "akshara", "hyperbolic", "geometry", "dmt", "mantra", "qualia", "valence"]
+excerpt: The reports converge across cultures, substances, and centuries. Recursive self-similarity. Hypersymmetric tessellation. Five-fold, seven-fold, nine-fold periodic symmetries that the flat plane forbids. The geometry is data — and the data is hyperbolic.
+featured_image: /cards/sync-hyperbolic-mantra.webp
+tags:
+  - runtime
+  - akshara
+  - hyperbolic
+  - geometry
+  - dmt
+  - mantra
+  - qualia
+  - valence
+  - cluster:sonic
+  - cluster:geometry
+  - cluster:consciousness
 article_mode: signal-essay
 entry_kind: essay
 concepts:
@@ -22,26 +33,26 @@ related_posts:
   - pain-information-architecture
   - magnetic-substrate
 hero:
-  eyebrow: "Sonic Geometry"
-  subtitle: "Negative curvature accommodates exponentially more local structure than flat space. The substrate at depth inhabits exactly that geometry."
+  eyebrow: Sonic Geometry
+  subtitle: Negative curvature accommodates exponentially more local structure than flat space. The substrate at depth inhabits exactly that geometry.
   variant: image
 llm:
   start_priority: supporting
-  summary: "On the flat plane, the crystallographic restriction permits only 1, 2, 3, 4, and 6-fold rotational symmetries in periodic patterns. On the hyperbolic plane — a surface of constant negative curvature — this restriction vanishes. Schläfli tilings {7,3}, {3,7}, {5,4} are exact periodic structures of the hyperbolic plane. Five-fold and seven-fold periodic symmetry become routine. The Poincaré disk renders infinite tilings in finite displays — bounded experience, unbounded content. DMT phenomenology (Strassman, McKenna corpus, Shanon, QRI psychedelic surveys) consistently reports recursive self-similarity, hypersymmetric tessellation, and 'more space than fits' — these are the predicted features of a hyperbolic ambient space, item-for-item. Mantra at Pashyanti depth drives the substrate into the hyperbolic regime. A bīja syllable becomes a seed for a symmetry orbit that fills the Poincaré disk. The Hopf fibration provides the canonical structural picture for how local generators unfold globally. Through Kha-Ba-La: Kha witnesses the curvature directly; Ba is the substrate now in negative-curvature regime; La is the constraint that, in flat space, was forbidden — and in curved space, becomes the lawful generator of the orbit."
+  summary: 'On the flat plane, the crystallographic restriction permits only 1, 2, 3, 4, and 6-fold rotational symmetries in periodic patterns. On the hyperbolic plane — a surface of constant negative curvature — this restriction vanishes. Schläfli tilings {7,3}, {3,7}, {5,4} are exact periodic structures of the hyperbolic plane. Five-fold and seven-fold periodic symmetry become routine. The Poincaré disk renders infinite tilings in finite displays — bounded experience, unbounded content. DMT phenomenology (Strassman, McKenna corpus, Shanon, QRI psychedelic surveys) consistently reports recursive self-similarity, hypersymmetric tessellation, and ''more space than fits'' — these are the predicted features of a hyperbolic ambient space, item-for-item. Mantra at Pashyanti depth drives the substrate into the hyperbolic regime. A bīja syllable becomes a seed for a symmetry orbit that fills the Poincaré disk. The Hopf fibration provides the canonical structural picture for how local generators unfold globally. Through Kha-Ba-La: Kha witnesses the curvature directly; Ba is the substrate now in negative-curvature regime; La is the constraint that, in flat space, was forbidden — and in curved space, becomes the lawful generator of the orbit.'
   cluster: consciousness-architecture
   canonical_questions:
-    - "Why is hyperbolic geometry the natural ambient for high-valence experience?"
-    - "What does the Poincaré disk model represent?"
-    - "How do DMT reports match hyperbolic tiling predictions?"
-    - "What does it mean to compile mantra at Pashyanti depth?"
+    - Why is hyperbolic geometry the natural ambient for high-valence experience?
+    - What does the Poincaré disk model represent?
+    - How do DMT reports match hyperbolic tiling predictions?
+    - What does it mean to compile mantra at Pashyanti depth?
 experience:
   theme: signal
   rail: concept
   density: immersive
   framework_axes:
-    kha: "The witness who notices that the experience-manifold has curved — that the geometry of the moment now permits symmetries the flat plane forbade."
-    ba: "The substrate entering negative-curvature regime under high-load mantra — the resonance manifold accommodating exponentially more local structure per radius."
-    la: "Hyperbolic space itself — the {7,3} tiling, the Poincaré disk, the geometry where five-fold and seven-fold periodic symmetry are not exotic but lawful."
+    kha: The witness who notices that the experience-manifold has curved — that the geometry of the moment now permits symmetries the flat plane forbade.
+    ba: The substrate entering negative-curvature regime under high-load mantra — the resonance manifold accommodating exponentially more local structure per radius.
+    la: Hyperbolic space itself — the {7,3} tiling, the Poincaré disk, the geometry where five-fold and seven-fold periodic symmetry are not exotic but lawful.
 ---
 
 # Hyperbolic Mantra: When the Plane Is Not Flat

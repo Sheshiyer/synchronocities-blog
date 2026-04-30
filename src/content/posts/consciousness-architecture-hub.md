@@ -1,9 +1,14 @@
 ---
-title: "Consciousness Architecture Hub"
-date: 2026-03-12
-excerpt: "A navigational hub for the consciousness-as-architecture research program — connecting bioelectric systems, information processing models, social programming analysis, and technical-mystical integration into a unified system design."
-featured_image: "/cards/sync-consciousness-hub.webp"
-tags: ["consciousness", "architecture", "hub", "overview"]
+title: Consciousness Architecture Hub
+date: 2026-03-12T00:00:00.000Z
+excerpt: A navigational hub for the consciousness-as-architecture research program — connecting bioelectric systems, information processing models, social programming analysis, and technical-mystical integration into a unified system design.
+featured_image: /cards/sync-consciousness-hub.webp
+tags:
+  - consciousness
+  - architecture
+  - hub
+  - overview
+  - cluster:consciousness
 pinned: true
 pin_rank: 1
 draft: false

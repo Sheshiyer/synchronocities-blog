@@ -1,9 +1,14 @@
 ---
-title: "The Bioelectric Pattern Framework: How Your Cells Remember What Your Mind Forgets"
-date: 2025-11-25
-excerpt: "Cells store patterns in voltage differentials. Tissues remember traumas in charge gradients. The bioelectric field is not metaphor — it is the body's oldest memory system, operating beneath and before the nervous system's narrative."
-featured_image: "/cards/sync-bioelectric-field.webp"
-tags: ["bioelectric", "patterns", "framework", "consciousness"]
+title: 'The Bioelectric Pattern Framework: How Your Cells Remember What Your Mind Forgets'
+date: 2025-11-25T00:00:00.000Z
+excerpt: Cells store patterns in voltage differentials. Tissues remember traumas in charge gradients. The bioelectric field is not metaphor — it is the body's oldest memory system, operating beneath and before the nervous system's narrative.
+featured_image: /cards/sync-bioelectric-field.webp
+tags:
+  - bioelectric
+  - patterns
+  - framework
+  - consciousness
+  - cluster:consciousness
 draft: false
 revolution: 1
 related_posts:

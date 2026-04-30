@@ -1,9 +1,15 @@
 ---
-title: "Bhava Aspects as Neural Networks: Weighted Connections in the House Graph"
-date: 2025-12-30
-excerpt: "The 12-house bhava system with its aspects — full, square, trine, opposition — forms a weighted directed graph that is structurally identical to a neural network. The weights were set four thousand years ago."
-featured_image: "/cards/sync-bhava-neural.webp"
-tags: ["lorenz-kundli", "bhava", "neural-networks", "aspects"]
+title: 'Bhava Aspects as Neural Networks: Weighted Connections in the House Graph'
+date: 2025-12-30T00:00:00.000Z
+excerpt: The 12-house bhava system with its aspects — full, square, trine, opposition — forms a weighted directed graph that is structurally identical to a neural network. The weights were set four thousand years ago.
+featured_image: /cards/sync-bhava-neural.webp
+tags:
+  - lorenz-kundli
+  - bhava
+  - neural-networks
+  - aspects
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

@@ -1,9 +1,14 @@
 ---
-title: "Temperature-Consciousness Correlation"
-date: 2025-07-12
-excerpt: "Your consciousness runs on geographic temperature settings. The zone you inhabit shapes your processing architecture — from mitochondrial inheritance to mythological frameworks to real-time creative capacity."
-featured_image: "/cards/sync-temperature.webp"
-tags: ["runtime", "temperature", "consciousness", "thread"]
+title: Temperature-Consciousness Correlation
+date: 2025-07-12T00:00:00.000Z
+excerpt: Your consciousness runs on geographic temperature settings. The zone you inhabit shapes your processing architecture — from mitochondrial inheritance to mythological frameworks to real-time creative capacity.
+featured_image: /cards/sync-temperature.webp
+tags:
+  - runtime
+  - temperature
+  - consciousness
+  - thread
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

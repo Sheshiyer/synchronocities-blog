@@ -1,9 +1,15 @@
 ---
-title: "Pattern Cross-Reference System: Navigating the Knowledge Graph"
-date: 2026-01-25
-excerpt: "A systematic framework for discovering and integrating patterns across mathematical, spiritual, historical, and technical domains — the cross-reference system that reveals hidden connections between seemingly unrelated knowledge structures."
-featured_image: "/cards/sync-cross-reference.webp"
-tags: ["lorenz-kundli", "cross-reference", "patterns", "system"]
+title: 'Pattern Cross-Reference System: Navigating the Knowledge Graph'
+date: 2026-01-25T00:00:00.000Z
+excerpt: A systematic framework for discovering and integrating patterns across mathematical, spiritual, historical, and technical domains — the cross-reference system that reveals hidden connections between seemingly unrelated knowledge structures.
+featured_image: /cards/sync-cross-reference.webp
+tags:
+  - lorenz-kundli
+  - cross-reference
+  - patterns
+  - system
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 pinned: true
 pin_rank: 4
 draft: false

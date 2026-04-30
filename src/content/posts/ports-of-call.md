@@ -1,16 +1,27 @@
 ---
-title: "Ports of Call"
-date: 2025-03-25
+title: Ports of Call
+date: 2025-03-25T00:00:00.000Z
 suit: wands
 phase: 5
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "vijnanamaya"
-identity: "Shesh"
+kosha: vijnanamaya
+identity: Shesh
 draft: false
-excerpt: "Evening settles in Room 3, and the Three of Wands leans closer. The sails are visible now, lines pulled taut, horizon painted in Venus tones."
-featured_image: "/cards/tarot-ports.webp"
-tags: ["three-of-wands", "venus", "ports", "bangkok", "witness-os", "pichet", "expansion", "declaration"]
+excerpt: Evening settles in Room 3, and the Three of Wands leans closer. The sails are visible now, lines pulled taut, horizon painted in Venus tones.
+featured_image: /cards/tarot-ports.webp
+tags:
+  - three-of-wands
+  - venus
+  - ports
+  - bangkok
+  - witness-os
+  - pichet
+  - expansion
+  - declaration
+  - cluster:travelogue
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 ---
 
 ## The Three of Wands

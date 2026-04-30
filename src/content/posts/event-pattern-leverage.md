@@ -1,11 +1,16 @@
 ---
-title: "Event, Pattern, Leverage"
-date: 2025-08-25
+title: Event, Pattern, Leverage
+date: 2025-08-25T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Most people stop at the event. Diagnosticians go to the pattern. The real work begins at leverage — the point where one structural shift changes the entire cascade."
-featured_image: "/cards/sync-event-pattern-leverage.webp"
-tags: ["consciousness", "patterns", "leverage", "systems"]
+excerpt: Most people stop at the event. Diagnosticians go to the pattern. The real work begins at leverage — the point where one structural shift changes the entire cascade.
+featured_image: /cards/sync-event-pattern-leverage.webp
+tags:
+  - consciousness
+  - patterns
+  - leverage
+  - systems
+  - cluster:consciousness
 ---
 
 # Event, Pattern, Leverage

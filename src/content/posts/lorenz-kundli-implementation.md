@@ -1,9 +1,15 @@
 ---
-title: "Lorenz-Kundli Implementation: A Technical Framework in Python"
-date: 2026-01-20
-excerpt: "A hands-on implementation framework for mapping Lorenz system dynamics onto Kundli chart structures — phase space transformations, scale invariance detection, and field coherence analysis in Python."
-featured_image: "/cards/sync-python-jyotish.webp"
-tags: ["lorenz-kundli", "python", "implementation", "framework"]
+title: 'Lorenz-Kundli Implementation: A Technical Framework in Python'
+date: 2026-01-20T00:00:00.000Z
+excerpt: A hands-on implementation framework for mapping Lorenz system dynamics onto Kundli chart structures — phase space transformations, scale invariance detection, and field coherence analysis in Python.
+featured_image: /cards/sync-python-jyotish.webp
+tags:
+  - lorenz-kundli
+  - python
+  - implementation
+  - framework
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

@@ -1,11 +1,16 @@
 ---
-title: "Kha-Ba-La as Operational Compass"
-date: 2025-09-10
+title: Kha-Ba-La as Operational Compass
+date: 2025-09-10T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Kha-Ba-La is a three-force diagnostic triad — Spirit, Body, Inertia — not a belief system or cosmological ranking. It works like a compass, not a ladder."
-featured_image: "/cards/sync-kha-ba-la.webp"
-tags: ["kha-ba-la", "compass", "mysticism", "operations"]
+excerpt: Kha-Ba-La is a three-force diagnostic triad — Spirit, Body, Inertia — not a belief system or cosmological ranking. It works like a compass, not a ladder.
+featured_image: /cards/sync-kha-ba-la.webp
+tags:
+  - kha-ba-la
+  - compass
+  - mysticism
+  - operations
+  - cluster:consciousness
 ---
 
 # Kha-Ba-La as Operational Compass, Not Mystical Hierarchy

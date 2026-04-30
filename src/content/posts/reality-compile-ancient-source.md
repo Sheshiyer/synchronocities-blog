@@ -1,11 +1,16 @@
 ---
-title: "Reality.compile(): Ancient Source Code Running Your Consciousness"
-date: 2025-05-20
+title: 'Reality.compile(): Ancient Source Code Running Your Consciousness'
+date: 2025-05-20T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Debugging the Matrix through sacred system architecture — where ancient source code meets modern consciousness programming."
-featured_image: "/cards/sync-reality-compile.webp"
-tags: ["runtime", "source-code", "consciousness", "programming"]
+excerpt: Debugging the Matrix through sacred system architecture — where ancient source code meets modern consciousness programming.
+featured_image: /cards/sync-reality-compile.webp
+tags:
+  - runtime
+  - source-code
+  - consciousness
+  - programming
+  - cluster:consciousness
 ---
 
 # Reality.compile(): Ancient Source Code Running Your Consciousness

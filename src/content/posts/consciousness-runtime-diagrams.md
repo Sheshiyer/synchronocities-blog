@@ -1,9 +1,14 @@
 ---
-title: "Consciousness Runtime Framework Diagrams"
-date: 2025-07-18
-excerpt: "Consciousness as a layered runtime — from the reptilian BIOS to the neocortical application layer — rendered as system architecture diagrams. The triune brain is not a theory. It is a deployment specification."
-featured_image: "/cards/sync-runtime-diagrams.webp"
-tags: ["runtime", "framework", "diagrams", "consciousness"]
+title: Consciousness Runtime Framework Diagrams
+date: 2025-07-18T00:00:00.000Z
+excerpt: Consciousness as a layered runtime — from the reptilian BIOS to the neocortical application layer — rendered as system architecture diagrams. The triune brain is not a theory. It is a deployment specification.
+featured_image: /cards/sync-runtime-diagrams.webp
+tags:
+  - runtime
+  - framework
+  - diagrams
+  - consciousness
+  - cluster:consciousness
 draft: false
 revolution: 1
 related_posts:

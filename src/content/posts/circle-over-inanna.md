@@ -1,17 +1,28 @@
 ---
-title: "Circle over Inanna"
-date: 2025-04-12
-card: "XIV"
+title: Circle over Inanna
+date: 2025-04-12T00:00:00.000Z
+card: XIV
 suit: cups
 phase: 9
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "vijnanamaya"
-identity: "Pichet"
+kosha: vijnanamaya
+identity: Pichet
 draft: false
-excerpt: "Shenzhen was the bench where the Two of Wands finally snapped. I stopped waiting for the globe to speak and started speaking to you, Aletheos, out loud."
-featured_image: "/cards/tarot-circle-inanna.webp"
-tags: ["inanna", "nana-plaza", "bangkok", "content-vs-contented", "chandraghanta", "navratri", "aryaman", "tarot-14-art", "meaning-vector"]
+excerpt: Shenzhen was the bench where the Two of Wands finally snapped. I stopped waiting for the globe to speak and started speaking to you, Aletheos, out loud.
+featured_image: /cards/tarot-circle-inanna.webp
+tags:
+  - inanna
+  - nana-plaza
+  - bangkok
+  - content-vs-contented
+  - chandraghanta
+  - navratri
+  - aryaman
+  - tarot-14-art
+  - meaning-vector
+  - cluster:tarot
+  - cluster:travelogue
 ---
 
 **monkey → moon-key, monster → moon-star**

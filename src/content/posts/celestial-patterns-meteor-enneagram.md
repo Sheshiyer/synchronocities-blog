@@ -1,9 +1,16 @@
 ---
-title: "Celestial Patterns and Meteor Showers: The Enneagram's Sky-Level Debug Log"
-date: 2025-10-30
-excerpt: "The Leonid shower activates Type 8 transformation. Monoceros illuminates Type 5 pattern recognition. Meteor showers are not spectacles — they are scheduled maintenance windows for the consciousness architecture."
-featured_image: "/cards/sync-celestial-meteor.webp"
-tags: ["enneagram", "celestial", "meteor-showers", "patterns"]
+title: 'Celestial Patterns and Meteor Showers: The Enneagram''s Sky-Level Debug Log'
+date: 2025-10-30T00:00:00.000Z
+excerpt: The Leonid shower activates Type 8 transformation. Monoceros illuminates Type 5 pattern recognition. Meteor showers are not spectacles — they are scheduled maintenance windows for the consciousness architecture.
+featured_image: /cards/sync-celestial-meteor.webp
+tags:
+  - enneagram
+  - celestial
+  - meteor-showers
+  - patterns
+  - cluster:lorenz-kundli
+  - cluster:enneagram
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

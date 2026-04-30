@@ -1,9 +1,15 @@
 ---
-title: "Integrated Vedic-Mathematical Systems Architecture: The Three-Layer Stack"
-date: 2026-01-15
-excerpt: "Time evolution, relationship dynamics, and state space configuration form a three-layer systems architecture where Vedic subsystems map to computational paradigms — Markov chains, cellular automata, hypercubes, Fibonacci spirals, tensors, and neural networks operating as a unified runtime."
-featured_image: "/cards/sync-vedic-architecture.webp"
-tags: ["lorenz-kundli", "vedic", "architecture", "systems"]
+title: 'Integrated Vedic-Mathematical Systems Architecture: The Three-Layer Stack'
+date: 2026-01-15T00:00:00.000Z
+excerpt: Time evolution, relationship dynamics, and state space configuration form a three-layer systems architecture where Vedic subsystems map to computational paradigms — Markov chains, cellular automata, hypercubes, Fibonacci spirals, tensors, and neural networks operating as a unified runtime.
+featured_image: /cards/sync-vedic-architecture.webp
+tags:
+  - lorenz-kundli
+  - vedic
+  - architecture
+  - systems
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

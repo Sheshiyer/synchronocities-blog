@@ -1,9 +1,15 @@
 ---
-title: "Shadbala as Tensor Field Theory: Six-Fold Strength in Curved Space"
-date: 2025-12-25
-excerpt: "Shadbala calculates planetary strength across six independent dimensions — positional, directional, temporal, motional, natural, and aspectual. Map these to tensor components and you get a field theory of consciousness."
-featured_image: "/cards/sync-shadbala-tensor.webp"
-tags: ["lorenz-kundli", "shadbala", "tensor", "field-theory"]
+title: 'Shadbala as Tensor Field Theory: Six-Fold Strength in Curved Space'
+date: 2025-12-25T00:00:00.000Z
+excerpt: Shadbala calculates planetary strength across six independent dimensions — positional, directional, temporal, motional, natural, and aspectual. Map these to tensor components and you get a field theory of consciousness.
+featured_image: /cards/sync-shadbala-tensor.webp
+tags:
+  - lorenz-kundli
+  - shadbala
+  - tensor
+  - field-theory
+  - cluster:lorenz-kundli
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

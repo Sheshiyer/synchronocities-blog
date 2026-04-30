@@ -1,11 +1,16 @@
 ---
-title: "The Five-Field Pattern Log"
-date: 2025-08-30
+title: The Five-Field Pattern Log
+date: 2025-08-30T00:00:00.000Z
 revolution: 1
 draft: false
-excerpt: "Journaling records feelings. A pattern log maps circuitry. Five fields, no narrative, pure signal — the instrument that shows you architecture instead of autobiography."
-featured_image: "/cards/sync-five-field-log.webp"
-tags: ["consciousness", "patterns", "logging", "fields"]
+excerpt: Journaling records feelings. A pattern log maps circuitry. Five fields, no narrative, pure signal — the instrument that shows you architecture instead of autobiography.
+featured_image: /cards/sync-five-field-log.webp
+tags:
+  - consciousness
+  - patterns
+  - logging
+  - fields
+  - cluster:consciousness
 ---
 
 # The Five-Field Pattern Log

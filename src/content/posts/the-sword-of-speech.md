@@ -1,16 +1,26 @@
 ---
-title: "The Sword of Speech"
-date: 2025-03-22
+title: The Sword of Speech
+date: 2025-03-22T00:00:00.000Z
 suit: swords
 phase: 4
-location: "Bangkok, Thailand"
+location: Bangkok, Thailand
 revolution: 1
-kosha: "manomaya"
-identity: "Shesh"
+kosha: manomaya
+identity: Shesh
 draft: false
-excerpt: "The Knight of Swords lives in the throat. Fast, cutting, restless. His blade is speech, his horse is thought, and he charges before the ground is checked."
-featured_image: "/cards/tarot-sword-speech.webp"
-tags: ["knight-of-swords", "gate-52", "speech", "stillness", "inter-phase", "aletheos", "witness-os"]
+excerpt: The Knight of Swords lives in the throat. Fast, cutting, restless. His blade is speech, his horse is thought, and he charges before the ground is checked.
+featured_image: /cards/tarot-sword-speech.webp
+tags:
+  - knight-of-swords
+  - gate-52
+  - speech
+  - stillness
+  - inter-phase
+  - aletheos
+  - witness-os
+  - cluster:enneagram
+  - cluster:sonic
+  - cluster:consciousness
 ---
 
 ## The Knight's Nature

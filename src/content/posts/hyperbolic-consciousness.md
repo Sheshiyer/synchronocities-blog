@@ -1,9 +1,20 @@
 ---
-title: "Hyperbolic Consciousness: Why Your Mind Cannot Think in Exponentials"
-date: 2026-04-16
-excerpt: "Your perceptual apparatus evolved in flat spacetime. Area grows as πr², not exponentially. This geometric imprisonment is why you cannot intuit exponential branching — and why pain, temperature, and language are the three gates through which Ba enters hyperbolic territory that Kha has always inhabited."
-featured_image: "/cards/sync-hyperbolic-consciousness.webp"
-tags: ["consciousness", "geometry", "hyperbolic", "temperature", "lorenz-kundli", "pain", "cartography", "runtime"]
+title: 'Hyperbolic Consciousness: Why Your Mind Cannot Think in Exponentials'
+date: 2026-04-16T00:00:00.000Z
+excerpt: Your perceptual apparatus evolved in flat spacetime. Area grows as πr², not exponentially. This geometric imprisonment is why you cannot intuit exponential branching — and why pain, temperature, and language are the three gates through which Ba enters hyperbolic territory that Kha has always inhabited.
+featured_image: /cards/sync-hyperbolic-consciousness.webp
+tags:
+  - consciousness
+  - geometry
+  - hyperbolic
+  - temperature
+  - lorenz-kundli
+  - pain
+  - cartography
+  - runtime
+  - cluster:lorenz-kundli
+  - cluster:geometry
+  - cluster:consciousness
 draft: false
 revolution: 1
 article_mode: signal-essay
@@ -37,35 +48,35 @@ related_posts:
   - the-word-as-code
   - nakshatra-fibonacci-sequences
 hero:
-  eyebrow: "Non-Euclidean Cartography"
-  subtitle: "Your nervous system is a flat-space instrument. Consciousness is not a flat space. The gap between them is the territory."
+  eyebrow: Non-Euclidean Cartography
+  subtitle: Your nervous system is a flat-space instrument. Consciousness is not a flat space. The gap between them is the territory.
   variant: image
 experience:
   theme: signal
   rail: concept
   density: immersive
   framework_axes:
-    kha: "The observer who sees curvature — recognition that your perceptual home is geometrically constrained."
-    ba: "The body as traversal instrument — pain, temperature, and language as gates into non-Euclidean territory."
-    la: "Euclidean inertia — the flat-space friction that makes exponential intuition impossible without deliberate departure."
+    kha: The observer who sees curvature — recognition that your perceptual home is geometrically constrained.
+    ba: The body as traversal instrument — pain, temperature, and language as gates into non-Euclidean territory.
+    la: Euclidean inertia — the flat-space friction that makes exponential intuition impossible without deliberate departure.
 figures:
   - id: energy-information-landscape
     anchor: the-energy-information-landscape
     asset: /images/posts/hyperbolic-consciousness/01-energy-information-landscape.png
-    alt: "Energy × Information Content chart showing five DMT levels — Threshold, Chrysanthemum, Magic Eye, Waiting Room, Breakthrough — mapped against pattern complexity from perfect symmetry to pure noise, with annealing trajectories annotated"
-    caption: "The consciousness thermometer. Energy (curvature) on the vertical axis. Information content (complexity) on the horizontal. Three trajectories visible: bliss (vertical ascent), investigation (diagonal toward complexity), annealing (arc through noise then order). Source: Andrés Gómez Emilsson, QRI."
+    alt: Energy × Information Content chart showing five DMT levels — Threshold, Chrysanthemum, Magic Eye, Waiting Room, Breakthrough — mapped against pattern complexity from perfect symmetry to pure noise, with annealing trajectories annotated
+    caption: 'The consciousness thermometer. Energy (curvature) on the vertical axis. Information content (complexity) on the horizontal. Three trajectories visible: bliss (vertical ascent), investigation (diagonal toward complexity), annealing (arc through noise then order). Source: Andrés Gómez Emilsson, QRI.'
     placement: after-section
     reveal: always
 llm:
   start_priority: supporting
-  summary: "Maps hyperbolic geometry onto consciousness states via the Kha-Ba-La framework. Euclidean flatness constrains perception (La). Pain and temperature are gates through which the body (Ba) enters non-Euclidean territory. The observer (Kha) already inhabits curved space — the article maps the gap. Connects DMT curvature levels, wallpaper symmetry groups, LLM temperature, and the Lorenz-Kundli program."
+  summary: Maps hyperbolic geometry onto consciousness states via the Kha-Ba-La framework. Euclidean flatness constrains perception (La). Pain and temperature are gates through which the body (Ba) enters non-Euclidean territory. The observer (Kha) already inhabits curved space — the article maps the gap. Connects DMT curvature levels, wallpaper symmetry groups, LLM temperature, and the Lorenz-Kundli program.
   cluster: consciousness-architecture
   canonical_questions:
-    - "Why can't humans intuit exponential growth?"
-    - "How does hyperbolic geometry relate to consciousness states?"
-    - "What connects LLM temperature to geographic temperature to consciousness curvature?"
-    - "How does pain function as an authentication gate to higher-curvature consciousness?"
-    - "What is the Kha-Ba-La relationship to Euclidean vs hyperbolic geometry?"
+    - Why can't humans intuit exponential growth?
+    - How does hyperbolic geometry relate to consciousness states?
+    - What connects LLM temperature to geographic temperature to consciousness curvature?
+    - How does pain function as an authentication gate to higher-curvature consciousness?
+    - What is the Kha-Ba-La relationship to Euclidean vs hyperbolic geometry?
 ---
 
 # Hyperbolic Consciousness: Why Your Mind Cannot Think in Exponentials

@@ -1,9 +1,15 @@
 ---
-title: "Muse-Enneagram Framework Overview"
-date: 2025-10-12
-excerpt: "A navigational overview of the Muse-Enneagram Framework — the living system that maps nine Greek Muses to nine Enneagram types through endocrine correspondences, celestial overlays, and consciousness debugging protocols."
-featured_image: "/cards/sync-muse-framework.webp"
-tags: ["enneagram", "muse", "framework", "overview"]
+title: Muse-Enneagram Framework Overview
+date: 2025-10-12T00:00:00.000Z
+excerpt: A navigational overview of the Muse-Enneagram Framework — the living system that maps nine Greek Muses to nine Enneagram types through endocrine correspondences, celestial overlays, and consciousness debugging protocols.
+featured_image: /cards/sync-muse-framework.webp
+tags:
+  - enneagram
+  - muse
+  - framework
+  - overview
+  - cluster:enneagram
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---

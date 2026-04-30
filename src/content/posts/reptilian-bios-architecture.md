@@ -1,9 +1,14 @@
 ---
-title: "Reptilian BIOS Architecture"
-date: 2025-07-08
-excerpt: "The reptilian brain is not primitive — it is the BIOS layer of consciousness. Before the limbic system boots emotions and the neocortex compiles abstractions, this ancient processor runs the power-on self-test that keeps you alive."
-featured_image: "/cards/sync-reptilian-bios.webp"
-tags: ["runtime", "reptilian", "bios", "consciousness"]
+title: Reptilian BIOS Architecture
+date: 2025-07-08T00:00:00.000Z
+excerpt: The reptilian brain is not primitive — it is the BIOS layer of consciousness. Before the limbic system boots emotions and the neocortex compiles abstractions, this ancient processor runs the power-on self-test that keeps you alive.
+featured_image: /cards/sync-reptilian-bios.webp
+tags:
+  - runtime
+  - reptilian
+  - bios
+  - consciousness
+  - cluster:consciousness
 draft: false
 revolution: 1
 ---
