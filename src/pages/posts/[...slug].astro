@@ -18,6 +18,7 @@ import BackToTop from '../../components/BackToTop';
 import RelatedPostModules from '../../components/RelatedPostModules.astro';
 import NonCardArticleShell from '../../components/non-card/NonCardArticleShell.astro';
 import PostFooterNav from '../../components/PostFooterNav.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -88,6 +89,30 @@ const prevRevealAccentColor = prevPalette?.accentColor || prevArticleTheme?.acce
 const nextRevealAccentColor = nextPalette?.accentColor || nextArticleTheme?.accentColor || '#C5A017';
 const nextRevealHeroImage = nextPalette?.textureSrc || nextNormalizedPost?.heroImage || nextPost?.data.featured_image;
 const returnToSpiralHref = post.data.card ? `/?card=${encodeURIComponent(post.data.card)}` : '/';
+const articleTags = normalizedPost.concepts.length > 0 ? normalizedPost.concepts : normalizedPost.tags;
+const articleCanonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const articleImage = normalizedPost.heroImage || post.data.featured_image || '/images/og-default.png';
+const articleStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: normalizedPost.llm.summary || normalizedPost.excerpt || undefined,
+  image: [new URL(articleImage, Astro.site).toString()],
+  datePublished: post.data.date.toISOString(),
+  dateModified: post.data.date.toISOString(),
+  mainEntityOfPage: articleCanonicalUrl,
+  author: {
+    '@type': 'Organization',
+    name: 'Tryambakam Noesis',
+    url: 'https://tryambakam.space',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Tryambakam Noesis',
+    url: 'https://tryambakam.space',
+  },
+  about: articleTags,
+};
 const prevFooterEntry = prevPost ? {
   slug: prevPost.id,
   title: prevPost.data.title,
@@ -146,11 +171,21 @@ const journeyCards = Object.entries(cardOrder)
   .filter(Boolean);
 ---
 
-<BaseLayout title={post.data.title} description={post.data.excerpt}>
+<BaseLayout
+  title={post.data.title}
+  description={normalizedPost.llm.summary || post.data.excerpt}
+  ogImage={articleImage}
+  ogType="article"
+  publishedTime={post.data.date.toISOString()}
+  modifiedTime={post.data.date.toISOString()}
+  articleTags={articleTags}
+  structuredData={articleStructuredData}
+>
   <ReadingProgress client:load />
+  <SiteHeader />
   {isCardJourney ? (
   <article
-    class="relative min-h-screen"
+    class="relative min-h-screen pt-[clamp(5rem,10vw,6.5rem)]"
     style={cardVars}
     data-element={card?.element || ''}
     data-card={post.data.card || ''}
@@ -167,16 +202,12 @@ const journeyCards = Object.entries(cardOrder)
     <div class="card-hero-effects fixed inset-0 -z-[2] pointer-events-none" />
     <div class="element-ambient" />
 
-    {/* Top nav */}
-    <nav class="post-top-nav relative z-10 flex items-center gap-4 justify-between">
-      <a href="/" class="inline-flex items-center gap-2 text-sm transition-colors hover:text-[var(--color-sacred-gold)]"
-        style="font-family: var(--font-mono); color: var(--color-muted-silver);">
-        <span>&larr;</span><span>Spiral</span>
-      </a>
-      {journeyCards.length > 0 && (
+    {/* Per-post journey breadcrumb (top-level nav lives in SiteHeader) */}
+    {journeyCards.length > 0 && (
+      <nav class="post-top-nav relative z-10 flex items-center justify-end">
         <JourneyProgress client:load cards={journeyCards} currentNumeral={post.data.card || ''} currentSlug={post.id} />
-      )}
-    </nav>
+      </nav>
+    )}
 
     {/* ═══════════════════════════════════════════
         FULL-WIDTH IMMERSIVE HERO

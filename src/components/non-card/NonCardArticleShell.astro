@@ -66,7 +66,7 @@ const sourceBridgeVisible = Boolean(
 ---
 
 <article
-  class="non-card-article"
+  class="non-card-article pt-[clamp(5rem,10vw,6.5rem)]"
   data-article-mode={normalizedPost.articleMode}
   data-article-rail={normalizedPost.experience.rail}
   data-article-density={normalizedPost.experience.density}
@@ -77,10 +77,6 @@ const sourceBridgeVisible = Boolean(
   <div class="non-card-backdrop-grid" />
 
   <nav class="post-top-nav non-card-top-nav">
-    <a href="/" class="inline-flex items-center gap-2">
-      <span>&larr;</span>
-      <span>Spiral</span>
-    </a>
     <div class="non-card-top-nav-meta">
       <a href={railCollectionHref}>{railCollectionLabel}</a>
       <span class="non-card-top-nav-dot">&middot;</span>
