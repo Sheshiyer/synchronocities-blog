@@ -109,9 +109,9 @@ export default function ReadingProgress() {
           className="reading-context-pill"
           style={{
             position: 'fixed',
-            top: '0.8rem',
+            top: 'calc(env(safe-area-inset-top, 0px) + 5.5rem)',
             right: '0.8rem',
-            zIndex: 40,
+            zIndex: 18,
             maxWidth: 'min(20rem, calc(100vw - 1.6rem))',
             borderRadius: '0.85rem',
             background: 'linear-gradient(135deg, rgba(197, 160, 23, 0.25), rgba(45, 0, 80, 0.35), rgba(16, 181, 167, 0.2))',
