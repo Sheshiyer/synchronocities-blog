@@ -9,7 +9,6 @@ pin_rank: 1
 draft: false
 revolution: 1
 article_mode: hub
-series: consciousness-architecture
 entry_kind: hub
 foundational: true
 concepts:

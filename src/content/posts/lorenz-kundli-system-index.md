@@ -7,7 +7,6 @@ tags: ["lorenz-kundli", "system", "index", "overview"]
 draft: false
 revolution: 1
 article_mode: reference
-series: lorenz-kundli
 entry_kind: reference
 foundational: true
 concepts:

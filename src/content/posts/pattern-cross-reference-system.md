@@ -9,7 +9,6 @@ pin_rank: 4
 draft: false
 revolution: 1
 article_mode: research-essay
-series: pattern-recognition
 entry_kind: essay
 concepts:
   - knowledge graph

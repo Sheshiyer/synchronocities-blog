@@ -1,9 +1,19 @@
-import { listPostFiles, readMarkdownDocument, summarizeIssues, validateDocument } from './lib/postMigration.ts';
+import {
+  listPostFiles,
+  readMarkdownDocument,
+  summarizeIssues,
+  validateDocument,
+  validateRelatedPostsRefs,
+  validateSeriesCoherence,
+} from './lib/postMigration.ts';
 
 async function main(): Promise<void> {
   const files = await listPostFiles();
   const documents = await Promise.all(files.map((file) => readMarkdownDocument(file)));
-  const issues = documents.flatMap((document) => validateDocument(document));
+  const docIssues = documents.flatMap((document) => validateDocument(document));
+  const refIssues = validateRelatedPostsRefs(documents);
+  const seriesIssues = validateSeriesCoherence(documents);
+  const issues = [...docIssues, ...refIssues, ...seriesIssues];
   const errors = issues.filter((issue) => issue.level === 'error');
   const warnings = issues.filter((issue) => issue.level === 'warning');
 

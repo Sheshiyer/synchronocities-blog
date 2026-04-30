@@ -229,6 +229,56 @@ export function validateDocument(document: MarkdownDocument): ValidationIssue[] 
   return issues;
 }
 
+export function validateRelatedPostsRefs(documents: MarkdownDocument[]): ValidationIssue[] {
+  const issues: ValidationIssue[] = [];
+  const validSlugs = new Set(documents.map((d) => d.slug));
+
+  for (const doc of documents) {
+    const related = doc.data['related_posts'];
+    if (!Array.isArray(related)) continue;
+
+    for (const ref of related) {
+      if (typeof ref !== 'string') continue;
+      if (!validSlugs.has(ref)) {
+        issues.push({
+          level: 'warning',
+          slug: doc.slug,
+          message: `related_posts references unknown slug: '${ref}'`,
+        });
+      }
+    }
+  }
+
+  return issues;
+}
+
+export function validateSeriesCoherence(documents: MarkdownDocument[]): ValidationIssue[] {
+  const issues: ValidationIssue[] = [];
+  const seriesCounts = new Map<string, string[]>();
+
+  for (const doc of documents) {
+    const series = doc.data['series'];
+    if (typeof series !== 'string' || series.trim().length === 0) continue;
+    const slugs = seriesCounts.get(series) ?? [];
+    slugs.push(doc.slug);
+    seriesCounts.set(series, slugs);
+  }
+
+  for (const [series, slugs] of seriesCounts.entries()) {
+    if (slugs.length < 2) {
+      for (const slug of slugs) {
+        issues.push({
+          level: 'warning',
+          slug,
+          message: `series '${series}' has only one post — consider removing the field or adding sibling posts`,
+        });
+      }
+    }
+  }
+
+  return issues;
+}
+
 export function summarizeIssues(issues: ValidationIssue[]): string {
   const errors = issues.filter((issue) => issue.level === 'error');
   const warnings = issues.filter((issue) => issue.level === 'warning');

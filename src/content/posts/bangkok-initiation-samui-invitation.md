@@ -12,7 +12,6 @@ excerpt: "Bangkok flipped the circuit the moment the helmet clicked. Map pinned.
 featured_image: "/cards/tarot-bangkok-samui.webp"
 tags: ["bangkok", "koh-samui", "the-chariot", "the-fool", "thoth", "rider-waite", "kali", "kala", "witness-os"]
 article_mode: field-note
-series: thailand-journey
 entry_kind: essay
 concepts:
   - travel initiation
