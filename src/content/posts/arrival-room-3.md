@@ -21,6 +21,17 @@ tags:
   - numerology
   - cluster:tarot
   - cluster:travelogue
+article_mode: field-note
+entry_kind: essay
+concepts:
+  - bangkok
+  - arrival
+  - room 3
+  - seven of wands
+  - knight of swords
+  - three of wands
+llm:
+  cluster: tarot
 ---
 
 ## The Return

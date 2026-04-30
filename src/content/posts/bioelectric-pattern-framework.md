@@ -13,6 +13,13 @@ draft: false
 revolution: 1
 related_posts:
   - consciousness-architecture-hub
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - bioelectric
+  - consciousness
+llm:
+  cluster: consciousness-architecture
 ---
 
 # The Bioelectric Pattern Framework: How Your Cells Remember What Your Mind Forgets

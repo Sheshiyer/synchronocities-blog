@@ -13,6 +13,14 @@ draft: false
 revolution: 1
 related_posts:
   - consciousness-architecture-hub
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - diagrams
+  - consciousness
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Consciousness Runtime Framework Diagrams

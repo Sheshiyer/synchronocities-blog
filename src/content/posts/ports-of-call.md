@@ -22,6 +22,17 @@ tags:
   - cluster:travelogue
   - cluster:lorenz-kundli
   - cluster:consciousness
+article_mode: field-note
+entry_kind: essay
+concepts:
+  - three of wands
+  - venus
+  - ports
+  - bangkok
+  - witness os
+  - pichet
+llm:
+  cluster: travelogue
 ---
 
 ## The Three of Wands

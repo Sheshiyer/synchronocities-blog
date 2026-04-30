@@ -11,6 +11,15 @@ tags:
   - mysticism
   - operations
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - kha ba la
+  - compass
+  - mysticism
+  - operations
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Kha-Ba-La as Operational Compass, Not Mystical Hierarchy

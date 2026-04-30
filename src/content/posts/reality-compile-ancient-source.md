@@ -11,6 +11,15 @@ tags:
   - consciousness
   - programming
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - source code
+  - consciousness
+  - programming
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Reality.compile(): Ancient Source Code Running Your Consciousness

@@ -12,6 +12,15 @@ tags:
   - consciousness
   - cluster:enneagram
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - identity
+  - type
+  - consciousness
+llm:
+  cluster: enneagram
 ---
 
 # Type Is Not Identity

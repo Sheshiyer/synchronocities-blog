@@ -12,6 +12,15 @@ tags:
   - mood
   - cluster:enneagram
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - pattern recognition
+  - method
+  - mood
+llm:
+  cluster: enneagram
 ---
 
 # Pattern Recognition Is a Method, Not a Mood

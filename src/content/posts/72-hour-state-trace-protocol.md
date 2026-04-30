@@ -11,6 +11,15 @@ tags:
   - state-trace
   - 72-hours
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - protocol
+  - state trace
+  - 72 hours
+llm:
+  cluster: consciousness-architecture
 ---
 
 # The 72-Hour State Trace Protocol

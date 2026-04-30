@@ -20,6 +20,17 @@ tags:
   - cluster:tarot
   - cluster:travelogue
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - synthesis
+  - pilgrimage
+  - tarot
+  - completion
+  - witness
+  - architecture
+llm:
+  cluster: tarot
 ---
 
 *A 55-day pilgrimage through Thailand, following the Major Arcana from Tower to World.*

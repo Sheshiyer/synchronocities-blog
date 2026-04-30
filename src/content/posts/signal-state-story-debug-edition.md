@@ -12,6 +12,16 @@ tags:
   - story
   - debugging
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - signal
+  - state
+  - story
+  - debugging
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Signal, State, Story — The Debug Edition

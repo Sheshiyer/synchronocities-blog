@@ -12,6 +12,15 @@ tags:
   - cluster:geometry
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - ashtakavarga
+  - hypercube
+  - geometry
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Ashtakavarga as Hypercube Geometry: Eight Dimensions of Bindu Space

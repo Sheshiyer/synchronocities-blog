@@ -11,6 +11,15 @@ tags:
   - refactoring
   - technical-debt
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - legacy code
+  - refactoring
+  - technical debt
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Consciousness Legacy Code: A Technical Debt Story

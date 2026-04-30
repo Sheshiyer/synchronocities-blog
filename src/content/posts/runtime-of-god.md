@@ -14,6 +14,16 @@ tags:
   - frameworks
   - cluster:sonic
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - sanskrit
+  - debugging
+  - ancient code
+  - consciousness
+llm:
+  cluster: sonic-infrastructure
 ---
 
 # Runtime of God: Ancient Debug Protocols For Modern Consciousness

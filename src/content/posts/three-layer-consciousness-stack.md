@@ -12,6 +12,16 @@ tags:
   - story
   - stack
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - signal
+  - state
+  - story
+  - stack
+llm:
+  cluster: consciousness-architecture
 ---
 
 # The Three-Layer Consciousness Stack

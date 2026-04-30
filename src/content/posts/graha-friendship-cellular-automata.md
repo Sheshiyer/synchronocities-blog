@@ -13,6 +13,15 @@ draft: false
 revolution: 1
 related_posts:
   - lorenz-kundli-system-index
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - graha
+  - cellular automata
+  - vedic
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Graha Friendship Tables as Cellular Automata: Conway's Game of Planets

@@ -11,6 +11,14 @@ tags:
   - logging
   - fields
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - logging
+  - fields
+llm:
+  cluster: consciousness-architecture
 ---
 
 # The Five-Field Pattern Log

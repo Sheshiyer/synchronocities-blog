@@ -12,6 +12,14 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - historical
+  - knowledge
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Historical Knowledge Patterns: Ancient Algorithms Across Civilizations

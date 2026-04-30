@@ -14,6 +14,12 @@ draft: false
 revolution: 1
 related_posts:
   - lorenz-kundli-system-index
+article_mode: hub
+entry_kind: hub
+concepts:
+  - lorenz kundli
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Lorenz-Kundli Pattern Recognition Hub

@@ -13,6 +13,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - nadi
+  - bioimpedance
+  - protocol
+llm:
+  cluster: enneagram
 ---
 
 # Nadi-Bioimpedance Protocol

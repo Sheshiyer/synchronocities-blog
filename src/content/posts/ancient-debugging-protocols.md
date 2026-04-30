@@ -11,6 +11,15 @@ tags:
   - ancient-systems
   - exile
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - debugging
+  - ancient systems
+  - exile
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Ancient Debugging: When Throwing Someone Out of the City Was a Feature

@@ -23,6 +23,13 @@ related_posts:
   - enneagram-runtime-map
   - spolski-endocrine-framework
   - leviathan-enneagram-analysis
+article_mode: hub
+entry_kind: hub
+concepts:
+  - enneagram
+  - muse
+llm:
+  cluster: enneagram
 ---
 
 # Muse-Enneagram Framework Overview

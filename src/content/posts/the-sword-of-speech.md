@@ -21,6 +21,17 @@ tags:
   - cluster:enneagram
   - cluster:sonic
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - knight of swords
+  - gate 52
+  - speech
+  - stillness
+  - inter phase
+  - aletheos
+llm:
+  cluster: enneagram
 ---
 
 ## The Knight's Nature

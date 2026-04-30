@@ -12,6 +12,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - chakra
+  - bioelectricity
+  - mapping
+  - enneagram
+llm:
+  cluster: enneagram
 ---
 
 # Chakra-Bioelectricity Mapping: The Seven Gates as Voltage Differentials

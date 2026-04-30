@@ -11,6 +11,15 @@ tags:
   - consciousness
   - ancient-systems
   - cluster:consciousness
+article_mode: signal-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - debugging
+  - consciousness
+  - ancient systems
+llm:
+  cluster: consciousness-architecture
 ---
 
 # The Sacred Runtime: When Ancient Debugging Actually Meant Throwing Someone Out of the City

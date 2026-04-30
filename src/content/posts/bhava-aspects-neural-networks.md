@@ -12,6 +12,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - bhava
+  - neural networks
+  - aspects
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Bhava Aspects as Neural Networks: Weighted Connections in the House Graph

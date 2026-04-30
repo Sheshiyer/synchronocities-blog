@@ -11,6 +11,15 @@ tags:
   - emotional-memory
   - consciousness
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - compassion
+  - emotional memory
+  - consciousness
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Compassion Runtime: Optimizing Your Emotional Memory Management

@@ -11,6 +11,14 @@ tags:
   - architecture
   - patterns
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - repetition
+  - architecture
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Repetition Is Architecture, Not Bad Luck

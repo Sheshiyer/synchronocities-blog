@@ -11,6 +11,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - reptilian
+  - bios
+  - consciousness
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Reptilian BIOS Architecture

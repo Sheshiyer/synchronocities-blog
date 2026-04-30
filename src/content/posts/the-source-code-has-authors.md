@@ -11,6 +11,15 @@ tags:
   - lineage
   - architecture
   - cluster:consciousness
+article_mode: signal-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - credit
+  - lineage
+  - architecture
+llm:
+  cluster: consciousness-architecture
 ---
 
 # The Source Code Has Authors

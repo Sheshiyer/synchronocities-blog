@@ -11,6 +11,15 @@ tags:
   - consciousness
   - systems
   - cluster:consciousness
+article_mode: signal-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - unix
+  - consciousness
+  - systems
+llm:
+  cluster: consciousness-architecture
 ---
 
 # The Unix User's Guide to Consciousness: chmod 777 Your Reality

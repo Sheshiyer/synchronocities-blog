@@ -11,6 +11,15 @@ tags:
   - cluster:lorenz-kundli
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - vedic
+  - mathematics
+  - parallels
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Advanced Vedic-Mathematical System Parallels: A Unified Field Guide

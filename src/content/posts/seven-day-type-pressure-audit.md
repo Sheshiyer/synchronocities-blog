@@ -11,6 +11,14 @@ tags:
   - cluster:enneagram
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - pressure
+  - seven day
+llm:
+  cluster: enneagram
 ---
 
 # The Seven-Day Type Pressure Audit

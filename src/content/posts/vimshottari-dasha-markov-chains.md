@@ -13,6 +13,15 @@ draft: false
 revolution: 1
 related_posts:
   - lorenz-kundli-system-index
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - vimshottari
+  - markov chains
+  - vedic
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Vimshottari Dasha as Markov Chains: State Machines of Destiny

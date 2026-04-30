@@ -13,6 +13,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - planetary
+  - market
+  - integration
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Enneagram-Planetary-Market Integration: Trading the Archetypal Cycle

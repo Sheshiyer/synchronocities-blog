@@ -12,6 +12,15 @@ tags:
   - cluster:geometry
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - nakshatra
+  - fibonacci
+  - sequences
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Nakshatra Divisions and Fibonacci Sequences: The Golden Ratio in Lunar Mansions

@@ -20,6 +20,15 @@ tags:
   - alignment
   - cluster:tarot
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - two of wands
+  - satchel
+  - coherence
+  - alignment
+llm:
+  cluster: tarot
 ---
 
 ## The Sequence

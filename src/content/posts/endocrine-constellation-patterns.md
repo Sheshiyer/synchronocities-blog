@@ -13,6 +13,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - endocrine
+  - constellations
+  - pattern recognition
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Endocrine-Constellation Pattern Recognition: The Code in the Sky and the Blood

@@ -13,6 +13,15 @@ draft: false
 revolution: 1
 related_posts:
   - consciousness-architecture-hub
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - pain
+  - information
+  - architecture
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Pain Information Architecture

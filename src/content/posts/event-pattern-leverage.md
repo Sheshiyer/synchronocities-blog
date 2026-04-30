@@ -11,6 +11,14 @@ tags:
   - leverage
   - systems
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - leverage
+  - systems
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Event, Pattern, Leverage

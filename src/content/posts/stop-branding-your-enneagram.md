@@ -11,6 +11,15 @@ tags:
   - identity
   - pressure
   - cluster:enneagram
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - branding
+  - identity
+  - pressure
+llm:
+  cluster: enneagram
 ---
 
 # Stop Branding Your Enneagram: The Seven-Day Type Pressure Audit

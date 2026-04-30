@@ -20,6 +20,17 @@ tags:
   - mercury
   - cluster:lorenz-kundli
   - cluster:enneagram
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - timelessness
+  - gene key 5
+  - gene key 23
+  - breath protocol
+  - time dilation
+  - rahu
+llm:
+  cluster: lorenz-kundli
 ---
 
 ## The Ritual

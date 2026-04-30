@@ -13,6 +13,16 @@ tags:
   - cluster:enneagram
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - muses
+  - hormones
+  - constellations
+  - matrix
+llm:
+  cluster: lorenz-kundli
 ---
 
 # The Muse-Enneagram Matrix: 9 Types, 9 Hormones, 9 Constellations

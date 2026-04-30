@@ -12,6 +12,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - noetic
+  - aether
+  - einstein
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Noetic Aether and the Einsteinian Knot: Untying Physics from Metaphysics

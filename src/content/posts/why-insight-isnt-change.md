@@ -11,6 +11,15 @@ tags:
   - change
   - self-authorship
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - insight
+  - change
+  - self authorship
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Why Insight Isn't Change

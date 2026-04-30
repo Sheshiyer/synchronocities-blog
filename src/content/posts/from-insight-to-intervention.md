@@ -11,6 +11,15 @@ tags:
   - intervention
   - protocol
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - insight
+  - intervention
+  - protocol
+llm:
+  cluster: consciousness-architecture
 ---
 
 # From Insight to Intervention: A 7-Day Protocol

@@ -12,6 +12,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - vedic
+  - architecture
+  - systems
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Integrated Vedic-Mathematical Systems Architecture: The Three-Layer Stack

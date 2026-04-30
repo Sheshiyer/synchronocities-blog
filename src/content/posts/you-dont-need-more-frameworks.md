@@ -11,6 +11,14 @@ tags:
   - access
   - consciousness
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - access
+  - consciousness
+llm:
+  cluster: consciousness-architecture
 ---
 
 # You Don't Need More Frameworks. You Need Runtime Access.

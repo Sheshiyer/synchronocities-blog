@@ -12,6 +12,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - muses
+  - endocrine
+  - consciousness
+llm:
+  cluster: enneagram
 ---
 
 # Nine Muses and the Endocrine System

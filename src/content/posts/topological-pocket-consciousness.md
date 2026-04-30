@@ -13,6 +13,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - topology
+  - lorentz
+  - consciousness
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Topological Pockets and Lorentz Invariance: Where Consciousness Bends Spacetime

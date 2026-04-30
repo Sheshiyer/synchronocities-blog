@@ -12,6 +12,14 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - python
+  - implementation
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Lorenz-Kundli Implementation: A Technical Framework in Python

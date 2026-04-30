@@ -12,6 +12,15 @@ tags:
   - defense
   - cluster:enneagram
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - runtime
+  - triggers
+  - defense
+llm:
+  cluster: enneagram
 ---
 
 # The Enneagram Runtime Map: Trigger, Defense, Cost

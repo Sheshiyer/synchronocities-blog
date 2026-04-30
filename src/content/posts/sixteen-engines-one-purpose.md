@@ -11,6 +11,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - engines
+  - consciousness
+  - noesis
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Sixteen Engines, One Purpose

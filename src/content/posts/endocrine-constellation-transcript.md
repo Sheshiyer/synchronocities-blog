@@ -12,6 +12,14 @@ tags:
   - cluster:enneagram
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - endocrine
+  - constellation
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Endocrine-Constellation Transcript

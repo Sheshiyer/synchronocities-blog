@@ -18,6 +18,16 @@ tags:
   - tarot-16-tower
   - cluster:tarot
   - cluster:enneagram
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - identity
+  - shesh
+  - human design
+  - prologue
+  - profile 2 4
+llm:
+  cluster: tarot
 ---
 
 *Or how I learned to stop worrying and let the reptile brain debug the soul.*

@@ -11,6 +11,15 @@ tags:
   - cluster:enneagram
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - endocrine
+  - muse
+  - meta analysis
+llm:
+  cluster: enneagram
 ---
 
 # Endocrine-Muse Pattern Analysis

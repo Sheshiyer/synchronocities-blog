@@ -11,6 +11,15 @@ tags:
   - encryption
   - light
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - enlightenment
+  - encryption
+  - light
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Enlightenment-LITE: Encryption Over Raw Light

@@ -11,6 +11,14 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - mitochondria
+  - subconsciousness
+  - biology
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Mitochondrial Subconsciousness: The Patterns Your Mother's Mother Compiled

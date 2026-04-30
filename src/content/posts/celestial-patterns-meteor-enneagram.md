@@ -13,6 +13,14 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - celestial
+  - meteor showers
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Celestial Patterns and Meteor Showers: The Enneagram's Sky-Level Debug Log

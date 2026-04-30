@@ -12,6 +12,14 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - enneagram
+  - endocrine
+  - spolski
+llm:
+  cluster: enneagram
 ---
 
 # The Spolski Endocrine Framework: Chemical Archetypes in the Blood

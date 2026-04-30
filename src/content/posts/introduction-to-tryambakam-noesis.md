@@ -13,6 +13,15 @@ tags:
   - cluster:consciousness
 pinned: true
 pin_rank: 3
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - noesis
+  - introduction
+  - operating system
+  - consciousness
+llm:
+  cluster: consciousness-architecture
 ---
 
 # An Introduction to Tryambakam Noesis: Rewrite Your Operating System

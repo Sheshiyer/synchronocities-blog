@@ -11,6 +11,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - temperature
+  - consciousness
+  - thread
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Temperature-Consciousness Correlation

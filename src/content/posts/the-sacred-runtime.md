@@ -12,6 +12,15 @@ tags:
   - consciousness
   - cluster:geometry
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - sacred
+  - debugging
+  - consciousness
+llm:
+  cluster: geometry
 ---
 
 # The Sacred Runtime: Pain as Admin Access

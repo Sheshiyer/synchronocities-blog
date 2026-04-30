@@ -11,6 +11,15 @@ tags:
   - mental-states
   - debugging
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - runtime
+  - http
+  - mental states
+  - debugging
+llm:
+  cluster: consciousness-architecture
 ---
 
 # 200 OK: Your Guide to Mental Status Codes

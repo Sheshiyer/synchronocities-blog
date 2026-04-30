@@ -12,6 +12,15 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - shadbala
+  - tensor
+  - field theory
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Shadbala as Tensor Field Theory: Six-Fold Strength in Curved Space

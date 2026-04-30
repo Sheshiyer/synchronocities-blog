@@ -11,6 +11,15 @@ tags:
   - access
   - thread
   - cluster:consciousness
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - consciousness
+  - awareness
+  - access
+  - thread
+llm:
+  cluster: consciousness-architecture
 ---
 
 # Awareness Isn't Access

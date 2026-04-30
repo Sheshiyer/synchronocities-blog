@@ -12,6 +12,14 @@ tags:
   - cluster:consciousness
 draft: false
 revolution: 1
+article_mode: research-essay
+entry_kind: essay
+concepts:
+  - lorenz kundli
+  - chaos theory
+  - vedic
+llm:
+  cluster: lorenz-kundli
 ---
 
 # Chaos Theory and Vedic Astrology: Strange Attractors in the Birth Chart
