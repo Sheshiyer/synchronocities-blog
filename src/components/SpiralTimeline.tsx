@@ -359,7 +359,7 @@ const SpiralTimeline: FC<SpiralTimelineProps> = ({ posts }) => {
       {/* Active Card Panel */}
       {activeCard && (
         <div
-          className="absolute right-0 top-0 h-full w-[360px] max-w-[90vw] overflow-y-auto"
+          className="absolute right-0 top-0 h-full w-full overflow-y-auto sm:w-[360px] sm:max-w-[90vw]"
           style={{
             background: 'linear-gradient(180deg, #0E1428 0%, #070B1D 100%)',
             borderLeft: '1px solid rgba(197, 160, 23, 0.2)',

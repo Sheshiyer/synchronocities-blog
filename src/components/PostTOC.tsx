@@ -93,7 +93,7 @@ export default function PostTOC() {
         backdropFilter: 'blur(14px)',
         WebkitBackdropFilter: 'blur(14px)',
         boxShadow: '0 18px 40px rgba(0, 0, 0, 0.22)',
-        padding: '0.9rem',
+        padding: 'clamp(0.55rem, 2vw, 0.9rem)',
         color: 'var(--color-muted-silver)',
       }}
     >
