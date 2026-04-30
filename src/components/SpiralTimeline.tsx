@@ -431,7 +431,7 @@ const SpiralTimeline: FC<SpiralTimelineProps> = ({ posts }) => {
 
               {(!postsByCard[activeCard.numeral] || postsByCard[activeCard.numeral].length === 0) && (
                 <div className="text-center py-8 text-[#8A9BA8] text-sm">
-                  <p className="opacity-50">This position on the spiral awaits its story.</p>
+                  <p className="opacity-50">No entry yet for this card.</p>
                 </div>
               )}
             </div>

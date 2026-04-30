@@ -649,7 +649,7 @@ export default function NextPostReveal({
                     maxWidth: '38rem',
                   }}
                 >
-                  The story does not auto-advance anymore. Read next, return to the spiral, or stay with the page you just finished.
+                  Read on, or return to the gallery.
                 </p>
               </div>
 

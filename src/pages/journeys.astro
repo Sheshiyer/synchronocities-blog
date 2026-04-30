@@ -13,7 +13,7 @@ const sortedCardPosts = [...cardPosts].sort((a, b) =>
 );
 ---
 
-<BaseLayout title="Journeys" description="Newest-first travelogue entries, with research essays and map routes separated into their own surfaces.">
+<BaseLayout title="The Shesh Travelogue" description="Field-movement entries. Each post sits at a tarot position on the spiral. The most recent reading appears first.">
   <header
     class="fixed top-0 left-0 right-0 z-20 flex flex-wrap items-center justify-between gap-3 backdrop-blur-md"
     style="padding: 2vh 4vw; background: rgba(7,11,29,0.85);"
@@ -53,17 +53,23 @@ const sortedCardPosts = [...cardPosts].sort((a, b) =>
           data-anim="hero-title"
           style="font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 5rem); font-weight: 600; line-height: 1.02; color: var(--color-parchment);"
         >
-          The Shesh Travelogue, kept narrow and newest-first.
+          The Shesh Travelogue.
         </h1>
 
         <p
           data-anim="hero-sub"
           style="font-family: var(--font-body); font-size: clamp(0.96rem, 1.05vw, 1.15rem); line-height: 1.75; color: var(--color-muted-silver); max-width: 52rem; opacity: 0.78;"
         >
-          This page now stays clean on purpose: just the lived travel sequence, sorted by the latest published entry first. Research essays, pilot nodes, hubs, and reference structures live on their own routes instead of being folded back into the spiral.
+          Field-movement entries. The body went here, the field changed, the tarot card names the position. Each entry sits at a node on the spiral.
         </p>
 
         <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+          <a
+            href="#travelogue-sequence"
+            style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(197,160,23,0.24); background: rgba(197,160,23,0.08); color: var(--color-sacred-gold);"
+          >
+            Read The Travelogue
+          </a>
           <a
             href="/research"
             style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(16,181,167,0.2); background: rgba(16,181,167,0.08); color: var(--color-coherence-emerald);"
@@ -76,46 +82,6 @@ const sortedCardPosts = [...cardPosts].sort((a, b) =>
           >
             Open Maps & Indexes
           </a>
-          <a
-            href="#travelogue-sequence"
-            style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(197,160,23,0.24); background: rgba(197,160,23,0.08); color: var(--color-sacred-gold);"
-          >
-            Read The Travelogue
-          </a>
-        </div>
-
-        <div style="display: grid; gap: 0.9rem; max-width: 60rem; border: 1px solid rgba(138,155,168,0.12); border-radius: 1rem; background: linear-gradient(180deg, rgba(14,20,40,0.78), rgba(7,11,29,0.94)); padding: 1rem 1.1rem;">
-          <span
-            style="font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-sacred-gold); opacity: 0.72;"
-          >
-            Start Here
-          </span>
-
-          <div style="display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
-            <div style="display: grid; gap: 0.3rem;">
-              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-sacred-gold); opacity: 0.85;">01</span>
-              <strong style="font-family: var(--font-display); font-size: 1rem; color: var(--color-parchment);">Choose the right surface</strong>
-              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none; font-size: 0.94rem; line-height: 1.6;">
-                Use Research for essay-first reading, Maps for hubs and indexes, and this page only when you want the lived travel sequence itself.
-              </p>
-            </div>
-
-            <div style="display: grid; gap: 0.3rem;">
-              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-sacred-gold); opacity: 0.85;">02</span>
-              <strong style="font-family: var(--font-display); font-size: 1rem; color: var(--color-parchment);">Follow recency, not card order</strong>
-              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none; font-size: 0.94rem; line-height: 1.6;">
-                The travelogue now reads latest-first so the most recent field movement stays closest to the top instead of being locked to tarot sequence order.
-              </p>
-            </div>
-
-            <div style="display: grid; gap: 0.3rem;">
-              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-sacred-gold); opacity: 0.85;">03</span>
-              <strong style="font-family: var(--font-display); font-size: 1rem; color: var(--color-parchment);">Keep the spiral clean</strong>
-              <p style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.8; max-width: none; font-size: 0.94rem; line-height: 1.6;">
-                Hub and reference material stay reachable through their own routes, so this lane can remain a narrow narrative surface instead of a mixed archive shell.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -130,7 +96,7 @@ const sortedCardPosts = [...cardPosts].sort((a, b) =>
         </div>
 
         <p style="font-family: var(--font-body); font-size: clamp(0.92rem, 1vw, 1.05rem); line-height: 1.75; color: var(--color-muted-silver); max-width: 44rem; opacity: 0.76; margin-bottom: 2rem;">
-          Latest published entry first. Tarot correspondence still names each node, but recency now governs the reading order on this page.
+          Each entry is dated and tarot-anchored. The card numeral marks the position; the date marks when the body was there.
         </p>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 25vw), 1fr)); gap: 1.5vw;">

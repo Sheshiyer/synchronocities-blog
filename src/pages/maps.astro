@@ -36,7 +36,7 @@ function formatKind(record: (typeof archiveDataset.records)[number]) {
 }
 ---
 
-<BaseLayout title="Maps & Atlas" description="Hub routes, pinned entries, and archive search paths into the Synchronocities library.">
+<BaseLayout title="Maps & Atlas" description="Hub entries, pinned readings, and concept clusters. Navigate by framework family or system index.">
   <header
     class="fixed top-0 left-0 right-0 z-20 flex flex-wrap items-center justify-between gap-3 backdrop-blur-md"
     style="padding: 2vh 4vw; background: rgba(7,11,29,0.85);"
@@ -62,10 +62,10 @@ function formatKind(record: (typeof archiveDataset.records)[number]) {
         Maps & Indexes
       </span>
       <h1 style="font-family: var(--font-display); font-size: clamp(2.35rem, 4.7vw, 4.7rem); line-height: 1.02; color: var(--color-parchment);">
-        Entry routes for systems, hubs, and reference structures.
+        Concept clusters. Framework families. System indexes.
       </h1>
       <p style="font-family: var(--font-body); font-size: clamp(0.98rem, 1.05vw, 1.14rem); line-height: 1.75; color: var(--color-muted-silver); opacity: 0.8; max-width: 46rem;">
-        These pages are meant to orient readers before they dive into essays. Use them to jump into a concept cluster, a framework family, or a system index without having to infer the structure from chronology alone.
+        Hub entries that gather an inquiry's threads in one place. Each map names a concept cluster — bioelectric systems, the consciousness stack, the Lorenz-Kundli mapping, the sonic-geometric program — and routes into the essays that develop it.
       </p>
       <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
         <a href="/journeys" style="font-family: var(--font-mono); font-size: 0.74rem; letter-spacing: 0.16em; text-transform: uppercase; padding: 0.75rem 0.95rem; border-radius: 999px; border: 1px solid rgba(197,160,23,0.24); background: rgba(197,160,23,0.08); color: var(--color-sacred-gold);">
@@ -79,8 +79,8 @@ function formatKind(record: (typeof archiveDataset.records)[number]) {
 
     <section style="display: grid; gap: 1.25rem; max-width: 64rem; margin-bottom: 4rem;">
       <ArchiveSearchGateway
-        title="Find a node without walking the whole spiral"
-        description="The archive already understands presets, tags, and search terms inside /journeys. This atlas surface makes that search path visible before a reader has to discover the interactive controls."
+        title="Search the archive"
+        description="Search across titles, concepts, tags, and clusters. Filter by foundational, pilot, hub, signal-essay, field-note."
       />
     </section>
 
