@@ -5,6 +5,9 @@ import {
   type ArchiveRecord,
   type ArchiveDataset,
 } from '../lib/archive';
+import FlowingMenu from './FlowingMenu';
+
+const FALLBACK_IMAGE = '/images/og-default.png';
 
 interface ResearchDiscoveryProps {
   dataset: ArchiveDataset;
@@ -40,30 +43,6 @@ function recordMatchesFilter(record: ArchiveRecord, filter: FilterId): boolean {
   if (filter === 'signal-essay') return record.articleMode === 'signal-essay';
   if (filter === 'field-note') return record.articleMode === 'field-note';
   return true;
-}
-
-function formatKind(record: ArchiveRecord): string {
-  if (record.card) return `Travel Arc ${record.card}`;
-  if (record.entryKind === 'hub') return 'Hub';
-  if (record.entryKind === 'reference') return 'Reference';
-  switch (record.articleMode) {
-    case 'signal-essay':
-      return 'Signal Essay';
-    case 'field-note':
-      return 'Field Note';
-    case 'research-essay':
-      return 'Research Essay';
-    default:
-      return 'Essay';
-  }
-}
-
-function formatDate(value: string): string {
-  return new Date(value).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  });
 }
 
 export default function ResearchDiscovery({
@@ -215,73 +194,22 @@ export default function ResearchDiscovery({
         </div>
       </div>
 
-      {/* Results — flat list of all matching posts */}
+      {/* Results — flowing marquee list of all matching posts */}
       {filtered.length > 0 ? (
-        <ul className="grid gap-0">
-          {filtered.map((record, idx) => (
-            <li key={record.slug}>
-              <a
-                href={`/posts/${record.slug}`}
-                className="group grid grid-cols-12 gap-x-4 gap-y-1 border-t border-[rgba(138,155,168,0.1)] py-4 transition-transform duration-300 hover:translate-x-1"
-              >
-                <span
-                  className="col-span-2 text-[0.62rem] tabular-nums sm:col-span-1"
-                  style={{
-                    fontFamily: 'var(--font-mono)',
-                    color: 'var(--color-sacred-gold)',
-                    opacity: 0.5,
-                  }}
-                >
-                  {String(idx + 1).padStart(3, '0')}
-                </span>
-                <div className="col-span-10 sm:col-span-7 lg:col-span-8">
-                  <h3
-                    className="text-[0.98rem] leading-snug text-[var(--color-parchment)] transition-colors duration-300 group-hover:text-[var(--color-sacred-gold)]"
-                    style={{
-                      fontFamily: 'var(--font-display)',
-                      fontWeight: 500,
-                    }}
-                  >
-                    {record.title}
-                  </h3>
-                  {record.excerpt && (
-                    <p
-                      className="mt-1 line-clamp-2 max-w-[68ch] text-[0.85rem] leading-snug"
-                      style={{
-                        fontFamily: 'var(--font-body)',
-                        color: 'var(--color-muted-silver)',
-                        opacity: 0.6,
-                      }}
-                    >
-                      {record.excerpt}
-                    </p>
-                  )}
-                </div>
-                <span
-                  className="col-span-6 mt-1 text-[0.6rem] uppercase sm:col-span-2 sm:mt-0 lg:col-span-2"
-                  style={{
-                    fontFamily: 'var(--font-mono)',
-                    letterSpacing: '0.18em',
-                    color: 'var(--color-muted-silver)',
-                    opacity: 0.5,
-                  }}
-                >
-                  {formatKind(record)}
-                </span>
-                <time
-                  className="col-span-6 mt-1 text-right text-[0.6rem] tabular-nums sm:col-span-2 sm:mt-0 sm:text-left lg:col-span-1"
-                  style={{
-                    fontFamily: 'var(--font-mono)',
-                    color: 'var(--color-muted-silver)',
-                    opacity: 0.4,
-                  }}
-                >
-                  {formatDate(record.date)}
-                </time>
-              </a>
-            </li>
-          ))}
-        </ul>
+        <FlowingMenu
+          items={filtered.map((record) => ({
+            link: `/posts/${record.slug}`,
+            text: record.title,
+            image: record.heroImage ?? FALLBACK_IMAGE,
+          }))}
+          itemHeight="92px"
+          speed={22}
+          textColor="#F0EDE3"
+          bgColor="transparent"
+          marqueeBgColor="#C5A017"
+          marqueeTextColor="#070B1D"
+          borderColor="rgba(138,155,168,0.16)"
+        />
       ) : (
         <div
           className="border-t border-[rgba(138,155,168,0.12)] py-12 text-center"

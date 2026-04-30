@@ -4,35 +4,10 @@ import { getCollection } from 'astro:content';
 import { buildArchiveDataset } from '../lib/archive';
 import SiteHeader from '../components/SiteHeader.astro';
 import ResearchDiscovery from '../components/ResearchDiscovery';
-import FlowingMenu from '../components/FlowingMenu';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const dataset = buildArchiveDataset(allPosts);
 const totalEntries = dataset.records.length;
-
-// Curated showcase: 8 entries that represent the spine of the corpus —
-// foundational hubs, the pilot, the latest signal essays, and the
-// catalog index. Order is editorial.
-const SHOWCASE_SLUGS = [
-  'introduction-to-tryambakam-noesis',
-  'consciousness-architecture-hub',
-  'the-downstream-mind',
-  'spell-work-reservoir',
-  'lorenz-kundli-system-index',
-  'muse-enneagram-framework-overview',
-  'tarot-major-arcana-journal',
-  'pattern-cross-reference-system',
-];
-
-const showcaseItems = SHOWCASE_SLUGS.map((slug) => {
-  const post = allPosts.find((p) => p.id === slug);
-  if (!post) return null;
-  return {
-    link: `/posts/${post.id}`,
-    text: post.data.title,
-    image: post.data.featured_image ?? '/images/og-default.png',
-  };
-}).filter((item): item is { link: string; text: string; image: string } => item !== null);
 ---
 
 <BaseLayout
@@ -42,7 +17,7 @@ const showcaseItems = SHOWCASE_SLUGS.map((slug) => {
   <SiteHeader />
 
   <main class="min-h-[100dvh]">
-    {/* Hero — concise, leads into the showcase */}
+    {/* Hero — concise, leads into the flowing library */}
     <section class="px-6 pt-[clamp(6rem,11vw,9rem)] pb-[clamp(2rem,4vw,3.5rem)] sm:px-10 lg:px-16">
       <div class="mx-auto max-w-[1280px]">
         <div class="grid grid-cols-12 gap-x-6">
@@ -63,47 +38,16 @@ const showcaseItems = SHOWCASE_SLUGS.map((slug) => {
               class="mt-5 max-w-[58ch] text-[0.98rem] leading-relaxed"
               style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.72;"
             >
-              The spine of the corpus, eight entries deep — hover to surface each. The full searchable index sits below.
+              Hover any row to surface its hero image. Search and filters narrow the list in place.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    {/* FlowingMenu showcase — 8 spine entries with hover-marquee reveal */}
-    {showcaseItems.length > 0 && (
-      <section class="px-0 pb-[clamp(3rem,6vw,5rem)]">
-        <div
-          class="relative w-full"
-          style="height: clamp(520px, 70vh, 720px); border-top: 1px solid rgba(138,155,168,0.18); border-bottom: 1px solid rgba(138,155,168,0.18);"
-        >
-          <FlowingMenu
-            items={showcaseItems}
-            speed={18}
-            textColor="#F0EDE3"
-            bgColor="#070B1D"
-            marqueeBgColor="#C5A017"
-            marqueeTextColor="#070B1D"
-            borderColor="rgba(138,155,168,0.18)"
-            client:load
-          />
-        </div>
-      </section>
-    )}
-
-    {/* Full library — search + filters + flat list of all entries */}
+    {/* Full library — search + filters + flowing-marquee list of every entry */}
     <section class="px-6 pb-[clamp(6rem,12vw,11rem)] sm:px-10 lg:px-16">
       <div class="mx-auto max-w-[1280px]">
-        <div class="mb-6 flex items-baseline justify-between border-b border-[rgba(197,160,23,0.22)] pb-3">
-          <span
-            class="text-[0.62rem] uppercase"
-            style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-sacred-gold); opacity: 0.72;"
-          >Full Library</span>
-          <span
-            class="text-[0.62rem] tabular-nums uppercase"
-            style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.42;"
-          >Search · filter · sort</span>
-        </div>
         <ResearchDiscovery dataset={dataset} client:load />
       </div>
     </section>

@@ -23,6 +23,8 @@ interface FlowingMenuProps {
   marqueeBgColor?: string;
   marqueeTextColor?: string;
   borderColor?: string;
+  itemHeight?: string;
+  fillContainer?: boolean;
 }
 
 interface MenuItemProps extends MenuItemData {
@@ -32,6 +34,8 @@ interface MenuItemProps extends MenuItemData {
   marqueeTextColor: string;
   borderColor: string;
   isFirst: boolean;
+  itemHeight?: string;
+  fillContainer: boolean;
 }
 
 const FlowingMenu: React.FC<FlowingMenuProps> = ({
@@ -42,13 +46,15 @@ const FlowingMenu: React.FC<FlowingMenuProps> = ({
   marqueeBgColor = '#C5A017',
   marqueeTextColor = '#070B1D',
   borderColor = 'rgba(138,155,168,0.18)',
+  itemHeight,
+  fillContainer = false,
 }) => {
   return (
-    <div className="w-full h-full overflow-hidden" style={{ backgroundColor: bgColor }}>
-      <nav className="flex flex-col h-full m-0 p-0">
+    <div className={`w-full ${fillContainer ? 'h-full' : ''} overflow-hidden`} style={{ backgroundColor: bgColor }}>
+      <nav className={`flex flex-col ${fillContainer ? 'h-full' : ''} m-0 p-0`}>
         {items.map((item, idx) => (
           <MenuItem
-            key={idx}
+            key={`${item.link}-${idx}`}
             {...item}
             speed={speed}
             textColor={textColor}
@@ -56,6 +62,8 @@ const FlowingMenu: React.FC<FlowingMenuProps> = ({
             marqueeTextColor={marqueeTextColor}
             borderColor={borderColor}
             isFirst={idx === 0}
+            itemHeight={itemHeight}
+            fillContainer={fillContainer}
           />
         ))}
       </nav>
@@ -73,6 +81,8 @@ const MenuItem: React.FC<MenuItemProps> = ({
   marqueeTextColor,
   borderColor,
   isFirst,
+  itemHeight,
+  fillContainer,
 }) => {
   const itemRef = useRef<HTMLDivElement>(null);
   const marqueeRef = useRef<HTMLDivElement>(null);
@@ -176,14 +186,24 @@ const MenuItem: React.FC<MenuItemProps> = ({
       .to(marqueeInnerRef.current, { y: edge === 'top' ? '101%' : '-101%' }, 0);
   };
 
+  const itemClass = fillContainer
+    ? 'flex-1 relative overflow-hidden text-center'
+    : 'relative overflow-hidden text-center';
+  const itemStyle: React.CSSProperties = {
+    borderTop: isFirst ? 'none' : `1px solid ${borderColor}`,
+  };
+  if (!fillContainer && itemHeight) {
+    itemStyle.height = itemHeight;
+  }
+
+  const linkSizeClass = fillContainer
+    ? 'text-[3vh]'
+    : 'text-[clamp(1.05rem,2.2vw,1.65rem)]';
+
   return (
-    <div
-      className="flex-1 relative overflow-hidden text-center"
-      ref={itemRef}
-      style={{ borderTop: isFirst ? 'none' : `1px solid ${borderColor}` }}
-    >
+    <div className={itemClass} ref={itemRef} style={itemStyle}>
       <a
-        className="flex items-center justify-center h-full relative cursor-pointer uppercase no-underline font-semibold text-[3vh] tracking-[0.04em]"
+        className={`flex items-center justify-center h-full relative cursor-pointer uppercase no-underline font-semibold tracking-[0.04em] ${linkSizeClass}`}
         href={link}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -204,13 +224,19 @@ const MenuItem: React.FC<MenuItemProps> = ({
               style={{ color: marqueeTextColor }}
             >
               <span
-                className="whitespace-nowrap uppercase font-normal text-[3vh] leading-[1] px-[1vw] tracking-[0.04em]"
+                className={`whitespace-nowrap uppercase font-normal leading-[1] px-[1vw] tracking-[0.04em] ${
+                  fillContainer ? 'text-[3vh]' : 'text-[clamp(1.05rem,2.2vw,1.65rem)]'
+                }`}
                 style={{ fontFamily: 'var(--font-display)' }}
               >
                 {text}
               </span>
               <div
-                className="w-[180px] h-[6vh] my-[2em] mx-[2vw] py-[1em] rounded-[14px] bg-cover bg-center shadow-[0_8px_24px_rgba(0,0,0,0.25)]"
+                className={`flex-shrink-0 ${
+                  fillContainer
+                    ? 'w-[180px] h-[6vh] my-[2em] mx-[2vw] py-[1em]'
+                    : 'w-[120px] h-[60%] mx-[2vw]'
+                } rounded-[14px] bg-cover bg-center shadow-[0_8px_24px_rgba(0,0,0,0.25)]`}
                 style={{ backgroundImage: `url(${image})` }}
               />
             </div>
