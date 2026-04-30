@@ -301,7 +301,7 @@ export default function NextPostReveal({
   }, [prefersReducedMotion]);
 
   return (
-    <div ref={wrapRef} style={{ height: prefersReducedMotion ? '140vh' : '240vh' }}>
+    <div ref={wrapRef} style={{ height: prefersReducedMotion ? '140vh' : 'min(240vh, calc(100vh + 800px))' }}>
       <div
         ref={pinRef}
         className="relative w-full overflow-hidden"
@@ -335,7 +335,7 @@ export default function NextPostReveal({
                   style={{
                     fontFamily: 'var(--font-mono)',
                     fontSize: 'clamp(0.55rem, 0.65vw, 0.7rem)',
-                    padding: '0.5vh 1vw',
+                    padding: 'clamp(0.25rem, 0.5vh, 0.5rem) clamp(0.6rem, 1.5vw, 1rem)',
                     borderRadius: '9999px',
                     color: 'var(--color-muted-silver)',
                     opacity: 0.3,
@@ -464,8 +464,8 @@ export default function NextPostReveal({
             top: '45%',
             left: '50%',
             transform: 'translate(-50%, -50%)',
-            width: '50vw',
-            height: '50vh',
+            width: 'min(50vw, calc(100vw - 2rem))',
+            height: 'min(50vh, calc(100vh - 2rem))',
             borderRadius: '50%',
             background: `radial-gradient(ellipse, ${accentColor}12 0%, ${accentColor}06 40%, transparent 70%)`,
             filter: 'blur(5vw)',
