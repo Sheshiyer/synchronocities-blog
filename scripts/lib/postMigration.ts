@@ -229,6 +229,42 @@ export function validateDocument(document: MarkdownDocument): ValidationIssue[] 
   return issues;
 }
 
+export function validateTagCoverage(documents: MarkdownDocument[]): ValidationIssue[] {
+  const issues: ValidationIssue[] = [];
+  const tagCounts = new Map<string, string[]>();
+
+  for (const doc of documents) {
+    const tags = doc.data['tags'];
+    if (!Array.isArray(tags) || tags.length === 0) {
+      issues.push({
+        level: 'warning',
+        slug: doc.slug,
+        message: 'post has no tags — discovery and clustering disabled',
+      });
+      continue;
+    }
+
+    for (const tag of tags) {
+      if (typeof tag !== 'string') continue;
+      const slugs = tagCounts.get(tag) ?? [];
+      slugs.push(doc.slug);
+      tagCounts.set(tag, slugs);
+    }
+  }
+
+  for (const [tag, slugs] of tagCounts.entries()) {
+    if (slugs.length === 1) {
+      issues.push({
+        level: 'warning',
+        slug: slugs[0]!,
+        message: `tag '${tag}' is an orphan (used by only 1 post) — consider consolidating into a parent cluster`,
+      });
+    }
+  }
+
+  return issues;
+}
+
 export function validateRelatedPostsRefs(documents: MarkdownDocument[]): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
   const validSlugs = new Set(documents.map((d) => d.slug));

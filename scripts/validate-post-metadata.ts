@@ -5,6 +5,7 @@ import {
   validateDocument,
   validateRelatedPostsRefs,
   validateSeriesCoherence,
+  validateTagCoverage,
 } from './lib/postMigration.ts';
 
 async function main(): Promise<void> {
@@ -13,7 +14,8 @@ async function main(): Promise<void> {
   const docIssues = documents.flatMap((document) => validateDocument(document));
   const refIssues = validateRelatedPostsRefs(documents);
   const seriesIssues = validateSeriesCoherence(documents);
-  const issues = [...docIssues, ...refIssues, ...seriesIssues];
+  const tagIssues = validateTagCoverage(documents);
+  const issues = [...docIssues, ...refIssues, ...seriesIssues, ...tagIssues];
   const errors = issues.filter((issue) => issue.level === 'error');
   const warnings = issues.filter((issue) => issue.level === 'warning');
 

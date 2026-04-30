@@ -6,6 +6,8 @@ featured_image: "/cards/sync-pattern-hub.webp"
 tags: ["lorenz-kundli", "patterns", "hub", "overview"]
 draft: false
 revolution: 1
+related_posts:
+  - lorenz-kundli-system-index
 ---
 
 # Lorenz-Kundli Pattern Recognition Hub

@@ -6,6 +6,8 @@ featured_image: "/cards/sync-vimshottari-markov.webp"
 tags: ["lorenz-kundli", "vimshottari", "markov-chains", "vedic"]
 draft: false
 revolution: 1
+related_posts:
+  - lorenz-kundli-system-index
 ---
 
 # Vimshottari Dasha as Markov Chains: State Machines of Destiny

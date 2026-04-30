@@ -6,6 +6,8 @@ featured_image: "/cards/sync-bioelectric-field.webp"
 tags: ["bioelectric", "patterns", "framework", "consciousness"]
 draft: false
 revolution: 1
+related_posts:
+  - consciousness-architecture-hub
 ---
 
 # The Bioelectric Pattern Framework: How Your Cells Remember What Your Mind Forgets

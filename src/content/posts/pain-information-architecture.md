@@ -6,6 +6,8 @@ featured_image: "/cards/sync-pain-architecture.webp"
 tags: ["consciousness", "pain", "information", "architecture"]
 draft: false
 revolution: 1
+related_posts:
+  - consciousness-architecture-hub
 ---
 
 # Pain Information Architecture

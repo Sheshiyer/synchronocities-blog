@@ -6,6 +6,8 @@ featured_image: "/cards/sync-runtime-diagrams.webp"
 tags: ["runtime", "framework", "diagrams", "consciousness"]
 draft: false
 revolution: 1
+related_posts:
+  - consciousness-architecture-hub
 ---
 
 # Consciousness Runtime Framework Diagrams

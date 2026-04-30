@@ -6,6 +6,8 @@ featured_image: "/cards/sync-graha-automata.webp"
 tags: ["lorenz-kundli", "graha", "cellular-automata", "vedic"]
 draft: false
 revolution: 1
+related_posts:
+  - lorenz-kundli-system-index
 ---
 
 # Graha Friendship Tables as Cellular Automata: Conway's Game of Planets
