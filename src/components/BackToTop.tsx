@@ -25,6 +25,7 @@ export default function BackToTop() {
       <button
         type="button"
         onClick={handleBackToTop}
+        className="back-to-top-btn"
         style={{
           minHeight: '2.8rem',
           padding: '0.75rem 0.9rem',
@@ -37,6 +38,17 @@ export default function BackToTop() {
           letterSpacing: '0.08em',
           textTransform: 'uppercase',
           cursor: 'pointer',
+          transition: 'background 0.2s ease, border-color 0.2s ease, color 0.2s ease',
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = 'rgba(197, 160, 23, 0.22)';
+          e.currentTarget.style.borderColor = 'rgba(197, 160, 23, 0.45)';
+          e.currentTarget.style.color = 'var(--color-sacred-gold)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = 'rgba(197, 160, 23, 0.1)';
+          e.currentTarget.style.borderColor = 'rgba(197, 160, 23, 0.22)';
+          e.currentTarget.style.color = 'rgba(242, 241, 236, 0.96)';
         }}
       >
         Back to top
@@ -60,6 +72,17 @@ export default function BackToTop() {
           textTransform: 'uppercase',
           textDecoration: 'none',
           textAlign: 'center',
+          transition: 'background 0.2s ease, border-color 0.2s ease, color 0.2s ease',
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = 'rgba(197, 160, 23, 0.12)';
+          e.currentTarget.style.borderColor = 'rgba(197, 160, 23, 0.4)';
+          e.currentTarget.style.color = 'var(--color-sacred-gold)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = 'rgba(255, 255, 255, 0.03)';
+          e.currentTarget.style.borderColor = 'rgba(197, 160, 23, 0.18)';
+          e.currentTarget.style.color = 'rgba(242, 241, 236, 0.9)';
         }}
       >
         Back to journey

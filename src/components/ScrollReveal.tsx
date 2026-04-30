@@ -20,7 +20,7 @@ export default function ScrollReveal() {
           }
         });
       },
-      { threshold: 0.08, rootMargin: '0px 0px -20px 0px' }
+      { threshold: 0.25, rootMargin: '0px 0px -10% 0px' }
     );
 
     paragraphs.forEach((paragraph) => {
