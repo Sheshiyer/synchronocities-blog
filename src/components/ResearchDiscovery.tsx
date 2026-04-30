@@ -1,4 +1,4 @@
-import { useDeferredValue, useMemo, useState } from 'react';
+import { useDeferredValue, useEffect, useMemo, useState } from 'react';
 import {
   buildSearchIndex,
   searchArchiveIndex,
@@ -74,6 +74,19 @@ export default function ResearchDiscovery({
   const [query, setQuery] = useState(initialQuery);
   const [filter, setFilter] = useState<FilterId>(initialFilter);
   const deferredQuery = useDeferredValue(query);
+
+  // Read ?q=, ?filter= from the URL on first mount so deep-links from
+  // the Maps concept facet (and elsewhere) land on a pre-filtered view.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const urlQuery = params.get('q');
+    const urlFilter = params.get('filter');
+    if (urlQuery) setQuery(urlQuery);
+    if (urlFilter && FILTERS.some((f) => f.id === urlFilter as FilterId)) {
+      setFilter(urlFilter as FilterId);
+    }
+  }, []);
 
   const searchIndex = useMemo(
     () => buildSearchIndex(dataset.records),

@@ -33,6 +33,11 @@ export interface TopicFacet {
   count: number;
 }
 
+export interface ConceptFacet {
+  concept: string;
+  count: number;
+}
+
 export interface SearchIndexEntry {
   slug: string;
   title: string;
@@ -73,6 +78,7 @@ export interface RelationshipGraph {
 export interface ArchiveDataset {
   records: ArchiveRecord[];
   topicFacets: TopicFacet[];
+  conceptFacets: ConceptFacet[];
   searchIndex: SearchIndexEntry[];
   relationshipGraph: RelationshipGraph;
 }
@@ -135,9 +141,33 @@ export function buildArchiveDataset(entries: PostEntryLike[]): ArchiveDataset {
   return {
     records,
     topicFacets: buildTopicFacets(records),
+    conceptFacets: buildConceptFacets(records),
     searchIndex: buildSearchIndex(records),
     relationshipGraph,
   };
+}
+
+export function buildConceptFacets(records: ArchiveRecord[]): ConceptFacet[] {
+  // Concepts are richer semantic phrases (vs tags = filter keywords).
+  // This counts only the concepts field, separate from tags. Used as the
+  // primary navigable lookup on /maps.
+  const counts = new Map<string, number>();
+
+  for (const record of records) {
+    const seen = new Set<string>();
+    for (const concept of record.concepts) {
+      if (!concept) continue;
+      const normalized = concept.trim();
+      if (normalized.length === 0) continue;
+      if (seen.has(normalized)) continue;
+      seen.add(normalized);
+      counts.set(normalized, (counts.get(normalized) ?? 0) + 1);
+    }
+  }
+
+  return [...counts.entries()]
+    .map(([concept, count]) => ({ concept, count }))
+    .sort((left, right) => right.count - left.count || left.concept.localeCompare(right.concept));
 }
 
 export function buildBaseArchiveRecords(entries: PostEntryLike[]): ArchiveRecord[] {

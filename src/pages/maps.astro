@@ -13,6 +13,7 @@ const archiveDataset = buildArchiveDataset(allPosts);
 const mapRecords = getArchivePreset(archiveDataset.records, 'hubs');
 const pinnedRecords = getPinnedArchiveRecords(archiveDataset.records, 3);
 const topTopics = archiveDataset.topicFacets.slice(0, 14);
+const topConcepts = archiveDataset.conceptFacets.slice(0, 24);
 
 function formatKind(record: (typeof archiveDataset.records)[number]) {
   if (record.card) return `Travel Arc ${record.card}`;
@@ -110,6 +111,47 @@ function formatKind(record: (typeof archiveDataset.records)[number]) {
                     style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.7;"
                   >{record.excerpt}</p>
                 )}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {/* Concepts facet — richer semantic phrases, deep-link into /research */}
+    {topConcepts.length > 0 && (
+      <section class="px-6 pb-[clamp(3rem,6vw,5rem)] sm:px-10 lg:px-16">
+        <div class="mx-auto max-w-[1280px]">
+          <div class="mb-6 flex items-baseline justify-between border-b border-[rgba(16,181,167,0.22)] pb-3">
+            <span
+              class="text-[0.62rem] uppercase"
+              style="font-family: var(--font-mono); letter-spacing: 0.32em; color: var(--color-coherence-emerald); opacity: 0.78;"
+            >Concepts</span>
+            <span
+              class="text-[0.62rem] tabular-nums uppercase"
+              style="font-family: var(--font-mono); letter-spacing: 0.18em; color: var(--color-muted-silver); opacity: 0.42;"
+            >{topConcepts.length} of {archiveDataset.conceptFacets.length}</span>
+          </div>
+          <p
+            class="mb-5 max-w-[58ch] text-[0.9rem] leading-relaxed"
+            style="font-family: var(--font-body); color: var(--color-muted-silver); opacity: 0.62;"
+          >
+            Canonical phrases the corpus develops. Click any concept to open the Research library filtered to entries that cite it.
+          </p>
+          <div class="flex flex-wrap items-baseline gap-x-5 gap-y-3">
+            {topConcepts.map(({ concept, count }) => (
+              <a
+                href={`/research?q=${encodeURIComponent(concept)}`}
+                class="group flex items-baseline gap-1.5 transition-colors"
+              >
+                <span
+                  class="text-[0.95rem] text-[var(--color-muted-silver)] transition-colors group-hover:text-[var(--color-coherence-emerald)]"
+                  style="font-family: var(--font-display);"
+                >{concept}</span>
+                <span
+                  class="text-[0.62rem] tabular-nums"
+                  style="font-family: var(--font-mono); color: var(--color-muted-silver); opacity: 0.45;"
+                >{String(count).padStart(2, '0')}</span>
               </a>
             ))}
           </div>
