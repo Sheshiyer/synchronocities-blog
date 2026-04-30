@@ -613,11 +613,13 @@ function resolvePlacementGuidePath(sourceFilePath: string, images: PlainObject |
 }
 
 function hasArticleMetadata(data: PlainObject): boolean {
+  // 'related_posts' intentionally NOT here — it's a generic discovery aid
+  // (used by /journeys, /research navigation) that any post may set without
+  // committing to the full article-experience seed.
   return [
     'entry_kind',
     'foundational',
     'concepts',
-    'related_posts',
     'hero',
     'experience',
     'figures',

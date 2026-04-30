@@ -5,7 +5,7 @@ revolution: 1
 draft: false
 excerpt: "Your consciousness isn't just running code — it's running the oldest source code in existence. Hidden within the Sanskrit verses of Purusha Sookta and Shikshavalli lies a sophisticated system architecture for consciousness engineering."
 featured_image: "/cards/sync-runtime-of-god.webp"
-tags: ["runtime", "sanskrit", "debugging", "ancient-code"]
+tags: ["runtime", "sanskrit", "debugging", "ancient-code", "consciousness", "frameworks"]
 ---
 
 # Runtime of God: Ancient Debug Protocols For Modern Consciousness
@@ -30,6 +30,9 @@ consciousness_runtime = {
 Let's begin with the root system specification, found in Purusha Sookta:
 
 ```sanskrit
+पुरुष एवेदं सर्वं यद्भूतं यच्च भव्यम् |
+उतामृतत्वस्येशानो यदन्नेनातिरोहति ||
+
 puruṣa evedaṃ sarvaṃ yadbhūtaṃ yacca bhavyam |
 utāmṛtatvasyeśāno yadannenātirohati ||
 ```
@@ -57,6 +60,9 @@ universal_runtime = {
 The Shikshavalli provides our core training documentation:
 
 ```sanskrit
+शीक्षां व्याख्यास्यामः । वर्णः स्वरः । मात्रा बलम् |
+साम सन्तानः । इत्युक्तः शीक्षाध्यायः ||
+
 śīkṣāṃ vyākhyāsyāmaḥ | varṇaḥ svaraḥ | mātrā balam |
 sāma santānaḥ | ityuktaḥ śīkṣādhyāyaḥ ||
 ```
@@ -107,6 +113,9 @@ consciousness_compiler = {
 The ultimate goal is achieving root access to consciousness, as described in this powerful verse:
 
 ```sanskrit
+यतो वाचो निवर्तन्ते । अप्राप्य मनसा सह |
+आनन्दं ब्रह्मणो विद्वान् । न बिभेति कुतश्चन ||
+
 yato vāco nivartante | aprāpya manasā saha |
 ānandaṃ brahmaṇo vidvān | na bibheti kutaścana ||
 ```
@@ -320,7 +329,6 @@ integration_protocol = {
    - Field coherence mastery
 
 ### Next Runtime Cycle
-
 - Initialize `brahma_muhurta.sys`
 - Activate `consciousness_debugging.sh`
 - Monitor `pattern_recognition.log`
