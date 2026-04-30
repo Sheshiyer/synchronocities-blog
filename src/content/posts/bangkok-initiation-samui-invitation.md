@@ -10,7 +10,7 @@ identity: "Shesh"
 draft: false
 excerpt: "Bangkok flipped the circuit the moment the helmet clicked. Map pinned. The street slid into a chrome river."
 featured_image: "/cards/tarot-bangkok-samui.webp"
-tags: ["bangkok", "koh-samui", "the-chariot", "the-fool", "thoth", "rider-waite", "kali", "kala", "witness-os"]
+tags: ["bangkok", "koh-samui", "tarot-07-chariot", "tarot-00-fool", "thoth", "rider-waite", "kali", "kala", "witness-os"]
 article_mode: field-note
 entry_kind: essay
 concepts:

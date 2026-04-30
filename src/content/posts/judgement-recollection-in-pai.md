@@ -10,7 +10,7 @@ kosha: "anandamaya"
 identity: "Pichet"
 excerpt: "The Aeon doesn't judge you. It shows you the judgment you've been running from. In Pai, between limestone cliffs and rice paddies, Ketu released its grip."
 featured_image: "/cards/tarot-20-aeon.webp"
-tags: ["aeon", "judgement", "pai", "ketu", "recollection"]
+tags: ["tarot-20-aeon", "pai", "ketu", "recollection"]
 ---
 
 The Thoth deck names this card The Aeon, not Judgement.

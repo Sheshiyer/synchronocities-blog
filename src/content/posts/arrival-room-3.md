@@ -10,7 +10,7 @@ identity: "Shesh"
 draft: false
 excerpt: "Bangkok opened its doors to me again. The taxi dropped me at a familiar axis, but my body felt the spiral turn — same city, higher octave."
 featured_image: "/cards/tarot-arrival-room3.webp"
-tags: ["bangkok", "arrival", "room-3", "seven-of-wands", "knight-of-swords", "three-of-wands", "lovers", "numerology"]
+tags: ["bangkok", "arrival", "room-3", "seven-of-wands", "knight-of-swords", "three-of-wands", "tarot-06-lovers", "numerology"]
 ---
 
 ## The Return

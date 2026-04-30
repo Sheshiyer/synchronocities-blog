@@ -9,7 +9,7 @@ identity: "Shesh"
 draft: false
 excerpt: "Hi. I'm Shesh. Short for Sheshnarayan Iyer, but don't let the full stack of my name fool you — I respond faster to vibration than syllables."
 featured_image: "/cards/tarot-who-is-shesh.webp"
-tags: ["identity", "shesh", "human-design", "prologue", "profile-2-4", "tower"]
+tags: ["identity", "shesh", "human-design", "prologue", "profile-2-4", "tarot-16-tower"]
 ---
 
 *Or how I learned to stop worrying and let the reptile brain debug the soul.*

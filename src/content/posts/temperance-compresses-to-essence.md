@@ -10,7 +10,7 @@ kosha: "vijnanamaya"
 identity: "Pichet"
 excerpt: "In the Thoth deck, card XIV isn't called Temperance. It's called Art. The alchemical marriage. Two substances becoming something neither could be alone."
 featured_image: "/cards/tarot-14-art.webp"
-tags: ["art", "temperance", "chiang-mai", "alchemy", "compression"]
+tags: ["tarot-14-art", "chiang-mai", "alchemy", "compression"]
 ---
 
 In the Thoth deck, card XIV isn't called Temperance. It's called Art.

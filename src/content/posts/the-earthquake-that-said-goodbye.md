@@ -11,7 +11,7 @@ identity: "The Witness"
 draft: false
 excerpt: "What begins in rupture often ends in rhythm."
 featured_image: "/cards/tarot-earthquake-goodbye.webp"
-tags: ["bangkok", "the-world", "earthquake", "full-circle", "spiral", "signal", "witness", "closure"]
+tags: ["bangkok", "tarot-21-universe", "earthquake", "full-circle", "spiral", "signal", "witness", "closure"]
 ---
 
 *What begins in rupture often ends in rhythm.*

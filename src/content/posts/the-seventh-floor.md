@@ -11,7 +11,7 @@ identity: "The Witness"
 draft: false
 excerpt: "Every spiral lands you higher — but only if you dare come back full circle."
 featured_image: "/cards/tarot-seventh-floor.webp"
-tags: ["chiang-mai", "the-world", "room-707", "seventh-floor", "doi-suthep", "completion", "four-creatures"]
+tags: ["chiang-mai", "tarot-21-universe", "room-707", "seventh-floor", "doi-suthep", "completion", "four-creatures"]
 ---
 
 *Every spiral lands you higher — but only if you dare come back full circle.*
