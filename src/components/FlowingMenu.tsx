@@ -188,7 +188,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
 
   const itemClass = fillContainer
     ? 'flex-1 relative overflow-hidden text-center'
-    : 'relative overflow-hidden text-center';
+    : 'relative overflow-hidden';
   const itemStyle: React.CSSProperties = {
     borderTop: isFirst ? 'none' : `1px solid ${borderColor}`,
   };
@@ -196,18 +196,22 @@ const MenuItem: React.FC<MenuItemProps> = ({
     itemStyle.height = itemHeight;
   }
 
-  const linkSizeClass = fillContainer
-    ? 'text-[3vh]'
-    : 'text-[clamp(1.05rem,2.2vw,1.65rem)]';
+  const linkClass = fillContainer
+    ? 'flex items-center justify-center h-full relative cursor-pointer uppercase no-underline font-semibold tracking-[0.04em] text-[3vh]'
+    : 'flex items-center justify-start h-full relative cursor-pointer no-underline font-normal tracking-[-0.005em] text-[clamp(0.92rem,1.4vw,1.05rem)] px-4 sm:px-6';
 
   return (
     <div className={itemClass} ref={itemRef} style={itemStyle}>
       <a
-        className={`flex items-center justify-center h-full relative cursor-pointer uppercase no-underline font-semibold tracking-[0.04em] ${linkSizeClass}`}
+        className={linkClass}
         href={link}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        style={{ color: textColor, fontFamily: 'var(--font-display)' }}
+        style={{
+          color: textColor,
+          fontFamily: 'var(--font-display)',
+          opacity: fillContainer ? 1 : 0.86,
+        }}
       >
         {text}
       </a>
@@ -224,8 +228,10 @@ const MenuItem: React.FC<MenuItemProps> = ({
               style={{ color: marqueeTextColor }}
             >
               <span
-                className={`whitespace-nowrap uppercase font-normal leading-[1] px-[1vw] tracking-[0.04em] ${
-                  fillContainer ? 'text-[3vh]' : 'text-[clamp(1.05rem,2.2vw,1.65rem)]'
+                className={`whitespace-nowrap leading-[1] px-[1vw] ${
+                  fillContainer
+                    ? 'uppercase font-normal text-[3vh] tracking-[0.04em]'
+                    : 'font-normal text-[clamp(0.95rem,1.6vw,1.25rem)] tracking-[-0.005em]'
                 }`}
                 style={{ fontFamily: 'var(--font-display)' }}
               >
