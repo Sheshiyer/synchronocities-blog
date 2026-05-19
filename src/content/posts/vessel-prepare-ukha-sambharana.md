@@ -39,16 +39,6 @@ llm:
     - Why does the bamboo abhri match the shape of Agni's hiding place?
     - What is the witness-alchemist (kratu-purusha), and how does the Ukha-sambharana train it?
   start_priority: supporting
-source_bridge:
-  vault_sources:
-    - 03-Resources/Authors/James-True/7 bodys and custom PAG commands in sanskrit.md
-    - 03-Resources/Authors/Michael-Tsarion/Articles/The-Inner-Zodiac_by-Michael-Tsarion.md
-    - 02-Areas/Technical-Mystical-Integration/tech-consciousness-index-v1-0-0.md
-    - Consciousness-Noesis-MOC.md
-    - 01-Projects/tryambakam-noesis/brandmint-run/brand-config.yaml
-  platform: youtube
-  imported_fields:
-    - source_video
 ---
 
 # Vessel.prepare(): The Ritual Architecture of the Inner Fire
