@@ -234,16 +234,18 @@ export interface RerankResult {
 }
 
 const RERANK_PROMPT_TEMPLATE = (query: string, numberedPassages: string, n: number) =>
-  `Score each passage's relevance to the query on a 0-10 integer scale. ${n} passages, ${n} scores.
+  `Rank these ${n} passages by relevance to the query. Use a 0-10 scale.
+
+You MUST spread the scores — the most relevant gets the HIGHEST score, the least relevant gets the LOWEST. Avoid giving every passage the same score. If a passage is clearly off-topic, score it 0-2. If it's somewhat related, score it 3-5. If it's directly relevant, score it 6-8. Only the single best passage should get 9-10.
 
 Query: ${query}
 
 Passages:
 ${numberedPassages}
 
-Output format: comma-separated integers, one per passage, in order. No commentary, no labels, no JSON. Just numbers.
+Output: ${n} comma-separated integers in passage order. Nothing else.
 
-Example output for 3 passages: 8,2,5
+Example for 3 passages where passage 1 is most relevant: 3,9,1
 
 Your scores:`;
 

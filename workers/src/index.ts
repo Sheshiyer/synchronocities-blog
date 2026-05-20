@@ -15,6 +15,7 @@
 import { embed, chat, rerank } from './lib/nim';
 import { runSurface, fanOut, withFailOpen, type RoutingConfig } from './lib/routing';
 import { handleEmbedBatch } from './routes/embed-batch';
+import { handleSearch } from './routes/search';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -325,6 +326,13 @@ export default {
     // ─────────────────────────────────────────────────────────────────────
     if (path === '/embed/batch' && request.method === 'POST') {
       return handleEmbedBatch(request, env, _ctx);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // GET /search?q=... — semantic search across the 125-post corpus.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/search' && request.method === 'GET') {
+      return handleSearch(request, env, _ctx);
     }
 
     // ─────────────────────────────────────────────────────────────────────
