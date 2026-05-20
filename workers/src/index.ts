@@ -17,6 +17,7 @@ import { runSurface, fanOut, withFailOpen, type RoutingConfig } from './lib/rout
 import { handleEmbedBatch } from './routes/embed-batch';
 import { handleSearch } from './routes/search';
 import { handleRelated } from './routes/related';
+import { handleGenerateSummary } from './routes/generate-summary';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -344,6 +345,14 @@ export default {
     if (path.startsWith('/related/') && request.method === 'GET') {
       const slug = path.slice('/related/'.length);
       return handleRelated(request, env, _ctx, slug);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // POST /generate/summary — auto-generate llm.summary + canonical_questions
+    // for any post. Returns YAML-formatted frontmatter fragment ready to paste.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/generate/summary' && request.method === 'POST') {
+      return handleGenerateSummary(request, env, _ctx);
     }
 
     // ─────────────────────────────────────────────────────────────────────
