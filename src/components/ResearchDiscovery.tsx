@@ -1,10 +1,11 @@
-import { useDeferredValue, useEffect, useMemo, useState } from 'react';
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import {
   buildSearchIndex,
   searchArchiveIndex,
   type ArchiveRecord,
   type ArchiveDataset,
 } from '../lib/archive';
+import { search as semanticSearch } from '../lib/aiClient';
 import FlowingMenu from './FlowingMenu';
 
 const FALLBACK_IMAGE = '/images/og-default.png';
@@ -45,6 +46,8 @@ function recordMatchesFilter(record: ArchiveRecord, filter: FilterId): boolean {
   return true;
 }
 
+type SearchMode = 'text' | 'semantic';
+
 export default function ResearchDiscovery({
   dataset,
   initialQuery = '',
@@ -52,20 +55,63 @@ export default function ResearchDiscovery({
 }: ResearchDiscoveryProps) {
   const [query, setQuery] = useState(initialQuery);
   const [filter, setFilter] = useState<FilterId>(initialFilter);
+  const [mode, setMode] = useState<SearchMode>('text');
+  const [semanticSlugs, setSemanticSlugs] = useState<string[] | null>(null);
+  const [semanticLoading, setSemanticLoading] = useState(false);
+  const [semanticError, setSemanticError] = useState<string | null>(null);
   const deferredQuery = useDeferredValue(query);
+  const semanticDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Read ?q=, ?filter= from the URL on first mount so deep-links from
+  // Read ?q=, ?filter=, ?mode= from the URL on first mount so deep-links from
   // the Maps concept facet (and elsewhere) land on a pre-filtered view.
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
     const urlQuery = params.get('q');
     const urlFilter = params.get('filter');
+    const urlMode = params.get('mode');
     if (urlQuery) setQuery(urlQuery);
     if (urlFilter && FILTERS.some((f) => f.id === urlFilter as FilterId)) {
       setFilter(urlFilter as FilterId);
     }
+    if (urlMode === 'semantic' || urlMode === 'text') setMode(urlMode);
   }, []);
+
+  // Semantic search side-effect: debounce 500ms, then call the Worker.
+  // When mode is 'text', no network is touched. When query is empty,
+  // semantic results clear to null (falls back to all records).
+  useEffect(() => {
+    if (mode !== 'semantic') {
+      setSemanticSlugs(null);
+      setSemanticError(null);
+      return;
+    }
+    const trimmed = deferredQuery.trim();
+    if (trimmed.length === 0) {
+      setSemanticSlugs(null);
+      setSemanticError(null);
+      return;
+    }
+
+    if (semanticDebounceRef.current) clearTimeout(semanticDebounceRef.current);
+    semanticDebounceRef.current = setTimeout(async () => {
+      setSemanticLoading(true);
+      setSemanticError(null);
+      try {
+        const res = await semanticSearch(trimmed, { limit: 25, rerank: false });
+        setSemanticSlugs(res.results.map((r) => r.slug));
+      } catch (err) {
+        setSemanticError(err instanceof Error ? err.message : String(err));
+        setSemanticSlugs([]);
+      } finally {
+        setSemanticLoading(false);
+      }
+    }, 500);
+
+    return () => {
+      if (semanticDebounceRef.current) clearTimeout(semanticDebounceRef.current);
+    };
+  }, [mode, deferredQuery]);
 
   const searchIndex = useMemo(
     () => buildSearchIndex(dataset.records),
@@ -77,17 +123,33 @@ export default function ResearchDiscovery({
     let results: ArchiveRecord[];
 
     if (trimmed.length === 0) {
+      // Empty query — show all records regardless of mode
       results = dataset.records;
+    } else if (mode === 'semantic' && semanticSlugs !== null) {
+      // Semantic: preserve the relevance order from the Worker
+      const order = new Map(semanticSlugs.map((slug, i) => [slug, i]));
+      results = dataset.records
+        .filter((r) => order.has(r.slug))
+        .sort((a, b) => (order.get(a.slug) ?? 0) - (order.get(b.slug) ?? 0));
+    } else if (mode === 'semantic') {
+      // Semantic mode but no results yet (loading or pre-debounce)
+      results = [];
     } else {
+      // Text mode — existing Lunr-style local search
       const hits = searchArchiveIndex(searchIndex, trimmed);
       const slugSet = new Set(hits.map((h) => h.slug));
       results = dataset.records.filter((r) => slugSet.has(r.slug));
     }
 
-    return results
-      .filter((r) => recordMatchesFilter(r, filter))
-      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  }, [dataset.records, deferredQuery, filter, searchIndex]);
+    const sorted =
+      mode === 'semantic' && trimmed.length > 0
+        ? results // preserve semantic ranking
+        : [...results].sort(
+            (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+          );
+
+    return sorted.filter((r) => recordMatchesFilter(r, filter));
+  }, [dataset.records, deferredQuery, filter, searchIndex, mode, semanticSlugs]);
 
   const total = dataset.records.length;
   const visible = filtered.length;
@@ -108,19 +170,70 @@ export default function ResearchDiscovery({
           >
             Search the library
           </span>
-          <span
-            className="text-[0.62rem] tabular-nums uppercase"
-            style={{
-              fontFamily: 'var(--font-mono)',
-              letterSpacing: '0.18em',
-              color: 'var(--color-muted-silver)',
-              opacity: 0.42,
-            }}
-          >
-            {visible === total
-              ? `${total} entries`
-              : `${visible} of ${total}`}
-          </span>
+          <div className="flex items-center gap-4">
+            {/* Mode toggle: text (local, instant) ↔ semantic (Worker, NIM) */}
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setMode('text')}
+                className="text-[0.62rem] uppercase transition-colors"
+                style={{
+                  fontFamily: 'var(--font-mono)',
+                  letterSpacing: '0.22em',
+                  color: mode === 'text' ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)',
+                  opacity: mode === 'text' ? 1 : 0.5,
+                  borderBottom:
+                    mode === 'text' ? '1px solid var(--color-sacred-gold)' : '1px solid transparent',
+                  paddingBottom: '0.1rem',
+                }}
+                title="Local text matching — instant, no network"
+              >
+                text
+              </button>
+              <span
+                className="text-[0.62rem]"
+                style={{ color: 'var(--color-muted-silver)', opacity: 0.3 }}
+              >
+                /
+              </span>
+              <button
+                type="button"
+                onClick={() => setMode('semantic')}
+                className="text-[0.62rem] uppercase transition-colors"
+                style={{
+                  fontFamily: 'var(--font-mono)',
+                  letterSpacing: '0.22em',
+                  color:
+                    mode === 'semantic' ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)',
+                  opacity: mode === 'semantic' ? 1 : 0.5,
+                  borderBottom:
+                    mode === 'semantic'
+                      ? '1px solid var(--color-sacred-gold)'
+                      : '1px solid transparent',
+                  paddingBottom: '0.1rem',
+                }}
+                title="Semantic embedding search via Cloudflare Worker + NVIDIA NIM"
+              >
+                ✦ semantic
+              </button>
+            </div>
+
+            <span
+              className="text-[0.62rem] tabular-nums uppercase"
+              style={{
+                fontFamily: 'var(--font-mono)',
+                letterSpacing: '0.18em',
+                color: 'var(--color-muted-silver)',
+                opacity: 0.42,
+              }}
+            >
+              {semanticLoading
+                ? 'searching…'
+                : visible === total
+                ? `${total} entries`
+                : `${visible} of ${total}`}
+            </span>
+          </div>
         </div>
 
         <label className="grid gap-2">
@@ -140,7 +253,11 @@ export default function ResearchDiscovery({
               type="search"
               value={query}
               onChange={(event) => setQuery(event.currentTarget.value)}
-              placeholder="title, concept, tag, cluster"
+              placeholder={
+                mode === 'semantic'
+                  ? 'ask a question, describe a concept…'
+                  : 'title, concept, tag, cluster'
+              }
               spellCheck={false}
               autoComplete="off"
               className="w-full bg-transparent text-base text-[var(--color-parchment)] placeholder:text-[var(--color-muted-silver)]/40 focus:outline-none"
@@ -219,18 +336,26 @@ export default function ResearchDiscovery({
             opacity: 0.45,
           }}
         >
-          <p className="text-[0.9rem]">No entries match.</p>
-          <button
-            type="button"
-            onClick={() => {
-              setQuery('');
-              setFilter('all');
-            }}
-            className="mt-3 text-[0.7rem] uppercase transition-colors hover:text-[var(--color-sacred-gold)]"
-            style={{ letterSpacing: '0.22em' }}
-          >
-            Reset →
-          </button>
+          <p className="text-[0.9rem]">
+            {semanticLoading
+              ? 'Searching…'
+              : semanticError
+              ? `Search error: ${semanticError}`
+              : 'No entries match.'}
+          </p>
+          {!semanticLoading && (
+            <button
+              type="button"
+              onClick={() => {
+                setQuery('');
+                setFilter('all');
+              }}
+              className="mt-3 text-[0.7rem] uppercase transition-colors hover:text-[var(--color-sacred-gold)]"
+              style={{ letterSpacing: '0.22em' }}
+            >
+              Reset →
+            </button>
+          )}
         </div>
       )}
     </div>
