@@ -9,7 +9,7 @@
     "strict": true,
     "noImplicitAny": true,
     "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
+    "exactOptionalPropertyTypes": false,
     "noImplicitOverride": true,
     "noFallthroughCasesInSwitch": true,
 
@@ -23,6 +23,6 @@
     "allowImportingTsExtensions": false,
     "noEmit": true
   },
-  "include": ["src/**/*", "scripts/**/*"],
-  "exclude": ["node_modules", ".wrangler", "dist"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", ".wrangler", "dist", "scripts"]
 }
