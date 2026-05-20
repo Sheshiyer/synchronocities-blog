@@ -1,0 +1,92 @@
+# Cloudflare Workers config for the synchronocities AI service.
+#
+# Multi-model NVIDIA NIM router exposing semantic-search, related-posts,
+# auto-summarization, concept-clustering, reranking, and RAG-chat endpoints
+# to the static Astro frontend.
+#
+# Production secrets: `wrangler secret put NVIDIA_API_KEY`
+# Local dev secrets: copy .dev.vars.example → .dev.vars (gitignored)
+
+name = "synchronocities-ai"
+main = "src/index.ts"
+compatibility_date = "2026-05-20"
+compatibility_flags = ["nodejs_compat"]
+
+# Custom route — wire to api.synchronocities.tryambakam.com after DNS is set
+# routes = [
+#   { pattern = "api.synchronocities.tryambakam.com/*", zone_name = "tryambakam.com" }
+# ]
+
+# Default observability — Logpush + Tail
+[observability]
+enabled = true
+head_sampling_rate = 1.0
+
+# ────────────────────────────────────────────────────────────────────────────
+# BINDINGS — non-secret config wired into the Worker runtime
+# ────────────────────────────────────────────────────────────────────────────
+
+[vars]
+NIM_BASE_URL = "https://integrate.api.nvidia.com/v1"
+# Model selection — overridable per-surface in src/routing.ts
+NIM_EMBED_MODEL  = "nvidia/nv-embedqa-mistral-7b-v2"   # 4096-d retrieval embedding
+NIM_CHAT_MODEL   = "nvidia/llama-3.1-nemotron-70b-instruct"
+NIM_RERANK_MODEL = "nvidia/llama-3.2-nv-rerankqa-1b-v2"
+NIM_CLUSTER_LABEL_MODEL = "meta/llama-3.3-70b-instruct"  # cheaper; cluster-naming task
+CORPUS_VERSION = "1"   # bump to invalidate all cached embeddings
+
+# ────────────────────────────────────────────────────────────────────────────
+# VECTORIZE — Cloudflare's managed vector index
+# Create with: wrangler vectorize create synchronocities-corpus \
+#              --dimensions=4096 --metric=cosine
+# ────────────────────────────────────────────────────────────────────────────
+
+[[vectorize]]
+binding = "CORPUS_INDEX"
+index_name = "synchronocities-corpus"
+
+# ────────────────────────────────────────────────────────────────────────────
+# KV — query cache + rate-limit counters
+# Create with: wrangler kv:namespace create CACHE
+# Then paste the id below.
+# ────────────────────────────────────────────────────────────────────────────
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "REPLACE_AFTER_WRANGLER_CREATE"
+
+# ────────────────────────────────────────────────────────────────────────────
+# R2 — durable storage for cluster artifacts + per-post summary outputs
+# Create with: wrangler r2 bucket create synchronocities-artifacts
+# ────────────────────────────────────────────────────────────────────────────
+
+[[r2_buckets]]
+binding = "ARTIFACTS"
+bucket_name = "synchronocities-artifacts"
+
+# ────────────────────────────────────────────────────────────────────────────
+# QUEUES — async fan-out for batched embedding jobs
+# Create with: wrangler queues create synchronocities-embed-jobs
+# ────────────────────────────────────────────────────────────────────────────
+
+[[queues.producers]]
+binding = "EMBED_QUEUE"
+queue = "synchronocities-embed-jobs"
+
+[[queues.consumers]]
+queue = "synchronocities-embed-jobs"
+max_batch_size = 8     # NIM embed batch sweet-spot for 7B model
+max_batch_timeout = 10
+max_retries = 3
+dead_letter_queue = "synchronocities-embed-dlq"
+
+# ────────────────────────────────────────────────────────────────────────────
+# RATE LIMITING — burst protection for /chat (public-facing RAG)
+# Cloudflare's native limiter, separate from KV-based application rate-limits
+# ────────────────────────────────────────────────────────────────────────────
+
+[[unsafe.bindings]]
+name = "CHAT_RATE_LIMIT"
+type = "ratelimit"
+namespace_id = "1001"
+simple = { limit = 20, period = 60 }   # 20 chat requests per minute per key

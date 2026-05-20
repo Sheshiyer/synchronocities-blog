@@ -1,0 +1,22 @@
+{
+  "name": "synchronocities-ai",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "NVIDIA NIM multi-model router for the synchronocities blog. Cloudflare Workers.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "typegen": "wrangler types",
+    "models:list": "bun scripts/list-models.ts",
+    "corpus:embed": "bun scripts/trigger-embed-batch.ts",
+    "corpus:cluster": "bun scripts/trigger-cluster.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260520.0",
+    "typescript": "^5.7.0",
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+# Local development secrets for `wrangler dev`.
+# Copy this file to `.dev.vars` (gitignored) and fill in real values.
+#
+# Production: use `wrangler secret put NVIDIA_API_KEY` instead.
+
+# NVIDIA NIM API key — get from https://build.nvidia.com/
+# Same key authenticates against integrate.api.nvidia.com/v1/*
+NVIDIA_API_KEY=nvapi-REPLACE_ME
+
+# Optional: override model selection for local experimentation without
+# touching wrangler.toml [vars]. Leave commented to use the defaults.
+# NIM_EMBED_MODEL=nvidia/nv-embed-v1
+# NIM_CHAT_MODEL=meta/llama-3.3-70b-instruct
+# NIM_RERANK_MODEL=nvidia/nv-rerank-qa-mistral-4b-v3

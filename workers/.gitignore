@@ -1,0 +1,11 @@
+# Wrangler runtime + secrets
+.wrangler/
+.dev.vars
+.dev.vars.local
+
+# Build artifacts
+dist/
+*.log
+
+# Node
+node_modules/

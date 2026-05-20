@@ -35,3 +35,10 @@ pnpm-debug.log*
 *-baseline.png
 *-snapshot.md
 tmp-*.png
+
+# synchronocities-ai (Cloudflare Workers service)
+workers/.wrangler/
+workers/.dev.vars
+workers/.dev.vars.local
+workers/node_modules/
+workers/dist/
