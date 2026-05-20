@@ -16,6 +16,7 @@ import { embed, chat, rerank } from './lib/nim';
 import { runSurface, fanOut, withFailOpen, type RoutingConfig } from './lib/routing';
 import { handleEmbedBatch } from './routes/embed-batch';
 import { handleSearch } from './routes/search';
+import { handleRelated } from './routes/related';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -333,6 +334,16 @@ export default {
     // ─────────────────────────────────────────────────────────────────────
     if (path === '/search' && request.method === 'GET') {
       return handleSearch(request, env, _ctx);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // GET /related/:slug — related-posts recommendations.
+    // Fetches the post's stored vector, runs kNN excluding self, returns
+    // top-N most similar posts.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path.startsWith('/related/') && request.method === 'GET') {
+      const slug = path.slice('/related/'.length);
+      return handleRelated(request, env, _ctx, slug);
     }
 
     // ─────────────────────────────────────────────────────────────────────
