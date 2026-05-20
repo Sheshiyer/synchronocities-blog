@@ -21,11 +21,18 @@ head_sampling_rate = 1.0
 
 [vars]
 NIM_BASE_URL = "https://integrate.api.nvidia.com/v1"
-# Model selection — overridable per-surface in src/routing.ts (phase B)
-NIM_EMBED_MODEL  = "nvidia/nv-embedqa-mistral-7b-v2"
-NIM_CHAT_MODEL   = "nvidia/llama-3.1-nemotron-70b-instruct"
-NIM_RERANK_MODEL = "nvidia/llama-3.2-nv-rerankqa-1b-v2"
-NIM_CLUSTER_LABEL_MODEL = "meta/llama-3.3-70b-instruct"
+
+# Model selection — chosen from this NIM key's accessible catalog (125 models).
+# Two-tier chat (expensive synthesis + cheap utility) since the catalog has
+# no dedicated rerank model — utility tier doubles as LLM-as-judge reranker.
+# Overridable per-surface in src/routing.ts (phase B).
+
+NIM_EMBED_MODEL  = "nvidia/nv-embedqa-mistral-7b-v2"          # 7B, 4096-d retrieval-optimized
+NIM_CHAT_MODEL   = "nvidia/llama-3.3-nemotron-super-49b-v1.5" # MoE 49B, instruction+reasoning, primary synthesis
+NIM_RERANK_MODEL = "nvidia/nemotron-nano-3-30b-a3b"           # MoE 30B (~3B active), LLM-as-judge rerank
+NIM_CLUSTER_LABEL_MODEL = "nvidia/nemotron-nano-3-30b-a3b"    # same cheap model — cluster naming
+NIM_SAFETY_MODEL = "nvidia/llama-3.1-nemoguard-8b-content-safety"  # phase-B input moderation on /chat
+
 CORPUS_VERSION = "1"
 
 # ────────────────────────────────────────────────────────────────────────────

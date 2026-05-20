@@ -22,6 +22,7 @@ export interface Env {
   NIM_CHAT_MODEL: string;
   NIM_RERANK_MODEL: string;
   NIM_CLUSTER_LABEL_MODEL: string;
+  NIM_SAFETY_MODEL: string;
   CORPUS_VERSION: string;
 
   // Bindings
@@ -56,6 +57,7 @@ export default {
             chat: env.NIM_CHAT_MODEL,
             rerank: env.NIM_RERANK_MODEL,
             cluster_label: env.NIM_CLUSTER_LABEL_MODEL,
+            safety: env.NIM_SAFETY_MODEL,
           },
         },
         { headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
