@@ -1,24 +1,19 @@
 /**
  * synchronocities-ai — Cloudflare Worker entry point.
  *
- * Multi-model NVIDIA NIM router. Each surface (semantic-search, related-posts,
- * llm-summary, canonical-questions, concept-clustering, rerank, rag-chat) maps
- * to a (model, params) pair declared in src/routing.ts. Endpoints fan out
- * non-linearly via Promise.allSettled — no surface blocks any other.
+ * PHASE A (current): minimal — exposes /models which proxies NIM's catalog
+ * so we can pick the embed/chat/rerank trio for the full service.
  *
- * Routes (final shape; handlers wired in subsequent tasks):
- *   GET  /                          → service info + model selection
- *   GET  /healthz                   → liveness probe
- *   GET  /search?q=...              → semantic search
- *   GET  /related/:slug             → related posts for a given slug
- *   POST /chat                      → RAG-with-corpus (streaming SSE)
- *   POST /embed/batch               → reindex the corpus (auth-gated)
- *   POST /generate/summary          → auto-generate llm.summary + questions
- *   POST /maps/cluster              → cluster the corpus by embedding
+ * PHASE B (subsequent tasks): adds /search, /related/:slug, /chat (SSE),
+ * /embed/batch, /generate/summary, /maps/cluster. Non-linear fan-out via
+ * Promise.allSettled. Routing layer maps surface → {model, params, cache_ttl}.
+ *
+ * Secrets: `wrangler secret put NVIDIA_API_KEY` (one-time, prompted).
+ * Local dev: `wrangler dev --remote` reuses the remote secret.
  */
 
 export interface Env {
-  // Secrets (from .dev.vars locally, `wrangler secret put` in prod)
+  // Secret (from `wrangler secret put NVIDIA_API_KEY`)
   NVIDIA_API_KEY: string;
 
   // Vars (from wrangler.toml [vars])
@@ -30,48 +25,83 @@ export interface Env {
   CORPUS_VERSION: string;
 
   // Bindings
-  CORPUS_INDEX: VectorizeIndex;
   CACHE: KVNamespace;
-  ARTIFACTS: R2Bucket;
-  EMBED_QUEUE: Queue;
-  CHAT_RATE_LIMIT: RateLimit;
 }
+
+const JSON_HEADERS = { 'Content-Type': 'application/json' };
+const CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+};
 
 export default {
   async fetch(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
+    if (request.method === 'OPTIONS') {
+      return new Response(null, { headers: CORS_HEADERS });
+    }
+
     const url = new URL(request.url);
     const path = url.pathname;
 
-    // Route table — kept inline at this scaffolding stage; will move to a
-    // dedicated router (itty-router or hono) once endpoints land.
     if (path === '/' || path === '/healthz') {
-      return Response.json({
-        service: 'synchronocities-ai',
-        status: 'ok',
-        corpus_version: env.CORPUS_VERSION,
-        models: {
-          embed: env.NIM_EMBED_MODEL,
-          chat: env.NIM_CHAT_MODEL,
-          rerank: env.NIM_RERANK_MODEL,
-          cluster_label: env.NIM_CLUSTER_LABEL_MODEL,
+      return Response.json(
+        {
+          service: 'synchronocities-ai',
+          phase: 'A',
+          status: 'ok',
+          corpus_version: env.CORPUS_VERSION,
+          models: {
+            embed: env.NIM_EMBED_MODEL,
+            chat: env.NIM_CHAT_MODEL,
+            rerank: env.NIM_RERANK_MODEL,
+            cluster_label: env.NIM_CLUSTER_LABEL_MODEL,
+          },
         },
+        { headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+      );
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // GET /models — proxy NIM's catalog. The deployed Worker has the
+    // NVIDIA_API_KEY via Workers Secrets; the response is the raw NIM JSON
+    // so we can categorize models on the orchestrator side.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/models' && request.method === 'GET') {
+      if (!env.NVIDIA_API_KEY) {
+        return Response.json(
+          { error: 'NVIDIA_API_KEY secret not set on this Worker' },
+          { status: 500, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+        );
+      }
+
+      const cacheKey = `nim:models:v1`;
+      const cached = await env.CACHE.get(cacheKey);
+      if (cached) {
+        return new Response(cached, {
+          headers: { ...JSON_HEADERS, ...CORS_HEADERS, 'X-Cache': 'HIT' },
+        });
+      }
+
+      const upstream = await fetch(`${env.NIM_BASE_URL}/models`, {
+        headers: { Authorization: `Bearer ${env.NVIDIA_API_KEY}`, Accept: 'application/json' },
+      });
+
+      const body = await upstream.text();
+      if (upstream.ok) {
+        await env.CACHE.put(cacheKey, body, { expirationTtl: 3600 });
+      }
+
+      return new Response(body, {
+        status: upstream.status,
+        headers: { ...JSON_HEADERS, ...CORS_HEADERS, 'X-Cache': 'MISS' },
       });
     }
 
-    // All surface endpoints land here in subsequent tasks (#5–#10).
+    // Surface endpoints land here in tasks #5–#10.
     return Response.json(
-      { error: 'not_implemented', path, note: 'scaffold stage — endpoints land in tasks #5–#10' },
-      { status: 501 },
+      { error: 'not_implemented', path, note: 'phase A — only /models is live' },
+      { status: 501, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
     );
   },
-
-  // Queue consumer for batched embedding jobs (wired in task #5).
-  async queue(_batch: MessageBatch<unknown>, _env: Env): Promise<void> {
-    // Implemented in task #5 (POST /embed/batch)
-  },
 };
-
-// Type augmentation for Cloudflare RateLimit binding (not in @cloudflare/workers-types yet)
-export interface RateLimit {
-  limit: (options: { key: string }) => Promise<{ success: boolean }>;
-}
