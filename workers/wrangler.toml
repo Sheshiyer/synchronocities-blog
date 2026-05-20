@@ -28,6 +28,8 @@ NIM_BASE_URL = "https://integrate.api.nvidia.com/v1"
 #
 # Notable findings during discovery:
 #   • nv-embedqa-mistral-7b-v2 (the "obvious" choice) → 404 on this tier
+#   • nv-embed-v1 (4096-d) → works, but EXCEEDS Cloudflare Vectorize cap
+#     (1536-d max). Swapped to nv-embedqa-e5-v5 (1024-d) which fits.
 #   • nemotron-super-49b-v1.5 → returns empty content (reasoning model puts
 #     output in reasoning_content; wrapper would need handling to use it)
 #   • nemotron-nano-3-30b-a3b → model does not exist
@@ -35,13 +37,14 @@ NIM_BASE_URL = "https://integrate.api.nvidia.com/v1"
 #
 # Overridable per-surface in src/routing.ts (phase B).
 
-NIM_EMBED_MODEL         = "nvidia/nv-embed-v1"                            # 4096-d, 1213ms — retrieval-optimized
+NIM_EMBED_MODEL         = "nvidia/nv-embedqa-e5-v5"                       # 1024-d, 585ms — fits Vectorize cap (1536-d max)
 NIM_CHAT_MODEL          = "meta/llama-3.3-70b-instruct"                   # 70B, 387ms — primary synthesis
 NIM_RERANK_MODEL        = "nvidia/nemotron-mini-4b-instruct"              # 4B, 405ms — LLM-as-judge rerank
 NIM_CLUSTER_LABEL_MODEL = "nvidia/nemotron-mini-4b-instruct"              # same cheap model — cluster naming
 NIM_SAFETY_MODEL        = "nvidia/llama-3.1-nemoguard-8b-content-safety"  # 453ms — content moderation on /chat
 
-CORPUS_VERSION = "1"
+# Bumped to 2 after the embed model swap (1024-d invalidates all 4096-d cached vectors)
+CORPUS_VERSION = "2"
 
 # ────────────────────────────────────────────────────────────────────────────
 # KV — query cache (binds to existing CACHE namespace from `wrangler kv namespace list`)
@@ -56,10 +59,10 @@ preview_id = "d841c52982cb4ae3917975bdd1061ce0"
 # PHASE-B BINDINGS — re-enable after running setup commands in README
 # ────────────────────────────────────────────────────────────────────────────
 
-# [[vectorize]]
-# binding = "CORPUS_INDEX"
-# index_name = "synchronocities-corpus"
-# # Create with: wrangler vectorize create synchronocities-corpus --dimensions=4096 --metric=cosine
+[[vectorize]]
+binding = "CORPUS_INDEX"
+index_name = "synchronocities-corpus"
+# Created with: wrangler vectorize create synchronocities-corpus --dimensions=1024 --metric=cosine
 
 # [[r2_buckets]]
 # binding = "ARTIFACTS"

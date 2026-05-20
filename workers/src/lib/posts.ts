@@ -1,0 +1,99 @@
+/**
+ * Post payload shape and helpers shared between the indexer script and
+ * the /embed/batch endpoint.
+ *
+ * The indexer reads src/content/posts/*.md, parses frontmatter + body,
+ * computes a content hash, and POSTs an array of these payloads. The
+ * endpoint validates, embeds, and upserts into Vectorize.
+ */
+
+export interface PostMetadata {
+  slug: string;
+  title: string;
+  /** Body markdown without frontmatter. May be empty for index-only posts. */
+  body: string;
+  /** Author-written excerpt, if present. */
+  excerpt?: string;
+  /** ISO date string. */
+  date?: string;
+  draft?: boolean;
+  hidden?: boolean;
+  tags?: string[];
+  concepts?: string[];
+  kosha?: string;
+  /** SHA-256 hex of the body — used for idempotent reindexing. */
+  contentHash: string;
+}
+
+export interface IndexBatchRequest {
+  posts: PostMetadata[];
+  /** Re-embed even if the content hash is unchanged. */
+  force?: boolean;
+  /** Max posts dispatched to NIM in parallel within one batch call. */
+  concurrency?: number;
+}
+
+export interface IndexBatchResponse {
+  total: number;
+  embedded: number;
+  skipped_unchanged: number;
+  skipped_draft: number;
+  errors: Array<{ slug: string; reason: string }>;
+  ms: number;
+}
+
+/**
+ * Build the text that gets embedded for a given post. Combines title,
+ * excerpt, and a body window. Sized to stay within the e5 family's
+ * 512-token cap: title + excerpt + first ~1200 chars body ≈ 400 tokens
+ * with ~100 token safety margin for tokenizer expansion of CJK/symbols.
+ *
+ * For better long-document retrieval, switch to chunked embeddings:
+ * split body into 400-token chunks, embed each, store as separate
+ * vectors with a `parent_slug` metadata field. Out of scope for phase A.
+ */
+const MAX_BODY_CHARS = 1200;
+
+export function buildEmbedText(post: PostMetadata): string {
+  const parts: string[] = [post.title];
+  if (post.excerpt) parts.push(post.excerpt);
+  if (post.body) {
+    // Strip markdown headers/lists/links to keep content density high in the window
+    const cleanedBody = post.body
+      .replace(/^#+\s+/gm, '') // headers
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // link text only
+      .replace(/```[\s\S]*?```/g, '') // code blocks
+      .replace(/^\s*[-*]\s+/gm, '') // list markers
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+    parts.push(cleanedBody.slice(0, MAX_BODY_CHARS));
+  }
+  return parts.join('\n\n');
+}
+
+/**
+ * Reduce a post's frontmatter to the metadata we store alongside its
+ * vector in Vectorize. Keep this lean — Vectorize metadata has byte limits
+ * and we don't want to bloat the index.
+ */
+export function buildVectorMetadata(post: PostMetadata): Record<string, string | number | boolean> {
+  const md: Record<string, string | number | boolean> = {
+    slug: post.slug,
+    title: post.title,
+    content_hash: post.contentHash,
+  };
+  if (post.date) md.date = post.date;
+  if (post.kosha) md.kosha = post.kosha;
+  if (post.tags?.length) md.tags = post.tags.join(',');
+  if (post.concepts?.length) md.concepts = post.concepts.join(',');
+  if (post.excerpt) md.excerpt = post.excerpt.slice(0, 500); // keep small
+  return md;
+}
+
+/**
+ * KV key for tracking the last-indexed content hash per post slug.
+ * Used by /embed/batch for idempotency — only re-embed when the hash changes.
+ */
+export function postHashCacheKey(slug: string, corpusVersion: string): string {
+  return `post-hash:v${corpusVersion}:${slug}`;
+}

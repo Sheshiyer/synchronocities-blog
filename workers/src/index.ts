@@ -14,6 +14,7 @@
 
 import { embed, chat, rerank } from './lib/nim';
 import { runSurface, fanOut, withFailOpen, type RoutingConfig } from './lib/routing';
+import { handleEmbedBatch } from './routes/embed-batch';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -30,6 +31,7 @@ export interface Env {
 
   // Bindings
   CACHE: KVNamespace;
+  CORPUS_INDEX: VectorizeIndex;
 }
 
 const JSON_HEADERS = { 'Content-Type': 'application/json' };
@@ -314,6 +316,31 @@ export default {
         { kind, results },
         { headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
       );
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // POST /embed/batch — corpus indexing endpoint. Reads request body of
+    // {posts: PostMetadata[]}, embeds each via NIM, upserts to Vectorize.
+    // Idempotent — skips posts whose contentHash matches the last index.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/embed/batch' && request.method === 'POST') {
+      return handleEmbedBatch(request, env, _ctx);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // GET /vectorize/info — returns the current Vectorize index stats.
+    // Useful for verifying upserts landed.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/vectorize/info' && request.method === 'GET') {
+      try {
+        const info = await env.CORPUS_INDEX.describe();
+        return Response.json(info, { headers: { ...JSON_HEADERS, ...CORS_HEADERS } });
+      } catch (err) {
+        return Response.json(
+          { error: err instanceof Error ? err.message : String(err) },
+          { status: 500, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+        );
+      }
     }
 
     // ─────────────────────────────────────────────────────────────────────
