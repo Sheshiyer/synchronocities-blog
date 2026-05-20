@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import CorpusChat from '../components/CorpusChat';
+---
+
+<BaseLayout title="Chat with the corpus">
+  <SiteHeader />
+
+  <main style="max-width: 720px; margin: 0 auto; padding: 1rem;">
+    <h1 style="margin-bottom: 0.5rem;">Chat with the corpus</h1>
+    <p style="opacity: 0.75; margin-bottom: 1.5rem; font-size: 0.95rem;">
+      Ask questions about anything in the 125-post corpus. Answers are
+      grounded in the posts themselves — citations attached. The model
+      will refuse to answer outside its domain rather than fabricate.
+    </p>
+
+    <CorpusChat client:only="react" />
+
+    <p style="margin-top: 2rem; opacity: 0.5; font-size: 0.85rem;">
+      Powered by NVIDIA NIM (llama-3.3-70b-instruct for synthesis,
+      nv-embedqa-e5-v5 for retrieval) on Cloudflare Workers.
+      Source: <a href="https://github.com/Sheshiyer/synchronocities-blog/tree/main/workers" style="color: inherit;">workers/</a>.
+    </p>
+  </main>
+</BaseLayout>
