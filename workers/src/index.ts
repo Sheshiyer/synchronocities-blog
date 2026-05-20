@@ -13,6 +13,7 @@
  */
 
 import { embed, chat, rerank } from './lib/nim';
+import { runSurface, fanOut, withFailOpen, type RoutingConfig } from './lib/routing';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -315,9 +316,122 @@ export default {
       );
     }
 
+    // ─────────────────────────────────────────────────────────────────────
+    // GET /test/routing — exercises the routing layer: cache miss + hit,
+    // fan-out fan-out across three surfaces in parallel, and fail-open
+    // for a deliberately bad input.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/test/routing' && request.method === 'GET') {
+      if (!env.NVIDIA_API_KEY) {
+        return Response.json({ error: 'NVIDIA_API_KEY not set' }, { status: 500 });
+      }
+
+      const config: RoutingConfig = env;
+
+      // 1. First call → cache MISS (will hit NIM)
+      const t1 = Date.now();
+      const first = await runSurface(
+        'embed.query',
+        { texts: ['inner fire of consciousness'] },
+        config,
+        { ctx: _ctx },
+      );
+      const firstMs = Date.now() - t1;
+
+      // 2. Second identical call → cache HIT (fast, no NIM)
+      const t2 = Date.now();
+      const second = await runSurface(
+        'embed.query',
+        { texts: ['inner fire of consciousness'] },
+        config,
+        { ctx: _ctx },
+      );
+      const secondMs = Date.now() - t2;
+
+      // 3. Fan-out — three surfaces in parallel
+      const fanOutResults = await fanOut(
+        [
+          {
+            surface: 'embed.query' as const,
+            input: { texts: ['matched-cavity principle'] },
+          },
+          {
+            surface: 'chat.summary' as const,
+            input: {
+              messages: [
+                { role: 'system', content: 'Reply in one sentence under 20 words.' },
+                { role: 'user', content: 'What is the pancha-kosha doctrine?' },
+              ],
+            },
+          },
+          {
+            surface: 'rerank.default' as const,
+            input: {
+              query: 'consciousness as substrate',
+              passages: [
+                'Awareness is the field within which preparation happens.',
+                'A Worker runs at the edge with no persistent state between requests.',
+                'The fire is the substrate from the beginning; the cavity holds it.',
+              ],
+            },
+          },
+        ],
+        config,
+        { ctx: _ctx },
+      );
+
+      // 4. Fail-open — feed an invalid model via direct call
+      const failOpenDemo = await withFailOpen(
+        chat(env, {
+          model: 'nonexistent/fake-model-1234',
+          messages: [{ role: 'user', content: 'hi' }],
+          max_tokens: 4,
+        }),
+        '(fell open to default — model failure swallowed)',
+        'fail-open-demo',
+      );
+
+      return Response.json(
+        {
+          cache_miss: {
+            dims: first[0]?.length,
+            count: first.length,
+            ms: firstMs,
+          },
+          cache_hit: {
+            dims: second[0]?.length,
+            count: second.length,
+            ms: secondMs,
+            speedup: firstMs > 0 ? +(firstMs / Math.max(secondMs, 1)).toFixed(1) : null,
+          },
+          fan_out: fanOutResults.map((r) => ({
+            surface: r.surface,
+            status: r.status,
+            ms: r.ms,
+            ...(r.status === 'fulfilled'
+              ? {
+                  preview:
+                    Array.isArray(r.value) && r.value[0] instanceof Float32Array
+                      ? `Float32Array[${r.value.length}] × ${(r.value[0] as Float32Array).length}d`
+                      : typeof r.value === 'string'
+                      ? (r.value as string).slice(0, 100)
+                      : JSON.stringify(r.value).slice(0, 120),
+                }
+              : { reason: r.reason }),
+          })),
+          fail_open: { result: failOpenDemo },
+        },
+        { headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+      );
+    }
+
     // Surface endpoints land here in tasks #5–#10.
     return Response.json(
-      { error: 'not_implemented', path, note: 'phase A — /models, /test/wrapper, /test/probe are live' },
+      {
+        error: 'not_implemented',
+        path,
+        note: 'phase A — /models, /test/wrapper, /test/probe, /test/routing are live',
+      },
       { status: 501, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
     );
   },
