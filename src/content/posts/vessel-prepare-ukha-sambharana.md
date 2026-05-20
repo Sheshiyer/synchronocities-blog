@@ -4,6 +4,7 @@ date: 2026-05-19T00:00:00.000Z
 revolution: 1
 draft: false
 excerpt: Five concentric sheaths, eleven preparation stages, one matched-cavity principle. The fire is the substrate. The work is the cavity.
+featured_image: /cards/sync-vessel-prepare.webp
 tags:
   - vedic
   - pancha-kosha
