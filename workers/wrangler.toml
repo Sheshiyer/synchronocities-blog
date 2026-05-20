@@ -85,3 +85,6 @@ bucket_name = "synchronocities-artifacts"
 # type = "ratelimit"
 # namespace_id = "1001"
 # simple = { limit = 20, period = 60 }
+# # Uncomment after testing /chat under load. Enforces 20 requests per
+# # minute per IP on /chat. Requires `unsafe-bindings` flag — Cloudflare's
+# # native limiter is currently in beta but stable enough for production.

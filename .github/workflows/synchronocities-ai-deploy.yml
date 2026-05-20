@@ -1,0 +1,85 @@
+name: synchronocities-ai deploy + index
+
+# Deploys the Cloudflare Worker on every push that touches workers/,
+# then re-indexes the corpus if any post content changed.
+#
+# Required secrets on the repo:
+#   CLOUDFLARE_API_TOKEN   — scoped: Workers Scripts: Edit, Vectorize: Edit,
+#                            KV Storage: Edit, R2: Edit, Account: Read
+#   CLOUDFLARE_ACCOUNT_ID  — same one shown by `wrangler whoami`
+#
+# Notes:
+#   - NVIDIA_API_KEY is NOT in repo secrets — it's a Worker Secret set once
+#     via `wrangler secret put NVIDIA_API_KEY` from the local machine
+#   - This workflow doesn't require the NVIDIA_API_KEY since `wrangler deploy`
+#     doesn't touch Worker Secrets; they're managed independently
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'workers/**'
+      - 'src/content/posts/**'
+      - '.github/workflows/synchronocities-ai-deploy.yml'
+  workflow_dispatch:
+    inputs:
+      reindex:
+        description: 'Force reindex all posts (ignores content hashes)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+jobs:
+  deploy:
+    name: Deploy Worker
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.modified, 'workers/') || contains(github.event.head_commit.added, 'workers/') || github.event_name == 'workflow_dispatch'
+    outputs:
+      worker_url: ${{ steps.deploy.outputs.url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Install dependencies
+        working-directory: workers
+        run: bun install --frozen-lockfile
+      - name: Deploy
+        id: deploy
+        working-directory: workers
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          bunx wrangler deploy
+          echo "url=https://synchronocities-ai.tirak-court.workers.dev" >> "$GITHUB_OUTPUT"
+
+  index:
+    name: Reindex corpus
+    runs-on: ubuntu-latest
+    needs: deploy
+    if: |
+      always() &&
+      (needs.deploy.result == 'success' || needs.deploy.result == 'skipped') &&
+      (contains(github.event.head_commit.modified, 'src/content/posts/') ||
+       contains(github.event.head_commit.added, 'src/content/posts/') ||
+       github.event_name == 'workflow_dispatch')
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Install workers deps (for the script)
+        working-directory: workers
+        run: bun install --frozen-lockfile
+      - name: Index corpus
+        working-directory: workers
+        run: |
+          if [ "${{ inputs.reindex }}" = "true" ]; then
+            bun scripts/index-corpus.ts --force
+          else
+            bun scripts/index-corpus.ts
+          fi
