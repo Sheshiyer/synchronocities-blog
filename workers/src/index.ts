@@ -19,6 +19,7 @@ import { handleSearch } from './routes/search';
 import { handleRelated } from './routes/related';
 import { handleGenerateSummary } from './routes/generate-summary';
 import { handleChat } from './routes/chat';
+import { handleMapsCluster } from './routes/maps-cluster';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -36,6 +37,7 @@ export interface Env {
   // Bindings
   CACHE: KVNamespace;
   CORPUS_INDEX: VectorizeIndex;
+  ARTIFACTS: R2Bucket;
 }
 
 const JSON_HEADERS = { 'Content-Type': 'application/json' };
@@ -361,6 +363,14 @@ export default {
     // ─────────────────────────────────────────────────────────────────────
     if (path === '/chat' && request.method === 'POST') {
       return handleChat(request, env, _ctx);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // GET/POST /maps/cluster — concept clustering across the corpus.
+    // POST: recompute (~30s). GET: return last-computed artifact from R2.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/maps/cluster' && (request.method === 'GET' || request.method === 'POST')) {
+      return handleMapsCluster(request, env, _ctx);
     }
 
     // ─────────────────────────────────────────────────────────────────────

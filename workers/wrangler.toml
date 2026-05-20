@@ -64,10 +64,10 @@ binding = "CORPUS_INDEX"
 index_name = "synchronocities-corpus"
 # Created with: wrangler vectorize create synchronocities-corpus --dimensions=1024 --metric=cosine
 
-# [[r2_buckets]]
-# binding = "ARTIFACTS"
-# bucket_name = "synchronocities-artifacts"
-# # Create with: wrangler r2 bucket create synchronocities-artifacts
+[[r2_buckets]]
+binding = "ARTIFACTS"
+bucket_name = "synchronocities-artifacts"
+# Created with: wrangler r2 bucket create synchronocities-artifacts
 
 # [[queues.producers]]
 # binding = "EMBED_QUEUE"
