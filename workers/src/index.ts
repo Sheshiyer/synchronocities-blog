@@ -18,6 +18,7 @@ import { handleEmbedBatch } from './routes/embed-batch';
 import { handleSearch } from './routes/search';
 import { handleRelated } from './routes/related';
 import { handleGenerateSummary } from './routes/generate-summary';
+import { handleChat } from './routes/chat';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -353,6 +354,13 @@ export default {
     // ─────────────────────────────────────────────────────────────────────
     if (path === '/generate/summary' && request.method === 'POST') {
       return handleGenerateSummary(request, env, _ctx);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // POST /chat — streaming RAG (SSE) with citations.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/chat' && request.method === 'POST') {
+      return handleChat(request, env, _ctx);
     }
 
     // ─────────────────────────────────────────────────────────────────────
