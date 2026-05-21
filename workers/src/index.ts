@@ -20,6 +20,7 @@ import { handleRelated } from './routes/related';
 import { handleGenerateSummary } from './routes/generate-summary';
 import { handleChat } from './routes/chat';
 import { handleMapsCluster } from './routes/maps-cluster';
+import { handleExpand } from './routes/expand';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -371,6 +372,14 @@ export default {
     // ─────────────────────────────────────────────────────────────────────
     if (path === '/maps/cluster' && (request.method === 'GET' || request.method === 'POST')) {
       return handleMapsCluster(request, env, _ctx);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // POST /expand — expand a post body to ~4x via the 70B chat model.
+    // Splits on ## headers, expands each section in parallel, stitches.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/expand' && request.method === 'POST') {
+      return handleExpand(request, env, _ctx);
     }
 
     // ─────────────────────────────────────────────────────────────────────
