@@ -41,6 +41,24 @@ interface ExpandRequest {
   bypass_cache?: boolean;
 }
 
+interface ExpandSectionRequest {
+  slug: string;
+  title: string;
+  /** The section header line including ## prefix. */
+  header: string;
+  /** The body content of the section (without the header). */
+  content: string;
+}
+
+interface ExpandSectionResponse {
+  slug: string;
+  header: string;
+  original_words: number;
+  expanded_words: number;
+  expanded_content: string;
+  meta: { ms: number; model: string };
+}
+
 interface ExpandResponse {
   slug: string;
   original_words: number;
@@ -192,6 +210,54 @@ export async function handleExpand(
   );
 
   return Response.json(response, { headers: CORS_HEADERS });
+}
+
+// ============================================================================
+// Per-section endpoint — caller orchestrates section-by-section expansion.
+// One NIM call per request → fits comfortably under Cloudflare's 100s inbound
+// HTTP timeout, no matter how many sections a post has.
+// ============================================================================
+
+export async function handleExpandSection(
+  request: Request,
+  env: Env,
+  _ctx: ExecutionContext,
+): Promise<Response> {
+  if (request.method !== 'POST') {
+    return Response.json({ error: 'method_not_allowed' }, { status: 405, headers: CORS_HEADERS });
+  }
+  let body: ExpandSectionRequest;
+  try {
+    body = (await request.json()) as ExpandSectionRequest;
+  } catch {
+    return Response.json({ error: 'invalid_json' }, { status: 400, headers: CORS_HEADERS });
+  }
+  if (!body.slug || !body.title || body.content === undefined) {
+    return Response.json(
+      { error: 'slug, title, content required' },
+      { status: 400, headers: CORS_HEADERS },
+    );
+  }
+
+  const start = Date.now();
+  try {
+    const expanded = await expandSection(env, body.title, body.header ?? '', body.content);
+    const response: ExpandSectionResponse = {
+      slug: body.slug,
+      header: body.header ?? '',
+      original_words: countWords(body.content),
+      expanded_words: countWords(expanded),
+      expanded_content: expanded,
+      meta: { ms: Date.now() - start, model: env.NIM_CHAT_MODEL },
+    };
+    return Response.json(response, { headers: CORS_HEADERS });
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    return Response.json(
+      { error: 'expansion_failed', detail: msg.slice(0, 300) },
+      { status: 502, headers: CORS_HEADERS },
+    );
+  }
 }
 
 // ============================================================================

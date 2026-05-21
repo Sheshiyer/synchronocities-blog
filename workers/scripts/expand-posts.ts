@@ -94,6 +94,41 @@ function countWords(text: string): number {
   return text.trim().split(/\s+/).filter(Boolean).length;
 }
 
+// Mirror of the server-side splitSections (in src/routes/expand.ts)
+interface Section {
+  header: string;
+  content: string;
+  full: string;
+}
+
+function splitSections(body: string): Section[] {
+  const lines = body.split('\n');
+  const sections: Section[] = [];
+  let currentHeader = '';
+  let currentContent: string[] = [];
+
+  const flush = () => {
+    const content = currentContent.join('\n').trim();
+    if (currentHeader || content) {
+      const full = currentHeader ? `${currentHeader}\n\n${content}` : content;
+      sections.push({ header: currentHeader, content, full });
+    }
+  };
+
+  for (const line of lines) {
+    if (/^##\s+/.test(line) && !line.startsWith('###')) {
+      flush();
+      currentHeader = line;
+      currentContent = [];
+    } else {
+      currentContent.push(line);
+    }
+  }
+  flush();
+
+  return sections.filter((s) => s.header || s.content);
+}
+
 function parsePost(raw: string, slug: string): ParsedPost {
   const match = raw.match(/^(---\n[\s\S]*?\n---)\n?([\s\S]*)$/);
   if (!match) throw new Error(`no frontmatter delimiter in ${slug}`);
@@ -140,9 +175,12 @@ async function main() {
   // Sort by current word count (smallest first — those need the most expansion)
   candidates.sort((a, b) => a.bodyWordCount - b.bodyWordCount);
 
-  // Filter: if not --force, skip posts already >= 4500 words (basic threshold)
-  // The bg-agent posts started at ~1300-3000 words; 4500 is a fair "expanded" mark
-  const EXPANDED_THRESHOLD = 4500;
+  // Filter: if not --force, skip posts already >= 4000 words (threshold)
+  // The bg-agent posts started at ~1300-3000 words; 4000+ counts as
+  // meaningfully expanded (3-5× over the typical starting size). Lowered
+  // from 4500 because per-section failures can leave a post slightly under
+  // the strict 4× target but still substantially expanded.
+  const EXPANDED_THRESHOLD = 4000;
   const unexpanded = force
     ? candidates
     : candidates.filter((p) => p.bodyWordCount < EXPANDED_THRESHOLD);
@@ -176,61 +214,91 @@ async function main() {
     }
 
     try {
-      // 5-minute timeout per post — generous since some sections produce
-      // 2000+ token responses that the model can take 90-120s each on
-      const ac = new AbortController();
-      const timeout = setTimeout(() => ac.abort(), 5 * 60 * 1000);
+      // Client-side per-section orchestration. Avoids Cloudflare's 100s
+      // inbound HTTP cap that hit /expand on slow posts.
+      //
+      // Steps:
+      //   1. Split body locally on ## headers
+      //   2. Fire 1 request per section to /expand/section (parallel, up to 4)
+      //   3. Stitch back together with original headers
+      //   4. Write to disk
 
-      let res: Response;
-      try {
-        res = await fetch(`${BASE_URL}/expand`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            slug: post.slug,
-            title: post.title,
-            body: post.body,
-            target_multiplier: 4,
-            bypass_cache: force,
+      const sections = splitSections(post.body);
+      if (sections.length === 0) {
+        process.stdout.write('SKIP: no sections found\n');
+        continue;
+      }
+
+      // Per-section concurrency: 4 in flight at once (each <60s typically)
+      const PER_SECTION_CONCURRENCY = 4;
+      const expandedSections: string[] = new Array(sections.length).fill('');
+      let sectionFailures = 0;
+
+      for (let s = 0; s < sections.length; s += PER_SECTION_CONCURRENCY) {
+        const batch = sections.slice(s, s + PER_SECTION_CONCURRENCY);
+        const results = await Promise.allSettled(
+          batch.map(async (section, j) => {
+            const idx = s + j;
+            const ac = new AbortController();
+            const timeout = setTimeout(() => ac.abort(), 4 * 60 * 1000);
+            try {
+              const res = await fetch(`${BASE_URL}/expand/section`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  slug: post.slug,
+                  title: post.title,
+                  header: section.header,
+                  content: section.content,
+                }),
+                signal: ac.signal,
+              });
+              if (!res.ok) {
+                const text = await res.text();
+                throw new Error(`HTTP ${res.status}: ${text.slice(0, 150)}`);
+              }
+              const data = (await res.json()) as { expanded_content: string };
+              return { idx, expanded: data.expanded_content };
+            } finally {
+              clearTimeout(timeout);
+            }
           }),
-          signal: ac.signal,
-        });
-      } finally {
-        clearTimeout(timeout);
+        );
+
+        for (let j = 0; j < results.length; j++) {
+          const r = results[j]!;
+          const sectionIdx = s + j;
+          const section = sections[sectionIdx]!;
+          if (r.status === 'fulfilled') {
+            // Stitch: header + expanded content
+            expandedSections[sectionIdx] = section.header
+              ? `${section.header}\n\n${r.value.expanded}`
+              : r.value.expanded;
+          } else {
+            // Fail open: keep original section unchanged
+            sectionFailures++;
+            expandedSections[sectionIdx] = section.full;
+          }
+        }
       }
 
-      if (!res.ok) {
-        const text = await res.text();
-        throw new Error(`HTTP ${res.status}: ${text.slice(0, 200)}`);
-      }
-
-      const data = (await res.json()) as {
-        slug: string;
-        original_words: number;
-        expanded_words: number;
-        actual_multiplier: number;
-        expanded_body: string;
-        meta: { ms: number; sections_expanded: number; section_failures: number };
-      };
-
-      // Write back: original frontmatter + expanded body
-      const newContent = `${post.frontmatterRaw}\n\n${data.expanded_body.trim()}\n`;
+      const expandedBody = expandedSections.join('\n\n');
+      const expandedWordCount = expandedBody.split(/\s+/).filter(Boolean).length;
+      const newContent = `${post.frontmatterRaw}\n\n${expandedBody.trim()}\n`;
       await writeFile(join(POSTS_DIR, `${post.slug}.md`), newContent);
 
       const elapsed = Date.now() - t;
-      const meta =
-        data.meta.section_failures > 0
-          ? ` [${data.meta.section_failures} section failures]`
-          : '';
+      const actualMult = Math.round((expandedWordCount / Math.max(1, post.bodyWordCount)) * 100) / 100;
+      const failNote = sectionFailures > 0 ? ` [${sectionFailures}/${sections.length} sections failed]` : '';
       process.stdout.write(
-        `${data.original_words}w → ${data.expanded_words}w (${data.actual_multiplier}×, ${elapsed}ms)${meta}\n`,
+        `${post.bodyWordCount}w → ${expandedWordCount}w (${actualMult}×, ${elapsed}ms)${failNote}\n`,
       );
 
       results.push({
         slug: post.slug,
-        before: data.original_words,
-        after: data.expanded_words,
-        mult: data.actual_multiplier,
+        before: post.bodyWordCount,
+        after: expandedWordCount,
+        mult: actualMult,
         ms: elapsed,
       });
     } catch (err) {

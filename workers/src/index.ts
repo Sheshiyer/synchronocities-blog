@@ -20,7 +20,7 @@ import { handleRelated } from './routes/related';
 import { handleGenerateSummary } from './routes/generate-summary';
 import { handleChat } from './routes/chat';
 import { handleMapsCluster } from './routes/maps-cluster';
-import { handleExpand } from './routes/expand';
+import { handleExpand, handleExpandSection } from './routes/expand';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -380,6 +380,9 @@ export default {
     // ─────────────────────────────────────────────────────────────────────
     if (path === '/expand' && request.method === 'POST') {
       return handleExpand(request, env, _ctx);
+    }
+    if (path === '/expand/section' && request.method === 'POST') {
+      return handleExpandSection(request, env, _ctx);
     }
 
     // ─────────────────────────────────────────────────────────────────────
