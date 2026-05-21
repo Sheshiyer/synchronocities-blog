@@ -176,17 +176,28 @@ async function main() {
     }
 
     try {
-      const res = await fetch(`${BASE_URL}/expand`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          slug: post.slug,
-          title: post.title,
-          body: post.body,
-          target_multiplier: 4,
-          bypass_cache: force,
-        }),
-      });
+      // 5-minute timeout per post — generous since some sections produce
+      // 2000+ token responses that the model can take 90-120s each on
+      const ac = new AbortController();
+      const timeout = setTimeout(() => ac.abort(), 5 * 60 * 1000);
+
+      let res: Response;
+      try {
+        res = await fetch(`${BASE_URL}/expand`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            slug: post.slug,
+            title: post.title,
+            body: post.body,
+            target_multiplier: 4,
+            bypass_cache: force,
+          }),
+          signal: ac.signal,
+        });
+      } finally {
+        clearTimeout(timeout);
+      }
 
       if (!res.ok) {
         const text = await res.text();
