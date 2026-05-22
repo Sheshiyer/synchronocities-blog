@@ -284,12 +284,33 @@ async function main() {
 
       const expandedBody = expandedSections.join('\n\n');
       const expandedWordCount = expandedBody.split(/\s+/).filter(Boolean).length;
-      const newContent = `${post.frontmatterRaw}\n\n${expandedBody.trim()}\n`;
-      await writeFile(join(POSTS_DIR, `${post.slug}.md`), newContent);
-
       const elapsed = Date.now() - t;
       const actualMult = Math.round((expandedWordCount / Math.max(1, post.bodyWordCount)) * 100) / 100;
       const failNote = sectionFailures > 0 ? ` [${sectionFailures}/${sections.length} sections failed]` : '';
+
+      // SAFETY GUARD: never write a result that would SHRINK the post.
+      // The model sometimes returns refusals or truncated text that, when
+      // stitched, totals fewer words than the original. Skip writing — the
+      // post stays at its current size and gets retried on the next pass.
+      const MIN_ACCEPT_MULTIPLIER = 1.5;
+      if (actualMult < MIN_ACCEPT_MULTIPLIER) {
+        process.stdout.write(
+          `REJECTED (shrink/under-expand): ${post.bodyWordCount}w → ${expandedWordCount}w (${actualMult}×)${failNote} — keeping original\n`,
+        );
+        results.push({
+          slug: post.slug,
+          before: post.bodyWordCount,
+          after: post.bodyWordCount,
+          mult: 1,
+          ms: elapsed,
+          error: `rejected: ${actualMult}× below ${MIN_ACCEPT_MULTIPLIER}× threshold`,
+        });
+        continue;
+      }
+
+      const newContent = `${post.frontmatterRaw}\n\n${expandedBody.trim()}\n`;
+      await writeFile(join(POSTS_DIR, `${post.slug}.md`), newContent);
+
       process.stdout.write(
         `${post.bodyWordCount}w → ${expandedWordCount}w (${actualMult}×, ${elapsed}ms)${failNote}\n`,
       );
