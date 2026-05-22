@@ -203,7 +203,8 @@ export function buildLlmsFullTxt(entries: PostEntryLike[], site: string, generat
     sections.push(`Foundational: ${record.foundational ? 'yes' : 'no'}`);
     if (record.card) sections.push(`Card: ${record.card}`);
     if (record.series) sections.push(`Series: ${record.series}`);
-    if (record.excerpt) sections.push(`Summary: ${record.excerpt}`);
+    const summary = record.llm.summary || record.excerpt;
+    if (summary) sections.push(`Summary: ${summary}`);
     if (record.tags.length > 0) sections.push(`Tags: ${record.tags.join(', ')}`);
     if (record.concepts.length > 0) sections.push(`Concepts: ${record.concepts.join(', ')}`);
     sections.push(`Read time: ${record.readTimeMinutes} min`);
