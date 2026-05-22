@@ -31,6 +31,35 @@ related_posts:
   - reality-compile-ancient-source
   - kha-ba-la-operational-compass
   - chakra-bioelectricity-mapping
+figures:
+  - id: vessel-header
+    anchor: the-cavity-precedes-the-flame
+    asset: /images/posts/vessel-prepare-ukha-sambharana/01-vessel-header.png
+    alt: Massive bold VESSEL letterforms rendered as brick-and-terracotta, golden flames rising inside the hollow negative space of each character, sacred sri-yantra geometry faint in the corners, four annotations across the top labeling ukha, agni, koshas, abhri, four foundation labels across the bottom for the ritual altar layers
+    caption: 'The vessel is what holds. Annotations name the four operative terms; the foundation labels point to what the altar is built from. TN-VES01.'
+    placement: after-section
+    reveal: always
+  - id: matched-cavity-hollow
+    anchor: the-matched-cavity-principle
+    asset: /images/posts/vessel-prepare-ukha-sambharana/02-matched-cavity-hollow.png
+    alt: Bold HOLLOW letterforms rendered as bamboo with each letter's central channel showing through, golden fire-tongues threading vertically through the hollow cavity inside each character, bamboo node-bands visible as horizontal constrictions, an abhri-spade diagram top-left, a prana-flow spiral diagram top-right, four Devanagari-labeled annotations along the bottom for sa-yonitvaya, vyamamatri, sushira, chandas, with a detailed bamboo cross-section centered at the base
+    caption: 'The seeker''s hollow must match the hollow of what is sought. Sa-yonitvaya — for sameness-of-womb. TN-VES02.'
+    placement: after-section
+    reveal: always
+  - id: karmic-axis
+    anchor: the-karmic-axis-a-productive-overlay
+    asset: /images/posts/vessel-prepare-ukha-sambharana/03-karmic-axis.png
+    alt: Bold AXIS letterforms in cosmic indigo and gold, each character split vertically with star-constellation textures in the upper half and earthy mountain anthill textures in the lower half, golden spines running down the middle of each letter from heaven to earth, a horse-vajra creature crackling with lightning rendered across the center of the composition as the bridging body, a serpent-head Rahu glyph at the top, a comet-tail Ketu glyph at the bottom, five annotations labeling dyaus, prithivi, rahu, ketu, and vajra
+    caption: 'The fire burns along an axis. Ketu pole below, Rahu pole above, the vajra-body bridges. A productive overlay, not a Vedic claim. TN-VES03.'
+    placement: after-section
+    reveal: always
+  - id: engineered-obsolescence
+    anchor: engineered-obsolescence
+    asset: /images/posts/vessel-prepare-ukha-sambharana/04-engineered-obsolescence.png
+    alt: Bold BROKEN letterforms in dark terracotta clay color visibly shattering apart with ceramic fragments dispersing into the negative space, a brilliant golden fire-column rising vertically through the center of the broken type up into the sky, a ghost-image of an intact ukha-pot rendered as a faint blueprint at the bottom showing what the vessel was before breaking, five annotations labeling ukha, agni, samvatsara, visarjana, and operator
+    caption: 'The vessel that did its work correctly is dismantled precisely because it did its work correctly. The operator is the only thing that remains. TN-VES04.'
+    placement: closing
+    reveal: always
 llm:
   cluster: consciousness-architecture
   summary: >
