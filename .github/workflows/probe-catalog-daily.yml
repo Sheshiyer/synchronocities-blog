@@ -1,0 +1,116 @@
+name: probe NIM catalog (daily snapshot)
+
+# Daily pre-flight probe of the NVIDIA NIM catalog. Writes a fresh
+# .reachable-models.txt + .catalog-probe.{json,md} to the repo so every
+# downstream script (expand-posts.ts, eval-embed.py, anything that calls
+# NIM models) can pre-check whether a model is actually invokable
+# before kicking off a full pass.
+#
+# This catches catalog drift — models that show in /v1/models but return
+# 404 on actual invocation. We've hit this repeatedly:
+#   - nvidia/nv-embedqa-mistral-7b-v2     listed, returns 404
+#   - nvidia/llama-3.1-nemotron-70b       listed, returns 404
+#   - all writer/palmyra-*                 listed, return 404
+# Running this probe daily means downstream scripts always have a
+# < 24h-old reachability snapshot to gate against.
+#
+# Secrets required: CLOUDFLARE_API_TOKEN scoped to allow the Worker to
+# accept incoming requests (already configured for the deploy workflow).
+# NVIDIA_API_KEY stays in the Worker's Secrets — never touched here.
+#
+# Commit hygiene: probe artifacts go in a single commit with `[skip ci]`
+# in the message so the synchronocities-ai-deploy.yml workflow doesn't
+# re-deploy on every probe change.
+
+on:
+  schedule:
+    # 04:00 UTC daily — quiet window across most time zones
+    - cron: '0 4 * * *'
+  workflow_dispatch:   # allow manual runs from the Actions tab
+
+permissions:
+  contents: write    # required to commit artifact changes back to main
+
+# Keep at most one probe in flight; queue new runs.
+concurrency:
+  group: probe-catalog
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    name: Probe NIM catalog
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Need full history so the auto-commit can push back to main
+          fetch-depth: 0
+          # Use a token that can push (default GITHUB_TOKEN has contents:write
+          # via the workflow-level permissions block above)
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install workers deps
+        working-directory: workers
+        run: bun install --frozen-lockfile
+
+      - name: Run probe
+        working-directory: workers
+        run: bun scripts/probe-catalog.ts --concurrency=8
+
+      - name: Check for artifact changes
+        id: diff
+        run: |
+          if git diff --quiet workers/.reachable-models.txt workers/.catalog-probe.json workers/.catalog-probe.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "▸ No catalog changes since last run."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "▸ Catalog drift detected — committing snapshot."
+          fi
+
+      - name: Summarize reachability shift
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          before_count=$(git show HEAD:workers/.reachable-models.txt 2>/dev/null | grep -c . || echo 0)
+          after_count=$(grep -c . workers/.reachable-models.txt || echo 0)
+          echo "Reachable models: $before_count → $after_count"
+
+          # Surface added/removed model ids (small diff in the workflow log)
+          echo ""
+          echo "Newly reachable:"
+          comm -13 <(git show HEAD:workers/.reachable-models.txt 2>/dev/null | sort) \
+                   <(sort workers/.reachable-models.txt) | sed 's/^/  + /'
+          echo ""
+          echo "No longer reachable:"
+          comm -23 <(git show HEAD:workers/.reachable-models.txt 2>/dev/null | sort) \
+                   <(sort workers/.reachable-models.txt) | sed 's/^/  - /'
+
+      - name: Commit + push snapshot
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          before_count=$(git show HEAD:workers/.reachable-models.txt 2>/dev/null | grep -c . || echo 0)
+          after_count=$(grep -c . workers/.reachable-models.txt || echo 0)
+
+          git add workers/.reachable-models.txt workers/.catalog-probe.json workers/.catalog-probe.md
+          git commit -m "chore(probe): daily NIM catalog snapshot — ${before_count} → ${after_count} reachable [skip ci]" \
+            -m "Auto-committed by .github/workflows/probe-catalog-daily.yml. [skip ci] suppresses the deploy workflow since these artifacts are diagnostic only — they don't change Worker behavior."
+          git push origin HEAD:main
+
+      - name: Upload artifact for the run (always)
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-probe-${{ github.run_id }}
+          path: |
+            workers/.reachable-models.txt
+            workers/.catalog-probe.json
+            workers/.catalog-probe.md
+          retention-days: 30

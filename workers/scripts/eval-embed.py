@@ -35,6 +35,7 @@ import yaml
 
 LOCAL = '--local' in sys.argv
 QUICK = '--quick' in sys.argv
+SKIP_REACHABILITY = '--skip-reachability-check' in sys.argv
 
 BASE_URL = 'http://localhost:8787' if LOCAL else 'https://synchronocities-ai.tirak-court.workers.dev'
 
@@ -46,6 +47,37 @@ CANDIDATES = [
 ]
 if QUICK:
     CANDIDATES = CANDIDATES[:1]
+
+# ─────────────────────────────────────────────────────────────────────────
+# Pre-flight reachability filter — drops candidates not in the snapshot.
+# Avoids wasting NIM calls on models that will 404. See companion script
+# workers/scripts/probe-catalog.ts which writes .reachable-models.txt.
+# ─────────────────────────────────────────────────────────────────────────
+
+def filter_reachable_candidates(candidates: list[str]) -> list[str]:
+    if SKIP_REACHABILITY:
+        print(f"⚠️  reachability check SKIPPED — --skip-reachability-check passed")
+        return candidates
+    snapshot = Path(__file__).resolve().parents[1] / '.reachable-models.txt'
+    if not snapshot.exists():
+        print(f"✗ Reachability snapshot missing: {snapshot}", file=sys.stderr)
+        print(f"  Run: bun workers/scripts/probe-catalog.ts", file=sys.stderr)
+        sys.exit(2)
+    age_hours = (time.time() - snapshot.stat().st_mtime) / 3600
+    reachable = {l.strip() for l in snapshot.read_text().splitlines() if l.strip()}
+    kept, dropped = [], []
+    for c in candidates:
+        (kept if c in reachable else dropped).append(c)
+    if dropped:
+        for d in dropped:
+            print(f"  ⏭  {d} — NOT in reachable snapshot, skipping")
+    if not kept:
+        print(f"✗ All candidates unreachable. Snapshot is {age_hours:.1f}h old.", file=sys.stderr)
+        sys.exit(2)
+    if age_hours > 48:
+        print(f"⚠️  reachability snapshot is {age_hours:.1f}h old (>48h); consider re-probing")
+    print(f"✓ {len(kept)}/{len(candidates)} candidates reachable (snapshot {age_hours:.1f}h old)")
+    return kept
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Paths + frontmatter parsing
@@ -165,6 +197,10 @@ def percentile(sorted_vals: list[float], p: float) -> float:
     return sorted_vals[f] * (c - k) + sorted_vals[c] * (k - f)
 
 def main():
+    print(f"▸ Pre-flight reachability gate")
+    candidates = filter_reachable_candidates(CANDIDATES)
+    print()
+
     print(f"▸ Loading corpus from {POSTS_DIR}")
     posts = load_posts()
     print(f"  {len(posts)} posts")
@@ -179,12 +215,12 @@ def main():
     queries = [pair['query'] for pair in pairs]
     expected = [pair['expected_slug'] for pair in pairs]
 
-    print(f"▸ Hitting {BASE_URL}/test/eval-embed for {len(CANDIDATES)} model(s)")
+    print(f"▸ Hitting {BASE_URL}/test/eval-embed for {len(candidates)} model(s)")
     print()
 
     results = []
 
-    for model in CANDIDATES:
+    for model in candidates:
         print(f"── {model}")
         # Embed passages
         t0 = time.time()

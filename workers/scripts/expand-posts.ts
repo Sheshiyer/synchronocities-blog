@@ -22,6 +22,7 @@
 
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join, basename } from 'node:path';
+import { requireReachability } from './lib/reachability';
 
 // ─────────────────────────────────────────────────────────────────────────
 // Args
@@ -32,6 +33,7 @@ const local = args.has('--local');
 const dryRun = args.has('--dry-run');
 const force = args.has('--force');
 const all = args.has('--all');
+const skipReachability = args.has('--skip-reachability-check');
 const limitArg = [...args].find((a) => a.startsWith('--limit='));
 const slugArg = [...args].find((a) => a.startsWith('--slug='));
 
@@ -41,6 +43,29 @@ const onlySlug = slugArg ? slugArg.split('=')[1] : null;
 const BASE_URL = local
   ? 'http://localhost:8787'
   : 'https://synchronocities-ai.tirak-court.workers.dev';
+
+// ─────────────────────────────────────────────────────────────────────────
+// Pre-flight: verify the Worker's configured chat model is reachable
+// before kicking off a full-batch pass. Catches catalog drift early.
+// Pass --skip-reachability-check to bypass (e.g., in CI smoke tests).
+// ─────────────────────────────────────────────────────────────────────────
+
+async function preflight(): Promise<void> {
+  const res = await fetch(`${BASE_URL}/healthz`);
+  if (!res.ok) {
+    console.error(`✗ /healthz returned ${res.status} — cannot verify Worker config. Bail.`);
+    process.exit(2);
+  }
+  const data = (await res.json()) as { models?: { chat?: string } };
+  const chatModel = data.models?.chat;
+  if (!chatModel) {
+    console.error(`✗ /healthz response missing models.chat. Cannot verify reachability.`);
+    process.exit(2);
+  }
+  requireReachability(chatModel, { skipCheck: skipReachability, label: `chat model (${chatModel})` });
+}
+
+await preflight();
 
 const POSTS_DIR = join(import.meta.dir, '..', '..', 'src', 'content', 'posts');
 
