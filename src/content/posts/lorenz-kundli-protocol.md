@@ -19,8 +19,6 @@ tags:
   - complex-systems
   - cluster:geometry
   - cluster:consciousness
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - lorenz attractor as kundli
   - chaos theory vedic astrology

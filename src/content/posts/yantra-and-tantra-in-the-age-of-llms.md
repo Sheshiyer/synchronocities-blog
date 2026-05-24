@@ -26,8 +26,6 @@ tags:
   - cluster:consciousness
   - cluster:geometry
   - tarot-01-magus
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - yantra as geometric processing unit
   - tantra as protocol specification

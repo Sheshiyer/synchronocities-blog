@@ -21,8 +21,6 @@ tags:
   - cluster:consciousness
   - cluster:biology
   - tarot-07-chariot
-article_mode: research-essay
-entry_kind: essay
 concepts:
   - bioelectric measurement
   - nadi balance

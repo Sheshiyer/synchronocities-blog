@@ -20,8 +20,6 @@ tags:
   - historical-narrative
   - cluster:critical-thinking
   - cluster:consciousness
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - cultural amnesia
   - epistemic erasure

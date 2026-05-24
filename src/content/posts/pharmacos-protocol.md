@@ -19,8 +19,6 @@ tags:
   - cluster:consciousness
   - cluster:psychology
   - tarot-20-judgement
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - pharmacos as garbage collection
   - projection as unconscious pharmacos

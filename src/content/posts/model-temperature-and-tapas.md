@@ -19,8 +19,6 @@ tags:
   - alchemy
   - cluster:consciousness
   - tarot-14-temperance
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - model temperature
   - tapas as disciplined heat

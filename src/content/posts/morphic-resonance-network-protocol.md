@@ -20,8 +20,6 @@ tags:
   - bergson
   - cluster:consciousness
   - cluster:biology
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - morphic resonance
   - formative causation

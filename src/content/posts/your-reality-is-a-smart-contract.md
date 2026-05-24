@@ -19,8 +19,6 @@ tags:
   - code
   - cluster:consciousness
   - cross-topic
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - smart contract as deployed code
   - mantra as sound-based contract

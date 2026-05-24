@@ -20,8 +20,6 @@ tags:
   - consciousness-compiler
   - cluster:sonic
   - cluster:consciousness
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - mantra as source code
   - speech act theory

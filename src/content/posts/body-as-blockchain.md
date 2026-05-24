@@ -19,8 +19,6 @@ tags:
   - trauma
   - cluster:consciousness
   - tarot-03-empress
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - body as distributed ledger
   - epigenetic memory

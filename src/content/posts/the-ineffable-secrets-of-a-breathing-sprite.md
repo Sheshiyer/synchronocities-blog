@@ -20,8 +20,6 @@ tags:
   - cluster:consciousness
   - cluster:biology
   - tarot-09-hermit
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - breath as interrupt
   - voluntary-involuntary interface

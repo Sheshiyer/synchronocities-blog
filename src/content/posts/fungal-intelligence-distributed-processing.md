@@ -18,8 +18,6 @@ tags:
   - wood-wide-web
   - cluster:consciousness
   - cluster:biology
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - mycelium as distributed processor
   - fungal network intelligence

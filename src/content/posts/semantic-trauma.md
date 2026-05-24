@@ -19,8 +19,6 @@ tags:
   - cluster:consciousness
   - cluster:neuroscience
   - tarot-18-moon
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - trauma as syntax error
   - narrative fragmentation

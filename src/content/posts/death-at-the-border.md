@@ -18,8 +18,6 @@ tags:
   - ksana
   - cluster:consciousness
   - tarot-13-death
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - death as threshold
   - apoptosis

@@ -19,8 +19,6 @@ tags:
   - transformer
   - cluster:consciousness
   - tarot-00-fool
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - three intelligence architectures
   - embodiment

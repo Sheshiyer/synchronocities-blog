@@ -19,8 +19,6 @@ tags:
   - cluster:consciousness
   - cluster:philosophy
   - tarot-02-high-priestess
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - qualia
   - first-person evidence

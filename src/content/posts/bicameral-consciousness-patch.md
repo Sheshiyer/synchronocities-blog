@@ -20,8 +20,6 @@ tags:
   - gebser
   - cluster:consciousness
   - cluster:critical-thinking
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - bicameral mind
   - julian jaynes

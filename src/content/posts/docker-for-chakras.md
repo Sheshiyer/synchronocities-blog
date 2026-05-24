@@ -19,8 +19,6 @@ tags:
   - cluster:consciousness
   - cluster:systems
   - tarot-21-world
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - containerization
   - chakra as container

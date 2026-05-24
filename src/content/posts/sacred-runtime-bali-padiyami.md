@@ -19,8 +19,6 @@ tags:
   - ritual
   - cluster:consciousness
   - tarot-12-hanged-man
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - calendrical garbage collection
   - scheduled preventive maintenance

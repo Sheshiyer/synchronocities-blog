@@ -20,8 +20,6 @@ tags:
   - generative-models
   - cluster:consciousness
   - cluster:biology
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - free energy principle
   - active inference

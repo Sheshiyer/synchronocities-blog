@@ -20,8 +20,6 @@ tags:
   - cluster:consciousness
   - cluster:geometry
   - cross-topic
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - yantra as geometric processing unit
   - triangle field as neural architecture

@@ -19,8 +19,6 @@ tags:
   - being-seen
   - cluster:consciousness
   - tarot-19-sun
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - recognition as creation
   - darśana

@@ -20,8 +20,6 @@ tags:
   - morphic-resonance
   - cluster:consciousness
   - cluster:physics
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - noetic aether
   - consciousness as substrate

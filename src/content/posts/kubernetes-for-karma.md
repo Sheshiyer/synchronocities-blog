@@ -22,8 +22,6 @@ tags:
   - pod-lifecycle
   - cluster:consciousness
   - tarot-10-fortune
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - kubernetes orchestration
   - karma as scheduler

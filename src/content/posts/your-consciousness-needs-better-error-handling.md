@@ -22,8 +22,6 @@ tags:
   - exception-handling
   - cluster:consciousness
   - tarot-16-tower
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - try-catch for consciousness
   - error logging without escalation

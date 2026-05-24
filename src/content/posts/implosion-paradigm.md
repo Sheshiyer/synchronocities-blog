@@ -20,8 +20,6 @@ tags:
   - cold-combustion
   - cluster:biology
   - cluster:consciousness
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - implosion paradigm
   - schauberger vortex

@@ -20,8 +20,6 @@ tags:
   - pollack
   - cluster:biology
   - cluster:consciousness
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - fourth phase water
   - exclusion zone EZ water

@@ -18,8 +18,6 @@ tags:
   - sacred-mathematics
   - cluster:geometry
   - cluster:consciousness
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - vortex-based mathematics
   - rodin coil

@@ -20,8 +20,6 @@ tags:
   - cluster:consciousness
   - cluster:biology
   - tarot-15-devil
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - addiction architecture
   - reward prediction error

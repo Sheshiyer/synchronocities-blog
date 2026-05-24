@@ -18,8 +18,6 @@ tags:
   - kernel
   - cluster:consciousness
   - cross-topic
-article_mode: signal-essay
-entry_kind: essay
 concepts:
   - permission systems in consciousness
   - user-mode versus root-mode perception
