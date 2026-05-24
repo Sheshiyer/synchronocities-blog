@@ -20,6 +20,10 @@ concepts:
   - spolski
 llm:
   cluster: enneagram
+  canonical_questions:
+    - What is the Spolski Endocrine Correspondence?
+    - How does the Spolski Framework map nine hormones to nine Muses?
+    - Why does the Spolski Framework treat the endocrine system as a consciousness compiler?
 ---
 
 # The Spolski Endocrine Framework: Chemical Archetypes in the Blood

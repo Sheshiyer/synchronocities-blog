@@ -7,7 +7,7 @@
       "expected_slug": "bangkok-initiation-samui-invitation"
     },
     {
-      "query": "How does this post encode direction, boundary, and travel rhythm?",
+      "query": "How do the Thoth Chariot in Bangkok and the Rider-Waite Fool in Samui differently encode vector and radius?",
       "expected_slug": "bangkok-initiation-samui-invitation"
     },
     {
@@ -35,7 +35,7 @@
       "expected_slug": "hyperbolic-mantra"
     },
     {
-      "query": "What is the difference between consciousness and self-consciousness?",
+      "query": "What are the sixteen perceptual lenses of the Noesis Engine?",
       "expected_slug": "introduction-to-tryambakam-noesis"
     },
     {
@@ -71,7 +71,7 @@
       "expected_slug": "muse-enneagram-framework-overview"
     },
     {
-      "query": "What is the Spolski Endocrine Correspondence?",
+      "query": "What is the 'map of maps' structure of the Muse-Enneagram framework?",
       "expected_slug": "muse-enneagram-framework-overview"
     },
     {
@@ -99,37 +99,23 @@
       "expected_slug": "spell-work-reservoir"
     },
     {
-      "query": "Why does Sri Yantra not fit on a flat plane?",
-      "expected_slug": "sri-yantra-geometry-that-doesnt-fit"
+      "query": "What is the Spolski Endocrine Correspondence?",
+      "expected_slug": "spolski-endocrine-framework"
     }
   ],
   "results": [
     {
       "model": "nvidia/nv-embedqa-e5-v5",
       "dims": 1024,
-      "passages_ms_total": 2229,
+      "passages_ms_total": 1082,
       "queries_ms_total": 981,
-      "recall_5": 0.88,
-      "recall_10": 0.92,
-      "mrr": 0.759047619047619,
-      "p50_score_ms": 11.95383071899414,
-      "p95_score_ms": 17.604589462280273,
-      "hits_5": 22,
-      "hits_10": 23,
-      "total_queries": 25
-    },
-    {
-      "model": "nvidia/nv-embed-v1",
-      "dims": 4096,
-      "passages_ms_total": 5160,
-      "queries_ms_total": 1403,
-      "recall_5": 0.88,
-      "recall_10": 0.92,
-      "mrr": 0.775,
-      "p50_score_ms": 52.50191688537598,
-      "p95_score_ms": 65.13819694519043,
-      "hits_5": 22,
-      "hits_10": 23,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "mrr": 0.8466666666666666,
+      "p50_score_ms": 11.633872985839844,
+      "p95_score_ms": 16.939735412597656,
+      "hits_5": 25,
+      "hits_10": 25,
       "total_queries": 25
     }
   ]

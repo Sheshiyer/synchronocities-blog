@@ -23,7 +23,7 @@ concepts:
 llm:
   cluster: consciousness-architecture
   canonical_questions:
-    - What is the difference between consciousness and self-consciousness?
+    - What are the sixteen perceptual lenses of the Noesis Engine?
     - What is the Noesis Engine and what does it do?
     - Why does optimizing habits fail to change underlying patterns?
     - What does it mean to rewrite your own operating system?

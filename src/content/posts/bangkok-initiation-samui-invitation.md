@@ -49,7 +49,7 @@ llm:
   cluster: thailand-journey
   canonical_questions:
     - What changed between the Bangkok initiation and the Samui invitation?
-    - How does this post encode direction, boundary, and travel rhythm?
+    - How do the Thoth Chariot in Bangkok and the Rider-Waite Fool in Samui differently encode vector and radius?
 ---
 
 ## Bangkok: Thoth Initiation

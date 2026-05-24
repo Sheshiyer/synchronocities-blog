@@ -32,7 +32,7 @@ llm:
   cluster: enneagram
   canonical_questions:
     - How do the nine Greek Muses map to the nine Enneagram types?
-    - What is the Spolski Endocrine Correspondence?
+    - What is the 'map of maps' structure of the Muse-Enneagram framework?
     - How does the Muse-Enneagram framework integrate biology, mythology, and astronomy?
     - Where should I start reading the Muse-Enneagram cluster?
 ---
