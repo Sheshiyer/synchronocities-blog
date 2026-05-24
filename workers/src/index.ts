@@ -214,6 +214,52 @@ export default {
     }
 
     // ─────────────────────────────────────────────────────────────────────
+    // POST /test/eval-embed — diagnostic: embed a batch of texts with an
+    // explicit model + input_type. Returns vectors + dims + ms. Used for
+    // offline trio-tuning evals (recall@5 across candidate embed models).
+    // Body: { texts: string[], model: string, input_type?: 'query'|'passage' }
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/test/eval-embed' && request.method === 'POST') {
+      if (!env.NVIDIA_API_KEY) {
+        return Response.json({ error: 'NVIDIA_API_KEY not set' }, { status: 500, headers: { ...JSON_HEADERS, ...CORS_HEADERS } });
+      }
+      let body: { texts?: string[]; model?: string; input_type?: 'query' | 'passage' };
+      try {
+        body = (await request.json()) as typeof body;
+      } catch {
+        return Response.json({ error: 'invalid_json' }, { status: 400, headers: { ...JSON_HEADERS, ...CORS_HEADERS } });
+      }
+      if (!body.texts?.length || !body.model) {
+        return Response.json({ error: 'texts and model required' }, { status: 400, headers: { ...JSON_HEADERS, ...CORS_HEADERS } });
+      }
+      const start = Date.now();
+      try {
+        const vectors = await embed(env, {
+          model: body.model,
+          texts: body.texts,
+          input_type: body.input_type ?? 'passage',
+        });
+        return Response.json(
+          {
+            model: body.model,
+            input_type: body.input_type ?? 'passage',
+            count: vectors.length,
+            dimensions: vectors[0]?.length ?? 0,
+            ms: Date.now() - start,
+            vectors: vectors.map((v) => Array.from(v)),
+          },
+          { headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+        );
+      } catch (err) {
+        const msg = err instanceof Error ? err.message : String(err);
+        return Response.json(
+          { error: 'embed_failed', model: body.model, detail: msg.slice(0, 250), ms: Date.now() - start },
+          { status: 502, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+        );
+      }
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
     // GET /test/probe-one?model=...&kind=embed|chat — tries a single
     // candidate model. Use for sequential probing when bulk probe times out.
     // ─────────────────────────────────────────────────────────────────────

@@ -1,0 +1,136 @@
+{
+  "base_url": "https://synchronocities-ai.tirak-court.workers.dev",
+  "corpus_size": 125,
+  "queries": [
+    {
+      "query": "What changed between the Bangkok initiation and the Samui invitation?",
+      "expected_slug": "bangkok-initiation-samui-invitation"
+    },
+    {
+      "query": "How does this post encode direction, boundary, and travel rhythm?",
+      "expected_slug": "bangkok-initiation-samui-invitation"
+    },
+    {
+      "query": "Where should I start in the consciousness architecture research program?",
+      "expected_slug": "consciousness-architecture-hub"
+    },
+    {
+      "query": "How do the bioelectric, information-processing, and social-programming clusters connect?",
+      "expected_slug": "consciousness-architecture-hub"
+    },
+    {
+      "query": "Why can't humans intuit exponential growth?",
+      "expected_slug": "hyperbolic-consciousness"
+    },
+    {
+      "query": "How does hyperbolic geometry relate to consciousness states?",
+      "expected_slug": "hyperbolic-consciousness"
+    },
+    {
+      "query": "Why is hyperbolic geometry the natural ambient for high-valence experience?",
+      "expected_slug": "hyperbolic-mantra"
+    },
+    {
+      "query": "What does the Poincar\u00e9 disk model represent?",
+      "expected_slug": "hyperbolic-mantra"
+    },
+    {
+      "query": "What is the difference between consciousness and self-consciousness?",
+      "expected_slug": "introduction-to-tryambakam-noesis"
+    },
+    {
+      "query": "What is the Noesis Engine and what does it do?",
+      "expected_slug": "introduction-to-tryambakam-noesis"
+    },
+    {
+      "query": "What structural parallels connect chaos theory and Vedic astrology?",
+      "expected_slug": "lorenz-kundli-pattern-hub"
+    },
+    {
+      "query": "How does a Kundli function as a strange attractor for consciousness?",
+      "expected_slug": "lorenz-kundli-pattern-hub"
+    },
+    {
+      "query": "What are the six Lorenz-Kundli parallel studies?",
+      "expected_slug": "lorenz-kundli-system-index"
+    },
+    {
+      "query": "Where should I start in the Lorenz-Kundli corpus?",
+      "expected_slug": "lorenz-kundli-system-index"
+    },
+    {
+      "query": "How does Earth's magnetic field affect consciousness?",
+      "expected_slug": "magnetic-substrate"
+    },
+    {
+      "query": "What is the relationship between magnetic declination and disease?",
+      "expected_slug": "magnetic-substrate"
+    },
+    {
+      "query": "How do the nine Greek Muses map to the nine Enneagram types?",
+      "expected_slug": "muse-enneagram-framework-overview"
+    },
+    {
+      "query": "What is the Spolski Endocrine Correspondence?",
+      "expected_slug": "muse-enneagram-framework-overview"
+    },
+    {
+      "query": "How does the cross-reference system connect mathematics, spirituality, and technical thinking?",
+      "expected_slug": "pattern-cross-reference-system"
+    },
+    {
+      "query": "What workflows does the knowledge graph support?",
+      "expected_slug": "pattern-cross-reference-system"
+    },
+    {
+      "query": "What is a wallpaper group?",
+      "expected_slug": "seventeen-ways-pattern-repeats"
+    },
+    {
+      "query": "Why are there exactly seventeen wallpaper groups on the flat plane?",
+      "expected_slug": "seventeen-ways-pattern-repeats"
+    },
+    {
+      "query": "What does it mean for a phoneme to be imperishable?",
+      "expected_slug": "spell-work-reservoir"
+    },
+    {
+      "query": "Why is the Devanagari register engineered the way it is?",
+      "expected_slug": "spell-work-reservoir"
+    },
+    {
+      "query": "Why does Sri Yantra not fit on a flat plane?",
+      "expected_slug": "sri-yantra-geometry-that-doesnt-fit"
+    }
+  ],
+  "results": [
+    {
+      "model": "nvidia/nv-embedqa-e5-v5",
+      "dims": 1024,
+      "passages_ms_total": 2229,
+      "queries_ms_total": 981,
+      "recall_5": 0.88,
+      "recall_10": 0.92,
+      "mrr": 0.759047619047619,
+      "p50_score_ms": 11.95383071899414,
+      "p95_score_ms": 17.604589462280273,
+      "hits_5": 22,
+      "hits_10": 23,
+      "total_queries": 25
+    },
+    {
+      "model": "nvidia/nv-embed-v1",
+      "dims": 4096,
+      "passages_ms_total": 5160,
+      "queries_ms_total": 1403,
+      "recall_5": 0.88,
+      "recall_10": 0.92,
+      "mrr": 0.775,
+      "p50_score_ms": 52.50191688537598,
+      "p95_score_ms": 65.13819694519043,
+      "hits_5": 22,
+      "hits_10": 23,
+      "total_queries": 25
+    }
+  ]
+}
