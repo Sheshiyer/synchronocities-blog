@@ -371,6 +371,21 @@ function enforceAvoidList(text: string): string {
     .replace(/\bvibrations?\b/gi, 'resonance')
     // tribe → lineage
     .replace(/\btribes?\b/gi, 'lineage')
+    // path → trajectory (covers "spiritual path", standalone "path", plurals).
+    // Accepts rare awkwardness ("neural trajectory") to avoid leaking the term;
+    // matches the existing function's stated philosophy on ambiguous substitutions.
+    .replace(/\b(spiritual\s+)?paths?\b/gi, 'trajectory')
+    // hacks → patterns (covers "growth hacks", "life hacks", "hacks")
+    .replace(/\bhacks?\b/gi, 'patterns')
+    // productivity → effort (matches the manual fix applied in vessel-prepare v3)
+    .replace(/\bproductivity\b/gi, 'effort')
+    // authentic self → self (strip the qualifier)
+    .replace(/\bauthentic\s+self\b/gi, 'self')
+    // higher self → larger self
+    .replace(/\bhigher\s+self\b/gi, 'larger self')
+    // admin layer / code well → brand-internal terms that must not appear in reader-facing copy
+    .replace(/\badmin\s+layer\b/gi, 'control layer')
+    .replace(/\bcode\s+well\b/gi, 'source field')
     // tone-pattern strip: "is a testament to" → "demonstrates"
     .replace(/\bis a testament to\b/gi, 'demonstrates')
     .replace(/\bare a testament to\b/gi, 'demonstrate')
