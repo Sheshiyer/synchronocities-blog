@@ -68,10 +68,27 @@ export async function retrieveNeighbors(
   // would return fewer neighbors than requested.
   const topK = Math.max(opts.topKFromVectorize ?? 12, topN + 5);
 
-  // 1. Embed the section text as a passage
+  // 1. Embed the section text as a passage.
+  //
+  // The e5 family caps input at 512 tokens. Section text may run well over
+  // that (the post `the-devil-in-the-detail` has 1000+ word sections, ~1500
+  // tokens), so a naive call returns NIM 400 "Input length N exceeds
+  // maximum allowed token size 512" and the whole pipeline fails.
+  //
+  // We don't have an in-Worker tokenizer, so we approximate: e5 averages
+  // ~3.5–4 chars/token for English prose. A conservative 1800-char cap
+  // (~450–510 tokens) keeps us under the limit even on token-dense text
+  // (CJK, heavy punctuation, em-dashes — all increase tokens/char). For
+  // retrieval grounding the embedding only needs the section's TOPIC
+  // signal, not every word, so truncating the long tail is acceptable.
+  const EMBED_INPUT_CHAR_CAP = 1800;
+  const embedInput =
+    sectionText.length > EMBED_INPUT_CHAR_CAP
+      ? sectionText.slice(0, EMBED_INPUT_CHAR_CAP)
+      : sectionText;
   const [vector] = await embed(config, {
     model: config.NIM_EMBED_MODEL,
-    texts: [sectionText],
+    texts: [embedInput],
     input_type: 'passage',
   });
   if (!vector) return [];
