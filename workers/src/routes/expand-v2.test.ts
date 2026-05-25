@@ -97,6 +97,47 @@ test('enforceSaturationCap returns empty string if every sentence got stripped',
   expect(result.termsBlocked.sort()).toEqual(['antar-agni', 'kha-ba-la']);
 });
 
+test('enforceSaturationCap short-circuits on first matched term per sentence', () => {
+  // When a single sentence introduces TWO saturated terms, the spec says
+  // short-circuit after the first match. The sentence is dropped exactly
+  // once (no duplication of work) and termsBlocked records the first term
+  // encountered in the iteration. Iteration order of the termPatterns Map
+  // mirrors the saturatedTerms argument order, so this is deterministic.
+  const original = 'Plain original.';
+  const expanded = 'Plain original. The kha-ba-la and antar-agni both appear here.';
+  const result = enforceSaturationCap(expanded, original, ['kha-ba-la', 'antar-agni']);
+  expect(result.text).toBe('Plain original.');
+  expect(result.termsBlocked).toHaveLength(1);
+  expect(result.termsBlocked).toEqual(['kha-ba-la']);
+});
+
+test('enforceSaturationCap preserves paragraph breaks between surviving sentences', () => {
+  // Sentence splitter consumes any whitespace after `.!?` — including
+  // `\n\n`. The rejoin MUST replay that whitespace, otherwise multi-
+  // paragraph model output collapses into a wall of single-spaced prose,
+  // a visible regression in the rendered blog.
+  const original = 'A vessel is what holds.';
+  const expanded = 'A vessel is what holds.\n\nContainment is the work.\n\nNothing more.';
+  const result = enforceSaturationCap(expanded, original, []);
+  expect(result.text).toBe(expanded.trim());
+  // Specifically: paragraph breaks survive.
+  expect(result.text).toContain('\n\n');
+});
+
+test('enforceSaturationCap preserves paragraph breaks even when a middle sentence is stripped', () => {
+  // The stripped sentence AND its trailing separator both drop, so the
+  // remaining sentences re-glue with their own original separators.
+  const original = 'A vessel is what holds.';
+  const expanded =
+    'A vessel is what holds.\n\nThe kha-ba-la triad organizes this.\n\nContainment matters.';
+  const result = enforceSaturationCap(expanded, original, ['kha-ba-la']);
+  expect(result.text).not.toContain('kha-ba-la');
+  expect(result.text).toContain('A vessel is what holds.');
+  expect(result.text).toContain('Containment matters.');
+  // The paragraph break between the two surviving sentences is preserved.
+  expect(result.text).toBe('A vessel is what holds.\n\nContainment matters.');
+});
+
 test('enforceSaturationCap respects whole-word boundaries (no substring false positives)', () => {
   // 'vajra' is saturated; 'vajrayana' would be a substring but \\b boundaries should prevent a hit.
   // Wait — 'vajra' is in 'vajrayana' as a prefix, so \\bvajra\\b would NOT match 'vajrayana'.
