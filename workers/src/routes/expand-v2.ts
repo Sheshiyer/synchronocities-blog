@@ -8,7 +8,7 @@
  *   3. buildUserPrompt() assembles the deterministic per-request user prompt.
  *   4. chat() with SYSTEM_PROMPT_V2 against env.NIM_CHAT_MODEL.
  *   5. Post-process: strip leaked headers, then run enforceSaturationCap()
- *      (currently a no-op pass-through — Task 8 replaces the body).
+ *      to drop sentences that newly introduced a saturated term (Task 8).
  *   6. Cache the response for 30d (ctx.waitUntil, never blocks the response).
  *
  * Response shape is documented inline in `ExpandV2Response`. v1's /expand and
@@ -21,6 +21,7 @@
 import type { Env } from '../index';
 import { chat } from '../lib/nim';
 import { retrieveNeighbors } from '../lib/retrieve';
+import { SATURATION_TERMS } from '../lib/saturation-terms';
 import { SYSTEM_PROMPT_V2, buildUserPrompt } from './expand-v2-prompt';
 
 const CORS_HEADERS = {
@@ -52,11 +53,10 @@ interface ExpandV2Response {
      */
     saturated_terms: string[];
     /**
-     * Terms actually REMOVED from the model output by enforceSaturationCap.
-     * Populated by Task 8's sentence-level enforcement; remains [] while the
-     * Task 7 pass-through stub is in place. Reserving the field name now
-     * means Task 8's schema change is additive only — no cached responses
-     * need to be invalidated.
+     * Saturated-term keys actually stripped from the model output by
+     * enforceSaturationCap — i.e., terms the model newly introduced that
+     * weren't already in the source section. Deduplicated; subset of
+     * `saturated_terms`. Empty if the model didn't sneak any in.
      */
     saturated_terms_blocked: string[];
     cache: 'hit' | 'miss';
@@ -201,23 +201,24 @@ export async function handleExpandV2Section(
   }
 
   const stripped = stripLeadingHeader(raw.trim(), body.header ?? '');
-  const finalContent = enforceSaturationCap(stripped, saturatedTerms);
+  const enforced = enforceSaturationCap(stripped, body.content, saturatedTerms);
 
   const response: ExpandV2Response = {
     slug: body.slug,
     header: body.header ?? '',
     original_words: countWords(body.content),
-    expanded_words: countWords(finalContent),
-    expanded_content: finalContent,
+    expanded_words: countWords(enforced.text),
+    expanded_content: enforced.text,
     meta: {
       ms: Date.now() - start,
       model: env.NIM_CHAT_MODEL,
       retrieved_neighbors: neighbors.map((n) => ({ slug: n.slug, score: n.score })),
       // Full blacklist injected into the prompt.
       saturated_terms: saturatedTerms,
-      // Subset actually removed by enforceSaturationCap. Task 7 stub is a
-      // pass-through, so always empty here; Task 8 populates this.
-      saturated_terms_blocked: [],
+      // Subset actually removed by enforceSaturationCap — sentences that
+      // newly introduced a saturated term (i.e., not already in the
+      // source section) were stripped.
+      saturated_terms_blocked: enforced.termsBlocked,
       cache: 'miss',
     },
   };
@@ -265,21 +266,91 @@ export function stripLeadingHeader(text: string, originalHeader: string): string
 }
 
 /**
+ * Result of running enforceSaturationCap on a model expansion.
+ */
+export interface SaturationEnforcement {
+  /** Expanded text minus any sentences that newly introduced a saturated term. */
+  text: string;
+  /** Saturated-term keys that were actually stripped (deduplicated). */
+  termsBlocked: string[];
+}
+
+/**
  * Programmatic backstop for saturated-term leakage in the model output.
  *
- * Phase 1 (this task, Task 7): no-op pass-through. The user prompt already
- * tells the model not to introduce saturated terms; this hook exists so
- * Task 8 can replace its body with sentence-level enforcement without
- * touching callers.
+ * Splits `expandedText` into sentences and drops any sentence that introduces
+ * a saturated term NOT already present in the source section. Terms that the
+ * original section already used are left alone — the policy is "no NEW
+ * saturated terms," not "no saturated terms at all."
  *
- * Phase 2 (Task 8): count occurrences vs the source section's baseline and
- * strip sentences that newly introduce a saturated term.
+ * Matching uses `SATURATION_TERMS[key].patterns`, case-insensitive, regex-
+ * escaped, and `\b...\b`-bounded — mirrors `compute-saturation::countOccurrences`
+ * so the runtime enforcement and the offline saturation counter agree on
+ * what counts as an occurrence.
+ *
+ * Limitations:
+ *   - Sentence splitting is `/(?<=[.!?])\s+/`. This is naive about
+ *     abbreviations ("Dr. Foo said...") and decimals, but the corpus is
+ *     essay prose without dense citations, so the cost is acceptable.
+ *   - Unknown term keys (in `saturatedTerms` but missing from
+ *     `SATURATION_TERMS`) are skipped silently — defensive against drift
+ *     between the saturation map and the in-worker taxonomy.
+ *   - If every sentence gets stripped, this returns an empty string rather
+ *     than throwing. The orchestrator (Task 9) is responsible for flagging
+ *     near-empty expansions.
  */
 export function enforceSaturationCap(
-  text: string,
-  _saturatedTerms: string[],
-): string {
-  return text;
+  expandedText: string,
+  originalText: string,
+  saturatedTerms: string[],
+): SaturationEnforcement {
+  if (saturatedTerms.length === 0) {
+    return { text: expandedText, termsBlocked: [] };
+  }
+
+  // Build a key → compiled-patterns map for just the keys we care about.
+  // Patterns are reused per-sentence below, so compile once.
+  const termPatterns = new Map<string, RegExp[]>();
+  for (const key of saturatedTerms) {
+    const entry = SATURATION_TERMS.find((t) => t.key === key);
+    if (!entry) continue; // unknown key — skip silently
+    const regexes = entry.patterns.map(
+      (p) => new RegExp(`\\b${escapeRegex(p.toLowerCase())}\\b`, 'i'),
+    );
+    termPatterns.set(key, regexes);
+  }
+
+  const originalLower = originalText.toLowerCase();
+  const sentences = expandedText.split(/(?<=[.!?])\s+/);
+  const kept: string[] = [];
+  const blocked = new Set<string>();
+
+  for (const sentence of sentences) {
+    const sentenceLower = sentence.toLowerCase();
+    let stripThis = false;
+    for (const [key, regexes] of termPatterns) {
+      const inSentence = regexes.some((re) => re.test(sentenceLower));
+      if (!inSentence) continue;
+      const inOriginal = regexes.some((re) => re.test(originalLower));
+      if (!inOriginal) {
+        stripThis = true;
+        blocked.add(key);
+        break;
+      }
+    }
+    if (!stripThis) kept.push(sentence);
+  }
+
+  return { text: kept.join(' ').trim(), termsBlocked: Array.from(blocked) };
+}
+
+/**
+ * Escape a literal string for use inside a RegExp. Matches the rule set used
+ * by `compute-saturation::countOccurrences` so runtime enforcement and the
+ * offline counter agree on what counts as a match.
+ */
+function escapeRegex(s: string): string {
+  return s.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
 }
 
 function countWords(text: string): number {
