@@ -36,6 +36,9 @@ export const SATURATION_TERMS: SaturationTerm[] = [
   { key: 'ukha',              patterns: ['ukha', 'ukhā', 'ukhasambharana'],                   category: 'sanskrit-anchor' },
   { key: 'samvatsara',        patterns: ['samvatsara'],                                       category: 'sanskrit-anchor' },
   { key: 'samskara',          patterns: ['samskara', 'sanskara'],                             category: 'sanskrit-anchor' },
+  // NOTE: bare 'tapas' also matches the English food-context loanword (e.g., "tapas plate").
+  // Acceptable for this corpus (no Spanish-food content); if the corpus expands to lifestyle/
+  // food posts, drop bare 'tapas' and rely on 'tapasya' only.
   { key: 'tapas',             patterns: ['tapas', 'tapasya'],                                 category: 'sanskrit-anchor' },
   { key: 'sakshi',            patterns: ['sakshi', 'sākṣī', 'saksi'],                         category: 'sanskrit-anchor' },
   { key: 'rasayana',          patterns: ['rasayana', 'rasāyana'],                             category: 'sanskrit-anchor' },
@@ -54,14 +57,23 @@ export const SATURATION_TERMS: SaturationTerm[] = [
   { key: 'operator-the-only-remainder', patterns: ['only thing that remains', 'only remainder'], category: 'concept-frame' },
 ];
 
+/**
+ * Tier-boundary thresholds. Names describe the FLOOR of the tier they open.
+ *   count <  sparinglyStart       → 'available'
+ *   count >= sparinglyStart       → 'sparingly'   (the tier opens at sparinglyStart)
+ *   count >= saturatedStart       → 'saturated'   (the tier opens at saturatedStart)
+ *
+ * Earlier draft named these `available` / `sparingly` which read as the
+ * threshold for the SAME-named tier — exactly inverted. Renamed to make
+ * the comparison direction unambiguous at use-sites.
+ */
 export const THRESHOLDS = {
-  available: 25,    // 0–24 occurrences across corpus = available
-  sparingly: 75,    // 25–74 = use sparingly
-                    // 75+ = saturated (DO NOT INTRODUCE)
+  sparinglyStart: 25,   // >= 25 occurrences → 'sparingly' tier
+  saturatedStart: 75,   // >= 75 occurrences → 'saturated' tier
 };
 
 export function classify(count: number): 'available' | 'sparingly' | 'saturated' {
-  if (count >= THRESHOLDS.sparingly) return 'saturated';
-  if (count >= THRESHOLDS.available) return 'sparingly';
+  if (count >= THRESHOLDS.saturatedStart) return 'saturated';
+  if (count >= THRESHOLDS.sparinglyStart) return 'sparingly';
   return 'available';
 }
