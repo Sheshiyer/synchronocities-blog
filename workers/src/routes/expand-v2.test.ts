@@ -109,6 +109,7 @@ integrationTest(
         ms: number;
         model: string;
         retrieved_neighbors: Array<{ slug: string; score: number }>;
+        saturated_terms: string[];
         saturated_terms_blocked: string[];
         cache: 'hit' | 'miss';
       };
@@ -122,7 +123,14 @@ integrationTest(
     expect(Array.isArray(data1.meta.retrieved_neighbors)).toBe(true);
     expect(data1.meta.retrieved_neighbors.length).toBeGreaterThan(0);
     expect(data1.meta.retrieved_neighbors.length).toBeLessThanOrEqual(3);
-    expect(data1.meta.saturated_terms_blocked.length).toBeGreaterThan(0);
+    // Full saturation blacklist injected into the prompt — populated by
+    // the R2 saturation map.
+    expect(Array.isArray(data1.meta.saturated_terms)).toBe(true);
+    expect(data1.meta.saturated_terms.length).toBeGreaterThan(0);
+    // Subset actually stripped from the model output — empty under the
+    // Task 7 no-op stub; Task 8 will populate this.
+    expect(Array.isArray(data1.meta.saturated_terms_blocked)).toBe(true);
+    expect(data1.meta.saturated_terms_blocked.length).toBe(0);
     expect(data1.meta.cache).toBe('miss');
 
     // Cloudflare KV writes are eventually consistent; ctx.waitUntil()
