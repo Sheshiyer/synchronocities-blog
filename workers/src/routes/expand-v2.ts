@@ -320,28 +320,50 @@ export function enforceSaturationCap(
     termPatterns.set(key, regexes);
   }
 
+  // Pre-compute "is this term already in the original?" once per term, not
+  // once per (term, sentence). The original text is invariant across the
+  // sentence loop, so this collapses O(sentences × terms × patterns) regex
+  // tests to O(terms × patterns) + the per-sentence pass.
   const originalLower = originalText.toLowerCase();
-  const sentences = expandedText.split(/(?<=[.!?])\s+/);
-  const kept: string[] = [];
+  const termInOriginal = new Map<string, boolean>();
+  for (const [key, regexes] of termPatterns) {
+    termInOriginal.set(key, regexes.some((re) => re.test(originalLower)));
+  }
+
+  // Separator-preserving split: the capture group means the array alternates
+  // [content, separator, content, separator, …, content]. We split on
+  // sentence-terminating punctuation followed by whitespace, but KEEP that
+  // whitespace verbatim so paragraph breaks ("\n\n" between sentences) are
+  // not collapsed to a single space at rejoin time. Without this, multi-
+  // paragraph model output gets squashed into a wall of prose.
+  const parts = expandedText.split(/((?<=[.!?])\s+)/);
+  const out: string[] = [];
   const blocked = new Set<string>();
 
-  for (const sentence of sentences) {
+  for (let i = 0; i < parts.length; i += 2) {
+    const sentence = parts[i] ?? '';
+    const trailingSeparator = parts[i + 1] ?? ''; // '' for the last sentence
+
     const sentenceLower = sentence.toLowerCase();
     let stripThis = false;
     for (const [key, regexes] of termPatterns) {
       const inSentence = regexes.some((re) => re.test(sentenceLower));
       if (!inSentence) continue;
-      const inOriginal = regexes.some((re) => re.test(originalLower));
-      if (!inOriginal) {
+      if (!termInOriginal.get(key)) {
         stripThis = true;
         blocked.add(key);
-        break;
+        break; // spec: short-circuit after first newly-introduced term
       }
     }
-    if (!stripThis) kept.push(sentence);
+    if (!stripThis) {
+      out.push(sentence);
+      if (trailingSeparator) out.push(trailingSeparator);
+    }
+    // When stripThis: drop both the sentence AND its trailing separator so
+    // we don't accumulate orphan whitespace between surviving sentences.
   }
 
-  return { text: kept.join(' ').trim(), termsBlocked: Array.from(blocked) };
+  return { text: out.join('').trim(), termsBlocked: Array.from(blocked) };
 }
 
 /**
