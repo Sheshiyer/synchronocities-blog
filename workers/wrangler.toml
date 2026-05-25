@@ -43,8 +43,9 @@ NIM_RERANK_MODEL        = "nvidia/nemotron-mini-4b-instruct"              # 4B, 
 NIM_CLUSTER_LABEL_MODEL = "nvidia/nemotron-mini-4b-instruct"              # same cheap model — cluster naming
 NIM_SAFETY_MODEL        = "nvidia/llama-3.1-nemoguard-8b-content-safety"  # 453ms — content moderation on /chat
 
-# Bumped to 2 after the embed model swap (1024-d invalidates all 4096-d cached vectors)
-CORPUS_VERSION = "2"
+# Bumped to 2 after the embed model swap (1024-d invalidates all 4096-d cached vectors).
+# Bumped to 3 to reindex with body_excerpt in Vectorize metadata (Task 5 of /expand/v2 plan).
+CORPUS_VERSION = "3"
 
 # ────────────────────────────────────────────────────────────────────────────
 # KV — query cache (binds to existing CACHE namespace from `wrangler kv namespace list`)

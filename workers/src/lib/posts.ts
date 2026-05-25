@@ -53,19 +53,33 @@ export interface IndexBatchResponse {
  * vectors with a `parent_slug` metadata field. Out of scope for phase A.
  */
 const MAX_BODY_CHARS = 1200;
+/** Max chars for body_excerpt stored in Vectorize metadata. */
+const MAX_BODY_EXCERPT_CHARS = 500;
+
+/**
+ * Strip markdown structural noise (headers, link syntax, fenced code blocks,
+ * list markers, runs of blank lines) so the resulting text is dense prose
+ * suitable for either embedding or rerank-grounding.
+ *
+ * Shared between buildEmbedText() (window into the body for the embedding
+ * vector) and buildVectorMetadata() (body_excerpt stored as metadata so the
+ * reranker sees real body content, not the author's marketing excerpt).
+ */
+export function cleanBodyForEmbedding(body: string): string {
+  return body
+    .replace(/^#+\s+/gm, '') // headers
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // link text only
+    .replace(/```[\s\S]*?```/g, '') // code blocks
+    .replace(/^\s*[-*]\s+/gm, '') // list markers
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
 
 export function buildEmbedText(post: PostMetadata): string {
   const parts: string[] = [post.title];
   if (post.excerpt) parts.push(post.excerpt);
   if (post.body) {
-    // Strip markdown headers/lists/links to keep content density high in the window
-    const cleanedBody = post.body
-      .replace(/^#+\s+/gm, '') // headers
-      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // link text only
-      .replace(/```[\s\S]*?```/g, '') // code blocks
-      .replace(/^\s*[-*]\s+/gm, '') // list markers
-      .replace(/\n{3,}/g, '\n\n')
-      .trim();
+    const cleanedBody = cleanBodyForEmbedding(post.body);
     parts.push(cleanedBody.slice(0, MAX_BODY_CHARS));
   }
   return parts.join('\n\n');
@@ -87,6 +101,12 @@ export function buildVectorMetadata(post: PostMetadata): Record<string, string |
   if (post.tags?.length) md.tags = post.tags.join(',');
   if (post.concepts?.length) md.concepts = post.concepts.join(',');
   if (post.excerpt) md.excerpt = post.excerpt.slice(0, 500); // keep small
+  // First ~500 chars of cleaned body — used as the rerank-grounding passage in
+  // /expand/v2 retrieval. Far stronger signal than the marketing excerpt above.
+  if (post.body) {
+    const cleaned = cleanBodyForEmbedding(post.body);
+    if (cleaned.length > 0) md.body_excerpt = cleaned.slice(0, MAX_BODY_EXCERPT_CHARS);
+  }
   return md;
 }
 
