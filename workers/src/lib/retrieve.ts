@@ -13,10 +13,11 @@
  * combine retrieveNeighbors() (this) with the saturation map to constrain
  * expansion to ideas already present in the corpus.
  *
- * Graceful degradation: as of Task 4, Vectorize metadata stores `excerpt`
- * (author-written) but not `body_excerpt`. The helper prefers body_excerpt,
- * falls back to excerpt, and filters out candidates with no usable text.
- * Task 5 will reindex to populate body_excerpt for richer grounding.
+ * Graceful degradation: Vectorize metadata stores both `body_excerpt`
+ * (first ~500 chars of cleaned body, populated in Task 5 / CORPUS_VERSION=3)
+ * and `excerpt` (author-written). The helper prefers body_excerpt, falls
+ * back to excerpt for any legacy/edge-case records, and filters out
+ * candidates with no usable text.
  */
 
 import { embed, rerank, type NimConfig } from './nim';
@@ -84,9 +85,9 @@ export async function retrieveNeighbors(
   });
 
   // 3. Filter out the source post, extract usable text.
-  //    Prefer body_excerpt (Task 5 will populate). Fall back to excerpt
-  //    (author-written, already in the index). Drop candidates with no
-  //    usable text so we never feed the reranker empty strings.
+  //    Prefer body_excerpt (populated as of CORPUS_VERSION=3). Fall back to
+  //    excerpt (author-written) for any legacy/edge-case records. Drop
+  //    candidates with no usable text so we never feed the reranker empty strings.
   const candidates = result.matches
     .filter((m) => m.metadata?.slug !== excludeSlug)
     .slice(0, topK)
