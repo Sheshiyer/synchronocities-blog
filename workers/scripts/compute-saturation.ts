@@ -8,12 +8,16 @@
  *
  * Usage:
  *   bun workers/scripts/compute-saturation.ts
- *   bun workers/scripts/compute-saturation.ts --json     # print only
+ *   bun workers/scripts/compute-saturation.ts --json              # print corpus aggregate only
+ *   bun workers/scripts/compute-saturation.ts --upload            # push to R2
+ *   bun workers/scripts/compute-saturation.ts --per-post          # per-post bloat ranking (table)
+ *   bun workers/scripts/compute-saturation.ts --per-post --json   # same, JSON for jq
+ *   bun workers/scripts/compute-saturation.ts --per-post --top=5  # only top N
  */
 
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
-import { SATURATION_TERMS, classify } from '../src/lib/saturation-terms';
+import { join, basename } from 'node:path';
+import { SATURATION_TERMS, classify, THRESHOLDS } from '../src/lib/saturation-terms';
 
 const POSTS_DIR = join(import.meta.dir, '..', '..', 'src', 'content', 'posts');
 const OUT_PATH = join(import.meta.dir, '..', '.saturation-map.json');
@@ -34,15 +38,114 @@ export function countOccurrences(text: string): Record<string, number> {
   return counts;
 }
 
+/**
+ * Strip YAML frontmatter and return the markdown body so word counts
+ * reflect actual prose, not frontmatter metadata.
+ */
+export function stripFrontmatter(raw: string): string {
+  const m = raw.match(/^---\n[\s\S]*?\n---\n?([\s\S]*)$/);
+  return m ? (m[1] ?? '') : raw;
+}
+
+export function countWords(text: string): number {
+  return text.trim().split(/\s+/).filter(Boolean).length;
+}
+
+export interface PerPostEntry {
+  slug: string;
+  word_count: number;
+  saturated_occurrences: number;
+  saturated_density: number;
+  top_terms: Array<{ key: string; count: number }>;
+}
+
+/**
+ * Compute per-post saturation density. `saturatedKeys` is the set of term
+ * keys that are saturated at the corpus level (>= saturatedStart). Density
+ * is (sum of saturated-term occurrences in this post) / (word count of body).
+ */
+export function computePerPost(
+  body: string,
+  slug: string,
+  saturatedKeys: Set<string>,
+): PerPostEntry {
+  const counts = countOccurrences(body);
+  const wordCount = countWords(body);
+  let saturatedOccurrences = 0;
+  const termCounts: Array<{ key: string; count: number }> = [];
+  for (const [key, n] of Object.entries(counts)) {
+    if (!saturatedKeys.has(key)) continue;
+    saturatedOccurrences += n;
+    if (n > 0) termCounts.push({ key, count: n });
+  }
+  termCounts.sort((a, b) => b.count - a.count);
+  const density = wordCount > 0
+    ? Math.round((saturatedOccurrences / wordCount) * 10000) / 10000
+    : 0;
+  return {
+    slug,
+    word_count: wordCount,
+    saturated_occurrences: saturatedOccurrences,
+    saturated_density: density,
+    top_terms: termCounts.slice(0, 5),
+  };
+}
+
+function parseTopArg(argv: string[]): number | null {
+  const t = argv.find((a) => a.startsWith('--top='));
+  if (!t) return null;
+  const n = parseInt(t.split('=')[1] ?? '', 10);
+  return Number.isFinite(n) && n > 0 ? n : null;
+}
+
 async function main() {
   const files = readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'));
   const corpus: Record<string, number> = {};
   for (const t of SATURATION_TERMS) corpus[t.key] = 0;
 
+  // Pass 1: corpus aggregate (needed in every mode — saturation tier is a
+  // corpus-level property).
+  const perFile: Array<{ slug: string; body: string }> = [];
   for (const file of files) {
-    const text = readFileSync(join(POSTS_DIR, file), 'utf8');
-    const counts = countOccurrences(text);
+    const raw = readFileSync(join(POSTS_DIR, file), 'utf8');
+    const body = stripFrontmatter(raw);
+    const slug = basename(file, '.md');
+    perFile.push({ slug, body });
+    const counts = countOccurrences(raw);
     for (const [key, n] of Object.entries(counts)) corpus[key] += n;
+  }
+
+  const saturatedKeys = new Set(
+    Object.entries(corpus)
+      .filter(([_k, v]) => classify(v) === 'saturated')
+      .map(([k]) => k),
+  );
+
+  // Per-post mode — emit ranking and exit (no R2 upload, no map write).
+  if (process.argv.includes('--per-post')) {
+    const top = parseTopArg(process.argv);
+    const entries = perFile
+      .map(({ slug, body }) => computePerPost(body, slug, saturatedKeys))
+      .sort((a, b) => b.saturated_density - a.saturated_density);
+    const sliced = top ? entries.slice(0, top) : entries;
+
+    if (process.argv.includes('--json')) {
+      console.log(JSON.stringify(sliced, null, 2));
+      return;
+    }
+    // Human-readable table
+    console.log(`Per-post saturation density (${sliced.length}/${entries.length} posts, threshold=${THRESHOLDS.saturatedStart}+):`);
+    console.log('');
+    console.log(`  rank  density  occ  words  slug`);
+    console.log(`  ----  -------  ---  -----  ----`);
+    sliced.forEach((e, i) => {
+      const rank = String(i + 1).padStart(4);
+      const density = e.saturated_density.toFixed(4).padStart(7);
+      const occ = String(e.saturated_occurrences).padStart(3);
+      const words = String(e.word_count).padStart(5);
+      console.log(`  ${rank}  ${density}  ${occ}  ${words}  ${e.slug}`);
+    });
+    return;
   }
 
   const output = {
