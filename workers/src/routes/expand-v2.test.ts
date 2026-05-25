@@ -2,8 +2,9 @@
  * Tests for /expand/v2/section.
  *
  * Unit tests pin two pure functions (always run):
- *   1. enforceSaturationCap — currently a no-op pass-through. Task 8 will
- *      replace its body; this test pins the contract callers depend on.
+ *   1. enforceSaturationCap — sentence-level saturation enforcement (Task 8).
+ *      Strips sentences that introduce a saturated term NOT already in the
+ *      source section; leaves terms already in the source alone.
  *   2. stripLeadingHeader — removes both `## Markdown` headers and
  *      bare-text repeats of the source header.
  *
@@ -19,15 +20,92 @@ import { enforceSaturationCap, stripLeadingHeader } from './expand-v2';
 // Unit tests — pure functions, always run
 // ============================================================================
 
-test('enforceSaturationCap is a no-op pass-through (Task 7 contract)', () => {
-  const text = 'A vessel is what holds. The fire of antar-agni is the substrate.';
-  const saturated = ['antar-agni', 'kha-ba-la', 'lorenz-kundli'];
-  expect(enforceSaturationCap(text, saturated)).toBe(text);
+test('enforceSaturationCap strips sentences that newly introduce a saturated term', () => {
+  const original = 'The fire is the substrate. Containment matters.';
+  const expanded =
+    'The fire is the substrate. The kha-ba-la triad organizes this. Containment matters.';
+  const result = enforceSaturationCap(expanded, original, ['kha-ba-la']);
+  expect(result.text).not.toContain('kha-ba-la');
+  expect(result.text).toContain('Containment matters');
+  expect(result.text).toContain('The fire is the substrate');
+  expect(result.termsBlocked).toEqual(['kha-ba-la']);
 });
 
-test('enforceSaturationCap returns input unchanged for empty saturated list', () => {
-  const text = 'Some expanded section content.';
-  expect(enforceSaturationCap(text, [])).toBe(text);
+test('enforceSaturationCap keeps saturated terms already present in the source', () => {
+  const original = 'The kha-ba-la triad organizes consciousness.';
+  const expanded =
+    'The kha-ba-la triad organizes consciousness. Each leg of kha-ba-la has its function.';
+  const result = enforceSaturationCap(expanded, original, ['kha-ba-la']);
+  // Both sentences mention kha-ba-la; original already had it → nothing strips.
+  expect(result.text).toContain('Each leg of kha-ba-la');
+  expect(result.termsBlocked).toEqual([]);
+});
+
+test('enforceSaturationCap returns input verbatim for empty saturated list', () => {
+  const text = 'Some expanded section content. Another sentence.';
+  const result = enforceSaturationCap(text, 'original section.', []);
+  expect(result.text).toBe(text);
+  expect(result.termsBlocked).toEqual([]);
+});
+
+test('enforceSaturationCap silently skips unknown term keys', () => {
+  const original = 'A vessel is what holds.';
+  const expanded = 'A vessel is what holds. The mystery word frobnicates.';
+  // 'frobnicates' is not in SATURATION_TERMS — should not throw, should not strip.
+  const result = enforceSaturationCap(expanded, original, ['nonexistent-key']);
+  expect(result.text).toBe('A vessel is what holds. The mystery word frobnicates.');
+  expect(result.termsBlocked).toEqual([]);
+});
+
+test('enforceSaturationCap matches alternate spellings via patterns array', () => {
+  // pancha-kosha has patterns ['pancha-kosha', 'pancha kosha', 'panchakosha']
+  const original = 'A vessel is what holds.';
+  const expanded =
+    'A vessel is what holds. The panchakosha framework nests selves. Containment matters.';
+  const result = enforceSaturationCap(expanded, original, ['pancha-kosha']);
+  expect(result.text).not.toContain('panchakosha');
+  expect(result.text).toContain('Containment matters');
+  expect(result.termsBlocked).toEqual(['pancha-kosha']);
+});
+
+test('enforceSaturationCap is case-insensitive', () => {
+  const original = 'A vessel is what holds.';
+  const expanded =
+    'A vessel is what holds. The KHA-BA-LA triad sits above. Containment matters.';
+  const result = enforceSaturationCap(expanded, original, ['kha-ba-la']);
+  expect(result.text.toLowerCase()).not.toContain('kha-ba-la');
+  expect(result.text).toContain('Containment matters');
+  expect(result.termsBlocked).toEqual(['kha-ba-la']);
+});
+
+test('enforceSaturationCap deduplicates termsBlocked across multiple offending sentences', () => {
+  const original = 'A vessel is what holds.';
+  const expanded =
+    'A vessel is what holds. The kha-ba-la triad opens. Another sentence about kha-ba-la. ' +
+    'Yet more on kha ba la work.';
+  const result = enforceSaturationCap(expanded, original, ['kha-ba-la']);
+  expect(result.termsBlocked).toEqual(['kha-ba-la']);
+  expect(result.text).not.toContain('kha-ba-la');
+  expect(result.text).not.toContain('kha ba la');
+});
+
+test('enforceSaturationCap returns empty string if every sentence got stripped', () => {
+  const original = 'A vessel is what holds.';
+  const expanded = 'The kha-ba-la opens. The antar-agni burns.';
+  const result = enforceSaturationCap(expanded, original, ['kha-ba-la', 'antar-agni']);
+  expect(result.text).toBe('');
+  expect(result.termsBlocked.sort()).toEqual(['antar-agni', 'kha-ba-la']);
+});
+
+test('enforceSaturationCap respects whole-word boundaries (no substring false positives)', () => {
+  // 'vajra' is saturated; 'vajrayana' would be a substring but \\b boundaries should prevent a hit.
+  // Wait — 'vajra' is in 'vajrayana' as a prefix, so \\bvajra\\b would NOT match 'vajrayana'.
+  // That's the desired behavior — confirm here.
+  const original = 'A vessel is what holds.';
+  const expanded = 'A vessel is what holds. The vajrayana path is broader.';
+  const result = enforceSaturationCap(expanded, original, ['vajra']);
+  expect(result.text).toContain('vajrayana');
+  expect(result.termsBlocked).toEqual([]);
 });
 
 test('stripLeadingHeader removes a markdown header at the start', () => {
@@ -127,10 +205,20 @@ integrationTest(
     // the R2 saturation map.
     expect(Array.isArray(data1.meta.saturated_terms)).toBe(true);
     expect(data1.meta.saturated_terms.length).toBeGreaterThan(0);
-    // Subset actually stripped from the model output — empty under the
-    // Task 7 no-op stub; Task 8 will populate this.
+    // Subset actually stripped from the model output by Task 8 enforcement.
+    // May be empty (the prompt is good — model usually obeys) but if not,
+    // none of those terms should still appear in expanded_content.
     expect(Array.isArray(data1.meta.saturated_terms_blocked)).toBe(true);
-    expect(data1.meta.saturated_terms_blocked.length).toBe(0);
+    expect(data1.meta.saturated_terms_blocked.length).toBeGreaterThanOrEqual(0);
+    if (data1.meta.saturated_terms_blocked.length > 0) {
+      const lower = data1.expanded_content.toLowerCase();
+      for (const key of data1.meta.saturated_terms_blocked) {
+        // The key itself is the canonical form; spot-check the canonical
+        // spelling is gone (alternate spellings may also be present in the
+        // taxonomy but the canonical is the most likely to leak).
+        expect(lower).not.toContain(key.toLowerCase());
+      }
+    }
     expect(data1.meta.cache).toBe('miss');
 
     // Cloudflare KV writes are eventually consistent; ctx.waitUntil()
