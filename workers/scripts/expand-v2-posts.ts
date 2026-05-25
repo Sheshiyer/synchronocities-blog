@@ -48,6 +48,10 @@ const audit = args.has('--audit');
 // audit implies dry-run: never touch disk while inspecting.
 const dryRun = args.has('--dry-run') || audit;
 const skipReachability = args.has('--skip-reachability-check');
+// When set in audit mode, prints the actual expanded section bodies between
+// machine-parseable delimiters so downstream A/B-comparison tooling can
+// extract v2 output without rerunning the endpoint. Only meaningful with --audit.
+const emitContent = args.has('--emit-content');
 const limitArg = [...args].find((a) => a.startsWith('--limit='));
 const slugArg = [...args].find((a) => a.startsWith('--slug='));
 
@@ -61,7 +65,7 @@ const onlySlug = slugArg ? slugArg.split('=')[1] : null;
 // typos like `--slu=foo` before they cause confusing behavior.
 const KNOWN_FLAGS = new Set([
   '--local', '--force', '--all', '--audit', '--dry-run',
-  '--skip-reachability-check',
+  '--skip-reachability-check', '--emit-content',
 ]);
 const KNOWN_PREFIXES = ['--limit=', '--slug='];
 for (const token of args) {
@@ -77,6 +81,11 @@ for (const token of args) {
 
 if (audit && !onlySlug) {
   console.error('✗ --audit requires --slug=<name> (audit operates on a single post).');
+  process.exit(2);
+}
+
+if (emitContent && !audit) {
+  console.error('✗ --emit-content requires --audit (only meaningful in audit mode).');
   process.exit(2);
 }
 
@@ -369,6 +378,25 @@ async function runAudit(post: ParsedPost): Promise<void> {
   console.log(`  retrieved neighbors (sum): ${totalNeighbors}`);
   console.log(`  saturated terms blocked (sum across sections): ${totalBlocked}`);
   console.log(`  audit mode: NO DISK WRITES (--dry-run implied)`);
+
+  if (emitContent) {
+    // Emit expanded section bodies between machine-parseable delimiters.
+    // Downstream A/B tooling reads stdout, slices on the delimiters,
+    // and reconstructs the v2 body for comparison against on-disk v1.
+    // Format is deliberately verbose (post-slug + section-idx in markers)
+    // so partial logs / interleaved stderr can't break parsing.
+    console.log('');
+    console.log(`%%V2-EMIT-BEGIN slug=${post.slug}`);
+    for (let i = 0; i < perSection.length; i++) {
+      const r = perSection[i]!;
+      const section = sections[i]!;
+      const body = r.error ? section.full : r.expanded;
+      console.log(`%%V2-SECTION-BEGIN idx=${i} header=${JSON.stringify(section.header)} error=${r.error ? 'true' : 'false'}`);
+      console.log(body);
+      console.log(`%%V2-SECTION-END idx=${i}`);
+    }
+    console.log(`%%V2-EMIT-END slug=${post.slug}`);
+  }
 }
 
 // ─────────────────────────────────────────────────────────────────────────
