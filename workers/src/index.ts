@@ -295,7 +295,13 @@ export default {
     }
 
     // ─────────────────────────────────────────────────────────────────────
-    // GET /test/saturation — returns the corpus saturation map (cached 1h in KV)
+    // GET /test/saturation — returns the corpus saturation map (cached 1h in KV).
+    //
+    // Cache key is version-scoped: bumping CORPUS_VERSION in wrangler.toml
+    // shifts to a new key naturally and old entries expire within 1h. To
+    // avoid serving stale data during a corpus-version transition, deploy
+    // the new CORPUS_VERSION wrangler.toml and the matching R2 upload as
+    // a single atomic operation (don't deploy one without the other).
     // ─────────────────────────────────────────────────────────────────────
     if (path === '/test/saturation' && request.method === 'GET') {
       const cacheKey = `saturation:v${env.CORPUS_VERSION}`;
