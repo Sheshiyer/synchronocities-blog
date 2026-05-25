@@ -29,16 +29,34 @@ test('GET /test/retrieve returns top-3 neighbors from OTHER posts', async () => 
   };
   expect(Array.isArray(data.neighbors)).toBe(true);
   expect(data.neighbors.length).toBeLessThanOrEqual(3);
-  // We tolerate 0 if Vectorize metadata lacks usable passage text (pending Task 5).
-  // With excerpt fallback present in current corpus, we expect >0.
-  expect(data.neighbors.length).toBeGreaterThanOrEqual(0);
+  expect(data.neighbors.length).toBeGreaterThan(0); // body_excerpt populated as of CORPUS_VERSION=3
   expect(data.neighbors.every((n) => n.slug !== 'vessel-prepare-ukha-sambharana')).toBe(true);
-  if (data.neighbors.length > 0) {
-    expect(data.neighbors[0]).toHaveProperty('passage_text');
-    expect(data.neighbors[0]).toHaveProperty('score');
-    expect(data.neighbors[0]).toHaveProperty('slug');
-    expect(data.neighbors[0]).toHaveProperty('title');
-  } else {
-    console.log('[retrieve.test] WARNING: neighbors empty — likely Vectorize metadata lacks body_excerpt/excerpt (Task 5 will fix).');
-  }
+  expect(data.neighbors[0]).toHaveProperty('passage_text');
+  expect(data.neighbors[0]).toHaveProperty('score');
+  expect(data.neighbors[0]).toHaveProperty('slug');
+  expect(data.neighbors[0]).toHaveProperty('title');
+}, 60_000);
+
+test('POST /test/retrieve handles section text well over the embed model token cap', async () => {
+  // The e5 family caps input at 512 tokens. `retrieveNeighbors` truncates
+  // to ~1800 chars (~450–510 tokens) before calling embed(). Without that
+  // truncation, NIM returns 400 "Input length N exceeds maximum allowed
+  // token size 512" and the whole /expand/v2 pipeline 500s. This test
+  // pins the fix: an oversize section must STILL produce neighbors.
+  const oversizeSection =
+    'The cavity precedes the flame. Containment is the work. '.repeat(80); // ~4500 chars, ~1100 tokens
+  const res = await fetch(`${BASE_URL}/test/retrieve`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      section_text: oversizeSection,
+      exclude_slug: 'vessel-prepare-ukha-sambharana',
+    }),
+  });
+  expect(res.status).toBe(200);
+  const data = (await res.json()) as {
+    neighbors: Array<{ slug: string; score: number }>;
+  };
+  expect(Array.isArray(data.neighbors)).toBe(true);
+  expect(data.neighbors.length).toBeGreaterThan(0);
 }, 60_000);
