@@ -25,6 +25,14 @@ export interface Neighbor {
   slug: string;
   title: string;
   passage_text: string;
+  /**
+   * Rerank relevance score, 0–10 (higher = more relevant).
+   *
+   * This is the LLM-as-judge reranker's score, NOT Vectorize's cosine
+   * similarity (0..1). The Vectorize score is discarded after reranking
+   * because the reranker's judgement is what we actually trust for
+   * grounding selection.
+   */
   score: number;
 }
 
@@ -52,8 +60,12 @@ export async function retrieveNeighbors(
   excludeSlug: string,
   opts: RetrieveOptions = {},
 ): Promise<Neighbor[]> {
-  const topK = opts.topKFromVectorize ?? 12;
   const topN = opts.finalTopN ?? 3;
+  // Floor the candidate pool so reranking always sees more than topN even
+  // if a caller passes topKFromVectorize === finalTopN. Without this, the
+  // source-slug filter could drop the pool below topN and the reranker
+  // would return fewer neighbors than requested.
+  const topK = Math.max(opts.topKFromVectorize ?? 12, topN + 5);
 
   // 1. Embed the section text as a passage
   const [vector] = await embed(config, {
