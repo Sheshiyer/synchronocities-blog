@@ -295,6 +295,31 @@ export default {
     }
 
     // ─────────────────────────────────────────────────────────────────────
+    // GET /test/saturation — returns the corpus saturation map (cached 1h in KV)
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/test/saturation' && request.method === 'GET') {
+      const cacheKey = `saturation:v${env.CORPUS_VERSION}`;
+      const cached = await env.CACHE.get(cacheKey);
+      if (cached) {
+        return new Response(cached, {
+          headers: { ...JSON_HEADERS, ...CORS_HEADERS, 'X-Cache': 'HIT' },
+        });
+      }
+      const r2Object = await env.ARTIFACTS.get(`saturation/v${env.CORPUS_VERSION}.json`);
+      if (!r2Object) {
+        return Response.json(
+          { error: 'saturation map not found in R2; run compute-saturation.ts --upload' },
+          { status: 404, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+        );
+      }
+      const body = await r2Object.text();
+      await env.CACHE.put(cacheKey, body, { expirationTtl: 3600 });
+      return new Response(body, {
+        headers: { ...JSON_HEADERS, ...CORS_HEADERS, 'X-Cache': 'MISS' },
+      });
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
     // GET /test/probe?kind=embed|chat — tries multiple candidate models in
     // parallel to find which ones are actually callable on this key (the
     // /v1/models catalog returns more models than the account can invoke).
