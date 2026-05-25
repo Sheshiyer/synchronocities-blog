@@ -21,6 +21,7 @@ import { handleGenerateSummary } from './routes/generate-summary';
 import { handleChat } from './routes/chat';
 import { handleMapsCluster } from './routes/maps-cluster';
 import { handleExpand, handleExpandSection } from './routes/expand';
+import { handleExpandV2Section } from './routes/expand-v2';
 import { retrieveNeighbors } from './lib/retrieve';
 
 export interface Env {
@@ -497,6 +498,16 @@ export default {
     }
     if (path === '/expand/section' && request.method === 'POST') {
       return handleExpandSection(request, env, _ctx);
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // POST /expand/v2/section — retrieval-grounded section expansion.
+    // Pipeline: embed → Vectorize kNN → rerank top-3 → saturation map →
+    // grounded user prompt → chat → strip header → no-op saturation cap.
+    // See routes/expand-v2.ts. v1 /expand/section is untouched.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/expand/v2/section' && request.method === 'POST') {
+      return handleExpandV2Section(request, env, _ctx);
     }
 
     // ─────────────────────────────────────────────────────────────────────
