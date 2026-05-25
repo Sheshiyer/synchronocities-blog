@@ -70,6 +70,11 @@ async function main() {
   if (process.argv.includes('--upload')) {
     const { execSync } = await import('node:child_process');
     const corpusVersion = process.env.CORPUS_VERSION ?? '2';
+    // Guard against shell injection — `corpusVersion` is interpolated into a
+    // shell command below. Restrict to alphanumeric/dot/dash/underscore.
+    if (!/^[\w.-]+$/.test(corpusVersion)) {
+      throw new Error(`Invalid CORPUS_VERSION (must match /^[\\w.-]+$/): ${corpusVersion}`);
+    }
     const key = `saturation/v${corpusVersion}.json`;
     execSync(
       `wrangler r2 object put synchronocities-artifacts/${key} --file=${OUT_PATH} --content-type=application/json --remote`,
