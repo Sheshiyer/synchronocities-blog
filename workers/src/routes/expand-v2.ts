@@ -46,6 +46,18 @@ interface ExpandV2Response {
     ms: number;
     model: string;
     retrieved_neighbors: Array<{ slug: string; score: number }>;
+    /**
+     * Full saturation blacklist that was injected into the user prompt.
+     * Snapshot of the current saturation map's `saturated_terms` field.
+     */
+    saturated_terms: string[];
+    /**
+     * Terms actually REMOVED from the model output by enforceSaturationCap.
+     * Populated by Task 8's sentence-level enforcement; remains [] while the
+     * Task 7 pass-through stub is in place. Reserving the field name now
+     * means Task 8's schema change is additive only — no cached responses
+     * need to be invalidated.
+     */
     saturated_terms_blocked: string[];
     cache: 'hit' | 'miss';
   };
@@ -59,6 +71,13 @@ const CACHE_TTL = 60 * 60 * 24 * 30; // 30 days
  * blacklist injected into the user prompt.
  */
 async function getSaturatedTerms(env: Env): Promise<string[]> {
+  // Caller must guard against undefined/empty CORPUS_VERSION before reaching
+  // here. We assert it as a defense-in-depth — a missing version would cache
+  // every deploy under `saturation:vundefined`, poisoning future reads.
+  if (!env.CORPUS_VERSION) {
+    console.warn('[expand-v2] getSaturatedTerms called with empty CORPUS_VERSION; returning empty list');
+    return [];
+  }
   const cacheKey = `saturation:v${env.CORPUS_VERSION}`;
   const cached = await env.CACHE.get(cacheKey);
   let body: string;
@@ -66,14 +85,21 @@ async function getSaturatedTerms(env: Env): Promise<string[]> {
     body = cached;
   } else {
     const r2Object = await env.ARTIFACTS.get(`saturation/v${env.CORPUS_VERSION}.json`);
-    if (!r2Object) return [];
+    if (!r2Object) {
+      console.warn(
+        `[expand-v2] saturation map missing for CORPUS_VERSION=${env.CORPUS_VERSION} ` +
+          `(r2 key saturation/v${env.CORPUS_VERSION}.json absent); proceeding without blacklist`,
+      );
+      return [];
+    }
     body = await r2Object.text();
     await env.CACHE.put(cacheKey, body, { expirationTtl: 3600 });
   }
   try {
     const map = JSON.parse(body) as { saturated_terms?: string[] };
     return map.saturated_terms ?? [];
-  } catch {
+  } catch (err) {
+    console.warn(`[expand-v2] saturation map JSON parse failed: ${(err as Error).message}`);
     return [];
   }
 }
@@ -104,6 +130,18 @@ export async function handleExpandV2Section(
     );
   }
 
+  // Hard guard: refuse to read or write the cache without a CORPUS_VERSION.
+  // Without this, a missing binding would funnel every request into the
+  // shared key `expand-v2:vundefined:{slug}:{hash}` across deploys —
+  // catastrophic cache poisoning.
+  if (!env.CORPUS_VERSION) {
+    console.error('[expand-v2] CORPUS_VERSION env binding is missing or empty');
+    return Response.json(
+      { error: 'server_misconfigured', detail: 'CORPUS_VERSION not configured' },
+      { status: 500, headers: CORS_HEADERS },
+    );
+  }
+
   const start = Date.now();
 
   // Cache check — keyed on (slug, header, content) hash at CORPUS_VERSION
@@ -125,6 +163,15 @@ export async function handleExpandV2Section(
     getSaturatedTerms(env),
   ]);
 
+  // Observability — degraded modes are quiet failure modes during the Task 12
+  // mass-reprocess (1250 sections). Surface them in Worker logs.
+  if (neighbors.length === 0) {
+    console.warn(`[expand-v2] zero neighbors retrieved for slug=${body.slug} — prompt will use no-neighbors marker`);
+  }
+  if (saturatedTerms.length === 0) {
+    console.warn(`[expand-v2] empty saturation blacklist (R2 map missing or empty) — prompt will signal "all terms available"`);
+  }
+
   const userPrompt = buildUserPrompt({
     postTitle: body.title,
     sectionHeader: body.header ?? '',
@@ -133,16 +180,25 @@ export async function handleExpandV2Section(
     saturatedTerms,
   });
 
-  const raw = await chat(env, {
-    model: env.NIM_CHAT_MODEL,
-    messages: [
-      { role: 'system', content: SYSTEM_PROMPT_V2 },
-      { role: 'user', content: userPrompt },
-    ],
-    max_tokens: 2800,
-    temperature: 0.45,
-    top_p: 0.88,
-  });
+  let raw: string;
+  try {
+    raw = await chat(env, {
+      model: env.NIM_CHAT_MODEL,
+      messages: [
+        { role: 'system', content: SYSTEM_PROMPT_V2 },
+        { role: 'user', content: userPrompt },
+      ],
+      max_tokens: 2800,
+      temperature: 0.45,
+      top_p: 0.88,
+    });
+  } catch (err) {
+    console.error(`[expand-v2] chat() failed for slug=${body.slug}: ${(err as Error).message}`);
+    return Response.json(
+      { error: 'upstream_error', detail: 'chat model unreachable or returned malformed response' },
+      { status: 502, headers: CORS_HEADERS },
+    );
+  }
 
   const stripped = stripLeadingHeader(raw.trim(), body.header ?? '');
   const finalContent = enforceSaturationCap(stripped, saturatedTerms);
@@ -157,7 +213,11 @@ export async function handleExpandV2Section(
       ms: Date.now() - start,
       model: env.NIM_CHAT_MODEL,
       retrieved_neighbors: neighbors.map((n) => ({ slug: n.slug, score: n.score })),
-      saturated_terms_blocked: saturatedTerms,
+      // Full blacklist injected into the prompt.
+      saturated_terms: saturatedTerms,
+      // Subset actually removed by enforceSaturationCap. Task 7 stub is a
+      // pass-through, so always empty here; Task 8 populates this.
+      saturated_terms_blocked: [],
       cache: 'miss',
     },
   };
