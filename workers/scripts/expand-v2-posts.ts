@@ -54,6 +54,27 @@ const slugArg = [...args].find((a) => a.startsWith('--slug='));
 const limit = limitArg ? parseInt(limitArg.split('=')[1]!, 10) : 5;
 const onlySlug = slugArg ? slugArg.split('=')[1] : null;
 
+// Reject unrecognized tokens. Catches the common POSIX-style mistake
+// `--slug foo` (two tokens) — without this, slugArg would be undefined,
+// the lone bareword `foo` would be silently ignored, and the script would
+// quietly run against the full BG_AGENT_POSTS list. Likewise catches
+// typos like `--slu=foo` before they cause confusing behavior.
+const KNOWN_FLAGS = new Set([
+  '--local', '--force', '--all', '--audit', '--dry-run',
+  '--skip-reachability-check',
+]);
+const KNOWN_PREFIXES = ['--limit=', '--slug='];
+for (const token of args) {
+  if (KNOWN_FLAGS.has(token)) continue;
+  if (KNOWN_PREFIXES.some((p) => token.startsWith(p))) continue;
+  console.error(
+    `✗ Unrecognized argument: '${token}'\n` +
+      `  Hint: --slug and --limit use =-form: --slug=foo, --limit=10\n` +
+      `  Known flags: ${[...KNOWN_FLAGS, ...KNOWN_PREFIXES.map((p) => `${p}<value>`)].join(', ')}`,
+  );
+  process.exit(2);
+}
+
 if (audit && !onlySlug) {
   console.error('✗ --audit requires --slug=<name> (audit operates on a single post).');
   process.exit(2);
@@ -265,8 +286,12 @@ async function callV2Section(
       idx,
       header: section.header,
       originalWords: countWords(section.content),
-      expandedWords: 0,
-      expanded: section.full, // fail open
+      // Fail open: section.full is kept on disk in non-dry-run mode.
+      // Reflect that in expandedWords too so audit-summary totals match
+      // what would actually be written (the original text), rather than
+      // 0 — which makes the post ratio look catastrophically wrong.
+      expandedWords: countWords(section.full),
+      expanded: section.full,
       neighbors: [],
       saturatedTerms: [],
       saturatedTermsBlocked: [],
@@ -417,7 +442,10 @@ async function main() {
     failures: number;
     neighborsTotal: number;
     blockedTotal: number;
+    /** Hard error: HTTP 500/502, parse error, timeout — NOT under-expansion. */
     error?: string;
+    /** Soft rejection: expansion below MIN_ACCEPT_MULTIPLIER. Original kept. */
+    rejected?: string;
   }> = [];
 
   for (let i = 0; i < queue.length; i++) {
@@ -474,17 +502,23 @@ async function main() {
         process.stdout.write(
           `REJECTED (under-expand): ${post.bodyWordCount}w → ${expandedWordCount}w (${actualMult}×)${failNote} — keeping original\n`,
         );
+        // Record the rejection as a SEPARATE category from a hard error.
+        // A 1.1× expansion is meaningful signal during dry-run exploration
+        // ("endpoint is producing weak output for this slug") whereas a
+        // hard error is an HTTP/parse failure that needs different triage.
         results.push({
           slug: post.slug,
           before: post.bodyWordCount,
-          after: post.bodyWordCount,
-          mult: 1,
+          // Report the actual would-be word count + ratio so the audit
+          // shows what the endpoint produced, even though we discard it.
+          after: expandedWordCount,
+          mult: actualMult,
           ms: elapsed,
           sections: sections.length,
           failures: sectionFailures,
           neighborsTotal,
           blockedTotal,
-          error: `rejected: ${actualMult}× below ${MIN_ACCEPT_MULTIPLIER}× threshold`,
+          rejected: `${actualMult}× below ${MIN_ACCEPT_MULTIPLIER}× threshold`,
         });
         continue;
       }
@@ -546,22 +580,35 @@ async function main() {
   // Summary
   console.log('');
   console.log('▸ Summary');
-  const success = results.filter((r) => !r.error);
+  // Three disjoint categories: expanded (would-write), rejected
+  // (under-expansion, original kept), failed (hard error, original kept).
+  const expanded = results.filter((r) => !r.error && !r.rejected);
+  const rejected = results.filter((r) => r.rejected);
   const failed = results.filter((r) => r.error);
-  console.log(`  ${success.length} expanded, ${failed.length} failed${dryRun ? ' (dry-run — no disk writes)' : ''}`);
-  if (success.length > 0) {
-    const avgMult = success.reduce((s, r) => s + r.mult, 0) / success.length;
-    const totalWordsAdded = success.reduce((s, r) => s + (r.after - r.before), 0);
-    const totalNeighbors = success.reduce((s, r) => s + r.neighborsTotal, 0);
-    const totalBlocked = success.reduce((s, r) => s + r.blockedTotal, 0);
+  const parts: string[] = [`${expanded.length} expanded`];
+  if (rejected.length > 0) parts.push(`${rejected.length} rejected (under-expand)`);
+  parts.push(`${failed.length} failed`);
+  console.log(`  ${parts.join(', ')}${dryRun ? ' (dry-run — no disk writes)' : ''}`);
+  if (expanded.length > 0) {
+    const avgMult = expanded.reduce((s, r) => s + r.mult, 0) / expanded.length;
+    const totalWordsAdded = expanded.reduce((s, r) => s + (r.after - r.before), 0);
+    const totalNeighbors = expanded.reduce((s, r) => s + r.neighborsTotal, 0);
+    const totalBlocked = expanded.reduce((s, r) => s + r.blockedTotal, 0);
     console.log(`  avg multiplier: ${avgMult.toFixed(2)}×`);
     console.log(`  total words added: ${totalWordsAdded.toLocaleString()}`);
     console.log(`  retrieved neighbors (sum): ${totalNeighbors}`);
     console.log(`  saturated terms blocked (sum): ${totalBlocked}`);
   }
+  if (rejected.length > 0) {
+    console.log('');
+    console.log('  Rejections (under-expansion — original kept on disk):');
+    for (const r of rejected) {
+      console.log(`    ⚠ ${r.slug}: ${r.rejected}`);
+    }
+  }
   if (failed.length > 0) {
     console.log('');
-    console.log('  Failures:');
+    console.log('  Failures (hard errors):');
     for (const f of failed) {
       console.log(`    ✗ ${f.slug}: ${f.error}`);
     }
