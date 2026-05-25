@@ -50,6 +50,27 @@ describe('cleanBodyForEmbedding', () => {
   test('returns empty string for empty input', () => {
     expect(cleanBodyForEmbedding('')).toBe('');
   });
+
+  test('removes fenced code blocks whole — header- and list-like lines inside a fence do not leak out', () => {
+    const body = [
+      'Some prose before.',
+      '',
+      '```bash',
+      '# install deps',
+      '- not a real list item',
+      'npm install',
+      '```',
+      '',
+      'Some prose after.',
+    ].join('\n');
+    const cleaned = cleanBodyForEmbedding(body);
+    expect(cleaned).toContain('Some prose before.');
+    expect(cleaned).toContain('Some prose after.');
+    // Nothing from inside the fence should survive (with or without the `#`/`-`).
+    expect(cleaned).not.toContain('install deps');
+    expect(cleaned).not.toContain('not a real list item');
+    expect(cleaned).not.toContain('npm install');
+  });
 });
 
 describe('buildVectorMetadata', () => {
@@ -91,13 +112,12 @@ describe('buildVectorMetadata', () => {
   });
 
   test('omits body_excerpt if cleaning yields empty string', () => {
-    // Body that is entirely markdown noise — headers, code fences, list markers.
-    const noiseOnly = `# Header\n\n\`\`\`\ncode\n\`\`\`\n\n- \n- \n`;
+    // Body that is ONLY a fenced code block plus blank lines — after fence
+    // removal and trim, cleaned text is the empty string.
+    const noiseOnly = '\n\n```\ncode block with no surrounding prose\n```\n\n';
     const md = buildVectorMetadata({ ...basePost, body: noiseOnly });
-    // Either undefined or, if non-empty residue survives, still bounded.
-    if (md.body_excerpt !== undefined) {
-      expect((md.body_excerpt as string).length).toBeLessThanOrEqual(500);
-    }
+    // body_excerpt must be omitted entirely (not set to an empty string).
+    expect(md.body_excerpt).toBeUndefined();
   });
 
   test('preserves existing fields (slug, title, content_hash, excerpt)', () => {

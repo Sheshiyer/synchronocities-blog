@@ -66,10 +66,13 @@ const MAX_BODY_EXCERPT_CHARS = 500;
  * reranker sees real body content, not the author's marketing excerpt).
  */
 export function cleanBodyForEmbedding(body: string): string {
+  // Order matters: remove fenced code blocks FIRST so their interior (which
+  // may legitimately contain `# comments`, `[brackets]`, or `- list items`
+  // as code) is excised whole, not partially mutated by later regexes.
   return body
+    .replace(/```[\s\S]*?```/g, '') // code blocks (must run first)
     .replace(/^#+\s+/gm, '') // headers
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // link text only
-    .replace(/```[\s\S]*?```/g, '') // code blocks
     .replace(/^\s*[-*]\s+/gm, '') // list markers
     .replace(/\n{3,}/g, '\n\n')
     .trim();
