@@ -68,6 +68,11 @@ export async function retrieveNeighbors(
   // would return fewer neighbors than requested.
   const topK = Math.max(opts.topKFromVectorize ?? 12, topN + 5);
 
+  // Empty or whitespace-only section text would hit embed() with an empty
+  // string, which NIM rejects with a 400. Return cleanly so the caller's
+  // empty-neighbors branch handles it gracefully.
+  if (!sectionText.trim()) return [];
+
   // 1. Embed the section text as a passage.
   //
   // The e5 family caps input at 512 tokens. Section text may run well over
