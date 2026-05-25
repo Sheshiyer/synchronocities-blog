@@ -21,6 +21,7 @@ import { handleGenerateSummary } from './routes/generate-summary';
 import { handleChat } from './routes/chat';
 import { handleMapsCluster } from './routes/maps-cluster';
 import { handleExpand, handleExpandSection } from './routes/expand';
+import { retrieveNeighbors } from './lib/retrieve';
 
 export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
@@ -323,6 +324,42 @@ export default {
       return new Response(body, {
         headers: { ...JSON_HEADERS, ...CORS_HEADERS, 'X-Cache': 'MISS' },
       });
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // POST /test/retrieve — per-section retrieval grounding for /expand/v2.
+    // Body: { section_text, exclude_slug }
+    // Response: { neighbors: Neighbor[] }
+    // Pipeline: embed(section) → Vectorize.query(filter self) → rerank → top-3.
+    // ─────────────────────────────────────────────────────────────────────
+    if (path === '/test/retrieve' && request.method === 'POST') {
+      let body: { section_text?: string; exclude_slug?: string };
+      try {
+        body = (await request.json()) as typeof body;
+      } catch {
+        return Response.json(
+          { error: 'invalid_json' },
+          { status: 400, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+        );
+      }
+      if (!body.section_text || !body.exclude_slug) {
+        return Response.json(
+          { error: 'section_text and exclude_slug required' },
+          { status: 400, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+        );
+      }
+      try {
+        const neighbors = await retrieveNeighbors(env, body.section_text, body.exclude_slug);
+        return Response.json(
+          { neighbors },
+          { headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+        );
+      } catch (err) {
+        return Response.json(
+          { error: err instanceof Error ? err.message : String(err) },
+          { status: 500, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
+        );
+      }
     }
 
     // ─────────────────────────────────────────────────────────────────────
