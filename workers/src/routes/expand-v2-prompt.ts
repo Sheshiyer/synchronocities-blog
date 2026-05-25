@@ -78,11 +78,47 @@ Begin your response with the first paragraph of the deepened section.`;
  * `passage_text` is NOT truncated here — retrieve.ts already caps body
  * excerpts at ~500 chars upstream.
  */
+/**
+ * Shape buildUserPrompt accepts per neighbor. Compatible with the
+ * `Neighbor` type from `../lib/retrieve.ts` (which adds a `score` field
+ * we ignore here) so Task 7 can pass `Neighbor[]` directly without
+ * conversion.
+ */
+export interface PromptNeighbor {
+  slug: string;
+  title: string;
+  passage_text: string;
+  /** Optional — present on retrieve.Neighbor, not used by the prompt. */
+  score?: number;
+}
+
+/** ASCII number-word for small counts; falls back to digits beyond 5. */
+const COUNT_WORDS = ['ZERO', 'ONE', 'TWO', 'THREE', 'FOUR', 'FIVE'] as const;
+
+/**
+ * Sanitize a metadata field that will be interpolated into a passage block
+ * header. Closes two prompt-injection vectors:
+ *   - Embedded newlines that could synthesize a new "--- RETRIEVED PASSAGE …"
+ *     block (structural attack).
+ *   - Embedded `---` runs that could visually impersonate the block
+ *     delimiter on a single line (semantic confusion).
+ *
+ * Slug and title are always single-line in the corpus, so collapsing both
+ * is lossless. Passage_text is multi-line by design and is NOT sanitized
+ * — the visible block boundaries are the ones buildUserPrompt emits.
+ */
+function singleLine(s: string): string {
+  return s
+    .replace(/[\r\n]+/g, ' ')
+    .replace(/-{3,}/g, '—')
+    .trim();
+}
+
 export function buildUserPrompt(args: {
   postTitle: string;
   sectionHeader: string;
   sectionContent: string;
-  neighbors: Array<{ slug: string; title: string; passage_text: string }>;
+  neighbors: PromptNeighbor[];
   saturatedTerms: string[];
 }): string {
   const { postTitle, sectionHeader, sectionContent, neighbors, saturatedTerms } = args;
@@ -92,7 +128,7 @@ export function buildUserPrompt(args: {
       ? neighbors
           .map(
             (n, i) =>
-              `--- RETRIEVED PASSAGE ${i + 1} (from post '${n.slug}', titled "${n.title}") ---\n${n.passage_text}\n`,
+              `--- RETRIEVED PASSAGE ${i + 1} (from post '${singleLine(n.slug)}', titled "${singleLine(n.title)}") ---\n${n.passage_text}\n`,
           )
           .join('\n')
       : "(no neighbors retrieved — proceed with the section's own internal evidence only)";
@@ -100,11 +136,23 @@ export function buildUserPrompt(args: {
   const saturatedList =
     saturatedTerms.length > 0 ? saturatedTerms.join(', ') : '(none — all terms available)';
 
+  // Use a number-word that matches the actual neighbor count so the model
+  // is never told "THREE" when it actually sees 1, 2, or 5 passages. Falls
+  // back to a numeric form for unusual counts. Empty case renders cleanly.
+  const passageCountWord =
+    neighbors.length === 0
+      ? 'NO'
+      : (COUNT_WORDS[neighbors.length] ?? String(neighbors.length));
+  const passagesIntro =
+    neighbors.length === 0
+      ? "RETRIEVED PASSAGES — none returned for this section. Proceed using the section's own internal evidence."
+      : `${passageCountWord} RETRIEVED PASSAGE${neighbors.length === 1 ? '' : 'S'} from neighboring posts in this corpus, semantically similar to the section you're deepening. Use these as triangulation material — make at most ONE specific reference per passage if it serves the argument.`;
+
   return `Post title: ${postTitle}
 
 Section header (for context only — do NOT include in your output): ${sectionHeader}
 
-THREE RETRIEVED PASSAGES from neighboring posts in this corpus, semantically similar to the section you're deepening. Use these as triangulation material — make at most ONE specific reference per passage if it serves the argument.
+${passagesIntro}
 
 ${neighborBlock}
 
