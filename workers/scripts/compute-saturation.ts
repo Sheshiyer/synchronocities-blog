@@ -66,6 +66,17 @@ async function main() {
     console.log(`Saturated (75+): ${output.saturated_terms.length} terms`);
     console.log(`  ${output.saturated_terms.slice(0, 10).join(', ')}${output.saturated_terms.length > 10 ? '...' : ''}`);
   }
+
+  if (process.argv.includes('--upload')) {
+    const { execSync } = await import('node:child_process');
+    const corpusVersion = process.env.CORPUS_VERSION ?? '2';
+    const key = `saturation/v${corpusVersion}.json`;
+    execSync(
+      `wrangler r2 object put synchronocities-artifacts/${key} --file=${OUT_PATH} --content-type=application/json --remote`,
+      { stdio: 'inherit', cwd: join(import.meta.dir, '..') },
+    );
+    console.log(`Uploaded to r2://synchronocities-artifacts/${key}`);
+  }
 }
 
 if (import.meta.main) {
