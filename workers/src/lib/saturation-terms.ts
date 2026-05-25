@@ -32,7 +32,9 @@ export const SATURATION_TERMS: SaturationTerm[] = [
   // Sanskrit-anchor — recurring Sanskrit terms
   { key: 'antar-agni',        patterns: ['antar-agni', 'antar agni', 'antaragni'],            category: 'sanskrit-anchor' },
   { key: 'pancha-kosha',      patterns: ['pancha-kosha', 'pancha kosha', 'panchakosha'],      category: 'sanskrit-anchor' },
-  { key: 'bali-padyami',      patterns: ['bali padyami', 'bali-padyami'],                     category: 'sanskrit-anchor' },
+  // Corpus uses 'Bali Padiyami' / 'bali-padiyami' (with the 'i'). The 'padyami' spelling
+  // is also valid Sanskrit transliteration so we accept both; counter will match either.
+  { key: 'bali-padyami',      patterns: ['bali padiyami', 'bali-padiyami', 'bali padyami', 'bali-padyami'], category: 'sanskrit-anchor' },
   { key: 'ukha',              patterns: ['ukha', 'ukhā', 'ukhasambharana'],                   category: 'sanskrit-anchor' },
   { key: 'samvatsara',        patterns: ['samvatsara'],                                       category: 'sanskrit-anchor' },
   { key: 'samskara',          patterns: ['samskara', 'sanskara'],                             category: 'sanskrit-anchor' },
