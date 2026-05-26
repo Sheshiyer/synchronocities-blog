@@ -65,7 +65,15 @@ export interface IndexBatchResponse {
  * split body into 400-token chunks, embed each, store as separate
  * vectors with a `parent_slug` metadata field. Out of scope for phase A.
  */
-const MAX_BODY_CHARS = 1200;
+// Dropped from 1200 to 800 after the first vault-index run produced NIM
+// 400 errors ("Input length N exceeds maximum allowed token size 512") on
+// token-dense content (Sanskrit transliteration, em-dashes, AIPRM exports).
+// At ~0.74 tokens/char worst-case, 800 chars of body + ~30 title + ~200
+// excerpt ≈ 1030 chars total ≈ 510 tokens worst-case — under the 512-token
+// e5 cap. For blog posts (3.5–4 chars/token) this is a 33% smaller embed
+// window than before but still captures lede + first paragraph, which is
+// the load-bearing chunk for retrieval grounding.
+const MAX_BODY_CHARS = 800;
 /** Max chars for body_excerpt stored in Vectorize metadata. */
 const MAX_BODY_EXCERPT_CHARS = 500;
 

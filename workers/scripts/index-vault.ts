@@ -48,8 +48,18 @@ import { homedir } from 'node:os';
 // without spawning the full walk.
 // ─────────────────────────────────────────────────────────────────────────
 
-const CHUNK_MAX_CHARS = 1800;
-const CHUNK_OVERLAP = 200;
+// Vault content (Sanskrit transliteration, AIPRM thread exports, em-dashes,
+// dense punctuation) tokenizes at ~0.5–0.74 tokens/char worst-case, not the
+// 3–4 chars/token assumed in the original design. The first vault-index run
+// surfaced "Input length 1024 exceeds maximum allowed token size 512" errors
+// on a chunk that was 1800 chars. To stay safely under the e5 512-token cap
+// (with title + excerpt overhead added inside buildEmbedText), we cap chunks
+// at 600 chars: title(~30) + excerpt(≤200) + chunk(≤600) ≈ 830 chars total
+// ≈ 415–615 tokens worst-case. Combined with the worker-side MAX_BODY_CHARS
+// guard (in posts.ts, dropped to 800), we never exceed the 512-token cap
+// even on the most token-dense vault content.
+const CHUNK_MAX_CHARS = 600;
+const CHUNK_OVERLAP = 100;
 const MIN_CHUNK_CHARS = 200;
 const MAX_FILE_BYTES = 200 * 1024; // 200 KB
 const IMAGE_EMBED_RE = /!\[[^\]]*\]\([^)]*\)/g;
