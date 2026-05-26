@@ -106,14 +106,40 @@ export async function handleEmbedBatch(
     const batch = needsEmbedding.slice(i, i + concurrency);
     const results = await Promise.allSettled(
       batch.map(async (post) => {
-        const text = buildEmbedText(post);
-        const vectors = await runSurface(
-          'embed.passage',
-          { texts: [text] },
-          config,
-          { ctx, bypassCache: true }, // we manage idempotency via content hash
-        );
-        const vec = vectors[0];
+        // Retry-with-halving: NIM caps input at 512 tokens for nv-embedqa-e5-v5,
+        // but token density varies wildly with content (Sanskrit transliteration,
+        // AIPRM exports, em-dashes can reach >1 token/char). A pure char-cap
+        // doesn't work for every case. When NIM returns 400 with the token-cap
+        // error, halve the body and retry. Up to 3 halvings (600 → 300 → 150
+        // → 75 chars) — at 75 chars even pathological content fits.
+        let text = buildEmbedText(post);
+        let vectors: Float32Array[] | null = null;
+        for (let attempt = 0; attempt < 4; attempt++) {
+          try {
+            vectors = await runSurface(
+              'embed.passage',
+              { texts: [text] },
+              config,
+              { ctx, bypassCache: true }, // we manage idempotency via content hash
+            );
+            break;
+          } catch (err) {
+            const msg = err instanceof Error ? err.message : String(err);
+            const oversize = /Input length .* exceeds maximum allowed token size/.test(msg);
+            if (!oversize || attempt === 3 || text.length < 100) {
+              throw err;
+            }
+            // Halve the text by truncating the body portion. We keep the
+            // title prefix (line 1) and excerpt (line 2 if present) and
+            // halve the remaining body so the most-load-bearing context
+            // (title + excerpt) is preserved across retries.
+            const lines = text.split('\n\n');
+            const head = lines.slice(0, Math.min(2, lines.length - 1)).join('\n\n');
+            const tail = lines[lines.length - 1] ?? '';
+            text = `${head}\n\n${tail.slice(0, Math.floor(tail.length / 2))}`.trim();
+          }
+        }
+        const vec = vectors?.[0];
         if (!vec) throw new Error('no vector returned');
         return { post, vector: vec };
       }),
