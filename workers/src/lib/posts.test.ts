@@ -129,4 +129,20 @@ describe('buildVectorMetadata', () => {
     expect(md.tags).toBe('vessel,flame');
     expect(md.date).toBe('2026-05-01');
   });
+
+  test('emits source_type + source_path when present', () => {
+    const md = buildVectorMetadata({
+      ...basePost,
+      source_type: 'noesis',
+      source_path: '/Users/sheshnarayaniyer/Documents/noesis/Research/foo.md',
+    });
+    expect(md.source_type).toBe('noesis');
+    expect(md.source_path).toBe('/Users/sheshnarayaniyer/Documents/noesis/Research/foo.md');
+  });
+
+  test('omits source_type + source_path when absent (legacy posts)', () => {
+    const md = buildVectorMetadata(basePost);
+    expect(md.source_type).toBeUndefined();
+    expect(md.source_path).toBeUndefined();
+  });
 });

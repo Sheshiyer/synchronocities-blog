@@ -45,7 +45,9 @@ NIM_SAFETY_MODEL        = "nvidia/llama-3.1-nemoguard-8b-content-safety"  # 453m
 
 # Bumped to 2 after the embed model swap (1024-d invalidates all 4096-d cached vectors).
 # Bumped to 3 to reindex with body_excerpt in Vectorize metadata (Task 5 of /expand/v2 plan).
-CORPUS_VERSION = "3"
+# Bumped to 4 to widen the corpus from 125 blog posts to ~3,600 vault docs
+# (Task 13 of /expand/v2.1 — vault indexer adds source_type/source_path metadata).
+CORPUS_VERSION = "4"
 
 # ────────────────────────────────────────────────────────────────────────────
 # KV — query cache (binds to existing CACHE namespace from `wrangler kv namespace list`)

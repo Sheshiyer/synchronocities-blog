@@ -56,6 +56,8 @@ interface ParsedPost {
   concepts?: string[];
   kosha?: string;
   contentHash: string;
+  source_type?: string;
+  source_path?: string;
 }
 
 function parseFrontmatter(raw: string): { fm: Record<string, unknown>; body: string } {
@@ -136,6 +138,8 @@ async function loadPost(filepath: string): Promise<ParsedPost> {
     concepts: Array.isArray(fm.concepts) ? fm.concepts : undefined,
     kosha: fm.kosha ? String(fm.kosha) : undefined,
     contentHash: hash,
+    source_type: 'blog',
+    source_path: filepath,
   };
 }
 

@@ -23,6 +23,19 @@ export interface PostMetadata {
   kosha?: string;
   /** SHA-256 hex of the body — used for idempotent reindexing. */
   contentHash: string;
+  /**
+   * Source bucket this record came from. Defaults to 'blog' in the legacy
+   * indexer for the 125 published posts. Vault-indexer chunks carry
+   * 'noesis' | 'area' | 'resource' | 'project' so retrieval can surface
+   * (and downstream code can analyze) source-type diversity.
+   */
+  source_type?: string;
+  /**
+   * Absolute path to the source file. For blog posts this is the .md file
+   * in src/content/posts. For vault chunks this is the original vault doc
+   * path. Stored in metadata for traceability and de-dup across runs.
+   */
+  source_path?: string;
 }
 
 export interface IndexBatchRequest {
@@ -110,6 +123,8 @@ export function buildVectorMetadata(post: PostMetadata): Record<string, string |
     const cleaned = cleanBodyForEmbedding(post.body);
     if (cleaned.length > 0) md.body_excerpt = cleaned.slice(0, MAX_BODY_EXCERPT_CHARS);
   }
+  if (post.source_type) md.source_type = post.source_type;
+  if (post.source_path) md.source_path = post.source_path;
   return md;
 }
 
