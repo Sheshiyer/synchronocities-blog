@@ -93,7 +93,16 @@ async function getSaturatedTerms(env: Env): Promise<string[]> {
       return [];
     }
     body = await r2Object.text();
-    await env.CACHE.put(cacheKey, body, { expirationTtl: 3600 });
+    // KV put failures must not break the read path. We've seen the daily
+    // KV write quota exceeded during heavy indexing runs; in that case
+    // we still want to serve the saturation map from R2 directly, just
+    // without re-populating the cache (we'll re-fetch from R2 on subsequent
+    // requests until the quota resets at midnight UTC).
+    try {
+      await env.CACHE.put(cacheKey, body, { expirationTtl: 3600 });
+    } catch (err) {
+      console.warn(`[expand-v2] saturation cache put failed (non-fatal): ${(err as Error).message}`);
+    }
   }
   try {
     const map = JSON.parse(body) as { saturated_terms?: string[] };
@@ -223,8 +232,14 @@ export async function handleExpandV2Section(
     },
   };
 
+  // ctx.waitUntil handles the fire-and-forget; wrap the put in a catch so
+  // a KV quota-exceeded error (we hit this during heavy vault indexing)
+  // never reaches the user — the response has already been built.
   ctx.waitUntil(
-    env.CACHE.put(cacheKey, JSON.stringify(response), { expirationTtl: CACHE_TTL }),
+    env.CACHE.put(cacheKey, JSON.stringify(response), { expirationTtl: CACHE_TTL }).catch(
+      (err: unknown) =>
+        console.warn(`[expand-v2] response cache put failed (non-fatal): ${(err as Error).message}`),
+    ),
   );
 
   return Response.json(response, { headers: CORS_HEADERS });
