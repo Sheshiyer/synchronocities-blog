@@ -52,6 +52,14 @@ const skipReachability = args.has('--skip-reachability-check');
 // machine-parseable delimiters so downstream A/B-comparison tooling can
 // extract v2 output without rerunning the endpoint. Only meaningful with --audit.
 const emitContent = args.has('--emit-content');
+// When set, the no-shrink guard accepts COMPRESSION outcomes (multiplier
+// < 1.0) as legitimate, rejecting only catastrophic shrinkage below
+// COMPRESSION_FLOOR (0.3×). Designed for the Task 12 reprocess of posts
+// that were already v1-bloated — v2's correct behavior on those is to
+// compress, but the default 1.2× guard would reject every one of them.
+// Off by default to preserve the "expansion must actually expand" gate
+// for genuinely-short input posts.
+const allowCompression = args.has('--allow-compression');
 const limitArg = [...args].find((a) => a.startsWith('--limit='));
 const slugArg = [...args].find((a) => a.startsWith('--slug='));
 
@@ -65,7 +73,7 @@ const onlySlug = slugArg ? slugArg.split('=')[1] : null;
 // typos like `--slu=foo` before they cause confusing behavior.
 const KNOWN_FLAGS = new Set([
   '--local', '--force', '--all', '--audit', '--dry-run',
-  '--skip-reachability-check', '--emit-content',
+  '--skip-reachability-check', '--emit-content', '--allow-compression',
 ]);
 const KNOWN_PREFIXES = ['--limit=', '--slug='];
 for (const token of args) {
@@ -522,13 +530,24 @@ async function main() {
       const neighborsTotal = perSection.reduce((s, r) => s + (r?.neighbors.length ?? 0), 0);
       const blockedTotal = perSection.reduce((s, r) => s + (r?.saturatedTermsBlocked.length ?? 0), 0);
 
-      // v2 no-shrink guard: lowered from v1's 1.5× to 1.2× (quality > quantity).
-      // v2 typically expands less aggressively than v1; rejecting at 1.5× would
-      // throw away legitimate retrieval-grounded expansions.
-      const MIN_ACCEPT_MULTIPLIER = 1.2;
+      // Two-mode no-shrink guard:
+      //   default mode (allowCompression=false): reject anything below 1.2×.
+      //     Designed for genuinely-short input posts where v2 is expected to
+      //     expand. v1 used 1.5×; we lowered to 1.2× because v2 is
+      //     quality-gated rather than multiplier-gated.
+      //   compression mode (--allow-compression): accept [0.3×, ∞), reject
+      //     only catastrophic shrinkage below 0.3×. Designed for the Task 12
+      //     reprocess of already-v1-bloated posts where v2's correct
+      //     behavior is to compress back to retrieval-grounded prose.
+      //     The 0.3× floor catches pathological output (model returned
+      //     two-sentence summary, or every section error-bounced to the
+      //     original which somehow words-truncated). Empirically Task 10's
+      //     5 worst-offender audits all landed in [0.42×, 0.66×].
+      const MIN_ACCEPT_MULTIPLIER = allowCompression ? 0.3 : 1.2;
+      const guardLabel = allowCompression ? 'catastrophic shrink' : 'under-expand';
       if (actualMult < MIN_ACCEPT_MULTIPLIER) {
         process.stdout.write(
-          `REJECTED (under-expand): ${post.bodyWordCount}w → ${expandedWordCount}w (${actualMult}×)${failNote} — keeping original\n`,
+          `REJECTED (${guardLabel}): ${post.bodyWordCount}w → ${expandedWordCount}w (${actualMult}×)${failNote} — keeping original\n`,
         );
         // Record the rejection as a SEPARATE category from a hard error.
         // A 1.1× expansion is meaningful signal during dry-run exploration
