@@ -64,8 +64,9 @@ const isActive = (href: string) => {
     </span>
   </a>
 
+  <!-- Desktop nav (hidden below sm — mobile uses the hamburger + dropdown below). -->
   <nav
-    class="site-header-nav flex max-w-[58vw] items-center justify-end gap-x-3 overflow-x-auto whitespace-nowrap pl-3 sm:max-w-none sm:gap-x-5 sm:pl-0"
+    class="site-header-nav hidden max-w-[58vw] items-center justify-end gap-x-3 overflow-x-auto whitespace-nowrap pl-3 sm:flex sm:max-w-none sm:gap-x-5 sm:pl-0"
     style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none; -webkit-mask-image: linear-gradient(to right, black 86%, transparent 100%); mask-image: linear-gradient(to right, black 86%, transparent 100%);"
   >
     {links.map(({ href, label, count }) => {
@@ -85,4 +86,141 @@ const isActive = (href: string) => {
       );
     })}
   </nav>
+
+  <!-- Mobile hamburger button — shown only below sm, hidden at/above sm. -->
+  <button
+    id="site-nav-toggle"
+    type="button"
+    aria-expanded="false"
+    aria-controls="site-nav-mobile-panel"
+    aria-label="Open navigation"
+    class="site-nav-toggle inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[rgba(138,155,168,0.18)] bg-[rgba(7,11,29,0.62)] text-[var(--color-sacred-gold)] transition-colors hover:bg-[rgba(197,160,23,0.12)] sm:hidden"
+  >
+    <!-- Hamburger icon (shown when collapsed) -->
+    <svg
+      data-icon="open"
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      aria-hidden="true"
+    >
+      <line x1="4" y1="7" x2="20" y2="7"></line>
+      <line x1="4" y1="12" x2="20" y2="12"></line>
+      <line x1="4" y1="17" x2="20" y2="17"></line>
+    </svg>
+    <!-- Close (X) icon (shown when expanded). Hidden by default; toggled by JS. -->
+    <svg
+      data-icon="close"
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      aria-hidden="true"
+      style="display: none;"
+    >
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+      <line x1="6" y1="18" x2="18" y2="6"></line>
+    </svg>
+  </button>
+
+  <!-- Mobile dropdown panel — drops in just below the header pill on mobile.
+       `hidden` attribute by default; JS toggles it. Matches the pill's
+       backdrop-blur, border, and brand-color palette. -->
+  <div
+    id="site-nav-mobile-panel"
+    role="menu"
+    aria-labelledby="site-nav-toggle"
+    hidden
+    class="absolute left-3 right-3 top-full z-10 mt-2 flex flex-col gap-1 rounded-2xl border border-[rgba(138,155,168,0.18)] bg-[rgba(7,11,29,0.92)] p-2 shadow-[0_18px_50px_rgba(0,0,0,0.32)] backdrop-blur-md sm:hidden"
+    style="font-family: var(--font-mono); font-size: 0.85rem;"
+  >
+    {links.map(({ href, label, count }) => {
+      const active = isActive(href);
+      return (
+        <a
+          href={href}
+          role="menuitem"
+          data-site-nav-link
+          class="flex items-center justify-between gap-3 rounded-xl px-3 py-2 transition-colors hover:bg-[rgba(197,160,23,0.08)]"
+          style={`color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
+        >
+          <span class="font-semibold tracking-[0.04em]">{label}</span>
+          <span
+            class="tabular-nums"
+            style={`font-size: 0.85em; opacity: ${active ? 0.85 : 0.5}; color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
+          >{count}</span>
+        </a>
+      );
+    })}
+  </div>
 </header>
+
+<script>
+  // Mobile hamburger toggle. Pure DOM, no framework. Runs once per page load.
+  // Behavior:
+  //   - Tap toggle  → open/close
+  //   - Tap a link  → close (so the destination page renders without a
+  //                   leftover open panel)
+  //   - Tap outside → close
+  //   - Press ESC   → close
+  //   - sm breakpoint resize → close (the desktop nav takes over)
+  const toggle = document.getElementById('site-nav-toggle');
+  const panel = document.getElementById('site-nav-mobile-panel');
+  if (toggle && panel) {
+    const openIcon = toggle.querySelector('[data-icon="open"]') as HTMLElement | null;
+    const closeIcon = toggle.querySelector('[data-icon="close"]') as HTMLElement | null;
+
+    const setOpen = (open: boolean) => {
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+      panel.toggleAttribute('hidden', !open);
+      if (openIcon) openIcon.style.display = open ? 'none' : '';
+      if (closeIcon) closeIcon.style.display = open ? '' : 'none';
+    };
+
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+
+    // Tapping a nav link inside the panel closes it before navigation
+    // (otherwise the panel stays open across a same-origin client-side nav).
+    panel.querySelectorAll('[data-site-nav-link]').forEach((link) => {
+      link.addEventListener('click', () => setOpen(false));
+    });
+
+    // Tap outside the header closes the panel.
+    document.addEventListener('click', (e) => {
+      if (toggle.getAttribute('aria-expanded') !== 'true') return;
+      const target = e.target as Node;
+      if (!toggle.contains(target) && !panel.contains(target)) {
+        setOpen(false);
+      }
+    });
+
+    // ESC closes the panel.
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+
+    // If the viewport grows past sm while the panel is open, close it —
+    // the desktop nav becomes visible and the open mobile panel would
+    // otherwise float there as a stale overlay.
+    const mql = window.matchMedia('(min-width: 640px)');
+    mql.addEventListener('change', (ev) => {
+      if (ev.matches) setOpen(false);
+    });
+  }
+</script>
