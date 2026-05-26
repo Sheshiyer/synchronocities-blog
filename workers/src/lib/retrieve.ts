@@ -35,6 +35,13 @@ export interface Neighbor {
    * grounding selection.
    */
   score: number;
+  /**
+   * Where this passage originated. Populated for vault chunks indexed at
+   * CORPUS_VERSION=4 (`noesis | area | resource | project`). Legacy blog
+   * vectors written before the v2.1 reindex have this undefined; callers
+   * should treat `undefined` as 'blog' for diagnostics.
+   */
+  source_type?: string;
 }
 
 export interface RetrieveOptions {
@@ -121,6 +128,7 @@ export async function retrieveNeighbors(
         title: String(md.title ?? ''),
         passage_text: passage,
         score: m.score,
+        source_type: md.source_type ? String(md.source_type) : undefined,
       };
     })
     .filter((c) => c.slug && c.passage_text.length > 0);
@@ -145,12 +153,14 @@ export async function retrieveNeighbors(
     .map((r) => {
       const c = candidates[r.index];
       if (!c) return null;
-      return {
+      const out: Neighbor = {
         slug: c.slug,
         title: c.title,
         passage_text: c.passage_text,
         score: r.score,
       };
+      if (c.source_type) out.source_type = c.source_type;
+      return out;
     })
     .filter((x): x is Neighbor => x !== null);
 }
