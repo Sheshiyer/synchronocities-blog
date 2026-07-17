@@ -60,7 +60,7 @@ I set two quiet rails in my head: **Jachin** (non-negotiable) and **Boaz** (safe
 
 Traffic translated into mathematics. Angels gave presence; angles gave geometry. Each weave adjusted a moving average between spike and calm. Too high and the forearms turned to cable; too low and attention drifted. Centered, the vector held.
 
-The city kept renegotiating the Overton window block by block — what was wild at one intersection became normal by the next — and I could feel WitnessOS running in-body: **symbol → tag → one decisive move.**
+The city kept renegotiating the Overton window block by block — what was wild at one intersection became normal by the next — and I could feel Noesis Engine running in-body: **symbol → tag → one decisive move.**
 
 No theatre. A small, deliberate skin-lift was the haptic "field on." The lane answered every time I spoke in the format **one statement + one ask.**
 
@@ -70,7 +70,7 @@ Bangkok's lesson was blunt and elegant: **direction needs boundary, not bravado.
 
 The counterweight arrived in Koh Samui. Mountain home at night, humid air quiet as a held note.
 
-At the gate waited a white dog with a red collar. Her name is **Kala**, and she felt like **Kali** — Time, with a blade that cuts fog from path. She is a friend's dog, which makes her a better omen because she doesn't need to be one. She glanced back, chose the route, and I followed.
+At the gate waited a white dog with a red collar. Her name is **Kala**, and she felt like **Kali** — Time, with a blade that cuts fog from the route. She is a friend's dog, which makes her a better omen because she doesn't need to be one. She glanced back, chose the route, and I followed.
 
 Here Rider-Waite's Fool took the step, and The Star opened above as an afterimage. The Hermit's lamp appeared as headlight and phone torch: a circle of sight that moved with us.
 

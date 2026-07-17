@@ -55,6 +55,6 @@ I thought of Ichigo in the royal forge: admit the false blade, request the true 
 
 - **Tongue** now speaks in compressed truth (Gate-52 pause → one line).
 - **Sacral** now commits only on clear ignition (sacral yes / no).
-- **Latency fell.** WitnessOS runs in-body: signal → tag → act.
+- **Latency fell.** Noesis Engine runs in-body: signal → tag → act.
 
 Shenzhen handed back both swords without ceremony. Ticket closed. The edges are mine, tempered by pressure and aligned by boundary. I left deep water carrying two true blades. Bangkok would be the corridor; the Chariot would test them on the road.

@@ -1,0 +1,219 @@
+#!/usr/bin/env python3
+"""
+pre-commit hook — Noesis Quality Gate
+══════════════════════════════════════
+Scan staged .md files for AVOID and EMERGENT vocabulary violations.
+Block commits with clear error messages and remediation instructions.
+
+Install:
+    cp .git/hooks/pre-commit.sample .git/hooks/pre-commit
+    # then overwrite with this file, or symlink:
+    ln -sf ../../scripts/pre-commit .git/hooks/pre-commit
+    chmod +x .git/hooks/pre-commit
+"""
+
+import os
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+# ── Configuration ──────────────────────────────────────────────────────────────
+AVOID_CRITICAL = ["witnessos"]
+AVOID_STANDARD = [
+    "journey", "path", "healing", "manifesting", "abundance", "vibration",
+    "authentic self", "higher self", "optimization", "hacks", "productivity",
+    "tribe", "community", "dual guardrail dyad",
+    "artificial intelligence", "ai ",
+    "blunder", "spiritual war", "flat earth", "conspiracy",
+]
+
+EMERGENT_TERMS = ["healing", "optimization", "vibration", "journey", "truth", "energy", "quantum"]
+
+RECODE_MAP = {
+    "journey": "inquiry, examination, practice",
+    "path": "architecture, protocol, grammar",
+    "healing": "integration, metabolism, recursion",
+    "manifesting": "authorship, construction, inhabitation",
+    "abundance": "(remove the frame entirely)",
+    "vibration": "frequency, resonance (only when technically grounded)",
+    "authentic self": "witness, author-drive, self-consciousness",
+    "higher self": "observer, field, Kha",
+    "optimization": "calibration, coherence, alignment",
+    "hacks": "(remove the frame entirely)",
+    "productivity": "capacity, sovereignty",
+    "tribe": "(remove the frame entirely)",
+    "community": "(remove the frame entirely)",
+    "dual guardrail dyad": "(remove entirely)",
+    "artificial intelligence": "engine, protocol, system",
+    "ai": "engine, protocol, system",
+    "blunder": "cascade error, structural compounding",
+    "spiritual war": "epistemic conflict, field-level arbitration",
+    "flat earth": "planar inquiry, local topology hypothesis",
+    "conspiracy": "coordination detection, structural alignment analysis",
+    "witnessos": "Noesis Engine or remove entirely",
+    "truth": "structural coherence, field alignment",
+    "energy": "(quantify in joules/Hz or remove)",
+    "quantum": "(specific quantum mechanical phenomenon only)",
+}
+
+# ── Helpers ────────────────────────────────────────────────────────────────────
+
+def get_staged_md_files() -> list[Path]:
+    """Return list of staged .md files under src/content/posts."""
+    result = subprocess.run(
+        ["git", "diff", "--cached", "--name-only", "--diff-filter=ACM"],
+        capture_output=True,
+        text=True,
+    )
+    files = []
+    for line in result.stdout.strip().split("\n"):
+        line = line.strip()
+        if line.startswith("src/content/posts/") and line.endswith(".md"):
+            files.append(Path(line))
+    return files
+
+
+def scan_file(path: Path) -> dict:
+    """Scan a single file for violations."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            content = f.read()
+    except Exception as e:
+        return {"error": str(e)}
+
+    text = content.lower()
+    lines = content.splitlines()
+
+    violations = {
+        "critical": [],
+        "standard": [],
+        "emergent": [],
+    }
+
+    # CRITICAL: WitnessOS
+    for term in AVOID_CRITICAL:
+        for idx, line in enumerate(lines, 1):
+            if term.lower() in line.lower():
+                violations["critical"].append({"term": term, "line": idx, "text": line.strip()})
+
+    # STANDARD AVOID
+    for term in AVOID_STANDARD:
+        for idx, line in enumerate(lines, 1):
+            if term.lower() in line.lower():
+                # Skip if it's in a meta-critical quotation context (quoted in the line)
+                if '"' in line or "'" in line or "`" in line:
+                    # Still flag it, but note it — we'll let the user decide
+                    pass
+                violations["standard"].append({"term": term, "line": idx, "text": line.strip()})
+
+    # EMERGENT (outside authorized context)
+    for term in EMERGENT_TERMS:
+        for idx, line in enumerate(lines, 1):
+            if term.lower() in line.lower():
+                # Very simplistic context check: if it's in quotes or a proper noun title,
+                # we might skip. For now, flag all and let the user review.
+                violations["emergent"].append({"term": term, "line": idx, "text": line.strip()})
+
+    return violations
+
+
+def print_recode(term: str) -> str:
+    return RECODE_MAP.get(term.lower(), "(see VOCABULARY-DNA-MASTER.md for authorized replacements)")
+
+
+# ── Main ───────────────────────────────────────────────────────────────────────
+
+def main():
+    staged = get_staged_md_files()
+    if not staged:
+        print("[INFO] No staged markdown posts. Quality gate skipped.")
+        sys.exit(0)
+
+    print("═══════════════════════════════════════════════════════════════════════")
+    print("  NOESIS VOCABULARY GATE — PRE-COMMIT")
+    print("═══════════════════════════════════════════════════════════════════════")
+    print(f"  Scanning {len(staged)} staged file(s) …")
+    print()
+
+    total_critical = 0
+    total_standard = 0
+    total_emergent = 0
+    blocked = False
+
+    for file in staged:
+        rel = str(file)
+        print(f"  ▶ {rel}")
+        v = scan_file(file)
+
+        if "error" in v:
+            print(f"    [ERROR] Could not read file: {v['error']}")
+            continue
+
+        c = len(v["critical"])
+        s = len(v["standard"])
+        e = len(v["emergent"])
+        total_critical += c
+        total_standard += s
+        total_emergent += e
+
+        if c > 0:
+            blocked = True
+            print(f"    🔴 CRITICAL: {c} WitnessOS violation(s)")
+            for vio in v["critical"][:3]:
+                print(f"       Line {vio['line']}: {vio['text'][:80]}")
+            if c > 3:
+                print(f"       … and {c - 3} more")
+            print(f"       RECODE: WitnessOS → {print_recode('witnessos')}")
+
+        if s > 0:
+            blocked = True
+            print(f"    🟡 STANDARD: {s} AVOID violation(s)")
+            seen = set()
+            for vio in v["standard"]:
+                if vio["term"] not in seen:
+                    seen.add(vio["term"])
+                    print(f"       • {vio['term']} → {print_recode(vio['term'])}")
+            for vio in v["standard"][:3]:
+                print(f"       Line {vio['line']}: {vio['text'][:80]}")
+            if s > 3:
+                print(f"       … and {s - 3} more occurrences")
+
+        if e > 0:
+            blocked = True
+            print(f"    🟠 EMERGENT: {e} unauthorized EMERGENT term(s)")
+            seen = set()
+            for vio in v["emergent"]:
+                if vio["term"] not in seen:
+                    seen.add(vio["term"])
+                    print(f"       • {vio['term']} → {print_recode(vio['term'])}")
+            for vio in v["emergent"][:3]:
+                print(f"       Line {vio['line']}: {vio['text'][:80]}")
+            if e > 3:
+                print(f"       … and {e - 3} more occurrences")
+
+        if c + s + e == 0:
+            print("    ✅ Clean")
+        print()
+
+    print("═══════════════════════════════════════════════════════════════════════")
+    if blocked:
+        print(f"  BLOCKED: {total_critical} CRITICAL | {total_standard} STANDARD | {total_emergent} EMERGENT")
+        print()
+        print("  REMEDIATION:")
+        print("    1. Edit the flagged files to remove or recode the violations.")
+        print("    2. Use RECODE suggestions above (or VOCABULARY-DNA-MASTER.md).")
+        print("    3. If a term appears in meta-critical quotation, annotate the trace.")
+        print("    4. Stage the fixes and commit again.")
+        print()
+        print("  The Anatomist does not negotiate with contaminated vocabulary.")
+        print("═══════════════════════════════════════════════════════════════════════")
+        sys.exit(1)
+    else:
+        print("  ✅ All staged files pass the vocabulary gate.")
+        print("═══════════════════════════════════════════════════════════════════════")
+        sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()

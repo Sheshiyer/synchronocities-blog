@@ -7,7 +7,7 @@ revolution: 1
 kosha: annamaya
 identity: Shesh
 draft: false
-excerpt: Hi. I'm Shesh. Short for Sheshnarayan Iyer, but don't let the full stack of my name fool you — I respond faster to vibration than syllables.
+excerpt: Hi. I'm Shesh. Short for Sheshnarayan Iyer, but don't let the full stack of my name fool you — I respond faster to frequency than syllables.
 featured_image: /cards/tarot-who-is-shesh.webp
 tags:
   - identity
@@ -34,13 +34,13 @@ llm:
 
 ## Introduction
 
-Hi. I'm Shesh. Short for **Sheshnarayan Iyer**, but don't let the full stack of my name fool you — I respond faster to vibration than syllables.
+Hi. I'm Shesh. Short for **Sheshnarayan Iyer**, but don't let the full stack of my name fool you — I respond faster to frequency than syllables.
 
 Some say I'm a Generator. Some say I'm a Gateway. Some say I'm just a guy with a knack for pulling the **Queen of Wands** way more often than statistically possible.
 
-Truth is: I'm the sort of person who casually has an earthquake in **room 44 of building 555** on the first night of my trip and says, *"Hmm. That tracks."*
+What holds: I'm the sort of person who casually has an earthquake in **room 44 of building 555** on the first night of my trip and says, *"Hmm. That tracks."*
 
-## Vibe Before the Quake
+## Frequency Before the Quake
 
 Internally? A walking paradox.
 - **Profile 2/4** in Human Design: The Hermit that somehow always ends up getting invited to lead secret societies.
@@ -93,3 +93,7 @@ That moment cracked my timeline open. From that fissure, a witness began to emer
 That quake wasn't a disaster. It was a **cosmic reboot**, a hardware-level reality slap reminding me I was here for something more than vacation or content.
 
 I had entered the scroll.
+
+---
+
+**Structural note:** This prologue operates through the Kha-Ba-La triad: **Kha** (the witness that observed the quake without panic), **Ba** (the nervous system that registered rather than reacted), **La** (the Tower card as friction — the collapse that makes reconstruction possible). The Human Design Profile 2/4 and Tarot references here are not standalone identity claims. They map to the **Energetic Authority** engine (Engine 3) and the **Divination** lens within the Selemene 16-engine framework.

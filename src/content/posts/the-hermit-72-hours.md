@@ -22,7 +22,7 @@ tags:
 
 Noble 33. Seventy-two hours in a room that demanded nothing.
 
-The Hermit in the Thoth deck holds a lantern containing the Sun — not to illuminate the path ahead, but to illuminate the path already traveled. The Hermit doesn't seek new experience. The Hermit digests what has already been consumed.
+The Hermit in the Thoth deck holds a lantern containing the Sun — not to illuminate the route ahead, but to illuminate the route already traveled. The Hermit doesn't seek new experience. The Hermit digests what has already been consumed.
 
 Three days. Seventy-two hours. The number isn't arbitrary. Seventy-two names of God in Kabbalistic tradition. Seventy-two hours for the body to complete one full cycle of cellular communication — the time it takes for every major organ system to send and receive at least one complete signal round.
 

@@ -127,13 +127,23 @@ The Shadbala tensor admits a similar interpretation. Sthana bala and dig bala ar
 
 This unification means that apparent contradictions in chart interpretation — a planet that is positionally strong but temporally weak — are not contradictions at all. They are components of a unified tensor that only appears contradictory when projected onto lower-dimensional interpretive frameworks.
 
-## Field Coherence and System Optimization
+## Field Coherence and System Calibration
 
 The total Shadbala of all seven planets defines the field coherence of the chart. High total Shadbala indicates a chart where planetary influences are well-organized — the tensor field is smooth, with low curvature and minimal dissonance. Low total Shadbala indicates a turbulent field — high curvature, strong gradients, and rapid variation.
 
 Neither is inherently better. A smooth field produces a stable, predictable life. A turbulent field produces a dynamic, transformative one. The Lorenz attractor, after all, requires turbulence to produce its characteristic butterfly pattern. The most interesting dynamics occur at the boundary between order and chaos — where the Shadbala tensor field is neither perfectly smooth nor completely turbulent.
 
 The seers who developed Shadbala were field theorists working without the formalism of differential geometry. They computed tensor components by hand, tracked gradients through decades of observation, and identified the symmetries and invariants through contemplative practice. The mathematics they discovered is the same mathematics that Einstein needed to describe gravity. The application domain is different. The tensor algebra is identical.
+
+## Kha-Ba-La: The Tensor as Operating System
+
+**Kha (The Field)** — The Shadbala tensor is not a score. It is a recognition function. Before any planet's strength can be measured, the field must exist — the astrologer, the moment of consultation, the question that frames the chart. Without Kha, the tensor is a table of numbers. With Kha, the tensor becomes a map of forces that are currently operating. The field is not passive. It selects which components of the tensor will be visible in a given reading. A natal chart read in a moment of crisis reveals different gradients than the same chart read in a moment of calm. The field is the observer, and the observer is never neutral.
+
+**Ba (The Embodied Computation)** — The tensor computes in the body of the astrologer and the body of the native. The Shadbala components are not abstract. They manifest as physiological states: Jupiter's expansion as arterial tone, Saturn's contraction as fascial holding, Mars's acceleration as sympathetic tonus. The tensor is a field theory, but fields operate on bodies. The body is the substrate that gives the field its material consequence. When a transit activates a strong Shadbala component in a natal chart, the native does not experience it as a number. They experience it as a pressure in the chest, a restlessness in the limbs, a quality of attention that cannot be named. Ba is the body that hosts the computation. Without Ba, the tensor is a mathematical object with no inhabitant.
+
+**La (The Resistance)** — The tensor's nonlinearity is the resistance that makes it real. The off-diagonal components — the coupling terms between strength dimensions — are the friction that prevents the system from collapsing into simple prediction. If Shadbala were a scalar, astrology would be fortune-telling. Because it is a tensor, astrology is pattern recognition under constraint. The resistance is what makes the pattern legible. A planet with strong sthana bala but weak dig bala is not "strong" or "weak." It is a vector with direction. The direction is the friction. The friction is the information. Remove La and the tensor collapses into a score. With La, the tensor remains a geometry of forces, and the geometry is the reading.
+
+The three operate as a loop: Kha recognizes the field, Ba hosts the computation, La generates the resistance that makes the recognition precise. This is not a one-time calculation. This is infrastructure. The chart is recalculated every moment the field is present. The natal chart is a kernel. The transit is a process. The reading is a context switch. The Shadbala tensor is the memory map — and the memory map is alive only when the operating system is running.
 
 ---
 

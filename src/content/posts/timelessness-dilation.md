@@ -70,3 +70,7 @@ I wrote one line in my notebook, simple, stripped by GK-23's hand:
 > **"Time vanished, and so did the need to measure."**
 
 *Timelessness received. Horizon sensed. Sword still sheathed.*
+
+---
+
+**Structural mapping:** The ritual above operates on Kha-Ba-La architecture — **Kha** (the observer who notices time vanish), **Ba** (the body in Room 3, breath as count), **La** (the resistance of the clock, the friction of schedule, the gravity that makes presence feel like escape). The three co-arise or they do not arise at all.

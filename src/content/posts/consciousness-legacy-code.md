@@ -42,7 +42,9 @@ class ModernMind:
         # TODO: Fix technical debt from past life
 ```
 
-### 2. Quantum Threading Implementation
+This is not a standalone framework. It is a **non-canonical metaphor** — one lens among the Selemene 16 engines, specifically mapping to the **Consciousness Architecture** and **Self-Inquiry** workflows. The code is scaffolding, not doctrine.
+
+### 2. Parallel Threading Implementation
 
 ```javascript
 // Ancient parallel processing pattern
@@ -64,7 +66,7 @@ const quantumThread = async (consciousness) => {
 - Related to Ancient Event Listeners
 
 ### 2. The Deep Work Protocol
-- Connected to Quantum Threading
+- Connected to Parallel Threading
 - Links to Process Management
 - Related to Focus State Management
 
@@ -76,7 +78,7 @@ const quantumThread = async (consciousness) => {
 
 ### 2. Memory Management
 - Garbage Collection
-- Thought Pattern Optimization
+- Thought Pattern Calibration
 
 ### 3. Race Condition Handling
 - Thread-Safe Consciousness
@@ -90,7 +92,7 @@ const quantumThread = async (consciousness) => {
 ## Related Concepts
 - Ancient Development Patterns
 - Modern Runtime Environment
-- Sound Vibration Protocol
+- Sound Resonance Protocol
 - Consciousness Docker
 - Reality Transpiler
 

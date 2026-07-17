@@ -133,7 +133,7 @@ The city looks back and, crucially, doesn't feel used.
 I think of:
 - Shenzhen's pressure-forge filing my edges
 - Bangkok's "lanes are folklore" horse learning to love lanes
-- Samui's Kala tugging toward the good path with a living radius of light
+- Samui's Kala tugging toward the right route with a living radius of light
 - Na Thon's yantra console sewing itself into my chest and teaching my Sun to shine for use, not applause
 
 Tonight they all report for duty like a small, competent crew.

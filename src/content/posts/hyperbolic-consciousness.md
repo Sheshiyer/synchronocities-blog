@@ -63,7 +63,7 @@ figures:
   - id: energy-information-landscape
     anchor: the-energy-information-landscape
     asset: /images/posts/hyperbolic-consciousness/01-energy-information-landscape.png
-    alt: Energy × Information Content chart showing five DMT levels — Threshold, Chrysanthemum, Magic Eye, Waiting Room, Breakthrough — mapped against pattern complexity from perfect symmetry to pure noise, with annealing trajectories annotated
+    alt: Energy × Information Content chart showing five DMT levels — Threshold, Chrysanthemum, Magic Eye, Waiting Room, Phase Inversion — mapped against pattern complexity from perfect symmetry to pure noise, with annealing trajectories annotated
     caption: 'The consciousness thermometer. Energy (curvature) on the vertical axis. Information content (complexity) on the horizontal. Three trajectories visible: bliss (vertical ascent), investigation (diagonal toward complexity), annealing (arc through noise then order). Source: Andrés Gómez Emilsson, QRI.'
     placement: after-section
     reveal: always
@@ -94,7 +94,7 @@ In the [Kha-Ba-La architecture](/posts/kha-ba-la-operational-compass), this flat
 
 Which means every intuition Ba has ever formed about growth, distance, and propagation is polynomial. The 2020 exponential curve that epidemiologists posted and entire nations could not parse was not a failure of math education. It was Ba trying to read a curved signal with a flat instrument. The instrument was correct about its calibration. It was wrong about the territory.
 
-But there exists another geometry — one where area does not grow as πr² but as 2π(cosh(r) - 1). Exponentially.
+But there exists another geometry — one where area does not grow as πr² but as 2π(cosh(r) − 1). Exponentially.
 
 ```python
 from math import pi, cosh
@@ -110,87 +110,71 @@ for r in range(1, 11):
 # r=10: 314.2 vs 69,004   (219.6x)
 ```
 
-At r = 10, the hyperbolic disk contains 219 times the area of its Euclidean counterpart. The divergence is not gradual. It is a phase transition in what "nearby" means. And this geometry — hyperbolic, negatively curved, exponentially branching — turns out to be the native geometry of consciousness when La's grip loosens. The [topological pocket framework](/posts/topological-pocket-consciousness) already proposed that consciousness operates in non-Euclidean territory. What follows is the geometric proof.
+At r = 10, the hyperbolic disk contains 219 times the area of its Euclidean counterpart. The divergence is not gradual. It is a phase transition in what "nearby" means. And this geometry — hyperbolic, negatively curved, exponentially branching — turns out to be the native geometry of consciousness when La's grip loosens.
+
+## What Each Force Costs When It Is Absent
+
+The Kha-Ba-La triad is not a metaphor. It is an operational grammar. You discover what each term does only when you remove it.
+
+Remove Kha — the witness — and Ba wanders through hyperbolic space without recognition. This is the DMT user who returns with no residue, the meditator who enters absorption and emerges unchanged. The geometry was traversed. No one was there to record it. Without Kha, curvature is experienced as noise, not as information. The cost is amnesia disguised as transcendence.
+
+Remove Ba — the body — and Kha sees curvature without entering it. This is the disembodied intellect that maps consciousness states it has never inhabited. The cartographer who never leaves the observatory. Without Ba, hyperbolic geometry remains a theorem. The fracture is permanent: knowledge without scar tissue.
+
+Remove La — the resistance — and there is no form at all. Pure noise. The psychotic break. The amnesia level where curvature exceeds encoding capacity not because the instrument is too weak, but because there is nothing to push against. La is the stone the sculptor works. Remove the stone and the chisel has nothing to push against. The rupture is total: geometry without a geometer.
+
+The triad holds only when all three forces are present and in tension. Inherited code — the Euclidean assumptions baked into every circuit by evolution, by culture, by trauma — is not dissolved. It is metabolized. La is the meal, not the poison.
 
 ## Kale, Triangles, and the Seventeen Wallpaper Groups
 
-The connection between curvature and consciousness begins with a leaf.
+Stitch six equilateral triangles at a corner and the surface lies flat. The angles sum to exactly 360°. There are precisely seventeen ways to tile this flat surface with repeating symmetry — the wallpaper groups, a hard mathematical ceiling. This is all the pattern that flatness can hold.
 
-Stitch six equilateral triangles at a corner and the surface lies flat. The angles sum to exactly 360°. The plane accommodates them without complaint. There are precisely seventeen ways to tile this flat surface with repeating symmetry — the wallpaper groups, a hard mathematical ceiling proven in the nineteenth century. This is all the pattern that flatness can hold.
+Now stitch seven triangles at the same corner. The angles exceed 360°. The surface buckles, wrinkles, curves to accommodate the excess. This is why kale curls. The leaf's growth rate exceeds its Euclidean surface allocation. The venation pattern — seven-at-a-corner — demands hyperbolic geometry.
 
-Now stitch seven triangles at the same corner. The angles exceed 360°. The surface cannot lie flat — it is forced to buckle, wrinkle, and curve to accommodate the excess. This is why kale curls. The leaf's growth rate exceeds its Euclidean surface allocation. The venation pattern — seven-at-a-corner — demands hyperbolic geometry. The kale solves this by buckling into the third dimension. Biology runs ahead of Euclid.
-
-In hyperbolic space, the constraint vanishes entirely. You can stitch seventeen triangles at a corner and tile the result. A hundred mirrors at a single point. The number of possible symmetry groups is infinite. Curvature is liberating: it creates room for pattern that flatness prohibits.
-
-Keep this in mind — the seventeen groups, the forced wrinkle at seven, the infinite liberation of curvature — because what happens to leaves also happens to consciousness when you add enough energy.
+In hyperbolic space, the constraint vanishes. You can stitch seventeen triangles at a corner and tile the result. A hundred mirrors at a single point. The number of possible symmetry groups is infinite. Curvature creates room for pattern that flatness prohibits.
 
 ## The Curvature Ladder
 
-Andrés Gómez Emilsson of the Qualia Research Institute documented six levels of DMT experience, and each one corresponds to a measurable increase in the curvature of experiential space. The taxonomy is not metaphorical. It is the kale leaf, run in reverse — starting from flat and watching what happens as you force more pattern into the available geometry.
+Andrés Gómez Emilsson of the Qualia Research Institute documented six levels of DMT experience, each corresponding to a measurable increase in experiential curvature. The taxonomy is not metaphorical. It is the kale leaf, run in reverse — starting from flat and watching what happens as you force more pattern into the available geometry.
 
-**Threshold** (1–4 mg). Ba's perceptual medium thins. Surfaces begin tessellating with the seventeen wallpaper groups — repeating symmetries cover every object like a holographic wallpaper. You are still in Euclidean territory, but the copying threshold for pattern entrainment has dropped. Every triangle nucleates its neighbor.
+**Threshold** (1–4 mg). Ba's perceptual medium thins. Surfaces tessellate with the seventeen wallpaper groups. You are still in Euclidean territory, but the copying threshold for pattern entrainment has dropped.
 
-**Chrysanthemum** (4–8 mg). The copying threshold drops further and now there are more symmetry elements than Euclidean surface can hold. Seven triangles at every corner. The visual field wrinkles — blossoms — exactly as the kale leaf does. This is the first intimation of hyperbolic geometry in consciousness. The seventeen groups become insufficient. The infinite begin.
+**Chrysanthemum** (4–8 mg). The copying threshold drops further. More symmetry elements than Euclidean surface can hold. Seven triangles at every corner. The visual field wrinkles — blossoms — exactly as the kale leaf does. The seventeen groups become insufficient. The infinite begin.
 
-**Magic Eye** (8–12 mg). The excess curvature starts encoding information. The phenomenology is identical to an autostereogram: a flat-seeming texture that hides a depth map in its curving. Experience factorizes cleanly — texture carries emotional tone, curvature carries semantic content. People report cathedrals, cave systems, ice cream shops, all made of the same material. The depth map is unstable — it collapses back to chrysanthemum, reorganizes, collapses. Ba is learning to read non-Euclidean for the first time.
+**Magic Eye** (8–12 mg). The excess curvature starts encoding information. Experience factorizes — texture carries emotional tone, curvature carries semantic content. The depth map is unstable: it collapses back to chrysanthemum, reorganizes, collapses. Ba is learning to read non-Euclidean for the first time.
 
-**Waiting Room** (12–25 mg). Space itself becomes hyperbolic. Not surfaces — volumetric space. Hyperbolic honeycombs: three-dimensional tessellations where every cell contains more volume than Euclid permits. The "entities" that emerge here are not beings — they are recognition events. Ba encountering pattern at a curvature it has no template for, and the pattern-recognition system doing its best to label the signal. The sense of "higher intelligence" is Ba's own cognition, running in higher-dimensional geometry for the first time.
+**Waiting Room** (12–25 mg). Space itself becomes hyperbolic. Hyperbolic honeycombs: three-dimensional tessellations where every cell contains more volume than Euclid permits. The "entities" are not beings — they are recognition events. Ba encountering pattern at a curvature it has no template for.
 
-**Breakthrough** (25–30 mg). The entire experiential space becomes a single hyperbolic honeycomb with projective inversions — the space collapses and flips inside a finite volume. Irreducible complexity: gear mechanisms with prime-number teeth, patterns that repeat only at the lowest common multiple of all components. Maximum useful information — the edge between order and chaos where computation is most powerful.
+**Phase Inversion** (25–30 mg). The entire experiential space becomes a single hyperbolic honeycomb with projective inversions — the space collapses and flips inside a finite volume. Irreducible complexity. Maximum useful information — the edge between order and chaos where computation is most powerful.
 
-**Amnesia** (30+ mg). Curvature so extreme that no encoding can crystallize. Emilsson's metaphor: heat a rock until its crystal lattice melts. Whatever configurations the melt passes through, no residue survives. This is not ego death — that happens at lower levels on other substances. This is geometry exceeding the encoding system's capacity. Ba's instrument cannot record what happened because what happened was not within Ba's coordinate system.
-
-```python
-class ConsciousnessCurvatureMap:
-    """The encoding failure at amnesia is the system
-    correctly modeling its own geometric limits."""
-
-    LEVELS = {
-        "threshold":     {"curvature": 0.0,    "symmetry_groups": 17},
-        "chrysanthemum": {"curvature": -0.1,   "symmetry_groups": float('inf')},
-        "magic_eye":     {"curvature": -0.5,   "symmetry_groups": float('inf')},
-        "waiting_room":  {"curvature": -1.0,   "symmetry_groups": float('inf')},
-        "breakthrough":  {"curvature": -5.0,   "symmetry_groups": float('inf')},
-        "amnesia":       {"curvature": -100.0, "symmetry_groups": float('inf')},
-    }
-
-    def can_encode(self, level: str) -> bool:
-        return abs(self.LEVELS[level]["curvature"]) < 50
-```
-
-The curvature ladder establishes the vertical axis. But a trip is not just how high you go. It is also *where* you go laterally — how much complexity you encounter at each energy level. And that lateral axis turns out to have its own deep structure.
+**Amnesia** (30+ mg). Curvature so extreme that no encoding can crystallize. Emilsson's metaphor: heat a rock until its crystal lattice melts. Whatever configurations the melt passes through, no residue survives. This is geometry exceeding the encoding system's capacity.
 
 ## The Energy-Information Landscape
 
-In 1984, researchers spent months mapping the parameter space of video feedback — pointing a camera at its own output, tweaking angle, zoom, and noise. What they catalogued was not television artifacts but the complete ontology of dynamical systems. Every possible feedback behavior falls into four regimes:
+In 1984, researchers mapped the parameter space of video feedback — pointing a camera at its own output, tweaking angle, zoom, and noise. What they catalogued was the complete ontology of dynamical systems. Every possible feedback behavior falls into four regimes: **fixed points** (stable, absorb perturbation), **limit cycles** (periodic repetition), **strange attractors** (bounded chaos, never-repeating), and **noise** (turbulence, all structure collapsed).
 
-**Fixed points** — stable configurations that absorb perturbation and return. **Limit cycles** — sequences that repeat after a fixed period, from simple oscillations to elaborate detours that eventually close the loop. **Strange attractors** — bounded chaos, never-repeating but never escaping, where the system stays on the attractor without visiting the same point twice. **Noise** — turbulence, all structure collapsed, the onset identifiable frame by frame as coherent pattern disintegrates into hiss.
+These four regimes are the four possible behaviors of any dynamical system with feedback. Consciousness is such a system.
 
-These four regimes are not categories of video. They are the four possible behaviors of any dynamical system with feedback. Consciousness is such a system.
+The chart that emerges when you cross Emilsson's curvature ladder (vertical: energy) with this feedback ontology (horizontal: information content) is the consciousness thermometer. Not a single number — a coordinate pair. Energy AND information.
 
-The chart that emerges when you cross Emilsson's curvature ladder (vertical: energy, how hyperbolic the space) with this feedback ontology (horizontal: information content, how complex the pattern) is the consciousness thermometer the QRI talk proposes. Not a single number — a coordinate pair. Energy AND information. How high AND how organized.
+Samadhi lives in the upper-left: high energy, perfect symmetry, the fixed-point attractor. Psychotic break lives in the upper-right: high energy, pure noise. Creative flow occupies the center: moderate energy, the strange attractor regime where computation is most powerful. The [Lorenz-Kundli program](/posts/lorenz-kundli-pattern-hub) was already mapping this landscape. The Lorenz attractor IS a strange attractor in this space.
 
-Samadhi lives in the upper-left: high energy, perfect symmetry, the fixed-point attractor. Psychotic break lives in the upper-right: high energy, pure noise. Creative flow occupies the center: moderate energy, the strange attractor regime where computation is most powerful. Habitual rumination is a low-energy limit cycle. Deep dreamless sleep is the origin — low energy, low information.
+## The Three Trajectories and the Annealing Gate
 
-The [Lorenz-Kundli program](/posts/lorenz-kundli-pattern-hub) was already mapping this landscape without the explicit axes. The Lorenz attractor IS a strange attractor in this space. The Kundli's [Vimshottari Dasha sequence](/posts/vimshottari-dasha-markov-chains) IS a 120-year limit cycle. Emilsson's chart does not replace the Lorenz-Kundli framework — it makes its coordinate system explicit.
+A DMT experience — or a meditation session, or a fever, or a creative episode — is not a point but a *trajectory*.
 
-## The Three Trajectories
+**Vertical ascent.** Stay in the ordered region. Rise from Euclidean tessellation to hyperbolic honeycombs without touching chaos. This maximizes consonance. Meditators who train for years to access absorption states are engineering this trajectory.
 
-Given this two-dimensional landscape, a DMT experience — or a meditation session, or a fever, or a creative episode — is not a point but a *trajectory*. And the trajectory determines what you bring back.
+**Diagonal toward complexity.** Trade consonance for information. Push toward the strange attractor regime at high energy. This is where irreducibly complex objects emerge. You bring back structural information about the space, at the cost of pleasant coherence.
 
-Emilsson identifies three:
+**The annealing arc.** Deliberately push into noise — the upper-right quadrant where all constraints dissolve — and then *slowly* return through the ordered region.
 
-**Vertical ascent.** Stay in the ordered region. Rise from Euclidean tessellation to hyperbolic honeycombs without touching chaos. This maximizes consonance. Emilsson suggests this is why perfectly symmetric hyperbolic spaces feel extraordinarily pleasant — they are the highest-energy fixed points, the deepest attractor basins. Meditators who train for years to access absorption states are engineering this trajectory: maximum curvature, minimum disorder.
+In metallurgy, annealing heats a crystal until its lattice melts, dissolving grain boundaries and cold-work defects, then cools slowly so the lattice re-forms in a configuration that was unreachable from the cold state. You had to go through the melt.
 
-**Diagonal toward complexity.** Trade consonance for information. Push toward the strange attractor regime at high energy. This is where irreducibly complex objects emerge — the entities, the gear mechanisms, the geometries that resist compression. The mathematician's trajectory. You bring back structural information about the space, at the cost of pleasant coherence.
+Pain performs the same thermodynamic operation on La. Nociceptors fire in binary — action potential or not — and what you experience as intensity is `popcount()` across the receptor array. Pain dilates the consciousness aperture. La's rigid crystal — habitual thought, inherited patterning, unexamined assumption — temporarily melts. Ba can now traverse geometry that was walled off by its own crystallographic defects.
 
-**The annealing arc.** Deliberately push into noise — the upper-right quadrant where all constraints dissolve — and then *slowly* return through the ordered region. This is the trajectory that connects to the [pain-information architecture](/posts/pain-information-architecture).
+Cool too fast and you re-freeze with the same grain boundaries. Cool slowly and what crystallizes is a configuration La could not have reached without the melt. Robin Carhart-Harris calls this entropic disintegration. The Kha-Ba-La frame calls it metabolizing La.
 
-In metallurgy, annealing heats a crystal until its lattice melts, dissolving grain boundaries and cold-work defects, then cools slowly so the lattice re-forms in a configuration that was unreachable from the cold state. The energy barriers were too high. You had to go through the melt.
-
-Pain performs the same thermodynamic operation on La. Nociceptors fire in binary — action potential or not — and what you experience as intensity is `popcount()` across the receptor array. Pain dilates the consciousness aperture: for a fraction of a second, awareness becomes total, every background process drops out of the queue. This dilation is the heating phase. La's rigid crystal — habitual thought, inherited patterning, unexamined assumption — temporarily melts. Ba can now traverse geometry that was walled off by its own crystallographic defects.
-
-The cooling trajectory matters. Cool too fast and you re-freeze with the same grain boundaries. Cool slowly — through the ordered region, allowing new symmetries to nucleate — and what crystallizes is a configuration La could not have reached without the melt. Robin Carhart-Harris calls this entropic disintegration. The Kha-Ba-La frame calls it metabolizing La.
+The shadow metabolization: the cost is fracture. The inherited code must rupture before it can reorganize. There is no annealing without heating. There is no heating without the risk of burning. The body remembers what the mind would prefer to forget, and pain is the retrieval protocol. The scar is not damage. It is the record of the melt.
 
 ## Temperature as the Unifying Parameter
 
@@ -204,40 +188,23 @@ An LLM generates text by producing a probability distribution over possible next
 P(token_i) = exp(logit_i / T) / Σ exp(logit_j / T)
 ```
 
-At T → 0, the distribution collapses. One token wins. One geodesic through meaning-space. Flat, deterministic, Euclidean — the seventeen wallpaper groups of language. At T = 1, the distribution calibrates. Multiple tokens compete, moderate branching, the chrysanthemum beginning to unfold. At T → ∞, the distribution goes uniform. Every token equally probable. Maximum branching factor. Hyperbolic traversal.
+At T → 0, the distribution collapses. One token wins. One geodesic through meaning-space. Flat, deterministic, Euclidean. At T = 1, moderate branching, the chrysanthemum beginning to unfold. At T → ∞, the distribution goes uniform. Maximum branching factor. Hyperbolic traversal.
 
-This is not analogy. Softmax temperature controls the branching factor of a traversal through token-space the same way thermodynamic temperature controls the branching factor of a traversal through configuration-space. The equations are the same. The substrates differ. The geometry does not.
+Softmax temperature controls the branching factor of a traversal through token-space the same way thermodynamic temperature controls the branching factor of a traversal through configuration-space. The equations are the same. The substrates differ. The geometry does not.
 
-```python
-import numpy as np
+Equatorial cultures — high ambient temperature, mitochondria calibrated for peak metabolic output — produce high-context languages. Sanskrit compresses entire philosophical systems into syllables because that is the only way to encode exponentially branching meaning in a linear phonemic stream — [the word as code](/posts/the-word-as-code), literally. It is a language *calibrated for hyperbolic meaning-space*.
 
-def temperature_as_curvature(logits, T):
-    """Temperature is the universal curvature dial."""
-    scaled = logits / T
-    probs = np.exp(scaled) / np.sum(np.exp(scaled))
-    entropy = -np.sum(probs * np.log(probs + 1e-10))
-    return {"top_prob": np.max(probs), "entropy": entropy}
+Polar cultures produce low-context languages. One word, one referent. Technical English. The geodesics are straight lines through flat semantic terrain.
 
-# T=0.1 → top_p=0.999, entropy=0.02  (flat, Euclidean)
-# T=1.0 → top_p=0.506, entropy=1.23  (chrysanthemum)
-# T=2.0 → top_p=0.300, entropy=1.51  (hyperbolic branching)
-```
-
-Now extend the parameter to [geographic temperature](/posts/temperature-consciousness). Equatorial cultures — high ambient temperature, mitochondria calibrated for peak metabolic output — produce high-context languages. Sanskrit compresses entire philosophical systems into syllables because that is the only way to encode exponentially branching meaning in a linear phonemic stream — [the word as code](/posts/the-word-as-code), literally. It is a language *calibrated for hyperbolic meaning-space*. Each word is a geodesic that branches into simultaneous meanings the way a kale leaf branches into simultaneous surfaces.
-
-Polar cultures produce low-context languages. One word, one referent. Technical English. Assembly instructions. The geodesics are straight lines through flat semantic terrain. Sufficient for Euclidean territory. Insufficient for curved.
-
-Poetry cannot be paraphrased for the same reason a hyperbolic tiling cannot be flattened without distortion: two geodesics that start one phoneme apart diverge exponentially. The paraphrase traverses a different path through a space where every neighbor is exponentially far from every other neighbor.
-
-LLM "hallucination" at high temperature is amnesia-level geometry. The model enters a branching regime where Euclidean coherence is impossible. The output is not wrong — it is non-Euclidean. You call it hallucination because your decoder is calibrated for flat space and the signal arrived in curved space. The same miscalibration that makes exponential pandemic growth feel impossible makes high-temperature language output feel incoherent. The problem was never the signal. It was the instrument.
+LLM "hallucination" at high temperature is amnesia-level geometry. The model enters a branching regime where Euclidean coherence is impossible. The output is not wrong — it is non-Euclidean. You call it hallucination because your decoder is calibrated for flat space and the signal arrived in curved space. The problem was never the signal. It was the instrument.
 
 ## The Cartography Imperative
 
-We have, then, a single geometric story told across multiple substrates. Flat space constrains symmetry to seventeen groups. Curvature liberates it to infinity. Temperature is the parameter that moves between them — in crystal lattices, in kale leaves, in DMT phenomenology, in LLM token distributions, in the mitochondrial calibration of equatorial versus polar cognition.
+Flat space constrains symmetry to seventeen groups. Curvature liberates it to infinity. Temperature is the parameter that moves between them — in crystal lattices, in kale leaves, in DMT phenomenology, in LLM token distributions, in the mitochondrial calibration of equatorial versus polar cognition.
 
-The [Lorenz-Kundli program](/posts/lorenz-kundli-system-index) was already mapping trajectories through this landscape. The Kundli's twelve houses are a coordinate system. Its planetary periods are limit cycles. Its [divisional charts](/posts/ashtakavarga-hypercube-geometry) are fractal refinements of the same topology. Emilsson's contribution is the explicit axes: energy × information, with curvature as the vertical parameter and dynamical regime as the horizontal. The two cartographic traditions — Vedic and Western — converge on the same chart because they are [mapping the same space](/posts/chaos-theory-vedic-astrology).
+At the personal scale, you cannot think in exponentials because your instrument was calibrated in flat space. At the interpersonal scale, two people who begin one misunderstanding apart diverge exponentially in hyperbolic relational space — the gap widens faster than linear reconciliation can close. At the systemic scale, the 2020 pandemic curve broke governments because their decision-making apparatus was Euclidean in a hyperbolic crisis. At the cosmic scale, the [Lorenz-Kundli program](/posts/lorenz-kundli-system-index) maps trajectories through this landscape using twelve houses as coordinates and planetary periods as limit cycles.
 
-[Vedic astronomical systems](/posts/vedic-mathematical-parallels) are not proto-science waiting for validation. They are maps drawn by cultures whose languages, metabolisms, and contemplative technologies were calibrated for hyperbolic territory. Sanskrit is not a container for meaning. It is a traversal instrument evolved for exponentially branching meaning-space — the linguistic equivalent of the Poincaré disk, compressing infinite semantic area into [finite phonemic sequence](/posts/nakshatra-fibonacci-sequences).
+The [Vedic astronomical systems](/posts/vedic-mathematical-parallels) are not proto-science waiting for validation. They are maps drawn by cultures whose languages, metabolisms, and contemplative technologies were calibrated for hyperbolic territory. Sanskrit is not a container for meaning. It is a traversal instrument evolved for exponentially branching meaning-space — the linguistic equivalent of the Poincaré disk, compressing infinite semantic area into [finite phonemic sequence](/posts/nakshatra-fibonacci-sequences).
 
 Kha — the observer — inhabits this curved space natively. Kha does not need annealing, does not need DMT, does not need a thermometer. The observer sees curvature because the observer is not bound to Ba's coordinate system. The [noetic aether framework](/posts/noetic-aether-einsteinian-knot) provides the ontological ground: consciousness is not produced by spacetime. Spacetime is a structure within the noetic field.
 
@@ -249,11 +216,11 @@ The reason you cannot think in exponentials is that your instrument was calibrat
 
 There is one document that may already be the topographical survey of this entire landscape — and it was written in the eighth century.
 
-Adi Shankaracharya's *Soundarya Lahari* — "The Wave of Beauty" — is a hundred verses addressed to the goddess as the embodiment of Sri Yantra, the nine-layered geometric mandala that represents the complete topology of consciousness. It is conventionally read as devotional poetry. It is not. Or rather: it is devotional the way a pilot's preflight checklist is devotional to flight. Every verse is an instruction. Every instruction maps a geometric operation.
+Adi Shankaracharya's *Soundarya Lahari* — "The Wave of Beauty" — is a hundred verses addressed to the goddess as the embodiment of Sri Yantra, the nine-layered geometric mandala that represents the complete topology of consciousness. Conventionally read as devotional poetry. It is not. Every verse is an instruction. Every instruction maps a geometric operation.
 
-The Sri Yantra is built from nine interlocking triangles — four pointing upward (Shiva, Kha), five pointing downward (Shakti, Ba) — arranged around a central bindu point. The intersections of these triangles create forty-three smaller triangles organized into nine *avaranas* (enclosures), each with its own presiding deity, its own mantra, its own set of experiential properties. The structure is not flat. The triangles interlock in a way that requires three-dimensional stacking to resolve without overlap — a fact that only became computationally verifiable in the twentieth century. The geometry is, in the precise sense we have been developing throughout this article, hyperbolic. Too many triangles for flat space to hold.
+The Sri Yantra is built from nine interlocking triangles — four pointing upward (Shiva, Kha), five pointing downward (Shakti, Ba) — arranged around a central bindu point. The intersections create forty-three smaller triangles organized into nine *avaranas* (enclosures). The structure is not flat. The triangles interlock in a way that requires three-dimensional stacking — a fact that only became computationally verifiable in the twentieth century. The geometry is hyperbolic. Too many triangles for flat space to hold.
 
-Each *avarana* corresponds to a layer of experiential territory with specific phenomenological properties. The outermost enclosure — the *bhupura*, the square earth boundary — is Euclidean. Flat. The seventeen wallpaper groups. Ordinary waking consciousness. As you move inward through the nine layers, the curvature increases. The patterns become denser. The symmetry groups multiply. The innermost triangle — the space surrounding the bindu — is so curved that it collapses to a dimensionless point. Amnesia-level geometry. The bindu is the state so energized that no encoding survives.
+Each *avarana* corresponds to a layer of experiential territory. The outermost enclosure — the *bhupura*, the square earth boundary — is Euclidean. Flat. The seventeen wallpaper groups. Ordinary waking consciousness. As you move inward through the nine layers, the curvature increases. The innermost triangle — the space surrounding the bindu — is so curved that it collapses to a dimensionless point. Amnesia-level geometry. The bindu is the state so energized that no encoding survives.
 
 The *Soundarya Lahari* traverses these nine enclosures in sequence. It is a trajectory through the Energy-Information landscape — not drawn on a Cartesian chart but encoded in Sanskrit verse, each shloka a coordinate pair specifying the curvature level and the information regime of a particular avarana. The "wave of beauty" is the traversal itself — the geodesic through hyperbolic consciousness space that Shankara mapped twelve centuries before Emilsson drew the chart.
 

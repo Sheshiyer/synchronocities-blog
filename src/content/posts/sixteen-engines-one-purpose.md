@@ -90,7 +90,7 @@ These three forces co-arise in every calculation. They are not inputs to the sys
 
 ## The Compass
 
-Four cardinal directions: STABILIZE, HEAL, CREATE, MUTATE. Where you stand determines which lenses open first. Your path through the sixteen engines is not prescribed — it is divined. The system cannot function generically because the territory it maps — your unique consciousness — is irreducibly singular.
+Four cardinal directions: STABILIZE, HEAL, CREATE, MUTATE. Where you stand determines which lenses open first. Your route through the sixteen engines is not prescribed — it is divined. The system cannot function generically because the territory it maps — your unique consciousness — is irreducibly singular.
 
 This is not personalization as the tech industry understands it. This is not algorithmic recommendation. This is the recognition that the map must be drawn by the territory it describes.
 
