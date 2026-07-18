@@ -1,0 +1,30 @@
+# Nigredo Audit — bicameral-consciousness-patch.md
+**Date:** 2026-07-18
+**Gate:** Fool's Wisdom Grounding Gate v2.2.0
+**Post:** src/content/posts/bicameral-consciousness-patch.md
+
+## Dross Inventory
+| Line | Quote (≤15 words) | Type (science/math) | Verdict | Load-bearing (Y/N) | Note |
+|------|-------------------|---------------------|---------|--------------------|------|
+| L46 | "proposed that this emulator was deployed roughly three millennia ago" | science | GROUNDED-OBSERVATIONAL | Y | Jaynes's 1976 book and thesis attributed by name with "proposed" — openly framed as model; attribution historically accurate (breakdown dated ~1000 BCE). The post's declared lens; safe harbor covers the downstream narration within it. |
+| L48 | "The text contains no words for *mind*, *will*, or *introspection*" | science | GROUNDED-OBSERVATIONAL | Y | Reader-checkable textual reading of the *Iliad* (composition ~750 BCE, Mycenaean collapse ~1200 BCE — standard dating). The strong lexical claim is Jaynesian interpretation (classicists dispute it re: noos/phrenes/thumos), but it is falsifiable by the reader's own reading, not by institutional authority. |
+| L48 | "the first Western literary character who *thinks* in the modern sense" | science | GROUNDED-OBSERVATIONAL | N | Hyperbolic but checkable comparative reading of the *Odyssey* vs. the *Iliad*; interpretive voice, tied to a text the reader can open. |
+| L50 | "the shift from śruti (that which is heard) to smṛti (that which is remembered)" | science | ALIGNED | N | House tradition operated structurally (kośa mapping manomaya→vijñānamaya is house cosmology). Rigveda 1500–1000 BCE and Upaniṣads 800–500 BCE are standard scholarly dates. |
+| L50 | "the self is not the seer but that by which seeing is possible" | science | GROUNDED-OBSERVATIONAL | N | Reader-checkable Upaniṣadic citation. Note for operator: the gloss matches BU 3.4 (unseen seer / antaryāmin teaching), but the Maitreyī instruction is conventionally at BU 2.4/4.5 — minor attribution imprecision, not a fabrication; the teaching exists at the cited locus. |
+| L52 | "described consciousness as a sequence of structures, not a ladder of progress" | science | ALIGNED | N | Gebser attribution accurate (*The Ever-Present Origin*, 1949); consciousness-structures framework is house-compatible (consciousness-primary, non-linear). Circa dates (100,000 / 10,000 / 500 BCE) are the standard rounded figures used in Gebser summaries, framed as approximate. |
+| L54 | "the introduction of *saṃsāra* — the cycle of birth and death" | science | ALIGNED | N | House frame (cyclic time) operated as structural grammar; saṃsāra's appearance in the early Upaniṣadic period is consistent with the timing claimed. Interpretive claim within declared frame. |
+| L56 | "the bicameral model maps onto the interhemispheric organization observed in split-brain research" | science | GROUNDED-OBSERVATIONAL | N | Explicitly model-framed ("the bicameral model maps onto"); split-brain hemispheric specialization is real, observable clinical data. Borderline — borrows credibility from the research domain — but the model framing holds. |
+| L56 | "act as a direct bus: left generates, right obeys" | science | CONTESTED-AS-FACT | N | **Dross.** Jaynes's contested lateralization hypothesis stated as settled mechanism — and stated backwards: Jaynes's model (correctly given at L58) has the voice generated in the RIGHT hemisphere's language-analog regions and routed LEFT via the anterior commissure. L56 inverts the direction, contradicting the post's own L58. Internal contradiction plus contested-as-fact. |
+| L56 | "demonstrate that the hardware is still installed" | science | CONTESTED-AS-FACT | N | **Dross.** Persinger's God Helmet experiments are real but contested (Granqvist et al. 2005 failed replication; suggestibility critique); "imperative audition" overstates a literature concerned with sensed presence; "demonstrate" silently upgrades contested findings to settled proof (also carries an authority-borrowed structure). |
+| L58 | "lateralized to the right hemisphere's language-equivalent regions, routed to the left" | science | GROUNDED-OBSERVATIONAL | N | Attributed with "Jaynes proposed" — openly framed as model, and accurate to the source (right-hemisphere generation, anterior-commissure routing). This is the correct statement that L56 contradicts. |
+| L58 | "The Kha-Ba-La triad operates here as diagnostic architecture" | math | INTEGRATED | Y | Canonical INTEGRATED structure (§4.1) operated structurally, not name-dropped: Kha=witness, Ba=hardware, La=friction, each mapped to the bicameral architecture with derived failure modes (no Kha → behavior without authorship; no Ba → depersonalized ghost; no La → observer/substrate collapse). The multi-scale nesting at L64 ("the triad governs") depends on it. |
+| L62 | "was the historical correlate: a systemic failure of the mesh network" | science | ALIGNED | N | Late Bronze Age collapse dating (1200–1177 BCE) matches standard scholarship (cf. Cline, *1177 B.C.*) — judged as history, accurate. "The gods fell silent" narrates within the Jaynesian lens declared at L46; no silent upgrade to consensus fact. |
+
+## Summary
+- Science references: 12 (ALIGNED 4, GROUNDED-OBSERVATIONAL 6, AUTHORITY-BORROWED 0, CONTESTED-AS-FACT 2, FABRICATED 0, INVERTED 0)
+- Math references: 1 (INTEGRATED 1, DECORATIVE 0, WRONG 0)
+- Dross findings (failing verdicts): 2 total (0 load-bearing)
+- **Nigredo verdict:** MINOR DROSS
+
+## One-Line Note
+The dross is confined to the neurology paragraph: one contested hemispheric-routing claim stated as settled mechanism and inverted relative to Jaynes (and to the post's own L58), and Persinger's contested God Helmet results silently upgraded to "demonstrate" — neither is load-bearing; the Jaynes/Gebser/Vedic apparatus is declared-frame, house-aligned, or reader-checkable, and the frontmatter image prompt's "probability distributions" was reviewed and safe-harbored as declared visual analogy ("rendered as").

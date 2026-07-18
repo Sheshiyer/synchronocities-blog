@@ -1,0 +1,33 @@
+{
+  "run_dir": "quality-engine/dispatch/runs/pilot-gpt56-20260718-0740",
+  "tasks": [
+    {
+      "id": "audit-01-active-inference-prediction-engine",
+      "task": "Audit assigned post active-inference-prediction-engine.md. Read and follow every instruction in /Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/synchronocities-blog/quality-engine/dispatch/nigredo-audit-task-prompt.md, substituting active-inference-prediction-engine.md for <POST>. You own only quality-engine/audits/nigredo/active-inference-prediction-engine.md-nigredo-audit.md. The source post is read-only. Do not touch any other file or use git.",
+      "backend": "command-code",
+      "model": "gpt-5.6-sol",
+      "exit": 1,
+      "duration_s": 4,
+      "status": "failed",
+      "worktree": null,
+      "diff_path": null,
+      "attempts": [
+        {
+          "backend": "command-code",
+          "model": "gpt-5.6-sol",
+          "exit": 1,
+          "duration_s": 4,
+          "status": "failed"
+        }
+      ],
+      "merged": null
+    }
+  ],
+  "summary": {
+    "ok": 0,
+    "failed": 1,
+    "timeout": 0,
+    "skipped": 0,
+    "unavailable": 0
+  }
+}
