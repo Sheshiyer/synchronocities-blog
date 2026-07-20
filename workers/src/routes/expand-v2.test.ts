@@ -190,7 +190,7 @@ test('stripLeadingHeader handles an empty original header without false positive
 // Skip with SKIP_INTEGRATION=1 for CI without a deployed Worker.
 // ============================================================================
 
-const BASE_URL = 'https://synchronocities-ai.tirak-court.workers.dev';
+const BASE_URL = 'https://synchronocities-ai.sheshnarayan-iyer.workers.dev';
 const SKIP = process.env.SKIP_INTEGRATION === '1';
 
 const integrationTest = SKIP ? test.skip : test;

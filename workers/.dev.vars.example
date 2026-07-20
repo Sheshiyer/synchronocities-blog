@@ -7,6 +7,13 @@
 # Same key authenticates against integrate.api.nvidia.com/v1/*
 NVIDIA_API_KEY=nvapi-REPLACE_ME
 
+# Admin gate for /embed/batch, /expand/*, /test/*, POST /maps/cluster,
+# /vectorize/info. Without this set, `wrangler dev` fails CLOSED (500
+# server_misconfigured) on those routes. Any strong random string works locally.
+# Production: `wrangler secret put ADMIN_API_KEY` (must match what ops scripts
+# and GitHub Actions send as the X-Admin-Key header).
+ADMIN_API_KEY=REPLACE_ME
+
 # Optional: override model selection for local experimentation without
 # touching wrangler.toml [vars]. Leave commented to use the defaults.
 # NIM_EMBED_MODEL=nvidia/nv-embed-v1

@@ -339,6 +339,7 @@ async function indexRoot(
   root: RootSpec,
   args: {
     baseUrl: string;
+    adminApiKey: string;
     dryRun: boolean;
     force: boolean;
     limit: number;
@@ -372,7 +373,7 @@ async function indexRoot(
     }
     const res = await fetch(`${args.baseUrl}/embed/batch`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'X-Admin-Key': args.adminApiKey },
       body: JSON.stringify({ posts: pending, force: args.force, concurrency: 4 }),
     });
     if (!res.ok) {
@@ -442,7 +443,15 @@ async function main(): Promise<void> {
 
   const baseUrl = local
     ? 'http://localhost:8787'
-    : 'https://synchronocities-ai.tirak-court.workers.dev';
+    : 'https://synchronocities-ai.sheshnarayan-iyer.workers.dev';
+
+  // /embed/batch is admin-gated (ISSUE-02) — fail fast without the key,
+  // except in --dry-run mode which never calls the Worker.
+  const adminApiKey = process.env.ADMIN_API_KEY;
+  if (!dryRun && !adminApiKey) {
+    console.error('✗ ADMIN_API_KEY env var required. The Worker auth-gates /embed/batch (X-Admin-Key header). Export it and retry (or use --dry-run).');
+    process.exit(2);
+  }
 
   const selected = rootFilter
     ? ROOTS.filter((r) => r.cli === rootFilter || r.tag === rootFilter)
@@ -467,6 +476,7 @@ async function main(): Promise<void> {
   for (const root of selected) {
     const stats = await indexRoot(root, {
       baseUrl,
+      adminApiKey: adminApiKey ?? '',
       dryRun,
       force,
       limit,

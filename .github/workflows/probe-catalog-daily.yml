@@ -14,8 +14,11 @@ name: probe NIM catalog (daily snapshot)
 # Running this probe daily means downstream scripts always have a
 # < 24h-old reachability snapshot to gate against.
 #
-# Secrets required: CLOUDFLARE_API_TOKEN scoped to allow the Worker to
-# accept incoming requests (already configured for the deploy workflow).
+# Secrets required:
+#   ADMIN_API_KEY — shared secret gating the Worker's /test/* routes; must
+#     match the Worker Secret set via `wrangler secret put ADMIN_API_KEY`.
+#   CLOUDFLARE_API_TOKEN scoped to allow the Worker to accept incoming
+#     requests (already configured for the deploy workflow).
 # NVIDIA_API_KEY stays in the Worker's Secrets — never touched here.
 #
 # Commit hygiene: probe artifacts go in a single commit with `[skip ci]`
@@ -61,6 +64,10 @@ jobs:
 
       - name: Run probe
         working-directory: workers
+        env:
+          # /test/probe-one is admin-gated; the script exits fatally without
+          # this rather than poisoning the reachability snapshot.
+          ADMIN_API_KEY: ${{ secrets.ADMIN_API_KEY }}
         run: bun scripts/probe-catalog.ts --concurrency=8
 
       - name: Check for artifact changes

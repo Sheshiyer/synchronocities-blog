@@ -14,6 +14,7 @@
 
 import { embed, chat, rerank } from './lib/nim';
 import { runSurface, fanOut, withFailOpen, type RoutingConfig } from './lib/routing';
+import { applyCors, handleOptions, isAdminRoute, requireAdmin } from './lib/auth';
 import { handleEmbedBatch } from './routes/embed-batch';
 import { handleSearch } from './routes/search';
 import { handleRelated } from './routes/related';
@@ -28,6 +29,11 @@ export interface Env {
   // Secret (from `wrangler secret put NVIDIA_API_KEY`)
   NVIDIA_API_KEY: string;
 
+  // Secret (from `wrangler secret put ADMIN_API_KEY`) — gates admin routes
+  // (see lib/auth.ts). Typed optional so tests/local envs compile; the gate
+  // fails CLOSED (500 server_misconfigured) when unset.
+  ADMIN_API_KEY?: string;
+
   // Vars (from wrangler.toml [vars])
   NIM_BASE_URL: string;
   NIM_EMBED_MODEL: string;
@@ -41,13 +47,21 @@ export interface Env {
   CACHE: KVNamespace;
   CORPUS_INDEX: VectorizeIndex;
   ARTIFACTS: R2Bucket;
+
+  // Optional native rate-limit binding — declared via [[unsafe.bindings]] in
+  // wrangler.toml. chat.ts falls back to an in-isolate limiter when absent.
+  // Minimal structural type so we don't depend on wrangler typegen.
+  CHAT_RATE_LIMIT?: { limit(opts: { key: string }): Promise<{ success: boolean }> };
 }
 
 const JSON_HEADERS = { 'Content-Type': 'application/json' };
+// CORS is applied centrally by the fetch wrapper below (see lib/auth.ts).
+// Handlers keep spreading this for Allow-Methods/Headers on non-wrapped
+// paths, but applyCors() strips any Access-Control-* and re-applies the
+// origin allowlist verdict — no '*' anywhere.
 const CORS_HEADERS = {
-  'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Admin-Key',
 };
 
 /** Wrap an async call to capture its duration in ms alongside the result. */
@@ -61,11 +75,25 @@ async function timeIt<T>(
 }
 
 export default {
-  async fetch(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
+  async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+    // Preflight — answered centrally against the origin allowlist.
     if (request.method === 'OPTIONS') {
-      return new Response(null, { headers: CORS_HEADERS });
+      return handleOptions(request);
     }
 
+    // Admin gate — fail closed. Checked before any routing or upstream work.
+    const path = new URL(request.url).pathname;
+    if (isAdminRoute(request.method, path)) {
+      const denied = requireAdmin(request, env);
+      if (denied) return applyCors(request, denied);
+    }
+
+    const response = await route(request, env, ctx);
+    return applyCors(request, response);
+  },
+};
+
+async function route(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
     const path = url.pathname;
 
@@ -644,5 +672,4 @@ export default {
       },
       { status: 501, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
     );
-  },
-};
+}

@@ -7,6 +7,9 @@ name: synchronocities-ai deploy + index
 #   CLOUDFLARE_API_TOKEN   — scoped: Workers Scripts: Edit, Vectorize: Edit,
 #                            KV Storage: Edit, R2: Edit, Account: Read
 #   CLOUDFLARE_ACCOUNT_ID  — same one shown by `wrangler whoami`
+#   ADMIN_API_KEY          — shared secret gating admin routes (/embed/batch
+#                            etc.) on the Worker; must match the Worker Secret
+#                            set via `wrangler secret put ADMIN_API_KEY`
 #
 # Notes:
 #   - NVIDIA_API_KEY is NOT in repo secrets — it's a Worker Secret set once
@@ -55,7 +58,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           bunx wrangler deploy
-          echo "url=https://synchronocities-ai.tirak-court.workers.dev" >> "$GITHUB_OUTPUT"
+          echo "url=https://synchronocities-ai.sheshnarayan-iyer.workers.dev" >> "$GITHUB_OUTPUT"
 
   index:
     name: Reindex corpus
@@ -77,6 +80,10 @@ jobs:
         run: bun install --frozen-lockfile
       - name: Index corpus
         working-directory: workers
+        env:
+          # /embed/batch is admin-gated; the script fails fast without this.
+          # Value is never printed — passed to the script process env only.
+          ADMIN_API_KEY: ${{ secrets.ADMIN_API_KEY }}
         run: |
           if [ "${{ inputs.reindex }}" = "true" ]; then
             bun scripts/index-corpus.ts --force

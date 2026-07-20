@@ -99,7 +99,15 @@ if (emitContent && !audit) {
 
 const BASE_URL = local
   ? 'http://localhost:8787'
-  : 'https://synchronocities-ai.tirak-court.workers.dev';
+  : 'https://synchronocities-ai.sheshnarayan-iyer.workers.dev';
+
+// /expand/v2/section is admin-gated (ISSUE-02) — fail fast without the key.
+const ADMIN_API_KEY = process.env.ADMIN_API_KEY;
+if (!ADMIN_API_KEY) {
+  console.error('✗ ADMIN_API_KEY env var required. The Worker auth-gates /expand/* (X-Admin-Key header). Export it and retry.');
+  process.exit(2);
+}
+const ADMIN_HEADERS = { 'X-Admin-Key': ADMIN_API_KEY };
 
 // ─────────────────────────────────────────────────────────────────────────
 // Pre-flight: verify the Worker's configured chat model is reachable.
@@ -272,7 +280,7 @@ async function callV2Section(
   try {
     const res = await fetch(`${BASE_URL}/expand/v2/section`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...ADMIN_HEADERS },
       body: JSON.stringify({
         slug: post.slug,
         title: post.title,

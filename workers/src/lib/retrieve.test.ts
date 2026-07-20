@@ -12,7 +12,7 @@
 
 import { test, expect } from 'bun:test';
 
-const BASE_URL = 'https://synchronocities-ai.tirak-court.workers.dev';
+const BASE_URL = 'https://synchronocities-ai.sheshnarayan-iyer.workers.dev';
 
 test('GET /test/retrieve returns top-3 neighbors from OTHER posts', async () => {
   const res = await fetch(`${BASE_URL}/test/retrieve`, {

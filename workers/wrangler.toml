@@ -11,6 +11,9 @@ main = "src/index.ts"
 compatibility_date = "2026-05-20"
 compatibility_flags = ["nodejs_compat"]
 
+# Migrated 2026-07-20 from the tirak-court account to the owner's account.
+account_id = "9d9d23b27f32e70ae3afb6a1aa2c0f10"
+
 [observability]
 enabled = true
 head_sampling_rate = 1.0
@@ -38,7 +41,10 @@ NIM_BASE_URL = "https://integrate.api.nvidia.com/v1"
 # Overridable per-surface in src/routing.ts (phase B).
 
 NIM_EMBED_MODEL         = "nvidia/nv-embedqa-e5-v5"                       # 1024-d, 585ms — fits Vectorize cap (1536-d max)
-NIM_CHAT_MODEL          = "meta/llama-3.3-70b-instruct"                   # 70B, 387ms — primary synthesis
+# Swapped 2026-07-20: llama-3.3-70b-instruct went unreachable on the NIM tier
+# (daily probe 2026-07-18 timeout; live /chat verification 2026-07-20 returned
+# 0 bytes in 110s). Replacement confirmed reachable in the same probe snapshot.
+NIM_CHAT_MODEL          = "nvidia/nemotron-3-super-120b-a12b"             # 120B, 385ms — primary synthesis
 NIM_RERANK_MODEL        = "nvidia/nemotron-mini-4b-instruct"              # 4B, 405ms — LLM-as-judge rerank
 NIM_CLUSTER_LABEL_MODEL = "nvidia/nemotron-mini-4b-instruct"              # same cheap model — cluster naming
 NIM_SAFETY_MODEL        = "nvidia/llama-3.1-nemoguard-8b-content-safety"  # 453ms — content moderation on /chat
@@ -55,8 +61,8 @@ CORPUS_VERSION = "4"
 
 [[kv_namespaces]]
 binding = "CACHE"
-id = "29c134656fca4bada93e1c3b5313b3fa"
-preview_id = "d841c52982cb4ae3917975bdd1061ce0"
+id = "5e7bd8128b7b47cba0df0b11cb26aa88"
+preview_id = "bd18e5cfec954e14b97f9af3b1ec5028"
 
 # ────────────────────────────────────────────────────────────────────────────
 # PHASE-B BINDINGS — re-enable after running setup commands in README
@@ -83,11 +89,17 @@ bucket_name = "synchronocities-artifacts"
 # max_retries = 3
 # dead_letter_queue = "synchronocities-embed-dlq"
 
-# [[unsafe.bindings]]
-# name = "CHAT_RATE_LIMIT"
-# type = "ratelimit"
-# namespace_id = "1001"
-# simple = { limit = 20, period = 60 }
-# # Uncomment after testing /chat under load. Enforces 20 requests per
-# # minute per IP on /chat. Requires `unsafe-bindings` flag — Cloudflare's
-# # native limiter is currently in beta but stable enough for production.
+# Native rate limiter for /chat — 20 requests/minute per IP (keyed on
+# CF-Connecting-IP in routes/chat.ts). When this binding is absent (e.g.
+# `wrangler dev`), chat.ts falls back to a 10 req/min in-isolate limiter.
+#
+# NOTE (compatibility_flags): the old comment claimed this requires the
+# `unsafe-bindings` flag. That flag does not exist in wrangler 4 — `[[unsafe.bindings]]`
+# is accepted as-is and `unsafe_*` compatibility flags were removed in wrangler 4
+# (docs.cloudflare.com/workers/wrangler/configuration/#unsafe-bindings). Flags
+# left unchanged at ["nodejs_compat"]; validated with `wrangler deploy --dry-run`.
+[[unsafe.bindings]]
+name = "CHAT_RATE_LIMIT"
+type = "ratelimit"
+namespace_id = "1001"
+simple = { limit = 20, period = 60 }

@@ -36,7 +36,15 @@ const batchSize = batchSizeArg ? parseInt(batchSizeArg.split('=')[1]!, 10) : 20;
 
 const BASE_URL = local
   ? 'http://localhost:8787'
-  : 'https://synchronocities-ai.tirak-court.workers.dev';
+  : 'https://synchronocities-ai.sheshnarayan-iyer.workers.dev';
+
+// /embed/batch is admin-gated (ISSUE-02) — fail fast without the key.
+const ADMIN_API_KEY = process.env.ADMIN_API_KEY;
+if (!ADMIN_API_KEY) {
+  console.error('✗ ADMIN_API_KEY env var required. The Worker auth-gates /embed/batch (X-Admin-Key header). Export it and retry.');
+  process.exit(2);
+}
+const ADMIN_HEADERS = { 'X-Admin-Key': ADMIN_API_KEY };
 
 const POSTS_DIR = join(import.meta.dir, '..', '..', 'src', 'content', 'posts');
 
@@ -180,7 +188,7 @@ async function main() {
 
     const res = await fetch(`${BASE_URL}/embed/batch`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...ADMIN_HEADERS },
       body: JSON.stringify({ posts: batch, force }),
     });
 

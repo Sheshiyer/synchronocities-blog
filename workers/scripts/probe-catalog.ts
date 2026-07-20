@@ -41,7 +41,15 @@ const CONCURRENCY = CONC_ARG ? parseInt(CONC_ARG, 10) : 5;
 
 const BASE_URL = LOCAL
   ? 'http://localhost:8787'
-  : 'https://synchronocities-ai.tirak-court.workers.dev';
+  : 'https://synchronocities-ai.sheshnarayan-iyer.workers.dev';
+
+// /test/probe-one is admin-gated (ISSUE-02) — fail fast without the key.
+const ADMIN_API_KEY = process.env.ADMIN_API_KEY;
+if (!ADMIN_API_KEY && !SKIP_PROBE) {
+  console.error('✗ ADMIN_API_KEY env var required. The Worker auth-gates /test/* (X-Admin-Key header). Export it and retry.');
+  process.exit(2);
+}
+const ADMIN_HEADERS: Record<string, string> = ADMIN_API_KEY ? { 'X-Admin-Key': ADMIN_API_KEY } : {};
 
 const REPO_ROOT = new URL('../..', import.meta.url).pathname;
 
@@ -246,8 +254,16 @@ async function probeOne(id: string, cls: Classification, signal: AbortSignal): P
   try {
     const res = await fetch(url, {
       signal,
-      headers: { Accept: 'application/json', 'User-Agent': 'probe-catalog/1.0' },
+      headers: { Accept: 'application/json', 'User-Agent': 'probe-catalog/1.0', ...ADMIN_HEADERS },
     });
+    // A 401 means our admin key is wrong/missing — every model would be
+    // misreported unreachable and poison the daily snapshot. Fail loudly.
+    if (res.status === 401 || res.status === 500) {
+      const text = await res.text();
+      if (text.includes('unauthorized') || text.includes('server_misconfigured')) {
+        throw new Error(`AUTH-GATE HTTP ${res.status}: ${text.slice(0, 120)} — check ADMIN_API_KEY`);
+      }
+    }
     const body = (await res.json()) as {
       model: string; ok: boolean; dimensions?: number; excerpt?: string; ms?: number; error?: string;
     };
@@ -272,6 +288,13 @@ async function probeOne(id: string, cls: Classification, signal: AbortSignal): P
       error: (body.error ?? 'unknown').slice(0, 200),
     };
   } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    if (msg.startsWith('AUTH-GATE')) {
+      // Fatal: continuing would mark every model unreachable and poison the
+      // committed snapshot. Abort the whole run.
+      console.error(`✗ ${msg}`);
+      process.exit(3);
+    }
     return {
       id,
       classification: cls,
@@ -279,7 +302,7 @@ async function probeOne(id: string, cls: Classification, signal: AbortSignal): P
       probe_ms: Date.now() - start,
       dimensions: null,
       excerpt: null,
-      error: err instanceof Error ? err.message.slice(0, 200) : String(err),
+      error: msg.slice(0, 200),
     };
   }
 }

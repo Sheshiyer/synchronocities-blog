@@ -21,6 +21,7 @@ Usage:
 from __future__ import annotations
 import json
 import math
+import os
 import re
 import sys
 import time
@@ -37,7 +38,13 @@ LOCAL = '--local' in sys.argv
 QUICK = '--quick' in sys.argv
 SKIP_REACHABILITY = '--skip-reachability-check' in sys.argv
 
-BASE_URL = 'http://localhost:8787' if LOCAL else 'https://synchronocities-ai.tirak-court.workers.dev'
+BASE_URL = 'http://localhost:8787' if LOCAL else 'https://synchronocities-ai.sheshnarayan-iyer.workers.dev'
+
+# /test/eval-embed is admin-gated (ISSUE-02) — fail fast without the key.
+ADMIN_API_KEY = os.environ.get('ADMIN_API_KEY', '')
+if not ADMIN_API_KEY:
+    print('✗ ADMIN_API_KEY env var required. The Worker auth-gates /test/* (X-Admin-Key header). Export it and retry.', file=sys.stderr)
+    sys.exit(2)
 
 # Candidates to evaluate. Order = report order.
 CANDIDATES = [
@@ -159,6 +166,7 @@ def call_embed(texts: list[str], model: str, input_type: str) -> dict:
             'Content-Type': 'application/json',
             'Accept': 'application/json',
             'User-Agent': USER_AGENT,
+            'X-Admin-Key': ADMIN_API_KEY,
         },
         method='POST',
     )
