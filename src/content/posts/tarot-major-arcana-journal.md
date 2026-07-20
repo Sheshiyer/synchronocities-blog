@@ -21,10 +21,6 @@ concepts:
   - thoth-deck canonical naming
   - hero's sequence overlay
   - card-as-node on the spiral
-  - tarot as journal scaffolding
-  - thoth-deck canonical naming
-  - hero's sequence overlay
-  - card-as-node on the spiral
 related_posts:
   - the-fool-before-the-leap
   - deep-trench-forge-shenzhen

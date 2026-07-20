@@ -1,7 +1,6 @@
 ---
 title: Ports of Call
 date: 2025-03-25T00:00:00.000Z
-suit: wands
 phase: 5
 location: Bangkok, Thailand
 revolution: 1

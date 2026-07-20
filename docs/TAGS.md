@@ -2,7 +2,7 @@
 
 The Synchronocities corpus uses a flat tag set with one structural overlay: `cluster:*` prefix tags that establish faceted-browsing axes. Specific topical tags coexist beneath the clusters as siblings, not children.
 
-## The 7 Clusters
+## The 14 Clusters
 
 | Cluster | Domain |
 |---|---|
@@ -13,6 +13,13 @@ The Synchronocities corpus uses a flat tag set with one structural overlay: `clu
 | `cluster:travelogue` | Lived field-movement record — location-anchored entries (Bangkok, Chiang Mai, Samui, Pai, Phangan, Shenzhen, etc.) |
 | `cluster:sonic` | Sonic infrastructure — akshara, mantra, sanskrit phonetics, kha-ba-la, nadi, varna/sphota work |
 | `cluster:geometry` | Sacred geometry — symmetry, wallpaper groups, sri yantra, meru prastara, hyperbolic tilings, fibonacci, hypercube |
+| `cluster:biology` | Living-systems science — mycelium/fungal intelligence, morphic resonance, Schauberger implosion/vortex energy, fourth-phase water, active inference/free-energy principle, breath/nervous-system interface, addiction/reward-prediction |
+| `cluster:critical-thinking` | Epistemic audit — bicameral-mind/paleopsychology, hidden history, cultural amnesia, paradigm resistance, knowledge politics |
+| `cluster:systems` | Systems/infrastructure metaphors — containerization, orchestration, isolation, namespaces |
+| `cluster:physics` | Physical-cosmological substrate — noetic aether, implicate order, cosmic topology, CMB, body-as-medium |
+| `cluster:psychology` | Depth-psychology protocols — projection, shadow/scapegoat mechanics |
+| `cluster:philosophy` | Philosophy of mind — hard problem, first-person evidence, qualia arguments |
+| `cluster:neuroscience` | Neuro-cognitive encoding — memory, narrative syntax, trauma encoding |
 
 A post can belong to **multiple clusters** when it spans domains. For example:
 - *Spell-Work Reservoir* → `cluster:sonic + cluster:geometry + cluster:consciousness`
@@ -73,5 +80,6 @@ Validators warn but don't block the build for legacy contract issues; only schem
 
 ## History
 
+- 2026-07-21 — taxonomy reconciled with live corpus. Documented 7 additional clusters already in use (`biology` ×8, `critical-thinking` ×2, `systems`/`physics`/`psychology`/`philosophy`/`neuroscience` ×1 each) and added their trigger patterns to `scripts/apply-cluster-tags.ts`. New patterns re-derive current membership exactly — a re-run adds nothing for these clusters.
 - 2026-05-01 — first pass. 93 posts received cluster tags. Tarot tag standardization applied across 15 posts ([d26b125](https://github.com/Sheshiyer/synchronocities-blog/commit/d26b125)).
 - Earlier — `series` field stripped from 4 single-post orphans; bidirectional `related_posts` back-refs added between hubs and their cited essays.

@@ -46,6 +46,10 @@ const posts = defineCollection({
       variant: z.enum(['image', 'text', 'minimal']).optional(),
       image: z.string().optional(),
     }).optional(),
+    prompts: z.object({
+      card_image: z.string(),
+      hero_image: z.string(),
+    }).optional(), // Image-generation prompts used to produce card/hero art
     experience: z.object({
       theme: z.enum(NON_TAROT_THEME_VALUES).optional(),
       rail: z.enum(EXPERIENCE_RAIL_VALUES).optional(),

@@ -1,7 +1,6 @@
 ---
 title: The Sword of Speech
 date: 2025-03-22T00:00:00.000Z
-suit: swords
 phase: 4
 location: Bangkok, Thailand
 revolution: 1

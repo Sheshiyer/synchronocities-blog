@@ -1,7 +1,6 @@
 ---
 title: Bangkok Initiation, Samui Invitation
 date: 2025-03-28T00:00:00.000Z
-suit: wands
 phase: 6
 location: Bangkok / Koh Samui, Thailand
 revolution: 1

@@ -130,6 +130,10 @@ export function validateDocument(document: MarkdownDocument): ValidationIssue[] 
     issues.push(warning(document.slug, 'Legacy non-card post still uses the fallback contract and has not been seeded yet.'));
   }
 
+  if (hasNonEmptyString(data.suit) && !isCardPost) {
+    issues.push(warning(document.slug, 'Post declares `suit` without `card`; suit is a content-domain filter paired with a Major Arcana numeral — add `card` or remove `suit`.'));
+  }
+
   if (!articleMode) {
     return issues;
   }

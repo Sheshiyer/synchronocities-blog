@@ -44,7 +44,7 @@ experience:
   theme: signal
   rail: concept
   density: immersive
-framework_axes:
+  framework_axes:
     kha: The witness function that discriminates between recitation and execution — the observer who knows whether the mantra compiled or merely ran as noise.
     ba: The body as execution substrate — vocal apparatus, breath mechanism, nervous system, the hardware that processes phonemic sequences into structural effects.
     la: The inertia of inherited speech habits, the resistance that ordinary language carries, the friction that makes precise utterance difficult and therefore meaningful.

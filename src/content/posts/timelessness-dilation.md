@@ -1,7 +1,6 @@
 ---
 title: Timelessness Dilation
 date: 2025-03-20T00:00:00.000Z
-suit: swords
 phase: 3
 location: Bangkok, Thailand
 revolution: 1

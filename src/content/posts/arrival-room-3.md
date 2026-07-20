@@ -1,7 +1,6 @@
 ---
 title: Arrival in Room 3
 date: 2025-03-18T00:00:00.000Z
-suit: wands
 phase: 2
 location: Bangkok, Thailand
 revolution: 1

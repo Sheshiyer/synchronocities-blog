@@ -85,7 +85,13 @@ The validator currently flags ~70 posts with the *legacy non-card post still use
 1. Decide the tier (use the question tree above).
 2. Add `entry_kind` and `article_mode`.
 3. Backfill `concepts` (at least 4 for essay tiers).
-4. Add `llm.cluster` (one of: `consciousness-architecture`, `lorenz-kundli`, `enneagram`, `tarot`, `travelogue`, `sonic`, `geometry`).
+4. Add `llm.cluster` — a free-form discovery-grouping label (the validator only requires it to be non-empty; it is NOT a closed enum and does not have to mirror the `cluster:*` tag names). Values currently in use across the corpus:
+   - `consciousness-architecture` (~37 posts) — the main consciousness program
+   - `lorenz-kundli` (~21), `enneagram` (~14), `tarot` (~5) — align with their `cluster:*` tags
+   - `travelogue`, `geometry`, `sonic-infrastructure` (1 post each — note: `sonic-infrastructure`, not `sonic`)
+   - One-off groups that don't map to any tag cluster: `thailand-journey`, `pattern-recognition`, `attention-architecture`
+
+   Prefer an existing value that matches the post's domain; coin a new label only when no existing group fits.
 5. Add `llm.summary` and `llm.canonical_questions` (priority for high-traffic posts).
 6. Re-run `npm run validate:posts`.
 
@@ -112,6 +118,34 @@ The tiers also drive nav surfacing:
 - **LLM retrieval**: `canonical_questions` per tier improves the question-to-post match.
 - **Style consistency**: the Anatomist voice has the same DNA across tiers but calibrates per register; the doc captures this so future posts stay in voice.
 
+## Authorial persona (`identity`)
+
+The `identity` frontmatter field names the authorial persona a post is written from. It renders as a small violet byline pill in the post header (next to date/location/kosha). It is a **free-form string and a soft convention** — it is not validated, and new personas may be coined when a post genuinely needs a new register. Prefer reusing an existing persona when one fits.
+
+Personas currently in use (50 posts, as of 2026-07-21):
+
+| Persona | Posts | Register |
+|---|---|---|
+| `The Witness` | 25 | Default contemplative narrator — observes the field without claiming it |
+| `Shesh` | 11 | First-person personal voice — travelogues, field notes, lived entries |
+| `Pichet` | 5 | Collaborative/dialogic voice — co-authored or conversation-derived entries |
+| `The Alchemist` | 1 | Transformation/metabolization register |
+| `The Archaeologist` | 1 | Excavation of buried cultural/historical material |
+| `The Architect` | 1 | Structural/design register |
+| `The Bayesian` | 1 | Probabilistic/inference register |
+| `The Logician` | 1 | Formal/symbolic reasoning register |
+| `The Paleopsychologist` | 1 | Deep-time/ancestral-mind register |
+| `The System Architect` | 1 | Whole-systems engineering register |
+| `The Theorist` | 1 | Abstract/model-building register |
+| `The Thermodynamicist` | 1 | Energy/entropy/physics register |
+
+Guidance:
+- The three recurring personas (`The Witness`, `Shesh`, `Pichet`) cover most posts; the singleton `The <Role>` personas are one-off registers coined for specific research essays.
+- Keep the `The <Role>` capitalization pattern for coined personas.
+- Do not hard-enforce this list in the validator — the persona is an expressive choice, not a schema constraint.
+
 ## History
 
+- 2026-07-21 — `llm.cluster` guidance reconciled with live vocabulary. The old closed list of 7 values didn't match reality: posts use `consciousness-architecture` (not `consciousness`), `sonic-infrastructure` (not `sonic`), plus off-list groups `thailand-journey`, `pattern-recognition`, `attention-architecture`. Guidance now documents the actual free-form convention.
 - 2026-05-01 — first written. Closes [#168](https://github.com/Sheshiyer/synchronocities-blog/issues/168).
+- 2026-07-21 — documented the `identity` authorial-persona field as a soft convention (12 personas in use across 50 posts). Not validator-enforced.

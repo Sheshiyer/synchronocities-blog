@@ -1,6 +1,7 @@
 ---
 title: The Fool's Satchel
 date: 2025-03-26T00:00:00.000Z
+card: '0'
 suit: disks
 phase: 5
 location: Bangkok, Thailand
@@ -19,8 +20,6 @@ tags:
   - coherence
   - cluster:tarot
   - cluster:consciousness
-article_mode: research-essay
-entry_kind: essay
 concepts:
   - two of wands
   - satchel

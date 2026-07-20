@@ -1,6 +1,6 @@
 /**
  * Adds `cluster:*` tags to every post based on its existing tag fingerprint.
- * Defines a flat 7-cluster taxonomy as the top-level discovery axis.
+ * Defines a flat 14-cluster taxonomy as the top-level discovery axis.
  * Existing tags are preserved; this only ADDS cluster tags (idempotent).
  *
  * Run: node --experimental-strip-types scripts/apply-cluster-tags.ts
@@ -84,6 +84,55 @@ const CLUSTERS: ClusterRule[] = [
       /^python$/, /^programming$/, /^operations$/, /^state$/, /^state-trace$/,
       /^state-trace$/, /^method$/,
     ],
+  },
+  {
+    cluster: 'cluster:biology',
+    triggers: [
+      /^mycology$/, /^fungal-intelligence$/, /^mycelium$/, /^wood-wide-web$/,
+      /^implosion$/, /^schauberger$/, /^vortex$/, /^thermodynamics$/,
+      /^natural-energy$/, /^centripetal$/, /^cold-combustion$/,
+      /^water-science$/, /^fourth-phase-water$/, /^ez-water$/,
+      /^structured-water$/, /^biophysics$/, /^pollack$/, /^active-inference$/,
+      /^free-energy-principle$/, /^prediction-processing$/, /^bayesian-brain$/,
+      /^computational-neuroscience$/, /^karl-friston$/, /^generative-models$/,
+      /^nervous-system$/, /^voluntary-involuntary-interface$/,
+      /^reward-prediction-error$/, /^addiction$/, /^breath$/, /^prana$/,
+      /^hrv$/, /^grounding$/, /^rupert-sheldrake$/, /^formative-causation$/,
+      /^morphogenetic-fields$/,
+    ],
+  },
+  {
+    cluster: 'cluster:critical-thinking',
+    triggers: [
+      /^bicameral-mind$/, /^julian-jaynes$/, /^paleopsychology$/, /^gebser$/,
+      /^auditory-hallucination$/, /^consciousness-evolution$/,
+      /^hidden-history$/, /^cultural-amnesia$/, /^epistemology$/,
+      /^alternative-archaeology$/, /^paradigm-resistance$/,
+      /^knowledge-politics$/, /^historical-narrative$/,
+    ],
+  },
+  {
+    cluster: 'cluster:systems',
+    triggers: [/^containerization$/, /^namespace$/, /^isolation$/],
+  },
+  {
+    cluster: 'cluster:physics',
+    triggers: [
+      /^noetic-aether$/, /^cosmic-topology$/, /^implicate-order$/, /^cmb$/,
+      /^body-as-medium$/,
+    ],
+  },
+  {
+    cluster: 'cluster:psychology',
+    triggers: [/^projection$/],
+  },
+  {
+    cluster: 'cluster:philosophy',
+    triggers: [/^hard-problem$/, /^first-person$/],
+  },
+  {
+    cluster: 'cluster:neuroscience',
+    triggers: [/^memory$/, /^narrative$/, /^syntax$/, /^encoding$/],
   },
 ];
 
