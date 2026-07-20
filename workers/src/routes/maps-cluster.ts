@@ -96,14 +96,48 @@ export async function handleMapsCluster(
   const config: RoutingConfig = env;
 
   // ─── 1. Pull every vector + metadata from Vectorize ─────────────────────
-  // Vectorize doesn't have a "list all" — we need to either know the IDs or
-  // do a query with a generic vector. We'll embed the empty-string-ish prompt
-  // and pull 200 (more than our 125-post corpus).
-  // Better approach: read all post slugs from our KV content-hash store.
-  const hashList = await env.CACHE.list({ prefix: `post-hash:v${env.CORPUS_VERSION}:` });
-  const allSlugs = hashList.keys
-    .map((k) => k.name.replace(`post-hash:v${env.CORPUS_VERSION}:`, ''))
-    .filter(Boolean);
+  // Vectorize doesn't have a "list all" — we read all post slugs from our KV
+  // content-hash store, then getByIds the vectors in chunks.
+  // KV list() returns at most 1000 keys per call and silently truncates
+  // without a cursor loop, so we paginate until list_complete.
+  const prefix = `post-hash:v${env.CORPUS_VERSION}:`;
+  const allSlugs: string[] = [];
+  let cursor: string | undefined;
+  do {
+    const page: KVNamespaceListResult<unknown> = await env.CACHE.list({ prefix, cursor });
+    for (const key of page.keys) {
+      const slug = key.name.replace(prefix, '');
+      if (slug) allSlugs.push(slug);
+    }
+    cursor = page.list_complete ? undefined : page.cursor;
+  } while (cursor);
+
+  // Hard ceiling — beyond this the route cannot fit in a Worker:
+  //   memory:  1024 dims × 4 B × N floats ≈ 61 MB at N=15k (plus JS array
+  //            overhead, ~2-3× that) against the 128 MB isolate limit
+  //   subrequests: N/20 getByIds calls + N/1000 KV list pages ≈ 765 at N=15k
+  //            against the 1000-subrequest cap
+  // At ~28k vectors (vault chunks included) both limits are blown. Use the
+  // off-worker script instead — it runs the identical algorithm locally and
+  // uploads the same artifact to R2.
+  const MAX_IN_WORKER_SLUGS = 15_000;
+  if (allSlugs.length > MAX_IN_WORKER_SLUGS) {
+    const estMb = Math.round((allSlugs.length * 1024 * 4) / (1024 * 1024));
+    return Response.json(
+      {
+        error: 'corpus_too_large',
+        detail:
+          `${allSlugs.length} slugs exceed the in-Worker ceiling of ${MAX_IN_WORKER_SLUGS} ` +
+          `(~${estMb} MB of raw vectors + overhead vs 128 MB isolate memory; ` +
+          `${Math.ceil(allSlugs.length / 20)} getByIds subrequests vs the 1000 cap). ` +
+          `Run the off-worker script instead: bun workers/scripts/compute-clusters.ts ` +
+          `(uploads clusters-v${env.CORPUS_VERSION}.json to R2 with the identical shape).`,
+        slug_count: allSlugs.length,
+        ceiling: MAX_IN_WORKER_SLUGS,
+      },
+      { status: 413, headers: CORS_HEADERS },
+    );
+  }
 
   if (allSlugs.length === 0) {
     return Response.json(
