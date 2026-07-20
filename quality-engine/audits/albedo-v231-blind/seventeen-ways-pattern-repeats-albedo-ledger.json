@@ -257,16 +257,16 @@
         "quote": "The arithmetic — **1 + 1 + 4 + 3 + 5 + 3 = 17** — is forced."
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
-      "claim_status": "UNSUPPORTED",
+      "claim_status": "COHERENT",
       "remediation_codes": ["R-MATH", "R-PROVENANCE"],
-      "requires_review": true,
+      "requires_review": false,
       "math": {
         "role": "DECORATIVE",
         "load_bearing": false,
         "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
         "evidence_eligible": false
       },
-      "rationale": "The sum totals 17 correctly, but the six-term decomposition does not match any standard enumeration of the 17 groups this auditor can reconstruct (by rotational order: 4+5+3+3+2; by lattice type: 2+5+2+3+5), and no source for the partition is given; genuinely undecidable whether a valid partition was intended — flagged for manual check.",
+      "rationale": "The sum totals 17 correctly, but the six-term decomposition does not match any standard enumeration of the 17 groups this auditor can reconstruct (by rotational order: 4+5+3+3+2; by lattice type: 2+5+2+3+5), and no source for the partition is given; genuinely undecidable whether a valid partition was intended — flagged for manual check. RESOLVED(verified): valid partition reproduces 17 — p1|p2|{p2mm,p2mg,p2gg,c2mm}=4|{p4,p4mm,p4gm}=3|{p3,p3m1,p31m,p6,p6mm}=5|{pm,pg,cm}=3; 1+1+4+3+5+3=17.",
       "legacy": {
         "anchor": "BLIND-NEW-COVERAGE",
         "quote": "(no legacy row; blind-pass extraction)",

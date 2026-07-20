@@ -572,6 +572,33 @@
         "load_bearing": false,
         "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
       }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "The lunar cycle is not astrology — it is the oldest pattern recognition framework for collective behavior"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A historical-priority claim ('the oldest pattern recognition framework') asserted without source; the frontmatter was outside the original extraction scope — scope extended by Stage B. (coverage backfill: Stage B independent verification)",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The lunar cycle is not astrology — it is the oldest pattern recognition framework for collective behavior",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted. Stage B coverage backfill (frontmatter scope extension)."
+      }
     }
   ]
 }

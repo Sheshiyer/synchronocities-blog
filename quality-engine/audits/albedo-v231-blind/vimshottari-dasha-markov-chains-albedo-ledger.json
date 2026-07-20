@@ -670,6 +670,60 @@
         "load_bearing": false,
         "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
       }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "degenerate Markov chain where transition probabilities are either zero or one"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "UNASSESSED", "provenance": "UNASSESSED" },
+        "evidence_eligible": false
+      },
+      "rationale": "A deterministic sequence is exactly a degenerate transition matrix (0/1 probabilities) — defensible as stated; inherits scrutiny from the adjacent CONTRADICTED Markov-definition claim (C005). (coverage backfill: Stage B independent verification)",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "degenerate Markov chain where transition probabilities are either zero or one",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict. Stage B coverage backfill."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "every planetary influence will be experienced exactly once per 120-year revolution"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-SCOPE", "R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "UNASSESSED", "provenance": "UNASSESSED" },
+        "evidence_eligible": false
+      },
+      "rationale": "Real lifespans truncate the 120-year cycle, so the 'exactly once' guarantee of complete experiential coverage does not hold in practice as asserted. (coverage backfill: Stage B independent verification)",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "every planetary influence will be experienced exactly once per 120-year revolution",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict. Stage B coverage backfill."
+      }
     }
   ]
 }

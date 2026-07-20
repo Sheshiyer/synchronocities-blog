@@ -653,6 +653,33 @@
         "load_bearing": false,
         "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
       }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "the erasure of an entire metallurgical tradition from the record"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A sweeping erasure-of-tradition assertion presented as established history; no source is cited in the post. (coverage backfill: Stage B independent verification)",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "the erasure of an entire metallurgical tradition from the record",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim. Stage B coverage backfill."
+      }
     }
   ]
 }

@@ -896,6 +896,60 @@
         "load_bearing": false,
         "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
       }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Types 5, 6, 7 — the head triad"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard enneagram head-triad convention (5/6/7 as the head center); the sibling gut and heart triads are already anchored in this ledger. (coverage backfill: Stage B independent verification)",
+      "legacy": {
+        "anchor": "blind-v231:L86",
+        "quote": "Types 5, 6, 7 — the head triad",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol. Stage B coverage backfill."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "The chakra system is not a belief. It is a specification."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Thesis-level ontological assertion presenting the 'specification' metaphor as literal fact without any declaration of figurative intent. (coverage backfill: Stage B independent verification)",
+      "legacy": {
+        "anchor": "blind-v231:L28",
+        "quote": "The chakra system is not a belief. It is a specification.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol. Stage B coverage backfill."
+      }
     }
   ]
 }

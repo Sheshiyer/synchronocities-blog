@@ -448,14 +448,14 @@
       "claim_mode": "TRADITIONAL-SOURCE",
       "claim_status": "UNSUPPORTED",
       "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
-      "requires_review": true,
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
         "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
         "evidence_eligible": false
       },
-      "rationale": "Pedanda are indeed Balinese high priests, but the attributed four-phase 'Padiyami' sequence cannot be verified against any documented rite (inherits the C007 problem); genuine source ambiguity — flagged for manual verification.",
+      "rationale": "Pedanda are indeed Balinese high priests, but the attributed four-phase 'Padiyami' sequence cannot be verified against any documented rite (inherits the C007 problem); genuine source ambiguity — flagged for manual verification. RESOLVED: pedanda detail accurate; inherits C007 root decision on the Padiyami name.",
       "legacy": {
         "anchor": "BLIND-NEW-COVERAGE",
         "quote": "(no legacy row; blind-pass extraction)",

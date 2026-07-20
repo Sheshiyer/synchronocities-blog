@@ -599,6 +599,33 @@
         "load_bearing": false,
         "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
       }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Venus' overtone humming in the background"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Three of Wands Golden Dawn correspondence is Sun in Aries, not Venus. (coverage backfill: Stage B independent verification)",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "Venus' overtone humming in the background",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding; Stage B coverage backfill."
+      }
     }
   ]
 }

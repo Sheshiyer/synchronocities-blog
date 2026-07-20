@@ -373,6 +373,68 @@
         "load_bearing": false,
         "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
       }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "It captures what you think happened. Not what your nervous system did."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A generalization about journaling and memory framed as the author's own method contrast. (coverage backfill: Stage B independent verification)",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It captures what you think happened. Not what your nervous system did.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited. Stage B coverage backfill."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Most self-observation collapses the sequence."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An introspection-reporting generalization asserted from the author's practice. (coverage backfill: Stage B independent verification)",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Most self-observation collapses the sequence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited. Stage B coverage backfill."
+      }
     }
   ]
 }
