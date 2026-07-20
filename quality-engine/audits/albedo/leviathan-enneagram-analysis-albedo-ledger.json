@@ -1,0 +1,283 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "leviathan-enneagram-analysis.md",
+  "source_path": "src/content/posts/leviathan-enneagram-analysis.md",
+  "source_sha256": "dcd8cb0459f77b082436092d8099e3d4365ec37928afce5c0fc3b1665bd8029a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/leviathan-enneagram-analysis.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "In the Enneagram, Type 4 is the Individualist"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the named Enneagram tradition identifies Type 4 as the Individualist; the Type 4 mapping is accurate, structurally consequential, and provenance is explicit in the sentence.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"In the Enneagram, Type 4 is the Individualist\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Enneagram structure (fixation/virtue/infernal-name mapping) is the analytic spine; canonical house structure, used structurally. Remove it and the post collapses."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "it is pre-conscious, pre-verbal, and resistant to rational correction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: pre-conscious, pre-verbal, and correction-resistant are general psychological mechanism claims, but no population, observation record, or source supports their universal strength.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"it is pre-conscious, pre-verbal, and resistant to rational correction\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Phenomenology of envy stated as replicable inner observation; no authority invoked."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "just as hormones bind to receptors and trigger cascading biological responses"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: hormone-receptor binding is an externally testable physiological claim; the analogy is explicit, but the empirical ingredient lacks a traceable source in the post.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"just as hormones bind to receptors and trigger cascading biological responses\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicitly declared analogy (\"The endocrine metaphor extends here: just as…\"). Safe harbor; physiology accurate at textbook level."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Orange operates as the counter-signal. The Emperor card, the hero archetype, authority as individual achievement rather than collective surrender. The analysis notes that \"hero\" and \"tyrant\" are anagrams of the same letters rearranged — the same energy configured differently depending on orientation."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SPLIT"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the asserted hero/tyrant anagram is definitionally false because the words have different lengths and letter multisets; the surrounding symbolic interpretation must be separated from this failed fact.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"'hero' and 'tyrant' are anagrams of the same letters rearranged\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Definitionally false: hero (h,e,r,o) and tyrant (t,y,r,a,n,t) share no letter multiset; 4 vs 6 letters. Stated as fact, not analogy. Charitable reading (metaphorical \"same energy rearranged\" per the em-dash gloss) noted for ALBEDO, but as printed the combinatorial claim fails. Decorative flourish — section and thesis survive removal."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "The South Taurid meteor shower aligns with Leviathan symbolism"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the paragraph explicitly presents the South Taurid alignment as the SlickDissident symbolic correspondence frame, and that mapping is internally consistent without claiming empirical proof.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"The South Taurid meteor shower aligns with Leviathan symbolism\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House correspondence frame: celestial-terrestrial clock-signal reading, explicitly \"not as coincidences but as clock signals.\" Meteor showers are directly observable; the symbolic mapping is the house method."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The \"windows of influence\" concept is particularly sharp: meteor showers as periods when specific archetypal frequencies increase in amplitude, much like how influenza (from \"influence\") describes a period when biological vulnerability increases. The stars do not cause political events any more than cortisol causes anxiety. But they mark the same temporal windows."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: one span combines a Noesis archetypal-frequency model, an influenza etymology, and a biological-vulnerability analogy without splitting or tracing the ingredients and transformation.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"influenza (from 'influence') describes a period when biological vulnerability increases\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Etymological/historical claim, judged as history: accurate (influenza ← Medieval Latin influentia, celestial influence). Framed with \"much like\" — declared analogy."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The stars do not cause political events any more than cortisol causes anxiety"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the sentence joins an astronomical-causation denial to a cortisol-anxiety denial; the latter is an unsourced causal generalization and requires separate evaluation.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"The stars do not cause political events any more than cortisol causes anxiety\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Explicitly denies the inverted arrow; correlation/signature framing (\"they mark the same temporal windows\") — the gate's own remediation language."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "Hormones manage your emotional reality, constructing the felt experience of your life"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: hormones are said to construct felt emotional reality, an externally testable causal mechanism stated without measures, population, uncertainty, or a traceable source.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"Hormones manage your emotional reality, constructing the felt experience of your life\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Chemistry as subject producing experience as object — the inverted arrow stated as mechanism. Borderline: it elaborates the declared \"endocrine system… as the body's internal Matrix\" analogy and describes the *managed* layer the post urges waking from, but unlike L64 it lacks correlate framing. Recode candidate: hormones as the signature/management layer, not the constructor of experience. Thesis survives removal."
+      },
+      "id": "C008"
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "noetic-aether-einsteinian-knot.md",
+  "source_path": "src/content/posts/noetic-aether-einsteinian-knot.md",
+  "source_sha256": "65053589e79fb6f8052d5de720b0c6d00e32c9f111213f8aaa3bc36e087310b2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/noetic-aether-einsteinian-knot.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 30,
+        "line_end": 31,
+        "quote": "I regard consciousness as fundamental. I regard matter as derivative"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Planck quotation is represented as his statement, and the rationale traces it to The Observer interview of 25 January 1931; it is not evidence that the house ontology is empirically true.",
+      "legacy": {
+        "anchor": "L30-31",
+        "quote": "\"I regard consciousness as fundamental. I regard matter as derivative\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Planck attribution is genuine (The Observer interview, 25 Jan 1931); epigraph sets the consciousness-primary frame."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "GPS satellites, particle accelerators, and nuclear reactors all depend on relativistic corrections"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Relativistic corrections have externally verifiable engineering consequences in GPS and accelerator work, while mass–energy equivalence is consequential to nuclear energy; the claim is kept at that broad level.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"GPS satellites, particle accelerators, and nuclear reactors all depend on relativistic corrections\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Empirically verifiable engineering facts (GPS, accelerators solid; reactor clause loose but defensible via mass-energy equivalence); concedes the model's predictive success before the \"working vs. true\" pivot."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "identified by Henri Bergson in 1922 and still unresolved"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The anchor combines Bergson’s documented 1922 intervention with the article’s present-day “still unresolved” judgment; the historical attribution and current adjudication require separate rows.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"identified by Henri Bergson in 1922 and still unresolved\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Historical claim judged as history: accurate (1922 Bergson–Einstein exchange; Durée et simultanéité)."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "The core issue, identified by Henri Bergson in 1922 and still unresolved a century later, is the reciprocity problem. Special relativity claims that time dilation and length contraction are symmetric — each observer sees the other's clock running slow and the other's ruler contracted. This symmetry is required by the principle of relativity (no preferred frame). But the same effects are invoked to explain asymmetric physical results — muons surviving to ground level because their clocks run slow relative to Earth observers."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "One anchor mixes historical attribution, statements of special-relativity premises, reciprocal coordinate effects, and an empirical muon example; each requires its own mode and evidence trace.",
+      "legacy": {
+        "anchor": "L39-41",
+        "quote": "\"time dilation and length contraction are symmetric... muons surviving to ground level\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Accurate description of SR reciprocity and the standard muon account; theory described as theory in order to expose the interpretive tension."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Light moves at c in all directions in all inertial frames"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The invariant two-way light-speed premise is accurately represented as a postulate of special relativity, not promoted as a direct observation.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"Light moves at c in all directions in all inertial frames\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "SR postulate stated as the theory's premise, immediately interrogated — model labeled as premise, not promoted to fact."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "The one-way speed of light is fundamentally unmeasurable"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The one-way speed depends on a clock-synchronization convention, but “fundamentally unmeasurable” is stronger than the conventionality claim and needs scope plus a traceable metrology source.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"The one-way speed of light is fundamentally unmeasurable\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Accurate point from the conventionality-of-simultaneity literature; every measurement is a round-trip."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Einstein himself acknowledged that the isotropy of light speed is a convention"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Einstein’s 1905 synchronization stipulation is the identified historical basis for representing isotropy as conventional within that formulation.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"Einstein himself acknowledged that the isotropy of light speed is a convention\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Historical claim judged as history: accurate (1905 stipulation \"by definition\"; not an empirical finding)."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "the Michelson-Morley experiment purportedly disproved"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Michelson–Morley experiment and its historical reception in aether debates are accurately reported, with “purportedly” preserving the distinction between reception and final adjudication.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"the Michelson-Morley experiment purportedly disproved\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim with explicit hedge (\"purportedly\"); judged as history — the hedge keeps the standard narrative at arm's length."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The noetic aether is a field of possible interactions — a distribution of potentialities that is fundamentally nonlocal, pre-spatial, and noetic (consciousness-bearing) in character. It is not a substance through which light propagates. It is the ontological ground from which physical interactions — including light propagation — arise."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is explicitly situated inside the noetic-aether framework, its operative terms are stated locally, and it remains internally consistent as a house interpretation rather than external proof.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"a field of possible interactions... nonlocal, pre-spatial, and noetic\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology: consciousness-bearing field as ontological ground; explicitly attributed to the noetic aether framework."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "In David Bohm's terminology, the noetic aether is the implicate order"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bohm’s implicate order is a real source concept, but identifying it with the Noesis “noetic aether” is a new synthesis; “In Bohm’s terminology” launders Noesis authorship as Bohm’s.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"In David Bohm's terminology, the noetic aether is the implicate order\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Declared framework mapping (Bohm's implicate order; Whitehead's conceptual prehension); characterizations accurate; safe-harbor analogy, not authority-borrowing."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 67,
+        "quote": "oscillating spherical dipoles of density (positronic core layers) and vacuity"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is explicitly situated inside the noetic-aether framework, its operative terms are stated locally, and it remains internally consistent as a house interpretation rather than external proof.",
+      "legacy": {
+        "anchor": "L65-67",
+        "quote": "\"oscillating spherical dipoles of density (positronic core layers) and vacuity\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House/series framework model, explicitly attributed (\"the noetic aether framework radically reconceives atomic structure\"); orbitals as standing-wave shells."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "Gravitational attraction between atoms is the interference pattern produced by overlapping mass fields"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is explicitly situated inside the noetic-aether framework, its operative terms are stated locally, and it remains internally consistent as a house interpretation rather than external proof.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"Gravitational attraction between atoms is the interference pattern produced by overlapping mass fields\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House model mechanism; GR conceded as formally correct (\"describes correctly but interprets metaphysically\") — the house equivalence move, not a factual claim about consensus."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "light is an electromagnetic wave that propagates through vacuum at speed c"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence explicitly reports the conventional-physics description of light; the source model is accurately represented rather than claimed as direct observation.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"light is an electromagnetic wave that propagates through vacuum at speed c\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Conventional view described as conventional (\"In conventional physics...\"), set up for contrast."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "This resolves the double-slit paradox. The electromagnetic field passes through both slits (it is nonlocal). The photon detection events occur at specific locations on the screen (they are localized). The interference pattern emerges because the nonlocal field conditions the probabilities of localized detection events. There is no paradox because there are not two incompatible descriptions — there is one coherent framework with two aspects (field and event)."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is explicitly situated inside the noetic-aether framework, its operative terms are stated locally, and it remains internally consistent as a house interpretation rather than external proof.",
+      "legacy": {
+        "anchor": "L75-77",
+        "quote": "\"Electromagnetic fields are superluminal and nonlocal... resolves the double-slit paradox\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House framework postulate, declared (\"In the noetic framework, light is not a propagation at all\"); double-slit phenomenon itself accurately described."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "Sheldrake's data shows that novel synthetic crystals exhibit increasing melting points"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Sheldrake is named, but no dataset, crystal series, measurement method, uncertainty, replication record, or primary citation supports the melting-point trend at the stated strength.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"Sheldrake's data shows that novel synthetic crystals exhibit increasing melting points\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Contested, unreplicated empirical claims presented as established \"data shows.\" The \"as if... 'learning'\" safe harbor covers only the learning gloss, not the data claim. Morphic-resonance crystal data is disputed; attribution to Sheldrake exists (so not FABRICATED), but the claim's validity is presented as settled."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Memory is not stored in physical structures (brains, crystals) — it exists within the past"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is explicitly situated inside the noetic-aether framework, its operative terms are stated locally, and it remains internally consistent as a house interpretation rather than external proof.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"Memory is not stored in physical structures (brains, crystals) — it exists within the past\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Declared model framing (\"In the noetic framework, this is explained naturally\"); consciousness-primary (memory not matter-generated). Inherits the L81 dependency but is framed as the framework's interpretation."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "computational approaches (including AlphaFold) attempt to predict protein structure from amino acid sequence"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Computational systems including AlphaFold do predict protein structure from amino-acid-sequence information; the conditional morphic-resonance inference is outside this exact anchor.",
+      "legacy": {
+        "anchor": "L85",
+        "quote": "\"computational approaches (including AlphaFold) attempt to predict protein structure from amino acid sequence\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Broadly accurate description (loose on \"local energy minimization\" for a learned model, but sequence-based is right); morphic resonance here is explicitly conditional (\"If morphic resonance is real\")."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Newton openly acknowledged that his equations described gravity without explaining it"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Newton’s refusal to invent a causal mechanism for gravity is faithfully represented and traceable to the General Scholium’s “hypotheses non fingo” context.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"Newton openly acknowledged that his equations described gravity without explaining it\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Historical claim judged as history: accurate (hypotheses non fingo, General Scholium, Principia)."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "spacetime curvature causes gravity — but it is actually a more sophisticated description"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is explicitly situated inside the noetic-aether framework, its operative terms are stated locally, and it remains internally consistent as a house interpretation rather than external proof.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"spacetime curvature causes gravity — but it is actually a more sophisticated description\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Interpretive critique consistent with house epistemology: GR framed as description/model, not promoted to explanation."
+      },
+      "id": "C019"
+    }
+  ]
+}

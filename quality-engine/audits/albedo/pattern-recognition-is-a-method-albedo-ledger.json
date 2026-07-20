@@ -1,0 +1,382 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "pattern-recognition-is-a-method.md",
+  "source_path": "src/content/posts/pattern-recognition-is-a-method.md",
+  "source_sha256": "30d99d8578b5a56cc6982468a9cca02f17544ab23de000ae946d55dc688a2644",
+  "legacy_audit_path": "quality-engine/audits/nigredo/pattern-recognition-is-a-method.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "Same cortisol cascade, different trigger"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Same cortisol cascade” is an unmeasured physiological generalization, not a direct observation. The post supplies no assay, conditions, or source establishing identity across triggers.",
+      "legacy": {
+        "anchor": "L30",
+        "quote": "\"Same cortisol cascade, different trigger\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Felt stress recurrence named at body level; no mechanism claimed; reader-recognizable."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "When your autonomic baseline shifts, your interpretation shifts with it"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article names the observer’s own 9 AM/4 PM comparison, the same email, and the changed state as conditions. It preserves the observation–interpretation boundary.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"When your autonomic baseline shifts, your interpretation shifts with it\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correlation immediately cashed out in the replicable 9 AM / 4 PM email observation; state-dependence declared, not mechanized."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The prefrontal cortex literally reduces its processing bandwidth under sympathetic activation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stress-related prefrontal impairment is externally testable, but “literally reduces processing bandwidth” supplies no defined measure, population, source, or uncertainty and literalizes a computing metaphor.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"The prefrontal cortex literally reduces its processing bandwidth under sympathetic activation\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "\"This is not a metaphor… literally\" = silent upgrade cancels safe harbor; brain mechanism as subject producing narrowed experience; rests on unnamed neuroscience authority."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "The body registers somatic signal before cognition arrives"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The protocol asks the reader to notice the somatic cue before narrating it, providing observer, object, procedure, and scope for a situated observation.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"The body registers somatic signal before cognition arrives\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Falsifiable in the reader's own somatic practice; grounds the Signal→State→Story sequence."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The Enneagram becomes a precision instrument"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article explicitly redefines the Enneagram as its own diagnostic lens and distinguishes that use from personality labeling. The operative terms remain internally consistent.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"The Enneagram becomes a precision instrument\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House framework operated as diagnostic method; personality-label use explicitly refused."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Kha-dominant types — like Type 5 — over-observe and under-inhabit"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The named Kha–Ba–La/Enneagram mapping is the article’s declared diagnostic model, and the three dominance patterns are presented consistently as house vocabulary.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"Kha-dominant types — like Type 5 — over-observe and under-inhabit\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Kha-Ba-La mapping operated structurally (Ba/La at L75/L77); house cosmology by definition."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Cortisol-mediated withdrawal disguised as analysis"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The phrase inseparably fuses an unmeasured cortisol mechanism with an interpretive Type-5 defense label and states the correlate as mediator. Split and source the physiology.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"Cortisol-mediated withdrawal disguised as analysis\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Neurochemistry named as operative mechanism of the defense; gate's own \"cortisol makes you stressed\" heuristic; correlate stated as origin."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "Adrenaline-driven movement disguised as decisiveness"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The phrase fuses an adrenaline mechanism with a Type-8 behavioral interpretation and presents chemistry as driver without a measured population or causal design.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"Adrenaline-driven movement disguised as decisiveness\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Same inverted arrow: chemistry as driver of behavior/experience."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "Serotonin regulation disguised as equanimity"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The phrase reduces an interpretive Type-9 pattern to serotonin regulation without defining the measure or separating correlate, mechanism, and house typology.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"Serotonin regulation disguised as equanimity\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Experience reduced to neurochemistry; also a contested pop-neuroscience simplification stated as fact."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "the default defense your nervous system runs when self-consciousness drops offline"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The “default defense runtime” is explicitly the article’s working model of type under reduced self-consciousness, and its terms are consistently defined as a diagnostic lens.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"the default defense your nervous system runs when self-consciousness drops offline\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Nervous system framed as fallback runtime subordinate to consciousness — house-compatible causal arrow; post's working model."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "The observer sees. The body carries. Inertia resists."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Observer, body, and inertia are stated as the post’s structural house triad and are operated consistently in the integration protocol.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"The observer sees. The body carries. Inertia resists.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House triad (observer/body/inertia); the post's stated structural principle; ALIGNED by definition."
+      },
+      "id": "C011"
+    }
+  ]
+}

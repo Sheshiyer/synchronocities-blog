@@ -1,0 +1,308 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "death-at-the-border.md",
+  "source_path": "src/content/posts/death-at-the-border.md",
+  "source_sha256": "bfcb467c069092d83f1e360368c812e71ec78ce9782155ff9e333e0384783866",
+  "legacy_audit_path": "quality-engine/audits/nigredo/death-at-the-border.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The kṣaṇa names a real structural limit: the smallest duration"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The source explicitly reports Kṣaṇika-vāda momentariness and the kṣaṇa as the smallest persistence interval. The legacy review confirms the paraphrase is faithful as traditional doctrine, not empirical measurement.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"The kṣaṇa names a real structural limit: the smallest duration\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House-frame doctrine (momentariness) operated as structural grammar; \"literal, not figurative\" is house assertion, not borrowed science. Repeated near-verbatim at L58."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Caspase-8 and caspase-9 initiate; caspase-3 and caspase-7 execute"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The initiator/executioner caspase roles are standard apoptosis biology and are stated at the strength supported by the established pathway.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"Caspase-8 and caspase-9 initiate; caspase-3 and caspase-7 execute\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate caspase biology; mechanism stated directly, no authority clause."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "the cells between your fingers must die so that your hand can take shape"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Interdigital apoptosis during fetal development is an established embryological process and the claim is scoped to that developmental example.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"the cells between your fingers must die so that your hand can take shape\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard embryology correctly stated; anchors the apoptosis-as-architecture example."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "this is Nigredo operating at cellular scale"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“In the Alchemical framework” explicitly declares the Noesis/Nigredo mapping, and the cellular-deletion-to-form-change comparison is internally defined and coherent.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"this is Nigredo operating at cellular scale\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Explicit house-frame mapping (\"In the Alchemical framework\"); declared, not smuggled."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Robin Carhart-Harris and colleagues at Imperial College London have mapped"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim accurately identifies Robin Carhart-Harris, colleagues, and Imperial College as the source of the psilocybin/DMN work. Under v2.3, a real, accurately represented authority attribution is not an automatic failure.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"Robin Carhart-Harris and colleagues at Imperial College London have mapped\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Named researcher + institution carries the warrant (\"according to a Harvard study\" pattern). Research is real and accurately summarized (not FABRICATED); post re-grounds it first-person at L54. Recode: drop authority clause, keep observation."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Functional connectivity drops. Brain regions that normally chatter through the DMN"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The adjacent named study supplies provenance, and the reported reduction in within-DMN integrity with altered cross-network communication matches the legacy review’s method-level verification without reversing the consciousness claim.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"Functional connectivity drops. Brain regions that normally chatter through the DMN\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate DMN anatomy/mechanism (mPFC, PCC, angular gyrus); experiential correlate supplied at L54 (\"I have sat in this state\"). NOT inverted — \"The witness remains\" keeps consciousness primary."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "XIII, the midpoint of the Major Arcana"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "With 22 trumps numbered 0–XXI, XIII is not the midpoint; the midpoint lies between X and XI. The arithmetic is false, removable, and readily provenance-checked.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"XIII, the midpoint of the Major Arcana\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Numerically false as stated: 22 trumps (0–XXI), midpoint falls at X–XI. \"Central operation\" argument survives removal; one-word recode (\"turning point\" / \"hinge\") fixes it."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "It is the nucleosynthesis of everything heavier than iron"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Supernovae contribute important heavy-element nucleosynthesis, but “everything heavier than iron” is universal and false: multiple heavy elements arise through distinct s-, r-, and p-process sites. Narrow and source the claim.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"It is the nucleosynthesis of everything heavier than iron\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard stellar nucleosynthesis, essentially accurate; not on the contested watch-list; serves the \"pattern nests\" move. Repeated at L66 (\"heat death of a star\" is loose phrasing but inverts entropy-as-decline rather than asserting it)."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "cells that have lost the apoptotic response, accumulating mass without purpose"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Evasion of apoptosis is an established cancer hallmark; the claim is scoped to cells that lose the apoptotic response and does not assert it as the sole cancer mechanism.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"cells that have lost the apoptotic response, accumulating mass without purpose\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Established hallmark of cancer, stated without authority clause; failure-mode example."
+      }
+    }
+  ]
+}

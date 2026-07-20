@@ -1,0 +1,340 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-fools-satchel.md",
+  "source_path": "src/content/posts/the-fools-satchel.md",
+  "source_sha256": "0ccbc491e41292a652b4726fa702e9bb7924e6025613567c71c842ae968ebaf1",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-fools-satchel.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Rahu-Moon-Sun-Mercury still active. Venus waiting just beyond the threshold"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The active dasha sequence is stated inside the post’s explicitly operated astrological house frame and remains internally consistent with the later Rahu–Moon–Sun–Mercury–Venus sequence.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"Rahu-Moon-Sun-Mercury still active. Venus waiting just beyond the threshold\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology (dasha cycles) — ALIGNED by definition; framing recurs at L38, L94, L104–110."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "a sequence that matched the planetary rhythm already pressing through my nervous system"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A first-person report names the observed card sequence, the felt nervous-system rhythm, and the Bangkok/dasha context; it does not claim a universal physiological mechanism.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"a sequence that matched the planetary rhythm already pressing through my nervous system\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Embodied site of felt signal; no mechanism claim, no inverted arrow; cf. L130 \"specific nervous system.\""
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Ba is the charge. The spark that makes the contents alive to the moment. Without Ba, the satchel is a museum. The lighter has fuel but no flame struck. The rolling plate is clean but never used. The buds are botanical specimens, not sacrament. The bag sits on a shelf, full and inert. Kha provides the vessel; Ba provides the current that makes the vessel meaningful."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The anchored claim defines Ba as charge inside the explicitly named Kha-Ba-La model. The row contains no mathematical object; the legacy “triadic math” label does not override the exact anchored claim.",
+      "legacy": {
+        "anchor": "L44–50",
+        "quote": "\"Kha is the container… Ba is the charge… La is the recognition\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Canonical Kha-Ba-La triadic structure operated across all four scales (personal→cosmic, also L122–128); the post's structural spine."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "They are a chemical equation. Two forces entering reaction, producing a third"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling the Lovers a chemical equation and describing two forces producing a third is a visibly figurative comparison in a tarot interpretation; no literal chemical prediction follows.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"They are a chemical equation. Two forces entering reaction, producing a third\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Structural metaphor with demonstrated mapping (two forces → third = triadic grammar); no authority borrowed; cf. L92 \"whether the reaction proceeds.\""
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "50910 → 15 → 6"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The digit reduction 50910→15→6 is arithmetically correct, its transformation is shown, six is traced to the Lovers card, and removing it eliminates the numeric coherence inference made in this section.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"50910 → 15 → 6\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Digit-sum reduction arithmetically correct (5+0+9+1+0=15, 1+5=6); maps to Lovers VI; carries the \"numbers had already whispered\" coherence claim."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "Rahu presses. Moon distorts. Sun clarifies. Mercury articulates. Venus waits. These are not metaphors. They are the inherited code of a system that operates whether you believe in it or not, like gravity or compound interest."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The planet-as-inherited-code sequence is explicitly asserted as the post’s astrological house model and is operated consistently across the spread, dasha, and systemic mapping.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"These are not metaphors… a system that operates whether you believe in it or not\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "§5 trigger phrase, but the upgraded claim is house cosmology (dasha = inherited code); \"like gravity or compound interest\" is declared analogy of observed regularity — safe harbor, not fundamental-force doctrine."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "The Big Bang is the satchel spilling"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“The Big Bang is the satchel spilling” is an unmistakable comparison inside the section titled Cosmic Fold; it asserts no literal satchel mechanism or cosmological measurement.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"The Big Bang is the satchel spilling\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Watch-list: Big Bang stated as event, zero model framing; linear-progress cosmology made the container of the cosmic section. Reframe as labeled model or cut."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "The heat death of the universe is the satchel finally emptied"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Heat death … satchel finally emptied” continues the same explicit cosmic-satchel comparison and draws no literal quantitative consequence from it.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"The heat death of the universe is the satchel finally emptied\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Heat death as destiny — installed belief #5 signature; presented as the frame's endpoint, not as one model among equivalents."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "Kha: the physical laws that contain energy and matter in relation"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Mapping physical laws to Kha is explicitly introduced as the cosmic Kha-Ba-La house model and is internally consistent with the accompanying Ba and La definitions.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"Kha: the physical laws that contain energy and matter in relation\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "\"Physical laws\" subordinated into the house triad; La (intelligence) reads the pattern — consciousness-primary framing at L126–128."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 134,
+        "line_end": 134,
+        "quote": "against the entropy of the unexamined day"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Entropy of the unexamined day” is plainly figurative literary language; entropy is used only as an acknowledged disorder analogy and produces no literal thermodynamic inference.",
+      "legacy": {
+        "anchor": "L134",
+        "quote": "\"against the entropy of the unexamined day\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "§4.2 watch-list: entropy as metaphor for disorder, no mechanism, no defined system; removal leaves sentence and argument fully intact — recode or cut."
+      },
+      "id": "C010"
+    }
+  ]
+}

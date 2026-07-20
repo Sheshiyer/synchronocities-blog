@@ -1,0 +1,79 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-universe-four-creatures-assemble.md",
+  "source_path": "src/content/posts/the-universe-four-creatures-assemble.md",
+  "source_sha256": "30179678551da19f3f1de04bc5120c7c14da8fdae3c730b11a5452bfec0407c1",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-universe-four-creatures-assemble.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 24,
+        "line_end": 24,
+        "quote": "Five plus five equals ten. Ten equals one."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified from source L24 against the legacy audit. Tarot digit-reduction numerology (55 days → 5+5=10 → 10→1) encoding the return-to-unity thesis; numbers and mapping shown, correct within convention; operational house grammar of the same class as canonical INTEGRATED structures (dasha arithmetic), not a name-drop. Post survives removal (thesis restated via XXI→0 structure at L36), but reference is structurally mapped, never decoration. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role DECORATIVE.",
+      "legacy": {
+        "anchor": "L24",
+        "quote": "\"Five plus five equals ten. Ten equals one.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Tarot digit-reduction numerology (55 days → 5+5=10 → 10→1) encoding the return-to-unity thesis; numbers and mapping shown, correct within convention; operational house grammar of the same class as canonical INTEGRATED structures (dasha arithmetic), not a name-drop. Post survives removal (thesis restated via XXI→0 structure at L36), but reference is structurally mapped, never decoration."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "same Richter grammar, different consciousness parsing the signal"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L34 against the legacy audit. Only external science touchpoint (seismology), used as declared-scale metaphor inside a consciousness-primary claim: the signal is constant, the parsing consciousness is what changed. No authority borrowed, no mechanism smuggled; both earthquakes are first-person embodied observation. House frame does the structural work. Canonical result: DECLARED-METAPHOR + DECLARED; math role NONE.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"same Richter grammar, different consciousness parsing the signal\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Only external science touchpoint (seismology), used as declared-scale metaphor inside a consciousness-primary claim: the signal is constant, the parsing consciousness is what changed. No authority borrowed, no mechanism smuggled; both earthquakes are first-person embodied observation. House frame does the structural work."
+      },
+      "id": "C002"
+    }
+  ]
+}

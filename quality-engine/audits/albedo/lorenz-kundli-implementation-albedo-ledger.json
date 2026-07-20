@@ -1,0 +1,476 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "lorenz-kundli-implementation.md",
+  "source_path": "src/content/posts/lorenz-kundli-implementation.md",
+  "source_sha256": "6e569815b173bacfb23b3ee3be6f32b01763d99ff5c5050f46b13183d372b03e",
+  "legacy_audit_path": "quality-engine/audits/nigredo/lorenz-kundli-implementation.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "three coupled ordinary differential equations with three parameters (sigma, rho, beta)"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The three-equation Lorenz definition and σ=10, ρ=28, β=8/3 parameters are correctly reproduced in the adjacent executable formulation; they determine the subsystem, and the named standard system plus code supply provenance.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"three coupled ordinary differential equations with three parameters (sigma, rho, beta)\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct definition; standard values σ=10, ρ=28, β=8/3 verified; equations operationalized in code L40–47. \"Chaotic attractor\" is operationalized, not a watch-list name-drop."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "fourth-order Runge-Kutta is standard"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The prose specifies classical fourth-order Runge–Kutta, while the implementation calls SciPy RK45, an embedded adaptive 4(5) method. The method description and actual code do not match, and the claim is nonessential to the framework.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"fourth-order Runge-Kutta is standard\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Correct; RK45 used in code L52–63; time-step tradeoff (0.01, 10,000 iterations) shown with numbers."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "never repeats (the system is aperiodic) yet always remains confined to the attractor"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Bounded aperiodic behavior is a correct Lorenz-attractor property, but this explanatory aside changes no computation, inference, or downstream procedure in the scaffold, so it fails the structural-consequence lock.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"never repeats (the system is aperiodic) yet always remains confined to the attractor\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Correct properties of Lorenz dynamics; explanatory aside tied to the simulation just shown."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The computational core is celestial mechanics — ephemeris calculations"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence defines the Kundli subsystem’s chosen computational architecture—birth inputs feeding ephemeris-derived longitudes—and is internally consistent with the interface described in the section.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"The computational core is celestial mechanics — ephemeris calculations\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Jyotish chart computation is house frame; accurate description of how kundli engines work."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "trigonometric encoding preserves angular relationships while reducing dimensionality"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The displayed circular-moment projection compresses nine angles into three aggregates but does not preserve their pairwise angular relationships; many distinct configurations map to the same point. The false preservation claim is central and the code makes the failure reproducible.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"trigonometric encoding preserves angular relationships while reducing dimensionality\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The projection is the framework's declared critical operation; mechanism shown in code L77–85 (circular mean plus second harmonic)."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "similar to positional encoding in transformer architectures"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Similar to positional encoding” explicitly marks a limited sinusoidal-encoding comparison and draws no literal transformer-performance or equivalence claim.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"similar to positional encoding in transformer architectures\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Declared analogy (\"similar to\") — §5 safe harbor, not flagged; sinusoidal positional encoding is factually accurate."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "Scale invariance detection uses box-counting to estimate fractal dimensions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Box-counting through a log–log slope is correctly specified and is structurally required by the scale-analysis procedure; the named method and displayed algorithm provide reproducible provenance even though helper stubs remain.",
+      "legacy": {
+        "anchor": "L114",
+        "quote": "\"Scale invariance detection uses box-counting to estimate fractal dimensions\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Box-counting via log-log slope is the correct method; operationalized in code L98–112; self-similar D-chart hierarchy is house fractal structure."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 141,
+        "line_end": 141,
+        "quote": "Lyapunov exponents (sensitivity to initial conditions), correlation dimensions (attractor geometry), and mutual information"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Lyapunov exponents, correlation dimensions, and mutual information are correctly characterized as the three comparison metrics, materially determine the analysis output, and are explicitly wired into the shown procedure.",
+      "legacy": {
+        "anchor": "L141",
+        "quote": "\"Lyapunov exponents (sensitivity to initial conditions), correlation dimensions (attractor geometry), and mutual information\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "All three definitions correct; computed in code L121–139; ratio interpretations at L143 are sound."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 147,
+        "line_end": 147,
+        "quote": "Each divisional chart represents the same data at a different resolution"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A divisional chart is a derived Jyotish chart, not simply the same numerical data viewed at a different resolution. The prose presents a new multiscale analogy as an inherited property without tracing the transformation or declaring Noesis authorship.",
+      "legacy": {
+        "anchor": "L147",
+        "quote": "\"Each divisional chart represents the same data at a different resolution\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "D-chart multi-scale structure is house cosmology (cyclic/fractal time); drives the scale-transition section."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 164,
+        "line_end": 164,
+        "quote": "scaleinvariance = np.std(dimensions) / np.mean(dimensions)"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The standard-deviation/mean coefficient is a correct relative-dispersion calculation for positive fractal-dimension estimates, directly controls the stated invariance decision, and is fully reproduced in the code.",
+      "legacy": {
+        "anchor": "L164",
+        "quote": "\"scale_invariance = np.std(dimensions) / np.mean(dimensions)\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Coefficient of variation as invariance metric; reasonable, shown in working code."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 175,
+        "line_end": 175,
+        "quote": "provides planetary positions accurate to sub-arcsecond precision"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Sub-arcsecond Swiss Ephemeris accuracy is an externally testable product/performance claim, but the post supplies no versioned specification, benchmark, or source for the precision asserted.",
+      "legacy": {
+        "anchor": "L175",
+        "quote": "\"provides planetary positions accurate to sub-arcsecond precision\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Verifiable Swiss Ephemeris library spec (~0.001″); adjacent birth-time-sensitivity claim is replicable by any reader."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 177,
+        "line_end": 177,
+        "quote": "uses PCA to find the three-dimensional subspace that captures maximum variance"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "PCA correctly selects a maximum-variance subspace, and using its first three components materially changes the proposed projection procedure; the transformation is standard and reproducible from the stated dataset.",
+      "legacy": {
+        "anchor": "L177",
+        "quote": "\"uses PCA to find the three-dimensional subspace that captures maximum variance\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "PCA correctly defined; offered as a principled option for the projection-bias problem."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 179,
+        "line_end": 179,
+        "quote": "Statistical validation: Any apparent correspondence between Lorenz and Kundli trajectories must be tested against null models. Shuffled birth times, randomized planetary positions, and synthetic Lorenz trajectories with different parameters all serve as controls. The correspondence is meaningful only if it exceeds what random chance would produce."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The null-model paragraph is an explicitly proposed validation design. Its shuffled times, randomized positions, alternate Lorenz parameters, and beyond-chance criterion form an internally coherent research protocol without pretending results already exist.",
+      "legacy": {
+        "anchor": "L179",
+        "quote": "\"must be tested against null models... exceeds what random chance would produce\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Falsifiable validation methodology with concrete controls (shuffled birth times, randomized positions); no borrowed authority."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 181,
+        "line_end": 181,
+        "quote": "Shadbala calculation for seven planets across six strength components"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Shadbala’s six strength classes and the conventional planet count are accurately attributed by the named Jyotish computation, but the numbers are not used in a calculation and their removal leaves the computational-cost claim unchanged.",
+      "legacy": {
+        "anchor": "L181",
+        "quote": "\"Shadbala calculation for seven planets across six strength components\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House cosmology terminology; Shadbala = six strength components is correct; Ashtakavarga description fine."
+      },
+      "id": "C014"
+    }
+  ]
+}

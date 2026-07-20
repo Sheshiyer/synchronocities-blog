@@ -1,0 +1,180 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "from-insight-to-intervention.md",
+  "source_path": "src/content/posts/from-insight-to-intervention.md",
+  "source_sha256": "ac7985cef4d32783d927dde60e5ff9805b04d4da46a2826e6819619b5a796488",
+  "legacy_audit_path": "quality-engine/audits/nigredo/from-insight-to-intervention.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "nervous system operates at signal speed — approximately 80 milliseconds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 80-millisecond nervous-system constant has no population, measure, procedure, uncertainty, or source; the incidental precision is removable and has no demonstrated structural consequence.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"nervous system operates at signal speed — approximately 80 milliseconds\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Unsourced pseudo-precise physiological constant; no findable origin. The qualitative gap (body reacts before story) is observable; the number is not."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "Your insight operates at story speed — approximately 800 milliseconds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 800-millisecond “story speed” is an unsourced quantity with no operational definition or dataset; it supplies precision aura rather than evidence.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"Your insight operates at story speed — approximately 800 milliseconds\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Invented companion statistic; clean 10:1 ratio proving exactly the thesis (gate's too-convenient heuristic)."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The signal fires at roughly 80 milliseconds. The story that explains the signal takes 800 milliseconds. If you are catching it at story, you are 720 milliseconds late."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Although 800−80=720 is arithmetically correct, both inputs are unsupported and the derived delay is nonessential; provenance fails and the timing should be removed.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"roughly 80 milliseconds... 800 milliseconds... 720 milliseconds late\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Restatement of the same dross with derived arithmetic (800−80); argument survives removal via L41's own qualitative sentence."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "This is where the body becomes the primary instrument. Not as metaphor. As literal diagnostic technology. The soma reads the field before the narrative constructs its explanation. The body knows before the story arrives."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The universal claim that soma reads a field before narrative exceeds the protocol’s proposed self-observation; no recorded observer, timing method, population, or source establishes that ordering.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"the body becomes the primary instrument... The soma reads the field\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Practice-verifiable (Day 2 signal-marking); matches gate's own instrument-reading example. \"Not as metaphor\" upgrades a house-frame claim, not borrowed science."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 113,
+        "line_end": 113,
+        "quote": "Day 7 is the full diagnostic triad in motion: Did inertia reassert itself? Did clarity lose resolution? Did the body stop tracking?"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Day-7 questions are silently identified with an unnamed Kha-Ba-La diagnostic triad without tracing the ingredients, transformation, or Noesis authorship.",
+      "legacy": {
+        "anchor": "L109–113",
+        "quote": "\"the carrier doing its work... the full diagnostic triad in motion\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Unnamed Kha-Ba-La triad operated structurally; house cosmology by definition."
+      },
+      "id": "C005"
+    }
+  ]
+}

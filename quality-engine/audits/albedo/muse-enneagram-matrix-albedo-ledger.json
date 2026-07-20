@@ -1,0 +1,1604 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "muse-enneagram-matrix.md",
+  "source_path": "src/content/posts/muse-enneagram-matrix.md",
+  "source_sha256": "2602ab4d3e7edb28d41d55b9a1a79c57c888e1bd409a3ef2c848fafe246a7925",
+  "legacy_audit_path": "quality-engine/audits/nigredo/muse-enneagram-matrix.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "each mapped to an Enneagram type, a hormone, and a constellation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The frontmatter presents a three-system mapping as architectural rather than hypothetical without tracing ingredients or declaring Noesis authorship; this occurrence is also redundant to the body table.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"each mapped to an Enneagram type, a hormone, and a constellation\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The body supplies the actual table, so this frontmatter mapping occurrence is removable."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "There are nine primary hormones in the endocrine system"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Endocrinology has no canonical set of exactly nine primary hormones, so the externally testable count is false at its stated universal scope.",
+      "legacy": {
+        "anchor": "L30",
+        "quote": "\"There are nine primary hormones in the endocrine system\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Endocrinology has no canonical set of nine primary hormones."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "This is not coincidence. This is architecture"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A shared count does not entail common architecture; the inference is invalid, load-bearing, and lacks a connecting transformation.",
+      "legacy": {
+        "anchor": "L30",
+        "quote": "\"This is not coincidence. This is architecture\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The central inference treats a shared count as proof of architecture without a connecting rule."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "Each channel has a biological substrate — a hormone"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A one-hormone biological substrate for each Muse/Enneagram channel is externally testable, but no population, measure, mechanism, or source is supplied.",
+      "legacy": {
+        "anchor": "L32",
+        "quote": "\"Each channel has a biological substrate — a hormone\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Muse channels and Enneagram types have no established one-hormone substrate."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "map all three systems onto the same nine-point grid"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The table performs a three-way nine-item mapping, but the biological and celestial ingredients fail and no rule justifies the correspondences; the mathematics is therefore misapplied.",
+      "legacy": {
+        "anchor": "L32",
+        "quote": "\"map all three systems onto the same nine-point grid\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The table explicitly relates three nine-member sets; science rows judge its biological truth."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "melatonin: circadian rhythm regulation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is a high-level endocrine-function claim supported by established physiology at the limited strength quoted.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"melatonin: circadian rhythm regulation\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate high-level description of melatonin's circadian role."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Type 1's fixation on correctness is not neurosis"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This correspondence explicitly operates within the article’s noncausal Muse–Enneagram house frame and is internally consistent there.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"Type 1's fixation on correctness is not neurosis\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "This archetypal correspondence operates inside the explicit noncausal house frame."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Oxytocin bonds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Oxytocin participates in context-dependent social bonding, but the unqualified verb “bonds” overstates a complex association as a direct universal action.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"Oxytocin bonds\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Oxytocin participates in social bonding, though the shorthand is broad."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "forms the chemical architecture of trust"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim elevates oxytocin from a correlate in some bonding contexts to the chemical architecture of trust without method-matched causal evidence.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"forms the chemical architecture of trust\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Chemistry is made the origin of trust experience."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Type 2's compulsive service is Clio's function distorted"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This correspondence explicitly operates within the article’s noncausal Muse–Enneagram house frame and is internally consistent there.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"Type 2's compulsive service is Clio's function distorted\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "This archetypal correspondence operates inside the explicit noncausal house frame."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Endorphins manage pain relief and pleasure"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is a high-level endocrine-function claim supported by established physiology at the limited strength quoted.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"Endorphins manage pain relief and pleasure\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Fair high-level physiology."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Type 3's performance addiction is Euterpe's function"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This correspondence explicitly operates within the article’s noncausal Muse–Enneagram house frame and is internally consistent there.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"Type 3's performance addiction is Euterpe's function\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "This archetypal correspondence operates inside the explicit noncausal house frame."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Dopamine drives the pleasure-reward cycle"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Dopamine contributes to reward learning and motivation, but “drives the pleasure-reward cycle” is an unscoped causal simplification.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"Dopamine drives the pleasure-reward cycle\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Matter-first dopamine causation is the gate's canonical inversion."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Type 4's characteristic envy is dopamine dysfunction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No evidence trace supports identifying an Enneagram fixation with dopamine dysfunction; the causal clinical wording exceeds the article’s house analogy.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"Type 4's characteristic envy is dopamine dysfunction\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Chemistry is made the cause of an experiential fixation."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Cortisol manages the stress response"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is a high-level endocrine-function claim supported by established physiology at the limited strength quoted.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"Cortisol manages the stress response\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate general endocrine function."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "cortisol has taught the body that scarcity is the baseline"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article supplies no evidence that cortisol teaches a Type 5 body a psychological scarcity baseline.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"cortisol has taught the body that scarcity is the baseline\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Hormone-first causation is used to generate psychology."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The active shower is Monoceros"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Monoceros is a constellation, not an active meteor shower; the astronomical category claim is false.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"The active shower is Monoceros\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Monoceros is a constellation, not an active meteor shower."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Christmas Tree Nebula activates pattern recognition"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No observation record or mechanism supports a nebula activating human pattern recognition, much less at type-specific resolution.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"Christmas Tree Nebula activates pattern recognition\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No such type-specific biological activation mechanism exists."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Estrogen governs reproductive development"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is a high-level endocrine-function claim supported by established physiology at the limited strength quoted.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"Estrogen governs reproductive development\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The reproductive-development role is accurate."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The cycle between them is estrogen's cycle"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The courage/fear personality cycle is asserted to be estrogen’s cycle without a source, population, measure, or causal design.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"The cycle between them is estrogen's cycle\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Hormonal cycling is made the origin of a courage/fear personality cycle."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Testosterone drives growth, development"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is a high-level endocrine-function claim supported by established physiology at the limited strength quoted.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"Testosterone drives growth, development\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate broad physiological role."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "and the hunger for more"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Testosterone has established physiological roles, but “hunger for more” is an unmeasured experiential generalization stated causally.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"and the hunger for more\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Hormone chemistry is promoted to the origin of Type 7 experience."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Adrenaline fires the sympathetic nervous system"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Sympathetic activation stimulates adrenal epinephrine and epinephrine reinforces the response; “adrenaline fires the system” reverses and oversimplifies that relation.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Adrenaline fires the sympathetic nervous system\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Adrenaline is a principal sympathetic-response mediator, despite simplified directionality."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Type 8's lust for intensity is Terpsichore's choreography"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This correspondence explicitly operates within the article’s noncausal Muse–Enneagram house frame and is internally consistent there.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Type 8's lust for intensity is Terpsichore's choreography\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "This archetypal correspondence operates inside the explicit noncausal house frame."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Mercury's sedation protocol"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Mercury’s sedation protocol” is house vocabulary with no defined operation or internally checkable rule, so coherence is not established.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Mercury's sedation protocol\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No defined physiological or celestial sedation protocol is supplied."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "maintains systemic equilibrium"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Serotonin participates in multiple regulatory systems, but the quoted global equilibrium/mood-control wording is too broad and causal for the available evidence.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"maintains systemic equilibrium\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Broad but recognizable systemic-regulation summary."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Serotonin regulates mood"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Serotonin participates in multiple regulatory systems, but the quoted global equilibrium/mood-control wording is too broad and causal for the available evidence.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"Serotonin regulates mood\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Chemistry is made the origin of mood experience."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Type 9's sloth is not laziness"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This correspondence explicitly operates within the article’s noncausal Muse–Enneagram house frame and is internally consistent there.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"Type 9's sloth is not laziness\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "This archetypal correspondence operates inside the explicit noncausal house frame."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The matrix is not a theory. It is a diagnostic instrument"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling the matrix a diagnostic instrument implies validated diagnostic performance, but no construct, comparator, sensitivity, specificity, or outcomes are supplied.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"The matrix is not a theory. It is a diagnostic instrument\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The silent upgrade supplies no validation, sensitivity, specificity, or diagnostic outcome."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The hormones do not cause the types"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This correspondence explicitly operates within the article’s noncausal Muse–Enneagram house frame and is internally consistent there.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"The hormones do not cause the types\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Explicitly rejects matter-before-consciousness causation."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Muses named these functions thousands of years before endocrinology isolated the molecules"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ancient Muse descriptions did not name endocrine molecules or their functions before endocrinology; the historical priority claim conflates a modern synthesis with inherited knowledge.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"Muses named these functions thousands of years before endocrinology isolated the molecules\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Ancient Muse descriptions are not historical endocrine discoveries."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "melatonin rhythm is disrupted by moral disorder"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No measurement record supports moral disorder disrupting melatonin specifically in Type 1 subjects.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"melatonin rhythm is disrupted by moral disorder\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A specific type-conditioned hormonal change is asserted without measurement."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "endorphin-Euterpe circuit produces performance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The paired hormone–Muse circuit is presented as producing a personality behavior without any measured causal trace.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"endorphin-Euterpe circuit produces performance\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "The text reintroduces hormone/archetype-first causation after denying it."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "testosterone-Calliope drive generates epics"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The paired hormone–Muse circuit is presented as producing a personality behavior without any measured causal trace.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"testosterone-Calliope drive generates epics\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "The text reintroduces hormone/archetype-first causation after denying it."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "serotonin-Urania equilibrium calcifies into inaction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The paired hormone–Muse circuit is presented as producing a personality behavior without any measured causal trace.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"serotonin-Urania equilibrium calcifies into inaction\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "The text reintroduces hormone/archetype-first causation after denying it."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "Ba receives the signal through its hormonal channel"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose treats a house correspondence as a literal hormone-mediated signal channel without measurement or mechanism.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"Ba receives the signal through its hormonal channel\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A literal type-specific hormonal transmission channel is asserted without measurement."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "which hormone mediates that channel"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose treats a house correspondence as a literal hormone-mediated signal channel without measurement or mechanism.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"which hormone mediates that channel\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The mapping is repeated as a measured mediator rather than a declared analogy."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "where the body stores the pattern"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A bodily storage site for the pattern is asserted without defining the physical signal, location, or observation procedure.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"where the body stores the pattern\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A bodily storage site is asserted without a physical or observational definition."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "which constellation holds the celestial address"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A literal celestial address for an activation pattern is asserted without a timing rule, mechanism, or observation record.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"which constellation holds the celestial address\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A literal celestial address is asserted without timing or causal mechanism."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "precision that exceeds chance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Precision that exceeds chance” is a statistical performance claim with no dataset, null model, effect size, or calculation.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"precision that exceeds chance\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No dataset, statistic, or identifiable validation supports the convenient result."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Both are expressions of the same underlying pattern"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This correspondence explicitly operates within the article’s noncausal Muse–Enneagram house frame and is internally consistent there.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"Both are expressions of the same underlying pattern\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Repeated consciousness-primary, noncausal house framing."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Muses named these functions thousands of years before endocrinology isolated the molecules"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ancient Muse descriptions did not name endocrine molecules or their functions before endocrinology; the historical priority claim conflates a modern synthesis with inherited knowledge.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"Muses named these functions thousands of years before endocrinology isolated the molecules\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Ancient Muse descriptions are not historical endocrine discoveries."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Track your type's hormone. Not clinically — phenomenologically"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence defines a phenomenological tracking practice inside the declared matrix frame and explicitly disclaims clinical inference.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"Track your type's hormone. Not clinically — phenomenologically\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Direct observation protocol is explicitly separated from clinical inference."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Meteor showers activate type-specific transformation windows"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Type-specific transformation windows caused or activated by meteor showers are asserted without a population, measure, timing protocol, or evidence source.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"Meteor showers activate type-specific transformation windows\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Celestial events are assigned psychobiological activation effects as fact."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "The Leonid shower is Type 8's annual audit"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Leonid-to-Type-8 annual-audit mapping is framed as a protocol but supplies no internal derivation or observational trace.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"The Leonid shower is Type 8's annual audit\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No evidence supports this type-specific annual effect."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Monoceros is Type 5's annual data download"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The model treats Monoceros as an annual timing event even though Monoceros is a constellation, not a meteor shower; its stated celestial operation is internally broken.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"Monoceros is Type 5's annual data download\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Monoceros is not a meteor shower or a documented biological download."
+      },
+      "id": "C046"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "through which chemical channel, at which cosmic frequency"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Literal chemical channels and cosmic frequencies require defined quantities and measurements; none are supplied.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"through which chemical channel, at which cosmic frequency\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Literal chemical and cosmic channels are asserted without measurements."
+      },
+      "id": "C047"
+    }
+  ]
+}

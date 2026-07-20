@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.3",
+  "post": "sixteen-engines-one-purpose.md",
+  "category": "exact-quantitative-correction",
+  "expected_operation": "CORRECT_EXACT_VALUE",
+  "albedo_load_bearing_claim": "Sixteen perceptual lenses form one Noesis triangulation system for rendering the architecture of a singular consciousness.",
+  "recertified_finding_ids": [
+    "C004"
+  ],
+  "full_document": {
+    "pre_sha256": "c06bb965b563631c5ba6f8312434cd76acf4f29e91f452ba664b895c6b6a75bc",
+    "post_sha256": "80e0e68e3d7d756585a64d78c8f50b6144d43e05aba2ee61bd34b338e7435f3c",
+    "byte_identical": false
+  },
+  "frontmatter": {
+    "pre_sha256": "096027704ed73187e40c250fe5f89f63393b7c4b9753ef57d7e14ca3fe1f880d",
+    "post_sha256": "096027704ed73187e40c250fe5f89f63393b7c4b9753ef57d7e14ca3fe1f880d",
+    "byte_identical": true
+  },
+  "edits": [
+    {
+      "id": "E001",
+      "finding_id": "C004",
+      "source_occurrence": 1,
+      "before": "6-year Venus",
+      "after": "20-year Venus",
+      "before_sha256": "e804e9722de441aa1ab218d631201166e034cbb545f7cd55244c1be62eaff829",
+      "after_sha256": "e6cca782b7118a9b5a860150945fc45afaaad8830bb9401cd3a5b4beb6610b02"
+    }
+  ],
+  "new_claim_counts": {
+    "science": 0,
+    "math": 0,
+    "traditional_attribution": 0
+  },
+  "quality_gates": {
+    "voice": {
+      "status": "PASS",
+      "score": 100,
+      "evidence": "docs/ci-audit-report.json scores the current post's voice at 100/100 with no tonal-drift flags; E001 changes only the tradition-defined value."
+    },
+    "kha_ba_la": {
+      "status": "PASS",
+      "evidence": "The current CI audit reports Kha 2, Ba 2, La 3, triad 1, and PASS; the exact-value correction leaves the structural foundation untouched."
+    },
+    "fractal_depth": {
+      "status": "FAIL",
+      "score": 70,
+      "evidence": "docs/ci-audit-report.json reports fractal depth 70/100, below the Rubedo PASS threshold of 80; the bounded numeric correction does not deepen the full post."
+    },
+    "citation_attribution": {
+      "status": "FAIL",
+      "evidence": "The CI source-grounding dimension remains 33/100, and recertified C010 still misattributes organ-hour processing claims; E001 adds no replacement source."
+    },
+    "epistemic_grounding": {
+      "status": "FAIL",
+      "evidence": "C004 is resolved, but recertified C001, C008, C010, C011, C013, C014, C016, C017, C018, and C019 remain failing post-level claims outside this calibrated repair."
+    },
+    "math_integration": {
+      "status": "FAIL",
+      "evidence": "E001 corrects C004, while recertified C010 and C019 remain WRONG and C013, C014, C017, and C018 remain DECORATIVE under the three-lock gate."
+    },
+    "hard_acceptance": {
+      "status": "PASS",
+      "checks": [
+        {
+          "criterion": "Replace only the erroneous 6-year Venus value with 20-year Venus.",
+          "status": "PASS",
+          "evidence": "E001 is the sole reversible span and changes exactly '6-year Venus' to '20-year Venus'."
+        },
+        {
+          "criterion": "Retain the correct 19-year Saturn period and 120-year Vimshottari total.",
+          "status": "PASS",
+          "evidence": "The current Vimshottari paragraph still contains 'a 120-year planetary cycle' and 'The 19-year Saturn period'."
+        },
+        {
+          "criterion": "Do not recast the house-tradition claim as external scientific proof.",
+          "status": "PASS",
+          "evidence": "E001 replaces one tradition-defined value only and introduces no scientific claim, empirical warrant, source, or proof language."
+        }
+      ]
+    }
+  },
+  "outcome": {
+    "status": "PARTIAL_RESOLUTION",
+    "resolved_finding_ids": [
+      "C004"
+    ],
+    "remaining_findings": [],
+    "summary": "The calibrated C004 value error is resolved exactly, but post-level fractal-depth, citation-attribution, epistemic-grounding, and math-integration gates still fail."
+  },
+  "rubedo_verdict": "PARTIAL"
+}

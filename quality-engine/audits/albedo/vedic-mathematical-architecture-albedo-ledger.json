@@ -1,0 +1,472 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "vedic-mathematical-architecture.md",
+  "source_path": "src/content/posts/vedic-mathematical-architecture.md",
+  "source_sha256": "87831c7259264ace8aa4ec050ad99b69bb92c0c171aa74df84a1a37ae9d40ae2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/vedic-mathematical-architecture.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "Markov chains, cellular automata, hypercubes, Fibonacci spirals, tensors, and neural networks"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L4 and the legacy audit: The imported mathematical label lacks a declared synthesis boundary and demonstrated operation. Frontmatter excerpt parades six §4.2 watch-list name-drops; none operationalized in body",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"Markov chains, cellular automata, hypercubes, Fibonacci spirals, tensors, and neural networks\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Frontmatter excerpt parades six §4.2 watch-list name-drops; none operationalized in body"
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "The Vimshottari dasha system determines which planetary period is active"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L37 and the legacy audit: The dasha frame is explicit and internally consistent. House cosmology: dasha cycles are the house frame; drives the whole feedback loop",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"The Vimshottari dasha system determines which planetary period is active\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology: dasha cycles are the house frame; drives the whole feedback loop"
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "the tensor field, through its gradients, feeds back into the Nakshatra spiral's growth trajectory"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L37 and the legacy audit: The imported mathematical label lacks a declared synthesis boundary and demonstrated operation. \"tensor fields\" on watch-list; gradients invoked with no metric, manifold, or differential structure; recapped L67, L89",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"the tensor field, through its gradients, feeds back into the Nakshatra spiral's growth trajectory\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "\"tensor fields\" on watch-list; gradients invoked with no metric, manifold, or differential structure; recapped L67, L89"
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The Vimshottari-Markov system provides discrete temporal state transitions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L45 and the legacy audit: The imported mathematical label lacks a declared synthesis boundary and demonstrated operation. Canonical Recode #5 anchor; no states, transition matrix, or memorylessness shown; L47 calls the system \"deterministic,\" contradicting Markovian stochasticity; recapped L89",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"The Vimshottari-Markov system provides discrete temporal state transitions\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Canonical Recode #5 anchor; no states, transition matrix, or memorylessness shown; L47 calls the system \"deterministic,\" contradicting Markovian stochasticity; recapped L89"
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "evolutionary trajectory unfolds along a golden spiral"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L45 and the legacy audit: The imported mathematical label lacks a declared synthesis boundary and demonstrated operation. Fibonacci / golden ratio both on watch-list; no ratios, no numerics, no demonstrated correspondence",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"evolutionary trajectory unfolds along a golden spiral\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Fibonacci / golden ratio both on watch-list; no ratios, no numerics, no demonstrated correspondence"
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The Graha-Cellular Automata subsystem defines the rules of interaction"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L55 and the legacy audit: The imported mathematical label lacks a declared synthesis boundary and demonstrated operation. Cellular automata on watch-list; no grid, neighborhood, or local transition rule shown; friendship matrix relabeled; recapped L57, L89",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The Graha-Cellular Automata subsystem defines the rules of interaction\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Cellular automata on watch-list; no grid, neighborhood, or local transition rule shown; friendship matrix relabeled; recapped L57, L89"
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The Bhava-Neural Network subsystem defines the pathways of interaction"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L55 and the legacy audit: The imported mathematical label lacks a declared synthesis boundary and demonstrated operation. No layers, activations, or training; \"weights\" (L57) is aspect strength renamed; also L37",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The Bhava-Neural Network subsystem defines the pathways of interaction\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No layers, activations, or training; \"weights\" (L57) is aspect strength renamed; also L37"
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 57,
+        "quote": "which planets constructively interfere, which destructively interfere, and which remain neutral"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L55 and the legacy audit: Graha/Bhava relationship rules remain inside the declared house frame. House cosmology: Graha friendship / Bhava aspect dynamics stated as the tradition's own rules",
+      "legacy": {
+        "anchor": "L55–57",
+        "quote": "\"which planets constructively interfere, which destructively interfere, and which remain neutral\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology: Graha friendship / Bhava aspect dynamics stated as the tradition's own rules"
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "the 256 possible bindu configurations per house, constrained by the conservation total of 337"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L65 and the legacy audit: The 2^8/337 arithmetic passes all locks, but ingredients and Noesis authorship are not separately traced. Ashtakavarga arithmetic shown and correct (2^8 = 256; Sarvashtakavarga total = 337); Layer 3's discrete half stands on it",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"the 256 possible bindu configurations per house, constrained by the conservation total of 337\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Ashtakavarga arithmetic shown and correct (2^8 = 256; Sarvashtakavarga total = 337); Layer 3's discrete half stands on it"
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "The Ashtakavarga-Hypercube subsystem enumerates the discrete state space"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L65 and the legacy audit: The imported mathematical label lacks a declared synthesis boundary and demonstrated operation. Hypercube dressing on the (correct) Ashtakavarga enumeration; §4.4 removal test: 256/337 argument survives intact; also L37, L67",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"The Ashtakavarga-Hypercube subsystem enumerates the discrete state space\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Hypercube dressing on the (correct) Ashtakavarga enumeration; §4.4 removal test: 256/337 argument survives intact; also L37, L67"
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "the six-dimensional strength distribution that defines the field geometry"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L65 and the legacy audit: The imported mathematical label lacks a declared synthesis boundary and demonstrated operation. Six Shadbala components are house-correct, but \"tensor field geometry\" shows no rank, components, or transformation law",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"the six-dimensional strength distribution that defines the field geometry\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Six Shadbala components are house-correct, but \"tensor field geometry\" shows no rank, components, or transformation law"
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "Time constrains Relationships, Relationships modify State Space, State Space modulates Time"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L81 and the legacy audit: The three-layer feedback rule is an explicit coherent house model. House cosmology: cyclic / feedback structure; the post's core architectural claim",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"Time constrains Relationships, Relationships modify State Space, State Space modulates Time\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology: cyclic / feedback structure; the post's core architectural claim"
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "Compute full Shadbala for all seven planets across all six strength components"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L99 and the legacy audit: The named Shadbala procedure is faithfully reported as Jyotish content. House cosmology: Shadbala six-strength structure is accurate Jyotish content",
+      "legacy": {
+        "anchor": "L99",
+        "quote": "\"Compute full Shadbala for all seven planets across all six strength components\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology: Shadbala six-strength structure is accurate Jyotish content"
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 109,
+        "line_end": 109,
+        "quote": "the electric field, magnetic field, and electromagnetic potential are three projections of the electromagnetic four-potential"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L109 and the legacy audit: Fields derive from the four-potential; the potential is not a third projection alongside them. Physics analogy name-drop; loosely stated (E and B derive from the four-potential, they are not projections of it); removal leaves the unity claim intact",
+      "legacy": {
+        "anchor": "L109",
+        "quote": "\"the electric field, magnetic field, and electromagnetic potential are three projections of the electromagnetic four-potential\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Physics analogy name-drop; loosely stated (E and B derive from the four-potential, they are not projections of it); removal leaves the unity claim intact"
+      },
+      "id": "C014"
+    }
+  ]
+}

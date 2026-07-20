@@ -1,0 +1,4301 @@
+{
+  "schema_version": "2.3",
+  "ledger_count": 125,
+  "claim_count": 3037,
+  "claim_modes": {
+    "DIRECT-OBSERVATION": 91,
+    "EMPIRICAL-CORRELATE": 1130,
+    "TRADITIONAL-SOURCE": 151,
+    "HISTORICAL-CLAIM": 331,
+    "HOUSE-MODEL": 272,
+    "DERIVED-SYNTHESIS": 887,
+    "DECLARED-METAPHOR": 175
+  },
+  "claim_statuses": {
+    "VERIFIED": 421,
+    "ATTRIBUTED": 184,
+    "COHERENT": 208,
+    "DECLARED": 154,
+    "UNSUPPORTED": 983,
+    "CONTRADICTED": 443,
+    "MISATTRIBUTED": 69,
+    "MODE-CONFLATED": 575
+  },
+  "math_roles": {
+    "NONE": 1823,
+    "LOAD-BEARING": 230,
+    "ANALOGICAL": 99,
+    "DECORATIVE": 333,
+    "WRONG": 552
+  },
+  "remediation_codes": {
+    "KEEP": 841,
+    "R-ATTRIBUTE": 141,
+    "R-CAUSE": 186,
+    "R-DELETE": 307,
+    "R-MATH": 806,
+    "R-METAPHOR": 213,
+    "R-MODEL": 103,
+    "R-PROVENANCE": 212,
+    "R-REMODE": 201,
+    "R-SCOPE": 970,
+    "R-SOURCE": 1148,
+    "R-SPLIT": 191,
+    "R-SYNTHESIS": 546
+  },
+  "evidence_eligible_claims": 230,
+  "load_bearing_math": 230,
+  "requires_review_claims": 0,
+  "posts": [
+    {
+      "post": "200-ok-mental-status-codes.md",
+      "ledger": "quality-engine/audits/albedo/200-ok-mental-status-codes-albedo-ledger.json",
+      "claim_count": 8,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 2,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 3,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 2,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 1,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 2
+      },
+      "math_roles": {
+        "NONE": 8,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 16,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "72-hour-state-trace-protocol.md",
+      "ledger": "quality-engine/audits/albedo/72-hour-state-trace-protocol-albedo-ledger.json",
+      "claim_count": 10,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 5,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 3,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 8,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 4,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 5,
+        "WRONG": 0
+      },
+      "remediation_count": 28,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "active-inference-prediction-engine.md",
+      "ledger": "quality-engine/audits/albedo/active-inference-prediction-engine-albedo-ledger.json",
+      "claim_count": 31,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 20,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 6,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 0,
+        "COHERENT": 2,
+        "DECLARED": 0,
+        "UNSUPPORTED": 14,
+        "CONTRADICTED": 4,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 8
+      },
+      "math_roles": {
+        "NONE": 17,
+        "LOAD-BEARING": 3,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 2,
+        "WRONG": 9
+      },
+      "remediation_count": 76,
+      "evidence_eligible_claims": 3,
+      "load_bearing_math": 3
+    },
+    {
+      "post": "ancient-debugging-protocols.md",
+      "ledger": "quality-engine/audits/albedo/ancient-debugging-protocols-albedo-ledger.json",
+      "claim_count": 0,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 0,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 0,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "arrival-room-3.md",
+      "ledger": "quality-engine/audits/albedo/arrival-room-3-albedo-ledger.json",
+      "claim_count": 8,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 2,
+        "TRADITIONAL-SOURCE": 3,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 1,
+        "COHERENT": 1,
+        "DECLARED": 1,
+        "UNSUPPORTED": 3,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 4,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 17,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "ashtakavarga-hypercube-geometry.md",
+      "ledger": "quality-engine/audits/albedo/ashtakavarga-hypercube-geometry-albedo-ledger.json",
+      "claim_count": 12,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 6,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 2,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 1,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 2,
+        "DECORATIVE": 5,
+        "WRONG": 3
+      },
+      "remediation_count": 24,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "awareness-isnt-access.md",
+      "ledger": "quality-engine/audits/albedo/awareness-isnt-access-albedo-ledger.json",
+      "claim_count": 5,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 3,
+        "DECLARED": 0,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 3,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 7,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "bangkok-initiation-samui-invitation.md",
+      "ledger": "quality-engine/audits/albedo/bangkok-initiation-samui-invitation-albedo-ledger.json",
+      "claim_count": 6,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 4,
+        "DECLARED": 1,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 6,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "bhava-aspects-neural-networks.md",
+      "ledger": "quality-engine/audits/albedo/bhava-aspects-neural-networks-albedo-ledger.json",
+      "claim_count": 35,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 5,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 25,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 12,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 12,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 0,
+        "LOAD-BEARING": 6,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 8,
+        "WRONG": 21
+      },
+      "remediation_count": 75,
+      "evidence_eligible_claims": 6,
+      "load_bearing_math": 6
+    },
+    {
+      "post": "bicameral-consciousness-patch.md",
+      "ledger": "quality-engine/audits/albedo/bicameral-consciousness-patch-albedo-ledger.json",
+      "claim_count": 13,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 2,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 4,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 3,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 2,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 12,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 32,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "bioelectric-pattern-framework.md",
+      "ledger": "quality-engine/audits/albedo/bioelectric-pattern-framework-albedo-ledger.json",
+      "claim_count": 44,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 31,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 6,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 3,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 23,
+        "CONTRADICTED": 3,
+        "MISATTRIBUTED": 2,
+        "MODE-CONFLATED": 11
+      },
+      "math_roles": {
+        "NONE": 35,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 4,
+        "WRONG": 4
+      },
+      "remediation_count": 101,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "bioelectric-protocol.md",
+      "ledger": "quality-engine/audits/albedo/bioelectric-protocol-albedo-ledger.json",
+      "claim_count": 53,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 7,
+        "EMPIRICAL-CORRELATE": 30,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 3,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 11,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 14,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 25,
+        "CONTRADICTED": 4,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 7
+      },
+      "math_roles": {
+        "NONE": 39,
+        "LOAD-BEARING": 3,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 6,
+        "WRONG": 5
+      },
+      "remediation_count": 109,
+      "evidence_eligible_claims": 3,
+      "load_bearing_math": 3
+    },
+    {
+      "post": "body-as-blockchain.md",
+      "ledger": "quality-engine/audits/albedo/body-as-blockchain-albedo-ledger.json",
+      "claim_count": 24,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 11,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 3,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 5,
+        "DECLARED-METAPHOR": 3
+      },
+      "claim_statuses": {
+        "VERIFIED": 7,
+        "ATTRIBUTED": 1,
+        "COHERENT": 2,
+        "DECLARED": 0,
+        "UNSUPPORTED": 6,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 8
+      },
+      "math_roles": {
+        "NONE": 17,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 5,
+        "WRONG": 1
+      },
+      "remediation_count": 38,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "celestial-patterns-meteor-enneagram.md",
+      "ledger": "quality-engine/audits/albedo/celestial-patterns-meteor-enneagram-albedo-ledger.json",
+      "claim_count": 40,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 3,
+        "EMPIRICAL-CORRELATE": 22,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 9,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 5,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 12,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 20,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 38,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 73,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "chakra-bioelectricity-mapping.md",
+      "ledger": "quality-engine/audits/albedo/chakra-bioelectricity-mapping-albedo-ledger.json",
+      "claim_count": 29,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 21,
+        "TRADITIONAL-SOURCE": 3,
+        "HISTORICAL-CLAIM": 3,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 3,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 19,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 28,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 63,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "chaos-theory-vedic-astrology.md",
+      "ledger": "quality-engine/audits/albedo/chaos-theory-vedic-astrology-albedo-ledger.json",
+      "claim_count": 47,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 3,
+        "HISTORICAL-CLAIM": 4,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 36,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 15,
+        "ATTRIBUTED": 3,
+        "COHERENT": 0,
+        "DECLARED": 1,
+        "UNSUPPORTED": 8,
+        "CONTRADICTED": 5,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 14
+      },
+      "math_roles": {
+        "NONE": 7,
+        "LOAD-BEARING": 9,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 12,
+        "WRONG": 18
+      },
+      "remediation_count": 92,
+      "evidence_eligible_claims": 9,
+      "load_bearing_math": 9
+    },
+    {
+      "post": "circle-over-inanna.md",
+      "ledger": "quality-engine/audits/albedo/circle-over-inanna-albedo-ledger.json",
+      "claim_count": 7,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 4,
+        "DECLARED": 2,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 1,
+        "LOAD-BEARING": 3,
+        "ANALOGICAL": 2,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 7,
+      "evidence_eligible_claims": 3,
+      "load_bearing_math": 3
+    },
+    {
+      "post": "compassion-runtime.md",
+      "ledger": "quality-engine/audits/albedo/compassion-runtime-albedo-ledger.json",
+      "claim_count": 15,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 9,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 3,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 9,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 14,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 29,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "consciousness-architecture-hub.md",
+      "ledger": "quality-engine/audits/albedo/consciousness-architecture-hub-albedo-ledger.json",
+      "claim_count": 10,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 5,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 3
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 1,
+        "COHERENT": 1,
+        "DECLARED": 3,
+        "UNSUPPORTED": 4,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 7,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 3,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 17,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "consciousness-legacy-code.md",
+      "ledger": "quality-engine/audits/albedo/consciousness-legacy-code-albedo-ledger.json",
+      "claim_count": 4,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 3
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 3,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 3,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 4,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "consciousness-runtime-diagrams.md",
+      "ledger": "quality-engine/audits/albedo/consciousness-runtime-diagrams-albedo-ledger.json",
+      "claim_count": 12,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 7,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 4,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 10,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 1
+      },
+      "remediation_count": 32,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "death-at-the-border.md",
+      "ledger": "quality-engine/audits/albedo/death-at-the-border-albedo-ledger.json",
+      "claim_count": 9,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 5,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 4,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 8,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 10,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "deep-trench-forge-shenzhen.md",
+      "ledger": "quality-engine/audits/albedo/deep-trench-forge-shenzhen-albedo-ledger.json",
+      "claim_count": 7,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 4,
+        "EMPIRICAL-CORRELATE": 2,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 4,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 1,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 6,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 12,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "docker-for-chakras.md",
+      "ledger": "quality-engine/audits/albedo/docker-for-chakras-albedo-ledger.json",
+      "claim_count": 22,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 10,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 8,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 1,
+        "COHERENT": 1,
+        "DECLARED": 1,
+        "UNSUPPORTED": 4,
+        "CONTRADICTED": 5,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 9
+      },
+      "math_roles": {
+        "NONE": 3,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 18
+      },
+      "remediation_count": 74,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "endocrine-constellation-patterns.md",
+      "ledger": "quality-engine/audits/albedo/endocrine-constellation-patterns-albedo-ledger.json",
+      "claim_count": 23,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 13,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 6,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 9,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 11
+      },
+      "math_roles": {
+        "NONE": 19,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 1
+      },
+      "remediation_count": 65,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "endocrine-constellation-transcript.md",
+      "ledger": "quality-engine/audits/albedo/endocrine-constellation-transcript-albedo-ledger.json",
+      "claim_count": 29,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 8,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 12,
+        "DERIVED-SYNTHESIS": 4,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 0,
+        "COHERENT": 13,
+        "DECLARED": 2,
+        "UNSUPPORTED": 6,
+        "CONTRADICTED": 3,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 25,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 2
+      },
+      "remediation_count": 45,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "endocrine-muse-integration.md",
+      "ledger": "quality-engine/audits/albedo/endocrine-muse-integration-albedo-ledger.json",
+      "claim_count": 13,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 9,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 3,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 1,
+        "UNSUPPORTED": 9,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 2
+      },
+      "math_roles": {
+        "NONE": 10,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 35,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "endocrine-muse-pattern-analysis.md",
+      "ledger": "quality-engine/audits/albedo/endocrine-muse-pattern-analysis-albedo-ledger.json",
+      "claim_count": 12,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 5,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 5,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 7
+      },
+      "math_roles": {
+        "NONE": 7,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 3,
+        "WRONG": 1
+      },
+      "remediation_count": 38,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "enlightenment-lite-method.md",
+      "ledger": "quality-engine/audits/albedo/enlightenment-lite-method-albedo-ledger.json",
+      "claim_count": 7,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 2,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 2,
+        "DECLARED": 1,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 6,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 14,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "enneagram-planetary-market.md",
+      "ledger": "quality-engine/audits/albedo/enneagram-planetary-market-albedo-ledger.json",
+      "claim_count": 12,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 4,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 1,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 6
+      },
+      "math_roles": {
+        "NONE": 8,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 3
+      },
+      "remediation_count": 24,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "enneagram-runtime-map.md",
+      "ledger": "quality-engine/audits/albedo/enneagram-runtime-map-albedo-ledger.json",
+      "claim_count": 7,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 7,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 7,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 2,
+        "WRONG": 0
+      },
+      "remediation_count": 17,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "event-pattern-leverage.md",
+      "ledger": "quality-engine/audits/albedo/event-pattern-leverage-albedo-ledger.json",
+      "claim_count": 12,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 10,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 2,
+        "UNSUPPORTED": 10,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 7,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 4,
+        "WRONG": 0
+      },
+      "remediation_count": 34,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "five-field-pattern-log.md",
+      "ledger": "quality-engine/audits/albedo/five-field-pattern-log-albedo-ledger.json",
+      "claim_count": 8,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 6,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 6,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 2,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 5,
+        "WRONG": 0
+      },
+      "remediation_count": 26,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "from-insight-to-intervention.md",
+      "ledger": "quality-engine/audits/albedo/from-insight-to-intervention-albedo-ledger.json",
+      "claim_count": 5,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 4,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 2,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 3,
+        "WRONG": 0
+      },
+      "remediation_count": 10,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "fungal-intelligence-distributed-processing.md",
+      "ledger": "quality-engine/audits/albedo/fungal-intelligence-distributed-processing-albedo-ledger.json",
+      "claim_count": 16,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 4,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 4,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 4,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 3,
+        "MISATTRIBUTED": 2,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 13,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 2
+      },
+      "remediation_count": 26,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "graha-friendship-cellular-automata.md",
+      "ledger": "quality-engine/audits/albedo/graha-friendship-cellular-automata-albedo-ledger.json",
+      "claim_count": 40,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 5,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 26,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 8,
+        "ATTRIBUTED": 3,
+        "COHERENT": 0,
+        "DECLARED": 2,
+        "UNSUPPORTED": 3,
+        "CONTRADICTED": 18,
+        "MISATTRIBUTED": 5,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 11,
+        "LOAD-BEARING": 3,
+        "ANALOGICAL": 2,
+        "DECORATIVE": 6,
+        "WRONG": 18
+      },
+      "remediation_count": 44,
+      "evidence_eligible_claims": 3,
+      "load_bearing_math": 3
+    },
+    {
+      "post": "hidden-history-cultural-amnesia.md",
+      "ledger": "quality-engine/audits/albedo/hidden-history-cultural-amnesia-albedo-ledger.json",
+      "claim_count": 11,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 2,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 2,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 1,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 4,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 8,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 1
+      },
+      "remediation_count": 16,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "historical-knowledge-patterns.md",
+      "ledger": "quality-engine/audits/albedo/historical-knowledge-patterns-albedo-ledger.json",
+      "claim_count": 46,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 9,
+        "TRADITIONAL-SOURCE": 5,
+        "HISTORICAL-CLAIM": 15,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 17,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 10,
+        "ATTRIBUTED": 5,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 18,
+        "CONTRADICTED": 11,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 29,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 5,
+        "WRONG": 10
+      },
+      "remediation_count": 81,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "hyperbolic-consciousness.md",
+      "ledger": "quality-engine/audits/albedo/hyperbolic-consciousness-albedo-ledger.json",
+      "claim_count": 114,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 53,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 6,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 51,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 20,
+        "ATTRIBUTED": 2,
+        "COHERENT": 2,
+        "DECLARED": 0,
+        "UNSUPPORTED": 55,
+        "CONTRADICTED": 30,
+        "MISATTRIBUTED": 5,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 65,
+        "LOAD-BEARING": 12,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 8,
+        "WRONG": 29
+      },
+      "remediation_count": 114,
+      "evidence_eligible_claims": 12,
+      "load_bearing_math": 12
+    },
+    {
+      "post": "hyperbolic-mantra.md",
+      "ledger": "quality-engine/audits/albedo/hyperbolic-mantra-albedo-ledger.json",
+      "claim_count": 68,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 13,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 3,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 47,
+        "DECLARED-METAPHOR": 3
+      },
+      "claim_statuses": {
+        "VERIFIED": 25,
+        "ATTRIBUTED": 4,
+        "COHERENT": 0,
+        "DECLARED": 3,
+        "UNSUPPORTED": 15,
+        "CONTRADICTED": 7,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 14
+      },
+      "math_roles": {
+        "NONE": 13,
+        "LOAD-BEARING": 19,
+        "ANALOGICAL": 3,
+        "DECORATIVE": 6,
+        "WRONG": 27
+      },
+      "remediation_count": 140,
+      "evidence_eligible_claims": 19,
+      "load_bearing_math": 19
+    },
+    {
+      "post": "implosion-paradigm.md",
+      "ledger": "quality-engine/audits/albedo/implosion-paradigm-albedo-ledger.json",
+      "claim_count": 39,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 3,
+        "EMPIRICAL-CORRELATE": 19,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 8,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 4
+      },
+      "claim_statuses": {
+        "VERIFIED": 6,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 12,
+        "CONTRADICTED": 9,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 9
+      },
+      "math_roles": {
+        "NONE": 25,
+        "LOAD-BEARING": 3,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 6,
+        "WRONG": 5
+      },
+      "remediation_count": 89,
+      "evidence_eligible_claims": 3,
+      "load_bearing_math": 3
+    },
+    {
+      "post": "introduction-to-tryambakam-noesis.md",
+      "ledger": "quality-engine/audits/albedo/introduction-to-tryambakam-noesis-albedo-ledger.json",
+      "claim_count": 8,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 4,
+        "DECLARED": 1,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 4,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 10,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "judgement-recollection-in-pai.md",
+      "ledger": "quality-engine/audits/albedo/judgement-recollection-in-pai-albedo-ledger.json",
+      "claim_count": 3,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 1,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 2
+      },
+      "math_roles": {
+        "NONE": 2,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 4,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "kha-ba-la-operational-compass.md",
+      "ledger": "quality-engine/audits/albedo/kha-ba-la-operational-compass-albedo-ledger.json",
+      "claim_count": 13,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 6,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 5,
+        "DECLARED": 2,
+        "UNSUPPORTED": 6,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 8,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 3,
+        "WRONG": 0
+      },
+      "remediation_count": 20,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "kubernetes-for-karma.md",
+      "ledger": "quality-engine/audits/albedo/kubernetes-for-karma-albedo-ledger.json",
+      "claim_count": 23,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 2,
+        "EMPIRICAL-CORRELATE": 11,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 7,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 4,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 1,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 8,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 5
+      },
+      "math_roles": {
+        "NONE": 18,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 1,
+        "WRONG": 2
+      },
+      "remediation_count": 33,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "leviathan-enneagram-analysis.md",
+      "ledger": "quality-engine/audits/albedo/leviathan-enneagram-analysis-albedo-ledger.json",
+      "claim_count": 8,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 1,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 4,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 6,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 17,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "lorenz-kundli-implementation.md",
+      "ledger": "quality-engine/audits/albedo/lorenz-kundli-implementation-albedo-ledger.json",
+      "claim_count": 14,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 10,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 4,
+        "ATTRIBUTED": 1,
+        "COHERENT": 4,
+        "DECLARED": 1,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 4,
+        "LOAD-BEARING": 5,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 2,
+        "WRONG": 2
+      },
+      "remediation_count": 18,
+      "evidence_eligible_claims": 5,
+      "load_bearing_math": 5
+    },
+    {
+      "post": "lorenz-kundli-pattern-hub.md",
+      "ledger": "quality-engine/audits/albedo/lorenz-kundli-pattern-hub-albedo-ledger.json",
+      "claim_count": 44,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 7,
+        "TRADITIONAL-SOURCE": 5,
+        "HISTORICAL-CLAIM": 6,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 19,
+        "DECLARED-METAPHOR": 5
+      },
+      "claim_statuses": {
+        "VERIFIED": 9,
+        "ATTRIBUTED": 6,
+        "COHERENT": 1,
+        "DECLARED": 5,
+        "UNSUPPORTED": 7,
+        "CONTRADICTED": 10,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 6
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 7,
+        "ANALOGICAL": 5,
+        "DECORATIVE": 8,
+        "WRONG": 19
+      },
+      "remediation_count": 89,
+      "evidence_eligible_claims": 7,
+      "load_bearing_math": 7
+    },
+    {
+      "post": "lorenz-kundli-protocol.md",
+      "ledger": "quality-engine/audits/albedo/lorenz-kundli-protocol-albedo-ledger.json",
+      "claim_count": 55,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 11,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 35,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 6,
+        "ATTRIBUTED": 1,
+        "COHERENT": 1,
+        "DECLARED": 2,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 5,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 34
+      },
+      "math_roles": {
+        "NONE": 9,
+        "LOAD-BEARING": 7,
+        "ANALOGICAL": 2,
+        "DECORATIVE": 9,
+        "WRONG": 28
+      },
+      "remediation_count": 118,
+      "evidence_eligible_claims": 7,
+      "load_bearing_math": 7
+    },
+    {
+      "post": "lorenz-kundli-system-index.md",
+      "ledger": "quality-engine/audits/albedo/lorenz-kundli-system-index-albedo-ledger.json",
+      "claim_count": 29,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 3,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 25,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 3,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 9,
+        "CONTRADICTED": 7,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 8
+      },
+      "math_roles": {
+        "NONE": 1,
+        "LOAD-BEARING": 5,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 8,
+        "WRONG": 15
+      },
+      "remediation_count": 65,
+      "evidence_eligible_claims": 5,
+      "load_bearing_math": 5
+    },
+    {
+      "post": "magnetic-substrate.md",
+      "ledger": "quality-engine/audits/albedo/magnetic-substrate-albedo-ledger.json",
+      "claim_count": 164,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 131,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 16,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 13,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 26,
+        "ATTRIBUTED": 0,
+        "COHERENT": 2,
+        "DECLARED": 2,
+        "UNSUPPORTED": 89,
+        "CONTRADICTED": 30,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 15
+      },
+      "math_roles": {
+        "NONE": 159,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 2,
+        "DECORATIVE": 2,
+        "WRONG": 1
+      },
+      "remediation_count": 197,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "mantra-as-source-code.md",
+      "ledger": "quality-engine/audits/albedo/mantra-as-source-code-albedo-ledger.json",
+      "claim_count": 20,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 6,
+        "TRADITIONAL-SOURCE": 4,
+        "HISTORICAL-CLAIM": 4,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 2,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 4,
+        "COHERENT": 2,
+        "DECLARED": 2,
+        "UNSUPPORTED": 7,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 13,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 5,
+        "WRONG": 0
+      },
+      "remediation_count": 47,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "master-synthesis.md",
+      "ledger": "quality-engine/audits/albedo/master-synthesis-albedo-ledger.json",
+      "claim_count": 27,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 3,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 11,
+        "DERIVED-SYNTHESIS": 8,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 0,
+        "COHERENT": 3,
+        "DECLARED": 2,
+        "UNSUPPORTED": 15,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 7,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 2,
+        "DECORATIVE": 16,
+        "WRONG": 2
+      },
+      "remediation_count": 53,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "mitochondrial-subconsciousness.md",
+      "ledger": "quality-engine/audits/albedo/mitochondrial-subconsciousness-albedo-ledger.json",
+      "claim_count": 18,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 8,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 8,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 6,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 7
+      },
+      "math_roles": {
+        "NONE": 16,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 34,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "model-temperature-and-tapas.md",
+      "ledger": "quality-engine/audits/albedo/model-temperature-and-tapas-albedo-ledger.json",
+      "claim_count": 13,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 8,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 2,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 1,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 6,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 4,
+        "WRONG": 2
+      },
+      "remediation_count": 36,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "morphic-resonance-network-protocol.md",
+      "ledger": "quality-engine/audits/albedo/morphic-resonance-network-protocol-albedo-ledger.json",
+      "claim_count": 44,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 2,
+        "EMPIRICAL-CORRELATE": 16,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 9,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 12,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 4,
+        "ATTRIBUTED": 6,
+        "COHERENT": 0,
+        "DECLARED": 2,
+        "UNSUPPORTED": 11,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 2,
+        "MODE-CONFLATED": 17
+      },
+      "math_roles": {
+        "NONE": 37,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 2,
+        "WRONG": 4
+      },
+      "remediation_count": 90,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "muse-enneagram-framework-overview.md",
+      "ledger": "quality-engine/audits/albedo/muse-enneagram-framework-overview-albedo-ledger.json",
+      "claim_count": 19,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 13,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 1,
+        "COHERENT": 9,
+        "DECLARED": 0,
+        "UNSUPPORTED": 6,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 17,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 32,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "muse-enneagram-matrix.md",
+      "ledger": "quality-engine/audits/albedo/muse-enneagram-matrix-albedo-ledger.json",
+      "claim_count": 47,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 31,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 11,
+        "DERIVED-SYNTHESIS": 3,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 5,
+        "ATTRIBUTED": 0,
+        "COHERENT": 8,
+        "DECLARED": 0,
+        "UNSUPPORTED": 27,
+        "CONTRADICTED": 6,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 44,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 2
+      },
+      "remediation_count": 90,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "nadi-bioimpedance-protocol.md",
+      "ledger": "quality-engine/audits/albedo/nadi-bioimpedance-protocol-albedo-ledger.json",
+      "claim_count": 58,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 38,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 12,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 1,
+        "UNSUPPORTED": 38,
+        "CONTRADICTED": 3,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 12
+      },
+      "math_roles": {
+        "NONE": 37,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 3,
+        "WRONG": 17
+      },
+      "remediation_count": 137,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "nakshatra-fibonacci-sequences.md",
+      "ledger": "quality-engine/audits/albedo/nakshatra-fibonacci-sequences-albedo-ledger.json",
+      "claim_count": 44,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 8,
+        "TRADITIONAL-SOURCE": 3,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 29,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 14,
+        "ATTRIBUTED": 1,
+        "COHERENT": 0,
+        "DECLARED": 2,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 18,
+        "MISATTRIBUTED": 3,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 0,
+        "LOAD-BEARING": 13,
+        "ANALOGICAL": 2,
+        "DECORATIVE": 7,
+        "WRONG": 22
+      },
+      "remediation_count": 76,
+      "evidence_eligible_claims": 13,
+      "load_bearing_math": 13
+    },
+    {
+      "post": "nine-muses-endocrine-system.md",
+      "ledger": "quality-engine/audits/albedo/nine-muses-endocrine-system-albedo-ledger.json",
+      "claim_count": 17,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 11,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 5,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 1,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 11,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 5
+      },
+      "math_roles": {
+        "NONE": 15,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 2,
+        "WRONG": 0
+      },
+      "remediation_count": 48,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "noetic-aether-einsteinian-knot.md",
+      "ledger": "quality-engine/audits/albedo/noetic-aether-einsteinian-knot-albedo-ledger.json",
+      "claim_count": 19,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 5,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 7,
+        "HOUSE-MODEL": 6,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 5,
+        "COHERENT": 6,
+        "DECLARED": 0,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 19,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 25,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "noetic-aether-substrate.md",
+      "ledger": "quality-engine/audits/albedo/noetic-aether-substrate-albedo-ledger.json",
+      "claim_count": 58,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 2,
+        "EMPIRICAL-CORRELATE": 8,
+        "TRADITIONAL-SOURCE": 3,
+        "HISTORICAL-CLAIM": 8,
+        "HOUSE-MODEL": 28,
+        "DERIVED-SYNTHESIS": 8,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 3,
+        "COHERENT": 15,
+        "DECLARED": 1,
+        "UNSUPPORTED": 8,
+        "CONTRADICTED": 6,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 21
+      },
+      "math_roles": {
+        "NONE": 35,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 8,
+        "WRONG": 14
+      },
+      "remediation_count": 121,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "pain-information-architecture.md",
+      "ledger": "quality-engine/audits/albedo/pain-information-architecture-albedo-ledger.json",
+      "claim_count": 33,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 21,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 7,
+        "DECLARED-METAPHOR": 4
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 4,
+        "UNSUPPORTED": 14,
+        "CONTRADICTED": 11,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 25,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 7
+      },
+      "remediation_count": 88,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "pattern-cross-reference-system.md",
+      "ledger": "quality-engine/audits/albedo/pattern-cross-reference-system-albedo-ledger.json",
+      "claim_count": 19,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 11,
+        "DECLARED-METAPHOR": 3
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 3,
+        "UNSUPPORTED": 3,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 10
+      },
+      "math_roles": {
+        "NONE": 6,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 3,
+        "DECORATIVE": 9,
+        "WRONG": 1
+      },
+      "remediation_count": 32,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "pattern-recognition-is-a-method.md",
+      "ledger": "quality-engine/audits/albedo/pattern-recognition-is-a-method-albedo-ledger.json",
+      "claim_count": 11,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 2,
+        "EMPIRICAL-CORRELATE": 5,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 0,
+        "COHERENT": 4,
+        "DECLARED": 0,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 11,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 20,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "pharmacos-protocol.md",
+      "ledger": "quality-engine/audits/albedo/pharmacos-protocol-albedo-ledger.json",
+      "claim_count": 9,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 2,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 4,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 3
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 1,
+        "COHERENT": 0,
+        "DECLARED": 3,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 6,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 3,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 10,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "ports-of-call.md",
+      "ledger": "quality-engine/audits/albedo/ports-of-call-albedo-ledger.json",
+      "claim_count": 16,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 7,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 4,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 3,
+        "DECLARED": 0,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 5
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 7,
+        "WRONG": 2
+      },
+      "remediation_count": 36,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "qualified-to-qualia-fied.md",
+      "ledger": "quality-engine/audits/albedo/qualified-to-qualia-fied-albedo-ledger.json",
+      "claim_count": 16,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 3,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 6,
+        "ATTRIBUTED": 3,
+        "COHERENT": 1,
+        "DECLARED": 1,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 14,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 29,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "reality-compile-ancient-source.md",
+      "ledger": "quality-engine/audits/albedo/reality-compile-ancient-source-albedo-ledger.json",
+      "claim_count": 13,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 6,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 3,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 1,
+        "UNSUPPORTED": 6,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 10,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 2,
+        "WRONG": 0
+      },
+      "remediation_count": 30,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "repetition-is-architecture.md",
+      "ledger": "quality-engine/audits/albedo/repetition-is-architecture-albedo-ledger.json",
+      "claim_count": 9,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 2,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 6,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 4,
+        "DECLARED": 0,
+        "UNSUPPORTED": 3,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 7,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 15,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "reptilian-bios-architecture.md",
+      "ledger": "quality-engine/audits/albedo/reptilian-bios-architecture-albedo-ledger.json",
+      "claim_count": 37,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 25,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 11,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 17,
+        "CONTRADICTED": 7,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 13
+      },
+      "math_roles": {
+        "NONE": 31,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 4,
+        "WRONG": 2
+      },
+      "remediation_count": 93,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "root-access-to-reality.md",
+      "ledger": "quality-engine/audits/albedo/root-access-to-reality-albedo-ledger.json",
+      "claim_count": 15,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 8,
+        "TRADITIONAL-SOURCE": 3,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 3
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 2,
+        "COHERENT": 0,
+        "DECLARED": 2,
+        "UNSUPPORTED": 6,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 10,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 2,
+        "DECORATIVE": 1,
+        "WRONG": 1
+      },
+      "remediation_count": 30,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "runtime-of-god.md",
+      "ledger": "quality-engine/audits/albedo/runtime-of-god-albedo-ledger.json",
+      "claim_count": 12,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 2,
+        "TRADITIONAL-SOURCE": 5,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 3,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 4,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 2,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 2,
+        "LOAD-BEARING": 3,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 6
+      },
+      "remediation_count": 30,
+      "evidence_eligible_claims": 3,
+      "load_bearing_math": 3
+    },
+    {
+      "post": "sacred-geometry-processing-units.md",
+      "ledger": "quality-engine/audits/albedo/sacred-geometry-processing-units-albedo-ledger.json",
+      "claim_count": 46,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 4,
+        "EMPIRICAL-CORRELATE": 10,
+        "TRADITIONAL-SOURCE": 3,
+        "HISTORICAL-CLAIM": 4,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 21,
+        "DECLARED-METAPHOR": 4
+      },
+      "claim_statuses": {
+        "VERIFIED": 10,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 4,
+        "UNSUPPORTED": 10,
+        "CONTRADICTED": 14,
+        "MISATTRIBUTED": 2,
+        "MODE-CONFLATED": 6
+      },
+      "math_roles": {
+        "NONE": 13,
+        "LOAD-BEARING": 4,
+        "ANALOGICAL": 4,
+        "DECORATIVE": 6,
+        "WRONG": 19
+      },
+      "remediation_count": 98,
+      "evidence_eligible_claims": 4,
+      "load_bearing_math": 4
+    },
+    {
+      "post": "sacred-runtime-ancient-debugging.md",
+      "ledger": "quality-engine/audits/albedo/sacred-runtime-ancient-debugging-albedo-ledger.json",
+      "claim_count": 18,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 2,
+        "DECLARED-METAPHOR": 9
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 2,
+        "COHERENT": 0,
+        "DECLARED": 8,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 8,
+        "DECORATIVE": 3,
+        "WRONG": 1
+      },
+      "remediation_count": 31,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "sacred-runtime-bali-padiyami.md",
+      "ledger": "quality-engine/audits/albedo/sacred-runtime-bali-padiyami-albedo-ledger.json",
+      "claim_count": 9,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 4,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 3,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 7,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 15,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "semantic-trauma.md",
+      "ledger": "quality-engine/audits/albedo/semantic-trauma-albedo-ledger.json",
+      "claim_count": 26,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 16,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 6,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 5,
+        "COHERENT": 1,
+        "DECLARED": 1,
+        "UNSUPPORTED": 13,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 2
+      },
+      "math_roles": {
+        "NONE": 25,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 54,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "seven-day-type-pressure-audit.md",
+      "ledger": "quality-engine/audits/albedo/seven-day-type-pressure-audit-albedo-ledger.json",
+      "claim_count": 9,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 6,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 1,
+        "UNSUPPORTED": 8,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 7,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 20,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "seventeen-ways-pattern-repeats.md",
+      "ledger": "quality-engine/audits/albedo/seventeen-ways-pattern-repeats-albedo-ledger.json",
+      "claim_count": 49,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 6,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 8,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 33,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 13,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 1,
+        "UNSUPPORTED": 10,
+        "CONTRADICTED": 17,
+        "MISATTRIBUTED": 2,
+        "MODE-CONFLATED": 6
+      },
+      "math_roles": {
+        "NONE": 13,
+        "LOAD-BEARING": 9,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 3,
+        "WRONG": 23
+      },
+      "remediation_count": 111,
+      "evidence_eligible_claims": 9,
+      "load_bearing_math": 9
+    },
+    {
+      "post": "shadbala-tensor-field-theory.md",
+      "ledger": "quality-engine/audits/albedo/shadbala-tensor-field-theory-albedo-ledger.json",
+      "claim_count": 83,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 13,
+        "TRADITIONAL-SOURCE": 8,
+        "HISTORICAL-CLAIM": 7,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 38,
+        "DECLARED-METAPHOR": 14
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 7,
+        "COHERENT": 2,
+        "DECLARED": 14,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 37,
+        "MISATTRIBUTED": 7,
+        "MODE-CONFLATED": 10
+      },
+      "math_roles": {
+        "NONE": 30,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 14,
+        "WRONG": 38
+      },
+      "remediation_count": 210,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "signal-state-story-debug-edition.md",
+      "ledger": "quality-engine/audits/albedo/signal-state-story-debug-edition-albedo-ledger.json",
+      "claim_count": 11,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 6,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 4,
+        "DECLARED": 0,
+        "UNSUPPORTED": 4,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 8,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 2,
+        "WRONG": 1
+      },
+      "remediation_count": 30,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "sixteen-engines-one-purpose.md",
+      "ledger": "quality-engine/audits/albedo/sixteen-engines-one-purpose-albedo-ledger.json",
+      "claim_count": 21,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 9,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 5,
+        "DERIVED-SYNTHESIS": 5,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 6,
+        "COHERENT": 3,
+        "DECLARED": 1,
+        "UNSUPPORTED": 4,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 5
+      },
+      "math_roles": {
+        "NONE": 6,
+        "LOAD-BEARING": 8,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 4,
+        "WRONG": 3
+      },
+      "remediation_count": 40,
+      "evidence_eligible_claims": 8,
+      "load_bearing_math": 8
+    },
+    {
+      "post": "spell-work-reservoir.md",
+      "ledger": "quality-engine/audits/albedo/spell-work-reservoir-albedo-ledger.json",
+      "claim_count": 21,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 7,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 3,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 7,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 2,
+        "COHERENT": 2,
+        "DECLARED": 1,
+        "UNSUPPORTED": 10,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 6,
+        "LOAD-BEARING": 3,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 3,
+        "WRONG": 8
+      },
+      "remediation_count": 64,
+      "evidence_eligible_claims": 3,
+      "load_bearing_math": 3
+    },
+    {
+      "post": "spolski-endocrine-framework.md",
+      "ledger": "quality-engine/audits/albedo/spolski-endocrine-framework-albedo-ledger.json",
+      "claim_count": 58,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 27,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 28,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 17,
+        "CONTRADICTED": 8,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 30
+      },
+      "math_roles": {
+        "NONE": 57,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 135,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "sri-yantra-geometry-that-doesnt-fit.md",
+      "ledger": "quality-engine/audits/albedo/sri-yantra-geometry-that-doesnt-fit-albedo-ledger.json",
+      "claim_count": 71,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 3,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 4,
+        "HISTORICAL-CLAIM": 19,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 37,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 14,
+        "ATTRIBUTED": 10,
+        "COHERENT": 0,
+        "DECLARED": 2,
+        "UNSUPPORTED": 11,
+        "CONTRADICTED": 25,
+        "MISATTRIBUTED": 7,
+        "MODE-CONFLATED": 2
+      },
+      "math_roles": {
+        "NONE": 24,
+        "LOAD-BEARING": 6,
+        "ANALOGICAL": 2,
+        "DECORATIVE": 15,
+        "WRONG": 24
+      },
+      "remediation_count": 94,
+      "evidence_eligible_claims": 6,
+      "load_bearing_math": 6
+    },
+    {
+      "post": "stop-branding-your-enneagram.md",
+      "ledger": "quality-engine/audits/albedo/stop-branding-your-enneagram-albedo-ledger.json",
+      "claim_count": 5,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 4,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 4,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 12,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "tarot-major-arcana-journal.md",
+      "ledger": "quality-engine/audits/albedo/tarot-major-arcana-journal-albedo-ledger.json",
+      "claim_count": 7,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 4,
+        "DECLARED": 1,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 2,
+        "LOAD-BEARING": 4,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 10,
+      "evidence_eligible_claims": 4,
+      "load_bearing_math": 4
+    },
+    {
+      "post": "temperance-compresses-to-essence.md",
+      "ledger": "quality-engine/audits/albedo/temperance-compresses-to-essence-albedo-ledger.json",
+      "claim_count": 3,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 2,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 3,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 3,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "temperature-consciousness.md",
+      "ledger": "quality-engine/audits/albedo/temperature-consciousness-albedo-ledger.json",
+      "claim_count": 26,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 2,
+        "EMPIRICAL-CORRELATE": 15,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 0,
+        "COHERENT": 3,
+        "DECLARED": 0,
+        "UNSUPPORTED": 18,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 25,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 54,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "the-devil-in-the-detail.md",
+      "ledger": "quality-engine/audits/albedo/the-devil-in-the-detail-albedo-ledger.json",
+      "claim_count": 46,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 9,
+        "EMPIRICAL-CORRELATE": 19,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 9,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 15,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 1,
+        "UNSUPPORTED": 9,
+        "CONTRADICTED": 7,
+        "MISATTRIBUTED": 2,
+        "MODE-CONFLATED": 11
+      },
+      "math_roles": {
+        "NONE": 39,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 4,
+        "WRONG": 2
+      },
+      "remediation_count": 93,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "the-downstream-mind.md",
+      "ledger": "quality-engine/audits/albedo/the-downstream-mind-albedo-ledger.json",
+      "claim_count": 62,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 34,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 11,
+        "HOUSE-MODEL": 9,
+        "DERIVED-SYNTHESIS": 7,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 5,
+        "ATTRIBUTED": 6,
+        "COHERENT": 8,
+        "DECLARED": 0,
+        "UNSUPPORTED": 19,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 24
+      },
+      "math_roles": {
+        "NONE": 50,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 5,
+        "WRONG": 6
+      },
+      "remediation_count": 138,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "the-earthquake-that-said-goodbye.md",
+      "ledger": "quality-engine/audits/albedo/the-earthquake-that-said-goodbye-albedo-ledger.json",
+      "claim_count": 6,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 5,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 8,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "the-fool-before-the-leap.md",
+      "ledger": "quality-engine/audits/albedo/the-fool-before-the-leap-albedo-ledger.json",
+      "claim_count": 7,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 2,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 4
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 2,
+        "COHERENT": 0,
+        "DECLARED": 4,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 3,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 4,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 8,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "the-fools-satchel.md",
+      "ledger": "quality-engine/audits/albedo/the-fools-satchel-albedo-ledger.json",
+      "claim_count": 10,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 4
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 5,
+        "DECLARED": 4,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 8,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 10,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "the-hermit-72-hours.md",
+      "ledger": "quality-engine/audits/albedo/the-hermit-72-hours-albedo-ledger.json",
+      "claim_count": 8,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 3,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 3,
+        "COHERENT": 1,
+        "DECLARED": 1,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 3,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 2,
+        "WRONG": 1
+      },
+      "remediation_count": 13,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "the-ineffable-secrets-of-a-breathing-sprite.md",
+      "ledger": "quality-engine/audits/albedo/the-ineffable-secrets-of-a-breathing-sprite-albedo-ledger.json",
+      "claim_count": 48,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 26,
+        "TRADITIONAL-SOURCE": 7,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 8
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 6,
+        "COHERENT": 4,
+        "DECLARED": 6,
+        "UNSUPPORTED": 12,
+        "CONTRADICTED": 12,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 5
+      },
+      "math_roles": {
+        "NONE": 32,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 6,
+        "DECORATIVE": 5,
+        "WRONG": 3
+      },
+      "remediation_count": 98,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "the-moon-refracts-everything.md",
+      "ledger": "quality-engine/audits/albedo/the-moon-refracts-everything-albedo-ledger.json",
+      "claim_count": 4,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 2,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 1,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 3,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 10,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "the-sacred-runtime.md",
+      "ledger": "quality-engine/audits/albedo/the-sacred-runtime-albedo-ledger.json",
+      "claim_count": 8,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 1,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 3,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 2
+      },
+      "math_roles": {
+        "NONE": 8,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 15,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "the-seventh-floor.md",
+      "ledger": "quality-engine/audits/albedo/the-seventh-floor-albedo-ledger.json",
+      "claim_count": 9,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 4
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 2,
+        "DECLARED": 4,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 3,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 11,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "the-source-code-has-authors.md",
+      "ledger": "quality-engine/audits/albedo/the-source-code-has-authors-albedo-ledger.json",
+      "claim_count": 34,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 18,
+        "HOUSE-MODEL": 6,
+        "DERIVED-SYNTHESIS": 7,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 11,
+        "COHERENT": 6,
+        "DECLARED": 1,
+        "UNSUPPORTED": 10,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 2,
+        "MODE-CONFLATED": 2
+      },
+      "math_roles": {
+        "NONE": 25,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 4,
+        "WRONG": 4
+      },
+      "remediation_count": 62,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "the-star-names-you.md",
+      "ledger": "quality-engine/audits/albedo/the-star-names-you-albedo-ledger.json",
+      "claim_count": 3,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 1,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 3,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 5,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "the-sun-names-you.md",
+      "ledger": "quality-engine/audits/albedo/the-sun-names-you-albedo-ledger.json",
+      "claim_count": 47,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 2,
+        "EMPIRICAL-CORRELATE": 22,
+        "TRADITIONAL-SOURCE": 7,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 5,
+        "DECLARED-METAPHOR": 7
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 6,
+        "COHERENT": 3,
+        "DECLARED": 5,
+        "UNSUPPORTED": 15,
+        "CONTRADICTED": 6,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 8
+      },
+      "math_roles": {
+        "NONE": 39,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 3,
+        "DECORATIVE": 2,
+        "WRONG": 2
+      },
+      "remediation_count": 82,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "the-sword-of-speech.md",
+      "ledger": "quality-engine/audits/albedo/the-sword-of-speech-albedo-ledger.json",
+      "claim_count": 3,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 3,
+        "DECLARED": 0,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 3,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 3,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "the-tower-speaks-in-richter-scale.md",
+      "ledger": "quality-engine/audits/albedo/the-tower-speaks-in-richter-scale-albedo-ledger.json",
+      "claim_count": 11,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 5,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 5,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 3,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 8,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 3,
+        "WRONG": 0
+      },
+      "remediation_count": 14,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "the-universe-four-creatures-assemble.md",
+      "ledger": "quality-engine/audits/albedo/the-universe-four-creatures-assemble-albedo-ledger.json",
+      "claim_count": 2,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 1,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 1,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 5,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "the-word-as-code.md",
+      "ledger": "quality-engine/audits/albedo/the-word-as-code-albedo-ledger.json",
+      "claim_count": 24,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 16,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 4,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 4,
+        "ATTRIBUTED": 0,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 10,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 8
+      },
+      "math_roles": {
+        "NONE": 21,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 1
+      },
+      "remediation_count": 56,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "three-layer-consciousness-stack.md",
+      "ledger": "quality-engine/audits/albedo/three-layer-consciousness-stack-albedo-ledger.json",
+      "claim_count": 6,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 2,
+        "DECLARED": 0,
+        "UNSUPPORTED": 4,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 4,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 13,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "three-modes-of-intelligence.md",
+      "ledger": "quality-engine/audits/albedo/three-modes-of-intelligence-albedo-ledger.json",
+      "claim_count": 21,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 10,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 4,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 3,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 4,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 1,
+        "UNSUPPORTED": 8,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 5
+      },
+      "math_roles": {
+        "NONE": 15,
+        "LOAD-BEARING": 3,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 2,
+        "WRONG": 0
+      },
+      "remediation_count": 22,
+      "evidence_eligible_claims": 3,
+      "load_bearing_math": 3
+    },
+    {
+      "post": "timelessness-dilation.md",
+      "ledger": "quality-engine/audits/albedo/timelessness-dilation-albedo-ledger.json",
+      "claim_count": 8,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 2,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 2,
+        "DECLARED-METAPHOR": 3
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 0,
+        "COHERENT": 2,
+        "DECLARED": 3,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 6,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 10,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "topological-pocket-consciousness.md",
+      "ledger": "quality-engine/audits/albedo/topological-pocket-consciousness-albedo-ledger.json",
+      "claim_count": 18,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 8,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 4,
+        "HOUSE-MODEL": 5,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 4,
+        "ATTRIBUTED": 2,
+        "COHERENT": 3,
+        "DECLARED": 1,
+        "UNSUPPORTED": 7,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 11,
+        "LOAD-BEARING": 4,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 3
+      },
+      "remediation_count": 30,
+      "evidence_eligible_claims": 4,
+      "load_bearing_math": 4
+    },
+    {
+      "post": "type-is-not-identity.md",
+      "ledger": "quality-engine/audits/albedo/type-is-not-identity-albedo-ledger.json",
+      "claim_count": 13,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 10,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 1,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 10,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 2
+      },
+      "math_roles": {
+        "NONE": 11,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 30,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "unix-guide-to-consciousness.md",
+      "ledger": "quality-engine/audits/albedo/unix-guide-to-consciousness-albedo-ledger.json",
+      "claim_count": 17,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 3,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 2,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 7
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 0,
+        "COHERENT": 3,
+        "DECLARED": 4,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 5
+      },
+      "math_roles": {
+        "NONE": 7,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 3,
+        "DECORATIVE": 5,
+        "WRONG": 0
+      },
+      "remediation_count": 36,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "vedic-mathematical-architecture.md",
+      "ledger": "quality-engine/audits/albedo/vedic-mathematical-architecture-albedo-ledger.json",
+      "claim_count": 14,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 10,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 1,
+        "COHERENT": 3,
+        "DECLARED": 0,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 9
+      },
+      "math_roles": {
+        "NONE": 4,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 8,
+        "WRONG": 1
+      },
+      "remediation_count": 14,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "vedic-mathematical-parallels.md",
+      "ledger": "quality-engine/audits/albedo/vedic-mathematical-parallels-albedo-ledger.json",
+      "claim_count": 19,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 1,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 17,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 18
+      },
+      "math_roles": {
+        "NONE": 1,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 15
+      },
+      "remediation_count": 41,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "vessel-prepare-ukha-sambharana.md",
+      "ledger": "quality-engine/audits/albedo/vessel-prepare-ukha-sambharana-albedo-ledger.json",
+      "claim_count": 13,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 2,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 4,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 3,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 3,
+        "ATTRIBUTED": 1,
+        "COHERENT": 1,
+        "DECLARED": 2,
+        "UNSUPPORTED": 2,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 4
+      },
+      "math_roles": {
+        "NONE": 10,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 23,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "vimshottari-dasha-markov-chains.md",
+      "ledger": "quality-engine/audits/albedo/vimshottari-dasha-markov-chains-albedo-ledger.json",
+      "claim_count": 44,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 6,
+        "TRADITIONAL-SOURCE": 4,
+        "HISTORICAL-CLAIM": 6,
+        "HOUSE-MODEL": 4,
+        "DERIVED-SYNTHESIS": 24,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 7,
+        "ATTRIBUTED": 4,
+        "COHERENT": 2,
+        "DECLARED": 0,
+        "UNSUPPORTED": 5,
+        "CONTRADICTED": 16,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 9
+      },
+      "math_roles": {
+        "NONE": 10,
+        "LOAD-BEARING": 11,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 5,
+        "WRONG": 18
+      },
+      "remediation_count": 79,
+      "evidence_eligible_claims": 11,
+      "load_bearing_math": 11
+    },
+    {
+      "post": "vortex-based-mathematics.md",
+      "ledger": "quality-engine/audits/albedo/vortex-based-mathematics-albedo-ledger.json",
+      "claim_count": 48,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 8,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 7,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 32,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 11,
+        "ATTRIBUTED": 1,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 8,
+        "CONTRADICTED": 16,
+        "MISATTRIBUTED": 1,
+        "MODE-CONFLATED": 11
+      },
+      "math_roles": {
+        "NONE": 13,
+        "LOAD-BEARING": 7,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 3,
+        "WRONG": 25
+      },
+      "remediation_count": 97,
+      "evidence_eligible_claims": 7,
+      "load_bearing_math": 7
+    },
+    {
+      "post": "water-fourth-phase.md",
+      "ledger": "quality-engine/audits/albedo/water-fourth-phase-albedo-ledger.json",
+      "claim_count": 66,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 45,
+        "TRADITIONAL-SOURCE": 1,
+        "HISTORICAL-CLAIM": 8,
+        "HOUSE-MODEL": 0,
+        "DERIVED-SYNTHESIS": 12,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 5,
+        "ATTRIBUTED": 1,
+        "COHERENT": 0,
+        "DECLARED": 0,
+        "UNSUPPORTED": 46,
+        "CONTRADICTED": 4,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 10
+      },
+      "math_roles": {
+        "NONE": 61,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 4,
+        "WRONG": 0
+      },
+      "remediation_count": 151,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "who-tf-is-shesh.md",
+      "ledger": "quality-engine/audits/albedo/who-tf-is-shesh-albedo-ledger.json",
+      "claim_count": 8,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 3,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 3
+      },
+      "claim_statuses": {
+        "VERIFIED": 2,
+        "ATTRIBUTED": 0,
+        "COHERENT": 2,
+        "DECLARED": 3,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 1
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 3,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 8,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "why-insight-isnt-change.md",
+      "ledger": "quality-engine/audits/albedo/why-insight-isnt-change-albedo-ledger.json",
+      "claim_count": 5,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 1
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 2,
+        "DECLARED": 1,
+        "UNSUPPORTED": 1,
+        "CONTRADICTED": 1,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 2,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 1,
+        "DECORATIVE": 0,
+        "WRONG": 1
+      },
+      "remediation_count": 7,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "yantra-and-tantra-in-the-age-of-llms.md",
+      "ledger": "quality-engine/audits/albedo/yantra-and-tantra-in-the-age-of-llms-albedo-ledger.json",
+      "claim_count": 23,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 8,
+        "TRADITIONAL-SOURCE": 6,
+        "HISTORICAL-CLAIM": 1,
+        "HOUSE-MODEL": 2,
+        "DERIVED-SYNTHESIS": 5,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 5,
+        "ATTRIBUTED": 2,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 7,
+        "CONTRADICTED": 2,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 6
+      },
+      "math_roles": {
+        "NONE": 15,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 2,
+        "WRONG": 4
+      },
+      "remediation_count": 45,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    },
+    {
+      "post": "you-dont-need-more-frameworks.md",
+      "ledger": "quality-engine/audits/albedo/you-dont-need-more-frameworks-albedo-ledger.json",
+      "claim_count": 5,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 0,
+        "EMPIRICAL-CORRELATE": 0,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 3,
+        "DERIVED-SYNTHESIS": 0,
+        "DECLARED-METAPHOR": 2
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 3,
+        "DECLARED": 2,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 0
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 0,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 0,
+        "WRONG": 0
+      },
+      "remediation_count": 5,
+      "evidence_eligible_claims": 0,
+      "load_bearing_math": 0
+    },
+    {
+      "post": "your-consciousness-needs-better-error-handling.md",
+      "ledger": "quality-engine/audits/albedo/your-consciousness-needs-better-error-handling-albedo-ledger.json",
+      "claim_count": 7,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 1,
+        "EMPIRICAL-CORRELATE": 4,
+        "TRADITIONAL-SOURCE": 0,
+        "HISTORICAL-CLAIM": 0,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 1,
+        "DECLARED-METAPHOR": 0
+      },
+      "claim_statuses": {
+        "VERIFIED": 0,
+        "ATTRIBUTED": 0,
+        "COHERENT": 1,
+        "DECLARED": 0,
+        "UNSUPPORTED": 3,
+        "CONTRADICTED": 0,
+        "MISATTRIBUTED": 0,
+        "MODE-CONFLATED": 3
+      },
+      "math_roles": {
+        "NONE": 5,
+        "LOAD-BEARING": 1,
+        "ANALOGICAL": 0,
+        "DECORATIVE": 1,
+        "WRONG": 0
+      },
+      "remediation_count": 15,
+      "evidence_eligible_claims": 1,
+      "load_bearing_math": 1
+    },
+    {
+      "post": "your-reality-is-a-smart-contract.md",
+      "ledger": "quality-engine/audits/albedo/your-reality-is-a-smart-contract-albedo-ledger.json",
+      "claim_count": 59,
+      "claim_modes": {
+        "DIRECT-OBSERVATION": 3,
+        "EMPIRICAL-CORRELATE": 21,
+        "TRADITIONAL-SOURCE": 8,
+        "HISTORICAL-CLAIM": 5,
+        "HOUSE-MODEL": 1,
+        "DERIVED-SYNTHESIS": 13,
+        "DECLARED-METAPHOR": 8
+      },
+      "claim_statuses": {
+        "VERIFIED": 13,
+        "ATTRIBUTED": 3,
+        "COHERENT": 1,
+        "DECLARED": 8,
+        "UNSUPPORTED": 11,
+        "CONTRADICTED": 10,
+        "MISATTRIBUTED": 3,
+        "MODE-CONFLATED": 10
+      },
+      "math_roles": {
+        "NONE": 33,
+        "LOAD-BEARING": 2,
+        "ANALOGICAL": 8,
+        "DECORATIVE": 7,
+        "WRONG": 9
+      },
+      "remediation_count": 94,
+      "evidence_eligible_claims": 2,
+      "load_bearing_math": 2
+    }
+  ]
+}

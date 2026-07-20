@@ -1,0 +1,251 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "enneagram-runtime-map.md",
+  "source_path": "src/content/posts/enneagram-runtime-map.md",
+  "source_sha256": "01c227aed0e5c7f72d5c676c7920afe2cfb20299ff7a792392a80e17e9af3dc4",
+  "legacy_audit_path": "quality-engine/audits/nigredo/enneagram-runtime-map.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "the nervous system's surveillance system is tuned to detect"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose generalizes a nervous-system threat-surveillance mechanism without a population, observation record, measure, conditions, or traceable source.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"the nervous system's surveillance system is tuned to detect\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Functional physiology of threat-detection; replicable by self-observation, no authority cited."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "The defense runs at approximately 300 milliseconds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The approximately 300-millisecond defense latency is an unsourced quantitative estimate; the exact number adds precision but does not change the trigger-defense-cost framework.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"The defense runs at approximately 300 milliseconds\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Approximate, unsourced magnitude; plausible order of magnitude, hedged with \"approximately.\" Watch: unsourced stat."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "the cortisol-mediated siege protocol activated"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cortisol-mediated Type 5 withdrawal mechanism is asserted causally without a measured population, hormonal data, conditions, or source; cosmological direction does not determine its status.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"the cortisol-mediated siege protocol activated\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "\"Not because you decided — because the cortisol-mediated…\" displaces agency with chemistry as operative cause. Surrounding siege/drawbridge metaphor is declared, but \"cortisol-mediated\" is literal mechanism. Removal leaves the invoice intact."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The nervous system floods adrenaline, the body occupies more space"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The adrenaline flood, spatial expansion, and defense sequence are presented as a general physiological cascade without measurements, conditions, or a traceable source.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"The nervous system floods adrenaline, the body occupies more space\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Descriptive somatic cascade of the defense, not chemistry-producing-experience; the post explicitly demotes the feeling-reading (\"feels like courage. It is not courage.\"). Monitor for symmetry with L56."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The nervous system scans for what others lack and mobilizes to provide"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim generalizes an automatic nervous-system scan and helping response across Type 2 without an observation record, population, measure, or source.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"The nervous system scans for what others lack and mobilizes to provide\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Behavioral pattern description in nervous-system shorthand; reader-verifiable."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "what happens in the first 300 milliseconds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The repeated 300-millisecond window remains an unsourced quantitative threshold; its removal leaves the diagnostic procedure intact.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"what happens in the first 300 milliseconds\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Reuse of L38's approximate figure as an imperative self-observation prompt."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "The invoice is somatic before it is narrative"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The somatic-before-narrative ordering is asserted generally rather than reported by a named observer under stated conditions, and no empirical source establishes the ordering.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"The invoice is somatic before it is narrative\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Tied to imperative, reader-replicable observation (\"Where do you feel the cost?\")."
+      },
+      "id": "C007"
+    }
+  ]
+}

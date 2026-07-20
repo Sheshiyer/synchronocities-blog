@@ -1,0 +1,110 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "judgement-recollection-in-pai.md",
+  "source_path": "src/content/posts/judgement-recollection-in-pai.md",
+  "source_sha256": "be36442442a5b4214fad180d8663a21d7e5b2ce47faf74c962fe53e95f5daf7f",
+  "legacy_audit_path": "quality-engine/audits/nigredo/judgement-recollection-in-pai.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "The landscape itself was non-Euclidean"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The surrounding travel observation motivates a geometric comparison, but “the landscape itself was non-Euclidean” lacks a nearby metaphor marker and states the category literally. The removable mathematics must be declared.",
+      "legacy": {
+        "anchor": "27",
+        "quote": "\"The landscape itself was non-Euclidean\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Geometry name-drop, never operationalized: no curvature, no geodesics, no mapping shown. §4.4 test: remove it and \"paths that appeared straight curved back on themselves… distances were deceptive\" carries the observation intact — argument survives. Not safe-harbor framed (asserted, no \"like/as if\"), but the failure is decoration, not falsity; the loose poetic usage is not numerically wrong enough to be WRONG."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "Ketu — the south node of the moon, the point of release in Vedic astrology"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence names Vedic astrology and faithfully reports Ketu as the lunar south node with its conventional release/severing meaning. It is a source claim, not empirical proof.",
+      "legacy": {
+        "anchor": "33",
+        "quote": "\"Ketu — the south node of the moon, the point of release in Vedic astrology\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology (Jyotish) operating structurally, not admired; definitionally accurate (Ketu = lunar south node). The post's severing/release argument (\"What Ketu cuts cannot be re-attached\") stands on it."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "The anandamaya kosha recognizes what remains after Ketu's surgery"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The line combines the Vedantic anandamaya-kośa with the preceding Jyotish Ketu surgery as though inherited together. It needs separate attributed ingredients and declared Noesis authorship.",
+      "legacy": {
+        "anchor": "35",
+        "quote": "\"The anandamaya kosha recognizes what remains after Ketu's surgery\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Vedantic sheath model = house cosmology, aligned by definition (§9); frames the resolution beat (bliss of unburdening) and matches the frontmatter kosha field."
+      }
+    }
+  ]
+}

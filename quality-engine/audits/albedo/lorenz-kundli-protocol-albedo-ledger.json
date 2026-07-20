@@ -1,0 +1,1888 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "lorenz-kundli-protocol.md",
+  "source_path": "src/content/posts/lorenz-kundli-protocol.md",
+  "source_sha256": "fb5e72798dbf5e91777e5c9d93a5f028c0cefc86523b63db8c442d1ac8b0e3c9",
+  "legacy_audit_path": "quality-engine/audits/nigredo/lorenz-kundli-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "the same diagram in different notation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The subtitle asserts a Lorenz–Kundli identity without a structure-preserving map or an explicit Noesis synthesis boundary; the mathematical equivalence is therefore both hidden and wrong.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"the same diagram in different notation\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The subtitle and body repeat the identity, so this frontmatter occurrence is removable."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "bounded geometric space under deterministic rules that produce unpredictable trajectories"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The bounded deterministic description is valid for Lorenz dynamics, but the subtitle silently extends it to Kundli without defined states, equations, or a declared Noesis transformation.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"bounded geometric space under deterministic rules that produce unpredictable trajectories\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This accurately states the Lorenz structure and carries the comparison's mathematical side."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "same diagram in different notation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "This repeated identity claim launders an unsupported cross-system synthesis as notation change; no bijection or preserved dynamics is supplied.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"same diagram in different notation\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The body repeats the claimed equivalence at L45, making this subtitle occurrence removable."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "three lobes of the strange attractor"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The familiar Lorenz attractor has two lobes, not three; the image prompt's mathematical description conflicts with the referenced model.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"three lobes of the strange attractor\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The Lorenz attractor has two familiar lobes, not three."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "a toroidal phase space trajectory"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The prompt identifies Lorenz/Tarot motion as toroidal without defining a torus or declaring the comparison as metaphor; Lorenz dynamics are not toroidal.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"a toroidal phase space trajectory\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The Lorenz attractor is not a torus."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "D1-D60 harmonic chart grid as nested fractal geometry"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Divisional-chart labels are presented as nested fractal geometry without a recursive construction, provenance, or declared Noesis synthesis.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"D1-D60 harmonic chart grid as nested fractal geometry\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Divisional charts are not demonstrated as a fractal construction."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "nine grahas orbit the attractor like Markov chain states"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The explicit word “like” marks a visual comparison between orbiting glyphs and Markov states; the prompt draws no literal transition probabilities from it.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"nine grahas orbit the attractor like Markov chain states\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The image prompt supplies neither a transition matrix nor state probabilities."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "12 houses and 9 grahas mapped as state nodes"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Calling houses and grahas state nodes implies a dynamical mapping that the prompt neither defines nor marks as a Noesis-authored synthesis.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"12 houses and 9 grahas mapped as state nodes\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "An image prompt names nodes but supplies no state-transition mapping."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Edward Lorenz, a meteorologist at MIT, found in 1963"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence accurately identifies Edward Lorenz, his MIT meteorology context, and the 1963 publication history of the attractor model.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"Edward Lorenz, a meteorologist at MIT, found in 1963\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate Lorenz history is coherent background and carries no borrowed cosmological authority."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "three simple equations governing atmospheric convection"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The named Lorenz model is a three-equation convection system; that mathematical fact is correct, central to the comparison, and traceable to Lorenz's 1963 work.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"three simple equations governing atmospheric convection\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct core description of the Lorenz model."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "a state vector in 12-dimensional house-space"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The essay turns twelve house labels into independent coordinate dimensions without a defined state vector or declared Noesis construction.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"a state vector in 12-dimensional house-space\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Houses are not twelve independent coordinate dimensions."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The isomorphism is not analogy. It is structural equivalence"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The essay upgrades analogy to isomorphism without specifying a bijection, operations, or dynamics preserved between Lorenz and Kundli systems.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"The isomorphism is not analogy. It is structural equivalence\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The silent literal upgrade supplies no bijection preserving dynamics."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "three-dimensional dynamical system where trajectories orbit two lobes"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "This is an accurate, consequential description of the three-dimensional Lorenz flow and its two-lobed attractor, with provenance in the named equations.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"three-dimensional dynamical system where trajectories orbit two lobes\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct operational description of Lorenz phase space."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "a 360-degree manifold partitioned into angular segments"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A partitioned ecliptic circle is not thereby a twelve-dimensional manifold; the dimensional claim is an undeclared and incorrect synthesis.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"a 360-degree manifold partitioned into angular segments\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "A partitioned circle does not create a twelve-dimensional manifold."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "mass, velocity, angular momentum"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The essay substitutes physical quantities for Jyotish chart variables without a sourced mapping or an explicit Noesis model boundary.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"mass, velocity, angular momentum\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "These physical quantities are not the chart variables used for grahas."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "define the local vector field"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Relative chart positions do not define a vector field absent a state space and evolution law; the claimed mechanism is hidden synthesis.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"define the local vector field\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No chart-valued vector field or evolution law is defined."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "reading the topology of a trajectory"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Chart reading is called trajectory topology without constructing a trajectory or topological invariant and without declaring the Noesis comparison.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"reading the topology of a trajectory\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No trajectory topology is constructed for chart interpretation."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "mathematically equivalent to Copernican heliocentrism"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Tychonic and Copernican systems are kinematically equivalent for relative planetary positions; this equivalence is central here and historically traceable.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"mathematically equivalent to Copernican heliocentrism\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Fair as kinematic equivalence for observed planetary positions."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Tycho did not commit to a physical model"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Tycho did commit to a physical stationary-Earth model; describing him as withholding physical commitment overstates an observationalist reading of his history.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"Tycho did not commit to a physical model\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Situated observation is explicitly named and operated as the house frame."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The observer is the coordinate origin"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The essay explicitly limits this to observational coordinates rather than cosmology; treating the situated observer as coordinate origin is internally coherent and structurally consequential.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"The observer is the coordinate origin\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct coordinate-frame principle, explicitly aligned with situated observation."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "divides 120 years into nine planetary periods of fixed duration"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The claim faithfully reports the named Vimshottari Dasha system's 120-year cycle and nine fixed planetary periods; the arithmetic is consequential and provenance is named.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"divides 120 years into nine planetary periods of fixed duration\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct internal Vimshottari arithmetic and fixed cyclic structure."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "a partition of phase space into regions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Fixed Dasha intervals are relabeled as phase-space regions without a metric, state variable, flow, or declared Noesis transformation.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"a partition of phase space into regions\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No metric, flow, or Dasha state variable establishes this partition."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "I watched this in my own trajectory"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The first-person report names the observer, Saturn-Dasha timeframe, chart context, and family-business events while keeping the lived record distinct from universal proof.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"I watched this in my own trajectory\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Direct autobiographical observation is separated from institutional authority."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The local vector field said"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Vector field” rhetorically redescribes an astrological interpretation without equations or a nearby metaphor boundary; the term has no structural consequence.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The local vector field said\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Vector-field vocabulary decorates an autobiographical interpretation without calculation."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "bounded geometry of pressure"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Bounded geometry of pressure” supplies mathematical precision-aura to a personal interpretation without coordinates, boundaries, or declared analogy.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"bounded geometry of pressure\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No boundary, coordinates, or pressure variable are defined."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The Lorenz attractor does not predict which lobe you will visit"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "For a specified initial state and Lorenz equations, the deterministic trajectory fixes later lobe visits; the stated non-prediction confuses practical uncertainty with model behavior.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The Lorenz attractor does not predict which lobe you will visit\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Given a state and equations, the deterministic trajectory fixes subsequent lobe visits."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "both read the same topology"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Western and Jyotish astrology are asserted to share trajectory topology without a common state space, invariant, or declared Noesis mapping.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"both read the same topology\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The astrological systems are not proven equivalent dynamical coordinate systems."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "friendship tables encode a cellular automaton"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Graha friendship labels do not constitute a cellular automaton because no local lattice update rule or iteration is defined.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"friendship tables encode a cellular automaton\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "There is no spatial lattice or iterative local update rule."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "These are transition rules"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Static friend/neutral/enemy relations are presented as temporal transition rules without state updates, iteration, or declared synthesis.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"These are transition rules\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Relationship labels do not define temporal state transitions."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "settle into a stable oscillator"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Stable oscillator” is an undeclared mathematical comparison: no measured period or state variable makes the relationship an oscillator, and the term changes no inference.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"settle into a stable oscillator\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The observed relationship is redescribed without an oscillator variable or period."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "enter chaotic regime"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Chaotic regime” is used without a deterministic map or sensitivity measure; it is undeclared decorative mathematics rather than an operational result.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"enter chaotic regime\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No Lyapunov behavior or deterministic map is shown."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "coupling matrix of an 18-graha dynamical system"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The coupling-matrix phrase supplies formal aura to a compatibility reading without entries, variables, or an evolution equation.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"coupling matrix of an 18-graha dynamical system\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No matrix entries or evolution equations are supplied."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "the corporate attractor never stabilizes"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The organizational “attractor” is not explicitly marked as analogy and has no defined state space or structural consequence.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"the corporate attractor never stabilizes\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Organizational attractor language does no mathematical work."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "All three read the same diagram"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Management alignment, Jyotish yoga, and Lorenz geometry are called the same diagram without a structure-preserving map or declared Noesis synthesis.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"All three read the same diagram\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Management, Jyotish, and Lorenz dynamics are asserted identical without a map."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "nine grahas × twelve houses × twenty-seven Nakshatras × sixteen Vargas"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The listed traditional categories are real and countable, but multiplying their labels does not construct the claimed phase space; the enumeration is nonconsequential.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"nine grahas × twelve houses × twenty-seven Nakshatras × sixteen Vargas\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The enumeration is explicit, but multiplication does not define the claimed phase space."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "full Kundli phase space is computationally intractable"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Computational intractability requires a defined problem, input size, algorithm, and complexity bound; none is supplied, so the technical term is misapplied.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"full Kundli phase space is computationally intractable\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No problem size, algorithm, or complexity bound establishes intractability."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "projects the 9-dimensional graha space onto a 2-dimensional binary grid"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "An 8×12 Ashtakavarga table is not a projection from nine-dimensional graha space to a two-dimensional binary space; the undeclared mapping is mathematically wrong.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"projects the 9-dimensional graha space onto a 2-dimensional binary grid\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The described 8×12 table is neither a 9D orthogonal projection nor 2D compression."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "principal component analysis performed by hand"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Ashtakavarga supplies no fitted components or variance-maximizing orthogonal projection, so calling it hand-performed PCA is a hidden and incorrect synthesis.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"principal component analysis performed by hand\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No fitted components or variance-maximizing orthogonal projection exists."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "centuries before Pearson formalized the mathematics"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence assigns Ashtakavarga a historical PCA precedence that the described operation does not support, materially misrepresenting the mathematical provenance.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"centuries before Pearson formalized the mathematics\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No PCA operation exists here that could historically precede Pearson."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "six-component strength vector"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Representing the six named Shadbala components as a vector is reproducible and consequential, but the essay does not declare this modern representation as a Noesis synthesis.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"six-component strength vector\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The six explicitly named strengths form a coherent vector representation."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "a rank-1 tensor field on the chart manifold"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No tensor transformation law, rank-one construction, or chart manifold is defined; the essay launders an incorrect tensor-field mapping as fact.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"a rank-1 tensor field on the chart manifold\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No transformation law or chart manifold is defined."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "All 108 vectors (9 × 12)"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The arithmetic 9×12=108 is correct and its inputs are visible, but those entries are not established as vectors and the count adds no valid tensor consequence.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"All 108 vectors (9 × 12)\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The arithmetic is correct, but the enumeration does not create a tensor field."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "the way mass bends spacetime"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The phrase “the way” explicitly marks spacetime curvature as a comparison; no literal general-relativistic prediction is extracted from the comparison itself.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"the way mass bends spacetime\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "General relativity is accurate, but the phrase is used to imply an unsupported chart-field mechanism."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Lorenz's equations define a vector field on 3D phase space"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Lorenz's named differential equations do define a vector field on three-dimensional phase space; the statement is correct, consequential, and traceable.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"Lorenz's equations define a vector field on 3D phase space\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This correct vector-field description carries the protocol's central Lorenz formalism."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "sensitivity to initial conditions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Sensitivity to initial conditions is imported from Lorenz into chart reading without a perturbation measure, divergence result, or declared Noesis transformation.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"sensitivity to initial conditions\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Imported without a chart perturbation measure or output divergence."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "endocrine shift when Saturn transits the ascendant"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The text links a Saturn transit with endocrine change without a measured population, outcome, conditions, uncertainty, or causal evidence.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"endocrine shift when Saturn transits the ascendant\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "One of three interchangeable physiological examples; removing it leaves the Ba argument intact."
+      },
+      "id": "C046"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "sleep fragmentation when Rahu activates the 12th"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Rahu placement is presented as accompanying sleep fragmentation without observation records, measures, population, or causal support.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"sleep fragmentation when Rahu activates the 12th\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "An astrological placement is asserted as a sleep mechanism without observation."
+      },
+      "id": "C047"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "digestive change when Jupiter aspects the 6th"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Jupiter aspect is linked to digestive change without a source, defined outcome, conditions, or evidence matching the causal implication.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"digestive change when Jupiter aspects the 6th\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "An astrological placement is asserted as a digestive mechanism without observation."
+      },
+      "id": "C048"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Hormones are state variables. Neural firing patterns are the trajectory"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Hormones and neural firing can be model inputs, but no state vector, time parameter, or flow makes them this trajectory; the biological-mathematical synthesis is undeclared.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"Hormones are state variables. Neural firing patterns are the trajectory\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No state vector, time parameter, or flow connects these biological quantities."
+      },
+      "id": "C049"
+    },
+    {
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "trajectories would escape to infinity"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Removing fixed astrological lists does not mathematically imply unbounded trajectories; the counterfactual imports Lorenz behavior without a defined model.",
+      "legacy": {
+        "anchor": "L85",
+        "quote": "\"trajectories would escape to infinity\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Removing fixed astrological lists does not mathematically create unbounded trajectories."
+      },
+      "id": "C050"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "a toroidal phase space trajectory"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The Tarot wheel is identified as a toroidal phase-space trajectory without a torus, evolution law, or explicit metaphor boundary.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"a toroidal phase space trajectory\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A wheel symbol and Lorenz attractor are not toroidal dynamics."
+      },
+      "id": "C051"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "the attractor has no fixed points"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The Lorenz system has equilibrium points; saying its attractor has no fixed points is a false mathematical characterization used to explain the wheel.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"the attractor has no fixed points\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The Lorenz system has equilibrium points."
+      },
+      "id": "C052"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "Lorenz attractor has cycled through its lobes billions of years"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A mathematical attractor has not physically cycled for billions of years; the sentence reifies the model into an invented cosmic history.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"Lorenz attractor has cycled through its lobes billions of years\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "A mathematical model is reified as a physical object with an invented history."
+      },
+      "id": "C053"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "since the first human looked up and noticed Venus"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No historical evidence connects continuous Dasha cycling to the first human observation of Venus; the sweeping origin claim is untraceable.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"since the first human looked up and noticed Venus\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No history establishes continuous Dasha cycling from the first Venus observation."
+      },
+      "id": "C054"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "The isomorphism is not new"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The conclusion treats an undemonstrated Lorenz–Kundli mapping as an inherited isomorphism without formal proof or declared Noesis authorship.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"The isomorphism is not new\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The conclusion repeats an isomorphism never formally constructed."
+      },
+      "id": "C055"
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "root-access-to-reality.md",
+  "source_path": "src/content/posts/root-access-to-reality.md",
+  "source_sha256": "444d111833c5d93a0aeeeb790873c095a8ad00365a9d88891b4d797d247a48f3",
+  "legacy_audit_path": "quality-engine/audits/nigredo/root-access-to-reality.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "The nervous system boots into user mode"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Booting into Unix user mode is a figurative comparison for inherited behavioral constraint, but the prose explicitly denies the metaphor boundary and supplies no literal nervous-system permission mechanism; the mode is therefore conflated.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"The nervous system boots into user mode\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Central frame declared as observation (\"This is not metaphor\"), tied to reader-replicable experience; no borrowed authority."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "The Taittiriya Upanishad (II.1–5) lays out the stack"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Taittiriya Upanishad II.1–5 lays out the five-kosha stack — accurate citation; the systems-language mapping is declared and operated.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"The *Taittiriya Upanishad* (II.1–5) lays out the stack\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Vedic source operated, not admired; II.1–5 citation for the five koshas is accurate. Systems-layer mapping is declared (\"In systems language\") and demonstrated — safe harbor."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Unix permissions are a nine-bit string: three groups of three"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The rwx owner/group/other layout is a reproducible nine-bit Unix fact; the listed octal examples are correct, and removing this arithmetic would collapse the post's permission grammar.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Unix permissions are a nine-bit string: three groups of three\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Numerically correct (rwx triads = 9 bits). Anchor of the post's structural grammar; all instances verified correct: 644 (L51, L63), 700 (L55, L103), 600 (L61), 777/000 (L73), rwxr-xr-x = 755 (L99). Remove the bit grammar and the post collapses."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "your heart rate variability drops"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose generalizes that social pretense or inhibited speech lowers HRV, but gives no observer record, instrument trace, population, condition, uncertainty, or causal source at that strength.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"your heart rate variability drops\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Second-person embodied observation (with the diaphragm claim above it); reader-falsifiable, no institution invoked."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "selective permeability managed by ion channels and receptor gates"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cell-biology statement is plausible and externally testable, but the post and ledger provide no traceable source or observation record connecting the exact wording to evidence.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"selective permeability managed by ion channels and receptor gates\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard, verifiable cell biology; chmod-700 membrane mapping stays inside the declared frame."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "the vagus nerve trunk runs through the cervical vertebrae"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The vagus descends through the neck in the carotid sheath rather than through the cervical vertebrae, so the exact anatomical premise is contradicted before the later tension/parasympathetic inference is considered.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"the vagus nerve trunk runs through the cervical vertebrae\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correlation claim (tension ↔ parasympathetic tone) is modest and plausible. Anatomically loose: the vagus descends through the neck in the carotid sheath, not \"through the cervical vertebrae\" — precision fix for CITRINITAS, not a taxonomy failure."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "sudo renice -20 $$ — your attention process elevated to highest priority"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The paragraph explicitly introduces dhāraṇā as single-threaded execution, so renice -20 is an openly computational analogy for prioritizing attention and produces no literal process-scheduling inference about the brain.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"`sudo renice -20 $$` — your attention process elevated to highest priority\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Nice-value semantics correct (−20 = maximum priority); structural use of the frame, not a name-drop."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "Alpha wave amplitude at occipital electrodes rises"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The EEG effect is instrument-testable, but the prose gives no protocol, population, electrode montage, comparison condition, uncertainty, or traceable study supporting a general rise during dhāraṇā.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"Alpha wave amplitude at occipital electrodes rises\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Pupil/RSA/occipital-alpha correlates of absorbed attention are standard and framed as instrument-readable (\"debug logs\"). Slight overstatement: pupil and RSA are not EEG measures."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "Sustained dhāraṇā produces a phase transition"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "\"Sustained dhāraṇā produces a phase transition\" — thermodynamics term used inside the post's declared systems idiom; no order parameter or critical point operationalized, no literal inference drawn beyond the declared analogy.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"Sustained dhāraṇā produces a phase transition\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Single-use thermodynamics term, never operationalized (no order parameter, no critical point); remove it and \"attention flows without effort\" carries the sentence intact. Borderline — it sits inside the post's declared systems idiom — but fails §4.4 as written."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Mitochondria burn glucose at two to three times basal rate"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 2–3× basal-rate statistic is an empirical quantity with no source and conflicts with the lower metabolic rates measured during seated meditation; the exact number is nonessential and mathematically wrong in context.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"Mitochondria burn glucose at two to three times basal rate\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Unsourced quantitative physiological claim with no findable origin; 2–3× basal metabolic rate is exercise-range and contradicts the measured physiology of seated meditation (which lowers metabolic rate). The reference does not exist. §3.5 counterfeit statistic."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Cortisol spikes if the session extends too long"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A cortisol spike is an assay-dependent population claim, not a direct observation; no session duration, population, baseline, measurement, uncertainty, or source is provided.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"Cortisol spikes if the session extends too long\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "General, plausible stress-physiology claim; stated without authority borrowing."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "tremor in the hands, visual field narrowing, a specific metallic taste"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The narrator names the observer, roughly ninety-minute condition, and personally noticed tremor, visual narrowing, and metallic taste; the later mitochondrial interpretation is outside this bounded observation span.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"tremor in the hands, visual field narrowing, a specific metallic taste\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person, explicitly tagged as personal reading (\"I have learned to read as the mitochondria screaming for glucose\") — safe harbor. This is the honest observation the L71 statistic was standing in for."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "A maps to the waking state (jāgrat)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The surrounding paragraph identifies the Vedic architecture and faithfully reports the Māṇḍūkya A-U-M-to-waking/dream/deep-sleep/silence mapping without presenting it as empirical proof.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"`A` maps to the waking state (jāgrat)\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Māṇḍūkya A-U-M-silence → jāgrat/svapna/suṣupti/turīya mapping is accurate tradition, operated as structure; house cosmology."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "producing a standing wave in the 110–130 Hz range"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 110–130 Hz chant range is plausible, but the claimed standing wave, mechanical baroreceptor stimulation, and downstream blood-pressure effect lack boundary conditions, measurements, or a source; the exact range is nonconsequential precision.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"producing a standing wave in the 110–130 Hz range\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "A/U/M autonomic sequence is physiologically plausible (vagal afferents via laryngeal branches; 110–130 Hz matches chant fundamental frequencies) and reader-replicable. Baroreceptor mechanism stated confidently but no invented citation; confidence rule applies."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "The card is assigned to Aries, cardinal fire"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Emperor-to-Aries is a traditional Golden Dawn correspondence, but the prose names no tradition, text, deck, or source for the assignment; an accurate association is not yet canonical attribution.",
+      "legacy": {
+        "anchor": "L101",
+        "quote": "\"The card is assigned to Aries, cardinal fire\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Golden Dawn Emperor↔Aries correspondence judged as history/tradition; accurate."
+      },
+      "id": "C015"
+    }
+  ]
+}

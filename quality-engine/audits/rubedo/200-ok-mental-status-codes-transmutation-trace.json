@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.3",
+  "post": "200-ok-mental-status-codes.md",
+  "category": "legacy-clean-control-invalidated",
+  "expected_operation": "NO_OP",
+  "albedo_load_bearing_claim": "Honest mapping of one's mental state to HTTP-style status codes makes internal response patterns diagnosable.",
+  "recertified_finding_ids": [
+    "C002",
+    "C003",
+    "C005",
+    "C006",
+    "C007",
+    "C008"
+  ],
+  "full_document": {
+    "pre_sha256": "f62b5d91cf5c7da3b91ae5757a30321872245bedce4e5e27c724dbbc576fe213",
+    "post_sha256": "f62b5d91cf5c7da3b91ae5757a30321872245bedce4e5e27c724dbbc576fe213",
+    "byte_identical": true
+  },
+  "frontmatter": {
+    "pre_sha256": "13f3bb98231514c4ed85847a7661b1eeea3c2377ee637d2468be9db1286cd509",
+    "post_sha256": "13f3bb98231514c4ed85847a7661b1eeea3c2377ee637d2468be9db1286cd509",
+    "byte_identical": true
+  },
+  "edits": [],
+  "new_claim_counts": {
+    "science": 0,
+    "math": 0,
+    "traditional_attribution": 0
+  },
+  "quality_gates": {
+    "voice": {
+      "status": "PASS",
+      "score": 92,
+      "evidence": "docs/ci-audit-report.json scores the current post's voice at 92/100 with no tonal-drift flags."
+    },
+    "kha_ba_la": {
+      "status": "FAIL",
+      "evidence": "The current CI audit reports Kha 0, Ba 0, La 0, triad 0, no absence demonstration, and a FAIL verdict; the required NO_OP leaves that failure unchanged."
+    },
+    "fractal_depth": {
+      "status": "FAIL",
+      "score": 40,
+      "evidence": "docs/ci-audit-report.json reports fractal depth 40/100, below the Rubedo PASS threshold of 80."
+    },
+    "citation_attribution": {
+      "status": "FAIL",
+      "evidence": "The CI source-grounding dimension is 33/100, while recertified C003 is MISATTRIBUTED and C005, C007, and C008 lack adequate source support."
+    },
+    "epistemic_grounding": {
+      "status": "FAIL",
+      "evidence": "The recertified ledger contains six unresolved failures in ledger order: C002, C003, C005, C006, C007, and C008; the invalidated legacy CLEAN label cannot override them."
+    },
+    "math_integration": {
+      "status": "PASS",
+      "evidence": "Every recertified ledger row has math role NONE, so no DECORATIVE or WRONG mathematical claim is being certified."
+    },
+    "hard_acceptance": {
+      "status": "PASS",
+      "checks": [
+        {
+          "criterion": "Return PARTIAL without editing and enumerate every failing v2.3 recertified finding.",
+          "status": "PASS",
+          "evidence": "The trace records zero edits, issues PARTIAL, and enumerates C002, C003, C005, C006, C007, and C008 as remaining findings in recertified ledger order."
+        },
+        {
+          "criterion": "The candidate output is byte-identical to the source post.",
+          "status": "PASS",
+          "evidence": "The manifest pre-hash and current post-hash are both f62b5d91cf5c7da3b91ae5757a30321872245bedce4e5e27c724dbbc576fe213."
+        },
+        {
+          "criterion": "Do not let the legacy CLEAN label override the v2.3 ledger or source-coverage warning.",
+          "status": "PASS",
+          "evidence": "The verdict remains PARTIAL because all six recertified failures remain and the CI source-grounding score remains 33/100."
+        }
+      ]
+    }
+  },
+  "outcome": {
+    "status": "PARTIAL_RESOLUTION",
+    "resolved_finding_ids": [],
+    "remaining_findings": [
+      {
+        "finding_id": "C002",
+        "reason": "The HTTP-to-psyche mapping is a DERIVED-SYNTHESIS that still denies its metaphorical or authored boundary and remains MODE-CONFLATED."
+      },
+      {
+        "finding_id": "C003",
+        "reason": "The familiar stimulus-and-response wording remains materially MISATTRIBUTED to Viktor Frankl."
+      },
+      {
+        "finding_id": "C005",
+        "reason": "The universal claim that every mythological cycle contains a three-day darkness before resurrection remains CONTRADICTED."
+      },
+      {
+        "finding_id": "C006",
+        "reason": "Sunyata, kenosis, and The Cloud of Unknowing remain grouped as interchangeable names without preserving their distinct traditions or declaring the synthesis."
+      },
+      {
+        "finding_id": "C007",
+        "reason": "The trauma-response redirect generalization remains UNSUPPORTED by a defined population, measure, conditions, or source."
+      },
+      {
+        "finding_id": "C008",
+        "reason": "The prevalence-level claim about most mental health crises remains UNSUPPORTED and the 500-error analogy remains insufficiently framed."
+      }
+    ],
+    "summary": "The invalidated legacy-clean control remains byte-identical and unedited; all six v2.3 failures and the post-level Kha-Ba-La, fractal-depth, citation, and epistemic-grounding failures remain explicit."
+  },
+  "rubedo_verdict": "PARTIAL"
+}

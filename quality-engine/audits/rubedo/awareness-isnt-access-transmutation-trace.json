@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.3",
+  "post": "awareness-isnt-access.md",
+  "category": "deletion-only-non-load-bearing",
+  "expected_operation": "DELETE_ANCHOR_ONLY",
+  "albedo_load_bearing_claim": "Access to a habitual response requires observing and intervening before the body's automatic pattern completes.",
+  "recertified_finding_ids": [
+    "C004"
+  ],
+  "full_document": {
+    "pre_sha256": "ce2a5e668298f53fbcf8ba30dbb4e36ed9330d8cee825d61cc773000902c519c",
+    "post_sha256": "0e0b048834e554eeb35bc1940705b3d01f15a479c28796a114d96e2e67bfa93f",
+    "byte_identical": false
+  },
+  "frontmatter": {
+    "pre_sha256": "c2b8bffb77c8f73eb6ebce822b07cdc6b7c0ef1901b1632a93eaa9a1282f8c97",
+    "post_sha256": "c2b8bffb77c8f73eb6ebce822b07cdc6b7c0ef1901b1632a93eaa9a1282f8c97",
+    "byte_identical": true
+  },
+  "edits": [
+    {
+      "id": "E001",
+      "finding_id": "C004",
+      "source_occurrence": 1,
+      "before": "That 400-millisecond window between stimulus and somatic response — before the story starts, before the defense completes — that is where access lives.",
+      "after": "That window between stimulus and somatic response — before the story starts, before the defense completes — that is where access lives.",
+      "before_sha256": "2d0823eb41406e6f0e9a6d6d084863d06b614c8df7fe59fba42af8dbc6711174",
+      "after_sha256": "12e29421496e9149cb7087e363800b8ed67ff9397832a3441925b8ce6c32ff38"
+    }
+  ],
+  "new_claim_counts": {
+    "science": 0,
+    "math": 0,
+    "traditional_attribution": 0
+  },
+  "quality_gates": {
+    "voice": {
+      "status": "PASS",
+      "score": 100,
+      "evidence": "docs/ci-audit-report.json scores the current post's voice at 100/100 with no tonal-drift flags; the deletion preserves the existing register."
+    },
+    "kha_ba_la": {
+      "status": "PASS",
+      "evidence": "The CI audit reports Kha 7, Ba 4, La 6, and PASS; E001 changes only the unsupported latency and leaves the structural triad intact."
+    },
+    "fractal_depth": {
+      "status": "FAIL",
+      "score": 55,
+      "evidence": "docs/ci-audit-report.json reports fractal depth 55/100, below the Rubedo PASS threshold of 80; the bounded deletion does not deepen the full post."
+    },
+    "citation_attribution": {
+      "status": "FAIL",
+      "evidence": "The CI source-grounding dimension remains 33/100 with fewer than three distinct traced sources; E001 correctly adds no replacement authority."
+    },
+    "epistemic_grounding": {
+      "status": "PASS",
+      "evidence": "E001 deletes the unsupported quantitative precision in C004, while recertified C001, C002, C003, and C005 retain mode-appropriate passing statuses."
+    },
+    "math_integration": {
+      "status": "PASS",
+      "evidence": "E001 removes the only WRONG quantitative row, C004, and the surviving load-bearing Kha-Ba-La structure in C005 retains all three passing locks."
+    },
+    "hard_acceptance": {
+      "status": "PASS",
+      "checks": [
+        {
+          "criterion": "Delete the fabricated 400-millisecond precision and introduce no replacement latency.",
+          "status": "PASS",
+          "evidence": "E001 removes '400-millisecond' and the after text contains no replacement quantity or latency."
+        },
+        {
+          "criterion": "Preserve the qualitative instruction to observe the moment before the pattern fires.",
+          "status": "PASS",
+          "evidence": "The intervention still instructs the reader to observe the moment before the pattern fires and retains the qualitative window before story and defense complete."
+        },
+        {
+          "criterion": "Do not rewrite the Kha/Ba/La frame, frontmatter, or surrounding intervention structure.",
+          "status": "PASS",
+          "evidence": "E001 changes only the target sentence's unsupported precision; frontmatter hashes are identical and the Kha/Ba/La and intervention paragraphs are unchanged."
+        }
+      ]
+    }
+  },
+  "outcome": {
+    "status": "PARTIAL_RESOLUTION",
+    "resolved_finding_ids": [
+      "C004"
+    ],
+    "remaining_findings": [],
+    "summary": "The single manifest-matched finding is resolved by deleting only the fabricated latency, but post-level fractal-depth and citation-attribution gates still fail."
+  },
+  "rubedo_verdict": "PARTIAL"
+}

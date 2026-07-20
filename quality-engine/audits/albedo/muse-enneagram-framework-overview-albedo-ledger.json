@@ -1,0 +1,650 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "muse-enneagram-framework-overview.md",
+  "source_path": "src/content/posts/muse-enneagram-framework-overview.md",
+  "source_sha256": "a2029601730ee6c735f23e02635ce0294de9ad9d2d4eaa9c8fa88479e01aa809",
+  "legacy_audit_path": "quality-engine/audits/nigredo/muse-enneagram-framework-overview.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "a nine-by-nine correspondence table"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the source enumerates nine rows across four mapped domains rather than an actual nine-by-nine table. The “nine-by-nine” dimensional description is mathematically inaccurate even though the nine-row framework itself is consequential. Legacy evidence reviewed: Nine-fold structure is the framework's skeleton; nine correspondences enumerated and correct. \"Nine-by-nine\" is loose (9 entities × 4 domains, not 81 cells) but the mapping is demonstrated.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"a nine-by-nine correspondence table\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Nine-fold structure is the framework's skeleton; nine correspondences enumerated and correct. \"Nine-by-nine\" is loose (9 entities × 4 domains, not 81 cells) but the mapping is demonstrated."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Sacred hymns meet circadian regulation meet the Reformer's perfectionism"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the correspondence is explicitly contained within the named Muse–Enneagram framework and remains non-causal and internally consistent. Legacy evidence reviewed: Melatonin–circadian link is standard physiology, framed as correspondence (\"meets\"), not causation. Individually removable; collectively the core matrix's biological domain.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"Sacred hymns meet circadian regulation meet the Reformer's perfectionism\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Melatonin–circadian link is standard physiology, framed as correspondence (\"meets\"), not causation. Individually removable; collectively the core matrix's biological domain."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Historical preservation meets bonding chemistry meets the Helper's relational focus"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the correspondence is explicitly contained within the named Muse–Enneagram framework and remains non-causal and internally consistent. Legacy evidence reviewed: Oxytocin–bonding correspondence, house frame, non-causal construction.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"Historical preservation meets bonding chemistry meets the Helper's relational focus\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Oxytocin–bonding correspondence, house frame, non-causal construction."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Musical healing meets pain relief meets the Achiever's drive"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the correspondence is explicitly contained within the named Muse–Enneagram framework and remains non-causal and internally consistent. Legacy evidence reviewed: Endorphin–pain relief correspondence, house frame, non-causal.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"Musical healing meets pain relief meets the Achiever's drive\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Endorphin–pain relief correspondence, house frame, non-causal."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "Comedy meets reward prediction meets the Individualist's longing"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the correspondence is explicitly contained within the named Muse–Enneagram framework and remains non-causal and internally consistent. Legacy evidence reviewed: Dopamine as \"reward prediction\" is current neuroscience framing, used as correspondence anchor only — no causal arrow to experience.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"Comedy meets reward prediction meets the Individualist's longing\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Dopamine as \"reward prediction\" is current neuroscience framing, used as correspondence anchor only — no causal arrow to experience."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Tragedy meets stress response meets the Investigator's intensity"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the correspondence is explicitly contained within the named Muse–Enneagram framework and remains non-causal and internally consistent. Legacy evidence reviewed: Cortisol–stress correspondence, house frame, non-causal.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Tragedy meets stress response meets the Investigator's intensity\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Cortisol–stress correspondence, house frame, non-causal."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "Love poetry meets generative chemistry meets the Loyalist's devotion"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the correspondence is explicitly contained within the named Muse–Enneagram framework and remains non-causal and internally consistent. Legacy evidence reviewed: Estrogen correspondence; \"generative chemistry\" is poetic but stays inside the correspondence register.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"Love poetry meets generative chemistry meets the Loyalist's devotion\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Estrogen correspondence; \"generative chemistry\" is poetic but stays inside the correspondence register."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Epic poetry meets forward momentum meets the Enthusiast's ambition"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the correspondence is explicitly contained within the named Muse–Enneagram framework and remains non-causal and internally consistent. Legacy evidence reviewed: Testosterone correspondence; poetic but non-causal.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Epic poetry meets forward momentum meets the Enthusiast's ambition\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Testosterone correspondence; poetic but non-causal."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Dance meets emergency response meets the Challenger's physicality"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the correspondence is explicitly contained within the named Muse–Enneagram framework and remains non-causal and internally consistent. Legacy evidence reviewed: Adrenaline–emergency response correspondence, standard physiology, non-causal.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"Dance meets emergency response meets the Challenger's physicality\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Adrenaline–emergency response correspondence, standard physiology, non-causal."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "Astronomy meets balance regulation meets the Peacemaker's equanimity"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the correspondence is explicitly contained within the named Muse–Enneagram framework and remains non-causal and internally consistent. Legacy evidence reviewed: Serotonin correspondence; \"balance regulation\" is loose pop-physiology but framed as mapping, not mechanism.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"Astronomy meets balance regulation meets the Peacemaker's equanimity\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Serotonin correspondence; \"balance regulation\" is loose pop-physiology but framed as mapping, not mechanism."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Dr. Spolski's framework provides the biochemical verification layer"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: “Dr. Spolski” is presented as an external validating authority, but the corpus supplies only an internally authored framework and no traceable doctor or publication. Legacy evidence reviewed: **Dross.** A named external authority is invoked to move the mapping \"from symbolic to empirical\" — verification borrowed from credentials instead of the reader's observation (installed belief #3), and it contradicts the post's own close (L110: \"requires observation,\" not belief). Source unverifiable from the post; if \"Dr. Spolski\" is an invented researcher this escalates to FABRICATED.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"Dr. Spolski's framework provides the biochemical verification layer\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "**Dross.** A named external authority is invoked to move the mapping \"from symbolic to empirical\" — verification borrowed from credentials instead of the reader's observation (installed belief #3), and it contradicts the post's own close (L110: \"requires observation,\" not belief). Source unverifiable from the post; if \"Dr. Spolski\" is an invented researcher this escalates to FABRICATED."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Nine constellations map to nine hormones"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable source, observation, model definition, or falsification threshold at the stated scope. Legacy evidence reviewed: House celestial-endocrine correspondence list; mapping stated as framework structure, not external claim.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"Nine constellations map to nine hormones\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House celestial-endocrine correspondence list; mapping stated as framework structure, not external claim."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "constellation visibility windows correlate with hormonal activation cycles"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the prose combines a proposed overlay, an empirical correlation, and a causal environmental mechanism in one unsourced row. Legacy evidence reviewed: Explicitly framed as the overlay's proposal (\"The overlay proposes\"), causation disclaimed. The \"shared gravitational and electromagnetic\" mechanism is physically speculative but stays inside labeled-model framing — safe harbor applies.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"constellation visibility windows correlate with hormonal activation cycles\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicitly framed as the overlay's proposal (\"The overlay proposes\"), causation disclaimed. The \"shared gravitational and electromagnetic\" mechanism is physically speculative but stays inside labeled-model framing — safe harbor applies."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Specific meteor showers activate specific Enneagram type patterns"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable source, observation, model definition, or falsification threshold at the stated scope. Legacy evidence reviewed: \"Activate\" is flat, but immediately hedged: \"These activations appear to correlate.\" House celestial-overlay system with observational framing.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"Specific meteor showers activate specific Enneagram type patterns\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "\"Activate\" is flat, but immediately hedged: \"These activations appear to correlate.\" House celestial-overlay system with observational framing."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "When cortisol is elevated and your perception has narrowed"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable source, observation, model definition, or falsification threshold at the stated scope. Legacy evidence reviewed: Conjunction, not causation; tied to the reader's own trackable experience. \"Naming the pattern... makes it observable\" is the house epistemology.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"When cortisol is elevated and your perception has narrowed\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Conjunction, not causation; tied to the reader's own trackable experience. \"Naming the pattern... makes it observable\" is the house epistemology."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "providing a biochemical basis for the observed psychological patterns"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable source, observation, model definition, or falsification threshold at the stated scope. Legacy evidence reviewed: **Dross.** Asserts hormonal shifts as the *basis* of psychological patterns — matter-before-consciousness causal arrow (installed belief #4), breaking the correspondence register the rest of the post maintains. Same register echoes at L104 (\"hormonal substrates\"), navigational there, watch in CITRINITAS.",
+      "legacy": {
+        "anchor": "L94",
+        "quote": "\"providing a biochemical basis for the observed psychological patterns\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "**Dross.** Asserts hormonal shifts as the *basis* of psychological patterns — matter-before-consciousness causal arrow (installed belief #4), breaking the correspondence register the rest of the post maintains. Same register echoes at L104 (\"hormonal substrates\"), navigational there, watch in CITRINITAS."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "The Enneagram describes integration and disintegration paths"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the named Enneagram tradition and represented directional-path teaching match at the stated level. The integration/disintegration paths materially define the Type Movement Tracking procedure and are traceable to the named Enneagram tradition. Legacy evidence reviewed: Actual Enneagram point-line dynamics (growth/stress directions), correctly described and structurally used within the Type Movement Tracking protocol. Post survives removal, but the reference is demonstrated, not name-dropped.",
+      "legacy": {
+        "anchor": "L94",
+        "quote": "\"The Enneagram describes integration and disintegration paths\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Actual Enneagram point-line dynamics (growth/stress directions), correctly described and structurally used within the Type Movement Tracking protocol. Post survives removal, but the reference is demonstrated, not name-dropped."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "field coherence effects may be active"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable source, observation, model definition, or falsification threshold at the stated scope. Legacy evidence reviewed: House field vocabulary with explicit speculative tag (\"may be\").",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"field coherence effects may be active\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House field vocabulary with explicit speculative tag (\"may be\")."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "The system will verify or falsify itself through your lived experience"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable source, observation, model definition, or falsification threshold at the stated scope. Legacy evidence reviewed: Exemplary house epistemology: falsifiable by the reader's own practice, no institution required.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"The system will verify or falsify itself through your lived experience\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Exemplary house epistemology: falsifiable by the reader's own practice, no institution required."
+      },
+      "id": "C019"
+    }
+  ]
+}

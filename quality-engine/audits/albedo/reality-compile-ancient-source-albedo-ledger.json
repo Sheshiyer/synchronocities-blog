@@ -1,0 +1,456 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "reality-compile-ancient-source.md",
+  "source_path": "src/content/posts/reality-compile-ancient-source.md",
+  "source_sha256": "1ef5c921857993dcebea8cc73ef91e091bba0474c237022ef57bca7c6ac6f657",
+  "legacy_audit_path": "quality-engine/audits/nigredo/reality-compile-ancient-source.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Somewhere in the Rigveda, composed roughly 3,500 years ago"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Mainstream philological dating places the oldest Rigvedic material in the second millennium BCE, commonly around 1500–1200 BCE, so “roughly 3,500 years ago” is a defensible historical approximation.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"Somewhere in the Rigveda, composed roughly 3,500 years ago\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim judged as history per §9; dating (~1500–1200 BCE) accurate."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "This is not a metaphor. This is a technical observation."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling mantra “source code” is a modern cross-domain synthesis. The sentence expressly denies metaphor, supplies no literal compilation mechanism, and does not declare Noesis authorship, so it launders an analogy as technical observation.",
+      "legacy": {
+        "anchor": "L29–31",
+        "quote": "\"It was source code… This is not a metaphor. This is a technical observation.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Central declared conceit; efficacy is tied to practice-falsifiable reproducibility (L61, L93), not to institutional authority. Declared, not silent."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "a measurable alteration in consciousness state"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A “measurable alteration” is externally testable, but the post names no mantra, practitioner population, state measure, comparison condition, uncertainty, or traceable study.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"a measurable alteration in consciousness state\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Generic, accurate claim; output framed as experiential and practice-replicable."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "contemporary neuroscience is only beginning to map"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The appeal to “contemporary neuroscience” does not identify evidence for the strong frequency–vocal-configuration–neurological-state mechanism or delimit its population and conditions.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"contemporary neuroscience is only beginning to map\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The sentence's only named support for the frequency→neurology claim is the institution of neuroscience (\"science is catching up\" variant of borrowed authority). Recode to the reader's own forty days of japa, or cut the clause."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Consider the Gayatri Mantra. Twenty-four syllables. Each syllable mapped to a specific energy center. The meter (chandas) is not aesthetic — it is a timing protocol that ensures the syllables hit the neural substrate in the correct sequence. Change the meter and the program crashes. Mispronounce a syllable and you get a runtime error. The ancients called this shabda-brahman — the ultimate reality as sound. We might call it Reality.compile(), the function that transforms vibratory source code into experiential output."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH",
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The paragraph inseparably mixes the traditional 24-syllable Gāyatrī meter, an untraced energy-center mapping, empirical neural timing claims, śabda-brahman, and the author’s compiler analogy. The 24-count is authentic and traceable to the 3×8 Gāyatrī meter, but removing it does not alter the claimed neural mechanism or procedure, so its mathematical role is DECORATIVE.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"Twenty-four syllables… The meter (chandas)… is a timing protocol\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Correct count (Gayatri = 3 × 8 syllables); syllable/meter structure is demonstrated and operates the \"timing protocol\" claim, like dasha arithmetic."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "the enteric nervous system, the cardiac neural network"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The enteric nervous system and intrinsic cardiac nervous system are established anatomical networks; standard neurogastroenterology and Armour’s intrinsic-cardiac-neuron work provide traceable support for the named structures, independent of the surrounding hardware analogy.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"the enteric nervous system, the cardiac neural network\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Mundane, accurate anatomy inside the declared kosha-layer mapping."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "process scheduling (the default mode network)"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Like any runtime” explicitly marks the comparison, and process scheduling is used only to image the default mode network; the post draws no literal scheduling equation or prediction from it.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"process scheduling (the default mode network)\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Real construct used inside explicitly-framed analogy (\"Like any runtime…\"); no authority clause."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The Mandukya Upanishad, for example, specifies exactly four states of consciousness (waking, dreaming, deep sleep, and turiya — the fourth) and provides the API call for accessing each one. The API call is the syllable AUM, which the text decomposes into three phonemes (A-U-M) plus the silence that follows. Each phoneme maps to a consciousness state. The silence maps to turiya. The documentation is precise, versioned, and reproducible."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-METAPHOR",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The Māṇḍūkya Upaniṣad does map A, U, M, and the measureless fourth to waking, dreaming, deep sleep, and turīya, so the four-part structure is correct, consequential, and source-traceable. But the same row merges that attributed teaching with an undeclared “API call” synthesis and claims reproducible access, requiring a split and explicit authorship.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"specifies exactly four states of consciousness… A-U-M plus the silence\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate description of the Mandukya Upanishad; house tradition named and operated."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "the neural pathways associated with the mantra become increasingly efficient"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Mantra-specific neural pathways becoming “increasingly efficient” is an externally testable neuroplasticity claim, but no population, task, neural measure, training duration, or study is supplied.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"the neural pathways associated with the mantra become increasingly efficient\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Plain process description of practice effects; no institution invoked; replicable by the reader."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Optimization — Through repetition, the neural pathways associated with the mantra become increasingly efficient. What initially requires conscious effort becomes automatic. The compiled code is optimized through use. This is why traditions prescribe specific repetition counts (108, 1,008, 100,000) — these are not arbitrary numbers but empirically determined thresholds at which the optimization reaches critical levels."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The listed repetition counts occur in practice traditions, but no evidence or derivation shows that 108, 1,008, or 100,000 are empirical optimization thresholds. The exact numbers can be removed without changing the repetition-to-automaticity argument, and their threshold provenance fails.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"(108, 1,008, 100,000)… empirically determined thresholds at which the optimization reaches critical levels\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Numbers are authentic traditional japa counts, but the claimed threshold mechanism is asserted, never shown; remove the gloss and the repetition-optimization argument survives intact (§4.4). Show the structure or cut the gloss."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "measurable in brainwave patterns, hormonal cascades, and autonomic nervous system responses"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Brainwave, hormonal, and autonomic changes are measurement claims; the post supplies no specified mantra, protocol, instrument, population, comparator, effect size, or traceable dataset.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"measurable in brainwave patterns, hormonal cascades, and autonomic nervous system responses\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Physiology framed as measurable correlate of a consciousness-state change, not as its cause; arrow not inverted."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "consciousness is fundamental and matter is derivative"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Some Upaniṣadic and Vedāntic schools teach consciousness-first metaphysics, but “the Vedic insight” treats a diverse corpus as a single doctrine and names no text, school, or translation for this formulation.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"consciousness is fundamental and matter is derivative\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology stated outright (Hermetic core equation); the post's metaphysical bedrock. ALIGNED by definition per §9."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "transmitted orally for over a thousand years before being written down"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Vedic texts were preserved through highly structured oral traditions for many centuries before surviving written manuscripts; scholarship on Vedic transmission supports an interval exceeding a millennium, while the version-control comparison remains figurative.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"transmitted orally for over a thousand years before being written down\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim judged as history per §9; broadly accurate (high-fidelity oral transmission). \"Error rate… would envy\" is declared figurative comparison."
+      },
+      "id": "C013"
+    }
+  ]
+}

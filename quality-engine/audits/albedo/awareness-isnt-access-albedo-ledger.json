@@ -1,0 +1,177 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "awareness-isnt-access.md",
+  "source_path": "src/content/posts/awareness-isnt-access.md",
+  "source_sha256": "ce2a5e668298f53fbcf8ba30dbb4e36ed9330d8cee825d61cc773000902c519c",
+  "legacy_audit_path": "quality-engine/audits/nigredo/awareness-isnt-access.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Because the loop isn't stored in the mind. It's stored in the body."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The mind/body storage distinction is explicitly developed through the named Kha/Ba house frame in the next paragraph and remains internally consistent as that model, not an external storage measurement.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"Because the loop isn't stored in the mind. It's stored in the body.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Somatic-storage claim tied to replicable observation (the flinch preceding the story); no authority invoked; governed by house Ba-frame in L53."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The flinch fires before the story starts."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The reader is the observer, the flinch and subsequent story are the objects, and the proposed 72-hour practice supplies the conditions for checking their order.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"The flinch fires before the story starts.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Directly falsifiable by the reader's own practice; confident tone, observable content — confidence rule applies."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "the grooved channel a pattern has worn into your nervous system"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The groove is explicitly defined as La, the article’s house vocabulary for inertia and repeated habit. It functions coherently as a model rather than an anatomical measurement.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"the grooved channel a pattern has worn into your nervous system\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Habit-groove phenomenology; \"ten thousand repetitions\" is idiomatic hyperbole, not a sourced statistic; framed as La (house)."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "That 400-millisecond window between stimulus and somatic response"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No source, instrument, conditions, or canonical result supports a universal 400-millisecond stimulus-to-somatic-response window. The pseudo-precise quantity is incorrect, removable, and unprovenanced.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"That 400-millisecond window between stimulus and somatic response\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Pseudo-precise latency figure with no source and no reader-replicable instrument; no canonical 400 ms stimulus-to-somatic-response window exists — invented measurement, conveniently exact for the thesis."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 77,
+        "quote": "Kha sees the pattern. Ba runs the pattern. La is the pattern."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Kha–Ba–La triad is explicitly defined and operated across the article; its three distinct roles are internally consistent, structurally consequential, and provenance-traceable within the house model.",
+      "legacy": {
+        "anchor": "L75–77",
+        "quote": "\"Kha sees the pattern. Ba runs the pattern. La is the pattern.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Kha-Ba-La triadic structure used structurally across the whole post; house cosmology — ALIGNED/INTEGRATED by definition (§9), never flagged."
+      },
+      "id": "C005"
+    }
+  ]
+}

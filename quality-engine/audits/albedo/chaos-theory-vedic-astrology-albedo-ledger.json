@@ -1,0 +1,1606 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "chaos-theory-vedic-astrology.md",
+  "source_path": "src/content/posts/chaos-theory-vedic-astrology.md",
+  "source_sha256": "06d0e9cfce46bb0f7f3b8dcb10b68c1ba3e899bc086138ba5d6e5b019df2f587",
+  "legacy_audit_path": "quality-engine/audits/nigredo/chaos-theory-vedic-astrology.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "both phase space portraits of deterministic systems sensitive to initial conditions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: A Kundli is not a demonstrated dynamical system, and the identity repeats throughout the body.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"both phase space portraits of deterministic systems sensitive to initial conditions\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A Kundli is not a demonstrated dynamical system, and the identity repeats throughout the body."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "order so complex that it appears random"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the aphoristic comparison is explicitly figurative and draws no literal numeric or causal inference. The phase-space aphorism is declared as a field-note image and is not used to extract a literal result. Legacy evidence reviewed: The aphorism defines no projection, dimension, transformation, or necessary structural role.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"order so complex that it appears random\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The aphorism defines no projection, dimension, transformation, or necessary structural role."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 30,
+        "quote": "Phase Space Field Notes"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the quoted provenance is untraceable or materially wrong. Legacy evidence reviewed: No identifiable source supports the attributed quotation.",
+      "legacy": {
+        "anchor": "L29–L30",
+        "quote": "\"Phase Space Field Notes\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No identifiable source supports the attributed quotation."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "In 1963, Edward Lorenz discovered"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. Legacy evidence reviewed: This is accurate history of Lorenz's simplified convection model.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"In 1963, Edward Lorenz discovered\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "This is accurate history of Lorenz's simplified convection model."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "never repeated yet never diverged beyond a bounded region"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: L45 repeats bounded nonperiodic Lorenz behavior, so this occurrence is removable.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"never repeated yet never diverged beyond a bounded region\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L45 repeats bounded nonperiodic Lorenz behavior, so this occurrence is removable."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "tiny changes in initial conditions produced radically different trajectories"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: L72 repeats sensitive dependence, so this occurrence is removable.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"tiny changes in initial conditions produced radically different trajectories\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L72 repeats sensitive dependence, so this occurrence is removable."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "dx = s (y - x)"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The definition, equation, or Lorenz property is correct, changes the article’s comparison, and has standard or in-post provenance. Legacy evidence reviewed: This is the first standard Lorenz differential equation.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"dx = s * (y - x)\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This is the first standard Lorenz differential equation."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "dy = x (r - z) - y"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The definition, equation, or Lorenz property is correct, changes the article’s comparison, and has standard or in-post provenance. Legacy evidence reviewed: This is the second standard Lorenz differential equation.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"dy = x * (r - z) - y\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This is the second standard Lorenz differential equation."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "dz = x y - b z"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The definition, equation, or Lorenz property is correct, changes the article’s comparison, and has standard or in-post provenance. Legacy evidence reviewed: This is the third standard Lorenz differential equation.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"dz = x * y - b * z\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This is the third standard Lorenz differential equation."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "no trajectory ever exactly repeats — yet confined to a bounded structure"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: L34 already states the same bounded nonrepeating Lorenz behavior.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"no trajectory ever exactly repeats — yet confined to a bounded structure\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L34 already states the same bounded nonrepeating Lorenz behavior."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "The Kundli (Vedic birth chart) operates on identical principles."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: No Kundli flow or attractor is supplied, and the same identity recurs throughout.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"The Kundli (Vedic birth chart) operates on identical principles.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No Kundli flow or attractor is supplied, and the same identity recurs throughout."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "celestial mechanics is Newtonian"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a defined flow, traceable source, parameter context, observation record, or warranted scope. Legacy evidence reviewed: Newtonian mechanics is a serviceable model for ordinary planetary-position calculations.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"celestial mechanics is Newtonian\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Newtonian mechanics is a serviceable model for ordinary planetary-position calculations."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "four minutes in birth time shifts the ascendant by one degree"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: same-level mathematical or physical evidence conflicts with the claim as worded. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: The mean rotation arithmetic is approximately 360°/24h, subject to coordinate details.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"four minutes in birth time shifts the ascendant by one degree\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The mean rotation arithmetic is approximately 360°/24h, subject to coordinate details."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Phase space is the mathematical space where each point represents a complete state"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The definition, equation, or Lorenz property is correct, changes the article’s comparison, and has standard or in-post provenance. Legacy evidence reviewed: This correct definition is necessary to the post's stated comparison.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"Phase space is the mathematical space where each point represents a complete state\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This correct definition is necessary to the post's stated comparison."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "For the Lorenz system, phase space is three-dimensional"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The definition, equation, or Lorenz property is correct, changes the article’s comparison, and has standard or in-post provenance. Legacy evidence reviewed: The first-order system has state variables x, y, and z.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"For the Lorenz system, phase space is three-dimensional\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The first-order system has state variables x, y, and z."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "approximately 27 dimensions for nine grahas"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: same-level mathematical or physical evidence conflicts with the claim as worded. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: The coordinates are not independent and no flow state is defined; later identity claims repeat the error.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"approximately 27 dimensions for nine grahas\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The coordinates are not independent and no flow state is defined; later identity claims repeat the error."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "a two-dimensional manifold embedded in three-dimensional space"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: same-level mathematical or physical evidence conflicts with the claim as worded. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: Noninteger dimension excludes a smooth two-manifold, but the comparison survives this occurrence's deletion.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"a two-dimensional manifold embedded in three-dimensional space\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Noninteger dimension excludes a smooth two-manifold, but the comparison survives this occurrence's deletion."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "fractal dimension of approximately 2.06"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: This is an accurate approximate Lorenz-attractor dimension, but removable from the Kundli identity thesis.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"fractal dimension of approximately 2.06\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "This is an accurate approximate Lorenz-attractor dimension, but removable from the Kundli identity thesis."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The Kundli attractor, if one could compute it"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a defined flow, traceable source, parameter context, observation record, or warranted scope. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: No flow, invariant set, metric, or computation defines this proposed attractor.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"The Kundli attractor, if one could compute it\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No flow, invariant set, metric, or computation defines this proposed attractor."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 63,
+        "quote": "Transform celestial positions to phase space"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a defined flow, traceable source, parameter context, observation record, or warranted scope. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: The method body is `pass`; the technical label supplies no transformation.",
+      "legacy": {
+        "anchor": "L61–L63",
+        "quote": "\"Transform celestial positions to phase space\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The method body is `pass`; the technical label supplies no transformation."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 67,
+        "quote": "Track pattern stability and evolution"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a defined flow, traceable source, parameter context, observation record, or warranted scope. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: Again the method body is `pass`; no stability or evolution calculation exists.",
+      "legacy": {
+        "anchor": "L65–L67",
+        "quote": "\"Track pattern stability and evolution\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Again the method body is `pass`; no stability or evolution calculation exists."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Two trajectories starting from nearly identical points diverge exponentially"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: L34 already states sensitive dependence, making this occurrence removable.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"Two trajectories starting from nearly identical points diverge exponentially\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L34 already states sensitive dependence, making this occurrence removable."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Lyapunov exponent of approximately 0.9"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a defined flow, traceable source, parameter context, observation record, or warranted scope. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: The value is correct elaboration but removable from the repeated sensitive-dependence premise.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"Lyapunov exponent of approximately 0.9\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The value is correct elaboration but removable from the repeated sensitive-dependence premise."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The Kundli system exhibits the same sensitivity"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: Time-bin sensitivity is not exponential divergence, and the claim is repeated across the post.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"The Kundli system exhibits the same sensitivity\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Time-bin sensitivity is not exponential divergence, and the claim is repeated across the post."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "D-1 (rashi) chart divides the zodiac into 12 segments"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the named Jyotish structure and represented divisional count match at the stated traditional level. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: The partition count is correct, but this occurrence can be removed without collapsing the comparison.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"D-1 (rashi) chart divides the zodiac into 12 segments\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The partition count is correct, but this occurrence can be removed without collapsing the comparison."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "D-9 (navamsha) divides it into 108 segments"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the named Jyotish structure and represented divisional count match at the stated traditional level. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: The partition count is correct; it does not itself establish chaotic sensitivity and is removable.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"D-9 (navamsha) divides it into 108 segments\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The partition count is correct; it does not itself establish chaotic sensitivity and is removable."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "D-60 (shashtiamsha) divides it into 720 segments"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the named Jyotish structure and represented divisional count match at the stated traditional level. The mathematical detail is correct or provisionally usable but removable; its consequence lock fails and provenance is separately assessed. Legacy evidence reviewed: The partition count is correct, but individually removable from the false chaos equivalence.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"D-60 (shashtiamsha) divides it into 720 segments\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The partition count is correct, but individually removable from the false chaos equivalence."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Each higher division magnifies the initial condition sensitivity"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: Finer astrological partitions are not Lorenz-style exponential trajectory divergence.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"Each higher division magnifies the initial condition sensitivity\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Finer astrological partitions are not Lorenz-style exponential trajectory divergence."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Fractals — the geometric objects generated by chaotic systems"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: same-level mathematical or physical evidence conflicts with the claim as worded. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: Not all fractals arise from chaotic systems and not all chaotic systems generate fractal objects.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"Fractals — the geometric objects generated by chaotic systems\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Not all fractals arise from chaotic systems and not all chaotic systems generate fractal objects."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "the same butterfly pattern at every magnification level"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: same-level mathematical or physical evidence conflicts with the claim as worded. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: A Lorenz attractor is fractal, but it does not reproduce an identical butterfly at every zoom.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"the same butterfly pattern at every magnification level\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A Lorenz attractor is fractal, but it does not reproduce an identical butterfly at every zoom."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "The D-chart system is the Vedic implementation of scale invariance."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: No scale transformation exists, and the equivalence is repeated at L84 and later.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"The D-chart system is the Vedic implementation of scale invariance.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No scale transformation exists, and the equivalence is repeated at L84 and later."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The patterns are self-similar"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: Thematic recurrence is not geometric self-similarity, and the article repeats the claim-family.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"The patterns are self-similar\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Thematic recurrence is not geometric self-similarity, and the article repeats the claim-family."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "trajectories circle one lobe for a while"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The definition, equation, or Lorenz property is correct, changes the article’s comparison, and has standard or in-post provenance. Legacy evidence reviewed: This is accurate and necessary source behavior for the subsequent dasha comparison.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"trajectories circle one lobe for a while\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This is accurate and necessary source behavior for the subsequent dasha comparison."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "Human consciousness exhibits the same switching behavior."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. Legacy evidence reviewed: Heterogeneous life phases are equated with lobe switching, one of many repeated identities.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"Human consciousness exhibits the same switching behavior.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Heterogeneous life phases are equated with lobe switching, one of many repeated identities."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "The Vimshottari Dasha system models these switches"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: A fixed sequence is not irregular lobe switching, and later rows repeat the attractor analogy.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"The Vimshottari Dasha system models these switches\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A fixed sequence is not irregular lobe switching, and later rows repeat the attractor analogy."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "defines the set of all possible life patterns"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: No Kundli basin exists; deleting this occurrence leaves the repeated thesis intact.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"defines the set of all possible life patterns\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No Kundli basin exists; deleting this occurrence leaves the repeated thesis intact."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "maintains its butterfly shape regardless of how long the system runs"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The definition, equation, or Lorenz property is correct, changes the article’s comparison, and has standard or in-post provenance. Legacy evidence reviewed: The invariant attracting set is stable for fixed classical parameters.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"maintains its butterfly shape regardless of how long the system runs\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The invariant attracting set is stable for fixed classical parameters."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "a birth chart's fundamental patterns persist throughout life"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SPLIT"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: Persistence is not invariant geometry, and the same life-pattern identity recurs.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"a birth chart's fundamental patterns persist throughout life\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Persistence is not invariant geometry, and the same life-pattern identity recurs."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "you can predict the geometric structure it will inhabit"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The definition, equation, or Lorenz property is correct, changes the article’s comparison, and has standard or in-post provenance. Legacy evidence reviewed: This correctly distinguishes Lorenz point prediction from attractor-level qualitative prediction.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"you can predict the geometric structure it will inhabit\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This correctly distinguishes Lorenz point prediction from attractor-level qualitative prediction."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "you can predict the patterns, themes, and developmental arcs"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a defined flow, traceable source, parameter context, observation record, or warranted scope. Legacy evidence reviewed: Prediction is asserted without data, but this local sentence does not carry the post alone.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"you can predict the patterns, themes, and developmental arcs\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Prediction is asserted without data, but this local sentence does not carry the post alone."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "The Lorenz equations generate the attractor computationally."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the mathematical or historical claim is reproducible at the strength stated from the named Lorenz model or explicit derivation. The definition, equation, or Lorenz property is correct, changes the article’s comparison, and has standard or in-post provenance. Legacy evidence reviewed: The displayed differential system numerically generates trajectories on the attractor.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"The Lorenz equations generate the attractor computationally.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The displayed differential system numerically generates trajectories on the attractor."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "The birth chart generates it observationally."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: A static chart does not generate a trajectory, and adjacent conclusions repeat the same identity.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"The birth chart generates it observationally.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A static chart does not generate a trajectory, and adjacent conclusions repeat the same identity."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "The mathematical content is the same"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: Kundli lacks defining dynamical structures, and L112 repeats the conclusion.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"The mathematical content is the same\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Kundli lacks defining dynamical structures, and L112 repeats the conclusion."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "The seers who developed Jyotish were chaos theorists."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a defined flow, traceable source, parameter context, observation record, or warranted scope. Legacy evidence reviewed: The anachronistic identity is unsupported and not uniquely necessary to the repeated thesis.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"The seers who developed Jyotish were chaos theorists.\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The anachronistic identity is unsupported and not uniquely necessary to the repeated thesis."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "the ability to perceive phase space structure directly"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a defined flow, traceable source, parameter context, observation record, or warranted scope. Legacy evidence reviewed: The invented faculty is one removable support for the already repeated equivalence.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"the ability to perceive phase space structure directly\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The invented faculty is one removable support for the already repeated equivalence."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "Their charts are phase portraits. Their dashas are trajectory segments."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: These are unsupported re-labelings, and yogas are likewise not demonstrated attractor basins.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"Their charts are phase portraits. Their dashas are trajectory segments.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "These are unsupported re-labelings, and yogas are likewise not demonstrated attractor basins."
+      },
+      "id": "C046"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "The mathematics is the same."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the prose presents a Noesis Lorenz–Kundli analogy or traditional teaching as an identical mathematical or empirical mechanism. The dynamical-system, manifold, sensitivity, or self-similarity mapping is mathematically misapplied; correctness fails. Legacy evidence reviewed: The conclusion repeats the false identity already stated at L4, L47, L110, and elsewhere.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"The mathematics is the same.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The conclusion repeats the false identity already stated at L4, L47, L110, and elsewhere."
+      },
+      "id": "C047"
+    }
+  ]
+}

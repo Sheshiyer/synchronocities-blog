@@ -1,0 +1,313 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "sacred-runtime-bali-padiyami.md",
+  "source_path": "src/content/posts/sacred-runtime-bali-padiyami.md",
+  "source_sha256": "0d3249197db1c00f9ddb36139a3d5728c2e9f7c089869a172a5481a9929020e0",
+  "legacy_audit_path": "quality-engine/audits/nigredo/sacred-runtime-bali-padiyami.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "I knew about scapegoats from Walter Burkert's Greek Religion"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The first-person source trace names Walter Burkert and Greek Religion; the immutable audit confirms the pharmakos reconstruction is represented faithfully.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"I knew about scapegoats from Walter Burkert's *Greek Religion*\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Historical claim judged as history (§9): attribution accurate — Burkert does reconstruct the pharmakos; honest named sourcing, not institutional authority."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "garbage collection from mark-and-sweep algorithms in a CS textbook"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author reports their own prior knowledge of mark-and-sweep from a computer-science textbook, then explicitly introduces the garbage-collection comparison as their interpretive lens.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"garbage collection from mark-and-sweep algorithms in a CS textbook\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Declared CS conceit introduced in first person; §5 safe harbor ruling covers all pointer/cron/sweep/deallocation tokens throughout — declared analogy, never silently upgraded to mechanism."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Burkert notes that the pharmakos was drawn from the margins"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence reports what Burkert notes, names the source, and faithfully represents his account of marginal pharmakos victims and crisis ritual.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Burkert notes that the pharmakos was drawn from the margins\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Judged as history: consistent with Burkert's account (criminals, outsiders, the deformed). Reactive-framing is Burkert's own crisis-ritual reading; checkable, not borrowed authority."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The wuku cycle tracks thirty seven-day weeks"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The wuku calendar’s thirty seven-day weeks are faithfully reported; 30 × 7 = 210 is correct, structurally necessary to the schedule argument, and traceable through the named calendar.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"The *wuku* cycle tracks thirty seven-day weeks\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Calendar arithmetic shown and correct (30 × 7 = 210); the demonstrated structure beneath the \"cron job written in days and lunar phases\" claim. Removal collapses the scheduling argument."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The palelintangan maps planetary positions to physiological states"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The named palelintangan tradition is accurately reported as mapping planetary positions to physiological and calendrical meanings; this certifies attribution, not empirical causation.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"The *palelintangan* maps planetary positions to physiological states\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House cosmology (situated observation, cross-scale correspondence); ethnographically accurate description of the Balinese astrological calendar."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "the slow cortisol load of kinship networks that never fully discharge"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Cortisol load” assigns an unmeasured physiological correlate to whole kinship networks and an indefinite discharge mechanism without population, assay, or source.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"the slow cortisol load of kinship networks that never fully discharge\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Chemistry framed as the body's signature of social load — arrow runs experience → physiology; not INVERTED. No institution cited."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "Social systems generate entropy."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Thermodynamic entropy is silently turned into a social law without a defined system, state variables, or declared analogy. The mathematical use is wrong and removable.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"Social systems generate entropy.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Entropy used to mean generic disorder/accumulation — §4.3 \"entropy used to mean 'disorder and decay.'\" No mechanism, no defined system, not declared as analogy; silently stated as social law. Also fails §4.4 (DECORATIVE alternative)."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "The body accumulates cortisol, glycated hemoglobin, fragmented sleep"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The line combines cortisol, glycated hemoglobin, and fragmented sleep under one “accumulates” verb without measures, time scale, population, or source. Split and scope the correlates.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"The body accumulates cortisol, glycated hemoglobin, fragmented sleep\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Measurable stress correlates stated as signatures of accumulated load, not origins of experience. Physiologically accurate direction."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "the HPA axis downregulates its own receptor density"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The first-person organizational observation does not measure HPA receptor density. The physiological mechanism needs a named receptor, conditions, and traceable source.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"the HPA axis downregulates its own receptor density\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate chronic-stress physiology (glucocorticoid receptor downregulation) inside first-person observation (\"I have seen… in myself\"); \"like a signal with no receiver\" is declared analogy."
+      },
+      "id": "C009"
+    }
+  ]
+}

@@ -34,7 +34,7 @@ The Tryambakam Noesis Engine operates sixteen perceptual lenses. Not as a collec
 
 **Panchanga** — the Vedic calendar — maps the quality of time itself. Five elements (Tithi, Vara, Nakshatra, Yoga, Karana) describe not what will happen but the character of the moment in which things happen. Today's Nakshatra determines which compass direction opens first. This is not prediction; it is environmental assessment.
 
-**Vimshottari Dasha** provides the long-term timeline: a 120-year planetary cycle divided into periods ruled by specific planets. Where you are in this cycle determines which areas of your chart are active. The 19-year Saturn period has a fundamentally different operating character than the 6-year Venus period.
+**Vimshottari Dasha** provides the long-term timeline: a 120-year planetary cycle divided into periods ruled by specific planets. Where you are in this cycle determines which areas of your chart are active. The 19-year Saturn period has a fundamentally different operating character than the 20-year Venus period.
 
 **Transits** are real-time planetary positions against your natal chart. Not fate — atmospheric conditions. The weather report for consciousness.
 

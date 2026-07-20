@@ -1,0 +1,519 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "compassion-runtime.md",
+  "source_path": "src/content/posts/compassion-runtime.md",
+  "source_sha256": "056eb657d48f1a34084fad0de07e32d47add25a444ac5257cb33d976a6318fa4",
+  "legacy_audit_path": "quality-engine/audits/nigredo/compassion-runtime.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "The amygdala had already fired. The hypothalamic-pituitary-adrenal axis was already circulating cortisol"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author directly observes insomnia, but firing of the amygdala and circulating cortisol are unmeasured interpretations; the observation and inferred mechanism must be split.",
+      "legacy": {
+        "anchor": "L32",
+        "quote": "\"The amygdala had already fired. The hypothalamic-pituitary-adrenal axis was already circulating cortisol\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person insomnia account; anatomy is descriptive framing of an embodied, replicable experience. Consciousness stays primary (\"hijacked shell\"), so no inversion."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "Joseph LeDoux's laboratory at NYU has mapped this circuitry precisely"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "LeDoux and NYU are named, but no paper, date, method, or passage supports the claim that the laboratory mapped this broad circuitry “precisely.”",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"Joseph LeDoux's laboratory at NYU has mapped this circuitry precisely\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Real research, accurately described, but the claim's warrant is the named lab, not reader-replicable observation. Carries the \"not a bug, it is the design\" keystone of the kernel metaphor. Recode: the flinch precedes recognition — watch it yourself."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "These are not metaphors. They are anatomically distinct circuits."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Panksepp’s program is named, but the exact anatomical distinctness claim supplies no primary source, species/method limits, or warrant for generalizing seven systems to human emotion.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"These are not metaphors. They are anatomically distinct circuits.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Panksepp's seven systems are real and correctly listed, but stated as settled fact on the program's authority; §5 anti-analogy phrasing forecloses the safe harbor. Grounds the \"not the author of your emotions\" thesis."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "The emotion was the output of the circuit, not a reaction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stimulation-associated animal behavior does not by itself establish that emotion is generated by a circuit or is not a reaction; the causal and human-level generalization exceeds the evidence presented.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"The emotion was the output of the circuit, not a reaction\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Matter→experience arrow stated in the post's own voice and generalized to the reader. House frame: feeling is primary, circuit activity is its signature."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "heart rate variability, galvanic skin response, muscle tension, breath depth, gut motility"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The listed signals are measurable, but the claim that they are outputs written by a “limbic kernel” supplies no procedure or source tying every measure to that singular process.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"heart rate variability, galvanic skin response, muscle tension, breath depth, gut motility\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Body-read signals the reader can check; \"telemetry\" is declared OS metaphor."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The split-brain research by Michael Gazzaniga demonstrated this explicitly"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post names Michael Gazzaniga and accurately attributes the split-brain interpreter finding to his research; this row reports the source rather than using attribution as empirical proof of everyday anger.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"The split-brain research by Michael Gazzaniga demonstrated this explicitly\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Accurate report of the interpreter findings, but \"demonstrated explicitly\" + named researcher is the warrant. The observable gold: notice yourself inventing reasons after the fact."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "can be decoupled from the salience network through specific practices"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Network decoupling through unspecified practices is asserted without a study, participants, practice definition, imaging measure, or uncertainty.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"can be decoupled from the salience network through specific practices\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "DMN claim rests on unnamed neuroimaging research; \"This is not a spiritual claim. It is a neuroanatomical one\" deliberately hangs the witness thesis on neuro-authority. The contemplative observation itself is replicable and would pass."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "established that traumatic emotional encoding migrates from declarative memory into procedural memory"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A popular book and date are named, but “established” migration from declarative to procedural memory lacks a method-matched primary source and overstates a complex trauma account.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"established that traumatic emotional encoding migrates from declarative memory into procedural memory\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Real book, fair gloss, but \"established that\" + named authority does the work; the shoulder-brace/jaw-lock phenomenology that follows is the observable ground."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "I learned to read my own telemetry through a specific practice: tracking the felt sense of emotion before naming it. Eugene Gendlin called this \"focusing\" — attending to the \"felt sense,\" the pre-verbal bodily awareness of a situation. The practice is not about relaxation. It is about precision. Where in the body does this emotion live? What is its temperature? Its texture? Its movement? Does it want to expand or contract? Does it have a direction? These questions sound like poetry. They are actually diagnostic. The body encodes emotional information in somatic parameters that the linguistic left hemisphere cannot access directly. Gendlin's research showed that psychotherapy clients who could attend to their felt sense progressed faster than those who could only narrate. The body knows before the mind knows that it knows."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This single span mixes first-person felt-sense practice, attribution to Gendlin, a left-hemisphere access mechanism, a comparative therapy outcome, and a universal conclusion; the modes cannot be judged atomically.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"attending to the 'felt sense,' the pre-verbal bodily awareness of a situation\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Gendlin's focusing described as a practice the reader can run; questions are diagnostic prompts, not authority claims."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Gendlin's research showed that psychotherapy clients who could attend to their felt sense progressed faster"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The faster-progress claim names Gendlin generally but provides no study, client population, outcome measure, comparator, effect size, or source.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"Gendlin's research showed that psychotherapy clients who could attend to their felt sense progressed faster\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Textbook \"research showed\" clause; the practice two sentences earlier already carries the claim observationally."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "my autonomic nervous system executing a threat-detection routine that was compiled"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Chest tightening is a situated first-person observation, while autonomic threat detection and compiled history are unmeasured mechanism and computing analogy; the mixed modes require separation.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"my autonomic nervous system executing a threat-detection routine that was compiled\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person, embodied, replicable (chest tightening in conversation); \"compiled\" is declared computing analogy."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "demonstrates that emotional categories are not universal"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Barrett’s book is named, but the universal/non-universal category conclusion is presented without the anthropological populations, measures, competing evidence, or causal limits.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"demonstrates that emotional categories are not universal\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Warrant is \"the anthropological literature … demonstrates\" plus Barrett's book; note Barrett's constructed-emotion model is itself contested in affective science (and sits in tension with the Panksepp circuits the post also asserts). The hedged \"may have evolved\" speculation nearby is safe-harbored."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "It is a metabolic process, and it consumes glucose"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Compassion is first called a metabolic process and then assigned literal glucose consumption, silently turning a capacity metaphor into a biological mechanism.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"It is a metabolic process, and it consumes glucose\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Echoes the ego-depletion/glucose model of capacity, which failed large replications, stated as plain physiological fact; compassion is not literally a metabolic process — metaphor silently upgraded to mechanism."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "The research on compassion fatigue (Figley, 1995; Conrad & Kellar-Guenther, 2006) documents"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post gives named authors and years and accurately attributes documentation of compassion fatigue to that literature; the row is a source report, not proof of the later house metaphor.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"The research on compassion fatigue (Figley, 1995; Conrad & Kellar-Guenther, 2006) documents\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Citations are real, but the warrant is the literature; the nurse/therapist collapse vignettes that follow are the observable ground."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Kha is the witness that recognizes the process without becoming it"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Kha-Ba-La section explicitly defines witness, host, and resistance and then operates them as a three-part loop; the triad is internally consistent, structurally consequential, and textually traceable.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Kha is the witness that recognizes the process without becoming it\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Kha-Ba-La triad operated structurally — Kha (witness), Ba (body/host), La (resistance), run as a loop. House cosmology, canonical structure, demonstrated mapping. ALIGNED/INTEGRATED by definition."
+      },
+      "id": "C015"
+    }
+  ]
+}

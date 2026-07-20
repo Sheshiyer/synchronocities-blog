@@ -1,0 +1,292 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "five-field-pattern-log.md",
+  "source_path": "src/content/posts/five-field-pattern-log.md",
+  "source_sha256": "04f9784dea7c29bd961f886caba091e6be4ba4bc9bd4dac3b062a7f61a182a45",
+  "legacy_audit_path": "quality-engine/audits/nigredo/five-field-pattern-log.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "It captures what you think happened. Not what your nervous system did."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post explicitly defines journaling as narrated retrospective output and the five-field log as a circuit map; the distinction is a coherent method premise, not a universal neurophysiological measurement.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"It captures what you think happened. Not what your nervous system did.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Somatic-vs-narrative distinction is replicable by the reader's own logging practice; no authority invoked. Pass."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "pre-verbal, pre-narrative, operating at approximately 80 milliseconds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The approximately 80-millisecond body-layer latency has no source, measure, population, or operational boundary; the layering thesis survives removal of this precision figure.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"pre-verbal, pre-narrative, operating at approximately 80 milliseconds.\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Unattributed neurophysiology-style latency figure; suspiciously precise, no source, not reader-replicable. Layering claim survives deletion of the number."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "the nervous system running its conditioned response, operating at approximately 300 milliseconds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The approximately 300-millisecond conditioned-response latency is unsourced and unmeasured, while the functional sequence remains intact without the number.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"the nervous system running its conditioned response, operating at approximately 300 milliseconds\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Same class: unsourced millisecond statistic presented as fact. Argument (inertia layer precedes story) stands without it."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "This arrives last, at approximately 800 milliseconds, and claims it was present"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The approximately 800-millisecond narrative-arrival latency completes an unproven 80/300/800 ladder; its numeric precision contributes no necessary structure.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"This arrives last, at approximately 800 milliseconds, and claims it was present\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Third unsourced latency figure completing a fake-precision 80/300/800 ladder. Temporal-ordering thesis does not need the numbers."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Five entries per day. Twenty-five data fields per day."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Five entries multiplied by the five defined fields reproducibly yields twenty-five fields per day; this occurrence is correct but redundant with the two stated inputs.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"Five entries per day. Twenty-five data fields per day.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Arithmetic shown and correct (5 × 5); operationalizes the protocol's data-density structure rather than name-dropping."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "After approximately thirty-five entries, the data speaks"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Thirty-five entries is reproducibly derived from five entries per day for seven days and materially fixes the protocol dose, but no observation record supports the claim that patterns reliably emerge at that threshold.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"After approximately thirty-five entries, the data speaks\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Consistent with the stated protocol (5 entries × 7 days); the dose → emergence arithmetic is part of the method's structure."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "Two to three trigger categories will produce eighty percent of your state shifts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prediction that two or three trigger categories account for eighty percent of state shifts has no dataset or population; the quantities add unsupported precision without changing the broader concentration hypothesis.",
+      "legacy": {
+        "anchor": "L94",
+        "quote": "\"Two to three trigger categories will produce eighty percent of your state shifts\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicit prediction about the reader's own dataset after one week of logging; falsifiable by the practice itself. Pass."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "One body region will dominate the signal field."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A single body region may dominate an individual log, but the article supplies no observation record or population supporting this universal seven-day prediction.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"One body region will dominate the signal field.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Same class: reader-verifiable prediction from the reader's own thirty-five entries, not an institutional claim. Pass."
+      },
+      "id": "C008"
+    }
+  ]
+}

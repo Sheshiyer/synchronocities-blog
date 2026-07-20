@@ -1,0 +1,548 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "fungal-intelligence-distributed-processing.md",
+  "source_path": "src/content/posts/fungal-intelligence-distributed-processing.md",
+  "source_sha256": "83c2f8a01c0f01404779345faf0503b0be0696c7590c4f35fbaa6df2fc2d83ff",
+  "legacy_audit_path": "quality-engine/audits/nigredo/fungal-intelligence-distributed-processing.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "secreted laccases and peroxidases, and reduced the Seattle Times"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The narrator directly observed newspaper degradation, but the same span interprets that change as secretion of laccases and peroxidases without reporting an assay. Split the situated observation from the externally sourced enzyme mechanism.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"secreted laccases and peroxidases, and reduced the Seattle Times\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person, replicable observation; enzyme identification accurate for *Pleurotus*."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Paul Stamets calls mycelium the neurological network of nature"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Paul Stamets used the “neurological network of nature” formulation in his 2008 TED talk; this row accurately reports a named speaker’s comparison without treating his authority as empirical proof.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"Paul Stamets calls mycelium the neurological network of nature\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Real attribution (TED 2008); the post supplies its own functional mechanism immediately after — the name opens, it does not carry."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "spreads across 2,385 acres in Oregon's Malheur National Forest"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "USDA Malheur National Forest documentation identifies Armillaria genet D as covering 2,385 acres, providing a traceable official record for the place and estimate.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"spreads across 2,385 acres in Oregon's Malheur National Forest\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "USDA-documented figure for *Armillaria ostoyae*; accurate. Repeated in frontmatter prompts (L37)."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The Hermetic Principle of Correspondence — as above, so below"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“As above, so below” is accurately reported as the Principle of Correspondence in the modern Hermetic text The Kybalion; the row attributes the teaching rather than using it as empirical proof.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"The Hermetic Principle of Correspondence — *as above, so below*\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology operating the cross-scale recursion; the post's spine."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The grammar is recursive: nodes, edges, gradients, feedback"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Nodes, edges, gradients, and feedback provide a consequential four-part structure reused across the galaxy, neural, and mycelial examples at lines 44 and 60; the internal comparison makes the formal structure reproducible. The post nevertheless hides Noesis authorship and does not inventory each ingredient as a separately passing claim, so the synthesis is laundered.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"The grammar is recursive: nodes, edges, gradients, feedback\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Three-scale mapping demonstrated step by step (galaxy / neural / mycelial, repeated verbatim L60); remove it and the argument collapses."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "The mushroom that solves a maze in a Japanese laboratory"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nakagaki et al. (Nature 2000) demonstrated maze solving by Physarum polycephalum, an amoebozoan slime mold, not a mushroom or fungus. The experiment is real but the organism’s classification in this claim is false.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"The mushroom that solves a maze in a Japanese laboratory\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Real, replicable experiment (Nakagaki et al. 2000)."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "recreated the Tokyo rail network in twenty-six hours"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Tero, Nakagaki, and colleagues (Science 2010) placed Physarum on a Tokyo-area map and obtained a network with rail-like efficiency and fault tolerance after roughly 26 hours; this supports the bounded experimental description.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"recreated the Tokyo rail network in twenty-six hours\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Tero/Nakagaki et al. 2010 (Science), Hokkaido affiliation and fault-tolerance framing accurate."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "It is identical to simulated annealing in materials science"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Physarum’s flow-reinforcement dynamics and simulated annealing’s temperature-scheduled stochastic search are not identical algorithms. The equivalence is mathematically wrong, source-checkable, and removable without changing the broader optimization example.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"It is identical to simulated annealing in materials science\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "§4.4 test: paragraph and argument survive removal. \"Identical\" also overstates — Physarum tube adaptation is flow-reinforcement, not temperature-scheduled annealing. Mechanism gloss present (\"explore, prune, keep\") but the named method does no structural work."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "tracing carbon movement through forest soil using isotope labeling"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Simard et al. (Nature 1997) used reciprocal carbon-isotope labeling in field plots to measure transfer between paper birch and Douglas-fir connected by ectomycorrhizae; the method attribution is accurate.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"tracing carbon movement through forest soil using isotope labeling\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Simard et al. 1997 δ13C transfer study; method named, mechanism shown, institution not load-bearing."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "travel through the mycelial network to neighboring trees"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The aphid-warning experiment was Babikova et al. (Ecology Letters 2013) on broad bean plants, not a Simard-lab study on trees. It showed mycelial networks acting as signal conduits and receiver plants changing volatiles; it did not show volatile compounds themselves traveling through the fungal body as written.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"travel through the mycelial network to neighboring trees\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Defense signaling via mycorrhizae is real (Song et al. 2015, Simard lab); the aphid detail compresses Babikova et al. 2013 — minor conflation, not fabrication. \"Not a cute name coined by a journalist\" is historically shaky (the phrase was Nature's 1997 cover coinage) — judged as history, noted, not flagged; the load-bearing claim is the architecture, which stands."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The lignin peroxidases that break down tree fiber"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "White-rot fungi such as Pleurotus produce lignin-degrading peroxidases that oxidize lignocellulosic material; fungal enzymology literature directly supports the bounded biochemical function in the anchor.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"The lignin peroxidases that break down tree fiber\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "~300 Ma lignin-degradation timescale consistent with the molecular/fossil record; carbon-cycle stakes accurate."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "the Atharva Veda's concept of antar-agni, the fire within"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Antarāgni is attested principally as an “inner” or digestive fire in later Sanskrit and Ayurvedic usage; the post supplies no Atharvaveda hymn or translation for its specific generative-substrate meaning. The named provenance is therefore materially misleading.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"the Atharva Veda's concept of antar-agni, the fire within\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House tradition framing decomposition as generative heat."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "recognize this recursion not as analogy but as identity"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The galaxy–neural–mycelial identity is the author’s cross-scale inference from selected similarities. Calling it identity under the Hermetic principle neither declares Noesis authorship nor proves literal sameness, so the synthesis is laundered as inherited fact.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"recognize this recursion not as analogy but as identity\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Declared identity under Hermetic correspondence — house cosmology by definition; explicitly argued, not smuggled."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "The body determines what the witness can perceive"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Within the post’s Kha/Ba vocabulary, the body conditions the witness’s available field without being claimed to create the witness. That declared situated-observer premise is internally consistent.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"The body determines what the witness can perceive\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Situated/embodied observation doctrine (Kha-Ba-La triad), not matter-first inversion — the witness is not produced by the substrate, only conditioned in scope."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "an estimated 2,400 to 8,650 years"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Official USDA material gives model-dependent estimates for genet D ranging from about 1,900 to 8,650 years (with intermediate estimates), so the exact 2,400 lower bound requires a named edition or narrower attribution.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"an estimated 2,400 to 8,650 years\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "USDA age estimate for the Malheur colony; accurate. \"Since before vertebrates existed\" — fungi predate vertebrates: accurate."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The Quine is complete when the questioner becomes the question"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A quine is a program that outputs its own source; “the questioner becomes the question” does not implement or derive that structure. The computer-science term is misapplied, unprovenanced, and removable without affecting the conclusion.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"The Quine is complete when the questioner becomes the question\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Self-reference name-drop (CS/logic); appears once, never operationalized, no demonstrated correspondence; sentence and argument survive removal."
+      }
+    }
+  ]
+}

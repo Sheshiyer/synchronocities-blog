@@ -1,0 +1,1001 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "chakra-bioelectricity-mapping.md",
+  "source_path": "src/content/posts/chakra-bioelectricity-mapping.md",
+  "source_sha256": "0ffa853de36f98a25168719cae7063246cba1866d5fa88231b2a4c3aa81318aa",
+  "legacy_audit_path": "quality-engine/audits/nigredo/chakra-bioelectricity-mapping.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "They are bioelectric nodes — measurable voltage differentials along the spinal axis"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Measurable chakra-specific voltage differentials along the spine are asserted literally, but no instrument, locations, values, conditions, or traceable study is supplied.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"They are bioelectric nodes — measurable voltage differentials along the spinal axis\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Frontmatter excerpt. Metaphor explicitly upgraded to mechanism (\"not mystical... They are\"); no such established measurables exist."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "regulate information processing, organ function, and consciousness state"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Voltage is claimed to regulate organ function and consciousness state without a defined measure, population, mechanism, or causal experiment.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"regulate information processing, organ function, and consciousness state\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Frontmatter excerpt. Voltage regulates consciousness state: matter→experience arrow contradicts consciousness-primary frame."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "Each point corresponds to a major nerve plexus, an endocrine gland"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A precise seven-way chakra–plexus–gland correspondence is externally testable but not established by the anatomical or historical evidence supplied.",
+      "legacy": {
+        "anchor": "L30",
+        "quote": "\"Each point corresponds to a major nerve plexus, an endocrine gland\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Chakra↔plexus↔gland correspondence presented as precise fact; it is a contested 20th-century syncretic mapping, not established anatomy."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "Modern bioelectric research documents the same points as voltage gradients"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claimed modern research corpus documenting chakra points as voltage gradients is not identified and the asserted literature-level equivalence is false.",
+      "legacy": {
+        "anchor": "L30",
+        "quote": "\"Modern bioelectric research documents the same points as voltage gradients\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No bioelectric literature maps chakra points; the claimed documentation does not exist. Also authority-borrowed in structure (unnamed \"research\" carrying the thesis)."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "typically around negative seventy millivolts at rest"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Approximately −70 mV is a standard high-level resting membrane-potential value for many excitable cells; the rationale limits the claim to that conventional scope.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"typically around negative seventy millivolts at rest\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate, uncontested resting membrane potential value."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "gene expression shifts, protein production alters, communication with neighboring cells modifies"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Changes in membrane potential can affect signaling, gene expression, and protein activity; this is established cellular bioelectric physiology at the quoted high level.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"gene expression shifts, protein production alters, communication with neighboring cells modifies\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Consistent with published bioelectric signaling research (e.g., Levin lab domain); stated plainly, no authority appeal."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "individual cellular voltages aggregate into regional field patterns"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Regional spinal field patterns corresponding precisely to chakra points are asserted without measurements, spatial definitions, or a traceable study.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"individual cellular voltages aggregate into regional field patterns\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Spinal \"regional field patterns\" mapping onto chakras asserted as measured fact; \"predates oscilloscopes\" rides on it."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Lowest frequency, highest amplitude"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The node-specific frequency, amplitude, threshold, waveform, or noise-floor signature is presented as measured specification without instrument data or provenance.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"Lowest frequency, highest amplitude\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Node-1 signature asserted as specification with no measurement basis."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "the voltage differential at this node drops below threshold, the system shifts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The node-specific frequency, amplitude, threshold, waveform, or noise-floor signature is presented as measured specification without instrument data or provenance.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"the voltage differential at this node drops below threshold, the system shifts\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Invented threshold mechanism; the felt survival shift is observable, the node-voltage threshold is not."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Types 8, 9, 1 — the gut triad"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The numbered type labels identify the standard Enneagram gut, heart, or head center grouping; they are identifiers within the named typology, not consequential mathematics.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"Types 8, 9, 1 — the gut triad\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "House cosmology (Enneagram); triads correctly enumerated and structurally mapped to Node 1."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Oscillating current. The node cycles between charge and discharge"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The node-specific frequency, amplitude, threshold, waveform, or noise-floor signature is presented as measured specification without instrument data or provenance.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"Oscillating current. The node cycles between charge and discharge\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Node-2 signature; no instrument data."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "High-frequency, variable amplitude. The node that generates the most volatile field"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The node-specific frequency, amplitude, threshold, waveform, or noise-floor signature is presented as measured specification without instrument data or provenance.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"High-frequency, variable amplitude. The node that generates the most volatile field\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Node-3 signature; no instrument data."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "Types 2, 3, 4 — the heart triad"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The numbered type labels identify the standard Enneagram gut, heart, or head center grouping; they are identifiers within the named typology, not consequential mathematics.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"Types 2, 3, 4 — the heart triad\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "House cosmology (Enneagram); correct triad structure mapped to Node 3."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "measurable several feet beyond the skin"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A cardiac magnetic field can be measured, but the several-feet reach claim lacks instrument sensitivity, conditions, comparison baseline, and a traceable source.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"measurable several feet beyond the skin\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "HeartMath-style reach claim (SQUID magnetometry); sole support is unnamed institute research, not reader-replicable."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "approximately sixty times greater in amplitude than the brain's"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sixty-times amplitude ratio lacks matched units, sensor modality, measurement conditions, and a traceable primary source.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"approximately sixty times greater in amplitude than the brain's\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "HeartMath-derived figure presented as bare fact; exists in that literature, so not fabricated, but rests entirely on that authority."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Immune function improves. Cognitive performance sharpens. Emotional regulation stabilizes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Improved immunity, cognition, and emotional regulation are outcome claims requiring a defined coherence measure, population, comparator, uncertainty, and source.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"Immune function improves. Cognitive performance sharpens. Emotional regulation stabilizes.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Coherence-research results language with no observation path offered the reader."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Complex waveform. Multiple frequencies layered simultaneously"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The node-specific frequency, amplitude, threshold, waveform, or noise-floor signature is presented as measured specification without instrument data or provenance.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"Complex waveform. Multiple frequencies layered simultaneously\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Node-5 signature; no instrument data."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Types 5, 6, 7 — the head triad"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The numbered type labels identify the standard Enneagram gut, heart, or head center grouping; they are identifiers within the named typology, not consequential mathematics.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"Types 5, 6, 7 — the head triad\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "House cosmology (Enneagram); correct triad structure mapped to Node 5."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "The subtlest measurable field in the standard seven-node system"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The node-specific frequency, amplitude, threshold, waveform, or noise-floor signature is presented as measured specification without instrument data or provenance.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"The subtlest measurable field in the standard seven-node system\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Node-6 signature; \"standard seven-node system\" implies a measurement literature that does not exist."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The pineal gland produces melatonin — Type 1's hormone in the Muse-Enneagram matrix. The pituitary gland regulates the entire endocrine system. The bioelectric function at this node is regulatory oversight: the manager process that monitors all other processes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The anchor combines empirical pineal/pituitary physiology, a Muse–Enneagram house correspondence, and a manager-process analogy; those modes require separate claims and evidence.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"The pineal gland produces melatonin... The pituitary gland regulates the entire endocrine system\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate endocrinology. The Muse-Enneagram cross-reference in the same sentence is house cosmology (ALIGNED)."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "approaching the noise floor of measurable signals"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The node-specific frequency, amplitude, threshold, waveform, or noise-floor signature is presented as measured specification without instrument data or provenance.",
+      "legacy": {
+        "anchor": "L100",
+        "quote": "\"approaching the noise floor of measurable signals\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Node-7 signature; invented measurable specificity."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "The measurable data does not resolve this disagreement. The experiential data does."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence declares the article’s epistemic boundary: current measurement does not adjudicate the non-local house claim, while experience remains its internal warrant.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"The measurable data does not resolve this disagreement. The experiential data does.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "House-consistent epistemology: privileges direct experience over framework. Pass."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Connection to non-local information fields"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Non-local information fields” imports physics precision into a literal crown-node mechanism without defining a field, locality, measurement, or declared metaphor.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"Connection to non-local information fields\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Quantum-inflected name-drop (\"non-local\") with no mechanism shown; the same paragraph concedes measurement cannot resolve it."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "A block at one node creates excess voltage below it and deficit above it"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The block/voltage redistribution circuit is asserted literally without a measurable node definition, circuit law, readings, or evidence source.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"A block at one node creates excess voltage below it and deficit above it\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Circuit mechanism asserted as fact, not declared analogy."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "Breath changes voltage. Movement changes voltage. Sound changes voltage."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Breath, movement, and sound alter physiological electrical activity, but the unqualified “changes voltage” wording supplies no object, unit, location, or conditions.",
+      "legacy": {
+        "anchor": "L114",
+        "quote": "\"Breath changes voltage. Movement changes voltage. Sound changes voltage.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Practice-replicable state changes (breathwork, movement, sound); observable by the reader."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "pranayama, asana, mantra — are voltage management protocols"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence combines a literal electrical-mechanism claim with a historical design-intent claim about three yogic practices; neither can borrow support from the other.",
+      "legacy": {
+        "anchor": "L114",
+        "quote": "\"pranayama, asana, mantra — are voltage management protocols\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Reframes practice effects as electrical engineering without measurement; plus an unverifiable design-intent claim about the yogic tradition."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 118,
+        "line_end": 118,
+        "quote": "sustained internal observation, refined somatic awareness, and thousands of years"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The tradition’s use of somatic observation is plausible, but “thousands of years of accumulated empirical data transmitted through lineage” needs a traceable textual and transmission record.",
+      "legacy": {
+        "anchor": "L118",
+        "quote": "\"sustained internal observation, refined somatic awareness, and thousands of years\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Historical-epistemological claim about the tradition's method; judged as history, roughly accurate; observational primacy is house-consistent."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "the oldest documentation of that field's architecture"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The oldest-documentation superlative depends on the unproven chakra–bioelectric identity and lacks comparative historical evidence.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"the oldest documentation of that field's architecture\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Historical superlative, unverifiable; restates the contested mapping as established."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "The current will flow according to the circuit's specification regardless of what you believe"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A belief-independent chakra circuit specification is asserted as a literal physical mechanism without a circuit definition, measurement protocol, or evidence trace.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"The current will flow according to the circuit's specification regardless of what you believe\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Mechanism framed as autonomous of mind; flirts with installed belief #5 (mechanistic universe)."
+      },
+      "id": "C029"
+    }
+  ]
+}

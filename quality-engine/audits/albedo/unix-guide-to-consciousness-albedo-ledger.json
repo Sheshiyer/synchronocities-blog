@@ -1,0 +1,590 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "unix-guide-to-consciousness.md",
+  "source_path": "src/content/posts/unix-guide-to-consciousness.md",
+  "source_sha256": "e4e476d43770aff5d8d6083c5a393b8cb88dab78ef8f4b9e07bad40cd3ad1ed0",
+  "legacy_audit_path": "quality-engine/audits/nigredo/unix-guide-to-consciousness.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "the same principles that govern how awareness processes experience"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The local frame is explicit, its operative terms are defined, and the row is internally consistent without claiming external proof. No mathematical object is evidential. Legacy evidence reviewed: Master structural-correspondence claim. \"Not metaphorically — structurally\" matches the gate's own ALIGNED pattern (\"As above, so below is not a metaphor here,\" §3.1); the lens is declared at maximum volume, not silently upgraded. Historical claim (Thompson/Ritchie, 1969) judged as history: accurate.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"the same principles that govern how awareness processes experience\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Master structural-correspondence claim. \"Not metaphorically — structurally\" matches the gate's own ALIGNED pattern (\"As above, so below is not a metaphor here,\" §3.1); the lens is declared at maximum volume, not silently upgraded. Historical claim (Thompson/Ritchie, 1969) judged as history: accurate."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Every experience — a thought, an emotion, a sensation, a memory — is data"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The local frame is explicit, its operative terms are defined, and the row is internally consistent without claiming external proof. No mathematical object is evidential. Legacy evidence reviewed: Phenomenological claim inside the declared file analogy; reader-checkable in direct observation.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"Every experience — a thought, an emotion, a sensation, a memory — is data\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Phenomenological claim inside the declared file analogy; reader-checkable in direct observation."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "The /dev/null of consciousness is the meditative state where you observe input without processing it"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The comparison is explicit and yields no literal causal, numeric, historical, or predictive inference. The computational reference is analogy only and not evidence. Legacy evidence reviewed: Meditation described as observation-without-processing, explicitly distinguished from suppression; replicable by the reader.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"The `/dev/null` of consciousness is the meditative state where you observe input without processing it\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Meditation described as observation-without-processing, explicitly distinguished from suppression; replicable by the reader."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "Nine bits that determine who can do what with every file on the system"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The technical or historical fact is reproducible at the strength stated. The mathematical/computational term fails the removal test and is not evidence. Legacy evidence reviewed: 3×3 permission structure (rwx × owner/group/other) shown and then used structurally in the L46–48 permission-table example; numerically correct.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"Nine bits that determine who can do what with every file on the system\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "3×3 permission structure (rwx × owner/group/other) shown and then used structurally in the L46–48 permission-table example; numerically correct."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "In Unix, 777 means full access for everyone: read, write, and execute"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The technical or historical fact is reproducible at the strength stated. The mathematical/computational structure is correct, consequential, and provenanced in the cited region. Legacy evidence reviewed: Octal encoding correct; operationalized by the incremental-chmod practice (L57) and the title conceit — mechanism, not a name-drop.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"In Unix, 777 means full access for everyone: read, write, and execute\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Octal encoding correct; operationalized by the incremental-chmod practice (L57) and the title conceit — mechanism, not a name-drop."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The system set those permissions to protect itself during vulnerable developmental periods"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The row merges empirical mechanism with metaphor, house vocabulary, mathematical precision, or interpretation. No mathematical object is evidential. Legacy evidence reviewed: Developmental-protection claim framed as model inside the conceit; no institution invoked, no credential-stacking.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The system set those permissions to protect itself during vulnerable developmental periods\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Developmental-protection claim framed as model inside the conceit; no institution invoked, no credential-stacking."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 63,
+        "quote": "Try running ps aux on your own consciousness right now"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The comparison is explicit and yields no literal causal, numeric, historical, or predictive inference. The computational reference is analogy only and not evidence. Legacy evidence reviewed: Imperative observation marker (§3.2 heuristic verbatim); foreground/background/zombie/orphan mapping is reader-falsifiable by introspection.",
+      "legacy": {
+        "anchor": "L61–63",
+        "quote": "\"Try running `ps aux` on your own consciousness right now\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Imperative observation marker (§3.2 heuristic verbatim); foreground/background/zombie/orphan mapping is reader-falsifiable by introspection."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "it works exactly as well in consciousness as it does in Unix"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose denies or exceeds its figurative boundary and draws a literal inference. No mathematical object is evidential. Legacy evidence reviewed: Suppression-cost claim carried entirely by the declared SIGKILL analogy; no borrowed authority.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"it works exactly as well in consciousness as it does in Unix\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Suppression-cost claim carried entirely by the declared SIGKILL analogy; no borrowed authority."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "SIGKILL (9) — Immediate termination. No cleanup. No handlers. The kernel removes the process by force. This is suppression, and it works exactly as well in consciousness as it does in Unix — the process dies, but its child processes may be orphaned, its temporary files are not cleaned up, and its shared memory segments may be corrupted. Use SIGKILL only when SIGTERM fails and the process is actively threatening system stability."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. The mathematical/computational term fails the removal test and is not evidence. Legacy evidence reviewed: Signal numbers correct (POSIX: SIGHUP 1, SIGKILL 9, SIGTERM 15); SIGHUP hangup/reload history accurate; numbers structurally mapped to terminate/suppress/reconfigure practices.",
+      "legacy": {
+        "anchor": "L67–71",
+        "quote": "\"SIGTERM (15)… SIGKILL (9)… SIGHUP (1)\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Signal numbers correct (POSIX: SIGHUP 1, SIGKILL 9, SIGTERM 15); SIGHUP hangup/reload history accurate; numbers structurally mapped to terminate/suppress/reconfigure practices."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 79,
+        "quote": "your earliest developmental patterns, your attachment style"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Attachment/default-configuration claim inside the /boot and /etc analogies; framed as pattern, not settled institutional fact.",
+      "legacy": {
+        "anchor": "L77–79",
+        "quote": "\"your earliest developmental patterns, your attachment style\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Attachment/default-configuration claim inside the /boot and /etc analogies; framed as pattern, not settled institutional fact."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "the raw, timestamped, unfiltered record of what actually happened"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The absolute, mechanism, or technical identity conflicts with the same-level audit record. No mathematical object is evidential. Legacy evidence reviewed: Memory claim inside the /var/log analogy. Memory-realism is contested in mainstream psychology, but the post invokes no scientific model or authority — it makes the contemplative record-vs-story distinction. Watch item only; not on the §3.4 watch-list.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"the raw, timestamped, unfiltered record of what actually happened\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Memory claim inside the /var/log analogy. Memory-realism is contested in mainstream psychology, but the post invokes no scientific model or authority — it makes the contemplative record-vs-story distinction. Watch item only; not on the §3.4 watch-list."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The mystic traditions suggest that learning to operate as root permanently is the entire point"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No checkable tradition, text, teacher, translation, and context are supplied. No mathematical object is evidential. Legacy evidence reviewed: Hedged gesture to the house's own contemplative lineage, not institutional authority; the claim (awareness-as-root is the point) is house doctrine.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"The mystic traditions suggest that learning to operate as root permanently is the entire point\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Hedged gesture to the house's own contemplative lineage, not institutional authority; the claim (awareness-as-root is the point) is house doctrine."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "experience | belief > emotion"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose denies or exceeds its figurative boundary and draws a literal inference. The mathematical/computational term fails the removal test and is not evidence. Legacy evidence reviewed: Pipe/redirection formalism carries the filter-model argument of the pipes section; correct syntax within the conceit.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"`experience \\| belief > emotion`\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Pipe/redirection formalism carries the filter-model argument of the pipes section; correct syntax within the conceit."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "Cognitive behavioral therapy is essentially sed"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose denies or exceeds its figurative boundary and draws a literal inference. The mathematical/computational term fails the removal test and is not evidence. Legacy evidence reviewed: CBT characterized at mechanism level (belief-pattern find/replace) through declared analogy (\"essentially\"); accurate to CBT's own model, no authority clause.",
+      "legacy": {
+        "anchor": "L95",
+        "quote": "\"Cognitive behavioral therapy is essentially `sed`\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "CBT characterized at mechanism level (belief-pattern find/replace) through declared analogy (\"essentially\"); accurate to CBT's own model, no authority clause."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 101,
+        "line_end": 105,
+        "quote": "0 6 /usr/local/bin/meditation.sh"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The comparison is explicit and yields no literal causal, numeric, historical, or predictive inference. The mathematical/computational term fails the removal test and is not evidence. Legacy evidence reviewed: Cron field syntax correct (06:00 daily, 22:00 daily, Sunday noon); scheduling arithmetic does the structural work for the ritual-practice mapping.",
+      "legacy": {
+        "anchor": "L101–105",
+        "quote": "\"0 6 * * * /usr/local/bin/meditation.sh\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Cron field syntax correct (06:00 daily, 22:00 daily, Sunday noon); scheduling arithmetic does the structural work for the ritual-practice mapping."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 109,
+        "line_end": 109,
+        "quote": "Your immune system is a daemon. Your circadian rhythm is a daemon."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The comparison is explicit and yields no literal causal, numeric, historical, or predictive inference. The computational reference is analogy only and not evidence. Legacy evidence reviewed: Biological background processes mapped via declared analogy; no matter-first causal arrow, so no INVERTED exposure.",
+      "legacy": {
+        "anchor": "L109",
+        "quote": "\"Your immune system is a daemon. Your circadian rhythm is a daemon.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Biological background processes mapped via declared analogy; no matter-first causal arrow, so no INVERTED exposure."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 115,
+        "line_end": 117,
+        "quote": "The kernel of consciousness is awareness itself"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The local frame is explicit, its operative terms are defined, and the row is internally consistent without claiming external proof. The mathematical/computational structure is correct, consequential, and provenanced in the cited region. Legacy evidence reviewed: Consciousness-primary: awareness as substrate and capacity, never byproduct — the Hermetic core equation. \"Noticing what remains when everything else is terminated\" is a replicable contemplative instruction.",
+      "legacy": {
+        "anchor": "L115–117",
+        "quote": "\"The kernel of consciousness is awareness itself\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Consciousness-primary: awareness as substrate and capacity, never byproduct — the Hermetic core equation. \"Noticing what remains when everything else is terminated\" is a replicable contemplative instruction."
+      },
+      "id": "C017"
+    }
+  ]
+}

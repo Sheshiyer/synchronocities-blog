@@ -1,0 +1,246 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "deep-trench-forge-shenzhen.md",
+  "source_path": "src/content/posts/deep-trench-forge-shenzhen.md",
+  "source_sha256": "07fa0fd4b5a1f6d4de388adb4879f28d83ace5a6833ff1d80476b6c0a2a745a2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/deep-trench-forge-shenzhen.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "association/dissociation with regular pressure vents"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The first-person comparison names the observer's Bangalore and Shenzhen attentional conditions and remains scoped to the author's own association/dissociation pattern.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"association/dissociation with regular pressure vents\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person attentional vocabulary describing the author's own dilational pattern; replicable by the reader's own observation."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Breath kept cadence: 7 / 1 / 3"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The author reports a 7/1/3 breath cadence and immediately defines the three count phases; the procedure, arithmetic sequence, and provenance are directly reproducible.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"Breath kept cadence: 7 / 1 / 3\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Numbers shown and structurally mapped to the forge triad (Seven: heat / One: hold / Three: draw, L36–38); the breath ratio carries the forge correspondence. Post's core argument survives removal, but the local structure is demonstrated, not name-dropped."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "the city ran diagnostics through my fascia"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "AppleCare, diagnostics, and LED progress bars create an explicit technological metaphor frame; fascia is not used here to infer a literal diagnostic mechanism.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"the city ran diagnostics through my fascia\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Declared metaphor inside the AppleCare framing (\"diagnostics,\" \"LEDs as progress bars\"); anatomy term used analogically, not as mechanism. Safe harbor."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "leaning on exogenous lifts (anandamide-like shortcuts)"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author reports personal use of exogenous lifts and marks the anandamide comparison with “-like,” keeping the observation bounded and the chemistry non-literal.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"leaning on exogenous lifts (anandamide-like shortcuts)\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicit \"-like\" hedge on the exogenous reference; own-experience report of prior substance use. Safe harbor applies."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "released endogenous cannabinoids already stored"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-DELETE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Endocannabinoids are generally synthesized on demand rather than stored for release; the walk-to-molecule causal claim also lacks measurement and source.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"released endogenous cannabinoids already stored\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Molecule asserted as causal substrate of the non-dilational state — the explicit contrast with exogenous \"anandamide-like shortcuts\" positions chemistry as origin of the experience, not its signature (installed belief #4). Not framed as model/metaphor; cannabinoid release is not observable by the reader. Minor factual wobble too: endocannabinoids are synthesized on demand, not \"stored.\" Section survives removal — the \"cleaner circuit\" and \"vault\" lines carry the endogenous-capacity point without the mechanism."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "- Skin-prickle (piloerection) became the \"field up\" toggle."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Piloerection is a directly observable bodily sign, and the quoted “field up” toggle clearly records the author's own practice interpretation rather than a universal mechanism.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Skin-prickle (piloerection) became the 'field up' toggle\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Precise technical naming of a directly observable bodily sign, tied to first-person practice; reader can replicate the observation."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Light/heat/hydration tuned the nervous system without drama"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Light, heat, and hydration are said to tune the nervous system without defined outcomes, observations, conditions, comparator, uncertainty, or source.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"Light/heat/hydration tuned the nervous system without drama\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Embodied practice report; conditions are observable and the regulation claim is falsifiable by the reader's own practice."
+      },
+      "id": "C007"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "hidden-history-cultural-amnesia.md",
+  "source_path": "src/content/posts/hidden-history-cultural-amnesia.md",
+  "source_sha256": "a415a0363a9e548138fa2cddbe6271a95c3ba2239b2f416a10f72c3ab70076e9",
+  "legacy_audit_path": "quality-engine/audits/nigredo/hidden-history-cultural-amnesia.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "unused synaptic weights erode through disuse. This is biological pruning, unremarkable"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Activity-dependent synaptic weakening and pruning are established biological phenomena; the sentence uses them only as a limited contrast with institutional forgetting.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"unused synaptic weights erode through disuse. This is biological pruning, unremarkable\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Contrast term in a declared analogy (\"these are not acts of nature\"); uncontested biology, no institution invoked; maps to replicable experience of skill decay through disuse."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "the reclassification of a functioning mechanical computer as myth"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The compressed “mechanical computer reclassified as myth” gesture does not name an event or source and is not independently checkable at this anchor.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"the reclassification of a functioning mechanical computer as myth\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Compressed historical gesture (incl. \"invisible to archaeology for eleven centuries\"); judged as history per §9 — unspecific, so not checkable, but asserts no invented fact; verifiable content is carried by the named examples below."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "the 800-tonne stones behind them are treated as geological noise"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The line combines the author’s situated observation at Baalbek, an external mass estimate, and an interpretation of institutional/tourist treatment; direct observation cannot verify all three components.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"the 800-tonne stones behind them are treated as geological noise\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person observation (\"I have stood at the base of the Baalbek Trilithon\"); judged as history per §9 — ~800 t is within commonly cited Trilithon estimates."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "initially dismissed as an astrolabe. Derek de Solla Price spent two decades"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Antikythera mechanism’s early classification and Derek de Solla Price’s extended investigation are accurately represented by the historical record summarized in the rationale.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"initially dismissed as an astrolabe. Derek de Solla Price spent two decades\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Judged as history per §9 — accurate: wreck found 1900, mechanism salvaged 1900–01, long misread as astrolabe/clock; Price's two-decade study established it as a gear-based astronomical calculator."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "forced a revision of the Neolithic timeline because its megalithic architecture predates metal tools"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Göbekli Tepe’s Pre-Pottery Neolithic monumental architecture predates metal tools and agriculture and materially revised high-level accounts of that period.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"forced a revision of the Neolithic timeline because its megalithic architecture predates metal tools\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Judged as history per §9 — accurate: Schmidt excavated from 1996; Pre-Pottery Neolithic dating of monumental architecture did force timeline revision."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "know exactly which carbon dates to bury in an appendix"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author reports conversations with field archaeologists, but no speakers, dates, sites, quoted records, or conditions support the generalized carbon-date burial practice.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"know exactly which carbon dates to bury in an appendix\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person sociology-of-science observation (\"I have spoken with field archaeologists\"); asserts nothing about the validity of radiocarbon dating itself."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Thomas Kuhn demonstrated that real scientific paradigms are never abandoned through falsification alone"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is about Kuhn’s argument and faithfully represents paradigm persistence in The Structure of Scientific Revolutions; it is attribution, not empirical proof of every paradigm.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Thomas Kuhn demonstrated that real scientific paradigms are never abandoned through falsification alone\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Judged as history per §9 — fair characterization of Popper's falsification-as-demarcation and Kuhn's paradigm-persistence thesis; named history, not an authority clause doing the argument's work."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The detailed Antarctic coastline — drawn before the ice sheet was supposedly surveyed"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Piri Reis map’s representation of a detailed Antarctic coastline is a disputed reading; the hedge does not supply cartographic evidence for that identification.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"The detailed Antarctic coastline — drawn before the ice sheet was supposedly surveyed\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "1513 compilation is accurate; the fringe Antarctic-reading is explicitly hedged (\"sources that may predate,\" \"supposedly\") and presented as contested terrain, not settled fact; the operative claim is about the map's treatment (trivialization), which is observational."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "the engineering mathematics of moving 2.3 million blocks in twenty years"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Approximate block and duration figures are invoked as “engineering mathematics,” but no rate, logistics model, uncertainty, or source is shown and this occurrence has no structural consequence.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"the engineering mathematics of moving 2.3 million blocks in twenty years\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "\"Engineering mathematics\" invoked but never shown — no arithmetic, ratios, or demonstrated correspondence; the 2.3 M blocks / 20 years figures are consensus-cited, and removing the phrase leaves the extraordinary-evidence antibody example intact. Recode: show the arithmetic, or cut the phrase."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "The Death card sits at the midpoint of the Major Arcana"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Death is card XIII in a 0–XXI sequence; the strict ordinal midpoint lies around X–XI, so the stated midpoint is mathematically false and nonessential.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"The Death card sits at the midpoint of the Major Arcana\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Ordinal name-drop without mechanism; loose as stated (Death is XIII of 0–XXI; strict midpoint ≈ X–XI) but functioning as symbolic geography, not arithmetic — removal changes nothing in the argument."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "The triad is not a metaphor. It is a diagnostic."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Kha–Ba–La diagnostic is explicitly declared as the article’s house model, each force and failure condition is defined in lines 90–96, and removing the triad collapses the closing diagnostic.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"The triad is not a metaphor. It is a diagnostic.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Kha-Ba-La triad, a canonical §4.1 structure, fully operationalized across L90–96 (observer/substrate/friction failure modes each defined and shown; \"All three co-arise, or nothing arises\"); it carries the post's prescriptive final movement, and it is correct."
+      },
+      "id": "C011"
+    }
+  ]
+}

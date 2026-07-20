@@ -1,0 +1,392 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "signal-state-story-debug-edition.md",
+  "source_path": "src/content/posts/signal-state-story-debug-edition.md",
+  "source_sha256": "addcf393fdf28009e0db4df286f6d8840e6486db62fa83a6d6236cabd6254edf",
+  "legacy_audit_path": "quality-engine/audits/nigredo/signal-state-story-debug-edition.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Your body fires a signal at approximately 80 milliseconds before your nervous system locks into a state at approximately 300 milliseconds before your mind constructs a story to explain both at approximately 800 milliseconds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 80/300/800 ms sequence has no cited experiment, population, measures, uncertainty, or provenance; the post's qualitative sequence survives without these precision-aura numbers.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"signal at approximately 80 milliseconds … 300 … 800 milliseconds\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Round, unsourced timing triad; no basis in any cited literature. Repeated at L51/L53/L55 and frontmatter excerpt (L6). Sequence survives removal; the precision does not."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "Story (Kha) — Post-hoc narrative constructed to explain Signal and State. The observer constructing meaning from what already happened. Speed: approximately 800 milliseconds."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This row joins a coherent Signal–State–Story house mapping to an unsupported 800 ms empirical latency, preventing either claim mode from being judged atomically.",
+      "legacy": {
+        "anchor": "L49–55",
+        "quote": "\"Signal (Ba) … State (La) … Story (Kha)\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Canonical Kha-Ba-La triadic structure doing the load-bearing architectural work of the post; house cosmology, structural grammar not decoration."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The timing maps to established neuroscience"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Established neuroscience” supplies no named result, study, population, measures, or uncertainty that supports the asserted timing sequence.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"The timing maps to established neuroscience\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Institutional authority is the sole warrant for \"This is not speculative\" / \"Not metaphor — architecture\" (L49). Remove it and the post's central pose collapses."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Damasio's somatic marker hypothesis, Porges's polyvagal architecture, Libet's readiness potential"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Damasio, Porges, and Libet study different constructs; the post combines them into one temporal sequence without atomic source traces, transformation, or declared Noesis authorship.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"Damasio's somatic marker hypothesis, Porges's polyvagal architecture, Libet's readiness potential\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Name-stack in place of mechanism. None of the three supply the 80/300/800 ms figures; \"same temporal sequence\" overstates (Libet is volition timing, not interoception→state→narrative)."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "whatever the nervous system actually decided 720 milliseconds earlier"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 720 ms value is only arithmetic on unsupported latencies, and the nervous-system decision claim lacks defined measures, conditions, causal evidence, or source.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"whatever the nervous system actually decided 720 milliseconds earlier\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Nervous system as deciding subject; awareness as post-hoc byproduct (matter→experience arrow). Also contains another invented figure (720 ms), same fabrication family as L29."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "somatic experiencing, polyvagal-informed work, and EMDR operate at"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Somatic Experiencing, polyvagal-informed work, and EMDR are bundled into one State-layer conclusion without separate ingredients, mappings, or declared Noesis transformation.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"somatic experiencing, polyvagal-informed work, and EMDR operate at\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Descriptive modality mapping within the post's own layer model; no authority clause doing the work."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "the nervous system runs its preferred cascade, and awareness catches up afterward"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that bodily cascades precede awareness is empirical and causal; the earlier v2.2 cosmology objection is not a warrant, and no timing evidence is supplied.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"the nervous system runs its preferred cascade, and awareness catches up afterward\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Awareness framed as trailing byproduct of the bodily cascade; structurally identical to gate example \"brain releases dopamine, which makes you feel rewarded.\""
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "IFS (Internal Family Systems): Parts are State-Story composites"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The compatibility section explicitly declares the post's layer model and coherently maps IFS parts to combined state and narrative functions without claiming empirical proof.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"IFS (Internal Family Systems): Parts are State-Story composites\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Framework compatibility mapping — the post's declared method, not a borrowed warrant."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "Polyvagal Theory: Maps directly to the State layer. Ventral vagal, sympathetic, dorsal vagal"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Within the explicitly declared compatibility exercise, the polyvagal vocabulary is coherently mapped to the State layer; this row does not validate the theory's empirical standing.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"Polyvagal Theory: Maps directly to the State layer. Ventral vagal, sympathetic, dorsal vagal\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Polyvagal theory is scientifically contested; presented as settled descriptive framework (\"established neuroscience\" at L59). Compatibility-section flourish, not the core argument."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "Somatic Experiencing: Operates at the Signal-State boundary"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post explicitly authors the compatibility mapping and gives a coherent transformation from Somatic Experiencing practices to the Signal–State boundary.",
+      "legacy": {
+        "anchor": "L114",
+        "quote": "\"Somatic Experiencing: Operates at the Signal-State boundary\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Descriptive attribution to Levine's work as vocabulary mapping; mechanism given internally."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "Jungian Framework: Shadow work is primarily State-layer material"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The compatibility section declares the layer-model exercise and coherently maps Jungian shadow material into the State–Story architecture as a Noesis interpretation.",
+      "legacy": {
+        "anchor": "L116",
+        "quote": "\"Jungian Framework: Shadow work is primarily State-layer material\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Compatibility mapping; no settled-fact or authority claim."
+      }
+    }
+  ]
+}

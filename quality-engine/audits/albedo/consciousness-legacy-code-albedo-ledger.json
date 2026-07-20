@@ -1,0 +1,142 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "consciousness-legacy-code.md",
+  "source_path": "src/content/posts/consciousness-legacy-code.md",
+  "source_sha256": "30a57421cc7bdf27db7f7a25bce4b09b2d71f3e2e0edca1279a4666e6e5d6e05",
+  "legacy_audit_path": "quality-engine/audits/nigredo/consciousness-legacy-code.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "one lens among the Selemene 16 engines"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L45 against the legacy audit. House framework (Selemene Engine); ALIGNED by definition (§9). Also the post's explicit \"non-canonical metaphor… scaffolding, not doctrine\" disclaimer that anchors the §5 safe harbor for all code-block terms below. Canonical result: HOUSE-MODEL + COHERENT; math role NONE.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"one lens among the Selemene 16 engines\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House framework (Selemene Engine); ALIGNED by definition (§9). Also the post's explicit \"non-canonical metaphor… scaffolding, not doctrine\" disclaimer that anchors the §5 safe harbor for all code-block terms below."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "const quantumThread = async (consciousness)"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified from source L51 against the legacy audit. \"Quantum\" (§4.2 watch-list) appears only as a joke variable name inside code explicitly declared metaphor at L45; never upgraded to mechanism or physics claim. Declared analogy is never flagged. Canonical result: DECLARED-METAPHOR + DECLARED; math role ANALOGICAL.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"const quantumThread = async (consciousness)\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "\"Quantum\" (§4.2 watch-list) appears only as a joke variable name inside code explicitly declared metaphor at L45; never upgraded to mechanism or physics claim. Declared analogy is never flagged."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Connected to Dopamine Microservices"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L64 against the legacy audit. Neurochemistry term openly framed as model/metaphor under the L45 declaration (§3.2: \"openly framed as model/pattern rather than fact\"). No causal claim that dopamine produces experience — no inversion. Canonical result: DECLARED-METAPHOR + DECLARED; math role NONE.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"Connected to Dopamine Microservices\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Neurochemistry term openly framed as model/metaphor under the L45 declaration (§3.2: \"openly framed as model/pattern rather than fact\"). No causal claim that dopamine produces experience — no inversion."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Reality Lag: Sensory Buffer Management"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L89 against the legacy audit. Cognitive-psych term inside the same declared metaphor apparatus; no mechanism claim, no borrowed authority. Canonical result: DECLARED-METAPHOR + DECLARED; math role NONE.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"Reality Lag: Sensory Buffer Management\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Cognitive-psych term inside the same declared metaphor apparatus; no mechanism claim, no borrowed authority."
+      },
+      "id": "C004"
+    }
+  ]
+}

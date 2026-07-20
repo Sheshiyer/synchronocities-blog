@@ -1,0 +1,983 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "endocrine-constellation-transcript.md",
+  "source_path": "src/content/posts/endocrine-constellation-transcript.md",
+  "source_sha256": "d1473bb51f64110ebe941e6c26f8ba4ddb338bd9c0829410b12d030291ec3f62",
+  "legacy_audit_path": "quality-engine/audits/nigredo/endocrine-constellation-transcript.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "revealing the body as a celestial receiver"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: “body as a celestial receiver” uses an explicit as-comparison in frontmatter and makes no literal causal, numeric, or predictive inference in the anchored span.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"revealing the body as a celestial receiver\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The frontmatter presents a literal result claim beyond the later proposed-model framing."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Nine hormones, each with measurable secretion patterns"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Semantic review: the table contains nine entries and the count is structural and reproducible, but calling all nine hormones with measurable secretion, binding, and effects requires biological qualification and sources.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"Nine hormones, each with measurable secretion patterns\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Secretion, receptor binding, and physiological correlates are measurable."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "observable positions, seasonal visibility windows"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: constellation positions and seasonal visibility windows are directly reproducible against a dated observer location and an astronomical ephemeris at the modest strength stated.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"observable positions, seasonal visibility windows\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Constellation positions and visibility can be checked against sky or ephemeris."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "The Spolski Correspondence Framework"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the Spolski Correspondence Framework is explicitly named as a proposal and the next sentence defines its three layers and single-system premise consistently.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"The Spolski Correspondence Framework\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The sentence explicitly says the named framework “proposes” the three-layer model."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 51,
+        "quote": "'melatonin': { 'muse': 'Polymnia', 'constellation': 'Serpens Caput'"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the melatonin–Polymnia–Serpens Caput assignment is explicitly inside the named proposed framework and is internally defined without claiming established physiology.",
+      "legacy": {
+        "anchor": "L49–L51",
+        "quote": "\"'melatonin': { 'muse': 'Polymnia', 'constellation': 'Serpens Caput'\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This row records the openly proposed model's first assignment, not an established mechanism."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 57,
+        "quote": "'oxytocin': { 'muse': 'Clio', 'constellation': 'Ursa Major'"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the oxytocin–Clio–Ursa Major assignment is an explicit house mapping in the proposed table and remains internally consistent.",
+      "legacy": {
+        "anchor": "L55–L57",
+        "quote": "\"'oxytocin': { 'muse': 'Clio', 'constellation': 'Ursa Major'\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This is another explicit assignment inside the proposed framework."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 63,
+        "quote": "'endorphins': { 'muse': 'Euterpe', 'constellation': 'Hercules'"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the endorphins–Euterpe–Hercules assignment is an explicit house mapping in the proposed table and remains internally consistent.",
+      "legacy": {
+        "anchor": "L61–L63",
+        "quote": "\"'endorphins': { 'muse': 'Euterpe', 'constellation': 'Hercules'\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The table documents the proposal rather than asserting verified physiology."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 69,
+        "quote": "'dopamine': { 'muse': 'Thalia', 'constellation': 'Pegasus'"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the dopamine–Thalia–Pegasus assignment is an explicit house mapping in the proposed table and remains internally consistent.",
+      "legacy": {
+        "anchor": "L67–L69",
+        "quote": "\"'dopamine': { 'muse': 'Thalia', 'constellation': 'Pegasus'\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The table documents the proposal rather than asserting verified physiology."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 75,
+        "quote": "'cortisol': { 'muse': 'Melpomene', 'constellation': 'Ophiuchus'"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the cortisol–Melpomene–Ophiuchus assignment is an explicit house mapping in the proposed table and remains internally consistent.",
+      "legacy": {
+        "anchor": "L73–L75",
+        "quote": "\"'cortisol': { 'muse': 'Melpomene', 'constellation': 'Ophiuchus'\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The fifth correspondence is explicitly part of the proposed model."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 81,
+        "quote": "'estrogen': { 'muse': 'Erato', 'constellation': 'Bootes'"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the estrogen–Erato–Boötes assignment is an explicit house mapping in the proposed table and remains internally consistent.",
+      "legacy": {
+        "anchor": "L79–L81",
+        "quote": "\"'estrogen': { 'muse': 'Erato', 'constellation': 'Bootes'\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This is a model assignment protected by the proposal framing."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 85,
+        "line_end": 87,
+        "quote": "'testosterone': { 'muse': 'Calliope', 'constellation': 'Taurus'"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the testosterone–Calliope–Taurus assignment is an explicit house mapping in the proposed table and remains internally consistent.",
+      "legacy": {
+        "anchor": "L85–L87",
+        "quote": "\"'testosterone': { 'muse': 'Calliope', 'constellation': 'Taurus'\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This is a model assignment protected by the proposal framing."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 93,
+        "quote": "'adrenaline': { 'muse': 'Terpsichore', 'constellation': 'Andromeda'"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the adrenaline–Terpsichore–Andromeda assignment is an explicit house mapping in the proposed table and remains internally consistent.",
+      "legacy": {
+        "anchor": "L91–L93",
+        "quote": "\"'adrenaline': { 'muse': 'Terpsichore', 'constellation': 'Andromeda'\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This is a model assignment protected by the proposal framing."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 97,
+        "line_end": 99,
+        "quote": "'serotonin': { 'muse': 'Urania', 'constellation': 'Virgo'"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the serotonin–Urania–Virgo assignment is an explicit house mapping in the proposed table and remains internally consistent.",
+      "legacy": {
+        "anchor": "L97–L99",
+        "quote": "\"'serotonin': { 'muse': 'Urania', 'constellation': 'Virgo'\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This is a model assignment protected by the proposal framing."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "The prime number sequence is not decorative."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the listed integers are 1 through 9, not a prime-number sequence; the mathematical label is definitionally false and removing it leaves the nine correspondences intact.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"The prime number sequence is not decorative.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The label is false, but deleting it leaves the nine-part proposal and activation-order sentence intact."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "It suggests an activation order"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the claimed activation-order inference is derived from the false prime-sequence premise and supplies no independent transformation or provenance; the boot-order conclusion therefore does not follow.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"It suggests an activation order\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "“Suggests” explicitly marks a tentative model, while the prime-sequence math remains separately wrong."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "The pineal gland, which produces melatonin"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: pineal melatonin production is a bounded, standard endocrine function at the strength stated and does not itself validate the subsequent symbolic chain.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"The pineal gland, which produces melatonin\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate endocrine function, separable from the symbolic history."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "the third eye in Hindu systems, the Eye of Horus"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: Hindu third-eye and Egyptian Eye-of-Horus material are collapsed into a cross-traditional pineal identification without named texts, translations, or reliable provenance.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"the third eye in Hindu systems, the Eye of Horus\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The popular pineal/third-eye/Eye-of-Horus/Vatican-pine-cone chain is presented as cross-traditional identification without historical support."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "a hormone that emerges from darkness"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: “emerges from darkness” is explicit poetic compression for the surrounding circadian-surrender discussion and makes no exact biological prediction in this span.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"a hormone that emerges from darkness\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Darkness promotes melatonin secretion in the circadian cycle."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "three descriptions of the same physiological-spiritual event"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: inner vision, serpentine wisdom, and circadian surrender are asserted to be the same physiological-spiritual event without passing ingredient traces, a transformation, or declared Noesis authorship.",
+      "legacy": {
+        "anchor": "L114",
+        "quote": "\"three descriptions of the same physiological-spiritual event\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The literal identity repeats in later visibility/shared-substrate claims."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 118,
+        "line_end": 118,
+        "quote": "the sign that astrology forgot"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: “the sign astrology forgot” implies Ophiuchus was omitted from a zodiac it historically belonged to; an ecliptic constellation is not thereby a forgotten thirteenth tropical-zodiac sign.",
+      "legacy": {
+        "anchor": "L118",
+        "quote": "\"the sign that astrology forgot\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Ophiuchus is an ecliptic constellation, not a forgotten thirteenth zodiac sign."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "sitting directly on the ecliptic"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: Ophiuchus crossing the ecliptic is directly checkable against astronomical coordinates or a sky ephemeris and is stated without added causal force.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"sitting directly on the ecliptic\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Ophiuchus crosses the ecliptic and is absent from the twelve-sign zodiac."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "essential for survival, learning, and adaptive response"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: cortisol’s essentiality for survival is defensible, but bundling learning and adaptive response into an unqualified general claim requires measures, conditions, and sources.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"essential for survival, learning, and adaptive response\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Defensible high-level roles for cortisol, distinct from awareness causation."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "the fifth position in the nine-fold system"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: cortisol is indeed fifth in the displayed nine-entry house table, but position five establishes no structural property of cultural exclusion; the numerology is correct-counted yet nonconsequential.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"the fifth position in the nine-fold system\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No structural property of position five establishes cultural exclusion; deleting the numerology leaves the examples intact."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "it is the awareness hormone"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: “awareness hormone” is presented as a physiological reclassification without an operative definition, measure, population, or source; house framing would need to be explicit.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"it is the awareness hormone\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Cortisol is assigned causal authorship of awareness, but this local claim is removable."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "The Spolski framework proposes that constellation visibility windows correlate"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the named Spolski framework explicitly proposes—not verifies—a visibility/hormonal correlation, and the mapped variables are consistently named within the house model.",
+      "legacy": {
+        "anchor": "L126",
+        "quote": "\"The Spolski framework proposes that constellation visibility windows correlate\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The sentence explicitly frames the visibility relationship as a proposal."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "also modulates the biological systems"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: a shared gravitational/electromagnetic environment is said to modulate biological systems without a relevant exposure pathway, effect measure, conditions, uncertainty, or source.",
+      "legacy": {
+        "anchor": "L128",
+        "quote": "\"also modulates the biological systems\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No relevant shared mechanism is supplied, and the event identity repeats elsewhere."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "They observed that the stars and their moods moved together"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the broad claim that ancient observers documented stars and moods moving together names no culture, record, date, text, translation, or corroboration.",
+      "legacy": {
+        "anchor": "L130",
+        "quote": "\"They observed that the stars and their moods moved together\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The post invents a broad ancient mood-tracking method without records."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 134,
+        "line_end": 134,
+        "quote": "track hormone cycles alongside constellation positions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the proposed protocol follows transparently from the framework by pairing timed constellation records with hormone and behavior observations; it is a coherent test design, not evidence of a result.",
+      "legacy": {
+        "anchor": "L134",
+        "quote": "\"track hormone cycles alongside constellation positions\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This is a concrete proposed observation protocol, not proof it has passed."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "the hypothesis is testable"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: journaling and attention can record experience but do not measure body chemistry, so the stated instruments cannot by themselves test the chemical-following-sky hypothesis.",
+      "legacy": {
+        "anchor": "L136",
+        "quote": "\"the hypothesis is testable\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The ending correctly returns the model to personal observation and falsification."
+      },
+      "id": "C029"
+    }
+  ]
+}

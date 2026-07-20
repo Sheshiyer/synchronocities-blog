@@ -1,0 +1,376 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-tower-speaks-in-richter-scale.md",
+  "source_path": "src/content/posts/the-tower-speaks-in-richter-scale.md",
+  "source_sha256": "dbb9379985557456602ffba87eecde43bd84f6b464a23b4e2778e1e78b74829f",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-tower-speaks-in-richter-scale.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "A 6.0 earthquake — Bangkok's strongest in living memory"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L11 and the legacy audit: The magnitude and superlative conflict with the chronology recorded by the audit. Frontmatter repeats the body claim; the dated source also precedes the documented M7.7 event.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"A 6.0 earthquake — Bangkok's strongest in living memory\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Frontmatter repeats the body claim; the dated source also precedes the documented M7.7 event."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 25,
+        "line_end": 25,
+        "quote": "A 6.0 earthquake — Bangkok's strongest in living memory"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L25 and the legacy audit: Repetition does not establish the unsupported event identity. The body repeats the unsupported event identification verbatim; repetition does not turn the magnitude or superlative into an observation.",
+      "legacy": {
+        "anchor": "L25",
+        "quote": "\"A 6.0 earthquake — Bangkok's strongest in living memory\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The body repeats the unsupported event identification verbatim; repetition does not turn the magnitude or superlative into an observation."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 25,
+        "line_end": 25,
+        "quote": "Room 44, Building 555. The numbers didn't lie"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L25 and the legacy audit: The numerological mapping is not defined or provenance-traced and has no mathematical consequence. The two numbers receive truth-bearing numerological force without an operation or demonstrated mapping; removal leaves the earthquake narrative intact.",
+      "legacy": {
+        "anchor": "L25",
+        "quote": "\"Room 44, Building 555. The numbers didn't lie\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The two numbers receive truth-bearing numerological force without an operation or demonstrated mapping; removal leaves the earthquake narrative intact."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "seven seconds of lateral acceleration"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L27 and the legacy audit: The narrator, quake conditions, observed signal, and bounded scope are present. A specific first-person duration and building-motion observation, not presented as an instrument reading.",
+      "legacy": {
+        "anchor": "L27",
+        "quote": "\"seven seconds of lateral acceleration\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "A specific first-person duration and building-motion observation, not presented as an instrument reading."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The building swayed. Glass rattled"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L29 and the legacy audit: The narrator, quake conditions, observed signal, and bounded scope are present. Directly observable building motion and sound during the reported event.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"The building swayed. Glass rattled\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Directly observable building motion and sound during the reported event."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The body knew before the mind could rationalize"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L29 and the legacy audit: The narrator, quake conditions, observed signal, and bounded scope are present. Direct embodied report of startle preceding the narrator's conscious explanation; the reader can inspect the same sequence.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"The body knew before the mind could rationalize\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Direct embodied report of startle preceding the narrator's conscious explanation; the reader can inspect the same sequence."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "registered the event as pre-cognitive signal"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L29 and the legacy audit: The kosha interpretation is explicitly framed and internally consistent. The pranamaya/manomaya sequence is explicitly operated within the house kosha frame.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"registered the event as pre-cognitive signal\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The pranamaya/manomaya sequence is explicitly operated within the house kosha frame."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "three full seconds after the body had already decided"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L29 and the legacy audit: The narrator, quake conditions, observed signal, and bounded scope are present. A first-person timing report, not an institutional or instrument-derived generalization.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"three full seconds after the body had already decided\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "A first-person timing report, not an institutional or instrument-derived generalization."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "Forty-four. The room number. Angelic architecture in numerical form"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L31 and the legacy audit: The numerological mapping is not defined or provenance-traced and has no mathematical consequence. Repeated 44 numerology supplies significance but no structure that survives the removal test.",
+      "legacy": {
+        "anchor": "L31",
+        "quote": "\"Forty-four. The room number. Angelic architecture in numerical form\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Repeated 44 numerology supplies significance but no structure that survives the removal test."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "555 — the building. Change as trinity"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified against source L31 and the legacy audit: The numerological mapping is not defined or provenance-traced and has no mathematical consequence. Repetition and the three identical digits are assigned change symbolism without any mathematical correspondence.",
+      "legacy": {
+        "anchor": "L31",
+        "quote": "\"555 — the building. Change as trinity\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Repetition and the three identical digits are assigned change symbolism without any mathematical correspondence."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "the body registered before the mind could name it"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified against source L35 and the legacy audit: The narrator, quake conditions, observed signal, and bounded scope are present. The closing sentence repeats the observation already carried at L29.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"the body registered before the mind could name it\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The closing sentence repeats the observation already carried at L29."
+      },
+      "id": "C011"
+    }
+  ]
+}

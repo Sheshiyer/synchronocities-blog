@@ -1,0 +1,244 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "tarot-major-arcana-journal.md",
+  "source_path": "src/content/posts/tarot-major-arcana-journal.md",
+  "source_sha256": "d5f4af8c74c966d8319d07bcde6341286e8831be75af0b454e999e6650b8e14c",
+  "legacy_audit_path": "quality-engine/audits/nigredo/tarot-major-arcana-journal.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "the spiral has a coordinate system"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Semantic review: the post explicitly defines each card as a node and the spiral as its coordinate system; the terms are consistent, structural, and derived in the surrounding paragraph.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"the spiral has a coordinate system\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "House vortex architecture; the hub's entire organizing grammar. Removal collapses the card-as-node index concept."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "A coordinate system only functions when three forces are present"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Semantic review: the section explicitly defines consciousness, body, and architecture as the three operative requirements of this house coordinate grammar, then demonstrates each missing-force failure.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"A coordinate system only functions when three forces are present\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Kha-Ba-La triadic structure (consciousness / body / architecture) operationalized as the system's coherence rule."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "reduced to a Rorschach blot for personal worry"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: Rorschach blot is an overt comparison for anxious projection, and the sentence draws no literal diagnostic or predictive inference from it.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"reduced to a Rorschach blot for personal worry\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Declared metaphor for projection; no psychological mechanism or authority claimed. §5 safe harbor — not flagged."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "the somatic experience of blood pooling in the inverted skull"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: blood pooling in an inverted skull is a physiological mechanism stated without observer conditions, duration, measure, uncertainty, or a traceable source.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"the somatic experience of blood pooling in the inverted skull\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person embodied observation; reader-replicable (invert and feel it). Illustrative, not structural."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "The system requires all 22 positions to hold its geometry"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Semantic review: the post defines a complete twenty-two-node positional geometry and consistently treats removal as deformation of that house structure; count and consequence are explicit.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"The system requires all 22 positions to hold its geometry\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Positional-geometry completeness condition of the 22-node set; core claim of the hub."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "Every position contains every other position in latency"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Semantic review: latency is explicitly defined through examples of one card-position held as potential inside another; this cyclic/fractal house premise is internally coherent and structural.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"Every position contains every other position in latency\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Fractal correspondence across the node set; house cyclic/fractal structure doing structural work."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "inherits centuries of alchemical symbolism, patriarchal hierarchy, colonial extraction"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: centuries of alchemical symbolism, patriarchal hierarchy, and colonial extraction are broad historical assertions bundled without dates, artifacts, sources, or separate evidentiary traces.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"inherits centuries of alchemical symbolism, patriarchal hierarchy, colonial extraction\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim about the deck, judged as history per §9; accurate characterization of tarot's lineage."
+      },
+      "id": "C007"
+    }
+  ]
+}

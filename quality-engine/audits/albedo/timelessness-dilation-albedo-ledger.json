@@ -1,0 +1,276 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "timelessness-dilation.md",
+  "source_path": "src/content/posts/timelessness-dilation.md",
+  "source_sha256": "01b1cfcef4e138e7dab21fc8c98c2a779c4f680488db74ed0b1a0dd8b6c725a0",
+  "legacy_audit_path": "quality-engine/audits/nigredo/timelessness-dilation.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "seven to defend, one to decide, three to release"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The author-declared 7-1-3 breath protocol is internally coherent and then instantiated phase by phase. The exact counts change the procedure, the count mapping is reproducible from lines 42-44, and its provenance is the declared Noesis ritual.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"seven to defend, one to decide, three to release\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Breath-count arithmetic demonstrated in full (7-1-3) and mapped phase-by-phase to the ritual; structure shown, not name-dropped. Core timelessness argument survives removal of exact counts."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "as though Rahu had swallowed the hour"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "As though explicitly declares the Rahu/Mercury image as non-literal. It makes no astronomical or temporal-mechanism inference, so the astrological comparison remains analogical.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"as though Rahu had swallowed the hour\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Jyotish house frame (Rahu/Mercury) with declared analogy (\"as though\") — §5 safe harbor; no external authority invoked."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "The dilation cracked open"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is a bounded first-person report by the named narrator in Room 3 after the stated breath ritual; the surrounding sentences describe the observed change in temporal salience without generalizing it into physics.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"The dilation cracked open\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person phenomenological naming of the felt experience (\"I felt…\"); no relativistic mechanism, no physics authority claimed. Tied to replicable observation (the breath protocol)."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Gene Key 5 breathing through me: impatience falling away, patience widening"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose merges a personal shift with Gene Key 5 as if the symbolic system authored the experience. It neither traces the Gene Key teaching as a separate attributed ingredient nor declares the application as a Noesis synthesis.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Gene Key 5 breathing through me: impatience falling away, patience widening\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Site symbolic grammar operated as frame, not admired or borrowed; makes no scientific claim."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "A cycle outside the clock had pulled me in"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "In context this reports the narrator's felt loss of clock relevance during a named ritual, not a universal theory of cyclic time. Observer, setting, procedure, and subjective scope are all stated.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"A cycle outside the clock had pulled me in\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Cyclic time is the Vedic core equation — the house frame itself; never flagged per §9."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "even my own restless Moon dissolved"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "My own restless Moon and dissolved are unmistakable natal-symbolic personification inside a first-person account; no literal lunar mechanism, number, or prediction follows.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"even my own restless Moon dissolved\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Natal-chart shorthand inside the Jyotish house frame; situated-observational, no authority clause."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "stripped by GK-23's hand"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "GK-23's hand is explicit personification used to describe the notebook line's stripped style. It asserts no literal agent or external mechanism.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"stripped by GK-23's hand\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Gene Key 23 operated as frame for the stripped-line aesthetic; no external authority, no mechanism claim."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "The ritual above operates on Kha-Ba-La architecture"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Structural mapping declares the authorial operation and the paragraph traces its ingredients and transformation: observer to Kha, embodied breath to Ba, and schedule resistance to La. The conclusion stays interpretive rather than empirical.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"The ritual above operates on Kha-Ba-La architecture\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Canonical INTEGRATED structure: Kha (observer), Ba (body/breath-count), La (resistance) each assigned step by step; mapping demonstrated, not decorative."
+      }
+    }
+  ]
+}

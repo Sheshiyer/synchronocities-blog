@@ -1,0 +1,428 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "event-pattern-leverage.md",
+  "source_path": "src/content/posts/event-pattern-leverage.md",
+  "source_sha256": "1caa471102fa8e2285dfd0b20cb4813093d6517ce9cf1680fe9dd5a320d918d3",
+  "legacy_audit_path": "quality-engine/audits/nigredo/event-pattern-leverage.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The signal that converts 'need' to 'demand' fires in the enteric system"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: locating the conversion of 'need' into 'demand' in the enteric system is an unsourced causal interpretation presented as physiology.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"The signal that converts 'need' to 'demand' fires in the enteric system\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "An interpretive act (meaning-conversion) is located in a physiological substrate — matter→experience arrow. Gold beneath: the field registers the demand-pattern; the gut firing is its first signature, not its origin. Recode to correlate."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "fires in the enteric system 300 milliseconds before the withdrawal sequence initiates"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the 300-millisecond lead is an externally testable timing claim with no measurement trace; the unit is intelligible but the exact number is nonessential and unproven.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"fires in the enteric system 300 milliseconds before the withdrawal sequence initiates\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Invented sub-second precision stated as physiological fact; no source, no findable origin, and reader-unverifiable (sub-perceptual threshold). Perfectly convenient for the thesis."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "that fingerprint does not change across decades"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: an unchanged somatic fingerprint across decades is a universal longitudinal claim without a named observer record, conditions, population, or source.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"that fingerprint does not change across decades\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Somatic-signature stability claim tied to the post's own replicable practice (trace three instances). Confident tone on replicable observation — passes."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Your narrative memory edits, reframes, and reconstructs."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: memory editing and reconstruction are general psychological claims; the post supplies neither a situated observation record nor a traceable empirical source.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Your narrative memory edits, reframes, and reconstructs.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Reader-auditable in practice; house-compatible (examining the examiner). Pass."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "these are distributed recording systems"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: ENS, vagal, and fascial structures are bundled as literal configuration-storage systems without measures, mechanism, source, or separation of the three substrates.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"these are distributed recording systems\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Prefaced by the explicit silent-upgrade marker \"This is not metaphorical.\" ENS/vagus exist; fascia-and-ENS as configuration-storage systems repeating \"with remarkable fidelity\" is a contested somatic-memory model presented as settled fact."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "the defensive cascade locks in and must complete its full cycle"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: every defensive cascade having an irreversible point and mandatory full cycle is an unsourced universal mechanism rather than a bounded observation.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"the defensive cascade locks in and must complete its full cycle\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Model-framed and felt-sense verifiable; no borrowed authority. Pass."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "Usually by 200 to 500 milliseconds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the 200-to-500-millisecond lock-in window lacks a measurement trace; exact bounds do not change the qualitative before-lock-in instruction.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"Usually by 200 to 500 milliseconds.\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Unsourced precision quantifying the lock-in window. The qualitative claim survives removal; the numbers are counterfeit data."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "The narrative mind operates at approximately 800 milliseconds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the approximately 800-millisecond narrative-mind timing lacks operational definitions, population, method, uncertainty, and provenance; the exact number is removable from the qualitative thesis.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"The narrative mind operates at approximately 800 milliseconds\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Declared \"the critical operational insight\": the 800/80/300 ms timing hierarchy is the sole warrant for the post's central prescription (why intervention must be pre-verbal/somatic). Invented instrument readings with no source."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "executable at body speed, not thought speed"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: body speed versus thought speed is an overt comparative shorthand for pre-verbal versus deliberative intervention and supplies no literal numeric inference.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"executable at body speed, not thought speed\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Qualitative speed differential, observable in one's own reactions. Pass."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "The body runs specific circuits, and those circuits require specific counter-signals"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: specific bodily circuits and required counter-signals combine a computing metaphor with a universal physiological prescription but provide no mechanism or source.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"The body runs specific circuits, and those circuits require specific counter-signals\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Working-model framing of reflexive patterns; practice-verifiable. Pass."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "Locate the 500-millisecond window"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the 500-millisecond protocol window repeats an unmeasured exact timing; the number is nonessential to the stated gap-between-signal-and-state procedure.",
+      "legacy": {
+        "anchor": "L100",
+        "quote": "\"Locate the 500-millisecond window\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Unsourced precision embedded in the diagnostic protocol itself; the step survives qualitatively (\"gap between signal and state\")."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "about eighteen inches — the space between your head and your gut"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: eighteen inches explicitly converts the earlier distance-of-resolution claim into a head-to-gut spatial analogy; no literal causal or predictive result follows.",
+      "legacy": {
+        "anchor": "L116",
+        "quote": "\"about eighteen inches — the space between your head and your gut\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Approximate, tape-measure-verifiable anatomical heuristic; openly rough (\"about\"). Pass."
+      },
+      "id": "C012"
+    }
+  ]
+}

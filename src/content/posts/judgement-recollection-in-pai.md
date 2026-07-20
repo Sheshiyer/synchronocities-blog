@@ -24,7 +24,7 @@ The Thoth deck names this card The Aeon, not Judgement.
 
 The distinction is surgical. Judgement implies a verdict — guilty, innocent, worthy, unworthy. The Aeon implies an *epoch change*. Not a ruling on what you've done, but a recognition that the era in which you did it is over. The rules have changed. The game has changed. You have changed.
 
-Pai delivered the Aeon between limestone cliffs and rice paddies. The landscape itself was non-Euclidean — paths that appeared straight curved back on themselves. Distances were deceptive. A mountain that seemed thirty minutes away took three hours to reach. Space didn't behave according to the mental map.
+Pai delivered the Aeon between limestone cliffs and rice paddies. Paths that appeared straight curved back on themselves. Distances were deceptive. A mountain that seemed thirty minutes away took three hours to reach. Space didn't behave according to the mental map.
 
 This is The Aeon's function: to dissolve the mental map. Not to give you a better one. To show you that the territory was never the map, and the map was never the territory, and the act of mapping itself was the activity that prevented you from being *in* the territory.
 

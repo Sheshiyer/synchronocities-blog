@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.3",
+  "post": "judgement-recollection-in-pai.md",
+  "category": "decorative-math-removal",
+  "expected_operation": "REMOVE_DECORATIVE_MATH",
+  "albedo_load_bearing_claim": "The Aeon dissolves inherited mental maps so scattered experience can be recollected as an epochal pattern rather than judged by the old era.",
+  "recertified_finding_ids": [
+    "C001"
+  ],
+  "full_document": {
+    "pre_sha256": "be36442442a5b4214fad180d8663a21d7e5b2ce47faf74c962fe53e95f5daf7f",
+    "post_sha256": "e2a72cd5ff495b818b2e7f83b1d8c58f812ceaf2672a7b58d4afb692be15a632",
+    "byte_identical": false
+  },
+  "frontmatter": {
+    "pre_sha256": "67d791c6c62ab3b741ce04c36c6a4f1eb32978e49c14c0422be7601bca1c79ff",
+    "post_sha256": "67d791c6c62ab3b741ce04c36c6a4f1eb32978e49c14c0422be7601bca1c79ff",
+    "byte_identical": true
+  },
+  "edits": [
+    {
+      "id": "E001",
+      "finding_id": "C001",
+      "source_occurrence": 1,
+      "before": "Pai delivered the Aeon between limestone cliffs and rice paddies. The landscape itself was non-Euclidean — paths that appeared straight curved back on themselves. Distances were deceptive. A mountain that seemed thirty minutes away took three hours to reach. Space didn't behave according to the mental map.",
+      "after": "Pai delivered the Aeon between limestone cliffs and rice paddies. Paths that appeared straight curved back on themselves. Distances were deceptive. A mountain that seemed thirty minutes away took three hours to reach. Space didn't behave according to the mental map.",
+      "before_sha256": "5daf9d730ca4efb2e2d34afd301fd6228b2f66530058b194280d326e52dd1b15",
+      "after_sha256": "047ad88d944c3f4c7688c1b242699f74070d4d50088014dd5a3fca945741a878"
+    }
+  ],
+  "new_claim_counts": {
+    "science": 0,
+    "math": 0,
+    "traditional_attribution": 0
+  },
+  "quality_gates": {
+    "voice": {
+      "status": "FAIL",
+      "score": 60,
+      "evidence": "docs/ci-audit-report.json rates the current post's voice dimension 60/100 (WARNING), below the Rubedo PASS threshold of 85."
+    },
+    "kha_ba_la": {
+      "status": "FAIL",
+      "evidence": "The current CI audit reports Kha 0, Ba 0, La 0, triad 0, and a FAIL verdict; the bounded C001 edit does not alter this post-level gate."
+    },
+    "fractal_depth": {
+      "status": "FAIL",
+      "score": 30,
+      "evidence": "docs/ci-audit-report.json reports fractal depth 30/100 with no scale matches and no recursive structure."
+    },
+    "citation_attribution": {
+      "status": "FAIL",
+      "evidence": "The CI source-grounding dimension is 30/100 with zero source matches, and the bounded decorative-math edit adds no attribution."
+    },
+    "epistemic_grounding": {
+      "status": "FAIL",
+      "evidence": "C001 is resolved, but recertified ledger finding C003 still mode-conflates Vedantic anandamaya-kosha with Jyotish Ketu surgery as inherited doctrine."
+    },
+    "math_integration": {
+      "status": "PASS",
+      "evidence": "The only scoped decorative-math finding, C001, is removed exactly; the surviving terrain observations operate without replacement mathematics."
+    },
+    "hard_acceptance": {
+      "status": "PASS",
+      "checks": [
+        {
+          "criterion": "Remove the non-Euclidean geometry label rather than attempting to derive curvature.",
+          "status": "PASS",
+          "evidence": "E001 removes the exact words 'The landscape itself was non-Euclidean —' and adds no curvature derivation."
+        },
+        {
+          "criterion": "Preserve the grounded observations that paths curved back, distances deceived, and the mental map failed.",
+          "status": "PASS",
+          "evidence": "E001's after text retains curved-back paths, deceptive distances, the three-hour mountain journey, and failure of the mental map."
+        },
+        {
+          "criterion": "Introduce no replacement topology, geometry, equation, or scientific authority.",
+          "status": "PASS",
+          "evidence": "The single reversible edit is deletion-only at the unsupported label, and all new claim counts are zero."
+        }
+      ]
+    }
+  },
+  "outcome": {
+    "status": "PARTIAL_RESOLUTION",
+    "resolved_finding_ids": [
+      "C001"
+    ],
+    "remaining_findings": [],
+    "summary": "The exact scoped C001 paragraph edit removes the decorative geometry label and preserves the observations, but post-level voice, Kha-Ba-La, fractal-depth, citation, and epistemic-grounding gates still fail."
+  },
+  "rubedo_verdict": "PARTIAL"
+}

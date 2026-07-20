@@ -1,0 +1,722 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "sixteen-engines-one-purpose.md",
+  "source_path": "src/content/posts/sixteen-engines-one-purpose.md",
+  "source_sha256": "c06bb965b563631c5ba6f8312434cd76acf4f29e91f452ba664b895c6b6a75bc",
+  "legacy_audit_path": "quality-engine/audits/nigredo/sixteen-engines-one-purpose.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "calibrated your circadian rhythm"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L27 (calibrated your circadian rhythm). Legacy trace rechecked: Everyday term for an observable rhythm; no authority or mechanism claimed The post does not supply the evidence conditions required for this mode and strength. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L27",
+        "quote": "\"calibrated your circadian rhythm\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Everyday term for an observable rhythm; no authority or mechanism claimed"
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Five elements (Tithi, Vara, Nakshatra, Yoga, Karana) describe not what will happen"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Canonical v2.3 recertification of source L35 (Five elements (Tithi, Vara, Nakshatra, Yoga, Karana) describe not what will happen). Legacy trace rechecked: Correct Panchanga structure; explicitly model-framed, not prediction The named source and represented content match at the stated level. Correctness, structural consequence, and provenance each pass.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"Five elements (Tithi, Vara, Nakshatra, Yoga, Karana) describe not what will happen\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Correct Panchanga structure; explicitly model-framed, not prediction"
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "a 120-year planetary cycle divided into periods ruled by specific planets"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 recertification of source L37 (a 120-year planetary cycle divided into periods ruled by specific planets). Legacy trace rechecked: Correct Vimshottari total; canonical dasha arithmetic (house structure) The named source and represented content match at the stated level. Correctness, structural consequence, and provenance each pass.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"a 120-year planetary cycle divided into periods ruled by specific planets\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Correct Vimshottari total; canonical dasha arithmetic (house structure)"
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "The 19-year Saturn period has a fundamentally different operating character than the 6-year Venus period"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 recertification of source L37 (The 19-year Saturn period has a fundamentally different operating character than the 6-year Venus period). Legacy trace rechecked: Saturn = 19 ✓ but Venus mahadasha is 20 years in Vimshottari; the 6-year period is the Sun's — numerically false in the named system The reviewed evidence conflicts with the claim at the same level. The number, operation, definition, or mapping is demonstrably false or misapplied.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"The 19-year Saturn period has a fundamentally different operating character than the 6-year Venus period\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Saturn = 19 ✓ but Venus mahadasha is 20 years in Vimshottari; the 6-year period is the Sun's — numerically false in the named system"
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Not fate — atmospheric conditions. The weather report for consciousness."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L39 (Not fate — atmospheric conditions. The weather report for consciousness.). Legacy trace rechecked: Declared analogy; geocentric-observational house framing The nearby language makes the comparison non-literal and draws no literal consequence. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"Not fate — atmospheric conditions. The weather report for consciousness.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Declared analogy; geocentric-observational house framing"
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "nine centers, sixty-four gates, strategy and authority"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Canonical v2.3 recertification of source L43 (nine centers, sixty-four gates, strategy and authority). Legacy trace rechecked: Accurate Human Design structure; house engine spec The named source and represented content match at the stated level. Correctness, structural consequence, and provenance each pass.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"nine centers, sixty-four gates, strategy and authority\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate Human Design structure; house engine spec"
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "sixty-four archetypes as shadow-gift-siddhi progressions"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Canonical v2.3 recertification of source L45 (sixty-four archetypes as shadow-gift-siddhi progressions). Legacy trace rechecked: Accurate Gene Keys structure The named source and represented content match at the stated level. Correctness, structural consequence, and provenance each pass.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"sixty-four archetypes as shadow-gift-siddhi progressions\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate Gene Keys structure"
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "maps subtle energy through electromagnetic field analysis, using HRV and coherence data"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L47 (maps subtle energy through electromagnetic field analysis, using HRV and coherence data). Legacy trace rechecked: HRV/coherence are reader-replicable instrument data; method description, no authority cited The prose hides or inseparably mixes the mode boundary. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"maps subtle energy through electromagnetic field analysis, using HRV and coherence data\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "HRV/coherence are reader-replicable instrument data; method description, no authority cited"
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "physical (23 days), emotional (28 days), intellectual (33 days)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 recertification of source L51 (physical (23 days), emotional (28 days), intellectual (33 days)). Legacy trace rechecked: Correct biorhythm periods; 53-day spiritual cycle matches the extended model; drives the protocol logic of the next sentence The named source and represented content match at the stated level. Correctness, structural consequence, and provenance each pass.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"physical (23 days), emotional (28 days), intellectual (33 days)\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Correct biorhythm periods; 53-day spiritual cycle matches the extended model; drives the protocol logic of the next sentence"
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "Liver hour (1-3 AM) processes anger. Heart hour (11 AM-1 PM) cultivates joy."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L53 (Liver hour (1-3 AM) processes anger. Heart hour (11 AM-1 PM) cultivates joy.). Legacy trace rechecked: Matches the organ-meridian clock; house engine The named source, tradition, date, or provenance is materially wrong. The number, operation, definition, or mapping is demonstrably false or misapplied.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"Liver hour (1-3 AM) processes anger. Heart hour (11 AM-1 PM) cultivates joy.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Matches the organ-meridian clock; house engine"
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Specific ragas prescribed for specific states."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L57 (Specific ragas prescribed for specific states.). Legacy trace rechecked: Vedic sound engine; house frame, consciousness-primary The post does not supply the evidence conditions required for this mode and strength. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"Specific ragas prescribed for specific states.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Vedic sound engine; house frame, consciousness-primary"
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "somatic pattern recognition through facial structure"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L59 (somatic pattern recognition through facial structure). Legacy trace rechecked: House engine; observation-based framing The declared house terms are defined and internally consistent. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"somatic pattern recognition through facial structure\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House engine; observation-based framing"
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "seventy-eight archetypal patterns for pattern recognition, not prediction"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L63 (seventy-eight archetypal patterns for pattern recognition, not prediction). Legacy trace rechecked: Correct tarot count; explicitly not-prediction framing The prose hides or inseparably mixes the mode boundary. The mathematical element is removable or lacks the load-bearing triple gate.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"seventy-eight archetypal patterns for pattern recognition, not prediction\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Correct tarot count; explicitly not-prediction framing"
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "sixty-four hexagrams for reading the shape of change"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L63 (sixty-four hexagrams for reading the shape of change). Legacy trace rechecked: Correct I Ching count The prose hides or inseparably mixes the mode boundary. The mathematical element is removable or lacks the load-bearing triple gate.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"sixty-four hexagrams for reading the shape of change\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Correct I Ching count"
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "nine types, three centers, integration and disintegration paths"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Canonical v2.3 recertification of source L67 (nine types, three centers, integration and disintegration paths). Legacy trace rechecked: Accurate Enneagram structure The named source and represented content match at the stated level. Correctness, structural consequence, and provenance each pass.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"nine types, three centers, integration and disintegration paths\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate Enneagram structure"
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "the vibrational signature of your incarnation encoded in name and birth date"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L67 (the vibrational signature of your incarnation encoded in name and birth date). Legacy trace rechecked: Numerology house engine The post does not supply the evidence conditions required for this mode and strength. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"the vibrational signature of your incarnation encoded in name and birth date\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Numerology house engine"
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "mathematical patterns in nature and consciousness"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L71 (mathematical patterns in nature and consciousness). Legacy trace rechecked: Sacred geometry is house structure (Sri Yantra family) The prose hides or inseparably mixes the mode boundary. The mathematical element is removable or lacks the load-bearing triple gate.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"mathematical patterns in nature and consciousness\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Sacred geometry is house structure (Sri Yantra family)"
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "intent compression protocols for encoding desire into symbol"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L71 (intent compression protocols for encoding desire into symbol). Legacy trace rechecked: Sigil Forge house protocol The post does not supply the evidence conditions required for this mode and strength. The mathematical element is removable or lacks the load-bearing triple gate.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"intent compression protocols for encoding desire into symbol\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Sigil Forge house protocol"
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "No engine operates alone because no single lens captures three-dimensional reality. You need triangulation. Two lenses give you a line. Three give you a plane. Sixteen give you a topology."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 recertification of source L77 (No engine operates alone because no single lens captures three-dimensional reality. You need triangulation. Two lenses give you a line. Three give you a plane. Sixteen give you a topology.). Legacy trace rechecked: Correct geometric staging (2 points → line, 3 → plane); this sentence is the mechanism of the triangulation thesis The prose hides or inseparably mixes the mode boundary. The number, operation, definition, or mapping is demonstrably false or misapplied.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"Two lenses give you a line... Sixteen give you a topology\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct geometric staging (2 points → line, 3 → plane); this sentence is the mechanism of the triangulation thesis"
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "Beneath all sixteen engines sits a triadic foundation"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 recertification of source L81 (Beneath all sixteen engines sits a triadic foundation). Legacy trace rechecked: Canonical Kha-Ba-La triadic structure, operating as the system kernel The declared house terms are defined and internally consistent. Correctness, structural consequence, and provenance each pass.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"Beneath all sixteen engines sits a triadic foundation\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Canonical Kha-Ba-La triadic structure, operating as the system kernel"
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "These three forces co-arise in every calculation"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Canonical v2.3 recertification of source L89 (These three forces co-arise in every calculation). Legacy trace rechecked: Kha-Ba-La house triad — ALIGNED by definition The declared house terms are defined and internally consistent. Correctness, structural consequence, and provenance each pass.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"These three forces co-arise in every calculation\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Kha-Ba-La house triad — ALIGNED by definition"
+      },
+      "id": "C021"
+    }
+  ]
+}

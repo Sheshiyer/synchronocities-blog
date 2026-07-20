@@ -1,0 +1,5455 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "magnetic-substrate.md",
+  "source_path": "src/content/posts/magnetic-substrate.md",
+  "source_sha256": "dcea402c52d73429b64b80b3043cc584f1939c9aaf1dcf3dc4677d170ed8d5d0",
+  "legacy_audit_path": "quality-engine/audits/nigredo/magnetic-substrate.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "coupled to oxygen for 540 million years"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L4 against the legacy audit. The body repeatedly develops this coupling, so the excerpt occurrence is removable. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"coupled to oxygen for 540 million years\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The body repeatedly develops this coupling, so the excerpt occurrence is removable."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "melanin degrades to dopamine"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L4 against the legacy audit. The body repeats this false pathway, so the excerpt occurrence is removable. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"melanin degrades to dopamine\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The body repeats this false pathway, so the excerpt occurrence is removable."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "three vortexes that run your cognition lose coherence"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L4 against the legacy audit. The invented three-vortex engine is developed throughout the body. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"three vortexes that run your cognition lose coherence\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The invented three-vortex engine is developed throughout the body."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "This is not metaphor. This is magnetohydrodynamics"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L4 against the legacy audit. The body repeatedly literalizes the same thesis, so this occurrence is removable. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"This is not metaphor. This is magnetohydrodynamics\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The body repeatedly literalizes the same thesis, so this occurrence is removable."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "substrate your consciousness is compiled on"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L51 against the legacy audit. A physical magnetic field is made the originating substrate of consciousness. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"substrate your consciousness is compiled on\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "A physical magnetic field is made the originating substrate of consciousness."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "observer whose vortex operates independent of magnetic flux"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L58 against the legacy audit. Observer primacy is explicitly preserved within the Kha house frame. Canonical result: HOUSE-MODEL + COHERENT; math role NONE.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"observer whose vortex operates independent of magnetic flux\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Observer primacy is explicitly preserved within the Kha house frame."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "body as vortex engine — three axes of spin"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L59 against the legacy audit. Frontmatter repeats the nonexistent three-axis physiology. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"body as vortex engine — three axes of spin\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Frontmatter repeats the nonexistent three-axis physiology."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "isotopic inertia that accumulates when the magnetic exhaust system fails"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L60 against the legacy audit. The deuterium exhaust architecture is invented. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"isotopic inertia that accumulates when the magnetic exhaust system fails\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The deuterium exhaust architecture is invented."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Earth's magnetic field as the physical substrate of consciousness"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L63 against the legacy audit. The summary repeats matter-before-consciousness causation. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"Earth's magnetic field as the physical substrate of consciousness\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "The summary repeats matter-before-consciousness causation."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Magnetic dynamo coupled to oxygen for 540M years"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L63 against the legacy audit. The body repeats this coupling at L82 and later, so the summary occurrence is removable. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"Magnetic dynamo coupled to oxygen for 540M years\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The body repeats this coupling at L82 and later, so the summary occurrence is removable."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "oxygen drops"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L63 against the legacy audit. The body repeats geomagnetic control of oxygen, making this summary occurrence removable. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"oxygen drops\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The body repeats geomagnetic control of oxygen, making this summary occurrence removable."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "melanin degrades to dopamine"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L63 against the legacy audit. The body repeats the false biochemical pathway at L178–L180. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"melanin degrades to dopamine\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The body repeats the false biochemical pathway at L178–L180."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "deuterium accumulates"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L63 against the legacy audit. The body repeatedly asserts geomagnetic isotope accumulation, so this summary occurrence is removable. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"deuterium accumulates\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The body repeatedly asserts geomagnetic isotope accumulation, so this summary occurrence is removable."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "three body vortexes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L63 against the legacy audit. The body develops all three invented vortexes, making this summary occurrence removable. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"three body vortexes\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The body develops all three invented vortexes, making this summary occurrence removable."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Based on Dr. Jack Kruse's research"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L63 against the legacy audit. Removing the authority clause leaves the article's mechanism intact, so it is not load-bearing. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"Based on Dr. Jack Kruse's research\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Removing the authority clause leaves the article's mechanism intact, so it is not load-bearing."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "magnetism is the biggest part of the story"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L77 against the legacy audit. The opening quotation supplies authority rather than observable mechanism. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"magnetism is the biggest part of the story\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The opening quotation supplies authority rather than observable mechanism."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "physics paper confirming this was published recently"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L82 against the legacy audit. Unnamed confirmation is removable without collapsing the thesis. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"physics paper confirming this was published recently\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Unnamed confirmation is removable without collapsing the thesis."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Magnetic flux and oxygen move in lockstep"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L82 against the legacy audit. Geological co-variation does not establish direct oxygen organization. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"Magnetic flux and oxygen move in lockstep\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Geological co-variation does not establish direct oxygen organization."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Every major extinction event in the geological record shows this signature"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L82 against the legacy audit. A universal paleomagnetic-extinction relation is asserted without a model. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"Every major extinction event in the geological record shows this signature\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A universal paleomagnetic-extinction relation is asserted without a model."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "Oxygen is the only paramagnetic gas on the periodic table"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L84 against the legacy audit. Oxygen is not the only paramagnetic gas; this categorical chemical claim is false. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"Oxygen is the only paramagnetic gas on the periodic table\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Oxygen is not the only paramagnetic gas; this categorical chemical claim is false."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "It organizes it"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L84 against the legacy audit. Elemental paramagnetism does not establish dynamo control of oxygenation. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"It organizes it\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Elemental paramagnetism does not establish dynamo control of oxygenation."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "curvature of experiential space is a measurable parameter"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified from source L86 against the legacy audit. No metric or curvature tensor makes experiential curvature measurable. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role WRONG.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"curvature of experiential space is a measurable parameter\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No metric or curvature tensor makes experiential curvature measurable."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "That substrate is the magnetic field"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L86 against the legacy audit. A physical field is made the origin of the experiential geometry. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"That substrate is the magnetic field\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "A physical field is made the origin of the experiential geometry."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "here is not poetic. It is fluid dynamics"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L92 against the legacy audit. The silent upgrade supplies no measured bodily fluid-dynamic vortex. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"here is not poetic. It is fluid dynamics\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The silent upgrade supplies no measured bodily fluid-dynamic vortex."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "human body operates three distinct centrifuges"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L92 against the legacy audit. The claimed sphenoid, notochord, and heart centrifuges are not established physiology. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"human body operates three distinct centrifuges\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The claimed sphenoid, notochord, and heart centrifuges are not established physiology."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "ATP synthase — the nanomotor embedded in every mitochondrial membrane"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L96 against the legacy audit. ATP synthase is a genuine rotary molecular machine; this fact carries the subcellular section. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"ATP synthase — the nanomotor embedded in every mitochondrial membrane\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "ATP synthase is a genuine rotary molecular machine; this fact carries the subcellular section."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "at 9,000 revolutions per second"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L96 against the legacy audit. The speed figure is unsupported. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"at 9,000 revolutions per second\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The speed figure is unsupported."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The H+ that feeds it must be protium"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L96 against the legacy audit. ATP synthase does not require the absolute isotope exclusion claimed. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"The H+ that feeds it must be protium\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "ATP synthase does not require the absolute isotope exclusion claimed."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "molecular basis of fatigue, fibromyalgia, chronic fatigue syndrome, and ALS"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L96 against the legacy audit. These diseases are assigned an invented deuterium-rotor cause. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"molecular basis of fatigue, fibromyalgia, chronic fatigue syndrome, and ALS\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "These diseases are assigned an invented deuterium-rotor cause."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "dielectric constant of CSF and blood rises from 78 to 160"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L98 against the legacy audit. No established solar-exposure measurement supports this doubling. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"dielectric constant of CSF and blood rises from 78 to 160\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No established solar-exposure measurement supports this doubling."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "Red light panels, LED-based, do not change the dielectric constant"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L98 against the legacy audit. The source supplies no comparative measurement. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"Red light panels, LED-based, do not change the dielectric constant\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The source supplies no comparative measurement."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "0.66 electron volt frequency"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L98 against the legacy audit. Electron-volts measure energy, not the asserted intersection frequency. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"0.66 electron volt frequency\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Electron-volts measure energy, not the asserted intersection frequency."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "fluid thickens toward maple syrup and the nanomotors stall"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L98 against the legacy audit. The viscosity and rotor-stall cascade is invented. Canonical result: EMPIRICAL-CORRELATE + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"fluid thickens toward maple syrup and the nanomotors stall\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The viscosity and rotor-stall cascade is invented."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "middle meningeal artery, a branch of the external carotid"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L102 against the legacy audit. Broadly correct cranial anatomy. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"middle meningeal artery, a branch of the external carotid\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Broadly correct cranial anatomy."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "rotational hub of the cranial vortex"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L102 against the legacy audit. The anatomy does not establish an isotope-separating cranial vortex. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"rotational hub of the cranial vortex\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The anatomy does not establish an isotope-separating cranial vortex."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "Two lateral ventricles"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L104 against the legacy audit. Basic ventricular anatomy is real. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"Two lateral ventricles\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Basic ventricular anatomy is real."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "feed into the third ventricle through the choroid plexus"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L104 against the legacy audit. CSF reaches the third ventricle through the interventricular foramina, not this conduit. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"feed into the third ventricle through the choroid plexus\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "CSF reaches the third ventricle through the interventricular foramina, not this conduit."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "isotopically fractionate deuterium out of the blood"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L104 against the legacy audit. No recognized choroid isotope separator supports this. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"isotopically fractionate deuterium out of the blood\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No recognized choroid isotope separator supports this."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "deuterium concentration of 110–120 ppm"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L104 against the legacy audit. The specified CSF range is unsupported. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"deuterium concentration of 110–120 ppm\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The specified CSF range is unsupported."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "aqueduct of Sylvius does the fractionation for you"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L104 against the legacy audit. The aqueduct is assigned an invented isotope-separation function. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"aqueduct of Sylvius does the fractionation for you\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The aqueduct is assigned an invented isotope-separation function."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "further fractionating deuterium through centrifugal separation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L106 against the legacy audit. Aqueduct flow does not perform the claimed isotope centrifugation. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"further fractionating deuterium through centrifugal separation\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Aqueduct flow does not perform the claimed isotope centrifugation."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "vagal motor trigon — the origin point of the vagus nerve"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L108 against the legacy audit. The vagal trigone overlies the dorsal vagal motor nucleus. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"vagal motor trigon — the origin point of the vagus nerve\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The vagal trigone overlies the dorsal vagal motor nucleus."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "designed to receive only the cleanest, lightest hydrogen"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L108 against the legacy audit. No hydrogen-quality vagal exhaust system exists. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"designed to receive only the cleanest, lightest hydrogen\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No hydrogen-quality vagal exhaust system exists."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "housing all three branches of the trigeminal nerve"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L110 against the legacy audit. Broadly accurate trigeminal ganglion anatomy. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"housing all three branches of the trigeminal nerve\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Broadly accurate trigeminal ganglion anatomy."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "drainage route for isotopically heavy CSF"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L110 against the legacy audit. Meckel's cave is not an isotope drainage route. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"drainage route for isotopically heavy CSF\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Meckel's cave is not an isotope drainage route."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "mechanically stimulate the sphenoid and drive CSF through Meckel's cave"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L110 against the legacy audit. Chewing and speech are assigned invented CSF clearance mechanics. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"mechanically stimulate the sphenoid and drive CSF through Meckel's cave\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Chewing and speech are assigned invented CSF clearance mechanics."
+      },
+      "id": "C046"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "flush deuterium through the trigeminal pathway"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L110 against the legacy audit. Mantra is assigned an invented isotope-clearance purpose. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"flush deuterium through the trigeminal pathway\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Mantra is assigned an invented isotope-clearance purpose."
+      },
+      "id": "C047"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "Hospital bells between 1880 and 1930 resonated at 20–40 Hz"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L110 against the legacy audit. The convenient historical/acoustic clearance claim is unsupported. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"Hospital bells between 1880 and 1930 resonated at 20–40 Hz\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The convenient historical/acoustic clearance claim is unsupported."
+      },
+      "id": "C048"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "cilia that beat in coordinated waves"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L112 against the legacy audit. Ependymal cilia help direct CSF flow. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"cilia that beat in coordinated waves\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Ependymal cilia help direct CSF flow."
+      },
+      "id": "C049"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "tannocytes — melanin-loaded cells that are magnetically sensitive"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L112 against the legacy audit. The cell description and compass function are unsupported. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"tannocytes — melanin-loaded cells that are magnetically sensitive\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The cell description and compass function are unsupported."
+      },
+      "id": "C050"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "CSF vortex reverse direction between sunrise and sunset"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L112 against the legacy audit. No operating-room observation supports this geomagnetic reversal. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"CSF vortex reverse direction between sunrise and sunset\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No operating-room observation supports this geomagnetic reversal."
+      },
+      "id": "C051"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "This is not theory. It has been observed"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L112 against the legacy audit. Unnamed observation is invoked as confirmation. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"This is not theory. It has been observed\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Unnamed observation is invoked as confirmation."
+      },
+      "id": "C052"
+    },
+    {
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "heart projects into space as a gravity well for heavy isotopes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L116 against the legacy audit. Cardiac vortices do not gravitationally separate isotopes. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L116",
+        "quote": "\"heart projects into space as a gravity well for heavy isotopes\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Cardiac vortices do not gravitationally separate isotopes."
+      },
+      "id": "C053"
+    },
+    {
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "cardiac muscle, when unfolded, forms a helix"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L116 against the legacy audit. Helical myocardial organization is a legitimate observation. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L116",
+        "quote": "\"cardiac muscle, when unfolded, forms a helix\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Helical myocardial organization is a legitimate observation."
+      },
+      "id": "C054"
+    },
+    {
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "It is a centrifuge"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L116 against the legacy audit. Intracardiac flow is silently upgraded into isotope centrifugation. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L116",
+        "quote": "\"It is a centrifuge\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Intracardiac flow is silently upgraded into isotope centrifugation."
+      },
+      "id": "C055"
+    },
+    {
+      "anchor": {
+        "line_start": 118,
+        "line_end": 118,
+        "quote": "deuterium is 150 ppm in blood"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L118 against the legacy audit. Approximate natural-abundance scale is plausible. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L118",
+        "quote": "\"deuterium is 150 ppm in blood\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Approximate natural-abundance scale is plausible."
+      },
+      "id": "C056"
+    },
+    {
+      "anchor": {
+        "line_start": 118,
+        "line_end": 118,
+        "quote": "prevents it from reaching mitochondria-rich organs"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L118 against the legacy audit. No systemic cardiac isotope barrier is known. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L118",
+        "quote": "\"prevents it from reaching mitochondria-rich organs\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No systemic cardiac isotope barrier is known."
+      },
+      "id": "C057"
+    },
+    {
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "one-chamber hearts in fish to two-chamber in amphibians"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L120 against the legacy audit. Fish have two main chambers and amphibians generally three. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"one-chamber hearts in fish to two-chamber in amphibians\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Fish have two main chambers and amphibians generally three."
+      },
+      "id": "C058"
+    },
+    {
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "Birds survived the KT extinction because their vortex starts in the eye"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L120 against the legacy audit. An invented ocular isotope vortex is made the survival cause. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"Birds survived the KT extinction because their vortex starts in the eye\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "An invented ocular isotope vortex is made the survival cause."
+      },
+      "id": "C059"
+    },
+    {
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "every bird on Earth is insulin-resistant by design"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L120 against the legacy audit. The universal avian insulin-resistance claim is unsupported and biologically overgeneralized. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"every bird on Earth is insulin-resistant by design\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The universal avian insulin-resistance claim is unsupported and biologically overgeneralized."
+      },
+      "id": "C060"
+    },
+    {
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "used their vortexes underground to create fat from light"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L120 against the legacy audit. Mammal survival is assigned an invented light-to-fat vortex mechanism. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"used their vortexes underground to create fat from light\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Mammal survival is assigned an invented light-to-fat vortex mechanism."
+      },
+      "id": "C061"
+    },
+    {
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "The heart also has circumventricular organs"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L122 against the legacy audit. Circumventricular organs are brain structures, not cardiac isotope sensors. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"The heart also has circumventricular organs\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Circumventricular organs are brain structures, not cardiac isotope sensors."
+      },
+      "id": "C062"
+    },
+    {
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "all sensory input converges (except olfaction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L122 against the legacy audit. Fair shorthand for thalamic sensory relay. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"all sensory input converges (except olfaction\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Fair shorthand for thalamic sensory relay."
+      },
+      "id": "C063"
+    },
+    {
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "contains massive choroid plexus melanin arrays"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L122 against the legacy audit. The thalamus is assigned unsupported melanin arrays. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"contains massive choroid plexus melanin arrays\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The thalamus is assigned unsupported melanin arrays."
+      },
+      "id": "C064"
+    },
+    {
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "descends to innervate the entire gastrointestinal tract"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L124 against the legacy audit. Vagal innervation does not extend across the entire gastrointestinal tract. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"descends to innervate the entire gastrointestinal tract\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Vagal innervation does not extend across the entire gastrointestinal tract."
+      },
+      "id": "C065"
+    },
+    {
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "Its distal terminus is the transverse mesocolon"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L124 against the legacy audit. The anatomical endpoint gloss is inaccurate. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"Its distal terminus is the transverse mesocolon\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The anatomical endpoint gloss is inaccurate."
+      },
+      "id": "C066"
+    },
+    {
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "clearing deuterium from the X-axis"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L124 against the legacy audit. Speech and breathing are recast as unsupported isotope exhaust. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"clearing deuterium from the X-axis\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Speech and breathing are recast as unsupported isotope exhaust."
+      },
+      "id": "C067"
+    },
+    {
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "two liters of bicarbonate the body produces daily"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L124 against the legacy audit. The quantity is assigned an unsupported isotope-exhaust function. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"two liters of bicarbonate the body produces daily\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The quantity is assigned an unsupported isotope-exhaust function."
+      },
+      "id": "C068"
+    },
+    {
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "seen in diabetics and GLP-1 drug users"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L126 against the legacy audit. Diabetes and GLP-1 agonists can accompany delayed gastric emptying. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L126",
+        "quote": "\"seen in diabetics and GLP-1 drug users\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Diabetes and GLP-1 agonists can accompany delayed gastric emptying."
+      },
+      "id": "C069"
+    },
+    {
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "These patients are net isotopic collectors"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L126 against the legacy audit. The isotope-retention diagnosis is invented. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L126",
+        "quote": "\"These patients are net isotopic collectors\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The isotope-retention diagnosis is invented."
+      },
+      "id": "C070"
+    },
+    {
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "white spots in the center of the face"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L126 against the legacy audit. The asserted diagnostic sign and mechanism are invented. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L126",
+        "quote": "\"white spots in the center of the face\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The asserted diagnostic sign and mechanism are invented."
+      },
+      "id": "C071"
+    },
+    {
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "9,000 RPM (H+ rotor)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L136 against the legacy audit. Unsupported figure also contradicts 9,000 revolutions per second. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L136",
+        "quote": "\"9,000 RPM (H+ rotor)\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Unsupported figure also contradicts 9,000 revolutions per second."
+      },
+      "id": "C072"
+    },
+    {
+      "anchor": {
+        "line_start": 162,
+        "line_end": 162,
+        "quote": "if magneticfluxnT > 50"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L162 against the legacy audit. The illustrative threshold is physically wrong, but removing it leaves the prose mechanism intact. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L161",
+        "quote": "\"if magnetic_flux_nT > 50\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The illustrative threshold is physically wrong, but removing it leaves the prose mechanism intact."
+      },
+      "id": "C073"
+    },
+    {
+      "anchor": {
+        "line_start": 170,
+        "line_end": 170,
+        "quote": "cells store memory in voltage gradients"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L170 against the legacy audit. Bioelectric pattern memory is a legitimate experimental frame. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L170",
+        "quote": "\"cells store memory in voltage gradients\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Bioelectric pattern memory is a legitimate experimental frame."
+      },
+      "id": "C074"
+    },
+    {
+      "anchor": {
+        "line_start": 170,
+        "line_end": 170,
+        "quote": "a single rotational engine distributed across three scales"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L170 against the legacy audit. The three-scale isotope engine is invented. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L170",
+        "quote": "\"a single rotational engine distributed across three scales\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The three-scale isotope engine is invented."
+      },
+      "id": "C075"
+    },
+    {
+      "anchor": {
+        "line_start": 170,
+        "line_end": 170,
+        "quote": "the entire cascade fails from the bottom up"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L170 against the legacy audit. The failure order and species clock are not observed biology. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L170",
+        "quote": "\"the entire cascade fails from the bottom up\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The failure order and species clock are not observed biology."
+      },
+      "id": "C076"
+    },
+    {
+      "anchor": {
+        "line_start": 174,
+        "line_end": 174,
+        "quote": "broadband electromagnetic antenna and the primary consciousness buffer"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L174 against the legacy audit. Optical absorption does not establish antenna behavior or a consciousness buffer. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L174",
+        "quote": "\"broadband electromagnetic antenna and the primary consciousness buffer\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Optical absorption does not establish antenna behavior or a consciousness buffer."
+      },
+      "id": "C077"
+    },
+    {
+      "anchor": {
+        "line_start": 176,
+        "line_end": 176,
+        "quote": "superconductor for biological information"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L176 against the legacy audit. Melanin is not a biological superconductor. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L176",
+        "quote": "\"superconductor for biological information\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Melanin is not a biological superconductor."
+      },
+      "id": "C078"
+    },
+    {
+      "anchor": {
+        "line_start": 176,
+        "line_end": 176,
+        "quote": "across the entire electromagnetic spectrum — from UV to radio frequencies"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L176 against the legacy audit. Melanin does not absorb uniformly across the entire UV-to-radio spectrum. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L176",
+        "quote": "\"across the entire electromagnetic spectrum — from UV to radio frequencies\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Melanin does not absorb uniformly across the entire UV-to-radio spectrum."
+      },
+      "id": "C079"
+    },
+    {
+      "anchor": {
+        "line_start": 176,
+        "line_end": 176,
+        "quote": "transduces electromagnetic signals into cellular instructions"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L176 against the legacy audit. No such distinct cellular-instruction transduction mechanism is established. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L176",
+        "quote": "\"transduces electromagnetic signals into cellular instructions\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No such distinct cellular-instruction transduction mechanism is established."
+      },
+      "id": "C080"
+    },
+    {
+      "anchor": {
+        "line_start": 176,
+        "line_end": 176,
+        "quote": "It stores epigenetic memory"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L176 against the legacy audit. Pigment is assigned an unsupported memory-storage function. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L176",
+        "quote": "\"It stores epigenetic memory\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Pigment is assigned an unsupported memory-storage function."
+      },
+      "id": "C081"
+    },
+    {
+      "anchor": {
+        "line_start": 178,
+        "line_end": 178,
+        "quote": "melanin → dopamine → neurodegeneration"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L178 against the legacy audit. The biochemical arrow is unsupported. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L178",
+        "quote": "\"melanin → dopamine → neurodegeneration\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The biochemical arrow is unsupported."
+      },
+      "id": "C082"
+    },
+    {
+      "anchor": {
+        "line_start": 180,
+        "line_end": 180,
+        "quote": "RF radiation makes melanin incoherent"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L180 against the legacy audit. A physical RF/pigment chain is made the cause of desire and narrowed experience. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L180",
+        "quote": "\"RF radiation makes melanin incoherent\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "A physical RF/pigment chain is made the cause of desire and narrowed experience."
+      },
+      "id": "C083"
+    },
+    {
+      "anchor": {
+        "line_start": 180,
+        "line_end": 180,
+        "quote": "This is the biophysics behind addiction"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L180 against the legacy audit. Device desire is reduced to the invented pigment chemistry. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L180",
+        "quote": "\"This is the biophysics behind addiction\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Device desire is reduced to the invented pigment chemistry."
+      },
+      "id": "C084"
+    },
+    {
+      "anchor": {
+        "line_start": 182,
+        "line_end": 182,
+        "quote": "antenna array calibrated for high magnetic flux"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L182 against the legacy audit. Pigmentation is assigned an unsupported geomagnetic purpose. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L182",
+        "quote": "\"antenna array calibrated for high magnetic flux\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Pigmentation is assigned an unsupported geomagnetic purpose."
+      },
+      "id": "C085"
+    },
+    {
+      "anchor": {
+        "line_start": 182,
+        "line_end": 182,
+        "quote": "calibrated for a specific electromagnetic environment"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L182 against the legacy audit. Mitochondrial inheritance is assigned unsupported environmental calibration. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L182",
+        "quote": "\"calibrated for a specific electromagnetic environment\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Mitochondrial inheritance is assigned unsupported environmental calibration."
+      },
+      "id": "C086"
+    },
+    {
+      "anchor": {
+        "line_start": 186,
+        "line_end": 186,
+        "quote": "magnetic field is anomalously weak"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L186 against the legacy audit. Accurate broad description of the South Atlantic Anomaly. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L186",
+        "quote": "\"magnetic field is anomalously weak\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate broad description of the South Atlantic Anomaly."
+      },
+      "id": "C087"
+    },
+    {
+      "anchor": {
+        "line_start": 186,
+        "line_end": 186,
+        "quote": "allowing cosmic radiation, deuterium, and tritium to penetrate"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L186 against the legacy audit. Geomagnetic shielding does not exclude ordinary isotopes as claimed. Canonical result: EMPIRICAL-CORRELATE + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L186",
+        "quote": "\"allowing cosmic radiation, deuterium, and tritium to penetrate\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Geomagnetic shielding does not exclude ordinary isotopes as claimed."
+      },
+      "id": "C088"
+    },
+    {
+      "anchor": {
+        "line_start": 188,
+        "line_end": 188,
+        "quote": "latest USGS and ESA Swarm satellite data"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L188 against the legacy audit. Institutional names carry geographic and magnitude claims without displayed data. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L188",
+        "quote": "\"latest USGS and ESA Swarm satellite data\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Institutional names carry geographic and magnitude claims without displayed data."
+      },
+      "id": "C089"
+    },
+    {
+      "anchor": {
+        "line_start": 188,
+        "line_end": 188,
+        "quote": "nearly tripled in size compared to two decades ago"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L188 against the legacy audit. The magnitude and comparison are not established in the post. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L188",
+        "quote": "\"nearly tripled in size compared to two decades ago\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The magnitude and comparison are not established in the post."
+      },
+      "id": "C090"
+    },
+    {
+      "anchor": {
+        "line_start": 190,
+        "line_end": 190,
+        "quote": "one proton, two neutrons, radioactive, half-life 12.32 years"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L190 against the legacy audit. Correct tritium composition and approximate half-life. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L190",
+        "quote": "\"one proton, two neutrons, radioactive, half-life 12.32 years\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correct tritium composition and approximate half-life."
+      },
+      "id": "C091"
+    },
+    {
+      "anchor": {
+        "line_start": 190,
+        "line_end": 190,
+        "quote": "incorporates into methyl groups on DNA"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L190 against the legacy audit. The SAA is not shown to cause this exposure pathway. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L190",
+        "quote": "\"incorporates into methyl groups on DNA\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The SAA is not shown to cause this exposure pathway."
+      },
+      "id": "C092"
+    },
+    {
+      "anchor": {
+        "line_start": 192,
+        "line_end": 192,
+        "quote": "Cardiovascular disease rates in Brazil have surged"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L192 against the legacy audit. An unsourced national trend is asserted as evidence for the SAA mechanism. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L192",
+        "quote": "\"Cardiovascular disease rates in Brazil have surged\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "An unsourced national trend is asserted as evidence for the SAA mechanism."
+      },
+      "id": "C093"
+    },
+    {
+      "anchor": {
+        "line_start": 192,
+        "line_end": 192,
+        "quote": "Godwit deaths in the southern ocean"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L192 against the legacy audit. No documented event series establishes these deaths as SAA evidence. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L192",
+        "quote": "\"Godwit deaths in the southern ocean\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No documented event series establishes these deaths as SAA evidence."
+      },
+      "id": "C094"
+    },
+    {
+      "anchor": {
+        "line_start": 192,
+        "line_end": 192,
+        "quote": "Bee colony collapse in Australia and the southern Pacific"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L192 against the legacy audit. No documented regional collapse establishes the claimed magnetic mechanism. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L192",
+        "quote": "\"Bee colony collapse in Australia and the southern Pacific\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No documented regional collapse establishes the claimed magnetic mechanism."
+      },
+      "id": "C095"
+    },
+    {
+      "anchor": {
+        "line_start": 192,
+        "line_end": 192,
+        "quote": "Fish die-offs across the southern hemisphere"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L192 against the legacy audit. This unsourced hemispheric generalization does not establish SAA causation. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L192",
+        "quote": "\"Fish die-offs across the southern hemisphere\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "This unsourced hemispheric generalization does not establish SAA causation."
+      },
+      "id": "C096"
+    },
+    {
+      "anchor": {
+        "line_start": 192,
+        "line_end": 192,
+        "quote": "happened at least 500 times in Earth's history"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L192 against the legacy audit. No documented sequence links 500 reconfigurations to proportional extinction pulses. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L192",
+        "quote": "\"happened at least 500 times in Earth's history\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No documented sequence links 500 reconfigurations to proportional extinction pulses."
+      },
+      "id": "C097"
+    },
+    {
+      "anchor": {
+        "line_start": 194,
+        "line_end": 194,
+        "quote": "base magnetic field on Earth is roughly 50 nanotesla"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L194 against the legacy audit. Earth's surface field is roughly 25,000–65,000 nT. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L194",
+        "quote": "\"base magnetic field on Earth is roughly 50 nanotesla\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Earth's surface field is roughly 25,000–65,000 nT."
+      },
+      "id": "C098"
+    },
+    {
+      "anchor": {
+        "line_start": 194,
+        "line_end": 194,
+        "quote": "Siberia currently registers 335 nanotesla"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L194 against the legacy audit. The claimed regional reading is unsupported and far below ordinary surface-field magnitudes. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L194",
+        "quote": "\"Siberia currently registers 335 nanotesla\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The claimed regional reading is unsupported and far below ordinary surface-field magnitudes."
+      },
+      "id": "C099"
+    },
+    {
+      "anchor": {
+        "line_start": 194,
+        "line_end": 194,
+        "quote": "strongest reading in 320 million years"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L194 against the legacy audit. The Siberian value and deep-time superlative are unsupported. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L194",
+        "quote": "\"strongest reading in 320 million years\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The Siberian value and deep-time superlative are unsupported."
+      },
+      "id": "C100"
+    },
+    {
+      "anchor": {
+        "line_start": 194,
+        "line_end": 194,
+        "quote": "framework would describe this as a strange attractor approaching a bifurcation point"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified from source L194 against the legacy audit. No state space, attractor reconstruction, or bifurcation parameter is supplied. Canonical result: DECLARED-METAPHOR + DECLARED; math role ANALOGICAL.",
+      "legacy": {
+        "anchor": "L194",
+        "quote": "\"framework would describe this as a strange attractor approaching a bifurcation point\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No state space, attractor reconstruction, or bifurcation parameter is supplied."
+      },
+      "id": "C101"
+    },
+    {
+      "anchor": {
+        "line_start": 200,
+        "line_end": 200,
+        "quote": "Deuterium is hydrogen with an extra neutron"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L200 against the legacy audit. Correct isotope definition and mass comparison. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L200",
+        "quote": "\"Deuterium is hydrogen with an extra neutron\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correct isotope definition and mass comparison."
+      },
+      "id": "C102"
+    },
+    {
+      "anchor": {
+        "line_start": 200,
+        "line_end": 200,
+        "quote": "expel it through the three vortexes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L200 against the legacy audit. The proposed clearance architecture is not established. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L200",
+        "quote": "\"expel it through the three vortexes\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The proposed clearance architecture is not established."
+      },
+      "id": "C103"
+    },
+    {
+      "anchor": {
+        "line_start": 200,
+        "line_end": 200,
+        "quote": "produces two liters of bicarbonate per day"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L200 against the legacy audit. The repeated quantity is made part of an invented exhaust. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L200",
+        "quote": "\"produces two liters of bicarbonate per day\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The repeated quantity is made part of an invented exhaust."
+      },
+      "id": "C104"
+    },
+    {
+      "anchor": {
+        "line_start": 202,
+        "line_end": 202,
+        "quote": "Deuterium on methyl groups changes epigenetic expression"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L202 against the legacy audit. Kinetic isotope effects do not establish the systemic disease cascade. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L202",
+        "quote": "\"Deuterium on methyl groups changes epigenetic expression\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Kinetic isotope effects do not establish the systemic disease cascade."
+      },
+      "id": "C105"
+    },
+    {
+      "anchor": {
+        "line_start": 202,
+        "line_end": 202,
+        "quote": "converts brown fat (thermogenic, metabolically active) to white fat"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L202 against the legacy audit. Deuterium is assigned an unsupported adipocyte-conversion mechanism. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L202",
+        "quote": "\"converts brown fat (thermogenic, metabolically active) to white fat\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Deuterium is assigned an unsupported adipocyte-conversion mechanism."
+      },
+      "id": "C106"
+    },
+    {
+      "anchor": {
+        "line_start": 204,
+        "line_end": 204,
+        "quote": "They are isotopic disorders"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L204 against the legacy audit. Isotope load is made the physical origin of disease and consciousness failure. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L204",
+        "quote": "\"They are isotopic disorders\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Isotope load is made the physical origin of disease and consciousness failure."
+      },
+      "id": "C107"
+    },
+    {
+      "anchor": {
+        "line_start": 204,
+        "line_end": 204,
+        "quote": "La constrains Ba to flat space"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified from source L204 against the legacy audit. Hyperbolic/flat geometry is not defined or measured. Canonical result: DECLARED-METAPHOR + DECLARED; math role ANALOGICAL.",
+      "legacy": {
+        "anchor": "L204",
+        "quote": "\"La constrains Ba to flat space\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Hyperbolic/flat geometry is not defined or measured."
+      },
+      "id": "C108"
+    },
+    {
+      "anchor": {
+        "line_start": 204,
+        "line_end": 204,
+        "quote": "collapsing the geometry"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L204 against the legacy audit. Physical isotope accumulation is made to collapse experiential geometry. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L204",
+        "quote": "\"collapsing the geometry\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Physical isotope accumulation is made to collapse experiential geometry."
+      },
+      "id": "C109"
+    },
+    {
+      "anchor": {
+        "line_start": 208,
+        "line_end": 208,
+        "quote": "Every major evolutionary transition tracks a magnetic field change"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L208 against the legacy audit. Universal correlation outruns paleomagnetic evidence. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L208",
+        "quote": "\"Every major evolutionary transition tracks a magnetic field change\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Universal correlation outruns paleomagnetic evidence."
+      },
+      "id": "C110"
+    },
+    {
+      "anchor": {
+        "line_start": 208,
+        "line_end": 208,
+        "quote": "This is not speculative — it is readable in magnetic hysteresis data"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L208 against the legacy audit. Unshown sediment data is invoked as final confirmation. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L208",
+        "quote": "\"This is not speculative — it is readable in magnetic hysteresis data\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Unshown sediment data is invoked as final confirmation."
+      },
+      "id": "C111"
+    },
+    {
+      "anchor": {
+        "line_start": 210,
+        "line_end": 210,
+        "quote": "Great Oxygenation Event (2.4 billion years ago)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L210 against the legacy audit. The event and approximate date are accurate scientific history without carrying the magnetic causal upgrade. Canonical result: HISTORICAL-CLAIM + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L210",
+        "quote": "\"Great Oxygenation Event (2.4 billion years ago)\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The event and approximate date are accurate scientific history without carrying the magnetic causal upgrade."
+      },
+      "id": "C112"
+    },
+    {
+      "anchor": {
+        "line_start": 210,
+        "line_end": 210,
+        "quote": "magnetic-oxygen coupling locks in, complex multicellular life proliferates"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L210 against the legacy audit. Dates are braided into an unsupported magnetic causal sequence. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L210",
+        "quote": "\"magnetic-oxygen coupling locks in, complex multicellular life proliferates\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Dates are braided into an unsupported magnetic causal sequence."
+      },
+      "id": "C113"
+    },
+    {
+      "anchor": {
+        "line_start": 210,
+        "line_end": 210,
+        "quote": "Mammals first appear (320 million years ago)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L210 against the legacy audit. Mammals did not first appear 320 million years ago. Canonical result: HISTORICAL-CLAIM + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L210",
+        "quote": "\"Mammals first appear (320 million years ago)\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Mammals did not first appear 320 million years ago."
+      },
+      "id": "C114"
+    },
+    {
+      "anchor": {
+        "line_start": 210,
+        "line_end": 210,
+        "quote": "magnetic field collapses in what is now Siberia"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L210 against the legacy audit. No established Permian history supports this localized magnetic-collapse claim. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L210",
+        "quote": "\"magnetic field collapses in what is now Siberia\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No established Permian history supports this localized magnetic-collapse claim."
+      },
+      "id": "C115"
+    },
+    {
+      "anchor": {
+        "line_start": 212,
+        "line_end": 212,
+        "quote": "current event is the inverse of the Permian"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L212 against the legacy audit. The asserted hemispheric inversion has no demonstrated event data. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L212",
+        "quote": "\"current event is the inverse of the Permian\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The asserted hemispheric inversion has no demonstrated event data."
+      },
+      "id": "C116"
+    },
+    {
+      "anchor": {
+        "line_start": 214,
+        "line_end": 214,
+        "quote": "Bipedalism itself is a magnetic adaptation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L214 against the legacy audit. Upright posture is assigned an invented isotope-clearance origin. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L214",
+        "quote": "\"Bipedalism itself is a magnetic adaptation\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Upright posture is assigned an invented isotope-clearance origin."
+      },
+      "id": "C117"
+    },
+    {
+      "anchor": {
+        "line_start": 214,
+        "line_end": 214,
+        "quote": "it clears deuterium from the cranial vault"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L214 against the legacy audit. Mantra is repeatedly assigned unsupported isotope clearance. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L214",
+        "quote": "\"it clears deuterium from the cranial vault\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Mantra is repeatedly assigned unsupported isotope clearance."
+      },
+      "id": "C118"
+    },
+    {
+      "anchor": {
+        "line_start": 216,
+        "line_end": 216,
+        "quote": "contains an optical bridge between POMC"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L216 against the legacy audit. No such optical genetic circuit is established. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L216",
+        "quote": "\"contains an optical bridge between POMC\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No such optical genetic circuit is established."
+      },
+      "id": "C119"
+    },
+    {
+      "anchor": {
+        "line_start": 216,
+        "line_end": 216,
+        "quote": "magnetic field event that fused the chromosome"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L216 against the legacy audit. Chromosome 2 fusion is assigned an invented geomagnetic cause. Canonical result: HISTORICAL-CLAIM + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L216",
+        "quote": "\"magnetic field event that fused the chromosome\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Chromosome 2 fusion is assigned an invented geomagnetic cause."
+      },
+      "id": "C120"
+    },
+    {
+      "anchor": {
+        "line_start": 220,
+        "line_end": 220,
+        "quote": "ATPase spins at 9,000 RPM"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L220 against the legacy audit. The unsupported speed figure is repeated. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L220",
+        "quote": "\"ATPase spins at 9,000 RPM\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The unsupported speed figure is repeated."
+      },
+      "id": "C121"
+    },
+    {
+      "anchor": {
+        "line_start": 220,
+        "line_end": 220,
+        "quote": "Three centrifuges, three timescales"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L220 against the legacy audit. The repeated three-system mapping has no measurements. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L220",
+        "quote": "\"Three centrifuges, three timescales\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The repeated three-system mapping has no measurements."
+      },
+      "id": "C122"
+    },
+    {
+      "anchor": {
+        "line_start": 222,
+        "line_end": 222,
+        "quote": "measures a DC voltage gradient from sacrum to crown"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L222 against the legacy audit. Repeats an unvalidated Nadi measurement. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L222",
+        "quote": "\"measures a DC voltage gradient from sacrum to crown\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Repeats an unvalidated Nadi measurement."
+      },
+      "id": "C123"
+    },
+    {
+      "anchor": {
+        "line_start": 222,
+        "line_end": 222,
+        "quote": "impedance rises and the gradient collapses"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L222 against the legacy audit. Deuterium is assigned an unsupported electrical effect. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L222",
+        "quote": "\"impedance rises and the gradient collapses\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Deuterium is assigned an unsupported electrical effect."
+      },
+      "id": "C124"
+    },
+    {
+      "anchor": {
+        "line_start": 224,
+        "line_end": 224,
+        "quote": "Ajna node at the pituitary"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L224 against the legacy audit. A subtle-body node is silently upgraded into exact anatomy. Canonical result: HOUSE-MODEL + COHERENT; math role NONE.",
+      "legacy": {
+        "anchor": "L224",
+        "quote": "\"Ajna node at the pituitary\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A subtle-body node is silently upgraded into exact anatomy."
+      },
+      "id": "C125"
+    },
+    {
+      "anchor": {
+        "line_start": 224,
+        "line_end": 224,
+        "quote": "sits at the same coordinates"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L224 against the legacy audit. The pituitary and choroid plexus do not occupy identical anatomical coordinates. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L224",
+        "quote": "\"sits at the same coordinates\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The pituitary and choroid plexus do not occupy identical anatomical coordinates."
+      },
+      "id": "C126"
+    },
+    {
+      "anchor": {
+        "line_start": 226,
+        "line_end": 226,
+        "quote": "controller of pain modulation, defensive behavior, and vocalization"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L226 against the legacy audit. Correct high-level PAG functions. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L226",
+        "quote": "\"controller of pain modulation, defensive behavior, and vocalization\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correct high-level PAG functions."
+      },
+      "id": "C127"
+    },
+    {
+      "anchor": {
+        "line_start": 226,
+        "line_end": 226,
+        "quote": "sits on the floor of the fourth ventricle"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L226 against the legacy audit. PAG surrounds the cerebral aqueduct; the stated location is wrong. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L226",
+        "quote": "\"sits on the floor of the fourth ventricle\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "PAG surrounds the cerebral aqueduct; the stated location is wrong."
+      },
+      "id": "C128"
+    },
+    {
+      "anchor": {
+        "line_start": 226,
+        "line_end": 226,
+        "quote": "Deuterium-loaded fluid: flat affect, delayed threat response, dysregulated pain"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L226 against the legacy audit. The neurological isotope effects are invented. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L226",
+        "quote": "\"Deuterium-loaded fluid: flat affect, delayed threat response, dysregulated pain\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The neurological isotope effects are invented."
+      },
+      "id": "C129"
+    },
+    {
+      "anchor": {
+        "line_start": 228,
+        "line_end": 228,
+        "quote": "nine hormones"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L228 against the legacy audit. Endocrine control is not universally a nine-hormone pituitary set. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L228",
+        "quote": "\"nine hormones\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Endocrine control is not universally a nine-hormone pituitary set."
+      },
+      "id": "C130"
+    },
+    {
+      "anchor": {
+        "line_start": 228,
+        "line_end": 228,
+        "quote": "Retinal photons → pituitary → endocrine cascade"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L228 against the legacy audit. The pathway is oversimplified and used as a universal axis. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L228",
+        "quote": "\"Retinal photons → pituitary → endocrine cascade\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The pathway is oversimplified and used as a universal axis."
+      },
+      "id": "C131"
+    },
+    {
+      "anchor": {
+        "line_start": 230,
+        "line_end": 230,
+        "quote": "dielectric constant of biological fluids — from 78"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L230 against the legacy audit. Repeats unsupported fluid values. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L230",
+        "quote": "\"dielectric constant of biological fluids — from 78\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Repeats unsupported fluid values."
+      },
+      "id": "C132"
+    },
+    {
+      "anchor": {
+        "line_start": 230,
+        "line_end": 230,
+        "quote": "encodes the magnetic-oxygen coupling"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L230 against the legacy audit. Mitochondrial inheritance is assigned geomagnetic calibration. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L230",
+        "quote": "\"encodes the magnetic-oxygen coupling\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Mitochondrial inheritance is assigned geomagnetic calibration."
+      },
+      "id": "C133"
+    },
+    {
+      "anchor": {
+        "line_start": 232,
+        "line_end": 232,
+        "quote": "clears deuterium in the same mechanical action"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L232 against the legacy audit. Trigeminal pain is assigned invented isotope clearance. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L232",
+        "quote": "\"clears deuterium in the same mechanical action\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Trigeminal pain is assigned invented isotope clearance."
+      },
+      "id": "C134"
+    },
+    {
+      "anchor": {
+        "line_start": 236,
+        "line_end": 236,
+        "quote": "consciousness as a geometric space"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified from source L236 against the legacy audit. No metric makes experiential geometry operational here. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role DECORATIVE.",
+      "legacy": {
+        "anchor": "L236",
+        "quote": "\"consciousness as a geometric space\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No metric makes experiential geometry operational here."
+      },
+      "id": "C135"
+    },
+    {
+      "anchor": {
+        "line_start": 238,
+        "line_end": 238,
+        "quote": "permit non-Euclidean cognition"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Recertified from source L238 against the legacy audit. Topology and non-Euclidean terms are not operationalized. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role DECORATIVE.",
+      "legacy": {
+        "anchor": "L238",
+        "quote": "\"permit non-Euclidean cognition\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Topology and non-Euclidean terms are not operationalized."
+      },
+      "id": "C136"
+    },
+    {
+      "anchor": {
+        "line_start": 238,
+        "line_end": 238,
+        "quote": "The geometry collapses toward flatness"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L238 against the legacy audit. A physical magnetic/pigment cascade is made controller of cognition. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L238",
+        "quote": "\"The geometry collapses toward flatness\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "A physical magnetic/pigment cascade is made controller of cognition."
+      },
+      "id": "C137"
+    },
+    {
+      "anchor": {
+        "line_start": 240,
+        "line_end": 240,
+        "quote": "cytochrome c oxidase absorbs red and near-infrared photons"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L240 against the legacy audit. Plausible photobiomodulation mechanism. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L240",
+        "quote": "\"cytochrome c oxidase absorbs red and near-infrared photons\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Plausible photobiomodulation mechanism."
+      },
+      "id": "C138"
+    },
+    {
+      "anchor": {
+        "line_start": 240,
+        "line_end": 240,
+        "quote": "Water transduces electromagnetic information"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L240 against the legacy audit. The fluid value and transduction architecture are unsupported. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L240",
+        "quote": "\"Water transduces electromagnetic information\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The fluid value and transduction architecture are unsupported."
+      },
+      "id": "C139"
+    },
+    {
+      "anchor": {
+        "line_start": 240,
+        "line_end": 240,
+        "quote": "Z-axis (heart) processes magnetism"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L240 against the legacy audit. The three-axis processing architecture is invented. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L240",
+        "quote": "\"Z-axis (heart) processes magnetism\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The three-axis processing architecture is invented."
+      },
+      "id": "C140"
+    },
+    {
+      "anchor": {
+        "line_start": 242,
+        "line_end": 242,
+        "quote": "The SAA is growing"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L242 against the legacy audit. Satellite observations show long-term SAA evolution. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L242",
+        "quote": "\"The SAA is growing\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Satellite observations show long-term SAA evolution."
+      },
+      "id": "C141"
+    },
+    {
+      "anchor": {
+        "line_start": 242,
+        "line_end": 242,
+        "quote": "vortexes are slowing in half the world's population"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L242 against the legacy audit. No population measurement supports this. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L242",
+        "quote": "\"vortexes are slowing in half the world's population\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "No population measurement supports this."
+      },
+      "id": "C142"
+    },
+    {
+      "anchor": {
+        "line_start": 242,
+        "line_end": 242,
+        "quote": "single most important variable"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L242 against the legacy audit. Magnetic flux is ranked over all health variables without evidence. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L242",
+        "quote": "\"single most important variable\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Magnetic flux is ranked over all health variables without evidence."
+      },
+      "id": "C143"
+    },
+    {
+      "anchor": {
+        "line_start": 252,
+        "line_end": 252,
+        "quote": "blue-light-sensitive proteins found in the retina of birds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L252 against the legacy audit. Broad cryptochrome biology is plausible, though pecten localization is oversimplified. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L252",
+        "quote": "\"blue-light-sensitive proteins found in the retina of birds\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Broad cryptochrome biology is plausible, though pecten localization is oversimplified."
+      },
+      "id": "C144"
+    },
+    {
+      "anchor": {
+        "line_start": 252,
+        "line_end": 252,
+        "quote": "Cryptochrome enables magnetoreception"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L252 against the legacy audit. Radical-pair cryptochrome magnetoreception is an asserted model, not settled mechanism. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L252",
+        "quote": "\"Cryptochrome enables magnetoreception\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Radical-pair cryptochrome magnetoreception is an asserted model, not settled mechanism."
+      },
+      "id": "C145"
+    },
+    {
+      "anchor": {
+        "line_start": 252,
+        "line_end": 252,
+        "quote": "ability to see the magnetic field as a visual overlay"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L252 against the legacy audit. A literal visual overlay is not established. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L252",
+        "quote": "\"ability to see the magnetic field as a visual overlay\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A literal visual overlay is not established."
+      },
+      "id": "C146"
+    },
+    {
+      "anchor": {
+        "line_start": 252,
+        "line_end": 252,
+        "quote": "Godwit navigates 11,000 km"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L252 against the legacy audit. The migration-distance scale is plausible. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L252",
+        "quote": "\"Godwit navigates 11,000 km\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The migration-distance scale is plausible."
+      },
+      "id": "C147"
+    },
+    {
+      "anchor": {
+        "line_start": 252,
+        "line_end": 252,
+        "quote": "Birds fall from the sky"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L252 against the legacy audit. The weak-field death mechanism is unsupported. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L252",
+        "quote": "\"Birds fall from the sky\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The weak-field death mechanism is unsupported."
+      },
+      "id": "C148"
+    },
+    {
+      "anchor": {
+        "line_start": 254,
+        "line_end": 254,
+        "quote": "Hydrogen-2. One proton, one neutron"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L254 against the legacy audit. Correct isotope definition and approximate natural abundance. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L254",
+        "quote": "\"Hydrogen-2. One proton, one neutron\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correct isotope definition and approximate natural abundance."
+      },
+      "id": "C149"
+    },
+    {
+      "anchor": {
+        "line_start": 254,
+        "line_end": 254,
+        "quote": "Deuterium in adipocytes converts brown fat to white"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L254 against the legacy audit. Specific organism-level outcomes outrun ordinary isotope chemistry. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L254",
+        "quote": "\"Deuterium in adipocytes converts brown fat to white\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Specific organism-level outcomes outrun ordinary isotope chemistry."
+      },
+      "id": "C150"
+    },
+    {
+      "anchor": {
+        "line_start": 256,
+        "line_end": 256,
+        "quote": "angular difference between magnetic north and geographic north"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L256 against the legacy audit. Correct definition of magnetic declination. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L256",
+        "quote": "\"angular difference between magnetic north and geographic north\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correct definition of magnetic declination."
+      },
+      "id": "C151"
+    },
+    {
+      "anchor": {
+        "line_start": 256,
+        "line_end": 256,
+        "quote": "proxy for local magnetic field strength"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L256 against the legacy audit. Declination is not simply field strength. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L256",
+        "quote": "\"proxy for local magnetic field strength\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Declination is not simply field strength."
+      },
+      "id": "C152"
+    },
+    {
+      "anchor": {
+        "line_start": 256,
+        "line_end": 256,
+        "quote": "correlate with weakened flux and increased health risk"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L256 against the legacy audit. The health relation is unsupported. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L256",
+        "quote": "\"correlate with weakened flux and increased health risk\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The health relation is unsupported."
+      },
+      "id": "C153"
+    },
+    {
+      "anchor": {
+        "line_start": 258,
+        "line_end": 258,
+        "quote": "residual magnetic signature preserved in sedimentary rocks"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L258 against the legacy audit. Fair description of remanent magnetization. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L258",
+        "quote": "\"residual magnetic signature preserved in sedimentary rocks\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Fair description of remanent magnetization."
+      },
+      "id": "C154"
+    },
+    {
+      "anchor": {
+        "line_start": 258,
+        "line_end": 258,
+        "quote": "Every extinction event shows a hysteresis signature"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L258 against the legacy audit. The universal extinction signature is unsupported. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L258",
+        "quote": "\"Every extinction event shows a hysteresis signature\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The universal extinction signature is unsupported."
+      },
+      "id": "C155"
+    },
+    {
+      "anchor": {
+        "line_start": 260,
+        "line_end": 260,
+        "quote": "biological superconductor and consciousness buffer"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L260 against the legacy audit. Repeats the false melanin mechanism. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L260",
+        "quote": "\"biological superconductor and consciousness buffer\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Repeats the false melanin mechanism."
+      },
+      "id": "C156"
+    },
+    {
+      "anchor": {
+        "line_start": 262,
+        "line_end": 262,
+        "quote": "Van Allen radiation belts dip closest to Earth's surface"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L262 against the legacy audit. Accurate broad SAA description. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L262",
+        "quote": "\"Van Allen radiation belts dip closest to Earth's surface\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate broad SAA description."
+      },
+      "id": "C157"
+    },
+    {
+      "anchor": {
+        "line_start": 262,
+        "line_end": 262,
+        "quote": "deuterium/tritium penetration, and degraded biological coherence"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L262 against the legacy audit. Adds unsupported isotope and consciousness effects to the real anomaly. Canonical result: EMPIRICAL-CORRELATE + UNSUPPORTED; math role NONE.",
+      "legacy": {
+        "anchor": "L262",
+        "quote": "\"deuterium/tritium penetration, and degraded biological coherence\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Adds unsupported isotope and consciousness effects to the real anomaly."
+      },
+      "id": "C158"
+    },
+    {
+      "anchor": {
+        "line_start": 264,
+        "line_end": 264,
+        "quote": "Hydrogen-3. One proton, two neutrons. Radioactive. Half-life 12.32 years"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L264 against the legacy audit. Correct nuclear facts. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L264",
+        "quote": "\"Hydrogen-3. One proton, two neutrons. Radioactive. Half-life 12.32 years\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correct nuclear facts."
+      },
+      "id": "C159"
+    },
+    {
+      "anchor": {
+        "line_start": 264,
+        "line_end": 264,
+        "quote": "emits beta particles from within the cell"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L264 against the legacy audit. Incorporated tritium is a beta emitter. Canonical result: EMPIRICAL-CORRELATE + VERIFIED; math role NONE.",
+      "legacy": {
+        "anchor": "L264",
+        "quote": "\"emits beta particles from within the cell\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Incorporated tritium is a beta emitter."
+      },
+      "id": "C160"
+    },
+    {
+      "anchor": {
+        "line_start": 264,
+        "line_end": 264,
+        "quote": "Normally blocked by the Van Allen belts and Earth's magnetic shield"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L264 against the legacy audit. Tritium occurrence is not controlled by geomagnetic shielding as claimed. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L264",
+        "quote": "\"Normally blocked by the Van Allen belts and Earth's magnetic shield\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Tritium occurrence is not controlled by geomagnetic shielding as claimed."
+      },
+      "id": "C161"
+    },
+    {
+      "anchor": {
+        "line_start": 264,
+        "line_end": 264,
+        "quote": "invisible in extinction event data until now"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L264 against the legacy audit. The half-life does not validate the article's extinction mechanism. Canonical result: DERIVED-SYNTHESIS + MODE-CONFLATED; math role NONE.",
+      "legacy": {
+        "anchor": "L264",
+        "quote": "\"invisible in extinction event data until now\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The half-life does not validate the article's extinction mechanism."
+      },
+      "id": "C162"
+    },
+    {
+      "anchor": {
+        "line_start": 266,
+        "line_end": 266,
+        "quote": "separates isotopes by mass through centrifugal force"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L266 against the legacy audit. The glossary repeats the nonexistent bodily centrifuge. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L266",
+        "quote": "\"separates isotopes by mass through centrifugal force\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The glossary repeats the nonexistent bodily centrifuge."
+      },
+      "id": "C163"
+    },
+    {
+      "anchor": {
+        "line_start": 266,
+        "line_end": 266,
+        "quote": "Evolution from one-chamber to four-chamber hearts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recertified from source L266 against the legacy audit. The chamber sequence is oversimplified and partly wrong. Canonical result: EMPIRICAL-CORRELATE + CONTRADICTED; math role NONE.",
+      "legacy": {
+        "anchor": "L266",
+        "quote": "\"Evolution from one-chamber to four-chamber hearts\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The chamber sequence is oversimplified and partly wrong."
+      },
+      "id": "C164"
+    }
+  ]
+}

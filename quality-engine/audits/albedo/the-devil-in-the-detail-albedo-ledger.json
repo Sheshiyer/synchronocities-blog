@@ -1,0 +1,1575 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-devil-in-the-detail.md",
+  "source_path": "src/content/posts/the-devil-in-the-detail.md",
+  "source_sha256": "d05a31bbe06865d392098f2ad4c55dad285d1b83058e4d1205e10c38b65f5e0a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-devil-in-the-detail.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "watched a monkey watch a light"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Wolfram Schultz's primate reward-learning experiments did use visual cues predicting juice; this bounded historical setup is accurate independently of the later claims about neural meaning.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"watched a monkey watch a light\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate experiment history, separated from the neural-result claims that remain borrowed."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "in a neuroimaging lab in Cambridge"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 1997 Schultz work was electrophysiological recording associated with Fribourg, not neuroimaging in a Cambridge laboratory. The place and method are materially misattributed.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"in a neuroimaging lab in Cambridge\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Schultz's 1997 work was electrophysiology from his Fribourg period, not a Cambridge neuroimaging experiment."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The dopamine neuron did not fire when the juice hit the tongue"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "After learning, some midbrain dopamine responses transfer from predicted reward to its cue, but the absolute “did not fire when juice hit” omits learning stage, reward predictability, neuron population, and protocol.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"The dopamine neuron did not fire when the juice hit the tongue\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "The named experiment carries a context-dependent cue-learning claim as an absolute."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "a full two seconds before the reward arrived"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The exact two-second cue–reward interval is presented without a figure, protocol, trial condition, or primary-source location; the named paper alone does not verify this precision.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"a full two seconds before the reward arrived\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "A precise experimental interval is borrowed as narrative authority without protocol detail."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "the brain is not wired for pleasure. It is wired for prediction error"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Dopamine systems participate in reward, motivation, salience, learning, and prediction-error signaling; the exclusive “not pleasure, wired for prediction error” binary is stronger than the evidence and is contradicted by the broader literature.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"the brain is not wired for pleasure. It is wired for prediction error\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Neural wiring is made the author of experience, and the binary “not pleasure” formulation overstates the evidence."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "My own nervous system ran the same protocol for eighteen months"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The narrator reports an eighteen-month cue-response pattern, but “ran the same protocol” equates that observation with Schultz's neural protocol without measurement. The duration is traceable self-report yet nonconsequential.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"My own nervous system ran the same protocol for eighteen months\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Direct embodied observation with a specific cue and repeatable behavioral response."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "When the outcome exceeds the prediction, dopamine spikes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cited reward-prediction-error literature supports increased phasic dopamine activity when received reward exceeds prediction, within the experiment's conditioning and neuron-recording scope.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"When the outcome exceeds the prediction, dopamine spikes\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Recognizable reward-prediction-error result, but the cited study carries the mechanism rather than a reader-run observation."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "When the outcome falls short, dopamine drops"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cited signed reward-prediction-error model supports a dip below baseline when an expected reward is omitted or worse than predicted; the row states that bounded relationship.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"When the outcome falls short, dopamine drops\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The signed response is recognizable research background, but it remains institutionally borrowed here."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The spike is not pleasure; it is a teaching signal"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling the signal “not pleasure” and exclusively a teaching signal collapses multiple context-dependent dopamine functions into one mechanism; available evidence does not support that categorical exclusion.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"The spike is not pleasure; it is a teaching signal\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Dopamine is made the author of learning while a context-dependent correlate is stated as an exclusive mechanism."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The reward prediction error (RPE) signal is the substrate"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declaring RPE “the substrate” of addiction upgrades one measured learning signal into the causal material basis of compulsion without population, intervention, scope, or evidence for necessity.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"The reward prediction error (RPE) signal is the substrate\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "A neural signal is made the matter-first substrate of compulsion architecture."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "layering certainty until the entire hierarchy collapses"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The paper's cue-learning results do not derive a hierarchy that layers certainty until collapse. This new Noesis mechanism is presented as inherited neuroscience without ingredients, transformation, authorship, or evidence.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"layering certainty until the entire hierarchy collapses\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A speculative multi-level neural collapse is asserted beyond the cited RPE model."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "the entire hierarchy collapses into a single, compulsive circuit"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A single compulsive circuit is a new synthesis beyond the cited RPE model; no circuit definition, measure, transformation, or Noesis authorship separates it from the source result.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"the entire hierarchy collapses into a single, compulsive circuit\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "This repeats the same speculative neural-collapse mechanism."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "RPE = actual reward − predicted reward"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "RPE as actual reward minus predicted reward is the standard signed conceptual quantity used in the cited model. The relation is correct, provenance-traceable, and structurally central to the post's argument.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"RPE = actual reward − predicted reward\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct signed reward-prediction-error quantity and central to the post's behavioral model."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "I saw this collapse in my own telemetry"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The following cue, swipe, and outcome are situated self-observations, but “saw this collapse in my own telemetry” also claims the unmeasured neural hierarchy collapse. Observation and interpretation must be split.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"I saw this collapse in my own telemetry\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "The cue, swipe, and variable outcome are named as a replicable self-observation."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The B-flat chime was the conditioned stimulus"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The narrator identifies the B-flat chime as the repeated cue, names the observer and object, and supplies the eighteen-month phone-use context; the row is limited to that situated observation.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"The B-flat chime was the conditioned stimulus\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Direct first-person identification of the learned cue."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The unlock swipe was the response"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The narrator directly reports the unlock swipe as the recurrent behavioral response to the named chime under the described phone-use conditions, without universalizing the observation.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"The unlock swipe was the response\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Direct first-person identification of the behavioral response."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The variable reward — a message, a like, nothing — was the unconditioned stimulus"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Messages, likes, and their absence are learned or conditioned outcomes, not biologically unconditioned stimuli. The conditioning category is definitionally wrong even if the variable outcome is accurately observed.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"The variable reward — a message, a like, nothing — was the unconditioned stimulus\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A learned social-media outcome is mislabeled as an unconditioned stimulus."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The RPE was not generated by the reward"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Reward prediction error is defined by the signed mismatch between outcome and prediction; uncertainty can influence learning but does not replace the reward outcome as the generator asserted here.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"The RPE was not generated by the reward\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The post asserts bare uncertainty, rather than signed reward mismatch, as the generator."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "A variable ratio schedule is the most resistant to extinction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Classical operant-conditioning research supports strong persistence under variable-ratio reinforcement schedules. The claim is bounded to resistance to extinction rather than a universal neural mechanism.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"A variable ratio schedule is the most resistant to extinction\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Standard conditioning literature is invoked without a reader-run test or source."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The brain remains in a permanent state of prediction error"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Variable schedules can sustain responding, but they do not keep a brain in permanent prediction error or make dopamine fire continually; “permanent” and the causal mechanism are contradicted.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"The brain remains in a permanent state of prediction error\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Variable schedules resist extinction, but “permanent” error and continual firing are overstated as settled mechanism."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "the possibility of the reward"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Dopamine activity is not simply generated by “the possibility of reward”; cue value, prediction, uncertainty, outcome, and task context are distinct variables, so the exclusive causal wording is false.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"the possibility of the reward\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Dopamine is made the causal producer of motivational possibility."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "B.F. Skinner wrote the architecture in the 1950s"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "B. F. Skinner and collaborators developed and published operant reinforcement-schedule research in the mid-twentieth century. The software metaphor is separate from this accurate historical pointer.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"B.F. Skinner wrote the architecture in the 1950s\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate historical pointer to operant-conditioning schedule research, used structurally."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "the cost of reorganizing the synaptic weight exceeds the cost"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No measured cost function compares synaptic reorganization with loop maintenance. The post presents an undeclared Noesis optimization synthesis as neural mechanism, with undefined units and no derivation.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"the cost of reorganizing the synaptic weight exceeds the cost\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "No neural cost function or measurement supports this asserted explanation of compulsion."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "the more repetitions, the stronger the bond"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Repetition can support plasticity under specified conditions, but “more repetitions, stronger bond” is a uniform synaptic law without task, synapse, timescale, measure, saturation, or traceable source.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"the more repetitions, the stronger the bond\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A general plasticity intuition is upgraded into a uniform synaptic law for this loop."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "the chains have become part of their self-model"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Tarot figures' removable chains are explicitly interpreted as a self-model image for internalized bondage. The card reading is figurative and no literal chain or clinical mechanism is inferred.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"the chains have become part of their self-model\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A self-model mechanism is asserted without observation or a declared model."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "I felt a phantom weight, a missing limb"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“I felt” names the observer and a specific phantom-weight or missing-limb sensation when the phone was absent; the report remains first-person phenomenology, not a diagnosis.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"I felt a phantom weight, a missing limb\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Clearly first-person phenomenology, not upgraded into a clinical diagnosis."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The phone became an extension of my proprioceptive field"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The proprioceptive-extension phrase is grounded in the narrator's immediately described phantom weight and phone-absence condition; it is retained as a scoped interpretation of that personal bodily experience.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"The phone became an extension of my proprioceptive field\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Direct first-person embodied observation of device absence and phantom weight."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "It was an identity layer"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Identity layer” is an interpretation of the narrator's compulsion, not a directly observed signal. The operative layer and test are not defined and the sentence does not declare a Noesis or personal working model.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"It was an identity layer\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Direct first-person interpretation of the narrator's own compulsion experience."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The same architecture scales from the synapse to the relationship"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Synaptic learning, attachment, platforms, and cosmology are declared one scale-invariant architecture without separately supported ingredients, a scale transformation, or explicit Noesis authorship.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"The same architecture scales from the synapse to the relationship\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Synaptic learning, anxious attachment, platforms, and cosmology are declared one mechanism without evidence across scales."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "the same variable ratio schedule operates in the anxious attachment pattern"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Interpersonal reply uncertainty is treated as an identical variable-ratio operant schedule without measured events, reinforcement definition, population, transformation, or declared synthesis.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"the same variable ratio schedule operates in the anxious attachment pattern\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Interpersonal uncertainty is asserted to be the identical operant schedule without measurement."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "the same architecture operates in the attention economy"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The attention economy may use reinforcement design, but “the same architecture” hides a cross-scale Noesis synthesis without platform data, common variables, transformation, or authorship.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"the same architecture operates in the attention economy\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A cross-scale identity is stated rather than a declared analogy."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "This is the fractal operation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Fractal” is used for repetition across domains without a scale transformation or self-similar invariant. The undeclared synthesis adds mathematical aura and can be removed without changing the cross-domain examples.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"This is the fractal operation\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Repetition across domains is asserted, but no scale transformation or self-similar invariant is demonstrated."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "a point of gravitational collapse"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The paragraph expressly denies metaphor, yet repetition has no mass, spacetime metric, curvature, or escape velocity. Calling the bindu a gravitational-collapse point is physically and mathematically false.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"a point of gravitational collapse\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Repetition has no defined mass, metric curvature, or escape velocity; the paragraph explicitly denies metaphor."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "a 0.3-second B-flat at 72 dB"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The narrator reports a 0.3-second B-flat at 72 dB as the manipulated cue. Those values are traceable to the situated report, but changing or removing the exact numbers does not alter the intervention or thesis.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"a 0.3-second B-flat at 72 dB\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "A specific sensory cue the narrator reports manipulating; no general physiology depends on the measurement."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "I changed the notification sound to a different tone"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The narrator directly reports changing the notification sound and specifies both the old and new cues, observer, intervention, and phone-use context.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"I changed the notification sound to a different tone\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "The line reports that the loop broke after a specific intervention, satisfying the gate's embodied-observation rule."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The loop broke"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“The loop broke” is the narrator's bounded behavioral outcome after the sound change; it is kept separate from the unmeasured RPE and synaptic explanations that follow.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"The loop broke\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Directly reported outcome, separated from the preceding intervention."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The RPE signal could not match the old pattern"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cue-change observation does not measure an RPE signal or show that it failed to match a neural pattern; no neural recording, operational measure, or source supports the explanation.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"The RPE signal could not match the old pattern\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The behavioral change is grounded, but the unmeasured neural explanation is not."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The synaptic weight was not erased; it was bypassed"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No synaptic recording or longitudinal neural measure distinguishes bypass from erasure in this personal intervention; the observed behavioral change cannot establish the stated synaptic mechanism.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"The synaptic weight was not erased; it was bypassed\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No synaptic recording distinguishes bypass from erasure in the narrator's intervention."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "not sense withdrawal, but sense specificity"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Classical pratyahara concerns withdrawal or governance of the senses; directing attention to a single point is closer to dharana. “Not withdrawal, but specificity” materially misrepresents the named teaching.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"not sense withdrawal, but sense specificity\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Classical pratyāhāra is sense withdrawal/control; single-point direction is closer to dhāraṇā."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "urge surfing"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Urge surfing is a real clinical technique developed in relapse-prevention work. This row only verifies the named technique's existence and provenance, not the article's causal explanation.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"urge surfing\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate history of a real named clinical technique."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "works because it isolates the detail"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Urge surfing involves observing an urge's changing sensations without acting, but the claim that it works because it isolates “the detail” lacks a mechanism-specific source, population, outcome, and causal evidence.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"works because it isolates the detail\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The named technique does not establish the post's specificity mechanism."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "The Kha-Ba-La triad is not a decorative vocabulary"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The paragraph explicitly presents Kha–Ba–La as the article's governing framework and consistently defines witness, embodied execution, and resistance. It is a coherent house model, not mathematical or empirical proof.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"The Kha-Ba-La triad is not a decorative vocabulary\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Canonical house triad is mapped explicitly to witness, embodied loop, and resistance across the argument."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "the RPE signal is flattened, and Ba loses its authority"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence combines an unmeasured empirical claim that naming flattens RPE with the Kha–Ba–La claim that Ba loses authority. The source ingredients, mode boundary, and Noesis transformation are not separated.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"the RPE signal is flattened, and Ba loses its authority\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Naming a cue is asserted to flatten a neural teaching signal; the direct observation does not establish that physiology."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "precise calibration of the synaptic cost"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Precise calibration of synaptic cost” names neither a cost variable, unit, synaptic measure, calibration procedure, nor source. The quantitative language is unsupported and dispensable from the precision thesis.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"precise calibration of the synaptic cost\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The conclusion repeats an unmeasured synaptic cost function."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "designed to do: predict, update, and conserve energy"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The teleological claim that the nervous system was designed to predict, update, and conserve energy supplies no evolutionary scope, operational measures, source, or evidence that these three exhaust its function.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"designed to do: predict, update, and conserve energy\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "The nervous system is made author of cognitive prediction and updating."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "Schultz's monkey predicted the light. Skinner's pigeon predicted the grain"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Schultz's conditioned monkey responded to a reward-predictive cue, and Skinner's pigeons learned grain-predictive contingencies. This bounded historical summary does not by itself validate the Noesis triad.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"Schultz's monkey predicted the light. Skinner's pigeon predicted the grain\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The conclusion repeats named experiments as external warrant for the general architecture."
+      },
+      "id": "C046"
+    }
+  ]
+}

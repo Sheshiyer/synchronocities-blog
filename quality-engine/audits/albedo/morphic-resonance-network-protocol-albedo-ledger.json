@@ -1,0 +1,1508 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "morphic-resonance-network-protocol.md",
+  "source_path": "src/content/posts/morphic-resonance-network-protocol.md",
+  "source_sha256": "d2a8ef842a8aec07197f05646870fc96ccace5c876cbe608ea56b1590562d11d",
+  "legacy_audit_path": "quality-engine/audits/nigredo/morphic-resonance-network-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "theory of formative causation proposes that nature has habits"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The excerpt explicitly attributes the “nature has habits” formulation to Rupert Sheldrake's theory of formative causation; it reports the theory rather than proving it.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"theory of formative causation proposes that nature has habits\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The idea is explicitly identified as a theory rather than settled mechanism."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "Morphic fields function as distributed memory systems"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "In the immediately preceding attributed context, distributed memory is a faithful summary of how Sheldrake describes morphic fields, not an independently verified mechanism.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"Morphic fields function as distributed memory systems\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The body repeatedly develops this theory-framed model, so the excerpt occurrence is removable."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "non-local attractors that shape biological form"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The excerpt imports attractor terminology into morphic-field biology without a state space, basin, transformation, or explicit Noesis synthesis boundary.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"non-local attractors that shape biological form\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No state space, map, or basin makes attractor language operational."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "Whitehead's process philosophy"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The excerpt claims Whitehead provides convergent support without tracing which proposition is used or how process philosophy transforms into evidence for morphic resonance.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"Whitehead's process philosophy\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "One of three independently removable named supports in the excerpt."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "Bergson's creative evolution"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bergson's creative evolution is named as convergent support without a traced ingredient, comparison rule, or declared Noesis inference.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"Bergson's creative evolution\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "One of three independently removable named supports in the excerpt."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "Michael Levin's bioelectric field research"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Levin's bioelectric research is presented as support for morphic resonance without separating the empirical findings from the essay's new field-memory synthesis.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"Michael Levin's bioelectric field research\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "One of three independently removable named supports in the excerpt."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "I have spent years watching the same crystalline structures form"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author identifies a multi-year laboratory vantage, repeated crystallization object, different laboratories and continents, and confines the report to what was personally noticed.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"I have spent years watching the same crystalline structures form\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Direct longitudinal observation is clearly distinguished from institutional confirmation."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "This is not a metaphor. It is a measurement"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling the crystallization pattern a measurement requires displayed observations, compounds, procedures, sample counts, and uncertainty; none are supplied.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"This is not a metaphor. It is a measurement\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The silent-upgrade phrase supplies no displayed measurements or protocol."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "the idea that nature remembers"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence explicitly identifies “nature remembers” as Sheldrake's idea, preserving the distinction between the theorist's model and empirical confirmation.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"the idea that nature remembers\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Morphic resonance is expressly framed as an idea interpreting the observation."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "standing waves across time"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The phrase “behave like” explicitly marks standing waves as a comparison across time; no wave equation or literal prediction is extracted from the image itself.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"standing waves across time\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Standing-wave language appears without a wave equation, boundary, or frequency."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "periodic table is not a set of eternal decrees"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The mutability of periodic regularities is stated beyond the theory frame without a population of observations, conditions, uncertainty, or source matching that strength.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"periodic table is not a set of eternal decrees\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Periodic regularities are asserted to be mutable habits without model qualification."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "reinforcing the habits of subatomic particles"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay asserts that repeated collider experiments causally reinforce particle behavior without measurement, mechanism, uncertainty, or a traceable source.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"reinforcing the habits of subatomic particles\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Accelerator repetition is asserted to change particle regularities without model qualification."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "I have watched researchers dismiss anomalous crystal growth"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is a bounded first-person report of researchers dismissing anomalous crystal growth; it names observer, object, and laboratory context without universalizing the event.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"I have watched researchers dismiss anomalous crystal growth\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person laboratory observation is distinguished from a universal result."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "cannot explain how a flatworm regrows an entire organism"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Developmental biology does explain substantial parts of flatworm regeneration and axon guidance; the absolute “cannot explain” wording exceeds the state of the evidence.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"cannot explain how a flatworm regrows an entire organism\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Developmental biology does model regeneration and axon guidance; absence is overstated."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The genome is a toolkit, not a blueprint"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Toolkit, not a blueprint” is a clearly figurative developmental comparison and makes no literal computational or numeric inference.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"The genome is a toolkit, not a blueprint\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "This broadly coherent developmental framing resists a simplistic one-gene/one-form blueprint model."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The morphic field provides the architecture"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The morphic field is asserted as the biological architecture rather than reported as Sheldrake's model; no empirical trace establishes that causal role.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"The morphic field provides the architecture\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "The essay's explicitly named morphic-field model governs the interpretation."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Michael Levin's lab at Tufts has demonstrated this"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Levin's bioelectric experiments are used as proof of morphic architecture without separating the measured voltage effects from the essay's cross-theory inference.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"Michael Levin's lab at Tufts has demonstrated this\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Institution and investigator carry the inference from bioelectric patterning to morphic architecture."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "measure bioelectric voltage gradients across developing embryos"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The named Tufts research program uses instruments to measure bioelectric voltage gradients during development; the claim stays at the measured-object level.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"measure bioelectric voltage gradients across developing embryos\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Bioelectric gradients are a real observable research object."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "based on voltage states rather than genetic scripts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Cell identity reflects interacting genetic and bioelectric processes; the “rather than genetic scripts” construction creates an unsupported false opposition.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"based on voltage states rather than genetic scripts\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A both/and developmental process is asserted as a voltage-rather-than-genetics opposition."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "no surgical cut"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cited two-headed planarian result involved cut or amputated tissue; saying “no surgical cut” materially misrepresents the experiment's method.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"no surgical cut\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The two-headed regeneration setup used cut or amputated planarian tissue."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "anatomy is a field phenomenon first"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Field phenomenon first” is the essay's inference from bioelectric results, but it is presented as the experiment's proof without declared Noesis authorship or transformation.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"anatomy is a field phenomenon first\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Field-before-matter causation explicitly follows the house cosmology."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "transmits information faster than synaptic transmission allows"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A body-wide fascia channel faster than synaptic transmission requires a defined signal, tissue, distance, comparator, and measurement; none are provided.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"transmits information faster than synaptic transmission allows\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A body-wide faster-than-synaptic channel is asserted without measured scope."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "It generates ionic currents, maintains voltage gradients"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The broad claim assigns ionic-current generation and voltage maintenance to the entire fascial network without measured scope, conditions, or a traceable source.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"It generates ionic currents, maintains voltage gradients\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Broad electrical functions are assigned to fascia without observation or model limits."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "Sheldrake's data on synthetic crystal melting points is instructive"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay names Sheldrake's synthetic-crystal dataset but gives no traceable study, compounds, methods, or context sufficient to verify the reported trend.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"Sheldrake's data on synthetic crystal melting points is instructive\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "The controversial regularity rests entirely on the named researcher's dataset."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "mechanism behind the hundredth-monkey effect"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A disputed anecdotal “hundredth-monkey” story is promoted to a field-density mechanism without a measured threshold, population, or reproducible data.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"mechanism behind the hundredth-monkey effect\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A disputed anecdote is promoted to a field-density mechanism without measurements."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "A critical density of similar patterns creates a basin of attraction"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No density threshold, state space, distance, or attraction function establishes the claimed basin; the undeclared mathematical mechanism is misapplied.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"A critical density of similar patterns creates a basin of attraction\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No density threshold, state space, or attraction function is defined."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Extinction events are not random catastrophes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The universal field-rigidity account of extinction supplies neither comparative extinction data nor evidence that rigidity is the causal mechanism.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Extinction events are not random catastrophes\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A universal field-rigidity account of extinction is presented as fact."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "Cramer's direct-action formalism in quantum mechanics"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence accurately names Cramer's transactional interpretation and its offer-wave/confirmation-wave vocabulary; this row reports the formalism rather than validating its biological use.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"Cramer's direct-action formalism in quantum mechanics\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A quantum interpretation is treated as literal biological support."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "structurally identical to morphic resonance"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No structure-preserving map connects Cramer's quantum interpretation to morphic resonance; the essay hides a consequential cross-domain synthesis as identity.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"structurally identical to morphic resonance\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No structure-preserving map connects the quantum formalism to morphic resonance."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "the past literally reaches forward to shape the present"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The “literally reaches forward” conclusion turns a time-symmetric quantum interpretation into morphic biological mechanism without a traced transformation or declared Noesis authorship.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"the past literally reaches forward to shape the present\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "“Literally” silently upgrades a philosophical comparison into mechanism."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Whitehead described the cosmos as a process of becoming"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The statement faithfully attributes process, becoming, and predecessor-prehension to Whitehead's Process and Reality rather than presenting them as empirical proof.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Whitehead described the cosmos as a process of becoming\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate intellectual history is routed to ALIGNED under the audit rule."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Bergson's élan vital"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The paragraph correctly identifies Bergson's élan vital as the vital impulse associated with creative evolution and keeps the attribution attached.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Bergson's *élan vital*\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate intellectual history is routed to ALIGNED under the audit rule."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The field does not determine the form"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The probabilistic field constraint combines Sheldrake, Whitehead, and Bergson into a new model without tracing the ingredients or naming Noesis authorship.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"The field does not determine the form\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The model is explicitly described in probabilistic rather than settled terms."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Mechanistic reductionism predicted that knowing the amino acid sequence would make prediction trivial"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Mechanistic reductionism” is treated as a historical speaker that predicted trivial folding, but no identified source made that sweeping claim.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"Mechanistic reductionism predicted that knowing the amino acid sequence would make prediction trivial\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No specific history establishes this sweeping prediction of trivial folding."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "AlphaFold's success came not from deeper reduction but from pattern recognition"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "AlphaFold does use learned structural patterns, but the “not deeper reduction” contrast is an unsourced philosophical interpretation rather than a method-matched empirical result.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"AlphaFold's success came not from deeper reduction but from pattern recognition\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Fair high-level model of a data-trained structure-prediction system."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "the way proteins learn the habits of their fields"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The explicit comparison is used to imply that proteins literally learn unmeasured morphic-field habits; analogy is converted into mechanism without evidence or synthesis trace.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"the way proteins learn the habits of their fields\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Protein folding is made evidence of an unmeasured morphic-field learning mechanism."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "Gravity warps space-time"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "General relativity's spacetime-curvature account of gravitation is externally testable and extensively corroborated; this sentence states it at conventional strength.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"Gravity warps space-time\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A model-dependent cosmological description is presented as unqualified fact."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "this warping is the cost function of the network"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Warping is identified as an optimization cost function without an objective, variables, evaluation rule, or declared Noesis mapping.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"this warping is the cost function of the network\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No objective function, variables, or optimization procedure is supplied."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "Consciousness is not an emergent property"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Consciousness-primary ontology is asserted as fact without explicitly marking it as the Noesis house frame or defining the model's operative terms here.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"Consciousness is not an emergent property\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Explicit consciousness-primary causation is house cosmology."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "gravity may be the interference pattern of mass-fields"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The modal “may” limits certainty, but the mass-field interference proposal still lacks an explicit Noesis model declaration and coherent definitions.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"gravity may be the interference pattern of mass-fields\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "“May” explicitly marks an open model possibility rather than settled fact."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "node in a field topology calibrated to the curvature"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Field topology and curvature calibration are asserted without a topology, metric, calibration map, or declared cross-domain synthesis.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"node in a field topology calibrated to the curvature\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No topology, metric, or calibration map is defined."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "spatial curvature we measure at κ ≈ 0"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The near-zero curvature estimate is plausible, but the post gives no dataset, uncertainty, convention, or source; κ≈0 adds nonconsequential precision aura.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"spatial curvature we measure at κ ≈ 0\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "A specialist measurement is borrowed without a reader-checkable route."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "averaged residue of every transaction that has ever occurred"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cosmic-residue interpretation is a Noesis-style house model stated as universal fact without explicit house declaration or defined transaction and averaging operations.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"averaged residue of every transaction that has ever occurred\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "The noetic field interpretation follows the consciousness-primary house frame."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "Nature has habits"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The conclusion drops Sheldrake's theory label and presents “nature has habits” as an established universal result, conflating model proposal with empirical fact.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"Nature has habits\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The conclusion drops the earlier theory label and states the central contested claim as fact."
+      },
+      "id": "C044"
+    }
+  ]
+}

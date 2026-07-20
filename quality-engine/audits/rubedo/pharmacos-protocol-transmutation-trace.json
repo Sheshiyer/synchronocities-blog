@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.3",
+  "post": "pharmacos-protocol.md",
+  "category": "traditional-attribution-issue",
+  "expected_operation": "CORRECT_TRADITIONAL_ATTRIBUTION",
+  "albedo_load_bearing_claim": "Projection repeats the structural logic of the ancient pharmakos ritual: systems externalize unprocessed material, while conscious re-integration replaces scapegoating.",
+  "recertified_finding_ids": [
+    "C007"
+  ],
+  "full_document": {
+    "pre_sha256": "b62b527473933e1bb9f0b34a64ca7be0084b39aa3d44492f291e62b4e712f087",
+    "post_sha256": "75cb50d034268ddd028194695faf3e9f5aad9bc1313db3c1607080eae4677ca1",
+    "byte_identical": false
+  },
+  "frontmatter": {
+    "pre_sha256": "68381c6f357f7b34feb442505a4ecfae9a2c3738aaed05f96a8cff9d4e5c3a46",
+    "post_sha256": "68381c6f357f7b34feb442505a4ecfae9a2c3738aaed05f96a8cff9d4e5c3a46",
+    "byte_identical": true
+  },
+  "edits": [
+    {
+      "id": "E001",
+      "finding_id": "C007",
+      "source_occurrence": 1,
+      "before": "The Balinese Padiyami ceremony executes every 210 days.",
+      "after": "Bali's Pawukon calendar repeats every 210 days, and many odalan temple anniversaries recur on that cycle.",
+      "before_sha256": "7c2d1554e69e34fa552f6872c94529f00a108ff511fa5f3a203f3e8a10b5eebd",
+      "after_sha256": "a62feec6bcc47cf636b36f418847cb5d89dc8720384e26ea1c74bc32b83d2557"
+    }
+  ],
+  "new_claim_counts": {
+    "science": 0,
+    "math": 0,
+    "traditional_attribution": 0
+  },
+  "quality_gates": {
+    "voice": {
+      "status": "PASS",
+      "score": 90,
+      "evidence": "docs/ci-audit-report.json scores the current post's voice at 90/100 with no tonal-drift flags; the single attribution correction preserves the Anatomist register."
+    },
+    "kha_ba_la": {
+      "status": "FAIL",
+      "evidence": "The current CI audit reports Kha 0, Ba 0, La 0, triad 0, no absence demonstration, and FAIL; E001 does not alter that full-post gate."
+    },
+    "fractal_depth": {
+      "status": "PASS",
+      "score": 85,
+      "evidence": "docs/ci-audit-report.json reports fractal depth 85/100 across personal, individual, bodily, somatic, and societal scales with recursive structure."
+    },
+    "citation_attribution": {
+      "status": "FAIL",
+      "evidence": "C007's invented ceremony is corrected, but the CI source-grounding dimension remains 33/100 with only one source-pattern match, below the full-suite source-depth requirement."
+    },
+    "epistemic_grounding": {
+      "status": "FAIL",
+      "evidence": "C007 is resolved, but recertified C005 remains an UNSUPPORTED historical generalization about what psychologists call projection."
+    },
+    "math_integration": {
+      "status": "PASS",
+      "evidence": "E001 adds no mathematical claim; recertified C003, C006, and C009 retain ANALOGICAL roles within explicit DECLARED-METAPHOR boundaries."
+    },
+    "hard_acceptance": {
+      "status": "PASS",
+      "checks": [
+        {
+          "criterion": "Remove the nonexistent Balinese Padiyami ceremony attribution.",
+          "status": "PASS",
+          "evidence": "E001 removes the complete Padiyami sentence, and the current post contains no 'Padiyami' occurrence."
+        },
+        {
+          "criterion": "If the 210-day comparison is retained, name the real Pawukon cycle and frame odalan or related rites accurately.",
+          "status": "PASS",
+          "evidence": "E001 retains 210 days as Bali's Pawukon calendar cycle and limits the rite claim to many odalan temple anniversaries recurring on that cycle."
+        },
+        {
+          "criterion": "Preserve the scheduling analogy without inventing a replacement ceremony or source.",
+          "status": "PASS",
+          "evidence": "The surrounding garbage-collection scheduling analogy remains intact; E001 names a calendar and recurring temple anniversaries, not a replacement ceremony or authority."
+        }
+      ]
+    }
+  },
+  "outcome": {
+    "status": "PARTIAL_RESOLUTION",
+    "resolved_finding_ids": [
+      "C007"
+    ],
+    "remaining_findings": [],
+    "summary": "The calibrated C007 traditional-attribution finding is resolved, but post-level Kha-Ba-La, citation-attribution, and epistemic-grounding gates still fail."
+  },
+  "rubedo_verdict": "PARTIAL"
+}

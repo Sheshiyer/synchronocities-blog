@@ -66,7 +66,7 @@ You cannot talk La out of a groove. You have to walk a new one.
 
 For the next 72 hours, don't observe the pattern. Observe the moment *before* the pattern fires.
 
-That 400-millisecond window between stimulus and somatic response — before the story starts, before the defense completes — that is where access lives.
+That window between stimulus and somatic response — before the story starts, before the defense completes — that is where access lives.
 
 Not above the pattern. Before it.
 

@@ -1,0 +1,2376 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "sri-yantra-geometry-that-doesnt-fit.md",
+  "source_path": "src/content/posts/sri-yantra-geometry-that-doesnt-fit.md",
+  "source_sha256": "4482746bf73e5318159a336bc9afd80f4172c7a31dd2bb27be4cddcc8b1a01e2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/sri-yantra-geometry-that-doesnt-fit.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The Sri Yantra is the geometric body of mantra-energy"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The English epigraph is presented as a Saundarya Lahari quotation but is not traceable to that text; its traditional-source provenance is materially wrong.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"The Sri Yantra is the geometric body of mantra-energy\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "This English sentence is presented as a direct *Saundarya Laharī* quotation but is not traceable there."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "designed to drive the substrate toward a specific state"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A yantra designed to drive a biological/experiential substrate into a specified state is an empirical causal claim. No protocol, population, measure, result, uncertainty, or source supports it.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"designed to drive the substrate toward a specific state\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A physiological/experiential mechanism is asserted before any observational protocol is supplied."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "doing for at least twelve hundred years"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post dates operation of this specific symmetry/substrate mechanism to at least twelve hundred years without evidence that historical use embodied that modern mechanism.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"doing for at least twelve hundred years\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A precise operational history is asserted without dating evidence for this claimed mechanism."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Nine interlocking triangles"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The standard diagram directly shows nine interlocking triangles, the count is central to the post’s geometric inventory, and the visible figure supplies reproducible correctness and provenance.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"Nine interlocking triangles\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The five-down/four-up inventory is a real, load-bearing construction count."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "produce, by their interpenetration, 43 smaller triangular regions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The standard construction’s 43 smaller triangular regions are countable and correct, but this count changes no later D9, crystallographic, or substrate inference; it fails the consequence lock.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"produce, by their interpenetration, **43 smaller triangular regions**\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct count, but removable from the D9/planar-mismatch thesis."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "counts 44 triangles total"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 44 total is accurately reported as a canonical Tripura lineage count (43 regions plus bindu), but the number is not used in a consequential calculation or inference.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"counts **44 triangles total**\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct lineage count including the bindu, but removable from the central thesis."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "an 8-petal lotus (aṣṭadala-padma)"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The eight-petal lotus is directly visible and correctly counted, but the isolated count is not structurally consequential to any valid downstream result.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"an **8-petal lotus** (*aṣṭadala-padma*)\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct radial count, but removable from the square-frame comparison."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "the dihedral group D₄"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The square frame and four cardinal gates exhibit D4 symmetry; that classification is correct, central to the inner/outer comparison, and reproducible from the described figure.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"the dihedral group D₄\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct symmetry for the square outer frame with four cardinal gates."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The 8-petal lotus is 8-fold"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An ideal eight-petal rosette has eightfold rotational symmetry, but this background count is nonconsequential and does not establish plane periodicity.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"The 8-petal lotus is 8-fold\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Plausible finite rosette symmetry, but not a periodic tiling and removable here."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The 16-petal lotus is 16-fold"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An ideal sixteen-petal rosette has sixteenfold rotational symmetry, but the count performs no consequential operation in the valid argument.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"The 16-petal lotus is 16-fold\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Plausible finite rosette symmetry, but not a periodic tiling and removable here."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "These are the outer periodic structures"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Finite eight- and sixteen-petal rosettes have rotational symmetry but are not periodic plane tilings; calling them outer periodic structures confuses finite symmetry with translational periodicity.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"These are the outer periodic structures\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Finite 8- and 16-petal rosettes have rotational symmetry but are not periodic plane tilings."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "carries D₉ dihedral symmetry"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The unequal interlocking triangles of the standard Sri Yantra do not have ninefold rotational symmetry, so the asserted D9 group—the post’s central premise—is false.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"carries D₉ dihedral symmetry\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Nine interlocking, unequal triangles do not form a regular ninefold orbit; standard Sri Yantra lacks 9-fold rotational symmetry."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Eighteen total isometries acting on the inner triangle field"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claimed eighteen isometries depend entirely on nonexistent D9 symmetry; no nine rotations and nine reflections act on the actual inner figure.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"Eighteen total isometries acting on the inner triangle field\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The count depends on the false D9 symmetry premise."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "9-fold rotational symmetry is non-crystallographic"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The planar crystallographic restriction excludes ninefold rotations from periodic tilings; this theorem is correct, consequential to the post’s attempted inference, and standardly traceable.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"9-fold rotational symmetry is non-crystallographic\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct statement of the Euclidean planar crystallographic restriction in isolation."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "No wallpaper group carries 9-fold rotational symmetry"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No wallpaper group has ninefold rotational symmetry, a correct theorem consequence, but this restatement adds no new structural consequence beyond C014.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"No wallpaper group carries 9-fold rotational symmetry\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct restriction content, but removable because the theorem is already inventoried."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The Penrose tilings get five-fold"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Penrose tilings exhibit forbidden fivefold/quasiperiodic order, but the correct comparison is nonconsequential because no Sri Yantra inflation or translation structure is shown.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"The Penrose tilings get five-fold\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct quasiperiodic background, but the example is removable from the false Sri-Yantra D₉ premise."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "The Sri Yantra is therefore structurally Penrose-class"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Penrose-class” does not follow: the D9 premise is false and the finite Sri Yantra supplies no quasiperiodic translation module, inflation rule, or matching-rule construction.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"The Sri Yantra is therefore structurally Penrose-class\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The inference rests on the false D9 premise and no quasiperiodic translation structure is shown."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "outer frame carries the highest crystallographic symmetry available (4-fold, 8-fold)"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Eightfold is noncrystallographic in a periodic plane tiling, while sixfold is the highest permitted rotational order; the stated “highest available (4-fold, 8-fold)” claim is false.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"outer frame carries the highest *crystallographic* symmetry available (4-fold, 8-fold)\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Eightfold is non-crystallographic and sixfold is the omitted highest planar rotational order."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "a non-periodic core inside a periodic outer frame"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The outer figure is finite rather than periodic, and the inner finite figure is not shown to have aperiodic translational order; the proposed core/frame composition is not established.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"a non-periodic core inside a periodic outer frame\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Finite Sri Yantra layers do not establish periodic or quasiperiodic tilings."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "through the eye, the substrate — to confront the mismatch"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The eye/substrate confrontation is asserted as a causal perceptual mechanism, not explicitly bounded as metaphor or house model, and no observation protocol or evidence trace supports it.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"through the eye, the substrate — to confront the mismatch\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Visual inspection is silently upgraded into a substrate-level geometric confrontation mechanism."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "inner core is exactly the symmetry order the plane refuses"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The standard inner core lacks the claimed D9 order, so it is not “exactly” an order refused by periodic Euclidean tilings.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"inner core is *exactly* the symmetry order the plane refuses\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Standard Sri Yantra lacks the asserted D9 symmetry."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "outer frame is the highest symmetry the plane permits"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A finite square frame is not a periodic tiling and fourfold is not the highest permitted planar crystallographic rotational order; sixfold is.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"outer frame is the highest symmetry the plane permits\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The square frame is finite and sixfold planar crystallographic symmetry is higher."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "prolonged meditation on it produces apparent depth, three-dimensional emergence"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The text labels this a folk claim but names no tradition, source, observer, conditions, or report corpus sufficient to attribute the depth/tunnel phenomenology accurately.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"prolonged meditation on it produces apparent depth, three-dimensional emergence\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicitly presented as a folk report and directly testable as subjective phenomenology; the geometric explanation is judged separately."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "the figure must lift off the page into curved space"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A finite nine-triangle drawing need not lift into curved space, and the asserted necessity inherits the false D9/periodic-tiling premise.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"the figure must lift off the page into curved space\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "This repeats the false D9 premise; a finite drawing needs no periodic ambient."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "the experience-manifold curves"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Experience-manifold curves” presents an undefined geometric metaphor as a literal high-load substrate regime. No manifold, metric, curvature measurement, or synthesis trace is supplied, yet the mechanism is thesis-consequential.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"the experience-manifold curves\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Mathematical curvature is silently upgraded into a mechanism of meditative experience."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "Centuries of practitioners observed these states"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Unspecified “centuries of practitioners” are used as the report corpus for forbidden-symmetry experience without named testimony, primary texts, dates, or a coding method.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"Centuries of practitioners observed these states\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Unspecified practitioners carry the claimed forbidden-symmetry phenomenology."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "natural local symmetries include 9-fold"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No experiential manifold or ninefold local symmetry is measured or constructed, and the claim repeats the false D9 premise without provenance.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"natural local symmetries include 9-fold\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No experiential manifold or ninefold local symmetry is measured or constructed."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "the substrate begins to recreate the state the diagram records"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-MODEL",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“In this reading” marks a house-model boundary, but the substrate-driver model depends on a diagram state and symmetry signature that the preceding geometry fails to establish.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"the substrate begins to recreate the state the diagram records\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Pattern-completion machinery is asserted to reproduce an encoded state without evidence."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "The induction works because the figure encodes the geometry"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-MODEL",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The model’s induction explanation depends on the false encoded-geometry premise and supplies no independent evidence that pattern completion drives the claimed state.",
+      "legacy": {
+        "anchor": "L100",
+        "quote": "\"The induction works because the figure encodes the geometry\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The post states a causal mechanism as fact rather than a working model."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Each functions, in its tradition, as an inducer of altered geometric states"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post generalizes across pentagrams, heptagonal seals, lotuses, pakua, and rose windows as traditional inducers without naming the teachings or sources for each attribution.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"Each functions, in its tradition, as an inducer of altered geometric states\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "A sweeping cross-tradition effect claim is carried by cited compilations rather than reader-checkable observations."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Kulaichev's 1984 paper"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Kulaichev’s 1984 Sriyantra and its Mathematical Properties is a real, accurately named bibliographic source on constructing Sri Yantra intersections.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"Kulaichev's 1984 paper\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate bibliographic history of a paper deriving Sri Yantra coordinates."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "compiles many of the canonical Indian examples"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bühnemann’s Mandalas and Yantras in the Hindu Traditions is accurately identified as a compilation of canonical Indian examples.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"compiles many of the canonical Indian examples\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate bibliographic history of Bühnemann's compilation."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Each carries forbidden or borderline-forbidden symmetries"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The crystallographic restriction governs periodic tilings, not isolated finite pentagrams, lotuses, seals, pakua, or rose windows; “forbidden” is a category error here.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"Each carries forbidden or borderline-forbidden symmetries\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The crystallographic restriction governs periodic tilings, not isolated pentagrams, lotuses, seals, or rose windows."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "Pingala's Chandaḥśāstra (200 BCE)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The explicit Meru/Pascal array is associated with later commentary such as Halayudha, not demonstrably constructed in the extant Pingala text; the attribution is misleading.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"Pingala's **Chandaḥśāstra** (~200 BCE)\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The explicit Meru/Pascal array is associated with later commentary, not constructed in extant Pingala as claimed."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "gives Sri Yantra its symmetry-counting structure"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No transformation connects the prosodic binomial array to Sri Yantra triangle intersections or symmetry counts; the alleged shared combinatorial spine is central but absent.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"gives Sri Yantra its symmetry-counting structure\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No construction maps the prosodic binomial array to Sri Yantra intersections or symmetry."
+      }
+    },
+    {
+      "id": "C036",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "Row n contains the binomial coefficients"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Rows of Pascal’s triangle contain binomial coefficients, a correct fact, but this statement has no valid consequence for the Sri Yantra thesis.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"Row n contains the binomial coefficients\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct combinatorial background, but removable from the D9/planar-mismatch thesis."
+      }
+    },
+    {
+      "id": "C037",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "Pingala constructed it approximately 1,800 years before Blaise Pascal"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The explicit binomial array is misattributed to Pingala rather than later Indian commentators, so the stated eighteen-century priority has the wrong authorial basis.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"Pingala constructed it approximately 1,800 years before Blaise Pascal\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "This misattributes the explicit binomial array to Pingala rather than later Indian commentators such as Halāyudha."
+      }
+    },
+    {
+      "id": "C038",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "Pingala constructed it approximately 1,800 years before Blaise Pascal"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Indian prosodic combinatorics predates Pascal, but the exact Pingala-construction priority claim is mathematically tied to a false historical attribution.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"Pingala constructed it approximately 1,800 years before Blaise Pascal\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Indian prosodic combinatorics predates Pascal, but the explicit array is misattributed to Pingala."
+      }
+    },
+    {
+      "id": "C039",
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "Binary arithmetic 1,500 years before Brahmagupta"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The chronology is impossible: Pingala and Brahmagupta are separated by roughly eight centuries, not fifteen; the numeric priority claim is false.",
+      "legacy": {
+        "anchor": "L126",
+        "quote": "\"Binary arithmetic ~1,500 years before Brahmagupta\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The chronology is impossible: Pingala and Brahmagupta are separated by roughly eight centuries, not fifteen."
+      }
+    },
+    {
+      "id": "C040",
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "enumerated all 2^n patterns"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Binary strings of n light/heavy positions do enumerate 2^n patterns, but this correct count performs no valid work in the Sri Yantra argument.",
+      "legacy": {
+        "anchor": "L126",
+        "quote": "\"enumerated all 2^n patterns\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The binary count is mathematically correct but removable from the Sri-Yantra argument."
+      }
+    },
+    {
+      "id": "C041",
+      "anchor": {
+        "line_start": 127,
+        "line_end": 127,
+        "quote": "Pingala derived a recursion"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prosodic Fibonacci recurrence is associated with later authors such as Virahanka and Hemachandra rather than extant Pingala; the attribution is misleading.",
+      "legacy": {
+        "anchor": "L127",
+        "quote": "\"Pingala derived a recursion\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The prosodic recurrence is associated with later authors such as Virahāṅka and Hemachandra, not extant Pingala."
+      }
+    },
+    {
+      "id": "C042",
+      "anchor": {
+        "line_start": 127,
+        "line_end": 127,
+        "quote": "F(n) = F(n−1) + F(n−2)"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "F(n)=F(n−1)+F(n−2) is the correct Fibonacci recurrence, but it is nonconsequential to the geometric thesis and does not rescue the historical attribution.",
+      "legacy": {
+        "anchor": "L127",
+        "quote": "\"F(n) = F(n−1) + F(n−2)\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The recurrence is correct but removable; the Pingala attribution is separately false."
+      }
+    },
+    {
+      "id": "C043",
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "yields the cardinality of the phonemic register itself"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Prosodic binary enumeration does not yield the cardinality of the Sanskrit phonemic inventory, and no derivation or provenance connects the two.",
+      "legacy": {
+        "anchor": "L128",
+        "quote": "\"yields the cardinality of the phonemic register itself\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Prosodic binary enumeration does not determine the size of the Sanskrit phoneme inventory."
+      }
+    },
+    {
+      "id": "C044",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "Every entry traces back through a unique route to the apex"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Interior Pascal entries have multiple routes to the apex; their values count those routes, so “a unique route” is false.",
+      "legacy": {
+        "anchor": "L130",
+        "quote": "\"Every entry traces back through a unique route to the apex\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Interior Pascal entries have multiple paths to the apex; their values count those paths."
+      }
+    },
+    {
+      "id": "C045",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "a rooted enumeration tree"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pascal’s array is a directed acyclic graph with merging paths, not a tree; “rooted enumeration tree” misstates its structure.",
+      "legacy": {
+        "anchor": "L130",
+        "quote": "\"a **rooted enumeration tree**\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Pascal's array is a directed acyclic graph with merging paths, not a tree."
+      }
+    },
+    {
+      "id": "C046",
+      "anchor": {
+        "line_start": 134,
+        "line_end": 134,
+        "quote": "well-known in South Indian temple iconography"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Sri Meru/Maha Meru as a South Indian ritual and iconographic form is a responsible, broadly corroborable historical description.",
+      "legacy": {
+        "anchor": "L134",
+        "quote": "\"well-known in South Indian temple iconography\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate broad history of the Sri Meru ritual form, stated without making geometry prove efficacy."
+      }
+    },
+    {
+      "id": "C047",
+      "anchor": {
+        "line_start": 134,
+        "line_end": 134,
+        "quote": "projected as a step-pyramid"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Maha Meru is visibly rendered as a stepped pyramid, but the descriptive geometry is nonconsequential and supplies no valid resolution of the 2D claim.",
+      "legacy": {
+        "anchor": "L134",
+        "quote": "\"projected as a step-pyramid\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The 3D rendering is real, but this geometric description is removable from the failed space-group rescue."
+      }
+    },
+    {
+      "id": "C048",
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "Maha Meru is the cumulative Meru Prastara"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Shared “Meru” terminology does not create a tier-to-binomial-row construction; no mapping shows Maha Meru as cumulative Meru Prastara.",
+      "legacy": {
+        "anchor": "L136",
+        "quote": "\"Maha Meru is the cumulative Meru Prastara\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No tier-to-binomial-row correspondence is demonstrated; shared use of “Meru” is not a construction."
+      }
+    },
+    {
+      "id": "C049",
+      "anchor": {
+        "line_start": 138,
+        "line_end": 138,
+        "quote": "there are 230 space groups"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The 230 three-dimensional crystallographic space groups are correctly attributed to the Fedorov/Schoenflies classification, and that exact count materially supports the section’s stated 2D/3D comparison.",
+      "legacy": {
+        "anchor": "L138",
+        "quote": "\"there are 230 space groups\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate classification history, distinct from the false rotational-order inference."
+      }
+    },
+    {
+      "id": "C050",
+      "anchor": {
+        "line_start": 138,
+        "line_end": 138,
+        "quote": "by lifting off the plane into 3D"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Lifting a finite figure into three dimensions does not repair the nonexistent D9 symmetry or establish a relation to periodic crystallographic groups.",
+      "legacy": {
+        "anchor": "L138",
+        "quote": "\"by lifting off the plane into 3D\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "This later restatement repeats the false D9 resolution premise."
+      }
+    },
+    {
+      "id": "C051",
+      "anchor": {
+        "line_start": 138,
+        "line_end": 138,
+        "quote": "some of which support rotational orders that wallpaper groups cannot host"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Three-dimensional crystallographic space groups still permit only 1-, 2-, 3-, 4-, and 6-fold rotations; they do not provide ninefold crystallographic rotation.",
+      "legacy": {
+        "anchor": "L138",
+        "quote": "\"some of which support rotational orders that wallpaper groups cannot host\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "This repeated resolution remains false; 3D space groups do not supply ninefold rotation."
+      }
+    },
+    {
+      "id": "C052",
+      "anchor": {
+        "line_start": 140,
+        "line_end": 140,
+        "quote": "The relationship between them is geometrically lawful"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claimed lawfulness inherits false D9, quasiperiodic, and space-group premises, and no explicit 2D-to-3D transformation is defined.",
+      "legacy": {
+        "anchor": "L140",
+        "quote": "\"The relationship between them is geometrically lawful\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "This later conclusion repeats the false D9, quasiperiodic, and space-group premises."
+      }
+    },
+    {
+      "id": "C053",
+      "anchor": {
+        "line_start": 142,
+        "line_end": 142,
+        "quote": "The 3D form's symmetry is one of the 230 crystallographic space groups"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Maha Meru is a finite stepped object, not a periodic crystal; assigning it one of 230 space groups is a finite-object/space-group category error.",
+      "legacy": {
+        "anchor": "L142",
+        "quote": "\"The 3D form's symmetry is one of the 230 crystallographic space groups\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "This later conclusion repeats the invalid finite-object-to-space-group inference."
+      }
+    },
+    {
+      "id": "C054",
+      "anchor": {
+        "line_start": 142,
+        "line_end": 142,
+        "quote": "in 3D hyperbolic space, the symmetry options are richer still"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Hyperbolic three-space admits richer symmetry possibilities than Euclidean crystallography, but this true background claim constructs no Maha Meru group and changes no valid inference.",
+      "legacy": {
+        "anchor": "L142",
+        "quote": "\"in 3D hyperbolic space, the symmetry options are richer still\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "General hyperbolic background is removable and no Maha-Meru group is constructed."
+      }
+    },
+    {
+      "id": "C055",
+      "anchor": {
+        "line_start": 148,
+        "line_end": 148,
+        "quote": "Fedorov classified the 17 wallpaper groups in 1891"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Fedorov’s 1891 classification of the seventeen wallpaper groups is historically and mathematically accurate, consequential to the chronology, and traceable through the named author/date.",
+      "legacy": {
+        "anchor": "L148",
+        "quote": "\"Fedorov classified the 17 wallpaper groups in 1891\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate history, kept distinct from the unsupported ancient-yantra comparison."
+      }
+    },
+    {
+      "id": "C056",
+      "anchor": {
+        "line_start": 148,
+        "line_end": 148,
+        "quote": "for at least 1,500 years before that"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The broad fifteen-century priority groups distinct figures and alleged symmetry uses without a dated inventory or source supporting that duration and practice.",
+      "legacy": {
+        "anchor": "L148",
+        "quote": "\"for at least 1,500 years before that\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A broad history groups distinct figures and alleged forbidden symmetries without a dated inventory."
+      }
+    },
+    {
+      "id": "C057",
+      "anchor": {
+        "line_start": 150,
+        "line_end": 150,
+        "quote": "Pingala constructed it 1,800 years earlier"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This repeats the unsupported attribution of the explicit binomial array to Pingala.",
+      "legacy": {
+        "anchor": "L150",
+        "quote": "\"Pingala constructed it ~1,800 years earlier\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The conclusion repeats the false explicit-array attribution."
+      }
+    },
+    {
+      "id": "C058",
+      "anchor": {
+        "line_start": 152,
+        "line_end": 152,
+        "quote": "Pingala had it"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This repeats the unsupported attribution of the Fibonacci/prosodic recurrence to Pingala rather than later documented authors.",
+      "legacy": {
+        "anchor": "L152",
+        "quote": "\"Pingala had it\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The conclusion repeats the unsupported attribution of the Fibonacci recurrence to Pingala."
+      }
+    },
+    {
+      "id": "C059",
+      "anchor": {
+        "line_start": 154,
+        "line_end": 154,
+        "quote": "documented by Lu and Steinhardt, 2007, Science"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Lu and Steinhardt’s 2007 Science paper is accurately cited as an analysis of medieval Islamic decagonal patterning.",
+      "legacy": {
+        "anchor": "L154",
+        "quote": "\"documented by Lu and Steinhardt, 2007, *Science*\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate history of a published analysis of medieval Islamic decagonal patterning."
+      }
+    },
+    {
+      "id": "C060",
+      "anchor": {
+        "line_start": 154,
+        "line_end": 154,
+        "quote": "The Sri Yantra is constructed quasi-periodically much earlier"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The finite Sri Yantra has no demonstrated aperiodic tiling, translation module, inflation rule, or matching rules; “constructed quasi-periodically” is false as established here.",
+      "legacy": {
+        "anchor": "L154",
+        "quote": "\"The Sri Yantra is constructed quasi-periodically much earlier\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No aperiodic tiling, inflation rule, or translational order is established for the finite diagram."
+      }
+    },
+    {
+      "id": "C061",
+      "anchor": {
+        "line_start": 154,
+        "line_end": 154,
+        "quote": "quasi-periodic decagonal tilings on the Darb-i Imam shrine"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Darb-i Imam example is responsibly attributed and mathematically relevant history, but this isolated example has no structural consequence for Sri Yantra.",
+      "legacy": {
+        "anchor": "L154",
+        "quote": "\"quasi-periodic decagonal tilings on the Darb-i Imam shrine\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The medieval tiling example is real but removable from the Sri Yantra argument."
+      }
+    },
+    {
+      "id": "C062",
+      "anchor": {
+        "line_start": 156,
+        "line_end": 156,
+        "quote": "Schläfli classified regular hyperbolic tilings in the mid-19th century"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Schläfli’s mid-nineteenth-century work on regular polytopes/tilings is accurately dated and materially supports the formal-later chronology; the mathematical object and provenance are explicit.",
+      "legacy": {
+        "anchor": "L156",
+        "quote": "\"Schläfli classified regular hyperbolic tilings in the mid-19th century\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate mathematical history, not used as external proof of ritual efficacy."
+      }
+    },
+    {
+      "id": "C063",
+      "anchor": {
+        "line_start": 156,
+        "line_end": 156,
+        "quote": "Mystical traditions were drawing such symmetries"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Mystical traditions” and “such symmetries” are neither inventoried nor sourced, and no formal hyperbolic construction is shown. The symmetry language supplies no consequential mathematics.",
+      "legacy": {
+        "anchor": "L156",
+        "quote": "\"Mystical traditions were drawing such symmetries\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Iconography is equated with formal hyperbolic tilings without a demonstrated construction."
+      }
+    },
+    {
+      "id": "C064",
+      "anchor": {
+        "line_start": 160,
+        "line_end": 160,
+        "quote": "The substrate produces consistent geometric reports under sustained practice"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Consistent geometric reports across practitioners under sustained practice require a named corpus, procedure, conditions, coding method, and uncertainty; none is supplied.",
+      "legacy": {
+        "anchor": "L160",
+        "quote": "\"The substrate produces consistent geometric reports under sustained practice\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Consistency across practitioners and traditions is asserted without a defined report corpus."
+      }
+    },
+    {
+      "id": "C065",
+      "anchor": {
+        "line_start": 160,
+        "line_end": 160,
+        "quote": "The geometry was real — discoverable empirically through inhabitation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“The geometry was real” generalizes from unsourced practice reports to mathematical discovery without naming a measured geometry, derivation, corpus, or provenance. The term performs no valid calculation.",
+      "legacy": {
+        "anchor": "L160",
+        "quote": "\"The geometry was *real* — discoverable empirically through inhabitation\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The conclusion repeats an unestablished cross-practitioner geometric mechanism."
+      }
+    },
+    {
+      "id": "C066",
+      "anchor": {
+        "line_start": 162,
+        "line_end": 162,
+        "quote": "the substrate is a real physical system"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post silently turns a Noesis substrate premise into a “real physical system” and then uses that premise as external warrant. The house axiom, empirical system claim, and derived inference must be separated.",
+      "legacy": {
+        "anchor": "L162",
+        "quote": "\"the substrate is a real physical system\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "The physical substrate is made the origin of conscious configurations, reversing consciousness-primary causation."
+      }
+    },
+    {
+      "id": "C067",
+      "anchor": {
+        "line_start": 162,
+        "line_end": 162,
+        "quote": "preferred configurations are mathematical objects"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The listed mathematical objects are real, but no valid mapping establishes them as preferred configurations of practiced experience; the central experiential-to-mathematical identity fails.",
+      "legacy": {
+        "anchor": "L162",
+        "quote": "\"preferred configurations are mathematical objects\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The list conflates valid mathematical objects with unsupported mappings from practiced experience to those structures."
+      }
+    },
+    {
+      "id": "C068",
+      "anchor": {
+        "line_start": 164,
+        "line_end": 164,
+        "quote": "Each yantra is the triad rendered in ink"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Read through Kha-Ba-La” explicitly announces the interpretive comparison, and “triad rendered in ink” maps observer, page/substrate, and restriction without claiming a literal mathematical identity.",
+      "legacy": {
+        "anchor": "L164",
+        "quote": "\"Each yantra is the triad rendered in ink\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The closing Kha-Ba-La mapping explicitly operates observer, substrate, and planar resistance."
+      }
+    },
+    {
+      "id": "C069",
+      "anchor": {
+        "line_start": 168,
+        "line_end": 168,
+        "quote": "spent three decades reading Hebrew letters as torus-knot projections"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The statement accurately reports Stan Tenen/Meru Foundation’s long-running reading of Hebrew glyphs as projections rather than asserting that the reading is established geometry.",
+      "legacy": {
+        "anchor": "L168",
+        "quote": "\"spent three decades reading Hebrew letters as torus-knot projections\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate description of Tenen's house-compatible research program, stated as his reading rather than established fact."
+      }
+    },
+    {
+      "id": "C070",
+      "anchor": {
+        "line_start": 168,
+        "line_end": 168,
+        "quote": "Hebrew letters as torus-knot projections"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The torus-knot “sibling” is explicitly framed as a structural reading that mirrors the akshara comparison; no knot invariant or literal alphabetic mechanism is inferred.",
+      "legacy": {
+        "anchor": "L168",
+        "quote": "\"Hebrew letters as torus-knot projections\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The sibling comparison supplies no knot, projection map, or invariant and is removable from the Sri Yantra argument."
+      }
+    },
+    {
+      "id": "C071",
+      "anchor": {
+        "line_start": 170,
+        "line_end": 170,
+        "quote": "both empirically encoding what the substrate produces"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The conclusion that both alphabets empirically encode substrate outputs is a new cross-tradition synthesis with no report corpus, measurement, mapping, or declared transformation.",
+      "legacy": {
+        "anchor": "L170",
+        "quote": "\"both empirically encoding what the substrate produces\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Two alphabet traditions are asserted to encode one substrate mechanism without evidence."
+      }
+    }
+  ]
+}

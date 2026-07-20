@@ -1,0 +1,1580 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "sacred-geometry-processing-units.md",
+  "source_path": "src/content/posts/sacred-geometry-processing-units.md",
+  "source_sha256": "adaa5b35656075cbea9a1db705a1deaba909d4293af5891646e9ed1d5ddc2a70",
+  "legacy_audit_path": "quality-engine/audits/nigredo/sacred-geometry-processing-units.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "nine intersecting triangles organized as a computational architecture"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: nine triangles do not by themselves define a computation, state, operation, input, or output; the excerpt launders an unsupported neural-architecture synthesis as fact.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"nine intersecting triangles organized as a computational architecture\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Processor claims recur throughout the body, so the excerpt occurrence is removable."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "a nine-triangle processor"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: “nine-triangle processor” supplies no executable transformation or traced derivation and is a removable frontmatter repetition of the failed processor thesis.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"a nine-triangle processor\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Frontmatter repeats the processor claim without specifying a computation."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "neural network layer annotations (Input, Hidden 1-4, Output, Bindu)"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the image prompt explicitly asks for a Sri Yantra rendered as a neural-network diagram; Input/Hidden/Output/Bindu are visual analogy labels, not a literal architecture claim.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"neural network layer annotations (Input, Hidden 1-4, Output, Bindu)\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Labels alone define no layers, activations, parameters, or propagation."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "Śiva forward pass"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: “Śiva forward pass” appears only as an explicitly requested image annotation inside the rendered-as comparison and yields no literal neural operation.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"Śiva forward pass\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Triangle orientation defines no neural-network forward operation."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "Śakti backward pass"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: “Śakti backward pass” appears only as an explicitly requested image annotation inside the rendered-as comparison and yields no literal gradient operation.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"Śakti backward pass\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Triangle orientation defines no gradient or backward operation."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "bindu is a loss-function minimum attractor"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the bindu/loss-minimum phrase is an image-prompt comparison, visibly marked by the prompt’s diagram rendering context, with no literal optimization inference.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"bindu is a loss-function minimum attractor\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No objective, state space, or optimization rule is supplied."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "The Sri Yantra violates the crystallographic restriction theorem"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the crystallographic restriction theorem constrains periodic lattices, while the Sri Yantra is a bounded figure; applying the theorem to it is a category error central to the argument.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"The Sri Yantra violates the crystallographic restriction theorem\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The theorem constrains periodic tilings; the Yantra is not such a tiling."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "only two-fold, three-fold, four-fold, and six-fold rotational symmetries"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: for periodic planar lattices the allowed rotational orders are 2, 3, 4, and 6; the named theorem makes the statement traceable, correct, and structurally consequential.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"only two-fold, three-fold, four-fold, and six-fold rotational symmetries\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct crystallographic restriction for periodic planar lattices."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "Nine-fold — the Sri Yantra's rotational symmetry"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: nine component triangles do not entail nine-fold rotational symmetry; the stated symmetry is visibly false and load-bearing to the restriction-theorem application.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"Nine-fold — the Sri Yantra's rotational symmetry\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Nine component triangles do not give the Sri Yantra nine-fold rotational symmetry."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "one degree of error and the inner bindu"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the author names the construction setting and visible bindu shift, so the observation passes; the exact one-degree quantity is plausible firsthand precision but nonessential to the thesis.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"one degree of error and the inner bindu\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Direct embodied construction observation."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Each triangle intersection had to be exact"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the author reports drawing the figure and directly observing intersection sensitivity; geometric precision is correct, structurally consequential, and provenance is the situated construction record.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"Each triangle intersection had to be exact\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The Sri Yantra is genuinely a precision-dependent geometric construction."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "optimized for the periodicities of the natural world"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: optimization of human vision for natural-world periodicities is a universal evolutionary claim without population, measures, model, uncertainty, or source.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"optimized for the periodicities of the natural world\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A universal evolutionary optimization claim is asserted without a model or observation."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "visual cortex cannot resolve it into a recognizable lattice"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: cortical nonresolution and sustained-attention failure are proposed mechanisms with no observer protocol, measurement, population, uncertainty, or source.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"visual cortex cannot resolve it into a recognizable lattice\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "No measured visual mechanism establishes nonconvergence caused by the supposed nine-fold symmetry."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "signal processing unit with forty-three hidden-layer neurons"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: forty-three triangular regions are not hidden-layer neurons; no inputs, weights, activations, or propagation rule exists, and the false identification carries the section.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"signal processing unit with forty-three hidden-layer neurons\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Forty-three triangular regions are not neurons and no weighted-sum computation is shown."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "computes a weighted combination of input signals"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: no input variables, weights, summation, activation, or reproducible transformation is supplied, so the weighted-combination computation is definitionally absent.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"computes a weighted combination of input signals\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No inputs, weights, sum, or activation function are defined."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "forward pass where activation flows inward"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: inward-flowing triangle orientation defines no forward-pass computation; this repeated neural label can be removed without changing the geometric observations.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"forward pass where activation flows inward\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The prompt and later prose repeat the undefined forward-pass identity."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "backward pass where energy flows outward, adjusting the weights"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: outward-flowing energy defines neither loss gradients nor parameter updates; the backward-pass claim is a repeated, removable false operation.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"backward pass where energy flows outward, adjusting the weights\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The prompt and later prose repeat the undefined backward-pass identity."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "eight petals, then sixteen"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the eight-then-sixteen petal counts are directly inspectable features of the represented Sri Yantra and are used as actual layered geometry in the argument.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"eight petals, then sixteen\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct counts used as the actual layered geometry."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The outer square with its four gates"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the outer square’s four gates are directly inspectable in the represented geometry and structurally organize the article’s input-boundary comparison.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"The outer square with its four gates\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct count used as part of the actual Yantra geometry."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The three concentric circles are dropout layers"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: three circles define no dropout probability, training state, stochastic masking, or overfit measure; the neural operation is falsely identified and structurally important.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"The three concentric circles are dropout layers\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Neural-network dropout is assigned to circles without an executable mapping."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "the loss function seeks a minimum"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: optimization commonly seeks a loss minimum, but this generic correct statement is repeated and does not establish the bindu mapping; its mathematical role here is nonconsequential.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"the loss function seeks a minimum\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Loss-minimum claims recur at L38, L61, and L67, so this occurrence is removable."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "until the residual error collapses"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: no residual, target, error function, or convergence rule is defined for attention; the term adds precision aura without a reproducible derivation.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"until the residual error collapses\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No residual, target, or convergence rule is defined for attention."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Roger Penrose discovered his famous tiling in 1974"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: Penrose’s 1974 discovery/publication of the named aperiodic tiling is a specific, responsible historical fact and does not itself support the Yantra analogy.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"Roger Penrose discovered his famous tiling in 1974\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate Penrose history is routed to ALIGNED under the audit rule."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "quasiperiodic pattern with five-fold symmetry"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: Penrose tilings are nonperiodic/quasiperiodic and admit five-fold local symmetry; this correct precedent is removable from the failed Sri Yantra processor thesis.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"quasiperiodic pattern with five-fold symmetry\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The correct Penrose precedent is removable from the Yantra-processor thesis."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Sri Yantra predates Penrose by at least a millennium"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: “at least a millennium” is a dated age comparison for the Sri Yantra tradition, but the post supplies no manuscript, monument, edition, date range, or corroborating source.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"Sri Yantra predates Penrose by at least a millennium\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Plausible historical age comparison is routed to ALIGNED under the audit rule."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The Penrose tiling produces a similar cognitive effect"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: a similar cognitive effect for Penrose tiling and Sri Yantra requires defined measures and observations; none are supplied, and the proposed common mechanism is already false.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"The Penrose tiling produces a similar cognitive effect\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A visual effect is asserted without observation and rests on a false Yantra comparison."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "same mathematical restriction"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the figures do not share the claimed crystallographic-restriction violation; the synthesis depends on a false nine-fold periodic-lattice premise.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"same mathematical restriction\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The Yantra lacks the asserted nine-fold periodic-lattice restriction."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "yantraṃ devatātanuḥ — the yantra is the body of the deity"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the exact Sanskrit quotation and its attribution to the Tantrāloka are not traceable in the available evidence; source identity and wording therefore fail.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"*yantraṃ devatātanuḥ* — the yantra is the body of the deity\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact quotation and attribution are not findable in the named text."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "deity is the fixed-point attractor that the geometry computes"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: no state space, objective, dynamics, or computation makes a deity a fixed-point attractor; the repeated processor mapping is a removable false mathematical identity.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"deity is the fixed-point attractor that the geometry computes\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Repeated bindu/loss/processor claims make this occurrence removable."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "tantra is the protocol specification for the yantra's deployment"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: a traditional tantra is silently redescribed as an executable protocol specification while the paragraph explicitly denies metaphor; source teaching and Noesis analogy are inseparable.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"tantra is the protocol specification for the yantra's deployment\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A traditional text is silently redescribed as an executable specification."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "one-dimensional convolutional filter stack"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: chakra positions, petal counts, and syllables define no kernel, stride, convolution, feature map, or learned filter stack; the false operation carries the section.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"one-dimensional convolutional filter stack\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Petal counts and seed syllables do not define kernels, convolution, or feature maps."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "describes this as a cascade of increasingly abstract feature extraction"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the Lalita Sahasranama is attributed a modern feature-extraction description it does not state; traditional teaching and Noesis computing gloss must be separated.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"describes this as a cascade of increasingly abstract feature extraction\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The named text does not describe modern feature extraction; the attribution is counterfeit."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "a data bus for recursive self-witnessing"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the spine is literally denied as an energy channel and asserted as a data bus without encoding, messages, recursion, or declared analogy; the mode boundary is hidden.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"a data bus for recursive self-witnessing\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No bus, message encoding, or recursive operation is defined."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "the loss function collapses to zero"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: darśana supplies no loss function or defined zero, and this repeated optimization phrase is removable without changing the traditional event description.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"the loss function collapses to zero\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Repeated loss-minimum claims make this occurrence removable."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "Siddhi is the residual weight change"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: siddhi is equated to a residual neural-weight update without parameters, baseline, measurement, update rule, or source; the false mapping carries the claimed output.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"Siddhi is the residual weight change\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No neural parameters or measured update connect siddhi to weights."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The process is autopoietic and autolytic simultaneously"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: autopoietic and autolytic are invoked together without a formal self-production or self-dissolution model, so the systems vocabulary is untraced and nonconsequential.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"The process is autopoietic and autolytic simultaneously\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Systems-theory terms are invoked without a formal self-producing or self-dissolving model."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "internalized as a neural topology"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: internalized attention is upgraded to a specific neural topology without imaging, operational definition, population, conditions, uncertainty, or source.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"internalized as a neural topology\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Internalized attention is silently upgraded into a specific neural topology."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "producing a low-grade dissociative state that the tradition recognizes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: a clinical dissociative effect and an unspecified traditional warning are fused into one claim without observation protocol, diagnostic scope, named source, or separation.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"producing a low-grade dissociative state that the tradition recognizes\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A specific clinical effect and traditional warning are asserted without source or observation beyond the author."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "The Bhuvanadeśa, a 10th-century text, states"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: Bhuvanadeśa is named and dated, but no edition, passage, translation, or verification supports the quoted all-things-woven teaching in the available evidence.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"The Bhuvanadeśa, a 10th-century text, states\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "A named house tradition is operated inside the Yantra frame, not borrowed as science proof."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "if the root processor fails"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the computing comparison is silently upgraded into a causal root-processor architecture for reality; no executable dependency or declared metaphor boundary supports the inference.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"if the root processor fails\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The computing metaphor is silently upgraded into reality's causal architecture."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "I have experienced both states"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the author names the observer, visual task, convergence, eye movement, headache, and stuck-loop phenomenology, with scope limited to personal experience.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"I have experienced both states\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Directly reported attentional convergence, headache, and visual-loop experience."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "refined across centuries by lineages"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: centuries of lineage refinement through oral, manuscript, and stone transmission is plausible but lacks named lineages, artifacts, dates, or corroborating sources.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"refined across centuries by lineages\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Plausible lineage history is routed to ALIGNED under the audit rule."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "these are parametric constants selected by a culture"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: cultural selection of parametric constants is asserted without values, selection criteria, artifacts, dates, or provenance; “parametric” adds precision without consequence.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"these are parametric constants selected by a culture\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No proportions or parameter-selection criterion are actually supplied."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "the weights of a frozen neural network"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: temple carvings are denied as ornament and asserted as trained neural weights without tensors, training, parameters, or an explicit analogy boundary.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"the weights of a frozen neural network\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Architectural ornament is not a trained weight tensor."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "I have held a palm-leaf manuscript"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the author explicitly reports holding a palm-leaf manuscript and records material conditions, marks, binding, and handling traces without universalizing beyond the encounter.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"I have held a palm-leaf manuscript\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person artifact observation, not an authority claim."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "It is the operating system that runs the recognition"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the closing operating-system claim explicitly denies map/metaphor status while providing no executable mechanism; it launders the article’s computing analogy as literal causation.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"It is the operating system that runs the recognition\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The processor thesis is repeated throughout, so this closing occurrence is removable."
+      },
+      "id": "C046"
+    }
+  ]
+}

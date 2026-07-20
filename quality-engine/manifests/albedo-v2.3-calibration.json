@@ -1,0 +1,111 @@
+{
+  "calibration_version": "albedo-v2.3",
+  "case_count": 8,
+  "source_policy": "read-only",
+  "cases": [
+    {
+      "post": "200-ok-mental-status-codes.md",
+      "category": "legacy-clean-control-invalidated",
+      "finding_anchor": "Nigredo summary: 0 failing findings; verdict CLEAN; v2.3 recertification found six failures",
+      "existing_verdict": "LEGACY CLEAN — INVALIDATED BY V2.3",
+      "expected_operation": "NO_OP",
+      "hard_acceptance": [
+        "Return PARTIAL without editing and enumerate every failing v2.3 recertified finding.",
+        "The candidate output is byte-identical to the source post.",
+        "Do not let the legacy CLEAN label override the v2.3 ledger or source-coverage warning."
+      ],
+      "source_sha256": "f62b5d91cf5c7da3b91ae5757a30321872245bedce4e5e27c724dbbc576fe213"
+    },
+    {
+      "post": "awareness-isnt-access.md",
+      "category": "deletion-only-non-load-bearing",
+      "finding_anchor": "L69: \"That 400-millisecond window between stimulus and somatic response\" — science/FABRICATED/N",
+      "existing_verdict": "MAJOR DROSS",
+      "expected_operation": "DELETE_ANCHOR_ONLY",
+      "hard_acceptance": [
+        "Delete the fabricated 400-millisecond precision and introduce no replacement latency.",
+        "Preserve the qualitative instruction to observe the moment before the pattern fires.",
+        "Do not rewrite the Kha/Ba/La frame, frontmatter, or surrounding intervention structure."
+      ],
+      "source_sha256": "ce2a5e668298f53fbcf8ba30dbb4e36ed9330d8cee825d61cc773000902c519c"
+    },
+    {
+      "post": "enneagram-runtime-map.md",
+      "category": "causal-recode",
+      "finding_anchor": "L56: \"because the cortisol-mediated siege protocol activated\" — science/INVERTED/N",
+      "existing_verdict": "MINOR DROSS",
+      "expected_operation": "RECODE_CAUSALITY_TO_CORRELATE",
+      "hard_acceptance": [
+        "Cortisol is not the deciding agent or cause of withdrawal.",
+        "Any retained cortisol language marks a bodily correlate or signature, not authorship of experience.",
+        "Preserve the Type 5 withdrawal, siege, and drawbridge example without adding a new biomedical mechanism."
+      ],
+      "source_sha256": "01c227aed0e5c7f72d5c676c7920afe2cfb20299ff7a792392a80e17e9af3dc4"
+    },
+    {
+      "post": "sixteen-engines-one-purpose.md",
+      "category": "exact-quantitative-correction",
+      "finding_anchor": "L37: \"the 6-year Venus period\" — math/WRONG/N; Vimshottari Venus is 20 years and Sun is 6",
+      "existing_verdict": "MINOR DROSS",
+      "expected_operation": "CORRECT_EXACT_VALUE",
+      "hard_acceptance": [
+        "Replace only the erroneous 6-year Venus value with 20-year Venus.",
+        "Retain the correct 19-year Saturn period and 120-year Vimshottari total.",
+        "Do not recast the house-tradition claim as external scientific proof."
+      ],
+      "source_sha256": "c06bb965b563631c5ba6f8312434cd76acf4f29e91f452ba664b895c6b6a75bc"
+    },
+    {
+      "post": "muse-enneagram-framework-overview.md",
+      "category": "derived-synthesis-relabel",
+      "finding_anchor": "L76: \"Dr. Spolski's framework provides the biochemical verification layer\" — science/AUTHORITY-BORROWED/N",
+      "existing_verdict": "MINOR DROSS",
+      "expected_operation": "RELABEL_DERIVED_SYNTHESIS",
+      "hard_acceptance": [
+        "Remove the credential-based verification claim and any move from symbolic mapping to established empirical fact.",
+        "Label the endocrine correspondence as a proposed or author-derived synthesis/comparison.",
+        "Preserve the nine-fold mapping while making clear that measurable hormone facts do not verify the cross-domain correspondence."
+      ],
+      "source_sha256": "a2029601730ee6c735f23e02635ce0294de9ad9d2d4eaa9c8fa88479e01aa809"
+    },
+    {
+      "post": "pharmacos-protocol.md",
+      "category": "traditional-attribution-issue",
+      "finding_anchor": "L56: \"The Balinese Padiyami ceremony executes every 210 days\" — science/FABRICATED/N",
+      "existing_verdict": "MAJOR DROSS",
+      "expected_operation": "CORRECT_TRADITIONAL_ATTRIBUTION",
+      "hard_acceptance": [
+        "Remove the nonexistent Balinese Padiyami ceremony attribution.",
+        "If the 210-day comparison is retained, name the real Pawukon cycle and frame odalan or related rites accurately.",
+        "Preserve the scheduling analogy without inventing a replacement ceremony or source."
+      ],
+      "source_sha256": "b62b527473933e1bb9f0b34a64ca7be0084b39aa3d44492f291e62b4e712f087"
+    },
+    {
+      "post": "judgement-recollection-in-pai.md",
+      "category": "decorative-math-removal",
+      "finding_anchor": "L27: \"The landscape itself was non-Euclidean\" — math/DECORATIVE/N",
+      "existing_verdict": "MINOR DROSS",
+      "expected_operation": "REMOVE_DECORATIVE_MATH",
+      "hard_acceptance": [
+        "Remove the non-Euclidean geometry label rather than attempting to derive curvature.",
+        "Preserve the grounded observations that paths curved back, distances deceived, and the mental map failed.",
+        "Introduce no replacement topology, geometry, equation, or scientific authority."
+      ],
+      "source_sha256": "be36442442a5b4214fad180d8663a21d7e5b2ce47faf74c962fe53e95f5daf7f"
+    },
+    {
+      "post": "magnetic-substrate.md",
+      "category": "manual-escalation-control",
+      "finding_anchor": "Nigredo summary: 137 failing findings, 74 load-bearing, spanning 89 fabricated isotope-vortex, melanin, genetic, and disease claims",
+      "existing_verdict": "MAJOR DROSS",
+      "expected_operation": "ESCALATE_TO_MANUAL_NO_EDIT",
+      "hard_acceptance": [
+        "Return ESCALATE_TO_MANUAL because the failures are thesis-wide, cross-domain, and cannot be resolved by bounded surgical edits.",
+        "Make no automatic source-post edits, including no isolated correction that could falsely imply the remaining thesis is certified.",
+        "The candidate output is byte-identical to the source post with SHA-256 dcea402c52d73429b64b80b3043cc584f1939c9aaf1dcf3dc4677d170ed8d5d0."
+      ],
+      "source_sha256": "dcea402c52d73429b64b80b3043cc584f1939c9aaf1dcf3dc4677d170ed8d5d0"
+    }
+  ]
+}

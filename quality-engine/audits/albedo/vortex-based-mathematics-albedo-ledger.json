@@ -1,0 +1,1643 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "vortex-based-mathematics.md",
+  "source_path": "src/content/posts/vortex-based-mathematics.md",
+  "source_sha256": "39349e5f5f62d656ef387fdfff7727134192f5b6f0af912f27095cda82fce9e6",
+  "legacy_audit_path": "quality-engine/audits/nigredo/vortex-based-mathematics.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "1-2-4-8-7-5 across the outer rim, 3-9-6 oscillating through the center"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The digital-root orbit is correct, but “outer rim” and “through the center” add an unsupported toroidal embedding in the same span. Arithmetic and spatial synthesis are inseparable and Noesis authorship is hidden.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"1-2-4-8-7-5 across the outer rim, 3-9-6 oscillating through the center\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct frontmatter orbit, but removable because the body derives all three regimes."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "natural ambient is the torus"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A finite digital-root orbit has no unique ambient topology and does not imply a torus. The excerpt's load-bearing “natural ambient” conclusion is contradicted by the mathematics it cites.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"natural ambient is the torus\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Digital-root orbits do not determine a toroidal embedding or topology."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Numbers are not symbols for quantities. They are elementary particles"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling numbers elementary particles upgrades mathematical objects into physical constituents without a physical definition, measurement, source, or declared Noesis model. The category error is load-bearing to the hero thesis.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"Numbers are not symbols for quantities. They are elementary particles\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The hero silently upgrades numbers from representations to physical constituents of the universe."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "define the dimensional shape and function of the universe"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Decimal digits do not determine the dimensional shape or physical function of the universe; no construction connects base-ten symbols to spacetime dimension or dynamics, so the universal conclusion is false.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"define the dimensional shape and function of the universe\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No mathematical construction lets decimal digits determine the universe's dimension or function."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Brahmagupta formalized zero"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Brahmagupta's seventh-century Brahmasphutasiddhanta gave explicit arithmetic rules involving zero. The bounded claim that he formalized zero is historically supportable.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"Brahmagupta formalized zero\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate seventh-century history of Brahmagupta's arithmetic treatment of zero."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "formalized zero and the place-value notation"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Indian decimal place-value notation predates Brahmagupta; crediting him with formalizing both zero and place-value notation materially overstates and misassigns the historical contribution.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"formalized zero and the place-value notation\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Decimal place-value notation predates Brahmagupta; its invention/formalization is misattributed."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "grain ledgers, tax receipts, temple inventories"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No primary text or responsible history is supplied for the asserted accounting motive of grain ledgers, tax receipts, and temple inventories. The vivid motive is nonessential and presently invented.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"grain ledgers, tax receipts, temple inventories\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The claimed accounting motive is invented without traceable history."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The circuit closes: 1-2-4-8-7-5. Six states. A closed loop"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Repeated doubling followed by digital-root reduction gives 1→2→4→8→7→5→1, an order-six cycle. The calculation is reproducible, correct, and structurally essential to the post.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"The circuit closes: 1-2-4-8-7-5. Six states. A closed loop\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct order-six orbit of repeated doubling modulo 9 on the units."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "multiplicative group of integers modulo 9, generated by 2, with order 6"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The units modulo 9 are {1,2,4,5,7,8}, and 2 generates all six with order 6. The group statement is correct, reproducible, and supplies rigorous provenance for the doubling cycle.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"multiplicative group of integers modulo 9, generated by 2, with order 6\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct: 2 generates the six units modulo 9."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "it is the trace of a rotor"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A cyclic residue-class orbit does not define a physical or geometric rotor, angle, axis, or rotation operator. The text presents an undeclared analogy as a load-bearing mathematical identity.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"it is the trace of a rotor\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "A cyclic modular orbit does not by itself define a rotor, angle, or rotation operator."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "a power of two reduced to its digital root"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Every listed state is a power of two reduced to its digital root, which is directly reproducible. This occurrence merely repeats the preceding calculation and can be removed without changing the argument.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"a power of two reduced to its digital root\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct arithmetic description, but removable because L45 already demonstrates the six-cycle."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The pair oscillates: 3-6-3-6, a 2-cycle"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Under repeated doubling and digital-root reduction, 3→6→3 is a genuine two-cycle. The operation and result are correct, reproducible, and necessary to the three-orbit partition.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"The pair oscillates: 3-6-3-6, a 2-cycle\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct digital-root dynamics; 9 is also a fixed point under doubling."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The number stands still. A fixed point"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Under the stated operation, 9→18→9, so 9 is a fixed point. The calculation is correct, reproducible, and structurally necessary to the orbit partition.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"The number stands still. A fixed point\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Nine is indeed fixed under doubling followed by digital-root reduction."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "a 6-cycle on the rim, a 2-cycle oscillating through the interior"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The six-cycle and two-cycle are correct, but “rim” and “interior” silently add spatial coordinates the arithmetic does not provide. The redundant span mixes passing orbit facts with a false embedding.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"a 6-cycle on the rim, a 2-cycle oscillating through the interior\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct summary, but removable because L45 and L51 already establish its component regimes."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "That is the fundamental group of the torus"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The torus fundamental group is Z×Z, not the disjoint collection of a six-cycle, a two-cycle, and a fixed point. The central identification is definitionally false.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"That is the fundamental group of the torus\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The torus fundamental group is ℤ×ℤ, not a 6-cycle, 2-cycle, and fixed point."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "A torus has two independent cycles"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "A torus has two independent fundamental cycles and pi_1(T^2)=Z×Z. The statement is mathematically correct, provenance-traceable, and consequential to evaluating the proposed embedding.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"A torus has two independent cycles\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct topological statement about the two generators of the torus fundamental group."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The doubling circuit maps onto the poloidal rotation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No continuous map, winding number, angular coordinate, or second independent phase maps the six-state doubling orbit to poloidal rotation. The hidden synthesis is load-bearing and ungrounded.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The doubling circuit maps onto the poloidal rotation\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No continuous map, winding number, or second independent phase establishes the proposed embedding."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The 3-6 oscillation maps onto the toroidal rotation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The 3–6 two-cycle supplies no independent toroidal coordinate, continuous map, or winding number. Its assignment to toroidal rotation is an undeclared and mathematically invalid embedding.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The 3-6 oscillation maps onto the toroidal rotation\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No independent toroidal coordinate or continuous map is defined."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The 9 sits at the center of the hole"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A digital-root fixed point has no spatial coordinate, and the center of a torus's hole is not a point on the torus. Making 9 an organizing central singularity is mathematically false.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The 9 sits at the center of the hole\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "A digital-root fixed point does not define a torus axis, center, or organizing singularity."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Marko Rodin mapped this in the 1980s"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Marko Rodin is accurately identified with the public vortex-mathematics digit diagram developed and promoted from the 1980s; this historical attribution does not certify his device claims.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"Marko Rodin mapped this in the 1980s\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Fair history of Rodin's public numerical diagram, without treating the later device claims as established."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "a dimensional reduction that hides the knot"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No map makes the number line a coordinate projection of this digital-root orbit, and no knot is defined. “Dimensional reduction” hides an unsupported mathematical synthesis in figurative language.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"a dimensional reduction that hides the knot\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The number line is not a projection of this digital-root system, and no knot is defined."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The number line we were taught in school is a projection"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The ordinary number line is not a projection of the finite digital-root dynamical system. The statement is mathematically false and redundant with the adjacent dimensional-reduction claim.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"The number line we were taught in school is a projection\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A number line is not a coordinate projection of this digital-root orbit."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The claim is that this produces a non-dipole magnetic field"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose properly reports a device claim rather than endorsing it, but it identifies no proponent, technical document, measurement, or source for the specific non-dipole and non-decaying-field formulation.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"The claim is that this produces a non-dipole magnetic field\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicitly labeled as a claim rather than fact; the next paragraph keeps utility an open experiment."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "follows the 1-2-4-8-7-5 circuit around a toroidal core"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Rodin-coil designs do arrange the 1-2-4-8-7-5 winding order on a toroidal form. The construction is historically traceable, but the digit order supplies no independent topological result and is nonconsequential here.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"follows the 1-2-4-8-7-5 circuit around a toroidal core\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The coil is physically toroidal by construction; the digit order supplies no independent topological result."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "the measurement protocols are disputed, and the replication record is spotty"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The skepticism is explicit, but the empirical-literature, protocol-dispute, and replication-record assessment names no studies, protocols, replications, dates, or responsible review.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"the measurement protocols are disputed, and the replication record is spotty\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Honest uncertainty framing protects the overunity/device claim under the model/speculation rule."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "the resulting field should carry the symmetries of the circuit"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A winding's electromagnetic field does not automatically inherit the symmetries of a digit diagram. The claim supplies no winding-current model, measured field, representation, conditions, or source.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"the resulting field should carry the symmetries of the circuit\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A copper winding does not guarantee that its electromagnetic field inherits a digit diagram's alleged symmetry."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "the resulting field should carry the symmetries of the circuit"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No group representation or electromagnetic transformation maps circuit-digit symmetries to field symmetries. The post calls the inference geometry rather than speculation while hiding an unproved Noesis synthesis.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"the resulting field should carry the symmetries of the circuit\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No representation or electromagnetic symmetry map is defined."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "the copper, the cochlea, the cortex, the substrate that actually conducts the current"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Copper conducts electronic current while cochlea and cortex support context-specific ionic and bioelectric signaling; the span treats these as one “current” without an analogy marker, measure, or split between fact and comparison.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"the copper, the cochlea, the cortex, the substrate that actually conducts the current\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Copper and biological tissue can conduct charge; the shared “current” is analogical and not made a measured equivalence."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "The Aufbau principle in atomic physics fills electron orbitals in a sequence"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The listed Aufbau/Madelung orbital-filling order is recognizable and broadly correct. Its ordered quantum-number structure is source-traceable and materially supplies the atomic ingredient later tested against the torus claim.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"The Aufbau principle in atomic physics fills electron orbitals in a sequence\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Recognizable orbital-filling background; the toroidal explanation is judged separately as mathematics."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "only makes sense when you map it onto a toroidal phase space"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Aufbau/Madelung ordering is described through quantum numbers and the n+l rule; it does not require a toroidal phase space. “Only makes sense” under the torus mapping is false.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"only makes sense when you map it onto a toroidal phase space\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The Aufbau/Madelung order is described by quantum numbers and the n+l rule; no torus is required."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The ear recognizes toroidal closure before the mind can name it"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article supplies no listener population, task, neural or behavioral measure, control, uncertainty, or source showing that the ear recognizes specifically toroidal closure before conscious naming.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"The ear recognizes toroidal closure before the mind can name it\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Auditory cognition is assigned a specific toroidal recognition mechanism without observation."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "repeated multiplication by 3 (modulo 12)"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The circle of fifths advances by adding 7 modulo 12 (or multiplying frequency by 3/2 and reducing octaves), not multiplying pitch classes by 3 modulo 12. The stated operation is false.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"repeated multiplication by 3 (modulo 12)\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The circle of fifths is repeated addition of 7 mod 12; multiplication by 3 is not a 12-state cycle."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "the sequence closes after twelve steps"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Repeated addition of 7 modulo 12 has order 12 because gcd(7,12)=1, so the circle of fifths visits every pitch class before returning. The corrected derivation verifies the closure claim.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"the sequence closes after twelve steps\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Repeated fifths do traverse all twelve pitch classes before returning, despite the wrong operation stated."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "the same hexagonal symmetry that governs the doubling circuit"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No interval-vector calculation or symmetry action is shown, and the order-six unit orbit modulo 9 does not establish the same hexagonal symmetry in twelve pitch classes.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"the same hexagonal symmetry that governs the doubling circuit\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No interval-vector calculation is shown, and an order-six orbit alone does not establish hexagonal symmetry."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The I Ching generates its sixty-four hexagrams"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The I Ching tradition is accurately described as having sixty-four hexagrams formed from six yin/yang line positions. This attribution does not validate the later toroidal-state-machine synthesis.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"The I Ching generates its sixty-four hexagrams\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The named tradition and its 64 binary line configurations are accurately described at a high level."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "sixty-four hexagrams through a binary doubling sequence"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Six binary choices do yield 2^6=64 combinations, but calling that set a “binary doubling sequence” conflates combinatorial enumeration with temporal doubling. The correct count is redundant and the process boundary is hidden.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"sixty-four hexagrams through a binary doubling sequence\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Six binary lines yield 2^6 = 64, but the count is removable from the torus thesis."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "six lines, each doubled from the previous"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A hexagram has six independently yin-or-yang line positions; each line is not obtained by doubling its predecessor. The process claim is false and nonessential to the valid 64-count.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"six lines, each doubled from the previous\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Hexagrams are six binary line positions; each line is not a doubling of its predecessor."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The Book of Changes is a toroidal state machine"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A 64-element binary configuration set defines neither state transitions nor toroidal topology. “Toroidal state machine” presents an undeclared, unconstructed synthesis as a literal mathematical object.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"The Book of Changes is a toroidal state machine\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A 64-state binary set does not imply toroidal topology or transition rules."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "The human nervous system seems tuned to recognize closure on a torus"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No experiment, population, neural measure, recognition task, or source supports the claim that the human nervous system is specifically tuned to recognize closure on a torus.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"The human nervous system seems tuned to recognize closure on a torus\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A specific evolved cognitive topology is asserted without experiment or observable criterion."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "cognition evolved inside such systems"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The evolutionary statement supplies no ancestral system, selection pressure, comparative evidence, population, timescale, or source connecting cognition's evolution to toroidal periodic systems.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"cognition evolved inside such systems\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Evolutionary history is asserted from the preferred topology without evidence."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "the simplest non-trivial shape that a periodic dynamical system can inhabit"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A periodic orbit naturally has circle topology; a torus requires at least two independent cyclic coordinates. Calling the torus the simplest nontrivial periodic ambient is mathematically false.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"the simplest non-trivial shape that a periodic dynamical system can inhabit\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "A periodic orbit naturally has circle topology; a torus requires at least two independent cyclic coordinates."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "The system still rotates, but there is no hole, no interior, no channel through"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A sphere has no nontrivial fundamental cycles, and deleting one torus cycle does not produce a sphere with a single cycle. The topological transformation is false and nonessential to the La metaphor.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"The system still rotates, but there is no hole, no interior, no channel through\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The line then assigns a single cycle; a sphere has none, and deleting one torus cycle does not produce a sphere."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "all three cycles are active"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The article first states that a torus has two independent cycles, then counts rim, interior oscillation, and fixed axis as three active cycles. The load-bearing structure is internally inconsistent.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"all three cycles are active\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The argument counts rim, interior, and axis as three torus cycles after correctly stating that a torus has two."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "Interrupt any one, and the shape collapses"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No construction shows that removing any one digit orbit destroys an independently given torus. The claimed collapse does not follow from the orbit arithmetic or torus topology.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"Interrupt any one, and the shape collapses\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No topological construction shows that deleting a digit orbit destroys an independently given torus."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "and in the architecture of consciousness itself"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The conclusion merges arithmetic, atoms, music, divination, and consciousness into one recurrence after several ingredients fail. No passing ingredient trace, transformation, or explicit Noesis authorship supports the consciousness claim.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"and in the architecture of consciousness itself\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Cross-domain recurrence through atoms and music is stated as one physical/cognitive torus despite invalid mathematical bridges."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "draws a shape that shows up in atoms, in music"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The Aufbau torus and circle-of-fifths hexagon mappings have already failed, so the claim that the same drawn shape appears in atoms and music is contradicted by its own ingredients.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"draws a shape that shows up in atoms, in music\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Earlier Aufbau and circle-of-fifths mappings are false, so this claimed common torus does not follow."
+      },
+      "id": "C046"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "The torus is not a decorative symbol"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The universal torus conclusion rests on failed embeddings and cross-domain maps. Calling it nondecorative does not supply a topology, and this occurrence repeats the already failing thesis.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"The torus is not a decorative symbol\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "This repeats the failed universal-torus conclusion already load-bearing in the same line."
+      },
+      "id": "C047"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "the kinematic signature of anything that spins without dissolving"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A torus is not the kinematic signature of every persistent spinner; circles, spheres, rigid bodies, and many dynamical systems rotate without toroidal topology. The universal claim is false and repetitive.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"the kinematic signature of anything that spins without dissolving\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "This repeats the failed universal-torus conclusion already load-bearing in the same line."
+      },
+      "id": "C048"
+    }
+  ]
+}

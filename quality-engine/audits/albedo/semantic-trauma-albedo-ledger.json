@@ -1,0 +1,896 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "semantic-trauma.md",
+  "source_path": "src/content/posts/semantic-trauma.md",
+  "source_sha256": "dbc71b2bdd4e022fc145b6e7c9084e4231cc0476eb65ed6cb179f47732f87695",
+  "legacy_audit_path": "quality-engine/audits/nigredo/semantic-trauma.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "brain encodes traumatic events in a different linguistic register"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The excerpt states a distinct linguistic neural register as literal encoding, but gives no population, language measure, memory task, uncertainty, or source; the body repeats the thesis.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"brain encodes traumatic events in a different linguistic register\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The body repeats the syntax thesis, so this excerpt occurrence is removable."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The hippocampus binds sensory data to temporal context"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Hippocampal binding of contextual and temporal information is a traceable high-level functional description; the row does not claim that this alone creates narrative grammar.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"The hippocampus binds sensory data to temporal context\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Fair high-level functional distinction, openly illustrated with experience."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Together they produce a narrative sentence"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence converts context binding and salience tagging into literal neural sentence production without separating the physiological claims from the syntax analogy.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"Together they produce a narrative sentence\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Context binding and salience do not establish a literal neural sentence-production mechanism."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Cortisol floods the hippocampus, degrading its ability"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The direct cortisol-to-impaired-context-binding mechanism is stated without dose, timing, population, measure, or source; a stress association does not establish this causal strength.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"Cortisol floods the hippocampus, degrading its ability\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Hormone chemistry is made the direct origin of narrative experience."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "every tag reads DANGER, and the tags are no longer sequenced"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Every tag reads DANGER” and unsequenced tags present a software-label metaphor as a literal distributed threat-memory mechanism, leaving observation and interpretation inseparable.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"every tag reads DANGER, and the tags are no longer sequenced\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A complex distributed threat-memory process is literalized as one tagging/sequence mechanism."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Joseph LeDoux's lab at NYU has mapped this circuitry precisely"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The LeDoux laboratory is named, but no paper, experiment, circuit, or quotation supports the claim that it mapped the article’s trauma-syntax mechanism “precisely.”",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"Joseph LeDoux's lab at NYU has mapped this circuitry precisely\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Named laboratory precision is the sole warrant for the literal syntax architecture."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "designed, across millions of years, to survive first and narrate later"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Millions of years of design for survival-before-narration is an evolutionary purpose and serial-processing claim with no population, comparative evidence, or source.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"designed, across millions of years, to survive first and narrate later\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Evolutionary purpose and a serial survival/narration order are presented as settled."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "traumatic memories are re-experienced, not recalled"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Some traumatic memories are experienced as intrusive reliving, but the universal recalled-versus-re-experienced dichotomy is not scoped to a population, diagnosis, measure, or evidence source.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"traumatic memories are re-experienced, not recalled\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Replicable phenomenological distinction; the subject-position language is interpretive."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "They arrive as intrusions"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author identifies the observer, a prolonged period in their twenties, the memory intrusions, and their sensory form and missing temporal context; the claim remains limited to that report.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"They arrive as intrusions\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Direct first-person observation anchors the central fragmentation claim."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Bessel van der Kolk's research"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bessel van der Kolk and The Body Keeps the Score are accurately identified as the source of the body-memory account; attribution does not independently verify the following migration mechanism.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Bessel van der Kolk's research\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Named research authority carries the migration-to-procedural-memory claim."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "your body responds before your mind has parsed"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A body response can precede conscious parsing, but the second-person generalization supplies no observer record, latency measure, conditions, population, or source.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"your body responds before your mind has parsed\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "A directly recognizable conditioned response pattern."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "Daniel Stern's work on vitality contours"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Daniel Stern is accurately associated with vitality contours and early affective micro-rhythms; this source attribution does not validate the article’s corrupted-code extension.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"Daniel Stern's work on vitality contours\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Named scholarship is used to generalize vitality contours into corrupted procedural code."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "hippocampal function was chemically compromised during the event"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testimony claim attributes chronological difficulty to chemically compromised hippocampal function without participant data, a measured mediator, conditions, or causal evidence.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"hippocampal function was chemically compromised during the event\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Chemical state is treated as the causal explanation for testimonial experience."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "procedural memory that generates it"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Procedural memory is asserted as the direct generator of muscle tension without defining the memory representation, physiological pathway, population, or supporting evidence.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"procedural memory that generates it\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Procedural memory is made a direct generator of muscle tension without mechanism."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Judith Herman's Trauma and Recovery (1992) documents this precisely"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Judith Herman’s Trauma and Recovery (1992) is accurately named as documenting histories of hysteria, combat trauma, and survivor disbelief; that attribution does not prove the syntax model.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"Judith Herman's *Trauma and Recovery* (1992) documents this precisely\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate intellectual history is routed to ALIGNED under the audit rule."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "three approaches that actually repair the grammar"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The exclusive claim that exactly three approaches actually repair trauma grammar lacks comparative efficacy evidence, outcome definitions, populations, and scope conditions.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"three approaches that actually repair the grammar\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Exclusive efficacy is asserted before any evidence or replicable comparison is supplied."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "provides the temporal scaffolding"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Narrative exposure is openly compared to an external hippocampus and temporal scaffolding; this row makes no literal anatomical replacement claim, while the later recoding claim is audited separately.",
+      "legacy": {
+        "anchor": "L78",
+        "quote": "\"provides the temporal scaffolding\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This underlying listener-supported sequencing claim is plausible; the organ analogy is excluded."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "It is a neurological recoding"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling a shift from present-tense intrusion to past-tense memory neurological recoding asserts a specific biological mechanism without neural measures or a traceable source.",
+      "legacy": {
+        "anchor": "L78",
+        "quote": "\"It is a neurological recoding\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Narrative change is silently upgraded to a specific neurological rewrite."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "re-establishes inter-hemispheric communication"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "EMDR is said to re-establish inter-hemispheric communication as a settled causal mechanism, but the paragraph supplies no study or neural measure and later admits mechanism uncertainty.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"re-establishes inter-hemispheric communication\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The opening sentence states a disputed EMDR mechanism as settled before later hedging it."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "bilateral stimulation appears to restore communication"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Appears to restore” correctly lowers certainty, yet the inter-hemispheric account still lacks a named study, measured communication variable, population, or uncertainty estimate.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"bilateral stimulation appears to restore communication\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicitly tentative model, followed by acknowledgment that mechanism remains debated."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Francine Shapiro discovered this by accident, walking in a park"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The park-walk origin story is accurately presented as Francine Shapiro’s reported discovery account; attributed history does not establish EMDR’s mechanism or efficacy.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"Francine Shapiro discovered this by accident, walking in a park\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate park-origin history is routed to ALIGNED under the audit rule."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The mechanism is still debated, but the efficacy is not"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Evidence may support EMDR for some PTSD outcomes, but claiming its efficacy is wholly beyond debate overstates a heterogeneous literature and is contradicted by the article’s own unqualified consensus wording.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"The mechanism is still debated, but the efficacy is not\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Unnamed consensus is invoked as final proof; efficacy is not uniformly beyond debate."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Peter Levine's Waking the Tiger (1997) documents"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Peter Levine and Waking the Tiger (1997) are accurately identified as the source advocating somatic completion; attribution does not verify the proposed biological memory mechanism.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"Peter Levine's *Waking the Tiger* (1997) documents\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "A named source carries the biological-completion mechanism."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "updates the procedural memory before the declarative memory can be recompiled"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The ordered update of procedural memory before declarative memory is a specific causal mechanism without defined measures, comparative timing data, population, or source.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"updates the procedural memory before the declarative memory can be recompiled\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Fight/flight completion is presented as a settled memory-update mechanism."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "The jaw unlocks. The diaphragm descends. The hands stop bracing"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Within the explicitly named Kha–Ba–La repair model, jaw, diaphragm, and hand changes are internally consistent signs of Ba completing held defensive action rather than universal treatment outcomes.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"The jaw unlocks. The diaphragm descends. The hands stop bracing\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Concrete embodied observations the reader can notice directly."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "The Quine holds"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A Quine outputs its own source representation; independence from an external therapeutic “compiler” is not that construction, and deleting the term leaves the repair criterion intact.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"The Quine holds\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "A self-reproducing-program term is name-dropped without self-referential construction or necessity."
+      },
+      "id": "C026"
+    }
+  ]
+}

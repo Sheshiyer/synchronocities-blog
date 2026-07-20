@@ -1,0 +1,1078 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "active-inference-prediction-engine.md",
+  "source_path": "src/content/posts/active-inference-prediction-engine.md",
+  "source_sha256": "b3257bacee3e3e78a64cbf1dcef06705502867baa28f235cd014169f16234d8b",
+  "legacy_audit_path": "quality-engine/audits/nigredo/active-inference-prediction-engine.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Your brain does not receive the world. It generates the world"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Predictive-processing literature models perception as inference, but the absolute claim that the brain generates rather than receives the world omits model limits, conditions, measures, and a traceable source.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"Your brain does not receive the world. It generates the world\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Neural tissue is made the producer of experienced reality, but the same matter-first thesis recurs throughout the post."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "corrects its own hallucination against the resistance of the body"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling perception the brain's corrected hallucination asserts a broad causal mechanism without defining the measured phenomenon, conditions, population, uncertainty, or source.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"corrects its own hallucination against the resistance of the body\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Neural machinery is made the author and corrector of experience; later matter-first formulations repeat the claim."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "the free energy principle, and it governs every system"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The free-energy formalism does not by itself establish that one principle governs every persistent system; the universal mapping omits required boundary, generative-model, and evidentiary assumptions.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"the free energy principle, and it governs every system\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Friston's framework is promoted to a universal law, but L57 repeats the universalization several times."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Karl Friston did not invent it. He described it"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence converts a philosophical stance about natural principles into a historical fact about Friston without a quotation, source, or distinction between formulation and phenomenon.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"Karl Friston did not invent it. He described it\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The metaphysical claim that the theory pre-existed its formulation is presented as history rather than interpretation."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Tycho Brahe described the Martian orbit"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Tycho supplied exceptionally precise Mars observations and a geoheliocentric model; Kepler used those data to derive the elliptical Martian orbit, so the parallel overassigns the orbital description to Tycho.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"Tycho Brahe described the Martian orbit\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate historical reference to the house tradition's situated observational astronomer; it is illustrative rather than proof."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "A Markov blanket separates internal states from external states"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "A Markov blanket conditionally separates internal from external states through a boundary set in the standard formal definition; that separation is the article's structural spine and has standard mathematical provenance.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"A Markov blanket separates internal states from external states\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Conditional separation is the post's boundary grammar; removing it collapses the nested-boundary argument."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Your skin is one. Your cell membrane is one."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Skin and cell membranes can participate in modeled biological boundaries, but calling each a literal Markov blanket omits the required state partition, conditional independences, variables, and source.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Your skin is one. Your cell membrane is one.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Organismal and cellular boundaries are called literal Markov blankets, then the nested-boundary claim is immediately repeated."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "This is the Hermetic Principle of Correspondence operating at neurological scale"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post combines a named Hermetic teaching with a neurological Markov-blanket model without separately passing the ingredients, showing the transformation, or declaring Noesis authorship.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"This is the Hermetic Principle of Correspondence operating at neurological scale\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The Hermetic correspondence is named and operated as house cosmology."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "the same blanket that separates self from world"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The formal Markov-blanket relation is silently extended from statistical state partitions to organism, cell, and cosmological observer boundaries without constructing equivalent variables or conditional independences.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"the same blanket that separates self from world\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A model-dependent statistical boundary is silently upgraded across scales, but adjacent sentences carry the same claim."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "the only way to minimize surprise across nested boundaries"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No theorem or evidence shows that the stated nested-boundary pattern is the only way to minimize surprise; the exclusivity claim is not entailed by the free-energy formalism.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"the only way to minimize surprise across nested boundaries\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The exclusive universal mechanism is asserted without qualification and is repeated at L55, L57, and L65."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "I held my hand before my face and moved it slowly."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author names the observer, hand movement, eye movement, and perceptual object under a reproducible first-person procedure without universalizing this row beyond the observation.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"I held my hand before my face and moved it slowly.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This is a replicable first-person saccade observation."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "During the ballistic eye movement — approximately twenty milliseconds — the visual system shuts down."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Saccadic suppression reduces visual sensitivity rather than shutting the visual system down, and saccade duration varies with amplitude; the approximately twenty-millisecond precision is nonconsequential and unsourced.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"During the ballistic eye movement — approximately twenty milliseconds — the visual system shuts down.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The exercise shows a perceptual gap, not a measured shutdown; saccadic suppression reduces rather than eliminates sensitivity."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "My brain stitched the before-image and the after-image together"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The reported perceptual gap does not by itself establish a brain-stitching mechanism; the inference needs a scoped perceptual model and traceable evidence.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"My brain stitched the before-image and the after-image together\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "The brain is assigned causal authorship of perceptual continuity."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "It determines what counts as evidence and what counts as noise"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that a generative model determines evidence and noise before data arrive is stated universally without operational measures, conditions, alternative mechanisms, or a source.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"It determines what counts as evidence and what counts as noise\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Predictive processing is stated as settled gatekeeper, but the generative-model thesis recurs throughout the post."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "the prediction of the reach causes the reach"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Active-inference accounts may model action through proprioceptive prediction, but this sentence upgrades one account to an exclusive causal claim without method-matched evidence.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"the prediction of the reach causes the reach\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "An internal prediction is made the origin of action, but equivalent motor-causation claims recur at L59."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The motor cortex does not execute a decision. It samples the environment"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Motor cortex participates in movement planning and execution; the absolute denial that it executes decisions and the substitution of environmental sampling create a false exclusive alternative.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"The motor cortex does not execute a decision. It samples the environment\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "One interpretation is asserted as exclusive motor physiology and is repeated at L59."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The motor system is the perception testing itself."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A model-specific active-inference interpretation is presented as a literal identity between motor action and perceptual testing, without marking the theoretical frame or evidencing the identity.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"The motor system is the perception testing itself.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "This contested motor identity is repeated at L59, so deleting this occurrence leaves the argument intact."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "minimizing surprise by minimizing change"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Variational free-energy minimization is not equivalent to minimizing change; adaptive action can increase immediate change or surprise, so the formal reduction is false.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"minimizing surprise by minimizing change\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Free-energy minimization does not reduce to minimizing change; the wider universal thesis survives its deletion."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "are all minimizing variational free energy"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bacteria, bureaucracies, and philosophers are assigned one variational-free-energy quantity without separate generative models, variables, measurements, transformation, or declared Noesis synthesis.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"are all minimizing variational free energy\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Three domains are universalized under one quantity, but three adjacent sentences repeat that universalization."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The bacterium does not know about glucose."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The bacterial 'knowing' contrast anthropomorphizes a model-specific prediction-error account without declaring metaphor or supplying behavioral measures and evidence.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"The bacterium does not know about glucose.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Literal bacterial epistemic content is model-specific, and the paragraph survives this occurrence's deletion."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "A system that does not minimize free energy does not persist."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The free-energy principle is not demonstrated here as a necessary and sufficient persistence law for every system; the universal mathematical inference lacks definitions, assumptions, and evidence.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"A system that does not minimize free energy does not persist.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The framework becomes a necessary law, but adjacent universal formulations carry the same claim."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "It is the physics of persistence."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling the framework 'the physics of persistence' presents a broad theoretical interpretation as established physical law and hides the model boundary.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"It is the physics of persistence.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "This contested framework is labeled physics, but the same universal claim appears three times nearby."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The motor cortex is not an output stage. It is a prediction engine"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'prediction engine' computational description is one model of motor cortex, not an exclusive measured identity; no implementation or consequential computation is defined in the row.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"The motor cortex is not an output stage. It is a prediction engine\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A model-specific description is asserted exclusively and repeats the L53 motor claim."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "my brain predicts the feeling of my legs straightening"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The first-person intention does not directly reveal the proposed neural prediction mechanism; the causal inference needs scoped physiological evidence.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"my brain predicts the feeling of my legs straightening\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Neural substrate is made author of feeling and action, one of several repeated matter-first formulations."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The action is the perception testing itself."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence states a theoretical active-inference interpretation as an identity between action and perception rather than declaring and testing the model.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"The action is the perception testing itself.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "This materially repeats L53's motor identity, so neither occurrence is individually load-bearing."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Remove any one, and the system collapses into something else."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The paragraph explicitly maps Kha to prediction, Ba to enactment, and La to resistance, then performs three separate removal tests; the triad is internally correct, consequential, and textually provenanced.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"Remove any one, and the system collapses into something else.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The Kha-Ba-La triad is demonstrated by removing each term; the paragraph's mechanism collapses under the test."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The sense of self is the model's prediction about a persistent entity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Predictive accounts of selfhood exist, but the absolute identity between self and a model prediction lacks a defined construct, population, method, uncertainty, and traceable source.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"The sense of self is the model's prediction about a persistent entity.\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Self-experience becomes computational output, but L45, L49, L59, and L67 carry the same causal arrow."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "You sit. The sensory data arrives. The generative model demands an explanation."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The phrase 'under this framework' explicitly limits the meditation sequence to the article's active-inference house model; its sensory-data, prediction, non-action, and error steps are internally consistent and structurally used.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"You sit. The sensory data arrives. The generative model demands an explanation.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The practice is reader-replicable, and “under this framework” explicitly labels the predictive account as a model."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "the same minimization operating from the Planck length to the Hubble horizon"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Planck length and the Hubble horizon are used as scale endpoints for an unconstructed universal minimization claim; no variables, model, transformation, or evidence connects the scales.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"the same minimization operating from the Planck length to the Hubble horizon\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "An unmeasured scale-universal process is asserted from two scientific scale labels."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The brain is a prediction engine."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A computational prediction-engine model is asserted as the brain's literal identity without a declared analogy, operational definition, implementation, or scope.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"The brain is a prediction engine.\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "The conclusion repeats rather than uniquely carries the matter-first engine claim established earlier."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The Quine is complete. The engine compiles itself into silence."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A quine outputs its own source representation; compilation into silence establishes neither self-reproduction nor source equivalence, so the computing conclusion misuses the definition.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"The Quine is complete. The engine compiles itself into silence.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A Quine reproduces its own source; opacity or silence does not demonstrate that property, and the conclusion survives removal."
+      },
+      "id": "C031"
+    }
+  ]
+}

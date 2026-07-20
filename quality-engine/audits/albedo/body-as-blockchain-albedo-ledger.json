@@ -1,0 +1,816 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "body-as-blockchain.md",
+  "source_path": "src/content/posts/body-as-blockchain.md",
+  "source_sha256": "c0a23daca8d6910b68a941e2f4b14d1ea52028dd5aa0cb8b73a8451a3ac48d66",
+  "legacy_audit_path": "quality-engine/audits/nigredo/body-as-blockchain.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "Every joy leaves a trace in the neural network's weight matrix"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The excerpt turns a brain/ANN comparison into literal biological record-keeping while providing no neural weight matrix or transformation. The removable mathematical vocabulary remains decorative.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"Every joy leaves a trace in the neural network's weight matrix\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "ML name-drop in excerpt; brain conflated with ANN weights, never operationalized"
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "etched into roughly thirty-seven trillion cellular nodes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The roughly thirty-seven-trillion human-cell estimate is a standard scoped estimate, and the legacy audit confirms the claim at its stated approximate precision.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"etched into roughly thirty-seven trillion cellular nodes\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard cell-count estimate, accurately stated"
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 67,
+        "quote": "Every cell must agree on the state of the organism"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Every cell must agree” literalizes a blockchain-consensus analogy as organismal biology. Cells do not run a common consensus protocol; the central comparison needs explicit metaphor framing and corrected mathematics.",
+      "legacy": {
+        "anchor": "L41–67",
+        "quote": "\"Every cell must agree on the state of the organism\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Central blockchain structure; correspondences demonstrated step-by-step (full genome copy per nucleated cell, epigenetic persistence as immutability, fork ↔ meiosis/pregnancy); house-grounded at L45; remove it and the post collapses"
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Blockchains were invented to solve the double-spend problem"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The double-spend problem is accurately reported as a central historical design problem addressed by blockchain systems.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"Blockchains were invented to solve the double-spend problem\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate history of the technology, judged as history"
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Your body solved that problem three billion years ago"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The body is said to have solved a blockchain-defined problem three billion years ago, but no evolutionary event, date provenance, or scope is supplied for that retrospective identity.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"Your body solved that problem three billion years ago\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Deep-time evolutionary chronology stated as settled event; linear-progress timescale is a model under the house frame"
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The Tycho Brahean tradition provides the epistemological ground"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The paragraph combines Tycho Brahe history, situated observation, and a body-as-ledger conclusion without separating ingredients or declaring the new Noesis derivation.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"The Tycho Brahean tradition provides the epistemological ground\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology doing the structural work; Uraniborg/Hven detail accurate as history; this paragraph grounds the \"not a metaphor\" thesis in observational primacy"
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Each nucleated cell carries the full 3.2 billion base-pair ledger"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The human haploid genome is approximately 3.2 billion base pairs and nucleated somatic cells generally carry the full genome; the row is scoped away from enucleated red cells.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Each nucleated cell carries the full 3.2 billion base-pair ledger\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Accurate genome size; the factual anchor of the ledger thesis (with RBC enucleation, meiosis)"
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "The immune system is the proof-of-work"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“The immune system is the proof-of-work” appears inside a passage that explicitly denies metaphor, yet T-cell peptide sampling is not proof-of-work. The removable computing term needs an explicit analogy boundary.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"The immune system is the proof-of-work\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Label does no structural work — T-cell peptide sampling is validation/signature-checking, not computational work; sentence stands without it"
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "the commit was made by your grandmother's hypothalamus during a famine"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The grandmother-famine example asserts human transgenerational epigenetic inheritance through a specific organ and event without a cohort, measure, uncertainty, or source.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"the commit was made by your grandmother's hypothalamus during a famine\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Human transgenerational epigenetic inheritance implied as established fact; contested model (famine-cohort interpretations disputed)"
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "specific CpG islands on stress-regulatory genes get methylated"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stress-associated methylation changes at regulatory CpG sites are a real measured pattern; the claim is scoped to specific stress-regulatory genes rather than universal methylation.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"specific CpG islands on stress-regulatory genes get methylated\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate stress–methylation mechanism, stated as pattern not authority"
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "demonstrated this with statistical rigor"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Naming Rachel Yehuda and “statistical rigor” does not identify the cohort, locus, method, effect, or uncertainty needed to support the result at the stated strength.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"demonstrated this with statistical rigor\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Rachel Yehuda's research is real (Holocaust-offspring methylation work), but the warrant offered is the researcher plus \"statistical rigor,\" not a replicable observation"
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "through literal biochemical copying errors during gametogenesis"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose asserts literal biochemical copying errors during gametogenesis as the mechanism of human trauma inheritance, but supplies neither a demonstrated germline mechanism nor a scoped source.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"through literal biochemical copying errors during gametogenesis\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Post explicitly rejects the metaphor reading (\"not a poetic conceit\") and asserts contested human transgenerational inheritance as settled literal fact; \"copying errors\" mechanistically loose"
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "shows altered methylation patterns in individuals with childhood adversity"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Altered FKBP5 methylation associated with childhood adversity is a real measured relationship; the claim reports the pattern without turning it into proof of the article’s larger ledger identity.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"shows altered methylation patterns in individuals with childhood adversity\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Real FKBP5 finding (Klengel/Binder lineage), stated as pattern without an authority clause"
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "IL-6 and TNF-alpha become hash functions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "IL-6 and TNF-alpha are signaling molecules, not hash functions. The prose uses an undeclared and removable computing comparison without a digest or chaining operation.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"IL-6 and TNF-alpha become hash functions\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Hash-chaining invoked loosely (cytokine signaling is not a digest); hysteresis already established at L51"
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Trauma-focused therapies produce measurable demethylation at stress-related loci"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The therapy-demethylation result names no intervention, population, locus, assay, comparison, effect size, or source, so the measurable empirical claim is unsupported as written.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"Trauma-focused therapies produce measurable demethylation at stress-related loci\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Research-result claim leaning on instrument-mediated studies; no observation the reader can run; conveniently direction-supporting (HDAC inhibitors themselves are real and unflagged)"
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "compound interest applies"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Compound interest applies” imports a mathematical growth model without defining a principal, rate, compounding interval, or explicit analogy. The ledger argument survives its removal.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"compound interest applies\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No compounding mechanism demonstrated; precision vibe only"
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "bioelectric fields that are not side effects but control signals"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Becker’s book is named, but the stronger claim that bioelectric fields are causal control signals rather than side effects needs a traceable experiment, organism, measure, and limits.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"bioelectric fields that are not side effects but control signals\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Becker's *The Body Electric* is real and the historical core accurate, but the book is invoked as the warrant for the control-signal claim"
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Multiple sclerosis, lupus, Type 1 diabetes — these are not moral failings"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Multiple sclerosis, lupus, and type 1 diabetes are autoimmune diseases; framing them as biological conditions rather than moral failings matches the established classification without overclaiming mechanism.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"Multiple sclerosis, lupus, Type 1 diabetes — these are not moral failings\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate autoimmunity gloss inside the declared ledger analogy"
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Peter Levine's work on somatic trauma describes this precisely"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Peter Levine is accurately identified with the somatic-trauma account of incomplete defensive responses and queued motor patterns. This certifies the reported teaching, not external proof of it.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"Peter Levine's work on somatic trauma describes this precisely\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Named authority as warrant for the queued-motor-pattern claim; the somatic observation beneath it is never offered directly"
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Kha-Ba-La is not a decorative mantra. It is a diagnostic."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Kha–Ba–La is explicitly named as the article’s diagnostic house model and each leg is tested through a distinct removal case, establishing internal coherence.",
+      "legacy": {
+        "anchor": "L55, L65",
+        "quote": "\"Kha-Ba-La is not a decorative mantra. It is a diagnostic.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology operated structurally (three removal tests), not admired"
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "La is the thermodynamic brake that prevents runaway positive feedback"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Within the declared Kha–Ba–La diagnostic, La is consistently defined as resistance that limits feedback. The mapping is internally correct, structurally consequential, and provenance-traceable in the three removal tests.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"La is the thermodynamic brake that prevents runaway positive feedback\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "La-as-resistance mapped structurally within the Kha-Ba-La diagnostic; house cosmology by definition"
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "samples fetal DNA circulating in the bloodstream"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Cell-free fetal DNA circulates in maternal blood and is sampled clinically; the claim is a scoped physiological fact distinct from the following hard-fork analogy.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"samples fetal DNA circulating in the bloodstream\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate (cell-free fetal DNA); pregnancy-as-hard-fork remains inside the declared analogy"
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "In the Haṭha Yoga tradition, the annamaya kośa is the food body, the densest sheath, the one most people mistake for the whole. It is not. It is the ledger. The prāṇamaya kośa reads it. The manomaya kośa narrates it. The vijñānamaya kośa recognizes the pattern. The ānandamaya kośa — if you are lucky, if you have done the work — occasionally laughs at the entire stack and feels something that does not need annotation."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The row begins with an attributed kośa teaching, then silently converts each sheath into ledger-stack operations. Separate the traditional ingredient and declare the Noesis transformation.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"the annamaya kośa is the food body… It is the ledger\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Vedic house frame (kośa stack) operating as structural grammar"
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "The Quine is complete when the accountant dissolves into the accounts"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The quine is used as an undeclared closing comparison; no self-reproducing program or source/output identity is operated. The article survives the decorative name-drop.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"The Quine is complete when the accountant dissolves into the accounts\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Quine name-drop, appears once, never operationalized; closing flourish"
+      },
+      "id": "C024"
+    }
+  ]
+}

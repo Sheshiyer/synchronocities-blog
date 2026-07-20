@@ -1,0 +1,241 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "circle-over-inanna.md",
+  "source_path": "src/content/posts/circle-over-inanna.md",
+  "source_sha256": "488916321b8e66b19022a134204b68b1a15e6cb273ebe8ddc2470e6df23dca38",
+  "legacy_audit_path": "quality-engine/audits/nigredo/circle-over-inanna.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "the number does the Temperance math in my ribs"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The number doing “Temperance math in my ribs” is an explicitly figurative first-person numerological reading; it makes no literal numeric, causal, or predictive inference. ANALOGICAL math is therefore appropriate.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"the number does the Temperance math in my ribs\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "House tarot numerology: 3+9+0+2 = XIV = Temperance, the post's card. §9 house frame — never flagged."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "\\mathbf{V}{\\text{meaning}} = \\langle L, H, Wc, T \\rangle"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The section explicitly declares a running meaning-vector model, defines L, H, W_c, and T at lines 69–72, and reuses those coordinates at lines 113, 125, and 127. The ordered feature tuple is internally valid, consequential to the procedure, and provenance-traceable to this declared model.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"V_meaning = ⟨L, H, W_c, T⟩\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Self-defined working model; components defined L69–72; explicitly framed as \"The Model (Running Under the Hood)\". Applied at L113, L125, L127."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "m = \\frac{L+H}{2}, \\quad s = \\min(\\text{lantern\\radius}, \\text{capacity})"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Within the declared model, m is correctly defined as the midpoint of the exposure bounds and s as the smaller of illumination radius and capacity. Line 79 turns both calculations into the operative step, so correctness, consequence, and internal derivation provenance all pass.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"m = (L+H)/2, s = min(lantern_radius, capacity)\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Midpoint + capacity-limited step; governs the post's act-at-m method (\"I act at m by a step s my lamp can actually light\"). Removal collapses The Test section."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "Wc' = Wc + \\Delta W(\\mathcal{C}), \\quad T' = T + \\Delta T(\\text{play/novelty})"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The update equations coherently encode the model’s widening operation: channel diversity changes W_c and play/novelty changes T. Lines 113 and 127 apply that transformation, making the notation structurally consequential and reproducible from the post’s definitions.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"W_c' = W_c + ΔW(C), T' = T + ΔT(play/novelty)\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Widening update with enumerated channels C = {text, number, place, artifact, somatic}; applied verbatim in The Test (L113: \"widen with place/number/artifact/somatic\")."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Law stays 6 → 3: choose coherence → create"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The declared house rule maps VI/Lovers to choosing coherence and III/Empress to creation, but “6 → 3” is not used by the procedure and can be removed without changing it. The symbolism is provenance-traceable inside the tarot frame yet mathematically decorative.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"Law stays 6 → 3: choose coherence → create\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "House tarot numerology (VI Lovers → III Empress); flourish on the model, argument survives removal. §9 house frame — never flagged."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "the rails click and the nervous system thanks me"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The narrator reports a situated embodied response after stating the two behavioral rails; “the nervous system thanks me” remains scoped as felt ease rather than an external physiological mechanism.",
+      "legacy": {
+        "anchor": "L99",
+        "quote": "\"the rails click and the nervous system thanks me\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Embodied felt-sense report; act/alignment is primary, body ease is the signature — no mechanism claimed, no borrowed authority."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 117,
+        "line_end": 117,
+        "quote": "I can feel the whole room change temperature by a degree"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“I can feel” marks a subjective ambience report, while “by a degree” is figurative rather than an instrument reading. No literal temperature measurement or causal inference follows, so the numerical language is ANALOGICAL.",
+      "legacy": {
+        "anchor": "L117",
+        "quote": "\"I can feel the whole room change temperature by a degree\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person perception marker (\"I can feel\"); declared subjective reading of ambience, not an instrument or physics claim."
+      },
+      "id": "C007"
+    }
+  ]
+}

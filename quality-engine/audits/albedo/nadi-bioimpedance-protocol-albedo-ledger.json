@@ -1,0 +1,2003 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "nadi-bioimpedance-protocol.md",
+  "source_path": "src/content/posts/nadi-bioimpedance-protocol.md",
+  "source_sha256": "85917570a2b7802490d997b071170b2b2b5ebd899d4176c375c069f237fd2e1e",
+  "legacy_audit_path": "quality-engine/audits/nigredo/nadi-bioimpedance-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "correspond to measurable bioelectric pathways"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The excerpt asserts correspondence between 14 principal Nadis and measurable anatomical/bioelectric pathways without a dataset, channel-registration method, conditions, or traceable source.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"correspond to measurable bioelectric pathways\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The body repeatedly states the measurable-pathway thesis, so this excerpt is removable."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The classical texts describe 72,000 Nadis"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Vedic subtle-body tradition is named and the 72,000-Nadi teaching is faithfully reported, but no specific text/edition traces the count and the quantity is not structurally consequential to the protocol.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"The classical texts describe 72,000 Nadis\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate description of the traditional house framework; the number is not external proof."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "bioimpedance measurement got precise enough to detect"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No identified bioimpedance study or accepted measurement history detected a 14- or 72,000-channel Nadi network; the claimed detection event conflicts with the available audit record.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"bioimpedance measurement got precise enough to detect\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No recognized bioimpedance finding detected a 14- or 72,000-channel Nadi network."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "mapping for three thousand years"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Three thousand years” supplies an untraced duration for continuous seer mapping; no named text, dating evidence, or historical chain supports the precision, and the number is nonessential.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"mapping for three thousand years\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No history establishes continuous seer-to-bioimpedance detection across three millennia."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "The Nadis are not metaphorical. They are measurable"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Literal Nadi measurability is the article’s thesis, but no operational Nadi definition, comparator, validated instrument mapping, population, or dataset is supplied.",
+      "legacy": {
+        "anchor": "L31",
+        "quote": "\"The Nadis are not metaphorical. They are measurable\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Literal measurability is the thesis, but no validated instrument-to-Nadi mapping is supplied."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Three interconnected physical systems correspond to the Nadi network"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post combines fascia, autonomic nerves, and cerebrospinal fluid into a new three-part Nadi correspondence without tracing each ingredient, showing a transformation, or declaring Noesis authorship; the count merely organizes the prose.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"Three interconnected physical systems correspond to the Nadi network\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The proposed anatomical correspondence is asserted before any measurements."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Thomas Myers' Anatomy Trains model demonstrates"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Thomas Myers and Anatomy Trains are named, but no work, passage, method, or scope supports the stronger claim that the model demonstrates body-wide information transmission.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"Thomas Myers' Anatomy Trains model demonstrates\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "A named model is used as the sole warrant for body-wide information transmission."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Collagen, the primary structural protein of fascia, exhibits piezoelectricity"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Collagen electromechanical response is plausible and the Nigredo audit recognizes it, but the post supplies no traceable experiment, material conditions, measurement, or source at the stated tissue-wide strength.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"Collagen, the primary structural protein of fascia, exhibits piezoelectricity\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Collagen's electromechanical response is a real measured property."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "This is Prana's physical substrate"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A measured collagen/fascia property is silently identified with Prana’s physical substrate, merging empirical and traditional modes without a traced transformation or explicit Noesis synthesis boundary.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"This is Prana's physical substrate\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "A physical tissue network is silently promoted to the substrate of Prana."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "transmits information faster than neural pathways through tensegrity"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Mechanical force transmission through fascia is not equivalent to instantaneous biological information processing and is not generally faster than neural signaling at the stated scope.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"transmits information faster than neural pathways through tensegrity\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Mechanical force transmission is conflated with instantaneous biological information processing."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "stretch your calf and feel it in your neck"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The text proposes a calf-to-neck sensation as reader-replicable, but records no observer, procedure, frequency, conditions, comparison, or source establishing this general response.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"stretch your calf and feel it in your neck\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Direct embodied observation, offered as something the reader can replicate."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "they are describing the same phenomenon from the inside"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Yoga Sūtras are made to describe the same phenomenon as modern tensegrity without a cited passage, faithful paraphrase, mapping procedure, or declaration that the identity is a Noesis inference.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"they are describing the same phenomenon from the inside\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Explicitly situated comparison within Vedic embodied observation."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Robert O. Becker's research on DC currents"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Robert O. Becker is named and accurately associated with research on direct-current bioelectric phenomena; this row reports the historical source rather than treating attribution alone as proof of the later Nadi mapping.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Robert O. Becker's research on DC currents\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The named investigator's work carries the dual-signal and regeneration inference."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "nerves carry two types of signal simultaneously"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nerve signaling is not exhaustively divided into exactly two simultaneous AC-digital and DC-analog types; the binary count and functional assignment oversimplify physiology and carry the proposed mechanism.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"nerves carry two types of signal simultaneously\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Nerve physiology is reduced to an unsupported AC-digital/DC-analog binary architecture."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The DC gradient precedes tissue healing"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bioelectric changes may precede some healing processes, but no tissue model, voltage measure, time course, comparison, uncertainty, or source establishes the universal wording.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"The DC gradient precedes tissue healing\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Bioelectric changes can precede healing without validating Nadis."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Where the voltage drops, the blockage sits"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A one-to-one rule from voltage drop to “blockage” lacks a defined blockage construct, electrode geometry, reference range, localization validation, and source.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"Where the voltage drops, the blockage sits\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A diagnostic one-to-one voltage/blockage rule is asserted without a validated protocol."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "map extensively to Nadi junctions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The extensive acupuncture-point/Nadi-junction mapping is a new cross-system synthesis presented as an empirical fact without traced source systems, registration method, or Noesis authorship.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"map extensively to Nadi junctions\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No validated mapping establishes acupuncture points as Nadi junctions."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "are measurably high-conductance nodes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Claims of consistently high conductance at acupuncture points require electrode, skin-preparation, control-site, population, uncertainty, and replication details that are absent.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"are measurably high-conductance nodes\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Skin-conductance findings are inconsistent and do not establish Nadi junctions."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "Cerebrospinal fluid conducts ions along the neuraxis"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "CSF is ionic, but the post gives no traceable measurement conditions or source for longitudinal ion conduction “along the neuraxis,” and that fact would not validate a Nadi.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"Cerebrospinal fluid conducts ions along the neuraxis\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "CSF is an ionic fluid, though ordinary conduction does not establish a Nadi."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "measurable DC voltage gradient from sacrum to crown"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No electrode geometry, reference, cohort, units, spatial profile, or source establishes a stable sacrum-to-crown CSF DC voltage gradient.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"measurable DC voltage gradient from sacrum to crown\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "No established sacrum-to-crown CSF voltage gradient identifies a physical Sushumna."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "This is the physical Sushumna"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post silently identifies an ionic-fluid claim with the physical Sushumna, presenting a new Noesis mapping as literal anatomy rather than declared synthesis or house model.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"This is the physical Sushumna\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Ionic fluid is silently upgraded into the physical origin of a subtle-body channel."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "interstitial fluid flow provides the mechanical component"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Interstitial glymphatic flow is inseparably presented as the mechanical component of Prana circulation; the empirical ingredient and new traditional mapping are not split, traced, or authored.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"interstitial fluid flow provides the mechanical component\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Fair description of the glymphatic model's fluid-clearance component."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The consciousness that rides the charge"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Consciousness “riding” fluid charge is stated as a literal carrier relation inside an empirical paragraph, without declaring a house premise or separating metaphor from mechanism.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The consciousness that rides the charge\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Physical fluid and charge are made the carrier/origin of consciousness."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Its physical substrate is the cerebrospinal fluid column"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Sushumna is identified with CSF, spinal voltage, and a serotonergic nucleus as if inherited anatomy; the novel three-ingredient mapping lacks sources, transformation, and explicit Noesis authorship.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"Its physical substrate is the cerebrospinal fluid column\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No validated anatomy identifies Sushumna with this three-part physical substrate."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "the serotonergic pathway that modulates consciousness itself"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A serotonergic pathway may correlate with states, but “modulates consciousness itself” supplies no defined outcome, intervention, anatomy-specific evidence, population, or source.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"the serotonergic pathway that modulates consciousness itself\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "A serotonergic structure is promoted from correlate to controller of experience."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "500-800 ohms at 1 Hz"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 500–800 Ω at 1 Hz “balanced Sushumna” range has no validated construct, electrode configuration, clinical sample, reference interval, or source; the consequential units are misapplied.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"500-800 ohms at 1 Hz\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact balanced Sushumna impedance range has no clinical basis."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "0.5-1.0 microfarads capacitance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 0.5–1.0 µF balanced capacitance range is assigned to an unvalidated channel without measurement model, sample, uncertainty, or provenance.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"0.5-1.0 microfarads capacitance\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact balanced Sushumna capacitance range has no clinical basis."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "10-15 millivolts DC"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 10–15 mV DC range is an unproven clinical threshold for Sushumna with no instrument, reference location, cohort, or derivation.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"10-15 millivolts DC\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact balanced Sushumna voltage range has no clinical basis."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "resistance exceeds 1200 ohms"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The >1200 Ω blocked-state threshold has no validated Nadi endpoint, distribution, sensitivity/specificity analysis, or source and is mathematically misapplied as diagnosis.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"resistance exceeds 1200 ohms\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact blocked Sushumna resistance threshold has no clinical basis."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "capacitance drops below 0.3 microfarads"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The <0.3 µF blocked-state threshold is unsupported by any defined circuit model, electrode setup, clinical reference set, or provenance.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"capacitance drops below 0.3 microfarads\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact blocked Sushumna capacitance threshold has no clinical basis."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "voltage falls below 5 millivolts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The <5 mV blockage threshold is a consequential diagnostic number without a validated construct, method, sample, or source.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"voltage falls below 5 millivolts\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact blocked Sushumna voltage threshold has no clinical basis."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Frequency sweep from 1 Hz to 1 kHz"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 1 Hz–1 kHz sweep is a possible instrumentation choice but has no derivation or validation for Nadi diagnosis; its consequential frequency range is misapplied.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"Frequency sweep from 1 Hz to 1 kHz\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The precise sweep is presented as a Nadi protocol without a validated derivation."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "High impedance indicates CSF stagnation or spinal misalignment"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "High impedance cannot identify CSF stagnation or spinal misalignment without defined endpoints, confound controls, validated classification performance, and a source.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"High impedance indicates CSF stagnation or spinal misalignment\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The electrode sweep is assigned an unsupported high-impedance diagnosis."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Low impedance indicates inflammation or excessive sympathetic activation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Low impedance is nonspecific and no evidence is supplied that it diagnoses inflammation or excessive sympathetic activation in this electrode protocol.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"Low impedance indicates inflammation or excessive sympathetic activation\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The electrode sweep is assigned an unsupported low-impedance diagnosis."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "DC voltage drops localize the specific blockage site"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Localizing a specific Nadi blockage from a DC drop requires spatial validation against an independent reference standard; none is defined or sourced.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"DC voltage drops localize the specific blockage site\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No validated Nadi protocol gives DC drops this localization power."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "Clinical correlates when Sushumna is blocked"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The symptom cluster is assigned to an unvalidated Sushumna blockage state with no cohort, diagnostic criterion, comparator, or source.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"Clinical correlates when Sushumna is blocked\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The symptom cluster is invented for an unvalidated blockage construct."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "physical substrate is the left vagus nerve"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ida is identified with the left vagus, fascial line, and parasympathetic system as literal substrate without anatomical source, registration method, transformation, or declared Noesis synthesis.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"physical substrate is the left vagus nerve\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "The vagus is not a left spinal channel terminating at a nostril/Ajna point."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "600-900 ohms at 10 Hz"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 600–900 Ω at 10 Hz balanced Ida range has no validated channel measure, electrode geometry, reference distribution, or provenance.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"600-900 ohms at 10 Hz\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact balanced Ida resistance range is unsupported."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "HRV coherence above 70%"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "HRV coherence >70% is assigned as a balanced Ida threshold without a coherence definition, recording duration, population, reference interval, or source.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"HRV coherence above 70%\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact balanced Ida HRV threshold is unsupported."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "resistance exceeds 1300 ohms"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The >1300 Ω Ida blockage threshold is a consequential diagnostic quantity with no measurement derivation or validation.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"resistance exceeds 1300 ohms\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact blocked Ida resistance threshold is unsupported."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "HRV coherence drops below 50%"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "HRV coherence <50% is presented as an Ida blockage cutoff without operational definition, test performance, cohort, or provenance.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"HRV coherence drops below 50%\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact blocked Ida HRV threshold is unsupported."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "When Ida is blocked: right-brain dysfunction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Right-brain dysfunction and the listed symptoms are assigned to an unmeasured Ida blockage state with no causal or clinical evidence.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"When Ida is blocked: right-brain dysfunction\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The blocked symptom cluster is assigned to an unmeasured channel state."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "When excessive: lethargy, oversleeping, depression, hypothyroid symptoms"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Lethargy, oversleeping, depression, and hypothyroid symptoms are assigned to “excessive” Ida without defining exposure or supplying clinical evidence.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"When excessive: lethargy, oversleeping, depression, hypothyroid symptoms\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The excessive symptom cluster is assigned to an unmeasured channel state."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "physical substrate is the right sympathetic chain"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pingala is identified with a right sympathetic chain and fascial line as literal substrate without a source, anatomical registration, transformation, or explicit Noesis authorship.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"physical substrate is the right sympathetic chain\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No anatomical evidence identifies Pingala with a unilateral sympathetic/fascial line."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "550-850 ohms at 10 Hz"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 550–850 Ω at 10 Hz balanced Pingala range has no validated construct, electrode setup, reference population, uncertainty, or provenance.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"550-850 ohms at 10 Hz\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact balanced Pingala resistance range is invented."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "skin conductance between 5-15 microsiemens"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 5–15 µS balanced conductance range is assigned to Pingala without anatomical site controls, sampling conditions, reference data, or source.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"skin conductance between 5-15 microsiemens\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact balanced Pingala conductance range is invented."
+      },
+      "id": "C046"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "resistance exceeds 1200 ohms"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The >1200 Ω blocked Pingala threshold has no derived or validated measurement basis.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"resistance exceeds 1200 ohms\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact blocked Pingala resistance threshold is invented."
+      },
+      "id": "C047"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "skin conductance drops below 3 microsiemens"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The <3 µS blocked Pingala threshold is an invented diagnostic cutoff without method, population, performance data, or provenance.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"skin conductance drops below 3 microsiemens\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The exact blocked Pingala conductance threshold is invented."
+      },
+      "id": "C048"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Fascia release restores tensegrity and piezoelectric conductivity"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Fascial treatments are claimed to restore tensegrity and piezoelectric conductivity without a defined electrical endpoint, comparator, dose, population, or source.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"Fascia release restores tensegrity and piezoelectric conductivity\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Treatment is asserted to restore a Nadi electrical property without measurement."
+      },
+      "id": "C049"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "can restore voltage gradients"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Frequency-matched PEMF is said to restore unspecified Nadi voltage gradients without defining frequency selection, gradient measure, intervention evidence, or causal source.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"can restore voltage gradients\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "General PEMF therapy is converted into a frequency-matched Nadi repair mechanism."
+      },
+      "id": "C050"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "needle creates a local galvanic response that resets impedance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A local needle galvanic response does not establish reset of a channel-network impedance; the claim lacks measurement protocol, controls, outcome, and source.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"needle creates a local galvanic response that resets impedance\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Electrical needle effects do not establish a reset of the proposed channel network."
+      },
+      "id": "C051"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "it is a bioelectric balancing protocol"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Alternate-nostril breathing is converted from a named traditional practice into a bilateral bioelectric Nadi protocol without traced empirical ingredients, transformation, or Noesis-authorship boundary.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"it is a bioelectric balancing protocol\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Breath can affect autonomic state, but the literal bilateral electrical protocol is unproven."
+      },
+      "id": "C052"
+    },
+    {
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "Bioelectric voltage gradients do not merely reflect health; they direct morphogenesis"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bioelectric gradients can participate in experimental morphogenesis, but the post gives no organism, intervention, voltage measure, causal design, uncertainty, or traceable source for the broad claim.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"Bioelectric voltage gradients do not merely reflect health; they direct morphogenesis\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "A real experimental research domain, stated without relying on an institution's name."
+      },
+      "id": "C053"
+    },
+    {
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "The Nadi system is Layer 0"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Layer 0” and “wiring diagram” explicitly use computing architecture to compare the Nadi model with a prior blueprint; the separate literal blueprint claim is audited next and no numeric prediction follows from this label.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"The Nadi system is Layer 0\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The morphogenesis observation does not validate the traditional map as a pre-tissue blueprint."
+      },
+      "id": "C054"
+    },
+    {
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "blueprint from which the body's energy channels are constructed"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A traditional Nadi map is silently promoted to the literal pre-tissue blueprint for bodily energy channels; morphogenetic voltage is not traced through a transformation establishing that identity.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"blueprint from which the body's energy channels are constructed\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Real morphogenetic voltage does not validate the Nadi map as bodily blueprint."
+      },
+      "id": "C055"
+    },
+    {
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "Matter does not generate field. Field generates matter"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Field generates matter” is explicitly presented as the protocol’s field-primary house premise and remains internally consistent with its architect/building vocabulary; it is not labeled empirical proof.",
+      "legacy": {
+        "anchor": "L99",
+        "quote": "\"Matter does not generate field. Field generates matter\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Explicit consciousness/field-primary house cosmology."
+      },
+      "id": "C056"
+    },
+    {
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "Modern biofield research is converging on this conclusion"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Modern biofield research” is unnamed and no studies, measures, populations, competing results, or uncertainty support the claimed convergence on a Nadi blueprint.",
+      "legacy": {
+        "anchor": "L101",
+        "quote": "\"Modern biofield research is converging on this conclusion\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": true,
+        "note": "Unnamed research consensus is made to validate the Nadi blueprint."
+      },
+      "id": "C057"
+    },
+    {
+      "anchor": {
+        "line_start": 105,
+        "line_end": 105,
+        "quote": "ancient seers measured impedance with their attention"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No traditional or historical source says ancient seers measured electrical impedance; the modern measurement term is misapplied to attention and supplies unsupported scientific precision.",
+      "legacy": {
+        "anchor": "L105",
+        "quote": "\"ancient seers measured impedance with their attention\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House-consistent statement of situated attention as instrument, not institutional proof."
+      },
+      "id": "C058"
+    }
+  ]
+}

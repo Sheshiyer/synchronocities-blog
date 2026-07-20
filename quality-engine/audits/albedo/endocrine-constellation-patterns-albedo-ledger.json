@@ -1,0 +1,811 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "endocrine-constellation-patterns.md",
+  "source_path": "src/content/posts/endocrine-constellation-patterns.md",
+  "source_sha256": "932c7ce4f2cd56fea1cb8f7f19d712bb69e469c55baad5578f5ccf17d58417a2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/endocrine-constellation-patterns.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "Each hormone maps to a constellation. Each constellation maps to an Enneagram type."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. No mathematical object is evidential. Legacy evidence reviewed: Thesis statement; house correspondence framework (as above, so below), explicitly disclaims astrology-as-mechanism.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"Each hormone maps to a constellation. Each constellation maps to an Enneagram type.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Thesis statement; house correspondence framework (as above, so below), explicitly disclaims astrology-as-mechanism."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "It maps nine hormones to nine constellations to nine archetypal functions."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. No mathematical object is evidential. Legacy evidence reviewed: Same thesis restated; self-constructed correspondence system, no borrowed authority invoked.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"It maps nine hormones to nine constellations to nine archetypal functions.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Same thesis restated; self-constructed correspondence system, no borrowed authority invoked."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "nine hormones to nine constellations to nine archetypal functions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. The mathematical/computational structure is correct, consequential, and provenanced in the cited region. Legacy evidence reviewed: The nine-fold structural correspondence (Enneagram geometry used structurally — canonical INTEGRATED). Demonstrated in the code block's full mapping; remove it and the post ceases to exist.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"nine hormones to nine constellations to nine archetypal functions\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The nine-fold structural correspondence (Enneagram geometry used structurally — canonical INTEGRATED). Demonstrated in the code block's full mapping; remove it and the post ceases to exist."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "This is not metaphor. This is system architecture."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A local frame is presented as external architecture or mixed with an empirical claim; its house boundary must be declared and scoped. No mathematical object is evidential. Legacy evidence reviewed: Safe-harbor flag pattern (\"not metaphor\") reviewed: passes. House frame asserts real correspondence (gate's own ALIGNED example: \"not a metaphor here\"); rescued from silent-upgrade by explicit non-causal framing (L77) and reader-verification directive (L103). Confidence rule applies.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"This is not metaphor. This is system architecture.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Safe-harbor flag pattern (\"not metaphor\") reviewed: passes. House frame asserts real correspondence (gate's own ALIGNED example: \"not a metaphor here\"); rescued from silent-upgrade by explicit non-causal framing (L77) and reader-verification directive (L103). Confidence rule applies."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Melatonin controls circadian rhythm — when the system sleeps and wakes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The absolute, mechanism, or technical identity conflicts with the same-level audit record. No mathematical object is evidential. Legacy evidence reviewed: Standard verifiable physiology, no authority invoked; \"controls\" mildly simplified (pacemaker is upstream) but not a fail category.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"Melatonin controls circadian rhythm — when the system sleeps and wakes.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard verifiable physiology, no authority invoked; \"controls\" mildly simplified (pacemaker is upstream) but not a fail category."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Serotonin maintains mood balance — the steady-state oscillation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Chemistry as subject maintaining mood (experience) as object; matches gate heuristic \"brain chemistry creates/makes you feel X.\" Recode: mood is primary, serotonin its signature.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"Serotonin maintains mood balance — the steady-state oscillation\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Chemistry as subject maintaining mood (experience) as object; matches gate heuristic \"brain chemistry creates/makes you feel X.\" Recode: mood is primary, serotonin its signature."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Cortisol manages stress response — the emergency protocol"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Object is the physiological cascade (\"redirects resources\"), not felt experience; borderline vs. gate example \"cortisol makes you stressed\" — passes as physiology.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"Cortisol manages stress response — the emergency protocol\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Object is the physiological cascade (\"redirects resources\"), not felt experience; borderline vs. gate example \"cortisol makes you stressed\" — passes as physiology."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Dopamine drives the pleasure-reward cycle — the anticipation engine"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Near-verbatim match to the gate's canonical INVERTED example (\"dopamine... makes you feel rewarded\"). Chemistry framed as origin of anticipation/pleasure.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"Dopamine drives the pleasure-reward cycle — the anticipation engine\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Near-verbatim match to the gate's canonical INVERTED example (\"dopamine... makes you feel rewarded\"). Chemistry framed as origin of anticipation/pleasure."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Endorphins manage pain transmutation — the capacity to convert suffering into release."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The row merges empirical mechanism with metaphor, house vocabulary, mathematical precision, or interpretation. No mathematical object is evidential. Legacy evidence reviewed: Pain modulation is physiology; \"suffering into release\" is poetic but descriptive of modulation, not consciousness-generation. Borderline; passes.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"Endorphins manage pain transmutation — the capacity to convert suffering into release.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Pain modulation is physiology; \"suffering into release\" is poetic but descriptive of modulation, not consciousness-generation. Borderline; passes."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Oxytocin bonds individuals into collectives — the chemistry that makes trust possible."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Explicit: \"the chemistry that makes trust possible\" — substrate as maker of an experiential/relational state. Clearest of the three hormone inversions.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"Oxytocin bonds individuals into collectives — the chemistry that makes trust possible.\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Explicit: \"the chemistry that makes trust possible\" — substrate as maker of an experiential/relational state. Clearest of the three hormone inversions."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Testosterone fuels growth and competitive intensity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The row merges empirical mechanism with metaphor, house vocabulary, mathematical precision, or interpretation. No mathematical object is evidential. Legacy evidence reviewed: Growth is physiological; \"fuels\" is weak-causal for the behavioral term. Borderline; passes.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"Testosterone fuels growth and competitive intensity.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Growth is physiological; \"fuels\" is weak-causal for the behavioral term. Borderline; passes."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Estrogen governs cyclic creation and reproductive transformation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The row merges empirical mechanism with metaphor, house vocabulary, mathematical precision, or interpretation. No mathematical object is evidential. Legacy evidence reviewed: Physiological, verifiable, no authority clause; cyclic framing house-compatible.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"Estrogen governs cyclic creation and reproductive transformation.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Physiological, verifiable, no authority clause; cyclic framing house-compatible."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Adrenaline fires the fight-or-flight response — immediate, powerful, ungovernable by deliberation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Physiological response cascade; no experience-object claimed.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"Adrenaline fires the fight-or-flight response — immediate, powerful, ungovernable by deliberation.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Physiological response cascade; no experience-object claimed."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "They are the user interface for the biological backend."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "A local frame is presented as external architecture or mixed with an empirical claim; its house boundary must be declared and scoped. The mathematical/computational structure is correct, consequential, and provenanced in the cited region. Legacy evidence reviewed: Architectural matter-first framing: biology as primary substrate, archetypal meaning as derivative interface — contradicts All-is-Mind. Reinforced by L55 \"The base layer is biology.\" Borderline (epistemic-access reading possible) but the backend/UI arrow is causal in the tech metaphor. Post's own L95–99 framing (\"different documentation languages,\" neither primary) is the clean version.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"They are the user interface for the biological backend.\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Architectural matter-first framing: biology as primary substrate, archetypal meaning as derivative interface — contradicts All-is-Mind. Reinforced by L55 \"The base layer is biology.\" Borderline (epistemic-access reading possible) but the backend/UI arrow is causal in the tech metaphor. Post's own L95–99 framing (\"different documentation languages,\" neither primary) is the clean version."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The Greeks did not have mass spectrometers. They had pattern recognition."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The historical or bibliographic claim lacks a traceable primary or responsible corroborating source. No mathematical object is evidential. Legacy evidence reviewed: Historical claim about science, judged as history per §9: factually accurate; serves the observation-over-instrument house frame.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"The Greeks did not have mass spectrometers. They had pattern recognition.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim about science, judged as history per §9: factually accurate; serves the observation-over-instrument house frame."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Each hormone-Muse pairing has a celestial address"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. No mathematical object is evidential. Legacy evidence reviewed: Correspondence mapping inside the house-style framework; causality explicitly denied at L77.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"Each hormone-Muse pairing has a celestial address\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Correspondence mapping inside the house-style framework; causality explicitly denied at L77."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "The celestial addresses are not causal. The stars do not make the hormones."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The local frame is explicit, its operative terms are defined, and the row is internally consistent without claiming external proof. No mathematical object is evidential. Legacy evidence reviewed: Exemplary epistemic hygiene: correspondence declared non-causal, framed as readability (\"the system becomes more readable\"). \"Signal strength\" phrasing covered by the declared frame.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"The celestial addresses are not causal. The stars do not make the hormones.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Exemplary epistemic hygiene: correspondence declared non-causal, framed as readability (\"the system becomes more readable\"). \"Signal strength\" phrasing covered by the declared frame."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Type 1s will notice melatonin disruption when moral order is violated"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: House Enneagram operating structurally, framed as reader-replicable observation (\"Track,\" \"will notice\"); falsifiable by the reader's own practice, not by an institution.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"Type 1s will notice melatonin disruption when moral order is violated\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House Enneagram operating structurally, framed as reader-replicable observation (\"Track,\" \"will notice\"); falsifiable by the reader's own practice, not by an institution."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Three systems resonating at the same frequency produce a signal"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The row merges empirical mechanism with metaphor, house vocabulary, mathematical precision, or interpretation. The mathematical/computational term fails the removal test and is not evidence. Legacy evidence reviewed: Physics name-drop as undeclared mechanism (\"This is not magic. It is signal amplification.\") — no frequencies, no coupling, no demonstrated structure. Remove it and the synchronicity-clustering observation stands intact; proof of decoration per §4.4.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"Three systems resonating at the same frequency produce a signal\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Physics name-drop as undeclared mechanism (\"This is not magic. It is signal amplification.\") — no frequencies, no coupling, no demonstrated structure. Remove it and the synchronicity-clustering observation stands intact; proof of decoration per §4.4."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Patterns emerge over cycles — lunar cycles, seasonal cycles, annual cycles."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Directly observable cycles; also house cyclic-time frame.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"Patterns emerge over cycles — lunar cycles, seasonal cycles, annual cycles.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Directly observable cycles; also house cyclic-time frame."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "nine chemical compounds regulate biological function through receptor-mediated signaling pathways"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Accurate mainstream physiology, openly framed as one \"documentation language\" (model framing, L95–99).",
+      "legacy": {
+        "anchor": "L95",
+        "quote": "\"nine chemical compounds regulate biological function through receptor-mediated signaling pathways\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate mainstream physiology, openly framed as one \"documentation language\" (model framing, L95–99)."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "nine divine beings channel creative intelligence through the human system"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MODEL",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. No mathematical object is evidential. Legacy evidence reviewed: The mystical description framed explicitly as description-language; consciousness-compatible house framing.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"nine divine beings channel creative intelligence through the human system\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The mystical description framed explicitly as description-language; consciousness-compatible house framing."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "The prime numbers in the class definition are not decorative."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantically reviewed as DERIVED-SYNTHESIS + CONTRADICTED. The mathematical/computational mapping is incorrect or misapplied and is not evidence. Legacy evidence reviewed: Numerically false as stated: the code assigns 'prime' to 1–9, but 1 is not prime and 4, 6, 8, 9 are composite; only 2, 3, 5, 7 are prime. Asserted as structural (\"not decorative\") while false. The activation-sequence point survives deletion of \"prime\"; primality itself is counterfeit structure.",
+      "legacy": {
+        "anchor": "L103",
+        "quote": "\"The prime numbers in the class definition are not decorative.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Numerically false as stated: the code assigns 'prime' to 1–9, but 1 is not prime and 4, 6, 8, 9 are composite; only 2, 3, 5, 7 are prime. Asserted as structural (\"not decorative\") while false. The activation-sequence point survives deletion of \"prime\"; primality itself is counterfeit structure."
+      },
+      "id": "C023"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-earthquake-that-said-goodbye.md",
+  "source_path": "src/content/posts/the-earthquake-that-said-goodbye.md",
+  "source_sha256": "cd06dd8ca9930a79152dba34cdb50c04abb3ff60bcc14dd24c8839814c02e93c",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-earthquake-that-said-goodbye.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "the Earth... shook again"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L52 (the Earth... shook again). Legacy trace rechecked: First-person embodied report of a physical event; no seismological mechanism claimed. Earth's \"speech\" (L60–62) is declared analogy (\"Like the Earth itself was saying\") — safe harbor, not flagged. The available trace supports the selected mode at the stated scope. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"the Earth... **shook again**\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "First-person embodied report of a physical event; no seismological mechanism claimed. Earth's \"speech\" (L60–62) is declared analogy (\"Like the Earth itself was saying\") — safe harbor, not flagged."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "Human Design? Aligned."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L85 (Human Design? Aligned.). Legacy trace rechecked: House esoteric stack named as personal alignment system; no institutional or scientific authority invoked. The post does not supply the evidence conditions required for this mode and strength. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L85",
+        "quote": "\"Human Design? Aligned.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House esoteric stack named as personal alignment system; no institutional or scientific authority invoked."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Vimshottari Dashas? Passed."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L86 (Vimshottari Dashas? Passed.). Legacy trace rechecked: Dasha cycles are enumerated house cosmology — ALIGNED by definition, never flagged. The post does not supply the evidence conditions required for this mode and strength. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"Vimshottari Dashas? Passed.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Dasha cycles are enumerated house cosmology — ALIGNED by definition, never flagged."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Gene Keys? Integrated."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L87 (Gene Keys? Integrated.). Legacy trace rechecked: House esoteric stack; contemplative system, no borrowed authority. The post does not supply the evidence conditions required for this mode and strength. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"Gene Keys? Integrated.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House esoteric stack; contemplative system, no borrowed authority."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "Numerology? Synced at 13:31 → 44"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 recertification of source L88 (Numerology? Synced at 13:31 → 44). Legacy trace rechecked: House numerology arithmetic, shown and correct (13 + 31 = 44); native symbolic notation (same class as tarot numerals), not an imported math name-drop. The post does not supply the evidence conditions required for this mode and strength. The mathematical element is removable or lacks the load-bearing triple gate.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"Numerology? Synced at 13:31 → 44\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "House numerology arithmetic, shown and correct (13 + 31 = 44); native symbolic notation (same class as tarot numerals), not an imported math name-drop."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Astrocartography? Activated."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L89 (Astrocartography? Activated.). Legacy trace rechecked: House esoteric stack; locational astrology practice, no authority claim. The post does not supply the evidence conditions required for this mode and strength. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"Astrocartography? Activated.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House esoteric stack; locational astrology practice, no authority claim."
+      },
+      "id": "C006"
+    }
+  ]
+}

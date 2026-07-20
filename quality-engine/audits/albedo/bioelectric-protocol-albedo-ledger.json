@@ -1,0 +1,1815 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "bioelectric-protocol.md",
+  "source_path": "src/content/posts/bioelectric-protocol.md",
+  "source_sha256": "214cb7cb4dbdef6b1421e13c816e6ef03b619f4fb3cd2792b1a1e19c3473eda0",
+  "legacy_audit_path": "quality-engine/audits/nigredo/bioelectric-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "bioelectric field is measurable, modulable, and protocol-addressable"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Measurable, modulable, and protocol-addressable bundle distinct field, intervention, and therapeutic-capability claims without defining the field, instruments, conditions, outcomes, or sources.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"bioelectric field is measurable, modulable, and protocol-addressable\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The bundled therapeutic capability is asserted without conditions and repeats body claims."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "bridge the gap between ancient energetic anatomy and modern biophysical instrumentation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claimed bridge between three ancient practices and modern instruments is a new Noesis synthesis, but its ingredients, transformation, and authorship are not traced before the correspondence is asserted.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"bridge the gap between ancient energetic anatomy and modern biophysical instrumentation\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The three protocols are said to bridge systems before any validated correspondence is supplied."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "approximately seven octaves of signaling bandwidth"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No signal, lower or upper frequency, measurement, or derivation defines seven octaves of bodily bandwidth; the frequency-range language is mathematically inapplicable and removable.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"approximately seven octaves of signaling bandwidth\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No signal, frequency range, measurement, or source defines a seven-octave bodily bandwidth."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "tracking my own nasal temperature differential for two weeks"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The author names the observer, a two-week procedure, nasal temperature differential, thermometer, and dawn conditions; the duration materially scopes the observation and is directly sourced by the report.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"tracking my own nasal temperature differential for two weeks\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This names a replicable thermometer/HRV self-observation."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "The HRV trace confirmed what the thermometer suggested"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author reports comparing an HRV trace with the thermometer result during the named self-tracking procedure; the scope remains that instrument observation, not a universal lateralization law.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"The HRV trace confirmed what the thermometer suggested\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This records the author's instrument observation without validating a universal lateralization rule."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The fascial web conducts ionic currents."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ionic conduction in hydrated connective tissue is an independently instrument-observable biophysical property; this narrow fact does not prove the later protocol-layer synthesis.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"The fascial web conducts ionic currents.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Ionic conductivity in hydrated connective tissue is instrument-observable."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The nasal mucosa differentially engorges with blood on a ninety-minute cycle."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The nasal cycle is measurable, but a fixed ninety-minute period is unscoped shorthand for a variable phenomenon; the number is dispensable precision without provenance.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"The nasal mucosa differentially engorges with blood on a ninety-minute cycle.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The nasal cycle is measurable, although its period varies and ninety minutes is shorthand."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The heart emits a magnetic field detectable several feet"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Cardiac magnetic activity is measurable, but detectability several feet from the torso depends on instrument sensitivity, shielding, orientation, and conditions omitted from the claim.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"The heart emits a magnetic field detectable several feet\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Cardiac magnetic activity is measurable, but several-feet detection requires conditions and specialized instrumentation omitted here."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "preceded language by about 3.8 billion years"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The single 3.8-billion-year age is applied to fascial conduction, nasal cycling, and cardiac magnetism even though those structures did not arise together; the number is historically and mathematically misapplied.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"preceded language by about 3.8 billion years\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "One evolutionary age is attached to fascial, nasal, and cardiac phenomena that did not arise together."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "the bioelectric field is the protocol layer where both compile into experience"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bioelectric field, nervous system, bodily substrate, and experience are combined through literal compiler vocabulary without a traced transformation or explicit Noesis authorship.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"the bioelectric field is the protocol layer where both compile into experience\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Body machinery is made the compiler of experience, but L95 repeats the matter-first hierarchy."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "measurable voltage gradient between your skin and the earth"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Equating the prāṇamaya kośa with a measurable skin-to-earth voltage gradient fuses a traditional-source claim, an empirical measurement, and a Noesis interpretation into one hidden synthesis.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"measurable voltage gradient between your skin and the earth\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The kośa identity repeats the protocol thesis and is not individually necessary."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "They are paired electrodes with differential vascular tone."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nostrils have differential vascular tone, but treating them as literal paired electrodes asserts an electrical mechanism without circuit definition, measurement conditions, or evidence.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"They are paired electrodes with differential vascular tone.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The electrode mechanism is one of several repeated nostril-circuit claims."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "Sympathetic tone climbs when the right nostril leads."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Right-nostril dominance and sympathetic tone may covary under some conditions, but the universal directional rule lacks population, timing, measure, uncertainty, and source.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"Sympathetic tone climbs when the right nostril leads.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A variable association becomes a universal rule repeated in the calibration section."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "visible on a thermogram, audible in respiratory rate"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The protocol runner is the observer, thermography, respiratory rate, and unilateral airflow are the named objects and procedures, and the claim remains limited to directly measurable proxies.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"visible on a thermogram, audible in respiratory rate\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "These named physiological proxies are directly measurable."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The Haṭha Yoga Pradīpikā (2.7–10) describes this as solar/lunar balancing."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Haṭha Yoga Pradīpikā is explicitly named with verses 2.7–10 as the source for solar/lunar balancing; the attribution is kept separate from modern physiological proof.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The *Haṭha Yoga Pradīpikā* (2.7–10) describes this as solar/lunar balancing.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The named Vedic source is operated as house tradition rather than proof of physiology."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "a corresponding change in galvanic skin response"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A corresponding GSR change is asserted from unilateral nasal resistance without protocol conditions, participant data, effect size, uncertainty, or a traceable source.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"a corresponding change in galvanic skin response\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A deterministic unilateral-resistance/GSR correspondence is asserted without measurement conditions."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "you overwrite the autonomic bias"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Manually switching nostrils is said to overwrite accumulated autonomic bias, but no intervention comparison, measure, duration, population, or causal evidence supports that strength.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"you overwrite the autonomic bias\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The deterministic overwrite is one removable member of the repeated calibration mechanism."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "which nostril is open, which is closed"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The reader is instructed to notice which nostril is open, which is closed, and how the switch feels during the named breathing procedure; observation remains distinct from interpretation.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"which nostril is open, which is closed\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The practice gives the reader a direct bodily observation."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "The earth's surface carries a stable negative electrical potential."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Earth-surface potential relative to the atmosphere is a standard measurable electrical relation; “stable” is accepted only as local protocol shorthand, not temporal invariance.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"The earth's surface carries a stable negative electrical potential.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Surface potential relative to the atmosphere is measurable, with “stable” understood as protocol shorthand."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "carries an excess of positive charge"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Hours in shoes and fluorescent light are asserted to leave the body with excess positive charge without a voltage reference, charge measurement, comparator, or source.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"carries an excess of positive charge\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The unsupported charge premise is repeated through the earthing section and is individually removable."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "electrons migrate from earth to body until equilibrium is reached"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Electron migration from earth to body until therapeutic equilibrium is reached is a causal earthing mechanism without current measurement, boundary conditions, outcomes, or evidence.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"electrons migrate from earth to body until equilibrium is reached\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The earthing mechanism is repeated at L67 and does not depend on this occurrence alone."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "This is basic circuit theory."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Calling the earthing mechanism basic circuit theory supplies mathematical authority without an actual circuit, variables, equation, or evidence; the phrase is removable from the protocol.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"This is basic circuit theory.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No equation or therapeutic circuit is demonstrated; the precision phrase is removable."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Robert Becker demonstrated in the 1970s"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Robert Becker is accurately associated with 1970s electrical-current work on salamander regeneration; attribution is limited to that history and does not validate the human extension.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"Robert Becker demonstrated in the 1970s\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate history of electrical-current work on salamander regeneration, separate from the human extension."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "and, by extension, in humans"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Extending salamander regeneration results to humans requires species-specific mechanism and outcome evidence that the named history does not supply.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"and, by extension, in humans\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The cross-species extension is unsupported and one of several earthing mechanism claims."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "all require a stable voltage reference"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nāḍī, fascia, and peripheral nerves are treated as one signal network requiring a common voltage reference, conflating traditional anatomy with distinct empirical tissues before evidence can be judged.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"all require a stable voltage reference\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Nāḍī, fascia, and nerves are conflated, but adjacent claims carry the same grounding thesis."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Inflammation signaling becomes chaotic. Sleep architecture fragments."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Chaotic inflammation signaling and fragmented sleep are presented as consequences of missing ground reference without defined outcomes, participants, intervention data, or causal evidence.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"Inflammation signaling becomes chaotic. Sleep architecture fragments.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "These consequences are locally asserted and do not carry the whole protocol."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "does the body settle, does the breath deepen"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The reader is the observer, skin-to-earth contact is the procedure, and settling and breath depth are explicitly posed as local observations rather than guaranteed effects.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"does the body settle, does the breath deepen\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The protocol asks the reader to observe replicable bodily changes."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "documented in multiple small studies"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Multiple small studies” is not a traceable evidence record: no authors, samples, grounding conditions, EEG measure, effect size, or publication is supplied.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"documented in multiple small studies\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Unnamed studies carry the EEG-alpha grounding claim."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "the electron transfer, the shift in EEG alpha power"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Electron transfer and an EEG-alpha shift are bundled as one grounding mechanism without separating the physical interpretation from the measured signal or identifying supporting evidence.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"the electron transfer, the shift in EEG alpha power\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The material mechanism is repeated without separating observation from the earthing interpretation."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Heart rate variability is not a comfort index."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "HRV is operationally the variation in successive cardiac intervals and is influenced by respiratory and baroreflex dynamics; rejecting a generic comfort-index definition is accurate at this scope.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"Heart rate variability is not a comfort index.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "HRV is a measurable interval-variation signal; the paragraph names respiratory and baroreceptor context."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "High HRV means the system is responsive. Low HRV means it is rigid"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The high-responsive/low-rigid binary ignores age, rhythm, recording duration, posture, health, and metric choice, and no source supports the universal interpretation.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"High HRV means the system is responsive. Low HRV means it is rigid\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "HRV interpretation depends on context, age, rhythm, and timescale; the binary rule is overstated."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "respiratory sinus arrhythmia is maximized"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Maximal respiratory sinus arrhythmia and minimal phase lag are asserted as a universal coherence state without individual resonance conditions, measurement definition, population, or source.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"respiratory sinus arrhythmia is maximized\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A universal maximal-RSA/minimal-lag coherence state is asserted beyond the correct pacing arithmetic."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "a clean peak around 0.1 Hz"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A peak near 0.1 Hz corresponds reproducibly to about six breathing cycles per minute, but the value is repeated at L73 and L75 and this occurrence is structurally redundant.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"a clean peak around 0.1 Hz\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L73 and L75 repeat the same six-per-minute frequency, so this occurrence is removable."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The heart becomes the primary oscillator for the entire bioelectric network"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The heart’s status as primary oscillator for the entire bioelectric network is asserted without defining the network, comparator oscillators, coupling measure, or supporting evidence.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"The heart becomes the primary oscillator for the entire bioelectric network\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Whole-body primacy is repeated in the HRV section and is not occurrence-load-bearing."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "the brain, the gut, and the immune system phase-lock to"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Brain, gut, and immune system phase-locking to a cardiac reference is a multi-system causal claim without coupling variables, conditions, population, or evidence.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"the brain, the gut, and the immune system phase-lock to\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The same phase-lock family repeats at L71 and L75."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The HeartMath Institute has published empirical data showing"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "HeartMath is named, but no publications, samples, measures, effect sizes, or immune markers are identified to support the claimed cognition, emotion, and immune correlations.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"The HeartMath Institute has published empirical data showing\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Institutional authority carries the cognition, emotion, and immune-benefit claims."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "five minutes of paced breathing at six cycles per minute"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The reader, Bluetooth HRV monitor, five-minute duration, six-cycle cadence, and trace are all named; the quantities materially define a reproducible observation procedure.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"five minutes of paced breathing at six cycles per minute\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "A reader can run the timed protocol with the named HRV monitor."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "six cycles per minute"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Six cycles per minute reproducibly converts to 0.1 cycles per second, but the same cadence appears in the adjacent procedure and at L75, making this occurrence redundant.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"six cycles per minute\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "This correct conversion repeats L71's 0.1-Hz value and L75's cadence."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "breathe at five to six cycles per minute"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The post explicitly specifies an HRV calibration protocol; five-to-six cycles per minute is internally consistent with its 0.1-Hz target, materially defines execution, and is reproducibly derived.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"breathe at five to six cycles per minute\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "This is a concrete, repeatable paced-breathing instruction."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "you are either a highly trained athlete"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Immediate meter coherence does not establish the exclusive alternatives of elite athletic training or operator error; the diagnostic lacks comparison data and scope.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"you are either a highly trained athlete\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Immediate coherence does not support this exclusive athlete-or-misread diagnostic."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "will entrain respiratory and cardiac rhythms"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Respiratory or cardiac synchrony can occur between people, but “will entrain” universalizes across dyads, durations, contexts, and measures without evidence.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"will entrain respiratory and cardiac rhythms\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Interpersonal synchrony can occur, but universal entrainment is overstated."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The nasal cycle of one can influence the autonomic tone of the other."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No observation or mechanism in the post supports one person’s nasal cycle changing another person’s autonomic tone; participants, measures, and conditions are absent.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"The nasal cycle of one can influence the autonomic tone of the other.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No mechanism or observation establishes this specific cross-person nasal effect."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "phase-locked oscillators exchanging electrochemical information"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling the listed dyads phase-locked oscillators turns a physics comparison into literal electrochemical exchange without coupling measurements or a declared Noesis transformation; the term is removable.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"phase-locked oscillators exchanging electrochemical information\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The declared relational examples are silently upgraded to literal electrochemical exchange."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "approximately 7.83 Hz, with harmonics"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Approximately 7.83 Hz is a traceable conventional estimate of the Schumann fundamental with harmonics, but the number is unnecessary to the later field-membership claim.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"approximately 7.83 Hz, with harmonics\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The approximate Schumann fundamental is real, but the numerical name-drop can be removed without changing the cosmic claim."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "all living systems evolved to track"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The universal claim that all living systems evolved to track Schumann resonance lacks taxa, biological transducer, fitness measure, comparative data, and source.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"all living systems evolved to track\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Universal resonance tracking is one removable claim in the cosmic field-node cluster."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The heart's coherent state oscillates near this frequency."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The article itself defines HRV coherence near 0.1 Hz, which is not near 7.83 Hz; the cross-frequency synthesis is numerically false and materially supplies the claimed planetary coupling.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"The heart's coherent state oscillates near this frequency.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "HRV coherence is about 0.1 Hz, and the adjacent EEG claim repeats the false comparison."
+      },
+      "id": "C046"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The alpha band of the human EEG centers on it."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The human alpha band is conventionally about 8–12 Hz and does not center on 7.83 Hz; the asserted equality is mathematically false and supports the same planetary-frequency inference.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"The alpha band of the human EEG centers on it.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Alpha is about 8–12 Hz; this adjacent comparison is individually removable."
+      },
+      "id": "C047"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "You are a node in it."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Identifying the person as a node in Earth’s electromagnetic field converts physical field membership into network ontology without a mapping, operative node definition, or declared Noesis authorship.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"You are a node in it.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The field-node identity repeats the cosmic network claim and is not unique."
+      },
+      "id": "C048"
+    },
+    {
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "the body is an instrument and the mind is one of its readouts"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The body-as-instrument and mind-as-readout hierarchy is presented as electrochemical reality while relying on undeclared systems metaphor and an untraced consciousness synthesis.",
+      "legacy": {
+        "anchor": "L95",
+        "quote": "\"the body is an instrument and the mind is one of its readouts\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Mind becomes bodily output, repeating the material compiler claim at L45."
+      },
+      "id": "C049"
+    },
+    {
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "chronic inflammation, disrupted sleep, autonomic dysregulation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Chronic inflammation, disrupted sleep, and autonomic dysregulation are attributed to the modern body–mind fracture without population, exposure, measures, or causal evidence.",
+      "legacy": {
+        "anchor": "L95",
+        "quote": "\"chronic inflammation, disrupted sleep, autonomic dysregulation\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "These local costs do not collapse the protocol argument when removed."
+      },
+      "id": "C050"
+    },
+    {
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "a galvanic skin response spike, a collapsed HRV trace"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "GSR spikes, HRV traces, and nostril airflow are named instrument or bodily signals that the protocol runner can directly inspect; the row does not validate the article’s interpretation of them.",
+      "legacy": {
+        "anchor": "L95",
+        "quote": "\"a galvanic skin response spike, a collapsed HRV trace\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The named instrument readings and nostril airflow are directly checkable, though interpretation remains separate."
+      },
+      "id": "C051"
+    },
+    {
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "The body is already electrical."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Electrical membrane potentials, nerve impulses, muscle activation, and cardiac conduction make the narrow statement that the body is already electrical independently verifiable.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"The body is already electrical.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Bioelectric activity is measurable and the closing instruction returns to observation."
+      },
+      "id": "C052"
+    },
+    {
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "The Quine is complete when the instrument plays itself."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A Quine reproduces its own source representation; an instrument operating without a protocol is not that construction, and deleting the term leaves the closing calibration claim intact.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"The Quine is complete when the instrument plays itself.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Self-operation is not source-code self-reproduction, and the conclusion survives its deletion."
+      },
+      "id": "C053"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "endocrine-muse-integration.md",
+  "source_path": "src/content/posts/endocrine-muse-integration.md",
+  "source_sha256": "e83adbdcd3ac5e247295c2cd957f9bf7d9d0ceba02f17ced14bb4eea0da06dc5",
+  "legacy_audit_path": "quality-engine/audits/nigredo/endocrine-muse-integration.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "tuned to a specific frequency of creative intelligence"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Frequency of creative intelligence” merges a poetic receiver metaphor with a literal endocrine claim without marking the boundary or declaring Noesis authorship of the cross-domain synthesis.",
+      "legacy": {
+        "anchor": "L28",
+        "quote": "\"tuned to a specific frequency of creative intelligence\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Declared correspondence metaphor (\"The Greeks called these frequencies Muses\"); explicit framing, §5 safe harbor; consciousness-primary house frame."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "The endocrine system is a nine-channel receiver. Each channel is tuned to a specific frequency of creative intelligence. The Greeks called these frequencies Muses. Modern endocrinology calls them hormones. Both are correct. Neither is complete without the other."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The nine-by-nine integration is structurally consequential and the source enumerates the nine circuits, so the count, consequence, and internal provenance pass. The paragraph still launders a new Muse–hormone synthesis as what Greeks and modern endocrinology separately “call” the same thing; split, source, and declare the synthesis.",
+      "legacy": {
+        "anchor": "L34–108",
+        "quote": "nine Muses × nine hormones × nine Enneagram types (shadow/virtue pairs)",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Enneagram used structurally (canonical §4.1): actual per-point dynamics (1 wrath/wisdom … 9 sloth) drive the circuit map; remove it and the post collapses."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Melatonin tells the body when to sleep and when to wake"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Melatonin’s role in circadian timing is an empirical physiological claim, not direct observation; the source supplies no study, population, conditions, or support for the causal “tells the body” strength.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"Melatonin tells the body when to sleep and when to wake\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Standard circadian function stated as plain description; reader-replicable (sleep/wake cycle); no institution invoked."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Oxytocin converts repeated contact into durable connection."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Oxytocin converts repeated contact into durable connection” is a broad causal social-bonding claim with no traceable study, population, measure, or uncertainty.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"Oxytocin converts repeated contact into durable connection.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Bonding is lived, embodied experience; stated as function, no authority clause."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Endorphins change the system's relationship to painful stimuli without eliminating the stimulus."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The endorphin/pain relationship is externally testable physiology, but no evidence trace supports this generalized causal formulation or defines “system’s relationship.”",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"Endorphins change the system's relationship to painful stimuli without eliminating the stimulus.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Accurate functional description; observable in practice (exertion, pain tolerance)."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Dopamine is not pleasure itself but the prediction of pleasure"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Dopamine and reward prediction is an empirical neuroscience claim. The source provides no method-matched citation and states a simplified universal definition without population, measure, or limits.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Dopamine is not pleasure itself but the prediction of pleasure\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Reward-anticipation framing; describes signaling, does not claim chemistry produces experience — arrow not inverted."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Cortisol breaks down stored energy, redirects resources"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Cortisol-mediated energy mobilization is an empirical physiology claim; the post names no source, conditions, dose, tissue, or limits for the broad mechanism.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"Cortisol breaks down stored energy, redirects resources\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Standard stress-response physiology; embodied and replicable."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Estrogen governs the cycle that builds, dissolves, and rebuilds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Estrogen governs the cycle that builds, dissolves, and rebuilds” turns broad reproductive physiology into an undefined universal causal cycle without a traceable source or bounded measure.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"Estrogen governs the cycle that builds, dissolves, and rebuilds.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Cyclic framing matches house cyclic-time frame; accurate functional description."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "Testosterone pushes the system toward more: more territory, more capability, more output."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testosterone-to-territory/capability/output assertion is a generalized causal behavioral claim unsupported by a specified study, population, measure, or uncertainty.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"Testosterone pushes the system toward more: more territory, more capability, more output.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Simplified but not false; competitive/drive function is embodied-observable."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "Adrenaline fires the fight-or-flight response — immediate, total, pre-cognitive."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Adrenaline participation in sympathetic activation is empirical physiology, but “immediate, total, pre-cognitive” is unbounded and the source supplies no evidence for that strength.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"Adrenaline fires the fight-or-flight response — immediate, total, pre-cognitive.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Sympathetic activation is directly felt; no borrowed authority."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "Serotonin maintains the smooth oscillation that prevents the system from swinging between extremes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Serotonin does not simply maintain a smooth mood oscillation that prevents extremes; this single-regulator homeostasis account overstates and misstates a complex, context-dependent signaling system.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"Serotonin maintains the smooth oscillation that prevents the system from swinging between extremes.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Mood-equilibrium function; descriptive, not causal over consciousness."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "geometry as the language of universal harmony"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Geometry as the language of universal harmony” uses an explicit “as” construction inside Urania’s archetypal description and draws no literal geometric, numeric, or predictive consequence.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"geometry as the language of universal harmony\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Name-drop without mechanism: no ratios, mappings, or demonstrated structure; argument survives removal. Borderline — it sits inside Urania's traditional Muse portfolio — but by the letter of §4.2 it supplies vibe, not structure."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "Regulatory Triad (Circuits 1, 5, 9): Melatonin, Cortisol, Serotonin. Polymnia, Melpomene, Urania. These three manage the system's timing, stress response, and equilibrium. They are the infrastructure layer — the services that must run before any creative function can execute."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The 1/5/9, 2/3/4, and 6/7/8 partition is correctly enumerated, consequential to the architecture section, and reproducible from the listed circuits, so all math locks pass. The synthesis fails because its endocrine ingredients are unsupported and the transformation into these three functional triads is not sourced or independently warranted.",
+      "legacy": {
+        "anchor": "L112–118",
+        "quote": "three triads (Regulatory 1,5,9 / Creative 2,3,4 / Power 6,7,8)",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The triad groupings are the demonstrated architecture of the \"system\" claim in the closing section; structural work, shown explicitly."
+      },
+      "id": "C013"
+    }
+  ]
+}

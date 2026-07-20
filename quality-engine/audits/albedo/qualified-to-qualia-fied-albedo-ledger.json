@@ -1,0 +1,551 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "qualified-to-qualia-fied.md",
+  "source_path": "src/content/posts/qualified-to-qualia-fied.md",
+  "source_sha256": "a8e9ad2f2f6ef64089fe280816a1f8ec93f31336aefc684d2f717150519c32b2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/qualified-to-qualia-fied.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "the 700nm wavelength through the cornea, the L/M cone ratio"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author names his vantage (reading a specific color-perception paper in Dharamshala), the object noticed, and the reported contents—700 nm light, L/M cones, LGN, and V4—while explicitly limiting them to third-person data.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"the 700nm wavelength through the cornea, the L/M cone ratio\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate optics/neuroanatomy (700nm ≈ red; L/M cones, LGN, V4 real), explicitly framed as the paper's \"third-person data\" — the map, not the territory. \"p < 0.001\" is narrative texture inside the anecdote, not a cited result."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "the biological substrate — retina, cortex, blood — that carries the experience without becoming it"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Kha, Ba, and La are explicitly introduced as the post’s house operations; Ba’s substrate-without-identity role is defined and remains internally consistent throughout.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"the biological substrate — retina, cortex, blood — that carries the experience without becoming it\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House Kha-Ba-La framing: Ba carries experience without producing it. Consciousness-primary causal arrow."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "the eye cannot see the seer, the mind cannot think the thinker"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kena Upaniṣad is named and the eye/seer and mind/thinker formulation is a faithful paraphrase of its teaching; the claim reports the tradition rather than treating it as empirical proof.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"the eye cannot see the seer, the mind cannot think the thinker\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Kena Upaniṣad paraphrase, faithful to the source tradition; house cosmology."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "analogous to the halting problem in computer science"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Analogous to” explicitly marks the halting-problem comparison, and the post extracts no literal computation or numeric prediction from it.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"analogous to the halting problem in computer science\"",
+        "type": "math",
+        "verdict": "pass — safe harbor",
+        "load_bearing": false,
+        "note": "Declared analogy (\"analogous to\") → §5 safe harbor, not flagged. Gloss (certain questions unanswerable within the framework) is a fair statement of undecidability."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Joseph Levine named the gap in 1983"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Joseph Levine’s 1983 “Materialism and Qualia: The Explanatory Gap” supports the asserted naming and date.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"Joseph Levine named the gap in 1983\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim, judged as history per §9: accurate (Levine, \"Materialism and Qualia: The Explanatory Gap,\" 1983)."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Thomas Nagel identified in 1974 with his bat"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Thomas Nagel’s 1974 “What Is It Like to Be a Bat?” supports the date, author, and bat example as stated.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"Thomas Nagel identified in 1974 with his bat\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim, accurate (Nagel, \"What Is It Like to Be a Bat?\", 1974); echolocation summary faithful to Nagel's argument."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The fMRI shows blood flow. It does not show redness."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim accurately scopes fMRI to a hemodynamic/BOLD correlate rather than qualia itself; the nearby paper-reading trace and the legacy review supply the instrument-level distinction.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"The fMRI shows blood flow. It does not show redness.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate instrument description (BOLD/blood flow; EEG = electrical oscillation), used to mark the limits of the map, not to borrow authority."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "David Chalmers gave the hard problem its name in 1995"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "David Chalmers introduced the hard/easy problem terminology in the 1995 paper “Facing Up to the Problem of Consciousness”; the date and event are accurate.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"David Chalmers gave the hard problem its name in 1995\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim, accurate (Chalmers, \"Facing Up to the Problem of Consciousness,\" 1995)."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "property dualism, panpsychism, the view that consciousness is a fundamental feature"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The row reports Chalmers’ published positions—property dualism, panpsychism, and consciousness as fundamental—without treating those positions as empirical findings.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"property dualism, panpsychism, the view that consciousness is a fundamental feature\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate characterization of Chalmers' published positions; judged as history."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The two pillars represent the dualities that structure perception: objective and subjective, manifest and unmanifest, known and unknown. The High Priestess refuses to choose. She occupies the space between. She holds the knowledge that is accessible only through direct experience — the gnosis that cannot be transmitted through language. The Upaniṣads say \"know the Self\" (ātmānam viddhi). They do not mean learn facts about the self. They mean become the self-as-knowing. The knowledge is not in the scroll. The knowledge arrives in the reading."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This single span combines a Tarot house interpretation, a universal direct-experience claim, and an Upanishadic source claim. Those ingredients require separate rows and attribution before a Noesis synthesis can be judged.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"know the Self (ātmānam viddhi)\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Upanishadic tradition cited within house cosmology; phrase is genuine."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "the immediate apprehension of the divine that requires no intermediary"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The row accurately reports Prajñā and Neoplatonic Gnosis as traditions of immediate/non-mediated knowing; it is source characterization, not empirical proof.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"the immediate apprehension of the divine that requires no intermediary\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Prajñā / Neoplatonic Gnosis characterized accurately as tradition, inside the house frame."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "It is a biophysical system with well-understood dynamics"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“The mind” is equated with a biophysical system and “well-understood dynamics” is presented as settled empirical fact, while the post elsewhere adopts a consciousness-primary house model. Split or delete the empirical universal and supply an appropriately scoped source.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"It is a biophysical system with well-understood dynamics\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "**Dross.** Mind equated to a biophysical system as settled fact, \"well-understood\" resting on unnamed institutional authority; contradicts the post's own frame (L96: brain is an appearance within awareness) and swats aside the Gita it just cited. Deleting the sentence leaves the protocol step intact."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "the phase space in which consciousness displays its topology"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Phase space and topology are asserted as literal structure without state variables, neighborhoods, invariants, or an explicit analogy marker. The mathematical vocabulary is misapplied and removable.",
+      "legacy": {
+        "anchor": "L94",
+        "quote": "\"the phase space in which consciousness displays its topology\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "**Dross.** Undeclared metaphor presented as structure: no state variables, no topology shown, terms never operationalized. §4.4 test: remove it and the Ba sentence survives intact."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The brain is not the producer of awareness. The brain is an appearance within awareness."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A private protocol result is silently generalized into a universal brain-awareness ontology and then denied philosophical status. Separate the situated observation from the Noesis house inference and declare the synthesis.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"The brain is not the producer of awareness. The brain is an appearance within awareness.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Consciousness-primary core claim; framed as perceptual finding from running the protocol (replicable by reader)."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "The replication crisis in psychology and neuroscience"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The replication crisis in psychology and neuroscience is a real, documented research-history phenomenon; this row merely identifies it before the post’s separate comparison.",
+      "legacy": {
+        "anchor": "L100",
+        "quote": "\"The replication crisis in psychology and neuroscience\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Real, well-documented meta-scientific phenomenon; used descriptively as contrast, not as borrowed proof."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "They are two real things that happen to correlate"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The text claims fMRI activity and redness are two real things that correlate but supplies no study, population, measure, or uncertainty for that exact relationship. The philosophical non-identity conclusion does not itself establish the empirical correlate.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"They are two real things that happen to correlate\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "\"The correlation is not identity\" — keeps fMRI/redness as correlates, explicitly refusing the inverted arrow."
+      },
+      "id": "C016"
+    }
+  ]
+}

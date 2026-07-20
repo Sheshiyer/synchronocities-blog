@@ -1,0 +1,432 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "endocrine-muse-pattern-analysis.md",
+  "source_path": "src/content/posts/endocrine-muse-pattern-analysis.md",
+  "source_sha256": "660cc13b9c23ddd99a6b561dafc15899df867a7b514c607b0e33ff2adf062659",
+  "legacy_audit_path": "quality-engine/audits/nigredo/endocrine-muse-pattern-analysis.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "When you map nine hormones against nine Muses"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. The mathematical/computational structure is correct, consequential, and provenanced in the cited region. Legacy evidence reviewed: Nine-point (enneagram) structure used structurally; matrix operationalized in L51–72 code block; removal collapses the post.",
+      "legacy": {
+        "anchor": "L27",
+        "quote": "\"When you map nine hormones against nine Muses\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Nine-point (enneagram) structure used structurally; matrix operationalized in L51–72 code block; removal collapses the post."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Melatonin follows the circadian rhythm, cortisol peaks at dawn, estrogen oscillates monthly"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Standard, replicable physiological rhythms stated as observed pattern; no institution invoked.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"Melatonin follows the circadian rhythm, cortisol peaks at dawn, estrogen oscillates monthly\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Standard, replicable physiological rhythms stated as observed pattern; no institution invoked."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "This is not metaphor. This is cron scheduling at the biological level."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose denies or exceeds its figurative boundary and draws a literal inference. The mathematical/computational term fails the removal test and is not evidence. Legacy evidence reviewed: §5 upgrade phrasing flagged, then classified: underlying claim (periodic biological cycles) is replicable; confidence rule applies.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"This is not metaphor. This is `cron` scheduling at the biological level.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "§5 upgrade phrasing flagged, then classified: underlying claim (periodic biological cycles) is replicable; confidence rule applies."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "When cortisol floods your system, Melpomene speaks"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. No mathematical object is evidential. Legacy evidence reviewed: House nine-point correspondence; Muse as archetypal signature, not chemical byproduct; reverse arrow affirmed L90.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"When cortisol floods your system, Melpomene speaks\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House nine-point correspondence; Muse as archetypal signature, not chemical byproduct; reverse arrow affirmed L90."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "Melatonin has its chemical substrate (pineal gland secretion)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Accurate basic physiology, observational register.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"Melatonin has its chemical substrate (pineal gland secretion)\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate basic physiology, observational register."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The hierarchy is fractal."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. The mathematical/computational mapping is incorrect or misapplied and is not evidence. Legacy evidence reviewed: Recursion demonstrated (each pair contains the same three-layer stack; zoom-in test stated); house fractal architecture; Pattern 2's payload.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"The hierarchy is fractal.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Recursion demonstrated (each pair contains the same three-layer stack; zoom-in test stated); house fractal architecture; Pattern 2's payload."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "this corresponds to hormonal homeostasis — not the absence of fluctuation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. No mathematical object is evidential. Legacy evidence reviewed: Homeostasis reframed as coordinated oscillation; correct and model-framed.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"this corresponds to hormonal homeostasis — not the absence of fluctuation\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Homeostasis reframed as coordinated oscillation; correct and model-framed."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Nine oscillators, each running at their own frequency"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The prose denies or exceeds its figurative boundary and draws a literal inference. The mathematical/computational term fails the removal test and is not evidence. Legacy evidence reviewed: Declared \"technical parallel\" — §5 safe harbor; statement about phase relationships is correct as stated.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"Nine oscillators, each running at their own frequency\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Declared \"technical parallel\" — §5 safe harbor; statement about phase relationships is correct as stated."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 90,
+        "quote": "Alter the chemistry and the archetype shifts. Invoke the archetype and the chemistry follows."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Explicit bidirectionality + \"same event described in different languages\"; single-domain thesis avoids INVERTED.",
+      "legacy": {
+        "anchor": "L88–90",
+        "quote": "\"Alter the chemistry and the archetype shifts. Invoke the archetype and the chemistry follows.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Explicit bidirectionality + \"same event described in different languages\"; single-domain thesis avoids INVERTED."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "Cortisol suppresses oxytocin. Dopamine competes with serotonin. Adrenaline overrides melatonin."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. No mathematical object is evidential. Legacy evidence reviewed: Mainstream interaction claims, simplified but not watch-list contested; no authority clause.",
+      "legacy": {
+        "anchor": "L94",
+        "quote": "\"Cortisol suppresses oxytocin. Dopamine competes with serotonin. Adrenaline overrides melatonin.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Mainstream interaction claims, simplified but not watch-list contested; no authority clause."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "They form a dependency graph that can be mapped"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The testable claim lacks a method-matched source, conditions, uncertainty, or warranted causal strength. The mathematical/computational term fails the removal test and is not evidence. Legacy evidence reviewed: §4.4 removal test: edges already enumerated in L94; the label adds no mechanism and the argument survives its removal. Recode structurally or cut.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"They form a dependency graph that can be mapped\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "§4.4 removal test: edges already enumerated in L94; the label adds no mechanism and the argument survives its removal. Recode structurally or cut."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "they were observing the same system from a different measurement instrument"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ingredients are combined without complete passing traces, transformation, and explicit Noesis authorship. No mathematical object is evidential. Legacy evidence reviewed: Situated-observation epistemology (Tycho-aligned); the post's first research conclusion.",
+      "legacy": {
+        "anchor": "L100",
+        "quote": "\"they were observing the same system from a different measurement instrument\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Situated-observation epistemology (Tycho-aligned); the post's first research conclusion."
+      },
+      "id": "C012"
+    }
+  ]
+}

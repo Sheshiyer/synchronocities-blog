@@ -1,0 +1,779 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "kubernetes-for-karma.md",
+  "source_path": "src/content/posts/kubernetes-for-karma.md",
+  "source_sha256": "1b95358d399f14b6f00b4f2d11c102cbb3b27f1a95386273bbfcc02ff542a12a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/kubernetes-for-karma.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 12,
+        "line_end": 12,
+        "quote": "The scheduler kept recreating it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Kubernetes controllers create replacement Pods while the scheduler assigns pending Pods to nodes; assigning recreation to the scheduler conflicts with the platform responsibility stated later in the post.",
+      "legacy": {
+        "anchor": "L12",
+        "quote": "\"The scheduler kept recreating it.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Controllers create replacement Pods; the scheduler assigns pending Pods, and this error repeats."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "I was watching kubectl get pods for the forty-third time"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author names the terminal command and first-person vantage, so the watching is a direct observation; the forty-third count is atmospheric, correctly reported but structurally dispensable.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"I was watching `kubectl get pods` for the forty-third time\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person terminal and bodily observations are directly checkable."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The scheduler had recreated it twice."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The first-person scene does not make component responsibility correct: a workload controller recreated the Pod, not the scheduler.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"The scheduler had recreated it twice.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Controllers create replacement Pods, and the scheduler confusion repeats at L12/L48/L60."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "sympathetic nervous system that had been running since I opened"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author identifies the on-call setting, bodily activation, and time since opening the page; this is a scoped first-person body-state report.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"sympathetic nervous system that had been running since I opened\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Bodily activation is offered as Ba's observed signature, not consciousness's origin."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Remove Kha from that room"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The paragraph explicitly maps Kha, Ba, and La to the observed room and tests each by counterfactual removal; the triadic operation is correct, consequential, and reproducible from the declared house ingredients.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"Remove Kha from that room\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The paragraph removes Kha, Ba, and La sequentially, demonstrating the triadic subargument."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The scheduler reads resource requests, node affinity rules, anti-affinity constraints"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Resource requests, affinity, anti-affinity, and taint tolerations are genuine scheduler inputs; the later official-documentation quotation provides a traceable platform source and the claim stays at assignment scope.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"The scheduler reads resource requests, node affinity rules, anti-affinity constraints\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "These are genuine scheduling inputs and are directly checkable in Kubernetes configuration."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "If the fit is wrong, the pod crashes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A Pod that cannot fit available nodes remains Pending; “wrong fit” does not itself cause a scheduled Pod to crash.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"If the fit is wrong, the pod crashes.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "An unfit Pod remains Pending, and the scheduler/controller family repeats elsewhere."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "the scheduler keeps placing it wrong"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A scheduler may repeatedly place controller-created Pods when constraints permit, but “wrong” is undefined and no concrete spec, node state, event trace, or scheduling condition supports this instance.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"the scheduler keeps placing it wrong\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Controllers recreate while scheduler assigns; this confusion repeats at L12/L40/L60."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "These are not metaphors. They are configurations that execute"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post denies metaphor and presents family and cultural patterns as configurations executing like YAML, laundering an interpretive cross-domain mapping as literal mechanism.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"These are not metaphors. They are configurations that execute\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Literal cultural configuration repeats at L52/L56/L64/L68/L76."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The Vedic concept of karma operates identically"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The identity between Vedic karma and Kubernetes scheduling is a new cross-domain inference, but it is attributed to the Vedic concept without source trace, transformation limits, or explicit Noesis authorship.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"The Vedic concept of karma operates identically\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Karma is explicitly operated as the Vedic house frame of causal recursion."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Kubernetes stores its desired state in etcd"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "At this level, Kubernetes persists desired-state API objects in etcd; the later official documentation anchors the platform context, and the row does not claim direct etcd editing is normal lifecycle control.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Kubernetes stores its desired state in etcd\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Kubernetes API objects are persisted in etcd at this high level."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "If you want a pod to stop running"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stopping a controller-owned Pod requires scaling or deleting the owning API object, not directly deleting a “spec from etcd” as the paragraph instructs.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"If you want a pod to stop running\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Operators delete or scale owning API objects, not edit etcd directly as a lifecycle operation."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "the scheduler reads the spec and recreates it"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The scheduler reads pending Pods and assigns nodes; workload controllers reconcile desired state and create replacements.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"the scheduler reads the spec and recreates it\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Controllers reconcile desired state, and scheduler confusion repeats at L12/L40/L48."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Every read is a write."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Every read is a write” is presented as a literal biological rule after the analogy was denied, without a defined body-state transformation or evidence.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Every read is a write.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The absolute biological write claim repeats at L84/L86."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The OOMKilled event on one node is a signal to the entire cluster"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A workload-local OOM event is silently promoted to a cluster-wide family-system signal; the cross-scale analogy is neither bounded nor traced as Noesis synthesis.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"The `OOMKilled` event on one node is a signal to the entire cluster\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The event is workload/node-specific, not itself a cluster-wide quota signal."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Every node in the cluster runs the same control plane."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ordinary Kubernetes worker nodes do not each run the control plane, so the universal platform statement is false.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"Every node in the cluster runs the same control plane.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Ordinary worker nodes do not each run the Kubernetes control plane."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "requesting 4GB of memory on a 2GB node"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A 4 GB request cannot fit a 2 GB node and therefore remains unschedulable rather than producing the narrated OOMKilled path; the quantitative mapping is misapplied and locally nonessential.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"requesting 4GB of memory on a 2GB node\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Such a Pod remains unschedulable; this local failure does not carry the post."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "Every OOMKilled event writes to the epigenetic ledger"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post presents each OOMKilled event as writing to an epigenetic ledger, converting a computing comparison into an unmeasured biological mechanism.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"Every `OOMKilled` event writes to the epigenetic ledger\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The write mechanism repeats L64/L86 and has no evidence."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Every observation of the scheduler modifies the scheduler's next placement."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The universal claim that every observation changes the next placement supplies no observer, biological measure, scheduler state, population, or causal source.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"Every observation of the scheduler modifies the scheduler's next placement.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "This repeats “every read is a write” and is not individually load-bearing."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The scheduler is responsible for assigning pods to nodes."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kubernetes documentation is explicitly named and quoted accurately: scheduler responsibility is assignment of Pods to nodes.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"The scheduler is responsible for assigning pods to nodes.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The quoted documentation statement accurately limits the scheduler to assignment."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The Self is the master of the chariot, the body the chariot."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post names the Kaṭha Upaniṣad and faithfully reports its chariot image as a teaching; the later scheduler comparison is separable Noesis commentary.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"The Self is the master of the chariot, the body the chariot.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The Kaṭha Upaniṣad image is accurate house-tradition framing, not external scientific proof."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "This is the Quine: the system succeeds when you no longer need the metaphor."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A quine reproduces its own source representation; abandoning a metaphor is not that operation, so the mathematical/computational term is demonstrably misdefined and nonessential.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"This is the Quine: the system succeeds when you no longer need the metaphor.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The source explicitly misdefines a Quine; abandoning metaphor is not source-code self-reproduction."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "The recursion does not end."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Within a post that repeatedly names its Kubernetes analogy and finally says the metaphor becomes unnecessary, recursion is an explicit comparison for self-examination; no literal recursive function is asserted.",
+      "legacy": {
+        "anchor": "L100",
+        "quote": "\"The recursion does not end.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Recursion supplies a computational aura without a defined recursive function or necessary structural role."
+      },
+      "id": "C023"
+    }
+  ]
+}

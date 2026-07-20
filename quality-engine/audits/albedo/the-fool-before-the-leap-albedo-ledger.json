@@ -1,0 +1,242 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-fool-before-the-leap.md",
+  "source_path": "src/content/posts/the-fool-before-the-leap.md",
+  "source_sha256": "3fb4c72a426436be6b01380612978f9c1c655cf8c2a70f77222d7eac5bb05e5f",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-fool-before-the-leap.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 22,
+        "line_end": 22,
+        "quote": "Every spiral begins with a fool who doesn't know they're beginning"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The spiral is an overtly figurative image for an unrecognized beginning; no literal geometry, recurrence, or prediction is inferred from it.",
+      "legacy": {
+        "anchor": "L22",
+        "quote": "\"Every spiral begins with a fool who doesn't know they're beginning\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "House cyclic/fractal spiral motif (canonical §4.1 structure); opening aphorism, argument survives removal"
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 24,
+        "line_end": 24,
+        "quote": "Zero — the numberless number, the potential before the act"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Card Zero is explicitly mapped to pre-action potential inside a Tarot reflection. The mathematical object functions as declared symbolism, not as a literal mechanism.",
+      "legacy": {
+        "anchor": "L24",
+        "quote": "\"Zero — the numberless number, the potential before the act\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Zero↔Card 0↔pre-act potential mapping is the post's skeleton (frontmatter card: '0'); collapse test: frame fails without it"
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 26,
+        "line_end": 26,
+        "quote": "The annamaya kosha — the physical body, the food sheath"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Annamaya kosha is faithfully identified as the physical or food sheath in the Vedic kosha teaching; the row reports that tradition rather than empirically proving it.",
+      "legacy": {
+        "anchor": "L26",
+        "quote": "\"The annamaya kosha — the physical body, the food sheath\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Vedic house cosmology (§9: ALIGNED by definition); labels the embodied claim but argument survives without the term"
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "The body doesn't deliberate. It calibrates."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“The body doesn't deliberate. It calibrates” generalizes from the narrator's departure into a universal body-before-mind mechanism without a population, measure, conditions, or traceable evidence.",
+      "legacy": {
+        "anchor": "L28",
+        "quote": "\"The body doesn't deliberate. It calibrates.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Core argument (leap before justification); no authority invoked; reader-replicable somatic observation; confident tone is not a finding (§5)"
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "departure from a frequency — the resonant pattern of automatic living"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence immediately defines “frequency” as the resonant pattern of automatic living, making the physics term an explicit analogy with no literal frequency measurement.",
+      "legacy": {
+        "anchor": "L30",
+        "quote": "\"departure from a *frequency* — the resonant pattern of automatic living\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Declared metaphor, referent defined in-line; §5 safe harbor — not a physics claim, not flagged"
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "dissolve what isn't essential before coagula can crystallize what is"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Solve et coagula is accurately presented as an alchemical dissolve-and-reform principle; the application to packing light remains an illustrative use of the teaching.",
+      "legacy": {
+        "anchor": "L32",
+        "quote": "\"dissolve what isn't essential before *coagula* can crystallize what is\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Alchemical solve et coagula — house cosmology (§9); illustrative, argument survives removal"
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "Zero. The number that makes all other numbers possible."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The surrounding parallels—zero, silence, emptiness—make “makes all other numbers possible” aphoristic symbolism. No literal mathematical dependence is extracted from it.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"Zero. The number that makes all other numbers possible.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Same zero mapping as L24; claim is defensible (place-value anchor) and structurally load-bearing, not decorative"
+      },
+      "id": "C007"
+    }
+  ]
+}

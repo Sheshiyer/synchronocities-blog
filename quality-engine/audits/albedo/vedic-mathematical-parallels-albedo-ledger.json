@@ -1,0 +1,659 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "vedic-mathematical-parallels.md",
+  "source_path": "src/content/posts/vedic-mathematical-parallels.md",
+  "source_sha256": "bffdf0eac9793d19d04b1b23f0c22a79f2c5f5742b7691e0f13a7f950499a546",
+  "legacy_audit_path": "quality-engine/audits/nigredo/vedic-mathematical-parallels.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "Vimshottari to Markov chains, Graha friendships to cellular automata"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The excerpt bundles six independent Vedic–mathematical mappings, including false ones, without transformations, provenance, or explicit Noesis authorship.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"Vimshottari to Markov chains, Graha friendships to cellular automata\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Excerpt name-drops all six mappings with no mechanism; dross in frontmatter too."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "a degenerate Markov chain — a state machine where transition probabilities are binary"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "A deterministic nine-state schedule can be represented as a degenerate Markov chain, and the post shows the binary transitions; the valid transformation is not declared as a Noesis synthesis.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"a degenerate Markov chain — a state machine where transition probabilities are binary\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "PASS. Deterministic chain as degenerate Markov is legitimate; 120-yr / 9-period dasha arithmetic is correct and shown (9^5 = 59,049 checks out)."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The system becomes stochastic at nested sub-period levels"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Nested Vimshottari subperiods remain deterministic fixed proportions, so the hidden synthesis wrongly upgrades hierarchy to stochastic transitions.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"The system becomes stochastic at nested sub-period levels\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Antardashas are deterministic fixed proportions (lord years ÷ 120); nothing stochastic at any depth. The false stochastic claim is what props up \"probability matrices\" as the core parallel."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "sensitive dependence encoded as a dasha system initialization parameter"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Birth nakshatra fixes an initial schedule, but that is not sensitive dependence; the chaos term is an undeclared and incorrect mathematical import.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"sensitive dependence encoded as a dasha system initialization parameter\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Chaos-theory name-drop (watch-list); no mechanism. The true point (birth nakshatra fixes the sequence) stands without it."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "produce complex emergent patterns from simple local interactions — the defining behavior of cellular automata"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Graha friendship tables are static lookups with no spatial lattice or iterative local update rule; the cellular-automaton mechanism is invented and undeclared.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"produce complex emergent patterns from simple local interactions — the defining behavior of cellular automata\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The maitri matrix is a static lookup in Jyotish; it is never iterated over a grid. The CA mechanism does not exist in the source system — mechanism invented, not name-dropped."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "create directed-graph dynamics richer than standard cellular automata"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Friendship asymmetry can define a directed relation, but no iterated dynamics exist to support the claimed comparison with cellular automata.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"create directed-graph dynamics richer than standard cellular automata\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Presupposes the nonexistent iterative dynamics. (The asymmetry premise itself is true of the table — e.g. Moon–Mercury.)"
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "8-dimensional binary state space with 256 possible vertices"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Eight binary assessments do yield 2^8=256 vertices of an eight-dimensional hypercube; the reproducible and consequential mapping lacks explicit Noesis authorship.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"8-dimensional binary state space with 256 possible vertices\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "PASS. Structure shown and correct: 8 bindus/house → 2^8 = 256; Sarvashtakavarga total 337 is the real classical value; conservation-constraint mapping demonstrated."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "four-pada subdivisions encode golden ratio proportions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Four equal padas per nakshatra do not encode golden-ratio proportions; the essay launders an incorrect modern mapping as inherited structure.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"four-pada subdivisions encode golden ratio proportions\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Padas are equal 3°20′ arcs (27 × 4 = 108); no φ proportion exists or is shown. Golden-ratio claim that does not survive measurement."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The golden angle (137.5 degrees) applied to nakshatra positions generates a logarithmic spiral"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Applying the 137.5-degree golden angle to nakshatras is an invented construction, not a sourced traditional operation or declared Noesis experiment.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"The golden angle (137.5 degrees) applied to nakshatra positions generates a logarithmic spiral\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No such application exists in the nakshatra system; invented construction presented as structural fact."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "Fibonacci growth patterns found in biological systems from sunflower seeds to galaxy arms"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Sunflower phyllotaxis and galaxy-arm geometry are bundled as one Fibonacci result despite different evidence and the unsupported galaxy generalization.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"Fibonacci growth patterns found in biological systems from sunflower seeds to galaxy arms\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The gate's own watch-case: galaxy-arm Fibonacci does not survive measurement; presented as settled fact."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "mirrors the convergence of consecutive Fibonacci ratios toward phi"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No pada proportional sequence exists to mirror Fibonacci-ratio convergence, so the undeclared mapping is mathematically false.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"mirrors the convergence of consecutive Fibonacci ratios toward phi\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "There is no pada proportional sequence to mirror ratio convergence; mechanism invented."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "maps to a rank-3 tensor with diagonal components carrying primary strengths"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Six Shadbala components form at most a vector absent further structure; rank-three tensors do not use rank-two diagonal/off-diagonal language, and no transformation law is defined.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"maps to a rank-3 tensor with diagonal components carrying primary strengths\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Six component scores are a vector summed to a scalar; a rank-3 tensor has n³ components and a transformation law; \"diagonal/off-diagonal\" describes rank-2 — botched definition. (The \"stress-energy tensor\" parallel rides on this error; analogy-framed, folded here.)"
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The total Shadbala (scalar) is the tensor trace"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A Shadbala total is an arithmetic sum, not the trace of the undefined rank-three tensor; the claimed contraction is wrong.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"The total Shadbala (scalar) is the tensor trace\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The trace of a rank-3 tensor is not a scalar; the Shadbala total is an arithmetic sum, not a contraction."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "defines a pre-trained neural network weight matrix"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The unattributed aspect weights have no training process, loss, or learned parameters; “pre-trained neural network” is an undeclared and incorrect mapping.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"defines a pre-trained neural network weight matrix\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Weight values (1.0 / 0.85 / 0.75) unattributed to any tradition; \"pre-trained\" asserts a training regime that does not exist."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "Yogas function as attention mechanisms that modulate effective weights"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No query, key, value, normalization, or weight-update rule makes yogas attention mechanisms; the computational term is misapplied.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"Yogas function as attention mechanisms that modulate effective weights\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Attention-mechanism name-drop; no correspondence demonstrated."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "message passing over the zodiac graph converges in two rounds"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No zodiac graph, message function, stopping criterion, or diameter calculation supports convergence in two rounds; the numeric GNN claim is invented.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"message passing over the zodiac graph converges in two rounds\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "GNN name-drop; convergence claim undemonstrated."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "The mathematical structures are isomorphic"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The post declares isomorphism without bijections or preserved algebraic operations, and several constituent mappings are already false.",
+      "legacy": {
+        "anchor": "L128",
+        "quote": "\"The mathematical structures are isomorphic\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Isomorphism asserted, not demonstrated; false for the mappings as given. §5 silent upgrade: \"not a matter of creative interpretation.\""
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "A Markov chain is a Markov chain whether its states"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Relabeling states does preserve an existing Markov chain, but the rhetoric assumes rather than establishes that Dasha is the relevant chain and adds no independent consequence.",
+      "legacy": {
+        "anchor": "L128",
+        "quote": "\"A Markov chain is a Markov chain whether its states\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Relabeling rhetoric presupposes the very correspondence in dispute."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "the universe has a limited repertoire of mathematical architectures"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The paragraph explicitly labels this as the “structural interpretation” and presents a coherent, limited house conjecture rather than empirical proof.",
+      "legacy": {
+        "anchor": "L130",
+        "quote": "\"the universe has a limited repertoire of mathematical architectures\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "PASS. Offered explicitly as one of two interpretations and argued from specificity — open model framing. (Leans toward installed belief #1, but the labeled-interpretation framing holds.)"
+      },
+      "id": "C019"
+    }
+  ]
+}

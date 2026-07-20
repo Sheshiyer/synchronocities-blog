@@ -1,0 +1,1563 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "historical-knowledge-patterns.md",
+  "source_path": "src/content/posts/historical-knowledge-patterns.md",
+  "source_sha256": "7a6416d2bade0f611c7a74e9e04dc0eba956f26dd7629b31f414d659e989c5af",
+  "legacy_audit_path": "quality-engine/audits/nigredo/historical-knowledge-patterns.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "Markov chains, cellular automata, tensor fields"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Markov chains, cellular automata, and tensor fields are invoked as ancient cross-cultural structures without any demonstrated ancient instance; the terms add precision aura but no consequence.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"Markov chains, cellular automata, tensor fields\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The excerpt stacks precision terms; ancient cellular automata and tensors are never demonstrated."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "were independently discovered by multiple ancient cultures"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article does not establish, and the identified examples do not support, independent ancient discovery of Markov chains, cellular automata, and tensor fields.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"were independently discovered by multiple ancient cultures\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The body does not establish ancient cellular automata or tensor fields across multiple cultures."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 30,
+        "quote": "Legacy Systems Analysis"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Legacy Systems Analysis” is presented as the source of a quotation but no identifiable author, work, or publication exists in the evidence record.",
+      "legacy": {
+        "anchor": "L29–L30",
+        "quote": "\"Legacy Systems Analysis\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No identifiable source supports the attributed quotation."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "Software engineers understand code rot"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Dependency and maintenance decay are externally observable software-engineering phenomena; the claim is limited to recognition of that phenomenon.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"Software engineers understand code rot\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Dependency and maintenance decay are directly observable engineering phenomena."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "The Unix epoch. The TCP/IP stack. The C standard library."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Unix epoch, TCP/IP stack, and C standard library are verifiably long-lived technical conventions, as the sentence claims.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"The Unix epoch. The TCP/IP stack. The C standard library.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "These are verifiable long-lived technical conventions, not house cosmology."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "patterns fundamental enough to remain relevant"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Persistence is attributed to fundamental truth without evidence separating compatibility, institutional adoption, path dependence, and technical merit.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"patterns fundamental enough to remain relevant\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Technical survival has institutional and compatibility causes beyond fundamental truth."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "survived for over three millennia"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The exact three-millennium continuity of Vimshottari Dasha, Ashtakavarga, and Shadbala is asserted without a traceable transmission record.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"survived for over three millennia\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Exact continuity is unsupported and the survival-as-truth thesis repeats throughout."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "knowledge persists when it encodes patterns that are features of reality"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The universal persistence-as-reality rule lacks a defined corpus, comparison class, measure of persistence, or test of alternative causes.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"knowledge persists when it encodes patterns that are features of reality\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Persistence is treated as truth repeatedly at L40, L56–L58, L77, L90, and L104–L108."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "independent emergence across unconnected civilizations"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Independence and lack of transmission among the named civilizations are historical assertions requiring evidence that the article does not provide.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"independent emergence across unconnected civilizations\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Independence is unestablished and the convergence thesis repeats later."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "formalized by Leonardo of Pisa in 1202 CE"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The dated authorship or transmission statement is a high-level historical fact supported by the identified work, person, or scholarly route.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"formalized by Leonardo of Pisa in 1202 CE\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate high-level history of Fibonacci's *Liber Abaci*."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "appear in the Vedic Chandahshastra"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Chandahshastra is named and its Sanskrit-prosody enumeration is faithfully represented as a precursor; later recurrence formulations are not falsely assigned to the text.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"appear in the Vedic Chandahshastra\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Sanskrit prosodic enumeration is a defensible house-tradition precursor, with later authors making recurrence explicit."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Greek geometry (Euclid's Elements, 300 BCE)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The dated authorship or transmission statement is a high-level historical fact supported by the identified work, person, or scholarly route.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"Greek geometry (Euclid's Elements, 300 BCE)\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Euclid's extreme-and-mean ratio is accurate mathematical history."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Egyptian pyramid proportions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No exact golden-ratio construction is shown for the cited pyramid proportions or nakshatra division; the claimed mathematical correspondence is false or unestablished.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"Egyptian pyramid proportions\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Selected pyramid approximations do not demonstrate an exact golden ratio, and no nakshatra φ construction is shown."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "the Vedic nakshatra division system"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No exact golden-ratio construction is shown for the cited pyramid proportions or nakshatra division; the claimed mathematical correspondence is false or unestablished.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"the Vedic nakshatra division system\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No golden-ratio construction is shown for the nakshatra division."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Markov chain theory was formalized by Andrey Markov in 1906"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The dated authorship or transmission statement is a high-level historical fact supported by the identified work, person, or scholarly route.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"Markov chain theory was formalized by Andrey Markov in 1906\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate broad dating of Markov's work."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The Chinese I Ching (approximately 1000 BCE) encodes"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The I Ching is named, the approximate historical setting is identified, and its 64-hexagram content is faithfully represented; Markov equivalence is judged separately.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"The Chinese I Ching (approximately 1000 BCE) encodes\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The broad dating and 64-hexagram historical kernel are defensible; transition equivalence is separate."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The Vedic Vimshottari system (approximately 1500 BCE)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article supplies no traceable textual or historical source for dating the Vimshottari system to approximately 1500 BCE.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"The Vedic Vimshottari system (approximately 1500 BCE)\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No traceable source in the post establishes this exact dating."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The Chinese I Ching (approximately 1000 BCE) encodes 64 hexagram states"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The named I Ching does contain 64 hexagrams, but this counted occurrence is mathematically redundant with the explicit 2^6 row and has no structural consequence.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"The Chinese I Ching (approximately 1000 BCE) encodes 64 hexagram states\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L52 repeats the same 2^6 count, so this occurrence is removable."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "deterministic transitions"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Vimshottari has a fixed deterministic sequence, but this removable occurrence does not establish Markov memorylessness or transition probabilities.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"deterministic transitions\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Vimshottari's fixed sequence is deterministic, but this occurrence is removable from the false Markov equivalence."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "the mathematical core of Markov chain theory"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Discrete transitions alone are not the mathematical core of a Markov chain; transition probabilities and the Markov property are absent.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"the mathematical core of Markov chain theory\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Transition probabilities and memorylessness are absent, and related identity claims recur."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Ashtakavarga's eight-dimensional binary state space"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Ashtakavarga is not shown to provide eight independent binary coordinates, so “eight-dimensional binary state space” is a misapplied mathematical identity.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"Ashtakavarga's eight-dimensional binary state space\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Independent coordinates are not established, and the post's thesis survives this occurrence's deletion."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "2^6 = 64 states"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The arithmetic 2^6 = 64 is reproducibly correct, but it repeats the 64-hexagram count and adds no new structural consequence.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"2^6 = 64 states\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L48 already states the 64-hexagram count, so this occurrence is removable."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "18,980 unique day-configurations"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Calendar Round count is reproducible as lcm(260,365)=18,980; the number is correct, consequential to the state-space comparison, and provenance is explicit.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"18,980 unique day-configurations\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The Calendar Round count is the correct least-common-cycle length of 260 and 365 days."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Each system uses multi-dimensional combinatorics"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The named systems use different constructions, and no common multidimensional combinatorial transformation or conservation rule is demonstrated.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"Each system uses multi-dimensional combinatorics\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The constructions differ, and this is one removable support for the repeated convergence thesis."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "mathematical patterns are harder to corrupt"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No transmission corpus or error-rate comparison supports the general claim that mathematical patterns are harder to corrupt than narrative content.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"mathematical patterns are harder to corrupt\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Consistency does not establish fidelity, and survival-as-truth repeats in adjacent sections."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The Ashtakavarga total of 337"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Sarvashtakavarga total of 337 is a named traditional invariant; it is correct, consequential to the following error check, and carries system-level provenance.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"The Ashtakavarga total of 337\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "337 is the traditional Sarvashtakavarga total/invariant."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "is a checksum"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The invariant can expose some arithmetic errors, but the article launders the new checksum analogy as an inherited property without declaring Noesis authorship or limiting it to arithmetic integrity.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"is a checksum\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The invariant can detect arithmetic corruption internally, though not prove unchanged historical interpretation."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "persisted through the collapse of the Indus Valley civilization"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claimed continuous preservation or refinement history is not supported by a traceable transmission record across the stated period.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"persisted through the collapse of the Indus Valley civilization\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Continuous transmission is unestablished and repeats the opening persistence thesis."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "preserved the Dasha and Ashtakavarga calculations through oral transmission"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claimed continuous preservation or refinement history is not supported by a traceable transmission record across the stated period.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"preserved the Dasha and Ashtakavarga calculations through oral transmission\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A specific pre-textual preservation history is asserted without records."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The fidelity of oral mathematical transmission is remarkably high"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Remarkably high” oral-transmission fidelity requires a comparative corpus and measured error rates; neither is supplied.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"The fidelity of oral mathematical transmission is remarkably high\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No comparative corpus or error-rate evidence supports this empirical generalization."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The Arabic numeral system (originally Indian) traveled westward"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The dated authorship or transmission statement is a high-level historical fact supported by the identified work, person, or scholarly route.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"The Arabic numeral system (originally Indian) traveled westward\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate high-level transmission history."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Astronomical calculation methods traveled eastward from Babylon to India"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The dated authorship or transmission statement is a high-level historical fact supported by the identified work, person, or scholarly route.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"Astronomical calculation methods traveled eastward from Babylon to India\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Broadly documented scholarly transmission, though routes and dates are complex."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "via Arabic scholarship in North Africa"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The dated authorship or transmission statement is a high-level historical fact supported by the identified work, person, or scholarly route.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"via Arabic scholarship in North Africa\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Fibonacci's exposure to Hindu-Arabic mathematics in North Africa is well established."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "objective features of reality"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Objective mathematical reality is inferred from unproven independence and convergence; the synthesis exceeds its ingredients and is not declared as Noesis authorship.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"objective features of reality\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Mathematical ontology repeats the persistence-as-truth thesis and is not individually necessary."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "both discovered systems with sensitive dependence on initial conditions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A Kundli is not supplied with dynamical equations or a perturbation experiment, so sensitive dependence on initial conditions is not demonstrated.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"both discovered systems with sensitive dependence on initial conditions\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Kundli lacks dynamical structures, and related attractor/state-machine identities recur."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "verbal descriptions of altered states are notoriously unreliable"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Cross-person unreliability of verbal altered-state reports is a measurable generalization, but no population, reliability measure, or source is given.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"verbal descriptions of altered states are notoriously unreliable\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Cross-person report variability is reader-observable and does not demote embodied perception itself."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "manipulate the same neurological and physiological systems"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cross-tradition claim homogenizes mechanisms and outcomes without a comparative physiological or phenomenological corpus.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"manipulate the same neurological and physiological systems\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Machinery is made producer of conscious states, but this local claim is removable."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "produce the same categories of altered states"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cross-tradition claim homogenizes mechanisms and outcomes without a comparative physiological or phenomenological corpus.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"produce the same categories of altered states\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Cross-tradition outcomes are homogenized, but the broader persistence thesis survives deletion."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "periodic attractor of focused awareness"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Focused awareness is not supplied with a state space, evolution rule, periodic orbit, or attraction test; “periodic attractor” is mathematically misapplied.",
+      "legacy": {
+        "anchor": "L100",
+        "quote": "\"periodic attractor of focused awareness\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No dynamics exist, and Kundli/attractor identities repeat at L92 and L108."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "refinements accumulated over three millennia of continuous use"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claimed continuous preservation or refinement history is not supported by a traceable transmission record across the stated period.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"refinements accumulated over three millennia of continuous use\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Continuous optimization history is invented and repeats the opening continuity claim."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "Systems that encode real patterns accumulate predictive power over time."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accumulating predictive power over time is an empirical longitudinal claim, but no outcomes, baseline, or validation record is supplied.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"Systems that encode real patterns accumulate predictive power over time.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "This materially repeats survival-as-truth rather than uniquely carrying it."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "the same algorithms execute"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No identical algorithm, transition function, or attracting set is specified across the compared systems; the asserted mathematical identity is false.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"the same algorithms execute\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No identical algorithms are specified, and adjacent state-machine/attractor claims repeat the identity."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "The same state machines transition."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No identical algorithm, transition function, or attracting set is specified across the compared systems; the asserted mathematical identity is false.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"The same state machines transition.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No transition functions exist, and the claim-family is repeated."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "The same attractors constrain."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No identical algorithm, transition function, or attracting set is specified across the compared systems; the asserted mathematical identity is false.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"The same attractors constrain.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No attracting sets exist, and the claim-family is repeated."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "The same tensors transform."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No tensor, indices, transformation law, or ancient instance appears; the term is unsupported precision decoration with no structural consequence.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"The same tensors transform.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No tensor, index, transformation law, or ancient instance appears."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "History preserves what is true."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“History preserves what is true” is a universal conclusion inferred from unsupported survival examples and ignores well-known persistence mechanisms unrelated to truth.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"History preserves what is true.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The conclusion repeats rather than uniquely carries survival-as-truth."
+      },
+      "id": "C046"
+    }
+  ]
+}

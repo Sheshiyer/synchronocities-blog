@@ -1,0 +1,834 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-word-as-code.md",
+  "source_path": "src/content/posts/the-word-as-code.md",
+  "source_sha256": "77357ea1a54fff66cff0666090ccb13943899cd5c2755a24567152ac1ec355c2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-word-as-code.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "a measurable change in neural oscillation, vagal tone, and cranial resonance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Sanskrit-syllable claim names neural oscillation, vagal tone, and cranial resonance without a study, population, measure, conditions, or effect sizes matching that breadth.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"a measurable change in neural oscillation, vagal tone, and cranial resonance\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Measurable-effects claim; no institution invoked; phonation–vagal coupling is verifiable."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The recurrent laryngeal nerve branches directly from the vagus"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard gross anatomy establishes that the recurrent laryngeal nerves arise from the vagus; the claim is externally testable and stated without causal inflation.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"The recurrent laryngeal nerve branches directly from the vagus\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate, checkable anatomy."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The sphenoid bone sits at the center of the cranial base"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sphenoid occupies the central cranial base; this is a straightforward, externally verifiable anatomical relation at the stated strength.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"The sphenoid bone sits at the center of the cranial base\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate anatomy."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "Cerebrospinal fluid moves through Meckel's cave in response to cranial oscillation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post gives no imaging, fluid-dynamics evidence, conditions, or source showing that cranial oscillation drives CSF through Meckel's cave.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"Cerebrospinal fluid moves through Meckel's cave in response to cranial oscillation\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Osteopathic cranial model stated as settled anatomy; not reader-observable."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "you alter ionic gradients across neural membranes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The speech→bone→fluid→membrane-ion chain is stated causally without measurements, mechanism-specific evidence, scope, or a traceable source.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"you alter ionic gradients across neural membranes\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Speech→bone-fluid→neural-ion chain is an unestablished mechanism stated as fact."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "approximately 4,000 rules generating the entire Sanskrit language"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Ashtadhyayi is conventionally dated to roughly the first millennium BCE and contains about 3,959 sutras, making “approximately 4,000” a responsible summary.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"approximately 4,000 rules generating the entire Sanskrit language\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim, judged as history; accurate (~3,959 sutras, c. 500 BCE)."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "NASA linguist Rick Briggs demonstrated in 1985"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Briggs's 1985 AI Magazine paper is real, but “NASA linguist” and “demonstrated uniquely suited” overstate both credential and conclusion.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"NASA linguist Rick Briggs demonstrated in 1985\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Credential-stacking: paper is real (AI Magazine, 1985), but the sentence's support is the NASA affiliation; \"demonstrated… uniquely suited\" overstates."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 82,
+        "quote": "The Indian philosophical tradition maps four levels at which language executes"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Indian speech-level teaching is fused with a modern execution/access-stack mapping and attributed to the tradition without declaring the Noesis transformation.",
+      "legacy": {
+        "anchor": "L74–82",
+        "quote": "\"The Indian philosophical tradition maps four levels at which language executes\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Vedic house frame (Vaikhari/Madhyama/Pashyanti/Para, turiya); structural architecture of the post."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "compiled by the nervous system into hormonal cascades and muscular bracing"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Specific self-talk is said to compile into hormonal cascades and bracing without a measured population, conditions, outcomes, uncertainty, or causal source.",
+      "legacy": {
+        "anchor": "L78",
+        "quote": "\"compiled by the nervous system into hormonal cascades and muscular bracing\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Mind→body direction (not inverted); bracing is reader-observable."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 92,
+        "quote": "The triad is not a decorative label. It is a structural necessity"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The three absence cases make Kha-Ba-La internally coherent and structurally consequential, but the post does not explicitly declare the triad as a Noesis house model.",
+      "legacy": {
+        "anchor": "L84–92",
+        "quote": "\"The triad is not a decorative label. It is a structural necessity\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Kha-Ba-La triad operationalized through three named failure modes; structural grammar, not decoration."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "every experience your maternal mitochondria carried before you"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Maternal mitochondria transmit DNA and metabolic machinery, not a record of every ancestral experience; the wording exceeds plausible biological inheritance.",
+      "legacy": {
+        "anchor": "L92/L98",
+        "quote": "\"every experience your maternal mitochondria carried before you\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Mitochondria-as-experience-carriers presented as fact; note L146 correctly limits the claim to metabolic instructions."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "instructions installed by repetition, trauma, cultural conditioning, or epigenetic inheritance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence bundles learning by repetition, trauma conditioning, cultural transmission, and transgenerational epigenetic inheritance into one mechanism despite independent evidence requirements.",
+      "legacy": {
+        "anchor": "L92/L100",
+        "quote": "\"instructions installed by repetition, trauma, cultural conditioning, or epigenetic inheritance\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Transgenerational behavioral epigenetic inheritance is a contested model, presented as settled."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "triggers the same endocrine cascade whether you chose it or absorbed it"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“The same endocrine cascade” is an equivalence claim across deliberate and absorbed instructions, but no measures, conditions, population, or source establish sameness.",
+      "legacy": {
+        "anchor": "L100",
+        "quote": "\"triggers the same endocrine cascade whether you chose it or absorbed it\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Developmental co-regulation; broadly verifiable."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "cortisol load, vagal withdrawal, immune suppression"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Cortisol load, vagal withdrawal, and immune suppression are plausible chronic-stress correlates, but the post supplies no scope, population, conditions, or source.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"cortisol load, vagal withdrawal, immune suppression\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard chronic-stress physiology."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "these are not cultural curiosities. They are documented hardware interfaces"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Sanskrit, Hebrew, and Quranic Arabic are combined into “documented hardware interfaces” without separate traditional traces, empirical warrants, or declared Noesis synthesis.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"these are not cultural curiosities. They are documented hardware interfaces\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Traditions (Sanskrit/Hebrew/Arabic) named and operated, not institution-cited."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 122,
+        "line_end": 124,
+        "quote": "Engages thoracic resonance and the vagal trunk"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that the A phoneme engages the vagal trunk requires a defined intervention, measure, population, comparator, and traceable physiological evidence.",
+      "legacy": {
+        "anchor": "L122–124",
+        "quote": "\"Engages thoracic resonance and the vagal trunk\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Phonation–vagal coupling; replicable by chanting practice."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "Vibrates the sphenoid bone directly"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Humming can produce perceived cranial vibration, but the post provides no measurement isolating direct sphenoid vibration from general bone conduction.",
+      "legacy": {
+        "anchor": "L126",
+        "quote": "\"Vibrates the sphenoid bone directly\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Reader can hum \"mmm\" and feel the cranial vibration."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "Drives CSF oscillation along the X-axis vortex"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An empirical CSF-driving mechanism is fused with an undefined X-axis vortex house construct, preventing either mode from being judged on its own warrant.",
+      "legacy": {
+        "anchor": "L126",
+        "quote": "\"Drives CSF oscillation along the X-axis vortex\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Same osteopathic CSF-drive claim as L68; the vortex framing is house, the CSF mechanism is not observable."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "X-axis vortex"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“X-axis vortex” lacks a coordinate system, vortex definition, derivation, and explicit Noesis model boundary; its anatomical use is mathematically misapplied.",
+      "legacy": {
+        "anchor": "L126",
+        "quote": "\"X-axis vortex\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "House vortex/toroid architecture; never flagged per gate edge cases."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "vagal tone shifts, EEG coherence changes, heart rate variability modulation, cortisol clearance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The list of vagal, EEG, HRV, and cortisol outcomes cites no studies, populations, procedures, effect sizes, or uncertainty for mantra practice.",
+      "legacy": {
+        "anchor": "L130",
+        "quote": "\"vagal tone shifts, EEG coherence changes, heart rate variability modulation, cortisol clearance\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Framed as measurable outputs (\"consistent reported results\"), no borrowed authority."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "phonemic structure maps directly to resonance patterns in the vocal-cranial-vagal hardware"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post turns traditional akshara teaching into a direct vocal-cranial-vagal mechanism without separating source teaching, modern physiology, and Noesis inference.",
+      "legacy": {
+        "anchor": "L136",
+        "quote": "\"phonemic structure maps directly to resonance patterns in the vocal-cranial-vagal hardware\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The tradition's own mechanism (akshara) operated inside the house frame."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 144,
+        "line_end": 144,
+        "quote": "a function call producing cortisol, vagal withdrawal, and muscular bracing"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Function call” is an undeclared programming comparison attached to an unsourced physiological cascade; it contributes precision-aura without an operational computation.",
+      "legacy": {
+        "anchor": "L144",
+        "quote": "\"a function call producing cortisol, vagal withdrawal, and muscular bracing\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Same replicable stress-physiology observation."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 146,
+        "line_end": 146,
+        "quote": "Your mitochondria carry metabolic instructions from your maternal lineage"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Mitochondrial DNA is maternally inherited and encodes components central to cellular energy metabolism; the wording stays at that limited biological level.",
+      "legacy": {
+        "anchor": "L146",
+        "quote": "\"Your mitochondria carry metabolic instructions from your maternal lineage\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate as limited: mtDNA is maternally inherited and metabolic."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 146,
+        "line_end": 146,
+        "quote": "carries bracing patterns from early attachment"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Early attachment can correlate with later regulation patterns, but “carries bracing patterns” lacks a defined measure, population, conditions, and source.",
+      "legacy": {
+        "anchor": "L146",
+        "quote": "\"carries bracing patterns from early attachment\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Attachment physiology; reader-plausible."
+      },
+      "id": "C024"
+    }
+  ]
+}

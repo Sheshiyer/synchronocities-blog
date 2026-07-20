@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.3",
+  "post": "muse-enneagram-framework-overview.md",
+  "category": "derived-synthesis-relabel",
+  "expected_operation": "RELABEL_DERIVED_SYNTHESIS",
+  "albedo_load_bearing_claim": "The Muse-Enneagram Framework is a nine-fold Noesis correspondence system relating mythological, biological, celestial, and psychological domains for observation and comparison.",
+  "recertified_finding_ids": [
+    "C011"
+  ],
+  "full_document": {
+    "pre_sha256": "a2029601730ee6c735f23e02635ce0294de9ad9d2d4eaa9c8fa88479e01aa809",
+    "post_sha256": "639bdfdd7f6dc0644c2f00bbf837cae5976d4755260264f209106e067bbebd1f",
+    "byte_identical": false
+  },
+  "frontmatter": {
+    "pre_sha256": "536c4cc1b669007c7731356fda3737b5bdeb639eb190989ac7df7d54a56bd99d",
+    "post_sha256": "536c4cc1b669007c7731356fda3737b5bdeb639eb190989ac7df7d54a56bd99d",
+    "byte_identical": true
+  },
+  "edits": [
+    {
+      "id": "E001",
+      "finding_id": "C011",
+      "source_occurrence": 1,
+      "before": "### The Spolski Endocrine Correspondence",
+      "after": "### The Proposed Noesis Endocrine Correspondence",
+      "before_sha256": "85ec5ca6c29f4ea0f2b2d3fb93676729b11a38c3953a06ebd79272d3cccab27d",
+      "after_sha256": "7f2b01c2d85f6b3a04c1d9073c2a8116b225ea91ef95d7fa906b6a3254e1dc4a"
+    },
+    {
+      "id": "E002",
+      "finding_id": "C011",
+      "source_occurrence": 1,
+      "before": "Dr. Spolski's framework provides the biochemical verification layer. Each hormone-Muse pair has measurable chemical correlates: secretion timing, receptor binding profiles, physiological effects. The Spolski Correspondence moves the Muse-Enneagram mapping from symbolic to empirical — not replacing the mythological dimension but grounding it in testable biochemistry.",
+      "after": "The nine-fold endocrine correspondence is a proposed, author-derived Noesis synthesis: a comparison among Muses, Enneagram types, hormones, and constellations. Hormones have measurable properties, including secretion timing, receptor binding profiles, and physiological effects, but those facts do not verify the cross-domain map or move it from symbolic comparison to established empirical finding.",
+      "before_sha256": "645d70ae27f5e2e09b591f0f92dd316dd6d1b106ae10f735e19cb990619a6cf3",
+      "after_sha256": "10ab23a4f0c707fda3d246d8ecfe9016b97857f057f73f298f1782c6632e411b"
+    },
+    {
+      "id": "E003",
+      "finding_id": "C011",
+      "source_occurrence": 1,
+      "before": "the Spolski Endocrine Correspondence",
+      "after": "the proposed Noesis endocrine correspondence",
+      "before_sha256": "7f3b6ad2c2e508142cef812b0e562425e44801a7776df194cd096781e01209e6",
+      "after_sha256": "b8602bcd3677fba8abe2842d9f6d0282479fdd3ee4a29819e3284512ca9e70e0"
+    }
+  ],
+  "new_claim_counts": {
+    "science": 0,
+    "math": 0,
+    "traditional_attribution": 0
+  },
+  "quality_gates": {
+    "voice": {
+      "status": "PASS",
+      "score": 100,
+      "evidence": "docs/ci-audit-report.json scores the current post's voice at 100/100 with no tonal-drift flags; the three bounded relabeling spans preserve the post's register."
+    },
+    "kha_ba_la": {
+      "status": "FAIL",
+      "evidence": "The current CI audit reports Kha 0, Ba 0, La 0, triad 0, no absence demonstration, and FAIL; the C011 relabel does not alter that post-level gate."
+    },
+    "fractal_depth": {
+      "status": "FAIL",
+      "score": 60,
+      "evidence": "docs/ci-audit-report.json reports fractal depth 60/100, below the Rubedo PASS threshold of 80; the scoped epistemic relabel does not deepen the full post."
+    },
+    "citation_attribution": {
+      "status": "FAIL",
+      "evidence": "The unverifiable Spolski attribution is removed, but the CI source-grounding dimension remains 30/100 with zero source matches and no traced source lattice."
+    },
+    "epistemic_grounding": {
+      "status": "FAIL",
+      "evidence": "C011 is resolved, but recertified C001, C012, C013, C014, C015, C016, C018, and C019 remain failing post-level claims outside this calibrated repair."
+    },
+    "math_integration": {
+      "status": "FAIL",
+      "evidence": "The relabel introduces no mathematics, but recertified C001 remains WRONG because the source presents nine rows across four mapped domains rather than a nine-by-nine table."
+    },
+    "hard_acceptance": {
+      "status": "PASS",
+      "checks": [
+        {
+          "criterion": "Remove the credential-based verification claim and any move from symbolic mapping to established empirical fact.",
+          "status": "PASS",
+          "evidence": "E001-E003 remove the Spolski credential frame; E002 explicitly says the measurable hormone facts do not establish or empirically verify the cross-domain map."
+        },
+        {
+          "criterion": "Label the endocrine correspondence as a proposed or author-derived synthesis/comparison.",
+          "status": "PASS",
+          "evidence": "E001 labels the section 'Proposed Noesis'; E002 calls it a 'proposed, author-derived Noesis synthesis' and 'comparison'; E003 repeats the proposed label."
+        },
+        {
+          "criterion": "Preserve the nine-fold mapping while making clear that measurable hormone facts do not verify the cross-domain correspondence.",
+          "status": "PASS",
+          "evidence": "All nine primary correspondence rows remain unchanged, while E002 states that measurable hormone properties do not verify the cross-domain map."
+        }
+      ]
+    }
+  },
+  "outcome": {
+    "status": "PARTIAL_RESOLUTION",
+    "resolved_finding_ids": [
+      "C011"
+    ],
+    "remaining_findings": [],
+    "summary": "The calibrated C011 authority-borrowing finding is resolved across all three changed spans, but post-level Kha-Ba-La, fractal-depth, citation, epistemic-grounding, and math-integration gates still fail."
+  },
+  "rubedo_verdict": "PARTIAL"
+}

@@ -1,0 +1,616 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "topological-pocket-consciousness.md",
+  "source_path": "src/content/posts/topological-pocket-consciousness.md",
+  "source_sha256": "7613f2ed5d401c025b2adef81ad2c7d7f7b916ca487d16f31afab0c42e00f473",
+  "legacy_audit_path": "quality-engine/audits/nigredo/topological-pocket-consciousness.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "remarkably well-tested for electromagnetic and gravitational phenomena"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Modern electromagnetic and gravitational tests place stringent bounds on Lorentz-symmetry violation. The claim is appropriately broad and does not convert those tests into proof of the later consciousness model.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"remarkably well-tested for electromagnetic and gravitational phenomena\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Accurate description of SR's experimental status, framed as theory; the post itself demotes SR to convention at L62. Sets up the invariance problem."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "Two observers in relative motion will agree on the speed of light"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Special relativity preserves light speed, proper time between the same timelike events, and invariant mass across inertial descriptions. These correct invariants are provenance-traceable and structurally drive the article's contrast.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"Two observers in relative motion will agree on the speed of light\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Correct SR content (invariants); the contrast with frame-bound experience is the engine of the argument."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "If consciousness is produced by physical processes (as materialism claims)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Materialism” is treated as one doctrine asserting physical production of consciousness, but no school, author, text, or scope is named; the conditional is clear while the attribution remains too broad.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"If consciousness is produced by physical processes (as materialism claims)\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Meta-critical conditional; materialism named as a claim, then leveraged to invert installed belief #4."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "a region of a manifold where the local topology differs from the ambient topology"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Topological pocket” is introduced as if it were a standard manifold definition, but manifolds are locally Euclidean and wormholes are global topology, not regions with a different local topology. A house coinage is being presented as established mathematics.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"a region of a manifold where the local topology differs from the ambient topology\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Coherent informal definition; wormhole cited strictly as an example inside GR (model-framed, not physical-object claim); the pocket concept is the post's central structure."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Magnetic monopoles, cosmic strings, and domain walls are topological defects"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Monopoles, cosmic strings, and domain walls are standard point-, line-, and wall-defect examples in field theory. The classification is mathematically correct, source-traceable, and necessary to the proposed defect analogy.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"Magnetic monopoles, cosmic strings, and domain walls are topological defects\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct point/line/surface defect classification in gauge theories; this is the demonstrated bridge from field theory to noetic-field pockets — remove it and the mapping collapses."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "consciousness is not a product of brain activity but a fundamental field"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence explicitly says the noetic aether theory proposes consciousness as a fundamental pre-spatial field, defines that premise, and uses it consistently without calling coherence empirical proof.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"consciousness is not a product of brain activity but a fundamental field\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology (noetic aether, consciousness-primary); ALIGNED by definition."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "any more than a radio produces the broadcast"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“The brain does not produce consciousness any more than a radio produces the broadcast” is an unmistakable receiver analogy inside the declared noetic framework, with no literal radio mechanism inferred.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"any more than a radio produces the broadcast\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Declared analogy (safe harbor); consciousness-primary framing."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "the one-way speed of light is fundamentally unmeasurable"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Only convention-independent one-way light speed is inaccessible without a synchronization choice; the unqualified “fundamentally unmeasurable” wording erases that condition. The distinction is consequential to the conventionality argument.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"the one-way speed of light is fundamentally unmeasurable\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Judged as history/philosophy of physics: the synchronization-circularity (conventionalist) thesis is real and attributed to Bergson's 1922 critique; attribution slightly loose (Reichenbach/Grünbaum sharper) but not invented."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "declared light speed isotropy a convention — a definition, not a measurement"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Einstein's 1905 treatment defines distant-clock synchrony using equal outbound and return light times; the convention claim is faithfully attributed, provenance-traceable, and central to the article's argument.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"declared light speed isotropy a convention — a definition, not a measurement\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Accurate history: Einstein's 1905 simultaneity definition is a stipulation; used to frame spacetime as partially conventional."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "General relativity describes gravity as spacetime curvature produced by mass-energy"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "General relativity represents gravitation through spacetime geometry sourced by stress-energy. The model description is correct, traceable to the theory, and structurally supplies the contrast with the noetic reinterpretation.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"General relativity describes gravity as spacetime curvature produced by mass-energy\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate, explicitly model-labeled (\"describes\"); immediately followed by the house reinterpretation."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "mass field interference — the deformation of inertial trajectories"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The line is explicitly introduced as the noetic aether framework's reinterpretation of gravity and remains consistent with that house premise; it is not certified here as external gravitational physics.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"mass field interference — the deformation of inertial trajectories\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology (noetic aether reinterpretation of gravity); ALIGNED by definition."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "produce measurable time dilation and length contraction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Gravitational time dilation is well established, but “strong gravitational fields produce length contraction” needs a coordinate, measurement procedure, and scope; the combined measurable-effect claim is too broad as written.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"produce measurable time dilation and length contraction\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correct GR description; conditional coupling claim is hedged (\"If consciousness interacts\")."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "electromagnetic correlates of mystical experience documented by Michael Persinger's research"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Michael Persinger is accurately identified as the researcher who reported electromagnetic associations with sensed-presence and mystical-experience phenomena. This attribution does not validate the later gravity-coupling inference.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"electromagnetic correlates of mystical experience documented by Michael Persinger's research\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "**FAIL.** Named-researcher authority carries the consciousness-gravity coupling claim; no mechanism or replicable observation offered. Recode to observation or cut."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "targeted electromagnetic stimulation of the temporal lobes produces mystical experiences"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The causal “demonstrated... produces” wording exceeds a replication-contested literature, including failed blinded replication. Population, stimulation protocol, controls, effect size, and uncertainty are absent.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"targeted electromagnetic stimulation of the temporal lobes produces mystical experiences\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "**FAIL.** \"Demonstrated... produces\" presents replication-contested results (Granqvist et al. 2005 failure) as settled; construction also runs the matter→experience arrow (INVERTED-flavored) before the next sentence recodes it as modulation. Remediate as correlate, never origin."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "Earthquake lights, ball lightning, and geomagnetic storms correlate with reports"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence joins earthquake lights, ball lightning, and geomagnetic storms to reports of anomalous experiences without a defined corpus, exposure window, comparison group, effect size, or traceable source.",
+      "legacy": {
+        "anchor": "L78",
+        "quote": "\"Earthquake lights, ball lightning, and geomagnetic storms correlate with reports\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Hedged correlation-of-reports framing; folkloric but openly suggestive (\"all suggest\"), not upgraded to fact."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "appear to correlate with increased reports of anomalous cognitive experiences"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Appear to correlate” appropriately avoids causation but still supplies no dataset, population, geomagnetic measure, reporting measure, uncertainty, or traceable source for the claimed association.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"appear to correlate with increased reports of anomalous cognitive experiences\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicitly hedged (\"appear to correlate\"); followed by \"may\" framing of the containment mechanism."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "may be compressing consciousness — truncating the noetic field's natural topology"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The conditional noetic model is visible, but “compressing” and “natural topology” have no defined space, invariant, transformation, or field equation. Its load-bearing mathematical mechanism is therefore ungrounded even as speculation.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"may be compressing consciousness — truncating the noetic field's natural topology\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicitly-labeled speculation (\"may,\" \"would explain,\" conditional \"If\"); edge-case rule permits."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "consciousness (the noetic field) is fundamental, and spacetime is a derivative structure"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence explicitly contrasts conventional physics with the noetic aether framework and consistently states that framework's consciousness-first, spacetime-derivative axiom without presenting coherence as proof.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"consciousness (the noetic field) is fundamental, and spacetime is a derivative structure\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "The inversion thesis; house cosmology, ALIGNED by definition."
+      },
+      "id": "C018"
+    }
+  ]
+}

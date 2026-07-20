@@ -1,0 +1,1154 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "pain-information-architecture.md",
+  "source_path": "src/content/posts/pain-information-architecture.md",
+  "source_sha256": "8261f79e9af41842810c527a8bb945e3d90efb3df7ff6f797c7cca80e7120a37",
+  "legacy_audit_path": "quality-engine/audits/nigredo/pain-information-architecture.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "binary protocols"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The excerpt explicitly says it is reframing bodily distress as data architecture, so binary protocols is declared comparison-language here. This row makes no standalone literal physiological inference.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"binary protocols\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The body repeats the binary mechanism, so this excerpt occurrence is removable."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "aperture controls"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Within the excerpt's explicit reframing, aperture controls is a declared systems analogy. The later body claim is audited separately and this fragment alone draws no literal mechanism.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"aperture controls\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The body repeats the aperture mechanism, so this excerpt occurrence is removable."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "built-in dopamine casino"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The excerpt's reframing marker establishes dopamine casino as non-literal comparison-language. Literal neurochemical claims made later are separate rows and do not erase this local boundary.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"built-in dopamine casino\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The body repeats the dopamine mechanism, so this excerpt occurrence is removable."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Pain is literally an information packet"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Literally denies the comparison boundary while importing a network packet ontology into nociception. The prose conflates a useful information metaphor with an empirical biological mechanism.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"Pain is literally an information packet\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "“Literally” silently upgrades a useful information analogy into a biological packet mechanism."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "frequency, amplitude, duration"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Frequency, amplitude, and duration are general signal-feature claims, not a situated observation. The post gives no traceable neurophysiology source, measure, conditions, or scope sufficient for VERIFIED.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"frequency, amplitude, duration\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Nociception has ordinary temporal and intensity signal features."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "addressing metadata"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nociceptive pathways have spatial organization but no TCP-style addressing metadata field. The literal packet claim invents a protocol component rather than reporting a demonstrated biological measure.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"addressing metadata\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Nociception has no demonstrated packet-style addressing metadata."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "exactly the way a network stack treats an incoming TCP segment"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-METAPHOR",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Biological nociception lacks TCP segmentation, ports, acknowledgments, and retransmission semantics. Exactly upgrades a comparison into a false protocol equivalence.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"exactly the way a network stack treats an incoming TCP segment\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Biological nociception does not have TCP acknowledgments, ports, segmentation, or retransmission."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "fires or does not fire"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "All-or-none action potentials are a general neurophysiology claim, while nociceptor transduction before threshold is graded. No traceable source is provided and the receptor-level scope needs narrowing.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"fires or does not fire\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Individual action potentials are all-or-none, despite graded transduction before threshold."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "action potential or no action potential, one or zero"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Mapping an individual spike to one or zero does not make pain a binary signal; pain is encoded through spike rate, timing, fiber type, and central processing. The binary mapping is load-bearing, mathematically misapplied, and unprovenanced.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"action potential or no action potential, one or zero\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The binary abstraction is structurally valid at the individual spike level."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "perceived intensity is a population count — the equivalent of popcount()"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Perceived intensity is not a simple population popcount; firing rate, temporal pattern, fiber class, central gain, attention, and context contribute. The computational equivalence is consequential and mathematically false.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"perceived intensity is a population count — the equivalent of `popcount()`\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Pain intensity also depends on firing rate, fiber type, central modulation, context, and attention."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "More receptors firing means more ones in the data stream"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "More active receptors can contribute signal, but treating them as independent ones in a bit stream cannot represent rate coding or central modulation. The unsupported binary ingredient makes the derived rule false.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"More receptors firing means more ones in the data stream\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "A pure population count cannot represent temporal rate coding or central gain."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "roughly half your available nociceptors in the affected region reporting positive"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A subjective 5-of-10 rating has no defined mapping to half of locally available nociceptors. The fractional receptor claim is a consequential arithmetic conversion with failed correctness and provenance.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"roughly half your available nociceptors in the affected region reporting positive\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "A 5/10 rating has no defined one-half receptor-count correspondence."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "5 out of 10"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The 5-of-10 scale is ordinal and cannot be converted into a one-half receptor fraction. The numerical conversion drives the paragraph's inference, fails correctness, and has no derivation.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"5 out of 10\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "An ordinal subjective rating cannot be converted to a receptor fraction by arithmetic."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 58,
+        "quote": "class PainInformationSystem:"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The fenced Python makes the analogy boundary explicit, but the class contains placeholders rather than a calculation or predictive algorithm. Removing the code leaves every substantive claim unchanged.",
+      "legacy": {
+        "anchor": "L41–L58",
+        "quote": "\"class PainInformationSystem:\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The illustrative code supplies no calculation or predictive algorithm."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "Pain dilates consciousness"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pain dilates consciousness and primary function are causal and teleological empirical claims. The post gives no population, attention measure, competing effects, or source; foregrounding pain does not establish widened consciousness.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"Pain dilates consciousness\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "A physical signal is made the causal controller and purpose of consciousness."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Before the hand retracts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence places conscious expansion before hand withdrawal, but spinal withdrawal can precede conscious pain awareness. The claimed ordering is too absolute and conflicts with the documented reflex pathway.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Before the hand retracts\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Spinal withdrawal can precede conscious pain awareness; the claimed sequence is reversed."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "awareness becomes total"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Awareness becomes total generalizes from an imagined hot-surface episode rather than a named observer and procedure. Pain can foreground attention, but total awareness and universal background suppression are not evidenced.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"awareness becomes total\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Pain can directly foreground awareness while background concerns drop away."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "modulates the body's response to electromagnetic radiation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Melanin's photoprotective and ocular roles are empirical, but the broad body-response claim and pineal context require scope and a traceable source. The post supplies neither.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"modulates the body's response to electromagnetic radiation\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate for skin and ocular pigment at a broad level."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "melanin functions as the iris of the consciousness aperture"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-MODEL",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "In the pain architecture signals a house model, yet the iris comparison is immediately used as a literal melanin-limited consciousness mechanism. The model and metaphor are inseparable and internal coherence is not shown.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"melanin functions as the iris of the consciousness aperture\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Pigment is promoted from physical photoprotection to controller of experiential exposure."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "systems with the aperture stuck open"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Chronic pain is heterogeneous and no evidence shows a consciousness aperture stuck open or limited by melanin regulation. The universal mechanism and treatment implication exceed the supplied evidence.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"systems with the aperture stuck open\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A metaphor is silently upgraded into a melanin-limited chronic-pain mechanism."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "pain and pleasure share a processing pipeline"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pain and pleasure can recruit overlapping systems, but one shared processing pipeline is a stronger anatomical and functional identity claim. No circuits, measures, conditions, or source are specified.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"pain and pleasure share a processing pipeline\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Overlapping circuits do not establish one shared casino-like pipeline."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "reward signal fires on prediction confirmation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Some dopamine activity relates to reward prediction error, but rewards you on prediction confirmation is anthropomorphic and overgeneralized. No task, neuronal measure, population, or source supports the universal rule.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"reward signal fires on prediction confirmation\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Dopamine chemistry is made the origin of felt reward."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "When pain stops, dopamine fires"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pain relief can recruit reward circuitry under some conditions, but when pain stops, dopamine fires is universal and unqualified. The post gives no measurement, uncertainty, or traceable source.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"When pain stops, dopamine fires\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Relief can recruit reward circuitry, but the universal firing and identical processing claims overstate it."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Both are positive prediction errors"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pleasure onset and pain relief are not inherently identical positive prediction errors; sign and magnitude depend on expectation and value model. The formal identity is consequential, mathematically false as stated, and unprovenanced.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"Both are positive prediction errors\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Pain relief and pleasure onset are not universally identical formal prediction errors."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "neurochemically identical to the anticipation of upcoming pleasure"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pain expectation and reward expectation may overlap but are not neurochemically identical quantities related by a simple sign flip. The equality operation is load-bearing, false, and lacks provenance.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"neurochemically identical to the anticipation of upcoming pleasure\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Pain expectation and reward expectation overlap but are not chemically identical sign-flips."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "same dopamine volatility pattern as a slot machine"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The slot-machine comparison is presented as the same dopamine volatility pattern without defining or measuring either pattern. A metaphorical analogy is laundered into empirical equivalence.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"same dopamine volatility pattern as a slot machine\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No direct equivalence or maximization result is demonstrated for fluctuating chronic pain."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "maximizes dopamine sensitivity, which is why chronic pain patients"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Maximizes dopamine sensitivity and therefore explains generalized sensitivity is a causal population claim. No chronic-pain cohort, dopamine measure, comparison condition, or source is supplied.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"maximizes dopamine sensitivity, which is why chronic pain patients\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Dopamine sensitivity is made the physical cause of generalized experiential sensitivity."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "writes the prediction directly into long-term memory"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Writes directly into long-term memory turns a storage metaphor into an unqualified dopamine-mediated mechanism. No learning protocol, memory measure, timing, or source supports direct authorship.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"writes the prediction directly into long-term memory\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Dopamine chemistry is made the origin of memory consolidation."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "binary system provides clean data"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The clean-data conclusion depends on the contradicted binary and popcount ingredients. Under the synthesis rule, failed ingredients prevent the integration from passing.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"binary system provides clean data\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Nociception is reduced to a literal clean-data protocol."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "dilation system ensures the data receives maximum processing attention"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The maximum-attention conclusion depends on the unsupported consciousness-dilation mechanism and adds causal certainty. No passing ingredient or transformation demonstrates an ensuring function.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"dilation system ensures the data receives maximum processing attention\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "A physical pain mechanism is made the cause of attention."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "dopamine system ensures the data writes to permanent storage"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The permanent-storage conclusion combines an oversimplified dopamine claim with a computer-memory metaphor. Neither the ingredient evidence nor the transformation supports guaranteed permanence.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"dopamine system ensures the data writes to permanent storage\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Chemistry is made the cause of permanent experiential storage."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "Pain is the body's priority interrupt system"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Priority interrupt can be a useful declared comparison, but the sentence says pain is literally a designed preemptive system. It merges computational metaphor with biological purpose without evidence.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"Pain is the body's priority interrupt system\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The computer metaphor is silently upgraded to a literal biological architecture."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "conscious access to the aperture control system"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Vipassana practice and the proposed aperture mechanism are distinct ingredients, yet the sentence treats meditation as access to that unsupported mechanism. The application needs separate evidence and declared synthesis authorship.",
+      "legacy": {
+        "anchor": "L94",
+        "quote": "\"conscious access to the aperture control system\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Vipassana is reader-testable, but the aperture mechanism remains unsupported."
+      },
+      "id": "C033"
+    }
+  ]
+}

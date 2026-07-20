@@ -1,0 +1,318 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "seven-day-type-pressure-audit.md",
+  "source_path": "src/content/posts/seven-day-type-pressure-audit.md",
+  "source_sha256": "fb121662887a0d308aba849dff58158af74f6067557fa862ebc1205e03616d0f",
+  "legacy_audit_path": "quality-engine/audits/nigredo/seven-day-type-pressure-audit.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "The sequence runs at approximately three hundred milliseconds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The approximately 300-millisecond sequence is an unsourced latency with no measure, population, conditions, or uncertainty; removing it leaves the protocol unchanged.",
+      "legacy": {
+        "anchor": "L28",
+        "quote": "\"The sequence runs at approximately three hundred milliseconds\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Approximate reaction-latency claim, reader-replicable (\"state speed, not story speed\"); no authority invoked."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "the same diagnostic structure used in pattern recognition work"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The assertion that this four-field structure is used in unspecified “pattern recognition work” names no practitioner, discipline, source, or context.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"the same diagnostic structure used in pattern recognition work\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Methodological kinship framed as practice, not institutional authority; no named institution."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "installed it before your prefrontal cortex was fully myelinated"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The developmental claim links a learned surveillance threshold to prefrontal myelination without a population, longitudinal measure, causal evidence, or source.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"installed it before your prefrontal cortex was fully myelinated\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Specific developmental-neuroscience claim (surveillance thresholds set pre-myelination) stated as settled fact; not reader-falsifiable, unverifiable as stated."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "the nervous system installed first, refined through thousands of repetitions"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Speed is treated as proof that a defense was installed first and refined through thousands of repetitions; the reader’s log cannot establish that developmental causal history.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"the nervous system installed first, refined through thousands of repetitions\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Fastest = most-practiced is observable in the reader's own log; model framed through the audit itself."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "blocks something that the nervous system classified as dangerous"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The defense-as-neural-danger-classification mechanism is presented universally, while the proposed trigger log records behavior and cannot verify neural classification.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"blocks something that the nervous system classified as dangerous\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Working-model language of the audit; the classification is demonstrated by the reader's own trigger log."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The defense kept you alive — literally or psychologically"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that every defense once kept the reader alive, literally or psychologically, universalizes an untraced developmental causal account.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"The defense kept you alive — literally or psychologically\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard Enneagram/somatic framing presented as the audit's working model, not as borrowed research."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "executes before conscious awareness can intervene"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The protocol proposes that some defenses feel preconscious, but supplies no timing or awareness measure establishing execution before conscious intervention.",
+      "legacy": {
+        "anchor": "L94",
+        "quote": "\"executes before conscious awareness can intervene\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Observable phenomenology; the Day 3-4 protocol exists precisely to let the reader verify this."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "Your nervous system under pressure tells you what it was built to do"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The inference from a seven-day behavior log to what a nervous system “was built to do” lacks a validated transformation and overstates what the four fields can establish.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"Your nervous system under pressure tells you what it was built to do\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The post's core premise, explicitly tied to the reader's own seven-day dataset."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "a function's behavior emerges from its call stack"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The phrase “the way” explicitly compares a logged behavioral pattern to a function’s call stack; no literal software mechanism or prediction is extracted.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"a function's behavior emerges from its call stack\"",
+        "type": "math",
+        "verdict": "Pass — §5 safe harbor (declared analogy)",
+        "load_bearing": false,
+        "note": "Explicitly framed with \"the way\"; declared analogy, never flagged. Not counted as DECORATIVE/WRONG."
+      },
+      "id": "C009"
+    }
+  ]
+}

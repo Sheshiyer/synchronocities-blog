@@ -1,0 +1,458 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "bicameral-consciousness-patch.md",
+  "source_path": "src/content/posts/bicameral-consciousness-patch.md",
+  "source_sha256": "2e45119bf3fb02a69f7426893ce3f184512127b1d1cbe4b71f746d1485d3a4f0",
+  "legacy_audit_path": "quality-engine/audits/nigredo/bicameral-consciousness-patch.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "proposed that this emulator was deployed roughly three millennia ago"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The source names Jaynes, his 1976 book, and marks the chronology as what he proposed. Roughly three millennia is faithful to the cited model's dating, central to the historical thesis, and traceable to the named work.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"proposed that this emulator was deployed roughly three millennia ago\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Jaynes's 1976 book and thesis attributed by name with \"proposed\" — openly framed as model; attribution historically accurate (breakdown dated ~1000 BCE). The post's declared lens; safe harbor covers the downstream narration within it."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The text contains no words for mind, will, or introspection"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The categorical lexical claim is incompatible with attested Iliadic terms such as noos, phrenes, and thumos and with the legacy audit's own dispute note. It needs a narrower Jaynes-attributed interpretation, not assertion as textual fact.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"The text contains no words for *mind*, *will*, or *introspection*\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Reader-checkable textual reading of the *Iliad* (composition ~750 BCE, Mycenaean collapse ~1200 BCE — standard dating). The strong lexical claim is Jaynesian interpretation (classicists dispute it re: noos/phrenes/thumos), but it is falsifiable by the reader's own reading, not by institutional authority."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "the first Western literary character who thinks in the modern sense"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "First Western literary character is a corpus-wide priority claim. A comparison of two epics cannot verify it without a defined corpus, sense of thinks, and responsible corroboration.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"the first Western literary character who *thinks* in the modern sense\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Hyperbolic but checkable comparative reading of the *Odyssey* vs. the *Iliad*; interpretive voice, tied to a text the reader can open."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "the shift from śruti (that which is heard) to smṛti (that which is remembered)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Sruti and smrti are categories of authoritative transmission and remembered tradition, not a traditional name for a historical shift from audible gods to introspection; the Upanishads themselves remain sruti. The attribution materially misstates the tradition.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"the shift from śruti (that which is heard) to smṛti (that which is remembered)\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House tradition operated structurally (kośa mapping manomaya→vijñānamaya is house cosmology). Rigveda 1500–1000 BCE and Upaniṣads 800–500 BCE are standard scholarly dates."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "the self is not the seer but that by which seeing is possible"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The unseen-seer teaching is associated with Brhadaranyaka Upanishad 3.4-5, but those dialogues are with Usasta and Kahola; the Maitreyi dialogues occur at 2.4 and 4.5. The prose conflates speaker, locus, and paraphrase.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"the self is not the seer but that by which seeing is possible\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Reader-checkable Upaniṣadic citation. Note for operator: the gloss matches BU 3.4 (unseen seer / antaryāmin teaching), but the Maitreyī instruction is conventionally at BU 2.4/4.5 — minor attribution imprecision, not a fabrication; the teaching exists at the cited locus."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "described consciousness as a sequence of structures, not a ladder of progress"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Gebser and The Ever-Present Origin are named, and the sequence-of-structures rather than progress-ladder summary faithfully reports that source at the level claimed.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"described consciousness as a sequence of structures, not a ladder of progress\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Gebser attribution accurate (*The Ever-Present Origin*, 1949); consciousness-structures framework is house-compatible (consciousness-primary, non-linear). Circa dates (100,000 / 10,000 / 500 BCE) are the standard rounded figures used in Gebser summaries, framed as approximate."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "the introduction of saṃsāra — the cycle of birth and death"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose turns the historical emergence of samsara and a recursive self-model into one inherited Vedic explanation. It neither separates the traditional claim from the modern interpretation nor declares Noesis authorship of the synthesis.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"the introduction of *saṃsāra* — the cycle of birth and death\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House frame (cyclic time) operated as structural grammar; saṃsāra's appearance in the early Upaniṣadic period is consistent with the timing claimed. Interpretive claim within declared frame."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "the bicameral model maps onto the interhemispheric organization observed in split-brain research"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence uses split-brain observations as if they validate a bicameral interhemispheric mapping. No study, measures, or transformation trace connects the empirical ingredient to Jaynes's speculative architecture.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"the bicameral model maps onto the interhemispheric organization observed in split-brain research\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicitly model-framed (\"the bicameral model maps onto\"); split-brain hemispheric specialization is real, observable clinical data. Borderline — borrows credibility from the research domain — but the model framing holds."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "act as a direct bus: left generates, right obeys"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The direct-bus mechanism is stated as settled and then contradicted by the same post's later Jaynes attribution, which routes a right-hemisphere language analogue to the left. Split-brain findings do not establish left-generates/right-obeys.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"act as a direct bus: left generates, right obeys\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "**Dross.** Jaynes's contested lateralization hypothesis stated as settled mechanism — and stated backwards: Jaynes's model (correctly given at L58) has the voice generated in the RIGHT hemisphere's language-analog regions and routed LEFT via the anterior commissure. L56 inverts the direction, contradicting the post's own L58. Internal contradiction plus contested-as-fact."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "demonstrate that the hardware is still installed"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Contested sensed-presence experiments are promoted into proof of an ancestral command API and imperative audition. The post does not separate the reported experiment from the much stronger evolutionary mechanism inferred from it.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"demonstrate that the hardware is still installed\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "**Dross.** Persinger's God Helmet experiments are real but contested (Granqvist et al. 2005 failed replication; suggestibility critique); \"imperative audition\" overstates a literature concerned with sensed presence; \"demonstrate\" silently upgrades contested findings to settled proof (also carries an authority-borrowed structure)."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "lateralized to the right hemisphere's language-equivalent regions, routed to the left"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Jaynes proposed explicitly marks this as a report of his model, and the right-hemisphere language-analogue routed left through the anterior commissure is faithful to that attributed proposal rather than asserted neuroscience.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"lateralized to the right hemisphere's language-equivalent regions, routed to the left\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Attributed with \"Jaynes proposed\" — openly framed as model, and accurate to the source (right-hemisphere generation, anterior-commissure routing). This is the correct statement that L56 contradicts."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The Kha-Ba-La triad operates here as diagnostic architecture"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The Kha/Ba/La mapping is elaborated, but its Ba layer incorporates the failed split-brain and bicameral mechanisms above. Under the synthesis rule, a failed ingredient prevents the composite from passing even when the interpretation is internally legible.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"The Kha-Ba-La triad operates here as diagnostic architecture\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Canonical INTEGRATED structure (§4.1) operated structurally, not name-dropped: Kha=witness, Ba=hardware, La=friction, each mapped to the bicameral architecture with derived failure modes (no Kha → behavior without authorship; no Ba → depersonalized ghost; no La → observer/substrate collapse). The multi-scale nesting at L64 (\"the triad governs\") depends on it."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "was the historical correlate: a systemic failure of the mesh network"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Late Bronze Age collapse is a historical event, while gods falling silent and a mesh-network failure are Jaynesian and Noesis interpretations. The sentence fuses them as one correlate without source-level separation or declared synthesis authorship.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"was the historical correlate: a systemic failure of the mesh network\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Late Bronze Age collapse dating (1200–1177 BCE) matches standard scholarship (cf. Cline, *1177 B.C.*) — judged as history, accurate. \"The gods fell silent\" narrates within the Jaynesian lens declared at L46; no silent upgrade to consensus fact."
+      },
+      "id": "C013"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-hermit-72-hours.md",
+  "source_path": "src/content/posts/the-hermit-72-hours.md",
+  "source_sha256": "40a4e69744d2238eb19b1bb77d235bb333363b0dd888d360b8fc9d0ca363b66d",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-hermit-72-hours.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "Seventy-two names of God in Kabbalistic tradition"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Kabbalistic Shem HaMephorash tradition is accurately reported as comprising seventy-two names. The count is source-traceable and materially supplies the post's only defensible rationale for the seventy-two-hour frame.",
+      "legacy": {
+        "anchor": "L27",
+        "quote": "\"Seventy-two names of God in Kabbalistic tradition\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Accurate correspondence (Shem HaMephorash); mapping shown; sole legitimate anchor of \"The number isn't arbitrary.\""
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "the body to complete one full cycle of cellular communication"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No recognized whole-body physiology has a seventy-two-hour cycle in which every major organ system completes one send-and-receive round; the universal mechanism is contradicted and nonessential.",
+      "legacy": {
+        "anchor": "L27",
+        "quote": "\"the body to complete one full cycle of cellular communication\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No such 72-hour physiological cycle (\"one complete signal round\" of every organ system) exists; invented precision bolted onto the numerology to sacralize the duration."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The pranamaya kosha — the vital-energetic sheath"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pranamaya kosha is faithfully identified as the vital or energetic sheath in the Vedic kosha teaching; attribution is the relevant evidence condition, not empirical proof of the sheath.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"The pranamaya kosha — the vital-energetic sheath\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House cosmology (Vedic sheath model) — ALIGNED by definition; governs the paragraph's framing."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Breath ratio. Heart rate variability."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Within the explicitly established pranamaya frame, breath ratio and heart-rate variability are consistently used as rhythmic bodily signals; the row makes no separate population-level effect claim.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"Breath ratio. Heart rate variability.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Reader-replicable signals; no authority invoked; falsifiable by the reader's own practice."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "electromagnetic field that extends eighteen inches beyond the skin"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post supplies no measurement method or traceable source for a subtle electromagnetic field ending eighteen inches beyond the skin. The exact boundary is unsupported, nonconsequential precision, and mathematically ungrounded.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"electromagnetic field that extends eighteen inches beyond the skin\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Contested biofield claim stated as settled measurement; the \"eighteen inches\" figure has no verifiable source (near-fabricated precision). No analogy framing."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "Thirty-three vertebrae in the human spine"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The standard anatomical count is thirty-three vertebrae when fused sacral and coccygeal elements are included (7+12+5+5+4). The count is correct and traceable, but this occurrence is dispensable because the adjacent 33-correspondence remains.",
+      "legacy": {
+        "anchor": "L31",
+        "quote": "\"Thirty-three vertebrae in the human spine\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Anatomically accurate (7+12+5+5+4 = 33); verifiable fact used as embodied anchor of the 33-chain."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "Thirty-three degrees in Scottish Rite Freemasonry. Thirty-three years of Christ's earthly ministry"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Scottish Rite Freemasonry conventionally numbers thirty-three degrees, and Christian tradition commonly gives Jesus an age of about thirty-three. The correspondences are accurately attributed but individually redundant to the Noble 33 motif.",
+      "legacy": {
+        "anchor": "L31",
+        "quote": "\"Thirty-three degrees in Scottish Rite Freemasonry. Thirty-three years of Christ's earthly ministry\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Historical correspondence chain, referents accurate; the 33-structure as a whole is load-bearing (titular \"Noble 33\"), this row individually redundant with L31 vertebrae."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "the hum of a nervous system receiving data"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Hum,” “receiving data,” and the explicit contrast with narrative turn the nervous-system sentence into a declared signal-processing analogy for stillness; no literal data channel is inferred.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"the hum of a nervous system receiving data\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Phenomenology in plain physiological language; reception of data, not generation of experience — no inversion; replicable in stillness practice."
+      },
+      "id": "C008"
+    }
+  ]
+}

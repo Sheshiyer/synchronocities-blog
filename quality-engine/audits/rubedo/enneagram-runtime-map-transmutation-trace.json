@@ -1,0 +1,93 @@
+{
+  "schema_version": "2.3",
+  "post": "enneagram-runtime-map.md",
+  "category": "causal-recode",
+  "expected_operation": "RECODE_CAUSALITY_TO_CORRELATE",
+  "albedo_load_bearing_claim": "The Enneagram's trigger-defense-cost sequence makes unconscious defensive expenditure and its accumulated life-cost visible.",
+  "recertified_finding_ids": [
+    "C003"
+  ],
+  "full_document": {
+    "pre_sha256": "01c227aed0e5c7f72d5c676c7920afe2cfb20299ff7a792392a80e17e9af3dc4",
+    "post_sha256": "b84f38ced33fd580742b45b3c59986d053eac5db6ce2f03382e669952ec9711f",
+    "byte_identical": false
+  },
+  "frontmatter": {
+    "pre_sha256": "c651f0f7de1270a04d47ba63158e620948ca55978dab7be25268e0375cea32b8",
+    "post_sha256": "c651f0f7de1270a04d47ba63158e620948ca55978dab7be25268e0375cea32b8",
+    "byte_identical": true
+  },
+  "edits": [
+    {
+      "id": "E001",
+      "finding_id": "C003",
+      "source_occurrence": 1,
+      "before": "**Defense:** Withdrawal. Information hoarding. Reduced surface area. The nervous system contracts, the perimeter tightens, availability drops. Not because you decided to withdraw — because the cortisol-mediated siege protocol activated and the drawbridge went up before the decision-making function loaded.",
+      "after": "**Defense:** Withdrawal. Information hoarding. Reduced surface area. The nervous system contracts, the perimeter tightens, availability drops. Not because you decided to withdraw — because the siege protocol activated and the drawbridge went up before the decision-making function loaded.",
+      "before_sha256": "95163143049db7063d675898d70e0dec19d3d88024e97b208ef8f7df5742b56c",
+      "after_sha256": "345cc7575294db579289119fdb08ec55b78493c1118a4735f668ee9342d11e16"
+    }
+  ],
+  "new_claim_counts": {
+    "science": 0,
+    "math": 0,
+    "traditional_attribution": 0
+  },
+  "quality_gates": {
+    "voice": {
+      "status": "PASS",
+      "score": 95,
+      "evidence": "docs/ci-audit-report.json scores the current post's voice at 95/100 with no tonal-drift flags; the local deletion preserves that voice."
+    },
+    "kha_ba_la": {
+      "status": "FAIL",
+      "evidence": "The current CI audit reports Kha 0, Ba 0, La 0, triad 0, no absence demonstration, and a FAIL verdict; E001 does not alter that post-level gate."
+    },
+    "fractal_depth": {
+      "status": "FAIL",
+      "score": 50,
+      "evidence": "docs/ci-audit-report.json reports fractal depth 50/100, below the Rubedo PASS threshold of 80."
+    },
+    "citation_attribution": {
+      "status": "FAIL",
+      "evidence": "The CI source-grounding dimension is 30/100 with zero source matches, and E001 introduces no source or attribution."
+    },
+    "epistemic_grounding": {
+      "status": "FAIL",
+      "evidence": "C003 is resolved, but recertified C001, C002, C004, C005, C006, and C007 remain UNSUPPORTED full-post empirical claims outside the single manifest-matched repair."
+    },
+    "math_integration": {
+      "status": "FAIL",
+      "evidence": "Recertified C002 and C006 remain DECORATIVE unsourced 300-millisecond quantities with failed consequence and provenance locks."
+    },
+    "hard_acceptance": {
+      "status": "PASS",
+      "checks": [
+        {
+          "criterion": "Cortisol is not the deciding agent or cause of withdrawal.",
+          "status": "PASS",
+          "evidence": "E001 removes 'cortisol-mediated' from the Type 5 defense sentence, so cortisol no longer authors or causes the withdrawal."
+        },
+        {
+          "criterion": "Any retained cortisol language marks a bodily correlate or signature, not authorship of experience.",
+          "status": "PASS",
+          "evidence": "No cortisol language remains in the current post, so no retained wording assigns it authorship of experience."
+        },
+        {
+          "criterion": "Preserve the Type 5 withdrawal, siege, and drawbridge example without adding a new biomedical mechanism.",
+          "status": "PASS",
+          "evidence": "E001 retains withdrawal, the siege protocol, and the drawbridge sequence, while all new claim counts remain zero."
+        }
+      ]
+    }
+  },
+  "outcome": {
+    "status": "PARTIAL_RESOLUTION",
+    "resolved_finding_ids": [
+      "C003"
+    ],
+    "remaining_findings": [],
+    "summary": "The single manifest-matched cortisol-causality finding is resolved, but post-level Kha-Ba-La, fractal-depth, citation, epistemic-grounding, and math-integration gates still fail."
+  },
+  "rubedo_verdict": "PARTIAL"
+}

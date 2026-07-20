@@ -53,7 +53,7 @@ The body felt the trigger. Inertia ran the defense. The observer sees the cost. 
 
 **Trigger:** Social demand exceeds internal resource estimate. Someone needs more than you budgeted for. The meeting runs long. The conversation requires emotional availability you did not allocate. The request assumes a level of presence your system classified as optional.
 
-**Defense:** Withdrawal. Information hoarding. Reduced surface area. The nervous system contracts, the perimeter tightens, availability drops. Not because you decided to withdraw — because the cortisol-mediated siege protocol activated and the drawbridge went up before the decision-making function loaded.
+**Defense:** Withdrawal. Information hoarding. Reduced surface area. The nervous system contracts, the perimeter tightens, availability drops. Not because you decided to withdraw — because the siege protocol activated and the drawbridge went up before the decision-making function loaded.
 
 **Cost:** Isolation. Underdeveloped embodiment. A life observed but not inhabited. The Type 5 accumulates enough knowledge to construct a universe and too little embodied experience to live in one. That is not a personality trait. That is inertia's accounting ledger — the running total of every withdrawal that purchased safety at the price of participation.
 

@@ -1,0 +1,1334 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "graha-friendship-cellular-automata.md",
+  "source_path": "src/content/posts/graha-friendship-cellular-automata.md",
+  "source_sha256": "7335c6de1e89f164722cd53e0d01a2db237fa97a238a349b0322849af65c348f",
+  "legacy_audit_path": "quality-engine/audits/nigredo/graha-friendship-cellular-automata.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "neighborhood logic identical to Conway's Game of Life"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A static Graha friendship lookup has no evolving local transition rule, so its neighborhood logic is not identical to Conway’s Life. The source code itself exposes the mismatch.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"neighborhood logic identical to Conway's Game of Life\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A lookup is not an evolving local transition, and the identity repeats throughout the body."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 32,
+        "quote": "Systems Architect's Proverb"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The epigraph is credited to “Systems Architect’s Proverb,” but no identifiable author, text, or tradition supports that attribution.",
+      "legacy": {
+        "anchor": "L31–L32",
+        "quote": "\"Systems Architect's Proverb\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The attributed epigraph has no identifiable source."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "rule sets, when applied iteratively across a grid of states, produce cellular automata"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "A cellular automaton is defined by iterative local rules over a grid of states. The definition is correct, necessary to the comparison, and provenance-traceable to the stated CA framework.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"rule sets, when applied iteratively across a grid of states, produce cellular automata\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This correct defining structure is load-bearing to the article's comparison."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "the nine grahas maintain a fixed matrix of relationships"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The named Jyotish natural-friendship matrix is faithfully reported as a traditional permanent-relationship scheme, while the rationale preserves known implementation variation.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"the nine grahas maintain a fixed matrix of relationships\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The natural-friendship table is a named Jyotish house structure, though implementations vary."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "a 9x9 adjacency table where each cell contains one of three values"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The displayed code contains nine rows, nine columns, and three encoded relationship values. The matrix representation is correct, structurally consequential, and reproducible from the source.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"a 9x9 adjacency table where each cell contains one of three values\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "A directed relationship matrix is a legitimate 9×9 graph representation."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "Friend (5), Neutral (4), or Enemy (0)"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The code visibly uses 5, 4, and 0 as three internally consistent category labels. The particular numeric encoding is correct but removable from the article’s structural argument.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"Friend (5), Neutral (4), or Enemy (0)\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Three distinct numbers can encode categories; their provenance is a separate science claim, and this encoding is removable."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "constructive interference between planetary fields"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Constructive interference between planetary fields” is presented as physical provenance for the numbers without a measured field, method, or source. Declare it as a model or supply evidence.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"constructive interference between planetary fields\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The numeric values lack this physical provenance, but the automaton thesis survives the local claim's deletion."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "Mercury befriends everyone except the Moon."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose conflicts with its own Mercury row and with common natural-friendship lists: Mercury is not shown as befriending everyone except the Moon.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"Mercury befriends everyone except the Moon.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Standard natural-friendship tables make Mercury friend to Sun/Venus and neutral to several others."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "Rahu and Ketu maintain universal neutrality"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The displayed matrix gives Rahu and Ketu a private friendship, so “universal neutrality” is false even internally; traditional assignments also vary.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"Rahu and Ketu maintain universal neutrality\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Rahu/Ketu relationships vary by tradition and are not established by this universal rule."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "topological constraints on a relational graph"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The matrix is a directed weighted graph, but “topological constraints” is not defined and performs no mathematical work beyond the existing edge assignments.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"topological constraints on a relational graph\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The graph representation needs edges, not topology; removing the term leaves the lookup claim intact."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "A dead cell with exactly three live neighbors becomes alive"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The B3 birth rule is stated correctly and supplies a necessary defining component of Conway’s Life for the comparison. Its correctness and provenance are standard and explicit.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"A dead cell with exactly three live neighbors becomes alive\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Conway's birth/survival rules are correctly stated and are the comparison's necessary source structure."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "A live cell with two or three live neighbors survives."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The S23 survival rule is correct and traceable, but this separate occurrence is removable because the birth rule and full Conway framework already establish the source system.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"A live cell with two or three live neighbors survives.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "This Conway survival rule is correct but removable as one occurrence in the repeated full rule set."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "All other cells die."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The completion of Conway’s rule set is correct, but the individual sentence is removable from the article’s already stated CA definition and comparison.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"All other cells die.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "This Conway death rule is correct but individually removable from the comparison."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Each planet's row defines its neighborhood response function"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A friendship row lists relationships; it does not map a neighborhood and current state to a next state. The displayed matrix proves the claimed response function is absent.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Each planet's row defines its neighborhood response function\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A row supplies no next-state function, and many later rows repeat the same missing structure."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 78,
+        "quote": "'survive': np.where(neighborhood >= 4)[0], 'birth': np.where(neighborhood == 5)[0]"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The NumPy expressions only return indices meeting friendship thresholds. They do not implement a cellular state transition, and the source supplies no update rule.",
+      "legacy": {
+        "anchor": "L77–L78",
+        "quote": "\"'survive': np.where(neighborhood >= 4)[0], 'birth': np.where(neighborhood == 5)[0]\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "These lists do not implement cell transitions, and later pseudocode/claims repeat the missing function."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "apply these rules iteratively, patterns emerge"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Because no valid next-state function exists, iterating the shown lookup cannot generate emergent cellular-automaton patterns.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"apply these rules iteratively, patterns emerge\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No valid transition exists, and the iterative identity is repeated throughout."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "a cellular automaton frozen at a particular generation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A static chart with no evolution rule is not a cellular automaton frozen at a generation. The source provides no prior or next generation.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"a cellular automaton frozen at a particular generation\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The contradictory identity repeats the larger automaton thesis."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Stephen Wolfram's exhaustive classification"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stephen Wolfram is accurately associated with classification of the 256 elementary one-dimensional cellular automata; the separate scope problem is isolated in C019.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"Stephen Wolfram's exhaustive classification\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Wolfram's elementary-cellular-automaton classification is accurate history when separated from scope."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "exhaustive classification"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Exhaustive” is left unqualified, although Wolfram’s enumeration is exhaustive only for elementary radius-one, two-state, one-dimensional rules, not all cellular automata.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"exhaustive classification\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "“Exhaustive” applies to the 256 elementary rules, not all cellular automata."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "simple local rules produce complex global behavior"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Simple local CA rules can produce complex global behavior, but that true general fact is removable and does not validate the missing Graha transition function.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"simple local rules produce complex global behavior\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "This is demonstrably true, but removable from the invalid graha transition mapping."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Rule 110, one of the simplest one-dimensional cellular automata, is Turing complete."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Rule 110 is correctly reported as Turing complete, but the result is removable historical/mathematical background and does not repair the Graha automaton.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"Rule 110, one of the simplest one-dimensional cellular automata, is Turing complete.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The fact is correct, but deleting it leaves the graha comparison unchanged."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The universe's computational capacity emerges from the simplest possible interactions."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A computational-universe premise is stated as a consequence of Rule 110 rather than declared as the article’s metaphysical model. The inference exceeds the theorem.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"The universe's computational capacity emerges from the simplest possible interactions.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A broad computational-universe thesis is presented as consequence of Rule 110."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "The Graha friendship matrix exhibits identical behavior."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Graha matrix cannot exhibit behavior identical to a cellular automaton because the source defines no evolution.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"The Graha friendship matrix exhibits identical behavior.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No evolution exists, and the same identity is repeated before and after this sentence."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "No two charts produce identical automata evolution"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "There is no Graha automata evolution to compare, and repeated birth-chart configurations are possible. The universal uniqueness claim is false.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"No two charts produce identical automata evolution\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Initial configurations can recur and no evolution rule exists to distinguish them."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 99,
+        "quote": "for in range(steps):"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The loop never assigns new_state back to state, and apply_rules is undefined. The displayed function therefore does not implement evolution.",
+      "legacy": {
+        "anchor": "L92–L99",
+        "quote": "\"for _ in range(steps):\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The loop never advances state, but later prose repeats the false evolution identity."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Yogas (beneficial planetary combinations) are stable configurations"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The exact span reports Jyotish Yogas as stable beneficial configurations. The adjacent still-life comparison is a separate authorial analogy, not empirical proof of the teaching.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"Yogas (beneficial planetary combinations) are stable configurations\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No invariance proof exists, and other still-life/oscillator/glider labels carry the same family."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Dashas create oscillating patterns — blinkers and pulsars."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The preceding sentence explicitly calls these “direct analogs,” marking blinkers and pulsars as a comparison for periodic Dasha patterns. No literal CA transition is inferred from this row alone.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"Dashas create oscillating patterns — blinkers and pulsars.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Fixed period systems are named after Life oscillators without demonstrated periods or transitions."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Transits act as gliders"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Act as gliders” follows the paragraph’s explicit “direct analogs” marker. The line is figurative and makes no standalone literal propagation prediction.",
+      "legacy": {
+        "anchor": "L102",
+        "quote": "\"Transits act as gliders\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No localized configuration propagates through a lattice under the proposed rules."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "some classical texts"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The unnamed “classical texts” do not support the stated Sun/Saturn asymmetry, and the common natural-friendship table makes them mutual enemies.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"some classical texts\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The Sun/Saturn asymmetry conflicts with standard natural-friendship tables and no text is named."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "directional dynamics that standard cellular automata lack"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard cellular automata can use asymmetric neighborhoods and directed rules, so the claim that directional dynamics are absent is false.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"directional dynamics that standard cellular automata lack\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Cellular automata can use asymmetric neighborhoods and directed rules."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "a directed graph cellular automaton"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A directed weighted graph is present, but no transition function is defined; therefore it is not a directed-graph cellular automaton.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"a directed graph cellular automaton\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The graph lacks a transition, and the no-transition identity is repeated elsewhere."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "They are attractors in the automaton's state space."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Without a state-transition map there is no automaton state space in which Yogas can be demonstrated as attractors.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"They are attractors in the automaton's state space.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No state map exists, and related stability claims repeat at L114–L116."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "bounded chaos within a deterministic rule set"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Periodicity is not chaos, and the source realizes no deterministic state-update rule. “Bounded chaos” is mathematically false here.",
+      "legacy": {
+        "anchor": "L114",
+        "quote": "\"bounded chaos within a deterministic rule set\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Periodicity is not chaos, and adjacent stability claims carry the same thesis."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "The automaton's rules predict instability"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The proposed automaton has no next-state rule, so it cannot predict instability before manifestation.",
+      "legacy": {
+        "anchor": "L116",
+        "quote": "\"The automaton's rules predict instability\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No next-state rule exists, and the post has many equivalent prediction claims."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "ancient seers ran in their minds"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No historical source supports the claim that ancient Jyotish seers mentally ran a cellular automaton, and the article’s proposed automaton is not actually defined.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"ancient seers ran in their minds\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The invented ancient computation is removable from the repeatedly stated modern identity."
+      }
+    },
+    {
+      "id": "C036",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "the computational structure is identical"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Graha lookup lacks Conway’s defining local transition dynamics, so the computational structures are not identical.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"the computational structure is identical\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Missing defining structures recur in the many equivalent identity rows."
+      }
+    },
+    {
+      "id": "C037",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "you are examining the initial configuration of a cellular automaton"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A birth chart can be a static assignment, but no rule makes it the initial configuration of the claimed cellular automaton.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"you are examining the initial configuration of a cellular automaton\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The conclusion repeats the no-transition identity."
+      }
+    },
+    {
+      "id": "C038",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "you are watching the automaton evolve"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Transits are described narratively, but the source supplies no cellular transition through which an automaton evolves.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"you are watching the automaton evolve\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The conclusion repeats the no-transition identity."
+      }
+    },
+    {
+      "id": "C039",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "you are observing the automaton's oscillation periods"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A fixed Dasha schedule is not shown as an oscillation of the nonexistent Graha automaton, so no CA oscillation periods are established.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"you are observing the automaton's oscillation periods\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The conclusion repeats the no-transition identity."
+      }
+    },
+    {
+      "id": "C040",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "The mathematics is the same."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The concluding identity is false: the Graha relationship lookup and cellular-automaton dynamics do not share the same mathematics.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"The mathematics is the same.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The final sentence repeats the identity stated at L4, L83, L89, L102, and L120."
+      }
+    }
+  ]
+}

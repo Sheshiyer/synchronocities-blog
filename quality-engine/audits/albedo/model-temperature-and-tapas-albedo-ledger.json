@@ -1,0 +1,462 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "model-temperature-and-tapas.md",
+  "source_path": "src/content/posts/model-temperature-and-tapas.md",
+  "source_sha256": "c5c78d9529b2693afa953954f12d616d831265834b7e1ef702312db282542b05",
+  "legacy_audit_path": "quality-engine/audits/nigredo/model-temperature-and-tapas.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "I set the API call to temperature=0.7"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The narrator identifies the observer, 2024 mantra pipeline, API setting, and observed outputs at 0.7 and 0.2; the claim stays bounded to that reproducible run rather than asserting a universal default.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"I set the API call to `temperature=0.7`\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person pipeline experiment; replicable observation anchors the method. \"The default\" is colloquial (API defaults vary), not a factual claim."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "temperature is applied at the final softmax layer"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Line 49 specifies the reproducible logits/T softmax operation and its limiting behavior; the mechanics are correct at the stated shorthand precision and removing them collapses the post's temperature analysis.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"temperature is applied at the final softmax layer\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Mechanics correct: logits divided by T before softmax; vocab range 50k–200k accurate; \"At T=0 the distribution collapses\" is standard greedy-decoding shorthand. This is the post's structural spine."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "Patañjali's tapas — from the root tap, to burn"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose names Patañjali and accurately distinguishes the Sanskrit root tap (heat/burn) from the later Noesis temperature comparison; the attributed traditional gloss is represented at its own level.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"Patañjali's *tapas* — from the root *tap*, to burn\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical/etymological claim judged as history; correct."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "sympathetic-dominant state where options are not evaluated"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The statement generalizes sympathetic dominance into suppression of option evaluation, but gives no population, operational measure, condition, or traceable source; nearby LLM behavior cannot verify the human physiology claim.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"sympathetic-dominant state where options are not evaluated\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Autonomic framing used as model, not authority; LLM looping behavior is observable."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "This is the Rubedo phase of the alchemical Work: the perfect balance of solar and lunar energies, the Stone operationalized as coherence without deviation. The alchemists warned that Rubedo is not the beginning. It is the end — and a dangerous end if pursued prematurely. The Stone that is not earned through Nigredo's deconstruction and Albedo's revelation is not a Philosopher's Stone. It is a dead crystal. T=0.0 without the prior phases is not mastery. It is calcification."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The T=0/Rubedo correspondence is a Noesis house mapping, but the same span also reports what unspecified \"alchemists warned\"; the house model and unsourced historical teaching must be split and attributed separately.",
+      "legacy": {
+        "anchor": "L59–L71",
+        "quote": "\"This is the Rubedo phase… Citrinitas… Albedo… Nigredo\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Alchemical stage mappings are house cosmology, ALIGNED by definition (gate §9)."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The distribution approaches uniform. Every token is almost equally likely."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "For softmax(logits/T), uniformity is approached as T tends to infinity, not at T=2; high-logit tokens can remain far more likely, so the stated numeric behavior is false and materially distorts the load-bearing spectrum.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"The distribution approaches uniform. Every token is almost equally likely.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Uniform is the T→∞ limit; at T=2.0 the distribution flattens but high-logit tokens still dominate by orders of magnitude. \"Almost equally likely\" is numerically false, presented as technical description inside the load-bearing four-mode spectrum skeleton."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "The body is a temperature-critical machine. Core temperature above 42°C denatures enzymes. Below 35°C, metabolic rate drops by roughly 7% per degree. The hypothalamus maintains homeostasis within a 0.5°C window — a regulatory precision that would shame any industrial control system. But tapas is not homeostasis. Tapas is the deliberate, temporary violation of homeostasis to recondition the setpoint itself."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The span bundles several approximate physiological quantities with the separate Noesis claim that tapas reconditions a homeostatic setpoint. The numbers are plausible but unprovenanced and nonconsequential; the empirical and house modes require separate rows.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"Core temperature above 42°C denatures enzymes… 7% per degree\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard verifiable physiology (enzyme denaturation, ~6–7% metabolic drop per °C, ~0.5°C hypothalamic window); no authority clause, no watch-list entry."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "the enteric nervous system's 500 million neurons"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 500-million-neuron estimate is externally testable but the prose supplies no source, counting method, range, or uncertainty. The exact figure is illustrative and does not change the argument.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"the enteric nervous system's 500 million neurons\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Within commonly cited range (100M–600M); not fabricated."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "default mode network's self-referential chatter"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose claims that the practice interrupts default-mode self-reference by a physical mechanism, but supplies no measure, population, intervention trace, or causal evidence at that strength.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"default mode network's self-referential chatter\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard model framing, presented descriptively; interrupted \"by physics\" concerns reconditioning, not consciousness-origin — not INVERTED."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Entropy does not decrease globally. The heat dissipated during tapas goes somewhere — into the room, into sweat, into the air. This is why solitary practice eventually fails. The practitioner becomes a closed system, recycling their own exhaust. The fractal demands scale: personal tapas must interface with interpersonal tapas, or the entropy accumulates as spiritual bypassing — the private glow that curdles into superiority, the disciplined body that becomes a weapon against intimacy."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The correct observation that heat dissipates is joined to the unsupported inference that a solitary practitioner is a closed system and that thermodynamic entropy accumulates as spiritual bypassing. The literal physics and Noesis analogy are inseparable as written.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"Entropy does not decrease globally… entropy accumulates as spiritual bypassing\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Second law stated correctly; closed/open-system mechanism actually shown (dissipation, exhaust, export of disorder, L95 \"entropy managed at the correct scale\"). House fractal-scale vocabulary (\"the fractal demands scale\") governs the psych-spiritual mapping."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "the prefrontal cortex's capacity to override the hypothalamic setpoint"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The surrounding Kha correspondence does not exempt the literal claim that prefrontal cortex can override a hypothalamic setpoint; that causal physiological assertion lacks a defined setpoint, condition, measure, and source.",
+      "legacy": {
+        "anchor": "L101",
+        "quote": "\"the prefrontal cortex's capacity to override the hypothalamic setpoint\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Kha-Ba-La correspondence mapping governs; cortex named as Kha's bodily signature across scales, not as origin of witness."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "the 96 layers, the 175 billion parameters"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 96-layer/175-billion-parameter pair matches one GPT-3 configuration, but the prose says generic \"the LLM\" and gives no model or source. The exact counts are illustrative rather than structurally necessary.",
+      "legacy": {
+        "anchor": "L103",
+        "quote": "\"the 96 layers, the 175 billion parameters\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate GPT-3 architecture facts, used illustratively for the Ba mapping."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 111,
+        "line_end": 111,
+        "quote": "14, which reduces to 5"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The arithmetic reduction 14→5 is reproducible, but the meaning assigned to five and the heaven/earth conclusion lack ingredient provenance and explicit Noesis authorship; the number is nonconsequential to the Temperance operation.",
+      "legacy": {
+        "anchor": "L111",
+        "quote": "\"14, which reduces to 5\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "House numerological method, correctly executed; part of the card-operation structure."
+      },
+      "id": "C013"
+    }
+  ]
+}

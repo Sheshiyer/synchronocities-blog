@@ -1,0 +1,1507 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "lorenz-kundli-pattern-hub.md",
+  "source_path": "src/content/posts/lorenz-kundli-pattern-hub.md",
+  "source_sha256": "d7fada13efbe9b9425836a6fd58d727b2e06e55fe676f313363187b36cf0930c",
+  "legacy_audit_path": "quality-engine/audits/nigredo/lorenz-kundli-pattern-hub.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 4,
+        "line_end": 4,
+        "quote": "structural parallels between Lorenz attractors and Kundli charts"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The excerpt advertises a Lorenz–Kundli synthesis without tracing both structures, a transformation, or Noesis authorship; this frontmatter occurrence is redundant with the body.",
+      "legacy": {
+        "anchor": "L4",
+        "quote": "\"structural parallels between Lorenz attractors and Kundli charts\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The body repeats the advertised parallel, so removing this excerpt occurrence leaves the argument intact."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "In 1963, Edward Lorenz published"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Edward Lorenz published “Deterministic Nonperiodic Flow” in 1963 in the Journal of the Atmospheric Sciences; the named event and publication are accurately represented.",
+      "legacy": {
+        "anchor": "L32",
+        "quote": "\"In 1963, Edward Lorenz published\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate history of Lorenz's publication is routed to ALIGNED under the audit rule."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "Three differential equations. Three variables"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The canonical Lorenz system consists of three coupled differential equations in three state variables; the count is correct, provenance-traceable, and necessary to the phase-space account.",
+      "legacy": {
+        "anchor": "L32",
+        "quote": "\"Three differential equations. Three variables\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct core structure of the Lorenz system, required for its phase-space account."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "As James Gleick documented in Chaos: Making a New Science"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "James Gleick’s Chaos: Making a New Science (1987) is accurately identified as the source reporting the rounded-input weather-simulation episode.",
+      "legacy": {
+        "anchor": "L32",
+        "quote": "\"As James Gleick documented in *Chaos: Making a New Science*\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate bibliographic history is routed to ALIGNED under the audit rule."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "rounding a decimal from .506127 to .506"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The .506127-to-.506 rounding detail is an accurately reported historical numeric example, but removing it leaves the sensitive-dependence argument intact.",
+      "legacy": {
+        "anchor": "L32",
+        "quote": "\"rounding a decimal from .506127 to .506\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The history is correct, but removing this supporting example leaves the argument intact."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "Three thousand years earlier"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Three thousand years earlier” supplies an unproven chronology for the stronger claim that Indian observers solved the same Lorenz problem; no historical source or defensible calculation is provided.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"Three thousand years earlier\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "No history establishes that ancient observers were solving the identical Lorenz problem."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "spherical astronomy of the Surya Siddhanta"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Surya Siddhanta is accurately identified as a traditional source of spherical astronomical computation; this attribution does not prove the later chaos-theory synthesis.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"spherical astronomy of the *Surya Siddhanta*\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate traditional astronomy history is routed to ALIGNED under the audit rule."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "a twelve-house geometric map of celestial positions at birth"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The twelve-house natal-chart structure is faithfully reported within Jyotish, is source-traceable to the named tradition, and materially anchors every later house-space comparison.",
+      "legacy": {
+        "anchor": "L34",
+        "quote": "\"a twelve-house geometric map of celestial positions at birth\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The twelve-house angular chart is a real internal Jyotish structure."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "publish papers about its topological properties"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The sentence invokes published topological research without naming a paper, property, or invariant; the prestige-bearing term is removable from the Kha–Ba–La example.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"publish papers about its topological properties\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Topology is named without a property or invariant."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The fractal collapses to a single scale"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“The fractal collapses to a single scale” is unmistakably figurative language for loss of recursion in the explicitly named house architecture, and no literal self-similarity result follows.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"The fractal collapses to a single scale\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Fractal language supplies scale rhetoric without self-similar construction."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "plots state as a point moving through three-dimensional space"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "A Lorenz state is represented by a point in three-dimensional phase space; the construction is correct, reproducible from the equations, and structurally necessary to the comparison.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"plots state as a point moving through three-dimensional space\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct phase-space account of Lorenz flow."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "trajectory never repeats exactly"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nonperiodicity is a correct property of Lorenz trajectories in the chaotic regime, but this occurrence repeats the opening history and can be removed without changing the phase-space account.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"trajectory never repeats exactly\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Lorenz trajectories are nonperiodic; this occurrence is independently removable."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The system is deterministic"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Determinism is a correct property of the Lorenz equations, but the claim repeats L32 and is not independently necessary to the article’s mathematical structure.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"The system is deterministic\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The Lorenz equations do determine the next modeled state; this occurrence is removable."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "yet unpredictable"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Limited practical predictability under sensitive dependence is accurate at the stated scope, yet this sibling occurrence is repeated and structurally dispensable.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"yet unpredictable\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Sensitive dependence limits practical prediction; this sibling claim is independently removable."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "plots a life's potential as a point within twelve houses"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A static Kundli is treated as a point-valued dynamical state without variables, state space, evolution equation, or explicit Noesis transformation; the central mathematical mapping is unestablished.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"plots a life's potential as a point within twelve houses\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "No chart-valued dynamical state or evolution equation is defined."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Both systems are deterministic in principle and unpredictable in practice"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Lorenz dynamics are mathematically deterministic and practically unpredictable, but the post supplies no equivalent Kundli dynamics; claiming both systems share that property is false and repeated elsewhere.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Both systems are deterministic in principle and unpredictable in practice\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The exact-parallel thesis recurs throughout, so this occurrence is removable."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "same butterfly pattern reappears at smaller scale"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The Lorenz attractor has fractal structure but is not exactly self-similar with the same butterfly reappearing under arbitrary zoom; the stated scaling property is mathematically false.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"same butterfly pattern reappears at smaller scale\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "The Lorenz attractor is fractal but not exactly self-similar under arbitrary zoom."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "D9 (Navamsha) provides a nine-fold subdivision"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Navamsha is accurately represented as a nine-fold Jyotish divisional chart; the count is source-traceable, correct within the tradition, and consequential to the article’s scaling argument.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"D9 (Navamsha) provides a nine-fold subdivision\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct nested divisional-chart count used structurally within Jyotish."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Each level of magnification reveals the same pattern structure"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Different Vargas apply distinct divisional constructions and are not one invariant pattern under a shared scaling transformation; the exact self-similarity synthesis is mathematically false.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"Each level of magnification reveals the same pattern structure\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Different Vargas are not proved invariant under one scaling transformation."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "documented in the Brihat Parashara Hora Shastra"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Brihat Parashara Hora Shastra is accurately named as a traditional source for divisional-chart doctrine; attribution does not validate the claimed fractal equivalence.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"documented in the *Brihat Parashara Hora Shastra*\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate traditional-text history is routed to ALIGNED under the audit rule."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The mathematical parallel is exact"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No exact transformation maps Lorenz topology to the divisional-chart hierarchy, and the preceding false self-similarity claims directly contradict “mathematical parallel is exact”; the occurrence is repeated.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"The mathematical parallel is exact\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Repeated scaling and isomorphism claims leave this occurrence removable."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "harmonic relationships between planetary periods"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Harmonic relationships between planetary periods” presents a new mathematical mechanism without ratios, frequencies, transformation, provenance, or Noesis authorship.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"harmonic relationships between planetary periods\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No ratios or harmonic construction are supplied."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "sensitive to initial conditions"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Sensitive dependence on initial conditions is a defining, reproducible Lorenz property and materially supports the article’s sensitivity-and-stability section.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"sensitive to initial conditions\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct Lorenz property, paired with bounded attractor dynamics."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "a few minutes' difference in birth time can shift house cusps"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Within house-based Jyotish calculation, a few minutes can change a cusp near a boundary; the time quantity is operationally consequential and traceable to the chart procedure, though it does not prove chaos.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"a few minutes' difference in birth time can shift house cusps\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "This real chart-calculation sensitivity is central to the post's comparison, though it does not prove chaos."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "Vedic astrology displays the identical dual property"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Chart-calculation sensitivity does not establish Lorenz-style sensitive dependence plus attractor stability; “identical dual property” overstates non-equivalent structures and is repeated elsewhere.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"Vedic astrology displays the identical dual property\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Other parallel claims preserve the thesis if this occurrence is removed."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Kundli chart is, structurally speaking, a strange attractor"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No Kundli state space, evolution rule, invariant set, or fractal dynamics is defined, so identifying the chart as a strange attractor is mathematically false; later rows repeat it.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"Kundli chart is, structurally speaking, a strange attractor\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The strange-attractor identity is repeated later, so this occurrence is removable."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "recognize the pattern of delayed partnership"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Saturn-in-seventh as delayed partnership is explicitly used as a non-fatalistic attractor-style house interpretation; it is internally coherent as the article’s model, not a prevalence claim.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"recognize the pattern of delayed partnership\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The sentence asks the reader to recognize a pattern in lived experience."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "a conversation that altered the Dasha sequence"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A conversation may alter a life trajectory but cannot alter the fixed Vimshottari period sequence; the butterfly-effect/Dasha synthesis is mathematically false and nonessential.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"a conversation that altered the Dasha sequence\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Vimshottari order is fixed; a conversation cannot alter the sequence."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The chart becomes a strange attractor"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Calling the chart a strange attractor for a relationship imports a technical dynamical object without state variables, evolution, invariant set, or an explicit analogy boundary.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"The chart becomes a strange attractor\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Interpersonal attractor language survives removal and is not operationalized."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "a perturbation — a small change in initial conditions"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The dash explicitly glosses the astrologer’s interpretation as a small perturbation to life direction; this is a declared dynamical-systems analogy with no literal state equation or prediction.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"a perturbation — a small change in initial conditions\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No state variable or trajectory metric makes this comparison mathematical."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "Weather systems and birth charts trace the same geometry"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Weather systems and birth charts do not trace a demonstrated identical geometry; no structure-preserving map exists in the post, and the exact-parallel claim is repeated.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"Weather systems and birth charts trace the same geometry\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Repeated exact-parallel claims make this cosmic occurrence removable."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "the attractor constrains without determining"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Constrains without determining” is a valid attractor description but is transferred to Kundli without a mapped constraint set, dynamics, or declared Noesis transformation.",
+      "legacy": {
+        "anchor": "L94",
+        "quote": "\"the attractor constrains without determining\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The chart-as-attractor claim survives elsewhere if this occurrence is removed."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "evidence that the Kundli is a strange attractor"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A failed astrological prediction is not evidence of an invariant fractal attractor; the inference is a mathematical non sequitur and the strange-attractor thesis is repeated elsewhere.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"evidence that the Kundli is a strange attractor\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The post repeats this claim, so this failed-prediction occurrence is removable."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "structurally analogous to Markov transition matrices"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Structurally analogous” explicitly marks the Vimshottari–Markov comparison as an investigation direction, and L116 disclaims proof; no literal transition matrix is asserted here.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"structurally analogous to Markov transition matrices\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Fixed nested periods do not supply stochastic transition probabilities or a Markov matrix."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "operate like fixed-rule neighbourhood interactions"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Operate like” explicitly frames planetary friendships and cellular-automaton neighbourhoods as a proposed analogy, and the section makes no literal lattice update prediction.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "\"operate like fixed-rule neighbourhood interactions\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Friendship labels provide neither a lattice state nor an iterative neighbourhood update rule."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "maps onto the vertices of an eight-dimensional hypercube"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Mapping Ashtakavarga cells to eight-dimensional hypercube vertices requires binary coordinates and a transformation; neither is supplied, so the proposed mathematical synthesis remains invalid.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"maps onto the vertices of an eight-dimensional hypercube\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "No binary-coordinate mapping is supplied in this hub."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "golden ratio"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The golden ratio is proposed without calculating any Nakshatra proportion, and deleting the prestigious term leaves the stated research direction unchanged.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"golden ratio\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No ratio is calculated, and the proposed research direction survives removal."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "recursive sequence frameworks"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No recurrence or sequence is defined for Nakshatra subdivisions; “recursive sequence frameworks” adds mathematical aura without a consequential construction.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"recursive sequence frameworks\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No recurrence is defined, and the proposed research direction survives removal."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "generates a multi-dimensional mathematical object"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Six Shadbala strengths do not by themselves generate a tensor field; no tensor rank, coordinates, transformation law, directional operation, or derivation is supplied.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "\"generates a multi-dimensional mathematical object\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Six strength values do not by themselves define a tensor field."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "structurally resemble weighted node connections"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Structurally resemble” explicitly presents Bhava aspects and weighted network edges as a proposed comparison, and L116 denies proof or literal propagation mechanics.",
+      "legacy": {
+        "anchor": "L114",
+        "quote": "\"structurally resemble weighted node connections\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Weighted-node language is proposed without a graph, weights, or propagation rule in this hub."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "initial values for Lorenz"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Initial values are required to integrate the Lorenz equations; the inputs are mathematically correct, procedurally necessary, and directly traceable to the model.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"initial values for Lorenz\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Initial values are required by Lorenz dynamics and carry the protocol's initialization step."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "Identify scale-invariant properties"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The protocol requires scale-invariant properties but defines no scaling transformation or invariant, so its central mathematical instruction cannot be executed or verified as written.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"Identify scale-invariant properties\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The protocol supplies no transformation or invariant to test."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 125,
+        "line_end": 125,
+        "quote": "mathematical patterns correspond to lived experience"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Correspondence between mathematical patterns and lived experience is the article’s synthesis step, but no measurement or mapping rule is defined and Noesis authorship remains implicit.",
+      "legacy": {
+        "anchor": "L125",
+        "quote": "\"mathematical patterns correspond to lived experience\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No correspondence rule or measurement is defined."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 129,
+        "line_end": 129,
+        "quote": "isomorphic — the same shape, rendered in different materials"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Isomorphism requires a structure-preserving bijection, not merely a similar shape in different materials; no such map exists in the post, so the closing definition and conclusion are false.",
+      "legacy": {
+        "anchor": "L129",
+        "quote": "\"isomorphic — the same shape, rendered in different materials\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Earlier equivalence claims preserve the argument if this closing occurrence is removed."
+      },
+      "id": "C044"
+    }
+  ]
+}

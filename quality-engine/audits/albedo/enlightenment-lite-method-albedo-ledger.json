@@ -1,0 +1,248 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "enlightenment-lite-method.md",
+  "source_path": "src/content/posts/enlightenment-lite-method.md",
+  "source_sha256": "2af776043f03d3f5c67847f8941e7ae56d03e336ad88bd6806cf1ae588a3bb55",
+  "legacy_audit_path": "quality-engine/audits/nigredo/enlightenment-lite-method.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Every transmission degrades. Every retransmission introduces noise."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The LITE section is explicitly introduced as a design philosophy; transmission and noise are sustained signal-engineering comparisons, with no literal communications mechanism inferred from this sentence.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"Every transmission degrades. Every retransmission introduces noise.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Signal-engineering truism inside the declared Transmission metaphor; reader-verifiable. Pass."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "The mystics who reported this were not speaking metaphorically."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence merges an unnamed historical report by “mystics” with a literal biological-system interpretation and expressly denies the metaphor boundary; neither sources nor a Noesis derivation are traced.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"The mystics who reported this were not speaking metaphorically.\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "§5 silent-upgrade trigger (\"not... metaphorically... describing a system state\"): the buffer-overflow model is asserted as literal mechanism of mystical experience — hardware (matter) produces/determines the experience state. Causal arrow reversed vs. house frame. The post's thesis rests on this being literal."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The prefrontal cortex can hold approximately four to seven items in working memory."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The four-to-seven working-memory range conflates distinct research estimates with a prefrontal-cortex localization, supplies no population or source, and is dispensable numerical scaffolding.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"The prefrontal cortex can hold approximately four to seven items in working memory.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Unsourced cognitive-psychology figure (tracks Miller 7±2 / Cowan 4±1) stated as bare fact; support is the research literature, not an observation the reader is invited to run. Argument survives removal — illustrative scaffolding. Recode to a self-test (digit span) or cut."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Consciousness, whatever its ultimate nature, runs on wetware with finite resources."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Within the explicitly proposed LITE model, finite wetware describes the organism’s processing interface rather than an ultimate ontology; this is internally consistent with raw consciousness as an ever-present stream.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"Consciousness, whatever its ultimate nature, runs on wetware with finite resources.\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Foundational premise: matter is the substrate consciousness depends on and runs on. The hedge (\"whatever its ultimate nature\") brackets ontology but the operational claim does load-bearing work; house frame runs the arrow the other way (consciousness primary; physical is signature). No declared-analogy marker; §9 ambiguity defaults to taxonomy."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The symptoms are well-documented in contemplative literature and clinical psychology alike"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence names contemplative literature, clinical psychology, Tibetan rlung, and spiritual emergency but gives no text, edition, clinical taxonomy, or evidence supporting the broad “well-documented” scope.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"The symptoms are well-documented in contemplative literature and clinical psychology alike\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Taxonomic/historical claim judged as history per §9: lung (rlung) and the spiritual-emergency category are real, named, and checkable. Pass."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "It is what is already transmitting at all times."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article explicitly labels this the encryption model; ever-present raw consciousness is a defined premise that remains internally consistent with selective biological rendering.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"It is what is already transmitting at all times.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Consciousness as ever-present, prior, not-to-be-found substrate — consistent with the house frame (cit as sole substrate), expressed in the post's model vocabulary. Pass."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "The visual system processes electromagnetic radiation and renders it as color."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Electromagnetic radiation to color, pressure waves to sound, and visceral signals to felt states are standard, independently reproducible physiological relations; the rendering analogy is not used as their evidence.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"The visual system processes electromagnetic radiation and renders it as color.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate basic physiology (also auditory/interoceptive parallels) embedded in the explicitly declared rendering-engine analogy. Pass."
+      },
+      "id": "C007"
+    }
+  ]
+}

@@ -1,0 +1,788 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "docker-for-chakras.md",
+  "source_path": "src/content/posts/docker-for-chakras.md",
+  "source_sha256": "c5ad957ad1e7967b35a4dfc771464b25a5697041807e1ee32b811ab7d01560b9",
+  "legacy_audit_path": "quality-engine/audits/nigredo/docker-for-chakras.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "The mind runs multiple processes simultaneously — and they interfere."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The excerpt literalizes mind-states as concurrently executing processes that interfere, but gives no process definition, measure, conditions, or source. The computational structure is unoperationalized.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"The mind runs multiple processes simultaneously — and they interfere.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A literal process-interference mechanism is asserted in frontmatter and repeated in the body."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "trauma container bleeds into the joy container"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Trauma and joy are presented as literal containers without an analogy marker or defined state boundary. The sentence conflates an undeclared computing metaphor with an empirical mechanism.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"trauma container bleeds into the joy container\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Trauma and joy become literal containers, a claim repeated in the breach section."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "The chakra system is a pre-digital containerization architecture."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The pre-digital containerization identity combines chakra tradition and Linux concepts without tracing either ingredient, declaring Noesis authorship, or marking a metaphor; the computational identity is unsupported.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"The chakra system is a pre-digital containerization architecture.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The literal chakra/container identity repeats at hero L35 and body L44."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "your father's voice is running in the same namespace. Not metaphorically."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Not metaphorically” explicitly upgrades the namespace comparison to a literal mechanism, but no namespace, process isolation, or measure exists for the remembered voice.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"your father's voice is running in the same namespace. Not metaphorically.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The literal namespace upgrade repeats throughout and is not occurrence-load-bearing."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The amygdala is firing survival code while the prefrontal cortex is trying"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence combines neural-region activity, causal authorship, and unmarked “survival code.” Separate the physiology from the computational comparison and do not treat brain regions as literal software agents.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"The amygdala is firing survival code while the prefrontal cortex is trying\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Neural regions become causal authors, but the larger container thesis survives this local claim."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The sympathetic and parasympathetic branches are not enemies"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Not enemies” is an openly figurative comparison of the measurable sympathetic and parasympathetic branches, and the adjacent Hermetic-poles framing makes the non-literal boundary explicit.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"The sympathetic and parasympathetic branches are not enemies\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "The paired autonomic branches are measurable physiology; calling them Hermetic poles is declared house framing."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The chakra system is a containerization architecture that predates Linux namespaces"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The chakra/containerization identity is repeated as literal architecture and historical priority without a traditional source, transformation trace, Noesis authorship marker, or declared metaphor.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"The chakra system is a containerization architecture that predates Linux namespaces\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The literal architecture claim repeats at L11/L35 and elsewhere."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The Taittirīya Upaniṣad (II.1–5) maps this precisely"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE",
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Taittirīya Upaniṣad II.1–5 presents the five kośas; it does not map host kernels, schedulers, process tables, system calls, or orchestration. “Maps this precisely” materially misattributes the modern synthesis.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"The Taittirīya Upaniṣad (II.1–5) maps this precisely\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The text does not map Linux constructs, and five mappings plus later compose mappings carry the analogy."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "When you eat, blood diverts to the digestive namespace"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Demand-related circulation changes are plausible, but “digestive namespace” silently fuses the observation with an undefined computing mechanism. Split the physiology from a clearly declared analogy.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"When you eat, blood diverts to the digestive namespace\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Demand-related circulation changes are observable; “namespace” remains the surrounding systems analogy."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "This triad is not decorative. It is structural."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Kha-Ba-La triad is explicitly named as house structure and the paragraph performs three separate removal tests. Its three terms, structural consequence, and in-post provenance all pass.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"This triad is not decorative. It is structural.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The paragraph performs the removal test for Kha, Ba, and La one by one; removing the triad collapses its argument."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "the system drifts toward heat death; without resistance, there is no form"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Removing generic psychological resistance does not entail thermodynamic heat death, and entropy is not identical to drag. The thermodynamic mapping is false and removable.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"the system drifts toward heat death; without resistance, there is no form\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Thermodynamic heat death does not follow from removing generic psychological resistance, and entropy is not drag."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Cortisol leaks into the relational processing queue. Oxytocin signaling gets deprioritized."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No measures support cortisol “leaking” into a relationship queue or oxytocin being scheduled downward. Hormonal correlates, causal authorship, and an undeclared queue metaphor are conflated.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"Cortisol leaks into the relational processing queue. Oxytocin signaling gets deprioritized.\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Hormones are silently cast as the scheduler of relationship experience rather than physical correlates."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The heart begins to process relationships as survival threats."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The heart is said to process relationships as threats without an operational organ-level measure, population, condition, or source. Reframe as a scoped felt experience or support the empirical mechanism.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"The heart begins to process relationships as survival threats.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A literal organ-level relationship-processing mechanism is asserted without a defined measure."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "a buffer overflow with physiological consequences"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Buffer overflow” is a specific computing failure silently upgraded to a physiological mechanism. No buffer, capacity, write, or overflow condition is defined.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"a buffer overflow with physiological consequences\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Computing language is silently upgraded to a literal physiological mechanism."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Kṛṣṇa does not tell him to hold space for his anxiety"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bhagavad Gītā 6.34–35 is named and the restless-wind, abhyāsa, and vairāgya teaching is represented faithfully; the source claim is distinct from the later systems translation.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"Kṛṣṇa does not tell him to hold space for his anxiety\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "The Gītā passage is used as Vedic operating grammar; its systems translation is openly declared as translation."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Attention is zero-sum."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Zero-sum” asserts a conserved attention quantity, but no resource metric, conditions, population, or source is given. The universal empirical and mathematical strength is unsupported.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Attention is zero-sum.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The universal attention model is local to this paragraph and does not carry the chakra-container thesis."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "one greedy process starves the others indefinitely"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Linux CFS is designed to apportion runtime fairly; absence of cpu.cfs_quota_us does not mean one greedy process starves all others indefinitely. The computational claim is false.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"one greedy process starves the others indefinitely\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "CFS generally apportions runtime, and the central analogy survives this false local claim's deletion."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Your nervous system operates under the same constraint."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The nervous-system equivalence inherits the false CFS premise and supplies no common scheduler, unit, or resource measure. The cross-domain synthesis is neither traced nor correct.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"Your nervous system operates under the same constraint.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No common scheduler or resource metric establishes the claimed equivalence."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "It is a dependency graph."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The chakra ordering is labeled a dependency graph without defined vertices, edges, dependency semantics, or an explicit Noesis/metaphor boundary. The mathematical structure is misapplied.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"It is a dependency graph.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Removing the graph label leaves the invented sequential chakra/kośa claims intact; no formal dependency relation is established."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The entropy that eventually stops every container is the friction"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Entropy is not a universal timer that stops every container, is not synonymous with friction, and does not imply that system failure is necessary for learning.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"The entropy that eventually stops every container is the friction\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Entropy is neither a universal container shutdown timer nor synonymous with friction or necessary learning."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "This is topological inspection."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No topology, neighborhood, invariant, or transformation is defined; “topological inspection” is an unproven mathematical label with no structural consequence or provenance.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"This is topological inspection.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No topology, invariant, neighborhood, or transformation is demonstrated; the paragraph survives after deleting the term."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The Quine is complete when the container no longer needs the containerizer."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A quine is a program that reproduces its own source representation; container independence does not instantiate that property. The term is definitionally misapplied.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"The Quine is complete when the container no longer needs the containerizer.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A Quine is a self-reproducing program; container independence does not demonstrate that mathematical/computational property."
+      },
+      "id": "C022"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "pharmacos-protocol.md",
+  "source_path": "src/content/posts/pharmacos-protocol.md",
+  "source_sha256": "b62b527473933e1bb9f0b34a64ca7be0084b39aa3d44492f291e62b4e712f087",
+  "legacy_audit_path": "quality-engine/audits/nigredo/pharmacos-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "the city of Athens selected two human beings from its margins"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L40 (the city of Athens selected two human beings from its margins). Legacy trace rechecked: Historical claim judged as history: the Thargelia pharmakos rite is accurately described; it is the post's scaffold. The available trace supports the selected mode at the stated scope. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"the city of Athens selected two human beings from its margins\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Historical claim judged as history: the Thargelia pharmakos rite is accurately described; it is the post's scaffold."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Walter Burkert, in Greek Religion, traces the etymology"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L40 (Walter Burkert, in Greek Religion, traces the etymology). Legacy trace rechecked: Real author, real work; pharmakos/pharmakon association is a standard scholarly claim. Judged as history; post does not borrow Burkert's authority as proof — it operates the etymology. The named source and represented content match at the stated level. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"Walter Burkert, in Greek Religion, traces the etymology\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Real author, real work; pharmakos/pharmakon association is a standard scholarly claim. Judged as history; post does not borrow Burkert's authority as proof — it operates the etymology."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The city is the heap. The pharmakos is the object marked for garbage collection."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 recertification of source L44 (The city is the heap. The pharmakos is the object marked for garbage collection.). Legacy trace rechecked: Declared analogy (\"I am describing a memory management algorithm\") with correct, operationalized GC semantics; the post's structural machine. Safe harbor + load-bearing. The nearby language makes the comparison non-literal and draws no literal consequence. The computational or mathematical comparison is explicitly declared and non-literal.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"The city is the heap. The pharmakos is the object marked for garbage collection.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Declared analogy (\"I am describing a memory management algorithm\") with correct, operationalized GC semantics; the post's structural machine. Safe harbor + load-bearing."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "a specific, visceral contraction in the solar plexus"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L48 (a specific, visceral contraction in the solar plexus). Legacy trace rechecked: First-person, replicable observation of the projection mechanism; the interior demonstration of the thesis. The available trace supports the selected mode at the stated scope. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"a specific, visceral contraction in the solar plexus\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "First-person, replicable observation of the projection mechanism; the interior demonstration of the thesis."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Psychologists call this projection. The term is accurate but flat."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L50 (Psychologists call this projection. The term is accurate but flat.). Legacy trace rechecked: Meta-critical usage: the psychological term is named accurately, then dissected as insufficient. No borrowed authority. The post does not supply the evidence conditions required for this mode and strength. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"Psychologists call this projection. The term is accurate but flat.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Meta-critical usage: the psychological term is named accurately, then dissected as insufficient. No borrowed authority."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The cost is structural. Every projected fragment is a part of the self now living outside the walls. The person who carries my envy also carries my capacity to acknowledge what I want. The person who carries my anger also carries my capacity to assert boundary. The projected material does not disappear. It is merely addressed elsewhere. The self-system loses the reference. The memory is not deleted. It is dereferenced. The garbage remains in the heap, but the pointer is null. Over time, this produces the characteristic hollowness of the chronic projector — the sense that one is somehow diminished, that one's responses are mechanical, that the vividness of life is happening elsewhere. The vividness is happening elsewhere. It was shipped there."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 recertification of source L52 (The cost is structural. Every projected fragment is a part of the self now living outside the walls. The person who carries my envy also carries my capacity to acknowledge what I want. The person who carries my anger also carries my capacity to assert boundary. The projected material does not disappear. It is merely addressed elsewhere. The self-system loses the reference. The memory is not deleted. It is dereferenced. The garbage remains in the heap, but the pointer is null. Over time, this produces the characteristic hollowness of the chronic projector — the sense that one is somehow diminished, that one's responses are mechanical, that the vividness of life is happening elsewhere. The vividness is happening elsewhere. It was shipped there.). Legacy trace rechecked: Pointer semantics used correctly and structurally mapped (dereference ≠ delete = projection ≠ resolution). The nearby language makes the comparison non-literal and draws no literal consequence. The computational or mathematical comparison is explicitly declared and non-literal.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"The memory is not deleted. It is dereferenced... the pointer is null.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Pointer semantics used correctly and structurally mapped (dereference ≠ delete = projection ≠ resolution)."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The Balinese Padiyami ceremony executes every 210 days."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L56 (The Balinese Padiyami ceremony executes every 210 days.). Legacy trace rechecked: No ceremony named \"Padiyami\" exists (the name appears only as a Koya tribal division in India). The 210-day cycle itself is real (Pawukon: odalan/Galungan/otonan). Invented name fused to a real cycle. Post survives removal (Thargelia + psyche examples remain). The named source, tradition, date, or provenance is materially wrong. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"The Balinese Padiyami ceremony executes every 210 days.\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "No ceremony named \"Padiyami\" exists (the name appears only as a Koya tribal division in India). The 210-day cycle itself is real (Pawukon: odalan/Galungan/otonan). Invented name fused to a real cycle. Post survives removal (Thargelia + psyche examples remain)."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "a chronic tension in my left shoulder that physical therapy could not address"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 recertification of source L68 (a chronic tension in my left shoulder that physical therapy could not address). Legacy trace rechecked: First-person embodied account; body framed as oracle/instrument, consciousness-primary throughout. The available trace supports the selected mode at the stated scope. No mathematical object needs an evidence lock.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"a chronic tension in my left shoulder that physical therapy could not address\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person embodied account; body framed as oracle/instrument, consciousness-primary throughout."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "This is not a moral advancement. It is an operational shift. The ancient city did not have the structural capacity to re-integrate civic shame. The shame was too large, the channels of resolution too narrow, the social architecture too rigid. The pharmakos was not a mistake. It was a correct solution for a system with limited memory and no runtime debugger. The modern individual who attempts to re-integrate projected material without adequate containment is not performing virtue. They are attempting garbage collection without a mark phase. They will crash."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 recertification of source L78 (This is not a moral advancement. It is an operational shift. The ancient city did not have the structural capacity to re-integrate civic shame. The shame was too large, the channels of resolution too narrow, the social architecture too rigid. The pharmakos was not a mistake. It was a correct solution for a system with limited memory and no runtime debugger. The modern individual who attempts to re-integrate projected material without adequate containment is not performing virtue. They are attempting garbage collection without a mark phase. They will crash.). Legacy trace rechecked: Mark phase correctly corresponds to mark-sweep GC; three conditions operationalize the mapping step by step. The nearby language makes the comparison non-literal and draws no literal consequence. The computational or mathematical comparison is explicitly declared and non-literal.",
+      "legacy": {
+        "anchor": "L78–80",
+        "quote": "\"attempting garbage collection without a mark phase... The mark phase requires three conditions\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Mark phase correctly corresponds to mark-sweep GC; three conditions operationalize the mapping step by step."
+      },
+      "id": "C009"
+    }
+  ]
+}

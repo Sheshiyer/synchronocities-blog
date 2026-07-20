@@ -1,0 +1,281 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-sacred-runtime.md",
+  "source_path": "src/content/posts/the-sacred-runtime.md",
+  "source_sha256": "2c3c0c29c9dd440206e80a7e6441614b07da4e144df6cf3948b88e679ad1538a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-sacred-runtime.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "the local anesthetic failed to block the inferior alveolar nerve"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the claim is reproducible at its stated strength and the cited context supplies the required trace. Legacy evidence reviewed: First-person embodied account; anatomical detail serves the observation, reader-replicable in kind.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"the local anesthetic failed to block the inferior alveolar nerve\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person embodied account; anatomical detail serves the observation, reader-replicable in kind."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "can block cortical processing entirely under sufficient load"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable source or derivation at the stated scope. Legacy evidence reviewed: Unnamed-neuroscience mechanism asserted as fact (\"neuroscience confirms\" family); reader cannot inspect their own PAG. Loosely stated: PAG mediates descending pain modulation; \"blocks cortical processing entirely\" / \"PAG overwhelmed\" is not standard physiology. Recurs at L54 (\"This is the PAG overwhelming the cortex\"). Removal leaves the dental narrative carrying the point.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"can block cortical processing entirely under sufficient load\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Unnamed-neuroscience mechanism asserted as fact (\"neuroscience confirms\" family); reader cannot inspect their own PAG. Loosely stated: PAG mediates descending pain modulation; \"blocks cortical processing entirely\" / \"PAG overwhelmed\" is not standard physiology. Recurs at L54 (\"This is the PAG overwhelming the cortex\"). Removal leaves the dental narrative carrying the point."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "describes a distributed consciousness architecture that predates the ego by millennia"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the prose fuses inherited teaching, empirical mechanism, and Noesis synthesis without the required boundary. Legacy evidence reviewed: Purusha Sookta (Ṛg Veda X.90) operated as house cosmology, not admired from outside; the Kernel mapping is the post's structural spine. Confident framing (\"not a poetic exaggeration\") is voice, not a finding.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"describes a distributed consciousness architecture that predates the ego by millennia\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Purusha Sookta (Ṛg Veda X.90) operated as house cosmology, not admired from outside; the Kernel mapping is the post's structural spine. Confident framing (\"not a poetic exaggeration\") is voice, not a finding."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "has demonstrated that endogenous electrical fields extend tens to hundreds of microns"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable source or derivation at the stated scope. Legacy evidence reviewed: Named lab + passive authority clause (\"has demonstrated\") doing the work an observation should do. Claims are broadly accurate to Levin's actual research (bioelectric patterning in morphogenesis, wound repair, cancer suppression — not fabricated), but cited as institutional validation of dashangulam. Scale conflation: microns beyond cell membranes ≠ a field extending ~ten fingers' breadth beyond the body.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"has demonstrated that endogenous electrical fields extend tens to hundreds of microns\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Named lab + passive authority clause (\"has demonstrated\") doing the work an observation should do. Claims are broadly accurate to Levin's actual research (bioelectric patterning in morphogenesis, wound repair, cancer suppression — not fabricated), but cited as institutional validation of dashangulam. Scale conflation: microns beyond cell membranes ≠ a field extending ~ten fingers' breadth beyond the body."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "documented this three thousand years before the voltmeter"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the prose fuses inherited teaching, empirical mechanism, and Noesis synthesis without the required boundary. Legacy evidence reviewed: Historical claim judged as history; dating plausible for the Ṛg Veda. House-frame priority statement, not an authority appeal.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "\"documented this three thousand years before the voltmeter\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Historical claim judged as history; dating plausible for the Ṛg Veda. House-frame priority statement, not an authority appeal."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "documented the unmaking power of pain — its capacity to destroy language"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the named source and represented content match at the stated level. Legacy evidence reviewed: Humanities citation (Scarry, *The Body in Pain*, 1985), honestly attributed with title and year; phenomenological claim the reader can test against their own pain experience. Exact quote \"the opposite of language\" not independently verified here but consistent with the source's known thesis.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"documented the unmaking power of pain — its capacity to destroy language\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Humanities citation (Scarry, *The Body in Pain*, 1985), honestly attributed with title and year; phenomenological claim the reader can test against their own pain experience. Exact quote \"the opposite of language\" not independently verified here but consistent with the source's known thesis."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "this layer carries patterning information that is not encoded in genes or synapses"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable source or derivation at the stated scope. Legacy evidence reviewed: \"Michael Levin's research shows\" — the canonical borrowed-authority marker. Adjacent claim \"faster than nerves, more global than hormones\" is dubious as stated (myelinated conduction is very fast). Fair representation of Levin's positions, but the argument leans on the lab's name, not on anything the reader can check.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"this layer carries patterning information that is not encoded in genes or synapses\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "\"Michael Levin's research shows\" — the canonical borrowed-authority marker. Adjacent claim \"faster than nerves, more global than hormones\" is dubious as stated (myelinated conduction is very fast). Fair representation of Levin's positions, but the argument leans on the lab's name, not on anything the reader can check."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "the morphogenetic field: the template that guides form, the attractor"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the local house frame is explicit and internally consistent without claiming external proof. Legacy evidence reviewed: Contested concept in mainstream biology, but explicitly framed as an operational mapping of the Vedic Dyau layer (\"In operational terms, this is…\") — declared model framing under the safe harbor, not a silent fact-claim.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"the morphogenetic field: the template that guides form, the attractor\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Contested concept in mainstream biology, but explicitly framed as an operational mapping of the Vedic Dyau layer (\"In operational terms, this is…\") — declared model framing under the safe harbor, not a silent fact-claim."
+      },
+      "id": "C008"
+    }
+  ]
+}

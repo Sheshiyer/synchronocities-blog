@@ -1,0 +1,243 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tryambakam.noesis/schemas/albedo-v2.3.schema.json",
+  "title": "Albedo v2.3 Per-Post Recertification Ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "ledger_state",
+    "post",
+    "source_path",
+    "source_sha256",
+    "legacy_audit_path",
+    "claims"
+  ],
+  "properties": {
+    "schema_version": { "const": "2.3" },
+    "ledger_state": { "enum": ["BOOTSTRAPPED", "RECERTIFIED"] },
+    "post": { "type": "string", "pattern": "^[^/]+\\.md$" },
+    "source_path": { "type": "string", "pattern": "^src/content/posts/[^/]+\\.md$" },
+    "source_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "legacy_audit_path": {
+      "type": "string",
+      "pattern": "^quality-engine/audits/nigredo/[^/]+\\.md-nigredo-audit\\.md$"
+    },
+    "claims": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/claim" }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "ledger_state": { "const": "RECERTIFIED" } } },
+      "then": {
+        "properties": {
+          "claims": {
+            "items": {
+              "properties": { "requires_review": { "const": false } }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "claimMode": {
+      "enum": [
+        "DIRECT-OBSERVATION",
+        "EMPIRICAL-CORRELATE",
+        "TRADITIONAL-SOURCE",
+        "HISTORICAL-CLAIM",
+        "HOUSE-MODEL",
+        "DERIVED-SYNTHESIS",
+        "DECLARED-METAPHOR"
+      ]
+    },
+    "claimStatus": {
+      "enum": [
+        "VERIFIED",
+        "ATTRIBUTED",
+        "COHERENT",
+        "DECLARED",
+        "UNSUPPORTED",
+        "CONTRADICTED",
+        "MISATTRIBUTED",
+        "MODE-CONFLATED"
+      ]
+    },
+    "lockValue": { "enum": ["PASS", "FAIL", "UNASSESSED", "NOT-APPLICABLE"] },
+    "locks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["correctness", "consequence", "provenance"],
+      "properties": {
+        "correctness": { "$ref": "#/$defs/lockValue" },
+        "consequence": { "$ref": "#/$defs/lockValue" },
+        "provenance": { "$ref": "#/$defs/lockValue" }
+      }
+    },
+    "math": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "load_bearing", "locks", "evidence_eligible"],
+      "properties": {
+        "role": { "enum": ["NONE", "LOAD-BEARING", "ANALOGICAL", "DECORATIVE", "WRONG"] },
+        "load_bearing": { "type": "boolean" },
+        "locks": { "$ref": "#/$defs/locks" },
+        "evidence_eligible": { "type": "boolean" }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "anchor",
+        "claim_mode",
+        "claim_status",
+        "remediation_codes",
+        "requires_review",
+        "math",
+        "rationale",
+        "legacy"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^C[0-9]{3,}$" },
+        "anchor": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["line_start", "line_end", "quote"],
+          "properties": {
+            "line_start": { "type": "integer", "minimum": 1 },
+            "line_end": { "type": "integer", "minimum": 1 },
+            "quote": { "type": "string", "minLength": 1 }
+          }
+        },
+        "claim_mode": { "$ref": "#/$defs/claimMode" },
+        "claim_status": { "$ref": "#/$defs/claimStatus" },
+        "remediation_codes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "KEEP",
+              "R-SPLIT",
+              "R-REMODE",
+              "R-SCOPE",
+              "R-SOURCE",
+              "R-ATTRIBUTE",
+              "R-CAUSE",
+              "R-MODEL",
+              "R-SYNTHESIS",
+              "R-METAPHOR",
+              "R-MATH",
+              "R-PROVENANCE",
+              "R-DELETE",
+              "R-MANUAL"
+            ]
+          }
+        },
+        "requires_review": { "type": "boolean" },
+        "math": { "$ref": "#/$defs/math" },
+        "rationale": { "type": "string", "minLength": 1 },
+        "legacy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["anchor", "quote", "type", "verdict", "load_bearing", "note"],
+          "properties": {
+            "anchor": { "type": "string", "minLength": 1 },
+            "quote": { "type": "string", "minLength": 1 },
+            "type": { "enum": ["science", "math"] },
+            "verdict": {
+              "enum": [
+                "ALIGNED",
+                "GROUNDED-OBSERVATIONAL",
+                "AUTHORITY-BORROWED",
+                "CONTESTED-AS-FACT",
+                "FABRICATED",
+                "INVERTED",
+                "INTEGRATED",
+                "DECORATIVE",
+                "WRONG",
+                "NOT FLAGGED (§5 safe harbor)",
+                "Pass — §5 safe harbor (declared analogy)",
+                "pass — safe harbor"
+              ]
+            },
+            "load_bearing": { "type": "boolean" },
+            "note": { "type": "string", "minLength": 1 }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "math": { "properties": { "role": { "const": "LOAD-BEARING" } } } } },
+          "then": {
+            "properties": {
+              "math": {
+                "properties": {
+                  "load_bearing": { "const": true },
+                  "evidence_eligible": { "const": true },
+                  "locks": {
+                    "properties": {
+                      "correctness": { "const": "PASS" },
+                      "consequence": { "const": "PASS" },
+                      "provenance": { "const": "PASS" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "math": { "properties": { "role": { "const": "DECORATIVE" } } } } },
+          "then": {
+            "properties": {
+              "math": {
+                "properties": {
+                  "load_bearing": { "const": false },
+                  "evidence_eligible": { "const": false },
+                  "locks": {
+                    "properties": {
+                      "correctness": { "const": "PASS" },
+                      "consequence": { "enum": ["PASS", "FAIL"] },
+                      "provenance": { "enum": ["PASS", "FAIL"] }
+                    },
+                    "anyOf": [
+                      { "properties": { "consequence": { "const": "FAIL" } } },
+                      { "properties": { "provenance": { "const": "FAIL" } } }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "math": { "properties": { "role": { "const": "ANALOGICAL" } } } } },
+          "then": {
+            "properties": {
+              "claim_mode": { "const": "DECLARED-METAPHOR" },
+              "claim_status": { "const": "DECLARED" },
+              "math": {
+                "properties": {
+                  "load_bearing": { "const": false },
+                  "evidence_eligible": { "const": false },
+                  "locks": {
+                    "properties": {
+                      "correctness": { "const": "NOT-APPLICABLE" },
+                      "consequence": { "const": "NOT-APPLICABLE" },
+                      "provenance": { "const": "NOT-APPLICABLE" }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

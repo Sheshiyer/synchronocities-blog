@@ -1,0 +1,358 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "72-hour-state-trace-protocol.md",
+  "source_path": "src/content/posts/72-hour-state-trace-protocol.md",
+  "source_sha256": "a64b630f56f93e07905bd0ed5a53cf54b8286af0914b499a62551d9ac320d490",
+  "legacy_audit_path": "quality-engine/audits/nigredo/72-hour-state-trace-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "You're tracing the nervous system's configuration across time."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The log records bodily reports, but calling the result a nervous-system configuration is an externally testable interpretation. No physiological measure, population, validation procedure, or traceable source supports that strength of claim.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"You're tracing the nervous system's *configuration* across time.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Working map for reader-replicable self-observation; no institutional authority invoked; reader is the instrument."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "sympathetic (fight/flight), parasympathetic (rest), or freeze"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The categories mix autonomic branches with a freeze response and present the taxonomy as settled physiology. The post supplies no source or operational criteria, and direct self-report cannot verify the physiological state.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"sympathetic (fight/flight), parasympathetic (rest), or freeze\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Standard neurophysiology labels used as logging categories the reader verifies on their own body; no causal-arrow claim about consciousness."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "72 hours is the minimum sample to see a pattern through noise."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Seventy-two hours equals three days, but the claim that it is the minimum useful sample has no dataset, comparison window, uncertainty, or derivation. The exact duration adds unsupported precision and its unique consequence is not demonstrated.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"72 hours is the minimum sample to see a pattern through noise.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Sampling heuristic operationalized by the 1/2/3-day progression that immediately follows (mood → reaction → loop); reader-falsifiable by running shorter windows."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Three days catches the recursive loop"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The Tuesday-to-Thursday story illustrates a sequence, but it does not define or demonstrate mathematical recursion or establish that three days detects one. No passing ingredients or reproducible transformation support the synthesis.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Three days catches the *recursive loop*\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Recursion is demonstrated structurally (Tuesday's signal → Wednesday's state → Thursday's story); removing it guts the \"Why 72 Hours\" section — the trace exists to catch this loop."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "La — inertia — needs 72 hours to reveal its groove."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "La is named as inertia, but the model supplies no internal rule or trace showing why La requires exactly seventy-two hours. The number is correct as a duration yet has no demonstrated model consequence or provenance.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"La — inertia — needs 72 hours to reveal its groove.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Kha-Ba-La house cosmology; ALIGNED by definition (§9). Protocol survives on observational grounds without it."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "That's 15-18 data points."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The calculation is explicit and reproducible from the protocol: five to six entries per day multiplied by three days yields fifteen to eighteen data points. The arithmetic changes the dosage specification and all inputs are traced in the source.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"That's 15-18 data points.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Correct operational arithmetic (5–6 × 3 = 15–18); numbers shown and correct; constitutes the protocol's dosage spec, not a name-drop."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "2-3 trigger categories produce 80% of state shifts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 2-3 and 80 percent prediction is a population-style quantitative generalization, not a direct observation. No reader logs, sample, measure, uncertainty, or source establish the proportions; the qualitative few-categories claim survives their removal.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"2-3 trigger categories produce 80% of state shifts\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Presented under \"What you'll typically find\" — a prediction about the reader's own log, falsifiable by reader practice, not a study-derived statistic."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "most people make moves from activation, not coherence"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Most people is a population generalization about decision-making state. The proposed self-trace has no cited sample, measure, or results capable of verifying that prevalence or causal framing.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"most people make moves from activation, not coherence\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Generalization inside the same observational frame; no authority cited, no contested model, no inversion; confidence rule applies."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "That transition is Ba's handoff protocol."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ba's handoff protocol is asserted without defining Ba in this post or showing an internally consistent transition rule. The adjacent questions are useful observations but do not establish the named mechanism.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"That transition is Ba's handoff protocol.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Kha-Ba-La house cosmology; ALIGNED by definition (§9)."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "72 hours. 18 data points."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The eighteen-point figure correctly recaps the upper end of the demonstrated calculation, but it performs no new operation and is removable without changing the protocol or inference.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"72 hours. 18 data points.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Recap of the L60 protocol arithmetic; correct."
+      },
+      "id": "C010"
+    }
+  ]
+}

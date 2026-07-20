@@ -1,0 +1,650 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "pattern-cross-reference-system.md",
+  "source_path": "src/content/posts/pattern-cross-reference-system.md",
+  "source_sha256": "275d86ed1cdf1bf9cd1cfdf4939575dd3498d1e9718437f9f6fb7191f39b1790",
+  "legacy_audit_path": "quality-engine/audits/nigredo/pattern-cross-reference-system.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Both are studying the same structure"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The essay asserts a Markov–Vimshottari identity without tracing states, transitions, or a Noesis transformation. The mathematical vocabulary is decorative and the hidden synthesis requires an explicit mapping.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"Both are studying the same structure\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Markov / transition-matrix mapping to Vimshottari asserted, never shown — no states, no transitions."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "Vimshottari-Markov: Temporal state evolution"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Vimshottari–Markov” is a Noesis pairing presented without ingredient traces or a transition mapping. The label supplies mathematical prestige but no demonstrated structure.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"Vimshottari-Markov: Temporal state evolution\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Watch-list name-drop (Markov); two-word gloss, no mechanism. Recode #5 applies."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "Graha-Cellular Automata: Relational rule dynamics"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Graha–Cellular Automata” hides a cross-domain synthesis and supplies no local state-transition rule. The mathematical label is removable decoration.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"Graha-Cellular Automata: Relational rule dynamics\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Watch-list name-drop (cellular automata); no rules shown."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Ashtakavarga-Hypercube: Binary state geometry"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Ashtakavarga–Hypercube” names a synthesis without defining vertices, dimensions, adjacency, or the transformation between ingredients. The geometry is decorative.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"Ashtakavarga-Hypercube: Binary state geometry\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Hypercube geometry named, never operationalized."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Nakshatra-Fibonacci: Growth spiral mathematics"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Nakshatra–Fibonacci” is presented as inherited structure without a traced sequence, ratio, or Noesis derivation. The mathematical term is decorative.",
+      "legacy": {
+        "anchor": "L72",
+        "quote": "\"Nakshatra-Fibonacci: Growth spiral mathematics\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Watch-list name-drop (Fibonacci); no ratios shown."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Shadbala-Tensor: Multi-dimensional field theory"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Shadbala–Tensor” hides a Noesis synthesis and provides neither tensor components nor transformation rules. The field-theory language is decorative.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"Shadbala-Tensor: Multi-dimensional field theory\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Watch-list name-drop (tensor fields); no field structure shown."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "Bhava-Neural Network: Weighted graph propagation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Bhava–Neural Network” supplies no nodes, weights, update law, or declared derivation. The comparison is synthesis laundering and the mathematical vocabulary is decorative.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"Bhava-Neural Network: Weighted graph propagation\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Neural-network name-drop; no weights or graph shown."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "adjusts the Shadbala tensor field, which modulates the Bhava network weights"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The asserted Shadbala-to-Bhava data flow combines untraced mathematical labels without quantities, mappings, or declared Noesis authorship. No operational structure follows.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"adjusts the Shadbala tensor field, which modulates the Bhava network weights\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Data-flow narrative reuses the name-drops; no quantities, ratios, or mappings."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "separated by over three millennia yet describe identical mathematical structures"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A deterministic Vimshottari schedule is not structurally identical to a stochastic Markov model. The legacy audit establishes the category mismatch; the repeated dates do not repair it.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"separated by over three millennia yet describe identical mathematical structures\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Pressed identity claim: the deterministic 120-year dasha cycle is not structurally identical to stochastic Markov theory (at best a degenerate case). Recode #5 escalation — the dates (1906 / ~1500 BCE) are judged as history and pass; the structural-identity claim fails."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "electromagnetic field dynamics in the body correlate with consciousness states"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is explicitly correlational, and the legacy audit confirms that bodily electromagnetic dynamics and state changes are instrument-checkable without asserting a causal origin.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"electromagnetic field dynamics in the body correlate with consciousness states\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Correlational, instrument-checkable framing; no causal arrow. Pass."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "sensory data, memory, and cognition follow computational architectures"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence defines the cross-reference system’s own information-processing category. As an explicitly presented architectural lens, it is internally coherent and makes no external proof claim.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"sensory data, memory, and cognition follow computational architectures\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Presented as a pattern category in the post's model register, not as settled fact. Pass."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "which neuroscience increasingly confirms"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Neuroscience increasingly confirms” names no study, population, measure, or uncertainty and cannot support the dynamical-system antecedent at its stated breadth.",
+      "legacy": {
+        "anchor": "L99",
+        "quote": "\"which neuroscience increasingly confirms\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Passive authority clause propping the conditional's antecedent; remove it and the \"if\" sentence stands."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "the Lorenz attractor's phase space structure describes possible consciousness states"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The conditional does not provide a mapping from Lorenz phase-space coordinates to measured consciousness states. The mathematical object is named but not operationalized or sourced.",
+      "legacy": {
+        "anchor": "L99",
+        "quote": "\"the Lorenz attractor's phase space structure describes possible consciousness states\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Chaos/phase-space mapping asserted in one sentence, not demonstrated; conditional framing mitigates but no structure is shown."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 115,
+        "line_end": 115,
+        "quote": "Fibonacci sequences in natural growth patterns correspond to sacred geometry"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Correspond” explicitly marks a comparison between Fibonacci growth examples and sacred geometry. No literal causal, numeric, or predictive inference follows from this line.",
+      "legacy": {
+        "anchor": "L115",
+        "quote": "\"Fibonacci sequences in natural growth patterns correspond to sacred geometry\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Fibonacci correspondence unnamed and unratioed; phyllotaxis core saves it from WRONG."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "Chaos theory dynamics correspond to Vedic astrology's description of life evolution"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Correspond” declares the chaos-theory/Vedic-astrology comparison, and the list draws no literal mechanism or prediction from it. The mathematical role is analogical.",
+      "legacy": {
+        "anchor": "L116",
+        "quote": "\"Chaos theory dynamics correspond to Vedic astrology's description of life evolution\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Watch-list name-drop (chaos theory); no mechanism."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 117,
+        "line_end": 117,
+        "quote": "Tensor field mathematics corresponds to consciousness field theories"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“Corresponds” clearly marks tensor mathematics and consciousness field theories as a comparison rather than an identity. No literal field calculation follows.",
+      "legacy": {
+        "anchor": "L117",
+        "quote": "\"Tensor field mathematics corresponds to consciousness field theories\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Watch-list name-drop (tensor fields); no structure."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 127,
+        "line_end": 127,
+        "quote": "Traditional contemplative practices correspond to contemporary neuroscience findings"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The line appeals to unspecified contemporary neuroscience findings without naming practices, populations, measures, results, or limits.",
+      "legacy": {
+        "anchor": "L127",
+        "quote": "\"Traditional contemplative practices correspond to contemporary neuroscience findings\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Vague appeal to unspecified \"findings\" as validation anchor; no observation offered."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 146,
+        "line_end": 146,
+        "quote": "the universe has a finite repertoire of mathematical structures"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A finite mathematical repertoire is a metaphysical model, but the prose states it as a universal external explanation rather than declaring a Noesis premise and defining its scope.",
+      "legacy": {
+        "anchor": "L146",
+        "quote": "\"the universe has a finite repertoire of mathematical structures\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Mathematical-universe metaphysics stated as fact — installed belief #1 (map treated as territory). This is the post's only answer to its own canonical question \"why do patterns repeat across distant domains?\""
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 148,
+        "line_end": 148,
+        "quote": "The connections are mathematical facts"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The conclusion launders the article’s unshown cross-domain mappings as pre-existing “mathematical facts.” The ingredients, transformations, and Noesis authorship remain hidden.",
+      "legacy": {
+        "anchor": "L148",
+        "quote": "\"The connections are mathematical facts\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Silent upgrade of correspondence to established fact; the post's concluding thesis rests on it."
+      },
+      "id": "C019"
+    }
+  ]
+}

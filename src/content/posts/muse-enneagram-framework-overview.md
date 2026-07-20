@@ -71,9 +71,9 @@ The primary correspondences:
 
 The core matrix operates on its own. But the framework's real power emerges through overlays — additional pattern systems that align with and amplify the nine-fold base.
 
-### The Spolski Endocrine Correspondence
+### The Proposed Noesis Endocrine Correspondence
 
-Dr. Spolski's framework provides the biochemical verification layer. Each hormone-Muse pair has measurable chemical correlates: secretion timing, receptor binding profiles, physiological effects. The Spolski Correspondence moves the Muse-Enneagram mapping from symbolic to empirical — not replacing the mythological dimension but grounding it in testable biochemistry.
+The nine-fold endocrine correspondence is a proposed, author-derived Noesis synthesis: a comparison among Muses, Enneagram types, hormones, and constellations. Hormones have measurable properties, including secretion timing, receptor binding profiles, and physiological effects, but those facts do not verify the cross-domain map or move it from symbolic comparison to established empirical finding.
 
 ### The Celestial-Hormonal Overlay
 
@@ -99,7 +99,7 @@ The framework is not descriptive only. It includes implementation protocols for 
 
 ## Entry Points
 
-For biochemistry-oriented readers: start with the Spolski Endocrine Correspondence and work outward to the Muse mappings.
+For biochemistry-oriented readers: start with the proposed Noesis endocrine correspondence and work outward to the Muse mappings.
 
 For psychology-oriented readers: start with the Enneagram type descriptions and work inward to the hormonal substrates.
 

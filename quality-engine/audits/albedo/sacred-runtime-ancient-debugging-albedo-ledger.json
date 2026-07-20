@@ -1,0 +1,617 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "sacred-runtime-ancient-debugging.md",
+  "source_path": "src/content/posts/sacred-runtime-ancient-debugging.md",
+  "source_sha256": "85ead4ff84f82e204e9e15d30d113f10d690c371e6fd0894b4c32283deeda24a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/sacred-runtime-ancient-debugging.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Grace Hopper's team found a moth stuck in a relay"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the 1947 Harvard Mark II relay-moth event and logbook notation are a specific historical fact traceable to the preserved operator log.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"Grace Hopper's team found a moth stuck in a relay\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "§9 historical claim (Harvard Mark II, 1947 logbook); factually accurate; used as a foil the post argues against, not as authority."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "the pharmakos ritual was a civic debugging protocol"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: calling pharmakos a civic debugging protocol is the article’s announced historical-to-computing comparison; the paragraph then separates the ritual facts from the analogy.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"the *pharmakos* ritual was a civic debugging protocol\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "§9 historical claim; matches classical accounts (fig branches, plague/famine triggers, marginal victim); title joke rests here but core argument survives removal."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "It assigns the distributed corruption to a single memory address"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: memory-address assignment and deallocation are explicitly introduced as systems terms for scapegoating; no literal software mechanism is asserted.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"It assigns the distributed corruption to a single memory address\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Declared analogy (§5); pointer/deallocation mechanism operationalized and mapped step-by-step, usage correct."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Specifically, it is a mark-and-sweep algorithm."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: mark-and-sweep is explicitly declared as the comparison and its mark/expel correspondence is shown without treating the ritual as executable software.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"Specifically, it is a mark-and-sweep algorithm.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Declared analogy (§5); two-phase mark→sweep mechanism demonstrated and mapped to loading→expulsion. Slight simplification of GC marking direction (real tracing marks the live set) stays within analogy tolerance; never upgraded to fact."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "the azazel goat — is sent into the wilderness carrying the sins of the polis"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the named Yom Kippur tradition faithfully reports the two-goat structure and wilderness-bearing role found in Leviticus 16.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"the *azazel* goat — is sent into the wilderness carrying the sins of the polis\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "§9 historical claim; accurate to Leviticus 16 (sacrificed goat + azazel goat); delete-vs-relocate distinction is the lens, correctly drawn."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Modern therapy uses the same architecture."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: “same architecture” explicitly compares a therapeutic container to bounded data processing and draws no literal storage or deletion claim.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"Modern therapy uses the same architecture.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Declared analogy (§5); characterization of the therapeutic container is reader-checkable by experience; no studies cited, no authority borrowed."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Every culture that developed a sophisticated consciousness technology also developed a debugging deity"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: four mythic exemplars are generalized to every culture and silently redescribed as debugging agents without source coverage, explicit Noesis authorship, or a traced comparison rule.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Every culture that developed a sophisticated consciousness technology also developed a debugging deity\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Author's own pattern generalization over accurate exemplars (Hermes/Mercury/Thoth/Loki as boundary-crossing translators); reader-falsifiable; confident tone is not a finding (§5)."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "This is not mythology. This is a role specification for a debugging agent."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the deadpan “role specification” line remains inside the article’s overt debugging comparison and makes no empirical prediction about deities.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"This is not mythology. This is a role specification for a debugging agent.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "§5 edge case explicitly considered: deadpan identity claim inside the post's declared comparative frame. Asserts cross-domain structural correspondence (house Hermetic method), not empirical fact; no §3 fail class applies."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "They wind around a central axis (the call stack)."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the central-axis/call-stack mapping is a nearby parenthetical comparison within an explicitly symbolic caduceus interpretation, not a literal computational claim.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"They wind around a central axis (the call stack).\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Declared analogy (§5); call stack / stack frames used correctly; serpent mapping demonstrated stepwise."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "That this symbol was adopted by the medical profession is not accidental."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: medical adoption of the caduceus is historical, while “not accidental” adds an unsourced causal interpretation; the two require separate evidence.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"That this symbol was adopted by the medical profession is not accidental.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "§9 historical claim; caduceus-as-medical-emblem is factual (esp. US usage). \"Not accidental\" is the author's lens interpretation (historians also record an Asclepius-confusion account) — interpretation, not borrowed authority or fabrication."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "ordered lists of function calls that show exactly how the program arrived"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: a stack trace is reproducibly inspectable as an ordered call sequence explaining program state; this correct definition is structural to the section’s divination comparison.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"ordered lists of function calls that show exactly how the program arrived\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Declared analogy (§5); stack-trace definition correct; mapping of augury/haruspicy/astrology onto nested state frames is the section's demonstrated mechanism."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "a biological organ that filters toxins from the blood"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the liver’s blood-processing and detoxification role is a bounded, standard physiological description sufficient for the stated organ-state premise.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"a biological organ that filters toxins from the blood\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Accurate basic physiology, reader-checkable; grounds the polis>environment>organism>organ frame-chain without invoking institutional authority."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "They were regression tests — scheduled executions of known-good procedures"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: ritual calendars as regression tests are explicitly framed through scheduled known-good procedures, with no claim that ancient rites literally executed software.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"They were regression tests — scheduled executions of known-good procedures\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Declared analogy (§5); regression-testing concept glossed correctly; carries the ritual-calendar section's exhibit."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "identified the deepest bug in the system as the ego itself"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: traditions are said to identify ego as the deepest bug, combining inherited teachings with a new software inference without separating sources or declaring Noesis authorship.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"identified the deepest bug in the system as the ego itself\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House cosmology: ego-deconstruction is the house Work; attributions to Vedantic/Buddhist/Neoplatonic strands are accurate as tradition history (§9)."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "You cannot kill PID 1."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: the ego/PID 1 analogy extracts a literal non-killability premise that is false across Unix and container contexts; the comparison therefore needs repair and scope.",
+      "legacy": {
+        "anchor": "L85",
+        "quote": "\"You cannot kill PID 1.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Declared analogy (§5); PID 1 / root-to-user privilege reduction / single-threaded event loop vs. microservices all used correctly; carries the essay's thesis payload (ego protocol)."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The Buddhist protocol of right view, right intention, right speech, right action"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: the Buddhist eightfold path is named and accurately enumerated in context; the same sentence identifies Vedantic neti neti and Sufi fana as their respective practices.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"The Buddhist protocol of right view, right intention, right speech, right action\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "§9 tradition description; eightfold list accurate (\"right awareness\" = sammā-sati); neti neti and fana correctly characterized; house-aligned consciousness work."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "Laughter is a stack overflow in the best possible sense"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Semantic review: “in the best possible sense” explicitly marks laughter-as-stack-overflow as playful comparison and no literal overflow prediction follows.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"Laughter is a stack overflow in the best possible sense\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Declared analogy (§5), explicitly playful (\"in the best possible sense\"); recursion/overflow gloss coherent; ornamental to the argument."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "the most complex runtime environment known to exist: human consciousness"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Semantic review: “most complex runtime environment known” combines a computing comparison with an unmeasured superlative about consciousness and supplies no comparison class or evidence.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"the most complex runtime environment known to exist: human consciousness\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Consciousness-primary house claim (Hermetic core equation); no authority borrowed; confident tone is the brand voice, not a grounding failure (§5)."
+      },
+      "id": "C018"
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "spell-work-reservoir.md",
+  "source_path": "src/content/posts/spell-work-reservoir.md",
+  "source_sha256": "34e8b797f2a891fa0c886b45e762e461e8945f854d0f3fe8d3aad2098fa9d058",
+  "legacy_audit_path": "quality-engine/audits/nigredo/spell-work-reservoir.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "high-symmetry brain-states ARE high-valence experience"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The frontmatter asserts identity between brain-state symmetry and valence as established fact. It supplies no method-matched source, measure, uncertainty, or boundary identifying this as STV’s hypothesis.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"high-symmetry brain-states ARE high-valence experience\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "llm.summary frontmatter echo of the body STV claim; frontmatter is preserved in CITRINITAS — recorded for trace"
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "paraphrasing Bhartṛhari, Vākyapadīya, 5th c. CE"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The epigraph explicitly labels itself a paraphrase, names Bhartṛhari and the Vākyapadīya, and accurately reports the sphoṭa teaching as source doctrine rather than empirical proof.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"paraphrasing Bhartṛhari, *Vākyapadīya*, 5th c. CE\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Epigraph; attribution honestly labeled as paraphrase; sphoṭa doctrine is house tradition — not flagged"
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "measurable in HRV, EEG coherence, vagal tone, cortisol clearance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Reproducible mantra effects across HRV, EEG coherence, vagal tone, and cortisol clearance are empirical causal/generalization claims; no protocol, population, measure, result, uncertainty, or source is supplied.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"measurable in HRV, EEG coherence, vagal tone, cortisol clearance\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Instrument-verifiable claim, practitioner-replicable; no institution invoked; confidence rule applies"
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "airflow, larynx position, vagal tone, and cranial resonance change in milliseconds"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence asserts millisecond physiological changes in several systems from uttering ka, but provides no instrument record, timing value, conditions, source, or causal evidence. “Milliseconds” adds unsupported precision and changes no downstream calculation.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"airflow, larynx position, vagal tone, and cranial resonance change in milliseconds\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Reader can speak *ka* and check; supports token-decays argument, which survives on the acoustic-envelope point alone"
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "it is a number regardless of which scratch-paper marks represent it"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“A mathematician makes the same kind of claim” explicitly marks the number/type-token comparison; no literal numerical mechanism is inferred from it.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "\"it is a number regardless of which scratch-paper marks represent it\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Declared analogy (\"the same kind of claim\") — §5 safe harbor; type/token invariance anchors the akshara argument"
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "The four-tier speech model — Vaikhari (articulated), Madhyama (sub-vocalized), Pashyanti (pre-linguistic apprehension), Para (the unmanifest source) — operates as access tiers from user space to root. Akshara is what is invariant across all four. The ka articulated, the ka sub-vocalized, the ka pre-linguistically recognized, and the ka present as pure phonemic potential — the same akshara, manifested at different depths. The model has nothing definite to compile without this invariance."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-REMODE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The four traditional speech tiers are correctly counted and the across-four invariant is structurally consequential and traceable in the paragraph, so the math locks pass. The row nevertheless combines traditional doctrine, a user-space/root analogy, and a new akshara-invariance synthesis without splitting or declaring Noesis authorship.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"Vaikhari (articulated), Madhyama (sub-vocalized), Pashyanti…, Para\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Four-tier speech model is Vedic house tradition, operated structurally (invariance across tiers)"
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "The 25 stops (sparśa) sit in a 5×5 grid: five rows by sthāna, five columns by combination of voicing and aspiration plus a fifth nasal column. Across each row: ka (hard, unvoiced, unaspirated) → kha (hard, aspirated) → ga (soft, voiced, unaspirated) → gha (soft, voiced, aspirated) → ṅa (soft, nasal). Down the rows: kavarga, cavarga, ṭavarga, tavarga, pavarga — articulation point moving from deep throat to lips."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The five-by-five Sanskrit stop inventory is accurately represented with five articulation rows and five stop/nasal columns; the count is central to the lattice section and the full enumeration provides reproducible provenance.",
+      "legacy": {
+        "anchor": "L85–95",
+        "quote": "\"The 25 stops (*sparśa*) sit in a 5×5 grid… the 49 are complete\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Register combinatorics shown and correct: 16 + 25 + 4 + 4 = 49; 16-vowel closure argued; without it the lattice section collapses"
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "technically a generator system: a minimal sequence whose intervals span"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SPLIT"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The Māheśvara Sūtras support pratyāhāra formation, but the post silently upgrades that linguistic device into a “minimal generator,” “interval” span, and basis-vector construction without defining the algebra; those mathematical identities are misapplied.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"technically a generator system: a minimal sequence whose intervals span\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Māheśvara Sūtras as generative device is accurate (pratyāhāra); \"basis vectors\" loose but inside declared technical framing"
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "it is an interpretive overlay tracking the somatic intensity axis"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The source explicitly declares the guṇa assignment an interpretive, non-Pāṇinian overlay, traces its phonetic-column and guṇa ingredients, and shows the proposed hard/mobile/clear transformation. This axis is consequential to the later valence-direction model and reproducible from the stated mapping.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "\"it is an interpretive overlay tracking the somatic intensity axis\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Explicitly labeled overlay (\"not canonical Pāṇini\"); guṇa frame is Vedic house cosmology; labeled model = permitted"
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "The folk taxonomy names something real about how phonemes act on the body. Hard syllables percuss the chest. Medium syllables mobilize the breath. Soft syllables sustain in the throat. Nasal syllables resonate in the cranium. The categories are not metaphors. They are descriptions of which somatic register each column inhabits."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal claims that hard, medium, soft, and nasal phonemes act on specific body regions go beyond the nearby reader exercise; no situated observation record, population, measurement, or causal evidence supports the generalized mechanism.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "\"Hard syllables percuss the chest… Nasal syllables resonate in the cranium\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Imperative-replicable (\"Sound the columns out loud\", L108); \"not metaphors\" survives via confidence rule + replicability"
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 116,
+        "line_end": 121,
+        "quote": "V₄ × D₅ — a 40-element symmetry group acting on 25 phonemes"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No valid D5 action on the ordered throat-to-lips rows or V4 action on the nasal column is defined. Therefore V4×D5 is not demonstrated as a 40-element symmetry group acting on all 25 phonemes; this central mathematical premise is false as stated.",
+      "legacy": {
+        "anchor": "L116–121",
+        "quote": "\"V₄ × D₅ — a 40-element symmetry group acting on 25 phonemes\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Toggles and orders correct (4 × 10 = 40); structure shown step by step. Minor imprecision: nasal column sits outside the V₄ action, so \"acting on 25 phonemes\" overstates — not definitional WRONG"
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 123,
+        "line_end": 123,
+        "quote": "A mantra is geometrically a trajectory through this lattice"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No metric, adjacency relation, or group action turns a mantra sequence into a geometric lattice trajectory. The claimed geometry is structurally central but underdefined and inherits the invalid V4×D5 construction.",
+      "legacy": {
+        "anchor": "L123",
+        "quote": "\"A mantra is geometrically a trajectory through this lattice\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Symmetry classes (palindromic, cyclic, dihedral) operationalize the group structure; core mechanism, passing"
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 125,
+        "line_end": 125,
+        "quote": "The combinatorial enumeration that gives the 16-vowel closure and the 5×5 stop grid traces back to Pingala's Chandaḥśāstra (200 BCE) and the Meru Prastara — the triangular array enumerating prosodic patterns, identical in structure to Pascal's triangle eighteen hundred years before Pascal. The combinatorial spine that generates the cardinality of the phonemic register is the same diagram the Indian tradition called Mount Meru."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The row misattributes the phoneme-register cardinality to Pingala’s prosodic Meru array and conflates later Indian binomial/Fibonacci developments with the extant Chandaḥśāstra. No derivation connects that array to 16+25+4+4.",
+      "legacy": {
+        "anchor": "L125–127",
+        "quote": "\"Meru Prastara… identical in structure to Pascal's triangle\" / \"binary… Fibonacci recursion\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Historical claims judged as history (§9): accurate — Pingala's combinatorics, ~1800 years before Pascal; Fibonacci here is substantiated history, not a watch-list name-drop"
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 131,
+        "line_end": 135,
+        "quote": "valence ≅ symmetry. Identity, not correlation. A maximally symmetric brain-state literally is"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "STV is presented as a literal identity, yet no brain-state mathematical object, symmetry measure, equivalence relation, dataset, or causal evidence is supplied. The ≅ identity is mathematically undefined and carries the post’s core valence bridge.",
+      "legacy": {
+        "anchor": "L131–135",
+        "quote": "\"valence ≅ symmetry. Identity, not correlation. A maximally symmetric brain-state literally *is*\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "QRI's Symmetry Theory of Valence is a fringe, non-consensus theory presented as settled fact with no model-framing hedge; the entire lattice→valence bridge rests on it"
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 133,
+        "line_end": 133,
+        "quote": "the brain-state-and-its-temporal-evolution producing that experience"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence appears inside an attributed STV blockquote, but no primary text or exact citation establishes that this is a faithful quotation rather than the post’s paraphrase; provenance is insufficient for ATTRIBUTED.",
+      "legacy": {
+        "anchor": "L133",
+        "quote": "\"the brain-state-and-its-temporal-evolution producing that experience\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Causal arrow runs matter → experience inside the endorsed quote (§3.6: substrate as subject producing experience as object)"
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 137,
+        "line_end": 137,
+        "quote": "The empirical operationalization is CDNS — consonance / dissonance / noise signature. Decompose EEG/MEG harmonics; the ratio of consonant-to-dissonant-to-noise content predicts valence. Preliminary results align with the prediction. Further: high-symmetry brain-states correspond to topologically coherent EM-field pockets — the topological-pocket hypothesis that gives experience an objective, frame-invariant boundary in the field."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The CDNS ratio and “preliminary results” are empirical/statistical claims with no formula, dataset, population, effect, uncertainty, paper, or null comparison. The ratio cannot serve as evidence and is nonconsequential until specified.",
+      "legacy": {
+        "anchor": "L137",
+        "quote": "\"Decompose EEG/MEG harmonics… Preliminary results align with the prediction\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Unnamed \"preliminary results\" doing the work an observation should; passive authority clause"
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 137,
+        "line_end": 137,
+        "quote": "The empirical operationalization is CDNS — consonance / dissonance / noise signature. Decompose EEG/MEG harmonics; the ratio of consonant-to-dissonant-to-noise content predicts valence. Preliminary results align with the prediction. Further: high-symmetry brain-states correspond to topologically coherent EM-field pockets — the topological-pocket hypothesis that gives experience an objective, frame-invariant boundary in the field."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "One paragraph inseparably mixes an empirical CDNS prediction, unnamed results, and an attributed topological-pocket hypothesis, then states an objective field boundary. No topology, invariant, or source supports the mathematical mechanism; split reporting from endorsement.",
+      "legacy": {
+        "anchor": "L137",
+        "quote": "\"topologically coherent EM-field pockets… objective, frame-invariant boundary\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "EM-field theory of consciousness stated as fact; contested hypothesis promoted to mechanism"
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 139,
+        "line_end": 139,
+        "quote": "the wallpaper symmetry of a compiled mantra-pattern is its valence signature"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The mantra “wallpaper symmetry” is undefined because the phoneme lattice/group action is invalid, while the valence identity is unsupported. The synthesis is central but neither mathematically correct nor traceable.",
+      "legacy": {
+        "anchor": "L139",
+        "quote": "\"the wallpaper symmetry of a compiled mantra-pattern is its valence signature\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "The post's core thesis application; inherits STV wholesale, stated as \"direct\" implication without hedge. Remove it and the argument collapses"
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 145,
+        "line_end": 145,
+        "quote": "CSF flow through Meckel's cave — entrains to the periodicity"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "CSF flow through Meckel’s cave entraining to mantra periodicity is a causal anatomical claim with no frequency, measure, protocol, evidence, or source. “Periodicity” supplies precision-aura but no operated calculation.",
+      "legacy": {
+        "anchor": "L145",
+        "quote": "\"CSF flow through Meckel's cave — entrains to the periodicity\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Speculative anatomy stated as mechanism; Meckel's cave/CSF are real structures but the entrainment claim is unestablished"
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 151,
+        "line_end": 151,
+        "quote": "A bīja syllable — Hrīṁ, Klīṁ, Śrīṁ, the Hūṁ of Om Maṇi Padme Hūṁ — is structurally maximal. A seed point whose orbit under the right symmetry generators reconstructs the full pattern. The anusvāra carrier (the ṁ) is the resonance-port that couples the discrete point into a sustained tone the substrate entrains to. The tantric claim that the bīja carries the deity's full presence in seed-form is, structurally, exactly what seed of a symmetry orbit means."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The row fuses traditional bīja doctrine, an undefined group-orbit construction, and a physiological entrainment mechanism. A seed point’s orbit does not reconstruct an unspecified full pattern, and neither group action nor substrate coupling is demonstrated.",
+      "legacy": {
+        "anchor": "L145–151",
+        "quote": "\"recruits more generators… a seed point whose orbit… reconstructs the full pattern\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Group-orbit vocabulary operationalized on bīja syllables; structural extension of the (passing) lattice math"
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 159,
+        "line_end": 159,
+        "quote": "Read through Kha-Ba-La as substrate grammar"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Read through Kha-Ba-La” explicitly announces the Noesis frame, and witness, substrate, and constraint are defined consistently with the post’s selected house vocabulary.",
+      "legacy": {
+        "anchor": "L159",
+        "quote": "\"Read through Kha-Ba-La as substrate grammar\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House cosmology by definition (§9); Kha/Ba/La mapped structurally onto witness/substrate/friction"
+      },
+      "id": "C021"
+    }
+  ]
+}

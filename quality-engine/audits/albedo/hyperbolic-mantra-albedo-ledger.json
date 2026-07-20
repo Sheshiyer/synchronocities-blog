@@ -1,0 +1,2326 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "hyperbolic-mantra.md",
+  "source_path": "src/content/posts/hyperbolic-mantra.md",
+  "source_sha256": "d46f26c8848b450d58cd0089a780e6ed9783162c6ece1d592548d7cc1d6d5007",
+  "legacy_audit_path": "quality-engine/audits/nigredo/hyperbolic-mantra.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 6,
+        "line_end": 6,
+        "quote": "The reports converge across cultures, substances, and centuries."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Cross-cultural and cross-substance convergence is an externally testable corpus claim, but no report inventory, sampling frame, coding method, frequency, uncertainty, or traceable dataset is supplied.",
+      "legacy": {
+        "anchor": "L6",
+        "quote": "\"The reports converge across cultures, substances, and centuries.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The unspecified corpus claim repeats at L67/L71/L89/L115/L121–L139/L149/L169/L177."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 6,
+        "line_end": 6,
+        "quote": "The geometry is data — and the data is hyperbolic."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The excerpt silently turns unsourced phenomenology plus real hyperbolic mathematics into a literal measured identity. No metric or declared Noesis transformation makes “the data is hyperbolic” mathematically valid.",
+      "legacy": {
+        "anchor": "L6",
+        "quote": "\"The geometry is data — and the data is hyperbolic.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Frontmatter literalizes experiential geometry, a claim repeated throughout the body."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 6,
+        "line_end": 6,
+        "quote": "Five-fold, seven-fold, nine-fold periodic symmetries that the flat plane forbids."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The flat crystallographic restriction excludes 5-, 7-, and 9-fold periodic rotational symmetry, but L101 repeats the same fact; deleting this occurrence leaves the proof and thesis intact.",
+      "legacy": {
+        "anchor": "L6",
+        "quote": "\"Five-fold, seven-fold, nine-fold periodic symmetries that the flat plane forbids.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L101 repeats the same flat-plane restriction, so this occurrence is removable."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "The substrate at depth inhabits exactly that geometry."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A literal negative-curvature substrate is inferred from report language without measurement, declared model boundaries, or a traced Noesis synthesis. The geometry-to-substrate identity is misapplied.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"The substrate at depth inhabits exactly that geometry.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The hero asserts literal substrate curvature repeated throughout the article."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "DMT phenomenology"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The summary assigns DMT phenomenology to a specific geometric regime but gives no population, measure, method, source-level result, or uncertainty for that empirical relationship.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"DMT phenomenology\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The summary assigns DMT/mantra experience to a literal hyperbolic substrate repeated in the body."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "There are infinitely many regular tilings of the hyperbolic plane."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Infinitely many regular hyperbolic tilings is a correct theorem, but the same theorem remains at L97 and L175; the epigraph occurrence is removable and therefore decorative.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"There are infinitely many regular tilings of the hyperbolic plane.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L175 repeats the same infinite-family fact, so this occurrence is removable."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "Across the McKenna corpus, Rick Strassman's clinical work"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The named McKenna and Strassman bodies of work are real, but the post does not trace which observations, populations, or methods support its claimed shared geometric cluster.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"Across the McKenna corpus, Rick Strassman's clinical work\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Named authorities repeat an unsupplied report corpus that appears throughout."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "Recursive self-similarity. Hypersymmetric tessellation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recursive self-similarity and “hypersymmetric tessellation” are presented as coded empirical features, but no examples, definitions, scoring procedure, or corpus source establish those mathematical labels.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "\"Recursive self-similarity. Hypersymmetric tessellation.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The detailed phenomenology is presented as corpus-derived without examples, frequencies, or coding method."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Convergent reports of the same geometric features."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claimed convergence on “the same geometric features” lacks a dataset and a geometry-identification procedure; similarity language cannot establish a shared metric structure.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"Convergent reports of the same geometric features.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The convergence claim repeats across the report sections and conclusion."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The structure is hyperbolic geometry. Not metaphorically. Item-for-item."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Not metaphorically. Item-for-item.” launders an untraced Noesis synthesis as literal empirical geometry. The report ingredients and metric transformation are both missing.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"The structure is hyperbolic geometry. Not metaphorically. Item-for-item.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The literal geometry identity repeats at L89/L103/L113/L115/L141/L147/L149/L169/L171/L177."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "Triangles sum to exactly 180°."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Euclidean triangle-angle sum is correctly stated, provides the baseline curvature test used throughout, and has standard geometric provenance.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"Triangles sum to exactly 180°.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The Euclidean angle sum supplies the article's baseline curvature test."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "Parallel lines stay parallel."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Distinct Euclidean parallel lines remain equidistant and do not meet. The property is correct, structurally supports the flat/hyperbolic contrast, and has standard provenance.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"Parallel lines stay parallel.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Euclidean parallel behavior supplies the article's baseline curvature test."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "Circumferences grow linearly with radius (2πr)."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Euclidean circumference 2πr is correct and supplies the linear-growth baseline required for the later exponential comparison; formula, consequence, and provenance pass.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"Circumferences grow linearly with radius (2πr).\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Linear Euclidean growth is the necessary contrast for the exponential-capacity argument."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "Triangles sum to more than 180°."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Spherical geodesic triangles have angle sum greater than 180°. The fact correctly distinguishes positive curvature in the three-surface comparison and is standard geometry.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"Triangles sum to *more* than 180°.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The spherical angle sum distinguishes positive curvature in the three-geometry comparison."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "Parallel lines converge."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Spherical great-circle geodesics do not form parallel lines; they intersect. The claim is definitionally false, removable, and checked against standard geometry.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"Parallel lines converge.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Great-circle geodesics intersect; spherical geometry has no parallel great-circle geodesics."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "Circumferences grow more slowly than linearly."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "At fixed curvature scale, spherical circumference grows as a sine function and more slowly than Euclidean 2πr. It completes the three-way growth comparison with standard provenance.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"Circumferences grow more slowly than linearly.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Sublinear spherical growth completes the article's three-way capacity comparison."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Triangles sum to less than 180°."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Hyperbolic geodesic triangles have angle sum below 180°. This is a correct, central curvature diagnostic with standard provenance.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"Triangles sum to *less* than 180°.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The hyperbolic angle deficit is a core diagnostic used later in the argument."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Parallel lines diverge — exponentially."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Geodesic separation in constant negative curvature grows exponentially with distance. The fact is correct, central to the model, and standardly provenanceable.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"Parallel lines diverge — exponentially.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Exponential geodesic divergence is central to the negative-curvature model."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Circumferences grow exponentially with radius."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "For fixed negative curvature, circle circumference grows hyperbolically/exponentially with radius. This correct formula-level behavior is the capacity argument’s spine.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "\"Circumferences grow *exponentially* with radius.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Exponential circumference growth is the mathematical spine of the capacity claim."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Negative curvature accommodates exponentially more local structure than flat space."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Negative-curvature area/volume growth accommodates exponentially more distinguishable local regions per radius than Euclidean space. The mathematical claim, consequence, and provenance pass.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"Negative curvature accommodates exponentially more local structure than flat space.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct growth principle and the mathematical spine of the proposed model."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Andrés Gómez Emilsson and the Qualia Research Institute have argued"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence accurately reports that Andrés Gómez Emilsson and QRI have argued for geometry-of-qualia/phenomenal-manifold models. Under v2.3, accurate attribution does not prove or automatically fail the model.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"Andrés Gómez Emilsson and the Qualia Research Institute have argued\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Named authority carries one repeated corpus/curvature occurrence."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "a literal claim about the phenomenal manifold's curvature, not a metaphor"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Within the same attributed sentence, this row reports the literal—not merely metaphorical—strength of QRI’s published position. It recertifies the attribution, not the empirical truth of phenomenal curvature.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"a literal claim about the phenomenal manifold's curvature, not a metaphor\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No metric supports the upgrade, which repeats throughout."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "A Schläfli symbol {p, q} encodes a regular tiling"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The Schläfli symbol {p,q} correctly denotes p-gons with q meeting at each vertex. The notation is required downstream and has standard tiling-theory provenance.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"A **Schläfli symbol** {p, q} encodes a regular tiling\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct definition and necessary notation for the structural argument."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "The arithmetic determines which surface hosts the tiling"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The stated (p−2)(q−2) inequalities correctly separate spherical, Euclidean, and hyperbolic regular tilings. The derivation is reproducible and structurally used.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"The arithmetic determines which surface hosts the tiling\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The three stated inequalities correctly distinguish spherical, Euclidean, and hyperbolic regular tilings."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "{7,3} — heptagons meeting three at a vertex"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "{7,3} correctly denotes a regular hyperbolic heptagonal tiling with three faces per vertex, and {3,7} is its dual. The example is structurally consequential and standard.",
+      "legacy": {
+        "anchor": "L99",
+        "quote": "\"{7,3} — heptagons meeting three at a vertex\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct regular hyperbolic tiling example, with {3,7} as dual."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "Five-fold and seven-fold periodic symmetry, forbidden on the flat plane"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The flat-plane restriction is correct, but this occurrence repeats C003/L6 while the Schläfli inequalities already prove it; deleting it leaves the inference intact.",
+      "legacy": {
+        "anchor": "L101",
+        "quote": "\"Five-fold and seven-fold periodic symmetry, forbidden on the flat plane\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L6 already states the same flat-plane restriction."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "the manifold is hyperbolic"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Observed rotational order alone cannot identify an ambient metric: finite motifs and nonperiodic/quasicrystalline patterns can carry such orders. The false inference is central and provenance-checkable.",
+      "legacy": {
+        "anchor": "L103",
+        "quote": "\"the manifold is hyperbolic\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Rotational order alone cannot identify a metric, and the identity repeats throughout."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 107,
+        "line_end": 107,
+        "quote": "The boundary is then infinitely far away"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The open Poincaré-disk boundary lies at infinite hyperbolic distance. This correct property is necessary to the bounded-rendering/infinite-content argument.",
+      "legacy": {
+        "anchor": "L107",
+        "quote": "\"The boundary is then **infinitely far away**\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct Poincaré-disk metric property."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 107,
+        "line_end": 107,
+        "quote": "appear as circular arcs perpendicular to the boundary"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Poincaré-disk geodesics are diameters or circular arcs orthogonal to the boundary. The statement is correct, structurally explanatory, and standard.",
+      "legacy": {
+        "anchor": "L107",
+        "quote": "\"appear as circular arcs perpendicular to the boundary\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct description of disk-model geodesics."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 109,
+        "line_end": 109,
+        "quote": "conformal-but-not-isometric embedding"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The disk model is conformal but not Euclidean-isometric, correctly explaining preserved angles and shrinking Euclidean tile images. The distinction is structurally used and standard.",
+      "legacy": {
+        "anchor": "L109",
+        "quote": "\"conformal-but-not-isometric embedding\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The distinction explains how the bounded rendering represents equal hyperbolic tiles."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 111,
+        "line_end": 111,
+        "quote": "finite Euclidean area but infinite hyperbolic area"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The unit disk has finite Euclidean area and infinite hyperbolic area under the Poincaré metric. This correct contrast is central and standardly provenanceable.",
+      "legacy": {
+        "anchor": "L111",
+        "quote": "\"finite Euclidean area but infinite hyperbolic area\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Correct disk-model contrast and central bounded/infinite structure."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 113,
+        "line_end": 113,
+        "quote": "A finite moment of consciousness can carry"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A mathematical disk model is silently converted into a literal theorem about finite moments carrying infinite phenomenal detail. No measurement or declared Noesis transformation supports the cross-domain identity.",
+      "legacy": {
+        "anchor": "L113",
+        "quote": "\"A finite moment of consciousness can carry\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The literal capacity theorem repeats the bounded-experience claim at L115/L171."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 115,
+        "line_end": 115,
+        "quote": "the Poincaré disk is the structural picture"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Poincaré disk is proposed as the structural picture of reports, but the report corpus, feature coding, metric, and Noesis transformation are not traced.",
+      "legacy": {
+        "anchor": "L115",
+        "quote": "\"the Poincaré disk is the structural picture\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Unsupplied reports recur in many authority rows."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 115,
+        "line_end": 115,
+        "quote": "Not a metaphor for it. The structure being reported."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Not a metaphor” presents the untraced report-to-disk synthesis as literal structure. The row hides both the model boundary and the missing empirical metric.",
+      "legacy": {
+        "anchor": "L115",
+        "quote": "\"Not a metaphor for it. The structure being reported.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The literal Poincaré identity repeats at L113/L141/L171."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 121,
+        "line_end": 121,
+        "quote": "Recursive self-similarity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recursive self-similarity is repeated as a corpus observation without a traceable report, scale definition, coding method, or evidence that the mathematical property actually holds.",
+      "legacy": {
+        "anchor": "L121",
+        "quote": "\"Recursive self-similarity.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The item-by-item section repeats a corpus feature without supplying observations."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 123,
+        "line_end": 123,
+        "quote": "literally renders infinite tilings in finite displays"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The disk can render an infinite tiling within a finite Euclidean display, but L109–111 already establish that property; this repeated occurrence is removable.",
+      "legacy": {
+        "anchor": "L123",
+        "quote": "\"literally renders infinite tilings in finite displays\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The correct disk-model property underwrites the bounded-experience analogy."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 125,
+        "line_end": 125,
+        "quote": "Five-fold, seven-fold, nine-fold, eleven-fold tilings."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Specific 5-, 7-, 9-, and 11-fold reported tilings are asserted without report anchors, symmetry measurements, sampling, or coding; the exact mathematical labels are unverified.",
+      "legacy": {
+        "anchor": "L125",
+        "quote": "\"Five-fold, seven-fold, nine-fold, eleven-fold tilings.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The precise reported symmetry orders remain unsupported corpus claims."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 127,
+        "line_end": 127,
+        "quote": "{5, q}, {7, q}, {9, q}, {11, q}"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "For suitable q satisfying the hyperbolic inequality, the listed {5,q}, {7,q}, {9,q}, and {11,q} families are valid. This is the section’s explicit, reproducible prediction.",
+      "legacy": {
+        "anchor": "L127",
+        "quote": "\"{5, q}, {7, q}, {9, q}, {11, q}\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "These valid families are the explicit prediction matched to the reported symmetry orders."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 129,
+        "line_end": 129,
+        "quote": "More space than fits."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“More space than fits” is presented as a quoted report category, but no speaker, report, condition, frequency, or source anchor is supplied.",
+      "legacy": {
+        "anchor": "L129",
+        "quote": "\"More space than fits.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Another quoted phenomenological feature appears without traceable reports."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 131,
+        "line_end": 131,
+        "quote": "Exactly what negative curvature feels like, locally."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Mathematical facts about negative curvature do not establish what that curvature “feels like.” The sentence launders an unmeasured cross-domain synthesis as direct phenomenology.",
+      "legacy": {
+        "anchor": "L131",
+        "quote": "\"Exactly what negative curvature feels like, locally.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Mathematical angle and volume facts do not establish a phenomenological metric."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 131,
+        "line_end": 131,
+        "quote": "Triangles sum to less than 180°. Volume grows exponentially with radius."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Both hyperbolic angle deficit and exponential volume growth are correct, but C017–C020 already state them; deleting this occurrence leaves the prediction unchanged.",
+      "legacy": {
+        "anchor": "L131",
+        "quote": "\"Triangles sum to less than 180°. Volume grows exponentially with radius.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "These correct consequences provide the article's explicit negative-curvature prediction."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 133,
+        "line_end": 133,
+        "quote": "Tessellation that breathes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Tessellation that breathes” is treated as a geometric report category without source examples, a tiling definition, scale measure, or coding procedure.",
+      "legacy": {
+        "anchor": "L133",
+        "quote": "\"Tessellation that breathes.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The report feature is asserted without source examples or coding."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 135,
+        "line_end": 135,
+        "quote": "Different fundamental domains at different scales of the same tiling."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Hyperbolic isometries preserve hyperbolic scale; the same regular tiling does not acquire different fundamental domains merely by Euclidean display shrinkage. The claim is false.",
+      "legacy": {
+        "anchor": "L135",
+        "quote": "\"Different fundamental domains at different scales of the same tiling.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Hyperbolic isometries preserve hyperbolic scale; this claimed scale hierarchy is not established."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 137,
+        "line_end": 137,
+        "quote": "Encounter entities embedded in tiling."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Entities “embedded in tiling” are asserted as a report category without traceable observations or a mathematical criterion for embedding.",
+      "legacy": {
+        "anchor": "L137",
+        "quote": "\"Encounter entities embedded in tiling.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The entity-report category is again unsourced."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 139,
+        "line_end": 139,
+        "quote": "Plausible; not formally grounded. Flagged."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling the agency-detection explanation plausible and flagged is honest about uncertainty, but a derived synthesis still requires traced report and cognitive ingredients; the declaration alone does not pass v2.3.",
+      "legacy": {
+        "anchor": "L139",
+        "quote": "\"Plausible; not formally grounded. Flagged.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Explicit conjectural labeling satisfies the model/speculation safe harbor."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 141,
+        "line_end": 141,
+        "quote": "The substrate inhabits the hyperbolic regime"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post converts unmatched report categories and hyperbolic facts into a literal substrate regime without declaring or tracing the Noesis synthesis.",
+      "legacy": {
+        "anchor": "L141",
+        "quote": "\"The substrate inhabits the hyperbolic regime\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "This repeats the literal substrate claim at L37/L73/L89/L147/L149/L177."
+      },
+      "id": "C046"
+    },
+    {
+      "anchor": {
+        "line_start": 145,
+        "line_end": 145,
+        "quote": "Vaikhari (articulated), Madhyama (mental), Pashyanti (pre-linguistic), Para (silence)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The four Vaikhari/Madhyama/Pashyanti/Para speech levels are accurately reported as a traditional model and are not presented as empirical proof merely by attribution.",
+      "legacy": {
+        "anchor": "L145",
+        "quote": "\"Vaikhari (articulated), Madhyama (mental), Pashyanti (pre-linguistic), Para (silence)\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate use of a Vedic speech-level tradition inside house cosmology."
+      },
+      "id": "C047"
+    },
+    {
+      "anchor": {
+        "line_start": 147,
+        "line_end": 147,
+        "quote": "the syllable executing below the symbolic layer directly on the neural substrate"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A traditional speech level is silently converted into compiler execution on a neural substrate. The computing mechanism, causal physiology, and Noesis authorship are all undeclared.",
+      "legacy": {
+        "anchor": "L147",
+        "quote": "\"the syllable executing below the symbolic layer directly on the neural substrate\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": false,
+        "note": "Neural substrate becomes compiler of experiential geometry, and equivalent substrate claims recur."
+      },
+      "id": "C048"
+    },
+    {
+      "anchor": {
+        "line_start": 147,
+        "line_end": 147,
+        "quote": "The substrate's resonance manifold begins to curve."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The resonance-manifold curvature claim combines mantra, neuroscience, and geometry without a metric, ingredient trace, or explicit Noesis model boundary.",
+      "legacy": {
+        "anchor": "L147",
+        "quote": "\"The substrate's resonance manifold begins to **curve**.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "No metric exists, and the curvature claim repeats throughout."
+      },
+      "id": "C049"
+    },
+    {
+      "anchor": {
+        "line_start": 149,
+        "line_end": 149,
+        "quote": "Reports converge across traditions"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Cross-traditional convergence among Sanskrit, Tibetan, Christian hesychast, and Sufi practices is asserted without a corpus, comparable conditions, feature coding, or uncertainty.",
+      "legacy": {
+        "anchor": "L149",
+        "quote": "\"Reports converge across traditions\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The comparative Sanskrit/Tibetan/Christian/Sufi corpus is not supplied."
+      },
+      "id": "C050"
+    },
+    {
+      "anchor": {
+        "line_start": 149,
+        "line_end": 149,
+        "quote": "The substrate enters a hyperbolic regime"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The literal hyperbolic-substrate conclusion is an undeclared synthesis of unsupported reports and geometric facts; no measured transformation connects them.",
+      "legacy": {
+        "anchor": "L149",
+        "quote": "\"The substrate enters a hyperbolic regime\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The conclusion repeats the literal substrate mechanism."
+      },
+      "id": "C051"
+    },
+    {
+      "anchor": {
+        "line_start": 151,
+        "line_end": 151,
+        "quote": "fills the entire Poincaré disk"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A discrete symmetry orbit of one seed does not fill the entire disk; its accumulation can approach the boundary, but the orbit is not the disk. The error is central and standardly checkable.",
+      "legacy": {
+        "anchor": "L151",
+        "quote": "\"fills the entire Poincaré disk\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A discrete orbit does not fill the disk, and L153/L173 repeat the orbit-seed claim."
+      },
+      "id": "C052"
+    },
+    {
+      "anchor": {
+        "line_start": 153,
+        "line_end": 153,
+        "quote": "The seed reconstructs the entire pattern"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A point orbit is not the full tiling and does not reconstruct all faces, edges, and vertices from the seed alone. The false mapping carries the bīja conclusion.",
+      "legacy": {
+        "anchor": "L153",
+        "quote": "\"The seed reconstructs the entire pattern\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "A point orbit is not a full tiling, and related orbit claims recur."
+      },
+      "id": "C053"
+    },
+    {
+      "anchor": {
+        "line_start": 157,
+        "line_end": 157,
+        "quote": "S¹ → S³ → S²"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "S¹ → S³ → S² correctly represents the Hopf fibration’s circle fiber, total space, and base. It is the declared section anchor, with standard topology provenance.",
+      "legacy": {
+        "anchor": "L157",
+        "quote": "\"S¹ → S³ → S²\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The correct Hopf fibration is the section's local-to-global structural anchor."
+      },
+      "id": "C054"
+    },
+    {
+      "anchor": {
+        "line_start": 157,
+        "line_end": 157,
+        "quote": "the circles fill S³ without intersecting"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The later sentence explicitly declares this Hopf use a structural metaphor rather than a consciousness model. Circle fibers filling S³ without intersection remain inside that non-literal frame.",
+      "legacy": {
+        "anchor": "L157",
+        "quote": "\"the circles fill S³ without intersecting\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Circle fibers fill S³ without intersection, but this occurrence is removable from the article's thesis."
+      },
+      "id": "C055"
+    },
+    {
+      "anchor": {
+        "line_start": 157,
+        "line_end": 157,
+        "quote": "every pair of fibers forms a Hopf link"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Every distinct pair of Hopf fibers is linked, and the post’s explicit structural-metaphor disclaimer prevents this correct property from becoming a literal consciousness prediction.",
+      "legacy": {
+        "anchor": "L157",
+        "quote": "\"every pair of fibers forms a Hopf link\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "This is a correct independent Hopf property but is not occurrence-load-bearing."
+      },
+      "id": "C056"
+    },
+    {
+      "anchor": {
+        "line_start": 159,
+        "line_end": 159,
+        "quote": "The Bloch sphere of a single qubit is exactly S²."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Pure qubit rays form the Bloch sphere S². The fact is correct, structurally supplies the information-state side of the Hopf bridge, and has standard provenance.",
+      "legacy": {
+        "anchor": "L159",
+        "quote": "\"The Bloch sphere of a single qubit is exactly S².\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The Bloch-sphere fact supplies the information-state side of the Hopf bridge."
+      },
+      "id": "C057"
+    },
+    {
+      "anchor": {
+        "line_start": 159,
+        "line_end": 159,
+        "quote": "The full state space (with global phase) is S³."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Normalized qubit state vectors before quotienting global phase form S³, and the post explicitly confines the Hopf application to a structural metaphor with no literal consciousness inference.",
+      "legacy": {
+        "anchor": "L159",
+        "quote": "\"The full state space (with global phase) is S³.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The normalized qubit carrier statement is correct but removable from the declared consciousness metaphor."
+      },
+      "id": "C058"
+    },
+    {
+      "anchor": {
+        "line_start": 161,
+        "line_end": 161,
+        "quote": "The full symmetry orbit of the seed under the local generator fills S³."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "One local generator generally produces a one-parameter or subgroup-limited orbit, not all of S³. The false orbit claim is structurally used and standardly refutable.",
+      "legacy": {
+        "anchor": "L161",
+        "quote": "\"The full symmetry orbit of the seed under the local generator fills S³.\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "One local generator normally yields a one-dimensional or subgroup-limited orbit, not all S³."
+      },
+      "id": "C059"
+    },
+    {
+      "anchor": {
+        "line_start": 163,
+        "line_end": 163,
+        "quote": "Penrose treats the Hopf fibration extensively in The Road to Reality"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Penrose’s The Road to Reality does treat the Hopf fibration in its spin/rotation geometry. The row is a bibliographic attribution, not proof of the consciousness transfer.",
+      "legacy": {
+        "anchor": "L163",
+        "quote": "\"Penrose treats the Hopf fibration extensively in *The Road to Reality*\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate historical/bibliographic reference, separate from the declared consciousness metaphor."
+      },
+      "id": "C060"
+    },
+    {
+      "anchor": {
+        "line_start": 169,
+        "line_end": 169,
+        "quote": "mystical-tradition convergence on these orders"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No cross-traditional dataset is supplied for the asserted convergence on particular symmetry orders, so population, observations, coding, and uncertainty are absent.",
+      "legacy": {
+        "anchor": "L169",
+        "quote": "\"mystical-tradition convergence on these orders\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The claimed cross-traditional symmetry-order dataset remains unshown."
+      },
+      "id": "C061"
+    },
+    {
+      "anchor": {
+        "line_start": 169,
+        "line_end": 169,
+        "quote": "substrate's high-load regime"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A literal high-load substrate regime is inferred from the unsupported convergence while hiding its status as a Noesis synthesis; no measured regime variable is defined.",
+      "legacy": {
+        "anchor": "L169",
+        "quote": "\"substrate's high-load regime\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A literal high-load geometric substrate is inferred from the unsupported convergence."
+      },
+      "id": "C062"
+    },
+    {
+      "anchor": {
+        "line_start": 171,
+        "line_end": 171,
+        "quote": "a literal description, not a poetic one"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Literal, not poetic” upgrades the finite-disk comparison to an ontological claim about experience without a metric or declared Noesis transformation.",
+      "legacy": {
+        "anchor": "L171",
+        "quote": "\"a literal description, not a poetic one\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The literal bounded-experience claim repeats L113/L115."
+      },
+      "id": "C063"
+    },
+    {
+      "anchor": {
+        "line_start": 173,
+        "line_end": 173,
+        "quote": "Bīja as orbit-seed."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The bīja/orbit identity relies on the false claims that a seed orbit fills the disk and reconstructs the tiling. No syllable-to-group action is defined, so the mathematical synthesis fails.",
+      "legacy": {
+        "anchor": "L173",
+        "quote": "\"Bīja as orbit-seed.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "No syllable-to-group generator or manifold action is defined, so the orbit language remains evocative."
+      },
+      "id": "C064"
+    },
+    {
+      "anchor": {
+        "line_start": 175,
+        "line_end": 175,
+        "quote": "There are infinitely many hyperbolic tilings."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Infinitely many hyperbolic tilings is correct, but C006/L62 and the Schläfli enumeration already establish it; this occurrence is removable.",
+      "legacy": {
+        "anchor": "L175",
+        "quote": "\"There are infinitely many hyperbolic tilings.\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "L62 already states the same infinite-family fact."
+      },
+      "id": "C065"
+    },
+    {
+      "anchor": {
+        "line_start": 177,
+        "line_end": 177,
+        "quote": "reports — across cultures, across substances, across millennia"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The conclusion repeats cross-cultural, cross-substance, and millennia-scale convergence without a traceable corpus, comparable observation conditions, or coding method.",
+      "legacy": {
+        "anchor": "L177",
+        "quote": "\"reports — across cultures, across substances, across millennia\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "The conclusion repeats the authority-dependent convergence premise."
+      },
+      "id": "C066"
+    },
+    {
+      "anchor": {
+        "line_start": 177,
+        "line_end": 177,
+        "quote": "Mantra at depth inhabits curvature."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-REMODE",
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The mantra/curvature identity is an undeclared Noesis synthesis presented as literal geometry. Neither the traditional ingredient nor the empirical metric supports that strength.",
+      "legacy": {
+        "anchor": "L177",
+        "quote": "\"Mantra at depth inhabits curvature.\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The conclusion repeats the literal mantra/substrate identity."
+      },
+      "id": "C067"
+    },
+    {
+      "anchor": {
+        "line_start": 179,
+        "line_end": 179,
+        "quote": "Kha witnesses the curvature directly"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-MODEL",
+        "R-REMODE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Read through Kha-Ba-La” declares a house frame, but the frame then treats unmeasured curvature as directly witnessed fact. House coherence cannot immunize the literal mathematical/empirical upgrade.",
+      "legacy": {
+        "anchor": "L179",
+        "quote": "\"Kha witnesses the curvature directly\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Explicit Kha-Ba-La house framing, not external scientific proof."
+      },
+      "id": "C068"
+    }
+  ]
+}

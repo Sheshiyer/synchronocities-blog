@@ -1,0 +1,1992 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "your-reality-is-a-smart-contract.md",
+  "source_path": "src/content/posts/your-reality-is-a-smart-contract.md",
+  "source_sha256": "bffee3340cbf6fe2c37dfdbe7faf410e5704d6e56c1e69cf99466d9b23ddc942",
+  "legacy_audit_path": "quality-engine/audits/nigredo/your-reality-is-a-smart-contract.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 11,
+        "line_end": 11,
+        "quote": "A smart contract is code that executes deterministically when its conditions are met"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The frontmatter gives a sound high-level definition of deterministic smart-contract execution, but the body repeats it at L40; this occurrence is correct, provenance-traceable, and removable.",
+      "legacy": {
+        "anchor": "L11",
+        "quote": "\"A smart contract is code that executes deterministically when its conditions are met\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Sound frontmatter definition, but removable because the body repeats it verbatim at L40."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "A mantra operates on the same principle"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The mantra/smart-contract parallel is a new Noesis synthesis, but the prose presents “the same principle” without tracing ingredients, transformation, or authorship and later literalizes the analogy.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"A mantra operates on the same principle\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "House mantra operation is explicitly framed as conditional sound/action architecture."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "A smart contract is code that executes deterministically when its conditions are met"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Deterministic execution under specified conditions is a sound defining property of on-chain smart contracts. It establishes the source architecture, changes the article if removed, and is technically provenance-traceable.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"A smart contract is code that executes deterministically when its conditions are met\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Sound body definition that establishes the mathematical comparison before the mantra mapping."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The architecture is identical"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A mantra and a smart contract do not have definitionally identical architectures. The article’s central literal identity is false even though a declared comparison could survive.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"The architecture is identical\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": true,
+        "note": "Sustained analogy does not make mantra and smart-contract architecture definitionally identical; the phrase is a silent upgrade."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The Śatapatha Brāhmaṇa states that the world was spoken into structure"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Śatapatha Brāhmaṇa is explicitly named and its ritual speech/creation teaching is faithfully reported at a high level; the row certifies attribution, not empirical construction by speech.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"The Śatapatha Brāhmaṇa states that the world was spoken into structure\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House tradition is named and operated within consciousness-/speech-primary causation."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The Gospel of John opens with the same claim"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Gospel of John is named and the opening Logos teaching is accurately represented. The subsequent compiler application remains the author’s separate synthesis.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"The Gospel of John opens with the same claim\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate textual history used inside the named word-primary house frame."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Vedic goddess Vāk is not a metaphor for communication"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The line moves from the traditional figure of Vāk to a literal pre-runtime substrate without separating the source teaching from the article’s new computing interpretation or declaring Noesis authorship.",
+      "legacy": {
+        "anchor": "L42",
+        "quote": "\"Vedic goddess Vāk is not a metaphor for communication\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "The silent-upgrade phrase is inventoried; it operates the house speech-primary cosmology rather than borrowing science."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "transmit a mantra's logic into the student's nervous system"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Initiation is assigned a literal neural deployment mechanism, but no observer, physiological measure, conditions, or source supports transmission of “mantra logic” into a nervous system.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"transmit a mantra's logic into the student's nervous system\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Initiation is silently upgraded into an irreversible neural deployment mechanism."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The transaction is irreversible. The code is now live"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claimed irreversibility and live-code consequence depends on the unsupported neural-deployment premise and provides no traced transformation from initiation to smart-contract state.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"The transaction is irreversible. The code is now live\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "This duplicates the load-bearing initiation mechanism in the preceding row."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "metabolic heat accumulated through practice"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Tapas as a traditional discipline/heat is inseparably glossed as accumulated metabolic heat. Split the attributed teaching from the physiological claim and source the latter.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"metabolic heat accumulated through practice\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Tapas is given a literal physiological accumulation mechanism without measurement; the individual gloss is removable."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Every smart contract begins with a deployment transaction"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Deployment transactions are valid common smart-contract background, but the universal wording is removable and the body’s mantra comparison does not depend on this separate occurrence.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"Every smart contract begins with a deployment transaction\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Deployments are common, but constructor/deployment background is removable from the mantra thesis."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "write immutable logic onto a distributed ledger"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Deployed blockchain bytecode is durably recorded on a distributed ledger, but “immutable logic” needs platform scope and the correct background detail is removable from the mantra thesis.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"write immutable logic onto a distributed ledger\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Deployed bytecode is durable, but this correct background is removable from the mantra thesis."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "onto a distributed ledger"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Distributed ledgers are accurately associated with common smart-contract deployment, but this fragment adds no necessary structure beyond the preceding deployment description.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"onto a distributed ledger\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct blockchain background, but removing this phrase leaves the post's comparison intact."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The transaction is irreversible"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Blockchain finality is platform-dependent and contract/application state may be changed; “the transaction is irreversible” is false as a universal technical rule.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"The transaction is irreversible\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Blockchain finality and application state are not universally irreversible."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "a precise configuration of breath rate, tongue placement, laryngeal tension, and mental focus"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The text presents breath rate, tongue placement, laryngeal tension, and mental focus as a precise mantra configuration without naming a tradition, text, lineage, procedure, or range.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"a precise configuration of breath rate, tongue placement, laryngeal tension, and mental focus\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Traditional mantra parameters are structurally operated within house cosmology."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Change any parameter and the function reverts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No observational protocol or source shows that changing any mantra parameter universally prevents operation. The exceptionless revert language exceeds available evidence.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"Change any parameter and the function reverts\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "No observational protocol shows that every parameter change prevents mantra operation."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "a specific function call with correctly typed arguments"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Typed arguments are valid for Solidity ABI function calls, but not every smart-contract trigger has this form. The detail is correct under scope and removable from the article’s thesis.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"a specific function call with correctly typed arguments\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Correct ABI-level background, but the individual detail fails the removal test."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Change any parameter and the function reverts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Changing an argument does not universally make a smart-contract call revert; many alternative values are valid. The claimed rule is technically false and removable.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"Change any parameter and the function reverts\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Smart-contract calls do not universally revert for every changed argument."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "uninitiated recitation produces noise instead of coherence"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A traditional initiation distinction is fused with an undefined physiological “coherence” outcome. Separate the teaching from the empirical effect and source both at their proper strength.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"uninitiated recitation produces noise instead of coherence\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A traditional distinction is silently promoted to a physiological coherence mechanism."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "the fallback function — the routine that executes when the contract receives input"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "A Solidity fallback can execute on unmatched calls or plain Ether receipt, but the implementation background is removable and does not support the human-runtime inference.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"the fallback function — the routine that executes when the contract receives input\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Fallback behavior is removable implementation background and the central comparison survives without it."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "the compiler throws an exception. The catch block is missing"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The sentence conflates compile-time errors, runtime exceptions, and catch handling, then maps them literally onto mind. The technical mechanism is wrong and the analogy is undeclared.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "\"the compiler throws an exception. The catch block is missing\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The sentence conflates compilation with runtime exception handling and invents a catch-block mechanism for mind."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "measured in glucose, cortisol modulation, and sustained prefrontal engagement"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No source, population, units, or procedure measures tapas as glucose, cortisol modulation, and prefrontal engagement, much less equates those measures with attention cost.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"measured in glucose, cortisol modulation, and sustained prefrontal engagement\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Tapas is reduced to unmeasured metabolic/neural quantities and assigned an anti-spam mechanism."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Both prevent spam. Both enforce scarcity"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Both” declares a comparison but silently upgrades distinct transaction-pricing and practice-cost ideas into shared anti-spam/scarcity mechanisms without traced ingredients or transformation.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"Both prevent spam. Both enforce scarcity\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "The asserted biological equivalence between tapas and transaction pricing is not demonstrated."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "the cost of computation measured in ether"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Ethereum computation is metered in gas units; transaction fees are paid in ETH as gas used times fee rate. “Measured in ether” conflates the unit and payment.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"the cost of computation measured in ether\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Computation is metered in gas units; the transaction fee is paid in ETH from gas used times fee rate."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Both prevent spam"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Gas pricing can deter spam, but no common cost function or evidence establishes the claimed identity with tapas. The mathematical bridge is false and unprovenanced.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"Both prevent spam\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Gas pricing can deter spam, but no common cost function establishes the asserted identity with tapas."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The Ṛg Veda maps speech across four layers"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ṛg Veda 1.164.45 mentions four quarters of speech, but the named Para–Pashyanti–Madhyama–Vaikhari scheme is not faithfully attributable there in the form asserted.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"The Ṛg Veda maps speech across four layers\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Ṛg Veda 1.164.45 mentions four quarters, but attributing the named Para–Pashyanti–Madhyama–Vaikhari scheme to it is false."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "they form a compiler pipeline"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The surrounding “compiler terms” and source-to-output framing explicitly declare the four-level speech stack as a computing comparison. No literal compiler mechanism is required by this row.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"they form a compiler pipeline\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The four speech layers are explicitly and consistently mapped to specification, AST, source, and output."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "the raw specification, the problem statement"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“This is source code in its most abstract form” explicitly marks Para as the first element of the compiler analogy; no literal mathematical prediction follows.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"the raw specification, the problem statement\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The first explicit pipeline correspondence is demonstrated but individually removable."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "the abstract syntax tree"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“In compiler terms” explicitly declares the Pashyanti/AST comparison and confines it to structural analogy.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"the abstract syntax tree\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The second explicit pipeline correspondence is demonstrated but individually removable."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "This is the human-readable source"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "“This is the human-readable source” continues the already declared compiler comparison for Madhyama without asserting a literal compilation mechanism.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "\"This is the human-readable source\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The third explicit pipeline correspondence is demonstrated but individually removable."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "the compiled binary"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The Vaikhari/compiled-binary phrase occurs inside the explicitly declared compiler-stack analogy and does not itself make a literal causal or numeric inference.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"the compiled binary\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The fourth explicit pipeline correspondence is demonstrated but individually removable."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Once compiled, it cannot be uncompiled"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Compiled binaries can be disassembled and often decompiled; irreversibility of an emitted sound or ledger history does not make compilation itself irreversible.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"Once compiled, it cannot be uncompiled\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "Binaries can be disassembled or decompiled; irreversibility belongs to emitted sound/on-chain history, not compilation itself."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The vocal apparatus — tongue, palate, larynx, breath — is the compiler engine"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The compiler-stack section and preceding “in compiler terms” marker make the vocal-apparatus/compiler-engine comparison explicit. It is an analogy, not a physiological compiler claim.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"The vocal apparatus — tongue, palate, larynx, breath — is the compiler engine\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "The embodied mantra apparatus is structurally operated within the house sound-primary frame."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The Bali Padiyami ritual in Bali operates on a 210-day cycle"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose conflates Indian Bali Padyami/Balipratipada with Bali’s 210-day Pawukon calendar. The ritual, place, and cycle are materially misidentified.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"The Bali Padiyami ritual in Bali operates on a 210-day cycle\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "Bali Padyami is the Indian Balipratipada observance; the post conflates it with Bali's 210-day Pawukon calendar."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The priests recite at specific frequencies because the runtime requires it"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A frequency-dependent ritual runtime is asserted without identifying priests, frequencies, measurement, outcome, tradition, or source.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"The priests recite at specific frequencies because the runtime requires it\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A literal frequency-dependent execution mechanism is asserted without measurement."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "is the compiler engine"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The exact fragment repeats the compiler-engine label inside the already declared compiler-stack comparison; no literal translation algorithm is inferred by this row alone.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"is the compiler engine\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The vocal apparatus is labeled a compiler without a defined translation algorithm."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "Remove the observer and the body becomes mere mechanism"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Observer, body, and resistance are explicitly tested through three removals. The triad is internally consistent, structurally necessary, and provenance-traceable within the article’s house model.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"Remove the observer and the body becomes mere mechanism\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "The observer, body, and resistance removal tests explicitly operate the canonical house triad."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "electromagnetic radiation between 390 and 700 nanometers"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Approximately 390–700 nm is a reasonable scoped range for human visible light and is stated as physiological input rather than metaphysical proof.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"electromagnetic radiation between 390 and 700 nanometers\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Reasonable visible-spectrum approximation; opsin conformational cascades are established physiology."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "through opsin conformational cascades"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Opsin conformational change is an established component of visual transduction and is accurately separated from the later philosophical color claim.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"through opsin conformational cascades\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Recognizable visual-transduction physiology, distinct from the inverted color-production claim."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "compiled through three billion years of evolutionary iterations"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Three billion years of evolutionary iterations” gives an unsourced chronology and linear compilation mechanism without defining lineage, evidence, uncertainty, or what was iterated.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"compiled through three billion years of evolutionary iterations\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Linear-progress evolutionary history is stated as settled causal compilation rather than a model."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The output — red, blue, green — is not reality"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The line inseparably mixes color phenomenology, a philosophical claim about reality, and a biological return-value metaphor. Split observation, interpretation, and house model before judging evidence.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"The output — red, blue, green — is not reality\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Retinal chemistry is made the compiler that produces conscious color experience."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "The amygdala fires before your prefrontal cortex identifies the threat"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Amygdala activity can precede some conscious threat appraisal, but the universal amygdala-before-prefrontal sequence lacks task, population, timing measure, uncertainty, and source.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"The amygdala fires before your prefrontal cortex identifies the threat\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "Neural activity is made the origin of felt fear and conscious interpretation."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "pattern-matching templates inherited across generations"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Broad transgenerational pattern-matching templates are asserted without identifying the inherited substrate, population, measure, or source.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"pattern-matching templates inherited across generations\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A broad transgenerational neural-template mechanism is stated without a model or observation."
+      },
+      "id": "C043"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "You do not choose to feel fear"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is scoped to the reader’s immediate phenomenology of fear arising before deliberate choice; observer, object, and introspective procedure are available without adding a neural mechanism.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"You do not choose to feel fear\"",
+        "type": "science",
+        "verdict": "INVERTED",
+        "load_bearing": true,
+        "note": "The nervous-system contract is given causal authorship over experience."
+      },
+      "id": "C044"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Once the amygdala fires, the record is permanent"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Amygdala activation does not create a universally permanent record. The exceptionless claim is false and can be removed without losing the preceding situated observation.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"Once the amygdala fires, the record is permanent\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": true,
+        "note": "Amygdala activation does not create an immutable permanent record."
+      },
+      "id": "C045"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "every cell is connected and all records are preserved"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No identified Haṭha Yoga text or lineage supports the universal claim that every cell is connected and all records are preserved; the tradition is materially misrepresented.",
+      "legacy": {
+        "anchor": "L78",
+        "quote": "\"every cell is connected and all records are preserved\"",
+        "type": "science",
+        "verdict": "FABRICATED",
+        "load_bearing": false,
+        "note": "The specific universal cellular-record attribution to Haṭha Yoga is untraceable."
+      },
+      "id": "C046"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "I have watched my own nervous system execute contracts I never signed"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The author names their own nervous-system patterns, concrete meeting/conversation triggers, and observed defensive responses; the software wording is a visible interpretive layer.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"I have watched my own nervous system execute contracts I never signed\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Specific first-person trigger/response observation; software wording is declared analogy."
+      },
+      "id": "C047"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "These contracts run deterministically"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A personal recurrence is upgraded into exceptionless deterministic execution without a state definition, observation record, counterexample policy, or measurement.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"These contracts run deterministically\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "A personal pattern is upgraded into exceptionless deterministic execution."
+      },
+      "id": "C048"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The input arrives. The function executes. The state updates"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The paragraph asserts deterministic state transitions but defines no state space or transition function and explicitly says “every time.” The computing identity is wrong and undeclared as metaphor.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"The input arrives. The function executes. The state updates\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The paragraph insists on determinism but defines no state space or transition function."
+      },
+      "id": "C049"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "stores execution history in fascia, breath pattern, and gait"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The span combines observable breath/gait habits with a literal fascia event-history store. Split the signals from the storage mechanism and source each at its own strength.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"stores execution history in fascia, breath pattern, and gait\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Breath and gait can reflect history, but fascia as a literal event-history store is unestablished."
+      },
+      "id": "C050"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "breath pattern, and gait"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Breath pattern and gait are directly observable habitual signals; the claim is appropriately separated from the stronger fascia-storage interpretation.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"breath pattern, and gait\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Breath and gait can carry reader-observable habitual patterns; the fascia storage upgrade is judged separately."
+      },
+      "id": "C051"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "recompiles Arjuna's entire operating system"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Bhagavad Gītā dialogue is silently converted into total operating-system and nervous-system deployment. The traditional ingredient and modern transformation are not separated or declared.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"recompiles Arjuna's entire operating system\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A textual dialogue is silently upgraded into a total nervous-system deployment mechanism."
+      },
+      "id": "C052"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Arjuna on the battlefield of Kurukṣetra"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Bhagavad Gītā setting of Arjuna on Kurukṣetra is accurately reported and distinguished from the article’s later neural recompilation claim.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"Arjuna on the battlefield of Kurukṣetra\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Accurate Bhagavad Gītā textual application, distinct from the neural recompilation claim."
+      },
+      "id": "C053"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "Change the breath pattern by two seconds. Shift the tongue placement by three millimeters"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Exact two-second and three-millimeter input changes are claimed to alter mantra output and life trajectory without a protocol, units context, observation record, or source.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"Change the breath pattern by two seconds. Shift the tongue placement by three millimeters\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": true,
+        "note": "Precise input changes are claimed to alter mantra output and life trajectory without observational evidence."
+      },
+      "id": "C054"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "small differences in initial conditions produce radically divergent orbits"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Sensitive dependence can produce divergent trajectories in the Lorenz system, but the true theorem is removable and supplies no evidence for the mantra-contract mapping.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"small differences in initial conditions produce radically divergent orbits\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "The Lorenz fact is correct but removable from the contract argument under the canonical test."
+      },
+      "id": "C055"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "This is the mathematics of contract debugging"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "No mapping connects Lorenz initial conditions to breath/tongue changes, contract debugging, or life trajectories. The mathematical bridge is false, removable, and unprovenanced.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"This is the mathematics of contract debugging\"",
+        "type": "math",
+        "verdict": "WRONG",
+        "load_bearing": false,
+        "note": "The unsupported Lorenz bridge duplicates the load-bearing science mapping in the same line."
+      },
+      "id": "C056"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "Ayurveda provides the debugging framework"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Ayurveda provides the debugging framework” clearly places a traditional diagnostic lens inside the article’s already explicit software comparison; no literal program execution follows.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"Ayurveda provides the debugging framework\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House medical tradition is openly operated as a diagnostic lens, not external proof."
+      },
+      "id": "C057"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "Trauma shatters syntax"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "“Trauma shatters syntax” fuses an undeclared computing image with a specific four-speech-layer mechanism. Separate the metaphor from any empirical or house-model claim.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"Trauma shatters syntax\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "A software metaphor is promoted to a specific speech-layer trauma mechanism without observation."
+      },
+      "id": "C058"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "metabolic currency you cannot reclaim"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An irrecoverable metabolic cost is asserted through a currency metaphor without defining the quantity, mechanism, time scale, population, or source.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"metabolic currency you cannot reclaim\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Irrecoverable metabolic cost is asserted without a quantity or physiological mechanism."
+      },
+      "id": "C059"
+    }
+  ]
+}

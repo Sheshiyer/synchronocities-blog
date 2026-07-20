@@ -1,0 +1,791 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "yantra-and-tantra-in-the-age-of-llms.md",
+  "source_path": "src/content/posts/yantra-and-tantra-in-the-age-of-llms.md",
+  "source_sha256": "15bb49f1dd1e12128202da465b339c284e9b52c680fbc6a09efb94999c40dec6",
+  "legacy_audit_path": "quality-engine/audits/nigredo/yantra-and-tantra-in-the-age-of-llms.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Yantra is the body of the deity. Tantra is the method of engaging that body."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose presents this as a verbatim Abhinavagupta/Tantrāloka quotation but supplies no passage, edition, translator, or verification trace; it remains traditional-source material with unsupported attribution.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "\"Yantra is the body of the deity. Tantra is the method of engaging that body.\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Tantrāloka citation operating the tradition, not borrowing institutional authority"
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "forces the attending consciousness to perform continuous error correction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The later introspective contrast may motivate a hypothesis, but it does not verify that symmetry mismatch forces continuous error correction across practitioners; no procedure, measure, population, or causal source is supplied.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"forces the attending consciousness to perform continuous error correction\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Reader-replicable: \"Where the geometry resolves too easily, the mind drifts\""
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "nine interlocking triangles, a central bindu, and an outer square"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "A canonical Sri Yantra can be directly inspected for nine interlocking triangles, central bindu, and outer square; those structures are correct and consequential to the post's geometry argument.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "\"nine interlocking triangles, a central bindu, and an outer square\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Counts correct; symmetry mismatch is the post's friction mechanism"
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "holding a seed-syllable in awareness without allowing it to collapse"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The paragraph names the Parātrīśikā and presents bhāvanā as its contemplative operation rather than as empirical proof; the paraphrase is bounded to the traditional teaching.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"holding a seed-syllable in awareness without allowing it to collapse\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Parātrīśikā bhāvanā gloss; tradition named and operated"
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "pattern-matched processing on a biological substrate"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling gaze through a yantra \"pattern-matched processing\" synthesizes traditional geometry with computational terminology, but the ingredients, transformation, and explicit Noesis authorship are not traced.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"pattern-matched processing on a biological substrate\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House computational grammar; gaze behavior is observable"
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The Sri Yantra's forty-three triangles are not decorative"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The forty-three-triangle count is visually correct for the canonical Sri Yantra, but the exact count is removable without changing the key-value-store thesis and is therefore decorative mathematics.",
+      "legacy": {
+        "anchor": "L56",
+        "quote": "\"The Sri Yantra's forty-three triangles are not decorative\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Count correct; key-value mapping demonstrated per-triangle"
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The outer square (the bhūpura) is fourfold. The inner triangles are threefold."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The outer square's fourfold and inner triangle field's threefold symmetry are directly inspectable and structurally consequential to the post; this row does not include the later loose noncommutation claim.",
+      "legacy": {
+        "anchor": "L58",
+        "quote": "\"The outer square (the bhūpura) is fourfold. The inner triangles are threefold.\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "\"Do not commute\" is loose group-theory phrasing for a true 3-vs-4-fold symmetry incompatibility; structurally mapped onto La"
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "The temple is a yantra extruded into three dimensions"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Describing the temple as an extruded yantra and its carvings as circuit traces is a new architecture/computation synthesis, not a traditional quotation; the post neither declares Noesis authorship nor marks the comparison boundary.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"The temple is a yantra extruded into three dimensions\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Vāstu-śāstra operational-failure doctrine judged as tradition-history; accurate"
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "the disciple's nervous system is reconfigured to recognize it"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Tantric initiation frame does not verify the literal neurological claim that a mantra-seed reconfigures a disciple's nervous system to recognize it; no mechanism, measure, population, or source is supplied.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"the disciple's nervous system is reconfigured to recognize it\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Generic plasticity gloss inside guru-transmission frame; consciousness-first"
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "where the measure is lost, the deity does not reside"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence is presented as an unambiguous Vāstu-śāstra teaching, but no text, passage, edition, or translation is supplied for \"where the measure is lost, the deity does not reside.\"",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "\"where the measure is lost, the deity does not reside\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Tradition's own tolerancing doctrine; historical claim, accurate"
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "photonic stimulus applied to a specific retinal region"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim asserts a specific retinal target and predictable neurological cascade for a ritual lamp, but provides no target region, stimulus parameters, measured outcome, population, or traceable source.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"photonic stimulus applied to a specific retinal region\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "**DROSS** — neuro-idiom supplies pseudo-specific mechanism (\"specific retinal region\", \"predictable neurological cascade\") no observation or source can check; the register of neuroscience does authority work"
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The incense (dhūpa) is olfactory cueing"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A practitioner can directly notice incense functioning as an olfactory cue during pūjā; the object, ritual condition, and bounded sensory effect are specified without a stronger neurological mechanism.",
+      "legacy": {
+        "anchor": "L70",
+        "quote": "\"The incense (dhūpa) is olfactory cueing\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Reader-replicable functional gloss; same for naivedya/metabolic stabilization"
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Vaswani et al., in their 2017 paper Attention Is All You Need"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Vaswani et al. and the 2017 paper title are accurately named, and the adjacent description of self-attention is a faithful historical report rather than evidence for the yantra equivalence.",
+      "legacy": {
+        "anchor": "L76",
+        "quote": "\"Vaswani et al., in their 2017 paper Attention Is All You Need\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Real paper, accurate architecture description, cited as historical event not proof"
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The Atharva Veda calls this operation antar-agni"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose attributes this computational operation to the Atharva Veda as antar-agni but supplies no hymn, passage, edition, or translation establishing that usage or meaning.",
+      "legacy": {
+        "anchor": "L78",
+        "quote": "\"The Atharva Veda calls this operation antar-agni\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House vocabulary; textual reference"
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The bindu is the query: a position seeking integration"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The bindu/query equivalence is the post's consequential synthesis, but a geometric point does not execute query-key dot products and the post explicitly calls the isomorphism exact while hiding Noesis authorship and formal transformation.",
+      "legacy": {
+        "anchor": "L78",
+        "quote": "\"The bindu is the query: a position seeking integration\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Q/K/V mapping shown step-by-step; structurally fair gloss of attention; centerpiece of the isomorphism thesis"
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "awareness cannot know itself as an object"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kena Upaniṣad is named and the impossibility of objectifying the knower is represented as a traditional teaching, not as empirical proof of transformer behavior.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"awareness cannot know itself as an object\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Kena Upaniṣad gloss, accurate to the text"
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Each ring is a separate attention head"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Concentric rings are equated with independently parameterized attention heads without a mapping of projections, simultaneous computations, or aggregation; the undeclared synthesis is mathematically wrong as an exact identity.",
+      "legacy": {
+        "anchor": "L80",
+        "quote": "\"Each ring is a separate attention head\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Multi-head mapping demonstrated; supplementary strut"
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "the skip-links that allow gradient flow to bypass a damaged layer"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Residual connections preserve an identity path around a transformation and aid gradient flow; they are not skip-links that detect or bypass a \"damaged layer,\" so the technical mechanism is misstated.",
+      "legacy": {
+        "anchor": "L82",
+        "quote": "\"the skip-links that allow gradient flow to bypass a damaged layer\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Residual-connection gloss loose but essentially right; prāyaścitta mapping shown"
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "when attention weights grow unbounded, the gradients explode"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Softmax attention weights are bounded rather than unbounded, and exploding gradients do not follow from the claimed condition; the computational terms are misapplied in the proposed failure proof.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"when attention weights grow unbounded, the gradients explode\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Loose but real training-instability phenomenon; claim about a model, checkable"
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "what the texts call prāṇa-vyādhi"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The prose attributes prāṇa-vyādhi to unspecified \"texts\" as the named result of this failure mode, but no tradition, passage, edition, or contextual translation is provided.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"what the texts call prāṇa-vyādhi\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Tradition's own failure-mode vocabulary"
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "a single distributed computation — the Bali Padiyami ceremony"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Calling the Bali Padiyami ceremony a distributed computation combines ritual roles with network-computing language, but neither the ritual source nor the transformation and explicit Noesis authorship are traced.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"a single distributed computation — the Bali Padiyami ceremony\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Ritual sociology inside house computational grammar"
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "any system that processes information must have an observer-position"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The paragraph explicitly names Kha-Ba-La as a universal house grammar and immediately defines observer, substrate, and constraint; the three terms remain internally consistent within that declared model.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"any system that processes information must have an observer-position\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "The post's core grammar claim (Kha-Ba-La / Selemene Engine); house cosmology by definition"
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "Remove La and you get heat death"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-PROVENANCE"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The house model literally infers cosmological heat death from removing La without defining a thermodynamic mapping. The phrase is removable, has no formula provenance, and lacks a nearby metaphor boundary.",
+      "legacy": {
+        "anchor": "L90",
+        "quote": "\"Remove La and you get heat death\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "**DROSS** — thermodynamic name-drop; \"collapsing into trivial equilibrium\" already carries the sentence; heat-death seasoning adds no mechanism"
+      },
+      "id": "C023"
+    }
+  ]
+}

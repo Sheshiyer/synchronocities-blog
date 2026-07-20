@@ -1,0 +1,276 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "introduction-to-tryambakam-noesis.md",
+  "source_path": "src/content/posts/introduction-to-tryambakam-noesis.md",
+  "source_sha256": "ceb990a2263cecb594e8e174c8bf9c1d4a7b6068121dd7218e6c2a3122d31bc2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/introduction-to-tryambakam-noesis.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Your sleep tracker confirms your circadian rhythm"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The second-person tracker claim supplies no identified observer, device, procedure, or source and overstates what a generic sleep tracker can confirm.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"Your sleep tracker confirms your circadian rhythm\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Reader's own devices and lived sleep cycle; no institutional authority invoked. HRV/nootropics same row: descriptive of the reader's calibration regime, not a truth-claim."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "An operating system you didn't write, executing patterns you didn't choose"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The surrounding inherited-code and patch language makes the operating-system comparison explicitly figurative, and no literal computational mechanism is inferred from it.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "\"An operating system you didn't write, executing patterns you didn't choose\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Central computing conceit. Declared metaphor operated as the post's frame, never silently upgraded to neuroscience or mechanism. Safe harbor applies."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "the difference between consciousness and self-consciousness"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article explicitly defines consciousness and self-consciousness as the Noesis distinction between having awareness and examining or rewriting experience; the terms remain internally consistent.",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "\"the difference between consciousness and self-consciousness\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Consciousness-primary distinction; house cosmology by definition (Hermetic core). Not an external science claim."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 56,
+        "quote": "Vedic Astronomy: Panchanga, Vimshottari Dasha, Transits"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Within the named Noesis Engine, the listed traditions are declared as perceptual lenses rather than external proof, and the platform taxonomy is internally consistent.",
+      "legacy": {
+        "anchor": "L50-56",
+        "quote": "\"Vedic Astronomy: Panchanga, Vimshottari Dasha, Transits\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Engine list. Dasha/Panchanga are canonical house structures; the remaining lenses (Human Design, Gene Keys, Biofield, Biorhythm, Face Reading, Tarot, I Ching, Enneagram, Numerology, Sacred Geometry, Sigil Forge) are explicitly framed as lenses — \"You simply look through them and notice what you see\" (L58). Declared-lens safe harbor; nothing presented as settled fact."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "operates on three co-arising forces—Kha-Ba-La"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Kha, Ba, and La are explicitly declared as the engine's three co-arising forces, individually defined, and structurally reused; the count, consequence, and in-post provenance all pass.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "\"operates on three co-arising forces—Kha-Ba-La\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Canonical house triadic structure (§4.1). All three forces are defined and operated (Kha/Ba/La, L64-66); the Underpinnings section collapses without it."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Resistance, gravity, friction"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "La is explicitly defined inside the Kha-Ba-La house frame as resistance, gravity, and friction that give form; the synonymous definitions cohere without claiming physical proof.",
+      "legacy": {
+        "anchor": "L66",
+        "quote": "\"Resistance, gravity, friction\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "Embodied synonyms defining La (Inertia) within house cosmology. Not a claim that gravity is a fundamental force — the §3.4 watch-list entry does not trigger."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Sixteen lenses across four directions—256 permutations"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Sixteen lenses paired with four directions yield 64 lens-direction pairings, not 256; moreover, 'permutations' is undefined for the stated operation.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"Sixteen lenses across four directions—256 permutations\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "Arithmetic is correct (16×4=256) and derived from house elements, but the §4.4 test is decisive: remove it and the uniqueness argument survives intact on \"no two interior landscapes are alike.\" Precision flourish, not load-bearing structure. (\"Permutations\" is colloquially loose for lens-direction pairings but not numerically false — not WRONG.)"
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "A quine is a program whose output is its own source code"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "The sentence gives the standard computing definition of a quine, and the concept is consequential to the closing self-reproducing-practice comparison; definition, consequence, and technical provenance pass.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "\"A quine is a program whose output is its own source code\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Definition is correct, and the concept is operated structurally: practice → practitioner who becomes the practice (L100). The closing section (\"The Quine: Self-Consciousness as Technology\") collapses without it. Declared \"as\"-framing keeps it inside safe harbor."
+      },
+      "id": "C008"
+    }
+  ]
+}

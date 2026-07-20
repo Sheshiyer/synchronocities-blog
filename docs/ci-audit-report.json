@@ -1,61 +1,61 @@
 {
   "report_type": "ci_audit",
   "total_posts": 125,
-  "pass_count": 24,
-  "warn_count": 101,
+  "pass_count": 25,
+  "warn_count": 100,
   "fail_count": 0,
   "top_avoid_signatures": [
     {
       "term": "path",
-      "count": 76
+      "count": 74
     },
     {
       "term": "ai ",
       "count": 21
     },
     {
-      "term": "optimization",
-      "count": 10
+      "term": "vibration",
+      "count": 15
     },
     {
-      "term": "healing",
+      "term": "optimization",
       "count": 8
     },
     {
-      "term": "truth",
-      "count": 6
+      "term": "healing",
+      "count": 7
     }
   ],
   "top_emergent_signatures": [
     {
       "term": "energy",
-      "count": 102
+      "count": 97
     },
     {
       "term": "quantum",
-      "count": 20
+      "count": 15
+    },
+    {
+      "term": "vibration",
+      "count": 15
     },
     {
       "term": "optimization",
-      "count": 10
-    },
-    {
-      "term": "healing",
       "count": 8
     },
     {
-      "term": "truth",
-      "count": 6
+      "term": "healing",
+      "count": 7
     }
   ],
   "top_drift_patterns": [
     {
       "pattern": "warmth_excess",
-      "count": 31
+      "count": 29
     },
     {
       "pattern": "motivational_excess",
-      "count": 6
+      "count": 5
     }
   ],
   "posts": [
@@ -294,32 +294,32 @@
     {
       "post": "active-inference-prediction-engine.md",
       "overall": "WARNING",
-      "severity_score": 66,
+      "severity_score": 75,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
           "verdict": "PASS",
-          "kha_count": 1,
-          "ba_count": 1,
-          "la_count": 1,
+          "kha_count": 5,
+          "ba_count": 4,
+          "la_count": 5,
           "triad_count": 0,
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 50,
+          "score": 60,
           "verdict": "FAIL",
           "critical_matches": [],
           "standard_matches": [],
           "emergent_matches": [
             [
               "energy",
-              5
+              4
             ]
           ],
-          "total_violations": 5
+          "total_violations": 4
         },
         "voice": {
-          "score": 75,
+          "score": 100,
           "verdict": "PASS",
           "use_matches": [
             [
@@ -327,20 +327,28 @@
               1
             ],
             [
+              "pattern",
+              3
+            ],
+            [
               "recursive",
               1
             ],
             [
-              "kha",
+              "symbolic recursion",
               1
+            ],
+            [
+              "kha",
+              5
             ],
             [
               "ba",
-              1
+              4
             ],
             [
               "la",
-              1
+              5
             ]
           ],
           "generic_matches": []
@@ -351,11 +359,11 @@
           "engine_matches": [
             [
               "engine",
-              4
+              5
             ],
             [
               "framework",
-              2
+              1
             ],
             [
               "system",
@@ -363,21 +371,37 @@
             ],
             [
               "architecture",
-              5
+              7
             ],
             [
               "model",
-              23
+              20
+            ],
+            [
+              "witness",
+              1
             ]
           ]
         },
         "fractal_depth": {
-          "score": 45,
-          "verdict": "WARNING",
+          "score": 75,
+          "verdict": "PASS",
           "scale_matches": [
+            [
+              "personal",
+              2
+            ],
             [
               "body",
               5
+            ],
+            [
+              "institutional",
+              1
+            ],
+            [
+              "cosmic",
+              2
             ]
           ],
           "recursive_count": 1
@@ -394,14 +418,18 @@
           "shadow_matches": [
             [
               "cost",
-              2
-            ],
-            [
-              "fracture",
               1
             ],
             [
+              "fracture",
+              2
+            ],
+            [
               "inherited code",
+              1
+            ],
+            [
+              "shadow",
               1
             ],
             [
@@ -410,7 +438,7 @@
             ],
             [
               "resistance",
-              4
+              3
             ],
             [
               "failure",
@@ -969,7 +997,7 @@
     {
       "post": "bangkok-initiation-samui-invitation.md",
       "overall": "WARNING",
-      "severity_score": 41,
+      "severity_score": 43,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -981,14 +1009,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 60,
+          "score": 75,
           "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "truth",
               1
@@ -1000,10 +1024,10 @@
               1
             ]
           ],
-          "total_violations": 3
+          "total_violations": 2
         },
         "voice": {
-          "score": 54,
+          "score": 57,
           "verdict": "WARNING",
           "use_matches": [
             [
@@ -1016,10 +1040,6 @@
             ]
           ],
           "generic_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "light",
               1
@@ -1077,7 +1097,7 @@
         "flag_count": 0,
         "warmth_count": 1,
         "motivational_count": 0,
-        "generic_count": 1,
+        "generic_count": 0,
         "academic_excess": false
       }
     },
@@ -1203,15 +1223,15 @@
     {
       "post": "bicameral-consciousness-patch.md",
       "overall": "PASS",
-      "severity_score": 86,
+      "severity_score": 89,
       "dimensions": {
         "kha_ba_la": {
-          "score": 75,
+          "score": 100,
           "verdict": "PASS",
           "kha_count": 7,
           "ba_count": 4,
           "la_count": 6,
-          "triad_count": 0,
+          "triad_count": 1,
           "has_absence_demonstration": true
         },
         "vocabulary": {
@@ -1236,15 +1256,15 @@
             ],
             [
               "structure",
-              9
+              7
             ],
             [
               "capacity",
-              4
+              1
             ],
             [
               "recursive",
-              3
+              2
             ],
             [
               "kha",
@@ -1257,16 +1277,16 @@
             [
               "la",
               6
+            ],
+            [
+              "kha-ba-la",
+              1
             ]
           ],
           "generic_matches": [
             [
-              "soul",
-              1
-            ],
-            [
               "divine",
-              2
+              1
             ]
           ]
         },
@@ -1275,20 +1295,28 @@
           "verdict": "PASS",
           "engine_matches": [
             [
+              "engine",
+              2
+            ],
+            [
+              "kha-ba-la",
+              1
+            ],
+            [
               "system",
-              11
+              7
             ],
             [
               "architecture",
-              5
+              4
             ],
             [
               "model",
-              6
+              7
             ],
             [
               "protocol",
-              2
+              1
             ],
             [
               "ritual",
@@ -1296,29 +1324,29 @@
             ],
             [
               "witness",
-              2
+              3
             ],
             [
               "consciousness",
-              5
+              3
+            ],
+            [
+              "examination",
+              1
             ]
           ]
         },
         "fractal_depth": {
-          "score": 100,
+          "score": 90,
           "verdict": "PASS",
           "scale_matches": [
             [
               "personal",
-              1
-            ],
-            [
-              "individual",
-              1
+              2
             ],
             [
               "body",
-              3
+              2
             ],
             [
               "neural",
@@ -1329,15 +1357,11 @@
               1
             ],
             [
-              "society",
-              1
-            ],
-            [
               "cosmic",
-              1
+              2
             ]
           ],
-          "recursive_count": 3
+          "recursive_count": 2
         },
         "source_grounding": {
           "score": 30,
@@ -1351,7 +1375,7 @@
           "shadow_matches": [
             [
               "cost",
-              2
+              3
             ],
             [
               "shadow",
@@ -1378,18 +1402,9 @@
         }
       },
       "tonal_drift": {
-        "flags": [
-          {
-            "flag": "warmth_excess",
-            "count": 3,
-            "examples": [
-              "soul",
-              "divine"
-            ]
-          }
-        ],
-        "flag_count": 1,
-        "warmth_count": 3,
+        "flags": [],
+        "flag_count": 0,
+        "warmth_count": 1,
         "motivational_count": 0,
         "generic_count": 0,
         "academic_excess": false
@@ -1641,15 +1656,23 @@
           "use_matches": [
             [
               "coherence",
-              6
+              7
+            ],
+            [
+              "integration",
+              2
             ],
             [
               "pattern",
               3
             ],
             [
-              "capacity",
+              "structure",
               1
+            ],
+            [
+              "capacity",
+              2
             ],
             [
               "kha",
@@ -1684,6 +1707,10 @@
           "verdict": "PASS",
           "engine_matches": [
             [
+              "framework",
+              1
+            ],
+            [
               "system",
               13
             ],
@@ -1693,7 +1720,7 @@
             ],
             [
               "model",
-              1
+              2
             ],
             [
               "protocol",
@@ -1701,7 +1728,7 @@
             ],
             [
               "practice",
-              3
+              4
             ],
             [
               "consciousness",
@@ -1719,7 +1746,7 @@
             ],
             [
               "body",
-              16
+              18
             ],
             [
               "institutional",
@@ -1804,24 +1831,29 @@
     {
       "post": "body-as-blockchain.md",
       "overall": "PASS",
-      "severity_score": 84,
+      "severity_score": 80,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
           "verdict": "PASS",
-          "kha_count": 4,
-          "ba_count": 4,
-          "la_count": 6,
+          "kha_count": 3,
+          "ba_count": 3,
+          "la_count": 5,
           "triad_count": 1,
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 100,
-          "verdict": "PASS",
+          "score": 70,
+          "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [],
+          "standard_matches": [
+            [
+              "blunder",
+              2
+            ]
+          ],
           "emergent_matches": [],
-          "total_violations": 0
+          "total_violations": 2
         },
         "voice": {
           "score": 100,
@@ -1837,15 +1869,15 @@
             ],
             [
               "kha",
-              4
+              3
             ],
             [
               "ba",
-              4
+              3
             ],
             [
               "la",
-              6
+              5
             ],
             [
               "kha-ba-la",
@@ -1864,7 +1896,7 @@
             ],
             [
               "system",
-              8
+              9
             ],
             [
               "architecture",
@@ -1886,15 +1918,15 @@
           "scale_matches": [
             [
               "body",
-              12
+              16
             ],
             [
               "somatic",
-              4
+              3
             ],
             [
               "cellular",
-              1
+              2
             ],
             [
               "neural",
@@ -1904,12 +1936,12 @@
           "recursive_count": 0
         },
         "source_grounding": {
-          "score": 42,
+          "score": 45,
           "verdict": "WARNING",
           "source_matches": [
             [
               "\\b(?:source|reference|citation|footnote|see also|further reading)\\b",
-              4
+              5
             ]
           ],
           "vault_reference_count": 0
@@ -2386,7 +2418,7 @@
     {
       "post": "circle-over-inanna.md",
       "overall": "WARNING",
-      "severity_score": 46,
+      "severity_score": 48,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -2398,20 +2430,15 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
-          "score": 39,
+          "score": 42,
           "verdict": "FAIL",
           "use_matches": [
             [
@@ -2424,10 +2451,6 @@
             ]
           ],
           "generic_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "love",
               2
@@ -2502,59 +2525,69 @@
         "flag_count": 1,
         "warmth_count": 6,
         "motivational_count": 0,
-        "generic_count": 1,
+        "generic_count": 0,
         "academic_excess": false
       }
     },
     {
       "post": "compassion-runtime.md",
-      "overall": "WARNING",
-      "severity_score": 49,
+      "overall": "PASS",
+      "severity_score": 88,
       "dimensions": {
         "kha_ba_la": {
-          "score": 0,
-          "verdict": "FAIL",
-          "kha_count": 0,
-          "ba_count": 0,
-          "la_count": 0,
-          "triad_count": 0,
-          "has_absence_demonstration": false
+          "score": 100,
+          "verdict": "PASS",
+          "kha_count": 5,
+          "ba_count": 4,
+          "la_count": 5,
+          "triad_count": 1,
+          "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 75,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "optimization",
-              1
-            ]
-          ],
-          "emergent_matches": [
-            [
-              "optimization",
-              1
-            ]
-          ],
-          "total_violations": 2
+          "standard_matches": [],
+          "emergent_matches": [],
+          "total_violations": 0
         },
         "voice": {
-          "score": 67,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "use_matches": [
             [
-              "integration",
-              3
+              "pattern",
+              1
             ],
             [
-              "pattern",
+              "capacity",
+              6
+            ],
+            [
+              "noesis engine",
+              1
+            ],
+            [
+              "kha",
+              5
+            ],
+            [
+              "ba",
+              4
+            ],
+            [
+              "la",
+              5
+            ],
+            [
+              "kha-ba-la",
               1
             ]
           ],
           "generic_matches": [
             [
-              "optimize",
-              1
+              "heart",
+              2
             ]
           ]
         },
@@ -2563,20 +2596,36 @@
           "verdict": "PASS",
           "engine_matches": [
             [
+              "noesis engine",
+              1
+            ],
+            [
               "engine",
               1
             ],
             [
+              "noesis",
+              1
+            ],
+            [
+              "kha-ba-la",
+              1
+            ],
+            [
               "system",
-              7
+              5
             ],
             [
               "architecture",
-              3
+              6
             ],
             [
-              "protocol",
-              2
+              "practice",
+              6
+            ],
+            [
+              "witness",
+              8
             ],
             [
               "consciousness",
@@ -2585,15 +2634,31 @@
           ]
         },
         "fractal_depth": {
-          "score": 40,
-          "verdict": "WARNING",
+          "score": 85,
+          "verdict": "PASS",
           "scale_matches": [
             [
-              "neural",
+              "individual",
               1
+            ],
+            [
+              "body",
+              17
+            ],
+            [
+              "somatic",
+              2
+            ],
+            [
+              "neural",
+              2
+            ],
+            [
+              "universal",
+              2
             ]
           ],
-          "recursive_count": 0
+          "recursive_count": 1
         },
         "source_grounding": {
           "score": 30,
@@ -2602,18 +2667,35 @@
           "vault_reference_count": 0
         },
         "shadow_integration": {
-          "score": 30,
-          "verdict": "WARNING",
-          "shadow_matches": [],
+          "score": 100,
+          "verdict": "PASS",
+          "shadow_matches": [
+            [
+              "shadow",
+              1
+            ],
+            [
+              "resistance",
+              4
+            ],
+            [
+              "failure",
+              2
+            ],
+            [
+              "collapse",
+              1
+            ]
+          ],
           "skipped": false
         }
       },
       "tonal_drift": {
         "flags": [],
         "flag_count": 0,
-        "warmth_count": 0,
+        "warmth_count": 2,
         "motivational_count": 0,
-        "generic_count": 1,
+        "generic_count": 0,
         "academic_excess": false
       }
     },
@@ -3000,16 +3082,16 @@
     },
     {
       "post": "death-at-the-border.md",
-      "overall": "WARNING",
-      "severity_score": 70,
+      "overall": "PASS",
+      "severity_score": 88,
       "dimensions": {
         "kha_ba_la": {
-          "score": 0,
-          "verdict": "FAIL",
-          "kha_count": 0,
-          "ba_count": 0,
-          "la_count": 0,
-          "triad_count": 0,
+          "score": 100,
+          "verdict": "PASS",
+          "kha_count": 2,
+          "ba_count": 2,
+          "la_count": 2,
+          "triad_count": 1,
           "has_absence_demonstration": false
         },
         "vocabulary": {
@@ -3026,15 +3108,35 @@
           "total_violations": 1
         },
         "voice": {
-          "score": 75,
+          "score": 100,
           "verdict": "PASS",
           "use_matches": [
             [
+              "coherence",
+              1
+            ],
+            [
               "pattern",
-              4
+              5
             ],
             [
               "structure",
+              1
+            ],
+            [
+              "kha",
+              2
+            ],
+            [
+              "ba",
+              2
+            ],
+            [
+              "la",
+              2
+            ],
+            [
+              "kha-ba-la",
               1
             ]
           ],
@@ -3045,12 +3147,20 @@
           "verdict": "PASS",
           "engine_matches": [
             [
+              "kha-ba-la",
+              1
+            ],
+            [
+              "framework",
+              1
+            ],
+            [
               "system",
-              5
+              6
             ],
             [
               "architecture",
-              1
+              3
             ],
             [
               "model",
@@ -3080,7 +3190,7 @@
           "scale_matches": [
             [
               "personal",
-              2
+              3
             ],
             [
               "body",
@@ -3092,7 +3202,7 @@
             ],
             [
               "cellular",
-              2
+              3
             ],
             [
               "neural",
@@ -3104,7 +3214,11 @@
             ],
             [
               "cosmic",
-              2
+              4
+            ],
+            [
+              "astronomical",
+              1
             ]
           ],
           "recursive_count": 0
@@ -3133,7 +3247,7 @@
             ],
             [
               "resistance",
-              2
+              3
             ],
             [
               "failure",
@@ -3149,7 +3263,7 @@
             ],
             [
               "limit",
-              2
+              4
             ],
             [
               "cost of",
@@ -3278,40 +3392,57 @@
     {
       "post": "docker-for-chakras.md",
       "overall": "WARNING",
-      "severity_score": 59,
+      "severity_score": 64,
       "dimensions": {
         "kha_ba_la": {
-          "score": 20,
-          "verdict": "FAIL",
-          "kha_count": 1,
-          "ba_count": 0,
-          "la_count": 0,
+          "score": 60,
+          "verdict": "PASS",
+          "kha_count": 2,
+          "ba_count": 1,
+          "la_count": 1,
           "triad_count": 0,
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
-          "verdict": "WARNING",
+          "score": 40,
+          "verdict": "FAIL",
           "critical_matches": [],
-          "standard_matches": [],
+          "standard_matches": [
+            [
+              "path",
+              2
+            ]
+          ],
           "emergent_matches": [
             [
               "energy",
               3
             ]
           ],
-          "total_violations": 3
+          "total_violations": 5
         },
         "voice": {
-          "score": 56,
-          "verdict": "WARNING",
+          "score": 81,
+          "verdict": "PASS",
           "use_matches": [
             [
               "pattern",
-              2
+              3
+            ],
+            [
+              "symbolic recursion",
+              1
             ],
             [
               "kha",
+              2
+            ],
+            [
+              "ba",
+              1
+            ],
+            [
+              "la",
               1
             ]
           ],
@@ -3336,11 +3467,11 @@
           "engine_matches": [
             [
               "system",
-              14
+              13
             ],
             [
               "architecture",
-              7
+              5
             ],
             [
               "model",
@@ -3362,7 +3493,7 @@
           "scale_matches": [
             [
               "body",
-              7
+              8
             ]
           ],
           "recursive_count": 0
@@ -4667,7 +4798,7 @@
     {
       "post": "fungal-intelligence-distributed-processing.md",
       "overall": "PASS",
-      "severity_score": 76,
+      "severity_score": 77,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
@@ -4697,7 +4828,7 @@
           "use_matches": [
             [
               "pattern",
-              5
+              8
             ],
             [
               "structure",
@@ -4705,6 +4836,14 @@
             ],
             [
               "capacity",
+              1
+            ],
+            [
+              "recursive",
+              1
+            ],
+            [
+              "symbolic recursion",
               1
             ],
             [
@@ -4728,11 +4867,11 @@
           "engine_matches": [
             [
               "system",
-              8
+              9
             ],
             [
               "architecture",
-              3
+              4
             ],
             [
               "witness",
@@ -4741,7 +4880,7 @@
           ]
         },
         "fractal_depth": {
-          "score": 60,
+          "score": 65,
           "verdict": "PASS",
           "scale_matches": [
             [
@@ -4750,14 +4889,14 @@
             ],
             [
               "neural",
-              1
+              3
             ],
             [
               "cosmic",
               1
             ]
           ],
-          "recursive_count": 0
+          "recursive_count": 1
         },
         "source_grounding": {
           "score": 30,
@@ -4779,7 +4918,7 @@
             ],
             [
               "shadow",
-              1
+              2
             ],
             [
               "metabolize",
@@ -6236,7 +6375,7 @@
           "use_matches": [
             [
               "pattern",
-              5
+              7
             ],
             [
               "structure",
@@ -6271,7 +6410,11 @@
             ],
             [
               "system",
-              7
+              8
+            ],
+            [
+              "architecture",
+              1
             ],
             [
               "witness",
@@ -6301,7 +6444,7 @@
             ],
             [
               "cosmic",
-              2
+              3
             ]
           ],
           "recursive_count": 0
@@ -6822,41 +6965,44 @@
     {
       "post": "lorenz-kundli-protocol.md",
       "overall": "PASS",
-      "severity_score": 81,
+      "severity_score": 87,
       "dimensions": {
         "kha_ba_la": {
-          "score": 60,
+          "score": 100,
           "verdict": "PASS",
           "kha_count": 2,
-          "ba_count": 1,
+          "ba_count": 2,
           "la_count": 6,
-          "triad_count": 0,
+          "triad_count": 1,
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 90,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
           "standard_matches": [],
-          "emergent_matches": [
-            [
-              "energy",
-              1
-            ]
-          ],
-          "total_violations": 1
+          "emergent_matches": [],
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
           "verdict": "PASS",
           "use_matches": [
             [
+              "coherence",
+              1
+            ],
+            [
+              "integration",
+              1
+            ],
+            [
               "pattern",
-              3
+              2
             ],
             [
               "structure",
-              5
+              2
             ],
             [
               "capacity",
@@ -6868,11 +7014,15 @@
             ],
             [
               "ba",
-              1
+              2
             ],
             [
               "la",
               6
+            ],
+            [
+              "kha-ba-la",
+              1
             ]
           ],
           "generic_matches": []
@@ -6882,8 +7032,16 @@
           "verdict": "PASS",
           "engine_matches": [
             [
+              "kha-ba-la",
+              1
+            ],
+            [
               "system",
-              11
+              9
+            ],
+            [
+              "architecture",
+              1
             ],
             [
               "model",
@@ -6900,32 +7058,28 @@
           ]
         },
         "fractal_depth": {
-          "score": 90,
+          "score": 80,
           "verdict": "PASS",
           "scale_matches": [
             [
+              "personal",
+              1
+            ],
+            [
               "body",
-              5
+              3
             ],
             [
               "cellular",
-              3
+              2
             ],
             [
               "neural",
               1
             ],
             [
-              "cultural",
-              2
-            ],
-            [
-              "civilization",
-              1
-            ],
-            [
               "planetary",
-              4
+              1
             ]
           ],
           "recursive_count": 0
@@ -6950,11 +7104,15 @@
             ],
             [
               "shadow",
-              2
+              1
             ],
             [
               "resistance",
               2
+            ],
+            [
+              "collapse",
+              1
             ],
             [
               "cost of",
@@ -7316,8 +7474,8 @@
     },
     {
       "post": "mantra-as-source-code.md",
-      "overall": "PASS",
-      "severity_score": 88,
+      "overall": "WARNING",
+      "severity_score": 76,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -7329,17 +7487,26 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 0,
+          "verdict": "FAIL",
           "critical_matches": [],
           "standard_matches": [
             [
               "path",
               1
+            ],
+            [
+              "vibration",
+              7
             ]
           ],
-          "emergent_matches": [],
-          "total_violations": 1
+          "emergent_matches": [
+            [
+              "vibration",
+              7
+            ]
+          ],
+          "total_violations": 15
         },
         "voice": {
           "score": 100,
@@ -7347,7 +7514,7 @@
           "use_matches": [
             [
               "coherence",
-              1
+              2
             ],
             [
               "integration",
@@ -7359,15 +7526,19 @@
             ],
             [
               "pattern",
-              1
+              2
             ],
             [
               "structure",
-              2
+              6
             ],
             [
               "capacity",
               3
+            ],
+            [
+              "symbolic recursion",
+              1
             ],
             [
               "kha",
@@ -7387,6 +7558,10 @@
             ]
           ],
           "generic_matches": [
+            [
+              "light",
+              1
+            ],
             [
               "divine",
               1
@@ -7410,6 +7585,10 @@
               2
             ],
             [
+              "model",
+              1
+            ],
+            [
               "ritual",
               1
             ],
@@ -7423,7 +7602,7 @@
             ],
             [
               "consciousness",
-              2
+              3
             ],
             [
               "inquiry",
@@ -7437,7 +7616,7 @@
           "scale_matches": [
             [
               "body",
-              5
+              7
             ],
             [
               "somatic",
@@ -7459,12 +7638,12 @@
           "recursive_count": 1
         },
         "source_grounding": {
-          "score": 45,
+          "score": 48,
           "verdict": "WARNING",
           "source_matches": [
             [
               "\\b(?:source|reference|citation|footnote|see also|further reading)\\b",
-              5
+              6
             ]
           ],
           "vault_reference_count": 0
@@ -7496,7 +7675,7 @@
       "tonal_drift": {
         "flags": [],
         "flag_count": 0,
-        "warmth_count": 1,
+        "warmth_count": 2,
         "motivational_count": 0,
         "generic_count": 0,
         "academic_excess": false
@@ -7964,6 +8143,10 @@
             ],
             [
               "coherence",
+              2
+            ],
+            [
+              "integration",
               1
             ],
             [
@@ -7972,7 +8155,7 @@
             ],
             [
               "pattern",
-              2
+              3
             ],
             [
               "structure",
@@ -7980,7 +8163,7 @@
             ],
             [
               "capacity",
-              4
+              5
             ],
             [
               "kha",
@@ -7995,7 +8178,12 @@
               10
             ]
           ],
-          "generic_matches": []
+          "generic_matches": [
+            [
+              "light",
+              1
+            ]
+          ]
         },
         "cosmological_coherence": {
           "score": 100,
@@ -8007,7 +8195,7 @@
             ],
             [
               "system",
-              23
+              24
             ],
             [
               "architecture",
@@ -8018,12 +8206,16 @@
               8
             ],
             [
+              "protocol",
+              3
+            ],
+            [
               "ritual",
               1
             ],
             [
               "practice",
-              3
+              4
             ],
             [
               "witness",
@@ -8095,7 +8287,7 @@
       "tonal_drift": {
         "flags": [],
         "flag_count": 0,
-        "warmth_count": 0,
+        "warmth_count": 1,
         "motivational_count": 0,
         "generic_count": 0,
         "academic_excess": false
@@ -8313,8 +8505,12 @@
               1
             ],
             [
+              "noesis",
+              3
+            ],
+            [
               "framework",
-              9
+              8
             ],
             [
               "system",
@@ -8377,66 +8573,61 @@
     },
     {
       "post": "muse-enneagram-matrix.md",
-      "overall": "WARNING",
-      "severity_score": 53,
+      "overall": "PASS",
+      "severity_score": 86,
       "dimensions": {
         "kha_ba_la": {
-          "score": 0,
-          "verdict": "FAIL",
-          "kha_count": 0,
-          "ba_count": 0,
-          "la_count": 0,
-          "triad_count": 0,
+          "score": 100,
+          "verdict": "PASS",
+          "kha_count": 4,
+          "ba_count": 4,
+          "la_count": 4,
+          "triad_count": 1,
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 35,
-          "verdict": "FAIL",
+          "score": 85,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
             [
-              "journey",
-              1
-            ],
-            [
               "path",
               1
-            ],
-            [
-              "healing",
-              1
             ]
           ],
-          "emergent_matches": [
-            [
-              "healing",
-              1
-            ],
-            [
-              "journey",
-              1
-            ]
-          ],
-          "total_violations": 5
+          "emergent_matches": [],
+          "total_violations": 1
         },
         "voice": {
-          "score": 74,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "use_matches": [
             [
               "pattern",
-              8
+              12
             ],
             [
               "capacity",
               1
+            ],
+            [
+              "kha",
+              4
+            ],
+            [
+              "ba",
+              4
+            ],
+            [
+              "la",
+              4
+            ],
+            [
+              "kha-ba-la",
+              1
             ]
           ],
           "generic_matches": [
-            [
-              "journey",
-              1
-            ],
             [
               "potential",
               1
@@ -8456,12 +8647,16 @@
           "verdict": "PASS",
           "engine_matches": [
             [
+              "kha-ba-la",
+              1
+            ],
+            [
               "framework",
               1
             ],
             [
               "system",
-              8
+              9
             ],
             [
               "architecture",
@@ -8472,13 +8667,17 @@
               2
             ],
             [
+              "witness",
+              1
+            ],
+            [
               "consciousness",
               2
             ]
           ]
         },
         "fractal_depth": {
-          "score": 80,
+          "score": 90,
           "verdict": "PASS",
           "scale_matches": [
             [
@@ -8487,7 +8686,11 @@
             ],
             [
               "body",
-              6
+              8
+            ],
+            [
+              "somatic",
+              1
             ],
             [
               "historical",
@@ -8511,12 +8714,24 @@
           "vault_reference_count": 0
         },
         "shadow_integration": {
-          "score": 54,
+          "score": 100,
           "verdict": "PASS",
           "shadow_matches": [
             [
+              "cost",
+              1
+            ],
+            [
               "shadow",
-              2
+              3
+            ],
+            [
+              "resistance",
+              3
+            ],
+            [
+              "failure",
+              1
             ]
           ],
           "skipped": false
@@ -8536,7 +8751,7 @@
         "flag_count": 1,
         "warmth_count": 5,
         "motivational_count": 1,
-        "generic_count": 1,
+        "generic_count": 0,
         "academic_excess": false
       }
     },
@@ -9019,28 +9234,36 @@
     {
       "post": "noetic-aether-substrate.md",
       "overall": "WARNING",
-      "severity_score": 78,
+      "severity_score": 71,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
           "verdict": "PASS",
-          "kha_count": 2,
-          "ba_count": 3,
+          "kha_count": 3,
+          "ba_count": 4,
           "la_count": 2,
           "triad_count": 1,
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 45,
+          "score": 0,
           "verdict": "FAIL",
           "critical_matches": [],
           "standard_matches": [
             [
               "path",
               1
+            ],
+            [
+              "vibration",
+              3
             ]
           ],
           "emergent_matches": [
+            [
+              "vibration",
+              3
+            ],
             [
               "energy",
               2
@@ -9050,7 +9273,7 @@
               2
             ]
           ],
-          "total_violations": 5
+          "total_violations": 11
         },
         "voice": {
           "score": 100,
@@ -9058,19 +9281,19 @@
           "use_matches": [
             [
               "pattern",
-              6
+              7
             ],
             [
               "structure",
-              9
+              13
             ],
             [
               "kha",
-              2
+              3
             ],
             [
               "ba",
-              3
+              4
             ],
             [
               "la",
@@ -9081,7 +9304,12 @@
               1
             ]
           ],
-          "generic_matches": []
+          "generic_matches": [
+            [
+              "soul",
+              1
+            ]
+          ]
         },
         "cosmological_coherence": {
           "score": 100,
@@ -9093,11 +9321,11 @@
             ],
             [
               "system",
-              7
+              9
             ],
             [
               "architecture",
-              11
+              14
             ],
             [
               "model",
@@ -9113,7 +9341,7 @@
             ],
             [
               "consciousness",
-              4
+              6
             ]
           ]
         },
@@ -9127,7 +9355,7 @@
             ],
             [
               "body",
-              18
+              21
             ],
             [
               "somatic",
@@ -9135,7 +9363,7 @@
             ],
             [
               "cosmic",
-              8
+              9
             ]
           ],
           "recursive_count": 0
@@ -9169,7 +9397,7 @@
       "tonal_drift": {
         "flags": [],
         "flag_count": 0,
-        "warmth_count": 0,
+        "warmth_count": 1,
         "motivational_count": 0,
         "generic_count": 0,
         "academic_excess": false
@@ -9627,7 +9855,7 @@
     {
       "post": "pharmacos-protocol.md",
       "overall": "WARNING",
-      "severity_score": 68,
+      "severity_score": 66,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -9683,7 +9911,7 @@
             ],
             [
               "architecture",
-              5
+              4
             ],
             [
               "protocol",
@@ -9691,20 +9919,24 @@
             ],
             [
               "ritual",
-              5
+              4
             ],
             [
               "practice",
-              2
+              1
             ],
             [
               "inquiry",
+              1
+            ],
+            [
+              "examination",
               1
             ]
           ]
         },
         "fractal_depth": {
-          "score": 85,
+          "score": 75,
           "verdict": "PASS",
           "scale_matches": [
             [
@@ -9721,10 +9953,6 @@
             ],
             [
               "somatic",
-              1
-            ],
-            [
-              "society",
               1
             ]
           ],
@@ -9772,8 +10000,8 @@
     },
     {
       "post": "ports-of-call.md",
-      "overall": "PASS",
-      "severity_score": 84,
+      "overall": "WARNING",
+      "severity_score": 81,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -9785,8 +10013,8 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
-          "verdict": "WARNING",
+          "score": 45,
+          "verdict": "FAIL",
           "critical_matches": [],
           "standard_matches": [
             [
@@ -9796,10 +10024,19 @@
             [
               "higher self",
               1
+            ],
+            [
+              "truth",
+              1
             ]
           ],
-          "emergent_matches": [],
-          "total_violations": 2
+          "emergent_matches": [
+            [
+              "truth",
+              1
+            ]
+          ],
+          "total_violations": 4
         },
         "voice": {
           "score": 100,
@@ -9807,6 +10044,10 @@
           "use_matches": [
             [
               "coherence",
+              1
+            ],
+            [
+              "integration",
               1
             ],
             [
@@ -9819,7 +10060,7 @@
             ],
             [
               "noesis engine",
-              1
+              2
             ],
             [
               "kha",
@@ -9845,7 +10086,7 @@
             ],
             [
               "heart",
-              2
+              3
             ]
           ]
         },
@@ -9855,15 +10096,15 @@
           "engine_matches": [
             [
               "noesis engine",
-              1
+              2
             ],
             [
               "engine",
-              6
+              7
             ],
             [
               "noesis",
-              1
+              2
             ],
             [
               "kha-ba-la",
@@ -9879,7 +10120,7 @@
             ],
             [
               "model",
-              2
+              3
             ],
             [
               "protocol",
@@ -9901,7 +10142,7 @@
             ],
             [
               "body",
-              8
+              11
             ],
             [
               "neural",
@@ -9939,7 +10180,7 @@
             ],
             [
               "resistance",
-              2
+              3
             ],
             [
               "collapse",
@@ -9957,7 +10198,7 @@
         "flags": [
           {
             "flag": "warmth_excess",
-            "count": 4,
+            "count": 5,
             "examples": [
               "light",
               "heart"
@@ -9965,7 +10206,7 @@
           }
         ],
         "flag_count": 1,
-        "warmth_count": 4,
+        "warmth_count": 5,
         "motivational_count": 0,
         "generic_count": 0,
         "academic_excess": false
@@ -10519,41 +10760,32 @@
     {
       "post": "root-access-to-reality.md",
       "overall": "WARNING",
-      "severity_score": 68,
+      "severity_score": 71,
       "dimensions": {
         "kha_ba_la": {
           "score": 40,
           "verdict": "WARNING",
           "kha_count": 0,
-          "ba_count": 4,
-          "la_count": 4,
+          "ba_count": 2,
+          "la_count": 3,
           "triad_count": 0,
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 30,
-          "verdict": "FAIL",
+          "score": 55,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
             [
               "path",
               3
-            ],
-            [
-              "truth",
-              1
             ]
           ],
-          "emergent_matches": [
-            [
-              "truth",
-              1
-            ]
-          ],
-          "total_violations": 5
+          "emergent_matches": [],
+          "total_violations": 3
         },
         "voice": {
-          "score": 100,
+          "score": 98,
           "verdict": "PASS",
           "use_matches": [
             [
@@ -10574,11 +10806,11 @@
             ],
             [
               "ba",
-              4
+              2
             ],
             [
               "la",
-              4
+              3
             ]
           ],
           "generic_matches": [
@@ -10598,15 +10830,15 @@
           "engine_matches": [
             [
               "system",
-              17
+              14
             ],
             [
               "architecture",
-              9
+              8
             ],
             [
               "protocol",
-              5
+              2
             ],
             [
               "witness",
@@ -10624,7 +10856,7 @@
           "scale_matches": [
             [
               "body",
-              13
+              12
             ],
             [
               "society",
@@ -10913,7 +11145,7 @@
     {
       "post": "sacred-geometry-processing-units.md",
       "overall": "PASS",
-      "severity_score": 78,
+      "severity_score": 77,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
@@ -10943,7 +11175,7 @@
           "use_matches": [
             [
               "pattern",
-              15
+              12
             ],
             [
               "structure",
@@ -10951,7 +11183,7 @@
             ],
             [
               "capacity",
-              2
+              1
             ],
             [
               "recursive",
@@ -10959,7 +11191,7 @@
             ],
             [
               "compass",
-              3
+              2
             ],
             [
               "self-consciousness",
@@ -10980,16 +11212,8 @@
           ],
           "generic_matches": [
             [
-              "light",
-              2
-            ],
-            [
               "divine",
               3
-            ],
-            [
-              "sacred",
-              1
             ]
           ]
         },
@@ -11003,15 +11227,15 @@
             ],
             [
               "compass",
-              3
+              2
             ],
             [
               "system",
-              7
+              5
             ],
             [
               "architecture",
-              5
+              4
             ],
             [
               "protocol",
@@ -11019,11 +11243,11 @@
             ],
             [
               "witness",
-              2
+              3
             ],
             [
               "consciousness",
-              3
+              2
             ],
             [
               "self-consciousness",
@@ -11041,11 +11265,11 @@
             ],
             [
               "body",
-              6
+              3
             ],
             [
               "neural",
-              6
+              5
             ],
             [
               "civilization",
@@ -11055,14 +11279,9 @@
           "recursive_count": 2
         },
         "source_grounding": {
-          "score": 33,
+          "score": 30,
           "verdict": "WARNING",
-          "source_matches": [
-            [
-              "\\b(?:source|reference|citation|footnote|see also|further reading)\\b",
-              1
-            ]
-          ],
+          "source_matches": [],
           "vault_reference_count": 0
         },
         "shadow_integration": {
@@ -11071,7 +11290,7 @@
           "shadow_matches": [
             [
               "cost",
-              4
+              2
             ],
             [
               "resistance",
@@ -11086,10 +11305,6 @@
               1
             ],
             [
-              "constraint",
-              1
-            ],
-            [
               "cost of",
               1
             ]
@@ -11101,16 +11316,14 @@
         "flags": [
           {
             "flag": "warmth_excess",
-            "count": 6,
+            "count": 3,
             "examples": [
-              "light",
-              "divine",
-              "sacred"
+              "divine"
             ]
           }
         ],
         "flag_count": 1,
-        "warmth_count": 6,
+        "warmth_count": 3,
         "motivational_count": 0,
         "generic_count": 0,
         "academic_excess": false
@@ -11263,9 +11476,9 @@
         "kha_ba_la": {
           "score": 100,
           "verdict": "PASS",
-          "kha_count": 5,
-          "ba_count": 5,
-          "la_count": 7,
+          "kha_count": 4,
+          "ba_count": 4,
+          "la_count": 6,
           "triad_count": 1,
           "has_absence_demonstration": false
         },
@@ -11296,15 +11509,15 @@
             ],
             [
               "kha",
-              5
+              4
             ],
             [
               "ba",
-              5
+              4
             ],
             [
               "la",
-              7
+              6
             ],
             [
               "kha-ba-la",
@@ -11332,7 +11545,7 @@
             ],
             [
               "system",
-              11
+              10
             ],
             [
               "architecture",
@@ -11344,7 +11557,7 @@
             ],
             [
               "ritual",
-              5
+              4
             ],
             [
               "witness",
@@ -11358,7 +11571,7 @@
           "scale_matches": [
             [
               "body",
-              8
+              7
             ],
             [
               "planetary",
@@ -11368,14 +11581,9 @@
           "recursive_count": 0
         },
         "source_grounding": {
-          "score": 33,
+          "score": 30,
           "verdict": "WARNING",
-          "source_matches": [
-            [
-              "\\b(?:source|reference|citation|footnote|see also|further reading)\\b",
-              1
-            ]
-          ],
+          "source_matches": [],
           "vault_reference_count": 0
         },
         "shadow_integration": {
@@ -11784,45 +11992,37 @@
     {
       "post": "shadbala-tensor-field-theory.md",
       "overall": "WARNING",
-      "severity_score": 47,
+      "severity_score": 77,
       "dimensions": {
         "kha_ba_la": {
-          "score": 0,
-          "verdict": "FAIL",
-          "kha_count": 0,
-          "ba_count": 0,
-          "la_count": 0,
-          "triad_count": 0,
-          "has_absence_demonstration": false
+          "score": 100,
+          "verdict": "PASS",
+          "kha_count": 5,
+          "ba_count": 5,
+          "la_count": 5,
+          "triad_count": 1,
+          "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 50,
-          "verdict": "FAIL",
+          "score": 60,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
             [
               "path",
-              1
-            ],
-            [
-              "optimization",
-              1
+              2
             ]
           ],
           "emergent_matches": [
-            [
-              "optimization",
-              1
-            ],
             [
               "energy",
               1
             ]
           ],
-          "total_violations": 4
+          "total_violations": 3
         },
         "voice": {
-          "score": 82,
+          "score": 100,
           "verdict": "PASS",
           "use_matches": [
             [
@@ -11831,10 +12031,26 @@
             ],
             [
               "pattern",
-              3
+              5
             ],
             [
               "structure",
+              1
+            ],
+            [
+              "kha",
+              5
+            ],
+            [
+              "ba",
+              5
+            ],
+            [
+              "la",
+              5
+            ],
+            [
+              "kha-ba-la",
               1
             ]
           ],
@@ -11846,12 +12062,16 @@
           ]
         },
         "cosmological_coherence": {
-          "score": 85,
+          "score": 100,
           "verdict": "PASS",
           "engine_matches": [
             [
+              "kha-ba-la",
+              1
+            ],
+            [
               "system",
-              2
+              5
             ],
             [
               "practice",
@@ -11864,9 +12084,13 @@
           ]
         },
         "fractal_depth": {
-          "score": 40,
+          "score": 50,
           "verdict": "WARNING",
           "scale_matches": [
+            [
+              "body",
+              4
+            ],
             [
               "planetary",
               7
@@ -11886,9 +12110,18 @@
           "vault_reference_count": 0
         },
         "shadow_integration": {
-          "score": 30,
-          "verdict": "WARNING",
-          "shadow_matches": [],
+          "score": 90,
+          "verdict": "PASS",
+          "shadow_matches": [
+            [
+              "resistance",
+              4
+            ],
+            [
+              "constraint",
+              1
+            ]
+          ],
           "skipped": false
         }
       },
@@ -12056,7 +12289,7 @@
     {
       "post": "sixteen-engines-one-purpose.md",
       "overall": "WARNING",
-      "severity_score": 72,
+      "severity_score": 74,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -12068,13 +12301,13 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 10,
+          "score": 25,
           "verdict": "FAIL",
           "critical_matches": [],
           "standard_matches": [
             [
               "path",
-              2
+              1
             ],
             [
               "vibration",
@@ -12099,7 +12332,7 @@
               1
             ]
           ],
-          "total_violations": 7
+          "total_violations": 6
         },
         "voice": {
           "score": 100,
@@ -12151,10 +12384,6 @@
             ]
           ],
           "generic_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "heart",
               1
@@ -12298,7 +12527,7 @@
         "flag_count": 0,
         "warmth_count": 2,
         "motivational_count": 0,
-        "generic_count": 1,
+        "generic_count": 0,
         "academic_excess": false
       }
     },
@@ -13341,7 +13570,7 @@
           "kha_count": 6,
           "ba_count": 6,
           "la_count": 7,
-          "triad_count": 2,
+          "triad_count": 3,
           "has_absence_demonstration": false
         },
         "vocabulary": {
@@ -13383,7 +13612,7 @@
             ],
             [
               "kha-ba-la",
-              2
+              3
             ]
           ],
           "generic_matches": [
@@ -13403,7 +13632,7 @@
           "engine_matches": [
             [
               "kha-ba-la",
-              2
+              3
             ],
             [
               "framework",
@@ -13411,7 +13640,7 @@
             ],
             [
               "system",
-              7
+              6
             ],
             [
               "architecture",
@@ -14064,7 +14293,7 @@
     {
       "post": "the-hermit-72-hours.md",
       "overall": "WARNING",
-      "severity_score": 42,
+      "severity_score": 47,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -14076,21 +14305,16 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 2
+          "total_violations": 0
         },
         "voice": {
-          "score": 46,
-          "verdict": "FAIL",
+          "score": 52,
+          "verdict": "WARNING",
           "use_matches": [
             [
               "structure",
@@ -14098,10 +14322,6 @@
             ]
           ],
           "generic_matches": [
-            [
-              "path",
-              2
-            ],
             [
               "heart",
               1
@@ -14155,27 +14375,27 @@
         "flag_count": 0,
         "warmth_count": 1,
         "motivational_count": 0,
-        "generic_count": 2,
+        "generic_count": 0,
         "academic_excess": false
       }
     },
     {
       "post": "the-ineffable-secrets-of-a-breathing-sprite.md",
       "overall": "WARNING",
-      "severity_score": 84,
+      "severity_score": 74,
       "dimensions": {
         "kha_ba_la": {
-          "score": 100,
+          "score": 60,
           "verdict": "PASS",
-          "kha_count": 10,
-          "ba_count": 10,
-          "la_count": 10,
-          "triad_count": 2,
+          "kha_count": 2,
+          "ba_count": 1,
+          "la_count": 1,
+          "triad_count": 0,
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 55,
-          "verdict": "FAIL",
+          "score": 75,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
             [
@@ -14185,31 +14405,23 @@
           ],
           "emergent_matches": [
             [
-              "energy",
-              2
-            ],
-            [
               "quantum",
               1
             ]
           ],
-          "total_violations": 4
+          "total_violations": 2
         },
         "voice": {
-          "score": 100,
-          "verdict": "PASS",
+          "score": 63,
+          "verdict": "WARNING",
           "use_matches": [
             [
               "integration",
-              1
-            ],
-            [
-              "pattern",
               2
             ],
             [
               "structure",
-              3
+              1
             ],
             [
               "capacity",
@@ -14217,29 +14429,21 @@
             ],
             [
               "kha",
-              10
+              2
             ],
             [
               "ba",
-              10
+              1
             ],
             [
               "la",
-              10
-            ],
-            [
-              "kha-ba-la",
-              2
+              1
             ]
           ],
           "generic_matches": [
             [
-              "potential",
-              2
-            ],
-            [
               "light",
-              9
+              7
             ],
             [
               "heart",
@@ -14252,20 +14456,16 @@
           "verdict": "PASS",
           "engine_matches": [
             [
-              "kha-ba-la",
-              2
-            ],
-            [
               "framework",
               1
             ],
             [
               "system",
-              12
+              9
             ],
             [
               "architecture",
-              2
+              1
             ],
             [
               "model",
@@ -14273,15 +14473,15 @@
             ],
             [
               "protocol",
-              2
+              1
             ],
             [
               "ritual",
-              3
+              4
             ],
             [
               "practice",
-              2
+              1
             ],
             [
               "consciousness",
@@ -14290,16 +14490,16 @@
           ]
         },
         "fractal_depth": {
-          "score": 100,
+          "score": 85,
           "verdict": "PASS",
           "scale_matches": [
             [
               "personal",
-              4
+              5
             ],
             [
               "body",
-              21
+              14
             ],
             [
               "somatic",
@@ -14311,26 +14511,18 @@
             ],
             [
               "cosmic",
-              3
-            ],
-            [
-              "universal",
-              1
-            ],
-            [
-              "planetary",
-              1
+              4
             ]
           ],
           "recursive_count": 1
         },
         "source_grounding": {
-          "score": 36,
+          "score": 33,
           "verdict": "WARNING",
           "source_matches": [
             [
               "\\b(?:source|reference|citation|footnote|see also|further reading)\\b",
-              2
+              1
             ]
           ],
           "vault_reference_count": 0
@@ -14341,19 +14533,11 @@
           "shadow_matches": [
             [
               "cost",
-              7
-            ],
-            [
-              "fracture",
-              1
-            ],
-            [
-              "shadow",
-              1
+              6
             ],
             [
               "resistance",
-              11
+              3
             ],
             [
               "failure",
@@ -14365,7 +14549,7 @@
             ],
             [
               "cost of",
-              6
+              5
             ]
           ],
           "skipped": false
@@ -14375,23 +14559,16 @@
         "flags": [
           {
             "flag": "warmth_excess",
-            "count": 11,
+            "count": 9,
             "examples": [
               "light",
               "heart"
             ]
-          },
-          {
-            "flag": "motivational_excess",
-            "count": 2,
-            "examples": [
-              "potential"
-            ]
           }
         ],
-        "flag_count": 2,
-        "warmth_count": 11,
-        "motivational_count": 2,
+        "flag_count": 1,
+        "warmth_count": 9,
+        "motivational_count": 0,
         "generic_count": 0,
         "academic_excess": false
       }
@@ -14516,7 +14693,7 @@
     {
       "post": "the-sacred-runtime.md",
       "overall": "WARNING",
-      "severity_score": 46,
+      "severity_score": 62,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -14528,51 +14705,47 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 40,
-          "verdict": "FAIL",
+          "score": 85,
+          "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [],
-          "emergent_matches": [
+          "standard_matches": [
             [
-              "energy",
+              "path",
+              1
+            ]
+          ],
+          "emergent_matches": [],
+          "total_violations": 1
+        },
+        "voice": {
+          "score": 92,
+          "verdict": "PASS",
+          "use_matches": [
+            [
+              "authorship",
               1
             ],
             [
-              "quantum",
-              5
-            ]
-          ],
-          "total_violations": 6
-        },
-        "voice": {
-          "score": 50,
-          "verdict": "WARNING",
-          "use_matches": [
-            [
-              "integration",
+              "coherence",
               1
             ],
             [
               "pattern",
-              1
+              3
             ],
             [
-              "recursive",
+              "capacity",
+              3
+            ],
+            [
+              "noesis engine",
               1
             ]
           ],
           "generic_matches": [
             [
-              "optimize",
-              1
-            ],
-            [
-              "divine",
-              1
-            ],
-            [
               "sacred",
-              3
+              1
             ]
           ]
         },
@@ -14581,80 +14754,97 @@
           "verdict": "PASS",
           "engine_matches": [
             [
-              "system",
-              4
+              "noesis engine",
+              1
             ],
             [
-              "protocol",
+              "engine",
+              1
+            ],
+            [
+              "noesis",
+              1
+            ],
+            [
+              "system",
               5
             ],
             [
-              "ritual",
+              "architecture",
+              4
+            ],
+            [
+              "model",
               1
+            ],
+            [
+              "protocol",
+              2
+            ],
+            [
+              "practice",
+              3
             ],
             [
               "witness",
-              1
+              3
             ],
             [
               "consciousness",
-              1
+              7
             ]
           ]
         },
         "fractal_depth": {
-          "score": 55,
-          "verdict": "WARNING",
+          "score": 95,
+          "verdict": "PASS",
           "scale_matches": [
+            [
+              "individual",
+              1
+            ],
+            [
+              "body",
+              12
+            ],
+            [
+              "somatic",
+              3
+            ],
+            [
+              "neural",
+              1
+            ],
             [
               "cosmic",
               1
             ],
             [
-              "universal",
-              4
+              "celestial",
+              1
             ]
           ],
           "recursive_count": 1
         },
         "source_grounding": {
-          "score": 33,
+          "score": 30,
           "verdict": "WARNING",
-          "source_matches": [
-            [
-              "\\b(?:source|reference|citation|footnote|see also|further reading)\\b",
-              1
-            ]
-          ],
+          "source_matches": [],
           "vault_reference_count": 0
         },
         "shadow_integration": {
-          "score": 42,
+          "score": 30,
           "verdict": "WARNING",
-          "shadow_matches": [
-            [
-              "failure",
-              1
-            ]
-          ],
+          "shadow_matches": [],
           "skipped": false
         }
       },
       "tonal_drift": {
-        "flags": [
-          {
-            "flag": "warmth_excess",
-            "count": 4,
-            "examples": [
-              "divine",
-              "sacred"
-            ]
-          }
-        ],
-        "flag_count": 1,
-        "warmth_count": 4,
+        "flags": [],
+        "flag_count": 0,
+        "warmth_count": 1,
         "motivational_count": 0,
-        "generic_count": 1,
+        "generic_count": 0,
         "academic_excess": false
       }
     },
@@ -15263,7 +15453,7 @@
           "generic_matches": [
             [
               "light",
-              11
+              12
             ]
           ]
         },
@@ -15297,7 +15487,7 @@
             ],
             [
               "witness",
-              12
+              14
             ],
             [
               "consciousness",
@@ -15323,7 +15513,7 @@
             ],
             [
               "cosmic",
-              1
+              2
             ],
             [
               "universal",
@@ -15387,14 +15577,14 @@
         "flags": [
           {
             "flag": "warmth_excess",
-            "count": 11,
+            "count": 12,
             "examples": [
               "light"
             ]
           }
         ],
         "flag_count": 1,
-        "warmth_count": 11,
+        "warmth_count": 12,
         "motivational_count": 0,
         "generic_count": 0,
         "academic_excess": false
@@ -16012,9 +16202,9 @@
         "kha_ba_la": {
           "score": 100,
           "verdict": "PASS",
-          "kha_count": 1,
-          "ba_count": 1,
-          "la_count": 1,
+          "kha_count": 4,
+          "ba_count": 4,
+          "la_count": 4,
           "triad_count": 1,
           "has_absence_demonstration": false
         },
@@ -16065,15 +16255,15 @@
             ],
             [
               "kha",
-              1
+              4
             ],
             [
               "ba",
-              1
+              4
             ],
             [
               "la",
-              1
+              4
             ],
             [
               "kha-ba-la",
@@ -16105,11 +16295,11 @@
             ],
             [
               "system",
-              9
+              10
             ],
             [
               "architecture",
-              7
+              8
             ],
             [
               "model",
@@ -16131,7 +16321,7 @@
           "scale_matches": [
             [
               "body",
-              10
+              7
             ],
             [
               "somatic",
@@ -16180,7 +16370,7 @@
             ],
             [
               "resistance",
-              6
+              3
             ],
             [
               "failure",
@@ -17293,7 +17483,7 @@
     {
       "post": "vortex-based-mathematics.md",
       "overall": "WARNING",
-      "severity_score": 73,
+      "severity_score": 75,
       "dimensions": {
         "kha_ba_la": {
           "score": 75,
@@ -17305,22 +17495,17 @@
           "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 65,
+          "score": 80,
           "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "energy",
               2
             ]
           ],
-          "total_violations": 3
+          "total_violations": 2
         },
         "voice": {
           "score": 100,

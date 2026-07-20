@@ -1,0 +1,148 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-moon-refracts-everything.md",
+  "source_path": "src/content/posts/the-moon-refracts-everything.md",
+  "source_sha256": "147214f8fc30ca74f0ecfd4582c8f8dd59af449757bcf4af81f6568acc913241",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-moon-refracts-everything.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "the mind generates narrative from fragments"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence fuses a tarot-Moon reading with manomaya-kosha psychology without separately tracing either ingredient or declaring the mapping as a Noesis synthesis; internal plausibility cannot certify inherited provenance.",
+      "legacy": {
+        "anchor": "29",
+        "quote": "\"the mind generates narrative from fragments\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Projection claim operated inside the manomaya kosha (Vedic house frame, named and operated). The agent is mind, not brain chemistry — no borrowed authority, no inverted arrow."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "Koh Phangan delivered this lesson through geometry"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-MATH"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The crescent comparison is plainly figurative, but the mathematical term geometry is not operationalized with angles, ratios, or a mapping. Removing it leaves the partial-light lesson unchanged.",
+      "legacy": {
+        "anchor": "23, 31",
+        "quote": "\"Koh Phangan delivered this lesson through geometry\"",
+        "type": "math",
+        "verdict": "DECORATIVE",
+        "load_bearing": false,
+        "note": "\"Geometry\" never operationalized — no angles, ratios, or mappings. §4.4 test: remove the word and the crescent-vs-full-circle observation carries the argument intact. Borderline ordinary-language usage (\"crescent geometry\" = observed shape) noted for ALBEDO's final call."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "A prism doesn't corrupt white light. It reveals the spectrum"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The optics statement is a general physical claim rather than a situated observation. It is plausible, but the post and legacy audit provide no traceable source, apparatus, conditions, or scope sufficient for VERIFIED.",
+      "legacy": {
+        "anchor": "33",
+        "quote": "\"A prism doesn't corrupt white light. It reveals the spectrum\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": true,
+        "note": "Optics claim is accurate and reader-replicable (hold a prism to light). It is the declared analogy base (prism → Moon → perception); \"wavelengths of assumption\" is explicit metaphor under the §5 safe harbor, not flagged."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "the Kha-Ba-La triad in operation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT",
+        "R-SYNTHESIS"
+      ],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "The closing paragraph shows a Kha/Ba/La comparison, but the required ingredient ledger and explicit Noesis-authorship trace are incomplete, and upstream prism and kosha ingredients do not pass as written. Triad is a conceptual taxonomy here, not a mathematical object.",
+      "legacy": {
+        "anchor": "39",
+        "quote": "\"the Kha-Ba-La triad in operation\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Canonical house structure (§4.1). Kha/Ba/La roles demonstrated step by step against the refraction account; remove it and the structural-mapping section collapses."
+      },
+      "id": "C004"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-star-names-you.md",
+  "source_path": "src/content/posts/the-star-names-you.md",
+  "source_sha256": "2f70f2d0e03ca945e8d33044586263b19c3f903b42af71a8b6c13230130b317a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-star-names-you.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 26,
+        "line_end": 26,
+        "quote": "the deliberate channeling of cosmic frequency into material form"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The surrounding Tarot reading signals an interpretive frame, but this span presents undefined \"cosmic frequency\" as a literal form-producing mechanism without identifying it as a Noesis model; the mode boundary therefore remains conflated.",
+      "legacy": {
+        "anchor": "L26",
+        "quote": "\"the deliberate channeling of cosmic frequency into material form\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": false,
+        "note": "House-frame vocabulary inside Thoth tarot hermeneutics; causal arrow runs cosmos→form (consciousness-primary). No physics authority invoked."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "Koh Samui delivered the Star's function with clinical precision. The healing wasn't gradual. It wasn't therapeutic in the Western sense — no processing, no narrative reframing, no cognitive restructuring. It was transmission."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The travelogue narrator reports a situated healing experience on Koh Samui and limits the contrast to what was personally noticed; it does not generalize a therapeutic mechanism beyond that episode.",
+      "legacy": {
+        "anchor": "L28",
+        "quote": "\"It wasn't therapeutic in the Western sense… It was transmission.\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person embodied account of own healing; Western psychotherapeutic frame (\"cognitive restructuring\") named only as contrast — set aside, not leaned on."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "the bliss sheath, the deepest layer of the five-body system"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The five-kosha and anandamaya teaching is traditional-source material, but the prose names neither a tradition nor a text and supplies no edition or translation trace; accurate content alone is not canonical attribution.",
+      "legacy": {
+        "anchor": "L32",
+        "quote": "\"the bliss sheath, the deepest layer of the five-body system\"",
+        "type": "science",
+        "verdict": "ALIGNED",
+        "load_bearing": true,
+        "note": "Vedic pancha-kosha system = house cosmology, ALIGNED by definition; accurate within the tradition (anandamaya is the innermost of the five koshas). Structures the post's recognition-vs-learning core."
+      },
+      "id": "C003"
+    }
+  ]
+}

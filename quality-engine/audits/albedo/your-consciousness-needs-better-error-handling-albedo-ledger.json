@@ -1,0 +1,249 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "your-consciousness-needs-better-error-handling.md",
+  "source_path": "src/content/posts/your-consciousness-needs-better-error-handling.md",
+  "source_sha256": "53c613f1377a0ff4a89fcb1b200540441f0f45982073873ac134bfb706e81263",
+  "legacy_audit_path": "quality-engine/audits/nigredo/your-consciousness-needs-better-error-handling.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Heart rate elevated, cortisol spiked"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the row mixes observation or empirical language with an unmarked inference or computational metaphor. Legacy evidence reviewed: First-person embodied account of on-call physiology; cortisol is inferred, but the sentence's core claim (racing heart, still posture, redline) is reader-replicable. Pass.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"Heart rate elevated, cortisol spiked\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "First-person embodied account of on-call physiology; cortisol is inferred, but the sentence's core claim (racing heart, still posture, redline) is reader-replicable. Pass."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "the body mobilizes for fight-or-flight in the absence of actual danger"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable observation or study at the stated causal scope. Legacy evidence reviewed: Descriptive physiology the reader can verify in their own body; used to characterize the panic mode, not to prove the thesis by authority. Pass.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"the body mobilizes for fight-or-flight in the absence of actual danger\"",
+        "type": "science",
+        "verdict": "GROUNDED-OBSERVATIONAL",
+        "load_bearing": false,
+        "note": "Descriptive physiology the reader can verify in their own body; used to characterize the panic mode, not to prove the thesis by authority. Pass."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "the same physiology that evolved for predator avoidance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable observation or study at the stated causal scope. Legacy evidence reviewed: Evolutionary deep-time origin narrative stated as settled fact; unobservable, unlabeled as model. Under the equivalence principle it may not be promoted by consensus. Fail.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"the same physiology that evolved for predator avoidance\"",
+        "type": "science",
+        "verdict": "CONTESTED-AS-FACT",
+        "load_bearing": false,
+        "note": "Evolutionary deep-time origin narrative stated as settled fact; unobservable, unlabeled as model. Under the equivalence principle it may not be promoted by consensus. Fail."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The prefrontal cortex goes partially offline. The amygdala takes the wheel."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SOURCE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the row mixes observation or empirical language with an unmarked inference or computational metaphor. Legacy evidence reviewed: Textbook amygdala-hijack mechanism asserted with no observation marker and no model label; support is institutional neuroscience. Also tilts toward an inverted (matter-before-consciousness) arrow, though the surrounding passage runs symbolic input → physiology. Fail.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"The prefrontal cortex goes partially offline. The amygdala takes the wheel.\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Textbook amygdala-hijack mechanism asserted with no observation marker and no model label; support is institutional neuroscience. Also tilts toward an inverted (matter-before-consciousness) arrow, though the surrounding passage runs symbolic input → physiology. Fail."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The body bears the cost in cortisol, in sleep debt, in immunosuppression"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Canonical v2.3 semantic review: the selected mode lacks a traceable observation or study at the stated causal scope. Legacy evidence reviewed: Stress-physiology cost ledger borrowed from institutional knowledge; immunosuppression is not observable to author or reader, and no model framing is given. Fail.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"The body bears the cost in cortisol, in sleep debt, in immunosuppression\"",
+        "type": "science",
+        "verdict": "AUTHORITY-BORROWED",
+        "load_bearing": false,
+        "note": "Stress-physiology cost ledger borrowed from institutional knowledge; immunosuppression is not observable to author or reader, and no model framing is given. Fail."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Kha performs this withdrawal — the witness reclaims attention from the stimulus"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the Kha–Ba–La mapping is explicitly named, internally consistent, and operated across try/catch/finally. The formal mapping is correct on its own terms, changes the article’s procedure, and is reproducible from lines 63–85. Legacy evidence reviewed: Kha-Ba-La triadic structure (canonical house structure) mapped step-by-step onto try/catch/finally and pratyahara across L63–L85; the mapping is demonstrated, not name-dropped. Remove it and the post's thesis collapses. Pass.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"Kha performs this withdrawal — the witness reclaims attention from the stimulus\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": true,
+        "note": "Kha-Ba-La triadic structure (canonical house structure) mapped step-by-step onto try/catch/finally and pratyahara across L63–L85; the mapping is demonstrated, not name-dropped. Remove it and the post's thesis collapses. Pass."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "This is the fractal operation: the same cascade that collapses a mind"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-METAPHOR",
+        "R-SPLIT"
+      ],
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "requires_review": false,
+      "rationale": "Canonical v2.3 semantic review: the row mixes observation or empirical language with an unmarked inference or computational metaphor. The fractal label adds mathematical authority without a defined invariant or consequential operation. Legacy evidence reviewed: Fractal scale-correspondence (mind → company → market → ecosystem) is house cosmology per §9; the correspondence mapping is explicitly drawn, not a bare name-drop. Pass.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"This is the fractal operation: the same cascade that collapses a mind\"",
+        "type": "math",
+        "verdict": "INTEGRATED",
+        "load_bearing": false,
+        "note": "Fractal scale-correspondence (mind → company → market → ecosystem) is house cosmology per §9; the correspondence mapping is explicitly drawn, not a bare name-drop. Pass."
+      },
+      "id": "C007"
+    }
+  ]
+}
