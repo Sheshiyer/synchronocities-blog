@@ -5,6 +5,8 @@
   "type": "module",
   "description": "NVIDIA NIM multi-model router for the synchronocities blog. Cloudflare Workers.",
   "scripts": {
+    "test": "SKIP_INTEGRATION=1 bun test",
+    "test:integration": "bun test",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "tail": "wrangler tail",

@@ -252,7 +252,7 @@ Your scores:`;
 /**
  * LLM-as-judge reranking. Sends query + numbered passages to a chat model
  * with a structured-output prompt, parses scores, returns passages sorted
- * by score descending. Designed to use a cheap model (nemotron-nano-3-30b-a3b
+ * by score descending. Designed to use a cheap model (nemotron-mini-4b-instruct
  * is the default in wrangler.toml) since this runs on every search/RAG call.
  *
  * Failure mode: if scoring fails or returns unparseable output, all passages

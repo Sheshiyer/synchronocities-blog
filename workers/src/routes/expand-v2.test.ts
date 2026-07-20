@@ -193,7 +193,11 @@ test('stripLeadingHeader handles an empty original header without false positive
 const BASE_URL = 'https://synchronocities-ai.sheshnarayan-iyer.workers.dev';
 const SKIP = process.env.SKIP_INTEGRATION === '1';
 
-const integrationTest = SKIP ? test.skip : test;
+// /expand/* routes are admin-gated (ISSUE-02). Integration runs need the key.
+const ADMIN_KEY = process.env.ADMIN_API_KEY;
+const ADMIN_HEADERS: Record<string, string> = ADMIN_KEY ? { 'X-Admin-Key': ADMIN_KEY } : {};
+
+const integrationTest = SKIP || !ADMIN_KEY ? test.skip : test;
 
 integrationTest(
   'POST /expand/v2/section returns valid shape with retrieved neighbors and cache miss→hit',
@@ -214,7 +218,7 @@ integrationTest(
     // First call — expect cache miss
     const res1 = await fetch(`${BASE_URL}/expand/v2/section`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...ADMIN_HEADERS },
       body: JSON.stringify(payload),
     });
     expect(res1.status).toBe(200);
@@ -271,7 +275,7 @@ integrationTest(
     // Second identical call — expect cache hit
     const res2 = await fetch(`${BASE_URL}/expand/v2/section`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...ADMIN_HEADERS },
       body: JSON.stringify(payload),
     });
     expect(res2.status).toBe(200);

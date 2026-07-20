@@ -8,16 +8,28 @@
  * NOTE: As of Task 4, Vectorize metadata stores `excerpt` (author-written)
  * but NOT `body_excerpt`. The helper falls back from body_excerpt → excerpt
  * gracefully. Task 5 will reindex to add body_excerpt for richer grounding.
+ *
+ * Both tests in this file hit the live deployed Worker. They are skipped
+ * when SKIP_INTEGRATION=1 (the default `npm test` script sets it) — matching
+ * the gate in src/routes/expand-v2.test.ts. Skipping also avoids leaving the
+ * fetch keep-alive socket to the live origin open after the run.
  */
 
 import { test, expect } from 'bun:test';
 
 const BASE_URL = 'https://synchronocities-ai.sheshnarayan-iyer.workers.dev';
+const SKIP = process.env.SKIP_INTEGRATION === '1';
 
-test('GET /test/retrieve returns top-3 neighbors from OTHER posts', async () => {
+// /test/* routes are admin-gated (ISSUE-02). Integration runs need the key.
+const ADMIN_KEY = process.env.ADMIN_API_KEY;
+const ADMIN_HEADERS: Record<string, string> = ADMIN_KEY ? { 'X-Admin-Key': ADMIN_KEY } : {};
+
+const integrationTest = SKIP || !ADMIN_KEY ? test.skip : test;
+
+integrationTest('GET /test/retrieve returns top-3 neighbors from OTHER posts', async () => {
   const res = await fetch(`${BASE_URL}/test/retrieve`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...ADMIN_HEADERS },
     body: JSON.stringify({
       section_text: 'the cavity precedes the flame',
       exclude_slug: 'vessel-prepare-ukha-sambharana',
@@ -37,7 +49,7 @@ test('GET /test/retrieve returns top-3 neighbors from OTHER posts', async () => 
   expect(data.neighbors[0]).toHaveProperty('title');
 }, 60_000);
 
-test('POST /test/retrieve handles section text well over the embed model token cap', async () => {
+integrationTest('POST /test/retrieve handles section text well over the embed model token cap', async () => {
   // The e5 family caps input at 512 tokens. `retrieveNeighbors` truncates
   // to ~1800 chars (~450–510 tokens) before calling embed(). Without that
   // truncation, NIM returns 400 "Input length N exceeds maximum allowed
@@ -47,7 +59,7 @@ test('POST /test/retrieve handles section text well over the embed model token c
     'The cavity precedes the flame. Containment is the work. '.repeat(80); // ~4500 chars, ~1100 tokens
   const res = await fetch(`${BASE_URL}/test/retrieve`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...ADMIN_HEADERS },
     body: JSON.stringify({
       section_text: oversizeSection,
       exclude_slug: 'vessel-prepare-ukha-sambharana',

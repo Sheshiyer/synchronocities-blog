@@ -8,7 +8,7 @@ kosha: anandamaya
 identity: The Witness
 revolution: 1
 draft: false
-excerpt: The Sun does not manufacture. It reveals. To be seen — truly seen, by another, by yourself — is to come into existence in a register that no act of self-creation can reach. The Hermetic principle of correspondence applies: as above, so below; the solar witness and the neural witness operate on the same structural grammar.
+excerpt: "The Sun does not manufacture. It reveals. To be seen — truly seen, by another, by yourself — is to come into existence in a register that no act of self-creation can reach. The Hermetic principle of correspondence applies: as above, so below; the solar witness and the neural witness operate on the same structural grammar."
 featured_image: /cards/sync-sun-names-you.webp
 tags:
   - sun

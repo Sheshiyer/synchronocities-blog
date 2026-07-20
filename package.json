@@ -11,7 +11,7 @@
     "prebuild": "npm run validate:posts",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "node --experimental-strip-types --test",
+    "test": "node --experimental-strip-types --test 'tests/*.test.ts'",
     "validate:posts": "node --experimental-strip-types scripts/validate-post-metadata.ts",
     "import:processing": "node --experimental-strip-types scripts/propose-processing-import.ts"
   },

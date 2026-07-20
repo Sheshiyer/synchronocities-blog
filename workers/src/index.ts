@@ -1,11 +1,9 @@
 /**
  * synchronocities-ai — Cloudflare Worker entry point.
  *
- * PHASE A (current): minimal — exposes /models (NIM catalog proxy) and
- * /test/wrapper (end-to-end smoke test of the NIM client wrapper).
- *
- * PHASE B (subsequent tasks): adds /search, /related/:slug, /chat (SSE),
- * /embed/batch, /generate/summary, /maps/cluster. Non-linear fan-out via
+ * PHASE B (current): all surface endpoints live — /search, /related/:slug,
+ * /chat (SSE), /embed/batch, /generate/summary, /maps/cluster, /expand*,
+ * plus diagnostics (/models, /test/*). Non-linear fan-out via
  * Promise.allSettled. Routing layer maps surface → {model, params, cache_ttl}.
  *
  * Secrets: `wrangler secret put NVIDIA_API_KEY` (one-time, prompted).
@@ -101,7 +99,7 @@ async function route(request: Request, env: Env, _ctx: ExecutionContext): Promis
       return Response.json(
         {
           service: 'synchronocities-ai',
-          phase: 'A',
+          phase: 'B',
           status: 'ok',
           corpus_version: env.CORPUS_VERSION,
           models: {
@@ -663,12 +661,12 @@ async function route(request: Request, env: Env, _ctx: ExecutionContext): Promis
       );
     }
 
-    // Surface endpoints land here in tasks #5–#10.
+    // Unknown path — all planned surface endpoints (tasks #5–#10) are live.
     return Response.json(
       {
         error: 'not_implemented',
         path,
-        note: 'phase A — /models, /test/wrapper, /test/probe, /test/routing are live',
+        note: 'phase B — all surface endpoints live; see README for the route table',
       },
       { status: 501, headers: { ...JSON_HEADERS, ...CORS_HEADERS } },
     );

@@ -48,12 +48,18 @@ NVIDIA NIM multi-model router for the synchronocities blog. Cloudflare Workers.
 
 ## Model selection (defaults in `wrangler.toml [vars]`)
 
+All five models below are validated callable on this account's NIM tier via
+`/test/probe-one`. The original picks (nv-embedqa-mistral-7b-v2,
+llama-3.1-nemotron-70b, llama-3.2-nv-rerankqa-1b-v2) either 404 on this tier
+or exceed the Vectorize dimension cap — see the notes in `wrangler.toml`.
+
 | Surface | Model | Why |
 |---|---|---|
-| Embeddings (search, related, RAG retrieval, clustering input) | `nvidia/nv-embedqa-mistral-7b-v2` | 4096-d retrieval-optimized embedding; tops MTEB retrieval leaderboard; native to NIM with batch support |
-| Chat (summaries, canonical questions, RAG answers) | `nvidia/llama-3.1-nemotron-70b-instruct` | NVIDIA's instruction-tuned Llama 3.1 70B; strong on long-form synthesis + structured output |
-| Reranking (RAG result refinement, /llms.txt ordering) | `nvidia/llama-3.2-nv-rerankqa-1b-v2` | Latency-optimized 1B rerank model; pairs with the larger chat model for the RAG pipeline |
-| Cluster labeling (concept-cluster surface) | `meta/llama-3.3-70b-instruct` | Cheaper general-purpose chat for the lower-frequency clustering job |
+| Embeddings (search, related, RAG retrieval, clustering input) | `nvidia/nv-embedqa-e5-v5` | 1024-d, ~585ms — fits the Cloudflare Vectorize cap (1536-d max) |
+| Chat (summaries, canonical questions, RAG answers) | `nvidia/nemotron-3-super-120b-a12b` | 120B, ~385ms — primary synthesis; swapped in 2026-07-20 after llama-3.3-70b-instruct went unreachable on this tier |
+| Reranking (RAG result refinement, /llms.txt ordering) | `nvidia/nemotron-mini-4b-instruct` | 4B, ~405ms — cheap LLM-as-judge rerank on every search/RAG call |
+| Cluster labeling (concept-cluster surface) | `nvidia/nemotron-mini-4b-instruct` | Same cheap model reused for the lower-frequency cluster-naming job |
+| Safety (/chat content moderation) | `nvidia/llama-3.1-nemoguard-8b-content-safety` | ~450ms — runs concurrently with the query embedding, no added latency |
 
 All overridable per-surface in `src/routing.ts` and per-environment via `.dev.vars`.
 
@@ -176,10 +182,13 @@ All 12 tasks complete. Live at `https://synchronocities-ai.sheshnarayan-iyer.wor
 
 ## Validated model trio
 
+This mirrors the "Model selection" table above (single source of truth:
+`wrangler.toml [vars]`); kept here with measured latencies from the probes.
+
 | Surface | Model | Latency |
 |---|---|---|
 | Embed | `nvidia/nv-embedqa-e5-v5` | 1024-d, ~600ms |
-| Chat primary | `meta/llama-3.3-70b-instruct` | ~400ms |
+| Chat primary | `nvidia/nemotron-3-super-120b-a12b` | ~385ms |
 | Cheap (rerank + clusters) | `nvidia/nemotron-mini-4b-instruct` | ~450ms |
 | Safety | `nvidia/llama-3.1-nemoguard-8b-content-safety` | ~450ms |
 

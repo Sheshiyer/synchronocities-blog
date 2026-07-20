@@ -91,6 +91,14 @@ export function computePerPost(
   };
 }
 
+/** Read CORPUS_VERSION from workers/wrangler.toml so the upload key matches the Worker. */
+function readCorpusVersionFromWrangler(): string {
+  const toml = readFileSync(join(import.meta.dir, '..', 'wrangler.toml'), 'utf8');
+  const m = toml.match(/^CORPUS_VERSION\s*=\s*"([^"]+)"/m);
+  if (!m?.[1]) throw new Error('CORPUS_VERSION not found in wrangler.toml');
+  return m[1];
+}
+
 function parseTopArg(argv: string[]): number | null {
   const t = argv.find((a) => a.startsWith('--top='));
   if (!t) return null;
@@ -172,7 +180,7 @@ async function main() {
 
   if (process.argv.includes('--upload')) {
     const { execSync } = await import('node:child_process');
-    const corpusVersion = process.env.CORPUS_VERSION ?? '2';
+    const corpusVersion = process.env.CORPUS_VERSION ?? readCorpusVersionFromWrangler();
     // Guard against shell injection — `corpusVersion` is interpolated into a
     // shell command below. Restrict to alphanumeric/dot/dash/underscore.
     if (!/^[\w.-]+$/.test(corpusVersion)) {

@@ -1,10 +1,9 @@
 # Cloudflare Workers config for the synchronocities AI service.
 #
-# Multi-model NVIDIA NIM router. Phase A is minimal — just enough to deploy
-# and discover the NIM model catalog. Phase B (subsequent tasks) re-enables
-# Vectorize, R2, Queues, and the surface endpoints.
+# Multi-model NVIDIA NIM router. Phase B is live: Vectorize, R2, and all
+# surface endpoints are active. Queues remain scaffolded (commented out below).
 #
-# Production secret: `wrangler secret put NVIDIA_API_KEY` (one-time, prompted)
+# Production secrets: `wrangler secret put NVIDIA_API_KEY` / `ADMIN_API_KEY` (one-time, prompted)
 
 name = "synchronocities-ai"
 main = "src/index.ts"
