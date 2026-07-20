@@ -1,0 +1,712 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "hyperbolic-mantra.md",
+  "source_path": "src/content/posts/hyperbolic-mantra.md",
+  "source_sha256": "d46f26c8848b450d58cd0089a780e6ed9783162c6ece1d592548d7cc1d6d5007",
+  "legacy_audit_path": "quality-engine/audits/nigredo/hyperbolic-mantra.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 63,
+        "quote": "\"There are infinitely many regular tilings of the hyperbolic plane.\"\n> — H. S. M. Coxeter"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Epigraph attributed to Coxeter, whose published work on hyperbolic tessellations establishes exactly this result; the statement is mathematically true and the attribution is contextually faithful.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "There are infinitely many regular tilings of the hyperbolic plane. — H. S. M. Coxeter",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "Rick Strassman's clinical work in *DMT: The Spirit Molecule*, the Qualia Research Institute psychedelic phenomenology surveys, the ayahuasca reports compiled in Benny Shanon's *The Antipodes of the Mind*"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "All named sources are real and correctly characterized: Strassman's clinical DMT studies and book, QRI's phenomenology work, Shanon's ayahuasca phenomenology compilation, and the McKenna corpus.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Rick Strassman's clinical work in DMT: The Spirit Molecule, the Qualia Research Institute psychedelic phenomenology surveys, the ayahuasca reports compiled in Benny Shanon's The Antipodes of the Mind",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 71,
+        "quote": "a tight cluster of geometric features recurs with awkward precision"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The cross-corpus convergence claim ('recurs with awkward precision', 'convergent reports of the same geometric features' across cultures and decades) is asserted without any systematic survey, frequency data, or cited catalog; it functions as the essay's data premise without evidence.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "a tight cluster of geometric features recurs with awkward precision",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "Five-fold, seven-fold, nine-fold periodic symmetries that the flat plane forbids."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The crystallographic restriction theorem limits periodic plane patterns to 2-, 3-, 4-, and 6-fold rotational symmetry, so 5/7/9-fold periodic symmetry is indeed forbidden on the flat plane; the fact is correct, central to the argument, and traceable to a standard theorem.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Five-fold, seven-fold, nine-fold periodic symmetries that the flat plane forbids.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The structure is **hyperbolic geometry**. Not metaphorically. Item-for-item."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay's central identity thesis depends on the cross-corpus convergence ingredient (C003), which is unevidenced; per the synthesis rule, a synthesis built on a failing ingredient is UNSUPPORTED even though the item-by-item argument is laid out transparently.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The structure is hyperbolic geometry. Not metaphorically. Item-for-item.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 83,
+        "quote": "Circumferences grow *exponentially* with radius. Around any point, *more* than 360° of stuff because the surface curves away in every direction."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The three-surface taxonomy is correct throughout: Euclidean triangle sums of exactly 180° and 2πr circumference growth, spherical sums above 180° with sublinear circumference growth, hyperbolic sums below 180° with exponential circumference growth (2π sinh r) and exponentially diverging geodesics — all standard, consequential to the essay's model, and derivable.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Circumferences grow exponentially with radius. Around any point, more than 360° of stuff because the surface curves away in every direction.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 89,
+        "quote": "When a region of phenomenal experience contains more distinguishable detail per unit of perceived radius than Euclidean geometry permits, the natural model is hyperbolic."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Stated explicitly as a modeling choice ('the natural model is hyperbolic... The phenomenology is data. The geometry is the model that fits the data.'), the inference is declared as model-fitting and is internally consistent.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "When a region of phenomenal experience contains more distinguishable detail per unit of perceived radius than Euclidean geometry permits, the natural model is hyperbolic.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Andrés Gómez Emilsson and the Qualia Research Institute have argued for over a decade that this is a literal claim about the phenomenal manifold's curvature, not a metaphor."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "QRI/Emilsson do explicitly frame phenomenal-space curvature as literal rather than metaphorical in their published work; 'over a decade' accurately covers Emilsson's writing history (Qualia Computing since ~2011), though QRI itself (founded ~2018) is younger — a minor duration stretch noted, attribution of the position is faithful.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Andrés Gómez Emilsson and the Qualia Research Institute have argued for over a decade that this is a literal claim about the phenomenal manifold's curvature, not a metaphor.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 99,
+        "quote": "**(p−2)(q−2) > 4** → hyperbolic. **Infinitely many** valid pairs: {3,7}, {7,3}, {4,5}, {5,4}, {3,8}, {8,3}, {4,6}, {6,4}, {5,5}, ..."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The Schläfli-symbol definition, the (p−2)(q−2) curvature trichotomy, the five Platonic solids with correct symbols, the three Euclidean tilings, and the infinitude of hyperbolic pairs are all mathematically correct; the arithmetic carries the essay's symmetry argument and is fully derivable.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "(p−2)(q−2) > 4 → hyperbolic. Infinitely many valid pairs: {3,7}, {7,3}, {4,5}, {5,4}, {3,8}, {8,3}, {4,6}, {6,4}, {5,5}, ...",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "If the experience-manifold reports five-fold or seven-fold periodic symmetry, the manifold is hyperbolic."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Cast as an explicit conditional within the declared model-fitting argument: given periodic 5/7-fold symmetry, flatness is excluded by the crystallographic restriction, so the model concludes hyperbolicity; the conditional form keeps the inference at the strength its ingredients permit.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "If the experience-manifold reports five-fold or seven-fold periodic symmetry, the manifold is hyperbolic.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 107,
+        "line_end": 107,
+        "quote": "The boundary is then **infinitely far away** from the center, in the hyperbolic metric. Geodesics — the hyperbolic analogue of straight lines — appear as circular arcs perpendicular to the boundary."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Correct description of the Poincaré disk model: infinite distance to the boundary circle, geodesics as boundary-orthogonal circular arcs; standard, consequential to the bounded-infinite argument, and traceable to the classical model.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The boundary is then infinitely far away from the center, in the hyperbolic metric. Geodesics — the hyperbolic analogue of straight lines — appear as circular arcs perpendicular to the boundary.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 109,
+        "line_end": 111,
+        "quote": "Hyperbolic tilings render in the Poincaré disk as the M.C. Escher *Circle Limit* prints. Each tile has the same hyperbolic area."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Escher's Circle Limit series was explicitly based on the Poincaré disk (via Coxeter's correspondence with Escher), and the claims of equal hyperbolic tile area with conformal-but-not-isometric visual distortion are mathematically correct.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Hyperbolic tilings render in the Poincaré disk as the M.C. Escher Circle Limit prints. Each tile has the same hyperbolic area.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 113,
+        "line_end": 113,
+        "quote": "A finite moment of consciousness can carry — geometrically, exactly — infinite pattern. The \"infinite\" is not metaphor. It is the literal hyperbolic metric."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-REMODE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Poincaré disk's mathematical properties are correctly stated, but the claim asserts a literal identity between that mathematics and the structure of conscious moments ('is the mathematical structure of a bounded experience', 'It is the literal hyperbolic metric') — the model-to-experience mapping is an inference, and the not-metaphor declaration hides it; repeated at line 171 ('a literal description, not a poetic one').",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "A finite moment of consciousness can carry — geometrically, exactly — infinite pattern. The \"infinite\" is not metaphor. It is the literal hyperbolic metric.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 139,
+        "line_end": 139,
+        "quote": "Conjectural reading: the substrate's pattern-recognition machinery (face-detection, agency-detection) operating on hyperbolic-tiled visual data interprets high-symmetry features as agentic. Plausible; not formally grounded. Flagged."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The author honestly self-flags this as conjectural and ungrounded, which marks the evidential boundary but does not supply evidence; the mechanism claim about pattern-recognition machinery remains unsupported on its own terms.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Conjectural reading: the substrate's pattern-recognition machinery (face-detection, agency-detection) operating on hyperbolic-tiled visual data interprets high-symmetry features as agentic. Plausible; not formally grounded. Flagged.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 145,
+        "line_end": 145,
+        "quote": "The four-tier speech model — Vaikhari (articulated), Madhyama (mental), Pashyanti (pre-linguistic), Para (silence)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The four levels of vāk (Para, Pashyanti, Madhyama, Vaikhari) are accurately named with faithful glosses per the Tantric/Kashmir Shaiva tradition; the 'user space to root' gloss is the author's adjacent analogy, not a misstatement of the teaching.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The four-tier speech model — Vaikhari (articulated), Madhyama (mental), Pashyanti (pre-linguistic), Para (silence)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 147,
+        "line_end": 147,
+        "quote": "the syllable executing below the symbolic layer directly on the neural substrate — something different happens. The substrate's resonance manifold begins to **curve**. The metric of the experience-space stops being Euclidean."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SPLIT", "R-MODEL", "R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Computing metaphor ('kernel-level compilation', 'executing... directly on the neural substrate'), an undeclared house model ('resonance manifold'), and an empirical-sounding claim about the neural substrate are fused into one inseparable assertion about what mantra at Pashyanti depth does.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "the syllable executing below the symbolic layer directly on the neural substrate — something different happens. The substrate's resonance manifold begins to curve. The metric of the experience-space stops being Euclidean.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 149,
+        "line_end": 149,
+        "quote": "Reports converge across traditions — Sanskrit, Tibetan, Christian hesychast, Sufi *dhikr*. The substrate enters a hyperbolic regime when compilation happens at sufficient depth."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A cross-traditional convergence claim about deep mantra practice stated without any cited reports, survey, or comparative source; 'This is what deep practitioners report' names no practitioners and no corpus.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Reports converge across traditions — Sanskrit, Tibetan, Christian hesychast, Sufi dhikr. The substrate enters a hyperbolic regime when compilation happens at sufficient depth.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 151,
+        "line_end": 151,
+        "quote": "In hyperbolic space, the orbit of a seed under the discrete symmetry group of, say, {7,3} fills the entire Poincaré disk."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The underlying mathematics is correct — a point's orbit under a hyperbolic triangle group tiles the disk (with images equal in hyperbolic measure and shrinking in Euclidean rendering) — and the bīja-as-orbit-seed reading is explicitly framed as structural ('structurally a seed for a hyperbolic orbit'), consistent within the declared model.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "In hyperbolic space, the orbit of a seed under the discrete symmetry group of, say, {7,3} fills the entire Poincaré disk.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 153,
+        "line_end": 153,
+        "quote": "The tantric claim that a bīja-syllable carries the deity's full presence in seed-form"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Bīja mantras as the sonic seed-form carrying the deity's full presence is an accurate report of Tantric mantra doctrine; the sentence reports the teaching before the author maps it onto orbit seeds.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The tantric claim that a bīja-syllable carries the deity's full presence in seed-form",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 157,
+        "line_end": 159,
+        "quote": "The **Hopf fibration** is a continuous map **S¹ → S³ → S²** — the 3-sphere fibered over the 2-sphere, with each fiber a circle."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "All topology is correct: the Hopf fibration S¹→S³→S², great-circle fibers filling S³ disjointly, pairwise linking number one, the qubit Bloch sphere as S², and S³ as the full state space including global phase; standard results with textbook provenance, consequential to the article's structural picture.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Hopf fibration is a continuous map S¹ → S³ → S² — the 3-sphere fibered over the 2-sphere, with each fiber a circle.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 161,
+        "line_end": 163,
+        "quote": "This is invoked here as a **structural metaphor for how local generators unfold into global field structure**, not a formal model of consciousness."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Hopf-to-akshara application is explicitly declared a structural metaphor and explicitly disclaimed as a formal model of consciousness — an exemplary figurative-boundary marker with no literal prediction extracted.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "This is invoked here as a structural metaphor for how local generators unfold into global field structure, not a formal model of consciousness.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 163,
+        "line_end": 163,
+        "quote": "Penrose treats the Hopf fibration extensively in *The Road to Reality* in the context of spin and rotation; the geometric picture transfers."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Road to Reality does treat the Hopf fibration in its discussion of spinors and rotation (Clifford/Hopf bundles); the attribution is accurate.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Penrose treats the Hopf fibration extensively in The Road to Reality in the context of spin and rotation; the geometric picture transfers.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 169,
+        "line_end": 169,
+        "quote": "The mystical-tradition convergence on these orders is no longer mysterious. It tracks the geometry of the substrate's high-load regime."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts that the (unevidenced, C003/C017) mystical-tradition convergence on 5/7/9-fold symmetries is explained by substrate geometry; the explanatory synthesis inherits the failing convergence ingredient.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The mystical-tradition convergence on these orders is no longer mysterious. It tracks the geometry of the substrate's high-load regime.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 175,
+        "line_end": 175,
+        "quote": "The classical mātṛkā tradition's claim that there are 50 fundamental syllables is potentially structurally consistent with a *finite preferred tiling set*"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The mātṛkā (50/51 syllable-mothers of the Sanskrit varṇamālā as śaktis) is accurately reported as the tradition's claim, and the tiling-set connection is explicitly hedged ('potentially', 'Conjectural. Would be a research project of its own.').",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The classical mātṛkā tradition's claim that there are 50 fundamental syllables is potentially structurally consistent with a finite preferred tiling set",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 177,
+        "line_end": 177,
+        "quote": "The reports — across cultures, across substances, across millennia of practice — converge on the geometry the math predicts."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing restatement of the convergence premise, asserted across 'millennia of practice' with no cataloged evidence anywhere in the article; the premise remains unevidenced at conclusion as at introduction.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The reports — across cultures, across substances, across millennia of practice — converge on the geometry the math predicts.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 179,
+        "line_end": 179,
+        "quote": "**Kha** witnesses the curvature directly — recognizes that the angles do not add up, that more pattern fits than flat space permits."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly framed as a reading ('Read through Kha-Ba-La'), with the three house terms applied consistently to the article's material; declared frame, internally coherent application.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Kha witnesses the curvature directly — recognizes that the angles do not add up, that more pattern fits than flat space permits.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    }
+  ]
+}

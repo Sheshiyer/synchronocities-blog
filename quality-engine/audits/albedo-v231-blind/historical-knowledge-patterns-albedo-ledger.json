@@ -1,0 +1,766 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "historical-knowledge-patterns.md",
+  "source_path": "src/content/posts/historical-knowledge-patterns.md",
+  "source_sha256": "7a6416d2bade0f611c7a74e9e04dc0eba956f26dd7629b31f414d659e989c5af",
+  "legacy_audit_path": "quality-engine/audits/nigredo/historical-knowledge-patterns.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "The Unix epoch. The TCP/IP stack. The C standard library. These systems survive because they encode patterns fundamental enough to remain relevant across technological generations."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A causal engineering claim about why specific software systems persist, asserted without source or evidence; plausible practitioner lore but stated at settled-fact strength and used as the load-bearing analogy for the essay's thesis.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Unix epoch. The TCP/IP stack. The C standard library. These systems survive because they encode patterns fundamental enough to remain relevant across technological generations.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "The Vedic mathematical frameworks discussed in this series — Vimshottari Dasha, Ashtakavarga, Shadbala — have survived for over three millennia."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Vimshottari Dasha, Ashtakavarga, and Shadbala are attested in Parashari-era Jyotish texts conventionally dated to the first millennium CE or later; 'over three millennia' of survival has no textual provenance and conflicts with standard dating of these specific systems.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Vedic mathematical frameworks discussed in this series — Vimshottari Dasha, Ashtakavarga, Shadbala — have survived for over three millennia.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "The answer is structural: knowledge persists when it encodes patterns that are features of reality rather than features of the culture that discovered them."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay's central selection-criterion thesis, explicitly posed as the answer to its own question and argued through the cross-civilizational cases that follow; authorship of the synthesis is evident.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The answer is structural: knowledge persists when it encodes patterns that are features of reality rather than features of the culture that discovered them.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "When the same structure appears in Vedic India, classical Greece, Mayan Mesoamerica, and ancient China without evidence of cultural transmission, the pattern itself — not cultural diffusion — is the parsimonious explanation."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A declared parsimony inference that structures the essay's comparative argument; stated as the author's methodological move rather than as an established finding.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "When the same structure appears in Vedic India, classical Greece, Mayan Mesoamerica, and ancient China without evidence of cultural transmission, the pattern itself — not cultural diffusion — is the parsimonious explanation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The Fibonacci sequence was formalized by Leonardo of Pisa in 1202 CE"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Liber Abaci (1202) is the documented source of the sequence's introduction to European mathematics; attribution and date are correct.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Fibonacci sequence was formalized by Leonardo of Pisa in 1202 CE",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "the underlying proportions appear in the Vedic Chandahshastra (Pingala's treatise on Sanskrit prosody, approximately 200 BCE), where they enumerate the possible metric patterns of syllables"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pingala's Chandahshastra (dated by scholarship to roughly the 3rd–2nd century BCE) does enumerate syllable-meter combinations whose counts follow the Fibonacci recurrence; the attribution is within the accepted scholarly account, though the explicit Fibonacci identification belongs to later commentators (Virahanka, Hemachandra).",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "the underlying proportions appear in the Vedic Chandahshastra (Pingala's treatise on Sanskrit prosody, approximately 200 BCE), where they enumerate the possible metric patterns of syllables",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The golden ratio appears independently in Greek geometry (Euclid's Elements, 300 BCE)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Euclid's Elements (~300 BCE) defines the extreme and mean ratio (Book VI); the attribution of golden-ratio mathematics to Greek geometry at that date is accurate.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The golden ratio appears independently in Greek geometry (Euclid's Elements, 300 BCE)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Egyptian pyramid proportions (2560 BCE), and the Vedic nakshatra division system"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The golden ratio's presence in Khufu's pyramid is a contested retrofit (no Egyptian textual evidence of the ratio), and no source is given for golden-ratio proportions in the 27-fold nakshatra division; both 'independent appearances' are asserted without provenance.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Egyptian pyramid proportions (2560 BCE), and the Vedic nakshatra division system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Markov chain theory was formalized by Andrey Markov in 1906"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Markov's 1906 paper extending the law of large numbers to chained variables is the documented origin of Markov chain theory; attribution and date are correct.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Markov chain theory was formalized by Andrey Markov in 1906",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The Chinese I Ching (approximately 1000 BCE) encodes 64 hexagram states with defined transition rules."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Zhouyi core of the I Ching dates to the Western Zhou (early first millennium BCE), comprises 64 hexagrams, and its moving-line mechanics generate transitions between hexagrams; all three elements are within the standard scholarly account.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Chinese I Ching (approximately 1000 BCE) encodes 64 hexagram states with defined transition rules.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The Vedic Vimshottari system (approximately 1500 BCE) encodes 9 planetary states with deterministic transitions."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 9-graha dasha sequence with fixed deterministic order is accurately described, but the ~1500 BCE dating has no textual provenance — Vimshottari is attested in Parashari/Puranic sources dated roughly two millennia later; the date does the argument's persistence work without evidence.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Vedic Vimshottari system (approximately 1500 BCE) encodes 9 planetary states with deterministic transitions.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Both systems represent phenomena as sequences of discrete states governed by transition rules — the mathematical core of Markov chain theory."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Equating rule-bound deterministic or ritual state transitions with 'the mathematical core of Markov chain theory' drops the defining feature of Markov chains — probabilistic transition structure — and overstates the structural parallel; the synthesis needs scoping to 'discrete state transition formalism'.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Both systems represent phenomena as sequences of discrete states governed by transition rules — the mathematical core of Markov chain theory.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The Ashtakavarga's eight-dimensional binary state space has structural parallels in the I Ching's six-line binary hexagram system (2^6 = 64 states) and in the Mayan calendar system's interlocking cycles that generate a state space of 18,980 unique day-configurations (the Calendar Round)."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "2^6 = 64 is correct, and the Mayan Calendar Round of lcm(260, 365) = 18,980 days is correct calendrical fact; the Ashtakavarga reading (8 contributors each giving a binary bindu per sign) is a defensible formalization, and the state-space comparison is the essay's declared structural argument.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Ashtakavarga's eight-dimensional binary state space has structural parallels in the I Ching's six-line binary hexagram system (2^6 = 64 states) and in the Mayan calendar system's interlocking cycles that generate a state space of 18,980 unique day-configurations (the Calendar Round).",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The mechanism is structural resilience — mathematical patterns are harder to corrupt than narrative content because they are self-verifying."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The self-verification mechanism is the essay's own proposed explanation, stated as its thesis and developed through the checksum example that follows; internally consistent as an interpretive synthesis.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The mechanism is structural resilience — mathematical patterns are harder to corrupt than narrative content because they are self-verifying.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The Ashtakavarga total of 337 is a checksum: if transmission errors corrupt the bindu calculation rules, the total will deviate from 337, and practitioners will know the system has been corrupted."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The Sarvashtakavarga bindu total of 337 (48+49+39+54+56+52+39 across the seven contributors plus lagna allocations) is a genuine fixed invariant of the Ashtakavarga system; the checksum interpretation is the author's functional gloss on a correctly reported traditional constant.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Ashtakavarga total of 337 is a checksum: if transmission errors corrupt the bindu calculation rules, the total will deviate from 337, and practitioners will know the system has been corrupted.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "The Vedic mathematical systems persisted through the collapse of the Indus Valley civilization, through the Vedic migration, through centuries of foreign rule"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The specific systems named (Vimshottari, Ashtakavarga) are attested in texts dated millennia after the Indus Valley collapse (~1900 BCE); the claim that they persisted through that collapse presupposes the unsupported three-millennia dating and has no documentary provenance.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Vedic mathematical systems persisted through the collapse of the Indus Valley civilization, through the Vedic migration, through centuries of foreign rule",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The Vedic gurukula system preserved the Dasha and Ashtakavarga calculations through oral transmission for centuries before they were written down."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Oral transmission is well documented for the Vedic samhitas, but centuries of pre-written oral transmission for these specific medieval-attested calculation systems is asserted without source; the gurukula mechanism is plausible while this particular historical claim is unevidenced.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Vedic gurukula system preserved the Dasha and Ashtakavarga calculations through oral transmission for centuries before they were written down.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The fidelity of oral mathematical transmission is remarkably high when the content is algorithmic — procedures are easier to memorize accurately than prose because each step depends on the previous step."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A comparative memorization-fidelity claim ('remarkably high', 'easier than prose') stated without cognitive-science or textual-transmission evidence; plausible mechanism, unevidenced at the stated comparative strength.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The fidelity of oral mathematical transmission is remarkably high when the content is algorithmic — procedures are easier to memorize accurately than prose because each step depends on the previous step.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The Arabic numeral system (originally Indian) traveled westward through trade routes to reach Europe. Astronomical calculation methods traveled eastward from Babylon to India and westward from India to the Islamic world."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Indian origin of 'Arabic' numerals and their westward transmission, Babylonian astronomical influence on Indian jyotisha (e.g. Yavanajataka), and Indian astronomy reaching the Islamic world (e.g. Sindhind translations) are all documented transmission histories.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Arabic numeral system (originally Indian) traveled westward through trade routes to reach Europe. Astronomical calculation methods traveled eastward from Babylon to India and westward from India to the Islamic world.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The Fibonacci sequence itself entered European mathematics through Fibonacci's exposure to Indian mathematical methods via Arabic scholarship in North Africa."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Fibonacci did learn Hindu-Arabic methods in Bugia, but no document shows the sequence itself was transmitted to him from Indian prosody; the rabbit problem in Liber Abaci is the first European attestation, and the transmission claim for the sequence specifically is undocumented.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Fibonacci sequence itself entered European mathematics through Fibonacci's exposure to Indian mathematical methods via Arabic scholarship in North Africa.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "This implies that the mathematical structures are objective features of reality accessible to any sufficiently attentive observer."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly marked as an implication drawn by the author from the independent-rediscovery pattern; the inference is declared and internally consistent with the essay's framework.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "This implies that the mathematical structures are objective features of reality accessible to any sufficiently attentive observer.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "Edward Lorenz knew nothing of Vedic astrology. The Vedic seers knew nothing of differential equations."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Negative biographical claims about what Lorenz and unnamed 'Vedic seers' knew, stated without any biographical or textual evidence; plausible in both directions but unverifiable as asserted.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Edward Lorenz knew nothing of Vedic astrology. The Vedic seers knew nothing of differential equations.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "Yet both discovered systems with sensitive dependence on initial conditions, scale-invariant structure, and bounded chaotic trajectories. The pattern is real. The discovery was convergent."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Attributes chaos-theoretic properties (sensitive dependence, scale invariance, bounded chaos) to 'the Vedic seers' as their discovery — these are the author's own Lorenz-Kundli synthesis mapped retrospectively onto the tradition, with the Noesis authorship hidden and the synthesis laundered as the seers' achievement.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Yet both discovered systems with sensitive dependence on initial conditions, scale-invariant structure, and bounded chaotic trajectories. The pattern is real. The discovery was convergent.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "meditation practices in India, contemplative prayer in Christianity, dhikr in Sufism, and shamanic trance induction across indigenous cultures worldwide"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The practice-to-tradition pairings (Indian meditation, Christian contemplative prayer, Sufi dhikr, indigenous shamanic trance) are accurately named and correctly attributed.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "meditation practices in India, contemplative prayer in Christianity, dhikr in Sufism, and shamanic trance induction across indigenous cultures worldwide",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "all these practices manipulate the same neurological and physiological systems (breath regulation, sensory reduction, attentional focus) to produce the same categories of altered states"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal neurophysiological-equivalence claim across all listed traditions with no study or source; the shared-mechanism hypothesis exists in the literature but 'the same systems... the same categories of altered states' overstates what is evidenced.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "all these practices manipulate the same neurological and physiological systems (breath regulation, sensory reduction, attentional focus) to produce the same categories of altered states",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "Meditation shifts the consciousness trajectory from the chaotic attractor of distracted thought to the periodic attractor of focused awareness."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly framed as what 'The Lorenz-Kundli framework provides' — the house frame is named, the attractor vocabulary is used qualitatively and consistently within that declared model, and no measured effect is asserted.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Meditation shifts the consciousness trajectory from the chaotic attractor of distracted thought to the periodic attractor of focused awareness.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "The Vimshottari Dasha system as practiced today incorporates refinements accumulated over three millennia of continuous use — edge cases identified, calculation methods optimized, interpretive frameworks validated against observed outcomes."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Repeats the unprovenanced three-millennia timeline and adds an undocumented 'validated against observed outcomes' refinement history; no textual or empirical record is cited for either the duration or the validation process.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Vimshottari Dasha system as practiced today incorporates refinements accumulated over three millennia of continuous use — edge cases identified, calculation methods optimized, interpretive frameworks validated against observed outcomes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "The persistence of Vedic mathematical frameworks across radical cultural transformations — from agrarian to industrial to digital societies — is strong evidence that they encode mathematical patterns rather than cultural preferences."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'persistence is strong evidence' inference depends on the three-millennia survival ingredient (C002, C027), which fails; per the synthesis rule, a synthesis built on a failing ingredient is UNSUPPORTED even where the inferential form is declared.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The persistence of Vedic mathematical frameworks across radical cultural transformations — from agrarian to industrial to digital societies — is strong evidence that they encode mathematical patterns rather than cultural preferences.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    }
+  ]
+}

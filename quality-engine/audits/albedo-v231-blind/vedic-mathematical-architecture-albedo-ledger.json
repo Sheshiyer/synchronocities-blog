@@ -1,0 +1,241 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "vedic-mathematical-architecture.md",
+  "source_path": "src/content/posts/vedic-mathematical-architecture.md",
+  "source_sha256": "87831c7259264ace8aa4ec050ad99b69bb92c0c171aa74df84a1a37ae9d40ae2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/vedic-mathematical-architecture.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": { "line_start": 30, "line_end": 30, "quote": "Architecture is not decoration applied to structure. Architecture is structure made legible." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Epigraph aphorism attributed to the house source 'Systems Design Principles'; functions as the article's framing axiom and is internally consistent with its argument.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Architecture is structure made legible.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C002",
+      "anchor": { "line_start": 37, "line_end": 39, "quote": "This is not a chain. It is a cycle — a feedback loop that integrates all six subsystems into a single dynamic architecture." },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The integration claim is the author's own synthesis of the six named subsystem mappings; authorial context is transparent (first-person series framing at L35) and the feedback-loop construction is internally consistent, though no empirical consequence is claimed.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "It is a cycle — a feedback loop", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C003",
+      "anchor": { "line_start": 47, "line_end": 47, "quote": "The Vimshottari system is discrete and deterministic at the macro level." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Accurate description of the Vimshottari dasha system: a fixed sequence of planetary periods computed deterministically from birth nakshatra.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "The Vimshottari system is discrete and deterministic", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C004",
+      "anchor": { "line_start": 47, "line_end": 47, "quote": "The Nakshatra system is continuous and spiral at the micro level." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-REMODE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The nakshatra system is a discrete 27-fold equal division of the ecliptic; 'continuous and spiral' is the author's Fibonacci mapping presented here as a property of the traditional system itself — the synthesis is laundered into the source attribution.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "The Nakshatra system is continuous and spiral", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C005",
+      "anchor": { "line_start": 49, "line_end": 49, "quote": "the time evolution layer is the event loop — the scheduler that determines which processes receive CPU time and in what order." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "ANALOGICAL", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Explicitly marked software-architecture analogy ('In software architecture terms'); no literal computational claim is extracted from the event-loop comparison.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "the time evolution layer is the event loop", "type": "math", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C006",
+      "anchor": { "line_start": 57, "line_end": 57, "quote": "A friendly planet in a strongly aspecting house produces maximum constructive propagation." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "States the interaction rule of the author's relational model; internally consistent and loosely aligned with benefic/malefic doctrine, without claiming traditional status.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "maximum constructive propagation", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C007",
+      "anchor": { "line_start": 59, "line_end": 59, "quote": "this layer is the message bus — the inter-process communication system that routes signals between components." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "ANALOGICAL", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Explicitly marked software analogy ('In software terms'); no literal claim drawn from it.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "this layer is the message bus", "type": "math", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C008",
+      "anchor": { "line_start": 65, "line_end": 65, "quote": "the 256 possible bindu configurations per house, constrained by the conservation total of 337" },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "LOAD-BEARING", "load_bearing": true, "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" }, "evidence_eligible": true },
+      "rationale": "Correct on all three locks: eight binary assessments per house yield 2^8 = 256 configurations (arithmetic correct), the Sarvashtakavarga total of 337 bindus is the standard classical figure (provenance traceable to the Ashtakavarga tradition), and both numbers carry the hypercube/conservation mapping (consequential).",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "256 possible bindu configurations per house", "type": "math", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": true, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C009",
+      "anchor": { "line_start": 65, "line_end": 65, "quote": "the six-dimensional strength distribution that defines the field geometry" },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The six-fold Shadbala strength computation is accurately counted; 'field geometry' is the author's tensor gloss but the underlying traditional claim (six strength components) is correct.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "six-dimensional strength distribution", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C010",
+      "anchor": { "line_start": 67, "line_end": 67, "quote": "A house at a high-Sarvashtakavarga vertex of the hypercube that also sits in a region of strong positive Shadbala gradient is in an optimal configuration" },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "States the optimality rule of the author's combined discrete/continuous model; internally consistent, and consistent with the traditional intuition that high bindu counts plus strong Shadbala are favorable.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "optimal configuration", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C011",
+      "anchor": { "line_start": 69, "line_end": 69, "quote": "this layer is the state store — the database that holds the current configuration" },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "ANALOGICAL", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Explicitly marked software analogy ('In software terms'); no literal claim drawn.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "this layer is the state store", "type": "math", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C012",
+      "anchor": { "line_start": 75, "line_end": 75, "quote": "During a Jupiter dasha, Jupiter's friendship row dominates the interaction rules." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Cross-layer rule of the author's synthesis, presented as the model's operation; internally consistent. (Whether classical Jyotish operates this way is not claimed here.)",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Jupiter's friendship row dominates the interaction rules", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C013",
+      "anchor": { "line_start": 77, "line_end": 77, "quote": "A benefic aspect from Jupiter adds bindus and increases Shadbala. A malefic aspect from Saturn removes bindus and decreases Shadbala." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-REMODE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Presented as the systems' mechanics, but classical Ashtakavarga bindus are fixed by natal positions and Shadbala is a natal computation — aspects do not add or remove bindus in the traditional systems. The construction is the author's and needs reframing as model rule, not system behavior.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "adds bindus and increases Shadbala", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C014",
+      "anchor": { "line_start": 79, "line_end": 79, "quote": "The current Shadbala configuration affects how intensely each dasha period is experienced." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Accurately reflects standard Jyotish doctrine that dasha results are modulated by the planetary strength (including Shadbala) of the dasha lord.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Shadbala configuration affects how intensely each dasha period is experienced", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C015",
+      "anchor": { "line_start": 87, "line_end": 87, "quote": "In the relationship layer, it manifests as mutual enmity in the Graha matrix." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Claims Saturn–Jupiter mutual enmity in the friendship matrix. Standard naisargika (natural) friendship tables have Jupiter–Saturn as mutually neutral: Jupiter's enemies are Mercury and Venus; Saturn's enemies are Sun, Moon, and Mars. The claim is contradicted by the classical table it invokes.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "mutual enmity in the Graha matrix", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C016",
+      "anchor": { "line_start": 87, "line_end": 87, "quote": "alternating dasha periods of expansion (Jupiter) and contraction (Saturn)" },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Jupiter-as-expansion and Saturn-as-contraction are standard traditional significations; represented accurately.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "expansion (Jupiter) and contraction (Saturn)", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C017",
+      "anchor": { "line_start": 87, "line_end": 87, "quote": "complementary Shadbala profiles — when one is strong, the other tends to be weak" },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "No complementarity rule exists in Shadbala computation — each planet's six components are computed independently; a regularity by which strong Saturn implies weak Jupiter is invented and unsourced.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "when one is strong, the other tends to be weak", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C018",
+      "anchor": { "line_start": 89, "line_end": 89, "quote": "The architecture is coherent because the underlying mathematics is coherent." },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The cross-layer coherence claim rests on the Saturn–Jupiter example, whose key ingredient (mutual enmity, C015) is contradicted by the standard friendship table; per the synthesis rule, a failed ingredient fails the synthesis at its stated strength.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "The architecture is coherent because the underlying mathematics is coherent.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C019",
+      "anchor": { "line_start": 105, "line_end": 105, "quote": "a complete multi-layer description of the consciousness field" },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "States what the author's computational system produces, explicitly bounded as 'not a prediction engine... a pattern recognition engine'; internally consistent within the declared Lorenz-Kundli series frame.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "a pattern recognition engine", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C020",
+      "anchor": { "line_start": 109, "line_end": 109, "quote": "exactly as the electric field, magnetic field, and electromagnetic potential are three projections of the electromagnetic four-potential." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "ANALOGICAL", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Explicit comparison ('exactly as'); the physics content is roughly accurate (E and B derive from the four-potential via the field-strength tensor) and no literal numeric inference is drawn from the analogy, though 'exactly' overstates the parallel's formality.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "three projections of the electromagnetic four-potential", "type": "math", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C021",
+      "anchor": { "line_start": 111, "line_end": 113, "quote": "The Vedic seers did not build three separate systems and then integrate them. They perceived a unified structure and decomposed it into three layers for pedagogical and computational tractability." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Attributes the author's own three-layer integrated architecture to the design intent of ancient seers without any textual evidence — synthesis laundering: no classical source describes these systems as decomposed layers of a single unified design, and the claim is asserted as historical fact.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "They perceived a unified structure and decomposed it into three layers", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    }
+  ]
+}

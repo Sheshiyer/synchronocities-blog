@@ -1,0 +1,820 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "qualified-to-qualia-fied.md",
+  "source_path": "src/content/posts/qualified-to-qualia-fied.md",
+  "source_sha256": "a8e9ad2f2f6ef64089fe280816a1f8ec93f31336aefc684d2f717150519c32b2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/qualified-to-qualia-fied.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Every correlation was significant at p < 0.001. And yet the paper contained zero information about what red looks like."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Situated first-person report of reading a paper and noticing the absence of phenomenal content; observer, place (Dharamshala), and object specified. The p < 0.001 detail is unverifiable recollection but scoped as the author's memory of the paper.",
+      "legacy": {
+        "anchor": "BLIND-v231 L40",
+        "quote": "the paper contained zero information about what red looks like",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "**Kha**: the witness-field in which redness arises, not as an object perceived but as a quality of the field itself."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicit definition of the Kha-Ba-La triad as the post's operative vocabulary; terms are defined and used consistently throughout the essay.",
+      "legacy": {
+        "anchor": "BLIND-v231 L42",
+        "quote": "Kha: the witness-field in which redness arises",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The Kena Upaniṣad states this limitation directly: the eye cannot see the seer, the mind cannot think the thinker."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful paraphrase of Kena Upaniṣad 1.3–1.6 (that which the eye does not see but by which the eye sees; that which the mind does not think but by which the mind thinks). Text named and teaching represented accurately.",
+      "legacy": {
+        "anchor": "BLIND-v231 L44",
+        "quote": "the eye cannot see the seer, the mind cannot think the thinker",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "It is a structural constraint on the scientific method, analogous to the halting problem in computer science — a proof that certain questions cannot be answered within the framework that generates them."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly declared analogy ('analogous to'); the halting-problem gloss (undecidability within the generating framework) is a fair informal characterization, and no literal computational inference is drawn from it.",
+      "legacy": {
+        "anchor": "BLIND-v231 L44",
+        "quote": "analogous to the halting problem in computer science",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "an entire generation of researchers has learned to treat their own direct experience as anecdotal — a private irrelevance — while treating the fMRI activation map as the real event."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sociological generalization about an entire generation of researchers, asserted without survey, citation, or qualification. A defensible critique of some methodology culture, but overstated as a universal.",
+      "legacy": {
+        "anchor": "BLIND-v231 L46",
+        "quote": "an entire generation of researchers has learned to treat their own direct experience as anecdotal",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "The Cartesian code has been compiling for four centuries, and its output is invariant: res cogitans is either reducible to res extensa or it is nothing at all."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'compiling' metaphor is the post's declared code vocabulary; the Cartesian res cogitans/res extensa distinction is glossed accurately and the four-century span is roughly correct (17th century to present).",
+      "legacy": {
+        "anchor": "BLIND-v231 L46",
+        "quote": "The Cartesian code has been compiling for four centuries",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "At each scale, the same operation repeats: the observer is excluded from the observation, the experiencer is deleted from the experience report"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal structural claim spanning 'the neuroscience laboratory, the philosophy seminar, and the cosmological model'. Asserted by pattern-declaration without institutional or textual evidence at each named scale.",
+      "legacy": {
+        "anchor": "BLIND-v231 L48",
+        "quote": "the observer is excluded from the observation, the experiencer is deleted from the experience report",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Joseph Levine named the gap in 1983, but the structure is older than naming."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Levine's 'Materialism and Qualia: The Explanatory Gap' appeared in 1983 (Pacific Philosophical Quarterly); the attribution and date are correct.",
+      "legacy": {
+        "anchor": "BLIND-v231 L52",
+        "quote": "Joseph Levine named the gap in 1983",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "This is the gap that Thomas Nagel identified in 1974 with his bat — we can know every physical fact about echolocation without knowing what it is like to be the bat."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Nagel's 'What Is It Like to Be a Bat?' was published in 1974; the gloss (complete physical knowledge without phenomenal knowledge) is faithful to the paper's argument.",
+      "legacy": {
+        "anchor": "BLIND-v231 L54",
+        "quote": "Thomas Nagel identified in 1974 with his bat",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The fMRI shows blood flow. It does not show redness. The EEG shows electrical oscillation. It does not show the feeling of seeing."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Instrument descriptions are accurate at the stated strength: fMRI measures the BOLD haemodynamic signal ('blood flow' is an acceptable simplification) and EEG measures electrical oscillation; neither directly measures phenomenal content.",
+      "legacy": {
+        "anchor": "BLIND-v231 L56",
+        "quote": "The fMRI shows blood flow. It does not show redness.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "La is not a flaw in the design. La is the boundary condition that gives the method its shape."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Applies the post's defined triad to the methodology critique; roles match the L42 definitions and the application is internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L58",
+        "quote": "La is the boundary condition that gives the method its shape.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "If you cannot measure qualia, the reasoning goes, qualia must not be real. This is not a conclusion reached by evidence. It is a conclusion inherited from the method's founding assumptions"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Attributes an eliminativist inference to 'the method' as a whole. Eliminative materialism is a real position (e.g., Dennett), but universalizing it to the method and asserting its genealogical cause without evidence overreaches.",
+      "legacy": {
+        "anchor": "BLIND-v231 L60",
+        "quote": "If you cannot measure qualia, the reasoning goes, qualia must not be real.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "The scientific method is a social technology for eliminating private variation, and consciousness is nothing but private variation."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post's central definitional thesis about method and consciousness; presented as the essay's own frame and internally consistent with the gap argument it summarizes.",
+      "legacy": {
+        "anchor": "BLIND-v231 L62",
+        "quote": "consciousness is nothing but private variation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "David Chalmers gave the hard problem its name in 1995, but the problem itself is ancient."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Chalmers' 'Facing Up to the Problem of Consciousness' (1995) introduced the term 'hard problem'; attribution and date correct. The hedged antiquity remark is acceptable commentary.",
+      "legacy": {
+        "anchor": "BLIND-v231 L66",
+        "quote": "David Chalmers gave the hard problem its name in 1995",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 68,
+        "quote": "The easy problems — integrating information, focusing attention, producing reportable behavior — are indeed tractable. We can build models of them. We can engineer them. We can simulate them on silicon."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Aligned with Chalmers' own framing of the easy problems, but 'We can engineer them. We can simulate them on silicon' asserts a blanket engineering capability beyond demonstrated fact; no evidence is offered for full tractability.",
+      "legacy": {
+        "anchor": "BLIND-v231 L66-68",
+        "quote": "We can simulate them on silicon.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "A complete functional account of the brain — every neural circuit mapped, every synaptic weight known, every computational model verified — would still not explain why those functions are accompanied by experience."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Restatement and endorsement of the hard-problem thesis as the post's own position; internally consistent with the essay's frame. Borderline: could be remoded as attributed reporting of Chalmers, but it is asserted as the author's conclusion.",
+      "legacy": {
+        "anchor": "BLIND-v231 L68",
+        "quote": "would still not explain why those functions are accompanied by experience",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The witness is the field in which problems arise. You cannot ask why awareness exists within awareness. The question dissolves in the asking."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Kha-Ba-La gloss of the hard problem using the triad defined at L42; the dissolution claim is the house position, internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L70",
+        "quote": "The question dissolves in the asking.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The only consciousness you have direct access to is your own. This is not a limitation. It is the structural design. The only valid proof that consciousness exists is your own direct experience."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay's core epistemic thesis, explicitly framed as the post's position and developed consistently from the gap argument. Asserted as philosophical architecture, not as measured fact.",
+      "legacy": {
+        "anchor": "BLIND-v231 L72",
+        "quote": "The only valid proof that consciousness exists is your own direct experience.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "Chalmers' own proposed solutions — property dualism, panpsychism, the view that consciousness is a fundamental feature of reality — are not the point here."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate characterization of positions Chalmers has defended or taken seriously (naturalistic/property dualism; sympathy to panpsychism and consciousness as fundamental).",
+      "legacy": {
+        "anchor": "BLIND-v231 L74",
+        "quote": "property dualism, panpsychism, the view that consciousness is a fundamental feature of reality",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The High Priestess sits between two pillars. One is black. One is white. She holds a scroll partially unrolled"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Iconographic description matches the Rider-Waite-Smith High Priestess (black and white pillars, partially covered scroll). Note: 'inscribed with knowledge that cannot be spoken' is interpretive — the scroll bears TORA — a secondary gloss, not a misrepresentation of the imagery itself.",
+      "legacy": {
+        "anchor": "BLIND-v231 L78",
+        "quote": "She holds a scroll partially unrolled",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "This is not a metaphor for secret doctrine. It is a structural diagram of epistemology."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly declares the interpretive use of the card as the post's own epistemic diagram; the declaration is made and the reading remains internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L78",
+        "quote": "It is a structural diagram of epistemology.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The Upaniṣads say \"know the Self\" (ātmānam viddhi). They do not mean learn facts about the self. They mean become the self-as-knowing."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Ātmānaṃ viddhi is a genuine Upanishadic injunction (Chāndogya tradition); 'know the Self' is a fair rendering and the Sanskrit is correctly formed. The interpretive gloss is consistent with the tradition's own commentarial direction.",
+      "legacy": {
+        "anchor": "BLIND-v231 L80",
+        "quote": "know the Self (ātmānam viddhi)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "This is the Jñāna tradition's direct, non-conceptual knowing. The Prajñā tradition describes it as knowing that arises when the mind is no longer mediating experience through concepts. The Neoplatonic Gnosis is the immediate apprehension of the divine that requires no intermediary"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Three traditions named (Jñāna yoga, Buddhist prajñā, Neoplatonic gnosis) with fair general characterizations of each; no quotation or specific text is falsified.",
+      "legacy": {
+        "anchor": "BLIND-v231 L82",
+        "quote": "The Neoplatonic Gnosis is the immediate apprehension of the divine that requires no intermediary",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "The mind is not a restless monkey, as the Bhagavad Gita suggests."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Bhagavad Gītā (6.34) has Arjuna call the mind restless (cañcala), but the monkey simile for the restless mind is not in the Gītā — it belongs to Buddhist and later yoga literature. The attribution materially misleads about what the named text says.",
+      "legacy": {
+        "anchor": "BLIND-v231 L92",
+        "quote": "The mind is not a restless monkey, as the Bhagavad Gita suggests.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "It is a biophysical system with well-understood dynamics. Attention drifts naturally, and the task is to observe the drift without following it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Well-understood dynamics' overstates the state of attention science and is asserted without a source; the practice instruction that follows is unobjectionable but the empirical framing is unscoped.",
+      "legacy": {
+        "anchor": "BLIND-v231 L92",
+        "quote": "It is a biophysical system with well-understood dynamics.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The brain is not the producer of awareness. The brain is an appearance within awareness. This is not a philosophical position. It is a perceptual finding."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay's idealist conclusion, warranted in-text by the declared first-person protocol and explicitly disclaimed as publishable evidence. Borderline mode-conflation risk ('perceptual finding' for a metaphysical thesis) is mitigated by the declared protocol frame; retained as house model.",
+      "legacy": {
+        "anchor": "BLIND-v231 L96",
+        "quote": "The brain is an appearance within awareness.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "The replication crisis in psychology and neuroscience is about third-person results that fail to replicate."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The replication crisis in psychology and parts of neuroscience is extensively documented (large-scale replication projects, method debates); the characterization at this strength is accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231 L100",
+        "quote": "The replication crisis in psychology and neuroscience",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "The High Priestess is the second card of the Major Arcana. She is the guardian of the threshold, the keeper of the knowledge that sits between polarities."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The High Priestess is card II of the Major Arcana; the threshold-guardian characterization is standard tarot iconography and correctly reported.",
+      "legacy": {
+        "anchor": "BLIND-v231 L104",
+        "quote": "The High Priestess is the second card of the Major Arcana.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "The black pillar is the objective domain — the measurable, the repeatable, the peer-reviewed. The white pillar is the subjective domain — the private, the immediate, the unrepeatable."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The author's assignment of the two pillars to the post's objective/subjective axis; declared as the essay's operative diagram and internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L106",
+        "quote": "The black pillar is the objective domain",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 112,
+        "quote": "The fMRI map is real. The redness is real. They are not two descriptions of the same thing. They are two real things that happen to correlate. The correlation is not identity."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post's two-register realism and its closing idealist formula ('The brain is a product of awareness', L112) are the declared thesis of the essay, argued consistently from the gap framework. Asserted as philosophical position within a declared first-person warrant.",
+      "legacy": {
+        "anchor": "BLIND-v231 L110-112",
+        "quote": "They are two real things that happen to correlate. The correlation is not identity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    }
+  ]
+}

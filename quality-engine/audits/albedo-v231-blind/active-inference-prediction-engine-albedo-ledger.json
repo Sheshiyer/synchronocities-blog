@@ -1,0 +1,550 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "active-inference-prediction-engine.md",
+  "source_path": "src/content/posts/active-inference-prediction-engine.md",
+  "source_sha256": "b3257bacee3e3e78a64cbf1dcef06705502867baa28f235cd014169f16234d8b",
+  "legacy_audit_path": "quality-engine/audits/nigredo/active-inference-prediction-engine.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Your brain does not receive the world. It generates the world and then corrects its own hallucination against the resistance of the body."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A faithful rendering of predictive processing's central claim (perception as controlled hallucination, Clark/Friston), with the framework's originator named in the same paragraph. The strong metaphysical reading is contested in the literature, but the sentence stays at the framework's own strength.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"It generates the world and then corrects its own hallucination\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "It is the free energy principle, and it governs every system that persists long enough to be observed."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The free energy principle is asserted as a governing law of every persisting system with the strength of settled physics ('This is not a psychological theory'). FEP's universality and empirical testability are actively contested; the claim outruns any citable evidence at that strength.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"it governs every system that persists long enough to be observed\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Karl Friston did not invent it. He described it — the same way Newton described gravity or Tycho Brahe described the Martian orbit."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Friston as the principal formulator (rather than inventor) of the free energy principle is accurate. The supporting analogy is loose: describing the Martian orbit is Kepler's achievement built on Brahe's observations, so the Brahe comparison should be corrected to Kepler.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"Tycho Brahe described the Martian orbit\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "A Markov blanket separates internal states from external states. Your skin is one. Your cell membrane is one."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A faithful simplified account of the Markov blanket construct as used in Friston's framework, including the standard skin/cell-membrane illustrations used in the primary literature; sensory states as the boundary-crossing data matches the formalism.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"A Markov blanket separates internal states from external states.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "This is the Hermetic Principle of Correspondence operating at neurological scale: *as above, so below*"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence asserts an identity between a neuroscience construct and a Hermetic doctrine as a fact about the world ('operating at neurological scale'), with no declaration that this is the author's synthesis. Combining FEP and Hermeticism while presenting the combination as observed reality is synthesis laundering.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"the Hermetic Principle of Correspondence operating at neurological scale\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "The pattern repeats because the pattern is the only way to minimize surprise across nested boundaries."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A necessity claim — nested self-similar blankets are 'the only way' to minimize surprise — is a uniqueness/causal assertion far beyond what the free energy literature demonstrates; no proof or source is offered.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"the only way to minimize surprise across nested boundaries\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "I did not see my hand move during the flick. My brain stitched the before-image and the after-image together and invented a continuous narrative."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Named observer (the author), specified procedure (hand moved slowly, eyes flicked), and a reader-replicable condition; the phenomenology reported matches the well-documented experience of saccadic omission without overreaching beyond the vantage.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"My brain stitched the before-image and the after-image together\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "During the ballistic eye movement — approximately twenty milliseconds — the visual system shuts down."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Saccadic suppression is a documented phenomenon and ~20 ms sits within the low end of reported saccade durations, so the figure is not wrong; but it is un-cited and the anecdote stands without it — decorative precision.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"approximately twenty milliseconds\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "A psychiatrist and a shaman can examine the same dissociative episode and see entirely different data because their generative models were trained on different priors."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The paragraph explicitly performs the house mapping ('This is Kha — the observer function'), and the psychiatrist/shaman illustration follows coherently from the declared generative-model frame: priors determine what counts as evidence. Stays within model terms.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"their generative models were trained on different priors\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The motor cortex does not execute a decision. It samples the environment to confirm its own hypothesis."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Motor control as proprioceptive prediction fulfillment is the active-inference account (Friston, Adams, Shipp) rendered at framework strength; the reach-for-a-cup illustration matches that literature's standard exposition.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"It samples the environment to confirm its own hypothesis.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "It is the free energy principle doing exactly what it is supposed to do: minimizing surprise by minimizing change. La is not the enemy."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The La mapping (worldly resistance as prediction-error friction, including the author's clinging-to-a-bad-model testimony) is declared in-paragraph and coherently extends the model: persistence of priors reframed as surprise minimization. Consistent within the declared frame.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"minimizing surprise by minimizing change\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The bacterium swimming up a glucose gradient, the bureaucracy defending its budget, and the philosopher refining her conceptual architecture are all minimizing variational free energy."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Bacterial chemotaxis as free-energy minimization is FEP doctrine, but the extension to bureaucracies and philosophers is asserted as literal fact rather than analogy; no evidence or model-fitting is offered for the institutional cases.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"the bureaucracy defending its budget… all minimizing variational free energy\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "A system that does not minimize free energy does not persist. The principle is not optional. It is the physics of persistence."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "FEP's strongest universal form — persistence entails free-energy minimization as physics — is precisely the contested, arguably unfalsifiable reading of the principle; asserted without qualification or citation it outruns the evidence.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "\"It is the physics of persistence.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The motor cortex is not an output stage. It is a prediction engine for proprioception."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A faithful statement of active inference's motor doctrine — action as proprioceptive prediction fulfillment — matching the primary literature the post has named; the stand-up illustration is a standard exposition device.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "\"It is a prediction engine for proprioception.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The traditions call this the dark night, but stripped of mysticism, it is a model failure."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'dark night' name traces accurately to the Sanjuanist contemplative tradition (St. John of the Cross) and its modern insight-meditation usage for a phase of destabilized meaning-making; the attribution is generic but the teaching referenced is real and faithfully evoked.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"The traditions call this the dark night\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The sense of self is the model's prediction about a persistent entity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Self-as-model-prediction is a recognizable self-model theory position (Metzinger; FEP-adjacent accounts), but here it is asserted as fact with no source named; it needs attribution to the theoretical lineage it paraphrases.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"The sense of self is the model's prediction about a persistent entity.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The system will rebuild any model, no matter how impoverished, to stop the error signal."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The dark-night-as-model-failure reframing and the panic-rebuild compulsion are the author's synthesis of FEP with contemplative phenomenology; the ingredients are traced in-post and the inference follows, but Noesis authorship of the synthesis is never explicitly declared.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"rebuild any model, no matter how impoverished\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Meditation, under this framework, is not relaxation. It is the deliberate refusal to resolve prediction error."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly framework-flagged ('under this framework'), the meditation-as-unresolved-error synthesis traces its ingredients (FEP mechanics from earlier paragraphs) and stays within their strength; a valid declared interpretive derivation.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"the deliberate refusal to resolve prediction error\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "the same blanket, the same recursion, the same minimization operating from the Planck length to the Hubble horizon"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal scale-invariance of free-energy minimization from quantum to cosmological lengths is asserted without any source or derivation; even sympathetic FEP literature does not demonstrate the principle across these scales.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"from the Planck length to the Hubble horizon\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The brain is a prediction engine. You are not the engine. You are the error that the engine cannot quite explain."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing thesis — selfhood as irreducible prediction error, capped by the High Priestess and Quine images — is the post's declared model voice carried consistently from the framework exposition; internally coherent as the essay's house position.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"You are the error that the engine cannot quite explain.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    }
+  ]
+}

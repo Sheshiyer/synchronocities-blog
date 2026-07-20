@@ -1,0 +1,415 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "enlightenment-lite-method.md",
+  "source_path": "src/content/posts/enlightenment-lite-method.md",
+  "source_sha256": "2af776043f03d3f5c67847f8941e7ae56d03e336ad88bd6806cf1ae588a3bb55",
+  "legacy_audit_path": "quality-engine/audits/nigredo/enlightenment-lite-method.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 41,
+        "quote": "LITE is an acronym, and it is also a design philosophy:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Logic-gate / Interface / Transmission / Encryption framework is explicitly declared as the post's own design philosophy, with each term defined and operated consistently across the essay. The embedded engineering premise (every transmission degrades) is standard signal theory used as a model premise.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "LITE is an acronym, and it is also a design philosophy:",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Running consciousness at 100 percent duty cycle — no compression, no filtering, no protocol management — leads to biological buffer overflow."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The buffer-overflow consequence is the model's own thesis, developed from the declared LITE premises and cashed out in the symptom list at L53. Internally consistent as a model; the empirical symptom documentation is tested separately.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "leads to biological buffer overflow.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "The mystics who reported this were not speaking metaphorically. They were describing a system state."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An unnamed class of 'mystics' is credited with literally describing information-theoretic system states; no mystic, text, or tradition is named, and the claim asserts the intent behind reports that are not cited. Unverifiable as stated.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The mystics who reported this were not speaking metaphorically.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The prefrontal cortex can hold approximately four to seven items in working memory."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The figure blends Miller's 7±2 short-term memory span (1956) with Cowan's ~4-chunk working-memory estimate, and misattributes the capacity limit to the prefrontal cortex — working memory is a distributed function, not a PFC storage buffer. Two distinct results conflated and mislocalized, with no source cited.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "approximately four to seven items in working memory.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The symptoms are well-documented in contemplative literature and clinical psychology alike: depersonalization, derealization, somatic flooding, cognitive fragmentation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Meditation-related adverse experiences — depersonalization, derealization, somatic flooding, cognitive fragmentation — are indeed documented in both contemplative traditions and the clinical literature (e.g., the Varieties of Contemplative Experience research program). The claim of documentation is accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "well-documented in contemplative literature and clinical psychology alike",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "what the Tibetan tradition calls lung"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Rlung ('wind') disorder is a genuine Tibetan medical and contemplative category for exactly this class of practice-related dysregulation; the attribution is accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "what the Tibetan tradition calls lung",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "what Western psychiatry categorizes under spiritual emergency."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Spiritual emergency' is Stanislav and Christina Grof's term within transpersonal psychology; it is not a category of Western psychiatry and appears in no DSM/ICD classification. The claim misattributes the term's institutional home.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "what Western psychiatry categorizes under spiritual emergency.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Raw consciousness — call it the Void, the Radiant Light, Brahman, the Ground — is the uncompressed data stream."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'call it' construction explicitly marks the equation of traditional names with the house term as the author's naming choice rather than a claim about what those traditions teach; the vocabulary is then used consistently.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "call it the Void, the Radiant Light, Brahman, the Ground",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 65,
+        "quote": "The ego, in this model, is a legacy `while(true)` loop."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly declared ('in this model') and developed consistently: the ego-as-legacy-code account leads to the refactoring-not-deletion conclusion without contradiction. Model frame is marked and internally coherent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The ego, in this model, is a legacy `while(true)` loop.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 75,
+        "quote": "Decryption — selective access to the admin layer without crashing the biological hardware — requires three conditions"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The buffer-management / coherence / authentication triad is the model's declared protocol, each condition defined in house terms; the embedded empirical glosses (contemplative practice expands distress tolerance; dissociation as disembodiment) are consistent with mainstream findings and operate at model strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "requires three conditions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "Pain, in this framework, functions as the sudo prompt — the authentication key that grants admin access."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly declared ('in this framework') and argued from the model's own premises (pain as signal of insufficient compression) rather than from asserted physiology; internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Pain, in this framework, functions as the sudo prompt",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "Reality itself operates on a consensus model. Like a blockchain, it requires distributed validation before a state change is committed."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The blockchain comparison is marked ('Like a blockchain'), but the lead sentence asserts an ontological fact about 'reality itself' without declaring it as house metaphysics — the model is presented as a property of the world rather than as a model.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Reality itself operates on a consensus model.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 87,
+        "quote": "Sovereignty, in this context, is the ability to audit your own nodes."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared in-context definition of sovereignty, with the full-node/light-client distinction developed consistently from the consensus metaphor; the 'most people run light clients' generalization operates at model strength inside that declared frame.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Sovereignty, in this context, is the ability to audit your own nodes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 95,
+        "quote": "The visual system processes electromagnetic radiation and renders it as color. The auditory system processes pressure waves and renders them as sound."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sensory transduction — photons to color percept, pressure waves to sound, visceral signals to feeling — is standard psychophysics/physiology, and the indirect-realist premise ('perception is not direct access') matches the cognitive-science mainstream. The engineering register is explicitly declared at L93.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The visual system processes electromagnetic radiation and renders it as color.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 109,
+        "quote": "Three diagnostic parameters for evaluating your current system state"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Buffer / Coherence / Authentication witness metrics are the model's own diagnostic instrument, each parameter defined with observable anchors (anxiety, dissociation, untested narrative) and used consistently; no external validation is claimed for them.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Three diagnostic parameters for evaluating your current system state",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    }
+  ]
+}

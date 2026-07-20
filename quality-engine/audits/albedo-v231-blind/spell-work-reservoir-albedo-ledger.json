@@ -1,0 +1,874 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "spell-work-reservoir.md",
+  "source_path": "src/content/posts/spell-work-reservoir.md",
+  "source_sha256": "34e8b797f2a891fa0c886b45e762e461e8945f854d0f3fe8d3aad2098fa9d058",
+  "legacy_audit_path": "quality-engine/audits/nigredo/spell-work-reservoir.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 63,
+        "quote": "The unstruck word, sphoṭa-flash, is not assembled from phonemes. The phonemes are a delivery mechanism for an event."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly declared paraphrase ('paraphrasing Bhartṛhari, Vākyapadīya, 5th c. CE'); the rendering faithfully captures sphoṭa doctrine — meaning apprehended as an indivisible flash, phonemes as its manifesting vehicle — and the author/date attribution is correct.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The unstruck word, sphoṭa-flash, is not assembled from phonemes. The phonemes are a delivery mechanism for an event.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The somatic effects are reproducible — measurable in HRV, EEG coherence, vagal tone, cortisol clearance."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A strong reproducibility-and-measurability claim across four named biomarkers with no citation; while some literature exists on chanting and HRV, the stated strength (reproducible, specified states, cortisol clearance) far outruns the evidence offered.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The somatic effects are reproducible — measurable in HRV, EEG coherence, vagal tone, cortisol clearance.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The Indian tradition's accumulated empirical mastery is the equivalent of millennia of test coverage on a system whose theoretical basis was unsayable until recently."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Characterizes millennia of Indian mantra practice as systematic empirical mastery ('test coverage') without historical or ethnographic support; a sweeping reception-history claim stated at anecdote strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Indian tradition's accumulated empirical mastery is the equivalent of millennia of test coverage on a system whose theoretical basis was unsayable until recently.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The Sanskrit root *kṣara* means *to perish, to decay, to flow away*. The privative *a-* negates it."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Philologically correct: akṣara derives from the root kṣar (perish, flow away) with the a- privative; checkable against any standard Sanskrit lexicon.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Sanskrit root *kṣara* means *to perish, to decay, to flow away*. The privative *a-* negates it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "When the syllable *क* (ka) is spoken, airflow, larynx position, vagal tone, and cranial resonance change in milliseconds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Airflow and laryngeal changes during articulation are trivially true, but millisecond-scale vagal-tone and cranial-resonance changes from a single phoneme are asserted without measurement, instrument, or source.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "When the syllable *क* (ka) is spoken, airflow, larynx position, vagal tone, and cranial resonance change in milliseconds.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "A child's *ka* and an opera singer's *ka* are recognized as the same syllable."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Well-established psycholinguistic fact (categorical perception and talker normalization for phonemes); stated at the strength the evidence supports.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "A child's *ka* and an opera singer's *ka* are recognized as the same syllable.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "Akshara is a phonemic *type*. Specific utterances are tokens of the type. The type is invariant under the transformation *speaking*."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Applies the standard type/token distinction to akshara with an explicitly declared mathematical analogy ('A mathematician makes the same kind of claim about a number'); internally consistent interpretive frame.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Akshara is a phonemic *type*. Specific utterances are tokens of the type. The type is invariant under the transformation *speaking*.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "The four-tier speech model — Vaikhari (articulated), Madhyama (sub-vocalized), Pashyanti (pre-linguistic apprehension), Para (the unmanifest source) — operates as access tiers from user space to root."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The four levels of vāk (parā, paśyantī, madhyamā, vaikharī) are a genuine doctrine of the Indian grammatical/Tantric tradition and are glossed recognizably; the 'user space to root' framing is a transparent house overlay.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The four-tier speech model — Vaikhari (articulated), Madhyama (sub-vocalized), Pashyanti (pre-linguistic apprehension), Para (the unmanifest source) — operates as access tiers from user space to root.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "Devanagari is not arbitrary. It is structured. The 49 *varṇa* sit on three orthogonal axes"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The varṇamālā's systematic organization along place-of-articulation, voicing, and aspiration is genuinely traditional (Śikṣā/Prātiśākhya science) and the 49-count is made internally consistent at L95 (16 + 25 + 4 + 4).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Devanagari is not arbitrary. It is structured. The 49 *varṇa* sit on three orthogonal axes",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "and the axes are exactly the axes the substrate distinguishes when phonemes act on it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Place, voicing, and aspiration are indeed the articulatory parameters the vocal tract distinguishes — the standard feature dimensions of phonetics — so at the scope of articulatory substrate the claim holds; it does not yet establish any further mystical substrate claim.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "and the axes are exactly the axes the substrate distinguishes when phonemes act on it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 93,
+        "quote": "The 25 stops (*sparśa*) sit in a 5×5 grid: five rows by sthāna, five columns by combination of voicing and aspiration plus a fifth nasal column."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate description of the classical sparśa arrangement: five vargas from kaṇṭha to oṣṭha, each with unvoiced-unaspirated, unvoiced-aspirated, voiced-unaspirated, voiced-aspirated, and nasal columns; the kaṭhora/mṛdu and alpaprāṇa/mahāprāṇa terminology is traditional.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The 25 stops (*sparśa*) sit in a 5×5 grid: five rows by sthāna, five columns by combination of voicing and aspiration plus a fifth nasal column.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "Sixteen because the lattice closes — every articulatory site by length, plus compounds, plus the two non-articulated resonance modes."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 16-count (10 simple vowels + 4 sandhi compounds + anusvāra + visarga) is internally consistent and matches one traditional enumeration of the varṇamālā; vowel-count conventions vary across traditions (13–16), which the rationale accepts. 'The lattice closes' is house rationalization layered on a defensible count.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Sixteen because the lattice closes — every articulatory site by length, plus compounds, plus the two non-articulated resonance modes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "Pāṇini formalized this in the *Aṣṭādhyāyī* (~500 BCE), opening with **14 lines** — the *Māheśvara Sūtras* — said to have been received from the drumbeats of Śiva's ḍamaru."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pāṇini's conventional dating (~5th–4th c. BCE), the 14 Māheśvara/Śiva sūtras opening the Aṣṭādhyāyī, and the ḍamaru legend (properly hedged with 'said to have been') are all accurate; the 'generator system' gloss is a fair modern description of the pratyāhāra mechanism.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Pāṇini formalized this in the *Aṣṭādhyāyī* (~500 BCE), opening with **14 lines** — the *Māheśvara Sūtras* — said to have been received from the drumbeats of Śiva's ḍamaru.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "This is not canonical Pāṇini — it is an interpretive overlay tracking the somatic intensity axis of phonemic action. Sound the columns out loud and the projection holds with embarrassing fidelity."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Sāṁkhya guṇa projection onto the voicing/aspiration columns is explicitly declared as non-canonical interpretive overlay — model authorship is honest — and the fidelity claim is issued as a reader-checkable invitation rather than a measurement.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "This is not canonical Pāṇini — it is an interpretive overlay tracking the somatic intensity axis of phonemic action. Sound the columns out loud and the projection holds with embarrassing fidelity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "Hard syllables percuss the chest. Medium syllables mobilize the breath. Soft syllables sustain in the throat. Nasal syllables resonate in the cranium."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Specific somatic loci for phoneme classes are asserted as literal fact with an explicit anti-metaphor declaration ('The categories are not metaphors', L110) but no physiological evidence; articulatory phonetics supports only a much weaker version of these mappings.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Hard syllables percuss the chest. Medium syllables mobilize the breath. Soft syllables sustain in the throat. Nasal syllables resonate in the cranium.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 121,
+        "quote": "The sparśa grid carries the symmetry **V₄ × D₅** — a 40-element symmetry group acting on 25 phonemes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Demonstrably defective group construction: the voicing and aspiration 'toggles' are undefined on the nasal column (nasals have no unvoiced or aspiration counterparts in the sparśa table), so V₄ = ℤ₂×ℤ₂ cannot act on all 25 stops as claimed; additionally the post calls the register a 'discrete crystallographic structure on a Euclidean plane' while endowing it with 5-fold D₅ symmetry, which the crystallographic restriction theorem forbids for 2D periodic lattices. The 40-element arithmetic (4×10) is internally consistent but the group action it describes does not exist as stated.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The sparśa grid carries the symmetry **V₄ × D₅** — a 40-element symmetry group acting on 25 phonemes.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 123,
+        "line_end": 123,
+        "quote": "A mantra is geometrically a trajectory through this lattice. The phonological structure of the mantra — palindromic, cyclic, dihedral, six-fold-cadenced — determines the symmetry class of the trajectory."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS", "R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The trajectory/symmetry-class thesis inherits the failed lattice construction of C016: with the group action undefined as stated, 'different trajectories recruit different generators of V₄ × D₅' has no valid mathematical referent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "A mantra is geometrically a trajectory through this lattice. The phonological structure of the mantra — palindromic, cyclic, dihedral, six-fold-cadenced — determines the symmetry class of the trajectory.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 125,
+        "line_end": 125,
+        "quote": "The combinatorial enumeration that gives the 16-vowel closure and the 5×5 stop grid traces back to Pingala's *Chandaḥśāstra* (~200 BCE) and the **Meru Prastara**"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pingala's Chandaḥśāstra and the meru prastāra enumerate prosodic meters, not the phonemic register; the varṇa grid's organization belongs to the Śikṣā/Prātiśākhya tradition. Tracing the vowel/stop cardinality to Pingala conflates two distinct lineages.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The combinatorial enumeration that gives the 16-vowel closure and the 5×5 stop grid traces back to Pingala's *Chandaḥśāstra* (~200 BCE) and the **Meru Prastara**",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 125,
+        "line_end": 125,
+        "quote": "the triangular array enumerating prosodic patterns, identical in structure to Pascal's triangle eighteen hundred years before Pascal."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The meru prastāra is well attested as structurally identical to the binomial/Pascal triangle, and the ~200 BCE versus 17th-century CE dating makes 'eighteen hundred years before' accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the triangular array enumerating prosodic patterns, identical in structure to Pascal's triangle eighteen hundred years before Pascal.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 127,
+        "line_end": 127,
+        "quote": "Pingala constructed binary representation of integers, the binomial triangle, and the Fibonacci recursion in service of *enumerating prosodic patterns*."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Binary laghu/guru encoding and the binomial triangle in Pingala's prosody work are well attested; the Fibonacci-style recursion is implicit in Pingala's mātrā-meter enumeration and made explicit by later authors (Virahanka, Hemachandra), so the attribution is acceptable at the stated strength with that nuance.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Pingala constructed binary representation of integers, the binomial triangle, and the Fibonacci recursion in service of *enumerating prosodic patterns*.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 131,
+        "line_end": 135,
+        "quote": "Andrés Gómez Emilsson and the Qualia Research Institute developed the **Symmetry Theory of Valence** (STV) over the last decade."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "STV is genuinely QRI/Emilsson's theory and the blockquoted formulation at L133 is a faithful paraphrase of its identity thesis (valence as symmetry of the mathematical object describing the brain-state); the suffering-as-broken-symmetry gloss at L135 also tracks QRI's own presentation.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Andrés Gómez Emilsson and the Qualia Research Institute developed the **Symmetry Theory of Valence** (STV) over the last decade.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 137,
+        "line_end": 137,
+        "quote": "Decompose EEG/MEG harmonics; the ratio of consonant-to-dissonant-to-noise content predicts valence. Preliminary results align with the prediction."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "CDNS is QRI's actual operationalization and the 'preliminary results' hedge is honest, but no dataset, paper, or effect size is cited, and the unhedged verb 'predicts' asserts at stronger strength than preliminary unpublished evidence supports. The topological-pocket clause in the same line is properly labeled a hypothesis.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Decompose EEG/MEG harmonics; the ratio of consonant-to-dissonant-to-noise content predicts valence. Preliminary results align with the prediction.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 139,
+        "line_end": 139,
+        "quote": "**the wallpaper symmetry of a compiled mantra-pattern is its valence signature**"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS", "R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The STV bridge applied to the mantra lattice depends on the failed group construction (C016) and misuses 'wallpaper symmetry' — wallpaper groups cannot contain the post's own 5-fold D₅ symmetry (crystallographic restriction). The synthesis chain is therefore unsupported at its load-bearing joint.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**the wallpaper symmetry of a compiled mantra-pattern is its valence signature**",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 143,
+        "line_end": 143,
+        "quote": "Mantra is the deliberate inhabitation of a symmetry orbit on the sonic lattice."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post's central definition of mantra; as a synthesis it rests on the lattice/orbit mathematics that failed at C016/C017, so the claim stands unsupported pending repair of its ingredient.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Mantra is the deliberate inhabitation of a symmetry orbit on the sonic lattice.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 145,
+        "line_end": 145,
+        "quote": "The somatic hardware — vagal tone, sphenoid resonance, CSF flow through Meckel's cave — entrains to the periodicity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A specific neurophysiological entrainment mechanism (including CSF flow through Meckel's cave, the trigeminal cavity, locking to vocal periodicity) is asserted with no anatomical or physiological evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The somatic hardware — vagal tone, sphenoid resonance, CSF flow through Meckel's cave — entrains to the periodicity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 147,
+        "line_end": 147,
+        "quote": "The guṇa axis is therefore a **valence-direction parameter**. Sattva-loaded mantras drive toward luminous-clear high-symmetry attractors."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The guṇa-to-valence-parameter identification chains the declared guṇa overlay (C014) through STV (C021) and the failed lattice mathematics (C016/C023); the 'therefore' marks a derivation whose ingredients do not carry the conclusion.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The guṇa axis is therefore a **valence-direction parameter**. Sattva-loaded mantras drive toward luminous-clear high-symmetry attractors.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 149,
+        "line_end": 149,
+        "quote": "This is what the tantric tradition has always claimed: that different syllables produce different states."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate report of a genuine tantric doctrine — distinct bīja syllables held to produce distinct states/effects; the attribution of the claim to the tradition (not to the author) is explicit.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "This is what the tantric tradition has always claimed: that different syllables produce different states.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 149,
+        "line_end": 149,
+        "quote": "The folk taxonomy of sattva/rajas/tamas is not vague. It names the principal axes of the valence manifold the substrate inhabits."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts an identity between the guṇa taxonomy and 'principal axes of the valence manifold'; the manifold and its axes were never constructed beyond the failing lattice mathematics, so the identity claim is unsupported.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The folk taxonomy of sattva/rajas/tamas is not vague. It names the principal axes of the valence manifold the substrate inhabits.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 151,
+        "line_end": 151,
+        "quote": "A bīja syllable — *Hrīṁ*, *Klīṁ*, *Śrīṁ*, the *Hūṁ* of *Om Maṇi Padme Hūṁ* — is structurally maximal. A seed point whose orbit under the right symmetry generators reconstructs the full pattern."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS", "R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Structurally maximal' is undefined and the orbit-reconstruction claim depends on the defective generator framework (C016); the anusvāra-as-resonance-port mechanism likewise asserts coupling with no derivation.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "A bīja syllable — *Hrīṁ*, *Klīṁ*, *Śrīṁ*, the *Hūṁ* of *Om Maṇi Padme Hūṁ* — is structurally maximal. A seed point whose orbit under the right symmetry generators reconstructs the full pattern.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 151,
+        "line_end": 151,
+        "quote": "The tantric claim that the bīja carries the deity's full presence in seed-form is, structurally, exactly what *seed of a symmetry orbit* means."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The embedded traditional attribution (bīja as the deity in seed form) is accurate, but the sentence's operative move — 'structurally, exactly what seed of a symmetry orbit means' — asserts an exact identity between that doctrine and the post's failing orbit mathematics; as synthesis it inherits the ingredient failure.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The tantric claim that the bīja carries the deity's full presence in seed-form is, structurally, exactly what *seed of a symmetry orbit* means.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 155,
+        "line_end": 157,
+        "quote": "The somatic effects are predictable in the same sense any compiled program's output is predictable on its target hardware — input, compiler, substrate, output."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-SOURCE", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing 'Reproducible engineering. Not metaphor.' declaration presents the accumulated synthesis — whose mathematical (C016) and empirical (C002, C025) ingredients failed — as established engineering fact; this launders a Noesis synthesis into a proven-mechanism claim.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The somatic effects are predictable in the same sense any compiled program's output is predictable on its target hardware — input, compiler, substrate, output.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 159,
+        "line_end": 159,
+        "quote": "Read through Kha-Ba-La as substrate grammar: **Kha** is the witness who recognizes the akshara invariant and selects the trajectory."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly declared house reading ('Read through Kha-Ba-La as substrate grammar') assigning Kha/Ba/La their roles; internally consistent as house vocabulary.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Read through Kha-Ba-La as substrate grammar: **Kha** is the witness who recognizes the akshara invariant and selects the trajectory.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    }
+  ]
+}

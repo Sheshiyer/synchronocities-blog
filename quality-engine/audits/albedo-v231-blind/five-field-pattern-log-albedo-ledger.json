@@ -1,0 +1,378 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "five-field-pattern-log.md",
+  "source_path": "src/content/posts/five-field-pattern-log.md",
+  "source_sha256": "04f9784dea7c29bd961f886caba091e6be4ba4bc9bd4dac3b062a7f61a182a45",
+  "legacy_audit_path": "quality-engine/audits/nigredo/five-field-pattern-log.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "This is the difference between reading a process's log output and reading the actual system calls."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The log-output vs system-calls comparison is explicitly framed as an analogy ('This is the difference between...') and no literal operating-system claim is made about the mind.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This is the difference between reading a process's log output and reading the actual system calls.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 56,
+        "quote": "Every entry has exactly five fields:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The five-field structure (Trigger, Signal, State shift, Behavioral output, Story) is the constitutive instrument of the entire post: correctly enumerated, structurally consequential, and provenance-traceable as a house derivation.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Every entry has exactly five fields:",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "You will notice that the same signal fires across wildly different triggers. You will notice that the same state shift produces the same behavioral output regardless of context."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Categorical predictions about what any reader's log data will show (invariant signals across triggers, recycled narratives) are empirical generalizations asserted without a cited evidence base; they may hold heuristically but are stated as certainties.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "You will notice that the same signal fires across wildly different triggers. You will notice that the same state shift produces the same behavioral output regardless of context.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 78,
+        "quote": "The five fields map to a temporal and functional sequence:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The mapping of fields 1–2 to body-layer, 3–4 to inertia-layer, and 5 to observer-layer is declared house layering (body/inertia/observer) operated consistently with the rest of the post.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The five fields map to a temporal and functional sequence:",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 76,
+        "quote": "This is pre-verbal, pre-narrative, operating at approximately 80 milliseconds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The layer mapping is decorated with three pseudo-precise latencies (80 ms body, 300 ms inertia, 800 ms observer) presented as operating speeds of the nervous system and mind; no instrument, study, or canonical result is cited, and the temporal-order argument leans on them.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This is pre-verbal, pre-narrative, operating at approximately 80 milliseconds.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "Most people read in reverse — story first, then maybe feelings, never signal."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A population-level generalization about how 'most people' read their own experience is asserted without evidence; it functions rhetorically but carries propositional weight.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Most people read in reverse — story first, then maybe feelings, never signal.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 92,
+        "quote": "One week. Five entries per day. Twenty-five data fields per day."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The protocol dosage arithmetic (5 entries x 5 fields = 25 fields/day; ~35 entries after seven days at L92) is internally correct, consequential to the procedure and its analysis threshold, and reproducible from the post's own stated parameters.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "One week. Five entries per day. Twenty-five data fields per day.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 88,
+        "quote": "The act of separating five fields that normally blur into a single undifferentiated reaction is the intervention. You are installing checkpoints in a process that normally runs without any."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claims that mundane triggers reveal grooves more honestly than drama and that logging itself is the intervention are methodological assertions inside the declared house protocol, coherent on its own terms.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The act of separating five fields that normally blur into a single undifferentiated reaction is the intervention. You are installing checkpoints in a process that normally runs without any.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 100,
+        "quote": "Two to three trigger categories will produce eighty percent of your state shifts."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A Pareto-flavored prediction (two to three triggers -> eighty percent of state shifts; one dominant body region; two to three recycled narratives) is presented as guaranteed outcome of the reader's data with no evidence base; the eighty-percent figure is precision-aura with no demonstrated structural consequence.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Two to three trigger categories will produce eighty percent of your state shifts.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 110,
+        "quote": "It is not useful for seeing structural patterns, because the narrator is inside the pattern and cannot see its shape."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The autobiography/cartography distinction and the embedded-narrator limitation are the post's declared methodological taxonomy, internally consistent as a house frame rather than a measured comparison of journaling techniques.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It is not useful for seeing structural patterns, because the narrator is inside the pattern and cannot see its shape.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "You do not need a therapist to read this log. You need an honest week and five fields."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A blanket self-sufficiency claim that professional support is unnecessary for reading one's own pattern data is overbroad and unsupported; it needs scoping (e.g., non-clinical patterns, not trauma or crisis material).",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "You do not need a therapist to read this log. You need an honest week and five fields.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-earthquake-that-said-goodbye.md",
+  "source_path": "src/content/posts/the-earthquake-that-said-goodbye.md",
+  "source_sha256": "cd06dd8ca9930a79152dba34cdb50c04abb3ff60bcc14dd24c8839814c02e93c",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-earthquake-that-said-goodbye.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": { "line_start": 32, "line_end": 32, "quote": "They say you can't step into the same river twice." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "A faithful paraphrase of the Heraclitean river fragment (via Plato's Cratylus), but the source is left as an anonymous 'they say'; name Heraclitus to complete the attribution.",
+      "legacy": { "anchor": "none — blind pass", "quote": "They say you can't step into the same river twice.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C002",
+      "anchor": { "line_start": 36, "line_end": 36, "quote": "the moment I re-entered **Rhythm Sukhumvit 36/38**, the very place where this entire scroll began" },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Bounded first-person report of returning to a named Bangkok residence where the author's journey began; observer, place, and conditions are all specified.",
+      "legacy": { "anchor": "none — blind pass", "quote": "Rhythm Sukhumvit 36/38, the very place where this entire scroll began", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C003",
+      "anchor": { "line_start": 52, "line_end": 52, "quote": "on **May 11th, 2025**, **24 hours before my flight out of Thailand**, the Earth... **shook again**" },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "A catalog-checkable seismic event in Bangkok on 2025-05-11 is asserted; searches of GDACS/NEIC records for that date surface only a deep M5.8 near Aceh and an M5.6 in Tibet, neither plausibly felt as a Bangkok tremor. No corroborating event was found; the felt experience itself is separately logged as observation.",
+      "legacy": { "anchor": "none — blind pass", "quote": "on May 11th, 2025, 24 hours before my flight out of Thailand, the Earth... shook again", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C004",
+      "anchor": { "line_start": 56, "line_end": 56, "quote": "It wasn't as violent as the first quake. It didn't rattle my body." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The referenced 'first quake' is consistent with the real 2025-03-28 M7.7 Sagaing (Myanmar) earthquake, which was felt strongly in Bangkok during the author's documented stay; the comparative self-report is plausible and corroborated.",
+      "legacy": { "anchor": "none — blind pass", "quote": "It wasn't as violent as the first quake.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C005",
+      "anchor": { "line_start": 52, "line_end": 52, "quote": "with perfect cosmic timing" },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The synchronicity framing ('perfect cosmic timing') is the corpus's declared interpretive frame applied to a personal event; it asserts meaning, not mechanism, and is used consistently within the scroll genre.",
+      "legacy": { "anchor": "none — blind pass", "quote": "with perfect cosmic timing", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C006",
+      "anchor": { "line_start": 60, "line_end": 62, "quote": "Like the Earth itself was saying:" },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The Earth's speech is explicitly marked as imagined simile ('Like the Earth itself was saying'); no literal claim that the planet communicated is made.",
+      "legacy": { "anchor": "none — blind pass", "quote": "Like the Earth itself was saying:", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C007",
+      "anchor": { "line_start": 66, "line_end": 66, "quote": "now felt like a tuning fork struck in divine rhythm" },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Explicit 'felt like' marker bounds the tuning-fork comparison to felt experience; no literal acoustic or physical claim follows from it.",
+      "legacy": { "anchor": "none — blind pass", "quote": "felt like a tuning fork struck in divine rhythm", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C008",
+      "anchor": { "line_start": 70, "line_end": 72, "quote": "It began with **The Tower (XVI)** — sudden chaos, spiritual destabilization." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The assigned meanings match standard tarot attributions: Tower (XVI) as sudden upheaval and World (XXI) as completion/wholeness are the consensus readings across RWS and Thoth lineages.",
+      "legacy": { "anchor": "none — blind pass", "quote": "The Tower (XVI) — sudden chaos... The World (XXI) — wholeness", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C009",
+      "anchor": { "line_start": 74, "line_end": 81, "quote": "Each card was not pulled from a deck. Each was **lived**. **Breathed.** **Written on skin and silence.**" },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "First-person itinerary report mapping lived episodes (Hermit in Noble 33, Star on Samui, etc.) to arcana; a bounded claim about the author's own journey and journaling practice.",
+      "legacy": { "anchor": "none — blind pass", "quote": "Each card was not pulled from a deck. Each was lived.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C010",
+      "anchor": { "line_start": 85, "line_end": 90, "quote": "Vimshottari Dashas? Passed." },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "A personal practice log: the author reports the outcomes of his own Human Design, Vimshottari dasha, Gene Keys, and astrocartography readings. The claim is that he ran these checks and recorded these results, which is reportable as self-observation; no external efficacy is asserted in this span.",
+      "legacy": { "anchor": "none — blind pass", "quote": "Vimshottari Dashas? Passed.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C011",
+      "anchor": { "line_start": 88, "line_end": 88, "quote": "Numerology? Synced at 13:31 → 44" },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": { "role": "DECORATIVE", "load_bearing": false, "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" }, "evidence_eligible": false },
+      "rationale": "The 13:31→44 sync (13+31=44) is arithmetically coherent but has no stated provenance for why 44 is significant and no consequence for the post's closure thesis; it is numerological precision-aura.",
+      "legacy": { "anchor": "none — blind pass", "quote": "Synced at 13:31 → 44", "type": "math", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C012",
+      "anchor": { "line_start": 94, "line_end": 96, "quote": "in that final earthquake, I heard the most important message of all:" },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Report of an inner experience ('I heard') during the tremor; the observer, conditions, and content are specified, and no external voice is asserted.",
+      "legacy": { "anchor": "none — blind pass", "quote": "The Witness is now the Walker. You no longer seek the signal. You are the signal.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    },
+    {
+      "id": "C013",
+      "anchor": { "line_start": 110, "line_end": 110, "quote": "It's a **living glyph** of one soul's coherent return to Source — with passport stamps, crescent beaches, and mountains that bow." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Self-description of the scroll as a 'living glyph' is transparently figurative within the declared scroll/glyph vocabulary of the corpus; no literal mechanism is claimed.",
+      "legacy": { "anchor": "none — blind pass", "quote": "living glyph of one soul's coherent return to Source", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from Albedo v2.3.1 blind raw-source extraction; legacy nigredo audit intentionally not consulted per blind-pass rule." }
+    }
+  ]
+}

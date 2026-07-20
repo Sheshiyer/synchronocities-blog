@@ -1,0 +1,472 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "tarot-major-arcana-journal.md",
+  "source_path": "src/content/posts/tarot-major-arcana-journal.md",
+  "source_sha256": "d34591d1c2668ba13ac04113f7f4b8edb5465d7f8fc6b73929b9917033dc37ca",
+  "legacy_audit_path": "quality-engine/audits/nigredo/tarot-major-arcana-journal.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 62,
+        "quote": "Twenty-two cards. Twenty-two positions on the spiral.\n\nEach Major Arcana card names a node — a structural position in the field-movement record. The card is not the entry. The entry is what happened at that node. The card just names the position so the spiral has a coordinate system."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The card-as-node / spiral-coordinate frame is declared as the hub's own organizing device (\"This is the index\"), used consistently throughout, and the underlying count (22 Major Arcana) is correct. Functions as an explicit model, not an asserted property of the deck.",
+      "legacy": {
+        "anchor": "BLIND-L60",
+        "quote": "Twenty-two cards. Twenty-two positions on the spiral.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The Thoth-deck convention is canonical: *Adjustment* for Justice, *Lust* for Strength, *Art* for Temperance, *Aeon* for Judgement, *Universe* for World."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "All five renamings match Crowley's Thoth deck exactly (VIII Adjustment, XI Lust, XIV Art, XX The Aeon, XXI The Universe); \"canonical\" is scoped to this journal's own convention as declared.",
+      "legacy": {
+        "anchor": "BLIND-L64",
+        "quote": "Adjustment for Justice, Lust for Strength, Art for Temperance, Aeon for Judgement, Universe for World",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The reader does not witness the field; they project anxiety onto the image."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Within an otherwise declared conditional frame, this clause universalizes a psychological mechanism (divinatory readers project anxiety) across all readers without evidence; needs scoping to \"can become / tends to\" or an observation base.",
+      "legacy": {
+        "anchor": "BLIND-L68",
+        "quote": "they project anxiety onto the image",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The system requires all 22 positions to hold its geometry. Remove one and the entire spiral deforms."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The three-forces requirement (consciousness / body / architecture — the house triad in journal vocabulary) and the all-22-positions completeness condition are stated as the section's declared \"structural grammar\" and operated consistently; no external validity is claimed.",
+      "legacy": {
+        "anchor": "BLIND-L68",
+        "quote": "The system requires all 22 positions to hold its geometry.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The Tower is not a symbol of collapse when your apartment shakes at 3:47 AM; it is the collapse. The Hermit is not a meditation metaphor when you have spent 72 hours in silence with no audience."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Situated first-person reports of lived events (an earthquake experienced in the author's apartment; a 72-hour silence practice), cross-referenced to named journal entries; observer, object, and conditions are present, and the claims stay at the level of what was experienced.",
+      "legacy": {
+        "anchor": "BLIND-L74",
+        "quote": "when your apartment shakes at 3:47 AM; it is the collapse",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 78,
+        "quote": "The Emperor encodes patriarchal hierarchy. The Hierophant encodes institutional transmission. The Priestess encodes the exclusion of the intuitive from official record."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The systemic-scale readings are explicitly presented as one declared level of the hub's four-scale interpretive frame (\"At the systemic scale...\"); within that declared frame the encodings are internally consistent and align with recognizable critical-tarot vocabulary.",
+      "legacy": {
+        "anchor": "BLIND-L78",
+        "quote": "The Emperor encodes patriarchal hierarchy.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The tarot is not outside culture; it is a mirror that has been polished for centuries."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The polished-mirror image is transparently figurative, sits inside the declared systemic-scale frame, and no literal historical or optical claim is extracted from it.",
+      "legacy": {
+        "anchor": "BLIND-L78",
+        "quote": "a mirror that has been polished for centuries",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "At the cosmic scale, the 22 cards form a universal grammar. The Fool is not the beginning of something else; it is the entire spiral in seed form. The Universe is not the end; it is the spiral having returned to its origin at a higher octave. Every position contains every other position in latency. The Tower is in the Fool as potential demolition. The Star is in the Tower as latent reorientation."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The universal-grammar / mutual-latency claims are explicitly scoped as the cosmic level of the declared four-scale frame and remain internally consistent with the spiral model declared at the top of the post.",
+      "legacy": {
+        "anchor": "BLIND-L80",
+        "quote": "Every position contains every other position in latency.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The deck inherits centuries of alchemical symbolism, patriarchal hierarchy, colonial extraction of exotic imagery, and occult secrecy."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The historical layering of tarot (15th-century Italian trionfi, 18th–19th-century occultist accretion of alchemical and Hermetic symbolism, courtly and gendered hierarchy, esoteric secrecy) is well documented; \"colonial extraction of exotic imagery\" is an interpretive-critical characterization but within the mainstream critical consensus on occult revival borrowings.",
+      "legacy": {
+        "anchor": "BLIND-L84",
+        "quote": "centuries of alchemical symbolism, patriarchal hierarchy, colonial extraction of exotic imagery, and occult secrecy",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Every position on the spiral has a cost. The Tower costs your shelter. The Hanged Man costs your orientation. The Devil costs your cooperation. The Aeon costs your previous form. The Star costs your certainty. The cost is not optional; it is the price of the position. A card read without cost is a card not walked."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cost-per-position doctrine is part of the journal's declared walking-the-spiral frame (\"walked\" vs merely \"read\" is the hub's own distinction) and is applied consistently across the examples given.",
+      "legacy": {
+        "anchor": "BLIND-L86",
+        "quote": "Every position on the spiral has a cost.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "Fourteen of the twenty-two positions have no entries."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A direct recount of the post's own index contradicts the number: 13 cards are marked \"Unwritten\" (Magus, Priestess, Empress, Emperor, Hierophant, Lovers, Adjustment, Fortune, Lust, Hanged Man, Death, Devil, Sun), and 9 cards carry entries or an explicit implicit-entry note (Fool, Chariot, Hermit, Art, Tower, Star, Moon, Aeon, Universe). 22 − 9 = 13, not 14.",
+      "legacy": {
+        "anchor": "BLIND-L88",
+        "quote": "Fourteen of the twenty-two positions have no entries.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 291,
+        "line_end": 291,
+        "quote": "Twelve entries across eight unique cards. Fourteen of the twenty-two cards are *unwritten*."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The index lists 14 linked entries across 9 cards (Fool ×3, Chariot implicit ×1, Hermit ×1, Art ×2, Tower ×1, Star ×1, Moon ×1, Aeon ×1, Universe ×3); excluding the implicit Chariot mention yields 13 entries across 8 cards. No recount of the post's own list yields \"twelve entries,\" and \"fourteen unwritten\" contradicts the 13 cards actually marked unwritten (cf. C011). The frontmatter llm.summary repeats the same incorrect counts.",
+      "legacy": {
+        "anchor": "BLIND-L291",
+        "quote": "Twelve entries across eight unique cards. Fourteen of the twenty-two cards are unwritten.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 100,
+        "quote": "## 0 — The Fool\n\n*Leap · Ordinary World*"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Representative row for the per-card gloss set (L98–277): the Thoth keywords and names (Magus, Adjustment, Lust, Art, Aeon, Universe, Fortune) accurately reflect the Thoth deck, the parenthetical \"(Trad. ...)\" equivalences are correct, and the mythic-phase labels accurately reproduce the Vogler/Campbell hero's-journey stages (Ordinary World, Call to Adventure, Approach to the Innermost Cave, Ordeal, Resurrection, Return with the Elixir).",
+      "legacy": {
+        "anchor": "BLIND-L98",
+        "quote": "Leap · Ordinary World",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 287,
+        "line_end": 287,
+        "quote": "*Approach to Innermost Cave* gathers the Hermit, Fortune, and Tower; *The Ordeal* gathers Death, Art, and the Devil."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Cross-checked against the index itself: Hermit (L174), Fortune (L182), and Tower (L231) all carry the \"Approach to Innermost Cave\" phase; Death (L206), Art (L214), and Devil (L223) all carry \"The Ordeal.\" The reading-order mapping is internally accurate.",
+      "legacy": {
+        "anchor": "BLIND-L287",
+        "quote": "Approach to Innermost Cave gathers the Hermit, Fortune, and Tower",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1036 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "bioelectric-protocol.md",
+  "source_path": "src/content/posts/bioelectric-protocol.md",
+  "source_sha256": "214cb7cb4dbdef6b1421e13c816e6ef03b619f4fb3cd2792b1a1e19c3473eda0",
+  "legacy_audit_path": "quality-engine/audits/nigredo/bioelectric-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "an electrochemical instrument with approximately seven octaves of signaling bandwidth"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Seven octaves of signaling bandwidth' is pseudo-precise: no source, no defined unit or frequency span, and removing the figure changes nothing in the argument — precision-aura without structural consequence or provenance.",
+      "legacy": {
+        "anchor": "blind-v231:L43",
+        "quote": "approximately seven octaves of signaling bandwidth",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "I learned this after tracking my own nasal temperature differential for two weeks. The right nostril ran hot at dawn. The left was nearly cold."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Named observer (author), defined procedure (two weeks of nasal temperature tracking plus HRV trace), personal scope preserved; the observation is not universalized beyond the author's own readings.",
+      "legacy": {
+        "anchor": "blind-v231:L43",
+        "quote": "The right nostril ran hot at dawn. The left was nearly cold.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The fascial web conducts ionic currents."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Connective-tissue conduction of bioelectric signals is documented (e.g., Langevin's work on connective tissue electrical properties); stated at appropriate strength.",
+      "legacy": {
+        "anchor": "blind-v231:L45",
+        "quote": "The fascial web conducts ionic currents.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The nasal mucosa differentially engorges with blood on a ninety-minute cycle."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The ultradian nasal cycle is standard rhinology; the ~90-minute figure sits at the commonly cited short end of the documented range (roughly 1.5-6 hours) and the cycle period is the content of the claim, so the quantity is correct, consequential, and literature-traceable.",
+      "legacy": {
+        "anchor": "blind-v231:L45",
+        "quote": "on a ninety-minute cycle",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The heart emits a magnetic field detectable several feet from the torso."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Magnetocardiography with SQUID sensors detects the cardiac magnetic field at distances up to several feet; the claim is modest and matches the instrumentation record.",
+      "legacy": {
+        "anchor": "blind-v231:L45",
+        "quote": "The heart emits a magnetic field detectable several feet from the torso.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "These are not metaphors. They are measurable biophysical events that preceded language by about 3.8 billion years."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "PASS" },
+        "evidence_eligible": false
+      },
+      "rationale": "Electrochemical signaling is indeed as old as cellular life (~3.8 Ga), so the substance passes; the 'about 3.8 billion years' figure is atmospheric — removing it changes no inference — and should be cut or justified.",
+      "legacy": {
+        "anchor": "blind-v231:L45",
+        "quote": "preceded language by about 3.8 billion years",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "The body is the substrate. The nervous system is the runtime. And the bioelectric field is the protocol layer where both compile into experience."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Computing terms (substrate, runtime, protocol layer) are transparently analogical and function as orientation vocabulary; no literal software mechanism or numeric consequence is asserted.",
+      "legacy": {
+        "anchor": "blind-v231:L45",
+        "quote": "The nervous system is the runtime.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "The Alchemical framework provides the structural grammar: Nigredo is the deconstruction of the inherited assumption that the body is merely chemical; Albedo is the revelation of the bioelectric field as operational reality"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The four alchemical stages are explicitly declared as the post's structural grammar with house-authored definitions applied consistently through the protocols; no empirical or historical proof is claimed for the frame itself.",
+      "legacy": {
+        "anchor": "blind-v231:L47",
+        "quote": "The Alchemical framework provides the structural grammar",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The card shows a driver standing between two sphinxes — one black, one white."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate description of the Rider-Waite-Smith Chariot (VII) imagery, which depicts a charioteer with black and white sphinxes.",
+      "legacy": {
+        "anchor": "blind-v231:L51",
+        "quote": "a driver standing between two sphinxes — one black, one white",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "In this reading, the sphinxes are the sympathetic and parasympathetic branches of the autonomic tree."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The tarot-to-autonomic mapping is explicitly bounded by 'In this reading'; no claim that Waite or tradition intended the mapping follows.",
+      "legacy": {
+        "anchor": "blind-v231:L51",
+        "quote": "In this reading, the sphinxes are the sympathetic and parasympathetic branches",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The chariot itself is the prāṇamaya kośa — the energy sheath — and it is not a poetic abstraction. It is the measurable voltage gradient between your skin and the earth."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-REMODE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence explicitly denies abstraction and identifies the prāṇamaya kośa with a measurable skin-to-earth voltage gradient; no instrument operationalizes a kośa, so the identity claim has no measurable referent — remode as declared house mapping.",
+      "legacy": {
+        "anchor": "blind-v231:L51",
+        "quote": "It is the measurable voltage gradient between your skin and the earth.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "Sympathetic tone climbs when the right nostril leads. Parasympathetic tone deepens when the left nostril leads."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Forced unilateral nostril breathing studies (Shannahoff-Khalsa and successors) report lateralized autonomic effects in the stated directions; the claim matches that literature at its own strength, though the research program remains small and contested.",
+      "legacy": {
+        "anchor": "blind-v231:L55",
+        "quote": "Sympathetic tone climbs when the right nostril leads.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The *Haṭha Yoga Pradīpikā* (2.7–10) describes this as solar/lunar balancing."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "HYP chapter 2 verses 7-10 teach nāḍī-śodhana (alternate-nostril purification), and the text associates piṅgalā/iḍā with sun/moon; the chapter-verse citation is specific and the paraphrase faithful.",
+      "legacy": {
+        "anchor": "blind-v231:L55",
+        "quote": "The Haṭha Yoga Pradīpikā (2.7–10) describes this as solar/lunar balancing.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "A modern bioimpedance meter describes it as a shift in unilateral nasal resistance and a corresponding change in galvanic skin response."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Nasal resistance is measured by rhinomanometry, not typically 'bioimpedance', and no named study ties unilateral nostril switching to a corresponding GSR shift; the instrumentation claim is asserted without a traceable source.",
+      "legacy": {
+        "anchor": "blind-v231:L55",
+        "quote": "a corresponding change in galvanic skin response",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "By manually switching the dominant nostril, you overwrite the autonomic bias that has accumulated since your last sleep cycle."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Unilateral breathing produces transient autonomic modulation in small studies; 'overwrite the autonomic bias accumulated since your last sleep cycle' asserts a causal reset of a diurnal accumulation that no study demonstrates.",
+      "legacy": {
+        "anchor": "blind-v231:L57",
+        "quote": "you overwrite the autonomic bias that has accumulated since your last sleep cycle",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Most people discover their left nostril is nearly glued shut in the morning, or their right nostril dominates during arguments."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A population-level generalization ('most people') about nostril dominance patterns is built from anecdote; nasal cycle laterality shows no documented morning-left or argument-right population pattern.",
+      "legacy": {
+        "anchor": "blind-v231:L59",
+        "quote": "Most people discover their left nostril is nearly glued shut in the morning",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "The earth's surface carries a stable negative electrical potential."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard atmospheric electricity: the earth's surface maintains a net negative charge relative to the atmosphere in the global electric circuit.",
+      "legacy": {
+        "anchor": "blind-v231:L63",
+        "quote": "The earth's surface carries a stable negative electrical potential.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Your body, after eight hours in synthetic shoes and twelve hours under fluorescent light, carries an excess of positive charge."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The earthing-movement premise that modern insulation leaves the body with a chronic 'excess of positive charge' has no established measurement literature; body potential equalizes continuously through ordinary contact and humidity.",
+      "legacy": {
+        "anchor": "blind-v231:L63",
+        "quote": "carries an excess of positive charge",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "When you make skin contact with the ground — grass, soil, concrete, salt water — electrons migrate from earth to body until equilibrium is reached."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Charge equalization on conductive contact is basic electrostatics; the sentence claims only the migration-to-equilibrium mechanism, not a health outcome.",
+      "legacy": {
+        "anchor": "blind-v231:L63",
+        "quote": "electrons migrate from earth to body until equilibrium is reached",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Robert Becker demonstrated in the 1970s that electrical currents guide tissue regeneration in salamanders and, by extension, in humans."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Becker's salamander regeneration-current work is accurately attributed, and he did argue for human extension; however the demonstrated human evidence is limited to adjunctive stimulation (e.g., non-union fracture healing), not limb regeneration — narrow the extension accordingly.",
+      "legacy": {
+        "anchor": "blind-v231:L65",
+        "quote": "electrical currents guide tissue regeneration in salamanders",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Without it, the noise floor rises. Inflammation signaling becomes chaotic. Sleep architecture fragments."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Categorical causal claims that lacking an earth voltage reference produces chaotic inflammation signaling and fragmented sleep; the earthing literature is small and weak and does not support asserted causation at this strength.",
+      "legacy": {
+        "anchor": "blind-v231:L65",
+        "quote": "Inflammation signaling becomes chaotic. Sleep architecture fragments.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "the shift in EEG alpha power that has been documented in multiple small studies"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim is appropriately hedged: small grounding/earthing EEG studies (e.g., Chevalier and colleagues) do report alpha-band changes, and the post claims nothing beyond 'multiple small studies'.",
+      "legacy": {
+        "anchor": "blind-v231:L67",
+        "quote": "documented in multiple small studies",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "HRV coherence is a specific state: respiratory sinus arrhythmia is maximized, the heart accelerates on inhalation and decelerates on exhalation with minimal phase lag, and the power spectrum shows a clean peak around 0.1 Hz."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Accurate operational definition of HRV coherence/resonance breathing; the ~0.1 Hz spectral peak is correct (baroreflex resonance frequency), is the content of the definition, and traces to the HRV-biofeedback literature.",
+      "legacy": {
+        "anchor": "blind-v231:L71",
+        "quote": "the power spectrum shows a clean peak around 0.1 Hz",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "High HRV means the system is responsive. Low HRV means it is rigid, often from chronic sympathetic engagement."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Mainstream autonomic physiology: HRV indexes vagal modulation and adaptive responsiveness; low HRV is associated with sustained sympathetic dominance — stated with the hedged 'often'.",
+      "legacy": {
+        "anchor": "blind-v231:L71",
+        "quote": "High HRV means the system is responsive.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The heart becomes the primary oscillator for the entire bioelectric network, setting the frequency reference that the brain, the gut, and the immune system phase-lock to."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Heart-brain entrainment claims derive from the contested HeartMath research program, and phase-locking of gut and immune system to a cardiac frequency reference is not established; asserted categorically without a named source.",
+      "legacy": {
+        "anchor": "blind-v231:L73",
+        "quote": "setting the frequency reference that the brain, the gut, and the immune system phase-lock to",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The HeartMath Institute has published empirical data showing that sustained coherence correlates with improved cognitive performance, emotional regulation, and immune markers."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurately reports what HeartMath has published and preserves correlational strength ('correlates with'); the claim is about the existence and content of their publications, not an endorsement of their evidentiary quality.",
+      "legacy": {
+        "anchor": "blind-v231:L73",
+        "quote": "sustained coherence correlates with improved cognitive performance, emotional regulation, and immune markers",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "You can verify this yourself with a fifty-dollar Bluetooth HRV monitor and five minutes of paced breathing at six cycles per minute."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "A reader-replicable observation protocol with named instrument class, duration, and cadence; six breaths per minute equals the 0.1 Hz resonance frequency, is correct, consequential to the protocol, and literature-traceable.",
+      "legacy": {
+        "anchor": "blind-v231:L73",
+        "quote": "five minutes of paced breathing at six cycles per minute",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 83,
+        "quote": "Without Kha — without the observer — the practices become mechanical superstition."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The triad-as-failure-modes section applies the named house vocabulary (Kha observer, Ba substrate, La friction) uniformly to the three protocols; internally consistent and makes no external measurement claim.",
+      "legacy": {
+        "anchor": "blind-v231:L77-83",
+        "quote": "The La is the difficulty that proves the practice is real.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Two people in sustained proximity will entrain respiratory and cardiac rhythms."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Interpersonal physiological synchrony (respiratory and cardiac entrainment in dyads, parent-infant pairs, ensembles) is documented; the categorical 'will entrain' overstates effect reliability — narrow to conditions under which synchrony has been measured.",
+      "legacy": {
+        "anchor": "blind-v231:L87",
+        "quote": "They are phase-locked oscillators exchanging electrochemical information.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The nasal cycle of one can influence the autonomic tone of the other."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Cross-person nasal-cycle influence on a partner's autonomic tone has no documented evidence base; asserted without source.",
+      "legacy": {
+        "anchor": "blind-v231:L87",
+        "quote": "The nasal cycle of one can influence the autonomic tone of the other.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "the institutions that manage health have no billing code for nasal cycle imbalance, no reimbursement for earthing, and no diagnostic category for HRV coherence deficit."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "True as a taxonomy fact: no CPT/ICD codes exist for nasal cycle imbalance, earthing, or HRV coherence deficit; checkable against public coding systems.",
+      "legacy": {
+        "anchor": "blind-v231:L89",
+        "quote": "no billing code for nasal cycle imbalance, no reimbursement for earthing",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "The medical model treats the body as a chemical machine with occasional electrical malfunctions. It does not treat the body as an electrical instrument with chemical consequences."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Overbroad characterization of medicine: cardiology and neurology routinely diagnose and treat electrically (ECG, EEG, defibrillation, cardiac ablation, deep brain stimulation); the 'chemical machine' framing is rhetorical, not a fair description of the field.",
+      "legacy": {
+        "anchor": "blind-v231:L89",
+        "quote": "The medical model treats the body as a chemical machine with occasional electrical malfunctions.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "the earth's Schumann resonance — approximately 7.83 Hz, with harmonics"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The Schumann fundamental (~7.83 Hz) with higher harmonics is correct atmospheric physics; the frequency is the content of the claim and traces to the geophysics literature.",
+      "legacy": {
+        "anchor": "blind-v231:L91",
+        "quote": "approximately 7.83 Hz, with harmonics",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "provides a planetary frequency reference that all living systems evolved to track"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that all living systems evolved to track the Schumann resonance is speculative; isolated findings (e.g., human EEG correlations in shielded-room studies) do not support a universal evolutionary tracking claim.",
+      "legacy": {
+        "anchor": "blind-v231:L91",
+        "quote": "a planetary frequency reference that all living systems evolved to track",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The heart's coherent state oscillates near this frequency."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Factually wrong and internally inconsistent: the post itself defines HRV coherence at 0.1 Hz (L71) — two orders of magnitude below the 7.83 Hz Schumann fundamental; the heart's coherent state does not oscillate near 7.83 Hz.",
+      "legacy": {
+        "anchor": "blind-v231:L91",
+        "quote": "The heart's coherent state oscillates near this frequency.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C036",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The alpha band of the human EEG centers on it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The EEG alpha band spans roughly 8-12 Hz and centers near 10 Hz; 7.83 Hz sits at or below the alpha band's lower edge (theta-alpha boundary), so 'centers on it' is incorrect.",
+      "legacy": {
+        "anchor": "blind-v231:L91",
+        "quote": "The alpha band of the human EEG centers on it.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C037",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "The cost of this fracture is measurable: chronic inflammation, disrupted sleep, autonomic dysregulation, the slow erosion of the body's capacity to repair itself."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Chronic inflammation, sleep disruption, and autonomic dysregulation are each real and measurable, but attributing them causally to a culturally inherited 'mind-over-body fracture' is an unmeasured causal story asserted as measurable fact.",
+      "legacy": {
+        "anchor": "blind-v231:L95",
+        "quote": "The cost of this fracture is measurable: chronic inflammation, disrupted sleep, autonomic dysregulation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C038",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "This is Rubedo: the Stone is not an object but a state of operational coherence. The perfect balance of solar and lunar energies within the substance."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared application of the alchemical stage framework set up at L47; the Rubedo-as-coherence definition is internally consistent with the post's house grammar and claims no external proof.",
+      "legacy": {
+        "anchor": "blind-v231:L97",
+        "quote": "The Stone is not an object but a state of operational coherence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    }
+  ]
+}

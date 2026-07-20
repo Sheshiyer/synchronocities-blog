@@ -1,0 +1,1474 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "BOOTSTRAPPED",
+  "post": "sri-yantra-geometry-that-doesnt-fit.md",
+  "source_path": "src/content/posts/sri-yantra-geometry-that-doesnt-fit.md",
+  "source_sha256": "4482746bf73e5318159a336bc9afd80f4172c7a31dd2bb27be4cddcc8b1a01e2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/sri-yantra-geometry-that-doesnt-fit.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 62,
+        "quote": "> \"The Sri Yantra is the geometric body of mantra-energy.\"\n> — *Saundarya Laharī*, attr. Ādi Śaṅkara, 8th c. CE"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The epigraph presents a verbatim quotation with attribution and date. The wording \"geometric body of mantra-energy\" cannot be matched to any standard verse or translation of the Saundarya Laharī from the source alone, and per the grammar an unverifiable translation/quotation is UNSUPPORTED until a reliable edition is cited. Flagged for review to verify verse number and wording.",
+      "legacy": {
+        "anchor": "BLIND-L61",
+        "quote": "\"The Sri Yantra is the geometric body of mantra-energy.\" — *Saundarya Laharī*, attr. Ādi Śaṅkara, 8th c. CE",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The figure is a geometric instrument designed to drive the substrate toward a specific state by exploiting a precise mismatch between its inner and outer symmetry."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-CAUSE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Design intent and a causal mechanism (\"designed to drive the substrate\") are asserted as plain fact with no declaration of the Noesis/house frame and no evidence for purposive engineering. The house model is presented as observed mechanism.",
+      "legacy": {
+        "anchor": "BLIND-L64",
+        "quote": "The Sri Yantra is engineered hardware.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Modern geometry can name what the figure has been doing for at least twelve hundred years."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Dating the Sri Yantra's operative use to at least ~800 CE is asserted without a source; the dating of the relevant textual witnesses (e.g. Saundarya Laharī) is itself contested, and the claim also presupposes the unverified efficacy of the figure.",
+      "legacy": {
+        "anchor": "BLIND-L66",
+        "quote": "what the figure has been doing for at least twelve hundred years",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Strip the diagram to structure. Nine interlocking triangles superimposed on a single center point (*bindu*). Five point downward — the *śakti* triangles, *yoni*, the descending feminine principle. Four point upward — the *śiva* triangles, *liṅga*, the ascending masculine principle. The five-and-four interlock through the center to produce, by their interpenetration, **43 smaller triangular regions**. Add the bindu and the canonical *Tripurā* lineage counts **44 triangles total**."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The nine-triangle composition (five śakti descending, four śiva ascending) and the 43-region count faithfully report the canonical description found in the Saundarya Laharī (v.11) and standard Śrīvidyā sources; the Tripurā lineage is named for the 44 count.",
+      "legacy": {
+        "anchor": "BLIND-L72",
+        "quote": "43 smaller triangular regions ... the canonical *Tripurā* lineage counts 44 triangles total",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "an **8-petal lotus** (*aṣṭadala-padma*); a **16-petal lotus** (*ṣoḍaśadala-padma*); three concentric **circles** (*tribhuvana-cakra*); a **square frame** (*bhūpura*) with four T-shaped gates (*dvāra*) oriented to the cardinal directions."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The concentric enclosures and their Sanskrit names match the standard iconographic description of the Śrīcakra's āvaraṇas; terminology (aṣṭadala-padma, ṣoḍaśadala-padma, bhūpura, dvāra) is used correctly.",
+      "legacy": {
+        "anchor": "BLIND-L74",
+        "quote": "8-petal lotus (aṣṭadala-padma); 16-petal lotus (ṣoḍaśadala-padma); three concentric circles (tribhuvana-cakra); square frame (bhūpura)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The square frame with four cardinal gates carries **4-fold rotational symmetry plus reflective symmetry** across the cardinal axes — the dihedral group D₄. The 8-petal lotus is 8-fold. The 16-petal lotus is 16-fold."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "A square frame with cardinal gates does carry D₄ symmetry (order 8 under the n-gon convention), and idealized 8- and 16-petal rings carry 8- and 16-fold local symmetry; the group-theoretic vocabulary is standard and structurally feeds the inner/outer symmetry comparison.",
+      "legacy": {
+        "anchor": "BLIND-L80",
+        "quote": "the dihedral group D₄. The 8-petal lotus is 8-fold. The 16-petal lotus is 16-fold.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "The inner nine-triangle figure — five down, four up, interlocking through the bindu — carries **D₉ dihedral symmetry**: 9-fold rotation combined with 9 reflection axes. Eighteen total isometries acting on the inner triangle field."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Demonstrably false: the Sri Yantra's nine interlocking triangles are not arranged with 9-fold rotational symmetry; the canonical figure has at most approximate bilateral symmetry about the vertical axis, and its non-concurrent intersections are famously hard to construct. Nine triangles do not imply 9-fold rotational symmetry, and no source is given for this assertion. D₉ having 18 elements is correct as group arithmetic but misapplied to this figure.",
+      "legacy": {
+        "anchor": "BLIND-L82",
+        "quote": "carries D₉ dihedral symmetry: 9-fold rotation combined with 9 reflection axes",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "**9-fold rotational symmetry is non-crystallographic**. It is one of the rotational orders forbidden by the crystallographic restriction. No wallpaper group carries 9-fold rotational symmetry."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The crystallographic restriction theorem limits rotational symmetry in 2D periodic structures to orders 1, 2, 3, 4, 6; 9-fold is indeed forbidden, Penrose tilings indeed realize 5-fold quasi-periodic order, and quasi-periodic constructions with 7- and 9-fold order exist. Standard, correct, and structurally central to the argument.",
+      "legacy": {
+        "anchor": "BLIND-L84",
+        "quote": "9-fold rotational symmetry is non-crystallographic",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 88,
+        "quote": "The Sri Yantra is therefore **structurally Penrose-class**. Its inner figure carries a higher rotational symmetry than the plane can host periodically."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The synthesis (yantra as non-periodic core inside periodic frame) inherits the contradicted ingredient C007: the inner figure does not in fact carry 9-fold rotational symmetry, so the conclusion that it exceeds what the plane can host is unsupported by its own premises.",
+      "legacy": {
+        "anchor": "BLIND-L86",
+        "quote": "The Sri Yantra is therefore structurally Penrose-class",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "The outer frame carries the highest *crystallographic* symmetry available (4-fold, 8-fold)."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "8-fold rotational symmetry is not crystallographic in the plane: the same restriction invoked in C008 permits only 1, 2, 3, 4, and 6-fold rotations in periodic planar structures, so the highest crystallographic order is 6-fold, not 8-fold. Internally inconsistent with the post's own correct statement of the restriction.",
+      "legacy": {
+        "anchor": "BLIND-L86",
+        "quote": "the highest crystallographic symmetry available (4-fold, 8-fold)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "The folk claim that *one can fall into the Sri Yantra* — that prolonged meditation on it produces apparent depth, three-dimensional emergence"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A practice report is invoked as \"folk claim\" with no named tradition, text, teacher, or informant; such reports do circulate in contemporary yantra-sādhana literature, but the grammar requires a named source. The appended assertion that the report is \"geometrically consistent with this engineering\" additionally depends on the contradicted C007.",
+      "legacy": {
+        "anchor": "BLIND-L90",
+        "quote": "The folk claim that one can fall into the Sri Yantra",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "What the tradition calls \"the yantra is alive,\" \"the yantra has presence,\" \"extended gaze on the yantra opens onto a deity-experience\""
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Quoted phrases are attributed to an unnamed \"tradition\" with no text or lineage; the quotation marks promise verbatim sourcing that is not supplied.",
+      "legacy": {
+        "anchor": "BLIND-L94",
+        "quote": "\"the yantra is alive,\" \"the yantra has presence\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "Centuries of practitioners observed these states and distilled their geometric character into a planar diagram. The diagram preserves the symmetry signature."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-CAUSE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A specific causal history of the yantra's design (practitioners encoding observed altered-state geometry) is asserted with no documentary evidence; it also presupposes the contradicted 9-fold symmetry claim (C007).",
+      "legacy": {
+        "anchor": "BLIND-L96",
+        "quote": "Centuries of practitioners observed these states and distilled their geometric character into a planar diagram",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 100,
+        "quote": "The induction works because the figure encodes the geometry of the target state, and the substrate completes the pattern by entering that geometry."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-CAUSE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The \"substrate-driver\" mechanism and its efficacy (\"the induction works because\") are asserted as operative fact. The house vocabulary (substrate, pattern-completion machinery) is never declared as a model in this post, and the causal efficacy claim would in any case require empirical support.",
+      "legacy": {
+        "anchor": "BLIND-L100",
+        "quote": "The induction works because the figure encodes the geometry of the target state",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Each carries forbidden or borderline-forbidden symmetries. Each functions, in its tradition, as an inducer of altered geometric states."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A functional claim (\"inducer of altered geometric states\") is generalized across pentagram, heptagonal seal, pakua, and Gothic rose windows with no named sources for any of the traditions; also note the 8-petaled lotus is mislabeled \"borderline-periodic\" — 8-fold is fully non-crystallographic in 2D (cf. C010).",
+      "legacy": {
+        "anchor": "BLIND-L102",
+        "quote": "Each functions, in its tradition, as an inducer of altered geometric states",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Bühnemann's *Maṇḍalas and Yantras in the Hindu Traditions* compiles many of the canonical Indian examples"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Gudrun Bühnemann's *Maṇḍalas and Yantras in the Hindu Traditions* (Brill, 2003) is a real scholarly monograph that does compile and discuss canonical Hindu maṇḍala and yantra examples; the characterization is accurate.",
+      "legacy": {
+        "anchor": "BLIND-L102",
+        "quote": "Bühnemann's Maṇḍalas and Yantras in the Hindu Traditions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Kulaichev's 1984 paper \"Sriyantra and its mathematical properties\" derives the precise coordinates required to produce the figure's intersections accurately."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A. P. Kulaichev's \"Śrīyantra and Its Mathematical Properties\" (Indian Journal of History of Science, 1984) is a real paper addressing the geometric construction of the figure's concurrent intersections; the paraphrase is faithful. Notably, the paper's existence underlines — against C007 — that the figure's geometry is notoriously non-trivial and not 9-fold symmetric.",
+      "legacy": {
+        "anchor": "BLIND-L102",
+        "quote": "Kulaichev's 1984 paper \"Sriyantra and its mathematical properties\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "Both come from Pingala's **Chandaḥśāstra** (~200 BCE), the foundational text of Sanskrit prosody."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Piṅgala's Chandaḥśāstra is the foundational Sanskrit treatise on prosody, conventionally dated to roughly the 3rd–2nd century BCE; the hedged \"~200 BCE\" matches responsible scholarly estimates.",
+      "legacy": {
+        "anchor": "BLIND-L106",
+        "quote": "Pingala's Chandaḥśāstra (~200 BCE), the foundational text of Sanskrit prosody",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "Each entry is the sum of the two above it. Row *n* contains the binomial coefficients $\\binom{n}{k}$ — the number of ways to choose *k* heavy syllables out of *n* prosodic positions."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The recurrence and the identification of row n with binomial coefficients are correct, the displayed array is correct through row 5, and the combinatorial reading (choose k guru of n positions) is the standard interpretation; the claim carries the Meru Prastara = Pascal's triangle identification.",
+      "legacy": {
+        "anchor": "BLIND-L120",
+        "quote": "Row n contains the binomial coefficients C(n,k)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "This is **Pascal's triangle**. Pingala constructed it approximately 1,800 years before Blaise Pascal's *Traité du Triangle Arithmétique* (1654)."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Attributing construction of the explicit triangular array to Piṅgala himself (~200 BCE) elides the standard scholarly account in which the Chandaḥśāstra's sūtras encode the combinatorial procedures while the explicit meru-prastāra diagram appears in Halāyudha's 10th-century CE commentary — which would make the explicit triangle roughly 700, not 1,800, years before Pascal. Undecidable at what strength the attribution can stand without a cited edition; flagged for review.",
+      "legacy": {
+        "anchor": "BLIND-L122",
+        "quote": "Pingala constructed it approximately 1,800 years before Blaise Pascal",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "Pingala used a binary notation (laghu = 0, guru = 1) for prosodic patterns. He explicitly enumerated all 2^n patterns for short metrical structures."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Chandaḥśāstra's prastāra/naṣṭa/uddiṣṭa procedures do enumerate all 2^n laghu-guru patterns and are widely credited in the history-of-mathematics literature as an early binary-style enumeration; the paraphrase matches the standard scholarly characterization.",
+      "legacy": {
+        "anchor": "BLIND-L126",
+        "quote": "Pingala used a binary notation (laghu = 0, guru = 1) for prosodic patterns",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "Binary arithmetic ~1,500 years before Brahmagupta."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The interval is arithmetically wrong (~200 BCE to Brahmagupta, fl. 628 CE, is roughly 800 years, not 1,500) and Brahmagupta is not a recognized milestone for binary arithmetic — the standard modern reference point is Leibniz (1703). The named comparison figure appears garbled.",
+      "legacy": {
+        "anchor": "BLIND-L126",
+        "quote": "Binary arithmetic ~1,500 years before Brahmagupta",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 127,
+        "line_end": 127,
+        "quote": "The recursion is F(n) = F(n−1) + F(n−2) — the **Fibonacci sequence**. About 1,400 years before Fibonacci. Hemachandra worked out the same recursion independently in the 12th century, still preceding Fibonacci."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The mātrā-meru count of prosodic patterns by duration does follow the Fibonacci recursion, the ~1,400-year interval from ~200 BCE to 1202 is arithmetically consistent, and Hemachandra (c. 1150) did present the recursion explicitly before Fibonacci's Liber Abaci (1202). Note for remediation context: the explicit rule is standardly credited to Virahāṅka (c. 7th c.) and Hemachandra, with Piṅgala's sūtras implying it.",
+      "legacy": {
+        "anchor": "BLIND-L127",
+        "quote": "The recursion is F(n) = F(n−1) + F(n−2) — the Fibonacci sequence",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "The Meru Prastara is the discrete combinatorial generator that yields the cardinality of the phonemic register itself."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that the prosodic triangle \"yields the cardinality of the phonemic register\" (echoed at L106 for the Devanagari register) is a Noesis synthesis: no derivation connecting binomial enumeration of syllable patterns to the phoneme inventory is shown, no tradition source asserts it, and Noesis authorship of the inference is not declared.",
+      "legacy": {
+        "anchor": "BLIND-L128",
+        "quote": "the discrete combinatorial generator that yields the cardinality of the phonemic register itself",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "Every entry traces back through a unique route to the apex. The triangle is a **rooted enumeration tree** for combinatorial structures."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "False as stated: an interior entry C(n,k) has exactly C(n,k) distinct paths back to the apex, not a unique route — the path count is the entry's own value. Pascal's triangle under the summation relation is a lattice/DAG, not a tree (unique paths are precisely what a tree would require).",
+      "legacy": {
+        "anchor": "BLIND-L130",
+        "quote": "Every entry traces back through a unique route to the apex",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 134,
+        "line_end": 134,
+        "quote": "There is a 3D rendering of the Sri Yantra known as **Sri Meru** or **Maha Meru** — the Sri Yantra projected as a step-pyramid, with the bindu at the apex and the successive triangle-rings stepping outward and downward as concentric tiers. The figure is well-known in South Indian temple iconography and is treated as a more complete form of the 2D yantra."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Mahāmeru (Śrī Meru) step-pyramid form is well documented in South Indian Śrīvidyā practice and temple contexts (e.g. Kamakshi temple traditions) and is indeed regarded as a more complete/three-dimensional form of the yantra.",
+      "legacy": {
+        "anchor": "BLIND-L134",
+        "quote": "known as Sri Meru or Maha Meru",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "Read combinatorially, Maha Meru is the **cumulative Meru Prastara**: each tier is a row of Pingala's triangle, stacked."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "\"Read combinatorially\" gestures at a declared reading, but the concrete correspondence (tiers of the Mahāmeru ↔ rows of the prosodic triangle) is neither demonstrated nor sourced to any tradition; the tier structure of the Mahāmeru does not exhibit Pascal-row cardinalities. The transformation and Noesis authorship are not traced.",
+      "legacy": {
+        "anchor": "BLIND-L136",
+        "quote": "Maha Meru is the cumulative Meru Prastara",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 138,
+        "line_end": 138,
+        "quote": "In three dimensions there are 230 space groups (Fedorov-Schoenflies, 1891)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The classification of the 230 three-dimensional space groups by Fedorov (1890–91) and Schoenflies (1891), independently, is standard history of crystallography.",
+      "legacy": {
+        "anchor": "BLIND-L138",
+        "quote": "230 space groups (Fedorov-Schoenflies, 1891)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 138,
+        "line_end": 138,
+        "quote": "some of which support rotational orders that wallpaper groups cannot host"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "False: the crystallographic restriction holds in three dimensions as well — the 230 space groups permit only 1, 2, 3, 4, and 6-fold rotations; no space group hosts 5-, 7-, or 9-fold rotational symmetry. The asserted \"3D resolution\" of a (nonexistent) 9-fold inner symmetry therefore fails on its own mathematical terms.",
+      "legacy": {
+        "anchor": "BLIND-L138",
+        "quote": "some of which support rotational orders that wallpaper groups cannot host",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 142,
+        "line_end": 142,
+        "quote": "in 3D hyperbolic space, the symmetry options are richer still. Coxeter and Thurston classified some of them; the full picture remains open research."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Hyperbolic space in two and three dimensions does admit tilings and symmetry groups of arbitrary rotational order, and Coxeter's and Thurston's classification work on hyperbolic structures (with the full picture genuinely open) is accurately summarized. The adjacent sentence honestly flags its tradition-speculation as conjecture, which is noted in its favor.",
+      "legacy": {
+        "anchor": "BLIND-L142",
+        "quote": "in 3D hyperbolic space, the symmetry options are richer still",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 148,
+        "line_end": 148,
+        "quote": "**Fedorov classified the 17 wallpaper groups in 1891.**"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Evgraf Fedorov's 1891 enumeration of the 17 plane crystallographic (wallpaper) groups is standard and correctly reported.",
+      "legacy": {
+        "anchor": "BLIND-L148",
+        "quote": "Fedorov classified the 17 wallpaper groups in 1891",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 148,
+        "line_end": 148,
+        "quote": "The Indian tradition was constructing yantras using the 4-fold, 6-fold, and 8-fold (and forbidden 5-fold, 7-fold, 9-fold) structures for at least 1,500 years before that."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 1,500-year antiquity claim (yantra construction with these symmetry orders by ~400 CE) is asserted without documentary evidence — early yantra dating is genuinely uncertain — and the parenthetical again presupposes that yantras carry \"forbidden 9-fold structures,\" contradicted at C007.",
+      "legacy": {
+        "anchor": "BLIND-L148",
+        "quote": "constructing yantras using the 4-fold, 6-fold, and 8-fold (and forbidden 5-fold, 7-fold, 9-fold) structures for at least 1,500 years",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 150,
+        "line_end": 150,
+        "quote": "**Pascal published the binomial triangle in 1654.**"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The *Traité du triangle arithmétique* was composed in 1654 but published posthumously in 1665; \"published ... in 1654\" misdates the publication. A common imprecision, but a date error under the grammar's MISATTRIBUTED clause.",
+      "legacy": {
+        "anchor": "BLIND-L150",
+        "quote": "Pascal published the binomial triangle in 1654",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 152,
+        "line_end": 152,
+        "quote": "**Fibonacci published the recursion in 1202.**"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Liber Abaci (1202) does contain the rabbit problem introducing the sequence; correctly reported.",
+      "legacy": {
+        "anchor": "BLIND-L152",
+        "quote": "Fibonacci published the recursion in 1202",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 154,
+        "line_end": 154,
+        "quote": "**Quasi-periodic tilings were formalized by Penrose in 1974.** Islamic geometric tradition produced quasi-periodic decagonal tilings on the Darb-i Imam shrine ~1453 (documented by Lu and Steinhardt, 2007, *Science*)."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Penrose's quasi-periodic tilings (1974) and Lu & Steinhardt's 2007 *Science* paper documenting decagonal girih-tile quasi-crystalline patterns on the Darb-i Imam shrine (Isfahan, 1453) are both real and accurately cited.",
+      "legacy": {
+        "anchor": "BLIND-L154",
+        "quote": "Darb-i Imam shrine ~1453 (documented by Lu and Steinhardt, 2007, Science)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C036",
+      "anchor": {
+        "line_start": 154,
+        "line_end": 154,
+        "quote": "The Sri Yantra is constructed quasi-periodically much earlier."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Quasi-periodicity is a property of infinite non-periodic tilings/patterns; the Sri Yantra is a finite, bounded diagram with no translational structure, so it cannot be \"constructed quasi-periodically\" in the mathematical sense, and no source documents such a construction. The term is misapplied to borrow the Darb-i Imam result's authority.",
+      "legacy": {
+        "anchor": "BLIND-L154",
+        "quote": "The Sri Yantra is constructed quasi-periodically much earlier",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C037",
+      "anchor": {
+        "line_start": 156,
+        "line_end": 156,
+        "quote": "**Schläfli classified regular hyperbolic tilings in the mid-19th century.** Coxeter extended the work in the 20th."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Schläfli's mid-19th-century classification work on regular polytopes and honeycombs (including what are now read as hyperbolic tilings) and Coxeter's 20th-century extensions are standard, accurately reported history.",
+      "legacy": {
+        "anchor": "BLIND-L156",
+        "quote": "Schläfli classified regular hyperbolic tilings in the mid-19th century",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C038",
+      "anchor": {
+        "line_start": 156,
+        "line_end": 156,
+        "quote": "Mystical traditions were drawing such symmetries into iconography long before."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An unspecified set of \"mystical traditions\" is asserted to have depicted regular hyperbolic-tiling symmetries in iconography before Schläfli; no example, tradition, or artifact is named.",
+      "legacy": {
+        "anchor": "BLIND-L156",
+        "quote": "Mystical traditions were drawing such symmetries into iconography long before",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C039",
+      "anchor": {
+        "line_start": 160,
+        "line_end": 160,
+        "quote": "The substrate produces consistent geometric reports under sustained practice. Skilled practitioners diagrammed those reports."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An empirical regularity (consistent geometric phenomenology across practitioners under sustained practice) is asserted with no study, record, or named witness; framed in house vocabulary but carrying empirical weight.",
+      "legacy": {
+        "anchor": "BLIND-L160",
+        "quote": "The substrate produces consistent geometric reports under sustained practice",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C040",
+      "anchor": {
+        "line_start": 162,
+        "line_end": 162,
+        "quote": "The implication is not that the traditions had access to mathematics they were not telling us about. The implication is that **the substrate has a small set of preferred geometric configurations under high load, and those configurations are mathematically natural objects** — wallpaper groups, hyperbolic tilings, quasi-periodic structures, binomial-triangle enumerations. The traditions, by attending to the substrate, encountered these configurations and preserved them. The mathematicians, by attending to the geometry, derived them. The two routes converge because the substrate is a real physical system whose preferred configurations are mathematical objects."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay's culminating inference (substrate → preferred geometric configurations → convergence of traditional iconography and formal mathematics) rests on ingredients that fail independently (C007, C009, C024, C036, C039) and its Noesis authorship is not declared; the physical-system assertion is an additional unevidenced empirical commitment.",
+      "legacy": {
+        "anchor": "BLIND-L162",
+        "quote": "the substrate is a real physical system whose preferred configurations are mathematical objects",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C041",
+      "anchor": {
+        "line_start": 164,
+        "line_end": 164,
+        "quote": "Read through Kha-Ba-La: **Kha** is the bindu observer — the witness at the figure's center, the consciousness for which the diagram is built. **Ba** is the page the figure refuses to stay flat on, the hardware whose spontaneous geometric reports the tradition preserved as iconography. **La** is the planar crystallographic restriction itself — the structural friction the inner figure deliberately exceeds, naming the cliff between flat and curved geometry. Each yantra is the triad rendered in ink."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kha-Ba-La mapping is explicitly marked as a reading (\"Read through Kha-Ba-La:\"), defines each term against the essay's elements, and is internally consistent as the house frame — even though the geometric claims it maps onto fail independently above.",
+      "legacy": {
+        "anchor": "BLIND-L164",
+        "quote": "Read through Kha-Ba-La: Kha is the bindu observer",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C042",
+      "anchor": {
+        "line_start": 168,
+        "line_end": 168,
+        "quote": "Stan Tenen's Meru Foundation has spent three decades reading Hebrew letters as **torus-knot projections** — three-dimensional forms whose 2D shadows produce the alphabetic glyphs."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stan Tenen and the Meru Foundation are real and have indeed pursued, since the 1980s, a project reading Hebrew letterforms as projections/shadows of a continuous three-dimensional (torus-related) form; the characterization is faithful to Tenen's own description of his work.",
+      "legacy": {
+        "anchor": "BLIND-L168",
+        "quote": "Stan Tenen's Meru Foundation ... reading Hebrew letters as torus-knot projections",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C043",
+      "anchor": {
+        "line_start": 168,
+        "line_end": 168,
+        "quote": "The Hebrew tradition treats letters as creative forces, not symbols."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The characterization faithfully compresses the Sefer Yetzirah / Kabbalistic teaching that the letters are the building forces of creation; \"not symbols\" is a strong gloss but within the tradition's own self-understanding.",
+      "legacy": {
+        "anchor": "BLIND-L168",
+        "quote": "The Hebrew tradition treats letters as creative forces, not symbols",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C044",
+      "anchor": {
+        "line_start": 170,
+        "line_end": 170,
+        "quote": "Hebrew is consonant-skeleton with vowel-pointing as a separate register; Devanagari is fully written vowel-and-consonant in the *mātṛkā* enumeration."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Hebrew is an abjad with optional niqqud vowel-pointing as a separate diacritic layer, while Devanagari is an abugida writing vowels and consonants integrally; both structural descriptions are linguistically correct.",
+      "legacy": {
+        "anchor": "BLIND-L170",
+        "quote": "Hebrew is consonant-skeleton with vowel-pointing as a separate register",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    }
+  ]
+}

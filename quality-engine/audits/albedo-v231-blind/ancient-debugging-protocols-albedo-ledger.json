@@ -1,0 +1,307 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "BOOTSTRAPPED",
+  "post": "ancient-debugging-protocols.md",
+  "source_path": "src/content/posts/ancient-debugging-protocols.md",
+  "source_sha256": "1646ec2a78f63b6d1747ecced52a4a70253a063438f469e8d08f09bf13a675bd",
+  "legacy_audit_path": "quality-engine/audits/nigredo/ancient-debugging-protocols.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 30,
+        "quote": "> \"Have you tried turning your consciousness off and on again?\"\n> — Ancient Greek IT Support, probably"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The quotation is invented, but the attribution 'probably' marks it unambiguously as a joke rather than a historical source; no literal provenance inference is invited.",
+      "legacy": {
+        "anchor": "L29–30",
+        "quote": "\"Ancient Greek IT Support, probably\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "The Greeks called it hubris — when a process exceeded its allocated privileges, the system would force a hard reset. Exile, ostracism, banishment: these weren't punishments."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Hubris is correctly Greek and ostracism was a real Athenian practice, but the flat assertion that exile/ostracism/banishment 'weren't punishments' replaces a contested historical interpretation (ostracism as political prophylaxis vs. penal exile) with a system-design gloss presented as fact.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "\"Exile, ostracism, banishment: these weren't punishments.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Mercury — Hermes, Thoth, Narada — appears across every major civilization as the divine debugger."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Mercury-Hermes equation is standard interpretatio graeca and Hermes-Thoth syncretism is documented; the Narada equation is a loose cross-cultural mapping, and 'every major civilization' is an unevidenced universal with no text or scholar named.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "\"Mercury — Hermes, Thoth, Narada\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Every tradition that has a trickster god is essentially documenting their debugging methodology."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal claim about what every trickster tradition is 'essentially' doing; comparative mythology (e.g., Hyde, Doty) treats trickster figures far more variously, and no source or named tradition supports the debugging equivalence as fact.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "\"Every tradition that has a trickster god\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 69,
+        "quote": "In the Bali Padiyami protocol, you don't just acknowledge the ancestral processes running in your system — you actively feed them."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post names a 'Bali Padiyami' ancestor-feeding ritual as a real Balinese practice, but no text, lineage, or ethnographic source is given, and the term 'Padiyami' could not be matched to any documented Balinese ritual name in a blind pass — genuinely undecidable without external verification, so escalated for review.",
+      "legacy": {
+        "anchor": "L58–69",
+        "quote": "\"In the Bali Padiyami protocol\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding; ritual name unverifiable blind."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Every unresolved emotional pattern from your lineage is a dependency that loads silently and runs in the background, consuming resources you don't know you're spending."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Under the dependency metaphor sits a universal psychodynamic claim: every unresolved inherited pattern unconsciously consumes resources. Intergenerational-pattern effects have partial literature support, but the 'every' quantifier and resource mechanism are asserted without evidence.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"Every unresolved emotional pattern from your lineage\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "The oldest bug in consciousness is the ego oscillation loop — swinging between inflation and deflation, grandiosity and worthlessness. Every ancient tradition identified this pattern and built protocols to interrupt it."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An unverifiable superlative ('the oldest bug in consciousness') compounded by a universal ('every ancient tradition identified this pattern'); no tradition or text is named, and the oscillation framing is a modern psychological gloss projected backward.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"Every ancient tradition identified this pattern\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "The Buddhist Middle Way, the Greek Golden Mean, the Taoist Wu Wei"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "All three named doctrines are real and correctly situated: the Middle Way (first sermon at Sarnath), the Golden Mean (Aristotelian mesotes, Delphic antecedents), and wu wei (Daodejing tradition) — each concerned with avoiding extremes or forcing, as the post evokes.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"The Buddhist Middle Way, the Greek Golden Mean, the Taoist Wu Wei\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "They're different implementations of the same interrupt handler: catch the oscillation before it completes its cycle."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The functional equivalence of the three doctrines as one 'interrupt handler' is the author's synthesis within the post's declared debugging conceit; the mapping is internally consistent, but authorship of the synthesis is implicit rather than declared.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "\"different implementations of the same interrupt handler\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The ancient protocols survive because they work."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A causal-functional explanation of cultural persistence (survival because of efficacy) asserted without evidence; transmission, identity, and institutional factors are equally candidate causes, and no efficacy data is cited.",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"The ancient protocols survive because they work.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "the ancients didn't see crashes as failures. They saw them as the system's way of granting you temporary root access."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A collective attribution to 'the ancients' with no tradition named; attitudes toward crisis across ancient cultures varied widely, so the unqualified plural is an unevidenced generalization inside the conceit.",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "\"the ancients didn't see crashes as failures\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    }
+  ]
+}

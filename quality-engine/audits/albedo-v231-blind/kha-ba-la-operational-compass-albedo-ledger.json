@@ -1,0 +1,550 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "kha-ba-la-operational-compass.md",
+  "source_path": "src/content/posts/kha-ba-la-operational-compass.md",
+  "source_sha256": "9b2b3e7c690f98d083c5fc6458d02adf0daf3373e534d188d664922bafeed96e",
+  "legacy_audit_path": "quality-engine/audits/nigredo/kha-ba-la-operational-compass.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "Kha-Ba-La is a three-force diagnostic triad — Spirit (observer), Body (vehicle), Inertia (form-giving resistance) — not a belief system or cosmological ranking."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The triadic structure is explicitly declared, defined, and operated through the entire post (diagnostics, failure modes, compass architecture); removing it dissolves the thesis, and its provenance is the declared house recombination stated at L33. Internal consistency is demonstrated by the worked diagnostics.",
+      "legacy": {
+        "anchor": "BLIND-NEW L27",
+        "quote": "Kha-Ba-La is a three-force diagnostic triad — Spirit (observer), Body (vehicle), Inertia (form-giving resistance)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "One structural problem keeps surfacing across Vedantic, Egyptian, and Western esoteric frameworks: triadic models get collapsed into hierarchies."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sweeping cross-tradition generalization with no named texts or examples; plausible in parts (e.g., some Neoplatonic and Kabbalistic hierarchies) but asserted as a pervasive pattern across three traditions without support.",
+      "legacy": {
+        "anchor": "BLIND-NEW L31",
+        "quote": "triadic models get collapsed into hierarchies",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "Kha-Ba-La is not new metaphysics. It is a recombination of existing structural vocabulary into something that actually diagnoses where you are stuck, without requiring you to believe anything."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicit Noesis authorship of the recombination with ingredients named nearby (Vedantic/Egyptian/Western esoteric triads at L31, Ka/Ba and Kabbalah echo at L35); the claim is limited to diagnostic utility, not empirical proof.",
+      "legacy": {
+        "anchor": "BLIND-NEW L33",
+        "quote": "It is a recombination of existing structural vocabulary",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "The naming deliberately echoes Egyptian cosmology (Ka/Ba) and Kabbalah phonetically."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Ka and Ba are genuine Egyptian soul-concepts, and the phonetic echo of 'Kha-Ba-La' with 'Kabbalah' is accurate as a statement about the name; the claim concerns the author's own naming act, which the author can vouch for.",
+      "legacy": {
+        "anchor": "BLIND-NEW L35",
+        "quote": "The naming deliberately echoes Egyptian cosmology (Ka/Ba) and Kabbalah phonetically.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 47,
+        "quote": "Kha is the witness function. Not a soul floating above the body — the active capacity to observe what is happening without collapsing into it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Operative definition of Kha with its diagnostic question ('Can I see clearly?'); internally consistent with the triad's logic and used consistently in the failure-mode analysis.",
+      "legacy": {
+        "anchor": "BLIND-NEW L41-47",
+        "quote": "Kha is the witness function.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 55,
+        "quote": "Ba is embodiment. The entire somatic apparatus through which knowing becomes doing, through which inquiry becomes action, through which observation becomes intervention."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Operative definition of Ba with its diagnostic question ('Can I act accordingly?'); the physical/energetic body scope is defined within the model and applied consistently.",
+      "legacy": {
+        "anchor": "BLIND-NEW L51-55",
+        "quote": "Ba is embodiment.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 71,
+        "quote": "**La is dual-natured.** This is the part that gets missed."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared dual-nature axiom for La (blockage vs continuity) developed consistently across the section; the model's own vocabulary with no external measurement claimed.",
+      "legacy": {
+        "anchor": "BLIND-NEW L61-71",
+        "quote": "**La is dual-natured.**",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "This is the pattern behind every person who can articulate their dysfunction with surgical precision and still repeat it next Tuesday."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal quantification ('every person') over an unmeasured population; a recognizable clinical-observation pattern stated without evidence or scope limits.",
+      "legacy": {
+        "anchor": "BLIND-NEW L57",
+        "quote": "the pattern behind every person who can articulate their dysfunction with surgical precision and still repeat it next Tuesday",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "the obsolete pattern that keeps firing because it is metabolically cheaper than change"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts a physiological-economics mechanism (metabolic cost) for habit persistence inside the La definition; no source or measurement supports the metabolic claim at this strength.",
+      "legacy": {
+        "anchor": "BLIND-NEW L69",
+        "quote": "it is metabolically cheaper than change",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "This is what meditation culture produces at scale when it severs contemplation from the body."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Causal population-level claim about meditation culture asserted without data; anecdotally resonant but stated as a product-at-scale fact with no defined population or measure.",
+      "legacy": {
+        "anchor": "BLIND-NEW L79",
+        "quote": "This is what meditation culture produces at scale",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "This is what performance culture produces at scale."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Same structure as C010: a population-level causal claim about performance culture asserted without evidence, population, or measure.",
+      "legacy": {
+        "anchor": "BLIND-NEW L81",
+        "quote": "This is what performance culture produces at scale.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "This is the most common configuration and the hardest to see, because inertia's gravity makes itself invisible."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Prevalence superlative ('most common configuration') with no survey, dataset, or defined population; stated as demographic fact rather than clinical impression.",
+      "legacy": {
+        "anchor": "BLIND-NEW L83",
+        "quote": "This is the most common configuration and the hardest to see",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "Most people cycle between these three failure modes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Population-level behavioral claim ('most people') asserted without evidence; the three failure modes are house categories, so the prevalence claim has no external measure.",
+      "legacy": {
+        "anchor": "BLIND-NEW L85",
+        "quote": "Most people cycle between these three failure modes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "**Signal** (~80ms) — Raw somatic input. Sensation, charge, pre-verbal body telemetry."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-PROVENANCE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "No canonical neuroscience result fixes raw somatic input at ~80 ms; a pseudo-precise latency presented as fact without instrument, experimental paradigm, or citation.",
+      "legacy": {
+        "anchor": "BLIND-NEW L91",
+        "quote": "**Signal** (~80ms) — Raw somatic input.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "**State** (~300ms) — Nervous system configuration. Fight, freeze, flow."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-PROVENANCE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "No canonical result fixes nervous-system state configuration at ~300 ms; pseudo-precise latency presented as fact without instrument, paradigm, or citation.",
+      "legacy": {
+        "anchor": "BLIND-NEW L93",
+        "quote": "**State** (~300ms) — Nervous system configuration.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "**Story** (~800ms) — Post-hoc narrative constructed to explain Signal and State."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-PROVENANCE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Post-hoc narrative construction research supplies no fixed ~800 ms latency; pseudo-precise timing presented as fact without instrument, paradigm, or citation.",
+      "legacy": {
+        "anchor": "BLIND-NEW L95",
+        "quote": "**Story** (~800ms) — Post-hoc narrative constructed to explain Signal and State.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "Most introspective frameworks — including most therapy modalities — operate exclusively at Story."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sweeping characterization of therapy modalities asserted without support; 'exclusively at Story' is strained by named counterexamples (somatic experiencing, sensorimotor psychotherapy, EMDR) that explicitly work below narrative, though 'most' keeps the claim short of demonstrated falsity.",
+      "legacy": {
+        "anchor": "BLIND-NEW L97",
+        "quote": "including most therapy modalities — operate exclusively at Story",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 109,
+        "quote": "Kha-Ba-La feeds into four cardinal operations, each representing a fundamentally different relationship to change"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared operational extension of the triad into the compass (STABILIZE, HEAL, CREATE, MUTATE); each operation is defined by its force-configuration and the mapping is internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-NEW L101-109",
+        "quote": "Kha-Ba-La feeds into four cardinal operations",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 113,
+        "line_end": 113,
+        "quote": "The triadic structure either diagnoses your situation accurately or it does not. Test it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicit falsifiability invitation that strengthens the declared-model boundary; the post claims diagnostic utility testable by the reader rather than external proof.",
+      "legacy": {
+        "anchor": "BLIND-NEW L113",
+        "quote": "The triadic structure either diagnoses your situation accurately or it does not. Test it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 115,
+        "line_end": 115,
+        "quote": "the list of failure modes above is not theoretical, it is what you see in every contemplative community, every performance culture, every comfort-seeking default."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal claim ('every contemplative community, every performance culture') asserted from personal observation without scope limits or evidence.",
+      "legacy": {
+        "anchor": "BLIND-NEW L115",
+        "quote": "it is what you see in every contemplative community, every performance culture",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    }
+  ]
+}

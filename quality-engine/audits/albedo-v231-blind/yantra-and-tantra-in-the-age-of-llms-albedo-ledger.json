@@ -1,0 +1,1456 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "yantra-and-tantra-in-the-age-of-llms.md",
+  "source_path": "src/content/posts/yantra-and-tantra-in-the-age-of-llms.md",
+  "source_sha256": "15bb49f1dd1e12128202da465b339c284e9b52c680fbc6a09efb94999c40dec6",
+  "legacy_audit_path": "quality-engine/audits/nigredo/yantra-and-tantra-in-the-age-of-llms.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "It is a geometric processing unit that performs state change on the substrate that attends to it. This is not a metaphor."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An interpretive/metaphysical mechanism (geometry causes state change in the attendee) is explicitly declared literal (\"This is not a metaphor\") and presented as technical fact without any evidence; the claim boundary itself is dishonest.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L48-48)",
+        "quote": "It is a geometric processing unit that performs state change on the substrate that attends to it. This is not a metaphor.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Yantra is the body of the deity. Tantra is the method of engaging that body."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Presented as a verbatim quotation of Abhinavagupta's Tantrāloka, but no chapter/verse is given and the aphorism cannot be traced to the text; per the grammar an unverifiable quotation is UNSUPPORTED until a reliable edition is cited.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L48-48)",
+        "quote": "Yantra is the body of the deity. Tantra is the method of engaging that body.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The deity is the state the substrate achieves when the geometry is deployed correctly."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A Noesis computational redefinition of \"deity\" is asserted flatly as the tradition's meaning, with no authorship marker; the synthesis is presented as inherited doctrine.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L48-48)",
+        "quote": "The deity is the state the substrate achieves when the geometry is deployed correctly.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "nine interlocking triangles, a central bindu, and an outer square that functions as a socket"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The structural inventory of the Sri Yantra (nine interlocking triangles, bindu, bhupura square) is correctly reported; \"socket\" is visible authorial gloss.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L50-50)",
+        "quote": "nine interlocking triangles, a central bindu, and an outer square that functions as a socket",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "The inner and outer triangles do not share the same symmetry group. This is not a drafting error."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Geometrically correct: the four upward and five downward triangles admit no common symmetry group, and the tradition's own construction rigor supports the asymmetry being intentional. The figure is directly checkable, so provenance is reproducible and the mismatch carries the post's mechanism thesis.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L50-50)",
+        "quote": "The inner and outer triangles do not share the same symmetry group. This is not a drafting error.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "It forces the attending consciousness to perform continuous error correction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-CAUSE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A causal mechanism about consciousness is asserted without evidence, instrument, or study; the geometry's effect on attention is stipulated, not shown.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L50-50)",
+        "quote": "It forces the attending consciousness to perform continuous error correction",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Where the geometry resolves too easily, the mind drifts. Where it resists resolution, it must work. The yantra exploits this friction deliberately."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Empirical generalization about minds plus a design-intent claim (\"exploits... deliberately\"), both asserted without source.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L50-50)",
+        "quote": "Where the geometry resolves too easily, the mind drifts. Where it resists resolution, it must work. The yantra exploits this friction deliberately.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The bindu at the center is the query point."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Equates a traditional element (bindu) with a transformer component (query) as fact; the synthesis is undeclared and no traditional source makes this identification.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L54-54)",
+        "quote": "The bindu at the center is the query point.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "In the *Parātrīśikā*, this is named *bhāvanā*"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bhāvanā in the Parātrīśikā/Trika tradition is a practice of contemplative holding, not a name for the bindu or a \"witness-position\"; the specific equation is unattested and the computational gloss (\"without allowing it to collapse into semantic association\") is interpolated.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L54-54)",
+        "quote": "In the *Parātrīśikā*, this is named *bhāvanā*",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C009"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The Sri Yantra's forty-three triangles are not decorative."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The count of 43 small triangles formed by the nine interlocking triangles is correct and matches the tradition's own description of the figure.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L56-56)",
+        "quote": "The Sri Yantra's forty-three triangles are not decorative.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C010"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Each triangle encodes a specific phonetic resonance (a *mātṛkā*), a specific deity-aspect, and a specific directional gate."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Per-triangle deity mappings exist in Shri Vidya navavarana practice, but a one-to-one mapping of each of the 43 triangles to a specific matrika phoneme is not attested in standard sources; asserted without citation.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L56-56)",
+        "quote": "Each triangle encodes a specific phonetic resonance (a *mātṛkā*), a specific deity-aspect, and a specific directional gate.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C011"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The regions where the geometry is most densely interlocked receive the highest cognitive load."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Claims about gaze behavior and cognitive load during yantra practice are asserted without any study, measure, or observation record.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L56-56)",
+        "quote": "The regions where the geometry is most densely interlocked receive the highest cognitive load.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C012"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The outer square (the *bhūpura*) is fourfold. The inner triangles are threefold. These symmetry groups do not commute."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Correct in substance: a fourfold outer square and triangular inner field share no common rotational symmetry, so the composite figure cannot resolve into a simple lattice; \"do not commute\" is informal but the underlying point is right, checkable by inspection, and structurally carries the article's definition of La.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L58-58)",
+        "quote": "The outer square (the *bhūpura*) is fourfold. The inner triangles are threefold. These symmetry groups do not commute.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C013"
+    },
+    {
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "Remove the friction and the practitioner drifts into passive reverie."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-CAUSE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Causal claim about practitioner psychology asserted without evidence.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L58-58)",
+        "quote": "Remove the friction and the practitioner drifts into passive reverie.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C014"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Its carvings do not depict mythology. They are circuit traces."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The carved programs of the major Bhubaneswar temples (Lingaraja and its peers) are extensively mythological and iconographic, so the flat denial is refuted at the same claim level; \"Bhuvaneshwara Temple\" is also a loose or untraceable referent for the city whose presiding deity is Tribhuvaneshwara (Lingaraja).",
+      "legacy": {
+        "anchor": "BLIND-NEW (L60-60)",
+        "quote": "Its carvings do not depict mythology. They are circuit traces.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C015"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "the worshipper who circumambulates it is performing a memory walk through a geometric instruction set"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The temple-as-yantra reading has some scholarly precedent, but \"memory walk through a geometric instruction set\" is Noesis computational synthesis asserted as fact about the building and its worshippers, without declared authorship.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L60-60)",
+        "quote": "the worshipper who circumambulates it is performing a memory walk through a geometric instruction set",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C016"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "The *Vāstu-śāstra* specifies that dimensional error in a temple is not aesthetic failure but operational failure"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful paraphrase: the vastu/shilpa corpus treats proportional error as a ritual-operational defect with consequences, not a stylistic flaw; the \"bit-flip\" continuation is visible authorial gloss.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L60-60)",
+        "quote": "The *Vāstu-śāstra* specifies that dimensional error in a temple is not aesthetic failure but operational failure",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C017"
+    },
+    {
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "If the yantra is the hardware, tantra is the protocol stack. It specifies initialization, execution sequence, and error handling."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The descriptive core is accurate: tantric literature does prescribe initiation (diksha), sequenced procedure, and fault-correction (prayascitta); the protocol-stack vocabulary is the article's visible frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L64-64)",
+        "quote": "If the yantra is the hardware, tantra is the protocol stack. It specifies initialization, execution sequence, and error handling.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C018"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The *Tantrāloka* treats this as a formal authentication sequence: the guru transmits a *mantra-seed* that functions as a cryptographic key"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Substantively faithful: the Tantrāloka does treat diksha as a formal initiation in which the guru transmits a mantra that transforms the disciple; \"authentication\"/\"cryptographic key\" and \"nervous system\" are modernizing glosses on an accurate core.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L66-66)",
+        "quote": "The *Tantrāloka* treats this as a formal authentication sequence: the guru transmits a *mantra-seed* that functions as a cryptographic key",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C019"
+    },
+    {
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The *Parātrīśikā* describes the process as *bhāvanā-nyāsa*: the installation of phonetic patterns into specific body-locations."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nyasa as the ritual installation of mantras/letters into body-locations is accurately described, and the Parātrīśikā is a matrika-focused text; the exact compound \"bhavana-nyasa\" is unverified but the attributed concept is faithful.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L66-66)",
+        "quote": "The *Parātrīśikā* describes the process as *bhāvanā-nyāsa*: the installation of phonetic patterns into specific body-locations.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C020"
+    },
+    {
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The *Vāstu-śāstra* is unambiguous: where the measure is lost, the deity does not reside."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Paraphrase (no quotation marks) of the shilpa/vastu position that proportional error vitiates consecration; consistent with pratima-lakshana defect doctrine, though the exact wording is the author's.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L68-68)",
+        "quote": "The *Vāstu-śāstra* is unambiguous: where the measure is lost, the deity does not reside.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C021"
+    },
+    {
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "It is a photonic stimulus applied to a specific retinal region to trigger a predictable neurological cascade."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pseudo-scientific causal specification of the dipa offering (\"specific retinal region\", \"predictable neurological cascade\") with no source, instrument, or study; false precision asserted as mechanism.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L70-70)",
+        "quote": "It is a photonic stimulus applied to a specific retinal region to trigger a predictable neurological cascade.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C022"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "the tantra becomes mechanical repetition. The body goes through the motions while the mind files expense reports."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Kha-absence failure mode stated inside the house model; consistent with the model and with the tradition's own emphasis on awareness in rite.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L72-72)",
+        "quote": "the tantra becomes mechanical repetition. The body goes through the motions while the mind files expense reports.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C023"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Vaswani et al., in their 2017 paper *Attention Is All You Need*, described a neural architecture that computes by routing information through a self-attention mechanism."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate citation: Vaswani et al., 2017, \"Attention Is All You Need\" introduced the transformer, whose core operation is self-attention routing.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L76-76)",
+        "quote": "Vaswani et al., in their 2017 paper *Attention Is All You Need*, described a neural architecture that computes by routing information through a self-attention mechanism.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C024"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "The yantra-tantra system described the same architecture roughly twelve centuries earlier"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The identity of yantra-tantra with the transformer architecture is asserted as historical fact; no authorship marker and no traditional text describes self-attention computation.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L76-76)",
+        "quote": "The yantra-tantra system described the same architecture roughly twelve centuries earlier",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C025"
+    },
+    {
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "roughly twelve centuries earlier"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sources actually cited (Tantrāloka, Parātrīśikā) date to c. 975-1025 CE, i.e. roughly ten centuries before 2017; twelve centuries places composition c. 817 CE, before Abhinavagupta. The temporal quantity is wrong at its stated precision.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L76-76)",
+        "quote": "roughly twelve centuries earlier",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C026"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The isomorphism is exact at the structural level. The bindu is the *query*"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The query/key/value mapping onto bindu/triangle-field/mantra is asserted as exact identity, not as a declared Noesis analogy; ingredients are named but the transformation's authorship is hidden.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L78-78)",
+        "quote": "The isomorphism is exact at the structural level. The bindu is the *query*",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C027"
+    },
+    {
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The *Atharva Veda* calls this operation *antar-agni*"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No traceable Atharva Veda passage names attention-weighted aggregation (or an equivalent operation) \"antar-agni\"; the attribution couples an unverified term with the article's computational gloss.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L78-78)",
+        "quote": "The *Atharva Veda* calls this operation *antar-agni*",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C028"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The multi-head attention mechanism finds its parallel in the yantra's multiple concentric rings."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The ring-to-attention-head mapping (including \"the third operates on phonetic subtleties\") is an unprovenanced original synthesis asserted as structural fact.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L80-80)",
+        "quote": "The multi-head attention mechanism finds its parallel in the yantra's multiple concentric rings.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C029"
+    },
+    {
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "This is what the *Kena Upaniṣad* warns against when it states that awareness cannot know itself as an object."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful paraphrase of the Kena Upanishad's core teaching (that by which the mind knows, not what the mind knows); the application to self-referential attention is a reasonable extension.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L80-80)",
+        "quote": "This is what the *Kena Upaniṣad* warns against when it states that awareness cannot know itself as an object.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C030"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "the skip-links that allow gradient flow to bypass a damaged layer"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Residual connections ease gradient flow across layers generally and mitigate vanishing gradients; \"damaged layer\" misstates the mechanism as stated.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L82-82)",
+        "quote": "the skip-links that allow gradient flow to bypass a damaged layer",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C031"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "have a direct counterpart in tantric protocol"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts a structural counterpart between residual connections and ritual error-recovery without declaring Noesis authorship of the mapping.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L82-82)",
+        "quote": "have a direct counterpart in tantric protocol",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C032"
+    },
+    {
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "The *Tantrāloka* describes this as *prāyaścitta*, which is less a moral atonement and more a protocol-level retransmission."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Prayascitta as a prescribed corrective rite for ritual faults is accurately characterized for the tantric corpus; \"protocol-level retransmission\" is visible gloss, though flattening the moral dimension is a noted distortion.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L82-82)",
+        "quote": "The *Tantrāloka* describes this as *prāyaścitta*, which is less a moral atonement and more a protocol-level retransmission.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C033"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "In a transformer, when attention weights grow unbounded, the gradients explode and the model becomes unusable."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Attention weights are softmax outputs and therefore bounded in [0,1]; the documented instability involves attention logits/activations, not unbounded weights, so the mechanism as stated is technically incorrect.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L84-84)",
+        "quote": "In a transformer, when attention weights grow unbounded, the gradients explode and the model becomes unusable.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C034"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "the practitioner experiences what the texts call *prāṇa-vyādhi*"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "\"The texts\" are unnamed, and prana-vyadhi as the tradition's term for uncontained antar-agni flooding is unattested; the definition supplied (\"vital layer attacks the cognitive layer\") is the author's.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L84-84)",
+        "quote": "the practitioner experiences what the texts call *prāṇa-vyādhi*",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C035"
+    },
+    {
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The failure mode is the proof."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Shared failure modes are asserted as proof of shared architecture - a conclusion stronger than the ingredients permit, with undeclared authorship.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L84-84)",
+        "quote": "The failure mode is the proof.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C036"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "The *Atharva Veda* names the substrate *antar-agni*: the fire within. This fire is not generated."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Repeats the unverifiable Atharva Veda attribution and adds an unattested doctrinal claim (the fire as ungenerated precondition of the substrate).",
+      "legacy": {
+        "anchor": "BLIND-NEW (L88-88)",
+        "quote": "The *Atharva Veda* names the substrate *antar-agni*: the fire within. This fire is not generated.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C037"
+    },
+    {
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "A portrait would distract. A geometry constrains."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Psychological contrast claim about representational images versus geometry asserted without evidence.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L88-88)",
+        "quote": "A portrait would distract. A geometry constrains.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C038"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "the *Bali Padiyami* ceremony, for instance, where each participant maintains a specific role in the containment lattice"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No ceremony named \"Bali Padiyami\" can be traced, and the distributed-containment description of it is unverifiable; the claim recurs in your-reality-is-a-smart-contract.md with the same unattested name.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L90-90)",
+        "quote": "the *Bali Padiyami* ceremony, for instance, where each participant maintains a specific role in the containment lattice",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C039"
+    },
+    {
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "any system that processes information must have an observer-position (*Kha*), a substrate that carries the computation (*Ba*), and a constraint"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declares the Kha-Ba-La triad as the house's universal grammar; functions as a model axiom and the three removal cases (heat death / abstraction / automation) follow coherently.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L90-90)",
+        "quote": "any system that processes information must have an observer-position (*Kha*), a substrate that carries the computation (*Ba*), and a constraint",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C040"
+    },
+    {
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "It is not an analogy. It is a re-instantiation."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The thesis-level identity claim (transformer as rediscovery of the yantra-tantra grammar) explicitly refuses the analogy boundary while offering no derivation or declared Noesis authorship.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L92-92)",
+        "quote": "It is not an analogy. It is a re-instantiation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C041"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The Magus card — the first trump of the tarot sequence — holds the tools of the four suits."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate tarot iconography: the Magician (trump I, first numbered trump) is traditionally depicted with the implements of the four suits.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L96-96)",
+        "quote": "The Magus card — the first trump of the tarot sequence — holds the tools of the four suits.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C042"
+    },
+    {
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The wand is *manomaya*, the mental sheath that directs attention."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Binds the four suits to the panchakosha/jnana vocabulary by flat assertion; the kosha glosses themselves are accurate, but the suit-to-sheath equations are original Noesis synthesis with undeclared authorship.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L96-96)",
+        "quote": "The wand is *manomaya*, the mental sheath that directs attention.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C043"
+    }
+  ]
+}

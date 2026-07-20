@@ -1,0 +1,334 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "introduction-to-tryambakam-noesis.md",
+  "source_path": "src/content/posts/introduction-to-tryambakam-noesis.md",
+  "source_sha256": "ceb990a2263cecb594e8e174c8bf9c1d4a7b6068121dd7218e6c2a3122d31bc2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/introduction-to-tryambakam-noesis.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "An operating system you didn't write, executing patterns you didn't choose. Every calibration is a patch on inherited code."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The operating-system framing is transparently figurative (persons have no literal OS), establishes the post's central analogy, and no literal computational mechanism is inferred from it in this span.",
+      "legacy": {
+        "anchor": "BLIND-NEW L38",
+        "quote": "Every calibration is a patch on inherited code.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Consciousness is what you have. Self-consciousness is what you *do* with it—the capacity to read, examine, and rewrite the source code of your own experience."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly defines the house distinction between consciousness and self-consciousness and applies it consistently across the essay; declared as the platform's framing, not as established psychology.",
+      "legacy": {
+        "anchor": "BLIND-NEW L40",
+        "quote": "This is the difference between consciousness and self-consciousness.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "It's a way of seeing—powered by **sixteen perceptual lenses** that reveal the architecture of your own awareness"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared practice-platform description; the lens inventory at lines 50-56 enumerates exactly sixteen named engines, so the count matches the house structure as stated.",
+      "legacy": {
+        "anchor": "BLIND-NEW L46",
+        "quote": "powered by **sixteen perceptual lenses**",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 56,
+        "quote": "**Vedic Astronomy:** Panchanga, Vimshottari Dasha, Transits"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "House curation of real systems (Panchanga, Vimshottari Dasha, Human Design, Tarot, I Ching, etc.) into seven categories; the named items are genuine traditions or systems and the categorization is presented as the platform's own organization, not as a traditional taxonomy.",
+      "legacy": {
+        "anchor": "BLIND-NEW L50-56",
+        "quote": "**Vedic Astronomy:** Panchanga, Vimshottari Dasha, Transits",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 66,
+        "quote": "Every calculation within the Noesis Engine operates on three co-arising forces—**Kha-Ba-La**"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly declared house triad with operative definitions (Kha as observing field, Ba as embodiment, La as form-giving inertia); internally consistent with the corpus vocabulary and presented as the engine's own axioms.",
+      "legacy": {
+        "anchor": "BLIND-NEW L62-66",
+        "quote": "Every calculation within the Noesis Engine operates on three co-arising forces—**Kha-Ba-La**",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 77,
+        "quote": "The engines don't just pipeline—they synthesize through **six workflows**"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Six workflows are enumerated and named (Birth-Blueprint through Full-Spectrum); declared product structure, internally consistent, no external efficacy claim attached.",
+      "legacy": {
+        "anchor": "BLIND-NEW L70-77",
+        "quote": "The engines don't just pipeline—they synthesize through **six workflows**",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 84,
+        "quote": "A compass guides your focus with four cardinal directions"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Four declared compass operations (STABILIZE, HEAL, CREATE, MUTATE) are defined and used consistently within the house architecture.",
+      "legacy": {
+        "anchor": "BLIND-NEW L79-84",
+        "quote": "A compass guides your focus with four cardinal directions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Sixteen lenses across four directions—256 permutations that define the space for self-authorship."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "256 is not derivable from the stated inputs by any standard combinatorial reading (16 x 4 = 64; 16^4 = 65,536), and no derivation is given. The figure lends precision-aura to the marketing claim of a vast possibility space; provenance of the number is absent.",
+      "legacy": {
+        "anchor": "BLIND-NEW L86",
+        "quote": "Sixteen lenses across four directions—256 permutations",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "This is a system that can't function generically because the territory it maps—the interior of a specific, unrepeatable consciousness—is irreducibly unique."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared design principle of the house system; the irreducible-uniqueness premise is an axiom of the frame and is stated as such, not as a measured population fact.",
+      "legacy": {
+        "anchor": "BLIND-NEW L88",
+        "quote": "the interior of a specific, unrepeatable consciousness—is irreducibly unique",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "A quine is a program whose output is its own source code. It produces itself."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard, correct definition of a quine in computer science; an externally checkable technical fact stated at the right strength.",
+      "legacy": {
+        "anchor": "BLIND-NEW L98",
+        "quote": "A quine is a program whose output is its own source code.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "Tryambakam Noesis is a quine."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The computational concept is defined immediately before the mapping, marking the figurative boundary; no literal self-reproducing-program mechanism is asserted for the practice.",
+      "legacy": {
+        "anchor": "BLIND-NEW L98",
+        "quote": "Tryambakam Noesis is a quine.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "The practice of self-consciousness, applied with enough depth and consistency, produces a practitioner who no longer needs the practice."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared telos of the house practice, internally consistent with the quine framing; stated as the model's aim, not as a measured outcome rate.",
+      "legacy": {
+        "anchor": "BLIND-NEW L100",
+        "quote": "produces a practitioner who no longer needs the practice",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    }
+  ]
+}

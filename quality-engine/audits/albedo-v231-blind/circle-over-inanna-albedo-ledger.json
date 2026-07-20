@@ -1,0 +1,131 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "circle-over-inanna.md",
+  "source_path": "src/content/posts/circle-over-inanna.md",
+  "source_sha256": "488916321b8e66b19022a134204b68b1a15e6cb273ebe8ddc2470e6df23dca38",
+  "legacy_audit_path": "quality-engine/audits/nigredo/circle-over-inanna.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": { "line_start": 42, "line_end": 42, "quote": "Room 3902; the number does the Temperance math in my ribs and tells me to mix carefully, pour slowly, leave room for breath." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "ANALOGICAL", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Digit-sum numerology (3+9+0+2=14, Temperance as card XIV) is used as openly playful personal wordplay ('in my ribs'); the figurative boundary is explicit and no literal predictive inference is drawn from the arithmetic.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "the number does the Temperance math in my ribs", "type": "math", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C002",
+      "anchor": { "line_start": 44, "line_end": 44, "quote": "read **Inanna** in the lights. Same goddess, vowels shuffled, temple upgraded to LEDs. Love, desire, law, justice, price." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Inanna's traditional domains (love, desire, justice) are represented accurately; 'price' and the Nana/Inanna vowel shuffle are the author's openly declared poetic extension onto the Bangkok setting, not a disguised source claim.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "Same goddess, vowels shuffled, temple upgraded to LEDs. Love, desire, law, justice, price.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C003",
+      "anchor": { "line_start": 48, "line_end": 50, "quote": "**Mars** — who just clocked in for my antardasha — taps his watch like \"well?\"" },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Grahas (Mars antardasha, Venus, Jupiter) are operated as psychological agents within the author's declared personal Jyotish-tarot practice frame; the personification is figurative throughout and internally consistent, not asserted as celestial causation.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "**Mars** — who just clocked in for my antardasha — taps his watch like \"well?\"", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C004",
+      "anchor": { "line_start": 50, "line_end": 50, "quote": "the bell rings at my brow — **Chandraghanta's** thing, Day Three of Navratri" },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Correct attribution: Chandraghanta is the Navadurga form worshipped on the third day of Navratri, iconographically marked by the half-moon bell (ghanta) on her forehead. Reported as the tradition's association.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "the bell rings at my brow — **Chandraghanta's** thing, Day Three of Navratri", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C005",
+      "anchor": { "line_start": 58, "line_end": 58, "quote": "The ceiling I was pushing wasn't above me; it was in the feed. The more I tried to jam meaning through captions, the lower the roof came down." },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "First-person phenomenological report: observer named (the narrator), object noticed (the felt relationship between caption-extraction and constraint), conditions given (the balcony/feed context), scope kept personal.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "The ceiling I was pushing wasn't above me; it was in the feed.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C006",
+      "anchor": { "line_start": 64, "line_end": 87, "quote": "m = \\frac{L+H}{2}, \\quad s = \\min(\\text{lantern\\_radius}, \\text{capacity})" },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "LOAD-BEARING", "load_bearing": true, "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" }, "evidence_eligible": true },
+      "rationale": "The meaning-vector formalism (V = <L, H, W_c, T>, midpoint m, step s, ceiling recode W_c'/T', 6->3 law) is explicitly labeled 'The Model (Running Under the Hood)', its operations are internally consistent (midpoint, min-step, additive updates), it is structurally consequential (the 'Test' section at L113 actually runs it), and it traces to the declared house derivation rather than borrowed external math.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "m = \\frac{L+H}{2}, \\quad s = \\min(\\text{lantern\\_radius}, \\text{capacity})", "type": "math", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": true, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C007",
+      "anchor": { "line_start": 91, "line_end": 91, "quote": "My natal nakshatra has the shift on tonight. **Aryaman**, keeper of vows and hospitality, is quietly counting chairs at the banquet." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Correct attribution: Aryaman is the presiding deity of Uttara Phalguni nakshatra and is indeed the Vedic god of vows, contracts, and hospitality. The natal-nakshatra self-reference is personal practice context, not a verifiable chart claim.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "**Aryaman**, keeper of vows and hospitality, is quietly counting chairs at the banquet.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C008",
+      "anchor": { "line_start": 96, "line_end": 97, "quote": "- **Jachin:** I will not extract the goddess for spectacle.\n- **Boaz:** Reciprocity and right measure in every ask." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The two pillars of Solomon's Temple are invoked as named personal 'rails' with the author's own glosses; the figurative framing is explicit ('Two rails, as always') and no historical or literal claim is made about the pillars.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "**Jachin:** I will not extract the goddess for spectacle. **Boaz:** Reciprocity and right measure in every ask.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C009",
+      "anchor": { "line_start": 105, "line_end": 105, "quote": "The mind is Chandra; steady it and the door opens." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Faithful to the Jyotish teaching in which Chandra (the Moon) signifies the mind (manas); stated within the author's declared Vedic frame, so the equivalence reads as the tradition's attribution rather than an empirical identity.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "The mind is Chandra; steady it and the door opens.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C010",
+      "anchor": { "line_start": 109, "line_end": 109, "quote": "the Fool stepping off with trust, and the Star answering with orientation" },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Standard tarot attributions: the Fool as trust/beginnings and the Star as hope/guidance are faithful to the Rider-Waite-derived tradition; used within the post's declared card-reading frame.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "the Fool stepping off with trust, and the Star answering with orientation", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C011",
+      "anchor": { "line_start": 123, "line_end": 123, "quote": "Temperance does precisely what the card promises — mixes opposites until a third thing appears." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The Temperance card's traditional meaning (mixing, moderation, alchemical combination) is represented accurately; the 'does what the card promises' efficacy is a first-person experiential report within the declared tarot frame.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "Temperance does precisely what the card promises — mixes opposites until a third thing appears.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    }
+  ]
+}

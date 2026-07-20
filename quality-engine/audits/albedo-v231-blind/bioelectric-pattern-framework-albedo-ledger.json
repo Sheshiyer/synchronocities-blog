@@ -1,0 +1,928 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "bioelectric-pattern-framework.md",
+  "source_path": "src/content/posts/bioelectric-pattern-framework.md",
+  "source_sha256": "edcf52020714c8b60fa3e3148fcc56ddfeb1b58a212e5426900266471486ef82",
+  "legacy_audit_path": "quality-engine/audits/nigredo/bioelectric-pattern-framework.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "Before you had a brain, you had a bioelectric field."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Developmental bioelectric prepatterns precede and guide neural development; this is the documented Levin-lab finding named two lines later and matches mainstream developmental biology.",
+      "legacy": {
+        "anchor": "blind-v231:L27",
+        "quote": "Before you had a brain, you had a bioelectric field.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "documented in the work of Michael Levin at Tufts University and foreshadowed by Harold Saxton Burr's voltage mapping at Yale in the 1930s"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Levin directs the Tufts bioelectricity lab and Burr conducted electrodynamic field measurements at Yale from the 1930s onward; both attribution facts are accurate.",
+      "legacy": {
+        "anchor": "blind-v231:L29",
+        "quote": "documented in the work of Michael Levin at Tufts University and foreshadowed by Harold Saxton Burr's voltage mapping at Yale in the 1930s",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The embryo establishes bioelectric gradients before the nervous system forms."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Endogenous voltage gradients and prepatterns in early embryos (Xenopus, chick, planaria) preceding neurogenesis are well documented in the developmental bioelectricity literature.",
+      "legacy": {
+        "anchor": "blind-v231:L29",
+        "quote": "The embryo establishes bioelectric gradients before the nervous system forms.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Voltage differentials between cells determine which cells become heart, which become liver, which become brain."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Bioelectric states are demonstrably instructive for specific patterning events (eye induction, brain morphogenesis, planarian head identity), but a universal determination claim covering heart and liver organ identity exceeds the demonstrated evidence; narrow to the organs and manipulations actually shown.",
+      "legacy": {
+        "anchor": "blind-v231:L29",
+        "quote": "Voltage differentials between cells determine which cells become heart, which become liver, which become brain.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "Your cells are still running the pattern system that built your body. They remember what happened. They encode it in voltage."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The extrapolation from developmental pattern memory to adult cells encoding lived events in voltage is the post's central extension, asserted as 'operational reality' without any source demonstrating event-level somatic memory in voltage patterns.",
+      "legacy": {
+        "anchor": "blind-v231:L31",
+        "quote": "Your cells are still running the pattern system that built your body. They remember what happened. They encode it in voltage.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 43,
+        "quote": "The triad is not decorative. It is structural. And when one leg collapses, the entire architecture tilts toward a recognizable failure mode."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kha-Ba-La triad is named house vocabulary; the three failure modes (observer without body, body without observer, inertia without either) are internally consistent applications of the declared frame.",
+      "legacy": {
+        "anchor": "blind-v231:L35-43",
+        "quote": "The triad is not decorative. It is structural.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Every cell maintains a resting membrane potential. This is not a passive state. It is an active computation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Resting membrane potential is textbook physiology; the 'active computation' gloss matches the published Levin-school framing of bioelectric networks as computational media.",
+      "legacy": {
+        "anchor": "blind-v231:L49",
+        "quote": "Every cell maintains a resting membrane potential.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "When a tissue is injured, the cells at the wound site change their voltage. The change is not random."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Wound-induced depolarization and endogenous wound currents are documented phenomena (Becker's current-of-injury work and modern wound-field studies), and they are spatially patterned rather than random.",
+      "legacy": {
+        "anchor": "blind-v231:L51",
+        "quote": "When a tissue is injured, the cells at the wound site change their voltage.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "It follows a pattern determined by the cell's memory of its original developmental instruction"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "This asserts Levin's target-morphology/anatomical-setpoint model as settled fact for ordinary wound healing without naming it as a model or citing the specific evidence; the general claim outruns the demonstrated cases (planaria, Xenopus).",
+      "legacy": {
+        "anchor": "blind-v231:L51",
+        "quote": "It follows a pattern determined by the cell's memory of its original developmental instruction",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "A measurable, reproducible phenomenon in which cells retain voltage patterns from their developmental history and use those patterns to guide current behavior."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence explicitly denies metaphor and asserts literal, measurable, reproducible cellular memory of developmental history guiding adult behavior; that universal claim is asserted without citation and exceeds what the cited research program demonstrates.",
+      "legacy": {
+        "anchor": "blind-v231:L53",
+        "quote": "A measurable, reproducible phenomenon in which cells retain voltage patterns from their developmental history",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "Robert O. Becker demonstrated this in the 1970s at the Veterans Administration Hospital in Syracuse: frog limbs regenerate when the bioelectric field at the amputation site establishes the correct voltage gradient, and fail to regenerate when that gradient is disrupted."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Becker's canonical demonstration was salamander limb regeneration; adult frogs famously fail to regenerate limbs, which was precisely Becker's contrast case (his frog work achieved only partial, stimulation-assisted regrowth). Attributing to Becker a clean frog-limb regenerate/fail demonstration inverts the documented result; the Syracuse VA affiliation is correct.",
+      "legacy": {
+        "anchor": "blind-v231:L53",
+        "quote": "frog limbs regenerate when the bioelectric field at the amputation site establishes the correct voltage gradient",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "the persistence may not be a failure of will. It may be a voltage pattern stored below the resolution of cognitive processing."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Doubly hedged ('may not'/'may be') application of the post's framework to therapy-resistant patterns; as a hypothesis internal to the declared frame it is coherent and makes no measured-effect assertion.",
+      "legacy": {
+        "anchor": "blind-v231:L55",
+        "quote": "It may be a voltage pattern stored below the resolution of cognitive processing.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Individual cellular voltages aggregate into tissue-level fields. These fields are not merely the sum of their parts. They exhibit emergent properties"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Gap-junction-coupled bioelectric networks producing tissue-level patterned states with network-level (non-cell-autonomous) properties is documented in the developmental bioelectricity literature.",
+      "legacy": {
+        "anchor": "blind-v231:L59",
+        "quote": "Individual cellular voltages aggregate into tissue-level fields.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The heart generates the body's strongest electromagnetic field — measurable at several feet from the skin, documented by Rollin McCraty at the HeartMath Institute."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The cardiac field is the body's strongest endogenous EM field and is detectable up to several feet away with SQUID magnetometry; the attribution to McCraty at HeartMath is accurate for that literature.",
+      "legacy": {
+        "anchor": "blind-v231:L61",
+        "quote": "The heart generates the body's strongest electromagnetic field — measurable at several feet from the skin",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The gut generates the second strongest."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "No traceable measurement literature ranks the gut's electromagnetic field as the body's second strongest; the ranking is asserted without a source.",
+      "legacy": {
+        "anchor": "blind-v231:L61",
+        "quote": "The gut generates the second strongest.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "These fields respond to relational stimuli with measurable changes in amplitude, frequency, and coherence."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Cardiac coherence responding to self-generated emotional states has some support, but heart and gut fields measurably responding to relational (interpersonal) stimuli is asserted generally without a named study; interpersonal field-coupling evidence is weak and contested.",
+      "legacy": {
+        "anchor": "blind-v231:L61",
+        "quote": "These fields respond to relational stimuli with measurable changes in amplitude, frequency, and coherence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "When you sit across from someone and feel something shift before either of you speaks, you are not projecting psychological content onto a neutral interaction. You are detecting a bioelectric field signature."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A contested mechanism (remote bioelectric field detection) is asserted as the definitive cause of a common pre-verbal social perception, excluding established channels (micro-expression, olfaction, posture) without evidence.",
+      "legacy": {
+        "anchor": "blind-v231:L61",
+        "quote": "You are detecting a bioelectric field signature.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "A relational disruption creates a charge differential in the bioelectric field. That differential drives current toward the disruption. If the current flows, integration occurs."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL", "R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A cellular-scale phenomenon (charge differential driving current) is extended to an unmeasured interpersonal 'field' and asserted as operative mechanism without declaration as model or metaphor — a literal-mechanism claim in a domain with no instrument or dataset.",
+      "legacy": {
+        "anchor": "blind-v231:L63",
+        "quote": "A relational disruption creates a charge differential in the bioelectric field.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 69,
+        "quote": "Organizations, institutions, and cultural systems are also bioelectric fields — not literally, but structurally."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The systemic-scale extension is explicitly marked 'not literally, but structurally'; the corporate-culture illustration draws no literal causal or numeric inference from the comparison.",
+      "legacy": {
+        "anchor": "blind-v231:L67-69",
+        "quote": "Organizations, institutions, and cultural systems are also bioelectric fields — not literally, but structurally.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "What Michael Levin's lab at Tufts has demonstrated in planaria and frog embryos"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Levin's lab works extensively on planaria and Xenopus (frog) embryos; the model-organism attribution is accurate.",
+      "legacy": {
+        "anchor": "blind-v231:L77",
+        "quote": "What Michael Levin's lab at Tufts has demonstrated in planaria and frog embryos",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "is a local instance of a universal grammar: pattern precedes structure, field precedes form, charge precedes matter."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence presents a Noesis universalization ('universal grammar' extending to charge preceding matter) as if it were what Levin's lab demonstrated — synthesis laundering: the new conclusion is attributed to the ingredient source rather than declared as house authorship.",
+      "legacy": {
+        "anchor": "blind-v231:L77",
+        "quote": "is a local instance of a universal grammar: pattern precedes structure, field precedes form, charge precedes matter.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "The embryo is a cosmic process compressed into nine months. The cell is a star compressed into microns. The voltage differential is gravity compressed into millivolts."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'compressed into' constructions are transparently figurative scale analogies; the quantities (nine months, microns, millivolts) serve the image and no literal numeric or causal inference is drawn from them.",
+      "legacy": {
+        "anchor": "blind-v231:L77",
+        "quote": "The cell is a star compressed into microns.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "The voltage pattern in your liver cell is the same grammar as the voltage pattern in a galactic filament. The difference is scale, not kind."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A cross-scale identity ('same grammar... scale, not kind') between cellular voltage patterns and galactic filaments is asserted as fact; it is untestable as stated and functions as undeclared analogy carrying propositional weight.",
+      "legacy": {
+        "anchor": "blind-v231:L79",
+        "quote": "The difference is scale, not kind.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "The Kha-Ba-La triad operates at every level: the observer (Kha) that reads the pattern, the body (Ba) that conducts it, the inertia (La) that gives it form."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The triad is named house vocabulary with defined terms (observer/conductor/inertia), applied uniformly across scales; internally consistent as the post's declared frame.",
+      "legacy": {
+        "anchor": "blind-v231:L79",
+        "quote": "The Kha-Ba-La triad operates at every level",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "The cell must expend ATP to maintain the ion gradient"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Textbook physiology: ion gradients across membranes are maintained by ATP-dependent pumps (e.g., Na+/K+-ATPase).",
+      "legacy": {
+        "anchor": "blind-v231:L85",
+        "quote": "The cell must expend ATP to maintain the ion gradient",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "Every blocked charge differential requires metabolic maintenance. The cell must expend ATP to maintain the ion gradient that constitutes the blocked pattern. The body pays for what the mind refuses to process."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence explicitly denies metaphor and asserts a literal thermodynamic cost linking psychological 'blocked patterns' to cellular ATP expenditure; no measurement or source ties unprocessed psychological material to a quantifiable cellular voltage-maintenance cost.",
+      "legacy": {
+        "anchor": "blind-v231:L85",
+        "quote": "The body pays for what the mind refuses to process.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The voltage patterns that guide your cells are not generated de novo in your body. They are inherited from the germline, modified by developmental conditions, and further modified by lived experience."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Germline inheritance of guiding voltage patterns, 'compilation' by the mother's bioelectric field, and modification by lived experience are asserted as established fact; bioelectric prepatterns are developmentally established, but the inheritance and lived-experience-modification chain is not demonstrated.",
+      "legacy": {
+        "anchor": "blind-v231:L87",
+        "quote": "They are inherited from the germline, modified by developmental conditions, and further modified by lived experience.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "The bioelectric field does not change through gradual improvement. It changes through phase transitions"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal law about how 'the bioelectric field' changes (only via destabilizing phase transitions, never gradually) is asserted without source; phase-transition language from physics is imported as literal mechanism for organismic change.",
+      "legacy": {
+        "anchor": "blind-v231:L89",
+        "quote": "It changes through phase transitions — moments where the existing pattern destabilizes",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "Coherence is not a metaphor. It is a measurable state of the bioelectric field"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Cardiac/HRV coherence is an operationally defined, instrument-measurable state (0.1 Hz spectral peak); the narrow measurability claim is accurate.",
+      "legacy": {
+        "anchor": "blind-v231:L95",
+        "quote": "It is a measurable state of the bioelectric field",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "you can detect it without instruments through sustained somatic attention."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Interoceptive detection of HRV coherence without instruments is asserted as generally achievable; interoceptive accuracy research does not establish that untrained somatic attention tracks cardiac coherence.",
+      "legacy": {
+        "anchor": "blind-v231:L95",
+        "quote": "you can detect it without instruments through sustained somatic attention.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "Unresolved emotions are unresolved charge differentials. The charge persists in the field until it is allowed to flow to completion."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An identity claim (emotions = charge differentials; processing = current flowing through tissue) is asserted as literal mechanism ('The block is not conceptual. It is somatic.') with no instrument, dataset, or citation connecting emotional states to tissue-level voltage differentials.",
+      "legacy": {
+        "anchor": "blind-v231:L99",
+        "quote": "Unresolved emotions are unresolved charge differentials.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "The bioelectric framework predicts that growth requires dedifferentiation — a period where the existing pattern dissolves before the new pattern assembles."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly framed as the framework's prediction ('the bioelectric framework predicts'); dedifferentiation in regeneration is real biology, and its application to personal growth is declared model extension rather than asserted measurement.",
+      "legacy": {
+        "anchor": "blind-v231:L101",
+        "quote": "growth requires dedifferentiation — a period where the existing pattern dissolves before the new pattern assembles",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 105,
+        "line_end": 105,
+        "quote": "The bioelectric field is the body's first and most enduring information system. The nervous system was built on top of it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Electrochemical signaling evolutionarily and developmentally precedes nervous systems (bioelectric coordination in pre-neural organisms and embryos); the layered stacking claim is consistent with mainstream evolutionary biology.",
+      "legacy": {
+        "anchor": "blind-v231:L105",
+        "quote": "The bioelectric field is the body's first and most enduring information system.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 111,
+        "line_end": 111,
+        "quote": "Learn to read the field and you read the source code of the pattern. Everything above it — thought, emotion, narrative, identity — is compiled output."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The compiler/source-code imagery is a transparent computing analogy closing the essay; no literal software mechanism or numeric inference is asserted.",
+      "legacy": {
+        "anchor": "blind-v231:L111",
+        "quote": "The bioelectric field is the compiler. The pattern is the source.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    }
+  ]
+}

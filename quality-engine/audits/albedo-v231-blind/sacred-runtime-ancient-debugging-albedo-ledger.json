@@ -1,0 +1,712 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "sacred-runtime-ancient-debugging.md",
+  "source_path": "src/content/posts/sacred-runtime-ancient-debugging.md",
+  "source_sha256": "85ead4ff84f82e204e9e15d30d113f10d690c371e6fd0894b4c32283deeda24a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/sacred-runtime-ancient-debugging.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "In 1947, Grace Hopper's team found a moth stuck in a relay of the Harvard Mark II computer. They taped it into the logbook with the notation \"First actual case of bug being found.\""
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 1947 Harvard Mark II moth logbook entry is a documented artifact (held by the Smithsonian, log dated 9 September 1947); attributing it to Hopper's team is the standard accurate framing since she popularized the account.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "The bug is a systemic condition that requires systemic intervention."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "This is the essay's declared operating conceit (ancient ritual read through systems/debugging vocabulary), established at the top and applied consistently; internally coherent as a frame, not asserted as a measured result.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "When the city-state experienced a systemic failure — plague, famine, military defeat — the polis would select a person (usually from the margins of society), load them symbolically with the city's corruption, and expel them. Sometimes they were beaten with fig branches as they were driven out."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The pharmakos practice at Athens (marginal persons expelled at crisis/Thargelia, beaten with fig branches per the Hipponax fragment tradition, treated by Burkert and Bremmer) is responsibly corroborated; the systems vocabulary is the declared frame, not part of the historical assertion.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "This is garbage collection. Specifically, it is a mark-and-sweep algorithm. The ritual \"marks\" the scapegoat as containing the garbage data. The expulsion \"sweeps\" the marked data out of memory."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The mark-and-sweep mapping is explicitly scaffolded ('consider what is actually happening in systems terms', L37) and the mark/sweep phases are applied consistently; no literal algorithmic claim about the ritual is made beyond the declared structural analogy.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "Two goats are selected. One is sacrificed (the data is permanently deleted). The other — the *azazel* goat — is sent into the wilderness carrying the sins of the polis"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Leviticus 16 describes exactly two goats — one sacrificed 'for YHWH', one sent to Azazel in the wilderness bearing the transgressions; the paraphrase (minus the debugging gloss, which is the declared frame) is faithful to the source text.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "The Hebrew tradition refined this into the Yom Kippur protocol, which is more sophisticated."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-DELETE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Refined this into' asserts a historical lineage from the Greek pharmakos to Leviticus 16; no source or comparative-religion evidence is given, and the direction of derivation is historically dubious (the Azazel rite has Near Eastern, not Greek, parallels).",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Modern therapy uses the same architecture. The therapist does not absorb your corruption, but the therapeutic container functions as a bounded environment"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The therapeutic-container claim operates inside the essay's declared systems frame and matches a widely used clinical concept ('container' in psychodynamic vocabulary); read as the house mapping rather than a measured outcome claim, it is internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Every culture that developed a sophisticated consciousness technology also developed a debugging deity."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A sweeping universal quantified over all cultures and over the undefined term 'consciousness technology'; no survey or source supports the biconditional, and the four examples given do not establish a universal law.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "These figures share a consistent feature set: they operate at boundaries, they translate between domains, they are associated with both restoration and trickery, and they move freely between the world of the living and the world of the dead."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The feature set fits Hermes/Mercury and largely Thoth, but not Loki, who is neither a psychopomp moving freely between living and dead nor associated with restoration (he engineers Baldr's death); presenting the set as 'consistent' across all four traditions is materially misleading.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "He stands at the threshold (*herma* — the stone pillar marking boundaries). He translates between languages (he is the messenger of the gods). He moves between the surface application (Olympus) and the deep system logs (Hades). He is associated with both commerce (the exchange protocol) and theft (unauthorized access)."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Each attribute — herma boundary pillars, messenger of the gods, psychopomp passage to Hades, patronage of commerce and of thieves — is standard Greek tradition about Hermes; the parenthetical debugging glosses are the declared frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "The caduceus — the staff of Hermes with two intertwined serpents — is the original debugging symbol."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The descriptive content (two intertwined serpents, wings, central staff) is iconographically accurate, and the serpents-as-dual-processes reading is presented as the author's interpretation within the essay's declared conceit; coherent as model, not asserted as ancient doctrine.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "That this symbol was adopted by the medical profession is not accidental."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The medical adoption of the caduceus (notably the U.S. Army Medical Corps, 1902) is extensively documented as a confusion with the Rod of Asclepius — i.e., substantially accidental; the flat assertion 'not accidental' conflicts with the standard historical record.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "Medicine is debugging the body. The body is a runtime environment. Disease is a bug."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A direct extension of the essay's declared debugging conceit to medicine; the mapping is applied consistently and no literal clinical mechanism is asserted.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The diviner was not predicting the future. The diviner was reading the current state of the system by examining its output at various levels."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-REMODE", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Ancient divination (augury, extispicy, astrology) was overwhelmingly practiced and understood as discerning divine will regarding future action; the sentence asserts the author's stack-trace reinterpretation as historical fact about what diviners were doing, laundering a house model into a historical claim.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "The stack trace reads: polis state > environmental state > organism state > organ state. By reading the deepest frame (the liver), the diviner reconstructs the state of the outermost frame (the polis)."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The organ-level statements (liver filters blood; liver state reflects organism state) are accurate, and the extension to environment and polis is presented inside the declared stack-trace conceit; internally consistent as the essay's model of haruspicy's logic.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "Every ancient culture maintained a calendar of rituals."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Ritual/festival calendars are a near-universal, responsibly documented feature of ancient state and temple cultures (Mesopotamian, Egyptian, Greek, Roman, Vedic, Chinese, Mesoamerican); the weak universal is supported at its stated strength.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "They were regression tests — scheduled executions of known-good procedures to verify that the system was still producing expected output."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The regression-test reading of ritual calendars (with the festival-to-subsystem mapping in L71 and the escalation protocol in L73) is the essay's declared interpretive frame, applied consistently; it is not presented as what ancient practitioners believed they were doing.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "The vocabulary has changed. The architecture has not."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Caps the quarterly-review/standup comparison (L75) as the essay's structural-identity thesis within the declared conceit; coherent as model, making no measured organizational claim.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "The most sophisticated traditions — Vedantic, Buddhist, certain strands of Neoplatonism — identified the deepest bug in the system as the ego itself."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "At coarse grain this is a faithful paraphrase: Vedanta's misidentification of self with ahamkara, Buddhism's anatta doctrine, and Neoplatonism's account of the soul's self-alienation all locate the fundamental error in ego-identification; the 'legacy code' gloss is the declared frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "The ego was the original process manager. It handled resource allocation, threat detection, social navigation, and identity maintenance during the critical developmental period when the system needed a strong central coordinator."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Extends the essay's declared legacy-code model of ego (introduced L79-81) with consistent process-manager vocabulary; no developmental-psychology measurement is asserted beyond the frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "The ancient debugging protocol for the ego was not deletion. You cannot kill PID 1. The protocol was privilege reduction — gradually reducing the ego's access level from root to standard user"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The privilege-reduction characterization stays inside the declared conceit and is cashed out in the (separately audited) traditional examples that follow; coherent as the essay's model of contemplative practice.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The Buddhist protocol of right view, right intention, right speech, right action, right livelihood, right effort, right awareness, and right concentration is an eight-step refactoring plan."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The eight members listed match the Noble Eightfold Path (samma-ditthi through samma-samadhi); 'right awareness' is an accepted rendering of samma-sati ('right mindfulness'); the 'refactoring plan' label is the declared frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The Vedantic practice of *neti neti* (\"not this, not this\") is a systematic process of disidentifying the ego from the resources it claims to own."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Neti neti (Brihadaranyaka Upanishad) is correctly translated and correctly characterized as a via negativa disidentification of self from all predicable objects; the resource-ownership gloss is the declared frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "The Sufi practice of *fana* (annihilation of the self) is not destruction but a controlled shutdown of the legacy process so that the system can reboot into a new architecture."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Fana is correctly glossed as annihilation/passing-away of the ego-self, and the 'not destruction' qualifier matches the standard pairing with baqa (subsistence in God); the shutdown/reboot vocabulary is the declared frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "Humor is itself a debugging tool. It creates a momentary gap in the ego's event loop, a brief window where the system can observe itself without the ego's filtering."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Applies the essay's declared ego/event-loop model to humor consistently; no empirical laughter-latency or clinical claim is made.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "They were sophisticated interventions in the most complex runtime environment known to exist: human consciousness."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Most complex runtime environment known to exist' is a superlative empirical claim about comparative system complexity offered with no measure or source; rhetorically load-bearing but unscoped and unverifiable as stated.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    }
+  ]
+}

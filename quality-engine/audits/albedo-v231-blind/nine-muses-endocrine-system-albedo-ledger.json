@@ -1,0 +1,1403 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "nine-muses-endocrine-system.md",
+  "source_path": "src/content/posts/nine-muses-endocrine-system.md",
+  "source_sha256": "fab860903431160a6637755d17bfc1ecf95270f3fe73bd53df329223fa2517bc",
+  "legacy_audit_path": "quality-engine/audits/nigredo/nine-muses-endocrine-system.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "There is a video by SlickDissident that does something rare in the landscape of esoteric analysis"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The correspondence thesis is attributed to a named external video that is not linked or otherwise traceable from the post; the source's content cannot be checked, so the attribution cannot be confirmed.",
+      "legacy": {
+        "anchor": "BLIND-v231 L28",
+        "quote": "There is a video by SlickDissident that does something rare in the landscape of esoteric analysis",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "The Muse of sacred hymns governs rhetoric and introspection."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate to the classical tradition: Polymnia is the Muse of sacred hymns, later associated with rhetoric and meditation.",
+      "legacy": {
+        "anchor": "BLIND-v231 L36",
+        "quote": "The Muse of sacred hymns governs rhetoric and introspection.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Melatonin governs circadian rhythm — the timing system that determines when the body enters its contemplative states."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Melatonin's role in circadian timing is well established; 'contemplative states' is a fair gloss of sleep-onset physiology.",
+      "legacy": {
+        "anchor": "BLIND-v231 L36",
+        "quote": "Melatonin governs circadian rhythm — the timing system that determines when the body enters its contemplative states.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Polymnia (1) maps to Melatonin."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared correspondence from the named analysis, extended by the essay; both ingredients (Muse tradition, melatonin function) are traced and the analogy is internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L36",
+        "quote": "Polymnia (1) maps to Melatonin.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "The Muse of history preserves memory and legacy."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: Clio is the Muse of history.",
+      "legacy": {
+        "anchor": "BLIND-v231 L38",
+        "quote": "The Muse of history preserves memory and legacy.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "Oxytocin — the bonding hormone — encodes relational memory, the kind that persists not in facts but in felt connections."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Oxytocin's role in social bonding and social memory is documented; 'encodes relational memory' is a defensible simplification, with context-dependence noted as a scope risk.",
+      "legacy": {
+        "anchor": "BLIND-v231 L38",
+        "quote": "Oxytocin — the bonding hormone — encodes relational memory, the kind that persists not in facts but in felt connections.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "Clio (2) maps to Oxytocin."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared correspondence with traced ingredients; consistent within the essay's frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L38",
+        "quote": "Clio (2) maps to Oxytocin.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The Muse of lyrical poetry and music corresponds to the body's own release mechanism."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: Euterpe is the Muse of music and lyric poetry.",
+      "legacy": {
+        "anchor": "BLIND-v231 L40",
+        "quote": "The Muse of lyrical poetry and music corresponds to the body's own release mechanism.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Endorphins do not create pleasure — they create relief"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Endorphins are endogenous opioids mediating analgesia; the relief-over-pleasure framing is consistent with evidence that euphoria (e.g., runner's high) is largely endocannabinoid-mediated.",
+      "legacy": {
+        "anchor": "BLIND-v231 L40",
+        "quote": "Endorphins do not create pleasure — they create relief",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Euterpe (3) maps to Endorphins."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared correspondence with traced ingredients; consistent within the essay's frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L40",
+        "quote": "Euterpe (3) maps to Endorphins.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Comedy, pleasure, satisfaction."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: Thalia is the Muse of comedy.",
+      "legacy": {
+        "anchor": "BLIND-v231 L42",
+        "quote": "Comedy, pleasure, satisfaction.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Dopamine is the reward prediction signal — it fires not when you receive the reward, but when you anticipate it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Matches the canonical reward-prediction-error account (Schultz): the dopamine response transfers from delivered reward to predictive cues.",
+      "legacy": {
+        "anchor": "BLIND-v231 L42",
+        "quote": "Dopamine is the reward prediction signal — it fires not when you receive the reward, but when you anticipate it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Thalia (4) maps to Dopamine."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared correspondence with traced ingredients; consistent within the essay's frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L42",
+        "quote": "Thalia (4) maps to Dopamine.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Tragedy and the stress hormone share a function that most people misread."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate Muse-domain attribution: Melpomene is the Muse of tragedy.",
+      "legacy": {
+        "anchor": "BLIND-v231 L44",
+        "quote": "Tragedy and the stress hormone share a function that most people misread.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "it is the awareness intensifier. It sharpens perception, mobilizes resources, and demands attention."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Glucocorticoid arousal — mobilizing energy and heightening attention — is established physiology.",
+      "legacy": {
+        "anchor": "BLIND-v231 L44",
+        "quote": "it is the awareness intensifier. It sharpens perception, mobilizes resources, and demands attention.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Melpomene (5) maps to Cortisol."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared correspondence with traced ingredients; consistent within the essay's frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L44",
+        "quote": "Melpomene (5) maps to Cortisol.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Catharsis requires cortisol."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-CAUSE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No traceable evidence that tragic catharsis physiologically requires cortisol; a causal necessity claim stated without a source.",
+      "legacy": {
+        "anchor": "BLIND-v231 L44",
+        "quote": "Catharsis requires cortisol.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Love poetry and the creative hormone."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: Erato is the Muse of love poetry.",
+      "legacy": {
+        "anchor": "BLIND-v231 L46",
+        "quote": "Love poetry and the creative hormone.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Estrogen governs receptivity, cyclical creation, and the capacity for intimate connection."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Estrogen's regulation of cyclical reproductive function is established, but 'governs receptivity... and the capacity for intimate connection' bundles behavioral claims with no traceable source.",
+      "legacy": {
+        "anchor": "BLIND-v231 L46",
+        "quote": "Estrogen governs receptivity, cyclical creation, and the capacity for intimate connection.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Erato (6) maps to Estrogen."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared correspondence with traced ingredients; consistent within the essay's frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L46",
+        "quote": "Erato (6) maps to Estrogen.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Epic poetry and the drive hormone."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: Calliope is the Muse of epic poetry.",
+      "legacy": {
+        "anchor": "BLIND-v231 L48",
+        "quote": "Epic poetry and the drive hormone.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Testosterone does not simply produce aggression — it produces the sustained forward momentum required to build something that lasts."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Testosterone links to status-seeking and acute competitive motivation, but 'sustained forward momentum required to build something that lasts' is not an established finding.",
+      "legacy": {
+        "anchor": "BLIND-v231 L48",
+        "quote": "Testosterone does not simply produce aggression — it produces the sustained forward momentum required to build something that lasts.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Calliope (7) maps to Testosterone."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared correspondence with traced ingredients; consistent within the essay's frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L48",
+        "quote": "Calliope (7) maps to Testosterone.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Dance and the emergency response share the same substrate"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate Muse-domain attribution: Terpsichore is the Muse of dance.",
+      "legacy": {
+        "anchor": "BLIND-v231 L50",
+        "quote": "Dance and the emergency response share the same substrate",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Adrenaline does not think — it moves."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Adrenaline mediates rapid, largely involuntary sympathoadrenal mobilization; the aphoristic phrasing matches established fight-or-flight physiology.",
+      "legacy": {
+        "anchor": "BLIND-v231 L50",
+        "quote": "Adrenaline does not think — it moves.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Terpsichore (8) maps to Adrenaline."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared correspondence with traced ingredients; consistent within the essay's frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L50",
+        "quote": "Terpsichore (8) maps to Adrenaline.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Astronomy and the balance hormone."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: Urania is the Muse of astronomy.",
+      "legacy": {
+        "anchor": "BLIND-v231 L52",
+        "quote": "Astronomy and the balance hormone.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Serotonin provides the background state of order against which all other hormones modulate."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Serotonin modulates mood and impulse control, but a 'background state of order against which all other hormones modulate' is a pop-physiology generalization without a traceable source.",
+      "legacy": {
+        "anchor": "BLIND-v231 L52",
+        "quote": "Serotonin provides the background state of order against which all other hormones modulate.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Urania (9) maps to Serotonin."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared correspondence with traced ingredients; consistent within the essay's frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L52",
+        "quote": "Urania (9) maps to Serotonin.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "the arrangement of speakers at the banquet mirrors the arrangement of the Muses. There is an empty seat."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Structural claim about Plato's Symposium attributed to the untraceable SlickDissident analysis; checkable against neither the dialogue scholarship nor the source.",
+      "legacy": {
+        "anchor": "BLIND-v231 L56",
+        "quote": "the arrangement of speakers at the banquet mirrors the arrangement of the Muses. There is an empty seat.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "something structural about Plato's Symposium that most classical scholars treat as incidental"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Reception claim about what 'most classical scholars' treat as incidental, stated without any source.",
+      "legacy": {
+        "anchor": "BLIND-v231 L56",
+        "quote": "something structural about Plato's Symposium that most classical scholars treat as incidental",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The silence between heartbeats is as essential as the beat."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Introduced as an explicit endocrine-term correspondence ('this corresponds to the spaces between hormonal signals'); the figurative boundary is marked and no literal prediction is drawn.",
+      "legacy": {
+        "anchor": "BLIND-v231 L58",
+        "quote": "The silence between heartbeats is as essential as the beat.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "the entire endocrine system is a nine-channel receiver tuned to archetypal frequencies"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Strong receiver claim attributed to an untraceable 'Spolski Framework referenced in the analysis'; neither the framework nor the analysis can be checked.",
+      "legacy": {
+        "anchor": "BLIND-v231 L60",
+        "quote": "the entire endocrine system is a nine-channel receiver tuned to archetypal frequencies",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "It suggests that what we call personality, creativity, and spiritual experience are not emergent properties of chemical complexity but structured outputs of a system designed — or evolved — to process specific types of information."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Hedged as what the framework's claim 'suggests'; ingredients are visible in the essay and the inference stays within the declared correspondence frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L60",
+        "quote": "It suggests that what we call personality, creativity, and spiritual experience are not emergent properties of chemical complexity but structured outputs of a system designed — or evolved — to process specific types of information.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The nine Muses divide into feeling-dominant and thinking-dominant groups."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay's own grouping, openly constructed from the traditional Muse domains it lists.",
+      "legacy": {
+        "anchor": "BLIND-v231 L64",
+        "quote": "The nine Muses divide into feeling-dominant and thinking-dominant groups.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C036",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The endocrine system shows the same division. Endorphins, dopamine, and estrogen are primarily hedonic"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-MODEL",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An imposed hedonic/regulatory/action taxonomy is presented as something 'the endocrine system shows' — an interpretive scheme laundered as observed physiology (estrogen as 'primarily hedonic' has no endocrinological basis).",
+      "legacy": {
+        "anchor": "BLIND-v231 L66",
+        "quote": "The endocrine system shows the same division. Endorphins, dopamine, and estrogen are primarily hedonic",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C037",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "the Enneagram's three centers: heart (feeling), head (thinking), and gut (action)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate to Enneagram teaching, which organizes the nine types into heart, head, and gut centers.",
+      "legacy": {
+        "anchor": "BLIND-v231 L68",
+        "quote": "the Enneagram's three centers: heart (feeling), head (thinking), and gut (action)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C038",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "This triadic structure maps directly onto the Enneagram's three centers"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared cross-system mapping built on the essay's own taxonomy and the correctly reported Enneagram centers.",
+      "legacy": {
+        "anchor": "BLIND-v231 L68",
+        "quote": "This triadic structure maps directly onto the Enneagram's three centers",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C039",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The hormone and the archetype are not cause and effect. They are the same event observed from inside and outside the body, respectively."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly marked as the analysis-implied answer ('which the analysis implies but does not state explicitly'); Noesis authorship of the identity claim is visible.",
+      "legacy": {
+        "anchor": "BLIND-v231 L74",
+        "quote": "The hormone and the archetype are not cause and effect. They are the same event observed from inside and outside the body, respectively.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C040",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "sustained physical effort, competitive engagement, long-horizon projects — under which testosterone rises"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Acute testosterone rises with sustained physical effort and competition are documented; the 'Calliope's voice' corollary stays inside the declared correspondence frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L76",
+        "quote": "sustained physical effort, competitive engagement, long-horizon projects — under which testosterone rises",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C041",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The nine Muses are not mythology. They are an API documentation for the endocrine system"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stated as the essay's own thesis after a fully traced correspondence table; functions as the declared conclusion of the piece, not as smuggled fact.",
+      "legacy": {
+        "anchor": "BLIND-v231 L78",
+        "quote": "The nine Muses are not mythology. They are an API documentation for the endocrine system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C042",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "written three thousand years before anyone measured a hormone"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Approximate but sound: the Muses are attested by the 8th century BCE (Homer/Hesiod) and the first hormone (secretin) was identified in 1902.",
+      "legacy": {
+        "anchor": "BLIND-v231 L78",
+        "quote": "written three thousand years before anyone measured a hormone",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "type-is-not-identity.md",
+  "source_path": "src/content/posts/type-is-not-identity.md",
+  "source_sha256": "1c0622017d00c71dde4b80bbe311fdfa3184a445012194d8c4f459925097aef2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/type-is-not-identity.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": { "line_start": 34, "line_end": 34, "quote": "The Enneagram was designed as a diagnostic tool — a way to see the defense mechanism, not identify with it." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Consistent with the personality-Enneagram tradition's own self-description in the Ichazo–Naranjo lineage (a tool for observing fixations rather than an identity label); 'designed' mildly compresses a gradual development but is accurate at the stated strength.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "The Enneagram was designed as a diagnostic tool", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C002",
+      "anchor": { "line_start": 36, "line_end": 36, "quote": "Somewhere between its origins and its Instagram proliferation, it became a personality label." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Cultural-change claim about how the Enneagram's popular use transformed; plausible but asserted with no evidence, timeframe, or population, so it cannot pass at its stated strength.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "it became a personality label", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C003",
+      "anchor": { "line_start": 44, "line_end": 44, "quote": "Each Enneagram type is a defensive architecture — a specific configuration of observer, body, and inertia optimized for a specific class of threat" },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The article's operative model, defined here and applied consistently across the type descriptions; observer/body/inertia vocabulary functions as the house frame throughout.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Each Enneagram type is a defensive architecture", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C004",
+      "anchor": { "line_start": 46, "line_end": 46, "quote": "The nervous system runs cortisol-mediated awareness intensification" },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Asserts a specific neuroendocrine mechanism for Type 5 psychology; no literature maps Enneagram types to cortisol-dominant profiles, and no source is given.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "cortisol-mediated awareness intensification", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C005",
+      "anchor": { "line_start": 48, "line_end": 48, "quote": "Adrenaline-driven movement deployed where precision was needed. Not courage — a somatic bypass of inquiry." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Asserts an adrenaline mechanism for Type 8 behavior as literal physiology; unsupported by any cited evidence or established typology-endocrinology mapping.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Adrenaline-driven movement", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C006",
+      "anchor": { "line_start": 50, "line_end": 50, "quote": "Serotonin regulation maintaining artificial equilibrium" },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Asserts a serotonin mechanism for Type 9 numbing as literal physiology; no source, and the typology-hormone mapping is not an established finding.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Serotonin regulation maintaining artificial equilibrium", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C007",
+      "anchor": { "line_start": 56, "line_end": 56, "quote": "Each type runs a dominant hormonal loop — the body's chemical signature of defense in action" },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The general claim under which C004–C006 fall: a one-to-one mapping of Enneagram types to dominant hormones is asserted as fact with no empirical trace.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Each type runs a dominant hormonal loop", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C008",
+      "anchor": { "line_start": 64, "line_end": 64, "quote": "These are not metaphors. They are the body's chemical execution of the defense script." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-REMODE", "R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Explicitly forecloses the metaphorical reading and asserts literal endocrine reduction ('Your type is the hormone your nervous system defaults to under load'); no evidence supports the literal claim, so it fails as empirical assertion and cannot shelter as metaphor.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "These are not metaphors.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C009",
+      "anchor": { "line_start": 82, "line_end": 82, "quote": "Every type has an integration direction — the arrow that points toward capacity, not comfort." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Integration/disintegration arrows are a documented feature of the Enneagram system (Riso–Hudson and related lineages); the report of the teaching is accurate. Type names used later (Investigator, Challenger, Peacemaker) also match the Riso–Hudson nomenclature.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Every type has an integration direction", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C010",
+      "anchor": { "line_start": 84, "line_end": 88, "quote": "Type 5 integrates toward 8" },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "All three arrows cited (5→8, 4→1, 7→5) match the standard direction of integration (1-7-5-8-2-4-1); the traditional teaching is represented accurately.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Type 5 integrates toward 8", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C011",
+      "anchor": { "line_start": 70, "line_end": 70, "quote": "\"I run Type 5 defense architecture under stress\" is diagnostic." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The observer-versus-inertia distinction is the article's house vocabulary, defined through use and applied consistently; internally coherent as a model of self-observation.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "is diagnostic", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C012",
+      "anchor": { "line_start": 74, "line_end": 74, "quote": "The Enneagram becomes useful the moment you stop being your type and start observing your type." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Normative thesis internal to the article's declared observer/inertia frame; coherent on its own terms.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "stop being your type and start observing your type", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C013",
+      "anchor": { "line_start": 90, "line_end": 90, "quote": "Integration is not becoming a different type. It is the body walking the direction that inertia resists most." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "House gloss on the traditional integration doctrine; consistent with the article's observer/body/inertia model.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "Integration is not becoming a different type.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    },
+    {
+      "id": "C014",
+      "anchor": { "line_start": 104, "line_end": 104, "quote": "Your type is real. It runs real chemistry. It produces real behavior." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Closing restatement of the unsupported endocrine literalism (C004–C008): 'runs real chemistry' asserts a hormonal substrate for type with no evidence.",
+      "legacy": { "anchor": "none — blind v2.3.1 pass", "quote": "It runs real chemistry.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited." }
+    }
+  ]
+}

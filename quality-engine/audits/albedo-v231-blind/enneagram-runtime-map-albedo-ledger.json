@@ -1,0 +1,544 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "enneagram-runtime-map.md",
+  "source_path": "src/content/posts/enneagram-runtime-map.md",
+  "source_sha256": "b84f38ced33fd580742b45b3c59986d053eac5db6ce2f03382e669952ec9711f",
+  "legacy_audit_path": "quality-engine/audits/nigredo/enneagram-runtime-map.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 40,
+        "quote": "Three layers form the runtime map of any Enneagram type:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The Trigger–Defense–Cost triad is explicitly defined, operated consistently across every type invoice, and is structurally consequential to the entire post; its provenance is the declared house derivation within the essay itself.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Three layers form the runtime map of any Enneagram type:",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Perceived incompetence (Type 1). Perceived abandonment (Type 6). Perceived insignificance (Type 3)."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "These are faithful compressed paraphrases of mainstream Enneagram core-fear teaching (Type 1 inner critic/error, Type 6 loss of support, Type 3 worthlessness); the named tradition is the Enneagram and no quotation is fabricated.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Perceived incompetence (Type 1). Perceived abandonment (Type 6). Perceived insignificance (Type 3).",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "It scans for this class of threat continuously, below conscious awareness, and fires when the threshold is crossed."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal mechanistic claim about continuous sub-conscious threat surveillance by the nervous system is asserted without any source, population, or measure; adjacent science exists but nothing in the post supports this strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It scans for this class of threat continuously, below conscious awareness, and fires when the threshold is crossed.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "The defense runs at approximately 300 milliseconds — state speed, not story speed."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A pseudo-precise 300 ms latency for completion of a defensive behavioral sequence has no cited instrument, study, or canonical result; the number is consequential to the essay's timing argument but has no demonstrated provenance.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The defense runs at approximately 300 milliseconds — state speed, not story speed.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "It fires in any environment that pattern-matches to the original threat, regardless of whether the current situation actually requires it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal stimulus-generalization claim ('any environment... regardless') is stated as psychological fact with no source; it overreaches what the post can support even though it echoes conditioning literature.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It fires in any environment that pattern-matches to the original threat, regardless of whether the current situation actually requires it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 56,
+        "quote": "Withdrawal. Information hoarding. Reduced surface area."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Type 5 trigger (depletion under social demand) and defense (withdrawal, hoarding) faithfully paraphrase standard Enneagram teaching on the Five's avarice and fear of depletion; the house siege-protocol imagery is layered on top without distorting the attribution.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Withdrawal. Information hoarding. Reduced surface area.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "That is inertia's accounting ledger — the running total of every withdrawal that purchased safety at the price of participation."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Type 5 cost (isolation, underdeveloped embodiment) is the author's synthesis of the Enneagram pattern with the declared house accounting frame; Noesis authorship is visible in the inertia-ledger vocabulary and the conclusion stays at interpretive strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "That is inertia's accounting ledger — the running total of every withdrawal that purchased safety at the price of participation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 64,
+        "quote": "Assertion. Expanded presence. Preemptive confrontation."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Type 8 trigger (perceived vulnerability/loss of control) and defense (assertion, preemptive confrontation) are faithful paraphrases of mainstream Enneagram teaching on the Eight's lust and fear of being controlled.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Assertion. Expanded presence. Preemptive confrontation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The nervous system floods adrenaline, the body occupies more space, the voice gains volume, the posture opens into what reads as confidence but is actually territorial display."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A specific psychophysiological causal sequence (adrenaline flood → postural/vocal expansion → 'territorial display') is asserted as fact for a named personality defense with no source or measure; plausible fight-response gloss but unsupported at this strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The nervous system floods adrenaline, the body occupies more space, the voice gains volume, the posture opens into what reads as confidence but is actually territorial display.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The bill comes due in intimacy — the one domain where sovereignty purchased by dominance is not legal tender."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Type 8 cost (trust erosion, inability to receive) is a house synthesis of the Enneagram pattern with the accounting frame; the currency metaphor is declared house idiom and the inference stays interpretive.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The bill comes due in intimacy — the one domain where sovereignty purchased by dominance is not legal tender.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 72,
+        "quote": "Giving. Anticipating needs. Making yourself indispensable."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Type 2 trigger (perceived rejection, being unnecessary) and defense (giving, indispensability) faithfully paraphrase standard Enneagram teaching on the Two's pride and fear of being unwanted.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Giving. Anticipating needs. Making yourself indispensable.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The cost is authorship — the capacity to want something for yourself, independent of what others need."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Type 2 cost (resentment, self existing only in relation to others' needs) is the author's house synthesis of the Two pattern with the accounting frame, with visible Noesis authorship and interpretive-strength conclusion.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The cost is authorship — the capacity to want something for yourself, independent of what others need.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Not what you do after deliberation — what happens in the first 300 milliseconds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 300 ms figure recurs as the procedural window for pre-choice behavior; it remains pseudo-precise with no source, instrument, or canonical measurement behind it, though the diagnostic protocol leans on it.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Not what you do after deliberation — what happens in the first 300 milliseconds.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "The body holds the running total of every defense that fired in situations that did not require it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Somatic bookkeeping is declared house idiom ('that is where inertia keeps the books') and the type-to-body mappings (Type 1 shoulders, Type 4 chest, Type 9 gut) operate consistently inside that declared model rather than as anatomical measurements.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The body holds the running total of every defense that fired in situations that did not require it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "The Enneagram is not a personality quiz. It is an accounting system for unconscious expenditure."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The accounting-system reframing is consistently developed as the author's declared lens across the whole essay (the runtime map 'makes this accounting visible'), and is internally coherent as a house frame rather than an empirical claim about the Enneagram's history.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Enneagram is not a personality quiz. It is an accounting system for unconscious expenditure.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 102,
+        "quote": "Seeing the invoice does not cancel the debt. But it stops you from accruing new charges at the old rate."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The extended invoice/debt/balance-sheet imagery is the post's declared accounting metaphor for awareness altering future defensive behavior; no literal financial, numeric, or causal prediction is extracted from it.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Seeing the invoice does not cancel the debt. But it stops you from accruing new charges at the old rate.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    }
+  ]
+}

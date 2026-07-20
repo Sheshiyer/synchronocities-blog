@@ -1,0 +1,523 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "reptilian-bios-architecture.md",
+  "source_path": "src/content/posts/reptilian-bios-architecture.md",
+  "source_sha256": "79e7ef09e4c5d12d5d6122f9c5c350320f5de2c9d683994eb0cffec5b1cd1e1d",
+  "legacy_audit_path": "quality-engine/audits/nigredo/reptilian-bios-architecture.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The reptilian brain is your biological BIOS."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The BIOS lens is introduced as the post's sustained framing device after an extended description of computer firmware (L27); the figurative construction is explicit at this anchor. The later claim that the parallel is 'not analogical' (L66) is assessed separately at C002.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The reptilian brain is your biological BIOS.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The structural parallels between computer BIOS and reptilian brain architecture are not analogical — they are convergent."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR", "R-REMODE", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim explicitly denies the analogy's figurative status and asserts literal engineering convergence between firmware and neural tissue with no evidence of any shared design process or measured homology — an undeclared-but-load-bearing metaphor laundered into a mechanism claim.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The structural parallels between computer BIOS and reptilian brain architecture are not analogical — they are convergent.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "It detects novelty, assesses threat, evaluates food potential, and — if none of these triggers fire — maintains current state."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A functional specification of the 'reptilian brain' asserted as settled fact; it derives from the triune-brain framing without any cited source, population, or measure, and oversimplifies distributed subcortical function.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It detects novelty, assesses threat, evaluates food potential, and — if none of these triggers fire — maintains current state.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "This is the most efficient processing architecture evolution has ever produced."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Superlative efficiency claim across all evolved systems with no metric, comparison class, or source; unfalsifiable as stated.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This is the most efficient processing architecture evolution has ever produced.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "The reptilian brain — technically the brainstem and basal ganglia — operates through three primary hardware components:"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The parenthetical 'technically' presents MacLean's triune-brain equation (reptilian complex = brainstem + basal ganglia) as current anatomical fact; the model is contested in contemporary neuroscience and no source is given.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The reptilian brain — technically the brainstem and basal ganglia — operates through three primary hardware components:",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "This small region in the midbrain coordinates the body's most fundamental responses: pain modulation, defensive behavior, vocalization, and cardiovascular regulation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The listed periaqueductal gray functions (pain modulation, defensive behavior, vocalization, cardiovascular regulation) match established neuroanatomy at the stated strength; no exaggeration beyond the textbook record.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This small region in the midbrain coordinates the body's most fundamental responses: pain modulation, defensive behavior, vocalization, and cardiovascular regulation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "handling respiration, heart rate, blood pressure, and arousal level without any input from conscious awareness. You do not decide to breathe. The brainstem decides for you, approximately 20,000 times per day"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "PASS" },
+        "evidence_eligible": false
+      },
+      "rationale": "Brainstem control of autonomic functions is accurate. The ~20,000 breaths/day figure is a reasonable hedged estimate (12–20 breaths/min yields ~17,000–29,000/day) but is ornamental: removing it changes nothing in the thesis, so the quantity is decorative rather than load-bearing.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The brainstem decides for you, approximately 20,000 times per day",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "spinal reflexes that withdraw your hand from a hot surface before the brainstem even receives the pain signal"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The spinal withdrawal reflex arc (response initiated before ascending pain signals reach higher centers) is established physiology and is stated at an accurate strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "spinal reflexes that withdraw your hand from a hot surface before the brainstem even receives the pain signal",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 62,
+        "quote": "const reptilianBIOS = {"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The JavaScript block is an explicit formal analogy (a model object literal, not source code of anything biological); no literal numeric or causal inference is extracted from it at this anchor.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "const reptilianBIOS = {",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "The reptilian brain runs on minimal caloric expenditure, occupies minimal neural volume relative to its functional range, and processes at speeds that the neocortex cannot match."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Three comparative efficiency claims ('minimal caloric expenditure', 'minimal neural volume relative to functional range', unmatched speed) asserted without measures or sources, and riding on the conflated convergence frame of C002.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The reptilian brain runs on minimal caloric expenditure, occupies minimal neural volume relative to its functional range, and processes at speeds that the neocortex cannot match.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "A snake can strike in 60-100 milliseconds. A human blink takes 300-400 milliseconds. The reptilian processor is three to four times faster than your conscious eye can close."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-PROVENANCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The figures sit near the literature ballpark (Penning et al. 2016 report ~50–90 ms strikes; blink durations of ~200 ms up to 250–400 ms for the full cycle are cited elsewhere) but are uncited, and the derived 'three to four times faster' ratio maps a snake's motor strike onto human neural processing speed — a cross-category comparison stated without justification or provenance.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "A snake can strike in 60-100 milliseconds. A human blink takes 300-400 milliseconds.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 91,
+        "quote": "The reptilian decision tree has exactly four nodes:"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SPLIT", "R-REMODE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A formalized decision tree is asserted as literal neural architecture ('exactly four nodes') without declaration as a model and without ethological or neurophysiological evidence for the exact node count or binary structure.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The reptilian decision tree has exactly four nodes:",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "In actual reptiles, this is literal — metabolic rate, processing speed, and behavioral capacity all scale with ambient temperature."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Thermal dependence of metabolic rate and behavioral capacity in ectotherms is established comparative physiology and is stated at an accurate strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "In actual reptiles, this is literal — metabolic rate, processing speed, and behavioral capacity all scale with ambient temperature.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "Core body temperature modulates brainstem function. Hypothermia slows processing. Fever accelerates it. The PAG's pain modulation is temperature-sensitive."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Hypothermia slowing CNS processing is supported, but 'fever accelerates processing' and the PAG temperature-sensitivity claim are asserted without sources and stated more strongly than available evidence warrants.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Core body temperature modulates brainstem function. Hypothermia slows processing. Fever accelerates it. The PAG's pain modulation is temperature-sensitive.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "This maps directly to computer BIOS, where clock speed detection occurs at boot time and adjusts processing parameters accordingly."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The analogical mapping is explicitly marked ('maps directly to') and draws no literal numeric or causal inference from the comparison.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This maps directly to computer BIOS, where clock speed detection occurs at boot time and adjusts processing parameters accordingly.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "The reptilian BIOS boots first. Always. In every human, on every morning, after every loss of consciousness."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universalized wake-up ordering claim ('Always. In every human') carried inside the BIOS metaphor; plausible in outline (brainstem functions precede full cortical reassembly) but absolute in scope and unsourced.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The reptilian BIOS boots first. Always. In every human, on every morning, after every loss of consciousness.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 105,
+        "line_end": 105,
+        "quote": "This is why trauma responses bypass conscious awareness. They are not processed by the neocortex because they are handled at the BIOS level"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-CAUSE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Fast subcortical threat pathways are documented, but the absolute claim that trauma responses are 'not processed by the neocortex' overstates the evidence; trauma processing involves distributed cortical-subcortical circuits, and no source is cited.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This is why trauma responses bypass conscious awareness. They are not processed by the neocortex because they are handled at the BIOS level",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 107,
+        "line_end": 107,
+        "quote": "This is what exposure therapy does — it provides the reptilian pattern-matcher with new data that reclassifies previously threatening stimuli as non-threatening."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The description matches the accepted extinction-learning account of exposure therapy (new safety learning that inhibits the threat association) at the stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This is what exposure therapy does — it provides the reptilian pattern-matcher with new data that reclassifies previously threatening stimuli as non-threatening.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 109,
+        "line_end": 109,
+        "quote": "It learns the way firmware updates: slowly, through repeated exposure, and only when the system is in a safe-enough state to accept the new instructions."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The firmware-update comparison is explicitly analogical ('learns the way firmware updates'); the embedded safety-gating proposition is carried by the declared analogy and no literal prediction is extracted at this anchor.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It learns the way firmware updates: slowly, through repeated exposure, and only when the system is in a safe-enough state to accept the new instructions.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    }
+  ]
+}

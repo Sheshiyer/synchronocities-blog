@@ -1,0 +1,631 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "signal-state-story-debug-edition.md",
+  "source_path": "src/content/posts/signal-state-story-debug-edition.md",
+  "source_sha256": "addcf393fdf28009e0db4df286f6d8840e6486db62fa83a6d6236cabd6254edf",
+  "legacy_audit_path": "quality-engine/audits/nigredo/signal-state-story-debug-edition.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Your body fires a signal at approximately 80 milliseconds before your nervous system locks into a state at approximately 300 milliseconds before your mind constructs a story to explain both at approximately 800 milliseconds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-PROVENANCE", "R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pseudo-precise latency figures (80/300/800 ms) anchor the entire thesis but cite no instrument, population, or study; no canonical result supports these values. The numbers are consequential to the argument but unprovenanced. Repeated at L51/53/55, echoed as '720 milliseconds earlier' at L65 and 'At 80 milliseconds' at L69. (Schema constrains DECORATIVE rows to correctness=PASS; the failing lock here is provenance, correctness being unassessable.)",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Your body fires a signal at approximately 80 milliseconds before your nervous system locks into a state at approximately 300 milliseconds before your mind constructs a story to explain both at approximately 800 milliseconds.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "Most self-work operates exclusively at Story."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sweeping quantified generalization about self-work frameworks with no survey or evidence; echoed at L37 ('Almost all of them') and L132 ('Most frameworks hand you a better story').",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Most self-work operates exclusively at Story.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Cognitive restructuring: rewrite the story. Affirmations: overwrite the story. Reframing: edit the story. Parts work, in many implementations: negotiate between competing stories."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Classification of named modalities through the post's declared layer model; the mappings are recognizable one-line glosses of each modality's narrative mechanism and the parts-work clause is hedged ('in many implementations'). Internally consistent application of the house lens.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Cognitive restructuring: rewrite the story. Affirmations: overwrite the story. Reframing: edit the story. Parts work, in many implementations: negotiate between competing stories.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Then the trigger fires and your body does what it was always going to do, and your story-layer catches up three seconds later with \"I thought I was past this.\""
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Reader-addressed phenomenological report ('You have had the experience', L43) of somatic override following narrative work; checkable against the reader's own experience, with 'three seconds' plainly idiomatic rather than measured.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Then the trigger fires and your body does what it was always going to do, and your story-layer catches up three seconds later with \"I thought I was past this.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "You were not past it. You redecorated a room in a building with a cracked foundation."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Transparent building/decorating image for surface-level change over structural change; no literal inference is drawn from the comparison.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "You were not past it. You redecorated a room in a building with a cracked foundation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Three layers. Not metaphor — architecture:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An explicit anti-metaphor declaration presents the Signal/State/Story interpretive model as literal mental architecture while its timing figures and mechanisms remain unsupported (C001, C008); the claim boundary between house model and external fact is dishonest as stated.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Three layers. Not metaphor — architecture:",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 55,
+        "quote": "**Signal (Ba)** — Raw somatic input. Sensation, charge, pre-verbal body telemetry."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The three layer definitions (Signal/Ba, State/La, Story/Kha) are explicitly defined house vocabulary and are used consistently throughout the post; the attached 'Speed: approximately N milliseconds' figures are assessed separately under C001.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Signal (Ba)** — Raw somatic input. Sensation, charge, pre-verbal body telemetry.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Signal fires first. State locks in second. Story arrives last and claims it was there the whole time."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal temporal-causal ordering of mental processing asserted as fact; no cited evidence establishes this fixed sequence as architecture of mind (the neuroscience appeal at L59 fails separately as C009/C010).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Signal fires first. State locks in second. Story arrives last and claims it was there the whole time.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "This is not speculative. The timing maps to established neuroscience — interoceptive signaling precedes autonomic nervous system state shifts, which precede prefrontal narrative construction."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The specific cascade (interoception → autonomic state shift → prefrontal narrative) with fixed precedence is not an established result in neuroscience; the strong 'This is not speculative' framing outruns any cited evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "This is not speculative. The timing maps to established neuroscience — interoceptive signaling precedes autonomic nervous system state shifts, which precede prefrontal narrative construction.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Damasio's somatic marker hypothesis, Porges's polyvagal architecture, Libet's readiness potential work — different vocabularies, same temporal sequence."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Three distinct research programs — somatic markers in decision-making (Damasio), autonomic state hierarchy (Porges), and volitional readiness potentials (Libet) — are represented as one shared temporal sequence; none of the three sources describes the 80/300/800 ms cascade, so the attribution materially misrepresents their content.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Damasio's somatic marker hypothesis, Porges's polyvagal architecture, Libet's readiness potential work — different vocabularies, same temporal sequence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "the resolution of your intervention determines the resolution of your result."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Stated as the model's operational principle and applied consistently through the State/Signal intervention discussion; internally coherent house axiom (repeated verbatim at L128).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the resolution of your intervention determines the resolution of your result.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "This is what somatic experiencing, polyvagal-informed work, and EMDR operate at — changing the nervous system's locked configurations. Meaningfully more effective than Story-layer work, because you are operating upstream."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A comparative effectiveness claim ('meaningfully more effective than Story-layer work') across named modalities is asserted without any cited outcome data; the modality characterizations themselves are broadly fair but the comparative strength is unsupported.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "This is what somatic experiencing, polyvagal-informed work, and EMDR operate at — changing the nervous system's locked configurations. Meaningfully more effective than Story-layer work, because you are operating upstream.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "You learn to read Signal directly. Four parameters:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The four-parameter tracking protocol (location, quality, direction, tempo; L84–90) is declared house practice vocabulary, internally consistent and framed as instruction rather than measured fact.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "You learn to read Signal directly. Four parameters:",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "When you track these four parameters in real time, something specific happens: State becomes visible before it locks in."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Practice-outcome report the reader can replicate (the post supplies the one-day protocol at L120–126 as the checking procedure); scope is the practitioner's own observation. Echoed at L126.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "When you track these four parameters in real time, something specific happens: State becomes visible before it locks in.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "**Emotion lives between State and Story.** It is the interpretive bridge — State's raw nervous system configuration getting its first layer of meaning applied."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Defines emotion's position inside the declared layer model and uses the definition consistently (label bridging State into Story); a model-internal classification, not an asserted measurement.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Emotion lives between State and Story.** It is the interpretive bridge — State's raw nervous system configuration getting its first layer of meaning applied.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "**Dissociation is a layer-specific failure.** The observer over-invests while the body goes offline."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Recasts the clinical term dissociation in declared house vocabulary (observer/body disconnection); internally consistent with the layer model, though it does not engage the clinical literature on the term it borrows.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Dissociation is a layer-specific failure.** The observer over-invests while the body goes offline.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "**Freeze is a State-layer lock.** Inertia in its most literal electrical form."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Model-internal classification of freeze (immobilization groove collapsing Signal and Story into State); consistent with the declared frame and with the popular polyvagal usage it draws on.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Freeze is a State-layer lock.** Inertia in its most literal electrical form.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "**Compulsive action is Signal without observer.** The body fires, inertia grooves into a mobilization pattern, consciousness is absent."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Model-internal account of compulsive action; the closing universal ('the structure of every I-don't-know-why-I-did-that moment') is an in-frame generalization consistent with the model's definitions.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Compulsive action is Signal without observer.** The body fires, inertia grooves into a mobilization pattern, consciousness is absent.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "Parts are State-Story composites — a locked nervous system configuration with an attached narrative identity. Unburdening is releasing the State lock so the Story can update."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Mapping of IFS concepts into the layer model under the section's declared purpose ('offering a layer model that maps onto them', L108); the IFS terminology (parts, unburdening) is used recognizably and the synthesis authorship is clear.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Parts are State-Story composites — a locked nervous system configuration with an attached narrative identity. Unburdening is releasing the State lock so the Story can update.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "Ventral vagal, sympathetic, dorsal vagal — three State configurations. Porges's contribution is making State visible and nameable."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared mapping of polyvagal theory onto the State layer; the attribution of the ventral/sympathetic/dorsal triad to Porges is accurate, and the synthesis question ('what is happening at Signal before the polyvagal state locks in?') is honestly framed as the model's own extension.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Ventral vagal, sympathetic, dorsal vagal — three State configurations. Porges's contribution is making State visible and nameable.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "Pendulation, titration, discharge — these are State-layer interventions informed by Signal-layer tracking. Levine's work is essentially: read Signal, interrupt State before it completes its cycle, let the body renegotiate."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared mapping of Somatic Experiencing onto the model; pendulation/titration/discharge are accurately attributed Levine/SE terms and the 'essentially' gloss is explicitly the author's synthesis.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Pendulation, titration, discharge — these are State-layer interventions informed by Signal-layer tracking. Levine's work is essentially: read Signal, interrupt State before it completes its cycle, let the body renegotiate.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "The shadow is not a narrative you have suppressed — it is a nervous system configuration you have dissociated from."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared reinterpretation of the Jungian shadow through the layer model; coherent as house synthesis, but the corrective 'is not / is' phrasing overstates the mapping as a factual correction of Jung rather than an alternative framing, hence the scope repair.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The shadow is not a narrative you have suppressed — it is a nervous system configuration you have dissociated from.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Or in software terms: patching the UI versus modifying the runtime versus kernel-level access."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly marked analogy ('Or in software terms') mapping Story/State/Signal onto UI/runtime/kernel; no literal software claim follows. Same image family as L31's 'patching the UI while the kernel runs unchecked'.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Or in software terms: patching the UI versus modifying the runtime versus kernel-level access.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    }
+  ]
+}

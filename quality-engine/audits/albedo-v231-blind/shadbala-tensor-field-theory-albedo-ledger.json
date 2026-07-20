@@ -1,0 +1,820 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "shadbala-tensor-field-theory.md",
+  "source_path": "src/content/posts/shadbala-tensor-field-theory.md",
+  "source_sha256": "42842a5c51a02664facfe35ccbc9a2c05530afc83c0590f3da807caf6422a1e0",
+  "legacy_audit_path": "quality-engine/audits/nigredo/shadbala-tensor-field-theory.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 31,
+        "quote": "A planet's strength is not a number. It is a vector in six-dimensional space — and vectors, unlike scalars, have direction."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Epigraph attributes a doctrinal statement to a named text, 'Field Coherence Manual', which is not traceable outside the house corpus; the quotation's provenance cannot be verified and must be sourced or declared as house scripture.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "A planet's strength is not a number. It is a vector in six-dimensional space — and vectors, unlike scalars, have direction.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Most quantitative systems reduce complex phenomena to a single score. Credit scores. IQ scores. Stock prices."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sweeping quantitative claim about 'most' quantitative systems offered without evidence; examples are heterogeneous (a stock price is not a 'score' of a complex phenomenon in the same sense as IQ). Needs scoping or support.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Most quantitative systems reduce complex phenomena to a single score. Credit scores. IQ scores. Stock prices.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "The Vedic Shadbala system refuses this reduction. Instead, it evaluates each planet across six independent strength dimensions"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Shadbala is accurately described as the six-fold planetary strength system of Vedic astrology (BPHS chapters 27–39); the six-dimension characterization matches the tradition.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Vedic Shadbala system refuses this reduction. Instead, it evaluates each planet across six independent strength dimensions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 44,
+        "quote": "**Sthana Bala** — positional strength (which house and sign the planet occupies)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The six balas (sthana, dig, kala, chesta, naisargika, drik) and their glosses match the classical Shadbala definitions; the naisargika ordering error within the list is extracted separately as C005.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Sthana Bala** — positional strength (which house and sign the planet occupies)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "inherent luminosity hierarchy: Sun > Moon > Venus > Jupiter > Mars > Mercury > Saturn"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The traditional Naisargika Bala hierarchy ranks Mercury above Mars (fixed virupa values Sun 60, Moon 51.43, Venus 42.86, Jupiter 34.29, Mercury 25.71, Mars 17.14, Saturn 8.57). The post swaps Mars and Mercury, misrepresenting the tradition it cites.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "inherent luminosity hierarchy: Sun > Moon > Venus > Jupiter > Mars > Mercury > Saturn",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "This independence is the defining feature of a tensor — a multi-dimensional quantity whose components transform independently under coordinate changes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Demonstrably false definition: tensors are defined by transformation laws that link components under coordinate changes (Jacobian products); components do not 'transform independently', and component independence is not the defining feature of a tensor. A tuple of independent scores is precisely what a tensor is not.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "This independence is the defining feature of a tensor — a multi-dimensional quantity whose components transform independently under coordinate changes.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "The stress tensor in continuum mechanics describes force distributions across three spatial dimensions. The Riemann curvature tensor in general relativity describes spacetime curvature across four dimensions."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard expository physics: rank generalization (scalar/vector/matrix), the stress tensor, and the Riemann curvature tensor are described accurately. Definitional background rather than operative computation, so no math gate applies.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The stress tensor in continuum mechanics describes force distributions across three spatial dimensions. The Riemann curvature tensor in general relativity describes spacetime curvature across four dimensions.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "the diagonal elements carry the primary strengths — sthana, dig, and kala — while the off-diagonal elements carry the interaction terms — chesta, naisargika, and drik"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-PROVENANCE", "R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "No mapping rule is given for embedding six Shadbala components into the 27 slots of a rank-3 3x3x3 tensor, and the diagonal/off-diagonal split borrows authority from the rank-2 stress-energy tensor without demonstrated structural correspondence. The mapping is asserted, not derived.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the diagonal elements carry the primary strengths — sthana, dig, and kala — while the off-diagonal elements carry the interaction terms — chesta, naisargika, and drik",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "The tensor contraction — summing over paired indices — produces the total Shadbala score, analogous to taking the trace of a matrix. But the trace loses information."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The trace comparison is explicitly marked with 'analogous to' and no literal numeric inference is drawn from it; the information-loss remark stays at the level of the declared comparison.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The tensor contraction — summing over paired indices — produces the total Shadbala score, analogous to taking the trace of a matrix. But the trace loses information.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "The gradient of a field points in the direction of maximum increase. The divergence measures whether a point is a source or sink. The curl measures rotation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct standard glosses of field, gradient, divergence, and curl; expository background with no operative computation in this sentence.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The gradient of a field points in the direction of maximum increase. The divergence measures whether a point is a source or sink. The curl measures rotation.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "Applying these operators to the Shadbala tensor field produces a map of planetary influence that is far richer than the traditional strength score."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "No actual application of gradient/divergence/curl to a defined Shadbala field is demonstrated, and the comparative claim 'far richer than the traditional strength score' is asserted without any computed example or metric of richness.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Applying these operators to the Shadbala tensor field produces a map of planetary influence that is far richer than the traditional strength score.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "A planet with a strong positive gradient is gaining influence; one with a strong negative gradient is losing it."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The gradient-interpretation layer inherits the failed tensor mapping (C006, C008): since no valid Shadbala field or gradient was ever constructed, claims about what the gradient 'reveals' have no demonstrated referent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "A planet with a strong positive gradient is gaining influence; one with a strong negative gradient is losing it.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "Traditional Vedic astrology captures this through qualitative assessment — an experienced astrologer intuits the direction of change."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Fair generic characterization of traditional jyotish practice as qualitative assessment by experienced practitioners; no specific doctrine is misrepresented.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Traditional Vedic astrology captures this through qualitative assessment — an experienced astrologer intuits the direction of change.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "The tensor formulation makes the intuition explicit and computable."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Computability is asserted but never demonstrated: the accompanying code (L46–57, L65–82, L94–108) is non-functional stub material (see C030), so the claim that the formulation 'makes the intuition computable' has no working referent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The tensor formulation makes the intuition explicit and computable.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "Massive objects warp the metric tensor, bending the paths of nearby objects — this is gravity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate popular-level description of the role of the metric tensor in general relativity; expository background.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Massive objects warp the metric tensor, bending the paths of nearby objects — this is gravity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 118,
+        "line_end": 118,
+        "quote": "The Shadbala tensor implicitly defines a metric on the space of consciousness. Strong planets curve the experiential space around them"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-SYNTHESIS", "R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "No distance function on any 'space of consciousness' is defined, so no metric exists to be 'implicitly defined'; the curvature language is a load-bearing literal-sounding metaphor presented as mechanism. Provenance and construction are absent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Shadbala tensor implicitly defines a metric on the space of consciousness. Strong planets curve the experiential space around them",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "These couplings are not additive — they are multiplicative, producing nonlinear effects that the scalar total cannot capture."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-PROVENANCE", "R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A specific mathematical property (multiplicative, nonlinear coupling between bala dimensions) is asserted with no derivation, formula, or traditional source; traditional Shadbala is in fact a weighted additive sum of components, which the claim does not engage.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "These couplings are not additive — they are multiplicative, producing nonlinear effects that the scalar total cannot capture.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "The electromagnetic field tensor in physics is a rank-2 antisymmetric tensor that unifies electric and magnetic fields into a single mathematical object."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate description of the Faraday tensor F_μν and the frame-dependence of electric/magnetic decomposition; standard physics exposition.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The electromagnetic field tensor in physics is a rank-2 antisymmetric tensor that unifies electric and magnetic fields into a single mathematical object.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "Naisargika bala is the invariant — the natural strength that remains constant regardless of reference frame, analogous to the speed of light."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The electric/magnetic/invariant reading is explicitly framed as interpretation ('admits a similar interpretation', 'analogous to the speed of light') and draws no literal physical inference.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Naisargika bala is the invariant — the natural strength that remains constant regardless of reference frame, analogous to the speed of light.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "They are components of a unified tensor that only appears contradictory when projected onto lower-dimensional interpretive frameworks."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The resolution of chart-interpretation 'contradictions' via tensor unification depends entirely on the failed tensor construction (C006, C008); with the ingredient invalid, the synthesis conclusion is unsupported.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "They are components of a unified tensor that only appears contradictory when projected onto lower-dimensional interpretive frameworks.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 132,
+        "line_end": 132,
+        "quote": "The total Shadbala of all seven planets defines the field coherence of the chart."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Traditional Shadbala does cover the seven classical grahas (Sun through Saturn) summed into a total score; 'field coherence' is house vocabulary applied to that accurate traditional fact.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The total Shadbala of all seven planets defines the field coherence of the chart.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 132,
+        "line_end": 132,
+        "quote": "Low total Shadbala indicates a turbulent field — high curvature, strong gradients, and rapid variation."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS", "R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Mapping high/low total Shadbala to smooth/turbulent tensor fields presupposes the undefined metric and curvature of C016; no curvature measure on charts exists to make this correspondence evaluable.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Low total Shadbala indicates a turbulent field — high curvature, strong gradients, and rapid variation.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 134,
+        "line_end": 134,
+        "quote": "The Lorenz attractor, after all, requires turbulence to produce its characteristic butterfly pattern."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Lorenz system is a low-dimensional deterministic chaotic ODE truncated from convection equations; its butterfly attractor arises from sensitive dependence, not from 'turbulence', which it does not model. Rhetorical aside carrying factual weight without support.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Lorenz attractor, after all, requires turbulence to produce its characteristic butterfly pattern.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "The seers who developed Shadbala were field theorists working without the formalism of differential geometry. They computed tensor components by hand, tracked gradients through decades of observation"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-SOURCE", "R-DELETE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "No historical evidence supports this: Shadbala as codified in BPHS is weighted arithmetic scoring, not field theory, tensor components, or gradient tracking. The textual record contradicts the claimed practice.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The seers who developed Shadbala were field theorists working without the formalism of differential geometry. They computed tensor components by hand, tracked gradients through decades of observation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "The mathematics they discovered is the same mathematics that Einstein needed to describe gravity. The application domain is different. The tensor algebra is identical."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-DELETE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserting identity between Shadbala arithmetic and the tensor calculus of general relativity is historically and mathematically false; no tensor algebra appears in the Shadbala tradition.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The mathematics they discovered is the same mathematics that Einstein needed to describe gravity. The application domain is different. The tensor algebra is identical.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 140,
+        "line_end": 140,
+        "quote": "**Kha (The Field)** — The Shadbala tensor is not a score. It is a recognition function."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kha paragraph explicitly operates the declared Kha-Ba-La house frame (section header 'Kha-Ba-La: The Tensor as Operating System'); as model vocabulary — field as recognition context, observer non-neutrality — it is internally consistent. The embedded crisis-reading gradient claim remains bound to the failed tensor construction but is framed within the model.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Kha (The Field)** — The Shadbala tensor is not a score. It is a recognition function.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 142,
+        "line_end": 142,
+        "quote": "They manifest as physiological states: Jupiter's expansion as arterial tone, Saturn's contraction as fascial holding, Mars's acceleration as sympathetic tonus."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SPLIT", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Specific measurable physiological correspondences (arterial tone, fascial holding, sympathetic tonus) are asserted as fact inside the Ba paragraph; per the house-model boundary, measured-effect claims must be split and tested empirically. No source, measure, or condition is offered.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "They manifest as physiological states: Jupiter's expansion as arterial tone, Saturn's contraction as fascial holding, Mars's acceleration as sympathetic tonus.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 142,
+        "line_end": 144,
+        "quote": "**Ba (The Embodied Computation)** — The tensor computes in the body of the astrologer and the body of the native."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Ba and La paragraphs operate the declared house frame (body as computation substrate; nonlinearity as resistance) with internal consistency as model vocabulary; the separately testable physiological assertions were split out as C027.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Ba (The Embodied Computation)** — The tensor computes in the body of the astrologer and the body of the native.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 146,
+        "line_end": 146,
+        "quote": "The natal chart is a kernel. The transit is a process. The reading is a context switch."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "OS vocabulary is the post's declared house register (established by the 'Runtime Version' header and the section title 'The Tensor as Operating System'); within that frame the kernel/process/context-switch mapping is consistent and draws no literal software claim.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The natal chart is a kernel. The transit is a process. The reading is a context switch.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 94,
+        "line_end": 108,
+        "quote": "strength_tensor = shadbala.calculate_tensor_field(planet_data)"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH", "R-DELETE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The presented implementation is internally inconsistent: analyze_planetary_field calls shadbala.calculate_tensor_field, a method never defined on ShadbalaSystem (L46–57), and PlanetaryTensorField contracts an unspecified 'shadbala_tensor' against a 3x3 identity metric over two axes — a shape mismatch with any six-component input. The code cannot run as shown, contradicting the computability claim of C014.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "strength_tensor = shadbala.calculate_tensor_field(planet_data)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    }
+  ]
+}

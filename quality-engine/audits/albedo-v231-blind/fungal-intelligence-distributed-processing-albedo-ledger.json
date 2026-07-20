@@ -1,0 +1,980 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "BOOTSTRAPPED",
+  "post": "fungal-intelligence-distributed-processing.md",
+  "source_path": "src/content/posts/fungal-intelligence-distributed-processing.md",
+  "source_sha256": "83c2f8a01c0f01404779345faf0503b0be0696c7590c4f35fbaa6df2fc2d83ff",
+  "legacy_audit_path": "quality-engine/audits/nigredo/fungal-intelligence-distributed-processing.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "I once watched a petri dish of *Pleurotus ostreatus* consume a stack of newspaper over three weeks."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Situated first-person observation with named observer, organism, substrate, and duration; the report stays at the level of what was watched and does not universalize beyond the recorded conditions.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "I once watched a petri dish of *Pleurotus ostreatus* consume a stack of newspaper over three weeks.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "It sent hyphal tips into the cellulose, secreted laccases and peroxidases, and reduced the Seattle Times to carbon and nitrogen without a single centralized instruction."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Enzyme identity (laccases, peroxidases) cannot be directly observed in a petri dish; this is a mechanism attribution consistent with established Pleurotus mycology but cited to no source in the post.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It sent hyphal tips into the cellulose, secreted laccases and peroxidases, and reduced the Seattle Times to carbon and nitrogen without a single centralized instruction.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Paul Stamets calls mycelium the neurological network of nature."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stamets's signature phrase 'the neurological network of nature' (Mycelium Running, 2005, and his 2008 TED talk) is represented accurately with the correct speaker.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Paul Stamets calls mycelium the neurological network of nature.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "A hyphal tip is a sensor, a processor, and a transmission node."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Hyphal-tip chemotropism and signal conduction are real, but the triple identity 'sensor, processor, transmission node' is a functional-computational gloss asserted as literal fact with no cited source.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "A hyphal tip is a sensor, a processor, and a transmission node.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "When *Armillaria ostoyae* spreads across 2,385 acres in Oregon's Malheur National Forest"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 2,385-acre figure matches the widely corroborated US Forest Service estimate for the Malheur Armillaria genet, and it is consequential to the scale thesis, but the post supplies no citation, so provenance is undemonstrated.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "When *Armillaria ostoyae* spreads across 2,385 acres in Oregon's Malheur National Forest",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The mat is alive and it is calculating. The two statements are identical."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The alive=calculating identity is the essay's own declared thesis, visibly authored from named ingredients (Stamets's framing plus observed behavior) and argued at interpretive strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The mat is alive and it is calculating. The two statements are identical.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The Hermetic Principle of Correspondence — *as above, so below* — is not mysticism when applied here."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The correspondence principle and its 'as above, so below' formula are correctly named to the Hermetic tradition (Emerald Tablet / Kybalion lineage); the attribution itself is accurate, separate from the use made of it.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Hermetic Principle of Correspondence — *as above, so below* — is not mysticism when applied here.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The mycelial network at the scale of a forest floor is the same network at the scale of a neural cortex, which is the same network at the scale of a galaxy."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Shared motifs (nodes, edges, gradients, feedback) support an analogy claim, but the asserted identity of network across biological, neural, and cosmological scales is a conclusion stronger than the traced ingredients permit.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The mycelial network at the scale of a forest floor is the same network at the scale of a neural cortex, which is the same network at the scale of a galaxy.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "The mushroom that solves a maze in a Japanese laboratory is doing so because it is starving and the agar is there."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The allusion is to real maze-solving experiments (Nakagaki et al. 2000, Physarum — a slime mold, not a mushroom), but the post names no source and mislabels the organism class; the motivational gloss 'because it is starving' is uncited interpretation.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The mushroom that solves a maze in a Japanese laboratory is doing so because it is starving and the agar is there.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "*Armillaria ostoyae* is not only a symbiont. It is a pathogen. It kills trees."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Armillaria root-rot pathogenicity is well established and the claim is accurate, but no source is cited in the post, so it fails the traceable-source condition at stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "*Armillaria ostoyae* is not only a symbiont. It is a pathogen. It kills trees.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 48,
+        "quote": "This is La — the inertia, the friction, the boundary that forces a system to metabolize rather than devour."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kha/Ba/La mapping (witness, substrate, resistance) is explicitly declared house vocabulary applied consistently to the mycelial case, including the substrate-dependence claim 'You cannot run distributed processing on air.'",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This is La — the inertia, the friction, the boundary that forces a system to metabolize rather than devour.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "In monoculture plantations where biodiversity has been flattened, the honey fungus runs rampant. There is no ecological resistance to check it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An ecological generalization about Armillaria behavior in monocultures is stated as fact; consistent with disease-pressure literature on stressed, low-diversity stands, but uncited and universally framed.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "In monoculture plantations where biodiversity has been flattened, the honey fungus runs rampant. There is no ecological resistance to check it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "I have tried to grow *Pleurotus* on sterilized coffee grounds in my kitchen three times."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Situated first-person cultivation report with named observer, organism, substrate, attempt count, and outcomes (two mold overruns, one fruiting with a failed second flush); stays within recorded conditions.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "I have tried to grow *Pleurotus* on sterilized coffee grounds in my kitchen three times.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "At Hokkaido University, Toshiyuki Nakagaki and his colleagues placed *Physarum polycephalum* on a map of Japan with oat flakes at the major cities. The slime mold recreated the Tokyo rail network in twenty-six hours, tuning for fault tolerance and redundancy with no central planner."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "An accurate report of the Tero/Nakagaki-group experiment (Tero et al., Science 2010): correct institution, organism, oat-flake method, ~26-hour network formation, and fault-tolerance comparison to Tokyo rail; the duration figure is correct, consequential to the engineering comparison, and traceable through the named attribution.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "At Hokkaido University, Toshiyuki Nakagaki and his colleagues placed *Physarum polycephalum* on a map of Japan with oat flakes at the major cities. The slime mold recreated the Tokyo rail network in twenty-six hours, tuning for fault tolerance and redundancy with no central planner.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "It is identical to simulated annealing in materials science and fundamentally different from how a CPU solves a problem."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Physarum foraging motivates network-optimization heuristics analogous to stochastic search, but 'identical to simulated annealing' asserts an algorithmic identity that the traced ingredients (one biological experiment) do not support; analogy strength is available, identity is not.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It is identical to simulated annealing in materials science and fundamentally different from how a CPU solves a problem.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "She found that Douglas fir seedlings shaded by older trees receive carbon transmitted through mycorrhizal networks from those same elders."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A faithful report of Suzanne Simard's (UBC) isotope-tracing program and its findings on source-to-sink carbon transfer through common mycorrhizal networks; represented as her finding, which it is — later replication debates about strength and generality do not make the attribution inaccurate.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "She found that Douglas fir seedlings shaded by older trees receive carbon transmitted through mycorrhizal networks from those same elders.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "This is not altruism. It is portfolio management in hyphae."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The portfolio/diversification framing is an explicitly contrastive interpretive analogy ('not altruism... portfolio management in hyphae'), with the illustrative twelve-host count serving the analogy rather than any measured claim.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This is not altruism. It is portfolio management in hyphae.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "It is a measurement. Simard's lab recorded it."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The aphid/VOC defense-signal transfer through common mycorrhizal networks described here matches Babikova et al. 2013 (Ecology Letters, University of Aberdeen) and related Song et al. studies — not a Simard-lab experiment; the named provenance appears materially wrong and needs source verification to confirm the correct laboratory.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It is a measurement. Simard's lab recorded it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The Wood Wide Web is not a cute name coined by a journalist."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The coinage denial is asserted without evidence and conflicts with the widely reported origin of 'wood wide web' as the journalistic cover framing of Simard et al.'s 1997 Nature paper; needs source adjudication before the denial can stand.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Wood Wide Web is not a cute name coined by a journalist.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "A fungus will abandon a struggling host if another offers better returns. It will concentrate phosphorus where the reward is highest."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Biological-market research (e.g., reciprocal-reward studies) supports preferential resource allocation, but 'will abandon a struggling host' is stronger than the cited-free evidence here; no source is given and the behavior is stated unconditionally.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "A fungus will abandon a struggling host if another offers better returns. It will concentrate phosphorus where the reward is highest.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "I keep returning to the Atharva Veda's concept of antar-agni, the fire within."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The attribution of a concept 'antar-agni' (inner fire) specifically to the Atharva Veda cannot be verified from the post and is not a standardly cited Atharva-vedic term in this auditor's knowledge; per the translation/source-check edge case it remains unsupported until a reliable edition or qualified attribution is supplied.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "I keep returning to the Atharva Veda's concept of antar-agni, the fire within.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The lignin peroxidases that break down tree fiber are pattern-matching routines running on molecular data."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The enzyme-as-algorithm / log-as-dataset framing operates inside the essay's explicitly declared literal-computation frame, with visible authorship and interpretive-strength conclusions; coherent as the declared synthesis.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The lignin peroxidases that break down tree fiber are pattern-matching routines running on molecular data.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "Every enzyme is an algorithm refined by three hundred million years of trial and error."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The ~300 My figure is consistent with published reconstructions of white-rot ligninolysis origins (Floudas et al. 2012, ~290 Ma), and it backs the deep-time computation thesis, but the post cites no source, so provenance is undemonstrated.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Every enzyme is an algorithm refined by three hundred million years of trial and error.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "Without this fire, dead plant matter would accumulate indefinitely. The carbon cycle would stall. The atmosphere would asphyxiate."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The counterfactual echoes the Carboniferous-coal hypothesis (lignin accumulation before white rot), but 'the atmosphere would asphyxiate' is rhetorical overreach beyond any mechanism the post traces, and no source is cited.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Without this fire, dead plant matter would accumulate indefinitely. The carbon cycle would stall. The atmosphere would asphyxiate.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "The Hermetic Principle of Correspondence demands that we recognize this recursion not as analogy but as identity: the above and the below are not similar. They are the same pattern observed at different resolutions."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The explicit upgrade from analogy to identity across galaxy/cortex/mycelium scales is a conclusion stronger than the traced ingredients (recurring network motifs) permit; it also conscripts the Hermetic principle as authority for a Noesis inference rather than declaring house authorship of the identity step.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Hermetic Principle of Correspondence demands that we recognize this recursion not as analogy but as identity: the above and the below are not similar. They are the same pattern observed at different resolutions.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "The body determines what the witness can perceive. The resistance determines how long the structure persists before it consumes itself or is consumed."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A compact restatement of the Kha/Ba/La axiom set (witness/body/resistance) in declared house vocabulary, internally consistent with the model's use throughout the essay.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The body determines what the witness can perceive. The resistance determines how long the structure persists before it consumes itself or is consumed.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "The honey fungus in Oregon has been there for an estimated 2,400 to 8,650 years."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 2,400–8,650-year range matches the commonly reported age estimates for the Malheur Armillaria genet and is consequential to the deep-time argument, but the post supplies no citation, so provenance is undemonstrated.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The honey fungus in Oregon has been there for an estimated 2,400 to 8,650 years.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "But the largest biological network on Earth is underground, has no central processor, and has been solving resource allocation problems since before vertebrates existed."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'largest biological network on Earth' superlative is contested territory (Pando and other clonal organisms compete by area or mass) and fungal antiquity predating vertebrates, while true, is uncited; both need sourcing and scoping.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "But the largest biological network on Earth is underground, has no central processor, and has been solving resource allocation problems since before vertebrates existed.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The Quine is complete when the questioner becomes the question. The antar-agni burns whether you name it or not."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing self-reference figure (Quine) and the antar-agni callback operate as declared house vocabulary closing the essay's frame; internally coherent as model statement, with no literal empirical prediction extracted.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Quine is complete when the questioner becomes the question. The antar-agni burns whether you name it or not.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    }
+  ]
+}

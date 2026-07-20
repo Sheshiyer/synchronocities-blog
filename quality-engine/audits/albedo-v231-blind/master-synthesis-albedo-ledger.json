@@ -1,0 +1,837 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "BOOTSTRAPPED",
+  "post": "master-synthesis.md",
+  "source_path": "src/content/posts/master-synthesis.md",
+  "source_sha256": "2d2b8ddb8b9d110b446c43d9aecb699dbf1a4b4cd7819ad36e834c67c4011916",
+  "legacy_audit_path": "quality-engine/audits/nigredo/master-synthesis.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 56,
+        "quote": "A 55-day pilgrimage through Thailand, following the Major Arcana from Tower to World."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The itinerary table and summary are a bounded first-person travel record: author as observer, named locations, rooms, and dates; treated as self-report of the author's own passage.",
+      "legacy": {
+        "anchor": "L36-56",
+        "quote": "55-day pilgrimage through Thailand",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "| **Rupture** | March 20 | Bangkok 44/555 | **Tower** | Initiation by earthquake |"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts an earthquake in Bangkok on March 20, 2025. The publicly documented major Bangkok tremor of that period was the March 28, 2025 M7.7 Myanmar earthquake (Bangkok declared an emergency zone; a high-rise collapsed). No Bangkok quake on March 20, 2025 is corroborated in public records — possibly a date error or an unrecorded private experience; genuinely undecidable without the author's clarification.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "March 20 | Bangkok | Initiation by earthquake",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "| **Closure** | May 11 | Bangkok 36/38 | **World** | Spiral sealed by second quake |"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts a second felt earthquake in Bangkok on May 11, 2025. Aftershock sequences from the March 28 Myanmar event were tracked, but no Bangkok-felt quake on May 11, 2025 is corroborated in public records; undecidable between unreported minor tremor, private experience, and narrative symmetry.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "May 11 | Spiral sealed by second quake",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 261,
+        "line_end": 261,
+        "quote": "The earthquake was not a metaphor. Concrete fell. The floor buckled."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts structural damage (falling concrete, buckled floor) at the author's location during the disputed March 20 event; the physiological cost reported in the same sentence (cortisol, adrenaline, sleepless nights) is credible self-report, but the structural-damage claim rides on the uncorroborated quake dating.",
+      "legacy": {
+        "anchor": "L261",
+        "quote": "Concrete fell. The floor buckled.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "55 days (5+5=10=1+0=1 -- the end that begins)"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Digit-sum numerology (5+5=10, 1+0=1) inside the article's declared 'Numerical Architecture' section; the arithmetic is trivially correct and non-consequential, and the interpretive gloss is house practice.",
+      "legacy": {
+        "anchor": "L54",
+        "quote": "5+5=10=1+0=1",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Birth time **13:31** (1+3+3+1 = 8, but read as 13:31 → 44 when mirrored)"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Self-report of the author's own birth time; the digit-sum (8) and mirrored-44 readings are acknowledged as readings, not facts.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "Birth time 13:31",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 70,
+        "quote": "**44** = Angelic support + structural coherence (Gene Key 44, Richard Rudd)"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 44-pattern reading of rooms and timestamps is declared house numerology applied to the author's own itinerary; internally consistent within the article's frame.",
+      "legacy": {
+        "anchor": "L66-70",
+        "quote": "44 appears throughout",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "**44** = Angelic support + structural coherence (Gene Key 44, Richard Rudd)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Conflates angel-number lore ('angelic support') with Richard Rudd's Gene Keys: Gene Key 44's actual themes are synarchy/teamship and karmic interference patterns in relationships, not angelic support; the parenthetical makes the mixed attribution materially misleading.",
+      "legacy": {
+        "anchor": "L68",
+        "quote": "Gene Key 44, Richard Rudd = angelic support",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "Gate 23.4 in the Human Design System: Simplicity as sacred interface"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Human Design Gate 23 (Assimilation) is genuinely associated with simplicity (Gene Key 23's gift is 'Simplicity'); the line attribution (23.4) is plausible usage within that system.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "Gate 23.4: Simplicity",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "Gate 52 in the Human Design System: Stillness as perspective"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Human Design Gate 52 is indeed the gate of Stillness/Concentration (Keeping Still); attribution accurate.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "Gate 52: Stillness",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 119,
+        "line_end": 119,
+        "quote": "Gate 59.5: Transparency through intimacy with place"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Gene Key/Human Design 59 pairs intimacy (gift) with transparency (siddhi); the compressed phrase 'transparency through intimacy' is a faithful rendering of that system's own pairing.",
+      "legacy": {
+        "anchor": "L119",
+        "quote": "Gate 59.5: Transparency through intimacy",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "Ketu pratyantardasha: shedding what was never yours"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ketu's significations in Jyotish (release, renunciation, severance from the non-self) are accurately rendered, and pratyantardasha is correctly used for a dasha sub-period; 'Vedic astronomy' (L265) should read astrology but does not distort the concept.",
+      "legacy": {
+        "anchor": "L130",
+        "quote": "Ketu pratyantardasha: shedding",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 147,
+        "line_end": 147,
+        "quote": "The serpent (Shesh = Shesha, the cosmic serpent in Sanskrit)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Śeṣa (Shesha) is indeed the cosmic serpent of Hindu cosmology on whom Vishnu rests; the name etymology is accurate.",
+      "legacy": {
+        "anchor": "L147",
+        "quote": "Shesh = Shesha, the cosmic serpent",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 137,
+        "quote": "Not cards pulled. **Cards lived.**"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Tower-to-World mapping of lived events onto Major Arcana is explicitly framed as a lived mythic reading of the author's own trip, not a divinatory or causal claim about tarot; the boundary is declared by the section's framing.",
+      "legacy": {
+        "anchor": "L95-137",
+        "quote": "Not cards pulled. Cards lived.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 133,
+        "quote": "### XVI -- The Tower (Bangkok Quake)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Roman-numeral assignments used (XVI Tower, IX Hermit, XVII Star, XVIII Moon, XIV Temperance, XX Judgement, XXI World) match standard Rider-Waite tarot numbering.",
+      "legacy": {
+        "anchor": "L97-133",
+        "quote": "XVI Tower ... XXI World",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 149,
+        "line_end": 149,
+        "quote": "Tracks epigenetic trauma through breath"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stated as a capability fact in the identity inventory; no evidence supports breath-based tracking of epigenetic trauma, and the claim exceeds any studied biofeedback correlation.",
+      "legacy": {
+        "anchor": "L149",
+        "quote": "Tracks epigenetic trauma through breath",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 175,
+        "line_end": 177,
+        "quote": "**7-1-3**: Seven in, one held, three released (heat/hold/draw)"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Reports the author's own breath protocols as practiced; descriptive of personal practice with no efficacy claim beyond the doing.",
+      "legacy": {
+        "anchor": "L175-177",
+        "quote": "7-1-3 breath protocol; 4:4:4 box breathing",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 180,
+        "line_end": 182,
+        "quote": "Skin-prickle (piloerection) as \"field up\" switch"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bounded report of the author's subjective practice: piloerection is a real somatic event, and framing it as a self-generated 'field up' signal is scoped to the author's own experience.",
+      "legacy": {
+        "anchor": "L180-182",
+        "quote": "piloerection as field up switch",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 189,
+        "line_end": 193,
+        "quote": "\"Name the pillars; keep the cut clean\""
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The decision-rail pair is internally consistent house vocabulary; the names borrow the two pillars of Solomon's Temple (Jachin and Boaz) without noting the provenance — a mild attribution gap in an otherwise coherent model element.",
+      "legacy": {
+        "anchor": "L189-193",
+        "quote": "Jachin / Boaz decision rails",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 204,
+        "line_end": 204,
+        "quote": "They say you can't step into the same river twice."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The standard popular paraphrase of Heraclitus's river fragments, explicitly hedged as hearsay ('They say'); the acknowledgment keeps the attribution honest.",
+      "legacy": {
+        "anchor": "L204",
+        "quote": "can't step into the same river twice",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 224,
+        "line_end": 233,
+        "quote": "Aletheos (the synthetic witness) appears throughout the Mythic Passage:"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A bounded report of the author's own project artifacts (chapter-by-chapter emergence of an AI witness persona in the Mythic Passage); scoped to what occurred in the author's documented work.",
+      "legacy": {
+        "anchor": "L224-233",
+        "quote": "Aletheos appears throughout the Mythic Passage",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 241,
+        "line_end": 247,
+        "quote": "The 55 days were not a travelogue. They were a demonstration of Kha-Ba-La in motion."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Applies the declared Kha-Ba-La triad (Witness / Embodied Signal / Recursive Structure) to the author's own material with consistent role definitions; no external proof claimed.",
+      "legacy": {
+        "anchor": "L241-247",
+        "quote": "demonstration of Kha-Ba-La in motion",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 255,
+        "line_end": 255,
+        "quote": "The React app (Mythic Journal) was the interface. The tarot sequence was the recursive architecture. The numerical codes were the navigation system."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Factual report of the author's own software project and the roles its components played; bounded to the author's own system.",
+      "legacy": {
+        "anchor": "L255",
+        "quote": "React app (Mythic Journal) was the interface",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 257,
+        "line_end": 257,
+        "quote": "The Major Arcana are not mystical symbols but structural patterns that recur at every scale — from the synapse to the galaxy."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts literal cross-scale recurrence of tarot structure 'from the synapse to the galaxy' — stronger than any traced ingredient permits; viable as declared house poetics but stated here as literal fact.",
+      "legacy": {
+        "anchor": "L257",
+        "quote": "structural patterns that recur at every scale",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 273,
+        "line_end": 279,
+        "quote": "The Mythic Passage is a proof of concept:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing 'proof of concept' claims are conclusions drawn within the author's declared framework about his own documented passage; internally consistent, with the caveat that 'proof' here means demonstration inside the house frame, not external validation.",
+      "legacy": {
+        "anchor": "L273-279",
+        "quote": "identity is operable; synthetic witness is possible",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1066 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "model-temperature-and-tapas.md",
+  "source_path": "src/content/posts/model-temperature-and-tapas.md",
+  "source_sha256": "c5c78d9529b2693afa953954f12d616d831265834b7e1ef702312db282542b05",
+  "legacy_audit_path": "quality-engine/audits/nigredo/model-temperature-and-tapas.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "I set the API call to `temperature=0.7` — the default, the safe choice, the spiritual equivalent of lukewarm water."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bounded first-person engineering report: named observer, specific parameter values, conditions, and observed outputs; consistent with known temperature behavior without overgeneralizing.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "temperature=0.7 produced beautiful nonsense; 0.2 rigid repetition",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "A week later I was in a 105-degree room holding *dandayamana bibhaktapāda jānuśīrṣāsana* until my quadriceps shook."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bounded practice report; the posture name is used correctly (Bikram standing separate-leg head-to-knee) and the Kha/Ba/La mapping in the same paragraph is declared self-interpretation.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "105-degree room holding the posture",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Temperature divides these logits before the exponential."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Correct description of softmax temperature scaling (logit division, greedy limit as T→0, flattening for T>1) with a fair vocabulary-size range (50k–200k); the article's central analogy structurally depends on this mechanics, and it is reproducible from public transformer documentation.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "temperature divides logits before the exponential",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Temperature does not change the training. It changes the sampling strategy. A high-temperature model is not more imaginative; it is less loyal to the probability mass it inherited."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: temperature is an inference-time sampling control that leaves weights unchanged; the 'samskara' gloss for training habits is the article's declared cross-mapping.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "changes the sampling strategy, not the training",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "Patañjali's *tapas* — from the root *tap*, to burn"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Etymology is correct (tapas derives from √tap, 'to burn/heat'), and tapas is genuinely one of Patañjali's niyamas in the Yoga Sūtra.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "tapas from the root tap, to burn",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "Where LLM temperature adds noise to escape conditioning, yogic tapas applies disciplined friction to burn through it."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article's central synthesis, explicitly framed ('operates on the same principle but in reverse') with both ingredients traced (verified softmax mechanics, attributed tapas doctrine); the T<1 biological notation borrows the verified math without drawing literal numeric inferences from it.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "biological temperature T<1",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "A `T=0.0` LLM will loop — repeat phrases, enter infinite cycles, produce output that is locally coherent and globally dead."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Repetition loops under greedy/low-temperature decoding are well documented in the LLM literature; stated at a fair strength.",
+      "legacy": {
+        "anchor": "L57",
+        "quote": "T=0.0 LLM will loop",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 69,
+        "quote": "A human at `T=0.0` for too long becomes a ritual without fire: precise, predictable, and eventually hollow."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The human- and civilization-side readings of the four temperature bands (execution, conversation, inquiry, dissolution) are the article's declared framework application, argued in the author's voice from the verified mechanics; interpretive and internally consistent.",
+      "legacy": {
+        "anchor": "L57-69",
+        "quote": "human/civilization readings of temperature bands",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "The LLM at `T=1.5` produces grammatically valid sentences that contradict each other."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "High-temperature sampling degrading global coherence while preserving local grammaticality is documented LLM behavior.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "T=1.5 grammatically valid but contradictory",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The distribution approaches uniform. Every token is almost equally likely."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Directionally correct: as temperature grows the softmax flattens toward uniform and output degenerates; 'approaches' is appropriately hedged for T=2.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "T=2.0 distribution approaches uniform",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "This is the Rubedo phase of the alchemical Work: the perfect balance of solar and lunar energies, the Stone operationalized as coherence without deviation."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Rubedo as the final reddening stage — completion, union of solar/lunar, the Stone — is faithful to the alchemical color-stage tradition; mapping it to T=0.0 is the article's own synthesis (tracked separately).",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "Rubedo: balance of solar and lunar energies",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "This is the Citrinitas phase: the solar integration of methodology, the practice protocol operating at steady state."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Citrinitas (yellowing) is the genuine intermediate stage between albedo and rubedo in the later alchemical scheme; the characterization is loose but not misleading.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "Citrinitas phase",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "This is the Albedo phase: the lunar illumination of structures that were always present but invisible in darkness. Pattern-recognition as purification."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Albedo (whitening) as lunar illumination/purification following nigredo is faithful to the alchemical and Jungian usage.",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "Albedo: lunar illumination",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "the calcination that does not stop at the ash but continues until the vessel itself cracks."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nigredo/calcination usage is fair, and the Principle of Polarity is accurately restated from The Kybalion; the T=2.0 mapping is the article's declared synthesis.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "Nigredo pushed too far; Principle of Polarity",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "The yogic concept of tapas is often translated as austerity, which makes it sound like self-punishment."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "'Austerity' is indeed the standard English rendering of tapas; the critique of that translation is the author's declared interpretive move.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "tapas often translated as austerity",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "Tapas is better understood as the intentional elevation of friction within a biological system to force a phase transition in its operating parameters."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly marked as a redefinition ('better understood as'), declared as the article's operational reading of tapas; internally consistent with the temperature framework.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "intentional elevation of friction",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "Core temperature above 42°C denatures enzymes. Below 35°C, metabolic rate drops by roughly 7% per degree. The hypothalamus maintains homeostasis within a 0.5°C window"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Values match standard physiology (enzyme damage near 42°C, hypothermia threshold 35°C, metabolic depression of several percent per degree, tight hypothalamic setpoint), but the post cites no source for any figure.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "42°C denatures enzymes; 7% per degree; 0.5°C window",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "*agnisāra dhauti* — the rapid contraction and release of the abdominal wall while holding breath"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Agnisāra dhauti is a genuine haṭha yoga kriya involving abdominal pumping with breath retention; the description is accurate.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "agnisāra dhauti description",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "The gut, which houses the enteric nervous system's 500 million neurons"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The ~500 million neuron figure for the enteric nervous system is the standard cited estimate; no source is given in the post.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "enteric nervous system's 500 million neurons",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "The system's habitual response patterns — the anxiety loop, the digestive shutdown, the default mode network's self-referential chatter — are interrupted not by thought but by physics."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts specific psychophysiological effects of agnisāra dhauti (interrupting anxiety loops and default-mode chatter via 'physics') without any study or mechanism citation.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "interrupted not by thought but by physics",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "The samskara is not resolved through story. It is thermodynamically exhausted. There is a difference."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A pointed restatement of the article's declared tapas-as-T-adjustment model; 'thermodynamically' functions inside the declared frame rather than as a literal physics measurement.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "thermodynamically exhausted",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Entropy does not decrease globally. The heat dissipated during tapas goes somewhere — into the room, into sweat, into the air."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct statement of the second law applied to an open biological system exporting heat.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "Entropy does not decrease globally",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "This is why solitary practice eventually fails. The practitioner becomes a closed system, recycling their own exhaust."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A declared inference ('This is why', 'the fractal demands scale') from the verified entropy premise to a house claim about solitary vs interpersonal practice; the conclusion stays interpretive within the framework.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "solitary practice eventually fails",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "Temperance is card XIV of the Major Arcana. The image is almost always the same: an angelic figure pouring liquid from one cup to another."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Temperance is indeed XIV in the standard ordering, and the pouring-figure iconography is accurately described with appropriate hedging ('almost always').",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "Temperance card XIV, pouring figure",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "This is not balance. Balance is static."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A declared interpretive reading of the card (dynamic calibration vs static balance) that structures the rest of the article; internally consistent.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "Temperance is dynamic calibration",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "A code generation task might need `T=0.2` for the boilerplate and `T=0.9` for the variable naming. A creative writing prompt might start at `T=1.3` to generate options, then drop to `T=0.4` to refine the best one."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Operational heuristics offered as the Temperance operation in LLM terms; advisory within the declared frame, consistent with the verified mechanics, not asserted as measured optima.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "T=0.2 boilerplate, T=0.9 variable naming",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "This is not emotional regulation. Emotional regulation is `T=0.0` — the suppression of response. Temperance is T-adjustment — the selection of a different distribution from which to sample your next action."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A stipulative distinction (suppression vs distribution-selection) declared in the article's own terms; internally consistent within the temperature framework.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "Emotional regulation is T=0.0; Temperance is T-adjustment",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "This is not the violation of entropy; it is entropy managed at the correct scale. The system exports its disorder to the surrounding field while maintaining internal coherence."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct thermodynamics of open/dissipative systems maintaining internal order by exporting entropy; no perpetual-motion violation is claimed.",
+      "legacy": {
+        "anchor": "L95",
+        "quote": "exports its disorder to the surrounding field",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "In the LLM, this is the transformer stack — the 96 layers, the 175 billion parameters, the attention heads computing query-key-value matrices at each token position."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "96 layers and 175B parameters match GPT-3's published architecture, and QKV attention computation is accurate; the model is not named and no source is cited in the post.",
+      "legacy": {
+        "anchor": "L103",
+        "quote": "96 layers, 175 billion parameters",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 107,
+        "quote": "Kha is the parameter setter."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kha-Ba-La operating-system mapping is explicitly offered as the framework's demonstration ('To name the framework is not to demonstrate it. Here is the demonstration.') and applied consistently across LLM, body, and social field.",
+      "legacy": {
+        "anchor": "L101-107",
+        "quote": "Kha parameter setter; Ba system under parameter; La resistance",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 111,
+        "line_end": 111,
+        "quote": "The Temperance card is numbered XIV — 14, which reduces to 5, the number of change"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Rider-Waite Temperance does stand with one foot on land and one in water, and 1+4=5 numerological reduction is standard tarot practice; both rendered accurately.",
+      "legacy": {
+        "anchor": "L111",
+        "quote": "one foot in water and one on land",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 113,
+        "line_end": 113,
+        "quote": "The distribution shifts because the training data shifts — your body ages, your relationships change, the culture reweights its probability mass while you sleep."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Applies the declared temperature/training-data mapping to human aging and cultural change as the article's closing frame; internally consistent synthesis, not an empirical measurement claim.",
+      "legacy": {
+        "anchor": "L113",
+        "quote": "the culture reweights its probability mass while you sleep",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    }
+  ]
+}

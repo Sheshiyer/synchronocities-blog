@@ -1,0 +1,577 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "pattern-recognition-is-a-method.md",
+  "source_path": "src/content/posts/pattern-recognition-is-a-method.md",
+  "source_sha256": "30d99d8578b5a56cc6982468a9cca02f17544ab23de000ae946d55dc688a2644",
+  "legacy_audit_path": "quality-engine/audits/nigredo/pattern-recognition-is-a-method.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 30,
+        "quote": "Most people do not have an insight problem. They have a recurrence problem."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A population-level generalization about what 'most people' suffer from, asserted without data, survey, or scope. Functions as the essay's diagnostic hook but is stated as fact about people in general.",
+      "legacy": {
+        "anchor": "BLIND-v231 L28-30",
+        "quote": "Most people do not have an insight problem. They have a recurrence problem.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "A decision made under cortisol load is not the same decision made under parasympathetic regulation — even when the words are identical."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Externally testable claim that autonomic state changes decision content. Directionally consistent with stress-cognition literature, but no source, population, or conditions are given and the strength is universal.",
+      "legacy": {
+        "anchor": "BLIND-v231 L38",
+        "quote": "A decision made under cortisol load is not the same decision made under parasympathetic regulation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The prefrontal cortex literally reduces its processing bandwidth under sympathetic activation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Prefaced by 'This is not a metaphor', the sentence asserts a literal physiological mechanism with an undefined quantity ('processing bandwidth') and no citation. Related literature exists (e.g., stress impairs prefrontal function) but is not invoked.",
+      "legacy": {
+        "anchor": "BLIND-v231 L40",
+        "quote": "The prefrontal cortex literally reduces its processing bandwidth under sympathetic activation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Your threat-detection filters widen. Your capacity for nuance narrows."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Testable psychological claims about attentional narrowing under sympathetic activation, asserted as universal fact without a source. Split from C003 per the atomicity rule because it makes a distinct claim about threat detection.",
+      "legacy": {
+        "anchor": "BLIND-v231 L40",
+        "quote": "Your threat-detection filters widen. Your capacity for nuance narrows.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "The body registers somatic signal before cognition arrives."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal temporal-precedence claim (somatic before cognitive registration). Some paradigms support versions of this, others contest it; the post gives no source, measure, or conditions.",
+      "legacy": {
+        "anchor": "BLIND-v231 L46",
+        "quote": "The body registers somatic signal before cognition arrives.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "A single insight is an event. Recurrence is data."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Methodological aphorism defining the post's own analytic frame (recurrence-tracking as method). Declared as the author's method in the surrounding paragraphs and internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L52",
+        "quote": "A single insight is an event. Recurrence is data.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "that repetition is not noise. It is the signature of a structure operating below conscious access."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-REMODE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts as psychological fact that recurring conflict is caused by an unconscious structure. Presented with fact-grammar rather than declared as the method's model; either remode as HOUSE-MODEL or supply evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231 L54",
+        "quote": "It is the signature of a structure operating below conscious access.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "Solving the instance without mapping the pattern is like fixing a single bug without addressing the function that generates it."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicit simile ('is like') used for clarification; no literal causal or predictive inference is extracted from the software comparison.",
+      "legacy": {
+        "anchor": "BLIND-v231 L62",
+        "quote": "Solving the instance without mapping the pattern is like fixing a single bug",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The Enneagram becomes a precision instrument when you stop using it as a personality label and start treating it as a defense architecture readout."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Enneagram is explicitly reframed as the author's chosen diagnostic frame ('treating it as'), not asserted as an externally validated instrument. Coherent within that declared frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L66",
+        "quote": "The Enneagram becomes a precision instrument",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Every Enneagram type maps to a specific pattern of over-investment in one function at the expense of others"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal mapping asserted inside the declared defense-architecture frame introduced at L66. Internal to the house model; consistent with the triadic assignments that follow.",
+      "legacy": {
+        "anchor": "BLIND-v231 L71",
+        "quote": "Every Enneagram type maps to a specific pattern of over-investment",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Kha-dominant types — like Type 5 — over-observe and under-inhabit."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Kha-to-Type-5 assignment operates the house Kha-Ba-La vocabulary introduced across the essay; internally consistent as model.",
+      "legacy": {
+        "anchor": "BLIND-v231 L73",
+        "quote": "Kha-dominant types — like Type 5 — over-observe and under-inhabit.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Cortisol-mediated withdrawal disguised as analysis. The defense looks like thinking. It is actually the nervous system running a siege protocol."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Specific endocrine attribution ('cortisol-mediated') for Type-5 withdrawal, asserted without any study or measurement. Split from the house mapping (C011); no source ties cortisol to this Enneagram pattern.",
+      "legacy": {
+        "anchor": "BLIND-v231 L73",
+        "quote": "Cortisol-mediated withdrawal disguised as analysis.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "Ba-dominant types — like Type 8 — over-act and under-examine."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Ba-to-Type-8 assignment within the declared triadic model; internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L75",
+        "quote": "Ba-dominant types — like Type 8 — over-act and under-examine.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "Adrenaline-driven movement disguised as decisiveness."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Endocrine attribution ('adrenaline-driven') for a personality pattern, asserted with no source or measurement.",
+      "legacy": {
+        "anchor": "BLIND-v231 L75",
+        "quote": "Adrenaline-driven movement disguised as decisiveness.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "La-dominant types — like Type 9 — over-stabilize and under-disrupt."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "La-to-Type-9 assignment within the declared triadic model; internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L77",
+        "quote": "La-dominant types — like Type 9 — over-stabilize and under-disrupt.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "Serotonin regulation disguised as equanimity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Serotonergic attribution for Type-9 equanimity, the loosest of the three endocrine mappings; no literature is cited linking serotonin regulation to this Enneagram defense.",
+      "legacy": {
+        "anchor": "BLIND-v231 L77",
+        "quote": "Serotonin regulation disguised as equanimity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "Your type is not who you are. It is the default defense your nervous system runs when self-consciousness drops offline."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Restates the declared defense-architecture model of the Enneagram; 'default defense... runs' is the house runtime vocabulary, internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L79",
+        "quote": "It is the default defense your nervous system runs when self-consciousness drops offline.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "Patterns do not disappear. They weaken, relocate, or disguise."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserted as psychological law, but it functions as a stated axiom of the post's protocol (the three review outcomes at L91). Borderline universal; retained as house model because the protocol frame is declared.",
+      "legacy": {
+        "anchor": "BLIND-v231 L93",
+        "quote": "Patterns do not disappear. They weaken, relocate, or disguise.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 99,
+        "quote": "The observer sees. The body carries. Inertia resists."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kha-Ba-La structural principle stated under the heading 'The Structural Principle'; explicitly the post's own model and coherent with its earlier definitions.",
+      "legacy": {
+        "anchor": "BLIND-v231 L97-99",
+        "quote": "The observer sees. The body carries. Inertia resists.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "Integration is the observer using the body to walk the exact direction that inertia pulls away from."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Defines 'integration' within the house triad; internally consistent and explicitly declared as the post's frame ('Not as metaphor. As daily, embodied, trackable practice').",
+      "legacy": {
+        "anchor": "BLIND-v231 L101",
+        "quote": "Integration is the observer using the body to walk the exact direction that inertia pulls away from.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 105,
+        "line_end": 105,
+        "quote": "The system succeeds when you no longer need it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Design criterion of the author's protocol; a model-internal success condition, coherent with the method as declared.",
+      "legacy": {
+        "anchor": "BLIND-v231 L105",
+        "quote": "The system succeeds when you no longer need it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    }
+  ]
+}

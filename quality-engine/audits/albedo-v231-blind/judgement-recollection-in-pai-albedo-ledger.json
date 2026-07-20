@@ -1,0 +1,253 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "judgement-recollection-in-pai.md",
+  "source_path": "src/content/posts/judgement-recollection-in-pai.md",
+  "source_sha256": "e2a72cd5ff495b818b2e7f83b1d8c58f812ceaf2672a7b58d4afb692be15a632",
+  "legacy_audit_path": "quality-engine/audits/nigredo/judgement-recollection-in-pai.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 23,
+        "line_end": 23,
+        "quote": "The Thoth deck names this card The Aeon, not Judgement."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: Crowley's Thoth tarot titles Trump XX 'The Aeon', replacing the Rider-Waite 'Judgement'; the named deck and its naming are correctly represented.",
+      "legacy": {
+        "anchor": "BLIND-NEW L23",
+        "quote": "The Thoth deck names this card The Aeon, not Judgement.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 25,
+        "line_end": 25,
+        "quote": "Judgement implies a verdict — guilty, innocent, worthy, unworthy. The Aeon implies an *epoch change*."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful to the Thoth tradition's stated rationale for the renaming (the Aeon as herald of a new epoch in Crowley's commentary); presented as the deck's distinction, not as tarot-universal fact.",
+      "legacy": {
+        "anchor": "BLIND-NEW L25",
+        "quote": "The Aeon implies an *epoch change*.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "A mountain that seemed thirty minutes away took three hours to reach."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Situated first-person travel report with concrete quantities and conditions (Pai terrain); scope limited to the author's experience, no universal claim about the geography.",
+      "legacy": {
+        "anchor": "BLIND-NEW L27",
+        "quote": "A mountain that seemed thirty minutes away took three hours to reach.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "This is The Aeon's function: to dissolve the mental map. Not to give you a better one."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The author's declared interpretive frame for the card, applied consistently through the essay; functions as a reading within the travelogue rather than as documentation of the tradition.",
+      "legacy": {
+        "anchor": "BLIND-NEW L29",
+        "quote": "This is The Aeon's function: to dissolve the mental map.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "the territory was never the map, and the map was never the territory"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The sentence reworks Alfred Korzybski's famous dictum 'the map is not the territory' (Science and Sanity, 1933) without attribution, presenting a traceable quotation as the author's own aphorism.",
+      "legacy": {
+        "anchor": "BLIND-NEW L29",
+        "quote": "the territory was never the map, and the map was never the territory",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "The Aeon gathers the Fool, the Tower, the Star, the Moon, the Hermit, Art — every card activated on this spiral — and reveals their pattern."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "House synthesis of the travelogue's tarot sequence into the Re-collection theme; declared as the author's reading of the spiral and internally consistent with the card interpretations offered earlier.",
+      "legacy": {
+        "anchor": "BLIND-NEW L31",
+        "quote": "every card activated on this spiral — and reveals their pattern",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "Ketu — the south node of the moon, the point of release in Vedic astrology, the severing instrument."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Ketu is correctly identified as the south lunar node in Jyotish and is traditionally associated with severance, release, and moksha; the tradition is named and the gloss is faithful.",
+      "legacy": {
+        "anchor": "BLIND-NEW L33",
+        "quote": "Ketu — the south node of the moon, the point of release in Vedic astrology, the severing instrument.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "The anandamaya kosha recognizes what remains after Ketu's surgery: not emptiness, but the *bliss of unburdening*."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Combines two attributed ingredients (Ketu as release; anandamaya as the Vedantic bliss sheath) into the post's reflective synthesis; the combination is visibly the author's experiential reading and stays within the strength of its ingredients.",
+      "legacy": {
+        "anchor": "BLIND-NEW L35",
+        "quote": "not emptiness, but the *bliss of unburdening*",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "Pai means *creative* in Thai."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Linguistic claim with no source. Standard Thai gives the town name as a proper name (cf. ปาย 'tip/end') and ไป as 'go', while 'creative' is สร้างสรรค์ (sangsan); no attested reading supports 'creative'. Marked UNSUPPORTED rather than CONTRADICTED because no Thai lexicon was consulted in-pass.",
+      "legacy": {
+        "anchor": "BLIND-NEW L37",
+        "quote": "Pai means *creative* in Thai.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    }
+  ]
+}

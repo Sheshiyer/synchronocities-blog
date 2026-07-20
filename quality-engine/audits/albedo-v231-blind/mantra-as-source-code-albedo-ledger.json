@@ -1,0 +1,1004 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "mantra-as-source-code.md",
+  "source_path": "src/content/posts/mantra-as-source-code.md",
+  "source_sha256": "b975d2bf9b9ce8183981e557aa9a77513bb95714691d734df7dce844e806e9ea",
+  "legacy_audit_path": "quality-engine/audits/nigredo/mantra-as-source-code.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 55,
+        "quote": "The first time the Gāyatrī refused to compile, I was twenty-two, sitting cross-legged in a room that smelled of sandalwood and diesel exhaust."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Bounded first-person practice report: named observer (author), conditions (Bangalore room, recitation alongside an experienced practitioner), and scope limited to the author's own performance; the Gāyatrī opening quoted is textually accurate.",
+      "legacy": {
+        "anchor": "L53-55",
+        "quote": "Gāyatrī refused to compile, Bangalore room",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The Vedic tradition maps speech across four levels, a stratification that is not metaphorical but operational."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The four levels of vāk (parā, paśyantī, madhyamā, vaikharī) are genuine Vedic-Tantric doctrine (Ṛg Veda 1.164.45, later grammar and Tantra); the descriptions given are faithful paraphrases.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "Vedic tradition maps speech across four levels",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "This is the machine code layer — the executable binary."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The compiler-stack mapping (vaikharī=machine code, madhyamā=assembly, paśyantī=AST, parā=source spec) is the article's own synthesis, argued in the author's voice with ingredients traced to the attributed doctrine; internally consistent, and its 'operational not metaphorical' stance is the article's declared thesis rather than a hidden borrowing.",
+      "legacy": {
+        "anchor": "L59",
+        "quote": "not metaphorical but operational",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "The visarga — the aspirated release at the end of a syllable — requires precise glottal control."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate description of visarga (ḥ) in Sanskrit phonetics: an aspirated, glottally conditioned release; consistent with the grammatical tradition's own account.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "visarga — aspirated release requiring glottal control",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "The Hermetic Principle of Vibration — \"Nothing rests; everything moves; everything vibrates\""
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Verbatim match to the Principle of Vibration as stated in The Kybalion (1908); attribution to the Hermetic tradition follows the text's own framing.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "Nothing rests; everything moves; everything vibrates",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "The Vedic *nāda brahman* — the universe as sound"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nāda brahman ('the world is sound') is a genuine concept in Vedic and later Indian sonic theology; the gloss is faithful.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "nāda brahman — the universe as sound",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "and the Hermetic Principle of Vibration are not separate metaphysics."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A declared cross-tradition synthesis argued in the author's own voice with both ingredients attributed above and a stated transformation (shared premise: consciousness primary, vibration fundamental); the identity claim is the article's argument, not a borrowed attribution.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "not separate metaphysics... the same structural fact",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "Pāṇini's *Aṣṭādhyāyī* — approximately 4,000 sūtras that generate all and only the grammatical utterances of the language — is not a description of Sanskrit. It is a generative program."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Aṣṭādhyāyī contains ~3,959 sūtras and its generative character is the standard scholarly description; 'generative program' is the author's apt modern gloss. The sūtra count is ornamental to the argument.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "approximately 4,000 sūtras... generative program",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The **pratyāhāra** system encodes the entire sound inventory as indexable operations, a lookup table that predates ASCII by two millennia."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The pratyāhāra sūtras do compress the Sanskrit sound inventory into indexable abbreviations, and Pāṇini (mid-1st millennium BCE) predates ASCII (1963) by roughly two millennia; the comparison is chronologically fair and non-consequential.",
+      "legacy": {
+        "anchor": "L69",
+        "quote": "lookup table that predates ASCII by two millennia",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "The śāstra tradition distinguishes *vidyā* — precise, operational knowledge — from *jñāna*, general understanding."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A vidyā/jñāna distinction exists in the śāstric tradition, though the 'precise operational knowledge' gloss is a simplification tailored to the article's argument; attribution is not materially misleading.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "vidyā vs jñāna distinction",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The *dīkṣā* — initiation — does not transmit meaning. It transmits execution conditions: the exact phonemic sequence, the meter, the breath pattern, the internal state that must accompany utterance."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful to how mantra-dīkṣā functions in living traditions: transmission of the exact utterance with practice conditions from an attested guru; 'does not transmit meaning' is the author's pointed but defensible gloss.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "dīkṣā transmits execution conditions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "the *Śatapatha Brāhmaṇa* records that the precise articulation of sound influences the structure of existence — not as metaphor, but as mechanical causation."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Brāhmaṇa literature (including the Śatapatha Brāhmaṇa's pronunciation-efficacy narratives such as the indraśatru accent story) does assert ritual-phonetic causation; 'mechanical causation' is the author's gloss but the core attribution is accurate.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "Śatapatha Brāhmaṇa records precise articulation influences existence",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "The *ṛṣi* who encoded the Vedic hymns did not write poetry. They wrote function calls targeting consciousness as the runtime environment."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An anachronistic reframing of the ṛṣis' role asserted as fact; the tradition itself describes the hymns as 'seen' (revealed), and no evidence supports the function-call characterization — it should be remoded as the author's declared synthesis.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "They wrote function calls targeting consciousness",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "a correctly formed mantra, executed on a compatible substrate with the appropriate certainty, produces a deterministic effect regardless of the operator's belief system."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Reported explicitly as 'the claim' of the tradition; faithful to the Mīmāṃsā-style doctrine of mantra efficacy operating independently of the reciter's belief (apauruṣeya, śabda as intrinsic potency); the author's 'testable' gloss is noted but does not distort the reported doctrine.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "deterministic effect regardless of the operator's belief system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 82,
+        "quote": "established that performative utterances do not describe reality — they enact it."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate representation of Austin's speech-act theory: performatives, the ship-naming example, and the doctrine of infelicities all match How to Do Things with Words.",
+      "legacy": {
+        "anchor": "L81-82",
+        "quote": "Austin performatives and infelicities",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "The Mīmāṃsā school spent centuries analyzing why mantras succeed or fail. Their conclusion: the mechanism is *śabda-pramāṇa* — verbal testimony as a valid source of knowledge, independent of speaker belief."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Śabda-pramāṇa is indeed Mīmāṃsā's signature pramāṇa with word-potency independent of speaker psychology; the 'spent centuries analyzing why mantras succeed or fail' framing is a fair compression of the school's ritual-hermeneutic program.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "Mīmāṃsā śabda-pramāṇa",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "a properly transmitted mantra does not request divine intervention. It deploys an instruction set on a substrate that cannot refuse it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "States the article's own substrate-execution model in declared technical terms ('This is not mysticism' framing throughout); internally consistent with the cryptographic-signature analogy developed in the same paragraph.",
+      "legacy": {
+        "anchor": "L83",
+        "quote": "instruction set on a substrate that cannot refuse it",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "The tradition calls this *niyatam* — inevitable, not because a deity enforces it, but because the architecture of the substrate makes the outcome unavoidable."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Niyatam ('fixed, ordained') exists as a Sanskrit term, but the 'architecture of the substrate' explanation is the author's house vocabulary attributed to 'the tradition'; the mechanism gloss is not found in Mīmāṃsā sources, making the attribution materially misleading.",
+      "legacy": {
+        "anchor": "L85",
+        "quote": "The tradition calls this niyatam",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "The human vocal apparatus is the same across populations. The auditory processing pipeline — cochlea to inferior colliculus to auditory cortex — is conserved. The cognitive architecture that parses phonemic sequences into semantic and somatic effects is species-universal."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The ascending auditory pathway (cochlea → inferior colliculus → auditory cortex) and cross-population uniformity of the vocal-auditory apparatus are standard neuroanatomy at the stated strength.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "cochlea to inferior colliculus to auditory cortex — conserved",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "This is why a mantra's operation is not culturally dependent. It is substrate-dependent."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An explicitly marked inference ('This is why') from the attributed doctrine plus the verified anatomy claim; the conclusion stays within the article's declared substrate frame.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "not culturally dependent... substrate-dependent",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "The four-level stack — vaikharī, madhyamā, paśyantī, parā — is not a belief system. It is a description of what every human nervous system does when producing speech."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-REMODE",
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Presents a doctrinal schema as a literal neurophysiological description of every human nervous system; the tradition does not claim this and no neuroscience establishes paśyantī/parā as neural stages — doctrine laundered into empirical description.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "a description of what every human nervous system does",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "A program running during a solar flare encounters different electromagnetic conditions than one running during geomagnetic quiet. The body, as a bioelectric instrument, is not immune to these conditions."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Geomagnetic storms do alter Earth's EM environment, and weak physiological correlations are studied, but the body's functional sensitivity at this level is not established; the claim serves the muhūrta argument without evidence.",
+      "legacy": {
+        "anchor": "L99",
+        "quote": "The body, as a bioelectric instrument, is not immune",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "The *muhūrta* — the electively chosen moment — is not superstition. It is environmental awareness applied to consciousness execution."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Muhūrta is correctly defined as the electively chosen auspicious moment in Jyotish practice; the 'environmental awareness' reframing is the author's declared interpretation of an accurately reported concept.",
+      "legacy": {
+        "anchor": "L99",
+        "quote": "muhūrta — the electively chosen moment",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "Tycho Brahe's observational primacy is the governing principle here. All observation is geocentric because all observers are on Earth."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Brahe held a geo-heliocentric cosmology (planets orbiting the Sun, the Sun orbiting Earth), not a principle of 'observational geocentrism' as stated; the invoked doctrine cannot be traced to Brahe and misrepresents his actual system.",
+      "legacy": {
+        "anchor": "L101",
+        "quote": "Tycho Brahe's observational primacy",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "The Jyotish tradition has maintained observational coherence for millennia without committing to heliocentrism — model-agnostic, operational, grounded in solid earth observation."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Jyotish does compute from a geocentric sidereal framework and has done so for well over a millennium; the description of its operational stance is a fair characterization.",
+      "legacy": {
+        "anchor": "L101",
+        "quote": "Jyotish... without committing to heliocentrism",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "The mantra's timing is not a claim about where the planets \"really\" are. It is a claim about the field state from this specific coordinate, at this specific moment."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A declared interpretive stipulation of how the house reads muhūrta; internally consistent and explicitly scoped as interpretation, not astronomy.",
+      "legacy": {
+        "anchor": "L101",
+        "quote": "field state from this specific coordinate",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 105,
+        "line_end": 113,
+        "quote": "The triad is not decorative. It is a diagnostic. Read the utterance through it"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kha-dominant / Ba-dominant / La-dominant failure modes are declared as the house diagnostic frame and applied consistently to recitation practice; no empirical proof is claimed.",
+      "legacy": {
+        "anchor": "L105-113",
+        "quote": "The triad is not decorative. It is a diagnostic",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 117,
+        "line_end": 117,
+        "quote": "It is that one of three conditions failed: the bytecode was corrupted (wrong syllables, wrong meter), the compiler was absent (no dīkṣā), or the certainty was incomplete"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The inverted-reading diagnostic is internally consistent within the declared frame; note it is unfalsifiable by construction (every failure is reattributed to operator/transmission), which the grammar tolerates for house models but readers should see.",
+      "legacy": {
+        "anchor": "L117",
+        "quote": "one of three conditions failed",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 123,
+        "line_end": 123,
+        "quote": "The Hermetic Principle of Polarity states that everything is dual; everything has poles."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate statement of the Principle of Polarity as given in The Kybalion.",
+      "legacy": {
+        "anchor": "L123",
+        "quote": "Hermetic Principle of Polarity",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 123,
+        "line_end": 123,
+        "quote": "The Magician stands with one hand raised and one hand lowered — not because he has mastered both, but because the circuit requires both to be held simultaneously."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Rider-Waite Magician (I) is indeed depicted with one arm raised toward heaven and one pointing to earth; the circuit reading is the article's declared interpretation of accurately reported iconography.",
+      "legacy": {
+        "anchor": "L123",
+        "quote": "Magician one hand raised, one lowered",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    }
+  ]
+}

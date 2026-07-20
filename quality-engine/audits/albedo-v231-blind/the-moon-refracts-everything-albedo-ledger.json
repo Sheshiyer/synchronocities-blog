@@ -1,0 +1,253 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-moon-refracts-everything.md",
+  "source_path": "src/content/posts/the-moon-refracts-everything.md",
+  "source_sha256": "147214f8fc30ca74f0ecfd4582c8f8dd59af449757bcf4af81f6568acc913241",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-moon-refracts-everything.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 23,
+        "line_end": 23,
+        "quote": "Crescent geometry on an island famous for its full moon."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Situated observation: observer (author), object (crescent moon phase during the stay), place and conditions (Koh Phangan, per frontmatter). The island's full-moon fame is adjudicated as a general claim at C002.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Crescent geometry on an island famous for its full moon.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 25,
+        "line_end": 25,
+        "quote": "Koh Phangan — pilgrimage site for thousands seeking the full moon's promise of illumination, communal ecstasy, electric connection."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Koh Phangan's Full Moon Party culture draws thousands of attendees per event and is extensively documented; 'pilgrimage site for thousands' is corroborated at the stated strength.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "pilgrimage site for thousands seeking the full moon's promise",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 25,
+        "line_end": 25,
+        "quote": "But the card that activated wasn't the Sun. It was the Moon. And the Moon doesn't illuminate. It refracts."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A claim about the Moon card's symbolic function inside the post's declared tarot frame ('the card that activated'), not an optics claim about moonlight. The refraction thesis is developed consistently through L27–39.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "And the Moon doesn't illuminate. It refracts.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "In the Thoth deck, the Moon shows a corridor between two towers, a scarab pushing the sun disk through the underworld."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate iconography for Thoth Atu XVIII: the path between the twin towers, the scarab (Khepri) bearing the sun through the underworld night, and the teeming water below. Verifiable against the primary artifact.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "a scarab pushing the sun disk through the underworld",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "The towers aren't protection — they're the pylons of a gate you must pass through. The corridor isn't leading somewhere — it's testing whether you can walk when you can't see clearly."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Interpretive reading of the card's elements inside the declared hermeneutic frame; the gate/test reading is applied consistently to the post's projection thesis.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "they're the pylons of a gate you must pass through",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The manomaya kosha — the mental sheath — is the Moon's native territory. This is where projection lives."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declares the kosha frame (frontmatter kosha: manomaya) and assigns the Moon card to the mental sheath — a house-model mapping whose terms ('projection', narrative generation from fragments) are used consistently in the paragraph.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "The manomaya kosha — the mental sheath — is the Moon's native territory.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "Refraction is not distortion. A prism doesn't corrupt white light. It reveals the spectrum that was always contained within it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate optics: prismatic dispersion separates the wavelength constituents already present in white light; nothing is added or corrupted. (The term for what a prism does is technically dispersion rather than refraction alone, but refraction is its mechanism and the claim's content is correct.)",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "A prism doesn't corrupt white light. It reveals the spectrum that was always contained within it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "The Moon refracts your perception to show you its hidden spectrum — the wavelengths of assumption, expectation, and inherited meaning-making that color every raw experience"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The prism paragraph explicitly scaffolds the analogy before it is applied to perception ('wavelengths of assumption'), marking the figurative boundary; no literal optical or causal inference about perception is drawn from the comparison.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "The Moon refracts your perception to show you its hidden spectrum",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "The refraction described above is the Kha-Ba-La triad in operation."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Explicitly labeled 'Structural mapping': Kha/Ba/La are each assigned a necessary role and operated conditionally ('Without La, there is no refraction to observe. Without Ba, there is no receiving surface. Without Kha, there is no distinction...'), so removing the structure changes the post's argument. Declared house frame with consistent definitions — the corpus convention for the triad.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "The refraction described above is the Kha-Ba-La triad in operation.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    }
+  ]
+}

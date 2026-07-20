@@ -1,0 +1,780 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "pain-information-architecture.md",
+  "source_path": "src/content/posts/pain-information-architecture.md",
+  "source_sha256": "8261f79e9af41842810c527a8bb945e3d90efb3df7ff6f797c7cca80e7120a37",
+  "legacy_audit_path": "quality-engine/audits/nigredo/pain-information-architecture.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Pain is literally an information packet — a structured data transmission with frequency, amplitude, duration, and addressing metadata — processed by a biological system that treats it exactly the way a network stack treats an incoming TCP segment."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A productive framing metaphor is explicitly asserted as literal identity ('Not metaphorically'), including a false literal equivalence to TCP-segment handling; the essay's load-bearing model is presented as empirical fact.",
+      "legacy": {
+        "anchor": "BLIND-v231 L29",
+        "quote": "Pain is literally an information packet — a structured data transmission with frequency, amplitude, duration, and addressing metadata — processed by a biological system that treats it exactly the way a network stack treats an incoming TCP segment.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "The nociceptor — the nerve ending that detects potential tissue damage — fires or does not fire. There is no half-pain at the receptor level."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Action potentials are all-or-none; correct at the spike level (receptor transduction itself is graded — noted as scope).",
+      "legacy": {
+        "anchor": "BLIND-v231 L35",
+        "quote": "The nociceptor — the nerve ending that detects potential tissue damage — fires or does not fire. There is no half-pain at the receptor level.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "What we experience as varying intensity is not the nociceptor changing its output but the brain's processing system aggregating multiple binary signals."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nociceptors encode intensity in firing frequency (rate coding) as well as recruitment; the aggregation-only account is refuted by established pain physiology.",
+      "legacy": {
+        "anchor": "BLIND-v231 L37",
+        "quote": "What we experience as varying intensity is not the nociceptor changing its output but the brain's processing system aggregating multiple binary signals.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "You are experiencing roughly half your available nociceptors in the affected region reporting positive"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Maps a subjective 5/10 rating onto a pseudo-precise receptor fraction with no source, no instrument, and no demonstrated consequence.",
+      "legacy": {
+        "anchor": "BLIND-v231 L39",
+        "quote": "You are experiencing roughly half your available nociceptors in the affected region reporting positive",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 58,
+        "quote": "Pain signals are information packets."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Illustrative pseudocode that simulates engineering rigor but computes nothing and changes no inference; precision-aura without structural consequence or provenance.",
+      "legacy": {
+        "anchor": "BLIND-v231 L41-L58",
+        "quote": "Pain signals are information packets.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "Pain dilates consciousness. This is not a side effect — it is the primary function."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pain capture of attention is well supported, but the teleological claim that dilation is pain's 'primary function' is asserted without evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231 L62",
+        "quote": "Pain dilates consciousness. This is not a side effect — it is the primary function.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Before the hand retracts (the motor response), before the yelp (the vocal response), before the emotional reaction (the limbic response), consciousness expands."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The withdrawal reflex is spinal and fires before conscious pain perception; the claimed ordering (awareness before retraction) reverses established physiology.",
+      "legacy": {
+        "anchor": "BLIND-v231 L64",
+        "quote": "Before the hand retracts (the motor response), before the yelp (the vocal response), before the emotional reaction (the limbic response), consciousness expands.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Pain achieves what meditation practitioners spend years chasing: full attentional focus on the present moment."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Figurative comparison with an evident boundary; no literal inference is drawn from it.",
+      "legacy": {
+        "anchor": "BLIND-v231 L64",
+        "quote": "Pain achieves what meditation practitioners spend years chasing: full attentional focus on the present moment.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "Melanin — the pigment found in skin, eyes, and the pineal gland"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The pineal gland produces melatonin, not melanin; pigment melanin occurs in skin/eyes and neuromelanin in the substantia nigra/locus coeruleus — the pineal attribution is false and recycles a known melanin/melatonin conflation.",
+      "legacy": {
+        "anchor": "BLIND-v231 L68",
+        "quote": "Melanin — the pigment found in skin, eyes, and the pineal gland",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "melanin functions as the iris of the consciousness aperture. It regulates how much \"source exposure\" the system receives."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SPLIT",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An 'iris' metaphor is asserted as a biological function of melanin with no mechanism or source; figurative language is presented as physiology.",
+      "legacy": {
+        "anchor": "BLIND-v231 L68",
+        "quote": "melanin functions as the iris of the consciousness aperture. It regulates how much \"source exposure\" the system receives.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "Chronic pain patients are not broken systems. They are systems with the aperture stuck open — consciousness dilated beyond the melanin regulation system's capacity"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-METAPHOR"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A clinical-sounding diagnosis built on the contradicted melanin premise and an undeclared metaphor; needs reframing as a model with the literal claims removed.",
+      "legacy": {
+        "anchor": "BLIND-v231 L70",
+        "quote": "Chronic pain patients are not broken systems. They are systems with the aperture stuck open — consciousness dilated beyond the melanin regulation system's capacity",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Dopamine does not reward you for achieving something. It rewards you for correctly predicting that you would achieve it. The reward signal fires on prediction confirmation, not on outcome delivery."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Reward-prediction-error research (Schultz) shows dopamine fires on unexpected reward and predictive cues and dips on omission; a fully predicted, confirmed reward produces no dopamine burst — 'fires on prediction confirmation' inverts the finding.",
+      "legacy": {
+        "anchor": "BLIND-v231 L76",
+        "quote": "Dopamine does not reward you for achieving something. It rewards you for correctly predicting that you would achieve it. The reward signal fires on prediction confirmation, not on outcome delivery.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "This is why gambling is addictive — the unpredictable reinforcement schedule creates maximum dopamine volatility."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Variable-ratio/intermittent reinforcement producing persistent responding and gambling involvement is well established.",
+      "legacy": {
+        "anchor": "BLIND-v231 L76",
+        "quote": "This is why gambling is addictive — the unpredictable reinforcement schedule creates maximum dopamine volatility.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "When pain stops, dopamine fires. The cessation of pain is processed identically to the arrival of pleasure."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pain offset is rewarding and engages reward/valuation circuitry (Leknes & Tracey line of work); 'identically' is a mild overstatement noted as scope.",
+      "legacy": {
+        "anchor": "BLIND-v231 L80",
+        "quote": "When pain stops, dopamine fires. The cessation of pain is processed identically to the arrival of pleasure.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "The dread of upcoming pain is neurochemically identical to the anticipation of upcoming pleasure, just sign-flipped."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Aversive and appetitive anticipation overlap but are not neurochemically identical; the 'sign-flipped' identity is asserted without a source.",
+      "legacy": {
+        "anchor": "BLIND-v231 L82",
+        "quote": "The dread of upcoming pain is neurochemically identical to the anticipation of upcoming pleasure, just sign-flipped.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "Chronic pain that fluctuates — good days and bad days — creates the same dopamine volatility pattern as a slot machine."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No cited evidence that fluctuating pain reproduces slot-machine dopamine dynamics; the causal slot-machine framing is asserted.",
+      "legacy": {
+        "anchor": "BLIND-v231 L84",
+        "quote": "Chronic pain that fluctuates — good days and bad days — creates the same dopamine volatility pattern as a slot machine.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "chronic pain patients often develop heightened sensitivity to all stimuli, not just painful ones"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Generalized hypersensitivity via central sensitization in chronic pain populations is well documented.",
+      "legacy": {
+        "anchor": "BLIND-v231 L84",
+        "quote": "chronic pain patients often develop heightened sensitivity to all stimuli, not just painful ones",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Pain drastically accelerates learning. Touch a hot stove once and the lesson is permanent."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "One-trial aversive learning is well established (fear conditioning, taste aversion).",
+      "legacy": {
+        "anchor": "BLIND-v231 L86",
+        "quote": "Pain drastically accelerates learning. Touch a hot stove once and the lesson is permanent.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "pain hijacks the dopamine prediction system and writes the prediction directly into long-term memory"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Rapid aversive memory is mediated chiefly by amygdala/noradrenergic consolidation; the direct dopamine 'write' mechanism is asserted without a source.",
+      "legacy": {
+        "anchor": "BLIND-v231 L86",
+        "quote": "pain hijacks the dopamine prediction system and writes the prediction directly into long-term memory",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "The three systems — binary signaling, aperture dilation, dopamine casino — form a coherent information architecture."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared integration of the essay's three model components; internally consistent as a framework.",
+      "legacy": {
+        "anchor": "BLIND-v231 L90",
+        "quote": "The three systems — binary signaling, aperture dilation, dopamine casino — form a coherent information architecture.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "Pain is not the body's alarm system. Alarm systems are designed to be turned off. Pain is the body's priority interrupt system"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared reframing; internally consistent within the essay's model.",
+      "legacy": {
+        "anchor": "BLIND-v231 L92",
+        "quote": "Pain is not the body's alarm system. Alarm systems are designed to be turned off. Pain is the body's priority interrupt system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "Meditation practices that work with pain (Vipassana body scanning, for instance)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: Vipassana (Goenka-lineage) practice centers on body scanning with equanimity toward unpleasant sensations.",
+      "legacy": {
+        "anchor": "BLIND-v231 L94",
+        "quote": "Meditation practices that work with pain (Vipassana body scanning, for instance)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "they are protocols for developing conscious access to the aperture control system"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared application of the essay's aperture model to meditation practice; internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L94",
+        "quote": "they are protocols for developing conscious access to the aperture control system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    }
+  ]
+}

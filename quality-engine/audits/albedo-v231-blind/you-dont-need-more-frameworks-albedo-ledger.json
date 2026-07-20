@@ -1,0 +1,308 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "you-dont-need-more-frameworks.md",
+  "source_path": "src/content/posts/you-dont-need-more-frameworks.md",
+  "source_sha256": "5fa26298d0c4fd89d1614ad5a25e6b17a45d449591f2aaefebab55986f7822f2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/you-dont-need-more-frameworks.md-nigredo-audit.md",
+  "claims": [
+    {
+      "anchor": {
+        "line_start": 26,
+        "line_end": 27,
+        "quote": "You need read access to the operating system already executing you."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "States the runtime/OS frame the article operates under; the Kha-Ba-La annotations at L41-44 confirm the declared house vocabulary, and the frame is used consistently.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L26-27)",
+        "quote": "You need read access to the operating system already executing you.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C001"
+    },
+    {
+      "anchor": {
+        "line_start": 31,
+        "line_end": 33,
+        "quote": "Every self-improvement stack has the same architecture flaw:"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal claim about all self-improvement systems; no survey, source, or scoping is supplied for the population asserted.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L31-33)",
+        "quote": "Every self-improvement stack has the same architecture flaw:",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C002"
+    },
+    {
+      "anchor": {
+        "line_start": 39,
+        "line_end": 46,
+        "quote": "- **Identity defense = kernel permissions** (La blocking its own examination)"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Four-layer map binding OS layers to house terms (La/Kha); internally consistent as a model, and \"No kernel access, no rewrite\" follows from the definitions.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L39-46)",
+        "quote": "- **Identity defense = kernel permissions** (La blocking its own examination)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C003"
+    },
+    {
+      "anchor": {
+        "line_start": 50,
+        "line_end": 56,
+        "quote": "The sequence that matters: Signal, then State, then Story."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Ordering axiom assigning Ba/La/Kha to signal/state/story; consistent with the house model's definitions and its use in companion posts.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L50-56)",
+        "quote": "The sequence that matters: Signal, then State, then Story.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C004"
+    },
+    {
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Most intervention happens at story. Too late."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Population claim about where most interventions occur; asserted without source or scoping.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L56-56)",
+        "quote": "Most intervention happens at story. Too late.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C005"
+    },
+    {
+      "anchor": {
+        "line_start": 60,
+        "line_end": 66,
+        "quote": "If a pattern repeats across relationships, projects, and emotional states—it's not coincidence."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Conditional definitional chain (pattern to architecture to mappable to interruptible); valid inside the declared model.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L60-66)",
+        "quote": "If a pattern repeats across relationships, projects, and emotional states—it's not coincidence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C006"
+    },
+    {
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The Enneagram is a debug surface, not a personality badge."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declares the house's instrumental use of the Enneagram; no attribution to the tradition is asserted, so no misattribution arises.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L72-72)",
+        "quote": "The Enneagram is a debug surface, not a personality badge.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C007"
+    },
+    {
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "Your type = the stress response your nervous system defaults to when Kha stops watching."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "House redefinition of Enneagram type as default stress response; consistent with the model and broadly with the tradition's defense-pattern reading, stated as house usage.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L79-79)",
+        "quote": "Your type = the stress response your nervous system defaults to when Kha stops watching.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C008"
+    },
+    {
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "The system succeeds when you no longer need it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Design-criterion axiom for the model's own success condition; coherent within the frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW (L95-95)",
+        "quote": "The system succeeds when you no longer need it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 new-coverage row; legacy nigredo ledger not consulted per blind-pass protocol."
+      },
+      "id": "C009"
+    }
+  ]
+}

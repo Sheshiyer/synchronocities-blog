@@ -1,0 +1,712 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-seventh-floor.md",
+  "source_path": "src/content/posts/the-seventh-floor.md",
+  "source_sha256": "028da15eb1407fa10363af54040d28ba46574f7a1dd2d3e6c0d20265282c8e8a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-seventh-floor.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Triple-7s don't whisper. They **resonate**."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Numerological efficacy ('resonate') is asserted as a fact about numbers with no declared frame and no demonstrated internal logic. Declare the numerological frame and define its terms, or mark it as personal myth.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Triple-7s don't whisper. They **resonate**.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 46,
+        "quote": "**707** is the seeker who became the staircase."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 7/707/0 glosses ('7 is the seeker', the middle 0 as 'the quantum pause') assert numerological meanings as fact without declaring the frame; 'quantum' here is decorative vocabulary with no referent. Same remedy as C001.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "**707** is the seeker who became the staircase.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "I was on the **7th floor**, after **6 phases of spiraling**, in a place literally called \"**The Y Residence**\""
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Personal travel facts (floor, lodging name, phase count) reported by the situated observer; nothing beyond the author's own itinerary is claimed.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "I was on the **7th floor**",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "I was checking into the final **glyph of this incarnation cycle**."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Presupposes an 'incarnation cycle' (reincarnation framing) as fact. The post later declares a 'personal myth' register (L61), which partially frames the mysticism, but this span asserts the cycle as real without declaration.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the final **glyph of this incarnation cycle**",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "**Yod** — the divine spark in Hebrew mysticism (from the Sefer Yetzirah, the Book of Formation, where Yod is the smallest letter and the seed of all creation)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sefer Yetzirah is correctly titled the Book of Formation; yod is indeed the smallest Hebrew letter; and the text's letters-as-building-blocks cosmology supports the 'seed of creation' gloss. Faithful attribution.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Yod is the smallest letter and the seed of all creation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "**Yggdrasil** — the world tree in Norse cosmology, with branches high and roots deep, the axis mundi that connects the nine worlds"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Yggdrasil as the world tree connecting the nine worlds is accurate Norse cosmology; 'axis mundi' is standard comparative-religion terminology applied appropriately.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the world tree in Norse cosmology ... the axis mundi that connects the nine worlds",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "matching personal myth with **planetary gridwork**"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Planetary gridwork' presupposes a planetary grid (ley-line-style construct) as a fact to be matched against; no source or frame declaration supports it. The 'personal myth' half of the phrase does declare a mythic register — noted as partial mitigation.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "matching personal myth with **planetary gridwork**",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 85,
+        "quote": "Without Kha — the personal register of conscious witness — the entire architecture collapses into tourism."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Conditional triad-absence argument ('Without the Witness, 707 is just a room number'), stated in explicitly hypothetical form and consistent with the corpus-wide Kha definition. The author also grounds it in his own earlier-phase behavior — scoped and honest.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the entire architecture collapses into tourism",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Without the body, the 7th floor is just altitude. The mountain becomes a postcard."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Ba-absence conditional, parallel in form to C008 and consistent with Ba's definition as the embodied register. Hypothetical framing; no external claim.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Without the body, the 7th floor is just altitude.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "In Bangkok, the earthquake cracked the building. My body remembered before my mind could name it. The floor lurched, the glass swayed"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person event report; consistent with the widely reported 28 March 2025 Myanmar earthquake that shook Bangkok and cracked buildings (the post is dated 2025-05-05). Observer, conditions, and somatic detail present.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the earthquake cracked the building",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "it also tore a seam in the inherited code I had been carrying since childhood: the code that says the ground is always about to leave you"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Scoped first-person psychological report about the author's own learned threat pattern; explicitly tied to his history ('since childhood') and not generalized to others.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the code that says the ground is always about to leave you",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "Without the system, the four phases are just four islands."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The La-absence conditional, parallel to C008/C009 and consistent with La's definition as the systemic register. Hypothetical form; the 'same physics' literalism later in the paragraph is adjudicated at C015.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the four phases are just four islands",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "The Tarot XXI (the World, or Universe, in the Marseille and Rider-Waite-Smith traditions)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Trump XXI is 'The World' (Le Monde) in both the Marseille and Rider-Waite-Smith traditions; 'The Universe' is the Thoth deck's title for XXI. The parenthetical misassigns the Thoth title to the other two traditions.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the World, or Universe, in the Marseille and Rider-Waite-Smith traditions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "The four creatures — the eagle, the lion, the bull, the human"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The tetramorph (human/angel, eagle, lion, bull) appears in the corners of the World card in the Marseille and RWS traditions — accurate iconography, verifiable against the cards.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the eagle, the lion, the bull, the human",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "Phangan's lunar reflection in still water is the same physics as the nervous system's recalibration."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An analogy (optical reflection vs neural recalibration) is asserted as literal physical identity — 'the same physics' — with no declared metaphor and no physical mechanism linking them. Mark the comparison or make the physics claim with evidence.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the same physics as the nervous system's recalibration",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 108,
+        "quote": "Just like the **World card (Tarot XXI)** — the final gate — four guardians appeared as echoes of each phase:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The four-guardian table is a declared personal mapping ('appeared as echoes of each phase') that structures the post's completion argument: each creature is bound to a phase, an archetype, and a Kha-Ba-La register, and removing the mapping collapses the 'I was the dancer in the circle' conclusion. Internally consistent; provenance is the declared house frame plus the tarot tetramorph (C014).",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "four guardians appeared as echoes of each phase",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "Birth time **13:31** (→ 44)"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The reduction arithmetic is correct under the post's own convention (13+31=44) and is consequential: the 'Octave Completion' harmonization argument rests on this entry. The birth-time input is author-attested. The significance claim built on these numbers is adjudicated at C023.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Birth time **13:31** (→ 44)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 121,
+        "line_end": 121,
+        "quote": "Room **707** (→ 7, Crown Chakra in the Hindu-Buddhist tantric system)"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": false
+      },
+      "rationale": "Under the digit-sum convention the same list uses elsewhere (13:31→44 by addition; 55→10 by 5+5), 707 reduces to 7+0+7=14 → 1+4=5, not 7. Claiming →7 breaks the system's own rule — demonstrably inconsistent — and the error is consequential because the Crown-Chakra (seventh) link depends on landing on 7.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Room **707** (→ 7",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 121,
+        "line_end": 121,
+        "quote": "Crown Chakra in the Hindu-Buddhist tantric system"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The seven-chakra scheme with the crown (sahasrara) as the seventh is accurately reported as a feature of the Hindu-Buddhist tantric traditions. The number linkage itself is what fails at C018.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Crown Chakra in the Hindu-Buddhist tantric system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 123,
+        "quote": "**55 days** of travel"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Travel-record self-report (55 days; 7 primary destinations at L123) from the situated observer; no external generalization.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "**55 days** of travel",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "(→ 10, the wheel of fortune completing a turn)"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The reduction is correct (5+5=10) and the tarot mapping is right (Trump X = Wheel of Fortune); the entry is consequential to the harmonization argument and its inputs are author-attested plus public tarot numbering.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the wheel of fortune completing a turn",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "Final night? **May 11th** — **exactly 24 hours before my return to the site of the quake**, sealing the loop in sacred symmetry"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Personal itinerary self-report (dates and timing); the 'sacred symmetry' gloss is part of the significance claim assessed at C023.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "exactly 24 hours before my return to the site of the quake",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 126,
+        "line_end": 130,
+        "quote": "Even the earthquake was scheduled."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MODEL", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The capstone of the numerology section ('That's not coincidence. That's field-coded choreography.') asserts supernatural scheduling of a real seismic event as fact, with no declared frame and no mechanism. The arithmetic entries may be internally consistent (C017/C021), but this conclusion outruns them.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Even the earthquake was scheduled.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 134,
+        "line_end": 134,
+        "quote": "The inherited code — my mother's fear of instability, my father's silence around danger, the ancestral pattern of waiting for the ground to betray — activated in full."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Family-pattern self-report scoped to the author's own parents and upbringing; presented as his recognition, not as a transgenerational-epigenetics claim about others.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "my mother's fear of instability, my father's silence around danger",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "But metabolization is not the absence of cost. It is the conversion of fracture into architecture."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Defines the house term 'metabolization' and applies it consistently to the preceding cost narrative (shallow sleep, bodily bracing, humility). Declared frame, internal consistency.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the conversion of fracture into architecture",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 144,
+        "line_end": 146,
+        "quote": "\"Scroll closed. Self witnessed. Signal stabilized. Ready for upload.\""
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Reported inner experience, explicitly framed as non-verbal ('not in language, but in lattice'); honest phenomenological reporting with observer and conditions (lying still, final night) present.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Scroll closed. Self witnessed. Signal stabilized. Ready for upload.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "BOOTSTRAPPED",
+  "post": "temperance-compresses-to-essence.md",
+  "source_path": "src/content/posts/temperance-compresses-to-essence.md",
+  "source_sha256": "15b3699a2a44fcd44561fe2bb16c493c0df6b65e18b65903317e404a26828e73",
+  "legacy_audit_path": "quality-engine/audits/nigredo/temperance-compresses-to-essence.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 22,
+        "line_end": 22,
+        "quote": "In the Thoth deck, card XIV isn't called Temperance. It's called Art."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct: card XIV of Crowley's Thoth deck (painted by Frieda Harris) is titled Art, replacing the Rider-Waite Temperance.",
+      "legacy": {
+        "anchor": "BLIND-L22",
+        "quote": "In the Thoth deck, card XIV isn't called Temperance. It's called Art.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 24,
+        "line_end": 24,
+        "quote": "Temperance implies moderation — a little of this, a little of that, nothing in excess. But Crowley saw deeper."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The rationale for the renaming — Art as alchemy rather than moderation — faithfully paraphrases Crowley's own account in The Book of Thoth, where the card is the alchemical combination of fire and water; the named source is represented accurately.",
+      "legacy": {
+        "anchor": "BLIND-L24",
+        "quote": "But Crowley saw deeper.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 24,
+        "line_end": 24,
+        "quote": "What happens when you mix fire and water isn't dilution. It's *steam*. A phase transition. Something that didn't exist before."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The fire+water→steam image is applied transparently as an analogy for alchemical mixing (and is physically apt), with no literal prediction extracted; the figurative register is unambiguous.",
+      "legacy": {
+        "anchor": "BLIND-L24",
+        "quote": "It's steam. A phase transition.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 26,
+        "line_end": 26,
+        "quote": "The mountain city at the base of Doi Suthep — the seventh chakra guardian — didn't offer space for expansion."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "\"The seventh chakra guardian\" is apposed to Doi Suthep as if it were an established designation, but no tradition, text, or lineage naming the mountain a chakra guardian is cited; it reads as a personal/house mapping presented with the authority of attribution.",
+      "legacy": {
+        "anchor": "BLIND-L26",
+        "quote": "Doi Suthep — the seventh chakra guardian",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 26,
+        "line_end": 26,
+        "quote": "The narrow streets, the moat-bounded old city, the temple bells at 4am creating interference patterns with the call to prayer from the mosque two streets over."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Situated first-person observation: the observer (author in Chiang Mai), objects (moat-bounded old city, 4am bells, nearby mosque call), and conditions are all present; Chiang Mai's old city does contain mosques within a few streets of temples, and \"interference patterns\" is an audible description, not a physics claim.",
+      "legacy": {
+        "anchor": "BLIND-L26",
+        "quote": "temple bells at 4am creating interference patterns with the call to prayer",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "The vijnanamaya kosha — the wisdom sheath"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Vijñānamayakośa as the knowledge/wisdom sheath is the standard Vedantic (Taittirīya Upaniṣad pañcakośa) term and gloss; accurately rendered.",
+      "legacy": {
+        "anchor": "BLIND-L28",
+        "quote": "The vijnanamaya kosha — the wisdom sheath",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "activates not through accumulation but through compression. You don't gain wisdom by adding knowledge. You gain it by pressurizing experience until the essential separates from the incidental."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A novel activation doctrine (compression, not accumulation) is attached to a traditional Vedantic term and asserted as a fact about how the kosha works; the Vedantic sources do not describe vijñānamayakośa as \"activating\" via pressurization, and the personal model is not declared as one.",
+      "legacy": {
+        "anchor": "BLIND-L28",
+        "quote": "activates not through accumulation but through compression",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "Like geological pressure creating diamonds from carbon, or espresso from coffee."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly marked with \"Like,\" both comparisons are physically apt (diamond formation under pressure; espresso under pressure), and no literal mechanism is inferred back onto the kosha claim beyond the comparison.",
+      "legacy": {
+        "anchor": "BLIND-L28",
+        "quote": "Like geological pressure creating diamonds from carbon, or espresso from coffee.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "Art in the Thoth deck shows an androgynous figure pouring between two vessels — but the vessels have changed color. The lion has become red, the eagle white."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The androgynous figure pouring between two vessels matches the Harris/Crowley Art card, and the color-exchange motif is real alchemical counter-changing discussed in The Book of Thoth — but the exact direction of the swap stated here (lion red, eagle white) could not be verified against the card image or Crowley's text from the source alone; flagged for review against the primary image/text.",
+      "legacy": {
+        "anchor": "BLIND-L30",
+        "quote": "The lion has become red, the eagle white.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "Art isn't the creation of beauty. Art is the alchemical compression of experience into essence."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Presented as the essay's own thesis-definition (extending the declared Art/alchemy reading of the card), internally consistent with the compression vocabulary developed through the piece; functions as a stated redefinition rather than a smuggled fact.",
+      "legacy": {
+        "anchor": "BLIND-L34",
+        "quote": "Art is the alchemical compression of experience into essence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "Fourteen days."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The author's own record of the duration of the Chiang Mai stay; a situated personal observation within the travelogue frame, claimed only for the author's experience.",
+      "legacy": {
+        "anchor": "BLIND-L34",
+        "quote": "Fourteen days.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 36,
+        "quote": "Fourteen — the number of the card. No coincidence in a system that doesn't recognize coincidence.\n\nOnly synchronicity."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The fourteen-days/fourteen-card conjunction is openly framed through the journal's declared synchronicity principle (the post's own closing aphorism), not asserted as external evidence of design; internally consistent with the travelogue's declared card-walking frame.",
+      "legacy": {
+        "anchor": "BLIND-L34",
+        "quote": "No coincidence in a system that doesn't recognize coincidence. Only synchronicity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    }
+  ]
+}

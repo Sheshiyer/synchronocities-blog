@@ -1,0 +1,415 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "lorenz-kundli-system-index.md",
+  "source_path": "src/content/posts/lorenz-kundli-system-index.md",
+  "source_sha256": "f67b302f03b6cee0bde1204dfaa329c79e2fc871597ad8e4081088261d905de2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/lorenz-kundli-system-index.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "each demonstrating that mathematical structures discovered in the twentieth century were operational in Vedic astronomical systems for millennia"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Claiming Markov chains, cellular automata, hypercube geometry, tensor fields and neural networks were 'operational' in Vedic systems upgrades structural resemblance to historical usage — no evidence shows the tradition used these mathematics; the claim needs scoping to analogy.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "were operational in Vedic astronomical systems for millennia",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "It establishes the three core parallels: phase space mapping (both systems track dynamic evolution through geometric space), scale invariance (both maintain pattern coherence across magnification levels), and consciousness interface points"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Description of the research program's own organizing framework, attributed to its foundational document and internally consistent with the rest of the index; a declared house structure, not an external finding.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the three core parallels",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "If the Lorenz system and the Kundli system are structurally isomorphic, then techniques developed for analyzing one should apply to the other."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Stated in explicit conditional form as the program's working premise; internally consistent and honestly framed as an 'if', which keeps it inside the declared house frame.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "structurally isomorphic, then techniques developed for analyzing one should apply to the other",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The 120-year Vimshottari Dasha cycle assigns planetary rulership periods in a fixed sequence: Sun (6 years), Moon (10), Mars (7), Rahu (18), Jupiter (16), Saturn (19), Mercury (17), Ketu (7), Venus (20)."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Every duration matches the standard Vimshottari scheme, and the nine values sum to 120 as claimed. The figures anchor the Markov-chain mapping of Study 1 and trace to the canonical dasha table.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Sun (6 years), Moon (10), Mars (7), Rahu (18), Jupiter (16), Saturn (19), Mercury (17), Ketu (7), Venus (20)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The Dasha system's memoryless property — where the current period fully determines the activation pattern without reference to prior periods — is the defining characteristic of a Markov process."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The Markov property is correctly defined, and a deterministic fixed-order cycle with local activation rules does satisfy memorylessness trivially; the finding is declared as the program's own analysis and anchors Study 1. Borderline: the property is thinner than stochastic Markov behavior, but the claim as worded is technically correct.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the defining characteristic of a Markov process",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "Natural friendships, natural enmities, temporal friendships, and temporal enmities create a rule set that determines emergent chart patterns from local interaction rules."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The fourfold friendship classification (naisargika and tatkalika mitra/shatru) is accurately reported as a feature of Parashari astrology.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Natural friendships, natural enmities, temporal friendships, and temporal enmities",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The friendship system operates identically to a one-dimensional cellular automaton: each cell's (planet's) next state is determined by its current state and the states of its neighbors"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Operates identically' overstates the mapping: the friendship tables are static relational classifications, and no iterated update rule, lattice dimension, or neighborhood definition is supplied — 'one-dimensional' is asserted without derivation. Needs scoping to resemblance and a worked mapping.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "operates identically to a one-dimensional cellular automaton",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "Seven planets plus the Ascendant create an eight-dimensional scoring matrix — each house receives a score vector with eight components."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct: the Ashtakavarga scheme computes bindus from seven grahas plus the lagna, giving eight contributors per house.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Seven planets plus the Ascendant create an eight-dimensional scoring matrix",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "The Ashtakavarga bindu table maps naturally onto an eight-dimensional hypercube. Each vertex of the hypercube represents a unique combination of planetary contributions."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Eight binary contributions per house genuinely generate a 2^8 vertex space, so the hypercube identification is mathematically valid; the mapping is the program's declared construction and anchors Study 3.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "maps naturally onto an eight-dimensional hypercube",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "The 27 Nakshatras divide the ecliptic into 13 degrees 20 minutes each."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Correct: 360°/27 = 13°20' exactly, matching the standard equal nakshatra division; the figure anchors Study 4 and traces to the traditional scheme. (Note this uniformity also undercuts the golden-ratio claim in C011.)",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "13 degrees 20 minutes each",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The Nakshatra sequence appears to optimize information distribution across the lunar cycle in a manner consistent with golden ratio spacing — the same optimization principle found in phyllotaxis, seed head arrangements, and other biological information distribution systems."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH", "R-DELETE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The nakshatras are uniform 13°20' divisions (stated two sentences earlier in the same paragraph) — equal spacing is mathematically inconsistent with golden-ratio or Fibonacci-progressive spacing, and no proportional evidence is offered. The claim is internally inconsistent with the post's own enumeration.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "consistent with golden ratio spacing",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "Shadbala assesses planetary strength across six dimensions: positional (Sthana Bala), directional (Dig Bala), temporal (Kala Bala), motional (Cheshta Bala), natural (Naisargika Bala), and aspect (Drik Bala)."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "All six balas are correctly named with accurate Sanskrit terms and glosses.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "positional (Sthana Bala), directional (Dig Bala), temporal (Kala Bala)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "The resulting six-component strength vector for each planet is a tensor quantity — it has both magnitude and direction in a six-dimensional strength space."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Treating the six balas as a component vector (a rank-1 tensor) is a mathematically defensible formalization; the reframing is the program's declared construction and anchors Study 5.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "a tensor quantity — it has both magnitude and direction",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "Planetary influence in Vedic astrology is not scalar but tensorial. Shadbala provides the framework for treating astrological influence as a directed multi-dimensional quantity"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "States the author's tensor reframing as a fact about the tradition ('is not scalar but tensorial'), while traditional Shadbala practice collapses the six balas into scalar totals (rupas). The synthesis is laundered as inherited doctrine; needs declaration of authorship.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "is not scalar but tensorial",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "create a weighted directed graph structurally identical to a neural network. Planets are nodes. Aspects are weighted edges. Chart interpretation is the emergent output of activation propagation through the network."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Structurally identical' overstates: a static weighted graph of aspects lacks the trained weights, nonlinear activations, and learning dynamics that make a neural network a neural network, and no mapping derivation is supplied. The hedge at line 112 ('can be applied') partially repairs but the identity claim here needs scoping to resemblance.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "structurally identical to a neural network",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    }
+  ]
+}

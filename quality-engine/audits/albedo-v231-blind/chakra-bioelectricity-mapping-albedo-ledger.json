@@ -1,0 +1,901 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "chakra-bioelectricity-mapping.md",
+  "source_path": "src/content/posts/chakra-bioelectricity-mapping.md",
+  "source_sha256": "0ffa853de36f98a25168719cae7063246cba1866d5fa88231b2a4c3aa81318aa",
+  "legacy_audit_path": "quality-engine/audits/nigredo/chakra-bioelectricity-mapping.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "The ancient yogic tradition documented these points as \"wheels\" — chakras — through which pranic energy flows."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful summary: 'cakra' means wheel, the classical system locates (typically) seven along the spinal axis, and prāṇa is said to move through them; the report is about the teaching, not its empirical truth.",
+      "legacy": {
+        "anchor": "blind-v231:L30",
+        "quote": "documented these points as \"wheels\" — chakras — through which pranic energy flows",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "Each point corresponds to a major nerve plexus, an endocrine gland, and a measurable bioelectric field differential."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The chakra-plexus-gland correspondence is a modern esoteric mapping (Theosophy/Leadbeater lineage), approximate and contested, and 'measurable bioelectric field differential' at chakra points has no instrument validation; asserted as blanket fact without source.",
+      "legacy": {
+        "anchor": "blind-v231:L30",
+        "quote": "a measurable bioelectric field differential",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "Modern bioelectric research documents the same points as voltage gradients that regulate cellular behavior, organ function, and state transitions in the nervous system."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Fabricated convergence: developmental bioelectricity research (Levin and colleagues) documents voltage gradients regulating cellular behavior, but it does not document chakra points; 'the same points' asserts an identity no research program has established.",
+      "legacy": {
+        "anchor": "blind-v231:L30",
+        "quote": "Modern bioelectric research documents the same points",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "The correspondence is not approximate. It is architectural."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Doubles down on exactness for a correspondence that is by construction approximate (well-known mapping mismatches, e.g., gland assignments varying across modern sources); the exactness claim exceeds any evidence.",
+      "legacy": {
+        "anchor": "blind-v231:L32",
+        "quote": "The correspondence is not approximate. It is architectural.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Every cell in the body maintains a voltage differential across its membrane — typically around negative seventy millivolts at rest."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Textbook physiology; -70 mV is the canonical typical resting potential (range roughly -40 to -90 mV by cell type). The quantity is correct, is the content of the claim, and traces to standard physiology.",
+      "legacy": {
+        "anchor": "blind-v231:L36",
+        "quote": "typically around negative seventy millivolts at rest",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "When the membrane potential changes, the cell's behavior changes: gene expression shifts, protein production alters, communication with neighboring cells modifies."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Voltage-dependent changes in gene expression, protein activity, and cell-cell communication are documented in mainstream and developmental bioelectricity research.",
+      "legacy": {
+        "anchor": "blind-v231:L36",
+        "quote": "gene expression shifts, protein production alters",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "Along the spinal column, these individual cellular voltages aggregate into regional field patterns. Each region corresponds to a nerve plexus that serves a specific organ system and mediates a specific class of information processing."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Regional spinal bioelectric field patterns mapped onto plexuses, each mediating 'a specific class of information processing', is asserted without any measurement literature; the claim builds the bridge the post needs rather than reporting a finding.",
+      "legacy": {
+        "anchor": "blind-v231:L38",
+        "quote": "these individual cellular voltages aggregate into regional field patterns",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "The chakra system maps these regions with precision that predates oscilloscopes by several thousand years."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'precision' of the chakra map is unverifiable and asserted, and the chronology is loose: chakra antecedents appear in early Upaniṣads, but the mature seven-chakra system is roughly a millennium old (medieval tantric texts), not several thousand years.",
+      "legacy": {
+        "anchor": "blind-v231:L38",
+        "quote": "with precision that predates oscilloscopes by several thousand years",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 48,
+        "quote": "Lowest frequency, highest amplitude. The base current that powers the entire system."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The root node's 'bioelectric signature' and its threshold mechanism ('when the voltage differential at this node drops below threshold, the system shifts to survival mode') are presented as measured facts; no instrument or study establishes per-chakra frequency/amplitude signatures or survival-mode thresholds.",
+      "legacy": {
+        "anchor": "blind-v231:L44-48",
+        "quote": "When the voltage differential at this node drops below threshold, the system shifts to survival mode.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Types 8, 9, 1 — the gut triad."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 8-9-1 gut/body triad (and by extension the 2-3-4 heart and 5-6-7 head triads used at L68 and L86) matches standard Enneagram teaching (Riso-Hudson and others); the composition is faithful, though uncited.",
+      "legacy": {
+        "anchor": "blind-v231:L50",
+        "quote": "Types 8, 9, 1 — the gut triad",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "**Enneagram correlation**: Types 2, 3, 4 — the heart triad."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The triad-to-node assignments (gut triad to root, heart triad to solar plexus, head triad to throat) are house inventions presented as discovered 'correlation' with a measurable signature; the mapping is never declared as a model, and no measurement underwrites the correspondence.",
+      "legacy": {
+        "anchor": "blind-v231:L68",
+        "quote": "Enneagram correlation: Types 2, 3, 4 — the heart triad",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Oscillating current. The node cycles between charge and discharge, mirroring the reproductive cycle and the creative pulse."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The sacral node's charge-discharge signature is asserted as a measured electrical characteristic; no instrumentation or study supports per-chakra oscillatory current signatures.",
+      "legacy": {
+        "anchor": "blind-v231:L54",
+        "quote": "The node cycles between charge and discharge",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "High-frequency, variable amplitude. The node that generates the most volatile field in the system."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The solar plexus node's 'most volatile field' superlative is asserted as measurement; no bioelectric survey ranks field volatility by chakra node.",
+      "legacy": {
+        "anchor": "blind-v231:L62",
+        "quote": "the most volatile field in the system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "what the yogic tradition calls manipura — the \"city of jewels\""
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Maṇipūra is correctly translated ('city of jewels' / 'lustrous gem') and correctly placed as the navel/solar-plexus chakra in the yogic tradition.",
+      "legacy": {
+        "anchor": "blind-v231:L66",
+        "quote": "manipura — the \"city of jewels\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The strongest electromagnetic field in the body — measurable several feet beyond the skin."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The cardiac field is the body's strongest endogenous EM field and SQUID magnetocardiography detects it several feet from the torso; the claim is appropriately narrow.",
+      "legacy": {
+        "anchor": "blind-v231:L72",
+        "quote": "measurable several feet beyond the skin",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The heart generates a field approximately sixty times greater in amplitude than the brain's electrical activity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The ~60x figure circulates in HeartMath literature but is given no citation here and compares unlike quantities (ECG versus EEG amplitude); the number carries argumentative weight while its provenance is undemonstrated.",
+      "legacy": {
+        "anchor": "blind-v231:L72",
+        "quote": "approximately sixty times greater in amplitude than the brain's electrical activity",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "When the cardiac bioelectric field achieves coherence — a smooth, sine-wave-like oscillation — the entire system's processing efficiency increases. Immune function improves. Cognitive performance sharpens. Emotional regulation stabilizes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "HRV-coherence benefits have some small-study support (emotional regulation, some cognitive and sIgA findings, largely from one research institute), but the sentence asserts a blanket system-wide efficiency gain plus immune and cognitive improvements without citation or limits.",
+      "legacy": {
+        "anchor": "blind-v231:L76",
+        "quote": "Immune function improves. Cognitive performance sharpens. Emotional regulation stabilizes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 84,
+        "quote": "Complex waveform. Multiple frequencies layered simultaneously, reflecting the throat's function as the body's primary communication interface."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The throat node's 'complex waveform' signature and its asserted correspondence to communicative encoding demands are presented as measured bioelectric facts with no instrument or citation.",
+      "legacy": {
+        "anchor": "blind-v231:L80-84",
+        "quote": "Multiple frequencies layered simultaneously",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "High frequency, low amplitude. The subtlest measurable field in the standard seven-node system."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'The subtlest measurable field in the standard seven-node system' presupposes a measurement program over chakra nodes that does not exist; the signature is asserted, not documented.",
+      "legacy": {
+        "anchor": "blind-v231:L90",
+        "quote": "The subtlest measurable field in the standard seven-node system.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The pineal gland produces melatonin — Type 1's hormone in the Muse-Enneagram matrix. The pituitary gland regulates the entire endocrine system."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Both gland functions are textbook endocrinology (pineal melatonin synthesis; pituitary as the master regulatory gland under hypothalamic control).",
+      "legacy": {
+        "anchor": "blind-v231:L96",
+        "quote": "The pineal gland produces melatonin",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "Type 1's hormone in the Muse-Enneagram matrix"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The melatonin-Type 1 assignment names its frame ('in the Muse-Enneagram matrix'), declaring the house vocabulary at the point of use; internally consistent as a matrix reference.",
+      "legacy": {
+        "anchor": "blind-v231:L96",
+        "quote": "Type 1's hormone in the Muse-Enneagram matrix",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "The highest frequency, lowest amplitude — approaching the noise floor of measurable signals. At this node, the distinction between signal and silence becomes indeterminate."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The crown node's near-noise-floor signature is asserted in measurement vocabulary ('noise floor of measurable signals') without any instrument or dataset; the indeterminacy claim conveniently exempts itself from verification.",
+      "legacy": {
+        "anchor": "blind-v231:L100",
+        "quote": "approaching the noise floor of measurable signals",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "The yogic tradition classifies it as the point where individual consciousness interfaces with universal consciousness."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful report of the sahasrāra doctrine in the yogic tradition (union of individual and universal consciousness); the claim is about the teaching and stays at that level.",
+      "legacy": {
+        "anchor": "blind-v231:L102",
+        "quote": "the point where individual consciousness interfaces with universal consciousness",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "The measurable data does not resolve this disagreement. The experiential data does."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An explicit epistemic stance privileging experiential over measurable data for the crown question; declared as a position rather than smuggled as measurement, and consistent with the post's practice-orientation.",
+      "legacy": {
+        "anchor": "blind-v231:L102",
+        "quote": "The experiential data does.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "High-voltage states at lower nodes produce urgency, aggression, and survival-mode processing. Low-voltage states at higher nodes produce disconnection, dissociation, and the loss of pattern recognition."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Diagnostic rules mapping per-node voltage states to specific psychological outcomes are asserted as if measured; no instrument reads 'node voltage' and no study links such readings to aggression or dissociation.",
+      "legacy": {
+        "anchor": "blind-v231:L110",
+        "quote": "High-voltage states at lower nodes produce urgency, aggression, and survival-mode processing.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "Bioelectric current flows between nodes. A block at one node creates excess voltage below it and deficit above it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An inter-node circuit law (block below creates excess, deficit above) is asserted with hydraulic certainty; the 'stuck in your head' Node 5-6 loop diagnosis has no measurable referent.",
+      "legacy": {
+        "anchor": "blind-v231:L112",
+        "quote": "A block at one node creates excess voltage below it and deficit above it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "Breath changes voltage. Movement changes voltage. Sound changes voltage."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Breath, movement, and sound each demonstrably alter autonomic and bioelectric states (respiratory sinus arrhythmia, movement-evoked potentials, auditory physiology); 'voltage' is loose vocabulary and should be scoped to the measurable quantities actually affected.",
+      "legacy": {
+        "anchor": "blind-v231:L114",
+        "quote": "Breath changes voltage. Movement changes voltage. Sound changes voltage.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "The yogic technologies — pranayama, asana, mantra — are voltage management protocols. They were designed not to produce spiritual experiences but to regulate the bioelectric system that spiritual experiences require."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An intent attribution to the unnamed designers of pranayama, asana, and mantra — that they were designed as bioelectric regulation, not spiritual technology — contradicts the texts' own soteriological framing and cites nothing; invented design history.",
+      "legacy": {
+        "anchor": "blind-v231:L114",
+        "quote": "They were designed not to produce spiritual experiences but to regulate the bioelectric system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 118,
+        "line_end": 118,
+        "quote": "The ancient cartographers mapped the bioelectric system using the instruments available to them — sustained internal observation, refined somatic awareness, and thousands of years of accumulated empirical data transmitted through lineage."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A romantic reconstruction asserted as history: chakra texts are ritual and meditative manuals, and no textual or historical evidence shows they were produced as empirical bioelectric cartography transmitted as measurement data.",
+      "legacy": {
+        "anchor": "blind-v231:L118",
+        "quote": "thousands of years of accumulated empirical data transmitted through lineage",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "When you read legacy code, you do not reject the algorithm because the variable names are in Sanskrit. You translate the notation and run the tests."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The legacy-code comparison is framed as an interpretive heuristic ('you translate the notation'), transparently figurative, and draws no literal software claim.",
+      "legacy": {
+        "anchor": "blind-v231:L120",
+        "quote": "you do not reject the algorithm because the variable names are in Sanskrit",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "The chakra system is the oldest documentation of that field's architecture."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The superlative ('oldest documentation of the bioelectric field's architecture') presupposes that the chakra system documents bioelectricity at all — the very point under dispute — and no historical source supports it.",
+      "legacy": {
+        "anchor": "blind-v231:L122",
+        "quote": "the oldest documentation of that field's architecture",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "It is the recognition that both traditions were reading the same source code and writing their documentation in different languages."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Noesis synthesis (yogic and bioelectric traditions as two documentations of one system) is asserted as discovered historical fact — 'not a modern imposition' — rather than declared as the post's own authored synthesis; synthesis laundering.",
+      "legacy": {
+        "anchor": "blind-v231:L122",
+        "quote": "both traditions were reading the same source code",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "The body is the temple. The voltage is the offering. The chakras are the gates."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Aphoristic closing imagery, transparently figurative; note that the final sentence ('the current will flow according to the circuit's specification') reasserts the contested literal-circuit thesis audited at C002-C004, but this aphorism itself asserts no literal mechanism.",
+      "legacy": {
+        "anchor": "blind-v231:L124",
+        "quote": "The chakras are the gates.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    }
+  ]
+}

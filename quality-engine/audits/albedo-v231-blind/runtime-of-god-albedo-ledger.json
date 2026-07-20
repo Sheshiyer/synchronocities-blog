@@ -1,0 +1,577 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "runtime-of-god.md",
+  "source_path": "src/content/posts/runtime-of-god.md",
+  "source_sha256": "dd5e6c4309988b7b3fba5afe35d3671a10f90c3b731f180e5f7b8ee3cbfc2a03",
+  "legacy_audit_path": "quality-engine/audits/nigredo/runtime-of-god.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "The Vedic Sanskrit texts do not describe this as metaphor. They document it as architecture."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-REMODE", "R-SYNTHESIS", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Attributes the author's runtime/execution-environment frame to the Vedic texts themselves ('they document it as architecture'), laundering the Noesis computing synthesis into the sources at the level of framing.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Vedic Sanskrit texts do not describe this as metaphor. They document it as architecture.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 45,
+        "quote": "Purusha Sookta (Rigveda 10.90) opens with a system specification that would be at home in any kernel design document"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Puruṣa Sūkta is correctly identified as Ṛgveda 10.90, and the quoted verse (puruṣa evedaṃ sarvaṃ yadbhūtaṃ yacca bhavyam / utāmṛtatvasyeśāno yadannenātirohati) is the accurate text of RV 10.90.2; the interpretive 'kernel design document' framing is assessed at C001/C003.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Purusha Sookta (Rigveda 10.90)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Translation: The Universal Runtime encompasses all executed states — past processes, active threads, and all possible futures. It operates with root privileges across every interface layer, including those marked as physical."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SPLIT", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Labeled 'Translation' but renders puruṣa as 'Universal Runtime' and amṛtatvasya īśānaḥ as 'root privileges across every interface layer'; the standard sense ('The Puruṣa is all this — what was and what is to be; and he is the lord of immortality...') is materially misrepresented as a computing specification.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Translation: The Universal Runtime encompasses all executed states — past processes, active threads, and all possible futures.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The Taittiriya Upanishad's Shikshavalli does not offer practices. It offers a grammar for how the runtime compiles experience into coherence. The three forces are not metaphorical energies. They are structural requirements."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-MODEL", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The framing presents the 'three forces' (defined next as the house Kha-Ba-La triad) as content of the Taittirīya Upaniṣad's Śikṣāvallī, which actually teaches the six phonetic components (varṇa, svara, mātrā, bala, sāma, santāna) — the house triad is materially misattributed to the text.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Taittiriya Upanishad's Shikshavalli does not offer practices. It offers a grammar for how the runtime compiles experience into coherence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 57,
+        "quote": "**Kha** — the observer, the witness, the author-drive. This is the process that watches other processes."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The Kha-Ba-La triad is operationally defined with three distinct roles and distinct failure modes, declared at L51 as structural requirements, and drives the post's entire four-scale analysis — removing it collapses the thesis; its provenance is the reproducible Noesis house derivation (though the post misattributes it to the Śikṣāvallī, assessed at C004).",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "**Kha** — the observer, the witness, the author-drive. This is the process that watches other processes.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "When all three co-arise, the runtime is stable. When any one is missing, the failure mode is specific and observable — not as mysticism, but as crash reporting."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Model-internal prediction following directly from the triad definitions at L53-57; consistent with the house frame.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "When all three co-arise, the runtime is stable. When any one is missing, the failure mode is specific and observable",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "The Bhagavad Gita (18.61) states that Ishvara sits in the heart of all beings and causes them to revolve by a kind of mechanical power (maya)."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful paraphrase of BG 18.61 (īśvaraḥ sarvabhūtānāṃ hṛddeśe... bhrāmayan sarvabhūtāni yantrārūḍhāni māyayā — the Lord in the heart of all beings, causing them to revolve by māyā as though mounted on a machine).",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Bhagavad Gita (18.61) states that Ishvara sits in the heart of all beings and causes them to revolve by a kind of mechanical power (maya).",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "At the individual scale, the debug protocol is Pratyahara — the withdrawal of sensory I/O from external streams."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pratyāhāra as withdrawal of the senses from external objects is accurately represented; the 'debug protocol' framing is the post's declared lens.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "the debug protocol is Pratyahara — the withdrawal of sensory I/O from external streams",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "Chandogya Upanishad (8.15) describes the realized self as one whose body becomes the self of all beings — not as fusion, but as shared execution context."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Chāndogya Upaniṣad 8.15 is the closing transmission section (Brahmā taught the knowledge to Prajāpati, Prajāpati to Manu, Manu to humankind; the knower attains Brahman and does not return) — it does not teach that the realized self's body 'becomes the self of all beings'; the pinpoint citation is materially misleading.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Chandogya Upanishad (8.15) describes the realized self as one whose body becomes the self of all beings",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The Purusha Sookta describes the cosmic person as simultaneously the source of all social strata — Brahmin, Kshatriya, Vaishya, Shudra — and the substance that transcends them."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "RV 10.90.12 does derive the four varṇas from the Puruṣa's body parts, and the transcendence gloss is consistent with the hymn's presentation of Puruṣa as exceeding all creation (10.90.2–5).",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Purusha Sookta describes the cosmic person as simultaneously the source of all social strata — Brahmin, Kshatriya, Vaishya, Shudra — and the substance that transcends them.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "The Taittiriya Upanishad (2.8) maps five sheaths — annamaya, pranamaya, manomaya, vijnanamaya, anandamaya — each a deeper process layer, each dependent on the one beneath it."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The five-kośa doctrine is genuinely Taittirīya Upaniṣad chapter 2; the pinpoint '2.8' is loose (the sheaths span 2.1–2.5, while 2.8 is the bliss-calculus passage cited later at C019) but the attribution of the doctrine to the text is accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Taittiriya Upanishad (2.8) maps five sheaths — annamaya, pranamaya, manomaya, vijnanamaya, anandamaya",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "The Vedic framework does not treat these as separate domains. It treats them as nested resolutions of the same runtime."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The four-scale 'nested resolutions of the same runtime' structure is the author's organizational synthesis, presented here as a property of the Vedic framework itself — synthesis laundering at the section level.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It treats them as nested resolutions of the same runtime.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "Bhrigu approaches his father Varuna with an error report: he has attempted to understand Brahman through discipline, and the output is incomplete."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful paraphrase of Taittirīya Upaniṣad 3 (Bhṛguvallī): Bhṛgu approaches his father Varuṇa seeking Brahman and is successively instructed through food, breath, mind, intellect, and bliss; the 'error report' framing is the post's declared lens.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Bhrigu approaches his father Varuna with an error report",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "it is inherited code, installed by family, culture, religion, and trauma, running below the level of your authored instructions."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The conditioning claim is stated entirely within the post's declared runtime frame and follows consistently from its model of inherited patterning.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "it is inherited code, installed by family, culture, religion, and trauma, running below the level of your authored instructions.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 104,
+        "quote": "śīkṣāṃ vyākhyāsyāmaḥ | varṇaḥ svaraḥ | mātrā balam |"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The quoted verse (TU 1.2) is accurate, and the six śikṣā components — varṇa (letter), svara (accent), mātrā (measure), bala (force), sāma (uniformity), santāna (combination) — are correctly listed; the computing-flavored glosses track the traditional meanings without distorting them.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "śīkṣāṃ vyākhyāsyāmaḥ | varṇaḥ svaraḥ | mātrā balam |",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "The Vedic day begins at Brahma Muhurta — approximately 96 minutes before solar node activation."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Brahma muhūrta as roughly two muhūrtas before sunrise is the standard traditional statement, and the arithmetic is correct (1 muhūrta = 48 minutes, so 2 = 96); the figure fixes the morning protocol's timing (procedure changes if altered) and its provenance is the documented muhūrta unit, hedged appropriately with 'approximately'.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Vedic day begins at Brahma Muhurta — approximately 96 minutes before solar node activation.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "Sandhya — the junction between day and night — is a scheduled garbage collection."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sandhyā as the twilight junction practice is accurately represented, and the accompanying 'one muhurta. Forty-eight minutes' conversion is a correct definitional unit gloss with no argumentative weight; the 'garbage collection' framing is the post's declared lens.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Sandhya — the junction between day and night — is a scheduled garbage collection.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 118,
+        "quote": "The prescribed response is vairagya — detachment not as emotion, but as pattern interruption. The mantra is `aham brahmasmi` — the assertion that the observer is not the loop."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The glossary terms are accurately rendered: vairāgya (detachment), kumbhaka (breath retention), viveka (discrimination), neti neti (via negativa), and ahaṃ brahmāsmi (the Bṛhadāraṇyaka mahāvākya); the 'debug matrix' framing is the post's declared lens.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The prescribed response is vairagya — detachment not as emotion, but as pattern interruption.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "the unit of measurement is the joy of a young man in full health and wealth, multiplied by one hundred at each successive level of the five sheaths"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "TU 2.8 (ānanda-mīmāṃsā) does define one unit of human bliss (a young, healthy, wealthy, learned man) and multiplies it a hundredfold per successive level — the arithmetic is correct and traceable to the text — but the ladder runs through classes of beings (gandharvas, devas, Indra, Bṛhaspati, Prajāpati, Brahmā), not 'the five sheaths'; that level-mapping imprecision is flagged with R-ATTRIBUTE while the attribution of the measure itself holds.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "the unit of measurement is the joy of a young man in full health and wealth, multiplied by one hundred at each successive level",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "The Quine principle applies: the system creates the conditions for its own transcendence."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "No recognized 'Quine principle' states that a system creates the conditions for its own transcendence; the claim likely conflates 'quine' (a self-reproducing program — Hofstadter's coinage from Quine's work on self-reference) with an invented transcendence axiom, making the named attribution materially misleading.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Quine principle applies: the system creates the conditions for its own transcendence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "When Kha-Ba-La co-arise, the personal runtime becomes readable. The interpersonal field becomes navigable. The systemic code becomes examinable. The cosmic architecture becomes operable"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Cross-scale payoff claim internal to the triad model; consistent with the definitions and the four-scale structure developed in the post.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "When Kha-Ba-La co-arise, the personal runtime becomes readable.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    }
+  ]
+}

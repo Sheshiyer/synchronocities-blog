@@ -1,0 +1,709 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "mitochondrial-subconsciousness.md",
+  "source_path": "src/content/posts/mitochondrial-subconsciousness.md",
+  "source_sha256": "81c6e7975079b68f8f23c372635e2b2d33c545a11c746a8bc508d39155a6425f",
+  "legacy_audit_path": "quality-engine/audits/nigredo/mitochondrial-subconsciousness.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "Mitochondrial DNA — the genetic material inside your cellular power plants — passes exclusively through the maternal line. It does not recombine. It does not shuffle."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard human genetics: mtDNA is maternally inherited and effectively non-recombining; rare documented paternal-leakage exceptions do not defeat the claim at its stated strength.",
+      "legacy": {
+        "anchor": "L28",
+        "quote": "mtDNA passes exclusively through the maternal line",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 40,
+        "quote": "The unconscious operates below the threshold of waking awareness."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A stipulative terminological distinction explicitly declared as the framework's own precision move ('The first precision this framework demands is terminological'); internally consistent, though not canonical psychology usage.",
+      "legacy": {
+        "anchor": "L36-40",
+        "quote": "Subconscious and unconscious are not synonyms",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "It processes every input — every conversation, every image, every interaction — through pattern templates that you did not choose and cannot delete. These templates are the mitochondrial inheritance."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Identifies subconscious pattern processing with mitochondrial inheritance as biological fact; testable in principle and asserted literally, so it must meet the empirical bar it cannot currently reach (the L30 'pattern recognition applied to that biology' framing partially mitigates but does not declare this sentence as model).",
+      "legacy": {
+        "anchor": "L40",
+        "quote": "These templates are the mitochondrial inheritance",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Mitochondrial DNA does not encode myths directly. It encodes the cellular processing architecture through which myths are received, recognized, and internalized."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The first clause is honest; the second asserts a myth-reception architecture encoded in mtDNA for which no evidence exists — a mechanism claim without any source.",
+      "legacy": {
+        "anchor": "L44",
+        "quote": "encodes the cellular processing architecture through which myths are received",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Different mitochondrial haplogroups — clusters of related maternal lineages — produce energy with different characteristics, optimized over thousands of years of adaptation to different environments, diets, climates, and survival pressures."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Haplogroup definition is accurate, and associations between mtDNA haplogroups, bioenergetic variation, and climate/diet adaptation are published (e.g., Wallace and colleagues); stated at a strength the literature supports.",
+      "legacy": {
+        "anchor": "L46",
+        "quote": "haplogroups produce energy with different characteristics",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "A brain powered by mitochondria adapted to high-altitude, low-oxygen environments processes information differently than a brain powered by mitochondria adapted to tropical environments with high caloric density."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No study demonstrates that mtDNA haplogroup background produces different cognitive information-processing styles; extrapolates from metabolic adaptation to cognition without evidence.",
+      "legacy": {
+        "anchor": "L48",
+        "quote": "processes information differently",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Arctic lineages developed mythologies of endurance, scarcity, and the long dark. Tropical lineages developed mythologies of cycle, regeneration, and seasonal profusion. Steppe lineages developed mythologies of movement, conquest, and horizon. These are not cultural accidents."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Sweeping comparative-mythology generalizations asserted as law ('not cultural accidents', 'cognitive architectures built on energetic substrates') with no comparative corpus or causal evidence; flattens enormous intra-regional mythological diversity.",
+      "legacy": {
+        "anchor": "L50",
+        "quote": "Arctic/Tropical/Steppe mythology generalizations",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The subconscious is not a psychological reservoir of repressed personal material. It is a biological inheritance of pattern recognition protocols transmitted through the maternal mitochondrial line."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article's central thesis stated as literal biology ('It IS a biological inheritance... transmitted through the maternal mitochondrial line'); the L30 declaration that what follows is 'pattern recognition applied to that biology' is a partial frame marker, but this sentence presents the house model as established fact — mode boundary not honored at the point of assertion.",
+      "legacy": {
+        "anchor": "L52",
+        "quote": "biological inheritance of pattern recognition protocols",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "what Joseph Campbell identified as the monomyth in *The Hero with a Thousand Faces*"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Campbell did articulate the monomyth (hero's departure-initiation-return) in The Hero with a Thousand Faces (1949); attribution accurate.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "Campbell monomyth attribution",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Inanna going underground in the Sumerian *Descent of Inanna*, Persephone entering the underworld in the Homeric *Hymn to Demeter*"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Both texts and their descent narratives are accurately named: the Sumerian Descent of Inanna and Persephone's abduction in the Homeric Hymn to Demeter.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "Inanna and Persephone descent attributions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "A story that does not map to an inherited mythological template is processed as noise. A story that maps precisely to an inherited template is processed as valid — regardless of its factual content."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal psychological laws of narrative processing asserted without evidence; 'regardless of its factual content' is an absolute claim no cited study supports.",
+      "legacy": {
+        "anchor": "L62",
+        "quote": "processed as noise / processed as valid",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "This is why propaganda works. This is why advertising works."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts the template mechanism as the causal explanation for propaganda and advertising efficacy; plausible direction, but stated as settled causation without source and without scope limits.",
+      "legacy": {
+        "anchor": "L64",
+        "quote": "This is why propaganda works",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 76,
+        "quote": "The mitochondrial subconscious operates as a Kha-Ba-La triad — not because the words are decorative, but because the structure is real."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Applies the declared Kha-Ba-La diagnostic (absent-witness, absent-body, absent-structure failure modes) consistently to the article's subject; the 'not a model. It is a diagnostic' line (L76) keeps it inside declared house practice.",
+      "legacy": {
+        "anchor": "L68-76",
+        "quote": "operates as a Kha-Ba-La triad",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 86,
+        "quote": "**Systemic (La).** Structural inertia."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The four-scales description with processing speeds and resolutions is declared framework vocabulary applied consistently; no external measurement is claimed.",
+      "legacy": {
+        "anchor": "L82-86",
+        "quote": "Four scales: personal, interpersonal, systemic",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "atoms forged in stellar cores, passed through eons, now assembled into your cells."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Stellar nucleosynthesis of heavy elements and their incorporation into terrestrial biochemistry is established astrophysics.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "atoms forged in stellar cores",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "The mitochondrial cycle — energy production, distribution, decay, regeneration — mirrors the stellar cycle of fusion, collapse, and dispersal."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The cellular-stellar mirroring is stated as the framework's recognition-principle ('the recognition that the same pattern operates'); although it declares 'not metaphor', it functions as a declared house axiom rather than an empirical identity, and is internally consistent.",
+      "legacy": {
+        "anchor": "L88",
+        "quote": "cosmic scale is not metaphor",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "The physiological cost of running outdated code is measurable: cortisol dysregulation, insulin resistance, inflammatory cascades."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SPLIT",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The evolutionary-mismatch core (Pleistocene adaptations vs caloric surplus) is mainstream, but the claim binds it to the house's 'mitochondrial pattern templates' and a 3 AM-email vigilance chain without source; split the supported mismatch hypothesis from the house mechanism.",
+      "legacy": {
+        "anchor": "L94",
+        "quote": "outdated code... cortisol dysregulation, insulin resistance",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "Rupture is not failure. It is the system admitting that its template is outdated. In the rupture, there is an opening"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Reinterprets nervous-system events and dissociative episodes within the declared cost-fracture-rupture schema; consistent as framework vocabulary, no clinical efficacy claimed.",
+      "legacy": {
+        "anchor": "L98",
+        "quote": "Rupture is not failure",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 112,
+        "quote": "**Principle 1: Awareness is the primary tool.**"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The four engagement principles are practice guidance stated as framework specification ('a specification for conscious engagement'); internally consistent and explicitly normative rather than empirical.",
+      "legacy": {
+        "anchor": "L106-112",
+        "quote": "Four principles of conscious engagement",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "the same gap that the Enneagram's type observation creates, operating at a deeper layer of the stack."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Type observation creating a gap between pattern and response is faithful to Enneagram practice literature; the 'deeper layer' comparison is the article's declared stacking.",
+      "legacy": {
+        "anchor": "L108",
+        "quote": "Enneagram's type observation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "Naming a pattern changes your relationship to it. Not because names have magical power, but because the act of naming requires the conscious mind to engage with material that the subconscious was processing without oversight."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Offered as framework Principle 3 with an explicit mechanism story and a disavowal of magical thinking; consistent with affect-labeling findings in psychology but claimed here only at model strength.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "Naming a pattern changes your relationship to it",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "BLIND v2.3.1 extraction — new coverage finding; no legacy row consulted for this claim."
+      }
+    }
+  ]
+}

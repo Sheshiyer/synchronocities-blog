@@ -1,0 +1,658 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "BOOTSTRAPPED",
+  "post": "sacred-runtime-bali-padiyami.md",
+  "source_path": "src/content/posts/sacred-runtime-bali-padiyami.md",
+  "source_sha256": "0d3249197db1c00f9ddb36139a3d5728c2e9f7c089869a172a5481a9929020e0",
+  "legacy_audit_path": "quality-engine/audits/nigredo/sacred-runtime-bali-padiyami.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "At 4:17 AM on the seawall at Sanur, the sky was still ink but the east had begun to violet. A column of forty people emerged from the dark, each carrying woven baskets stacked with canang, frangipani, rice cakes wrapped in banana leaf."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person situated report with named observer, place (Sanur seawall), time (4:17 AM), and sensory detail; scoped to what the observer saw without universalization.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "I knew about scapegoats from Walter Burkert's *Greek Religion*, where he reconstructs the pharmakos ritual from the Atthidographers."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Burkert's Greek Religion does treat the pharmakos (English ed. pp. 82-84) and draws on the fragmentary historiographic tradition including the Atthidographers; the attribution of this reading to that book is accurate.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "The Greek pharmakos ritual was reactive. The city-state allowed corruption to accumulate until it triggered a crisis — plague, famine, military rout — and only then selected a marginal human being, loaded the dysfunction onto them, and expelled or executed the vessel."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Crisis-driven (and calendrical Thargelia) expulsion of marginal persons is the documented pharmakos pattern; the 'reactive' characterization is fair at the strength stated and consistent with the Burkert source cited elsewhere in the paragraph.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Burkert notes that the pharmakos was drawn from the margins — criminals, foreigners, the disabled"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Burkert and the underlying sources do describe pharmakoi as marginal persons — criminals, slaves, the poor or deformed; the specific list is a reasonable paraphrase of the source tradition.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "because the system's error handling required a thread it could kill without destabilizing its own core. This is not a bug in the design. It is the design. Reactive garbage collection always requires a body."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The error-handling rationale is the author's house interpretation, internally coherent, but it is grammatically spliced onto 'Burkert notes that…', risking attribution bleed; the gloss should be separated from the Burkert citation.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "It runs on a schedule: every 210 days, aligned with the intersection of the Balinese saka lunar calendar and the solar year."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 210-day figure is real but belongs to the Pawukon (wuku) cycle, which is independent of the lunisolar Saka calendar; no 'intersection of the saka lunar calendar and the solar year' produces 210 days, so the number is misapplied to the wrong calendar system — consequential because the essay's cron-job thesis is built on it.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The Bali Padiyami does not wait for crash conditions. It runs on a schedule"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post stakes its entire thesis on a named Balinese ritual, 'Padiyami', that cannot be matched to any documented Balinese ceremony; the described features (pre-dawn procession to the sea with offerings and an effigy) resemble Melasti, but name and timing do not. Ritual existence/identity is genuinely undecidable from the post alone — flagged for manual source verification.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The *palelintangan* maps planetary positions to physiological states."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Palelintangan is a Balinese astro-calendrical divination chart mapping lintang (constellation) and day combinations to omens, tutelaries, and fortunes; 'planetary positions to physiological states' is not a supported description of its function in any standard account.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The *wuku* cycle tracks thirty seven-day weeks against agricultural, ritual, and social obligations. The *odalan* temple anniversary cycle layers these systems into nested recursion of maintenance events."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The Pawukon indeed comprises 30 named wuku of 7 days (= 210 days) and odalan temple anniversaries recur on that cycle; the count is correct, traceable to the documented calendar, and structurally grounds the essay's 210-day schedule thesis.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The Greeks built a failure detector. The Balinese built a calendar."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The reactive-vs-preventive architectural distinction is explicitly declared ('This distinction is not theological. It is architectural.', L51) and developed consistently as the essay's comparative model.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "In computer science, garbage collection requires a pointer — a named location in memory that the runtime can identify, mark, and sweep."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A fair high-level description of tracing (mark-and-sweep) garbage collection over reachable references; loose ('pointer' for reference/root) but accurate at the strength stated for a general audience.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The Greek pharmakos was a living human being. The Balinese offering is inert material: rice, flowers, effigy, smoke. The substrate has changed. The architecture has not."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The factual substrate contrast (human scapegoat vs inert offerings) is accurate given the sources, and 'substrate changed / architecture has not' is the essay's declared structural-identity model applied consistently.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The procession carries the accumulated metabolic byproducts of 210 days of social operation — resentments calcified into grudges, obligations compounded into debt, environmental stress absorbed by bodies working wet rice terraces, the slow cortisol load of kinship networks that never fully discharge."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Presented as what the ritual does within the essay's declared model; the cortisol vocabulary is metaphorized physiology rather than a measured claim, and the passage makes no testable prediction. Borderline (physiological terms carry propositional weight) — flagged here but judged coherent as house framing.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "This is symbolic recursion: the agreement to treat X as Y, repeated across generations, until the recursion becomes infrastructure. The effigy does not contain the corruption in any physical sense. It contains it in the same way a variable contains a value — by convention, by address"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly anti-mystical and self-declared ('This is not mysticism. This is symbolic recursion'), the convention/agreement account of ritual efficacy is internally consistent and makes no supernatural or measured claim.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "One leg is bound to the living tree; the other hangs free, forming the shape of a fylfot — a cross that appears to rotate when the eye traces its limbs"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Card XII, one leg bound to the tree, the free leg bent to form a cross-like (fylfot) figure matches standard Hanged Man iconography (Rider-Waite and predecessors); the assignment/expulsion reading around it is the essay's declared frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "He is the pointer after it has been marked for deallocation but before the sweep has run."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Hanged Man as mark-before-sweep interval is the essay's declared synthesis of tarot image and GC model, applied consistently across L63-67.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The Balinese priests — the *pedanda* — understand this interval. The Padiyami is not a single moment but a sequence: preparation, procession, deposit, return."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pedanda are indeed Balinese high priests, but the attributed four-phase 'Padiyami' sequence cannot be verified against any documented rite (inherits the C007 problem); genuine source ambiguity — flagged for manual verification.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 77,
+        "quote": "The three operate as a loop: Kha recognizes, Ba receives, La generates the pressure that makes the next recognition inevitable."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kha-Ba-La triad is explicitly declared as house vocabulary ('Kha is the field that recognizes accumulation… It is not a deity.', L71) and each term is defined then operated consistently across L71-77.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "they have learned, over centuries, to externalize the pointer — to make it object rather than subject — so that the sweep does not require blood. The Greeks never solved this. The Balinese did, by making the vessel biodegradable."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-CAUSE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An intentional historical-causal story (centuries of learning, in order to avoid blood sacrifice) is asserted about Balinese ritual evolution with no source; 'The Greeks never solved this' compounds the comparative-historical overreach.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "Social systems generate entropy. Kinship networks accumulate obligation debt. Rice terraces accumulate salt and pest load. The body accumulates cortisol, glycated hemoglobin, fragmented sleep."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A battery of empirical accumulation claims — some plausible (paddy salinization, HbA1c as chronic-glycemia marker, allostatic-load framing), some loose (cortisol and sleep are not literally 'accumulated') — offered as fact with no source or measure.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "I have seen what happens when the Padiyami is skipped. Not in Bali — in myself, and in organizations I have worked with."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Named observer, explicit scope (self and worked-with organizations), and concrete observable content (unnamed resentments, performative meetings); the interpretation stays within the declared model.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "a body that keeps performing until the HPA axis downregulates its own receptor density and the cortisol that once mobilized energy now circulates uselessly, like a signal with no receiver."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Chronic-stress glucocorticoid-receptor downregulation is a real literature, but the flat mechanistic assertion (including 'cortisol circulates uselessly') is presented without source and overshoots what the evidence states at this generality.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "The Greeks had a protocol for this: wait for the plague, then pick someone to blame. Modern organizations have a different protocol: wait for the quarterly review, then pick someone to fire. The architecture is identical."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Restates the essay's declared reactive-GC model across Greek and organizational cases; the organizational generalization is rhetorical but operates inside the declared frame without empirical measurement.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "That is the only operating system that has ever worked. Everything else is just waiting for the plague."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Closing superlative of the declared maintenance model; the 'only… that has ever worked' phrasing is rhetoric internal to the house frame rather than a comparative empirical claim, and the frame has been consistently declared throughout.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    }
+  ]
+}

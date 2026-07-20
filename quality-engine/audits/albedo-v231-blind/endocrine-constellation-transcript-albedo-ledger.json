@@ -1,0 +1,577 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "endocrine-constellation-transcript.md",
+  "source_path": "src/content/posts/endocrine-constellation-transcript.md",
+  "source_sha256": "d1473bb51f64110ebe941e6c26f8ba4ddb338bd9c0829410b12d030291ec3f62",
+  "legacy_audit_path": "quality-engine/audits/nigredo/endocrine-constellation-transcript.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "His transmission on endocrine-constellation patterns — part of a broader stream exploring the Eye of Horus, placental narratives, and ancient perception frameworks"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Reports the content of a named contemporary creator's (James True) stream. The author writes as the primary witness who engaged the transmission, and the subject matter is consistent with James True's publicly known content register; treated as a faithful source report.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "His transmission on endocrine-constellation patterns — part of a broader stream exploring the Eye of Horus, placental narratives, and ancient perception frameworks",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Nine hormones, each with measurable secretion patterns, receptor binding profiles, and physiological effects. This layer is verifiable through standard endocrinology."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The measurability of secretion, receptor binding, and physiological effects for the listed substances is standard, uncontroversial endocrinology. Minor scope note: 'endorphins' are a neuropeptide class rather than a single hormone, which does not defeat the measurability claim.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Nine hormones, each with measurable secretion patterns, receptor binding profiles, and physiological effects.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "Nine Muses, each with defined domains of creative intelligence. This layer is documentable through classical scholarship."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The nine Muses with per-Muse domains are genuinely documentable in classical and post-classical scholarship; the specific one-domain-per-Muse assignments are later (Hellenistic/Roman-era) conventions rather than Homeric, which the claim does not contradict.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Nine Muses, each with defined domains of creative intelligence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Nine constellations, each with observable positions, seasonal visibility windows, and mythological associations. This layer is verifiable through astronomy."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "All nine constellations used in the post's table (Serpens Caput, Ursa Major, Hercules, Pegasus, Ophiuchus, Bootes, Taurus, Andromeda, Virgo) are real IAU-recognized constellations with observable positions and seasonal visibility; astronomy does verify this layer.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Nine constellations, each with observable positions, seasonal visibility windows, and mythological associations.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "proposes that these three layers are not independent systems mapped together by analogy but a single system observed through three different instruments."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The unity-of-layers thesis is explicitly attributed to the named Spolski Correspondence Framework as its proposal, i.e. a declared analytical axiom rather than an asserted measurement. As a model axiom it is internally consistent with the rest of the post.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "a single system observed through three different instruments.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 104,
+        "quote": "The mapping follows a logic that becomes clear only when you see the full table:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The hormone–Muse–constellation correspondence table is the post's declared mapping artifact, presented as the framework's own structure. The assignments are internally consistent as a house model; the mislabeled 'prime' field inside the dict is tested separately at L106 (C007).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "correspondences = { 'melatonin': { 'muse': 'Polymnia', 'constellation': 'Serpens Caput' ...",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "The prime number sequence is not decorative. It suggests an activation order — a boot sequence in which the nine circuits initialize."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The values assigned to the 'prime' field are the integers 1 through 9, of which only 2, 3, 5, 7 are prime; 1 is not prime and 4, 6, 8, 9 are composite. Calling this sequence 'prime' is demonstrably false, and the claim asserts structural consequence ('not decorative'), so the error is load-bearing in intent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The prime number sequence is not decorative.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "The pineal gland, which produces melatonin"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pineal synthesis and secretion of melatonin is textbook endocrinology (from tryptophan via serotonin, under SCN control). Stated at correct strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The pineal gland, which produces melatonin",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "has been identified across traditions as the seat of inner vision: the third eye in Hindu systems, the Eye of Horus in Egyptian systems, the pine cone in Vatican symbolism."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The pineal-as-third-eye, pineal-as-Eye-of-Horus, and Vatican-pine-cone-as-pineal identifications are modern esoteric (19th–20th century, post-Blavatsky) attributions, not teachings of Hindu, Egyptian, or Vatican traditions themselves; the Vatican pine cone is a Roman fountain sculpture. The claim credits ancient traditions with a modern identification.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the third eye in Hindu systems, the Eye of Horus in Egyptian systems, the pine cone in Vatican symbolism.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "it is a hormone that emerges from darkness, from the absence of stimulation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Melatonin secretion is light-suppressed and rises in darkness; 'not generated through effort' is also accurate at the stated strength. Matches standard chronobiology.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "it is a hormone that emerges from darkness",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "inner vision, serpentine wisdom, and circadian surrender are three descriptions of the same physiological-spiritual event."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The identity claim is the section's own synthesis of the pineal, serpent, and hymn ingredients traced above it, offered inside the declared Spolski framework. As an interpretive synthesis its conclusion does not exceed the model's stated premises, though one ingredient (C009) is misattributed and is flagged separately.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "three descriptions of the same physiological-spiritual event.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 118,
+        "line_end": 120,
+        "quote": "Ophiuchus is excluded from the standard zodiac despite sitting directly on the ecliptic."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Sun does pass through Ophiuchus (roughly Nov 29–Dec 17), and the traditional twelve-sign zodiac excludes it; 'the serpent bearer' is the standard translation of the constellation's name. Accurate at stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Ophiuchus is excluded from the standard zodiac despite sitting directly on the ecliptic.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "Cortisol is vilified in wellness culture despite being essential for survival, learning, and adaptive response."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Cortisol is essential to survival (adrenal insufficiency is life-threatening) and has well-documented dose-dependent roles in learning, memory, and adaptive mobilization. The cultural vilification observation is accurate commentary.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Cortisol is vilified in wellness culture despite being essential for survival, learning, and adaptive response.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "tragedy being the highest form of catharsis in Greek artistic philosophy."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A defensible paraphrase of Aristotle's Poetics, which defines tragedy through catharsis and ranks tragedy above epic; 'highest form' slightly sharpens but does not distort the source's elevation of tragedy.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "tragedy being the highest form of catharsis in Greek artistic philosophy.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "Cortisol is not the stress hormone — it is the awareness hormone."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-REMODE", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Cortisol is in fact classified as the primary glucocorticoid stress hormone; the sentence denies the empirical label and substitutes a house redefinition without declaring the model frame, presenting a model renaming as a factual correction.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Cortisol is not the stress hormone — it is the awareness hormone.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "constellation visibility windows correlate with hormonal activation cycles."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "No study, dataset, or observation record is cited or known supporting a correlation between constellation visibility and hormonal activation (e.g., Taurus prominence amplifying testosterone). Attributed to the framework, but the correlation itself is asserted with no evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "constellation visibility windows correlate with hormonal activation cycles.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "the same gravitational and electromagnetic environment that positions the constellations also modulates the biological systems that evolved within that environment."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-CAUSE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "What 'positions' constellations is galactic-scale dynamics, whose gravitational/EM contribution at Earth is negligible and constant relative to solar-terrestrial drivers; no mechanism or evidence is offered linking that environment to biological modulation in a way that would track constellation visibility. The co-arising framing does not supply the missing mechanism.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the same gravitational and electromagnetic environment that positions the constellations also modulates the biological systems",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "ancient perception frameworks were not pre-scientific guesses about causation but post-experiential maps of co-arising patterns."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly attributed as 'James True's insight — woven through his streams'; as a report of what the named source teaches, it is a faithful first-party characterization of the stream's thesis. The embedded universal generalization about 'the ancients' is split out at C019.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "post-experiential maps of co-arising patterns.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "The ancients did not believe the stars caused their moods. They observed that the stars and their moods moved together, and they documented the pattern."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-SCOPE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Stated as the author's own historical assertion (outside the True attribution), the universal is refuted by the historical record: Babylonian, Hellenistic, Indian, and Medieval astrological traditions explicitly asserted celestial causation or signification of temperament and events. Some observational co-movement practices existed, but 'the ancients did not believe' is false as stated.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The ancients did not believe the stars caused their moods.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 134,
+        "line_end": 136,
+        "quote": "the hypothesis is testable: does the body's chemistry follow the sky's geometry through the architecture of archetypal expression?"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The verification protocol (journaling hormone cycles, Muse manifestations, and synchronicities against sky positions) is declared as a practice inside the framework, with instruments and hypothesis stated. Internally consistent as a self-observation protocol; no external result is claimed.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "This is empirical work disguised as mysticism.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 142,
+        "line_end": 142,
+        "quote": "The body is a planetarium. The hormones are the projection system. The constellations are the film."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Italicized aphoristic coda in unmistakably figurative register; no literal causal or predictive inference is drawn from the planetarium image. The figurative boundary is clear.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The body is a planetarium.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    }
+  ]
+}

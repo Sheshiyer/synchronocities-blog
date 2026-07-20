@@ -1,0 +1,543 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "pattern-cross-reference-system.md",
+  "source_path": "src/content/posts/pattern-cross-reference-system.md",
+  "source_sha256": "275d86ed1cdf1bf9cd1cfdf4939575dd3498d1e9718437f9f6fb7191f39b1790",
+  "legacy_audit_path": "quality-engine/audits/nigredo/pattern-cross-reference-system.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 53,
+        "quote": "\"A single pattern in isolation is a curiosity. The same pattern appearing across three domains is a law. Across six, it is architecture.\"\n> — Cross-Domain Pattern Analysis"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Epigraph attributed to 'Cross-Domain Pattern Analysis', which is not a traceable external source (apparently the series' own self-reference presented as a citation); the three/six-domain thresholds are numbers without provenance or consequence.",
+      "legacy": {
+        "anchor": "BLIND-v231 L52-L53",
+        "quote": "\"A single pattern in isolation is a curiosity. The same pattern appearing across three domains is a law. Across six, it is architecture.\"\n> — Cross-Domain Pattern Analysis",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "A mathematician publishing on Markov chain theory will never cite the Vimshottari Dasha system. A Jyotish scholar analyzing planetary periods will never reference transition probability matrices."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Directionally true of disciplinary silos but stated as universal 'never' claims without citation data.",
+      "legacy": {
+        "anchor": "BLIND-v231 L57",
+        "quote": "A mathematician publishing on Markov chain theory will never cite the Vimshottari Dasha system. A Jyotish scholar analyzing planetary periods will never reference transition probability matrices.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 76,
+        "quote": "This domain houses the six Lorenz-Kundli parallels that form the core of this article series"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared catalog of the house system's six parallels; internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L67-L76",
+        "quote": "This domain houses the six Lorenz-Kundli parallels that form the core of this article series",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "the Vimshottari system constrains which Graha relationships are active, which modifies the Ashtakavarga bindus, which repositions the system on the Nakshatra spiral, which adjusts the Shadbala tensor field, which modulates the Bhava network weights"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared house data-flow chain with visible ingredients; noted that traditional Jyotish asserts no such causal coupling — kept only because the house frame is explicit, and any reading of it as a claim about the traditions themselves would fail.",
+      "legacy": {
+        "anchor": "BLIND-v231 L76",
+        "quote": "the Vimshottari system constrains which Graha relationships are active, which modifies the Ashtakavarga bindus, which repositions the system on the Nakshatra spiral, which adjusts the Shadbala tensor field, which modulates the Bhava network weights",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "How mathematical concepts appear independently in Vedic, Greek, Chinese, and Mesoamerican traditions"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Independent emergence of mathematical concepts across these civilizations is well documented (e.g., zero in India and Mesoamerica, Pythagorean relations in multiple cultures).",
+      "legacy": {
+        "anchor": "BLIND-v231 L83",
+        "quote": "How mathematical concepts appear independently in Vedic, Greek, Chinese, and Mesoamerican traditions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "Markov chain theory (1906)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Markov's 1906 paper extending the law of large numbers to chained variables is the standard origin date.",
+      "legacy": {
+        "anchor": "BLIND-v231 L88",
+        "quote": "Markov chain theory (1906)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "the Vimshottari system (approximately 1500 BCE)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Vimshottari dasha is known through the Parāśara tradition (Bṛhat Parāśara Horā Śāstra), whose compiled text is early medieval; a 1500 BCE date has no traceable scholarly basis.",
+      "legacy": {
+        "anchor": "BLIND-v231 L88",
+        "quote": "the Vimshottari system (approximately 1500 BCE)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "separated by over three millennia yet describe identical mathematical structures. This temporal gap rules out direct influence and implies independent discovery of a common underlying pattern."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Vimshottari is a fixed, deterministic 120-year sequence of nine unequal periods; a Markov chain is a stochastic transition system — the structures are analogous at best, not 'identical', so the independent-discovery inference collapses together with the unsupported 1500 BCE anchor.",
+      "legacy": {
+        "anchor": "BLIND-v231 L88",
+        "quote": "separated by over three millennia yet describe identical mathematical structures. This temporal gap rules out direct influence and implies independent discovery of a common underlying pattern.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "If consciousness is a dynamical system (which neuroscience increasingly confirms)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Dynamical-systems approaches are a live research program in neuroscience, not a confirmed consensus; 'increasingly confirms' overstates.",
+      "legacy": {
+        "anchor": "BLIND-v231 L99",
+        "quote": "If consciousness is a dynamical system (which neuroscience increasingly confirms)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "the Lorenz attractor's phase space structure describes possible consciousness states, and the Kundli chart maps the initial conditions that select among those states"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly conditional house mapping with named ingredients.",
+      "legacy": {
+        "anchor": "BLIND-v231 L99",
+        "quote": "the Lorenz attractor's phase space structure describes possible consciousness states, and the Kundli chart maps the initial conditions that select among those states",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 117,
+        "quote": "Fibonacci sequences in natural growth patterns correspond to sacred geometry in contemplative traditions"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Catalog of declared correspondences within the house cross-reference system.",
+      "legacy": {
+        "anchor": "BLIND-v231 L114-L117",
+        "quote": "Fibonacci sequences in natural growth patterns correspond to sacred geometry in contemplative traditions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 115,
+        "line_end": 115,
+        "quote": "Fibonacci sequences in natural growth patterns"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Fibonacci phyllotaxis in plants is documented; popular overstatement beyond phyllotaxis is noted as a scope risk.",
+      "legacy": {
+        "anchor": "BLIND-v231 L115",
+        "quote": "Fibonacci sequences in natural growth patterns",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 119,
+        "line_end": 122,
+        "quote": "Debugging protocols correspond to spiritual purification practices"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared catalog correspondence of the house system.",
+      "legacy": {
+        "anchor": "BLIND-v231 L119-L122",
+        "quote": "Debugging protocols correspond to spiritual purification practices",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 124,
+        "line_end": 127,
+        "quote": "Civilizational pattern cycles correspond to technology adoption curves"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared catalog correspondence of the house system.",
+      "legacy": {
+        "anchor": "BLIND-v231 L124-L127",
+        "quote": "Civilizational pattern cycles correspond to technology adoption curves",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 146,
+        "line_end": 146,
+        "quote": "the universe has a finite repertoire of mathematical structures. Feedback loops, oscillators, attractors, conservation laws, symmetry groups, and optimization surfaces recur across every domain"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared meta-pattern thesis; the recurrence of these formal structures across domains is itself well observed, and the 'finite repertoire' gloss is presented as the system's own explanation.",
+      "legacy": {
+        "anchor": "BLIND-v231 L146",
+        "quote": "the universe has a finite repertoire of mathematical structures. Feedback loops, oscillators, attractors, conservation laws, symmetry groups, and optimization surfaces recur across every domain",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 148,
+        "line_end": 148,
+        "quote": "The boundaries are human constructs. The connections are mathematical facts."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared thesis of the house system; 'mathematical facts' is strong but functions as the system's stated axiom.",
+      "legacy": {
+        "anchor": "BLIND-v231 L148",
+        "quote": "The boundaries are human constructs. The connections are mathematical facts.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy v2.2 nigredo audit not consulted; new coverage row with no counterfeited legacy provenance."
+      }
+    }
+  ]
+}

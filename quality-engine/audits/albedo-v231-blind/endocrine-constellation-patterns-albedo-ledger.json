@@ -1,0 +1,604 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "endocrine-constellation-patterns.md",
+  "source_path": "src/content/posts/endocrine-constellation-patterns.md",
+  "source_sha256": "932c7ce4f2cd56fea1cb8f7f19d712bb69e469c55baad5578f5ccf17d58417a2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/endocrine-constellation-patterns.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "It maps nine hormones to nine constellations to nine archetypal functions. The source code is ancient. The runtime is your bloodstream."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'The source code is ancient' asserts historical provenance for a hormone–Muse–constellation mapping. Hormones were unidentified before the 20th century, so no ancient source can encode this mapping; no provenance is offered. A rhetorical antiquity claim without evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231:L29",
+        "quote": "The source code is ancient.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 45,
+        "quote": "'melatonin': {'muse': 'Polymnia', 'constellation': 'Serpens Caput', 'prime': 1},"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The nine-way hormone→Muse→constellation mapping is a novel synthesis combining endocrinology, Greek mythology, and star lore, but it is presented as discovered 'source code' with no declaration of Noesis authorship and no traced ingredients. The synthesis's authorship is hidden — laundering an invention as a found structure. (The 'prime' values are audited separately at C021.)",
+      "legacy": {
+        "anchor": "BLIND-v231:L31-45",
+        "quote": "'melatonin': {'muse': 'Polymnia', 'constellation': 'Serpens Caput', 'prime': 1},",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "This is not metaphor. This is system architecture."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post's central mode assertion explicitly denies metaphorical status for an invented correspondence system and claims literal architectural identity. The claim boundary is dishonest: a house mapping is asserted as discovered mechanism.",
+      "legacy": {
+        "anchor": "BLIND-v231:L47",
+        "quote": "This is not metaphor. This is system architecture.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Melatonin controls circadian rhythm — when the system sleeps and wakes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Melatonin's role in circadian sleep-wake timing is textbook-accurate ('controls' slightly overstates a modulatory role), but no source is cited; fails the traceable-source condition for the empirical mode.",
+      "legacy": {
+        "anchor": "BLIND-v231:L57",
+        "quote": "Melatonin controls circadian rhythm",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Serotonin maintains mood balance — the steady-state oscillation that keeps the system operational."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The simple serotonin–mood-maintenance link reflects the popular serotonin hypothesis, whose evidential status is contested (cf. recent umbrella reviews on serotonin and depression); stated as settled fact with no source and no uncertainty.",
+      "legacy": {
+        "anchor": "BLIND-v231:L57",
+        "quote": "Serotonin maintains mood balance",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Cortisol manages stress response — the emergency protocol that redirects resources under threat."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Cortisol's central role in the stress response is textbook-accurate, but the post cites no source; accurate content still fails the empirical mode's traceable-source condition.",
+      "legacy": {
+        "anchor": "BLIND-v231:L57",
+        "quote": "Cortisol manages stress response",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Dopamine drives the pleasure-reward cycle — the anticipation engine that pulls the system toward novel experience."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The anticipation/motivation framing is closer to current dopamine science than the 'pleasure' framing, but merging both into 'pleasure-reward cycle' blurs the wanting/liking distinction the literature maintains; no source cited.",
+      "legacy": {
+        "anchor": "BLIND-v231:L59",
+        "quote": "Dopamine drives the pleasure-reward cycle",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Endorphins manage pain transmutation — the capacity to convert suffering into release."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Endogenous opioids do mediate analgesia, but 'pain transmutation — convert suffering into release' recasts analgesia as an alchemical operation and asserts it as biological function without a source. Scope exceeds the evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231:L59",
+        "quote": "Endorphins manage pain transmutation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Oxytocin bonds individuals into collectives — the chemistry that makes trust possible."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The oxytocin–trust link popularized by early intranasal studies has faced substantial replication failure and file-drawer critiques; 'the chemistry that makes trust possible' asserts a strong causal enabler claim with no source and no uncertainty.",
+      "legacy": {
+        "anchor": "BLIND-v231:L59",
+        "quote": "the chemistry that makes trust possible",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Testosterone fuels growth and competitive intensity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Testosterone's anabolic role is established, but 'competitive intensity' as a direct hormonal output is a contested social-endocrinology claim (status/competition effects are bidirectional and context-dependent); asserted flatly with no source.",
+      "legacy": {
+        "anchor": "BLIND-v231:L61",
+        "quote": "Testosterone fuels growth and competitive intensity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Estrogen governs cyclic creation and reproductive transformation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Estrogen's role in reproductive cycling is accurate, though 'cyclic creation' is poetic overlay; no source is cited for the functional claim.",
+      "legacy": {
+        "anchor": "BLIND-v231:L61",
+        "quote": "Estrogen governs cyclic creation and reproductive transformation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Adrenaline fires the fight-or-flight response — immediate, powerful, ungovernable by deliberation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Adrenaline's role in acute stress response is accurate, but 'ungovernable by deliberation' overstates the case — top-down modulation of stress responses is well documented; no source cited.",
+      "legacy": {
+        "anchor": "BLIND-v231:L61",
+        "quote": "ungovernable by deliberation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The Greeks did not have mass spectrometers. They had pattern recognition. The Muses are what pattern recognition produces when applied to endocrine function over centuries of careful observation."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The historical claim that the Greek Muses arose from centuries of observing endocrine function has no evidentiary basis — the Greeks had no concept of hormones, and no classical source links the Muses to humoral/endocrine observation. An invented genealogy presented as history.",
+      "legacy": {
+        "anchor": "BLIND-v231:L69",
+        "quote": "The Muses are what pattern recognition produces when applied to endocrine function over centuries of careful observation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "The celestial addresses are not causal. The stars do not make the hormones."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An explicit non-causality declaration that correctly bounds the constellation mapping away from astrology-style mechanism. The boundary is stated in plain terms near the claims it governs.",
+      "legacy": {
+        "anchor": "BLIND-v231:L77",
+        "quote": "The celestial addresses are not causal. The stars do not make the hormones.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "when hormone cycles align with constellation positions, the pattern's signal strength increases. The system becomes more readable."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Despite the non-causal hedge in the same paragraph, this asserts a measurable effect — 'signal strength increases' when hormone cycles align with constellation positions — with no defined measure, no observation record, and no source. An unfalsifiable amplification claim.",
+      "legacy": {
+        "anchor": "BLIND-v231:L77",
+        "quote": "the pattern's signal strength increases",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "Type 1s will notice melatonin disruption when moral order is violated — the sleep disturbance that follows an encounter with incompetence. Type 5s will notice cortisol elevation when resource boundaries are crossed"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Specific Enneagram-type-to-hormone-response predictions (Type 1 → melatonin disruption, Type 5 → cortisol elevation) are asserted as observable regularities; no study, dataset, or observation record links Enneagram typology to endocrine responses.",
+      "legacy": {
+        "anchor": "BLIND-v231:L83",
+        "quote": "Type 1s will notice melatonin disruption when moral order is violated",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "When the chemical timing and the archetypal expression align with celestial position, synchronicities cluster. This is not magic. It is signal amplification. Three systems resonating at the same frequency produce a signal that one system alone cannot generate."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The synchronicity-clustering claim borrows resonance physics ('three systems resonating at the same frequency') to assert a signal-amplification effect with no defined measure, no data, and no source. 'This is not magic' asserts evidential standing rather than demonstrating it.",
+      "legacy": {
+        "anchor": "BLIND-v231:L87",
+        "quote": "synchronicities cluster. This is not magic. It is signal amplification.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "The endocrine-constellation matrix demonstrates they are synonyms operating at different abstraction levels."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "As the post's frame-internal thesis — technical and mystical as two description languages over one model — the claim is internally consistent with the framework's own definitions. 'Demonstrates' overclaims empirically, but within the declared matrix the assertion is coherent.",
+      "legacy": {
+        "anchor": "BLIND-v231:L93",
+        "quote": "synonyms operating at different abstraction levels",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "nine chemical compounds regulate biological function through receptor-mediated signaling pathways, with expression patterns influenced by circadian rhythm, seasonal variation, and environmental input."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The technical summary of endocrine signaling is accurate mainstream endocrinology, but no source is cited; accurate content still fails the empirical mode's traceable-source condition.",
+      "legacy": {
+        "anchor": "BLIND-v231:L95",
+        "quote": "regulate biological function through receptor-mediated signaling pathways",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "The mystical description: nine divine beings channel creative intelligence through the human system, with activation patterns aligned to celestial movements and cosmic timing."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly presented as 'the mystical description' — one of two labeled description languages — so the figurative register is declared and no literal mechanism is asserted in this span.",
+      "legacy": {
+        "anchor": "BLIND-v231:L97",
+        "quote": "nine divine beings channel creative intelligence through the human system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "The prime numbers in the class definition are not decorative. They indicate an activation sequence — an order in which the system initializes."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The class field 'prime' holds the values 1–9, and the text calls them 'prime numbers'; but 1, 4, 6, 8, and 9 are not prime — only 2, 3, 5, 7 are. The mathematical term is demonstrably misapplied (definition-level error), and the claimed 'activation sequence' inherits the mislabel. Either the numbers are primes (then the values are wrong) or the sequence is 1–9 (then the name is wrong).",
+      "legacy": {
+        "anchor": "BLIND-v231:L103",
+        "quote": "The prime numbers in the class definition are not decorative.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 105,
+        "line_end": 105,
+        "quote": "The endocrine-constellation class has been instantiated in your system since birth. The question is not whether it is running. The question is whether you are reading the logs."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL", "R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing assertion that the invented class is literally 'instantiated in your system since birth' and is 'running' presents the house mapping as an existing biological fact, not a model offered for testing — despite the adjacent hedge that readers must verify the pattern themselves. Literal instantiation claim for an undeclared model.",
+      "legacy": {
+        "anchor": "BLIND-v231:L105",
+        "quote": "instantiated in your system since birth",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    }
+  ]
+}

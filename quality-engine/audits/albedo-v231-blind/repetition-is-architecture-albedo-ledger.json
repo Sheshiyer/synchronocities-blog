@@ -1,0 +1,523 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "repetition-is-architecture.md",
+  "source_path": "src/content/posts/repetition-is-architecture.md",
+  "source_sha256": "b11da88ab8422a442e228b79373b3e453e8bc296c37d38bd4f47c91b0f3256de",
+  "legacy_audit_path": "quality-engine/audits/nigredo/repetition-is-architecture.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 26,
+        "line_end": 30,
+        "quote": "If it repeats across contexts, it is architecture — not coincidence."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post's opening axiom is immediately tied to the house term La (L30) and defined at L34; it operates consistently as the house model's central principle rather than as an external measurement.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "If it repeats across contexts, it is architecture — not coincidence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "La is inertia. Not laziness — structural persistence."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Definitional statement of the house term La; the definition is used consistently throughout the post (grooves, repetition, friction) without internal contradiction.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "La is inertia. Not laziness — structural persistence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "runs identically whether you're 14 or 44, in Mumbai or Munich, in your parents' house or your own"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An empirical invariance claim — nervous-system responses run identically across age, culture, and context — is asserted as fact inside the La definition with no observation record, population, or source; universality is far beyond any supplied evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "runs identically whether you're 14 or 44, in Mumbai or Munich, in your parents' house or your own",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "La doesn't care about geography, salary, or personal growth. La cares about repetition."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Personification of the house term La restating the model's scope condition (repetition-dependence); internally consistent with the L34 definition.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "La doesn't care about geography, salary, or personal growth. La cares about repetition.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "If it repeats, La built it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Model-internal attribution rule (repetition implies La); a restatement of the house axiom, consistent with C001 and C002.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "If it repeats, La built it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "One occurrence is an event. Two is a coincidence. Three is architecture."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Heuristic counting rule inside the house model; the numeral is an idiomatic threshold, not a measured quantity, and removing it leaves the model's logic intact, so no mathematical object is doing argumentative work.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "One occurrence is an event. Two is a coincidence. Three is architecture.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The relationship pattern that shows up with every partner. The work dynamic that reproduces with every team. The financial behavior that survives every income bracket."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal quantifiers ('every partner', 'every team', 'every income bracket') assert empirical regularities about the reader's life with no evidence; a category the corpus typically misses as an empirical generalization.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The relationship pattern that shows up with every partner. The work dynamic that reproduces with every team.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "They're La — inherited inertial grooves running below the threshold of narrative."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Attribution of recurring patterns to the house term La; consistent with the L34 definition and the post's groove vocabulary.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "They're La — inherited inertial grooves running below the threshold of narrative.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "You didn't import these patterns consciously."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal negative about how patterns are acquired, asserted as fact about the reader; no evidence, conditions, or scope qualifiers are supplied.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "You didn't import these patterns consciously.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Most people diagnose repetition as a *choice* problem"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Population claim about how 'most people' diagnose recurring problems; no observation record or source supports the prevalence assertion.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Most people diagnose repetition as a *choice* problem",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Choice implies Kha — the observer, selecting deliberately."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Definition of the house term Kha as deliberate observation/selection; consistent with its usage across the diagnostic section.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Choice implies Kha — the observer, selecting deliberately.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "But La runs before Kha notices."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Model-internal temporal ordering claim between house terms La and Kha; consistent with the definitions established at L34 and L52.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "But La runs before Kha notices.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The pattern fires, the defense completes, and the story catches up afterward with a plausible explanation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-CAUSE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal causal-mechanism claim (behavior executes before narrative explanation) resembling confabulation/post-hoc-rationalization findings, but asserted without any cited study, population, or conditions.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The pattern fires, the defense completes, and the story catches up afterward with a plausible explanation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "My nervous system runs a pre-emptive withdrawal sequence when attachment signals exceed a specific threshold."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly offered as the 'architecture' redescription inside the house frame (contrasted with the autobiographical phrasing); internally consistent as model language, though the 'specific threshold' phrasing carries pseudo-precision within the example.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "My nervous system runs a pre-emptive withdrawal sequence when attachment signals exceed a specific threshold.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Same phenomenon. One is a story you identify with. The other is a circuit you can trace."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "House distinction between narrative identification and structural tracing; consistent with the model's diagnostic vocabulary.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Same phenomenon. One is a story you identify with. The other is a circuit you can trace.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "If trigger, signal, and output remain constant while the story changes every time, you've found the architecture."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Model-internal diagnostic criterion (invariance of trigger/signal/output against variable narrative); follows coherently from the post's definitions.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "If trigger, signal, and output remain constant while the story changes every time, you've found the architecture.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 83,
+        "quote": "Kha sees the pattern repeating."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The Kha-Ba-La triad is the post's operative structural architecture: each role is distinctly defined, the triadic assignment drives the diagnostic and the intervention logic (removing it changes the thesis), and its provenance is the reproducible Noesis house derivation — matching prior corpus treatment of the triad as integrated structure.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Kha sees the pattern repeating. Ba runs the pattern without permission. La is why it persists despite awareness.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "The intervention isn't more seeing (Kha). It's more friction (La) applied deliberately — walking a new groove until the old one loses dominance."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Prescriptive intervention rule stated in house terms; follows consistently from the La-as-inertia definition, with efficacy asserted only within the model frame.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The intervention isn't more seeing (Kha). It's more friction (La) applied deliberately — walking a new groove until the old one loses dominance.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 93,
+        "quote": "Your patterns are not your personality. They're your architecture."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Closing restatement of the house thesis, including the model-internal possibility claim that architecture can be 're-grooved'; consistent with the model as developed.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Your patterns are not your personality. They're your architecture.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind raw-source coverage finding; no legacy row consulted or counterfeited."
+      }
+    }
+  ]
+}

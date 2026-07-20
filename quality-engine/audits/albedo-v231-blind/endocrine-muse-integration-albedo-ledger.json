@@ -1,0 +1,901 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "endocrine-muse-integration.md",
+  "source_path": "src/content/posts/endocrine-muse-integration.md",
+  "source_sha256": "e83adbdcd3ac5e247295c2cd957f9bf7d9d0ceba02f17ced14bb4eea0da06dc5",
+  "legacy_audit_path": "quality-engine/audits/nigredo/endocrine-muse-integration.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "The Greeks called these frequencies Muses. Modern endocrinology calls them hormones. Both are correct."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SPLIT", "R-SYNTHESIS", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Greeks had no concept of hormones or endocrine 'frequencies'; attributing the hormone–Muse equation to them launders a modern house synthesis as inherited Greek teaching. The equation may stand as declared Noesis synthesis, but not as a Greek claim.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Greeks called these frequencies Muses.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "The endocrine system is a nine-channel receiver. Each channel is tuned to a specific frequency of creative intelligence."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The receiver/tuning vocabulary is the post's operating model, declared at document level ('This document maps the full integration'). Internally consistent as a model; no measurement is asserted. The adjacent Greek-attribution problem is split out at C001.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The endocrine system is a nine-channel receiver.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Circadian rhythm regulation. Melatonin tells the body when to sleep and when to wake"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Melatonin's role as the hormonal signal of circadian night, gating sleep propensity, is standard chronobiology stated at correct strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Melatonin tells the body when to sleep and when to wake",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "Sacred hymns and rhetoric. Polymnia governs the timing of speech"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Polymnia's association with sacred hymn and (in later tradition) rhetoric is the standard late-classical domain assignment. The 'timing of speech' gloss is a house extension riding on an accurate base attribution.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Sacred hymns and rhetoric.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Type 1, the Reformer. Shadow: wrath."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'The Reformer' is the standard Riso–Hudson name for Enneagram Type 1 and wrath/anger is the traditional passion for the type. Accurate attribution.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Type 1, the Reformer. Shadow: wrath.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Virtue: wisdom."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "In the received Enneagram tradition (Ichazo–Naranjo–Riso-Hudson) the virtue of Type 1 is serenity, not wisdom; wisdom is not any type's canonical virtue in that schema. Presented without declaration as the tradition's assignment.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Virtue: wisdom.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Melatonin's circadian regulation and Polymnia's rhetorical timing are the same function expressed in two domains."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Identity-of-function claim synthesizing the chemical and archetypal ingredients traced in the same section, inside the document's declared integration-map frame. Interpretive synthesis; no external measurement asserted.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the same function expressed in two domains.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "Social bonding and trust formation. Oxytocin converts repeated contact into durable connection."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Oxytocin's role in affiliative bonding and trust is supported by a large (if nuanced) literature; 'converts repeated contact into durable connection' is an acceptable gloss at the stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Oxytocin converts repeated contact into durable connection.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "History and collective memory. Clio preserves the thread of connection across time."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Clio as Muse of history is the standard classical assignment; the collective-memory gloss is a faithful extension of that domain.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "History and collective memory.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The circuit that makes trust persist beyond the immediate encounter."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Integration-point claim uniting oxytocin bonding with Clio's memory domain, plus the Type 2 fragmentation gloss; traced ingredients, declared map frame, conclusion at model strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The circuit that makes trust persist beyond the immediate encounter.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Endorphins change the system's relationship to painful stimuli without eliminating the stimulus."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Endogenous opioid peptides modulate pain perception (analgesia without removing the nociceptive input) — accurate description of endorphin function.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Endorphins change the system's relationship to painful stimuli without eliminating the stimulus.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "Music and lyric poetry. Euterpe governs the art form that most directly transmutes emotion into beauty."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Euterpe as Muse of music and lyric poetry is the standard assignment; the transmutation gloss is evaluative but does not distort the source attribution.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Music and lyric poetry.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "The circuit that converts suffering into form."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Integration claim joining endorphin pain modulation with Euterpe's domain, plus the Type 3 fragmentation gloss; traced ingredients, declared frame, model-strength conclusion.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The circuit that converts suffering into form.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "Dopamine is not pleasure itself but the prediction of pleasure — the chemical that says reward is approaching."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Matches the reward-prediction-error / incentive-salience account of dopamine (Schultz; Berridge & Robinson): dopamine signals anticipated reward rather than hedonic pleasure itself. Accurate at stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Dopamine is not pleasure itself but the prediction of pleasure",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Comedy and pastoral poetry. Thalia governs the narrative arc that ends in resolution"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Thalia as Muse of comedy and pastoral poetry is the standard classical assignment; the resolution-arc gloss is a fair extension of the comic domain.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Comedy and pastoral poetry.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "the dopamine prediction matches the actual experience — anticipation resolves into fulfillment."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Integration claim joining dopamine reward prediction with Thalia's resolution arc, plus the Type 4 fragmentation gloss; traced ingredients, declared frame, model-strength conclusion.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "anticipation resolves into fulfillment.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Stress response and resource mobilization. Cortisol breaks down stored energy, redirects resources, and focuses the system on survival."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Cortisol's catabolic, energy-mobilizing, attention-narrowing role in the stress response is standard endocrinology, accurately summarized.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Cortisol breaks down stored energy, redirects resources, and focuses the system on survival.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "Tragedy and catharsis. Melpomene presides over the controlled destruction that enables restructuring."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Melpomene as Muse of tragedy is standard; 'controlled destruction that enables restructuring' is a defensible gloss on Aristotelian catharsis.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Tragedy and catharsis.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "cortisol mobilizes what Melpomene metabolizes."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Integration claim joining cortisol mobilization with Melpomene's catharsis, plus the Type 5 fragmentation gloss; traced ingredients, declared frame, model-strength conclusion.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "cortisol mobilizes what Melpomene metabolizes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Reproductive development and cyclic transformation. Estrogen governs the cycle that builds, dissolves, and rebuilds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Estrogen's roles in reproductive development and in driving the proliferative–shedding–rebuilding endometrial cycle are standard endocrinology, accurately glossed.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Estrogen governs the cycle that builds, dissolves, and rebuilds.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Love poetry and intimacy. Erato presides over the creative encounter"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Erato as Muse of love poetry is the standard classical assignment; the intimacy/vulnerability gloss is a faithful extension.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Love poetry and intimacy.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "Creation through vulnerability."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Integration claim joining estrogen's build–dissolve–rebuild cycle with Erato's creative-encounter domain, plus the Type 6 fragmentation gloss; traced ingredients, declared frame, model-strength conclusion.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Creation through vulnerability.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "Growth, development, and competitive drive. Testosterone pushes the system toward more: more territory, more capability, more output."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Testosterone's anabolic/developmental role is textbook, and its association with status-seeking and competitive behavior is supported by a substantial correlational literature; stated at gloss strength without overclaiming causation.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Testosterone pushes the system toward more",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 90,
+        "line_end": 90,
+        "quote": "Epic poetry and heroic narrative. Calliope, chief of the Muses, governs the grand story"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Calliope as Muse of epic poetry and as eldest/chief of the Muses (Hesiod, Theogony 79) is accurately attributed.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Calliope, chief of the Muses",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "testosterone's drive serves Calliope's narrative structure — expansion with architecture, ambition with form."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Integration claim joining testosterone's drive with Calliope's epic architecture, plus the Type 7 gluttony gloss (gluttony is the correct traditional passion for Type 7); traced ingredients, declared frame.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "expansion with architecture, ambition with form.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "Sympathetic nervous system activation. Adrenaline fires the fight-or-flight response — immediate, total, pre-cognitive."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Adrenaline (epinephrine) as the effector of acute sympathetic fight-or-flight activation is standard physiology, accurately stated.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Adrenaline fires the fight-or-flight response",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "Dance and physical expression. Terpsichore governs the body's instinctive movement"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Terpsichore as Muse of dance is the standard classical assignment; the instinctive-movement gloss is a faithful extension.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Dance and physical expression.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "adrenaline serves expression rather than domination — the body moves with force and grace simultaneously."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Integration claim joining adrenaline activation with Terpsichore's dance, plus the Type 8 lust-for-intensity gloss (lust is the correct traditional passion for Type 8); traced ingredients, declared frame.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "adrenaline serves expression rather than domination",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "Mood regulation and systemic equilibrium. Serotonin maintains the smooth oscillation that prevents the system from swinging between extremes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Serotonin's role in mood regulation is standard; 'smooth oscillation preventing extremes' is a simplified but acceptable gloss of serotonergic homeostatic modulation.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Serotonin maintains the smooth oscillation that prevents the system from swinging between extremes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "Astronomy and mathematical order. Urania studies the patterns that hold the cosmos in balance"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Urania as Muse of astronomy is the standard classical assignment; the mathematical-order gloss follows naturally from the astronomical domain.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Astronomy and mathematical order.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "serotonin's balance serves Urania's cosmic observation — the stillness that enables perception"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Integration claim joining serotonergic equilibrium with Urania's cosmic order, plus the Type 9 sloth gloss (sloth is the correct traditional passion for Type 9); traced ingredients, declared frame.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the stillness that enables perception",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 118,
+        "quote": "The nine circuits are not independent. They form a system. The system has three triads"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Regulatory/Creative/Power triad architecture (circuits 1-5-9, 2-3-4, 6-7-8 as infrastructure/application/execution layers) is a declared structural model with defined terms and consistent internal logic.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The system has three triads",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "They are already singing through your bloodstream."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Closing exhortation in unmistakably figurative register (Muses 'singing through your bloodstream'); no literal physiological inference is drawn from the image.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "They are already singing through your bloodstream.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "semantic-trauma.md",
+  "source_path": "src/content/posts/semantic-trauma.md",
+  "source_sha256": "dbc71b2bdd4e022fc145b6e7c9084e4231cc0476eb65ed6cb179f47732f87695",
+  "legacy_audit_path": "quality-engine/audits/nigredo/semantic-trauma.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Trauma is not an emotion. It is a syntax error in the grammar of autobiographical memory."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay's central model is explicitly staked as literal ('This is not a metaphor… It is a description of how trauma encodes', L46), then defined and operated consistently through the encoding, witness, body, and repair sections; coherent as a model — though the non-metaphor declaration means it must not be read as clinical terminology.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The hippocampus binds sensory data to temporal context — before, during, after. The amygdala tags salience"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Hippocampal contextual/episodic binding and amygdala salience tagging are the standard, responsibly documented division of labor in memory encoding; stated at appropriate coarse strength.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Cortisol floods the hippocampus, degrading its ability to bind context. The amygdala, operating on a faster evolutionary circuit, continues tagging salience — but now every tag reads DANGER, and the tags are no longer sequenced."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Acute-stress glucocorticoid impairment of hippocampal function and the amygdala's rapid subcortical threat route are established; 'every tag reads DANGER' is dramatization but stays within the mechanism's actual effect (fragmented, decontextualized encoding).",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Joseph LeDoux's lab at NYU has mapped this circuitry precisely. The amygdala's rapid route prioritizes survival over narration."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "LeDoux's NYU laboratory is the real, traceable source for amygdala fear-circuit mapping including the fast 'low road'; the prioritization gloss matches his own survival-circuit framing.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "It fails because the system has been designed, across millions of years, to survive first and narrate later."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The survival-first priority of defensive circuits over declarative processing is the mainstream evolutionary account (LeDoux's own framing); 'designed' is teleological shorthand but the functional claim is supported at its stated strength.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Trauma fuses observer and observed. The one who watches becomes indistinguishable from what is watched. This is why traumatic memories are re-experienced, not recalled."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Intrusive re-experiencing (as opposed to narrative recall) is the canonical clinical signature of traumatic memory in the PTSD literature; the 'witness function' vocabulary is the post's own but the core clinical claim is established.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "I noticed this in my own nervous system during a prolonged period of instability in my twenties. Memories from that time do not arrive as narratives. They arrive as intrusions"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person situated report with named observer, bounded period (twenties), and concrete phenomenology (smell, tone of voice, quality of light); properly scoped as personal observation illustrating, not proving, the general claim.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Bessel van der Kolk's research, published across three decades and crystallized in *The Body Keeps the Score* (2014), demonstrates that traumatic encoding migrates from declarative memory into procedural memory."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Book and year are correct, the three-decade research arc is fair, and the declarative-to-procedural migration is a faithful paraphrase of van der Kolk's own thesis (somatic/procedural storage of trauma); 'demonstrates' reflects his claim, which is what the sentence reports.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "Daniel Stern's work on vitality contours — the micro-rhythms of affect that pass between bodies in the first seconds of encounter — shows how this corrupted procedural code reshapes every new relationship before a single word is spoken."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Stern's vitality contours/forms of vitality are real (affect attunement, infant-caregiver micro-rhythms), but his work does not show that traumatic procedural memory reshapes 'every new relationship'; the sentence launders the author's extrapolation through Stern's name.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "It registers as a threat signature, and your body responds before your mind has parsed the sentence."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pre-cognitive autonomic threat responding to conditioned cues is consistent with the fast amygdala route established earlier in the post and with trigger-response phenomenology in the trauma literature; stated at phenomenological, not quantitative, strength.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The legal system demands coherent, chronological testimony from witnesses whose hippocampal function was chemically compromised during the event. The medical system partitions the body from the story"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sweeping institutional generalizations about legal, medical, and educational systems asserted without source; the trauma-informed critique behind them exists (cf. Herman, cited nearby), but each system-level claim needs scoping and evidence at its stated universality.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Judith Herman's *Trauma and Recovery* (1992) documents this precisely: the diagnosis of hysteria, the skepticism toward combat veterans, the systematic disbelief of survivors."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Book and year correct; Herman's history of psychological trauma does trace hysteria (Charcot/Freud), shell shock and combat neurosis, and the disbelief of abuse survivors — an accurate table of contents for the claim made.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The shift from present-tense intrusion to past-tense memory is not therapeutic poetry. It is a neurological recoding."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Narrative exposure therapy is evidence-based, but the flat mechanistic assertion that tense-shift 'is a neurological recoding' (presumably reconsolidation) is stated without source and at stronger mechanistic certainty than the literature supports.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Francine Shapiro discovered this by accident, walking in a park, noticing that her own distressing memories lost their charge as her eyes moved."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Shapiro's own oft-retold origin account of EMDR (1987 park walk, eye movements reducing distress) is represented accurately.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The mechanism is still debated, but the efficacy is not."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "EMDR is guideline-listed for PTSD, but efficacy claims remain contested in the dismantling literature (whether bilateral stimulation adds anything beyond exposure); 'the efficacy is not [debated]' overstates the consensus and needs scoping to indication and comparison class.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Peter Levine's *Waking the Tiger* (1997) documents how guiding the body through the incomplete biological arc — the shake, the run, the cry that was swallowed — updates the procedural memory before the declarative memory can be recompiled."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Book and year correct; completion of thwarted defensive responses (tremor, flight impulses) to discharge procedural activation is a faithful paraphrase of Levine's somatic-experiencing thesis, reported as his documentation.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 90,
+        "quote": "Kha — the observer — must re-establish itself without fusion. The witness must be rebuilt — not as dissociation, not as denial, but as the capacity to hold the event in awareness without becoming the event."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Kha/Ba/La triad is explicitly named and each term defined (observer, body, resistance) then applied consistently to the repair protocols; declared house vocabulary with internal coherence.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "When one leg is missing, the repair fails. All witness and no body produces a person who can narrate their trauma with perfect clarity while their body still screams."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The three-way failure-mode typology follows from the triad's own logic (each missing leg yields a characteristic deficit) and stays within the declared model; no clinical outcome statistic is asserted.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "The crayfish emerging from the water is raw emotional data, still wet, still pre-verbal. The two towers are the hippocampus and the amygdala, now operating in isolation, no longer speaking the same language."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly framed as card interpretation ('This is what the Moon card illuminates', L96); the iconographic elements (crayfish, water, towers, path) are read as images, and no literal anatomical claim is extracted from the mapping.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "The card is numbered XVIII, the phase before integration."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Moon is indeed trump XVIII in the standard tarot sequence; 'the phase before integration' is the essay's reading of its position before the Sun (XIX), consistent with the declared interpretive frame.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "The Quine holds: the repair succeeds when you no longer need the external compiler."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Uses 'Quine' in the standard CS/house sense (a self-reproducing program, named for W. V. Quine's self-reference work) as declared vocabulary: successful repair = the system self-authors without external scaffolding; internally consistent with the essay's compiler metaphor.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    }
+  ]
+}

@@ -1,0 +1,978 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "ashtakavarga-hypercube-geometry.md",
+  "source_path": "src/content/posts/ashtakavarga-hypercube-geometry.md",
+  "source_sha256": "9da153bfc393c96dfd5d065fecd05ed7ae3cfef95fdf353b24aaa4b4e5fef514",
+  "legacy_audit_path": "quality-engine/audits/nigredo/ashtakavarga-hypercube-geometry.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 31,
+        "quote": "The difference between a square and a cube is one dimension."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The epigraph is credited to 'Geometric Meditation Notes', which is not an identifiable or traceable published text; the quotation attribution has no verifiable provenance and reads as a house-generated aphorism wearing a source credit.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "The difference between a square and a cube is one dimension.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "The Ashtakavarga system is one of the most computationally intensive techniques in Vedic astrology."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A superlative characterization of the tradition ('one of the most computationally intensive') is asserted without naming any text, lineage, or comparative basis; no source supports the ranking.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "The Ashtakavarga system is one of the most computationally intensive techniques in Vedic astrology.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "For each of seven planets (Sun through Saturn), the system evaluates whether each of twelve houses receives a benefic point (bindu) or not."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The tradition is named and the description of seven planetary bindu assessments across twelve houses faithfully paraphrases the Bhinnashtakavarga structure; the omission of the ascendant as eighth contributor is handled separately at the eight-fold claims.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "For each of seven planets (Sun through Saturn), the system evaluates whether each of twelve houses receives a benefic point (bindu) or not.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "But the \"ashta\" in Ashtakavarga means eight. The system operates in eight-fold division"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The gloss of 'ashta' as eight and the eight-fold structure (seven planets plus the ascendant as contributors) is an accurate report of the traditional etymology and construction.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "But the \"ashta\" in Ashtakavarga means eight. The system operates in eight-fold division",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "when you examine its deep structure, you find an eight-dimensional binary state space — a hypercube"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The hypercube is the author's own interpretive mapping, but 'you find' presents the Noesis synthesis as a discovery inherent in the tradition's deep structure, laundering synthesis as inherited fact with no authorship marker.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "when you examine its deep structure, you find an eight-dimensional binary state space — a hypercube",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "producing values between 0 and 7 for each house"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "In the classical Sarvashtakavarga each house scores 0–56 (seven planets each contributing 0–8), not 0–7; the 0–7 range also contradicts the post's own next sentence, since twelve houses of at most 7 cannot sum to the invariant 337 it asserts.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "producing values between 0 and 7 for each house",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The total across all houses always equals 337"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "337 is the standard classically cited Sarvashtakavarga total; the number is correct per the named tradition, is reused downstream as a 'conservation law' at line 109, and traces to the Ashtakavarga doctrine itself.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "The total across all houses always equals 337",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "a mathematical invariant that the seers discovered through exhaustive computation"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that ancient seers arrived at the 337 invariant 'through exhaustive computation' is a historical assertion about discovery method offered without any textual or historical source.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "a mathematical invariant that the seers discovered through exhaustive computation",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "An 8-dimensional hypercube has 2^8 = 256 vertices, each representing a unique combination of eight binary values."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "2^8 = 256 is elementary, reproducible combinatorics, and the vertex count carries the entire bindu-to-hypercube mapping thesis and the qubit comparison at line 107.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "An 8-dimensional hypercube has 2^8 = 256 vertices, each representing a unique combination of eight binary values.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The Ashtakavarga system, with its eight contributing factors per house evaluation, maps naturally onto this structure."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The eight contributing factors (traditionally seven planets plus ascendant) are never enumerated in the post, which modeled a 7x12 matrix, so the key ingredient bridging to eight dimensions is untraced in the text even though the mapping drives the thesis.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "The Ashtakavarga system, with its eight contributing factors per house evaluation, maps naturally onto this structure.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 68,
+        "quote": "self.edges = dimensions * 2**(dimensions-1)  # 1024 edges"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The edge count 8 * 2^7 = 1024 is correct hypercube arithmetic, but the edge total is never used anywhere in the argument; removing it changes nothing downstream.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "self.edges = dimensions * 2**(dimensions-1)  # 1024 edges",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "Each house in the birth chart occupies a specific vertex on the hypercube, determined by which planets grant it bindus."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Seven planets' binary bindus determine only 2^7 = 128 states, contradicting the 256-vertex, eight-dimensional structure the post just asserted; the vertex-determination mapping is internally inconsistent as stated.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "Each house in the birth chart occupies a specific vertex on the hypercube, determined by which planets grant it bindus.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "the Hamming distance between two bindu configurations tells you how many planetary assessments must change to transform one house's state into another's"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Hamming distance is correctly defined and applied to bit-vector bindu configurations, is a standard reproducible metric, and carries the adjacency-as-transition argument developed in the prediction paragraph.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "the Hamming distance between two bindu configurations tells you how many planetary assessments must change to transform one house's state into another's",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "When a transiting planet changes its relationship to a house, it flips one bit in the house's bindu configuration"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "In the classical system Ashtakavarga bindus are fixed natal values and transits (gochara) are overlaid for judgment, not bit-flips of the configuration; the sentence presents the author's dynamic model as if it were the tradition's mechanism.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "When a transiting planet changes its relationship to a house, it flips one bit in the house's bindu configuration",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 105,
+        "line_end": 105,
+        "quote": "A qubit exists in a superposition of |0> and |1> states until measured."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is the standard textbook description of qubit superposition and measurement, stated at the strength introductory quantum computing sources support.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "A qubit exists in a superposition of |0> and |1> states until measured.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 105,
+        "line_end": 105,
+        "quote": "A bindu, in its pre-calculated form, exists in a superposition of benefic and malefic assessments until the planetary positions are fixed."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserting a bindu literally 'exists in a superposition' imports quantum ontology into an epistemic placeholder (not-yet-computed value) with no figurative marker; the section's 'not merely aesthetic' framing doubles down on the literal reading.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "A bindu, in its pre-calculated form, exists in a superposition of benefic and malefic assessments until the planetary positions are fixed.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 107,
+        "line_end": 107,
+        "quote": "An 8-qubit quantum register has exactly 256 basis states — the same number as the vertices of an 8-dimensional hypercube."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "2^8 = 256 holds on both sides and is reproducible; the numeric identity is the linchpin of the section's quantum-parallel thesis.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "An 8-qubit quantum register has exactly 256 basis states — the same number as the vertices of an 8-dimensional hypercube.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 107,
+        "line_end": 107,
+        "quote": "Quantum gates that flip individual qubits perform exactly the same topological operation as planetary transits that flip individual bindu values."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'exactly the same topological operation' identity inherits the false premise that transits flip bindus (C014) and overclaims an analogy as operational identity.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "Quantum gates that flip individual qubits perform exactly the same topological operation as planetary transits that flip individual bindu values.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 107,
+        "line_end": 107,
+        "quote": "The seers were working in quantum state space without the hardware."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An anachronistic retrojection of quantum formalism onto ancient practitioners, asserted as historical fact with no evidence that the seers conceived anything isomorphic to quantum state space.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "The seers were working in quantum state space without the hardware.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 109,
+        "line_end": 109,
+        "quote": "Not all 256^12 possible configurations of twelve houses on a 256-vertex hypercube are valid."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 337 'conservation law' belongs to the 0–56 Sarvashtakavarga structure, not to the 8-bit house-vertex model, so the claimed constraint on hypercube configurations is imported without derivation; the 256^12 arithmetic is correct but its provenance in this model is absent.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "Not all 256^12 possible configurations of twelve houses on a 256-vertex hypercube are valid.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 113,
+        "line_end": 113,
+        "quote": "Its symmetry group has 2^8 * 8! = 10,321,920 elements"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The hyperoctahedral group in 8 dimensions has order 2^8 * 8! = 256 * 40320 = 10,321,920, a standard reproducible result, and the count is used to ground the invariance-correspondence claim that follows.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "Its symmetry group has 2^8 * 8! = 10,321,920 elements",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 113,
+        "line_end": 113,
+        "quote": "These symmetries correspond to invariances in the Ashtakavarga system: certain rearrangements of planetary bindus leave the Sarvashtakavarga total unchanged."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "As a model statement it is internally consistent: rearrangements preserving the multiset of house scores trivially preserve the total, and the correspondence to hypercube symmetries is asserted only as a model-level parallel.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "These symmetries correspond to invariances in the Ashtakavarga system: certain rearrangements of planetary bindus leave the Sarvashtakavarga total unchanged.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 115,
+        "line_end": 115,
+        "quote": "Principal Component Analysis on a dataset of birth charts' bindu configurations reveals that the effective dimensionality is typically much lower than eight"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "'Reveals' implies an actual performed analysis, but no dataset, method detail, or result is cited; the 'two or three principal components' quantities are consequential to the attracting-manifold claim yet wholly unprovenanced.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "Principal Component Analysis on a dataset of birth charts' bindu configurations reveals that the effective dimensionality is typically much lower than eight",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 115,
+        "line_end": 115,
+        "quote": "the eight-dimensional hypercube contains lower-dimensional attracting manifolds"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "PCA on a static dataset cannot reveal 'attracting manifolds', a dynamical-systems concept; the inference exceeds its (already unsupported) ingredient and misapplies the terminology.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "the eight-dimensional hypercube contains lower-dimensional attracting manifolds",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 117,
+        "line_end": 117,
+        "quote": "A house with a Sarvashtakavarga score above 28 is considered strong. Below 25 is considered weak."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The above-28-strong / below-25-weak thresholds are the standard classical rules of thumb for Sarvashtakavarga interpretation, accurately reported here; they are attributed traditional values rather than the post's operative math.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "A house with a Sarvashtakavarga score above 28 is considered strong. Below 25 is considered weak.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 117,
+        "line_end": 117,
+        "quote": "These thresholds correspond to regions of the hypercube where specific symmetry properties hold"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No derivation maps the 0–56 Sarvashtakavarga thresholds (25/28) onto hypercube regions or symmetry properties; the 'majority of dimensions benefic' gloss operates on a different scale than the thresholds cited.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "These thresholds correspond to regions of the hypercube where specific symmetry properties hold",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 121,
+        "line_end": 121,
+        "quote": "they are performing a geometric operation. They are locating twelve points on an eight-dimensional hypercube"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Practicing astrologers do not conceive or execute Ashtakavarga evaluation as locating points on a hypercube; the sentence presents the author's reframe as a factual description of practitioner activity.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "they are performing a geometric operation. They are locating twelve points on an eight-dimensional hypercube",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 123,
+        "line_end": 123,
+        "quote": "The Ashtakavarga calculation recovers the higher-dimensional information that the flat projection discards."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'recovery' claim is undemonstrated: the flat chart already contains the planetary positions from which bindus are computed, so Ashtakavarga constructs a new analytic structure rather than recovering discarded dimensions.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "The Ashtakavarga calculation recovers the higher-dimensional information that the flat projection discards.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 125,
+        "line_end": 125,
+        "quote": "we inhabit a high-dimensional state space but perceive through low-dimensional projections"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-METAPHOR"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal phenomenological claim is asserted in literal geometric vocabulary with no figurative marker, and it carries the load of elevating Ashtakavarga into a 'technology for recovering lost dimensions'; undeclared but load-bearing.",
+      "legacy": {
+        "anchor": "BLIND",
+        "quote": "we inhabit a high-dimensional state space but perceive through low-dimensional projections",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy nigredo audit not consulted per BLIND protocol."
+      }
+    }
+  ]
+}

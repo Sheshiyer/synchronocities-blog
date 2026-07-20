@@ -1,0 +1,388 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-hermit-72-hours.md",
+  "source_path": "src/content/posts/the-hermit-72-hours.md",
+  "source_sha256": "40a4e69744d2238eb19b1bb77d235bb333363b0dd888d360b8fc9d0ca363b66d",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-hermit-72-hours.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 25,
+        "line_end": 25,
+        "quote": "The Hermit in the Thoth deck holds a lantern containing the Sun"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Iconographic report about the Thoth Hermit (Atu IX): Crowley's card does depict the Hermit bearing a lantern containing the Sun. The attribution to the named deck is accurate and verifiable against the card itself.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "The Hermit in the Thoth deck holds a lantern containing the Sun",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 25,
+        "line_end": 25,
+        "quote": "not to illuminate the route ahead, but to illuminate the route already traveled"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Interpretive gloss on the lantern's direction. The post operates inside an overt Thoth-tarot hermeneutic frame (frontmatter card IX, Thoth named at L25), and the gloss is internally consistent with the post's digestion-over-novelty thesis.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "not to illuminate the route ahead, but to illuminate the route already traveled",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "Seventy-two names of God in Kabbalistic tradition."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 72-letter Shem HaMephorash / seventy-two names of God is a genuine and well-documented Kabbalistic construct. The tradition is named and the count is faithful to it; no empirical proof is demanded of a source claim.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Seventy-two names of God in Kabbalistic tradition.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "Seventy-two hours for the body to complete one full cycle of cellular communication — the time it takes for every major organ system to send and receive at least one complete signal round."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-PROVENANCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A pseudo-precise physiological cycle ('one complete signal round' per organ system per 72 hours) is asserted as biological fact with no source, measure, or canonical result; 'signal round' is undefined. The 72-hour figure carries thesis weight (it justifies the retreat length), so consequence holds, but provenance is undemonstrated — provisional DECORATIVE per the grammar's triple-gate fallback.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Seventy-two hours for the body to complete one full cycle of cellular communication",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The pranamaya kosha — the vital-energetic sheath — doesn't speak in words. It speaks in rhythms. Breath ratio. Heart rate variability."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The kosha vocabulary is the post's declared house frame (frontmatter kosha: pranamaya), and the claim assigns it a functional role (rhythms, not words) that is internally consistent with the frame's use across the corpus. No measured effect is asserted in this span.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "The pranamaya kosha — the vital-energetic sheath — doesn't speak in words. It speaks in rhythms.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The subtle electromagnetic field that extends eighteen inches beyond the skin in every direction."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-PROVENANCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal 18-inch 'subtle electromagnetic field' around the skin is asserted with instrument-grade precision but no instrument, conditions, or source. Measured human bioelectromagnetic emissions do not support a canonical 18-inch subtle field. The precision does argumentative work (it substantiates the kosha's 'signals'), so consequence holds; provenance fails.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "The subtle electromagnetic field that extends eighteen inches beyond the skin in every direction.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "In stillness, these signals become audible. Not to the ears. To the architecture of attention itself."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The figurative boundary is marked in-line: 'Not to the ears.' The comparison (signals as audible) makes no literal acoustic or causal inference, so it passes as a declared metaphor despite carrying phenomenological weight.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "In stillness, these signals become audible. Not to the ears.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "Thirty-three vertebrae in the human spine."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard anatomical count: 7 cervical + 12 thoracic + 5 lumbar + 5 sacral + 4 coccygeal = 33 vertebral segments. A verifiable textbook fact; the count is the factual content of the claim, not an argued computation.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Thirty-three vertebrae in the human spine.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "Thirty-three degrees in Scottish Rite Freemasonry."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Ancient and Accepted Scottish Rite confers 33 degrees; this is well-documented institutional fact supported by the Rite's own published structure.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Thirty-three degrees in Scottish Rite Freemasonry.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "Thirty-three years of Christ's earthly ministry."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The ~33-year lifespan of Jesus is the standard traditional chronology (ministry beginning 'about thirty' per Luke 3:23 plus a roughly three-year ministry). Reported as tradition, and faithful to it; the slight imprecision ('years of ministry' vs lifespan) is idiomatic.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Thirty-three years of Christ's earthly ministry.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "The number of structural completion — every load-bearing element in place, awaiting only the force that will flow through the structure."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A new numerological meaning ('structural completion') is synthesized from three identified ingredients (Kabbalah-adjacent 72 motif, vertebrae, Masonic degrees, Christ's years) and asserted as the number's inherent significance without declaring the author's authorship or a house frame — synthesis laundering per the grammar's §5 rule.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "The number of structural completion",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "The Hermit doesn't withdraw from the world. The Hermit withdraws from the noise the mind generates *about* the world."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Tarot-hermeneutic thesis statement inside the post's declared frame; the signal/noise distinction it draws is applied consistently through the remainder of the post (L33–37).",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "The Hermit doesn't withdraw from the world.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 35,
+        "quote": "When that noise stops — not suppressed, not managed, but genuinely absent because the system has paused its compulsive commentary — what remains is signal."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person practice report with named observer (the author), object (cessation of compulsive commentary, residual 'signal'), and replicable conditions (72 hours of deliberate stillness). Scoped to the practitioner's experience; no universal mechanism is asserted.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "When that noise stops — not suppressed, not managed, but genuinely absent",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "Seventy-two hours was enough. Not to find answers. To stop asking questions whose only function was to fill the silence with the sound of seeking."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Situated first-person outcome report ('was enough' for the author, in this retreat), not a universal dose-response claim. Observer, conditions, and scope are all present.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Seventy-two hours was enough. Not to find answers.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    }
+  ]
+}

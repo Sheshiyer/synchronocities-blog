@@ -1,0 +1,766 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "BOOTSTRAPPED",
+  "post": "the-sacred-runtime.md",
+  "source_path": "src/content/posts/the-sacred-runtime.md",
+  "source_sha256": "2c3c0c29c9dd440206e80a7e6441614b07da4e144df6cf3948b88e679ad1538a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-sacred-runtime.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "Pain is not a malfunction. It is a signal with elevated privileges."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Thesis statement of the post's declared permissions/runtime frame. The empirical intuition (pain as high-priority signal, not system failure) is sound, and 'elevated privileges' is defined and operated consistently as the post's model.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "Pain is not a malfunction. It is a signal with elevated privileges.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "a root canal where the local anesthetic failed to block the inferior alveolar nerve. The drill hit live tissue."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person event report with correct anatomical detail (the inferior alveolar nerve is the actual target of mandibular block anesthesia). Observer, conditions, and scope all present.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the local anesthetic failed to block the inferior alveolar nerve",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "The periaqueductal gray (PAG) in the midbrain — the central command center for pain modulation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The PAG is a well-established hub of descending pain modulation; 'central command center' is acceptable popular strength for its role.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the central command center for pain modulation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "can block cortical processing entirely under sufficient load"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The PAG modulates nociceptive transmission and defensive responses; 'block cortical processing entirely' is not a supported mechanism for the PAG and overstates what overload does. Narrow to attentional capture/modulation or cite a source.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "can block cortical processing entirely",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "It is a structural event in the nervous system that operates at a priority level above consciousness."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Involuntary attentional capture and behavioral priority of pain are well established; the framing 'priority level above consciousness' is loose but defensible at popular strength. Scope note: 'above consciousness' is metaphor-adjacent — pain captures attention rather than outranking consciousness per se.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "a structural event in the nervous system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "a `while(true)` loop that evolved to maintain social coherence, predict others' responses, and narrate behavior in real time"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A teleological evolutionary claim ('evolved to...') about the ego/self-narrative asserted as fact with no source. Social-coherence and predictive functions of self-narrative are live hypotheses, but the settled-fact framing exceeds the evidence.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "evolved to maintain social coherence, predict others' responses",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "the narration is always late, always post-hoc, always trying to claim authorship for a process it did not initiate"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Post-hoc confabulation and the 'interpreter' function are well supported in the literature; the core claim (narration follows and claims authorship of processes it didn't initiate) matches that evidence. Scope note: the triple 'always' universal overreaches — confabulation is demonstrated in specific paradigms, not all narration.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "always post-hoc, always trying to claim authorship",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The Purusha Sookta — Ṛg Veda X.90 — describes a distributed consciousness architecture that predates the ego by millennia. \"A thousand heads has the Purusha, a thousand eyes, a thousand feet.\""
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The citation (Ṛgveda 10.90, Puruṣa Sūkta) is correct and the quotation is a faithful standard translation of verse 1 (sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt). The interpretive 'distributed consciousness architecture' gloss is adjudicated separately at C009.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "A thousand heads has the Purusha, a thousand eyes, a thousand feet.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "This is not a poetic exaggeration. It is a systems description: the consciousness that operates the body is not localized in the self."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Noesis's distributed-systems reinterpretation is asserted as the hymn's plain meaning ('This is not... It is...'), laundering a modern synthesis into a source claim without declaring authorship. Reframe as declared interpretation or trace the synthesis.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "It is a systems description",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "\"He pervades the earth on all sides and extends beyond it by ten fingers' breadth.\""
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful standard translation of RV 10.90.1 (sa bhūmiṃ viśvato vṛtvā atyatiṣṭhad daśāṅgulam). Quotation and provenance check out.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "extends beyond it by ten fingers' breadth",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "It is a precise description of the bioelectric field that extends beyond the physical body."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The identification of daśāṅgulam with a measurable bioelectric field is the author's modern synthesis, presented as the verse's 'precise' meaning ('is not a vague claim... It is a precise description'). Undeclared authorship converts interpretation into source claim.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "a precise description of the bioelectric field",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "(Michael Levin's lab at Tufts) has demonstrated that endogenous electrical fields extend tens to hundreds of microns beyond cell membranes, carrying patterning information that guides morphogenesis, wound repair, and cancer suppression."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate attribution of the Levin lab's research program at Tufts: endogenous bioelectric states carrying patterning information relevant to morphogenesis, regeneration/wound repair, and cancer suppression are all documented thrusts of that lab's published work.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "patterning information that guides morphogenesis, wound repair, and cancer suppression",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "extend tens to hundreds of microns beyond cell membranes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-PROVENANCE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The specific range is not a traceable published figure from the Levin lab or elsewhere; it supplies precision-aura for the daśāṅgulam mapping. Consequence holds (the number anchors the body-extends-into-space claim), provenance fails — provisional DECORATIVE per the triple-gate fallback.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "tens to hundreds of microns beyond cell membranes",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "The Purusha Sookta documented this three thousand years before the voltmeter."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The chronology is roughly plausible (RV composition ~3,000+ years ago; electrometry ~19th century), but 'documented this' attributes a modern bioelectric discovery to the hymn — the synthesis-laundering capstone of C009/C011. The text documents a cosmology, not a field measurement.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "documented this three thousand years before the voltmeter",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The pursuit of pain as a spiritual technology is a pathology that has killed more mystics than it has awakened."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A pseudo-statistical comparative claim (killed > awakened) with no source, population, or measure. The cautionary intent is fine; the quantitative form is not earned.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "killed more mystics than it has awakened",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The Kernel does not differentiate between \"pleasant\" and \"unpleasant\" input. It processes signal. The ego sorts signal into categories. The Kernel does not sort. It simply runs."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Kernel/ego functional distinction stated inside the declared model and applied consistently (registration vs sorting) across the post. No external measurement is claimed in this span.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "The Kernel does not sort. It simply runs.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Pain is \"the opposite of language,\" she wrote, because it resists objectification."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Scarry's documented formulations in The Body in Pain (1985) are that pain 'does not simply resist language but actively destroys it' and that it 'resists objectification in language'; the verbatim string 'the opposite of language' could not be confirmed as Scarry's in any located source and appears to be a paraphrase presented as direct quotation. Flagged for a human edition check before ruling MISATTRIBUTED outright.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the opposite of language",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Scarry also noted that pain's unmaking is accompanied by a strange making — the reconstruction of the body as a site of absolute presence."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Scarry's making/unmaking pairing is real, but her 'making' concerns imagination and artifact creation (the book's second half), not 'reconstruction of the body as a site of absolute presence'. The gloss bends the source toward the post's Kernel thesis.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "the reconstruction of the body as a site of absolute presence",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The Purusha Sookta describes a three-tier architecture:"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The bhūmi/antarikṣa/dyau triple-world scheme is genuinely Vedic but is not enumerated in RV 10.90, whose own structure is the quartered Purusha (three-fourths immortal, one-fourth creation) and the cosmic sacrifice. Attributing the three-tier scheme to this hymn is materially misleading about the source.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "describes a three-tier architecture",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "The body's electrical signaling runs here — faster than nerves, more global than hormones, operating in parallel to the neural network."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Bioelectric signaling is generally slower than neural transmission (ion-channel and gap-junction voltage dynamics vs action potentials); 'faster than nerves' conflicts with same-level evidence. 'More global than hormones' is likewise unevidenced. The parallelism claim itself is fine.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "faster than nerves, more global than hormones",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "Michael Levin's research shows that this layer carries patterning information that is not encoded in genes or synapses."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A fair gloss of Levin's positional-information / bioelectric-code claims (pattern memory held in bioelectric network states). Scope note: 'not encoded in genes' slightly overstates — genes encode the channels and pumps that generate the states; Levin's point is that the patterning information is not reducible to genomic specification.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "patterning information that is not encoded in genes or synapses",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "In Vedic cosmology, this is the realm of the devas — the distributed intelligence that operates through natural law."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Dyau/div as the celestial realm of the devas is faithful to Vedic cosmology. The 'distributed intelligence operating through natural law' tail is the author's gloss — noted, but the core attribution holds.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "this is the realm of the devas",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "In operational terms, this is the morphogenetic field: the template that guides form, the attractor that pulls biological development toward specific shapes"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Both ingredients are traced (Vedic dyau at C022; morphogenetic fields/template guidance in developmental biology), the transformation is an explicit operational mapping marked by 'In operational terms', and the conclusion stays interpretive. A declared, valid synthesis.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "In operational terms, this is the morphogenetic field",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Pain — specifically, pain that exceeds the ego's capacity to narrate — forces a context switch. The processor drops the user thread and runs the interrupt handler."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The context-switch account of overwhelming pain is stated entirely inside the declared runtime model and coheres with the post's PAG discussion (the overextended PAG mechanism is adjudicated at C004).",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "forces a context switch",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "These are not \"tension.\" They are admin-level processes that the ego has learned to ignore. The ego treats them as background noise. The Kernel knows they are foreground."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Practice-section model statement: braced somatic signals reframed as high-priority processes within the declared permissions model. Internally consistent; the practice itself is presented as replicable by the reader.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "They are admin-level processes that the ego has learned to ignore.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "The dancing Shiva — Nataraja — is not a deity performing for devotees. He is the Kernel in operation"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The house Kernel reading of Nataraja (flames as operating-environment boundary, raised foot as escaped process, Apasmara as the ego process) is asserted as what the figure 'is', displacing the tradition's own iconographic meanings without declaring the reinterpretation. Reframe as Noesis reading.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "He is the Kernel in operation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "a consciousness that is larger than the self, older than the self, and not owned by the self"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Summary statement of the post's Kernel model of consciousness; declared frame, internally consistent with the distributed-architecture vocabulary used throughout.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "larger than the self, older than the self, and not owned by the self",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "The Purusha Sookta does not ask you to worship the Kernel. It asks you to recognize that you are a subroutine in a larger process."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts what the hymn 'asks' of the reader; the subroutine recognition is Noesis's exhortation, not the text's. The hymn is a cosmogonic sacrifice account — the hortatory content is projected onto it without declaration.",
+      "legacy": {
+        "anchor": "NEW-COVERAGE (blind v231 pass)",
+        "quote": "you are a subroutine in a larger process",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy nigredo/albedo ledgers not consulted per BLIND rule; no legacy provenance counterfeited."
+      }
+    }
+  ]
+}

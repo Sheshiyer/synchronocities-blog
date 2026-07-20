@@ -1,0 +1,911 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "nakshatra-fibonacci-sequences.md",
+  "source_path": "src/content/posts/nakshatra-fibonacci-sequences.md",
+  "source_sha256": "b5ab42f29ab9374e1bc3da41fc72099870bdd44e0a69f6078980fb429237470f",
+  "legacy_audit_path": "quality-engine/audits/nigredo/nakshatra-fibonacci-sequences.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "Nature does not count. It grows. The spiral is not a formula — it is a verb."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Epigraph presented with a citation-like attribution to 'Field Notes on Organic Mathematics', which is not identifiable as an external source; if it is an internal house text it should be marked as such. The aphorism itself is stylistic.",
+      "legacy": {
+        "anchor": "L30",
+        "quote": "\"Nature does not count. It grows. The spiral is not a formula — it is a verb.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "The Vedic sky is divided into 27 nakshatras — lunar mansions that partition the ecliptic into segments of 13 degrees and 20 minutes each. Each nakshatra subdivides into four padas (quarters), yielding 108 total divisions across the full 360-degree circle."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Accurate report of the Jyotisha system: 27 nakshatras of 13 deg 20 min (360/27), four padas each, 108 padas total. The quantities are correct, structurally consequential to the post, and provenance-traceable to the traditional system.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"27 nakshatras — lunar mansions that partition the ecliptic into segments of 13 degrees and 20 minutes each\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "These numbers — 27, 4, 108, 360 — are not arbitrary. They are nodes in a mathematical structure that connects directly to Fibonacci sequences and the golden ratio."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts a direct Fibonacci/golden-ratio connection for 27, 4, 108, 360; none of these is a Fibonacci number and no standard structure links them — the 'connection' is later imposed by the author's own spiral construction, not derived. The numbers are correct but the claimed linkage has no provenance.",
+      "legacy": {
+        "anchor": "L35",
+        "quote": "\"They are nodes in a mathematical structure that connects directly to Fibonacci sequences and the golden ratio.\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The golden angle — 137.507 degrees — is the angular separation that produces optimal packing in biological systems. Sunflower seeds, leaf arrangements (phyllotaxis), and pinecone spirals all follow this angle."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Golden angle 360/phi^2 ≈ 137.507 deg is computed correctly in the post's own code (reproducible derivation) and the optimal-packing/phyllotaxis claim (sunflower, leaf divergence, pinecone) matches the standard literature.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"The golden angle — 137.507 degrees — is the angular separation that produces optimal packing in biological systems.\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The nakshatra system's 13.333-degree division produces a ratio of 360/13.333 = 27, and 27 is the cube of 3."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Arithmetically true but circular: 13.333 was defined as 360/27, so '360/13.333 = 27' recovers the definition; 27 = 3^3 is true but inconsequential. Presented as evidence of non-arbitrariness, which the circularity cannot support.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"360/13.333 = 27, and 27 is the cube of 3\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "108 is a number that appears with suspicious frequency across contemplative traditions — 108 beads on a mala, 108 Upanishads, 108 energy lines converging at the heart chakra."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The enumerated recurrences are attested: 108-bead japa malas (Hindu/Buddhist practice) and the 108-Upanishad canon of the Muktika are real traditional enumerations; the 108-energy-lines-at-the-heart claim circulates in tantric/yoga literature though no text is named here. 'Suspicious frequency' is editorial, noted.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"108 beads on a mala, 108 Upanishads, 108 energy lines converging at the heart chakra\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The mathematical substrate of these repetitions is Fibonacci-adjacent."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Vague 'Fibonacci-adjacent' substrate claim for the 108 recurrences; a real but unstated geometric link exists (regular-pentagon interior angle 108 deg, pentagon-golden-ratio connection), yet the post neither states nor derives it, so the claim stands without provenance.",
+      "legacy": {
+        "anchor": "L51",
+        "quote": "\"The mathematical substrate of these repetitions is Fibonacci-adjacent.\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "When you plot nakshatra positions using the golden angle as the angular increment, a spiral emerges. Not the flat circle of the zodiac wheel, but a logarithmic spiral"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The construction is declared and reproducible: theta = i * 137.507 deg with r = phi^(i/8) is by definition a logarithmic spiral, and the printed code lets the reader regenerate it. Minor code notes: 'import math' is omitted and the 'revolutions' parameter is a misnomer for iteration count.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"a spiral emerges. Not the flat circle of the zodiac wheel, but a logarithmic spiral\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "the same spiral that governs galaxy arms, nautilus shells, and hurricane formations"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Logarithmic-spiral approximations in nautilus shells, spiral-galaxy arms, and cyclone/hurricane bands are standard; 'governs' is strong shorthand but the claim is accurate at its stated strength.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"the same spiral that governs galaxy arms, nautilus shells, and hurricane formations\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The resulting pattern is a Fibonacci spiral with 27 points — a structure that encodes both cyclical (angular) and progressive (radial) information simultaneously."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Accurate description of the declared construction (27 points, angular and radial coordinates distinct); internally consistent. Terminology note: a 'Fibonacci spiral' strictly denotes the arc-tiled approximation of the golden spiral; the construction here is a logarithmic golden spiral.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"a Fibonacci spiral with 27 points\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "In traditional interpretation, each pada carries a different elemental quality and karmic weight."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pada-level differentiation is attested in Jyotisha via navamsa: each pada maps to a navamsa sign carrying distinct qualities; the framing 'in traditional interpretation' is accurate.",
+      "legacy": {
+        "anchor": "L78",
+        "quote": "\"each pada carries a different elemental quality and karmic weight\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 92,
+        "quote": "The early Fibonacci ratios oscillate around phi, alternately overshooting and undershooting before converging."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Mathematically correct: consecutive Fibonacci ratios (1, 2, 1.5, 1.667, 1.6, 1.625, 1.615...) alternate around and converge to phi = 1.618033988..., and the values in the code comment check out; the code generates them reproducibly.",
+      "legacy": {
+        "anchor": "L88-92",
+        "quote": "\"The early Fibonacci ratios oscillate around phi, alternately overshooting and undershooting before converging.\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "The four padas of each nakshatra exhibit an analogous oscillation — the first pada is fiery and initiating (overshoot), the second is earthy and stabilizing (undershoot), the third is airy and distributing (closer approach), and the fourth is watery and dissolving (near convergence)."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly declared analogy ('analogous oscillation', 'The qualitative sequence mirrors the mathematical convergence') with no literal numeric inference drawn from it. Independent accuracy note: the fire-earth-air-water pada sequence matches navamsa tradition, since every nakshatra's padas begin in a fire-sign navamsa.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"The four padas of each nakshatra exhibit an analogous oscillation\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "we can map it simultaneously to its nakshatra position (angular) and its spiral position (radial), producing a coordinate that encodes both cyclical and evolutionary information"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The dual-coordinate mapping is a declared construction and the printed formulas are arithmetically correct: nakshatra index = floor(longitude / (360/27)); pada index = floor((longitude mod 13.333) / (360/108)), since 360/108 = 3.333 deg is the pada width. Same minor code caveats as C008 (globals, import).",
+      "legacy": {
+        "anchor": "L96",
+        "quote": "\"producing a coordinate that encodes both cyclical and evolutionary information\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "On the Fibonacci spiral, they occupy positions separated by 27 revolutions of growth — the full evolutionary distance of the entire nakshatra sequence."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Internally contradicted by the post's own construction: 27 points at 137.5 deg increments span 27 x 137.5 = 3712.5 deg ≈ 10.3 revolutions (and Aries 1 deg vs Pisces 29 deg, indices 0 and 26, span ≈ 9.9 revolutions) — not 27 revolutions. The companion claim that the two points are 2 deg apart on the circle is correct.",
+      "legacy": {
+        "anchor": "L116",
+        "quote": "\"separated by 27 revolutions of growth\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "Biological growth follows Fibonacci patterns because the golden angle prevents any two successive growth points from exactly overlapping — each new leaf, seed, or branch receives maximum light and space."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Standard phyllotaxis account: the golden angle, as the most irrational divergence angle, optimizes non-overlap and resource exposure; matches the mainstream mathematical-biology explanation.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"the golden angle prevents any two successive growth points from exactly overlapping\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 120,
+        "quote": "The nakshatra system similarly distributes 27 observation points across the ecliptic such that no two nakshatras share identical planetary rulership or elemental quality."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SPLIT"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "False about the traditional system: Vimshottari rulerships repeat three times across the 27 nakshatras (Ketu rules Ashwini, Magha, and Mula; Venus rules Bharani, Purva Phalguni, Purva Ashadha; etc.) — which the post itself states at line 122, making this internally contradictory as well.",
+      "legacy": {
+        "anchor": "L120",
+        "quote": "\"no two nakshatras share identical planetary rulership or elemental quality\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "The Vimshottari Dasha system (explored in the previous article) assigns planetary rulers to nakshatras in a sequence that cycles through all nine grahas three times across the 27 nakshatras: 27 = 9 x 3."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate report of the Vimshottari scheme (nine-graha sequence repeated three times over 27 nakshatras). The '27 = 9 x 3' equation is correct but trivial restatement — ornamental rather than consequential.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"cycles through all nine grahas three times across the 27 nakshatras: 27 = 9 x 3\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 122,
+        "line_end": 122,
+        "quote": "This triple cycling creates a harmonic relationship between the nakshatra spiral and the dasha state machine — the spiral's geometry constraining the state machine's initial conditions."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts a causal-constraint relation between the author's spiral construction and the traditional dasha sequence; the 'harmonic relationship' and 'constraining initial conditions' moves are undeclared author synthesis with no derivation.",
+      "legacy": {
+        "anchor": "L122",
+        "quote": "\"the spiral's geometry constraining the state machine's initial conditions\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "The lattice angles that produce stable crystal structures are constrained by geometric packing efficiency — the same efficiency that the golden angle optimizes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The mapping is demonstrably misapplied: the crystallographic restriction theorem excludes 5-fold/icosahedral (golden-ratio-related) symmetry from periodic lattices, so golden-angle efficiency is precisely what classical crystal lattices cannot implement; only aperiodic quasicrystals carry such symmetry, and they are not packing-efficiency optima of the claimed kind.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"the same efficiency that the golden angle optimizes\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "Protein folding, too, produces spiral structures (alpha helices) whose pitch angles reflect Fibonacci proportions."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Alpha helices are real spiral structures (3.6 residues/turn, 5.4 Angstrom pitch), but no standard result links their pitch angles to Fibonacci proportions; the claimed proportionality is asserted without source.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"alpha helices) whose pitch angles reflect Fibonacci proportions\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "The nakshatra system is not imitating nature. It is implementing the same mathematical principle that nature implements."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Thesis assertion that the traditional system implements the golden-angle principle; the only demonstrated link is the author's own imposed spiral construction (C008), so the claim about the traditional system itself is unsupported.",
+      "legacy": {
+        "anchor": "L124",
+        "quote": "\"It is implementing the same mathematical principle that nature implements.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "A Fibonacci number is defined in terms of the two preceding Fibonacci numbers."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Correct statement of the Fibonacci recurrence (F(n) = F(n-1) + F(n-2)); definitional, and it anchors the post's recursion thesis, with standard provenance.",
+      "legacy": {
+        "anchor": "L128",
+        "quote": "\"A Fibonacci number is defined in terms of the two preceding Fibonacci numbers.\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "A nakshatra's significance is defined in terms of its relationships to adjacent nakshatras — its planetary ruler, its placement in the dasha sequence, its elemental progression relative to neighbors."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Fair characterization of Jyotisha interpretive practice, where rulership, dasha placement, and sequential context condition a nakshatra's reading.",
+      "legacy": {
+        "anchor": "L128",
+        "quote": "\"A nakshatra's significance is defined in terms of its relationships to adjacent nakshatras\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "The 27 nakshatras within the zodiac recapitulate the 27 days of the lunar month."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Sidereal lunar month is 27.32 days, and the Moon traverses roughly one nakshatra per day — the actual historical basis of the 27-fold system; the rounding to 27 is noted and acceptable at stated strength.",
+      "legacy": {
+        "anchor": "L130",
+        "quote": "\"The 27 nakshatras within the zodiac recapitulate the 27 days of the lunar month.\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "The four padas within a nakshatra recapitulate the four-element cycle. The three cycles of nine nakshatras recapitulate the three gunas."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Recapitulation mappings asserted as system facts; the pada-element cycle independently matches navamsa elements (noted), but the nine-cycle-to-three-guna mapping is unattributed author synthesis and neither mapping is derived.",
+      "legacy": {
+        "anchor": "L130",
+        "quote": "\"The three cycles of nine nakshatras recapitulate the three gunas.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 132,
+        "line_end": 132,
+        "quote": "They observed the sky, observed nature, and recognized the same spiral operating at every scale. The nakshatra system is their notation for that recognition — a coordinate system for the universal spiral."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Retrojects golden-ratio spiral recognition onto the Vedic seers; no textual or historical evidence that the nakshatra system was designed as spiral notation. The disclaimer in the same passage ('did not discover the golden ratio and then apply it') does not rescue the unattributed intent claim.",
+      "legacy": {
+        "anchor": "L132",
+        "quote": "\"The nakshatra system is their notation for that recognition — a coordinate system for the universal spiral.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "compassion-runtime.md",
+  "source_path": "src/content/posts/compassion-runtime.md",
+  "source_sha256": "056eb657d48f1a34084fad0de07e32d47add25a444ac5257cb33d976a6318fa4",
+  "legacy_audit_path": "quality-engine/audits/nigredo/compassion-runtime.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": { "line_start": 32, "line_end": 32, "quote": "I learned this the hard way during a period of sustained insomnia in my late twenties." },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "First-person report with named observer (the author), noticed object (3 AM rumination episodes), and bounded scope (his late twenties). The observation is distinguished from the mechanism discussion that follows.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "I learned this the hard way during a period of sustained insomnia in my late twenties.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C002",
+      "anchor": { "line_start": 34, "line_end": 34, "quote": "Joseph LeDoux's laboratory at NYU has mapped this circuitry precisely. The amygdala's rapid route — from thalamus to amygdala to hypothalamus — bypasses the cortex entirely." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Accurately reflects LeDoux's (NYU) 'low road' research: a direct thalamo-amygdala pathway that bypasses cortical processing, with amygdala projections driving hypothalamic responses. 'Mapped precisely' is mildly promotional but the circuit claim is correct.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "The amygdala's rapid route — from thalamus to amygdala to hypothalamus — bypasses the cortex entirely.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C003",
+      "anchor": { "line_start": 34, "line_end": 34, "quote": "The limbic kernel was booting before the neocortex evolved. It does not recognize your managerial credentials." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The propositional core — limbic structures are phylogenetically older than the neocortex — is well established; the kernel/boot framing is the essay's declared OS metaphor wrapped around that correct sequence.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "The limbic kernel was booting before the neocortex evolved.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C004",
+      "anchor": { "line_start": 36, "line_end": 36, "quote": "Jaak Panksepp's affective neuroscience program identified seven primary emotional systems — SEEKING, RAGE, FEAR, LUST, CARE, PANIC/GRIEF, and PLAY — each with distinct neural substrates, neurochemical signatures, and evolutionary functions." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Faithful report of Panksepp's canonical seven core affective systems with the standard capitalization and the correct person and program; the claim is about what his research identified, which is accurately represented.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "identified seven primary emotional systems — SEEKING, RAGE, FEAR, LUST, CARE, PANIC/GRIEF, and PLAY", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C005",
+      "anchor": { "line_start": 36, "line_end": 36, "quote": "When Panksepp electrically stimulated the FEAR circuit in a cat, the animal produced threat behavior without any external threat present. When he stimulated the SEEKING circuit, the animal produced appetitive exploration without any reward available." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Accurately represents Panksepp's electrical-stimulation-of-brain experiments, in which hypothalamic/limbic stimulation elicited full emotional-behavior patterns absent external elicitors. Reported as his experimental result.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "When Panksepp electrically stimulated the FEAR circuit in a cat, the animal produced threat behavior without any external threat present.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C006",
+      "anchor": { "line_start": 36, "line_end": 36, "quote": "Your sadness, your rage, your desire — these are not responses to the world. They are the world, generated internally and then projected outward for confirmation." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "A categorical denial that emotions are responses to the world overreaches the Panksepp evidence it leans on: the stimulation studies show circuits can fire without elicitors, not that emotion is never world-responsive. One theoretical stance is presented as settled fact; needs narrowing.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "these are not responses to the world. They are the world, generated internally and then projected outward for confirmation.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C007",
+      "anchor": { "line_start": 40, "line_end": 40, "quote": "The limbic kernel does not log to stdout. It writes to the body: heart rate variability, galvanic skin response, muscle tension, breath depth, gut motility. These are the telemetry." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The logging/telemetry language belongs to the essay's explicitly declared OS metaphor (title, epigraph), and its propositional payload — affective states have measurable somatic correlates such as HRV and GSR — is accurate. No literal software claim is implied.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "It writes to the body: heart rate variability, galvanic skin response, muscle tension, breath depth, gut motility. These are the telemetry.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C008",
+      "anchor": { "line_start": 42, "line_end": 42, "quote": "The split-brain research by Michael Gazzaniga demonstrated this explicitly: when the left hemisphere (language) was isolated from the right hemisphere (action), it would invent elaborate explanations for behavior it had not initiated and could not have known the cause of." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Faithful summary of Gazzaniga's split-brain 'left-brain interpreter' work (e.g., the chicken-claw/snow-shovel confabulation experiments); person, paradigm, and finding are correctly attributed with minor simplification.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "The split-brain research by Michael Gazzaniga demonstrated this explicitly", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C009",
+      "anchor": { "line_start": 42, "line_end": 42, "quote": "Your \"I am angry because of what she said\" is the same confabulation. The anger fired before the reason. The reason is marketing." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Universalizes the confabulation finding to all everyday emotion attribution. Affective primacy is documented in many paradigms, but the claim that reasons are always post-hoc 'marketing' is stronger than the evidence; needs narrowing to a tendency claim.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "The anger fired before the reason. The reason is marketing.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C010",
+      "anchor": { "line_start": 44, "line_end": 44, "quote": "Compassion begins with the recognition that the self is not the author of its emotional states. It is the witness. This is not a spiritual claim. It is a neuroanatomical one." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-REMODE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The witness/author distinction is a contemplative-interpretive stance, but the sentence explicitly denies that status and asserts it as neuroanatomy — no neuroanatomical finding establishes that 'the self is the witness'. The claim's mode boundary is dishonest; it must be remoded to the house/contemplative frame it actually is.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "This is not a spiritual claim. It is a neuroanatomical one.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C011",
+      "anchor": { "line_start": 44, "line_end": 44, "quote": "The default mode network — the circuit active during self-referential thought — can be decoupled from the salience network through specific practices." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The DMN gloss is correct and meditation-related DMN/connectivity modulation has supporting literature (e.g., Brewer et al.), but the post names no source for the decoupling claim; as stated it cannot pass the empirical gate without a traceable citation.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "The default mode network — the circuit active during self-referential thought — can be decoupled from the salience network through specific practices.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C012",
+      "anchor": { "line_start": 44, "line_end": 44, "quote": "Intervention at the limbic level requires pharmacology, deep brain stimulation, or sustained neuroplastic restructuring — not a pep talk." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The exclusionary list is too strong as stated: psychotherapy demonstrably alters amygdala reactivity, which either counts as 'sustained neuroplastic restructuring' (making the list circular) or refutes it. Needs scoping to immediate/volitional suppression, which is the defensible claim.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "Intervention at the limbic level requires pharmacology, deep brain stimulation, or sustained neuroplastic restructuring — not a pep talk.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C013",
+      "anchor": { "line_start": 48, "line_end": 48, "quote": "Bessel van der Kolk's research, crystallized in *The Body Keeps the Score* (2014)" },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Author, book title, and 2014 publication year are correct; the attribution of a somatic-storage thesis about trauma to this work is faithful.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "Bessel van der Kolk's research, crystallized in *The Body Keeps the Score* (2014)", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C014",
+      "anchor": { "line_start": 48, "line_end": 48, "quote": "established that traumatic emotional encoding migrates from declarative memory into procedural memory" },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "'Established' overstates the science: van der Kolk's somatic/implicit-encoding account is influential but contested, and a specific declarative-to-procedural 'migration' mechanism is a simplification rather than a demonstrated finding. Needs narrowing to what the source argues.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "established that traumatic emotional encoding migrates from declarative memory into procedural memory", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C015",
+      "anchor": { "line_start": 50, "line_end": 50, "quote": "Eugene Gendlin called this \"focusing\" — attending to the \"felt sense,\" the pre-verbal bodily awareness of a situation." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Correct attribution: Gendlin named the practice 'focusing' and defined the 'felt sense' as pre-verbal bodily knowing. Person, term, and definition are accurate.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "Eugene Gendlin called this \"focusing\" — attending to the \"felt sense,\" the pre-verbal bodily awareness of a situation.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C016",
+      "anchor": { "line_start": 50, "line_end": 50, "quote": "Gendlin's research showed that psychotherapy clients who could attend to their felt sense progressed faster than those who could only narrate." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Faithfully reports the Experiencing Scale research program associated with Gendlin, which found that clients' capacity to reference a felt sense predicted better therapy outcomes. Framed as what the research showed.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "Gendlin's research showed that psychotherapy clients who could attend to their felt sense progressed faster than those who could only narrate.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C017",
+      "anchor": { "line_start": 52, "line_end": 52, "quote": "That is my autonomic nervous system executing a threat-detection routine that was compiled in a different decade." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "First-person somatic observation (chest tightening in conversation) wrapped in the essay's declared compilation metaphor; the underlying autonomic threat-response framing is accurate and the figurative boundary is explicit.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "my autonomic nervous system executing a threat-detection routine that was compiled in a different decade", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C018",
+      "anchor": { "line_start": 56, "line_end": 56, "quote": "The high-arousal culture may have evolved in contexts where group coordination required rapid emotional signaling — pastoral raids, communal defense. The low-arousal culture may have evolved in contexts where individual survival required emotional concealment — authoritarian surveillance, scarce resources." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "A speculative evolutionary just-so story about cultural arousal styles; the 'may have evolved' hedge helps, but no evidence or source connects the named historical pressures to the claimed calibration, so it fails the empirical gate as stated.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "The high-arousal culture may have evolved in contexts where group coordination required rapid emotional signaling — pastoral raids, communal defense.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C019",
+      "anchor": { "line_start": 56, "line_end": 56, "quote": "Lisa Feldman Barrett's *How Emotions Are Made*, 2017) demonstrates that emotional categories are not universal. They are constructed, culturally calibrated, and somatically inscribed." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Title, author, and 2017 date are correct, and constructed, culturally variable emotion categories is indeed Barrett's thesis. ('Demonstrates' and the 'anthropological literature' label are loose — Barrett is a psychologist — but the source's position is represented faithfully.)",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "Lisa Feldman Barrett's *How Emotions Are Made*, 2017) demonstrates that emotional categories are not universal.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C020",
+      "anchor": { "line_start": 58, "line_end": 58, "quote": "Generic compassion protocols — \"just be kind\" — are like running a Windows executable on a Linux kernel. They may load. They will not function." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Explicitly marked as a comparison ('are like'), the binary-compatibility image makes no literal software claim; the figurative boundary is clean.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "are like running a Windows executable on a Linux kernel. They may load. They will not function.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C021",
+      "anchor": { "line_start": 60, "line_end": 60, "quote": "It is a metabolic process, and it consumes glucose, cortisol modulation capacity, and prefrontal engagement." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The resource-depletion account of compassion (glucose consumption, cortisol modulation capacity) is asserted without citation and leans on contested ego-depletion-style physiology; no traceable source supports it at the stated strength.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "It is a metabolic process, and it consumes glucose, cortisol modulation capacity, and prefrontal engagement.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C022",
+      "anchor": { "line_start": 60, "line_end": 60, "quote": "The research on compassion fatigue (Figley, 1995; Conrad & Kellar-Guenther, 2006) documents what happens when the monitoring system runs continuously without rest" },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Both citations are real and on-topic: Figley's 1995 compassion-fatigue volume and Conrad & Kellar-Guenther's 2006 study of child-protection workers. The reported phenomenon (caregiver collapse under sustained empathic load) matches the cited literature.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "The research on compassion fatigue (Figley, 1995; Conrad & Kellar-Guenther, 2006)", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C023",
+      "anchor": { "line_start": 62, "line_end": 70, "quote": "Kha recognizes, Ba hosts, La generates the pressure that makes the recognition meaningful." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The Kha-Ba-La triad is applied as explicitly named house vocabulary (witness/host/resistance), each role defined and operated consistently across the section; no external measurement or historical origin is claimed for it here.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "Kha recognizes, Ba hosts, La generates the pressure that makes the recognition meaningful.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    }
+  ]
+}

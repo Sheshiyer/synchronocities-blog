@@ -1,0 +1,1090 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-word-as-code.md",
+  "source_path": "src/content/posts/the-word-as-code.md",
+  "source_sha256": "77357ea1a54fff66cff0666090ccb13943899cd5c2755a24567152ac1ec355c2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-word-as-code.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 60,
+        "quote": "\"In the beginning was the Word, and the Word was with God, and the Word was God.\""
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The quotation matches the KJV rendering of John 1:1 verbatim and is correctly attributed to that verse.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "\"In the beginning was the Word, and the Word was with God, and the Word was God.\" — John 1:1",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "This is not theology. It is a technical specification."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An explicit, self-declared reframing that opens the essay's language-as-code operating frame; as a declared interpretive stance it is internally consistent and does not smuggle the theological content in as evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "This is not theology. It is a technical specification.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Type `console.log(\"Hello World\")` and a symbolic instruction becomes a physical change on a screen. The mechanism is unremarkable: syntax parsed, compiled to machine code, executed on hardware."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An accurate plain-language description of JavaScript execution (parsed and JIT-compiled by engines such as V8, then executed on hardware) at the strength stated; the later 'JavaScript compiles on V8' clause is likewise correct.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "syntax parsed, compiled to machine code, executed on hardware",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Speak a Sanskrit syllable and a phonemic instruction becomes a measurable change in neural oscillation, vagal tone, and cranial resonance. The mechanism is identical: symbolic input, compiled through a physical substrate, producing operational output."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The specific claim that a spoken Sanskrit syllable produces measurable changes in neural oscillation, vagal tone, and cranial resonance is asserted without any cited measure, population, or study, and 'the mechanism is identical' upgrades an analogy to literal identity. A secondary mode-blend (metaphor presented as mechanism) is noted here; the primary failure is missing evidence at the stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "a phonemic instruction becomes a measurable change in neural oscillation, vagal tone, and cranial resonance. The mechanism is identical",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The recurrent laryngeal nerve branches directly from the vagus at the voice box."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The recurrent laryngeal nerve does branch from the vagus, but it does so in the thorax (left at the aortic arch, right at the subclavian artery) and then ascends to the larynx; established anatomy conflicts with the claim that it branches 'at the voice box'.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The recurrent laryngeal nerve branches directly from the vagus at the voice box.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The sphenoid bone sits at the center of the cranial base, receiving vibrational input from every utterance."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The sphenoid's central position in the cranial base is accurate, and bone-conducted vibration during phonation is established physics, but the specific claim that the sphenoid 'receives vibrational input from every utterance' is asserted here without any source and functions as load-bearing anatomical groundwork for the essay's compiler thesis.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The sphenoid bone sits at the center of the cranial base, receiving vibrational input from every utterance.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "Cerebrospinal fluid moves through Meckel's cave in response to cranial oscillation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Meckel's cave (the trigeminal cistern) does contain CSF, but the claim that CSF 'moves through' it in response to cranial oscillation is an unevidenced mechanism of the craniosacral-osteopathic variety, asserted as fact with no source, measure, or conditions.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Cerebrospinal fluid moves through Meckel's cave in response to cranial oscillation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "When you speak, you drive fluid through bone. When you drive fluid through bone, you alter ionic gradients across neural membranes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-CAUSE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A two-step causal chain (speech -> fluid driven through bone -> altered ionic gradients across neural membranes) is asserted as established mechanism with no source; neither step is supported at the stated deterministic strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "When you drive fluid through bone, you alter ionic gradients across neural membranes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "Panini recognized this in roughly 500 BCE."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Dating Panini to roughly 500 BCE sits within the accepted scholarly range (estimates span the 6th-4th centuries BCE), and the hedged 'roughly' matches the uncertainty; read charitably with the following sentences, 'recognized this' refers to language's generative formal structure, which the Ashtadhyayi genuinely documents.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Panini recognized this in roughly 500 BCE.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The *Ashtadhyayi* — approximately 4,000 rules generating the entire Sanskrit language from a finite set of roots and affixes"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Ashtadhyayi contains approximately 4,000 sutras (3,959 by the standard count) that generate well-formed Sanskrit from roots and affixes; the description is accurate at the stated approximate precision. The count is a factual quantity, not a consequential mathematical object.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "approximately 4,000 rules generating the entire Sanskrit language from a finite set of roots and affixes",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "NASA linguist Rick Briggs demonstrated in 1985 that Sanskrit's formal structure makes it uniquely suited for knowledge representation in computational systems."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Rick Briggs did publish 'Knowledge Representation in Sanskrit and Artificial Intelligence' (AI Magazine, 1985) while at NASA Ames, but the paper argues for suitability as a position paper; it does not 'demonstrate' anything, and 'uniquely suited' is the well-known pop-culture inflation of its thesis. The source's content and strength are materially misrepresented.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "NASA linguist Rick Briggs demonstrated in 1985 that Sanskrit's formal structure makes it uniquely suited for knowledge representation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "is not a grammar book in the modern sense. It is a compiler specification."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Reading the Ashtadhyayi as a compiler specification is the essay's self-declared interpretive frame (announced at L62), and the generative-grammar character of the text makes the reading internally consistent rather than arbitrary; it is not presented as a scholarly consensus claim.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "is not a grammar book in the modern sense. It is a compiler specification.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The Indian philosophical tradition maps four levels at which language executes."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The fourfold speech schema (Vaikhari, Madhyama, Pashyanti, Para) is genuinely taught in Indian philosophical traditions (Bhartrhari's Vakyapadiya, Kashmir Shaiva and Tantric lineages), and the glosses given at L76-82 — articulated speech, mental speech, pre-linguistic seeing, transcendent silence — are faithful paraphrases of the traditional meanings.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Indian philosophical tradition maps four levels at which language executes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 82,
+        "quote": "Each level is a different permission depth in the consciousness stack."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Mapping Vaikhari/Madhyama/Pashyanti/Para onto application/runtime/kernel/init-process permission depths is the essay's declared house frame applied consistently; the analogy boundary is maintained by the frame's explicit declaration and no literal systems-engineering prediction is extracted.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Each level is a different permission depth in the consciousness stack.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Access to this layer is what the tradition calls *turiya* — the fourth state beyond waking, dreaming, and deep sleep."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Turiya is indeed 'the fourth' state beyond waking, dreaming, and deep sleep in the Mandukya Upanishad tradition, and associating it with the para level of speech is consistent with the traditional treatments; the paraphrase is faithful.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "what the tradition calls *turiya* — the fourth state beyond waking, dreaming, and deep sleep",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "These are not observations. They are function calls issued without your explicit authorization, compiled by the nervous system into hormonal cascades and muscular bracing."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that sub-vocalized self-talk is 'compiled by the nervous system into hormonal cascades and muscular bracing' asserts a specific physiological mechanism as fact; directionally plausible but presented with no source and at deterministic strength inside the house vocabulary.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "compiled by the nervous system into hormonal cascades and muscular bracing",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 92,
+        "quote": "When any of the three forces is missing, the system fails in a specific and predictable way."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Without-Kha / Without-Ba / Without-La failure-mode triad is an explicit operation of the declared house triad, internally consistent across the three cases; its 'predictable' failures are model-internal deductions, not asserted measurements.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "When any of the three forces is missing, the system fails in a specific and predictable way.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "In fact, you are executing inherited instructions from mitochondrial lineage, early attachment, cultural conditioning, and epigenetic load."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Bundling mitochondrial lineage, attachment, conditioning, and 'epigenetic load' as sources of executable behavioral instructions asserts contested transgenerational-epigenetic transmission in humans as settled fact, with no source and no scope limitation.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "inherited instructions from mitochondrial lineage, early attachment, cultural conditioning, and epigenetic load",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The tradition often presents the compiler as something transmitted through authorized lineage — teacher to student, mouth to ear, a sacred chain stretching to a divine source."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The description of lineage transmission (parampara, oral transmission from teacher to student traced to a divine source) is a faithful, if generalized, report of how Indic traditions present esoteric knowledge transmission; 'often' keeps the scope honest.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "transmitted through authorized lineage — teacher to student, mouth to ear, a sacred chain stretching to a divine source",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "What the tradition calls *karma* is not cosmic debt. It is the accumulated instruction set running in the subconscious"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An explicitly signposted redefinition ('What the tradition calls karma is...') that declares the house frame rather than smuggling it; as a model definition it is internally consistent with the essay's compiler vocabulary. The denial of the cosmic-debt reading is a defensible corrective to a popular simplification.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "What the tradition calls *karma* is not cosmic debt. It is the accumulated instruction set running in the subconscious",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "written by every experience you have had and every experience your maternal mitochondria carried before you"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Mitochondria are indeed maternally inherited, but the claim that they 'carry experiences' from maternal ancestors as stored instruction-writing is unevidenced; no mechanism or source supports experiential memory in mitochondrial lineage.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "every experience your maternal mitochondria carried before you",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "\"I am not safe\" triggers the same endocrine cascade whether you chose it or absorbed it from a parent's nervous system at age two. The function does not check authorship. It checks syntax."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The equivalence claim — identical endocrine cascade regardless of whether the belief was chosen or absorbed from a parent 'at age two' — asserts a specific developmental-transmission mechanism and response-identity with no source; the determinism ('the same... whether') exceeds available evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "triggers the same endocrine cascade whether you chose it or absorbed it from a parent's nervous system at age two",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "What the tradition calls *samskara* — refined impression, grooved pattern"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Glossing samskara as refined impression / grooved pattern is a faithful paraphrase of the term's standard meaning (latent impressions, formative tendencies) in Yoga and Vedantic traditions.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "What the tradition calls *samskara* — refined impression, grooved pattern",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 102,
+        "quote": "is what happens when karma is metabolized. Not erased. Not transcended. Metabolized."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The karma->samskara metabolization definition is a declared house redefinition ('is what happens when...'), internally consistent with the essay's integration-as-executional-permission thesis; it does not present the redefinition as the tradition's own teaching.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "is what happens when karma is metabolized. Not erased. Not transcended. Metabolized.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "The cost is metabolic: cortisol load, vagal withdrawal, immune suppression."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserting cortisol load, vagal withdrawal, and immune suppression as the metabolic cost of running negative internal narration states specific physiological effects as fact without any source, measure, or population.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The cost is metabolic: cortisol load, vagal withdrawal, immune suppression.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "A parent who repeatedly says \"you are clumsy\" installs a function that runs for decades."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Parental verbal labeling shaping long-run self-concept is a broadly supported psychological idea, but the claim is stated deterministically ('installs a function that runs for decades') with no source and no scope qualification.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "A parent who repeatedly says \"you are clumsy\" installs a function that runs for decades.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "They are documented hardware interfaces that have been abandoned as the populations using them switched to purely informational speech. The systemic cost is a species-wide decoupling of utterance from effect."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The sweeping historical claim that entire populations abandoned Sanskrit/Hebrew/Quranic-Arabic as 'hardware interfaces' and thereby produced a 'species-wide decoupling of utterance from effect' (restated as atrophied practice at L138) is asserted with no evidence, no named populations, and no demarcation of the alleged historical process.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "abandoned as the populations using them switched to purely informational speech. The systemic cost is a species-wide decoupling of utterance from effect.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "Any symbolic system that maps to physical resonance will produce somatic state change. The physics of this is not culture-bound. It is substrate-bound."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The universal claim that any resonance-mapped symbolic system produces somatic state change, and that language-as-code is 'a universal property of symbolic systems operating on biological hardware', is a sweeping empirical generalization offered without evidence of any kind.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Any symbolic system that maps to physical resonance will produce somatic state change.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 118,
+        "line_end": 118,
+        "quote": "A mantra is not a prayer. A prayer petitions an external process and waits for response. A mantra is local execution: it modifies the state of the machine on which it runs."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The mantra/prayer distinction is a declared analytical redefinition within the essay's frame and is internally consistent; it flattens traditions where mantra practice is petitionary, but as a stated house definition rather than a report of tradition it meets the coherence bar.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "A mantra is not a prayer. A mantra is local execution: it modifies the state of the machine on which it runs.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 120,
+        "line_end": 128,
+        "quote": "OM. Three phonemes plus silence."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The A-U-M-plus-silence structure of OM and its correspondence to waking/gross, dream/subtle, deep-sleep/causal, and the fourth (silence/Para) faithfully reproduces the Mandukya Upanishad's analysis, though the text is not named; the mapping as reported is accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "OM. Three phonemes plus silence.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 126,
+        "line_end": 126,
+        "quote": "Vibrates the sphenoid bone directly. Drives CSF oscillation along the X-axis vortex."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-CAUSE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The per-phoneme mechanism claims (A engages the vagal trunk; M vibrates the sphenoid directly and 'drives CSF oscillation along the X-axis vortex') are asserted as anatomy with no source; 'X-axis vortex' is an undefined spatial term lending precision-aura, noted here though not treated as a formal mathematical object.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Vibrates the sphenoid bone directly. Drives CSF oscillation along the X-axis vortex.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 130,
+        "quote": "It has been executed billions of times across millennia with consistent reported results. The output is measurable: vagal tone shifts, EEG coherence changes, heart rate variability modulation, cortisol clearance."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Some small studies report acute physiological effects of OM chanting, but the claim of 'consistent reported results' across vagal tone, EEG coherence, HRV, and cortisol clearance — capped by the engineering analogy 'production-stable' — cites no study and overstates a thin, mixed literature. 'Billions of times' is an atmospheric quantity, not a consequential number.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The output is measurable: vagal tone shifts, EEG coherence changes, heart rate variability modulation, cortisol clearance.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 134,
+        "line_end": 134,
+        "quote": "Modern language has a critical bug: the signifier has been so thoroughly decoupled from somatic effect that words function as lookup-table references rather than executable instructions."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'critical bug' diagnosis is declared frame vocabulary (bug, lookup-table, pointer) applied to a semiotic observation about the arbitrariness/decoupling of the sign; within the declared house frame it is internally consistent and makes no measurement claim.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "the signifier has been so thoroughly decoupled from somatic effect that words function as lookup-table references rather than executable instructions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "The Hebrew tradition treats each letter as creative force, not symbol. The Arabic tradition treats Quranic phonemics as operative, not representational."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The claims faithfully reflect Kabbalistic teaching on the letters as creative forces (Sefer Yetzirah) and the Islamic understanding of Quranic recitation as operative rather than merely representational; generalized but accurate at the stated level.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Hebrew tradition treats each letter as creative force, not symbol. The Arabic tradition treats Quranic phonemics as operative, not representational.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 136,
+        "line_end": 136,
+        "quote": "each syllable (*akshara*, literally \"imperishable\") is a permanent unit of operative power"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Akshara does literally mean 'imperishable', and the treatment of syllables as units of operative power is faithful to mantra-shastra and sphota traditions; the superlative 'most technically explicit' is an evaluative comparison but the core attribution is accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "each syllable (*akshara*, literally \"imperishable\") is a permanent unit of operative power",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C036",
+      "anchor": {
+        "line_start": 144,
+        "line_end": 144,
+        "quote": "\"I am not enough\" is not a fact about you. It is a function call producing cortisol, vagal withdrawal, and muscular bracing every time it runs."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The deterministic claim that the self-critical thought produces cortisol, vagal withdrawal, and muscular bracing 'every time it runs' asserts a specific, invariant physiological response with no source and no individual-variation scope.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "a function call producing cortisol, vagal withdrawal, and muscular bracing every time it runs",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C037",
+      "anchor": {
+        "line_start": 146,
+        "line_end": 146,
+        "quote": "Your nervous system carries bracing patterns from early attachment. Your endocrine system carries activation thresholds calibrated by environments you never chose."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Developmental calibration of stress-response thresholds by early environment is a real research area, but the claim is stated as settled fact about the reader's own nervous and endocrine systems with no source, population, or uncertainty bounds.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Your endocrine system carries activation thresholds calibrated by environments you never chose.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C038",
+      "anchor": {
+        "line_start": 148,
+        "line_end": 148,
+        "quote": "Karma installed at Pashyanti depth (early trauma, pre-verbal conditioning) cannot be rewritten from Vaikhari. You must reach the layer where it was written."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A model-internal operational rule stated in declared house vocabulary (compile depth determines rewrite depth); it echoes somatic-therapy claims about pre-verbal trauma but does not cite or assert a measured effect, staying within the frame's own logic.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Karma installed at Pashyanti depth (early trauma, pre-verbal conditioning) cannot be rewritten from Vaikhari.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C039",
+      "anchor": {
+        "line_start": 150,
+        "line_end": 150,
+        "quote": "When karma executes and you watch it execute without fusing with the sensation it produces, the instruction completes its cycle and does not re-loop. This is metabolization."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The witness-during-execution mechanism is the essay's declared practice model (the Kha position applied), internally consistent with the definitions established at L102 and L86-92; it asserts no external measurement.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "the instruction completes its cycle and does not re-loop. This is metabolization.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C040",
+      "anchor": {
+        "line_start": 154,
+        "line_end": 154,
+        "quote": "The compiler is not in a lineage. It is in the three inches of tissue between your vocal cords and your sphenoid bone."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A closing restatement of the declared house thesis (the compiler is embodied, not transmitted); 'three inches of tissue' is a rhetorical, non-consequential quantity with no measurement claim, noted but not treated as load-bearing math.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It is in the three inches of tissue between your vocal cords and your sphenoid bone.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    }
+  ]
+}

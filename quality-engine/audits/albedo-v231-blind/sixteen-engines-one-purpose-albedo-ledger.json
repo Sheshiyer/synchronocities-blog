@@ -1,0 +1,577 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "sixteen-engines-one-purpose.md",
+  "source_path": "src/content/posts/sixteen-engines-one-purpose.md",
+  "source_sha256": "80e0e68e3d7d756585a64d78c8f50b6144d43e05aba2ee61bd34b338e7435f3c",
+  "legacy_audit_path": "quality-engine/audits/nigredo/sixteen-engines-one-purpose.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The Tryambakam Noesis Engine operates sixteen perceptual lenses."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "House system self-description; the count is internally verifiable — exactly sixteen engines are enumerated in the body (Panchanga, Vimshottari, Transits, Human Design, Gene Keys, Biofield, Biorhythm, Vedic Clock, Nadabrahman, Face Reading, Tarot, I Ching, Enneagram, Numerology, Sacred Geometry, Sigil Forge).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Tryambakam Noesis Engine operates sixteen perceptual lenses.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "The patterns, beliefs, and perceptual filters you did not choose, installed before you were old enough to inspect the source code?"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Developmental-psychology-flavored generalization (patterns installed in early childhood) asserted rhetorically to the reader without evidence; plausible as folk claim but stated without scope or source.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The patterns, beliefs, and perceptual filters you did not choose, installed before you were old enough to inspect the source code?",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Five elements (Tithi, Vara, Nakshatra, Yoga, Karana) describe not what will happen but the character of the moment in which things happen."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The panchanga ('five limbs') of the Vedic calendar is accurately enumerated as tithi, vara, nakshatra, yoga, karana; the qualitative-time gloss is a fair representation of traditional usage.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Five elements (Tithi, Vara, Nakshatra, Yoga, Karana) describe not what will happen but the character of the moment in which things happen.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Today's Nakshatra determines which compass direction opens first. This is not prediction; it is environmental assessment."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Describes the house system's own engine behavior (nakshatra gating the Compass directions introduced at L93) with an explicit non-prediction declaration; internally consistent within the declared product frame.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Today's Nakshatra determines which compass direction opens first. This is not prediction; it is environmental assessment.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "a 120-year planetary cycle divided into periods ruled by specific planets."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Vimshottari dasha is accurately described: a 120-year cycle with Saturn's mahadasha lasting 19 years and Venus's 20 years, exactly as stated. The quantities are verified attributional facts, not operative mathematics.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "a 120-year planetary cycle divided into periods ruled by specific planets.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "**Transits** are real-time planetary positions against your natal chart. Not fate — atmospheric conditions. The weather report for consciousness."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate definition of transits (gochara) as current positions mapped against a natal chart; the weather framing is transparently figurative with an explicit anti-fate marker.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Transits are real-time planetary positions against your natal chart. Not fate — atmospheric conditions. The weather report for consciousness.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "**Human Design** renders your bodygraph — nine centers, sixty-four gates, strategy and authority."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Human Design's bodygraph structure (nine centers, sixty-four gates, strategy and authority vocabulary, defined vs. open centers) is represented accurately as that system's own doctrine.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Human Design** renders your bodygraph — nine centers, sixty-four gates, strategy and authority.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "**Gene Keys** maps sixty-four archetypes as shadow-gift-siddhi progressions. Each key has a repressive shadow, a reactive shadow, a gift, and a siddhi."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful description of Richard Rudd's Gene Keys system: 64 keys with shadow (repressive/reactive patterns), gift, and siddhi tiers, computed from birth data.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Gene Keys** maps sixty-four archetypes as shadow-gift-siddhi progressions. Each key has a repressive shadow, a reactive shadow, a gift, and a siddhi.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "**Biofield** maps subtle energy through electromagnetic field analysis, using HRV and coherence data to modulate which protocols the system serves you."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "HRV and coherence measurement is real, but the claim that 'subtle energy' is mapped through electromagnetic field analysis asserts an unverified measurement capability; no instrument specification, dataset, or study is provided.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Biofield** maps subtle energy through electromagnetic field analysis, using HRV and coherence data to modulate which protocols the system serves you.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "**Biorhythm** tracks three primary cycles — physical (23 days), emotional (28 days), intellectual (33 days) — plus an optional spiritual cycle (53 days)."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurately reports the classic biorhythm system's periods (23/28/33 days, Fliess–Swoboda tradition) and the later extended 53-day 'spiritual' cycle; the claim is about what the system tracks, not about its predictive validity, which is not asserted here.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Biorhythm** tracks three primary cycles — physical (23 days), emotional (28 days), intellectual (33 days) — plus an optional spiritual cycle (53 days).",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "**Vedic Clock** maps the 24-hour cycle to organ meridians and planetary hours. Liver hour (1-3 AM) processes anger. Heart hour (11 AM-1 PM) cultivates joy."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The organ-meridian hours quoted (liver 1–3 AM, heart 11 AM–1 PM, with anger/joy emotion mappings) are the Traditional Chinese Medicine organ clock, and planetary hours are a Hellenistic/medieval Western scheme; labeling the combination 'Vedic' misattributes the provenance of both systems.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Vedic Clock** maps the 24-hour cycle to organ meridians and planetary hours. Liver hour (1-3 AM) processes anger. Heart hour (11 AM-1 PM) cultivates joy.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "**Nadabrahman** — sound as consciousness. Specific ragas prescribed for specific states. Darbari for depth, Bhairavi for morning, targeted frequencies for targeted imbalances."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Nada Brahman/nada yoga (sound as consciousness) is a genuine Indian tradition; raga-state and raga-time associations are traditional (Bhairavi as a morning raga, Darbari Kanada's association with depth and gravity). 'Targeted frequencies' is house product language appended to an accurate traditional core.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Nadabrahman** — sound as consciousness. Specific ragas prescribed for specific states. Darbari for depth, Bhairavi for morning, targeted frequencies for targeted imbalances.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "**Face Reading** — somatic pattern recognition through facial structure. The body's biography written in bone and flesh."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Presents physiognomy as operative pattern recognition — that facial structure encodes biography — as fact; no evidence supports diagnostic reading of life history from facial structure, and the 'biography in bone and flesh' image is load-bearing for that claim rather than declared as metaphor.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Face Reading** — somatic pattern recognition through facial structure. The body's biography written in bone and flesh.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "**Tarot** — seventy-eight archetypal patterns for pattern recognition, not prediction. **I Ching** — sixty-four hexagrams for reading the shape of change."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Structural counts are correct (78-card tarot deck, 64 I Ching hexagrams) and the interpretive-not-predictive framing is the house's declared usage rather than a misrepresentation of the traditions.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Tarot** — seventy-eight archetypal patterns for pattern recognition, not prediction. **I Ching** — sixty-four hexagrams for reading the shape of change.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "**Enneagram** — nine types, three centers, integration and disintegration paths."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate structural description of the Enneagram system (nine types, three centers, integration/disintegration lines).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Enneagram** — nine types, three centers, integration and disintegration paths.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "**Numerology** — the vibrational signature of your incarnation encoded in name and birth date."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithfully reports numerology's own self-description (name and birth date encoding a vibrational signature) in the context of an engine catalog; reads as the tradition's claim rather than an independently asserted measurement.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Numerology** — the vibrational signature of your incarnation encoded in name and birth date.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "**Sacred Geometry** — mathematical patterns in nature and consciousness. **Sigil Forge** — intent compression protocols for encoding desire into symbol."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Both entries faithfully report their traditions' self-descriptions: sacred geometry as mathematical pattern in nature, and sigil practice (Spare lineage) as encoding intent into symbol.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Sacred Geometry** — mathematical patterns in nature and consciousness. **Sigil Forge** — intent compression protocols for encoding desire into symbol.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "The birth-blueprint workflow combines Numerology, Human Design, Gene Keys, Vimshottari Dasha, and Face Reading into a single multi-dimensional map."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "House system workflow description (birth-blueprint, daily-practice, decision-support syntheses); internally consistent with the engine catalog and declared as the system's own operation.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The birth-blueprint workflow combines Numerology, Human Design, Gene Keys, Vimshottari Dasha, and Face Reading into a single multi-dimensional map.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "Two lenses give you a line. Three give you a plane. Sixteen give you a topology."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Transparent dimensional analogy (points → line → plane → topology) justifying multi-lens triangulation; the geometric language is plainly figurative and no literal numeric inference is drawn from it.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Two lenses give you a line. Three give you a plane. Sixteen give you a topology.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 89,
+        "quote": "**Kha** (Spirit) — the field that observes. The witness function that is present in every engine but belongs to none of them."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly declared triadic foundation (Kha/Ba/La as Spirit/Body/Inertia) with defined roles and the claim that they 'are not inputs to the system but the system itself'; internally consistent house kernel.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "**Kha** (Spirit) — the field that observes. The witness function that is present in every engine but belongs to none of them.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "Four cardinal directions: STABILIZE, HEAL, CREATE, MUTATE. Where you stand determines which lenses open first."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "House Compass model declaration; the appended singularity claim ('your unique consciousness — is irreducibly singular') is the frame's stated premise, consistent with the anti-generic-personalization argument that follows.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Four cardinal directions: STABILIZE, HEAL, CREATE, MUTATE. Where you stand determines which lenses open first.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    }
+  ]
+}

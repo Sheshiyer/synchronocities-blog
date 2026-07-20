@@ -1,0 +1,739 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "kubernetes-for-karma.md",
+  "source_path": "src/content/posts/kubernetes-for-karma.md",
+  "source_sha256": "1b95358d399f14b6f00b4f2d11c102cbb3b27f1a95386273bbfcc02ff542a12a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/kubernetes-for-karma.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "At 3:47 AM, I was watching `kubectl get pods` for the forty-third time. The output was terminal green on black. `anxiety-deploy-7b9f4c8d5-xv2k9` was in `CrashLoopBackOff`. Restart count: 47."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Situated first-person incident report with concrete instrumentation (kubectl output), time, restart count, and bodily conditions; scope limited to the author's room and experience.",
+      "legacy": {
+        "anchor": "BLIND-NEW L40",
+        "quote": "At 3:47 AM, I was watching `kubectl get pods` for the forty-third time.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 44,
+        "quote": "The witness reading the screen — the one who noticed the pod was failing on a schedule, not at random — that was Kha, the observing intelligence."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The house triad (Kha/Ba/La) is explicitly named and applied to the incident with definitions consistent with the corpus vocabulary; declared interpretive structure, not an external measurement.",
+      "legacy": {
+        "anchor": "BLIND-NEW L42-44",
+        "quote": "that was Kha, the observing intelligence",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "The scheduler reads resource requests, node affinity rules, anti-affinity constraints, and taint tolerations. It places the workload on the node that fits."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate description of kube-scheduler's inputs (resource requests, affinity/anti-affinity, taints and tolerations) and its binding function; matches documented Kubernetes behavior.",
+      "legacy": {
+        "anchor": "BLIND-NEW L48",
+        "quote": "The scheduler reads resource requests, node affinity rules, anti-affinity constraints, and taint tolerations.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "You are not a pod. Your mind is not a cluster. Your body is not a node with resource limits. But the scheduling problem is real."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicit boundary declaration preceding the analogy; the post states the non-identity before mapping the scheduling structure onto daily action.",
+      "legacy": {
+        "anchor": "BLIND-NEW L50",
+        "quote": "You are not a pod. Your mind is not a cluster.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "the panic attack does not arrive at random but at 3:17 AM, always 3:17 AM"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person pattern report of the author's own panic timing; observer, object, and recurrence conditions are stated and the scope is the author's experience.",
+      "legacy": {
+        "anchor": "BLIND-NEW L52",
+        "quote": "the panic attack does not arrive at random but at 3:17 AM, always 3:17 AM",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "These are not metaphors. They are configurations that execute as reliably as any YAML file."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "After declaring the analogy boundary at L50, the prose re-asserts literal execution-equivalence between cultural/family conditioning and cluster configuration without any mechanism; the synthesis is presented as fact while its ingredients (cultural taints, family quotas) have no computational semantics.",
+      "legacy": {
+        "anchor": "BLIND-NEW L54",
+        "quote": "These are not metaphors. They are configurations that execute as reliably as any YAML file.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The Hermetic Principle of Cause and Effect states that every cause has its effect and every effect has its cause."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Matches the Kybalion's Principle of Cause and Effect ('Every Cause has its Effect; every Effect has its Cause') in substance; the tradition is named.",
+      "legacy": {
+        "anchor": "BLIND-NEW L56",
+        "quote": "The Hermetic Principle of Cause and Effect states that every cause has its effect and every effect has its cause.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "But the Hermetic tradition adds a deeper clause: the field precedes both."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "No such clause appears in the Kybalion or mainstream Hermetic sources; 'the field precedes both' is the author's own addition presented as inherited teaching — a synthesis laundered into a named tradition.",
+      "legacy": {
+        "anchor": "BLIND-NEW L56",
+        "quote": "the Hermetic tradition adds a deeper clause: the field precedes both",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The Vedic concept of karma operates identically: not as moral accounting, but as causal recursion — action that encodes itself into the field's future states."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Major Hindu and Buddhist sources do treat karma as morally valenced (punya/papa), so 'not as moral accounting' flattens the tradition to fit the scheduler mapping; the causal-recursion strand exists, but 'operates identically' overstates the equivalence.",
+      "legacy": {
+        "anchor": "BLIND-NEW L56",
+        "quote": "The Vedic concept of karma operates identically: not as moral accounting, but as causal recursion",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "If you only delete the pod, the scheduler reads the spec and recreates it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pod recreation is performed by controllers (e.g., the ReplicaSet controller) in the control loop; the scheduler only binds unscheduled pods to nodes. The post repeatedly (L40, L60, L62) attributes recreation to the scheduler — a mechanism error at the heart of the article's load-bearing analogy.",
+      "legacy": {
+        "anchor": "BLIND-NEW L60",
+        "quote": "If you only delete the pod, the scheduler reads the spec and recreates it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "I did this for three years with a particular relationship pattern. The pod would crash — an argument, a withdrawal, a specific silence at a specific moment."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Autobiographical report with duration and behavioral detail; scoped to the author and checkable only by him, but not generalized beyond his case.",
+      "legacy": {
+        "anchor": "BLIND-NEW L62",
+        "quote": "I did this for three years with a particular relationship pattern.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The body is not a stateless container. It is persistent storage with write amplification. Every read is a write."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Continues the declared analogy frame ('the etcd of karma') to model memory as re-writing, using samskara in its correct traditional sense of accumulated impression; internally consistent house usage.",
+      "legacy": {
+        "anchor": "BLIND-NEW L64",
+        "quote": "It is persistent storage with write amplification. Every read is a write.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The four fixed signs — Taurus, Leo, Scorpio, Aquarius — are not decorative corners."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Rider-Waite Wheel of Fortune indeed depicts the four fixed-sign creatures (bull/Taurus, lion/Leo, eagle/Scorpio, angel/Aquarius) at its corners; the sphinx, serpent, and ascending creature referenced at L74 also match the deck's iconography.",
+      "legacy": {
+        "anchor": "BLIND-NEW L72",
+        "quote": "The four fixed signs — Taurus, Leo, Scorpio, Aquarius",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Taurus is the resource quota: what the body can sustain. Leo is the affinity rule: what the ego must express."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared interpretive mapping of the four signs onto scheduling constraints; consistent within the post's analogy architecture and presented as the author's reading of the card.",
+      "legacy": {
+        "anchor": "BLIND-NEW L72",
+        "quote": "Taurus is the resource quota: what the body can sustain.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "This is the Vedic *ṛta* — cosmic order as pattern, not commandment."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Rta is the Vedic principle of cosmic order; 'pattern, not commandment' is a defensible gloss consistent with standard scholarship, and the tradition is named.",
+      "legacy": {
+        "anchor": "BLIND-NEW L78",
+        "quote": "This is the Vedic *ṛta* — cosmic order as pattern, not commandment.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "The `anxiety-deploy` pod was requesting 4GB of memory on a 2GB node. The `OOMKilled` error was not a failure. It was the node protecting the cluster."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A pod whose memory request exceeds node capacity is never scheduled — it stays Pending; OOMKilled arises when runtime usage exceeds limits, a different mechanism. The OOMKill-as-protection gloss is acceptable, but the vignette's request/scheduling mechanics misdescribe how Kubernetes actually behaves (cf. C010).",
+      "legacy": {
+        "anchor": "BLIND-NEW L82",
+        "quote": "The `anxiety-deploy` pod was requesting 4GB of memory on a 2GB node.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The nervous system does not forget. Every `OOMKilled` event writes to the epigenetic ledger, modifies the horizontal pod autoscaler of the stress response"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Stress-related epigenetic modification is a live research area, but 'every event writes to the epigenetic ledger' is a universal physiological claim asserted without source, wrapped in the analogy's vocabulary.",
+      "legacy": {
+        "anchor": "BLIND-NEW L84",
+        "quote": "Every `OOMKilled` event writes to the epigenetic ledger",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "This is where the Kubernetes analogy breaks completely. The body is not a container. Consciousness is not a cluster."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicit boundary declaration marking where the comparison fails; strong figurative hygiene, and no literal inference is drawn from the analogy past this point.",
+      "legacy": {
+        "anchor": "BLIND-NEW L86",
+        "quote": "This is where the Kubernetes analogy breaks completely.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "The anxiety is not a malfunction. It is a node protecting itself from a misconfigured workload."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "House reframing of symptoms as protective configuration-response; consistent with the post's declared model and governed by the explicit analogy boundary declared at L86.",
+      "legacy": {
+        "anchor": "BLIND-NEW L88",
+        "quote": "The anxiety is not a malfunction. It is a node protecting itself from a misconfigured workload.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "Dhāraṇā is single-threaded attention on the log: `kubectl get events --sort-by=.lastTimestamp`. You watch the events until you see the pattern. Pratyāhāra is withdrawing the senses from the monitoring dashboard so you can open the spec file."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Both terms are used near their Yoga Sutra senses (dharana as fixed attention, pratyahara as sense withdrawal); the dashboard glosses are transparent mappings and the Sanskrit terms name the tradition.",
+      "legacy": {
+        "anchor": "BLIND-NEW L92",
+        "quote": "Dhāraṇā is single-threaded attention on the log",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "Samādhi is not bliss. It is root access to the specification."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared house redefinition of samadhi for the operational frame, stated as the post's usage rather than as the tradition's definition; kept COHERENT because the corrective is explicitly the author's, though traditional accounts do associate samadhi with absorption.",
+      "legacy": {
+        "anchor": "BLIND-NEW L92",
+        "quote": "Samādhi is not bliss. It is root access to the specification.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "I edited the spec at 5:15 AM. I changed the memory request from 4GB to 512MB. I added a node affinity rule: this pod does not run on nodes with the `insomnia` taint."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Autobiographical practice report with concrete parameters and outcome; scoped to the author. The Kubernetes request-vs-limit mechanics oddity in the vignette is captured separately in C016.",
+      "legacy": {
+        "anchor": "BLIND-NEW L94",
+        "quote": "I edited the spec at 5:15 AM. I changed the memory request from 4GB to 512MB.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The Kubernetes documentation says: \"The scheduler is responsible for assigning pods to nodes.\""
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Substance matches the official documentation's description of kube-scheduler (assigns/binds pods to nodes); the quotation is near-verbatim to documented wording and is faithful in content.",
+      "legacy": {
+        "anchor": "BLIND-NEW L96",
+        "quote": "The scheduler is responsible for assigning pods to nodes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "The *Kaṭha Upaniṣad* says: \"The Self is the master of the chariot, the body the chariot.\""
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful rendering of Katha Upanishad 1.3.3 (atman as the chariot's rider/lord, the body as the chariot) in standard translation; text and tradition are named.",
+      "legacy": {
+        "anchor": "BLIND-NEW L96",
+        "quote": "The Self is the master of the chariot, the body the chariot.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "Both are describing the same structural fact: something determines where the action lands."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Authorship of the comparison is visible in the prose, both ingredients are separately attributed rows (C023, C024), and the conclusion stays at the level of structural analogy without claiming either source endorses the other.",
+      "legacy": {
+        "anchor": "BLIND-NEW L96",
+        "quote": "Both are describing the same structural fact: something determines where the action lands.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 98,
+        "line_end": 98,
+        "quote": "This is the Quine: the system succeeds when you no longer need the metaphor."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "House telos statement consistent with the corpus's declared quine framing (practice that outgrows itself); no external efficacy claim is attached.",
+      "legacy": {
+        "anchor": "BLIND-NEW L98",
+        "quote": "This is the Quine: the system succeeds when you no longer need the metaphor.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "The Hermetic Principle of Polarity states that everything is dual, everything has poles."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Matches the Kybalion's Principle of Polarity ('Everything is Dual; everything has poles') in substance; the tradition is named.",
+      "legacy": {
+        "anchor": "BLIND-NEW L100",
+        "quote": "The Hermetic Principle of Polarity states that everything is dual, everything has poles.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy audit not consulted per BLIND rule. Verdict field is a schema-required placeholder, not a migrated legacy row."
+      }
+    }
+  ]
+}

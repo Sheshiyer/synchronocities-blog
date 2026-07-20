@@ -1,0 +1,523 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "spolski-endocrine-framework.md",
+  "source_path": "src/content/posts/spolski-endocrine-framework.md",
+  "source_sha256": "9675bf36757347fa56f16fae9ac999d62a8db39ee45e8d2fac1173130d51c9bb",
+  "legacy_audit_path": "quality-engine/audits/nigredo/spolski-endocrine-framework.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "The endocrine system is not just a regulatory mechanism. It is a consciousness compiler."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Thesis statement of the named correspondence framework declared at L33; 'compiler' is the house's operating vocabulary and the claim functions as the model's declared premise rather than an asserted endocrinological measurement.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The endocrine system is not just a regulatory mechanism. It is a consciousness compiler.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "Nine primary hormones regulate human biological function."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-SCOPE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "No canonical 'nine primary hormones' exists in endocrinology, and the post's own nine include two substances that function primarily as neurotransmitters (dopamine, serotonin) and one peptide class (endorphins) rather than discrete hormones; standard physiology conflicts with the framing.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Nine primary hormones regulate human biological function.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "Nine Muses govern the channels of creative expression in Greek mythology."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The nine Muses of the Hesiodic tradition are real and the creative-domain gloss is fair; an accurate traditional headcount.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Nine Muses govern the channels of creative expression in Greek mythology.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "When you overlay these two systems, the correspondences are not approximate. They are precise."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Claims precision for an interpretive overlay without any stated criterion of precision; the body of the post supplies analogical parallels, not measurements, so 'not approximate — precise' outruns the demonstration.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "When you overlay these two systems, the correspondences are not approximate. They are precise.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "mystical systems were, from the beginning, biological documentation written in symbolic notation."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A strong reception-history claim — that mystical systems were deliberately or functionally biological documentation from their origin — offered with no historical evidence; Greek Muse theology predates any endocrine knowledge by millennia.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "mystical systems were, from the beginning, biological documentation written in symbolic notation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "The Spolski endocrine correspondence framework documents this precision"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-PROVENANCE", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Presents a proper-named framework ('Spolski') as an existing authority that 'documents' the correspondences, but no such framework is traceable in any publication or tradition; if it is house-coined, the naming launders an internal construction into borrowed authority and must be declared.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Spolski endocrine correspondence framework documents this precision",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "Each pairing follows the same structure: a chemical function, an archetypal expression, a pattern recognition signature, and an integration point where the biological and the symbolic converge."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declares the framework's pairing template, which the nine sections then follow uniformly; internally consistent as model documentation.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Each pairing follows the same structure: a chemical function, an archetypal expression, a pattern recognition signature, and an integration point where the biological and the symbolic converge.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "Melatonin regulates circadian rhythm — the body's master clock."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard, well-established physiology of melatonin's circadian role; the adjacent claim that disrupted melatonin impairs sleep is equally well supported.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Melatonin regulates circadian rhythm — the body's master clock.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 93,
+        "quote": "Polymnia governs rhetoric, sacred hymns, and the timing of speech."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Batched Muse-domain attributions across all nine sections: Polymnia/Polyhymnia (sacred hymn, eloquence), Clio (history), Euterpe (music, lyric poetry), Thalia (comedy, pastoral), Melpomene (tragedy), Erato (love poetry), Calliope (epic poetry, 'chief of the Muses'), Terpsichore (dance), Urania (astronomy/'the stars') — each matches the standard classical attributions.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Polymnia governs rhetoric, sacred hymns, and the timing of speech.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 95,
+        "quote": "The Type 1 Reformer lives inside this correspondence — obsessed with correct timing, proper sequence, the right word at the right moment. The shadow is wrath: what erupts when timing is violated."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Batched Enneagram attributions across sections: Type 1 Reformer/wrath, Type 3 Achiever/deceit, Type 4 melancholy, Type 5 Investigator/non-attachment, Type 6 Loyalist/fear, Type 7 Enthusiast/gluttony/sobriety, Type 8 lust/innocence, Type 9 sloth — names, passions, and virtues all match standard Enneagram teaching (Riso–Hudson/Ichazo lineage).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Type 1 Reformer lives inside this correspondence — obsessed with correct timing, proper sequence, the right word at the right moment. The shadow is wrath: what erupts when timing is violated.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Melatonin does not merely regulate sleep. It regulates the oscillation between conscious and unconscious processing. Sacred hymns do not merely sound beautiful. They synchronize collective consciousness to a shared rhythm."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Extends melatonin's established role into an unsupported 'conscious/unconscious oscillation' regulator claim, and asserts a measurable collective-consciousness synchronization effect of hymns; neither has cited evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Melatonin does not merely regulate sleep. It regulates the oscillation between conscious and unconscious processing. Sacred hymns do not merely sound beautiful. They synchronize collective consciousness to a shared rhythm.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 51,
+        "quote": "Oxytocin transforms a stranger into a trusted partner through repeated chemical reinforcement."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-CAUSE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The oxytocin–bonding link is real but contested in strength, and 'transforms a stranger into a trusted partner' overstates the evidence; the paired societal claim (L51) that societies losing their 'Clio function' fragment 'in exactly the same way' as oxytocin-disrupted individuals — 'identical fault lines' — asserts mechanism identity with no evidence at all.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Oxytocin transforms a stranger into a trusted partner through repeated chemical reinforcement.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 69,
+        "quote": "Dopamine is not pleasure. It is the anticipation of pleasure — the chemical prediction that reward is coming."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Batched hormone-function glosses for the Euterpe/Thalia/Melpomene sections: endorphins in pain relief and pleasure (L55), dopamine as reward-anticipation rather than pleasure itself (L61–63, consistent with the reward-prediction literature), and cortisol mobilizing energy, suppressing non-essential functions under stress (L67–69) — all standard physiology at the stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Dopamine is not pleasure. It is the anticipation of pleasure — the chemical prediction that reward is coming.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 93,
+        "quote": "Adrenaline fires the sympathetic nervous system."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Batched hormone-function glosses for the Erato/Calliope/Terpsichore/Urania sections: estrogen in reproductive development and cyclic change (L75), testosterone in growth and competitive intensity (L81), adrenaline driving sympathetic activation (L87), and serotonin in mood regulation (L93) — all acceptable standard glosses at the stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Adrenaline fires the sympathetic nervous system.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Comedy, in the Greek sense, is not jokes. It is the narrative arc that ends in resolution and celebration."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Fair characterization of the Greek comic arc (resolution, union, celebration) as against tragedy; a standard account of the genre distinction.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Comedy, in the Greek sense, is not jokes. It is the narrative arc that ends in resolution and celebration.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "When this system malfunctions, you get Type 4's characteristic melancholy: an anticipation engine that never registers arrival."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts a causal pathway from dopamine-system malfunction to an Enneagram type's characteristic affect; no evidence links dopaminergic dysfunction to Type 4 melancholy, and the cross-system identity is the framework's own construction presented as mechanism.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "When this system malfunctions, you get Type 4's characteristic melancholy: an anticipation engine that never registers arrival.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 93,
+        "quote": "The correspondence is structural: both systems manage when things happen. Not what. When."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Batched correspondence assertions across the nine sections ('both systems serve the same architectural purpose', 'both systems operate through the same mechanism', 'same function, different substrate'). Internally consistent as the declared framework's interpretive synthesis with traced ingredients, but its external provenance rides on the untraceable 'Spolski' name (C006), hence the provenance repair.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The correspondence is structural: both systems manage when things happen. Not what. When.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "It claims that the same pattern has been observed by two different investigative traditions — one biological, one mythological — and that their reports converge with a precision that demands attention."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Recasts the framework's interpretive overlay as two independent traditions 'observing' the same pattern and 'converging'; Greek mythology did not investigate or report endocrine function, so the convergence is the framework's construction rather than a documented historical fact.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "It claims that the same pattern has been observed by two different investigative traditions — one biological, one mythological — and that their reports converge with a precision that demands attention.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "Free will operates within chemical architecture. You do not choose your hormone profile. You do not choose which Muse governs your creative channel."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The framework's declared compatibilist stance (illumination not determination) stated as its own philosophical premise; internally consistent with the closing 'walls of the room / find the door' framing.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Free will operates within chemical architecture. You do not choose your hormone profile. You do not choose which Muse governs your creative channel.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy audits intentionally not consulted. New coverage finding."
+      }
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "stop-branding-your-enneagram.md",
+  "source_path": "src/content/posts/stop-branding-your-enneagram.md",
+  "source_sha256": "58fc3d7b6f5348fbb6341b3f9ef04e8fd6c67b62e193fa92a79c90ca65f644e9",
+  "legacy_audit_path": "quality-engine/audits/nigredo/stop-branding-your-enneagram.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "It is a defense mechanism wearing a name tag."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The name-tag image is self-evidently figurative, carries its own boundary, and no literal prediction is extracted from it.",
+      "legacy": {
+        "anchor": "BLIND-L29",
+        "quote": "It is a defense mechanism wearing a name tag.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Most Enneagram content reinforces the thing it claims to dissolve: identification."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A quantified claim about the population of Enneagram content (\"most\") and its psychological effect is asserted with no survey, sample, or cited observation set.",
+      "legacy": {
+        "anchor": "BLIND-L35",
+        "quote": "Most Enneagram content reinforces the thing it claims to dissolve: identification.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "That is inertia using the observer's instruments to deepen its own grooves."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "House vocabulary (\"inertia\" as agent, \"observer's instruments\", \"grooves\" — the La/Kha register) does load-bearing argumentative work throughout the essay (cf. L87, L101, L111, L123) without the house frame ever being declared in this post; the model is presented as plain description of psychological fact.",
+      "legacy": {
+        "anchor": "BLIND-L39",
+        "quote": "inertia using the observer's instruments to deepen its own grooves",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "Your type is not your personality. It is the defense architecture your nervous system defaults to under load. Not identity. Stress signature."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This paraphrases a specific strand of Enneagram teaching (type as ego-defense structure, in the Naranjo/Riso-Hudson line) but names no lineage, text, or teacher, so the attribution cannot be checked and the claim floats as freestanding doctrine.",
+      "legacy": {
+        "anchor": "BLIND-L41",
+        "quote": "It is the defense architecture your nervous system defaults to under load.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "Each type maps to a specific hormone your body over-produces when self-awareness drops offline."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No endocrinological literature maps Enneagram types to specific over-produced hormones; a one-to-one type-to-hormone correspondence with a triggering condition is asserted with zero sourcing. Nonessential to the audit protocol and a candidate for deletion.",
+      "legacy": {
+        "anchor": "BLIND-L41",
+        "quote": "Each type maps to a specific hormone your body over-produces",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The quiz measures your relationship to your type description. Pressure measures your type in action. These are not the same data."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is the essay's own declared methodological premise (announced at L31 as \"a seven-day field study of your own defense architecture\"): the quiz/pressure distinction is defined, operated consistently through the protocol, and presented as the method rather than as measured fact about all quizzes.",
+      "legacy": {
+        "anchor": "BLIND-L51",
+        "quote": "The quiz measures your relationship to your type description. Pressure measures your type in action.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The defense that activates at 300 milliseconds, before your 800-millisecond narrative has loaded."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pseudo-precise latencies (300 ms defense, 800 ms narrative) are asserted with no instrument, study, or conditions; removing the numbers leaves the argument intact, so they function as precision-aura decoration rather than measured quantities.",
+      "legacy": {
+        "anchor": "BLIND-L49",
+        "quote": "activates at 300 milliseconds, before your 800-millisecond narrative has loaded",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "You are actually reactive to one or two categories of input, replayed across dozens of surface-level variations."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal prediction about what every reader's seven-day log will show (one or two trigger categories) is asserted without data; plausible as a heuristic but not supported at its stated universality.",
+      "legacy": {
+        "anchor": "BLIND-L73",
+        "quote": "You are actually reactive to one or two categories of input",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "It tells you what your nervous system was originally calibrated to detect — the original threat that shaped the defense architecture. That original threat may be decades old. The surveillance system is still running the same scan."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "An etiological claim — present trigger categories were causally fixed by an original calibrating threat — is asserted as fact with no developmental or clinical evidence; the \"may be decades old\" hedge does not cover the causal architecture claim itself.",
+      "legacy": {
+        "anchor": "BLIND-L75",
+        "quote": "the original threat that shaped the defense architecture",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 82,
+        "quote": "Type 5: retreat to analysis, reduce availability, hoard information, minimize surface area.\nType 7: reframe, redirect, generate alternatives to avoid sitting with the discomfort."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The per-type defense descriptions (5 withdrawal, 7 reframing, 1 correction, 3 performance, 6 threat-scanning) faithfully paraphrase mainstream Enneagram-of-personality type patterns; the system is named, and the paraphrase is accurate at the strength of descriptive typology.",
+      "legacy": {
+        "anchor": "BLIND-L81",
+        "quote": "Type 5: retreat to analysis, reduce availability, hoard information",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "The fastest defense is the oldest defense. It will be the one that feels least like a defense and most like \"just who I am.\" That feeling of naturalness is the marker. What feels most natural is what has been running longest without examination."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A law-like correlation between activation speed and developmental age of defenses, and between felt naturalness and duration of unexamined operation, is asserted without evidence; stated as universal.",
+      "legacy": {
+        "anchor": "BLIND-L89",
+        "quote": "The fastest defense is the oldest defense.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "Inertia's accounting is somatic and relational. The invoice is always specific, always embodied"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The accounting/invoice imagery is self-evidently figurative (cost language for consequences, established by the protocol's own \"Cost\" field at L65) and no literal economic or physiological claim is extracted from it.",
+      "legacy": {
+        "anchor": "BLIND-L101",
+        "quote": "The invoice is always specific, always embodied",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 115,
+        "line_end": 115,
+        "quote": "That triangle — most frequent trigger, fastest defense, widest cost — is the core of your type architecture. Not a label. A circuit diagram drawn from your own seven-day data set."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The capstone definition of the audit's output (trigger/defense/cost triangle as type architecture) follows from the protocol as declared and is internally consistent; \"circuit diagram\" is an explicit comparison, not a neuroscience claim.",
+      "legacy": {
+        "anchor": "BLIND-L115",
+        "quote": "the core of your type architecture. Not a label. A circuit diagram drawn from your own seven-day data set.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 119,
+        "line_end": 119,
+        "quote": "The Enneagram does not tell you who you are. Your nervous system under pressure does."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": [
+        "R-MODEL",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The pivot thesis asserts, as fact, a specific epistemic privilege of pressure-observation for identity; it is the house method's claim about what reveals the self, stated without declaring the frame and without evidence beyond the protocol's internal logic.",
+      "legacy": {
+        "anchor": "BLIND-L119",
+        "quote": "The Enneagram does not tell you who you are. Your nervous system under pressure does.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 123,
+        "line_end": 123,
+        "quote": "Integration is the body walking the direction that inertia resists most. Type 5 moving toward embodied action. Type 8 moving toward receptive vulnerability. Type 9 moving toward self-generated disruption."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The integration examples track the standard Enneagram directions of integration (5→8 as embodied assertion, 8→2 as receptive vulnerability); the Type 9 gloss is looser but within the tradition's vocabulary of moving against avoidance. Represented accurately at paraphrase strength.",
+      "legacy": {
+        "anchor": "BLIND-L123",
+        "quote": "Type 5 moving toward embodied action. Type 8 moving toward receptive vulnerability.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 131,
+        "line_end": 131,
+        "quote": "What it says will be less flattering than your type description and more useful than any quiz result."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A comparative outcome promise (\"more useful than any quiz result\") is asserted for all readers with no comparative evidence; functions as promotional closure rather than a supported claim.",
+      "legacy": {
+        "anchor": "BLIND-L131",
+        "quote": "more useful than any quiz result",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/albedo artifacts not consulted. Placeholder legacy row required by schema; carries no legacy provenance."
+      }
+    }
+  ]
+}

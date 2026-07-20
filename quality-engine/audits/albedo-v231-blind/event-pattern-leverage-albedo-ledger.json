@@ -1,0 +1,483 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "event-pattern-leverage.md",
+  "source_path": "src/content/posts/event-pattern-leverage.md",
+  "source_sha256": "1caa471102fa8e2285dfd0b20cb4813093d6517ce9cf1680fe9dd5a320d918d3",
+  "legacy_audit_path": "quality-engine/audits/nigredo/event-pattern-leverage.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The signal that converts 'need' to 'demand' fires in the enteric system 300 milliseconds before the withdrawal sequence initiates."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Presented as the exemplar of leverage-level reading, this asserts a localized enteric signal with a precise 300 ms lead time over a behavioral sequence — no instrument, study, or canonical result supports the localization or the number.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The signal that converts 'need' to 'demand' fires in the enteric system 300 milliseconds before the withdrawal sequence initiates.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "the event is the symptom. The pattern is the recurring shape beneath the symptom. And the leverage point is the precise location in the circuit where intervention actually changes the output."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The Event–Pattern–Leverage triad is the declared structural frame of the whole essay, operated consistently from the opening example through the diagnostic sequence; its provenance is the house derivation and removing it collapses the thesis.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "the event is the symptom. The pattern is the recurring shape beneath the symptom. And the leverage point is the precise location in the circuit where intervention actually changes the output.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Think of it like debugging software by reading the error message on screen."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The debugging/stack-trace comparison is explicitly marked ('Think of it like') and no literal software mechanism is inferred into the psychological claim.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Think of it like debugging software by reading the error message on screen.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "understanding a pattern and interrupting a pattern are operations at different layers of the stack."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The insight/intervention layer distinction is stated inside the declared stack metaphor and operated coherently as the essay's house frame.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "understanding a pattern and interrupting a pattern are operations at different layers of the stack.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "But the somatic signature — the specific quality of contraction, heat, numbness, or charge in the body — that fingerprint does not change across decades."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal invariance claim about somatic signatures across decades is asserted without source, population, or longitudinal evidence; it is a strong empirical generalization presented as fact.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "But the somatic signature — the specific quality of contraction, heat, numbness, or charge in the body — that fingerprint does not change across decades.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The body keeps a more honest record than the mind. Your narrative memory edits, reframes, and reconstructs. Your somatic memory stores the raw signal."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Reconstructive narrative memory is consistent with memory science, but the paired claim that somatic memory stores 'the raw signal' with superior fidelity — and that years of pattern become visible in minutes — is asserted without any cited evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The body keeps a more honest record than the mind. Your narrative memory edits, reframes, and reconstructs. Your somatic memory stores the raw signal.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The enteric nervous system, the vagal complex, the fascial network — these are distributed recording systems. They do not narrativize. They store configurations."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly anti-metaphorical ('This is not metaphorical'), the claim that fascia, vagal, and enteric systems literally record and replay configurations 'with remarkable fidelity' is a literal mechanism assertion with no source; the fascia-as-recorder component is especially contested.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The enteric nervous system, the vagal complex, the fascial network — these are distributed recording systems. They do not narrativize. They store configurations.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Every pattern has a point of no return — a moment where the defensive cascade locks in and must complete its full cycle."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The lock-in/point-of-no-return construct is a declared element of the essay's cascade model, used consistently to locate the leverage window; it is internally coherent as a model statement.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Every pattern has a point of no return — a moment where the defensive cascade locks in and must complete its full cycle.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The leverage point is always before the lock-in. Usually by 200 to 500 milliseconds. Usually in the body, not the mind."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A 200–500 ms leverage window with universal framing ('always', 'usually') has no cited measurement basis; the number is consequential to the intervention argument but unprovenanced.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The leverage point is always before the lock-in. Usually by 200 to 500 milliseconds. Usually in the body, not the mind.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "The narrative mind operates at approximately 800 milliseconds. The somatic cascade initiates at approximately 80 milliseconds. The lock-in occurs somewhere around 300 milliseconds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Three pseudo-precise latencies (800/80/300 ms) are presented as the operational timing constants of mind and body; no instrument, study, or canonical result is cited, and the post's 'structurally too late' conclusion depends on them.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The narrative mind operates at approximately 800 milliseconds. The somatic cascade initiates at approximately 80 milliseconds. The lock-in occurs somewhere around 300 milliseconds.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 88,
+        "quote": "Generic interventions produce generic results. The body runs specific circuits, and those circuits require specific counter-signals to interrupt."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The somatic/pre-verbal/specific triad of leverage characteristics is a prescriptive house model developed consistently within the essay's declared frame.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Generic interventions produce generic results. The body runs specific circuits, and those circuits require specific counter-signals to interrupt.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "**Locate the 500-millisecond window** where the signal has not yet locked into the behavioral cascade."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The diagnostic protocol instructs the reader to locate a 500 ms window as though it were a measurable constant; no measurement basis is supplied, and the procedure step depends on the figure.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Locate the 500-millisecond window where the signal has not yet locked into the behavioral cascade.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 114,
+        "quote": "Event-level reading is like looking at a photograph."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The photograph/camera-settings analogy is explicitly marked ('is like') across all three depth levels and no literal optical or mechanical inference is drawn from it.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Event-level reading is like looking at a photograph.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 116,
+        "line_end": 116,
+        "quote": "The distance from event to leverage is about eighteen inches — the space between your head and your gut."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The eighteen-inch head-to-gut figure is folk-idiomatic pseudo-precision inside the house head/gut framing; removing it changes nothing in the argument and no measurement basis exists for it.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The distance from event to leverage is about eighteen inches — the space between your head and your gut.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    }
+  ]
+}

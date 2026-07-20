@@ -1,0 +1,808 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "vedic-mathematical-parallels.md",
+  "source_path": "src/content/posts/vedic-mathematical-parallels.md",
+  "source_sha256": "bffdf0eac9793d19d04b1b23f0c22a79f2c5f5742b7691e0f13a7f950499a546",
+  "legacy_audit_path": "quality-engine/audits/nigredo/vedic-mathematical-parallels.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The universe computes itself. Ancient and modern systems are two debuggers examining the same runtime."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Epigraph attributed to the house source 'Pattern Recognition Protocol'; states the series' framing axiom and is internally consistent with the article's argument.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "The universe computes itself.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The Vimshottari Dasha system divides a 120-year lifecycle into nine sequential planetary periods with deterministic transitions."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Accurate on all three locks: the 120-year cycle and nine dasha lords are the documented classical parameters (provenance), the numbers are correct (correctness), and they ground the Markov state-space mapping that follows (consequence).",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "divides a 120-year lifecycle into nine sequential planetary periods",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "This is a degenerate Markov chain — a state machine where transition probabilities are binary (0 or 1 at the mahadasha level)."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The mapping is mathematically legitimate and reproducible: a deterministic sequence is representable as a Markov chain with a 0/1 transition matrix. Ingredients (Vimshottari rules, Markov formalism) are traced, and the derivation can be checked directly.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "This is a degenerate Markov chain",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The system becomes stochastic at nested sub-period levels"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Classical Vimshottari sub-periods (antardasha, pratyantardasha, etc.) follow the same fixed deterministic sequence as mahadashas; nothing stochastic enters at any level. The claim misdescribes the traditional system to justify the 'hierarchical Markov chain' framing.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "becomes stochastic at nested sub-period levels",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "five levels of depth and 59,049 possible state combinations"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Arithmetic correct (9^5 = 59,049), the five period levels (mahadasha through prana dasha) are the standard traditional subdivision count, and the figure carries the hierarchical state-space claim.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "59,049 possible state combinations",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "The initial state (determined by birth nakshatra) sets the entire chain's trajectory"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: the starting dasha and its balance are computed from the Moon's nakshatra at birth in the classical system.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "determined by birth nakshatra",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 52,
+        "quote": "[5, 4, 0, 5, 4, 0, 5, 4, 0],  # Sun"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The code block's matrix values (5/4/0 patterns) are unexplained, inconsistent with the three-state Friend/Neutral/Enemy model described in the adjacent text, and not traceable to the classical naisargika friendship table; the snippet adds implementation aura without demonstrated consequence.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "[5, 4, 0, 5, 4, 0, 5, 4, 0]",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The 9x9 planetary relationship matrix defines three-state rules (Friend/Neutral/Enemy) that govern interaction dynamics between grahas."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate description of the classical graha friendship system: nine grahas with Friend/Neutral/Enemy relations (naisargika maitri).",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "three-state rules (Friend/Neutral/Enemy)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "these rules produce complex emergent patterns from simple local interactions — the defining behavior of cellular automata."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The iterative application of friendship rules is the author's construction (classical Jyotish does not iterate them), transparently framed as a parallel within the series; the characterization of cellular automata is fair and the synthesis is internally consistent.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "the defining behavior of cellular automata",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Asymmetric friendships (where A considers B a friend but B considers A neutral) create directed-graph dynamics richer than standard cellular automata."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asymmetric friendships genuinely exist in the naisargika table (e.g., Sun is neutral toward Mercury while Mercury counts Sun a friend), so the parenthetical describing the traditional system is accurate.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "Asymmetric friendships",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "creating an 8-dimensional binary state space with 256 possible vertices"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Eight contributors (seven planets plus ascendant) each giving a binary bindu per house is the documented Ashtakavarga structure; 2^8 = 256 is correct; the Sarvashtakavarga total of 337 is the standard classical figure; both numbers carry the hypercube mapping.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "8-dimensional binary state space with 256 possible vertices",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "Planetary transits that flip individual bindu values correspond to edge-traversals on the hypercube"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Natal Ashtakavarga bindus are fixed by birth positions; transits do not flip bindu values in the classical system, so the stated system behavior is unsupported. The 'quantum register analog' garnish is untraced and carries no consequence.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "flip individual bindu values",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The 27 nakshatras with their four-pada subdivisions"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate: 27 nakshatras, each with four padas (108 total), is the standard structure.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "The 27 nakshatras with their four-pada subdivisions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "encode golden ratio proportions"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nakshatras are equal 13°20′ arcs (padas equal 3°20′ arcs); an equal-division structure contains no golden-ratio proportion. The golden angle is the author's imposition, and asserting the tradition 'encodes' it is contradicted by the system's actual arithmetic.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "encode golden ratio proportions",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "Fibonacci growth patterns found in biological systems from sunflower seeds to galaxy arms."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Golden-angle phyllotaxis in sunflower seed heads and approximately logarithmic spiral arms in galaxies are documented; the golden angle value (~137.5°) is correct.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "from sunflower seeds to galaxy arms",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The pada proportional sequence mirrors the convergence of consecutive Fibonacci ratios toward phi"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Padas are uniform (all 3°20′); a constant sequence cannot mirror the convergence of Fibonacci ratios. No derivation or source demonstrates the claimed mirroring — precision aura without structural consequence.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "mirrors the convergence of consecutive Fibonacci ratios toward phi",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "The six-fold planetary strength calculation (positional, directional, temporal, motional, natural, aspectual)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The six components listed match the classical Shadbala set (Sthana, Dig, Kala, Cheshta, Naisargika, Drik bala); represented accurately.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "six-fold planetary strength calculation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 80,
+        "quote": "maps to a rank-3 tensor with diagonal components carrying primary strengths and off-diagonal components carrying interaction terms."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Tensor terminology is misapplied: diagonal/off-diagonal structure belongs to rank-2 tensors, and six independent components naturally form a symmetric 3×3 rank-2 tensor (as in the stress tensor the article cites), not a rank-3 tensor. The 'total as trace' gloss inherits the same confusion. The parallel is consequential to the article's architecture, so the correctness failure is material.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "maps to a rank-3 tensor",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "aspect weights (full: 1.0, trine: 0.85, square: 0.75)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The specific weights 0.85 and 0.75 are pseudo-precise inventions: classical aspect doctrine recognizes full and special aspects but no such decimal weights. The values are consequential to the claimed 'pre-trained weight matrix' but have no provenance.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "trine: 0.85, square: 0.75",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "Yogas function as attention mechanisms that modulate effective weights."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Yogas as special planetary combinations are traditional; the attention-mechanism gloss is a transparent parallel within the declared mapping frame and is internally consistent.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "Yogas function as attention mechanisms",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "message passing over the zodiac graph converges in two rounds due to the graph's effective diameter."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A specific convergence claim ('two rounds') with no derivation: the zodiac graph's edges and diameter are never defined in the post, so the figure is unverifiable precision aura.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "converges in two rounds",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 102,
+        "line_end": 124,
+        "quote": "class SystemIntegration:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The code block is illustrative pseudocode (referenced classes are undefined, private methods unimplemented); as a schematic of the three-layer model it is internally consistent, but it adds implementation aura without runnable consequence.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "class SystemIntegration:",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 128,
+        "line_end": 128,
+        "quote": "The mathematical structures are isomorphic — they share identical algebraic properties, symmetries, and computational behaviors."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Isomorphism is a strong formal claim of structure-preserving bijection. Several ingredient parallels fail on their own terms (nakshatra–Fibonacci C014, Shadbala–tensor C018, stochastic Vimshottari C004), so the blanket claim that the structures 'are isomorphic' and that the convergence 'is not a matter of creative interpretation' exceeds what the ingredients support.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "The mathematical structures are isomorphic",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 130,
+        "line_end": 134,
+        "quote": "The seers and the mathematicians were examining the same runtime."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing thesis is explicitly offered as one of two labeled interpretations (the 'structural interpretation' vs. the deflationary one), with authorial framing transparent; as a declared interpretive synthesis it is internally consistent — the overreach lives in the evidence claim (C023), not in the labeled interpretation.",
+      "legacy": {
+        "anchor": "none — blind v2.3.1 pass",
+        "quote": "examining the same runtime",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass coverage finding: extracted independently from raw source; no legacy ledger consulted and no legacy row counterfeited."
+      }
+    }
+  ]
+}

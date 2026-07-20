@@ -1,0 +1,1283 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "nadi-bioimpedance-protocol.md",
+  "source_path": "src/content/posts/nadi-bioimpedance-protocol.md",
+  "source_sha256": "85917570a2b7802490d997b071170b2b2b5ebd899d4176c375c069f237fd2e1e",
+  "legacy_audit_path": "quality-engine/audits/nigredo/nadi-bioimpedance-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The word Nadi comes from the Sanskrit root"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard etymological gloss: nadi derives from the Sanskrit root nad (flow/movement); accurate.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"The word Nadi comes from the Sanskrit root\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "The classical texts describe 72,000 Nadis permeating the subtle body, with 14 principal channels governing the major energy pathways."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate report of classical yoga texts: 72,000 nadis is the standard figure (e.g., Shiva Samhita, Hatha Yoga Pradipika lineages), and the 14-principal-channel enumeration is attested (Shiva Samhita). Framed as what the texts describe, which is the correct test.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"The classical texts describe 72,000 Nadis permeating the subtle body, with 14 principal channels\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "For most of Western medical history, this was filed under \"interesting cultural belief.\""
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Broadly accurate characterization of Western biomedicine's historical stance toward subtle anatomy (non-recognition/dismissal); loose but responsible generalization.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"For most of Western medical history, this was filed under \"interesting cultural belief.\"\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Then bioimpedance measurement got precise enough to detect what the Vedic seers had been mapping for three thousand years."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts as historical fact that bioimpedance instruments detect nadi structures; no validation study exists or is cited. The ~3,000-year dating is plausible for the earliest channel doctrines and is noted as not the failing part.",
+      "legacy": {
+        "anchor": "L29",
+        "quote": "\"bioimpedance measurement got precise enough to detect what the Vedic seers had been mapping\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "The Nadis are not metaphorical. They are measurable."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Flat measurability assertion about nadis; the protocol's own numbers (C020/C025/C029) are unprovenanced, so the claim fails at its stated strength.",
+      "legacy": {
+        "anchor": "L31",
+        "quote": "\"The Nadis are not metaphorical. They are measurable.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Thomas Myers' Anatomy Trains model demonstrates that fascia — the continuous connective tissue matrix that wraps every muscle, organ, bone, and nerve — functions as a body-wide information transmission system."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Myers' Anatomy Trains does present fascia as a body-wide tensional communication network; attribution is substantively accurate. Noted: 'demonstrates' overstates what is a conceptual model with contested evidential status — the paraphrase survives because Myers himself claims evidential support.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"Thomas Myers' Anatomy Trains model demonstrates that fascia\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Collagen, the primary structural protein of fascia, exhibits piezoelectricity: mechanical tension generates electrical signals."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Collagen piezoelectricity is documented since Fukada and Yasuda (1957) and subsequent literature; collagen is indeed fascia's primary structural protein. Accurate at stated strength.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"Collagen, the primary structural protein of fascia, exhibits piezoelectricity\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "This is not a metaphor for Prana. This is Prana's physical substrate."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Identity claim (fascia = prana's physical substrate) asserted while explicitly denying metaphor status; no evidence bridges the traditional category to the tissue.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"This is Prana's physical substrate.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "The fascial network transmits information faster than neural pathways through tensegrity — the continuous tension network that distributes mechanical force instantaneously across the entire structure."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Tensegrity-based mechanical signaling is real and fast (mechanical wave speeds), but 'instantaneously' is literally false and the blanket 'faster than neural pathways' information claim is unsourced; the calf-stretch-to-neck example is plausible but its mechanism attribution is unproven.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"transmits information faster than neural pathways through tensegrity\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "When the Yoga Sutras describe Prana flowing from the feet to the crown, they are describing the same phenomenon from the inside."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Patanjali's Yoga Sutras contain no description of prana flowing from feet to crown; channel/prana-flow doctrine belongs to Upanishadic and later hatha literature (e.g., Shiva Samhita, Hatha Yoga Pradipika). The named text is wrong for the quoted teaching.",
+      "legacy": {
+        "anchor": "L43",
+        "quote": "\"When the Yoga Sutras describe Prana flowing from the feet to the crown\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Robert O. Becker's research on DC currents in peripheral nerves revealed something that standard neuroscience had overlooked: nerves carry two types of signal simultaneously."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate report of Becker's research program (The Body Electric): DC injury currents alongside action potentials, with proposed roles in healing and regeneration. Noted: the two-signal framing is Becker's model, not mainstream consensus — the post reports it as Becker's finding, which is the correct test.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Robert O. Becker's research on DC currents in peripheral nerves\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The DC gradient precedes tissue healing. Where the voltage drops, the blockage sits."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Wound DC currents are documented (Becker; Nuccitelli's wound-current literature), but the diagnostic aphorism 'where the voltage drops, the blockage sits' — voltage-drop localization of 'blockages' — is unevidenced.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"Where the voltage drops, the blockage sits.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Acupuncture points — which map extensively to Nadi junctions — are measurably high-conductance nodes: points of low impedance where the DC current flows most freely."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Two unsupported moves: (a) an extensive acupuncture-point-to-nadi-junction mapping is asserted without any source; (b) low impedance at acupuncture points has mixed, replication-challenged evidence (Ahn et al. reviews call it inconclusive) and is stated as settled.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"Acupuncture points — which map extensively to Nadi junctions — are measurably high-conductance nodes\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "Cerebrospinal fluid conducts ions along the neuraxis, creating a measurable DC voltage gradient from sacrum to crown. This is the physical Sushumna"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "CSF is indeed ion-conductive, but an established measurable sacrum-to-crown DC gradient is not demonstrated or cited, and the identity claim 'this is the physical Sushumna' is asserted without bridge evidence.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"This is the physical Sushumna\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "the central channel through which, in Vedic physiology, Kundalini ascends"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate report of the traditional teaching: Sushumna as the central channel of Kundalini's ascent; framed as what Vedic/yogic physiology holds.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "\"the central channel through which, in Vedic physiology, Kundalini ascends\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "The recently discovered glymphatic system (brain lymphatics)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The glymphatic system was described in 2012 (Iliff, Nedergaard et al.); 'recently discovered' is accurate relative to the post's 2026 date.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"The recently discovered glymphatic system (brain lymphatics)\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "interstitial fluid flow provides the mechanical component of what the texts call Prana circulation. The fluid moves. The charge moves with it. The consciousness that rides the charge moves with both."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Identity claim equating glymphatic/interstitial flow with the mechanical component of prana circulation, extended to consciousness riding the charge; no bridge evidence and no declared model frame.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"interstitial fluid flow provides the mechanical component of what the texts call Prana circulation\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The most gracious channel runs from the base of the spine to the crown of the head."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate traditional description of Sushumna's course (base of spine to crown); 'most gracious' is a defensible rendering of su-sumna.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"The most gracious channel runs from the base of the spine to the crown of the head.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Its physical substrate is the cerebrospinal fluid column, the spinal cord bioelectric gradient, and the nucleus raphe magnus (the serotonergic pathway that modulates consciousness itself)."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Substrate-identity claim is unevidenced; additionally the gloss misdescribes the nucleus raphe magnus, which is primarily a descending pain-modulation nucleus — serotonergic, yes, but 'modulates consciousness itself' better fits the dorsal/median raphe.",
+      "legacy": {
+        "anchor": "L61",
+        "quote": "\"the nucleus raphe magnus (the serotonergic pathway that modulates consciousness itself)\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Bioimpedance in the balanced state: 500-800 ohms at 1 Hz, 0.5-1.0 microfarads capacitance, 10-15 millivolts DC. When blocked: resistance exceeds 1200 ohms, capacitance drops below 0.3 microfarads, voltage falls below 5 millivolts."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pseudo-precise diagnostic thresholds with no instrument, dataset, or citation; the values are structurally consequential to the protocol (they define 'blocked') but have zero demonstrated provenance — provisional DECORATIVE per the triple gate.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"500-800 ohms at 1 Hz, 0.5-1.0 microfarads capacitance, 10-15 millivolts DC\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "High impedance indicates CSF stagnation or spinal misalignment. Low impedance indicates inflammation or excessive sympathetic activation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Diagnostic interpretation rules (including the C7/L5 electrode placement and 1 Hz-1 kHz sweep) asserted without any validating source; consequential to the protocol but unprovenanced.",
+      "legacy": {
+        "anchor": "L65",
+        "quote": "\"High impedance indicates CSF stagnation or spinal misalignment.\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "Clinical correlates when Sushumna is blocked: chronic fatigue, depression, lack of purpose, respiratory dysfunction from diaphragm rigidity, poor vagal tone."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Clinical correlation list for a 'blocked Sushumna' state with no clinical source; the entity being correlated is itself unmeasured (C020).",
+      "legacy": {
+        "anchor": "L67",
+        "quote": "\"Clinical correlates when Sushumna is blocked: chronic fatigue, depression, lack of purpose\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "The comfort channel runs along the left side of the spine, terminating at the left nostril and Ajna chakra."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate traditional description of Ida nadi (left side, left nostril terminus, lunar); framed as the channel's traditional anatomy.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"terminating at the left nostril and Ajna chakra\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Its physical substrate is the left vagus nerve, the left lateral fascial line, and the parasympathetic nervous system."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Substrate-identity claim unevidenced; additionally anatomically loose — the vagus is a paired nerve and the parasympathetic system is not left-lateralized as stated.",
+      "legacy": {
+        "anchor": "L71",
+        "quote": "\"Its physical substrate is the left vagus nerve, the left lateral fascial line, and the parasympathetic nervous system.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Balanced bioimpedance: 600-900 ohms at 10 Hz with HRV coherence above 70%. When blocked: resistance exceeds 1300 ohms, HRV coherence drops below 50%."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Same failure as C020: precise thresholds (including HRV-coherence percentages, a proprietary-style metric) with no source, instrument protocol, or dataset; consequential to the protocol, provenance absent.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "\"600-900 ohms at 10 Hz with HRV coherence above 70%\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "When Ida is blocked: right-brain dysfunction (creativity, intuition, spatial processing decline), anxiety, hypervigilance, insomnia, digestive stagnation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Clinical consequence lists for Ida blocked/excessive states with no source; small unilateral-nostril-breathing studies exist but support nothing like this diagnostic inventory.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"When Ida is blocked: right-brain dysfunction (creativity, intuition, spatial processing decline)\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "The tawny channel runs along the right side of the spine, terminating at the right nostril."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate traditional description of Pingala nadi (right side, right nostril, solar); 'tawny' is a standard gloss of pingala.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"The tawny channel runs along the right side of the spine, terminating at the right nostril.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "Its physical substrate is the right sympathetic chain and the right lateral fascial line."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-REMODE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Substrate-identity claim unevidenced; the sympathetic chain is bilateral and no right-lateralized mapping to Pingala is demonstrated.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"Its physical substrate is the right sympathetic chain and the right lateral fascial line.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "Balanced bioimpedance: 550-850 ohms at 10 Hz with skin conductance between 5-15 microsiemens. When blocked: resistance exceeds 1200 ohms, skin conductance drops below 3 microsiemens."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-PROVENANCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Same failure as C020/C025: unprovenanced pseudo-precise thresholds defining the protocol's diagnostic categories.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "\"550-850 ohms at 10 Hz with skin conductance between 5-15 microsiemens\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "restores tensegrity and piezoelectric conductivity"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Therapeutic efficacy claims (restoring conductivity, targeting nadi-corresponding fascial lines) with no clinical evidence; the nadi-fascial-line correspondence is itself unestablished.",
+      "legacy": {
+        "anchor": "L87",
+        "quote": "\"restores tensegrity and piezoelectric conductivity\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "Frequency-matched PEMF applied to blockage sites can restore voltage gradients."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "PEMF has narrow cleared indications (e.g., nonunion fractures), but 'frequency-matched PEMF restores nadi voltage gradients' is unevidenced and presupposes the unmeasured gradient claims.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"Frequency-matched PEMF applied to blockage sites can restore voltage gradients.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The needle creates a local galvanic response that resets impedance."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Needling does produce local electrical/electrochemical effects, but the clinical claim that a galvanic response 'resets impedance' at nadi intersections is unevidenced.",
+      "legacy": {
+        "anchor": "L91",
+        "quote": "\"The needle creates a local galvanic response that resets impedance.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "Nadi Shodhana (alternate nostril breathing) is not a relaxation technique; it is a bioelectric balancing protocol that alternates stimulation between parasympathetic and sympathetic channels."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Slow and alternate-nostril breathing does have documented autonomic effects (vagal modulation), so a scoped version could pass; but the reframing as a 'bioelectric balancing protocol' alternating channel stimulation, and the denial of its relaxation function, exceed the evidence. Nadi Shodhana = alternate nostril breathing is an accurate translation, noted.",
+      "legacy": {
+        "anchor": "L93",
+        "quote": "\"it is a bioelectric balancing protocol that alternates stimulation between parasympathetic and sympathetic channels\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "Bioelectric voltage gradients do not merely reflect health; they direct morphogenesis. The voltage pattern exists before the tissue forms."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Supported by developmental-bioelectricity research (Levin lab and others): endogenous voltage prepatterns are instructive for morphogenesis (e.g., ectopic eye induction via Vmem, planarian axial repatterning), preceding visible tissue formation.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"Bioelectric voltage gradients do not merely reflect health; they direct morphogenesis.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "The Nadi system is Layer 0 — the wiring diagram that precedes tissue formation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Transfuses the legitimate C034 bioelectric-prepattern finding into an identity claim about the traditional nadi map as developmental blueprint; no evidence links the traditional map to morphogenetic prepatterns, and no house frame is declared.",
+      "legacy": {
+        "anchor": "L97",
+        "quote": "\"The Nadi system is Layer 0 — the wiring diagram that precedes tissue formation.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C036",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "Matter does not generate field. Field generates matter."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-REMODE",
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Metaphysical inversion asserted as fact; the bioelectric findings cited show instructive roles for endogenous fields within tissue, not that 'field generates matter' as a general ontology.",
+      "legacy": {
+        "anchor": "L99",
+        "quote": "\"Matter does not generate field. Field generates matter.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C037",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "Modern biofield research is converging on this conclusion from multiple directions."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Field-state of a research area asserted without citation; 'biofield research' is a fringe-designated area and convergence on the field-generates-matter conclusion is not demonstrated.",
+      "legacy": {
+        "anchor": "L101",
+        "quote": "\"Modern biofield research is converging on this conclusion from multiple directions.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    },
+    {
+      "id": "C038",
+      "anchor": {
+        "line_start": 105,
+        "line_end": 105,
+        "quote": "The ancient seers measured impedance with their attention."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Attributes an impedance-measurement practice (by attention) to ancient seers with no textual or historical evidence; poetic in register but propositional in content.",
+      "legacy": {
+        "anchor": "L105",
+        "quote": "\"The ancient seers measured impedance with their attention.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source extraction; legacy nigredo/ledger files not consulted per BLIND rule; placeholder, no legacy verdict implied."
+      }
+    }
+  ]
+}

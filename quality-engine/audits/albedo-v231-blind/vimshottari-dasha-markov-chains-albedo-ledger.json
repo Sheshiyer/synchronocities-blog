@@ -1,0 +1,675 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "vimshottari-dasha-markov-chains.md",
+  "source_path": "src/content/posts/vimshottari-dasha-markov-chains.md",
+  "source_sha256": "6b95c6958275dc5c0308d0250aafb9b91213a8455ee86d23742c50b19e6fb13e",
+  "legacy_audit_path": "quality-engine/audits/nigredo/vimshottari-dasha-markov-chains.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 32,
+        "quote": "The universe does not roll dice — it runs deterministic state machines with stochastic sub-processes."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Epigraph attributed to the house's own 'Pattern Recognition Protocol'; functions as a declared house axiom framing the essay.",
+      "legacy": {
+        "anchor": "L31-32",
+        "quote": "The universe does not roll dice — it runs deterministic state machines with stochastic sub-processes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "the Vedic seers encoded precisely this architecture into the Vimshottari Dasha system roughly four thousand years ago"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Dating the Vimshottari system to c. 2000 BCE has no cited support; the system is traditionally attributed to Parashara, whose dating is contested and generally placed far later.",
+      "legacy": {
+        "anchor": "L36",
+        "quote": "the Vedic seers encoded precisely this architecture into the Vimshottari Dasha system roughly four thousand years ago",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "Sun rules for 6 years, Moon for 10, Mars for 7, Rahu for 18, Jupiter for 16, Saturn for 19, Mercury for 17, Ketu for 7, and Venus for 20."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The canonical Vimshottari periods (summing to 120) are correctly reported; they are consequential to the post's state-space model and traceable to the tradition.",
+      "legacy": {
+        "anchor": "L38",
+        "quote": "Sun rules for 6 years, Moon for 10, Mars for 7, Rahu for 18, Jupiter for 16, Saturn for 19, Mercury for 17, Ketu for 7, and Venus for 20.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "This is not metaphor. This is a transition matrix."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "A deterministic nine-state cycle is exactly representable as a 0/1 transition matrix, demonstrated reproducibly in the post's own code (L57-71); the representation is mathematically correct, thesis-central, and derivable.",
+      "legacy": {
+        "anchor": "L49-55",
+        "quote": "This is not metaphor. This is a transition matrix. ... a degenerate Markov chain where transition probabilities are either zero or one.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "A Markov chain is a stochastic process where the probability of transitioning to any particular state depends solely on the current state and elapsed time."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Markov property depends solely on the current state; 'elapsed time' dependence defines semi-Markov processes and contradicts the very next sentence ('no memory'). Internally inconsistent definitional error.",
+      "legacy": {
+        "anchor": "L53",
+        "quote": "A Markov chain is a stochastic process where the probability of transitioning to any particular state depends solely on the current state and elapsed time.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "Each mahadasha contains nine antardashas (sub-periods), each antardasha contains nine pratyantardashas, and so on — nesting five levels deep."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The sub-period hierarchy (bhukti/antardasha, pratyantardasha, sukshma, prana) is canonical Vimshottari structure; five-level nesting is attested.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "Each mahadasha contains nine antardashas (sub-periods), each antardasha contains nine pratyantardashas, and so on — nesting five levels deep.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "At each level of nesting, the transition probabilities become increasingly nuanced, creating a hierarchical Markov chain of extraordinary depth."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Nested dashas are deterministic subdivisions of a fixed schedule, not probabilistic transitions; 'increasingly nuanced probabilities' has no referent and contradicts the post's own 0/1 determinism claim.",
+      "legacy": {
+        "anchor": "L73",
+        "quote": "At each level of nesting, the transition probabilities become increasingly nuanced, creating a hierarchical Markov chain of extraordinary depth.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "Think of it as microservices within microservices."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly marked comparison ('Think of it as'); no literal inference drawn from the software analogy.",
+      "legacy": {
+        "anchor": "L77",
+        "quote": "Think of it as microservices within microservices.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "A Saturn mahadasha running a Jupiter antardasha produces fundamentally different experiential output than a Jupiter mahadasha running a Saturn antardasha"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserted as world fact about experiential outcomes; it would pass as TRADITIONAL-SOURCE if framed as the jyotish interpretive doctrine it actually is.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "A Saturn mahadasha running a Jupiter antardasha produces fundamentally different experiential output than a Jupiter mahadasha running a Saturn antardasha",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "the system can represent 9^5 = 59,049 distinct state combinations at full depth"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "R-DELETE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The arithmetic is correct (9^5 = 59,049), but the count is ornamental: the depth point stands without it, so the number adds precision-aura without structural consequence.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "the system can represent 9^5 = 59,049 distinct state combinations at full depth",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 81,
+        "line_end": 81,
+        "quote": "They had contemplative mathematics — a form of pattern recognition that operated through direct perception rather than symbolic computation."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Attribution of a specific computational epistemology to the ancient seers with no textual or historical evidence.",
+      "legacy": {
+        "anchor": "L81",
+        "quote": "They had contemplative mathematics — a form of pattern recognition that operated through direct perception rather than symbolic computation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "The starting dasha is determined by the birth nakshatra — specifically, the remaining balance of the ruling planet's period at the exact moment of birth."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate statement of the canonical Vimshottari initialization rule (nakshatra-lord balance proportional to elapsed arc).",
+      "legacy": {
+        "anchor": "L85",
+        "quote": "The starting dasha is determined by the birth nakshatra — specifically, the remaining balance of the ruling planet's period at the exact moment of birth.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 85,
+        "line_end": 85,
+        "quote": "And like the Lorenz system, small variations in this initial condition cascade through the entire 120-year trajectory."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-METAPHOR",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Dasha initial-condition sensitivity is a linear phase shift of a deterministic schedule, not chaotic divergence; the Lorenz/SDIC comparison is an undeclared load-bearing analogy.",
+      "legacy": {
+        "anchor": "L85-100",
+        "quote": "like the Lorenz system, small variations in this initial condition cascade through the entire 120-year trajectory. ... The Lorenz attractor breathes through this sensitivity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 100,
+        "line_end": 100,
+        "quote": "Two children born minutes apart in different nakshatras will have entirely different dasha sequences"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Definitional consequence of the initialization rule (C012): different birth nakshatras yield different starting lords and hence different sequences; true as stated.",
+      "legacy": {
+        "anchor": "L100",
+        "quote": "Two children born minutes apart in different nakshatras will have entirely different dasha sequences",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "A Markov chain is ergodic if every state can be reached from every other state in a finite number of steps. The Vimshottari system is ergodic by design"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The definition given is irreducibility; a deterministic 9-cycle is periodic, hence not ergodic in the Markov-chain sense (no convergence to a stationary distribution).",
+      "legacy": {
+        "anchor": "L104",
+        "quote": "A Markov chain is ergodic if every state can be reached from every other state in a finite number of steps. The Vimshottari system is ergodic by design",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "The system guarantees complete experiential coverage. Every soul, given sufficient time, will process through every planetary frequency."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Metaphysical guarantee about souls and conscious experience asserted as a property of the model; only the combinatorial coverage of the cycle is actually established.",
+      "legacy": {
+        "anchor": "L106",
+        "quote": "The system guarantees complete experiential coverage. Every soul, given sufficient time, will process through every planetary frequency.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "Stationary distributions reveal which planetary influences dominate over long time horizons. Absorption probabilities (in the nested sub-period chains) reveal where consciousness tends to stabilize within a given mahadasha. Mean first passage times reveal how long it takes to transition between experiential modes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": [
+        "R-MATH"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "For a degenerate periodic cycle the stationary distribution is uniform (contradicting duration-weighted dominance), no absorbing states exist so absorption probabilities are inapplicable, and first passage times are deterministic constants — the advertised analytical tools return nothing.",
+      "legacy": {
+        "anchor": "L110",
+        "quote": "Stationary distributions reveal which planetary influences dominate over long time horizons. Absorption probabilities (in the nested sub-period chains) reveal where consciousness tends to stabilize within a given mahadasha. Mean first passage times reveal how long it takes to transition between experiential modes.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "The seers computed these quantities through years of observation and meditation. Modern computational tools can verify their findings in seconds."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "No evidence the seers computed such quantities; per C017 the quantities are inapplicable to the system as modeled.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "The seers computed these quantities through years of observation and meditation. Modern computational tools can verify their findings in seconds.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "The convergence between ancient contemplative mathematics and modern stochastic processes is not coincidental — it reflects the underlying mathematical structure of temporal experience itself."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SYNTHESIS"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Grand metaphysical convergence claim stronger than its ingredients; the demonstrated parallel is a representational triviality (any cycle is a degenerate chain), not a discovered structure of experience.",
+      "legacy": {
+        "anchor": "L112",
+        "quote": "The convergence between ancient contemplative mathematics and modern stochastic processes is not coincidental — it reflects the underlying mathematical structure of temporal experience itself.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 118,
+        "line_end": 118,
+        "quote": "They were mathematicians who expressed their findings through mythological frameworks because those were the compilers available to their civilization."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Motivation-and-capability attribution about ancient authors asserted without evidence; the 'compilers' metaphor does not carry the historical claim.",
+      "legacy": {
+        "anchor": "L118",
+        "quote": "They were mathematicians who expressed their findings through mythological frameworks because those were the compilers available to their civilization.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind-pass v2.3.1 new coverage finding; no legacy nigredo or albedo row consulted for claim content; enum placeholder required by schema, not a counterfeited legacy verdict."
+      }
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "enneagram-planetary-market.md",
+  "source_path": "src/content/posts/enneagram-planetary-market.md",
+  "source_sha256": "a90a274309bbd698f69b9007172908a0417cdc64474113b5e49d50866f5ef7a2",
+  "legacy_audit_path": "quality-engine/audits/nigredo/enneagram-planetary-market.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Markets are not rational. This is not a critique. It is a specification."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The behavioral-finance literature robustly documents systematic departures from rational-agent market models, so the claim has strong support — but 'not rational' flatly overstates the defensible position ('not perfectly rational / not fully efficient') and needs scope narrowing.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Markets are not rational.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 31,
+        "line_end": 31,
+        "quote": "They process information through the same archetypal architecture that processes individual consciousness — the nine-point Enneagram matrix, mediated by planetary influence, expressed through the lunar cycle."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Enneagram + planetary + lunar synthesis is the author's new construction, but it is asserted as a discovered fact about how markets process information, with no authorship declaration and no evidence that markets instantiate this architecture. Synthesis presented as world-fact.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the same archetypal architecture that processes individual consciousness",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 45,
+        "quote": "| 1    | Reformer      | Saturn  | Structure and discipline        |"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The type names are standard Riso–Hudson, but the type→planet→market-function correspondences have no canonical source in the Enneagram tradition, astrology, or finance, and are presented as a settled table with no derivation, provenance, or Noesis authorship declaration.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "| 1    | Reformer      | Saturn  | Structure and discipline        |",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Saturn's archetype — structure, limitation, the long consequence"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Structure, limitation, and long-term consequence are the standard traditional significations of Saturn in the astrological tradition; accurately attributed.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Saturn's archetype — structure, limitation, the long consequence",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "The planet and the market phase are two expressions of the same function."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'functional, not symbolic' equivalence between planetary archetypes and market phases is asserted without any operationalization, dataset, or demonstration that the two 'expressions' covary; the disclaimer of causation does not supply the missing evidence for functional identity.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "two expressions of the same function.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Five phases, five market modes, five dominant Enneagram energies."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The five-phase timing layer is presented as the model's own structuring choice (the conventional astronomical division is eight phases), and it is operated consistently through the five sections that follow. Coherent as a declared structure.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Five phases, five market modes, five dominant Enneagram energies.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 95,
+        "quote": "### New Moon to First Quarter: Accumulation"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The phase sequence Accumulation → Mark Up → Distribution → Mark Down (→ Consolidation) reproduces the Wyckoff market cycle, a named technical-analysis framework (Richard D. Wyckoff, early 20th century), without any attribution; the post presents the scheme as derived from the lunar cycle rather than from Wyckoff's method.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Accumulation ... Mark Up ... Distribution ... Mark Down ... Consolidation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 61,
+        "quote": "Low volatility. Institutional accumulation. Research phase. Position building. The smart money is reading while the crowd is not paying attention."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Tying low volatility, institutional accumulation, and 'smart money' behavior to the new-moon-to-first-quarter window is an empirical claim about lunar-phase market regularities with no dataset or study cited; published evidence for lunar-cycle effects on volatility/returns is weak and mixed.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The smart money is reading while the crowd is not paying attention.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 71,
+        "quote": "Trend establishment. Momentum building. FOMO activation. Volume increase. Price discovery."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Assigning trend establishment, momentum, FOMO, and volume expansion to the first-quarter-to-waxing-gibbous window asserts a lunar-phase market regularity without any supporting data; no source is cited.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Trend establishment. Momentum building. FOMO activation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "Jupiter expands. Type 3 performs. Type 7 sees possibilities everywhere."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The planetary attribute glosses used across the phase sections (Jupiter expands L69; Pluto transforms / the Moon reflects L79; Mars defends / Neptune obscures L91; Venus harmonizes / Saturn structures L101) match the standard traditional significations of those planets; the Type glosses match their Enneagram passions.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Jupiter expands.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 83,
+        "quote": "Peak prices. Maximum volatility. Emotional trading. Volume climax. Smart money distribution."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The full moon as the phase of peak prices, maximum volatility, and institutional distribution — including the superlative 'most dangerous phase for traders' — is an empirical market regularity asserted with no data or study; lunar-cycle effects of this precision are not established.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Peak prices. Maximum volatility.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 93,
+        "quote": "Profit taking. Risk assessment. Defensive positioning. Volume decline. Price correction."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Assigning profit-taking, defensive positioning, and price correction to the waning-gibbous-to-last-quarter window asserts a lunar-phase market regularity without data; no source is cited.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Defensive positioning. Volume decline. Price correction.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 103,
+        "quote": "Base building. Pattern completion. Low volatility. Volume stabilization. Preparation for the next cycle."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Assigning base building and volatility/volume stabilization to the last-quarter-to-new-moon window asserts a lunar-phase market regularity without data; no source is cited.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Base building. Pattern completion. Low volatility.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 107,
+        "line_end": 109,
+        "quote": "Communication disruptions, trading system errors, and strategy reassessment are symptoms of the review cycle, not causes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Mercury retrograde (an apparent-motion phenomenon) correlating with communication disruptions and trading-system errors is asserted as an observed pattern ('are symptoms'), but no evidence of such clustering exists or is cited.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Communication disruptions, trading system errors, and strategy reassessment are symptoms of the review cycle",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 111,
+        "line_end": 111,
+        "quote": "Practical implication: reduce position size by twenty-five percent."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 25% figure is a consequential procedural prescription (it changes trading behavior) with no derivation, risk model, or source — a pseudo-precise quantity whose provenance is entirely absent. Consequential but unprovenanced, so decorative pending repair.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "reduce position size by twenty-five percent.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 113,
+        "line_end": 115,
+        "quote": "Major trend changes, institutional power moves, and new market cycles initiate during eclipse windows."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Solar-eclipse windows initiating major trend changes and new market cycles is an empirical regularity asserted without data; no event study or source is cited.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "new market cycles initiate during eclipse windows.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 117,
+        "line_end": 119,
+        "quote": "Emotional extremes, trend culminations, and sentiment reversals cluster around lunar eclipses."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The clustering claim ('cluster around lunar eclipses') is an explicitly statistical assertion about sentiment reversals with no dataset, event window, or study offered.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "sentiment reversals cluster around lunar eclipses.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 125,
+        "line_end": 127,
+        "quote": "Entry Score = Base Setup x Lunar Phase Alignment x Planetary Aspect x Type Energy Match"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The position-management framework 'reduces to' this multiplicative formula, so it is consequential within the model, but none of the four factors is operationalized, scaled, or sourced — the formula lends quantitative precision-aura with no derivation or provenance behind it.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Entry Score = Base Setup x Lunar Phase Alignment x Planetary Aspect x Type Energy Match",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 129,
+        "line_end": 129,
+        "quote": "A strong technical setup during a favorable lunar phase with supporting planetary aspects and matching Enneagram energy produces a higher-quality signal than the same setup against the archetypal current."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A directly testable comparative claim about signal quality, asserted without any backtest, dataset, or cited result; framed as assessment rather than prediction, but still an empirical regularity with no evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "produces a higher-quality signal than the same setup against the archetypal current.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 131,
+        "line_end": 131,
+        "quote": "The market does not care about the Enneagram. The market is the Enneagram — nine archetypal forces cycling through five lunar phases, producing collective behavior patterns that repeat"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The identity claim ('the market is the Enneagram') plus the causal explanation for pattern repetition ('because the architecture of collective consciousness follows the same nine-point structure') presents the author's synthesis as an inherited structural fact of the world, with no authorship marker and no evidence — synthesis laundering at the thesis level.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The market is the Enneagram",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 133,
+        "line_end": 133,
+        "quote": "They move the collective behavior field within which your portfolio exists."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-CAUSE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing assertion that planets 'move the collective behavior field' is a causal claim about planetary influence on aggregate human behavior with no mechanism or evidence; the immediately preceding disclaimer ('do not move your portfolio') does not neutralize it.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "They move the collective behavior field within which your portfolio exists.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage from BLIND v2.3.1 raw-source pass; legacy nigredo audit not consulted."
+      }
+    }
+  ]
+}

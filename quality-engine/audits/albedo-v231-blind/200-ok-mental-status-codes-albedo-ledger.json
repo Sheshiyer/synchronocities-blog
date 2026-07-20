@@ -1,0 +1,442 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "200-ok-mental-status-codes.md",
+  "source_path": "src/content/posts/200-ok-mental-status-codes.md",
+  "source_sha256": "f62b5d91cf5c7da3b91ae5757a30321872245bedce4e5e27c724dbbc576fe213",
+  "legacy_audit_path": "quality-engine/audits/nigredo/200-ok-mental-status-codes.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 31,
+        "quote": "the response is almost always a fabricated 200 OK — even when the internal state is running a 503 Service Unavailable."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Beneath the HTTP conceit sits a universal behavioral claim: people 'almost always' report being fine when they are not. No population, measure, or observation record is given for the near-universal quantifier; it must be narrowed to a situated observation or sourced.",
+      "legacy": {
+        "anchor": "L29–31",
+        "quote": "\"the response is almost always a fabricated 200 OK\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 33,
+        "line_end": 33,
+        "quote": "This is not a metaphor. This is architecture."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post is an extended HTTP-to-mental-state analogy, yet this sentence explicitly denies metaphor status and asserts literal architecture without declaring a house frame, defining operative terms, or offering any mechanism. An analogical mapping is presented as a literal structural fact.",
+      "legacy": {
+        "anchor": "L33",
+        "quote": "\"This is not a metaphor. This is architecture.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "the breath between stimulus and response that Viktor Frankl identified as the seat of freedom"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'space between stimulus and response' aphorism is popularly credited to Viktor Frankl but is not documented anywhere in his writings or recorded talks; quotation researchers trace its spread to Stephen Covey's paraphrase of Frankl's ideas. Attributing the identification to Frankl is materially misleading.",
+      "legacy": {
+        "anchor": "L37",
+        "quote": "\"Viktor Frankl identified as the seat of freedom\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "this is what the Vedantic tradition calls *viveka* — discrimination between the real and the unreal"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Viveka as discrimination between the real (sat) and the unreal (asat) is the standard Vedantic usage, canonically in the Vivekachudamani tradition. The tradition is named and the paraphrase is faithful; mapping it onto 'switching protocols' is the post's declared conceit, not an attribution error.",
+      "legacy": {
+        "anchor": "L39",
+        "quote": "\"the Vedantic tradition calls *viveka*\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "This is the three-day darkness before resurrection in every mythological cycle."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A three-day descent appears in some cycles (Jonah, the Christian resurrection), but 'every mythological cycle' is an unevidenced universal across world mythology with no tradition, text, or comparative source named.",
+      "legacy": {
+        "anchor": "L41",
+        "quote": "\"the three-day darkness before resurrection in every mythological cycle\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Most spiritual traditions call this integrity. Engineers call it consistency."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Most spiritual traditions' is an unverifiable quantification with no tradition or text named; the parallel claim about engineers is a folk generalization. The underlying point (alignment of inner and outer) needs named sources or narrower scope.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"Most spiritual traditions call this integrity.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 49,
+        "quote": "The connection upgrades from HTTP to WebSocket."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 1xx/2xx technical descriptions (100 Continue, 101 Switching Protocols including the WebSocket upgrade use case, 102 Processing, 200 OK semantics, 201 Created with a Location header, 204 No Content) accurately paraphrase RFC 9110 semantics; the numeric codes are identifiers, not mathematical objects.",
+      "legacy": {
+        "anchor": "L37–49",
+        "quote": "\"The connection upgrades from HTTP to WebSocket.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Every contemplative tradition has a name for this: *sunyata*, *kenosis*, the Cloud of Unknowing."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The three named references are accurate: shunyata (Buddhist emptiness), kenosis (Christian self-emptying), and the anonymous 14th-century Cloud of Unknowing. The quantifier 'every contemplative tradition' overreaches and should be narrowed to the named examples.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"*sunyata*, *kenosis*, the Cloud of Unknowing\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 57,
+        "quote": "**304 Not Modified** — The client's cached version is still valid."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 3xx technical descriptions (301 permanent relocation, 302 temporary redirect, 304 cache-validity semantics) accurately paraphrase RFC 9110; the status codes function as identifiers, not quantities.",
+      "legacy": {
+        "anchor": "L51–57",
+        "quote": "\"The client's cached version is still valid.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "Trauma responses often live here — the consciousness redirects to a safer location but intends to come back."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A clinical characterization of dissociation in trauma (temporary displacement with intended return) is asserted with no source. The hedged 'often' helps, but the claim needs a trauma-literature anchor or reframing as the post's own model.",
+      "legacy": {
+        "anchor": "L55",
+        "quote": "\"Trauma responses often live here\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "Every initiatory tradition is an authentication protocol."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Graded access to knowledge pending qualification is indeed a documented feature of many initiatory systems, but 'every initiatory tradition' names none and quantifies universally; narrow to named traditions or mark as the post's conceit.",
+      "legacy": {
+        "anchor": "L63",
+        "quote": "\"Every initiatory tradition is an authentication protocol.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 71,
+        "quote": "The server cannot process the request because the client sent malformed syntax."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 4xx technical descriptions (400 malformed syntax, 401 authentication required, 403 authenticated-but-refused distinction, 404 not-found-at-URI, 408 client timeout, 429 rate limiting with Retry-After) accurately paraphrase RFC 9110.",
+      "legacy": {
+        "anchor": "L59–71",
+        "quote": "\"the client sent malformed syntax\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 75,
+        "quote": "Most mental health crises are unacknowledged 500 errors that have been masked behind fabricated 200 responses for years."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Under the conceit sits a quantified clinical-sociological claim: 'most' mental health crises are long-masked system failures. No evidence base is offered for the prevalence or the years-long masking; narrow or source it.",
+      "legacy": {
+        "anchor": "L75",
+        "quote": "\"Most mental health crises are unacknowledged 500 errors\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 81,
+        "quote": "The server acting as a gateway received an invalid response from the upstream server."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 5xx technical descriptions (500 unexpected condition, 502 invalid upstream response, 503 temporary overload or maintenance, 504 upstream timeout) accurately paraphrase RFC 9110.",
+      "legacy": {
+        "anchor": "L73–81",
+        "quote": "\"an invalid response from the upstream server\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "The tragedy is that most people never return a 503. They run at full capacity until they throw a 500 and crash."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The propositional content — most people override capacity limits until breakdown — is a burnout-behavior generalization with no population or evidence; plausible as an observation but asserted universally.",
+      "legacy": {
+        "anchor": "L79",
+        "quote": "\"most people never return a 503\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 89,
+        "line_end": 89,
+        "quote": "A system that accurately reports its own status codes can be debugged, maintained, and improved."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing thesis — honest self-report is a precondition for repair — is internally consistent within the post's status-code model. It needs the frame declared as a model rather than as literal architecture (see C002) to pass cleanly.",
+      "legacy": {
+        "anchor": "L89",
+        "quote": "\"A system that accurately reports its own status codes can be debugged\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    }
+  ]
+}

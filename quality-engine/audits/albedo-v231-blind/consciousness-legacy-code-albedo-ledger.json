@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "consciousness-legacy-code.md",
+  "source_path": "src/content/posts/consciousness-legacy-code.md",
+  "source_sha256": "30a57421cc7bdf27db7f7a25bce4b09b2d71f3e2e0edca1279a4666e6e5d6e05",
+  "legacy_audit_path": "quality-engine/audits/nigredo/consciousness-legacy-code.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": { "line_start": 29, "line_end": 30, "quote": "> \"Your consciousness is running legacy code from your teenage years. Time to refactor.\"\n> - Ancient Systems Architect" },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The epigraph quotes a named authority, 'Ancient Systems Architect', who does not exist; the quotation is invented and dressed as sourced wisdom. Even read as playful, the attribution device is materially misleading and should be marked as an authorial aphorism or removed.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "\"Your consciousness is running legacy code from your teenage years. Time to refactor.\" - Ancient Systems Architect", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C002",
+      "anchor": { "line_start": 36, "line_end": 43, "quote": "self.thoughts = \"infinite_loop\"\n        self.focus = \"race_condition\"\n        self.energy = \"memory_leak\"" },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The ModernMind class maps mental states onto programming failure modes inside a frame the post explicitly declares to be a 'non-canonical metaphor... scaffolding, not doctrine' (L45); no literal code claim about minds is implied.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "self.thoughts = \"infinite_loop\"", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C003",
+      "anchor": { "line_start": 45, "line_end": 45, "quote": "This is not a standalone framework. It is a **non-canonical metaphor** — one lens among the Selemene 16 engines, specifically mapping to the **Consciousness Architecture** and **Self-Inquiry** workflows. The code is scaffolding, not doctrine." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "An explicit house-frame declaration situating the post within the named Selemene engine system and disclaiming doctrinal status; internally consistent and exactly the kind of declaration the grammar requires. ('16' functions as a name-label for the engine set, not a consequential quantity.)",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "It is a **non-canonical metaphor** — one lens among the Selemene 16 engines", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C004",
+      "anchor": { "line_start": 50, "line_end": 58, "quote": "// Ancient parallel processing pattern\nconst quantumThread = async (consciousness) => {" },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The async/await 'quantumThread' sketch is playful code-metaphor inside the post's declared non-canonical frame; the 'Ancient parallel processing pattern' label is rhetorical flavor within that frame rather than a developed historical assertion. No literal compilation claim follows.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "// Ancient parallel processing pattern", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    },
+    {
+      "id": "C005",
+      "anchor": { "line_start": 99, "line_end": 102, "quote": "- **Technical Insight**: Modern life as a DDoS attack on awareness\n- **Spiritual Connection**: Mantras as stored procedures\n- **Pattern Recognition**: Ancient async/await patterns in consciousness" },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "All three implementation notes use explicit 'as' comparisons (DDoS, stored procedures, async/await) within the declared scaffolding frame; the figurative boundary is marked and no literal mechanism is asserted.",
+      "legacy": { "anchor": "BLIND-v231-NEW", "quote": "Modern life as a DDoS attack on awareness", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited." }
+    }
+  ]
+}

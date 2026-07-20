@@ -1,0 +1,382 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-universe-four-creatures-assemble.md",
+  "source_path": "src/content/posts/the-universe-four-creatures-assemble.md",
+  "source_sha256": "30179678551da19f3f1de04bc5120c7c14da8fdae3c730b11a5452bfec0407c1",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-universe-four-creatures-assemble.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 24,
+        "line_end": 24,
+        "quote": "Fifty-five days. Five plus five equals ten. Ten equals one. The return to unity through the multiplication of experience."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL", "R-MATH", "R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Numerological digit-reduction (10 -> 1+0 -> 1) is presented through literal arithmetic equals signs ('Ten equals one'), which is demonstrably false as arithmetic and never declared as a numerological or house operation. The frame, the mapping, and the figurative boundary are all undeclared.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Fifty-five days. Five plus five equals ten. Ten equals one. The return to unity through the multiplication of experience.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 26,
+        "line_end": 26,
+        "quote": "The Universe — card XXI in the Thoth deck — is not an ending."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Universe is in fact trump XXI in the Thoth deck (Crowley/Harris), matching the standard Major Arcana numbering; the structural fact is correct at the stated precision.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The Universe — card XXI in the Thoth deck — is not an ending.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 26,
+        "line_end": 26,
+        "quote": "It is the *completion of a circuit*. The same geographic coordinates as the Tower."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Reading the Universe card as completion-of-a-circuit rather than ending is an interpretive claim inside the post's declared tarot frame (frontmatter card/suit/phase) and is internally consistent with both the house Mythic Journey structure and the card's traditional completion meaning.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It is the *completion of a circuit*. The same geographic coordinates as the Tower.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 26,
+        "line_end": 26,
+        "quote": "Annamaya — the physical sheath — carries different tension patterns. Pranamaya — the energetic — breathes at a different ratio. Manomaya — the mental — has been refracting and recognizing its own refraction. Vijnanamaya — the wisdom — has compressed experience into essence. Anandamaya — the bliss — hums at a frequency"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The five-kosha gloss (annamaya=physical, pranamaya=energetic, manomaya=mental, vijnanamaya=wisdom, anandamaya=bliss) faithfully reproduces the Vedantic panca-kosa schema of the Taittiriya Upanishad, though the tradition is not named; the glosses themselves are accurate paraphrase.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Annamaya — the physical sheath — carries different tension patterns. Pranamaya — the energetic — breathes at a different ratio.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 26,
+        "line_end": 26,
+        "quote": "the body that stands here now has been reorganized at every kosha"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person phenomenological report scoped to the author's own body after fifty-five days, with the observer (author), conditions (return to Bangkok), and scope (self) identifiable; 'hums at a frequency' is a metaphorical register inside the self-report but asserts no external measurement.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "the body that stands here now has been reorganized at every kosha",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "The four creatures in the corners of the Universe card: Bull, Lion, Eagle, Angel. The four fixed signs. The four elements stabilized."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The tetramorph (Bull, Lion, Eagle, Angel) in the corners of the World/Universe card and their correspondence to the four fixed signs (Taurus, Leo, Scorpio-as-eagle, Aquarius-as-angel) and four elements is a faithful report of standard Western esoteric tarot iconography.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The four creatures in the corners of the Universe card: Bull, Lion, Eagle, Angel. The four fixed signs.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "In the Mythic Journey, these were the four compass directions — STABILIZE, HEAL, CREATE, MUTATE — activated not by choice but by necessity."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Mythic Journey compass (STABILIZE, HEAL, CREATE, MUTATE) is named house framework vocabulary, explicitly framed as such ('In the Mythic Journey'), and the mapping of the four creatures onto the four directions is internally consistent within that frame.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "In the Mythic Journey, these were the four compass directions — STABILIZE, HEAL, CREATE, MUTATE",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "The Witness — the identity that contains both and needs neither. The three-eyed view. Tryambakam. The one who sees the seer seeing."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Linking Tryambakam (try-ambaka, 'the three-eyed one', an epithet of Shiva) to 'the three-eyed view' is faithful to the name's traditional etymology and meaning; 'The Witness' overlay is declared house identity vocabulary (frontmatter identity field) and does not distort the attribution.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The three-eyed view. Tryambakam. The one who sees the seer seeing.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "The departure earthquake and the return earthquake — same Richter grammar, different consciousness parsing the signal."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The post asserts two real seismic events bracketing the journey (a departure earthquake and a return earthquake in/near Bangkok) with no date, magnitude, or source; as stated the events are unverifiable, and 'same Richter grammar' is an undeclared figurative usage that implies an unstated magnitude equivalence.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The departure earthquake and the return earthquake — same Richter grammar, different consciousness parsing the signal.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "The Tower demolished a structure that needed demolishing. The Universe reveals that the ground beneath the structure was always solid. The demolition wasn't destruction. It was *excavation*."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Tower-as-excavation reading is interpretive work inside the declared tarot travelogue frame; it is internally consistent with the post's circuit-completion thesis and makes no external empirical claim.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The demolition wasn't destruction. It was *excavation*.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "The spiral doesn't end at XXI. It begins again at 0 — The Fool — but one revolution deeper. The same twenty-two positions."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The structural claim that the Major Arcana runs from 0 (The Fool) through XXI as twenty-two positions is an accurate report of tarot deck structure.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "It begins again at 0 — The Fool — but one revolution deeper. The same twenty-two positions.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "It begins again at 0 — The Fool — but one revolution deeper. The same twenty-two positions. Different depth. Different luminosity."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The spiral-return-with-depth interpretation ('one revolution deeper') is the house Mythic Journey's declared cyclical-progression model, used consistently with the frontmatter revolution field; it is a coherent internal frame, not an asserted external fact.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "but one revolution deeper. The same twenty-two positions. Different depth. Different luminosity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 blind raw-source pass; no legacy nigredo/albedo row was consulted to identify or judge this claim. Legacy fields are schema-required placeholder bookkeeping, not a counterfeited provenance record."
+      }
+    }
+  ]
+}

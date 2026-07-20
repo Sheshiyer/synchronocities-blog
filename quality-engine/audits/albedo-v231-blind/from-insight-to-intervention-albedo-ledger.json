@@ -1,0 +1,413 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "from-insight-to-intervention.md",
+  "source_path": "src/content/posts/from-insight-to-intervention.md",
+  "source_sha256": "ac7985cef4d32783d927dde60e5ff9805b04d4da46a2826e6819619b5a796488",
+  "legacy_audit_path": "quality-engine/audits/nigredo/from-insight-to-intervention.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 43,
+        "quote": "Insight without intervention is a temporary emotional event. It feels like progress. It is not."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The insight-trap thesis and its framing as an 'architecture problem' rather than a willpower problem is the post's declared conceptual frame, operated consistently through the protocol.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Insight without intervention is a temporary emotional event. It feels like progress. It is not.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "The nervous system operates at signal speed — approximately 80 milliseconds. Your insight operates at story speed — approximately 800 milliseconds."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Pseudo-precise 80/800 ms operating speeds for nervous system and insight are asserted with no instrument, study, or canonical result; the claim that 'the pattern has already executed' by the time insight loads depends on these figures.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The nervous system operates at signal speed — approximately 80 milliseconds. Your insight operates at story speed — approximately 800 milliseconds.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The pattern is the invariant shape. The story is the variable content."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The pattern/story (shape/content) distinction is the operational definition driving Day 1 of the protocol, internally consistent within the house frame.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The pattern is the invariant shape. The story is the variable content.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "The signal fires at roughly 80 milliseconds. The story that explains the signal takes 800 milliseconds. If you are catching it at story, you are 720 milliseconds late."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The 720 ms lateness is arithmetically correct from the 800-80 inputs, but both inputs are unprovenanced pseudo-precise latencies; the derived figure inherits the provenance failure while remaining consequential to the protocol's urgency claim.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The signal fires at roughly 80 milliseconds. The story that explains the signal takes 800 milliseconds. If you are catching it at story, you are 720 milliseconds late.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The soma reads the field before the narrative constructs its explanation. The body knows before the story arrives."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly asserted as 'Not as metaphor. As literal diagnostic technology', the soma-as-instrument claim is a literal empirical mechanism assertion with no cited evidence; the temporal-priority gloss is plausible but the instrument-grade framing overreaches.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The soma reads the field before the narrative constructs its explanation. The body knows before the story arrives.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "A new thought inserted into an old somatic groove just gets metabolized by the groove. The groove wins. It always wins against cognition alone."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The groove/dominance-of-somatic-over-cognition claim is stated in declared house idiom (groove, inertia) and functions as the model's rationale for body-first intervention; internally coherent as the house position.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "A new thought inserted into an old somatic groove just gets metabolized by the groove. The groove wins. It always wins against cognition alone.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "Even a half-second gap changes the architecture."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MATH",
+        "R-SCOPE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The efficacy claim that a half-second gap 'changes the architecture' carries a pseudo-quantitative threshold with no evidence; removing the number does not alter the micro-interruption procedure, so the figure is decorative.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Even a half-second gap changes the architecture.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The act of logging is itself an intervention — it recruits the witness function at the moment the automatic response is trying to execute."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The logging-as-intervention claim is framed in house vocabulary (witness function, automatic response) and is the model's own account of why tracking works; coherent on declared terms.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "The act of logging is itself an intervention — it recruits the witness function at the moment the automatic response is trying to execute.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 105,
+        "quote": "Patterns do not disappear. They weaken, relocate, or disguise."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The weaken/relocate/disguise triad of pattern outcomes is the diagnostic taxonomy for Day 7 review, declared and operated consistently within the protocol's frame.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Patterns do not disappear. They weaken, relocate, or disguise.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 109,
+        "line_end": 115,
+        "quote": "Day 7 is the full diagnostic triad in motion: Did inertia reassert itself? Did clarity lose resolution? Did the body stop tracking?"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The mapping of protocol days onto house functions (body/carrier, inertia, clarity/observer) is explicit house framing with consistent internal logic; the closing authorship claim stays at interpretive strength.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Day 7 is the full diagnostic triad in motion: Did inertia reassert itself? Did clarity lose resolution? Did the body stop tracking?",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 119,
+        "line_end": 119,
+        "quote": "Nobody reports a breakthrough. They report something quieter."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal report about what practitioners experience ('nobody reports a breakthrough') cites no observer, sample, or record; it is an empirical generalization resting on unstated anecdote.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "Nobody reports a breakthrough. They report something quieter.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 131,
+        "line_end": 133,
+        "quote": "That presence at the point of selection is authorship."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The definition of authorship as presence at the point of selection — and the success criterion 'the system succeeds when you no longer need it' — are declared house axioms closing the protocol, internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231-NEW",
+        "quote": "That presence at the point of selection is authorship.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction; legacy ledger not consulted per blind-pass protocol. New-coverage marker — no legacy row counterfeited."
+      }
+    }
+  ]
+}

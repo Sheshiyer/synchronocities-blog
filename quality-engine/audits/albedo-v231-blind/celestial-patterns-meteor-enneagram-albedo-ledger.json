@@ -1,0 +1,955 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "celestial-patterns-meteor-enneagram.md",
+  "source_path": "src/content/posts/celestial-patterns-meteor-enneagram.md",
+  "source_sha256": "b3fdbb694e5d1aec57a6fc5bd566dcc30152d3142670dbb56c7be40d7424f60c",
+  "legacy_audit_path": "quality-engine/audits/nigredo/celestial-patterns-meteor-enneagram.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "In 1833, I would have been one of the people standing outside until my feet went numb, watching the Leonids tear the sky apart."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The November 1833 Leonid meteor storm is one of the best-documented meteor events in history, visible across eastern North America; the historical kernel of the sentence is accurate.",
+      "legacy": {
+        "anchor": "blind-v231:L28",
+        "quote": "watching the Leonids tear the sky apart",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "Collectives fractured under the weight of what they could not name. Prophets emerged from the debris."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sweeping social-consequence claims about the 1833 event (fractured collectives, emergent prophets) are asserted without any cited record; Millerite expectation predates the storm and no source is given for the fracture/prophet framing.",
+      "legacy": {
+        "anchor": "blind-v231:L28",
+        "quote": "Prophets emerged from the debris.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "I have learned that some stimuli rewrite the operating system whether you consent or not."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Stated as the author's learned principle in the post's computing-inflected house vocabulary; functions as the declared interpretive frame for what follows, internally consistent.",
+      "legacy": {
+        "anchor": "blind-v231:L28",
+        "quote": "some stimuli rewrite the operating system whether you consent or not",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "I have felt this personally — not under meteors, but under other overwhelming inputs — and the somatic signature is unmistakable: cortisol spike, dissociation, the sense that reality has become enemy territory."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Named observer, defined conditions (overwhelming inputs other than meteors), personal scope preserved; the report does not universalize the experience.",
+      "legacy": {
+        "anchor": "blind-v231:L30",
+        "quote": "cortisol spike, dissociation, the sense that reality has become enemy territory",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 34,
+        "quote": "This is what happens when the witness goes absent. No interior station from which to observe the input."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The three-absences schema (witness, relational channel, recursive structure) is the house triad applied to the 1833 case with defined terms and consistent internal logic across the three paragraphs.",
+      "legacy": {
+        "anchor": "blind-v231:L30-34",
+        "quote": "When recursive structure is absent, the pattern never integrates into enduring system.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "The 1833 observers who processed the event together built different structures than those who watched alone. The assembly that metabolized the shower as signal developed cohesion. The isolated ones developed trauma."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A comparative historical claim (communal versus isolated 1833 observers produced cohesion versus trauma) is asserted with no cited record of any such comparison; presented as fact, not hypothesis.",
+      "legacy": {
+        "anchor": "blind-v231:L32",
+        "quote": "The assembly that metabolized the shower as signal developed cohesion. The isolated ones developed trauma.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "The 1833 event generated prophecies, art, religious revival — but no structural update that persisted."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 1833 Leonids were widely read as eschatological signs and entered American religious memory and later art; 'generated' overstates causation for revivals already underway (Second Great Awakening, Millerism) — narrow to 'was interpreted within and amplified existing religious ferment'.",
+      "legacy": {
+        "anchor": "blind-v231:L34",
+        "quote": "The 1833 event generated prophecies, art, religious revival",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Meteor showers are not random. They are periodic. Earth passes through the same debris fields at the same time each year. The celestial mechanics are deterministic."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Annual meteor showers recur as Earth intersects cometary debris streams on its orbit; the periodicity claim is standard astronomy.",
+      "legacy": {
+        "anchor": "blind-v231:L36",
+        "quote": "Earth passes through the same debris fields at the same time each year.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The Leonid meteor shower connects to Leo"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Leonids' radiant lies in the constellation Leo, which is exactly why the shower carries that name.",
+      "legacy": {
+        "anchor": "blind-v231:L40",
+        "quote": "The Leonid meteor shower connects to Leo",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "which connects to Argos — the hundred-eyed giant of Greek mythology"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "No canonical mythographic chain connects Leo to Argos: Leo is the Nemean Lion of the Heracles cycle, while Argos Panoptes belongs to the Io/Hermes cycle (his eyes were transferred to Hera's peacock). The asserted connection is presented as inherited mythography but has no traditional source.",
+      "legacy": {
+        "anchor": "blind-v231:L40",
+        "quote": "which connects to Argos — the hundred-eyed giant of Greek mythology",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Argos represents total surveillance, absolute control, the consciousness that must see everything and let nothing escape observation."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A faithful interpretive gloss of Argos Panoptes ('all-seeing'), Hera's ever-watchful guardian of Io; the surveillance reading is grounded in the traditional epithet and role.",
+      "legacy": {
+        "anchor": "blind-v231:L40",
+        "quote": "Argos represents total surveillance",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "This is Type 8's architecture rendered in myth. The Challenger does not merely desire power. The Challenger's nervous system runs a surveillance program"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Argos-Type 8 mapping is explicitly framed as the post's rendering ('rendered in myth') and applies the Enneagram's type vocabulary consistently; the accompanying somatic-cost descriptions stay inside the declared type model.",
+      "legacy": {
+        "anchor": "blind-v231:L42",
+        "quote": "This is Type 8's architecture rendered in myth.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The Challenger"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post uses Riso-Hudson type nomenclature throughout (Challenger, Investigator, Reformer, Enthusiast) faithfully but without citation; add a source note crediting the nomenclature tradition.",
+      "legacy": {
+        "anchor": "blind-v231:L42",
+        "quote": "The Challenger",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Mercury's sedation protocol — the mythological event where Hermes puts Argos to sleep"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate to the received myth (Ovid, Metamorphoses I): Hermes lulls Argos to sleep with music and story before slaying him; the 'sedation' label is a fair compression.",
+      "legacy": {
+        "anchor": "blind-v231:L44",
+        "quote": "the mythological event where Hermes puts Argos to sleep",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "The Leonid shower is this protocol's annual activation window. During the shower, the sky literally rains debris from the constellation that holds Type 8's celestial address."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SPLIT", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The word 'literally' fuses a true astronomical fact (Leonid debris) with an invented house assignment (Type 8's 'celestial address'), laundering the model into physical fact; split the radiant fact from the declared type mapping.",
+      "legacy": {
+        "anchor": "blind-v231:L46",
+        "quote": "the sky literally rains debris from the constellation that holds Type 8's celestial address",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "The Monoceros shower radiates from a point near Orion, close to the Puppis constellation and the Christmas Tree Nebula."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Monocerotid radiant lies in Monoceros near the Orion/Gemini region, and the Christmas Tree Nebula (NGC 2264) is in Monoceros; the positional description is approximate but fair.",
+      "legacy": {
+        "anchor": "blind-v231:L50",
+        "quote": "close to the Puppis constellation and the Christmas Tree Nebula",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The Christmas Tree Nebula is a star-forming region. New stars ignite inside clouds of gas and dust."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "NGC 2264 is a well-documented active star-forming complex; the description is accurate.",
+      "legacy": {
+        "anchor": "blind-v231:L52",
+        "quote": "The Christmas Tree Nebula is a star-forming region.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "The metaphor writes itself: Type 5's characteristic hoarding — of information, of energy, of access — exists because the system is incubating something."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The figurative boundary is explicit ('The metaphor writes itself'); the nebula-gestation reading of Type 5 hoarding draws no literal causal or numeric inference.",
+      "legacy": {
+        "anchor": "blind-v231:L52",
+        "quote": "The metaphor writes itself",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "The cortisol that governs Type 5 — the stress hormone, the scarcity signal — serves the same function as the nebula's compression. Stars form under pressure. Insight forms under constraint."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Operating under the metaphor frame declared at L52, the cortisol-compression parallel is an analogy, not an endocrinological claim; cortisol's role as a stress hormone is the only literal content and is accurate.",
+      "legacy": {
+        "anchor": "blind-v231:L54",
+        "quote": "Stars form under pressure. Insight forms under constraint.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Without interior witness, the Type 5 collects indefinitely and never integrates. The data hoard becomes a mausoleum."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Applies the same three-absences house schema used at L30-34 to Type 5 with consistent vocabulary (witness, somatic relation, recursive structure); model-internal and coherent.",
+      "legacy": {
+        "anchor": "blind-v231:L56",
+        "quote": "The data hoard becomes a mausoleum.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "The sun's apparent route through the constellations traces an integration sequence across four Enneagram types each year. I say route — the word carries no decorative weight — because the track is geometric, not narrative."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The ecliptic track is geometric fact, but the four-type integration sequence it allegedly 'traces' is pure narrative assignment — and the sentence explicitly denies that narrative status, laundering the mapping into geometry. Split: ecliptic fact (passes) versus type-sequence mapping (undeclared house model).",
+      "legacy": {
+        "anchor": "blind-v231:L60",
+        "quote": "the track is geometric, not narrative",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 66,
+        "quote": "Type 4, mapped to Lyra — the constellation of Orpheus's instrument"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The constellation-myth glosses across the solar-route paragraphs are faithful: Lyra as Orpheus's lyre, Ophiuchus with Asclepian medicinal knowledge, Hercules as the laboring hero, and the serpent as dangerous wisdom all match received mythography.",
+      "legacy": {
+        "anchor": "blind-v231:L62-66",
+        "quote": "the constellation of Orpheus's instrument",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "cultures that track this circuit develop calendars that synchronize human activity with celestial maintenance"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "No culture tracks the post's Enneagram-solar circuit, so the generalization about calendar-developing tracker cultures has no referent; asserted as observation without a single named culture or source.",
+      "legacy": {
+        "anchor": "blind-v231:L68",
+        "quote": "cultures that track this circuit develop calendars",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "the same triadic grammar governs stellar ignition, nervous system recalibration, and social transformation"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal cross-domain governance claim (one triadic grammar governing stars, nervous systems, and societies) is asserted as structural fact; untestable as stated and should be remoded as declared house cosmology.",
+      "legacy": {
+        "anchor": "blind-v231:L68",
+        "quote": "the same triadic grammar governs stellar ignition, nervous system recalibration, and social transformation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Denison Olmsted's published observations in the *American Journal of Science* — November 1833, vol. 25 — provide the traceable source."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Olmsted's compilation of Leonid observations did appear in the American Journal of Science vol. 25 — but in 1834; 'November 1833' is the event date, not the publication date, so the citation's date label should be corrected.",
+      "legacy": {
+        "anchor": "blind-v231:L72",
+        "quote": "American Journal of Science — November 1833, vol. 25",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Olmsted documented not just the meteor count but the social consequence: religious revivals, artistic production, shifts in social organization."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Olmsted's paper is a scientific compilation of physical observations — radiant position, meteor numbers, heights and velocities — not a record of religious revivals, artistic production, or social reorganization. The post's keystone 'traceable source' does not contain the content attributed to it.",
+      "legacy": {
+        "anchor": "blind-v231:L72",
+        "quote": "Olmsted documented not just the meteor count but the social consequence",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "The 2024 conjunction follows the same pattern at a different scale."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The '2024 conjunction' is never identified (the paragraph then discusses the 2024 Leonids, which are not a conjunction), and the asserted pattern-sameness has no stated content; the reference is unverifiable as written.",
+      "legacy": {
+        "anchor": "blind-v231:L74",
+        "quote": "The 2024 conjunction follows the same pattern at a different scale.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "I observed the 2024 Leonids from a position of deliberate exposure — no roof, no screen, no buffer — and what surfaced was not prophecy but precision"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Named observer, stated conditions (deliberate unsheltered exposure), and a preserved first-person scope; the observation report is distinguished from its interpretation ('annual diagnostic' is house vocabulary).",
+      "legacy": {
+        "anchor": "blind-v231:L74",
+        "quote": "no roof, no screen, no buffer",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Mercury's movement patterns participate in this protocol as the celestial agent of Type 7 — the Enthusiast"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Mercury-Type 7 assignment is embedded in the sentence that declares 'in this framework', and it applies the post's celestial-agent schema consistently.",
+      "legacy": {
+        "anchor": "blind-v231:L76",
+        "quote": "the celestial agent of Type 7 — the Enthusiast",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "governed by testosterone and Calliope's epic impulse"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A hormone asserted to 'govern' an Enneagram type is an empirical-sounding claim with no evidence and no declaration of the house 'Muse-Enneagram matrix' it comes from; remode as declared house correspondence or delete.",
+      "legacy": {
+        "anchor": "blind-v231:L76",
+        "quote": "governed by testosterone",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "Mercury retrograde periods, in this framework, are not superstitious cautions. They are review cycles in the epic narrative."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly bounded by 'in this framework'; the editorial-pass reading of retrograde is a declared interpretive frame with no claim of astronomical or psychological mechanism.",
+      "legacy": {
+        "anchor": "blind-v231:L76",
+        "quote": "The retrograde is the editorial pass.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "Historically, these dual-window periods correlate with developments that require both insight and decisive action"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A historical correlation claim about overlapping meteor showers and dual-requirement historical developments is asserted with no dataset, no examples, and no method; unfalsifiable as written.",
+      "legacy": {
+        "anchor": "blind-v231:L82",
+        "quote": "these dual-window periods correlate with developments that require both insight and decisive action",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "Organizations that recognize dual-window periods tend to make structural decisions that persist. Those that ignore them tend to repeat the same fracture patterns."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An organizational-behavior generalization about recognizing versus ignoring 'dual-window periods' — a category no organization is known to track — asserted without evidence or a single example.",
+      "legacy": {
+        "anchor": "blind-v231:L84",
+        "quote": "Organizations that recognize dual-window periods tend to make structural decisions that persist.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "your consciousness architecture was built to the same specifications as the celestial mechanics. When the sky defragments, your system defragments. When meteors fall, patterns complete."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL", "R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The shared-specifications identity between consciousness and celestial mechanics is asserted as fact ('was built to the same specifications'), with the computing metaphor 'defragments' carrying literal causal weight; the model is load-bearing but undeclared at the point of assertion.",
+      "legacy": {
+        "anchor": "blind-v231:L92",
+        "quote": "When the sky defragments, your system defragments.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 94,
+        "line_end": 94,
+        "quote": "Seven days of attention during your type's meteor window will produce more data than seven years of theoretical conviction."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-MATH"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A pseudo-precise promise (seven days versus seven years) with no defined measure of 'data' and no possible verification protocol; the numbers are rhetorical precision-aura without consequence or provenance.",
+      "legacy": {
+        "anchor": "blind-v231:L94",
+        "quote": "Seven days of attention... more data than seven years of theoretical conviction",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "pharmacos-protocol.md",
+  "source_path": "src/content/posts/pharmacos-protocol.md",
+  "source_sha256": "75cb50d034268ddd028194695faf3e9f5aad9bc1313db3c1607080eae4677ca1",
+  "legacy_audit_path": "quality-engine/audits/nigredo/pharmacos-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Every year during the Thargelia festival, the city of Athens selected two human beings from its margins — one male, one female — and loaded onto them everything the polis could not metabolize"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Thargelia pharmakos rite — two marginal persons, fed at public expense, beaten with squills and fig branches, expelled, 'sometimes killed, sometimes merely exiled' — matches the standard scholarly account (Burkert, Greek Religion, named later in the same paragraph). The hedged 'sometimes' correctly reflects the disputed lethal outcome.",
+      "legacy": {
+        "anchor": "BLIND-v231 L40",
+        "quote": "the city of Athens selected two human beings from its margins — one male, one female",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "Walter Burkert, in *Greek Religion*, traces the etymology: *pharmakos* shares a root with *pharmakon*, the Greek word that means both poison and cure."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Named-scholar attribution. Pharmakon does carry the poison/cure double meaning, and Burkert's Greek Religion treats the pharmakos complex; the attribution is accurate at the level claimed.",
+      "legacy": {
+        "anchor": "BLIND-v231 L40",
+        "quote": "pharmakos shares a root with pharmakon, the Greek word that means both poison and cure",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "The *pharmakos* is chosen from the edges — criminal, foreign, disabled — because the system already perceives these bodies as not-fully-integrated."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sources (and Burkert's synthesis) describe pharmakoi as drawn from criminals, slaves, foreigners, and the deformed or poor; the marginality claim is corroborated at the strength stated.",
+      "legacy": {
+        "anchor": "BLIND-v231 L42",
+        "quote": "The pharmakos is chosen from the edges — criminal, foreign, disabled",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The city is the heap. The *pharmakos* is the object marked for garbage collection. The exile is the deletion. The annual recurrence is the periodic scanning interval."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The memory-management mapping is explicitly declared in the same paragraph ('I am describing a memory management algorithm'); no literal causal or predictive inference is drawn from it.",
+      "legacy": {
+        "anchor": "BLIND-v231 L44",
+        "quote": "The city is the heap. The pharmakos is the object marked for garbage collection.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "A colleague receives praise I believe I deserved. My first response is not competitive drive — it is a specific, visceral contraction in the solar plexus"
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person situated report ('I have watched it in myself') naming observer, object (somatic contraction, re-description of colleague), and conditions; scope limited to the author's own case.",
+      "legacy": {
+        "anchor": "BLIND-v231 L48",
+        "quote": "a specific, visceral contraction in the solar plexus",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "Psychologists call this projection. The term is accurate but flat."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Terminology attribution to psychology as a field; 'projection' is indeed the standard psychological term for the described operation. Accurate at the level claimed.",
+      "legacy": {
+        "anchor": "BLIND-v231 L50",
+        "quote": "Psychologists call this projection.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "The individual psyche accumulates unprocessed emotional data at roughly the same rate a city accumulates social tension."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-DELETE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Pseudo-quantitative rate-equivalence between two unmeasured quantities ('emotional data', 'social tension'). No instrument, population, or dataset could support the claim as stated; it lends false empirical weight to the analogy.",
+      "legacy": {
+        "anchor": "BLIND-v231 L50",
+        "quote": "at roughly the same rate a city accumulates social tension",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 52,
+        "line_end": 52,
+        "quote": "Every projected fragment is a part of the self now living outside the walls. The person who carries my envy also carries my capacity to acknowledge what I want."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Jungian-inflected model of projection cost, embedded in the post's declared container/exile architecture; internally consistent and not presented as a measured effect.",
+      "legacy": {
+        "anchor": "BLIND-v231 L52",
+        "quote": "Every projected fragment is a part of the self now living outside the walls.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "Bali's Pawukon calendar repeats every 210 days, and many odalan temple anniversaries recur on that cycle."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Balinese Pawukon is a 210-day cycle and odalan temple festivals do recur on it; the traditional practice is represented accurately. The 210-day figure is a calendrical fact, not a consequential mathematical object.",
+      "legacy": {
+        "anchor": "BLIND-v231 L56",
+        "quote": "Bali's Pawukon calendar repeats every 210 days",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The psyche, left to its own devices, attempts garbage collection whenever the pressure of accumulated material exceeds the tensile strength of the ego's container."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Crisis-as-forced-collection thesis inside the declared algorithmic frame; the engineering vocabulary is the post's declared model language, internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L56",
+        "quote": "attempts garbage collection whenever the pressure of accumulated material exceeds the tensile strength of the ego's container",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The Tarot's Judgement card depicts this operation with unsettling precision. The trumpet sounds. The dead rise from their graves."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Iconographic description of the Judgement card (angel with trumpet, figures rising from graves) matches the Rider-Waite-Smith and Marseille imagery accurately.",
+      "legacy": {
+        "anchor": "BLIND-v231 L58",
+        "quote": "The trumpet sounds. The dead rise from their graves.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The trumpet does not judge. It *audits*. The figures are not condemned. They are *re-collected*."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Interpretive reading of the card inside the post's declared audit/collection model; split from the iconography (C011) and coherent within the house frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L58",
+        "quote": "The trumpet does not judge. It audits.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Athens did not solve its corruption by expelling the *pharmakos*; it merely postponed the reckoning."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Evaluative causal claim about the ritual's efficacy asserted as historical fact. No evidence or source adjudicates whether the rite 'postponed a reckoning'; it is the author's model applied retroactively to Athens.",
+      "legacy": {
+        "anchor": "BLIND-v231 L60",
+        "quote": "Athens did not solve its corruption by expelling the pharmakos",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "I have seen this in organizations more often than in individuals."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Comparative frequency claim (organizations vs individuals) that exceeds the anecdotal observation record offered; split from the directly witnessed pattern in C015.",
+      "legacy": {
+        "anchor": "BLIND-v231 L62",
+        "quote": "I have seen this in organizations more often than in individuals.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "A company fires the \"toxic\" employee who was actually carrying the organization's unprocessed fear of irrelevance. The firing produces temporary relief. Six months later, the same dynamic reappears in a different department, with a different scapegoat."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person witnessed organizational pattern ('I have seen this'), scoped to the author's experience; observer, object, and recurrence are all specified.",
+      "legacy": {
+        "anchor": "BLIND-v231 L62",
+        "quote": "Six months later, the same dynamic reappears in a different department",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The ancient city knew it needed garbage collection because the oracle said so. The priest detected the accumulation before the system crashed."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts an oracular/priestly detection role behind the pharmakos institution. Oracles were consulted in crises generally, but no source is given connecting oracle or priest to the selection or scheduling of the pharmakos rite.",
+      "legacy": {
+        "anchor": "BLIND-v231 L66",
+        "quote": "The ancient city knew it needed garbage collection because the oracle said so.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "The priest has been replaced by the therapist, the honest friend, the symptom that will not resolve. The oracle has been replaced by the body."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A replacement analogy continuing the declared audit-function frame; its figurative nature is clear from the surrounding explicitly analogical architecture and no literal institutional claim follows.",
+      "legacy": {
+        "anchor": "BLIND-v231 L66",
+        "quote": "The oracle has been replaced by the body.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "For three years I experienced a chronic tension in my left shoulder that physical therapy could not address. The muscle was not injured. The pattern was not mechanical. The shoulder tightened every time I entered a room where I felt unrecognized."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person somatic report with observer, duration, negative findings (no injury, not mechanical), and trigger conditions all specified; scope is the author's own body.",
+      "legacy": {
+        "anchor": "BLIND-v231 L68",
+        "quote": "The shoulder tightened every time I entered a room where I felt unrecognized.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The body was running an oracle function: it was registering the accumulated projection before my mind had catalogued it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Interpretation of the C018 observation inside the declared oracle-function model; correctly split from the raw observation and coherent within the frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L68",
+        "quote": "The body was running an oracle function",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The symptom is not the disease. The symptom is the audit trail."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Model aphorism defining the symptom's role in the house audit architecture; internally consistent with the surrounding declared frame.",
+      "legacy": {
+        "anchor": "BLIND-v231 L70",
+        "quote": "The symptom is not the disease. The symptom is the audit trail.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "The therapist does not solve the problem. The therapist reflects the projection back to the projector."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Describes the therapeutic mechanism as the oracle function 'made interpersonal'; framed explicitly through the post's declared model rather than as clinical-outcome evidence. Borderline external claim about therapy, retained as model because the oracle frame governs the passage.",
+      "legacy": {
+        "anchor": "BLIND-v231 L72",
+        "quote": "The therapist reflects the projection back to the projector.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The ancient city did not have the structural capacity to re-integrate civic shame. The shame was too large, the channels of resolution too narrow, the social architecture too rigid."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Functionalist historical explanation for why the pharmakos rite existed and persisted, asserted without source. A plausible hypothesis, but presented as settled historical cause ('It was a correct solution for a system with limited memory').",
+      "legacy": {
+        "anchor": "BLIND-v231 L78",
+        "quote": "The ancient city did not have the structural capacity to re-integrate civic shame.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 80,
+        "line_end": 80,
+        "quote": "The mark phase requires three conditions. First, a container that can hold the material without collapsing."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The author's own re-integration protocol conditions, declared as a protocol within the established garbage-collection frame; internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231 L80",
+        "quote": "The mark phase requires three conditions.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "The city that performs this consciously does not need a *pharmakos*. The individual who performs this consciously does not need a crisis."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Concluding theorem of the house model (conscious maintenance obviates the scapegoat/crisis); follows coherently from the declared architecture and asserts no measured effect.",
+      "legacy": {
+        "anchor": "BLIND-v231 L82",
+        "quote": "The city that performs this consciously does not need a pharmakos.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    }
+  ]
+}

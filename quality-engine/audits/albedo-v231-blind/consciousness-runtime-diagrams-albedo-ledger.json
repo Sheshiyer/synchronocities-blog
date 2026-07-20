@@ -1,0 +1,631 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "consciousness-runtime-diagrams.md",
+  "source_path": "src/content/posts/consciousness-runtime-diagrams.md",
+  "source_sha256": "33fbcb24cb0b60dfaa1cb268d80c0401563048e6bc7612888d529fbce0f62d67",
+  "legacy_audit_path": "quality-engine/audits/nigredo/consciousness-runtime-diagrams.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "Docker has its container architecture. Kubernetes has its pod topology. TCP/IP has its four-layer model."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The software-stack facts are accurate: Docker publishes a container architecture, Kubernetes is documented as pod topology, and the TCP/IP model is canonically four-layered. These reported facts are correct at their stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231:L28",
+        "quote": "Docker has its container architecture. Kubernetes has its pod topology. TCP/IP has its four-layer model.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 28,
+        "line_end": 28,
+        "quote": "Consciousness has its triune brain — and when you render it as system architecture rather than neuroscience, the operational clarity is immediate."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-REMODE", "R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The triune brain (MacLean, 1960s) is presented as the settled architecture of consciousness; mainstream neuroscience treats the strict three-layer division as an oversimplified heuristic, and no source is cited. Should be remodeled as an explicitly chosen lens rather than a possession consciousness 'has'.",
+      "legacy": {
+        "anchor": "BLIND-v231:L28",
+        "quote": "Consciousness has its triune brain",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "These diagrams are not metaphors. They are deployment specifications"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The runtime/diagram mapping is a house interpretive frame, but the sentence explicitly denies its metaphorical status and asserts literal deployment-specification identity. The mode boundary is dishonest: an analogy is presented as literal mechanism, and downstream claims inherit this framing.",
+      "legacy": {
+        "anchor": "BLIND-v231:L30",
+        "quote": "These diagrams are not metaphors. They are deployment specifications",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "a biological runtime that has been in production for three hundred million years"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 300-million-year figure is an order-of-magnitude-plausible gesture at vertebrate brain evolution but is uncited, pseudo-precise, and removable without altering the thesis. Precision-aura quantity with no demonstrated provenance.",
+      "legacy": {
+        "anchor": "BLIND-v231:L30",
+        "quote": "three hundred million years",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Clock: Slow (100-500ms response)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A 100–500 ms response band is asserted for neocortical processing with no instrument, paradigm, or citation. Not demonstrably false, but unconsequential to the thesis and unprovenanced: decorative precision.",
+      "legacy": {
+        "anchor": "BLIND-v231:L42",
+        "quote": "Clock: Slow (100-500ms response)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Clock: Medium (50-200ms response)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A 50–200 ms limbic response band is asserted without source or measurement conditions. Decorative precision: removable without structural consequence, provenance not demonstrated.",
+      "legacy": {
+        "anchor": "BLIND-v231:L51",
+        "quote": "Clock: Medium (50-200ms response)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Clock: Fast (10-100ms response)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A 10–100 ms brainstem response band is asserted without source. Reflex latencies in this range exist for some circuits, but as stated the figure is decorative: no provenance, no structural consequence.",
+      "legacy": {
+        "anchor": "BLIND-v231:L60",
+        "quote": "Clock: Fast (10-100ms response)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "If the brainstem detects a survival-level threat, it preempts limbic processing and neocortical reasoning simultaneously."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Threat responses can precede and disrupt cortical deliberation, but the asserted strict simultaneous preemption hierarchy ('BIOS layer has veto power over everything above it') is an architectural overstatement presented as measured fact with no source.",
+      "legacy": {
+        "anchor": "BLIND-v231:L65",
+        "quote": "it preempts limbic processing and neocortical reasoning simultaneously",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "In software terms, the brainstem operates at interrupt level 0. The limbic system runs at interrupt level 1. The neocortex runs at user level."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The interrupt-level mapping is explicitly marked with 'In software terms' and draws no literal numeric or causal prediction from the comparison. The figurative boundary is present in-line. (Note: this local declaration sits in tension with the global anti-declaration at L30, but on its own lines it passes.)",
+      "legacy": {
+        "anchor": "BLIND-v231:L67",
+        "quote": "In software terms, the brainstem operates at interrupt level 0.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 99,
+        "line_end": 99,
+        "quote": "Survival processes preempt emotional processes. Emotional processes preempt social processes. Social processes preempt cognitive processes. Cognitive processes preempt creative processes."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A strict linear five-level preemption hierarchy (survival > emotional > social > cognitive > creative) is asserted as the operating law of cognition. No measured relationship supports a strict total ordering; it generalizes a loose Maslow-like intuition into a deterministic scheduler.",
+      "legacy": {
+        "anchor": "BLIND-v231:L99",
+        "quote": "Survival processes preempt emotional processes.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 101,
+        "line_end": 101,
+        "quote": "you cannot write poetry when you are hungry, cannot solve equations when you are grieving, cannot maintain friendships when you are in danger"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Absolute impossibility claims about cognition under hunger, grief, and danger are empirically false as stated (people write poetry hungry and do math while grieving); the underlying resource-competition intuition is plausible but the universal scope is unsupported.",
+      "legacy": {
+        "anchor": "BLIND-v231:L101",
+        "quote": "you cannot write poetry when you are hungry",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "short-term working buffer (7 plus or minus 2 items, approximately 30-second retention)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH", "R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 7±2 capacity figure (Miller, 1956) is presented as current fact; the mainstream modern estimate of working-memory capacity is roughly 4±1 chunks (Cowan, 2001), so the asserted number is contradicted by same-level evidence. No provenance is given in the text and the figure is removable without structural loss.",
+      "legacy": {
+        "anchor": "BLIND-v231:L103",
+        "quote": "7 plus or minus 2 items",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "approximately 30-second retention"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The ~30-second unrehearsed short-term retention estimate is consistent with classic decay findings (Peterson & Peterson) but is uncited and inconsequential to the argument: decorative precision without demonstrated provenance.",
+      "legacy": {
+        "anchor": "BLIND-v231:L103",
+        "quote": "approximately 30-second retention",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "long-term pattern storage (consolidated during sleep via hippocampal replay)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Hippocampal replay during sleep as a consolidation mechanism is a well-supported research finding, but the post names no study or dataset, so the claim cannot be method-matched and remains unsupported on the post's own evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231:L103",
+        "quote": "consolidated during sleep via hippocampal replay",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "procedural memory (motor skills, encoded in basal ganglia)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Basal-ganglia involvement in procedural/motor memory is textbook-consensus, but 'encoded in basal ganglia' over-localizes a distributed system and no source is cited. Unsupported at the stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231:L103",
+        "quote": "procedural memory (motor skills, encoded in basal ganglia)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 103,
+        "line_end": 103,
+        "quote": "episodic memory (experienced events, stored with emotional metadata)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Emotional modulation of episodic encoding is supported in the literature, but 'stored with emotional metadata' is a database-flavored re-description asserted without a traceable source. Unsupported as stated.",
+      "legacy": {
+        "anchor": "BLIND-v231:L103",
+        "quote": "episodic memory (experienced events, stored with emotional metadata)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 139,
+        "line_end": 141,
+        "quote": "the consciousness runtime has explicit system calls. These are not voluntary actions — they are pre-defined responses that the system executes when specific input patterns match specific thresholds."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL", "R-METAPHOR", "R-SPLIT"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'system call' catalog mixes real threat reflexes (fight/flight/freeze) with invented callable functions (bond(), grieve(), integrate()) and asserts the whole apparatus literally ('has explicit system calls'), inheriting the L30 anti-declaration. The house frame is presented as neural mechanism; the mixture is inseparable as written.",
+      "legacy": {
+        "anchor": "BLIND-v231:L139-141",
+        "quote": "the consciousness runtime has explicit system calls",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 143,
+        "line_end": 143,
+        "quote": "You cannot call `create()` while `fight()` is executing. The interrupt priority prevents it."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Creativity being suppressed during acute threat response is plausible, but the absolute 'cannot call create() while fight() is executing' asserts a hard mutual exclusion with no evidence and obvious counterexamples. Scope failure.",
+      "legacy": {
+        "anchor": "BLIND-v231:L143",
+        "quote": "You cannot call `create()` while `fight()` is executing.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 143,
+        "line_end": 143,
+        "quote": "Understanding which system calls are active — and which are blocking — is the foundation of consciousness debugging."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "As a statement of house practice ('consciousness debugging' within the runtime frame the post builds), the claim is internally consistent with the model's own vocabulary and makes no external measurement claim.",
+      "legacy": {
+        "anchor": "BLIND-v231:L143",
+        "quote": "the foundation of consciousness debugging",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 172,
+        "line_end": 172,
+        "quote": "Confirmation bias is not a cognitive error. It is the default behavior of the pattern-matching system."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Confirmation bias as a default heuristic is a defensible reading of the literature, but 'not a cognitive error... the default behavior of the pattern-matching system' asserts a settled architectural fact with no citation and no stated conditions.",
+      "legacy": {
+        "anchor": "BLIND-v231:L172",
+        "quote": "Confirmation bias is not a cognitive error.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 172,
+        "line_end": 172,
+        "quote": "The runtime is designed to prefer stability over accuracy because, at the BIOS level, a wrong-but-fast model is more survival-relevant than a right-but-slow model."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The evolutionary speed/accuracy trade-off rationale is a plausible just-so story (cf. error-management theory) but is asserted as the design cause of the architecture without evidence or citation. Causal language exceeds the support.",
+      "legacy": {
+        "anchor": "BLIND-v231:L172",
+        "quote": "a wrong-but-fast model is more survival-relevant than a right-but-slow model",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 174,
+        "line_end": 174,
+        "quote": "Genuine learning — the kind that changes identity, not just knowledge — requires the system to fail at pattern matching, create a new pattern, test it against reality, iterate until stable, and then integrate the new pattern into the identity service."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The learning-update pipeline is the author's own synthesis combining a software deployment pipeline with learning psychology; the ingredients are visible and the transformation is internally consistent, but Noesis authorship of the synthesis is not explicitly declared. Coherent as interpretive synthesis; add an authorship marker.",
+      "legacy": {
+        "anchor": "BLIND-v231:L174",
+        "quote": "requires the system to fail at pattern matching, create a new pattern, test it against reality",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 174,
+        "line_end": 174,
+        "quote": "This is why real transformation is slow, uncomfortable, and resistant to shortcuts. It requires running the full update pipeline, and most people exit at the first `Iterate` loop."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The population generalization that 'most people exit at the first Iterate loop' and the causal explanation of why transformation is slow are asserted without observation records or sources. An empirical claim about human behavior dressed in model vocabulary.",
+      "legacy": {
+        "anchor": "BLIND-v231:L174",
+        "quote": "most people exit at the first `Iterate` loop",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from the v2.3.1 BLIND raw-source pass; legacy audits intentionally not consulted; no legacy row counterfeited."
+      }
+    }
+  ]
+}

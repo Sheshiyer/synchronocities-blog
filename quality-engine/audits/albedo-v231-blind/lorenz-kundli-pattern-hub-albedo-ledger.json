@@ -1,0 +1,793 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "lorenz-kundli-pattern-hub.md",
+  "source_path": "src/content/posts/lorenz-kundli-pattern-hub.md",
+  "source_sha256": "d7fada13efbe9b9425836a6fd58d727b2e06e55fe676f313363187b36cf0930c",
+  "legacy_audit_path": "quality-engine/audits/nigredo/lorenz-kundli-pattern-hub.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "In 1963, Edward Lorenz published \"Deterministic Nonperiodic Flow\" in the *Journal of the Atmospheric Sciences*."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct: Lorenz's 'Deterministic Nonperiodic Flow' appeared in the Journal of the Atmospheric Sciences, vol. 20, in 1963.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Deterministic Nonperiodic Flow",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 32,
+        "line_end": 32,
+        "quote": "As James Gleick documented in *Chaos: Making a New Science* (1987), Lorenz had been running weather simulations when he discovered that rounding a decimal from .506127 to .506 produced a completely different forecast."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The anecdote (including the .506127 vs .506 figures) is correctly attributed to Gleick's 1987 book, where it appears; framing is 'as documented', so attribution — not independent verification — is the operative test and it passes. The specific decimals are illustrative, not consequential.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "rounding a decimal from .506127 to .506",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "Three thousand years earlier, observers on the Indian subcontinent were solving the same problem with different tools."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The antiquity of Indian astronomical-astrological traditions is defensible (Vedanga Jyotisha material dates to roughly the claimed window), but 'solving the same problem' projects deterministic-chaos problematics onto a tradition that did not frame them that way — an interpretive synthesis asserted as history.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "solving the same problem with different tools",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "grounded in the spherical astronomy of the *Surya Siddhanta* and the interpretive frameworks of the *Brihat Parashara Hora Shastra*"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct attribution of the Kundli's technical lineage: Surya Siddhanta as the astronomical basis and BPHS as the canonical interpretive text; Vimshottari Dasha and twelve-house structure are accurately described.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the spherical astronomy of the *Surya Siddhanta*",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "Both systems describe the territory without prescribing the route. Both demand that the observer learn to read pattern rather than predict event."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The hub's framing comparison; the essay declares its comparative program ('an anatomical comparison', line 38) and later disclaims proof-status (line 116), keeping the synthesis at interpretive strength and internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "describe the territory without prescribing the route",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Every pattern-recognition system operates on three forces. Remove one, and the structure collapses into a different kind of failure."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Statement of the Kha-Ba-La house triad, with each force named and defined in the following paragraphs; the frame is explicit and operated consistently, not offered as an empirical taxonomy of all pattern-recognition systems.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "operates on three forces",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "repeating caste-inflected interpretations that were fixed centuries ago"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that classical Jyotish interpretation carries caste-inflected content has textual basis (varna assignments in canonical texts), but the post cites no source and asserts it as settled history in passing; needs a citation or narrowing.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "caste-inflected interpretations that were fixed centuries ago",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "The system is deterministic (the equations fully specify the next state) yet unpredictable (infinitesimal differences in initial conditions produce radically different trajectories)."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct statement of deterministic chaos in the Lorenz system: determinism plus sensitive dependence on initial conditions.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "deterministic (the equations fully specify the next state) yet unpredictable",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "The houses represent domains of experience — self, wealth, communication, home, creativity, health, partnership, transformation, wisdom, career, public sphere, and liberation."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate rendering of the twelve bhava significations in standard order (tanu, dhana, sahaja, sukha, putra, shatru/health, kalatra, mrityu/transformation, dharma, karma, labha/public sphere, vyaya/moksha).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "self, wealth, communication, home, creativity, health, partnership",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Both systems are deterministic in principle and unpredictable in practice. They generate patterns recognizable without repetition."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The comparison's joint claim; true of Lorenz by mathematics and asserted of Kundli within the hub's declared comparative frame. Coherent as the program's interpretive thesis; the hub disclaims proof at line 116.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "deterministic in principle and unpredictable in practice",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "The Lorenz attractor is self-similar: zoom in on any portion of the trajectory and the same butterfly pattern reappears at smaller scale. This is the hallmark of fractal geometry"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH", "R-DELETE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "False as stated: the Lorenz attractor has fractal (non-integer) dimension and a Cantor-like cross-sectional structure, but it is not self-similar in the claimed sense — zooming into the trajectory does not reproduce the butterfly form. Fractality is conflated with exact self-similarity, and the error is load-bearing for the D-chart parallel that follows.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "zoom in on any portion of the trajectory and the same butterfly pattern reappears",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 66,
+        "quote": "documented in the *Brihat Parashara Hora Shastra*. The D1 chart provides the broadest view. D9 (Navamsha) provides a nine-fold subdivision. D60 (Shashtiamsha) provides a sixty-fold subdivision."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct: the varga system including D1, D9 (Navamsha, ninth division) and D60 (Shashtiamsha, sixtieth division) is documented in BPHS; names and subdivision factors are accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "D9 (Navamsha) provides a nine-fold subdivision. D60 (Shashtiamsha) provides a sixty-fold subdivision.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The mathematical parallel is exact: both systems maintain pattern coherence across scaling transformations."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserting that D-charts 'exhibit the same property' (self-similar scale invariance) and that 'the mathematical parallel is exact' states an unvalidated hypothesis as established mathematics. No derivation or measurement is offered; the post itself later concedes these are 'not proofs' (line 116). The exactness claim needs provenance or scoping to a research direction.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The mathematical parallel is exact",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "Yet despite this sensitivity, the system maintains structural stability. The trajectory may wander unpredictably, but it stays on the attractor. It never flies off to infinity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct: the Lorenz system is dissipative with a bounded absorbing set; trajectories remain on/near the attractor despite sensitive dependence.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "it stays on the attractor. It never flies off to infinity.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "a few minutes' difference in birth time can shift house cusps and modify the entire chart interpretation. Yet the broader pattern — the Dasha sequence, the planetary dignities, the house rulerships — remains stable across small timing variations."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Both halves check out computationally: minutes of birth-time error move the ascendant/cusps measurably, while the Vimshottari sequence order and dignity/rulership assignments are insensitive to such small shifts (dasha balance shifts only marginally via lunar position).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "a few minutes' difference in birth time can shift house cusps",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 76,
+        "line_end": 76,
+        "quote": "The Kundli chart is, structurally speaking, a strange attractor for lived experience — a geometric structure that constrains the trajectory without determining its specific sequence."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The hub's central model statement, hedged by 'structurally speaking' and embedded in the declared comparative program; internally consistent as a model, though its literal-empirical reading would fail — the hedge keeps it on the passing side. Borderline, flagged for awareness.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "structurally speaking, a strange attractor for lived experience",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 82,
+        "line_end": 82,
+        "quote": "You see Saturn in the seventh house and recognize the pattern of delayed partnership"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Saturn in the seventh house signifying delay/weight in partnership is a standard Parashari interpretation; reported here as a reading pattern rather than a prediction of events.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Saturn in the seventh house",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "The astrologer-client encounter is itself a dynamic system. The chart becomes a strange attractor for the relationship between two nervous systems. The astrologer's interpretation is not a delivery of information but a perturbation"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Extension of the hub's declared model to the interpersonal scale; the synthesis is the essay's own, its ingredients are the preceding sections, and it stays at interpretive strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The astrologer's interpretation is not a delivery of information but a perturbation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "the caste-coded interpretations embedded in classical texts, the colonial extraction of \"Eastern wisdom\" for Western consumption, the gendered asymmetries in house significations"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Each element is a defensible scholarly critique, but the post asserts all three without citation as settled reception history; sources or narrowing are needed to carry the claims at this strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the colonial extraction of \"Eastern wisdom\" for Western consumption",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 88,
+        "line_end": 88,
+        "quote": "This is not mysticism. It is the observation that complex dynamic systems, when mapped geometrically, converge on similar topologies regardless of their material substrate. The pattern is substrate-independent."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal empirical generalization ('converge on similar topologies regardless of substrate') asserted as observation, explicitly denying its interpretive status. No comparative measurement is offered; this is the hub's least hedged moment and needs scoping to the research program's hypothesis.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The pattern is substrate-independent.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 96,
+        "line_end": 96,
+        "quote": "Every astrologer has experienced the rupture: the chart clearly indicated one trajectory, and the life went another way."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal quantification over all astrologers with no survey or record behind it; an empirical generalization that needs narrowing ('many astrologers report...') or evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Every astrologer has experienced the rupture",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 104,
+        "line_end": 104,
+        "quote": "The 120-year Dasha timeline describes state transitions where the current period governs activation, and the sub-period provides the specific colouring — structurally analogous to Markov transition matrices."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 120-year Vimshottari cycle is correctly reported, and the Markov mapping is marked as structural analogy ('structurally analogous') within a list the post explicitly frames as 'not proofs... investigation directions' (line 116). No literal probabilistic claim is extracted.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "structurally analogous to Markov transition matrices",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 106,
+        "line_end": 106,
+        "quote": "Natural and temporal friendships between planets operate like fixed-rule neighbourhood interactions, generating emergent complexity from simple local rules."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'operate like' marker declares the cellular-automata comparison as analogy; natural/temporal friendships are real Parashari categories and no literal automaton claim is made.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "operate like fixed-rule neighbourhood interactions",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 108,
+        "line_end": 108,
+        "quote": "The eight-dimensional benefic/malefic scoring matrix maps onto the vertices of an eight-dimensional hypercube, each cell an intersection of planetary perspectives."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Ashtakavarga's eight contributors (seven grahas plus ascendant) each assigning binary bindu per house genuinely defines a 2^8 combinatorial space; the hypercube identification is mathematically valid, consequential to the study it anchors, and its ingredients (traditional structure + declared mapping) are traceable within the program.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "maps onto the vertices of an eight-dimensional hypercube",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 110,
+        "line_end": 110,
+        "quote": "The 27 lunar mansions and their subdivisions exhibit proportional spacing that invites analysis through golden ratio and recursive sequence frameworks."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 27 nakshatras are equal 13°20' divisions — uniform spacing, which sits oddly with any golden-ratio progression claim. The hedge 'invites analysis' softens but does not source the premise that Fibonacci-like structure exists to be analyzed.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "exhibit proportional spacing that invites analysis through golden ratio",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 112,
+        "line_end": 112,
+        "quote": "The six-fold planetary strength assessment generates a multi-dimensional mathematical object describing directional influence rather than scalar magnitude."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Shadbala's six components are correctly counted, and treating them as a component vector (rank-1 tensor) rather than collapsing to the traditional scalar total is a declared reframing within the program; mathematically coherent and consequential to Study 5.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "multi-dimensional mathematical object describing directional influence",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "Planetary aspects — type-dependent influence-casting on specific houses — structurally resemble weighted node connections with emergent activation propagation."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'structurally resemble' marker declares the neural-network comparison as analogy; type-dependent aspect rules are real Jyotish structure and no literal network-training claim is made.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "structurally resemble weighted node connections",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 129,
+        "line_end": 129,
+        "quote": "Pattern recognition does not require systems to be identical. It requires them to be isomorphic — the same shape, rendered in different materials."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The hub's declared methodological criterion, using 'isomorphic' in a loose structural sense consistent with its own usage throughout; coherent as a house rule, though stricter than the mathematical term. Borderline, noted.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the same shape, rendered in different materials",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 133,
+        "line_end": 133,
+        "quote": "The butterfly and the birth chart trace the same geometry. One in equations, one in stars. Both in the nervous system that learns to read them."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Italic epigraph restating the thesis in poetic register; included because it carries propositional weight, but it makes no literal inference beyond what the body argues (and the literal reading is audited at C011/C013/C020).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The butterfly and the birth chart trace the same geometry.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    }
+  ]
+}

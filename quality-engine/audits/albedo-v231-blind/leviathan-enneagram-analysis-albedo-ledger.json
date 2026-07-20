@@ -1,0 +1,658 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "leviathan-enneagram-analysis.md",
+  "source_path": "src/content/posts/leviathan-enneagram-analysis.md",
+  "source_sha256": "dcd8cb0459f77b082436092d8099e3d4365ec37928afce5c0fc3b1665bd8029a",
+  "legacy_audit_path": "quality-engine/audits/nigredo/leviathan-enneagram-analysis.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 30,
+        "line_end": 30,
+        "quote": "The Leviathan is not a monster. It is a system call."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Thesis aphorism in openly figurative register; the negation ('not a monster') marks the figurative boundary and no literal prediction is extracted. Included because it carries propositional weight as the essay's thesis.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Leviathan is not a monster. It is a system call.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "In the Enneagram, Type 4 is the Individualist — the one who experiences reality through the lens of what is missing. The core fixation is envy"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurately reports the standard Enneagram of Personality teaching (Ichazo/Naranjo lineage): Type 4 as Individualist with envy as core fixation. Faithful paraphrase of the named system.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The core fixation is envy",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 36,
+        "line_end": 36,
+        "quote": "In the demonological tradition, each Enneagram type has an infernal name — a shadow aspect that represents the fixation at maximum distortion. Type 4's infernal name is Leviathan."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Ichazo/Arica enneagram of fixations does map the nine fixations to demonic names, with Leviathan assigned to the envy point (Type 4). Attribution to the demonological mapping tradition is accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Type 4's infernal name is Leviathan.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "The Leviathan in Job 41 is described as a creature no hook can catch, no weapon can pierce, no power can tame."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful paraphrase of Job 41 (the Leviathan passage: no hook, invulnerable to weapons, un-subduable). Chapter attribution is correct.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The Leviathan in Job 41",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "This is a precise description of how envy works in the psyche: it is pre-conscious, pre-verbal, and resistant to rational correction."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A universal psychological assertion about the mechanics of envy stated as fact, with no source, population, or method. As written it exceeds the Enneagram teaching it glosses; needs sourcing or scoping to the tradition's own claims.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "how envy works in the psyche: it is pre-conscious, pre-verbal",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 40,
+        "line_end": 40,
+        "quote": "The remedial virtue is kindness — or more precisely, altruism."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "In the standard Enneagram system the virtue countering envy (Type 4) is equanimity, not kindness; kindness/charity is the Christian remedy for envy in the seven-deadly-sins tradition. The sentence does not name which tradition it reports, so attribution cannot be verified as stated.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "The remedial virtue is kindness — or more precisely, altruism.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "The Leviathan — the social contract — is the agreement by which individuals surrender sovereignty to a collective entity in exchange for protection."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate summary of Hobbes's Leviathan (1651): covenant in which individuals lay down rights to a sovereign power in exchange for security.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "individuals surrender sovereignty to a collective entity in exchange for protection",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 44,
+        "line_end": 44,
+        "quote": "Hobbes' version preserved the divine right of kings: sovereignty flowed downward from God through the monarch to the people."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-DELETE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Hobbes explicitly grounded sovereignty in covenant and consent, not divine right; his secular basis for absolute sovereignty was a deliberate break from divine-right theory (Filmer et al.). The claim reverses Hobbes's actual position.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "sovereignty flowed downward from God through the monarch to the people",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "He kept the social contract architecture but replaced the kernel: sovereignty no longer descended from above but arose from below, from the collective will of the people."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate characterization of Rousseau's Du contrat social: popular sovereignty grounded in the general will, in contrast to top-down sovereignty. The historical content is sound independent of the surrounding metaphor.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "sovereignty no longer descended from above but arose from below",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 46,
+        "line_end": 46,
+        "quote": "Rousseau performed what amounts to a `fork()` of the Leviathan process."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Unix fork() comparison is explicitly hedged ('what amounts to') and draws no literal computational inference; a declared analogy used for structural illustration.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "what amounts to a `fork()` of the Leviathan process",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 48,
+        "line_end": 48,
+        "quote": "This is the Type 4 pattern at the collective level: the conviction that wholeness must be obtained from outside, that some authority possesses what you lack."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The mapping of Type 4 envy-structure onto social-contract theory is the essay's declared synthesis (framed as 'The Enneagram perspective reveals'), internally consistent with its stated ingredients.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "This is the Type 4 pattern at the collective level",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "The birth certificate, in the SlickDissident reading, is the formal instantiation of this contract."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The birth-certificate registration claim is explicitly scoped to the SlickDissident reading ('in the SlickDissident reading'), so its authorship and interpretive status are declared; coherent within that frame.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "in the SlickDissident reading, is the formal instantiation of this contract",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 50,
+        "line_end": 50,
+        "quote": "just as hormones bind to receptors and trigger cascading biological responses, the social contract binds individuals to institutional receptors"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'just as' marker declares the endocrine comparison as analogy; the base mechanism (hormone-receptor binding triggering cascades) is itself accurate and no literal endocrine claim is made for the social contract.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "just as hormones bind to receptors",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 54,
+        "line_end": 54,
+        "quote": "Green marks the Leviathan's active presence: the death card in tarot, the environmental movement (a modern form of collective guilt-as-envy), the color of money (the Leviathan's circulatory fluid)."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The green color-code is explicitly introduced as the symbolic scheme 'in this analysis' and used consistently as such. Borderline: the embedded characterization of the environmental movement is a political judgment riding inside the symbolic frame, but the frame is declared.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Green marks the Leviathan's active presence",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 56,
+        "line_end": 56,
+        "quote": "\"hero\" and \"tyrant\" are anagrams of the same letters rearranged"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-DELETE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Demonstrably false: HERO (4 letters: h,e,r,o) and TYRANT (6 letters: t,y,r,a,n,t) share neither letter count nor multiset; they are not anagrams. Relayed from the analysis without checking; the factoid should be deleted or corrected.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "\"hero\" and \"tyrant\" are anagrams",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 58,
+        "line_end": 58,
+        "quote": "These color codes function like system logs."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'function like' marker declares the system-log comparison as analogy; the remainder of the paragraph operates inside the declared symbolic frame without literal inference.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "function like system logs",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 62,
+        "line_end": 62,
+        "quote": "The South Taurid meteor shower aligns with Leviathan symbolism through its timing (election season), its celestial position (the Pisces-Aries transition), and its mythological substrate (the spine of Cetus, the sea monster)."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "South Taurids peak in late October–November (timing claim defensible), but their radiant is in Taurus, not at the Pisces-Aries transition, and Taurus is not 'the spine of Cetus' (Cetus is a separate constellation). The celestial-position element of the claim conflicts with established astronomy.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "its celestial position (the Pisces-Aries transition)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "much like how influenza (from \"influence\") describes a period when biological vulnerability increases"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The etymology is correct: 'influenza' derives from Italian influenza (medieval Latin influentia), named for the astrological 'influence' believed to cause epidemics. A documented linguistic-historical fact.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "influenza (from \"influence\")",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 64,
+        "line_end": 64,
+        "quote": "meteor showers as periods when specific archetypal frequencies increase in amplitude"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The archetypal-frequency language is embedded in an explicit analogy ('much like') and the same sentence disclaims causality ('The stars do not cause political events any more than cortisol causes anxiety'). The figurative boundary is maintained.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "archetypal frequencies increase in amplitude",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 68,
+        "line_end": 68,
+        "quote": "The analysis draws a structural parallel between the Leviathan and the Matrix: both are systems that process reality on behalf of individuals who have traded direct experience for managed simulation."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Matrix parallel is declared as the analysis's own structural comparison ('The analysis draws'), its ingredients (Hobbes, the film's premise) are identified, and the synthesis is internally consistent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "structural parallel between the Leviathan and the Matrix",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 70,
+        "line_end": 70,
+        "quote": "The endocrine system operates as the body's internal Matrix. Hormones manage your emotional reality, constructing the felt experience of your life according to chemical parameters you did not choose."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'operates as' construction declares the figurative frame; borderline because the hormone sentence is strongly worded, but endocrine modulation of affect is real and the sentence stays inside the declared analogy without making a literal mechanism claim about management or intent.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "operates as the body's internal Matrix",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 72,
+        "line_end": 72,
+        "quote": "the Individualist is the one type that feels the artificiality of the managed experience. The persistent sense that something essential is missing is not a personality defect — it is an accurate read of the system."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The culminating synthesis of the essay's declared argument (Enneagram fixation as veridical perception of the contract frame); ingredients are traced through the preceding sections and the inference stays at their strength.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "it is an accurate read of the system",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "the Leviathan is a process, not an entity, and processes can be terminated."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Closing statement of the essay's operating-system frame (Leviathan as process), used consistently throughout; internally coherent as the declared model, not asserted as an external fact about political ontology.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "a process, not an entity",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The sea monster is not in the ocean. It is in the contract you signed before you could read."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Italic epigraph in openly figurative register restating the essay's thesis image; included because it carries propositional weight, but it draws no literal inference and the figurative boundary is clear.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "It is in the contract you signed before you could read.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    }
+  ]
+}

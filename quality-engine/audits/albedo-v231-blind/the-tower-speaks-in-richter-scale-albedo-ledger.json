@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "the-tower-speaks-in-richter-scale.md",
+  "source_path": "src/content/posts/the-tower-speaks-in-richter-scale.md",
+  "source_sha256": "dbb9379985557456602ffba87eecde43bd84f6b464a23b4e2778e1e78b74829f",
+  "legacy_audit_path": "quality-engine/audits/nigredo/the-tower-speaks-in-richter-scale.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": { "line_start": 25, "line_end": 25, "quote": "A 6.0 earthquake" },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH", "R-SOURCE"],
+      "requires_review": false,
+      "math": { "role": "WRONG", "load_bearing": false, "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" }, "evidence_eligible": false },
+      "rationale": "The only event matching the description is the 28 March 2025 Sagaing, Myanmar earthquake strongly felt in Bangkok (emergency declared, high-rise collapse); its instrumental magnitude was 7.7, not 6.0 — and the figure is central to a post titled 'Speaks in Richter Scale', so the number is consequential and wrong.",
+      "legacy": { "anchor": "BLIND-L25", "quote": "A 6.0 earthquake", "type": "math", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    },
+    {
+      "id": "C002",
+      "anchor": { "line_start": 25, "line_end": 25, "quote": "Bangkok's strongest in living memory" },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The 28 March 2025 M7.7 Myanmar earthquake produced the strongest shaking felt in Bangkok in living memory per widespread reporting — mass evacuations, a declared state of emergency, and the collapse of an under-construction high-rise.",
+      "legacy": { "anchor": "BLIND-L25", "quote": "Bangkok's strongest in living memory", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    },
+    {
+      "id": "C003",
+      "anchor": { "line_start": 25, "line_end": 25, "quote": "The numbers didn't lie. They never do when the Tower speaks." },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-DELETE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "A universal reliability claim for numerological signaling ('They never do') smuggled into the tarot frame; no evidence, population, or conditions are offered — an empirical generalization the frame does not exempt.",
+      "legacy": { "anchor": "BLIND-L25", "quote": "The numbers didn't lie. They never do when the Tower speaks.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    },
+    {
+      "id": "C004",
+      "anchor": { "line_start": 27, "line_end": 27, "quote": "It arrives as structural demolition — precision charges placed at the load-bearing assumptions you didn't know you had." },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Tower-card demolition reading inside the declared tarot frame; the 'seven seconds of lateral acceleration' later in the sentence is a retrospective felt-duration estimate, pseudo-precise but not load-bearing and noted here rather than split.",
+      "legacy": { "anchor": "BLIND-L27", "quote": "It arrives as structural demolition — precision charges placed at the load-bearing assumptions you didn't know you had.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    },
+    {
+      "id": "C005",
+      "anchor": { "line_start": 29, "line_end": 29, "quote": "This wasn't metaphor. The building swayed. Glass rattled. The body knew before the mind could rationalize." },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "First-person event report corroborated by the verified earthquake (C002); the body-before-mind ordering is a situated self-report and does not universalize into a latency claim.",
+      "legacy": { "anchor": "BLIND-L29", "quote": "This wasn't metaphor. The building swayed. Glass rattled. The body knew before the mind could rationalize.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    },
+    {
+      "id": "C006",
+      "anchor": { "line_start": 29, "line_end": 29, "quote": "Pranamaya kosha — the vital sheath — registered the event as pre-cognitive signal. The manomaya — the mental layer — scrambled for explanation" },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The pañcakośa glosses are correct (prāṇamaya = vital sheath, manomaya = mental sheath) and are applied to the author's own experience; the 'three full seconds' delay later in the sentence is a self-report estimate, noted as pseudo-precision within the personal account.",
+      "legacy": { "anchor": "BLIND-L29", "quote": "Pranamaya kosha — the vital sheath — registered the event as pre-cognitive signal.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    },
+    {
+      "id": "C007",
+      "anchor": { "line_start": 31, "line_end": 31, "quote": "Angelic architecture in numerical form — structural alignment, foundational support. And 555 — the building. Change as trinity. Change changing change." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Angel-number folk numerology (44 = foundation/structural support, 555 = change) rendered accurately to that lore and absorbed as house symbolic vocabulary within the declared Tower/synchronicity frame; the tradition itself is unnamed — logged as a coverage flag.",
+      "legacy": { "anchor": "BLIND-L31", "quote": "Angelic architecture in numerical form — structural alignment, foundational support. And 555 — the building. Change as trinity.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    },
+    {
+      "id": "C008",
+      "anchor": { "line_start": 33, "line_end": 33, "quote": "The Tower card in the Thoth deck shows a mouth of flame consuming a fortress. But look closer: the figures falling aren't destroyed. They're *released*." },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Faithful to the Thoth Tower (XVI): flaming tower, falling figures, and the eye at the apex; the 'released, not destroyed' reading aligns with Crowley's liberation-through-destruction interpretation of the card.",
+      "legacy": { "anchor": "BLIND-L33", "quote": "The Tower card in the Thoth deck shows a mouth of flame consuming a fortress.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    },
+    {
+      "id": "C009",
+      "anchor": { "line_start": 35, "line_end": 35, "quote": "The departure earthquake and the arrival earthquake bookended a transformation that the body registered before the mind could name it." },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "The verifiable record contains one Bangkok-felt mainshock (28 March 2025, M7.7, followed minutes later by an aftershock); no record supports two distinct trip-bookending earthquakes, and the narrative of an arrival quake and a departure quake is offered without dates or sources.",
+      "legacy": { "anchor": "BLIND-L35", "quote": "The departure earthquake and the arrival earthquake bookended a transformation", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    },
+    {
+      "id": "C010",
+      "anchor": { "line_start": 37, "line_end": 37, "quote": "Every spiral begins with a rupture. Not every rupture begins a spiral." },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": { "role": "NONE", "load_bearing": false, "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" }, "evidence_eligible": false },
+      "rationale": "Closing axiom of the house initiatic model; universal in grammatical form but functioning as the post's declared spiral/rupture frame rather than an empirical generalization — logged per the borderline coverage rule.",
+      "legacy": { "anchor": "BLIND-L37", "quote": "Every spiral begins with a rupture. Not every rupture begins a spiral.", "type": "science", "verdict": "NOT FLAGGED (§5 safe harbor)", "load_bearing": false, "note": "New coverage finding from blind v2.3.1 raw-source pass; no legacy ledger consulted; legacy fields are placeholders, not counterfeited provenance." }
+    }
+  ]
+}

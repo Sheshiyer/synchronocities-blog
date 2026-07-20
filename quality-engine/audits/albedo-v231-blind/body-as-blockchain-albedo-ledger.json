@@ -1,0 +1,901 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "body-as-blockchain.md",
+  "source_path": "src/content/posts/body-as-blockchain.md",
+  "source_sha256": "c0a23daca8d6910b68a941e2f4b14d1ea52028dd5aa0cb8b73a8451a3ac48d66",
+  "legacy_audit_path": "quality-engine/audits/nigredo/body-as-blockchain.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 41,
+        "quote": "Every cigarette, every orgasm, every slap, every satori — etched into roughly thirty-seven trillion cellular nodes, each running a copy of the same base protocol."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "PASS" },
+        "evidence_eligible": false
+      },
+      "rationale": "Memory and experience are not recorded in every one of the body's cells; the universal 'etched into all nodes' claim outruns any evidence. The ~37 trillion figure is a real cell-count estimate (Bianconi et al. 2013) but atmospheric — removing it changes no inference.",
+      "legacy": {
+        "anchor": "blind-v231:L41",
+        "quote": "etched into roughly thirty-seven trillion cellular nodes",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 41,
+        "line_end": 43,
+        "quote": "The genome is not a blueprint. It is source code. The epigenome is the transaction log. The fascia is the network layer."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The post's core synthesis maps blockchain architecture onto biology and explicitly declares 'This is not a metaphor' (L43), laundering a house-constructed analogy into literal biological architecture without declaring Noesis authorship or tracing ingredients.",
+      "legacy": {
+        "anchor": "blind-v231:L41-43",
+        "quote": "This is not a metaphor.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Blockchains were invented to solve the double-spend problem — how to prevent the same unit of value from being spent twice across a trustless network."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate statement of the design problem addressed in the Bitcoin whitepaper (Nakamoto 2008) and distributed-systems literature.",
+      "legacy": {
+        "anchor": "blind-v231:L43",
+        "quote": "Blockchains were invented to solve the double-spend problem",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "If one node decides unilaterally that it is now a cancer, the immune system executes a Byzantine fault tolerance protocol and removes it from consensus."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The biological substance — cancer immunosurveillance and elimination of aberrant cells, with apoptosis as the penalty — is mainstream immunology; the Byzantine-fault-tolerance wrapper is transparent analogy.",
+      "legacy": {
+        "anchor": "blind-v231:L43",
+        "quote": "The penalty for attempting a fifty-one percent attack on the body is apoptosis.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "Tycho Brahe built his Uraniborg observatory on an island in the Danish sound"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Uraniborg was built on the island of Hven in the Øresund beginning 1576; the locational fact is accurate.",
+      "legacy": {
+        "anchor": "blind-v231:L45",
+        "quote": "Tycho Brahe built his Uraniborg observatory on an island in the Danish sound",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "not because the view was pleasant, but because the earth beneath his feet was the only base-line he could verify"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The motive attribution is invented psychologizing: Brahe received Hven as a royal fief from Frederick II and built Uraniborg there for patronage and practical reasons; no primary source attributes this epistemological motive to him.",
+      "legacy": {
+        "anchor": "blind-v231:L45",
+        "quote": "the earth beneath his feet was the only base-line he could verify",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "All observation is geocentric because all observers are on Earth."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Functions as the post's declared 'Tycho Brahean' epistemological stance (embodied baseline), internally consistent as a principle; the literal premise overreaches — space telescopes and astronauts observe from off-Earth — so the claim should be narrowed to embodied human baseline knowledge.",
+      "legacy": {
+        "anchor": "blind-v231:L45",
+        "quote": "All observation is geocentric because all observers are on Earth.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Each nucleated cell carries the full 3.2 billion base-pair ledger."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Each nucleated somatic cell carries the complete genome; the ~3.2 Gb haploid size is correct, is the content of the claim, and traces to the Human Genome Project.",
+      "legacy": {
+        "anchor": "blind-v231:L47",
+        "quote": "the full 3.2 billion base-pair ledger",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Red blood cells sacrifice their nuclei to carry oxygen"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Mammalian erythrocytes enucleate during maturation to maximize hemoglobin capacity; textbook hematology.",
+      "legacy": {
+        "anchor": "blind-v231:L47",
+        "quote": "Red blood cells sacrifice their nuclei to carry oxygen",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "becoming hardware wallets with no write access — a deliberate design choice, not an accident"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Erythrocyte enucleation is an evolved trait; asserting 'a deliberate design choice, not an accident' imports teleology as fact without a designer or a design argument.",
+      "legacy": {
+        "anchor": "blind-v231:L47",
+        "quote": "a deliberate design choice, not an accident",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Sperm and egg cells undergo meiotic recombination, a fork in the chain that produces viable new branches without invalidating the parent ledger."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Gametes are produced by meiosis with recombination; the 'fork' wrapper is transparent analogy over a correct biological core.",
+      "legacy": {
+        "anchor": "blind-v231:L47",
+        "quote": "Sperm and egg cells undergo meiotic recombination",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "T-cells sample peptides, verify them against the self-reference hash, and destroy anything that fails validation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "T-cell surveillance of MHC-presented peptides and elimination of cells failing self-recognition is accurate mainstream immunology beneath the proof-of-work/hash analogy.",
+      "legacy": {
+        "anchor": "blind-v231:L47",
+        "quote": "T-cells sample peptides, verify them against the self-reference hash",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Martha Graham was right when she said the body never lies"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'The body never lies' (also circulated as 'Movement never lies') is widely attributed to Martha Graham; the attribution is faithful to the received quotation tradition.",
+      "legacy": {
+        "anchor": "blind-v231:L49",
+        "quote": "Martha Graham was right when she said the body never lies",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "The body cannot lie. Lying requires a single authority with edit privileges, and biology abolished that architecture before the Cambrian."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Frame-internal claim: within the post's declared ledger model, biological record-keeping has no central edit authority, which is consistent both internally and with the distributed character of physiology; the 'before the Cambrian' flourish stays inside the model's rhetoric.",
+      "legacy": {
+        "anchor": "blind-v231:L49",
+        "quote": "biology abolished that architecture before the Cambrian",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "The genome is static — slow to change, resistant to editing, designed for permanence. The epigenome is dynamic: methylation patterns, histone acetylation, chromatin remodeling."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The static-genome/dynamic-epigenome contrast with the named mechanisms (methylation, histone acetylation, chromatin remodeling) is standard molecular biology; 'designed for permanence' is mild rhetorical teleology that does not alter the content.",
+      "legacy": {
+        "anchor": "blind-v231:L51",
+        "quote": "The epigenome is dynamic: methylation patterns, histone acetylation, chromatin remodeling.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "When cortisol floods the bloodstream during a threat response, specific CpG islands on stress-regulatory genes get methylated. The gene is not destroyed. It is annotated."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Stress- and glucocorticoid-associated methylation changes at CpG sites of stress-regulatory genes are documented; the 'annotated, not destroyed' characterization of methylation's regulatory role is accurate.",
+      "legacy": {
+        "anchor": "blind-v231:L51",
+        "quote": "specific CpG islands on stress-regulatory genes get methylated",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "Rachel Yehuda's research on Holocaust survivors and their children demonstrated this with statistical rigor. Offspring of traumatized parents showed altered methylation at the *NR3C1* glucocorticoid receptor gene — the same locus affected in the parents."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "MISATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Yehuda's Holocaust survivor-offspring methylation study (2015) concerned FKBP5 intron 7, not NR3C1 — the post itself cites FKBP5 correctly at L57, so the ledger is internally inconsistent. The offspring effects were not same-direction copies of the parents' marks, the 'biochemical copying errors during gametogenesis' mechanism is not demonstrated (germline reprogramming largely erases such marks), and 'statistical rigor' overstates a small, contested study.",
+      "legacy": {
+        "anchor": "blind-v231:L53",
+        "quote": "altered methylation at the NR3C1 glucocorticoid receptor gene — the same locus affected in the parents",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "A particular smell — diesel exhaust mixed with jasmine — would drop me into a state I had no language for, years before I understood that my early childhood contained events my cortex had agreed not to index."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "First-person situated report with named observer, specific trigger, and preserved personal scope; the olfactory-triggered state is reported, not universalized.",
+      "legacy": {
+        "anchor": "blind-v231:L55",
+        "quote": "diesel exhaust mixed with jasmine — would drop me into a state I had no language for",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 55,
+        "line_end": 55,
+        "quote": "This is what happens when Kha — the observer — goes offline while Ba — the substrate — keeps writing."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The author's own experience is interpreted through the named house vocabulary (Kha observer, Ba substrate) with terms defined inline; internally consistent application of the declared frame.",
+      "legacy": {
+        "anchor": "blind-v231:L55",
+        "quote": "Kha — the observer — goes offline while Ba — the substrate — keeps writing",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The *FKBP5* gene, which regulates glucocorticoid receptor sensitivity, shows altered methylation patterns in individuals with childhood adversity."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "FKBP5 regulates glucocorticoid receptor sensitivity and shows adversity-associated methylation differences (Klengel, Binder, and colleagues); accurately stated at association strength.",
+      "legacy": {
+        "anchor": "blind-v231:L57",
+        "quote": "The FKBP5 gene... shows altered methylation patterns in individuals with childhood adversity",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "a tendency to read neutral stimuli as threats, to spend ATP on vigilance that no longer pays rent, to keep inflammatory cytokines circulating"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Childhood adversity is associated with threat-attribution bias, heightened vigilance, and elevated inflammatory tone; the sentence asserts these as direct results of the methylation change, so the causal chain should be narrowed to association-level evidence.",
+      "legacy": {
+        "anchor": "blind-v231:L57",
+        "quote": "a tendency to read neutral stimuli as threats",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "IL-6 and TNF-alpha become hash functions linking each physiological state to the previous one"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 'hash function' identification is figurative, but it sits inside a frame the post insists is literal ('This is not a metaphor'), so the analogy is load-bearing without declaration; cytokine self-perpetuation should be stated biologically and the computing image marked.",
+      "legacy": {
+        "anchor": "blind-v231:L57",
+        "quote": "IL-6 and TNF-alpha become hash functions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Shortened telomeres. Thymic involution. Aged arteries in thirty-year-old bodies."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Chronic stress and trauma exposure are associated with telomere attrition, accelerated thymic involution, and premature vascular aging; stated as a cost list at association strength.",
+      "legacy": {
+        "anchor": "blind-v231:L59",
+        "quote": "Shortened telomeres. Thymic involution. Aged arteries in thirty-year-old bodies.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "Histone deacetylase inhibitors exist. Trauma-focused therapies produce measurable demethylation at stress-related loci."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "HDAC inhibitors are an established drug class, and small studies (e.g., FKBP5 methylation changes tracking psychotherapy response in PTSD) support the demethylation claim; replication is limited, so scope to the small-study evidence base.",
+      "legacy": {
+        "anchor": "blind-v231:L59",
+        "quote": "Trauma-focused therapies produce measurable demethylation at stress-related loci.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The endocrine system broadcasts hormonal signals — thyroid for metabolic rate, adrenals for stress mobilization, pancreas for glucose regulation — that all receptive cells interpret simultaneously."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate textbook endocrinology: circulating hormones act on all receptor-bearing cells, with the named gland-function pairings correct.",
+      "legacy": {
+        "anchor": "blind-v231:L61",
+        "quote": "thyroid for metabolic rate, adrenals for stress mobilization, pancreas for glucose regulation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Robert Becker's *The Body Electric* documented this decades ago: limb regeneration in salamanders depends on bioelectric fields that are not side effects but control signals."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful representation of Becker's book and research program: salamander limb regeneration depends on endogenous currents functioning as control signals — and here the animal is correctly identified as the salamander.",
+      "legacy": {
+        "anchor": "blind-v231:L61",
+        "quote": "limb regeneration in salamanders depends on bioelectric fields that are not side effects but control signals",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "Where endocrine signaling is AM radio — broad, slow, everyone hears it — neural signaling is fiber optic: point-to-point, low latency, exact."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The AM-radio/fiber-optic comparison is transparently analogical, maps correctly onto broadcast versus point-to-point signaling, and draws no literal inference from the technology.",
+      "legacy": {
+        "anchor": "blind-v231:L61",
+        "quote": "endocrine signaling is AM radio... neural signaling is fiber optic",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 63,
+        "line_end": 63,
+        "quote": "When consensus fails, you get autoimmunity: the network starts validating false positives, attacking self because the reference hash has been corrupted. Multiple sclerosis, lupus, Type 1 diabetes"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Autoimmunity as immune attack on self-tissue from failed self/non-self discrimination is accurate, and the three named diseases are established autoimmune conditions; the consensus/fork framing is transparent analogy.",
+      "legacy": {
+        "anchor": "blind-v231:L63",
+        "quote": "Multiple sclerosis, lupus, Type 1 diabetes — these are not moral failings.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Kha-Ba-La is not a decorative mantra. It is a diagnostic. Test it by removing one leg and watching the structure collapse."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The three failure modes (Kha absent: recording without witness; Ba absent: read-only substrate; La absent: no thermodynamic brake) apply the house triad with defined terms and internal consistency, including the symmetric 'too much La is rigidity, too little is dissipation'.",
+      "legacy": {
+        "anchor": "blind-v231:L65",
+        "quote": "Too much La is rigidity. Too little is dissipation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "Peter Levine's work on somatic trauma describes this precisely: the organism's defensive response was initiated but never completed, and the motor pattern remains queued in the neuromuscular firmware."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Faithful summary of Levine's Somatic Experiencing model of incomplete defensive responses persisting in the nervous system; 'neuromuscular firmware' is the post's own gloss but does not distort the attributed teaching.",
+      "legacy": {
+        "anchor": "blind-v231:L65",
+        "quote": "the organism's defensive response was initiated but never completed",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "It donates mitochondria, calibrates immune tolerance, samples fetal DNA circulating in the bloodstream, and rewrites its own metabolic set points in real time."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "All four maternal adaptations are documented: mitochondrial inheritance is maternal, pregnancy induces immune tolerance, cell-free fetal DNA circulates in maternal blood (basis of NIPT), and maternal metabolic set points shift during gestation.",
+      "legacy": {
+        "anchor": "blind-v231:L67",
+        "quote": "samples fetal DNA circulating in the bloodstream",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "In the Haṭha Yoga tradition, the annamaya kośa is the food body, the densest sheath, the one most people mistake for the whole."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The five-kośa scheme and annamaya as the food-formed sheath are accurately rendered, but the doctrine originates in the Taittirīya Upaniṣad (Vedantic tradition), not specifically Haṭha Yoga — correct the tradition label or cite the Upaniṣadic source.",
+      "legacy": {
+        "anchor": "blind-v231:L69",
+        "quote": "the annamaya kośa is the food body, the densest sheath",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The prāṇamaya kośa reads it. The manomaya kośa narrates it. The vijñānamaya kośa recognizes the pattern."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The read/narrate/recognize assignments are the post's declared functional glosses on the kośa stack, consistent with the ledger frame built through the essay and presented as interpretation rather than traditional doctrine.",
+      "legacy": {
+        "anchor": "blind-v231:L69",
+        "quote": "The manomaya kośa narrates it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 extraction — new coverage finding; legacy audits not consulted per blind-pass protocol."
+      }
+    }
+  ]
+}

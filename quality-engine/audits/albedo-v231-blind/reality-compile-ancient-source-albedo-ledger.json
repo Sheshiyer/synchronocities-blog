@@ -1,0 +1,928 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "reality-compile-ancient-source.md",
+  "source_path": "src/content/posts/reality-compile-ancient-source.md",
+  "source_sha256": "1ef5c921857993dcebea8cc73ef91e091bba0474c237022ef57bca7c6ac6f657",
+  "legacy_audit_path": "quality-engine/audits/nigredo/reality-compile-ancient-source.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "Somewhere in the Rigveda, composed roughly 3,500 years ago"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Mainstream dating places Rigvedic composition around 1500–1200 BCE; 'roughly 3,500 years ago' (~1500 BCE) is within the accepted range and hedged with 'roughly'.",
+      "legacy": {
+        "anchor": "BLIND-v231 L29",
+        "quote": "composed roughly 3,500 years ago",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 29,
+        "quote": "It was source code. Executable instructions written in a language that targets consciousness as its runtime environment."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay's central device — mantra as literal source code — is an extended computational metaphor explicitly declared to be literal fact ('This is not a metaphor'). Load-bearing for the entire thesis; presenting the analogy as technical observation is precisely mode conflation. Either declare the figurative boundary or supply the technical evidence.",
+      "legacy": {
+        "anchor": "BLIND-v231 L29-31",
+        "quote": "It was source code. Executable instructions written in a language that targets consciousness as its runtime environment.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 35,
+        "quote": "Every programming language requires a compiler or interpreter — something that transforms human-readable source code into machine-executable instructions."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate simplification of language implementation at the strength needed by the analogy; borderline overbreadth (assembly, direct hardware description) noted but immaterial here.",
+      "legacy": {
+        "anchor": "BLIND-v231 L35",
+        "quote": "Every programming language requires a compiler or interpreter",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "The ancient rishis were not mystics in the modern sense. They were systems architects who understood something that contemporary neuroscience is only beginning to map"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Attributes neuroscientific understanding ('what contemporary neuroscience is only beginning to map') to Vedic rishis without any textual or historical evidence; an anachronistic projection asserted as biographical fact.",
+      "legacy": {
+        "anchor": "BLIND-v231 L37",
+        "quote": "They were systems architects who understood something that contemporary neuroscience is only beginning to map",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 37,
+        "line_end": 37,
+        "quote": "that specific sound frequencies, delivered through specific vocal configurations, produce specific neurological states"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A frequency-to-neurological-state mapping asserted as established fact. Chanting/vocalization effects on physiology have some literature, but the specific mapping claimed here is given no source, measure, or conditions.",
+      "legacy": {
+        "anchor": "BLIND-v231 L37",
+        "quote": "specific sound frequencies, delivered through specific vocal configurations, produce specific neurological states",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Consider the Gayatri Mantra. Twenty-four syllables."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Gāyatrī meter consists of three pādas of eight syllables — 24 total. Correct textual fact; the count is a calendrical-style datum, not a consequential mathematical object.",
+      "legacy": {
+        "anchor": "BLIND-v231 L39",
+        "quote": "Twenty-four syllables.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "Each syllable mapped to a specific energy center."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Syllable-to-center mappings do exist in some Gāyatrī upāsanā/nyāsa manuals, but no tradition, text, or teacher is named, so the attribution cannot be verified as stated. Fails the TRADITIONAL-SOURCE naming condition.",
+      "legacy": {
+        "anchor": "BLIND-v231 L39",
+        "quote": "Each syllable mapped to a specific energy center.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "The meter (*chandas*) is not aesthetic — it is a timing protocol that ensures the syllables hit the neural substrate in the correct sequence. Change the meter and the program crashes. Mispronounce a syllable and you get a runtime error."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts a literal neural timing mechanism and software failure semantics for chandas under the post's explicit non-metaphor declaration. No evidence ties meter to neural sequencing; the computational vocabulary is presented as mechanism, not analogy.",
+      "legacy": {
+        "anchor": "BLIND-v231 L39",
+        "quote": "Change the meter and the program crashes. Mispronounce a syllable and you get a runtime error.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 39,
+        "line_end": 39,
+        "quote": "The ancients called this *shabda-brahman* — the ultimate reality as sound."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Śabda-brahman is a genuine concept of the Sanskrit grammatical and Kashmir Śaiva traditions (e.g., Bhartṛhari's Vākyapadīya), and 'ultimate reality as sound' is a fair gloss. 'The ancients' is a loose naming, but the concept and gloss are accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231 L39",
+        "quote": "shabda-brahman — the ultimate reality as sound",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "Modern software architecture recognizes several layers: hardware, operating system, runtime, application."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard layered description of software systems, accurate as a simplification.",
+      "legacy": {
+        "anchor": "BLIND-v231 L43",
+        "quote": "hardware, operating system, runtime, application",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 43,
+        "quote": "The ancient systems mapped identical layers onto the human being"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The kośa↔software-layer correspondence is the author's modern synthesis, but the sentence attributes the mapping itself to 'the ancient systems' — synthesis laundering per grammar §5. No ancient text maps kośas onto hardware/OS/runtime/application layers.",
+      "legacy": {
+        "anchor": "BLIND-v231 L43",
+        "quote": "The ancient systems mapped identical layers onto the human being",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "**Root Process (Anandamaya Kosha)** — The bliss sheath."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The five kośa glosses (annamaya=physical, prāṇamaya=vital/breath, manomaya=mental, vijñānamaya=discernment, ānandamaya=bliss) faithfully render the Taittirīya Upaniṣad scheme. The software parentheticals are the author's mapping (flagged separately at C011); the traditional content itself is accurate.",
+      "legacy": {
+        "anchor": "BLIND-v231 L45-53",
+        "quote": "Root Process (Anandamaya Kosha) — The bliss sheath.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "the nervous system functioning as the bus architecture connecting input/output devices (senses) to the central processor (brain) and the deeper processing cores (the enteric nervous system, the cardiac neural network)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The enteric nervous system and intrinsic cardiac nervous system are real, documented structures; the existence claims are accurate. The bus/processor glosses are visible analogy inside parentheses and do not overstate the anatomy.",
+      "legacy": {
+        "anchor": "BLIND-v231 L45",
+        "quote": "the enteric nervous system, the cardiac neural network",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "Every experienced meditator knows that changing the breath pattern immediately alters the system state."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal appeal to what 'every experienced meditator knows' plus an immediacy claim; directionally plausible but stated without evidence, population, or qualification.",
+      "legacy": {
+        "anchor": "BLIND-v231 L47",
+        "quote": "changing the breath pattern immediately alters the system state",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "Like any runtime, it has garbage collection (sleep), memory management (attention), and process scheduling (the default mode network)."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A real neural structure (the default mode network) is assigned a software role ('process scheduling') that does not match its documented functional profile (mind-wandering, self-referential processing), and the mapping is asserted as technical fact under the post's non-metaphor declaration.",
+      "legacy": {
+        "anchor": "BLIND-v231 L49",
+        "quote": "process scheduling (the default mode network)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "This layer is always running, always returning 200 OK, regardless of what the application layer reports. Accessing it directly is what the traditions call enlightenment."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'The traditions' is too vague to verify; while Vedānta does associate ānanda with Brahman's nature, no named tradition or text is given for the enlightenment equivalence as stated.",
+      "legacy": {
+        "anchor": "BLIND-v231 L53",
+        "quote": "Accessing it directly is what the traditions call enlightenment.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "The Upanishads are interface specifications — formal contracts that define how the human system can interact with the deeper layers of reality."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Metaphor (Upanishads as API contracts) asserted as literal genre fact under the essay's explicit non-metaphor declaration; the figurative boundary is nowhere marked near the claim.",
+      "legacy": {
+        "anchor": "BLIND-v231 L57",
+        "quote": "The Upanishads are interface specifications",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The API call is the syllable AUM, which the text decomposes into three phonemes (A-U-M) plus the silence that follows. Each phoneme maps to a consciousness state. The silence maps to turiya."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate rendering of the Māṇḍūkya Upaniṣad: four avasthās (waking, dream, deep sleep, turīya) mapped to A, U, M, and the amātrā (the measureless silence). Text named and content faithful.",
+      "legacy": {
+        "anchor": "BLIND-v231 L59",
+        "quote": "Each phoneme maps to a consciousness state. The silence maps to turiya.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 59,
+        "quote": "The documentation is precise, versioned, and reproducible."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Applies software-release semantics ('versioned') to an orally transmitted scripture as a literal description of the text; undeclared metaphor carrying a propositional claim about the tradition's documentary rigor.",
+      "legacy": {
+        "anchor": "BLIND-v231 L59",
+        "quote": "precise, versioned, and reproducible",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "This is what distinguishes ancient source code from modern self-help: reproducibility. A mantra either works or it does not, and the conditions for success are specified with engineering precision."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Falsifiability/reproducibility claim for mantra efficacy asserted without any study or demonstrated protocol; 'specified with engineering precision' is assertion, not documented fact.",
+      "legacy": {
+        "anchor": "BLIND-v231 L61",
+        "quote": "A mantra either works or it does not",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 61,
+        "line_end": 61,
+        "quote": "The *adhikari* (qualified practitioner) must meet specific prerequisites. The *viniyoga* (application protocol) must be followed exactly. The *rishi* (original developer) is credited. The *devata* (target system) is identified."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Mantra-śāstra does specify ṛṣi, chandas, devatā, and viniyoga as the limbs of a mantra, and adhikāra (qualification) is a genuine prerequisite doctrine. The Sanskrit terms and their traditional roles are accurately rendered; the parenthetical software glosses are the author's mapping.",
+      "legacy": {
+        "anchor": "BLIND-v231 L61",
+        "quote": "The rishi (original developer) is credited. The devata (target system) is identified.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "This is why the Vedic tradition placed such extreme emphasis on oral transmission accuracy"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Vedic oral-preservation apparatus (śikṣā phonetics, pāṭha recitation modes) is well documented and did place extreme emphasis on phonetic accuracy; the fact of the emphasis is corroborated.",
+      "legacy": {
+        "anchor": "BLIND-v231 L67",
+        "quote": "the Vedic tradition placed such extreme emphasis on oral transmission accuracy",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "not out of superstition, but because a single corrupted token could change the program's behavior entirely."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Motivational/causal attribution for why the tradition valued phonetic accuracy, framed in software terms ('corrupted token'). No textual or historical evidence is given for this rationale; split from the corroborated fact of emphasis (C022).",
+      "legacy": {
+        "anchor": "BLIND-v231 L67",
+        "quote": "a single corrupted token could change the program's behavior entirely",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The mantra works even when the practitioner does not intellectually understand it, because compilation operates at a level below semantic interpretation."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Efficacy-without-comprehension claim with a pseudo-mechanism ('compilation... below semantic interpretation'); no evidence is offered that mantras produce effects independent of understanding.",
+      "legacy": {
+        "anchor": "BLIND-v231 L69",
+        "quote": "The mantra works even when the practitioner does not intellectually understand it",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "Through repetition, the neural pathways associated with the mantra become increasingly efficient. What initially requires conscious effort becomes automatic."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "General skill-automatization claim applied to mantra practice; consistent with learning science but asserted without any source, population, or measure at the stated strength.",
+      "legacy": {
+        "anchor": "BLIND-v231 L71",
+        "quote": "What initially requires conscious effort becomes automatic.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "This is why traditions prescribe specific repetition counts (108, 1,008, 100,000)"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Japa traditions do prescribe counts such as 108 (and multiples/puruscharana totals like 100,000); the existence of the prescriptions is accurately reported. The numbers as traditional facts are not mathematical objects; the pseudo-empirical gloss on them is flagged separately at C027.",
+      "legacy": {
+        "anchor": "BLIND-v231 L71",
+        "quote": "specific repetition counts (108, 1,008, 100,000)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 71,
+        "line_end": 71,
+        "quote": "these are not arbitrary numbers but empirically determined thresholds at which the optimization reaches critical levels."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "Claims the repetition counts are empirically determined efficacy thresholds. No experiment or dataset establishes 108/1,008/100,000 as critical optimization thresholds; the counts are numerological-traditional. The numbers are consequential to the efficacy argument but have no provenance.",
+      "legacy": {
+        "anchor": "BLIND-v231 L71",
+        "quote": "empirically determined thresholds at which the optimization reaches critical levels",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 73,
+        "line_end": 73,
+        "quote": "The output is not a belief or an idea but a direct experiential modification — measurable in brainwave patterns, hormonal cascades, and autonomic nervous system responses."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Measurability claim for mantra output across three physiological channels. Meditation research touches some of these measures, but the post cites nothing and asserts measurability for mantra execution specifically.",
+      "legacy": {
+        "anchor": "BLIND-v231 L73",
+        "quote": "measurable in brainwave patterns, hormonal cascades, and autonomic nervous system responses",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 77,
+        "line_end": 77,
+        "quote": "the Vedic insight that consciousness is fundamental and matter is derivative"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A fair gloss of the Vedantic reading of the Vedic corpus (e.g., Aitareya's prajñānaṃ brahma, Chāndogya's sat teaching); 'insight' correctly frames it as doctrine rather than empirical claim. Interpretive-school dependence noted.",
+      "legacy": {
+        "anchor": "BLIND-v231 L77",
+        "quote": "consciousness is fundamental and matter is derivative",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 85,
+        "quote": "The ancient debugging protocol was straightforward: if the program is not producing the expected output, check the following in order"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The five-step checklist is the author's own troubleshooting protocol, internally consistent within the declared frame. The 'ancient' framing borrows authority from the conflated thesis (C002) but the checklist itself asserts no external fact.",
+      "legacy": {
+        "anchor": "BLIND-v231 L79-85",
+        "quote": "if the program is not producing the expected output, check the following in order",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 87,
+        "line_end": 87,
+        "quote": "This debugging checklist is functionally identical to the troubleshooting methodology used by any competent systems administrator. The only difference is the substrate."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Functional comparison scoped by 'functionally identical' with the difference explicitly named ('the substrate'); the analogical boundary is visible and no literal inference follows. Borderline strength noted.",
+      "legacy": {
+        "anchor": "BLIND-v231 L87",
+        "quote": "functionally identical to the troubleshooting methodology used by any competent systems administrator",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The Vedas were transmitted orally for over a thousand years before being written down"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Standard scholarship: composition c. 1500–1200 BCE with purely oral transmission long preceding written redaction (late first millennium BCE or later); a gap exceeding a thousand years is corroborated.",
+      "legacy": {
+        "anchor": "BLIND-v231 L91",
+        "quote": "transmitted orally for over a thousand years before being written down",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "with an error rate that modern version control systems would envy"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Figurative hyperbole marked by the counterfactual 'would envy'; no literal error rate is asserted and the underlying preservation fidelity of the Vedic oral tradition is genuinely remarkable.",
+      "legacy": {
+        "anchor": "BLIND-v231 L91",
+        "quote": "an error rate that modern version control systems would envy",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The mantras still compile. The APIs still respond. The architecture documentation is still accurate."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Restates the essay's central conflation (C002) as present-tense operational fact: mantras compiling and APIs responding are asserted literally, with no figurative marker, and carry the efficacy thesis.",
+      "legacy": {
+        "anchor": "BLIND-v231 L91",
+        "quote": "The mantras still compile. The APIs still respond.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New coverage finding from BLIND v2.3.1 raw-source extraction pass; legacy audit not consulted and no legacy provenance asserted."
+      }
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "lorenz-kundli-implementation.md",
+  "source_path": "src/content/posts/lorenz-kundli-implementation.md",
+  "source_sha256": "6e569815b173bacfb23b3ee3be6f32b01763d99ff5c5050f46b13183d372b03e",
+  "legacy_audit_path": "quality-engine/audits/nigredo/lorenz-kundli-implementation.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 29,
+        "line_end": 30,
+        "quote": "\"Theory without implementation is philosophy. Implementation without theory is hacking. Both are necessary.\""
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "An epigraph quotation attributed to 'Engineering Meditation', an untraceable source that reads as a house-invented aphorism presented in quotation form. The attribution cannot be verified and should be corrected or marked as the author's own.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "— Engineering Meditation",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 34,
+        "line_end": 34,
+        "quote": "The Lorenz-Kundli framework requires three computational subsystems: a Lorenz system simulator, a Kundli chart engine, and a pattern mapping layer that bridges them."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Declared architecture of the author's own framework, with named subsystems and interfaces; presented as design, not as external fact, and internally consistent across the post.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "three computational subsystems",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 38,
+        "line_end": 38,
+        "quote": "The Lorenz system is three coupled ordinary differential equations with three parameters (sigma, rho, beta). The standard parameter values (sigma=10, rho=28, beta=8/3) produce the classic chaotic attractor."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Correct statement of the Lorenz (1963) system and its canonical parameters; the values drive the code below (minor cosmetic note: the code uses b=2.667 as an approximation of 8/3), are structurally consequential, and trace to the standard source.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "sigma=10, rho=28, beta=8/3",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "fourth-order Runge-Kutta is standard. The choice of time step matters: too large and the trajectory diverges from the attractor; too small and computational cost becomes prohibitive. A time step of 0.01 with 10,000 iterations produces a well-resolved attractor portrait."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Standard numerical-integration practice: RK4 is indeed the standard workhorse for the Lorenz system, and dt=0.01 over 10^4 steps yields a well-resolved attractor. The parameters directly determine the downstream computation and are traceable to standard practice.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "A time step of 0.01 with 10,000 iterations produces a well-resolved attractor portrait.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "This trajectory never repeats (the system is aperiodic) yet always remains confined to the attractor (the system is bounded)."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct qualitative statement of two established properties of the Lorenz attractor: aperiodicity and boundedness.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "never repeats (the system is aperiodic) yet always remains confined to the attractor",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The Kundli engine takes a birth datetime and geographic coordinates as input and computes the positions of nine grahas across twelve bhavas."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate description of standard Jyotish practice: a Kundli is computed from birth datetime and location, involving nine grahas and twelve bhavas; ephemeris-based celestial mechanics is indeed the computational core.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "nine grahas across twelve bhavas",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The trigonometric encoding preserves angular relationships while reducing dimensionality — similar to positional encoding in transformer architectures."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The projection (circular mean of cos/sin plus a second-harmonic z term) is fully specified in the code, is a valid angular encoding for the stated purpose, and is a declared design choice ('We need to project this down'); the transformer positional-encoding comparison is flagged as similarity. Borderline: 'preserves' slightly overstates a lossy projection, which the post itself concedes at line 177.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "trigonometric encoding preserves angular relationships while reducing dimensionality",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "Scale invariance detection uses box-counting to estimate fractal dimensions at different magnification levels. If the fractal dimension remains constant across scales, the pattern is self-similar"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct description of box-counting methodology and of the constant-dimension criterion for statistical self-similarity.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "box-counting to estimate fractal dimensions",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 114,
+        "line_end": 114,
+        "quote": "a signature of both Lorenz attractors and D-chart hierarchies"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserting that constant fractal dimension across scales is an established 'signature' of D-chart hierarchies states as fact what the post itself later admits is unvalidated (line 185: 'fractal dimension estimates need validation'). The claim needs scoping to a hypothesis.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "a signature of both Lorenz attractors and D-chart hierarchies",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 141,
+        "line_end": 141,
+        "quote": "Lyapunov exponents (sensitivity to initial conditions), correlation dimensions (attractor geometry), and mutual information (shared structure between the two trajectories)"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct glosses of the three standard dynamical-systems measures and what each captures.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Lyapunov exponents (sensitivity to initial conditions)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 143,
+        "line_end": 143,
+        "quote": "High mutual information indicates structural correspondence beyond chance."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The first two ratio heuristics are reasonable, but 'high mutual information indicates correspondence beyond chance' skips the required null-model comparison (MI can be high by construction on smooth coupled series) — a qualification the post itself supplies later at line 179. As stated, overstated.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "structural correspondence beyond chance",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 147,
+        "line_end": 147,
+        "quote": "The D-chart system provides a natural multi-scale framework. Each divisional chart represents the same data at a different resolution."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Fair paraphrase of the varga (divisional chart) technique in Parashari Jyotish: each varga re-divides the same birth data at finer granularity. The 'resolution' gloss is interpretive but faithful to the technique's structure.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "Each divisional chart represents the same data at a different resolution.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 169,
+        "line_end": 169,
+        "quote": "A scale invariance coefficient near zero indicates that pattern structure is preserved across all D-chart levels — the system is truly fractal."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-MATH", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": false
+      },
+      "rationale": "The coefficient is the coefficient of variation (std/mean) of four per-chart dimension estimates; a near-zero CV shows the estimates are similar, not that the underlying structure is self-affine — 'truly fractal' does not follow from this statistic. The criterion is misapplied, though not yet demonstrated false for any dataset, hence UNSUPPORTED rather than CONTRADICTED.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "the system is truly fractal",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 175,
+        "line_end": 175,
+        "quote": "The Swiss Ephemeris (via the `swisseph` Python library) provides planetary positions accurate to sub-arcsecond precision. This accuracy is necessary because the Kundli system is sensitive to initial conditions — birth time errors of minutes produce measurably different chart configurations."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Both claims hold: Swiss Ephemeris precision is sub-arcsecond for planetary longitudes, and a few minutes of birth-time error measurably shifts the ascendant and house cusps (roughly a degree of ascendant motion per four minutes).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "accurate to sub-arcsecond precision",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 177,
+        "line_end": 177,
+        "quote": "The trigonometric projection from nine dimensions to three necessarily discards information. The choice of projection matters. Different projections emphasize different relationships between grahas. A principled approach uses PCA to find the three-dimensional subspace that captures maximum variance"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Correct: any 9-to-3 projection is lossy, and PCA does select the linear subspace of maximum variance. Sound methodological claims.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "PCA to find the three-dimensional subspace that captures maximum variance",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 179,
+        "line_end": 179,
+        "quote": "Any apparent correspondence between Lorenz and Kundli trajectories must be tested against null models. Shuffled birth times, randomized planetary positions, and synthetic Lorenz trajectories with different parameters all serve as controls. The correspondence is meaningful only if it exceeds what random chance would produce."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Sound inferential methodology: surrogate-data null models are the correct control for claimed cross-system correspondence, and the necessity claim is methodologically correct.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "must be tested against null models",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 181,
+        "line_end": 181,
+        "quote": "Full Shadbala calculation for seven planets across six strength components, combined with Ashtakavarga computation for seven planets across twelve houses"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Accurate characterization of the two Jyotish techniques' computational shape: Shadbala's six strength components and Ashtakavarga's planet-by-house bindu computation (the full system also folds in the ascendant; 'seven planets' is an acceptable simplification for the load estimate).",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "seven planets across six strength components",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 185,
+        "line_end": 185,
+        "quote": "This framework is a scaffolding, not a completed building. The stub functions (`pass` blocks and placeholder calculations) indicate where empirical calibration is needed."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Honest declared self-assessment of the framework's maturity; consistent with the actual stub functions in the code blocks and with the validation caveats elsewhere in the post.",
+      "legacy": {
+        "anchor": "BLIND-v231",
+        "quote": "a scaffolding, not a completed building",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "NEW COVERAGE — blind v2.3.1 raw-source pass; legacy nigredo audit deliberately not consulted per blind rule; no legacy row counterfeited."
+      }
+    }
+  ]
+}

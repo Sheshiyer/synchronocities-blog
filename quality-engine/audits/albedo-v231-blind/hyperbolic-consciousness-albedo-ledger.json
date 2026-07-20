@@ -1,0 +1,1198 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "BOOTSTRAPPED",
+  "post": "hyperbolic-consciousness.md",
+  "source_path": "src/content/posts/hyperbolic-consciousness.md",
+  "source_sha256": "ec83f9f2bb9fa809e0a051d2cc5c3d1491e8f97090b03287ecb326009f1c0cb8",
+  "legacy_audit_path": "quality-engine/audits/nigredo/hyperbolic-consciousness.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 87,
+        "quote": "\"Is it possible to have a thermometer for how high on DMT someone is?\"\n> — Andrés Gómez Emilsson, Qualia Research Institute"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Epigraph attributed to a named, real source (Emilsson/QRI) whose published work on DMT phenomenology makes the quotation contextually faithful; the article's use of it matches QRI's stated research question.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Is it possible to have a thermometer for how high on DMT someone is? — Andrés Gómez Emilsson, Qualia Research Institute",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "The observable universe has a spatial curvature measured at κ ≈ 0. Flat."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Consistent with Planck-satellite cosmological constraints (Ω_k ≈ 0, flat within measurement error); stated at the strength the measurements support.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The observable universe has a spatial curvature measured at κ ≈ 0. Flat.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 91,
+        "line_end": 91,
+        "quote": "Every circuit in your nervous system — retinal ganglion cells, hippocampal place cells, vestibular balance loops — is calibrated to this geometry."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Universal claim about 'every circuit' of the nervous system being Euclidean-calibrated, with no source; place-cell and visual-system geometry is an active research question and the claim is asserted, not evidenced.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Every circuit in your nervous system — retinal ganglion cells, hippocampal place cells, vestibular balance loops — is calibrated to this geometry.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 93,
+        "line_end": 93,
+        "quote": "this flatness is La — the sculpting material, the resistance that gives form to formlessness. La is the ground Ba pushes off from. And La is Euclidean."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly situated inside the linked Kha-Ba-La architecture ('In the Kha-Ba-La architecture, this flatness is La'); the house term is defined and operated consistently through the article.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "this flatness is La — the sculpting material, the resistance that gives form to formlessness. La is the ground Ba pushes off from. And La is Euclidean.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 95,
+        "line_end": 95,
+        "quote": "The 2020 exponential curve that epidemiologists posted and entire nations could not parse was not a failure of math education."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-CAUSE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A population-level comprehension claim ('entire nations could not parse') plus a causal diagnosis ('not a failure of math education... a flat instrument'), both asserted without survey data or source.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The 2020 exponential curve that epidemiologists posted and entire nations could not parse was not a failure of math education.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 97,
+        "line_end": 97,
+        "quote": "area does not grow as πr² but as 2π(cosh(r) − 1). Exponentially."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The hyperbolic disk area formula A(r) = 2π(cosh r − 1) is the correct result for constant curvature K = −1, derivable from standard hyperbolic geometry, and the flat-versus-exponential contrast carries the article's central thesis.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "area does not grow as πr² but as 2π(cosh(r) − 1). Exponentially.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 109,
+        "line_end": 113,
+        "quote": "At r = 10, the hyperbolic disk contains 219 times the area of its Euclidean counterpart."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH", "R-PROVENANCE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The code's own formula gives A(10)/πr² = 2π(cosh 10 − 1)/100π ≈ 220.2× (≈69,183), not the claimed 219×/219.6×/69,004, and at r = 5 the code comment's '286 (3.6x)' contradicts the formula's actual output ≈460 (≈5.9×). The printed comment values do not match the computation they annotate, and the prose figure inherits the error. ('It is a phase transition in what \"nearby\" means' in the same line also misuses a physics term for smooth exponential divergence.)",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "At r = 10, the hyperbolic disk contains 219 times the area of its Euclidean counterpart.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 113,
+        "line_end": 113,
+        "quote": "turns out to be the native geometry of consciousness when La's grip loosens."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-MODEL", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Turns out to be' presents the house model's identification of consciousness geometry as an empirically discovered fact; the model vocabulary (La) is house-declared, but the world-claim about consciousness's 'native geometry' is asserted rather than evidenced or scoped as a model commitment.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "turns out to be the native geometry of consciousness when La's grip loosens.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 117,
+        "line_end": 125,
+        "quote": "The Kha-Ba-La triad is not a metaphor. It is an operational grammar. You discover what each term does only when you remove it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The triad is explicitly declared as the article's operational grammar, and the three removal thought-experiments (Kha-, Ba-, La-) are worked through consistently as that model's internal logic.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Kha-Ba-La triad is not a metaphor. It is an operational grammar. You discover what each term does only when you remove it.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 129,
+        "line_end": 129,
+        "quote": "Stitch six equilateral triangles at a corner and the surface lies flat. The angles sum to exactly 360°. There are precisely seventeen ways to tile this flat surface with repeating symmetry — the wallpaper groups, a hard mathematical ceiling."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "6 × 60° = 360° is correct, and the classification of exactly 17 wallpaper groups (Fedorov, Schönflies, Barlow) is an established theorem; both facts are consequential to the flatness-versus-curvature argument and trace to standard sources (also restated in the glossary, line 273).",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Stitch six equilateral triangles at a corner and the surface lies flat. The angles sum to exactly 360°. There are precisely seventeen ways to tile this flat surface with repeating symmetry — the wallpaper groups, a hard mathematical ceiling.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 131,
+        "line_end": 131,
+        "quote": "This is why kale curls. The leaf's growth rate exceeds its Euclidean surface allocation. The venation pattern — seven-at-a-corner — demands hyperbolic geometry."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Growth-induced curvature in leaves is a real research topic, but the specific claim that kale venation is literally 'seven-at-a-corner' and that this 'demands' hyperbolic geometry is asserted with no botanical or mathematical source.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "This is why kale curls. The leaf's growth rate exceeds its Euclidean surface allocation. The venation pattern — seven-at-a-corner — demands hyperbolic geometry.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 133,
+        "line_end": 133,
+        "quote": "You can stitch seventeen triangles at a corner and tile the result. A hundred mirrors at a single point. The number of possible symmetry groups is infinite."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "{3,17} satisfies (p−2)(q−2) > 4 and is a valid hyperbolic tiling, and the infinitude of hyperbolic symmetry groups is a standard theorem; the claims are correct and load-bearing for the curvature-creates-room argument.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "You can stitch seventeen triangles at a corner and tile the result. A hundred mirrors at a single point. The number of possible symmetry groups is infinite.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 137,
+        "line_end": 137,
+        "quote": "Andrés Gómez Emilsson of the Qualia Research Institute documented six levels of DMT experience"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Emilsson/QRI have published a DMT level taxonomy interpreted through hyperbolic geometry ('The Hyperbolic Geometry of DMT Experiences'); the attribution of the multi-level taxonomy to Emilsson is faithful.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Andrés Gómez Emilsson of the Qualia Research Institute documented six levels of DMT experience",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 137,
+        "line_end": 137,
+        "quote": "each corresponding to a measurable increase in experiential curvature. The taxonomy is not metaphorical."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "'Measurable' and 'not metaphorical' convert a phenomenological taxonomy into an instrumented quantity; no measurement instrument, unit, or dataset is provided, and QRI's own framing is interpretive rather than metrological.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "each corresponding to a measurable increase in experiential curvature. The taxonomy is not metaphorical.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 139,
+        "line_end": 149,
+        "quote": "**Threshold** (1–4 mg). Ba's perceptual medium thins. Surfaces tessellate with the seventeen wallpaper groups."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": true,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The six named levels with specific dose bands (1–4, 4–8, 8–12, 12–25, 25–30, 30+ mg) are presented as Emilsson's taxonomy; the broad structure plausibly matches QRI's published DMT curvature ladder, but the exact dose ranges and the 'Phase Inversion' label could not be verified against the QRI source in this blind pass, so the row is flagged for review.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "**Threshold** (1–4 mg). Ba's perceptual medium thins. Surfaces tessellate with the seventeen wallpaper groups.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 149,
+        "line_end": 149,
+        "quote": "Emilsson's metaphor: heat a rock until its crystal lattice melts. Whatever configurations the melt passes through, no residue survives."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly marked as 'Emilsson's metaphor' — the figurative boundary and the source are both declared, and no literal prediction is drawn from the image.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Emilsson's metaphor: heat a rock until its crystal lattice melts. Whatever configurations the melt passes through, no residue survives.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 153,
+        "line_end": 155,
+        "quote": "In 1984, researchers mapped the parameter space of video feedback — pointing a camera at its own output, tweaking angle, zoom, and noise. What they catalogued was the complete ontology of dynamical systems."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE", "R-ATTRIBUTE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 1984 video-feedback work (plausibly Crutchfield's experiments) is unnamed, and 'the complete ontology of dynamical systems' plus 'the four possible behaviors of any dynamical system with feedback' (line 155) overstate the catalog — the four-regime list omits quasiperiodic tori and other behaviors; vague attribution plus universal scope without a source.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "In 1984, researchers mapped the parameter space of video feedback — pointing a camera at its own output, tweaking angle, zoom, and noise. What they catalogued was the complete ontology of dynamical systems.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 157,
+        "line_end": 159,
+        "quote": "Samadhi lives in the upper-left: high energy, perfect symmetry, the fixed-point attractor. Psychotic break lives in the upper-right: high energy, pure noise. Creative flow occupies the center: moderate energy, the strange attractor regime where computation is most powerful."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Energy-Information landscape is presented as the article's declared coordinate model (crossing Emilsson's ladder with the feedback ontology), and the state placements are internally consistent within it; 'The Lorenz attractor IS a strange attractor' is additionally true as mathematics (Tucker 2002).",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Samadhi lives in the upper-left: high energy, perfect symmetry, the fixed-point attractor. Psychotic break lives in the upper-right: high energy, pure noise. Creative flow occupies the center: moderate energy, the strange attractor regime where computation is most powerful.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 163,
+        "line_end": 169,
+        "quote": "A DMT experience — or a meditation session, or a fever, or a creative episode — is not a point but a *trajectory*."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The three-trajectory scheme (vertical ascent, diagonal toward complexity, annealing arc) is developed inside the declared Energy-Information model and operates consistently with the article's axis definitions.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "A DMT experience — or a meditation session, or a fever, or a creative episode — is not a point but a *trajectory*.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 171,
+        "line_end": 171,
+        "quote": "In metallurgy, annealing heats a crystal until its lattice melts, dissolving grain boundaries and cold-work defects, then cools slowly so the lattice re-forms in a configuration that was unreachable from the cold state."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-DELETE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Metallurgical annealing is a sub-melting heat treatment that enables recovery and recrystallization in the solid state; it does not heat the metal 'until its lattice melts'. The description contradicts the process it names, and the error recurs in the glossary (line 239: 'heat a system past its melting point').",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "In metallurgy, annealing heats a crystal until its lattice melts, dissolving grain boundaries and cold-work defects, then cools slowly so the lattice re-forms in a configuration that was unreachable from the cold state.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C021",
+      "anchor": {
+        "line_start": 173,
+        "line_end": 173,
+        "quote": "Nociceptors fire in binary — action potential or not — and what you experience as intensity is `popcount()` across the receptor array."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "All-or-none action potentials are standard, but pain intensity is coded by firing rate, fiber recruitment, and central processing — the population-'popcount()' model is asserted as fact with no source and omits the dominant rate-coding mechanism.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Nociceptors fire in binary — action potential or not — and what you experience as intensity is `popcount()` across the receptor array.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C022",
+      "anchor": {
+        "line_start": 175,
+        "line_end": 175,
+        "quote": "Robin Carhart-Harris calls this entropic disintegration."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Carhart-Harris's entropic-brain program (and REBUS with Friston) uses entropy/disintegration vocabulary for psychedelic dissolution of prior structure; the attribution is faithful to that published framework.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Robin Carhart-Harris calls this entropic disintegration.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C023",
+      "anchor": {
+        "line_start": 177,
+        "line_end": 177,
+        "quote": "The body remembers what the mind would prefer to forget, and pain is the retrieval protocol."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A mechanism claim about somatic memory and pain as a 'retrieval protocol', stated as fact with no clinical or neuroscientific source; it functions as undeclared house-model vocabulary wearing empirical dress.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The body remembers what the mind would prefer to forget, and pain is the retrieval protocol.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C024",
+      "anchor": {
+        "line_start": 185,
+        "line_end": 191,
+        "quote": "At T → 0, the distribution collapses. One token wins. One geodesic through meaning-space."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "The softmax-with-temperature formula P(i) = exp(logit_i / T) / Σ exp(logit_j / T) is stated correctly, the T → 0 argmax collapse and T → ∞ uniform limit are mathematically correct, and the formula is the standard temperature-scaled sampling mechanism of LLMs; it anchors the article's temperature-unification argument.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "At T → 0, the distribution collapses. One token wins. One geodesic through meaning-space.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C025",
+      "anchor": {
+        "line_start": 193,
+        "line_end": 193,
+        "quote": "The equations are the same. The substrates differ. The geometry does not."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Softmax and Boltzmann distributions share functional form ('the equations are the same' is defensible), but 'the geometry does not [differ]' asserts an identity between token-space and configuration-space geometry that is never demonstrated — the synthesis outruns its ingredient.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The equations are the same. The substrates differ. The geometry does not.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C026",
+      "anchor": {
+        "line_start": 195,
+        "line_end": 197,
+        "quote": "Equatorial cultures — high ambient temperature, mitochondria calibrated for peak metabolic output — produce high-context languages."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A latitude-to-linguistic-contextuality law ('Equatorial cultures produce high-context languages... Polar cultures produce low-context languages', line 197) with no linguistic, anthropological, or physiological source; Hall's high/low-context typology has no established latitudinal correlation, and the mitochondrial calibration premise is unevidenced.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Equatorial cultures — high ambient temperature, mitochondria calibrated for peak metabolic output — produce high-context languages.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C027",
+      "anchor": {
+        "line_start": 195,
+        "line_end": 195,
+        "quote": "Sanskrit compresses entire philosophical systems into syllables because that is the only way to encode exponentially branching meaning in a linear phonemic stream"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-CAUSE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A causal-historical claim about why Sanskrit has its form ('because that is the only way...'), asserted as settled linguistic fact with no source; the necessity claim ('the only way') is unfalsifiable as stated.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Sanskrit compresses entire philosophical systems into syllables because that is the only way to encode exponentially branching meaning in a linear phonemic stream",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C028",
+      "anchor": {
+        "line_start": 199,
+        "line_end": 199,
+        "quote": "The output is not wrong — it is non-Euclidean."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The reframing of high-temperature LLM output as 'non-Euclidean' is presented within the article's declared geometric model as an interpretive move ('You call it hallucination because your decoder is calibrated for flat space'), and it is internally consistent with that framework.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The output is not wrong — it is non-Euclidean.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C029",
+      "anchor": {
+        "line_start": 203,
+        "line_end": 203,
+        "quote": "Temperature is the parameter that moves between them — in crystal lattices, in kale leaves, in DMT phenomenology, in LLM token distributions, in the mitochondrial calibration of equatorial versus polar cognition."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The unifying-parameter thesis rests on ingredients that fail independently (kale mechanism C011, latitude-cognition claim C026, geometry-identity C025); per the synthesis rule, a synthesis built on failing ingredients is UNSUPPORTED.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Temperature is the parameter that moves between them — in crystal lattices, in kale leaves, in DMT phenomenology, in LLM token distributions, in the mitochondrial calibration of equatorial versus polar cognition.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C030",
+      "anchor": {
+        "line_start": 205,
+        "line_end": 205,
+        "quote": "two people who begin one misunderstanding apart diverge exponentially in hyperbolic relational space — the gap widens faster than linear reconciliation can close"
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-METAPHOR"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A pseudo-quantitative prediction about interpersonal conflict ('diverge exponentially... faster than linear reconciliation can close') dressed in the article's geometric vocabulary with no figurative marker and no measurable content — an undeclared, load-bearing metaphor asserting a literal dynamic.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "two people who begin one misunderstanding apart diverge exponentially in hyperbolic relational space — the gap widens faster than linear reconciliation can close",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C031",
+      "anchor": {
+        "line_start": 205,
+        "line_end": 205,
+        "quote": "the 2020 pandemic curve broke governments because their decision-making apparatus was Euclidean in a hyperbolic crisis."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-CAUSE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A causal historical diagnosis of governmental pandemic failure attributed to 'Euclidean decision-making apparatus', with no evidence, case analysis, or source; the geometric vocabulary does not discharge the causal burden.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "the 2020 pandemic curve broke governments because their decision-making apparatus was Euclidean in a hyperbolic crisis.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C032",
+      "anchor": {
+        "line_start": 207,
+        "line_end": 207,
+        "quote": "They are maps drawn by cultures whose languages, metabolisms, and contemplative technologies were calibrated for hyperbolic territory."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SYNTHESIS", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The claim that Vedic astronomical systems were produced by cultures 'calibrated for hyperbolic territory' inherits the failing latitude-language-metabolism ingredient (C026, C027) and asserts a cultural-cognitive calibration no evidence is offered for.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "They are maps drawn by cultures whose languages, metabolisms, and contemplative technologies were calibrated for hyperbolic territory.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C033",
+      "anchor": {
+        "line_start": 207,
+        "line_end": 207,
+        "quote": "It is a traversal instrument evolved for exponentially branching meaning-space — the linguistic equivalent of the Poincaré disk, compressing infinite semantic area into [finite phonemic sequence](/posts/nakshatra-fibonacci-sequences)."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The comparison is explicitly framed as an equivalence-of-function image ('the linguistic equivalent of the Poincaré disk'), and the glossary (line 263) restates it as 'an analogy for how Sanskrit compresses'; no literal numeric or causal prediction is extracted from the disk model here.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "It is a traversal instrument evolved for exponentially branching meaning-space — the linguistic equivalent of the Poincaré disk, compressing infinite semantic area into finite phonemic sequence.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C034",
+      "anchor": {
+        "line_start": 209,
+        "line_end": 209,
+        "quote": "consciousness is not produced by spacetime. Spacetime is a structure within the noetic field."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Explicitly attributed to the named house framework ('The noetic aether framework provides the ontological ground'), stated as that framework's ontological commitment and operated consistently with the Kha-Ba-La vocabulary.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "consciousness is not produced by spacetime. Spacetime is a structure within the noetic field.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C035",
+      "anchor": {
+        "line_start": 217,
+        "line_end": 219,
+        "quote": "Adi Shankaracharya's *Soundarya Lahari* — \"The Wave of Beauty\" — is a hundred verses addressed to the goddess as the embodiment of Sri Yantra"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Soundarya Lahari's traditional attribution to Adi Shankaracharya (conventionally dated 8th century CE), its 100-verse count, its title translation, and its association with the goddess and Sri Yantra are all faithful to the tradition's own account, which is what the sentence reports.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Adi Shankaracharya's Soundarya Lahari — \"The Wave of Beauty\" — is a hundred verses addressed to the goddess as the embodiment of Sri Yantra",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C036",
+      "anchor": {
+        "line_start": 219,
+        "line_end": 219,
+        "quote": "Conventionally read as devotional poetry. It is not. Every verse is an instruction. Every instruction maps a geometric operation."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-REMODE", "R-SYNTHESIS"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The author's idiosyncratic reading is asserted as the text's fact ('It is not [devotional poetry]') against the conventional reading, with Noesis authorship of the interpretation hidden behind declarative identity language.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Conventionally read as devotional poetry. It is not. Every verse is an instruction. Every instruction maps a geometric operation.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C037",
+      "anchor": {
+        "line_start": 221,
+        "line_end": 221,
+        "quote": "The Sri Yantra is built from nine interlocking triangles — four pointing upward (Shiva, Kha), five pointing downward (Shakti, Ba) — arranged around a central bindu point. The intersections create forty-three smaller triangles organized into nine *avaranas* (enclosures)."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "evidence_eligible": true
+      },
+      "rationale": "Nine triangles (four upward Shiva, five downward Shakti), 43 sub-triangles, central bindu, and nine avaranas are the correct, standard structural counts of the Sri Yantra as described in the Srividya tradition; the counts are consequential to the article's geometric argument and trace to the traditional geometry.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The Sri Yantra is built from nine interlocking triangles — four pointing upward (Shiva, Kha), five pointing downward (Shakti, Ba) — arranged around a central bindu point. The intersections create forty-three smaller triangles organized into nine avaranas (enclosures).",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C038",
+      "anchor": {
+        "line_start": 221,
+        "line_end": 221,
+        "quote": "The triangles interlock in a way that requires three-dimensional stacking — a fact that only became computationally verifiable in the twentieth century. The geometry is hyperbolic. Too many triangles for flat space to hold."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "CONTRADICTED",
+      "remediation_codes": ["R-MATH", "R-DELETE"],
+      "requires_review": false,
+      "math": {
+        "role": "WRONG",
+        "load_bearing": false,
+        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Sri Yantra is a planar diagram — nine triangles demonstrably fit in flat space, so 'too many triangles for flat space to hold' is false (the genuine construction difficulty is over-constrained triple intersections, not curvature). 'Requires three-dimensional stacking' and 'the geometry is hyperbolic' misapply geometric terms, and the 'computationally verifiable in the twentieth century' provenance is unprovenanced; the error recurs in the glossary (line 267).",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "The triangles interlock in a way that requires three-dimensional stacking — a fact that only became computationally verifiable in the twentieth century. The geometry is hyperbolic. Too many triangles for flat space to hold.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C039",
+      "anchor": {
+        "line_start": 223,
+        "line_end": 223,
+        "quote": "Each *avarana* corresponds to a layer of experiential territory. The outermost enclosure — the *bhupura*, the square earth boundary"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The bhupura (square outer enclosure) is correctly identified as the outermost avarana, and the mapping of avaranas to progressive layers of practice/experience reflects the Srividya tradition's own usage.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Each avarana corresponds to a layer of experiential territory. The outermost enclosure — the bhupura, the square earth boundary",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C040",
+      "anchor": {
+        "line_start": 223,
+        "line_end": 223,
+        "quote": "As you move inward through the nine layers, the curvature increases. The innermost triangle — the space surrounding the bindu — is so curved that it collapses to a dimensionless point."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The inward-curvature-increase reading of the avaranas is the author's synthesis (built on the false hyperbolicity claim C038), presented as the diagram's own geometric property with no declaration of Noesis authorship and no geometric demonstration.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "As you move inward through the nine layers, the curvature increases. The innermost triangle — the space surrounding the bindu — is so curved that it collapses to a dimensionless point.",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C041",
+      "anchor": {
+        "line_start": 225,
+        "line_end": 225,
+        "quote": "each shloka a coordinate pair specifying the curvature level and the information regime of a particular avarana"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "MODE-CONFLATED",
+      "remediation_codes": ["R-SYNTHESIS", "R-REMODE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Asserts that the Soundarya Lahari's verses literally encode curvature/information coordinate pairs — the author's retrospective mapping presented as the text's content, laundering the Noesis synthesis into a claim about what Shankara encoded 'twelve centuries before Emilsson'.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "each shloka a coordinate pair specifying the curvature level and the information regime of a particular avarana",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C042",
+      "anchor": {
+        "line_start": 227,
+        "line_end": 227,
+        "quote": "If this reading holds, it means the Soundarya Lahari is not devotional literature that can be *compared to* non-Euclidean cartography. It IS non-Euclidean cartography"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The strong identity claim is explicitly conditionalized ('If this reading holds'), which declares its dependence on the author's interpretation and keeps the synthesis within the strength its premises permit.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "If this reading holds, it means the Soundarya Lahari is not devotional literature that can be compared to non-Euclidean cartography. It IS non-Euclidean cartography",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C043",
+      "anchor": {
+        "line_start": 261,
+        "line_end": 261,
+        "quote": "Kundli charts (Vedic astronomy, ~3000 years ago)"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The ~3000-year dating of kundli/Vedic astronomical chart systems is asserted in the glossary without provenance; the chart-based systems referenced (Vimshottari, Ashtakavarga) are attested far later in standard textual dating.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "Kundli charts (Vedic astronomy, ~3000 years ago)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    },
+    {
+      "id": "C044",
+      "anchor": {
+        "line_start": 261,
+        "line_end": 261,
+        "quote": "the [Vimshottari Dasha](/posts/vimshottari-dasha-markov-chains) sequence is a 120-year limit cycle"
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The 120-year Vimshottari cycle is accurate to the tradition, and its redescription as a limit cycle occurs inside the explicitly named Lorenz-Kundli research frame, consistent with the article's declared model vocabulary.",
+      "legacy": {
+        "anchor": "N/A — blind v2.3.1 pass",
+        "quote": "the Vimshottari Dasha sequence is a 120-year limit cycle",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind extraction; legacy nigredo ledger not consulted. No legacy row claimed for this claim."
+      }
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "72-hour-state-trace-protocol.md",
+  "source_path": "src/content/posts/72-hour-state-trace-protocol.md",
+  "source_sha256": "a64b630f56f93e07905bd0ed5a53cf54b8286af0914b499a62551d9ac320d490",
+  "legacy_audit_path": "quality-engine/audits/nigredo/72-hour-state-trace-protocol.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 27,
+        "line_end": 27,
+        "quote": "If your state is unstable, your decisions are stress snapshots."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "A causal-flavored conditional about decision quality under unstable nervous-system states is asserted as fact with no evidence or qualification; it functions as the post's motivating premise and needs sourcing or scoping to the author's observation.",
+      "legacy": {
+        "anchor": "L27",
+        "quote": "\"your decisions are stress snapshots\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 35,
+        "line_end": 41,
+        "quote": "**State** — sympathetic (fight/flight), parasympathetic (rest), or freeze"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The tri-state autonomic taxonomy (sympathetic / parasympathetic / freeze) is presented as settled neurophysiology; the freeze category as a third distinct state derives from polyvagal-style frameworks whose empirical standing is contested, and no source is cited.",
+      "legacy": {
+        "anchor": "L35–41",
+        "quote": "\"sympathetic (fight/flight), parasympathetic (rest), or freeze\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 45,
+        "line_end": 45,
+        "quote": "72 hours is the minimum sample to see a pattern through noise."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-PROVENANCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A pseudo-precise sampling threshold asserted with no dataset, method, or derivation. The 72-hour figure is structurally consequential — it names and defines the protocol — but its provenance is entirely absent, so it cannot stand as an empirical minimum.",
+      "legacy": {
+        "anchor": "L45",
+        "quote": "\"72 hours is the minimum sample to see a pattern through noise.\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "One day catches mood. Two days catches reaction. Three days catches the *recursive loop*"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Day-count thresholds for what each observation window can reveal are asserted as general facts about self-tracking; no evidence distinguishes one-, two-, and three-day windows beyond the author's say-so.",
+      "legacy": {
+        "anchor": "L47",
+        "quote": "\"Three days catches the *recursive loop*\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "La — inertia — needs 72 hours to reveal its groove."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "La is house vocabulary, glossed inline as inertia, and the sentence is internally consistent within the Kha-Ba-La model. The house frame is never explicitly declared in the post, and the model claim inherits the unsupported 72-hour duration flagged in C003.",
+      "legacy": {
+        "anchor": "L49",
+        "quote": "\"La — inertia — needs 72 hours to reveal its groove.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 60,
+        "line_end": 60,
+        "quote": "Do this 5-6 times per day. For 3 days. That's 15-18 data points."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["KEEP"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "PASS" },
+        "evidence_eligible": false
+      },
+      "rationale": "The arithmetic is correct (5–6 logs/day × 3 days = 15–18) on stipulated protocol inputs, but the count has no argumentative consequence — it restates the protocol rather than supporting an inference.",
+      "legacy": {
+        "anchor": "L60",
+        "quote": "\"That's 15-18 data points.\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 66,
+        "line_end": 68,
+        "quote": "when narrative shifts but somatic signal holds constant, you've found the La groove"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The diagnostic rule (signal constant + story changing = La groove) is a coherent model-internal criterion for the house concept La, but the Kha-Ba-La frame is used without ever being declared as a Noesis/house model in this post.",
+      "legacy": {
+        "anchor": "L66–68",
+        "quote": "\"you've found the La groove\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 74,
+        "line_end": 74,
+        "quote": "2-3 trigger categories produce 80% of state shifts"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-PROVENANCE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A pseudo-Pareto statistic offered as a typical finding with no dataset, instrument, or even author-collected log cited. The 80% adds precision-aura without structural consequence or provenance.",
+      "legacy": {
+        "anchor": "L74",
+        "quote": "\"2-3 trigger categories produce 80% of state shifts\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 75,
+        "line_end": 76,
+        "quote": "Your \"decisions\" cluster in one state — most people make moves from activation, not coherence"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Two empirical generalizations presented as typical findings: one dominant body region per person, and most people deciding from activation. Neither is sourced beyond 'what you'll typically find'; both need population and measure.",
+      "legacy": {
+        "anchor": "L75–76",
+        "quote": "\"most people make moves from activation, not coherence\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 78,
+        "line_end": 78,
+        "quote": "The Anatomist doesn't fix the body. The Anatomist reads it."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The Anatomist persona is house vocabulary for the read-don't-fix stance; internally consistent, but the house frame is never declared in the post, so the model declaration needs repair.",
+      "legacy": {
+        "anchor": "L78",
+        "quote": "\"The Anatomist doesn't fix the body. The Anatomist reads it.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 84,
+        "line_end": 84,
+        "quote": "the 10-minute window when state shifts from settled to activated"
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-PROVENANCE", "R-SCOPE"],
+      "requires_review": false,
+      "math": {
+        "role": "DECORATIVE",
+        "load_bearing": false,
+        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "evidence_eligible": false
+      },
+      "rationale": "A pseudo-precise 10-minute transition window asserted as the typical duration of state shifts with no source or observation record; the number neither follows from the protocol nor is it provenanced.",
+      "legacy": {
+        "anchor": "L84",
+        "quote": "\"the 10-minute window when state shifts\"",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 86,
+        "line_end": 86,
+        "quote": "That transition is Ba's handoff protocol. Learn to read it and you can intervene at the speed of signal, not the speed of story."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "Ba is house vocabulary (the body/vehicle), and the claim is a coherent model-internal statement about intervention timing. The promised efficacy ('you can intervene at the speed of signal') stays within the model's own terms, but the house frame is undeclared in the post.",
+      "legacy": {
+        "anchor": "L86",
+        "quote": "\"That transition is Ba's handoff protocol.\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 92,
+        "line_end": 92,
+        "quote": "You don't need more self-awareness. You need a diagnostic protocol precise enough to show you what awareness alone misses."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": ["R-MODEL"],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "evidence_eligible": false
+      },
+      "rationale": "The closing value proposition — structured tracing reveals what unaided awareness misses — is the protocol's stipulative thesis and is consistent with the model as built. Its implied comparative efficacy, however, is asserted rather than demonstrated, so the frame should be declared as a model claim.",
+      "legacy": {
+        "anchor": "L92",
+        "quote": "\"a diagnostic protocol precise enough to show you what awareness alone misses\"",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Blind v2.3.1 raw-source pass; legacy audit not consulted per BLIND rule. New coverage finding."
+      }
+    }
+  ]
+}
