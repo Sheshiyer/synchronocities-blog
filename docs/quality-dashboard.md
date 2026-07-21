@@ -7,21 +7,21 @@
 | Metric | Count |
 |--------|-------|
 | Total Posts | 125 |
-| ✅ PASS | 24 |
-| ⚠️ WARNING | 101 |
+| ✅ PASS | 25 |
+| ⚠️ WARNING | 100 |
 | ❌ FAIL | 0 |
 
-**Overall Health: 19.2%**
+**Overall Health: 20.0%**
 
 ## 🔬 Top 5 Contamination Signatures
 
 | Rank | Term | Occurrences |
 |------|------|-------------|
-| 1 | `path` | 76 |
+| 1 | `path` | 74 |
 | 2 | `ai ` | 21 |
-| 3 | `optimization` | 10 |
-| 4 | `healing` | 8 |
-| 5 | `truth` | 6 |
+| 3 | `vibration` | 15 |
+| 4 | `optimization` | 8 |
+| 5 | `healing` | 7 |
 
 ## 📈 Trend Over Time
 
@@ -45,9 +45,9 @@ These posts are the gold standard for brand voice, structural integrity, and Kha
 
 | Classification | Count |
 |------------------|-------|
-| OK | 4 |
-| WARNING | 9 |
-| Drift | 112 |
+| OK | 5 |
+| WARNING | 61 |
+| Drift | 59 |
 
 ## 🚨 Posts Needing Attention
 
@@ -55,24 +55,24 @@ These posts are the gold standard for brand voice, structural integrity, and Kha
 |------|---------|----------|-----------|
 | `judgement-recollection-in-pai.md` | WARNING | 37 | Voice |
 | `temperance-compresses-to-essence.md` | WARNING | 40 | Vocabulary |
-| `bangkok-initiation-samui-invitation.md` | WARNING | 41 | Cosmological Coherence |
-| `the-hermit-72-hours.md` | WARNING | 42 | Cosmological Coherence |
+| `bangkok-initiation-samui-invitation.md` | WARNING | 43 | Cosmological Coherence |
 | `the-star-names-you.md` | WARNING | 43 | Cosmological Coherence |
 | `deep-trench-forge-shenzhen.md` | WARNING | 45 | Cosmological Coherence |
 | `the-earthquake-that-said-goodbye.md` | WARNING | 45 | Cosmological Coherence |
 | `the-sword-of-speech.md` | WARNING | 45 | Vocabulary |
-| `circle-over-inanna.md` | WARNING | 46 | Cosmological Coherence |
 | `the-fool-before-the-leap.md` | WARNING | 46 | Vocabulary |
-| `the-sacred-runtime.md` | WARNING | 46 | Cosmological Coherence |
 | `nadi-bioimpedance-protocol.md` | WARNING | 47 | Cosmological Coherence |
-| `shadbala-tensor-field-theory.md` | WARNING | 47 | Voice |
+| `the-hermit-72-hours.md` | WARNING | 47 | Vocabulary |
 | `ashtakavarga-hypercube-geometry.md` | WARNING | 48 | Cosmological Coherence |
+| `circle-over-inanna.md` | WARNING | 48 | Vocabulary |
 | `the-tower-speaks-in-richter-scale.md` | WARNING | 48 | Vocabulary |
 | `the-universe-four-creatures-assemble.md` | WARNING | 48 | Voice |
-| `compassion-runtime.md` | WARNING | 49 | Cosmological Coherence |
 | `enneagram-planetary-market.md` | WARNING | 49 | Voice |
 | `reality-compile-ancient-source.md` | WARNING | 49 | Cosmological Coherence |
 | `consciousness-legacy-code.md` | WARNING | 50 | Voice |
+| `noetic-aether-einsteinian-knot.md` | WARNING | 50 | Cosmological Coherence |
+| `reptilian-bios-architecture.md` | WARNING | 50 | Cosmological Coherence |
+| `enlightenment-lite-method.md` | WARNING | 51 | Cosmological Coherence |
 
 ---
 

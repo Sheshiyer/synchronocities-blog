@@ -56,7 +56,7 @@ figures:
   - id: engineered-obsolescence
     anchor: engineered-obsolescence
     asset: /images/posts/vessel-prepare-ukha-sambharana/04-engineered-obsolescence.png
-    alt: Bold BROKEN letterforms in dark terracotta clay color visibly shattering apart with ceramic fragments dispersing into the negative space, a brilliant golden fire-column rising vertically through the center of the broken type up into the sky, a ghost-image of an intact ukha-pot rendered as a faint blueprint at the bottom showing what the vessel was before breaking, five annotations labeling ukha, agni, samvatsara, visarjana, and operator
+    alt: Bold SEALED letterforms in dark terracotta fired clay immured into courses of Vedic fire-altar brick as the fifth layer of the altar wall, banked golden embers glowing low within the letters, an intact lidded ukha pot rendered as a golden wireframe blueprint below being refilled with streams of poured sand and milk, a ghost blueprint of the sealed vessel hovering above, five annotations labeling ukha, agni, samvatsara, avabhrtha, and operator
     caption: 'The vessel that did its work correctly is dismantled precisely because it did its work correctly. The operator is the only thing that remains. TN-VES04.'
     placement: closing
     reveal: always

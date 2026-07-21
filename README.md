@@ -144,6 +144,18 @@ npm run build        # static output → dist/ (43 pages)
 
 > If you see Vite cache errors after changes, run `rm -rf node_modules/.vite` then restart.
 
+## Quality & Semantic QA
+
+The local QA similarity checker (`scripts/semantic-vectorizer.py`) measures each post against the canonical PASS posts and writes `docs/semantic-similarity-report.json`.
+
+**Single embedding language:** e5-v5 (`nvidia/nv-embedqa-e5-v5`, 1024-d, cosine), served by the `synchronocities-ai` Cloudflare Worker — the same model and text form (title + excerpt + cleaned body[:800]) that embeds the production Vectorize index `synchronocities-corpus`. Local and production scores are directly comparable.
+
+```bash
+python scripts/semantic-vectorizer.py   # embeds via the Worker (default)
+```
+
+Auth: the Worker's `/test/*` routes are admin-gated — provide `ADMIN_API_KEY` as an env var or in `workers/.env` (gitignored). A fully-offline escape hatch exists behind `--offline` (requires `sentence-transformers`, uses `intfloat/e5-large-v2` — same e5 family), but the Worker path is the default and needs no local model. The old local MiniLM stack (384-d) was removed: it produced scores in a different vector language than the production index.
+
 ## Design System
 
 Colors from the Consciousness Color Spectrum (Goethe's Zur Farbenlehre):

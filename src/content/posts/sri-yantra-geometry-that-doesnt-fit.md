@@ -1,5 +1,5 @@
 ---
-title: Sri Yantra and the Geometry That Doesn't Fit
+title: Śrī Yantra and the Geometry That Doesn't Fit
 date: 2026-04-30T00:00:00.000Z
 revolution: 1
 draft: false
@@ -37,13 +37,13 @@ hero:
   variant: image
 llm:
   start_priority: supporting
-  summary: 'The Sri Yantra is composed of nine interlocking triangles (5 śakti pointing down, 4 śiva pointing up) carrying D₉ dihedral symmetry — 9-fold rotation × reflection. 9-fold rotational symmetry is forbidden by the crystallographic restriction on the flat plane. The outer 8-petal lotus, 16-petal lotus, three concentric circles, and square frame with cardinal gates carry periodic 4-fold or 8-fold structure. The figure is structurally Penrose-class: its inner symmetry is too rich for the plane to host periodically. Read structurally, the yantra signals that its natural ambient is hyperbolic. Piṅgala''s recursion (~200 BCE) generates what Halāyudha''s commentary drew explicitly — the Meru Prastāra, centuries before Pascal, originally constructed for enumerating Sanskrit prosodic patterns; it is the discrete combinatorial generator that yields the cardinality of the phonemic register itself. The 3D Maha Meru pyramid form resolves the planar quasi-periodicity by lifting off the plane. Both diagrams represent empirical geometric mastery long preceding formal theory — Fedorov 1891 for the wallpaper classification, Pascal 1654 for the binomial triangle. Through Kha-Ba-La: Kha is the bindu observer at the figure''s center; Ba is the page the figure refuses to stay flat on; La is the planar restriction that the inner symmetry deliberately exceeds.'
+  summary: 'The Śrī Yantra is composed of nine interlocking triangles (5 śakti pointing down, 4 śiva pointing up) carrying D₉ dihedral symmetry — 9-fold rotation × reflection. 9-fold rotational symmetry is forbidden by the crystallographic restriction on the flat plane. The outer 8-petal lotus, 16-petal lotus, three concentric circles, and square frame with cardinal gates carry periodic 4-fold or 8-fold structure. The figure is structurally Penrose-class: its inner symmetry is too rich for the plane to host periodically. Read structurally, the yantra signals that its natural ambient is hyperbolic. Piṅgala''s recursion (~200 BCE) generates what Halāyudha''s commentary drew explicitly — the Meru Prastāra, centuries before Pascal, originally constructed for enumerating Sanskrit prosodic patterns; it is the discrete combinatorial generator that yields the cardinality of the phonemic register itself. The 3D Maha Meru pyramid form resolves the planar quasi-periodicity by lifting off the plane. Both diagrams represent empirical geometric mastery long preceding formal theory — Fedorov 1891 for the wallpaper classification, Pascal 1654 for the binomial triangle. Through Kha-Ba-La: Kha is the bindu observer at the figure''s center; Ba is the page the figure refuses to stay flat on; La is the planar restriction that the inner symmetry deliberately exceeds.'
   cluster: consciousness-architecture
   canonical_questions:
-    - Why does Sri Yantra not fit on a flat plane?
+    - Why does Śrī Yantra not fit on a flat plane?
     - What is Meru Prastara and how does it relate to Pascal's triangle?
     - How does empirical geometric mastery precede formal mathematics?
-    - What does the 3D Maha Meru resolve about the 2D Sri Yantra?
+    - What does the 3D Maha Meru resolve about the 2D Śrī Yantra?
 experience:
   theme: signal
   rail: concept
@@ -54,14 +54,14 @@ experience:
     la: The planar crystallographic restriction — the structural friction that the inner figure deliberately exceeds, naming the cliff between flat and curved.
 ---
 
-# Sri Yantra and the Geometry That Doesn't Fit
+# Śrī Yantra and the Geometry That Doesn't Fit
 
 `Runtime Version: 2.0.0`
 
 > Four triangles of Śiva pointing up, five of Śakti pointing down — nine interlocking triangles branching into forty-three, ringed by the eight-petalled lotus, the sixteen-petalled lotus, three circles, and the triple-walled square.
 > — *Saundarya Laharī*, verse 11 (thematic paraphrase), attr. Ādi Śaṅkara, 8th c. CE
 
-The Sri Yantra is engineered hardware.
+The Śrī Yantra is engineered hardware.
 
 It looks like ornament. It is not. The figure is a geometric instrument designed to drive the substrate toward a specific state by exploiting a precise mismatch between its inner and outer symmetry. The mismatch is not decorative. It is the operational mechanism. Modern geometry can name what the figure has been doing for at least twelve hundred years.
 
@@ -83,11 +83,11 @@ The inner nine-triangle figure — five down, four up, interlocking through the 
 
 The load-bearing observation: **9-fold rotational symmetry is non-crystallographic**. It is one of the rotational orders forbidden by the crystallographic restriction. No wallpaper group carries 9-fold rotational symmetry. **No periodic tiling of the flat plane is possible with a 9-fold-symmetric pattern.** The Penrose tilings get five-fold; analogous quasi-periodic constructions produce seven-fold and nine-fold. None of them are wallpaper groups.
 
-The Sri Yantra is therefore **structurally Penrose-class**. Its inner figure carries a higher rotational symmetry than the plane can host periodically. The outer frame carries the highest *crystallographic* symmetry available (4-fold, 8-fold). The figure as a whole is a deliberate composition: a non-periodic core inside a periodic outer frame.
+The Śrī Yantra is therefore **structurally Penrose-class**. Its inner figure carries a higher rotational symmetry than the plane can host periodically. The outer frame carries the highest *crystallographic* symmetry available (4-fold, 8-fold). The figure as a whole is a deliberate composition: a non-periodic core inside a periodic outer frame.
 
 This is engineering. The yantra is built so that the inner core is *exactly* the symmetry order the plane refuses. The outer frame is the highest symmetry the plane permits. The composition forces the eye — and through the eye, the substrate — to confront the mismatch.
 
-The folk claim that *one can fall into the Sri Yantra* — that prolonged meditation on it produces apparent depth, three-dimensional emergence, the figure becoming a tunnel into something — is geometrically consistent with this engineering. The figure is signaling, structurally, that **it does not fit on the page**. Its natural ambient is not the flat plane. To honor the inner symmetry exactly, the figure must lift off the page into curved space.
+The folk claim that *one can fall into the Śrī Yantra* — that prolonged meditation on it produces apparent depth, three-dimensional emergence, the figure becoming a tunnel into something — is geometrically consistent with this engineering. The figure is signaling, structurally, that **it does not fit on the page**. Its natural ambient is not the flat plane. To honor the inner symmetry exactly, the figure must lift off the page into curved space.
 
 ## What the Diagram Drives the Substrate Toward
 
@@ -103,7 +103,7 @@ The same observation extends to other non-crystallographic mystical-tradition fi
 
 ## Pingala's Pascal's Triangle
 
-The combinatorial spine that gives Sri Yantra its symmetry-counting structure is the same one that gives the Devanagari phonemic register its cardinality. Both come from Pingala's **Chandaḥśāstra** (~200 BCE), the foundational text of Sanskrit prosody. Among other things it encodes the combinatorial recursion behind the **Meru Prastara** — the "Meru spread" — the triangular array, made explicit in Halāyudha's tenth-century commentary, enumerating prosodic patterns of laghu (light) and guru (heavy) syllables.
+The combinatorial spine that gives Śrī Yantra its symmetry-counting structure is the same one that gives the Devanagari phonemic register its cardinality. Both come from Pingala's **Chandaḥśāstra** (~200 BCE), the foundational text of Sanskrit prosody. Among other things it encodes the combinatorial recursion behind the **Meru Prastara** — the "Meru spread" — the triangular array, made explicit in Halāyudha's tenth-century commentary, enumerating prosodic patterns of laghu (light) and guru (heavy) syllables.
 
 The construction:
 
@@ -131,7 +131,7 @@ The name **Meru** — Mount Meru, the cosmic axis in Indian cosmology — is not
 
 ## The 3D Resolution
 
-There is a 3D rendering of the Sri Yantra known as **Sri Meru** or **Maha Meru** — the Sri Yantra projected as a step-pyramid, with the bindu at the apex and the successive triangle-rings stepping outward and downward as concentric tiers. The figure is well-known in South Indian temple iconography and is treated as a more complete form of the 2D yantra.
+There is a 3D rendering of the Śrī Yantra known as **Sri Meru** or **Maha Meru** — the Śrī Yantra projected as a step-pyramid, with the bindu at the apex and the successive triangle-rings stepping outward and downward as concentric tiers. The figure is well-known in South Indian temple iconography and is treated as a more complete form of the 2D yantra.
 
 Read combinatorially, Maha Meru is the **cumulative Meru Prastara**: each tier is a row of Pingala's triangle, stacked. The 3D form is the integrated combinatorial volume of the 2D enumeration.
 
@@ -151,7 +151,7 @@ The pattern recurs and is worth marking explicitly.
 
 **Fibonacci published the recursion in 1202.** Pingala had it; Hemachandra (12th c.) worked it out independently and earlier.
 
-**Quasi-periodic tilings were formalized by Penrose in 1974.** Islamic geometric tradition produced quasi-periodic decagonal tilings on the Darb-i Imam shrine ~1453 (documented by Lu and Steinhardt, 2007, *Science*). The Sri Yantra is constructed quasi-periodically much earlier.
+**Quasi-periodic tilings were formalized by Penrose in 1974.** Islamic geometric tradition produced quasi-periodic decagonal tilings on the Darb-i Imam shrine ~1453 (documented by Lu and Steinhardt, 2007, *Science*). The Śrī Yantra is constructed quasi-periodically much earlier.
 
 **Schläfli classified regular hyperbolic tilings in the mid-19th century.** Coxeter extended the work in the 20th. Mystical traditions were drawing such symmetries into iconography long before.
 

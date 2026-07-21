@@ -82,7 +82,6 @@ def scan_file(path: Path) -> dict:
     except Exception as e:
         return {"error": str(e)}
 
-    text = content.lower()
     lines = content.splitlines()
 
     violations = {
@@ -91,26 +90,31 @@ def scan_file(path: Path) -> dict:
         "emergent": [],
     }
 
-    # CRITICAL: WitnessOS
+    # CRITICAL: WitnessOS — deliberate substring match (multiword brand name).
     for term in AVOID_CRITICAL:
         for idx, line in enumerate(lines, 1):
             if term.lower() in line.lower():
                 violations["critical"].append({"term": term, "line": idx, "text": line.strip()})
 
-    # STANDARD AVOID
+    # STANDARD AVOID — word-boundary match on the raw line (IGNORECASE).
+    # Eliminates substring false positives (pathology→path, Pai→ai, Chiang Mai→ai)
+    # while still catching standalone terms. Diacritics are preserved: the raw
+    # line is matched, never stripped or folded.
     for term in AVOID_STANDARD:
+        pattern = re.compile(r"\b" + re.escape(term) + r"\b", re.IGNORECASE)
         for idx, line in enumerate(lines, 1):
-            if term.lower() in line.lower():
+            if pattern.search(line):
                 # Skip if it's in a meta-critical quotation context (quoted in the line)
                 if '"' in line or "'" in line or "`" in line:
                     # Still flag it, but note it — we'll let the user decide
                     pass
                 violations["standard"].append({"term": term, "line": idx, "text": line.strip()})
 
-    # EMERGENT (outside authorized context)
+    # EMERGENT (outside authorized context) — word-boundary match on the raw line.
     for term in EMERGENT_TERMS:
+        pattern = re.compile(r"\b" + re.escape(term) + r"\b", re.IGNORECASE)
         for idx, line in enumerate(lines, 1):
-            if term.lower() in line.lower():
+            if pattern.search(line):
                 # Very simplistic context check: if it's in quotes or a proper noun title,
                 # we might skip. For now, flag all and let the user review.
                 violations["emergent"].append({"term": term, "line": idx, "text": line.strip()})
