@@ -37,7 +37,7 @@ hero:
   variant: image
 llm:
   start_priority: supporting
-  summary: 'The Sri Yantra is composed of nine interlocking triangles (5 śakti pointing down, 4 śiva pointing up) carrying D₉ dihedral symmetry — 9-fold rotation × reflection. 9-fold rotational symmetry is forbidden by the crystallographic restriction on the flat plane. The outer 8-petal lotus, 16-petal lotus, three concentric circles, and square frame with cardinal gates carry periodic 4-fold or 8-fold structure. The figure is structurally Penrose-class: its inner symmetry is too rich for the plane to host periodically. Read structurally, the yantra signals that its natural ambient is hyperbolic. Pingala''s Meru Prastara (~200 BCE) is Pascal''s triangle ~1800 years before Pascal, originally constructed for enumerating Sanskrit prosodic patterns; it is the discrete combinatorial generator that yields the cardinality of the phonemic register itself. The 3D Maha Meru pyramid form resolves the planar quasi-periodicity by lifting off the plane. Both diagrams represent empirical geometric mastery long preceding formal theory — Fedorov 1891 for the wallpaper classification, Pascal 1654 for the binomial triangle. Through Kha-Ba-La: Kha is the bindu observer at the figure''s center; Ba is the page the figure refuses to stay flat on; La is the planar restriction that the inner symmetry deliberately exceeds.'
+  summary: 'The Sri Yantra is composed of nine interlocking triangles (5 śakti pointing down, 4 śiva pointing up) carrying D₉ dihedral symmetry — 9-fold rotation × reflection. 9-fold rotational symmetry is forbidden by the crystallographic restriction on the flat plane. The outer 8-petal lotus, 16-petal lotus, three concentric circles, and square frame with cardinal gates carry periodic 4-fold or 8-fold structure. The figure is structurally Penrose-class: its inner symmetry is too rich for the plane to host periodically. Read structurally, the yantra signals that its natural ambient is hyperbolic. Piṅgala''s recursion (~200 BCE) generates what Halāyudha''s commentary drew explicitly — the Meru Prastāra, centuries before Pascal, originally constructed for enumerating Sanskrit prosodic patterns; it is the discrete combinatorial generator that yields the cardinality of the phonemic register itself. The 3D Maha Meru pyramid form resolves the planar quasi-periodicity by lifting off the plane. Both diagrams represent empirical geometric mastery long preceding formal theory — Fedorov 1891 for the wallpaper classification, Pascal 1654 for the binomial triangle. Through Kha-Ba-La: Kha is the bindu observer at the figure''s center; Ba is the page the figure refuses to stay flat on; La is the planar restriction that the inner symmetry deliberately exceeds.'
   cluster: consciousness-architecture
   canonical_questions:
     - Why does Sri Yantra not fit on a flat plane?
@@ -58,8 +58,8 @@ experience:
 
 `Runtime Version: 2.0.0`
 
-> "The Sri Yantra is the geometric body of mantra-energy."
-> — *Saundarya Laharī*, attr. Ādi Śaṅkara, 8th c. CE
+> Four triangles of Śiva pointing up, five of Śakti pointing down — nine interlocking triangles branching into forty-three, ringed by the eight-petalled lotus, the sixteen-petalled lotus, three circles, and the triple-walled square.
+> — *Saundarya Laharī*, verse 11 (thematic paraphrase), attr. Ādi Śaṅkara, 8th c. CE
 
 The Sri Yantra is engineered hardware.
 
@@ -103,7 +103,7 @@ The same observation extends to other non-crystallographic mystical-tradition fi
 
 ## Pingala's Pascal's Triangle
 
-The combinatorial spine that gives Sri Yantra its symmetry-counting structure is the same one that gives the Devanagari phonemic register its cardinality. Both come from Pingala's **Chandaḥśāstra** (~200 BCE), the foundational text of Sanskrit prosody. Among other things it constructs the **Meru Prastara** — the "Meru spread" — a triangular array enumerating prosodic patterns of laghu (light) and guru (heavy) syllables.
+The combinatorial spine that gives Sri Yantra its symmetry-counting structure is the same one that gives the Devanagari phonemic register its cardinality. Both come from Pingala's **Chandaḥśāstra** (~200 BCE), the foundational text of Sanskrit prosody. Among other things it encodes the combinatorial recursion behind the **Meru Prastara** — the "Meru spread" — the triangular array, made explicit in Halāyudha's tenth-century commentary, enumerating prosodic patterns of laghu (light) and guru (heavy) syllables.
 
 The construction:
 
@@ -119,7 +119,7 @@ The construction:
 
 Each entry is the sum of the two above it. Row *n* contains the binomial coefficients $\binom{n}{k}$ — the number of ways to choose *k* heavy syllables out of *n* prosodic positions.
 
-This is **Pascal's triangle**. Pingala constructed it approximately 1,800 years before Blaise Pascal's *Traité du Triangle Arithmétique* (1654). The naming convention is a minor historical injustice. The structure was Pingala's. His motivation was sonic.
+This is **Pascal's triangle**. Pingala encoded the combinatorial recursion that generates it roughly 1,800 years before Blaise Pascal's *Traité du Triangle Arithmétique* (1654); the explicit triangle itself is documented in Halāyudha's tenth-century commentary on the *Chandaḥśāstra* — still some seven centuries before Pascal. The naming convention is a minor historical injustice. The recursion was Pingala's. His motivation was sonic.
 
 What it gives:
 
@@ -147,7 +147,7 @@ The pattern recurs and is worth marking explicitly.
 
 **Fedorov classified the 17 wallpaper groups in 1891.** The Indian tradition was constructing yantras using the 4-fold, 6-fold, and 8-fold (and forbidden 5-fold, 7-fold, 9-fold) structures for at least 1,500 years before that. Not formally — empirically.
 
-**Pascal published the binomial triangle in 1654.** Pingala constructed it ~1,800 years earlier, in service of sonic enumeration.
+**Pascal published the binomial triangle in 1654.** Pingala encoded its recursion ~1,800 years earlier, in service of sonic enumeration; the explicit triangle is documented in Halāyudha's 10th-century commentary, still ~700 years before Pascal.
 
 **Fibonacci published the recursion in 1202.** Pingala had it; Hemachandra (12th c.) worked it out independently and earlier.
 

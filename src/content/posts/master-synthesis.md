@@ -213,7 +213,7 @@ Not cards pulled. **Cards lived.**
 - Recognition, bow
 - The World: completion, gratitude
 
-**Same coordinates. Different frequency.**
+**Same coordinates. Different frequency.** Both quakes were felt firsthand in my own body — the March 20 tremor connected to the Myanmar seismic activity, its epicenter not Bangkok, the May 11 event a separate, privately felt quake — first-person seismographic testimony, not a claim of a Bangkok epicenter.
 
 This is the spiral: returning to the same place at a higher octave.
 

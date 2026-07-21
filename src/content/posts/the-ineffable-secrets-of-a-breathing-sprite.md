@@ -58,7 +58,7 @@ This is the sprite: not a fairy, not a metaphor, but the animating process that 
 
 ## Scaling: From Ribcage to Atmosphere
 
-One breath is personal. Synchronized breathing is interpersonal. The Bali Padiyami ritual, executed every 210 days, relies on collective respiratory entrainment to reset the calendrical and atmospheric ledger. Participants do not merely breathe together; they align prana-vayu and apana-vayu cycles, creating a temporary metabolic consensus. The ritual is not symbolic. It is a system-wide flush, a collective exhale that purges accumulated residue.
+One breath is personal. Synchronized breathing is interpersonal. The Bali Padyami observance, kept each year on the first tithi of the bright fortnight of Kartika, relies on collective respiratory entrainment to reset the calendrical and atmospheric ledger. Participants do not merely breathe together; they align prana-vayu and apana-vayu cycles, creating a temporary metabolic consensus. The ritual is not symbolic. It is a system-wide flush, a collective exhale that purges accumulated residue.
 
 At the atmospheric scale, the Mauna Loa Observatory records the planet's own respiration — the Keeling Curve showing the seasonal inhale of Northern Hemisphere forests and the exhale of oceanic release. Earth breathes in carbon dioxide during growing seasons and exhales it during decay. The sprite is not limited to the ribcage. It scales to the canopy, to the ocean, to the atmospheric membrane itself.
 

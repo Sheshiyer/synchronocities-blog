@@ -3,7 +3,7 @@
   "ledger_state": "BOOTSTRAPPED",
   "post": "master-synthesis.md",
   "source_path": "src/content/posts/master-synthesis.md",
-  "source_sha256": "2d2b8ddb8b9d110b446c43d9aecb699dbf1a4b4cd7819ad36e834c67c4011916",
+  "source_sha256": "e29d28814b995ff592344a83700bf4455a0b0b2cf15a3dcccd61185adaf71a54",
   "legacy_audit_path": "quality-engine/audits/nigredo/master-synthesis.md-nigredo-audit.md",
   "claims": [
     {
@@ -47,11 +47,11 @@
         "quote": "| **Rupture** | March 20 | Bangkok 44/555 | **Tower** | Initiation by earthquake |"
       },
       "claim_mode": "HISTORICAL-CLAIM",
-      "claim_status": "UNSUPPORTED",
+      "claim_status": "DECLARED",
       "remediation_codes": [
-        "R-SOURCE"
+        "KEEP"
       ],
-      "requires_review": true,
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
@@ -62,7 +62,7 @@
         },
         "evidence_eligible": false
       },
-      "rationale": "Asserts an earthquake in Bangkok on March 20, 2025. The publicly documented major Bangkok tremor of that period was the March 28, 2025 M7.7 Myanmar earthquake (Bangkok declared an emergency zone; a high-rise collapsed). No Bangkok quake on March 20, 2025 is corroborated in public records — possibly a date error or an unrecorded private experience; genuinely undecidable without the author's clarification.",
+      "rationale": "Asserts an earthquake in Bangkok on March 20, 2025. The publicly documented major Bangkok tremor of that period was the March 28, 2025 M7.7 Myanmar earthquake (Bangkok declared an emergency zone; a high-rise collapsed). No Bangkok quake on March 20, 2025 is corroborated in public records — possibly a date error or an unrecorded private experience; genuinely undecidable without the author's clarification. RESOLVED: post now frames the event as first-person seismographic testimony (post L216: felt firsthand, connected to Myanmar seismic activity, epicenter not Bangkok); owner confirmed the March 20 tremor as a privately felt event.",
       "legacy": {
         "anchor": "L45",
         "quote": "March 20 | Bangkok | Initiation by earthquake",
@@ -80,11 +80,11 @@
         "quote": "| **Closure** | May 11 | Bangkok 36/38 | **World** | Spiral sealed by second quake |"
       },
       "claim_mode": "HISTORICAL-CLAIM",
-      "claim_status": "UNSUPPORTED",
+      "claim_status": "DECLARED",
       "remediation_codes": [
-        "R-SOURCE"
+        "KEEP"
       ],
-      "requires_review": true,
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
@@ -95,7 +95,7 @@
         },
         "evidence_eligible": false
       },
-      "rationale": "Asserts a second felt earthquake in Bangkok on May 11, 2025. Aftershock sequences from the March 28 Myanmar event were tracked, but no Bangkok-felt quake on May 11, 2025 is corroborated in public records; undecidable between unreported minor tremor, private experience, and narrative symmetry.",
+      "rationale": "Asserts a second felt earthquake in Bangkok on May 11, 2025. Aftershock sequences from the March 28 Myanmar event were tracked, but no Bangkok-felt quake on May 11, 2025 is corroborated in public records; undecidable between unreported minor tremor, private experience, and narrative symmetry. RESOLVED: post now frames the May 11 event as a separate, privately felt quake — first-person seismographic testimony, not a claim of a Bangkok epicenter (post L216); owner confirmed.",
       "legacy": {
         "anchor": "L52",
         "quote": "May 11 | Spiral sealed by second quake",

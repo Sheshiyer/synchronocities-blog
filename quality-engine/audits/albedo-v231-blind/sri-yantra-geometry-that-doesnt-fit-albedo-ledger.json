@@ -3,7 +3,7 @@
   "ledger_state": "BOOTSTRAPPED",
   "post": "sri-yantra-geometry-that-doesnt-fit.md",
   "source_path": "src/content/posts/sri-yantra-geometry-that-doesnt-fit.md",
-  "source_sha256": "4482746bf73e5318159a336bc9afd80f4172c7a31dd2bb27be4cddcc8b1a01e2",
+  "source_sha256": "0870364e74e470fc1a21ab097a19add6404f4382d2cb2dd356c9ce25b122bc2b",
   "legacy_audit_path": "quality-engine/audits/nigredo/sri-yantra-geometry-that-doesnt-fit.md-nigredo-audit.md",
   "claims": [
     {
@@ -11,15 +11,14 @@
       "anchor": {
         "line_start": 61,
         "line_end": 62,
-        "quote": "> \"The Sri Yantra is the geometric body of mantra-energy.\"\n> — *Saundarya Laharī*, attr. Ādi Śaṅkara, 8th c. CE"
+        "quote": "> Four triangles of Śiva pointing up, five of Śakti pointing down — nine interlocking triangles branching into forty-three, ringed by the eight-petalled lotus, the sixteen-petalled lotus, three circles, and the triple-walled square.\n> — *Saundarya Laharī*, verse 11 (thematic paraphrase), attr. Ādi Śaṅkara, 8th c. CE"
       },
       "claim_mode": "HISTORICAL-CLAIM",
-      "claim_status": "UNSUPPORTED",
+      "claim_status": "DECLARED",
       "remediation_codes": [
-        "R-SOURCE",
-        "R-ATTRIBUTE"
+        "KEEP"
       ],
-      "requires_review": true,
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
@@ -30,7 +29,7 @@
         },
         "evidence_eligible": false
       },
-      "rationale": "The epigraph presents a verbatim quotation with attribution and date. The wording \"geometric body of mantra-energy\" cannot be matched to any standard verse or translation of the Saundarya Laharī from the source alone, and per the grammar an unverifiable translation/quotation is UNSUPPORTED until a reliable edition is cited. Flagged for review to verify verse number and wording.",
+      "rationale": "The epigraph presents a verbatim quotation with attribution and date. The wording \"geometric body of mantra-energy\" cannot be matched to any standard verse or translation of the Saundarya Laharī from the source alone, and per the grammar an unverifiable translation/quotation is UNSUPPORTED until a reliable edition is cited. Flagged for review to verify verse number and wording. RESOLVED: epigraph rewritten as an explicitly marked thematic paraphrase of Saundarya Laharī verse 11 themes, no longer an unverifiable verbatim quotation.",
       "legacy": {
         "anchor": "BLIND-L61",
         "quote": "\"The Sri Yantra is the geometric body of mantra-energy.\" — *Saundarya Laharī*, attr. Ādi Śaṅkara, 8th c. CE",
@@ -645,15 +644,14 @@
       "anchor": {
         "line_start": 122,
         "line_end": 122,
-        "quote": "This is **Pascal's triangle**. Pingala constructed it approximately 1,800 years before Blaise Pascal's *Traité du Triangle Arithmétique* (1654)."
+        "quote": "This is **Pascal's triangle**. Pingala encoded the combinatorial recursion that generates it roughly 1,800 years before Blaise Pascal's *Traité du Triangle Arithmétique* (1654); the explicit triangle itself is documented in Halāyudha's tenth-century commentary on the *Chandaḥśāstra* — still some seven centuries before Pascal."
       },
       "claim_mode": "HISTORICAL-CLAIM",
-      "claim_status": "UNSUPPORTED",
+      "claim_status": "ATTRIBUTED",
       "remediation_codes": [
-        "R-ATTRIBUTE",
-        "R-SOURCE"
+        "KEEP"
       ],
-      "requires_review": true,
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
@@ -664,7 +662,7 @@
         },
         "evidence_eligible": false
       },
-      "rationale": "Attributing construction of the explicit triangular array to Piṅgala himself (~200 BCE) elides the standard scholarly account in which the Chandaḥśāstra's sūtras encode the combinatorial procedures while the explicit meru-prastāra diagram appears in Halāyudha's 10th-century CE commentary — which would make the explicit triangle roughly 700, not 1,800, years before Pascal. Undecidable at what strength the attribution can stand without a cited edition; flagged for review.",
+      "rationale": "Attributing construction of the explicit triangular array to Piṅgala himself (~200 BCE) elides the standard scholarly account in which the Chandaḥśāstra's sūtras encode the combinatorial procedures while the explicit meru-prastāra diagram appears in Halāyudha's 10th-century CE commentary — which would make the explicit triangle roughly 700, not 1,800, years before Pascal. Undecidable at what strength the attribution can stand without a cited edition; flagged for review. RESOLVED: post now attributes the combinatorial recursion to Piṅgala and the explicit triangle to Halāyudha's tenth-century commentary — the standard scholarly account.",
       "legacy": {
         "anchor": "BLIND-L122",
         "quote": "Pingala constructed it approximately 1,800 years before Blaise Pascal",

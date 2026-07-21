@@ -53,7 +53,7 @@ const mercuryProtocol = {
 
 The trickster archetype isn't random chaos. It's systematic fuzzing — testing the boundaries of your consciousness runtime to find where the fragile assumptions live. Every tradition that has a trickster god is essentially documenting their debugging methodology.
 
-### 3. The Bali Padiyami Protocol
+### 3. The Bali Padyami Protocol
 
 ```javascript
 if (familyDrama == HIGH) {
@@ -66,7 +66,7 @@ if (familyDrama == HIGH) {
 }
 ```
 
-In the Bali Padiyami protocol, you don't just acknowledge the ancestral processes running in your system — you actively feed them. This is the ancient equivalent of proper memory management: instead of trying to kill background processes you don't understand, you allocate resources to them intentionally.
+In the Bali Padyami — the Indian observance of King Bali's annual return on the first tithi after Deepavali — you don't just acknowledge the ancestral processes running in your system — you actively feed them. This is the ancient equivalent of proper memory management: instead of trying to kill background processes you don't understand, you allocate resources to them intentionally.
 
 The ancestors aren't ghosts. They're legacy dependencies your consciousness still imports at boot time. Every unresolved emotional pattern from your lineage is a dependency that loads silently and runs in the background, consuming resources you don't know you're spending.
 

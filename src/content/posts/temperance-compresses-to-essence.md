@@ -27,7 +27,7 @@ Chiang Mai compressed everything. The mountain city at the base of Doi Suthep �
 
 The vijnanamaya kosha — the wisdom sheath — activates not through accumulation but through compression. You don't gain wisdom by adding knowledge. You gain it by pressurizing experience until the essential separates from the incidental. Like geological pressure creating diamonds from carbon, or espresso from coffee.
 
-Art in the Thoth deck shows an androgynous figure pouring between two vessels — but the vessels have changed color. The lion has become red, the eagle white. The opposites haven't compromised. They've *transmuted*. Each has become what the other was, through the act of mixing.
+Art in the Thoth deck shows an androgynous figure pouring between two vessels — but the vessels have changed color. The lion has become white, the eagle red. The opposites haven't compromised. They've *transmuted*. Each has become what the other was, through the act of mixing.
 
 Chiang Mai demanded this: take the Tower's rupture, the Star's naming, the Moon's refraction — and compress them into something *usable*. Not a story about transformation. Transformation itself, rendered into a form that could survive the descent from the mountain back into the world.
 

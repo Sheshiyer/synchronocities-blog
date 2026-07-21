@@ -134,7 +134,7 @@ In hyperbolic space, the constraint vanishes. You can stitch seventeen triangles
 
 ## The Curvature Ladder
 
-Andrés Gómez Emilsson of the Qualia Research Institute documented six levels of DMT experience, each corresponding to a measurable increase in experiential curvature. The taxonomy is not metaphorical. It is the kale leaf, run in reverse — starting from flat and watching what happens as you force more pattern into the available geometry.
+Andrés Gómez Emilsson of the Qualia Research Institute documented six levels of DMT experience, each corresponding to a measurable increase in experiential curvature. The taxonomy is not metaphorical. It is the kale leaf, run in reverse — starting from flat and watching what happens as you force more pattern into the available geometry. (Dose ranges and level names below are my mapping onto Emilsson's QRI curvature ladder, not QRI's published figures.)
 
 **Threshold** (1–4 mg). Ba's perceptual medium thins. Surfaces tessellate with the seventeen wallpaper groups. You are still in Euclidean territory, but the copying threshold for pattern entrainment has dropped.
 

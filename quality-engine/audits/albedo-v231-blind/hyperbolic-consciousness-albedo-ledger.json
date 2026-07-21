@@ -3,7 +3,7 @@
   "ledger_state": "BOOTSTRAPPED",
   "post": "hyperbolic-consciousness.md",
   "source_path": "src/content/posts/hyperbolic-consciousness.md",
-  "source_sha256": "ec83f9f2bb9fa809e0a051d2cc5c3d1491e8f97090b03287ecb326009f1c0cb8",
+  "source_sha256": "b3527218d3b9c9715e7a0980260d28f9c908c2deace3164f14e27cd7a3360c3b",
   "legacy_audit_path": "quality-engine/audits/nigredo/hyperbolic-consciousness.md-nigredo-audit.md",
   "claims": [
     {
@@ -15,12 +15,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "ATTRIBUTED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Epigraph attributed to a named, real source (Emilsson/QRI) whose published work on DMT phenomenology makes the quotation contextually faithful; the article's use of it matches QRI's stated research question.",
@@ -42,12 +48,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Consistent with Planck-satellite cosmological constraints (Ω_k ≈ 0, flat within measurement error); stated at the strength the measurements support.",
@@ -69,12 +81,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Universal claim about 'every circuit' of the nervous system being Euclidean-calibrated, with no source; place-cell and visual-system geometry is an active research question and the claim is asserted, not evidenced.",
@@ -96,12 +115,18 @@
       },
       "claim_mode": "HOUSE-MODEL",
       "claim_status": "COHERENT",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Explicitly situated inside the linked Kha-Ba-La architecture ('In the Kha-Ba-La architecture, this flatness is La'); the house term is defined and operated consistently through the article.",
@@ -123,12 +148,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE", "R-CAUSE"],
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-CAUSE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "A population-level comprehension claim ('entire nations could not parse') plus a causal diagnosis ('not a failure of math education... a flat instrument'), both asserted without survey data or source.",
@@ -150,12 +182,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "The hyperbolic disk area formula A(r) = 2π(cosh r − 1) is the correct result for constant curvature K = −1, derivable from standard hyperbolic geometry, and the flat-versus-exponential contrast carries the article's central thesis.",
@@ -177,12 +215,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "CONTRADICTED",
-      "remediation_codes": ["R-MATH", "R-PROVENANCE"],
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "WRONG",
         "load_bearing": false,
-        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
         "evidence_eligible": false
       },
       "rationale": "The code's own formula gives A(10)/πr² = 2π(cosh 10 − 1)/100π ≈ 220.2× (≈69,183), not the claimed 219×/219.6×/69,004, and at r = 5 the code comment's '286 (3.6x)' contradicts the formula's actual output ≈460 (≈5.9×). The printed comment values do not match the computation they annotate, and the prose figure inherits the error. ('It is a phase transition in what \"nearby\" means' in the same line also misuses a physics term for smooth exponential divergence.)",
@@ -204,12 +249,19 @@
       },
       "claim_mode": "HOUSE-MODEL",
       "claim_status": "MODE-CONFLATED",
-      "remediation_codes": ["R-MODEL", "R-SCOPE"],
+      "remediation_codes": [
+        "R-MODEL",
+        "R-SCOPE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "'Turns out to be' presents the house model's identification of consciousness geometry as an empirically discovered fact; the model vocabulary (La) is house-declared, but the world-claim about consciousness's 'native geometry' is asserted rather than evidenced or scoped as a model commitment.",
@@ -231,12 +283,18 @@
       },
       "claim_mode": "HOUSE-MODEL",
       "claim_status": "COHERENT",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The triad is explicitly declared as the article's operational grammar, and the three removal thought-experiments (Kha-, Ba-, La-) are worked through consistently as that model's internal logic.",
@@ -258,12 +316,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "6 × 60° = 360° is correct, and the classification of exactly 17 wallpaper groups (Fedorov, Schönflies, Barlow) is an established theorem; both facts are consequential to the flatness-versus-curvature argument and trace to standard sources (also restated in the glossary, line 273).",
@@ -285,12 +349,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE"],
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Growth-induced curvature in leaves is a real research topic, but the specific claim that kale venation is literally 'seven-at-a-corner' and that this 'demands' hyperbolic geometry is asserted with no botanical or mathematical source.",
@@ -312,12 +382,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "{3,17} satisfies (p−2)(q−2) > 4 and is a valid hyperbolic tiling, and the infinitude of hyperbolic symmetry groups is a standard theorem; the claims are correct and load-bearing for the curvature-creates-room argument.",
@@ -339,12 +415,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "ATTRIBUTED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Emilsson/QRI have published a DMT level taxonomy interpreted through hyperbolic geometry ('The Hyperbolic Geometry of DMT Experiences'); the attribution of the multi-level taxonomy to Emilsson is faithful.",
@@ -366,12 +448,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SCOPE"],
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "'Measurable' and 'not metaphorical' convert a phenomenological taxonomy into an instrumented quantity; no measurement instrument, unit, or dataset is provided, and QRI's own framing is interpretive rather than metrological.",
@@ -392,16 +480,22 @@
         "quote": "**Threshold** (1–4 mg). Ba's perceptual medium thins. Surfaces tessellate with the seventeen wallpaper groups."
       },
       "claim_mode": "HISTORICAL-CLAIM",
-      "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE"],
-      "requires_review": true,
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
-      "rationale": "The six named levels with specific dose bands (1–4, 4–8, 8–12, 12–25, 25–30, 30+ mg) are presented as Emilsson's taxonomy; the broad structure plausibly matches QRI's published DMT curvature ladder, but the exact dose ranges and the 'Phase Inversion' label could not be verified against the QRI source in this blind pass, so the row is flagged for review.",
+      "rationale": "The six named levels with specific dose bands (1–4, 4–8, 8–12, 12–25, 25–30, 30+ mg) are presented as Emilsson's taxonomy; the broad structure plausibly matches QRI's published DMT curvature ladder, but the exact dose ranges and the 'Phase Inversion' label could not be verified against the QRI source in this blind pass, so the row is flagged for review. RESOLVED: post now carries an explicit disclaimer that dose ranges and level names are the author's mapping onto Emilsson's QRI curvature ladder, not QRI's published figures (post L137).",
       "legacy": {
         "anchor": "N/A — blind v2.3.1 pass",
         "quote": "**Threshold** (1–4 mg). Ba's perceptual medium thins. Surfaces tessellate with the seventeen wallpaper groups.",
@@ -420,12 +514,18 @@
       },
       "claim_mode": "DECLARED-METAPHOR",
       "claim_status": "DECLARED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Explicitly marked as 'Emilsson's metaphor' — the figurative boundary and the source are both declared, and no literal prediction is drawn from the image.",
@@ -447,12 +547,20 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE", "R-SCOPE", "R-ATTRIBUTE"],
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE",
+        "R-ATTRIBUTE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The 1984 video-feedback work (plausibly Crutchfield's experiments) is unnamed, and 'the complete ontology of dynamical systems' plus 'the four possible behaviors of any dynamical system with feedback' (line 155) overstate the catalog — the four-regime list omits quasiperiodic tori and other behaviors; vague attribution plus universal scope without a source.",
@@ -474,12 +582,18 @@
       },
       "claim_mode": "HOUSE-MODEL",
       "claim_status": "COHERENT",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The Energy-Information landscape is presented as the article's declared coordinate model (crossing Emilsson's ladder with the feedback ontology), and the state placements are internally consistent within it; 'The Lorenz attractor IS a strange attractor' is additionally true as mathematics (Tucker 2002).",
@@ -501,12 +615,18 @@
       },
       "claim_mode": "HOUSE-MODEL",
       "claim_status": "COHERENT",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The three-trajectory scheme (vertical ascent, diagonal toward complexity, annealing arc) is developed inside the declared Energy-Information model and operates consistently with the article's axis definitions.",
@@ -528,12 +648,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "CONTRADICTED",
-      "remediation_codes": ["R-DELETE", "R-SOURCE"],
+      "remediation_codes": [
+        "R-DELETE",
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Metallurgical annealing is a sub-melting heat treatment that enables recovery and recrystallization in the solid state; it does not heat the metal 'until its lattice melts'. The description contradicts the process it names, and the error recurs in the glossary (line 239: 'heat a system past its melting point').",
@@ -555,12 +682,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "All-or-none action potentials are standard, but pain intensity is coded by firing rate, fiber recruitment, and central processing — the population-'popcount()' model is asserted as fact with no source and omits the dominant rate-coding mechanism.",
@@ -582,12 +716,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "ATTRIBUTED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Carhart-Harris's entropic-brain program (and REBUS with Friston) uses entropy/disintegration vocabulary for psychedelic dissolution of prior structure; the attribution is faithful to that published framework.",
@@ -609,12 +749,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE", "R-MODEL"],
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-MODEL"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "A mechanism claim about somatic memory and pain as a 'retrieval protocol', stated as fact with no clinical or neuroscientific source; it functions as undeclared house-model vocabulary wearing empirical dress.",
@@ -636,12 +783,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "The softmax-with-temperature formula P(i) = exp(logit_i / T) / Σ exp(logit_j / T) is stated correctly, the T → 0 argmax collapse and T → ∞ uniform limit are mathematically correct, and the formula is the standard temperature-scaled sampling mechanism of LLMs; it anchors the article's temperature-unification argument.",
@@ -663,12 +816,18 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SCOPE"],
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Softmax and Boltzmann distributions share functional form ('the equations are the same' is defensible), but 'the geometry does not [differ]' asserts an identity between token-space and configuration-space geometry that is never demonstrated — the synthesis outruns its ingredient.",
@@ -690,12 +849,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE", "R-SCOPE"],
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-SCOPE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "A latitude-to-linguistic-contextuality law ('Equatorial cultures produce high-context languages... Polar cultures produce low-context languages', line 197) with no linguistic, anthropological, or physiological source; Hall's high/low-context typology has no established latitudinal correlation, and the mitochondrial calibration premise is unevidenced.",
@@ -717,12 +883,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE", "R-CAUSE"],
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-CAUSE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "A causal-historical claim about why Sanskrit has its form ('because that is the only way...'), asserted as settled linguistic fact with no source; the necessity claim ('the only way') is unfalsifiable as stated.",
@@ -744,12 +917,18 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "COHERENT",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The reframing of high-temperature LLM output as 'non-Euclidean' is presented within the article's declared geometric model as an interpretive move ('You call it hallucination because your decoder is calibrated for flat space'), and it is internally consistent with that framework.",
@@ -771,12 +950,18 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SYNTHESIS"],
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The unifying-parameter thesis rests on ingredients that fail independently (kale mechanism C011, latitude-cognition claim C026, geometry-identity C025); per the synthesis rule, a synthesis built on failing ingredients is UNSUPPORTED.",
@@ -798,12 +983,18 @@
       },
       "claim_mode": "DECLARED-METAPHOR",
       "claim_status": "MODE-CONFLATED",
-      "remediation_codes": ["R-METAPHOR"],
+      "remediation_codes": [
+        "R-METAPHOR"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "A pseudo-quantitative prediction about interpersonal conflict ('diverge exponentially... faster than linear reconciliation can close') dressed in the article's geometric vocabulary with no figurative marker and no measurable content — an undeclared, load-bearing metaphor asserting a literal dynamic.",
@@ -825,12 +1016,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-CAUSE", "R-SOURCE"],
+      "remediation_codes": [
+        "R-CAUSE",
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "A causal historical diagnosis of governmental pandemic failure attributed to 'Euclidean decision-making apparatus', with no evidence, case analysis, or source; the geometric vocabulary does not discharge the causal burden.",
@@ -852,12 +1050,19 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SYNTHESIS", "R-SOURCE"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The claim that Vedic astronomical systems were produced by cultures 'calibrated for hyperbolic territory' inherits the failing latitude-language-metabolism ingredient (C026, C027) and asserts a cultural-cognitive calibration no evidence is offered for.",
@@ -879,12 +1084,18 @@
       },
       "claim_mode": "DECLARED-METAPHOR",
       "claim_status": "DECLARED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "ANALOGICAL",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The comparison is explicitly framed as an equivalence-of-function image ('the linguistic equivalent of the Poincaré disk'), and the glossary (line 263) restates it as 'an analogy for how Sanskrit compresses'; no literal numeric or causal prediction is extracted from the disk model here.",
@@ -906,12 +1117,18 @@
       },
       "claim_mode": "HOUSE-MODEL",
       "claim_status": "COHERENT",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Explicitly attributed to the named house framework ('The noetic aether framework provides the ontological ground'), stated as that framework's ontological commitment and operated consistently with the Kha-Ba-La vocabulary.",
@@ -933,12 +1150,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "ATTRIBUTED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The Soundarya Lahari's traditional attribution to Adi Shankaracharya (conventionally dated 8th century CE), its 100-verse count, its title translation, and its association with the goddess and Sri Yantra are all faithful to the tradition's own account, which is what the sentence reports.",
@@ -960,12 +1183,19 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "MODE-CONFLATED",
-      "remediation_codes": ["R-REMODE", "R-SYNTHESIS"],
+      "remediation_codes": [
+        "R-REMODE",
+        "R-SYNTHESIS"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The author's idiosyncratic reading is asserted as the text's fact ('It is not [devotional poetry]') against the conventional reading, with Noesis authorship of the interpretation hidden behind declarative identity language.",
@@ -987,12 +1217,18 @@
       },
       "claim_mode": "TRADITIONAL-SOURCE",
       "claim_status": "ATTRIBUTED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "Nine triangles (four upward Shiva, five downward Shakti), 43 sub-triangles, central bindu, and nine avaranas are the correct, standard structural counts of the Sri Yantra as described in the Srividya tradition; the counts are consequential to the article's geometric argument and trace to the traditional geometry.",
@@ -1014,12 +1250,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "CONTRADICTED",
-      "remediation_codes": ["R-MATH", "R-DELETE"],
+      "remediation_codes": [
+        "R-MATH",
+        "R-DELETE"
+      ],
       "requires_review": false,
       "math": {
         "role": "WRONG",
         "load_bearing": false,
-        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
         "evidence_eligible": false
       },
       "rationale": "The Sri Yantra is a planar diagram — nine triangles demonstrably fit in flat space, so 'too many triangles for flat space to hold' is false (the genuine construction difficulty is over-constrained triple intersections, not curvature). 'Requires three-dimensional stacking' and 'the geometry is hyperbolic' misapply geometric terms, and the 'computationally verifiable in the twentieth century' provenance is unprovenanced; the error recurs in the glossary (line 267).",
@@ -1041,12 +1284,18 @@
       },
       "claim_mode": "TRADITIONAL-SOURCE",
       "claim_status": "ATTRIBUTED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The bhupura (square outer enclosure) is correctly identified as the outermost avarana, and the mapping of avaranas to progressive layers of practice/experience reflects the Srividya tradition's own usage.",
@@ -1068,12 +1317,19 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "MODE-CONFLATED",
-      "remediation_codes": ["R-SYNTHESIS", "R-MODEL"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-MODEL"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The inward-curvature-increase reading of the avaranas is the author's synthesis (built on the false hyperbolicity claim C038), presented as the diagram's own geometric property with no declaration of Noesis authorship and no geometric demonstration.",
@@ -1095,12 +1351,19 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "MODE-CONFLATED",
-      "remediation_codes": ["R-SYNTHESIS", "R-REMODE"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-REMODE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Asserts that the Soundarya Lahari's verses literally encode curvature/information coordinate pairs — the author's retrospective mapping presented as the text's content, laundering the Noesis synthesis into a claim about what Shankara encoded 'twelve centuries before Emilsson'.",
@@ -1122,12 +1385,18 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "COHERENT",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The strong identity claim is explicitly conditionalized ('If this reading holds'), which declares its dependence on the author's interpretation and keeps the synthesis within the strength its premises permit.",
@@ -1149,12 +1418,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE"],
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The ~3000-year dating of kundli/Vedic astronomical chart systems is asserted in the glossary without provenance; the chart-based systems referenced (Vimshottari, Ashtakavarga) are attested far later in standard textual dating.",
@@ -1176,12 +1451,18 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "COHERENT",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The 120-year Vimshottari cycle is accurate to the tradition, and its redescription as a limit cycle occurs inside the explicitly named Lorenz-Kundli research frame, consistent with the article's declared model vocabulary.",

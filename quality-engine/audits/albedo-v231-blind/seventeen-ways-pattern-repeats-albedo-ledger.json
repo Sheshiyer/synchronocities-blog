@@ -3,7 +3,7 @@
   "ledger_state": "BOOTSTRAPPED",
   "post": "seventeen-ways-pattern-repeats.md",
   "source_path": "src/content/posts/seventeen-ways-pattern-repeats.md",
-  "source_sha256": "cc6b9e51e18e2e54cbe21146f2cf9c489e977f9b02a91691bdb15c3ba355bdbb",
+  "source_sha256": "f91159cbeb5f9a10d07f14fa95fa7310065f23dfd2cdb6fb1f2d3a9270b150d7",
   "legacy_audit_path": "quality-engine/audits/nigredo/seventeen-ways-pattern-repeats.md-nigredo-audit.md",
   "claims": [
     {
@@ -15,12 +15,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "MISATTRIBUTED",
-      "remediation_codes": ["R-ATTRIBUTE"],
+      "remediation_codes": [
+        "R-ATTRIBUTE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The content is right (Fedorov's 1891 classification of the 17 plane groups), but the sentence is typeset as a verbatim quotation; Fedorov wrote in Russian and no traceable 1891 source contains this English sentence — it is a paraphrase dressed as a quote and should be recast as such.",
@@ -42,12 +48,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "Fedorov's 1891 enumeration of the 17 wallpaper groups, with independent rediscovery (e.g., Polya 1924) and current textbook status, is documented history; the count itself is correct, traceable, and carries the essay's entire thesis.",
@@ -69,12 +81,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "CONTRADICTED",
-      "remediation_codes": ["R-SCOPE", "R-MATH"],
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-MATH"
+      ],
       "requires_review": false,
       "math": {
         "role": "WRONG",
         "load_bearing": false,
-        "locks": { "correctness": "FAIL", "consequence": "FAIL", "provenance": "PASS" },
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "FAIL",
+          "provenance": "PASS"
+        },
         "evidence_eligible": false
       },
       "rationale": "Wallpaper classification applies only to patterns with two independent translations; canonical yantras (e.g., Sri Yantra, invoked later in the post) are bounded non-periodic figures and do not fall into any wallpaper class, so the unqualified 'every yantra… without exception' misapplies the theorem.",
@@ -96,12 +115,19 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "MODE-CONFLATED",
-      "remediation_codes": ["R-SYNTHESIS", "R-ATTRIBUTE"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-ATTRIBUTE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "STV (M. E. Johnson / QRI) links symmetry of a mathematical representation of experience to valence, but applying that label to mantra wallpaper groups is this essay's own synthesis; 'what the Symmetry Theory of Valence calls' launders the new mapping as the source theory's own vocabulary.",
@@ -123,12 +149,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Standard, correct expository definition of a wallpaper group (including the four motion types listed at L74-79); no quantity or derivation is deployed in this sentence itself.",
@@ -150,12 +182,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "The crystallographic restriction is stated correctly (orders 1,2,3,4,6 only), the minimal-vector/infinite-descent gloss is a fair rendering of the standard geometric argument, and the entire 'cliff' thesis depends on it — correct, consequential, and traceable to standard crystallography.",
@@ -177,12 +215,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "Penrose tilings exhibit five-fold rotational symmetry while being quasiperiodic (no translational symmetry), hence no wallpaper group — correct, and it is the load-bearing counterexample clarifying the periodicity condition.",
@@ -204,12 +248,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "The seventeen-row table (p1 through p6mm) matches the standard IUCr short-notation classification, including the p3m1/p31m mirror-placement distinction and p2mg/p2gg mirror-glide structures; it is the essay's reference object and is correct and traceable.",
@@ -231,12 +281,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "p6mm's fundamental region is one twelfth of the primitive cell (point group of order 12), p1's is the cell itself, and the hexagonal family is the maximal planar symmetry — all correct and structurally used in the essay's valence hierarchy.",
@@ -258,12 +314,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "COHERENT",
-      "remediation_codes": ["R-MATH", "R-PROVENANCE"],
+      "remediation_codes": [
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "DECORATIVE",
         "load_bearing": false,
-        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
         "evidence_eligible": false
       },
       "rationale": "The sum totals 17 correctly, but the six-term decomposition does not match any standard enumeration of the 17 groups this auditor can reconstruct (by rotational order: 4+5+3+3+2; by lattice type: 2+5+2+3+5), and no source for the partition is given; genuinely undecidable whether a valid partition was intended — flagged for manual check. RESOLVED(verified): valid partition reproduces 17 — p1|p2|{p2mm,p2mg,p2gg,c2mm}=4|{p4,p4mm,p4gm}=3|{p3,p3m1,p31m,p6,p6mm}=5|{pm,pg,cm}=3; 1+1+4+3+5+3=17.",
@@ -285,12 +348,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "All three references are real and correctly characterized: Coxeter's Introduction to Geometry, Schattschneider's 1978 American Mathematical Monthly paper (the standard recognition/notation treatment), and Conway-Burgiel-Goodman-Strauss's The Symmetries of Things (orbifold notation).",
@@ -312,12 +381,18 @@
       },
       "claim_mode": "TRADITIONAL-SOURCE",
       "claim_status": "ATTRIBUTED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The sparśa (stop) consonants of the Sanskrit varṇamālā are indeed arranged as 5 vargas (ka, ca, ṭa, ta, pa) × 5 manners (unvoiced, unvoiced-aspirate, voiced, voiced-aspirate, nasal) = 25 — the 5×5 description is faithful to the grammatical tradition.",
@@ -339,12 +414,20 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SYNTHESIS", "R-MATH", "R-PROVENANCE"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-MATH",
+        "R-PROVENANCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "DECORATIVE",
         "load_bearing": false,
-        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
         "evidence_eligible": false
       },
       "rationale": "The author's own construction maps phonological feature-toggles to wallpaper classes, but the transformation is never demonstrated — and the voicing swap (columns 1↔3, 2↔4, 5 fixed) is not even a reflection symmetry of the 5×5 lattice under standard enumeration, so the group labels function as precision-aura rather than derived structure.",
@@ -366,12 +449,18 @@
       },
       "claim_mode": "TRADITIONAL-SOURCE",
       "claim_status": "ATTRIBUTED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The mantra parses as six syllables (oṃ ma ṇi pad me hūṃ); the 'hexagonal cadence' gloss is the essay's frame, but the syllable count attributed to the tradition is correct.",
@@ -393,12 +482,19 @@
       },
       "claim_mode": "TRADITIONAL-SOURCE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
+      "remediation_codes": [
+        "R-SOURCE",
+        "R-ATTRIBUTE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "No source is given that Tibetan chanting practice preserves 'six-fold rotational periodicity' or treats Om/Hūṁ as mirror-points; these are the author's geometric redescription asserted as features of standard practice.",
@@ -420,12 +516,20 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SYNTHESIS", "R-SCOPE", "R-SOURCE"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "DECORATIVE",
         "load_bearing": false,
-        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
         "evidence_eligible": false
       },
       "rationale": "A perfect correlation ('tracks… with no remainder') between a mantra's reputation and its assigned wallpaper class is asserted without any operationalization of 'reputation' or the mapping; unfalsifiable as stated and dependent on the untraced synthesis of C013/C015.",
@@ -447,12 +551,19 @@
       },
       "claim_mode": "TRADITIONAL-SOURCE",
       "claim_status": "MISATTRIBUTED",
-      "remediation_codes": ["R-ATTRIBUTE", "R-MATH"],
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-MATH"
+      ],
       "requires_review": false,
       "math": {
         "role": "WRONG",
         "load_bearing": false,
-        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
         "evidence_eligible": false
       },
       "rationale": "The Gāyatrī mantra's 24 syllables are in gāyatrī meter — three pādas of eight — not anuṣṭubh (which is 4×8=32); the sentence is internally inconsistent (24 ≠ 4×8) and misnames the meter, and the false 4-pāda premise carries the downstream p4mm assignment.",
@@ -474,12 +585,20 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "CONTRADICTED",
-      "remediation_codes": ["R-SYNTHESIS", "R-MATH", "R-SOURCE"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-MATH",
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "WRONG",
         "load_bearing": false,
-        "locks": { "correctness": "FAIL", "consequence": "PASS", "provenance": "FAIL" },
+        "locks": {
+          "correctness": "FAIL",
+          "consequence": "PASS",
+          "provenance": "FAIL"
+        },
         "evidence_eligible": false
       },
       "rationale": "The p4mm assignment is built on the false four-pāda premise (C017) — the Gāyatrī has three pādas, so the 4-fold invocation fails with its ingredient; the 'practitioners report' corroboration is unsourced.",
@@ -497,19 +616,25 @@
       "anchor": {
         "line_start": 125,
         "line_end": 125,
-        "quote": "**The Mahāmrtyuñjaya mantra** — 32 syllables, structured as eight-fold cycles."
+        "quote": "**The Mahāmrtyuñjaya mantra** — roughly 32–33 syllables depending on scansion, structured as eight-fold cycles — my prosodic reading, not a traditional one."
       },
       "claim_mode": "TRADITIONAL-SOURCE",
-      "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE", "R-ATTRIBUTE"],
-      "requires_review": true,
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
-      "rationale": "Traditional syllable counts for the Mahāmṛtyuñjaya mantra vary (roughly 33-34 by standard akṣara counting depending on conjunct resolution and whether oṃ is counted), and no tradition describes it as 'structured as eight-fold cycles'; the exact count is genuinely undecidable blind — flagged for manual verification against a standard edition.",
+      "rationale": "Traditional syllable counts for the Mahāmṛtyuñjaya mantra vary (roughly 33-34 by standard akṣara counting depending on conjunct resolution and whether oṃ is counted), and no tradition describes it as 'structured as eight-fold cycles'; the exact count is genuinely undecidable blind — flagged for manual verification against a standard edition. RESOLVED: scansion hedge added (roughly 32–33 syllables depending on scansion) and the eight-fold reading labeled as the author's prosodic reading, not a traditional one.",
       "legacy": {
         "anchor": "BLIND-NEW-COVERAGE",
         "quote": "(no legacy row; blind-pass extraction)",
@@ -528,12 +653,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "8 is correctly excluded by the crystallographic restriction (orders 1,2,3,4,6 only); the point is consequential to the essay's 'reaching for a forbidden order' reading and traceable to the standard theorem.",
@@ -555,12 +686,19 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SYNTHESIS", "R-SOURCE"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "DECORATIVE",
         "load_bearing": false,
-        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
         "evidence_eligible": false
       },
       "rationale": "The claim that the mantra 'actually tiles as p4 or p4mm with internal 2-fold sub-structure' is asserted without any derivation from the mantra's phonological form, and the 'reputation for stretching the manifold' is unsourced; the group labels decorate rather than demonstrate.",
@@ -582,12 +720,18 @@
       },
       "claim_mode": "TRADITIONAL-SOURCE",
       "claim_status": "ATTRIBUTED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Madhyamā vāk — the intermediate, mental level of speech in the four-level (parā/paśyantī/madhyamā/vaikharī) scheme of the Indian grammatical and Kashmiri Shaiva traditions — is reasonably matched to silent inner narration; 'phonemic but unstructured' is the author's gloss within the declared frame.",
@@ -609,12 +753,20 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SYNTHESIS", "R-SCOPE", "R-ATTRIBUTE"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-SCOPE",
+        "R-ATTRIBUTE"
+      ],
       "requires_review": false,
       "math": {
         "role": "DECORATIVE",
         "load_bearing": false,
-        "locks": { "correctness": "PASS", "consequence": "FAIL", "provenance": "FAIL" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "FAIL",
+          "provenance": "FAIL"
+        },
         "evidence_eligible": false
       },
       "rationale": "The chain inner-narration → p1 → lowest valence → 'suffering's signature pattern' rests on the untraced mantra-to-wallpaper mapping and again borrows STV's authority ('By STV') for a conclusion STV itself does not state; no operationalization is offered.",
@@ -636,12 +788,18 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SYNTHESIS"],
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The essay's central tri-identity thesis; its first equality (mantra → wallpaper group) is never demonstrated for any mantra (see C013-C021), so the chained conclusion inherits the failure of its ingredients.",
@@ -663,12 +821,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The examples check out at the modest strength claimed: the pentagram's Western esoteric role, heptagram/sevenfold seals, seven-petaled rose symbolism, and the Sri Yantra's nine interlocking triangles are all documented; the cross-cultural generalization is supported by its instances.",
@@ -690,12 +854,19 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "MISATTRIBUTED",
-      "remediation_codes": ["R-ATTRIBUTE", "R-SCOPE"],
+      "remediation_codes": [
+        "R-ATTRIBUTE",
+        "R-SCOPE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The three cited works are real and do catalog visionary geometry, but none of them documents a consistent reporting of specifically 5-, 7-, and 9-fold rotational orders; attributing order-specific consistency to these sources overstates their content.",
@@ -717,12 +888,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "Correct: the hyperbolic plane admits regular tilings of arbitrary order ({5,4}, {7,3}, etc.) and is not subject to the Euclidean crystallographic restriction; this is the load-bearing geometric exit the essay's 'cliff' argument requires.",
@@ -744,12 +921,19 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SYNTHESIS", "R-SCOPE"],
+      "remediation_codes": [
+        "R-SYNTHESIS",
+        "R-SCOPE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "A metaphysical-causal claim (mantra practice literally moves consciousness into hyperbolic geometry) asserted without mechanism, evidence, or declaration as model; it outruns both the phenomenological reports and the geometry it is derived from.",
@@ -771,12 +955,19 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SCOPE", "R-SOURCE"],
+      "remediation_codes": [
+        "R-SCOPE",
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "A sweeping six-tradition convergence claim offered with no comparative source; liturgical repetition in several named traditions is dominated by 3-fold forms (Trisagion, Kyrie, tasbīḥ cycles), which the claimed cadence list omits — the generalization needs sourcing and scoping.",
@@ -798,12 +989,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "LOAD-BEARING",
         "load_bearing": true,
-        "locks": { "correctness": "PASS", "consequence": "PASS", "provenance": "PASS" },
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
         "evidence_eligible": true
       },
       "rationale": "The enumeration is exactly right — the 4-fold wallpaper groups are p4, p4m(p4mm), p4g(p4gm), and the 6-fold are p6 and p6m(p6mm); correct, traceable, and used in the convergence argument.",
@@ -825,12 +1022,18 @@
       },
       "claim_mode": "EMPIRICAL-CORRELATE",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SCOPE"],
+      "remediation_codes": [
+        "R-SCOPE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The 'only high-symmetry options' scoping silently excludes the 3-fold family (p3, p3m1, p31m — mirror-bearing groups on the hexagonal lattice listed in the post's own table); either 'high-symmetry' must be defined to include 3-fold or the claim narrowed.",
@@ -852,12 +1055,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "VERIFIED",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Mantra traditions with fixed prosodic cadences predate Fedorov's 1891 classification by two millennia or more (Vedic material substantially more); 'roughly two thousand years' is an acceptable lower-bound magnitude.",
@@ -879,12 +1088,18 @@
       },
       "claim_mode": "HISTORICAL-CLAIM",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SOURCE"],
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Invokes a 'geometric-sonic-consciousness literature' and a recurring empirical-before-formal pattern without naming a single work; the field reference and the recurrence claim both lack traceable sources.",
@@ -906,12 +1121,18 @@
       },
       "claim_mode": "DERIVED-SYNTHESIS",
       "claim_status": "UNSUPPORTED",
-      "remediation_codes": ["R-SYNTHESIS"],
+      "remediation_codes": [
+        "R-SYNTHESIS"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "The closing synthesis presumes that the traditions 'found the high-valence subset' of wallpaper classes — a claim whose mapping ingredient was never demonstrated (C013-C024) and whose convergence premise is unsourced (C029).",
@@ -933,12 +1154,18 @@
       },
       "claim_mode": "HOUSE-MODEL",
       "claim_status": "COHERENT",
-      "remediation_codes": ["KEEP"],
+      "remediation_codes": [
+        "KEEP"
+      ],
       "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
-        "locks": { "correctness": "NOT-APPLICABLE", "consequence": "NOT-APPLICABLE", "provenance": "NOT-APPLICABLE" },
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
         "evidence_eligible": false
       },
       "rationale": "Explicitly marked as a house reading ('Read through Kha-Ba-La'), with each term assigned a defined role and applied consistently with the essay's earlier usage; declaration plus internal coherence, no external proof claimed at this sentence.",

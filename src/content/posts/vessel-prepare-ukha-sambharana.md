@@ -68,7 +68,8 @@ llm:
     load-bearing principle — the seeker's cavity must match the cavity of what
     is sought. Ignition takes only when purpose and compassion are both non-zero.
     The Rahu-Ketu axis is treated as a productive cartography over the operation,
-    not a Vedic claim. The vessel is engineered to be broken at cycle end; the
+    not a Vedic claim. The vessel is engineered to be emptied and sealed away
+    at cycle's end — decommissioned, not shattered; the
     operator is the only thing that remains. The kratu-purusha figure — witness
     and alchemist in one body — is what the entire eleven-stage operation trains.
   start_priority: supporting
@@ -77,7 +78,7 @@ llm:
     - What is the matched-cavity principle and why does it govern inner-fire instrument design?
     - Why does the inner fire ignite only when both purpose and compassion are non-zero?
     - Is the Rahu-Ketu axis a Vedic claim or a productive overlay on the operation?
-    - Why is the prepared vessel engineered to be broken at the close of its cycle?
+    - Why is the prepared vessel engineered to be emptied and sealed away at cycle's end rather than shattered?
     - What is the kratu-purusha and why does the operation train this specific figure?
 ---
 
@@ -288,13 +289,13 @@ This is the figure the Saṃhitā trains. It is the figure the Upanishad describ
 
 The final feature of the operation is the most easily missed.
 
-The clay *ukha*, prepared with this exhaustive care, held for the full year of the Agnicayana cycle, is at the end of the year **broken.** Not retired. Not preserved. Not enshrined. **Shattered.**
+The clay *ukha*, prepared with this exhaustive care, holding the fire through the full dīkṣā year of the Agnicayana cycle, is at the end **emptied.** Not refilled for reuse. Not carried forward. Not kept. **Decommissioned.**
 
 The vessel that did its work correctly is dismantled precisely because it did its work correctly.
 
 This is engineered obsolescence as design principle. The vessel is not the achievement. The fire was the substrate from the beginning and returns to the substrate at the end. The vessel's job was to hold without distortion for the duration of the cycle. **Any vessel that survives past its cycle has become a substitute for the fire — which is the failure mode the entire operation is designed against.**
 
-The Agnicayana cycle is not arbitrary. The full preparation takes one year — the *samvatsara*, the solar cycle — and is structured to align with seasonal and astronomical transitions. The ukha holds the fire across the full cycle of seasons, through the solstices and equinoxes, through the agricultural year. At cycle-end, the operation completes. The vessel that held the fire for one full cosmic cycle has accomplished its function. It is shattered ceremonially. The fire is released back to the field from which it was called.
+The Agnicayana cycle is not arbitrary. The full preparation takes one year — the *samvatsara*, the solar cycle — and is structured to align with seasonal and astronomical transitions. The ukha holds the fire across the full cycle of seasons, through the solstices and equinoxes, through the agricultural year. At cycle-end, the operation completes. The vessel that held the fire for one full cosmic cycle has accomplished its function. It is sealed — refilled with sand and milk, never to hold fire again — and built into the fifth layer of the great altar (ŚB 7.1.1.40–44; 7.5.2.14). The sheds that housed the rite are burned. The implements go to the water at the avabhṛtha. The fire is released back to the field from which it was called.
 
 This is not unique to the Agnicayana. The same engineered-obsolescence principle appears in other ritual technologies. The Tibetan sand mandala is constructed with painstaking precision over days or weeks, then deliberately destroyed: the sand is swept into a single mound and poured into running water. The mandala that did its work correctly is dismantled because the dismantlement is the work's completion, not its failure. The Ganesh *visarjana* immerses the painstakingly-crafted clay murti into the sea at the festival's end. The Christian Lent ashes are made from the previous year's blessed palms. In each case, the sacred object is engineered to dissolve at its cycle's term, and its dissolution is what marks the operation's success.
 
@@ -302,11 +303,11 @@ The principle generalizes beyond ritual technology. Scaffolding in construction 
 
 The substitution-failure mode is worth examining specifically. When a prepared vessel survives past its cycle, two things happen in sequence. First, the practitioner who used the vessel begins to identify with the vessel rather than with the substrate the vessel held. The vessel becomes the achievement, the marker, the identity. Second, the substrate the vessel was built to hold becomes less accessible, because the practitioner now seeks the substrate *through* the vessel rather than *in* the field of which the vessel was always a temporary cavity. The vessel becomes the substrate's substitute. The substrate is still present — substrate is always present — but the practitioner cannot access it directly, because direct access would require dismantling the vessel that has become the practitioner's identity.
 
-This is the structural diagnosis of an entire class of post-realization failure modes. The practitioner who had a genuine opening in their twenties and is still recounting it in their fifties has, in vessel terms, refused to shatter the ukha at cycle's end. The opening was real. The substrate genuinely arrived. The vessel that held it across that cycle did its work correctly. The error is not in the original operation; the error is in the operator's refusal to release the vessel after the cycle completed. The substrate, having no held-cavity of correct geometry to occupy, withdraws to its background-substrate state. The practitioner, having identified with the vessel rather than with the substrate, experiences the withdrawal as loss — and spends the subsequent decades trying to recreate the original conditions, when what was actually required was the shattering. The original ukha was supposed to break.
+This is the structural diagnosis of an entire class of post-realization failure modes. The practitioner who had a genuine opening in their twenties and is still recounting it in their fifties has, in vessel terms, refused to decommission the ukha at cycle's end. The opening was real. The substrate genuinely arrived. The vessel that held it across that cycle did its work correctly. The error is not in the original operation; the error is in the operator's refusal to release the vessel after the cycle completed. The substrate, having no held-cavity of correct geometry to occupy, withdraws to its background-substrate state. The practitioner, having identified with the vessel rather than with the substrate, experiences the withdrawal as loss — and spends the subsequent decades trying to recreate the original conditions, when what was actually required was the decommissioning. The original ukha was supposed to be emptied and sealed away — the Śatapatha Brāhmaṇa warns that the one who keeps beholding the empty vessel is devoured by it (ŚB 7.1.1.40).
 
-This is also why the operation specifies a *ceremonial* shattering. The vessel is not allowed to crumble through neglect, nor is it allowed to be smashed in frustration. It is broken with the same precision with which it was prepared, at the time appointed by the cycle, in the configuration the operation specifies. Engineered obsolescence is not casual destruction; it is the final operation of a complete sequence.
+This is also why the operation specifies a *ceremonial* decommissioning. The vessel is not allowed to crumble through neglect, nor is it allowed to be discarded in frustration. It is sealed with the same precision with which it was prepared, at the time appointed by the cycle, in the configuration the operation specifies. Engineered obsolescence is not casual destruction; it is the final operation of a complete sequence.
 
-This is why the Ukhasambharana operation specifies that the vessel is shattered. Not destroyed casually, not lost through neglect — shattered, ceremonially, as the operation's culminating move. The shattering is the operation's signature.
+This is why the Ukhasambharana operation specifies that the vessel is decommissioned. Not destroyed casually, not lost through neglect — sealed, ceremonially, as the operation's culminating move. The decommissioning is the operation's signature.
 
 The same principle governs every inner-fire architecture worth building. Frameworks. Practices. Identities. Doctrines. **Each is a vessel.** Each is justified by its capacity to hold without distortion during its cycle. None are justified by surviving past the cycle for which they were prepared.
 

@@ -3,7 +3,7 @@
   "ledger_state": "RECERTIFIED",
   "post": "your-reality-is-a-smart-contract.md",
   "source_path": "src/content/posts/your-reality-is-a-smart-contract.md",
-  "source_sha256": "bffee3340cbf6fe2c37dfdbe7faf410e5704d6e56c1e69cf99466d9b23ddc942",
+  "source_sha256": "55b657f0c39e2ab3d98a48adc4a8fda576d81b4d2e27dcd9f23cb2778794917b",
   "legacy_audit_path": "quality-engine/audits/nigredo/your-reality-is-a-smart-contract.md-nigredo-audit.md",
   "claims": [
     {
@@ -508,14 +508,12 @@
       "anchor": {
         "line_start": 68,
         "line_end": 68,
-        "quote": "The Bali Padiyami ritual in Bali operates on a 210-day cycle, a cron job written into agrarian code."
+        "quote": "The Indian Bali Padyami observance returns each year on Kartika Shukla Pratipada — a cron job written into the lunisolar code."
       },
       "claim_mode": "HISTORICAL-CLAIM",
-      "claim_status": "UNSUPPORTED",
+      "claim_status": "ATTRIBUTED",
       "remediation_codes": [
-        "R-SOURCE",
-        "R-ATTRIBUTE",
-        "R-PROVENANCE"
+        "KEEP"
       ],
       "requires_review": false,
       "math": {
@@ -528,7 +526,7 @@
         },
         "evidence_eligible": false
       },
-      "rationale": "The 210-day figure matches the real Balinese Pawukon ritual calendar, but no ceremony named \"Bali Padiyami\" can be traced; attaching the cycle to that named ritual is unprovenanced.",
+      "rationale": "The 210-day figure matches the real Balinese Pawukon ritual calendar, but no ceremony named \"Bali Padiyami\" can be traced; attaching the cycle to that named ritual is unprovenanced. RESOLVED: name now correctly attributed to the Indian Bali Padyami returning on Kartika Shukla Pratipada (lunisolar code); the unattested 210-day Balinese framing removed.",
       "legacy": {
         "anchor": "BLIND-NEW (L68-68)",
         "quote": "The Bali Padiyami ritual in Bali operates on a 210-day cycle, a cron job written into agrarian code.",

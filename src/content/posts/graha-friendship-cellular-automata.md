@@ -37,6 +37,8 @@ In Vedic astrology, the nine grahas maintain a fixed matrix of relationships —
 
 The Graha friendship matrix is a 9x9 adjacency table where each cell contains one of three values: Friend (5), Neutral (4), or Enemy (0). These values are not arbitrary. They represent the strength of constructive interference between planetary fields.
 
+This matrix is my adapted composite — the classical Parāśari naisargika table doesn't carry Rahu/Ketu rows; I've extended it for the automaton.
+
 ```python
 class GrahaMatrix:
     def __init__(self):

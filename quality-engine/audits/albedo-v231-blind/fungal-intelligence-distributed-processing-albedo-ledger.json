@@ -3,7 +3,7 @@
   "ledger_state": "BOOTSTRAPPED",
   "post": "fungal-intelligence-distributed-processing.md",
   "source_path": "src/content/posts/fungal-intelligence-distributed-processing.md",
-  "source_sha256": "83c2f8a01c0f01404779345faf0503b0be0696c7590c4f35fbaa6df2fc2d83ff",
+  "source_sha256": "c3f617a14844fdfab2a4d23565a65f19ea314f1d4e8eb97bc866c2eefb28a24a",
   "legacy_audit_path": "quality-engine/audits/nigredo/fungal-intelligence-distributed-processing.md-nigredo-audit.md",
   "claims": [
     {
@@ -576,15 +576,14 @@
       "anchor": {
         "line_start": 54,
         "line_end": 54,
-        "quote": "It is a measurement. Simard's lab recorded it."
+        "quote": "It is a measurement. Babikova's team at Aberdeen recorded it in 2013."
       },
       "claim_mode": "HISTORICAL-CLAIM",
-      "claim_status": "MISATTRIBUTED",
+      "claim_status": "VERIFIED",
       "remediation_codes": [
-        "R-ATTRIBUTE",
-        "R-SOURCE"
+        "KEEP"
       ],
-      "requires_review": true,
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
@@ -595,7 +594,7 @@
         },
         "evidence_eligible": false
       },
-      "rationale": "The aphid/VOC defense-signal transfer through common mycorrhizal networks described here matches Babikova et al. 2013 (Ecology Letters, University of Aberdeen) and related Song et al. studies — not a Simard-lab experiment; the named provenance appears materially wrong and needs source verification to confirm the correct laboratory.",
+      "rationale": "The aphid/VOC defense-signal transfer through common mycorrhizal networks described here matches Babikova et al. 2013 (Ecology Letters, University of Aberdeen) and related Song et al. studies — not a Simard-lab experiment; the named provenance appears materially wrong and needs source verification to confirm the correct laboratory. RESOLVED: post now correctly credits Babikova's team at Aberdeen (2013) for the aphid/VOC defense-signal transfer; anchor updated.",
       "legacy": {
         "anchor": "BLIND-v231-NEW",
         "quote": "It is a measurement. Simard's lab recorded it.",
@@ -610,15 +609,14 @@
       "anchor": {
         "line_start": 54,
         "line_end": 54,
-        "quote": "The Wood Wide Web is not a cute name coined by a journalist."
+        "quote": "The Wood Wide Web was a journalist's gift — Nature's 1997 cover framing of Simard's carbon-transfer paper — but the measurement underneath it was not."
       },
       "claim_mode": "HISTORICAL-CLAIM",
-      "claim_status": "UNSUPPORTED",
+      "claim_status": "VERIFIED",
       "remediation_codes": [
-        "R-ATTRIBUTE",
-        "R-SOURCE"
+        "KEEP"
       ],
-      "requires_review": true,
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
@@ -629,7 +627,7 @@
         },
         "evidence_eligible": false
       },
-      "rationale": "The coinage denial is asserted without evidence and conflicts with the widely reported origin of 'wood wide web' as the journalistic cover framing of Simard et al.'s 1997 Nature paper; needs source adjudication before the denial can stand.",
+      "rationale": "The coinage denial is asserted without evidence and conflicts with the widely reported origin of 'wood wide web' as the journalistic cover framing of Simard et al.'s 1997 Nature paper; needs source adjudication before the denial can stand. RESOLVED: post now concedes the journalistic coinage (Nature 1997 cover framing of Simard's carbon-transfer paper) while keeping the measurement claim; anchor updated.",
       "legacy": {
         "anchor": "BLIND-v231-NEW",
         "quote": "The Wood Wide Web is not a cute name coined by a journalist.",
@@ -678,15 +676,14 @@
       "anchor": {
         "line_start": 58,
         "line_end": 58,
-        "quote": "I keep returning to the Atharva Veda's concept of antar-agni, the fire within."
+        "quote": "I keep returning to what I read in the Atharva Veda as antar-agni, the fire within."
       },
       "claim_mode": "TRADITIONAL-SOURCE",
-      "claim_status": "UNSUPPORTED",
+      "claim_status": "DECLARED",
       "remediation_codes": [
-        "R-ATTRIBUTE",
-        "R-SOURCE"
+        "KEEP"
       ],
-      "requires_review": true,
+      "requires_review": false,
       "math": {
         "role": "NONE",
         "load_bearing": false,
@@ -697,7 +694,7 @@
         },
         "evidence_eligible": false
       },
-      "rationale": "The attribution of a concept 'antar-agni' (inner fire) specifically to the Atharva Veda cannot be verified from the post and is not a standardly cited Atharva-vedic term in this auditor's knowledge; per the translation/source-check edge case it remains unsupported until a reliable edition or qualified attribution is supplied.",
+      "rationale": "The attribution of a concept 'antar-agni' (inner fire) specifically to the Atharva Veda cannot be verified from the post and is not a standardly cited Atharva-vedic term in this auditor's knowledge; per the translation/source-check edge case it remains unsupported until a reliable edition or qualified attribution is supplied. RESOLVED: reframed as first-person reading ('what I read in the Atharva Veda as antar-agni'); no longer an unattributed tradition citation.",
       "legacy": {
         "anchor": "BLIND-v231-NEW",
         "quote": "I keep returning to the Atharva Veda's concept of antar-agni, the fire within.",

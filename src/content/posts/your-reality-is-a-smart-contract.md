@@ -65,7 +65,7 @@ The Ṛg Veda maps speech across four layers. Read from source to output, they f
 
 **Vaikhari** is the audible output — the compiled binary, the sound that exits the body and enters the air. Once compiled, it cannot be uncompiled. The phoneme has left the speaker. The transaction is on-chain.
 
-The vocal apparatus — tongue, palate, larynx, breath — is the compiler engine. Misconfigure any component and the mantra compiles to noise. The Bali Padiyami ritual in Bali operates on a 210-day cycle, a cron job written into agrarian code. The priests recite at specific frequencies because the runtime requires it. The timing is not ceremonial decoration. It is dependency management.
+The vocal apparatus — tongue, palate, larynx, breath — is the compiler engine. Misconfigure any component and the mantra compiles to noise. The Indian Bali Padyami observance returns each year on Kartika Shukla Pratipada — a cron job written into the lunisolar code. The priests recite at specific frequencies because the runtime requires it. The timing is not ceremonial decoration. It is dependency management.
 
 Friction is the force that makes execution real — the resistance of the substrate, the inertia of matter, the cost of doing business with the physical. Remove the observer and the body becomes mere mechanism. Remove the body and the observer has no ledger. Remove the resistance and neither has form. The triad co-arises, or nothing arises at all.
 
