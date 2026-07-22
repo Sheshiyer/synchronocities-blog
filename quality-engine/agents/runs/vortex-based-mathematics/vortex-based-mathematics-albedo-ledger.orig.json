@@ -1,0 +1,406 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "BOOTSTRAPPED",
+  "post": "vortex-based-mathematics.md",
+  "source_path": "src/content/posts/vortex-based-mathematics.md",
+  "source_sha256": "39349e5f5f62d656ef387fdfff7727134192f5b6f0af912f27095cda82fce9e6",
+  "legacy_audit_path": "quality-engine/audits/nigredo/vortex-based-mathematics.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 65,
+        "line_end": 65,
+        "quote": "The Aufbau principle in atomic physics fills electron orbitals in a sequence — 1s, 2s, 2p, 3s, 3p, 4s, 3d — that is not linear. It doubles back, skips shells, fills in a pattern that only makes sense when you map it onto a toroidal phase space. The periodic table is not a staircase. It is a spiral wrapped around a donut."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-SOURCE"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "evidence_eligible": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        }
+      },
+      "rationale": "The post claims the Aufbau principle follows a toroidal pattern and that the periodic table forms a toroidal spiral. This is presented as an empirical correlation between atomic physics and toroidal topology, but no primary physics sources or peer-reviewed sources are cited to support this specific topological interpretation of electron orbital filling.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 67,
+        "line_end": 67,
+        "quote": "In music theory, the circle of fifths generates every pitch class by repeated multiplication by 3 (modulo 12), and the sequence closes after twelve steps."
+      },
+      "claim_mode": "EMPIRICAL-CORRELATE",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "evidence_eligible": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        }
+      },
+      "rationale": "The circle of fifths in music theory does indeed generate all 12 pitch classes by repeatedly multiplying by 3 modulo 12 (or equivalently, adding 7 semitones), which cycles through all pitch classes before returning to the starting note after 12 iterations. This is a well-established mathematical fact in music theory.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 69,
+        "line_end": 69,
+        "quote": "The I Ching generates its sixty-four hexagrams through a binary doubling sequence: six lines, each doubled from the previous. The Book of Changes is a toroidal state machine."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "evidence_eligible": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        }
+      },
+      "rationale": "The post attributes a specific mechanism (binary doubling sequence) to the generation of I Ching hexagrams and characterizes the system as a toroidal state machine. This presents a specific interpretation of I Ching logic as attributable to the text's structure, though the toroidal characterization appears to be the author's interpretive framework rather than a traditional description.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 79,
+        "line_end": 79,
+        "quote": "Read through this lens, the pillars are the doubling and halving circuits — the two directions of poloidal rotation. The scale is the 3-6 oscillation, the balancing rhythm that prevents the system from polarizing. The sword is the 9: the axis of discernment that cuts without moving."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "evidence_eligible": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        }
+      },
+      "rationale": "This passage presents an explicit interpretive mapping where tarot symbolism (Justice card) is mapped onto toroidal dynamics using the author's speculative framework. The language 'Read through this lens' indicates this is a declared metaphorical interpretation rather than an empirical claim about traditional tarot interpretation.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 83,
+        "line_end": 83,
+        "quote": "I do know that the decimal system, freed from its job as a counting abacus, draws a shape that shows up in atoms, in music, in the oldest divination texts we possess, and in the architecture of consciousness itself. The torus is not a decorative symbol. It is the kinematic signature of anything that spins without dissolving — a number, a field, a mind, a ceremony."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "evidence_eligible": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        }
+      },
+      "rationale": "This claim presents the torus as a universal 'kinematic signature' across multiple domains (atoms, music, divination texts, consciousness). While individual observations are presented as factual, the synthesis into a single universal principle represents the author's declared metaphorical framework rather than an established cross-disciplinary principle.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 43,
+        "line_end": 45,
+        "quote": "The decimal system was never designed to show you this. Brahmagupta formalized zero and the place-value notation in the 7th century to make accounting faster — grain ledgers, tax receipts, temple inventories. The digits were handles. They let you grip quantity without thinking about shape. Kha is the witness who notices that the grip itself has a geometry. Without Kha, the system spins but nobody records the periodicity. You get motion without memory, repetition without recognition.\n\nBut if you treat the digits as a dynamical system instead of a counting tool, a shape surfaces that no accountant ever needed. Start with 1. Double it and you get 2. Double once more for 4. The next power yields 8. Continue to 16, whose digits collapse to 7. Push to 32, which reduces to 5. One more step lands on 64, collapsing back to 1. The circuit closes: 1-2-4-8-7-5. Six states. A closed loop."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The passage attributes the formalization of zero and place-value notation to Brahmagupta in the 7th century for accounting purposes. This is a historically accurate claim about the origins of the decimal system, though the philosophical interpretation about 'Kha' and 'witness' is speculative. The mathematical doubling sequence description (1-2-4-8-7-5) is correct as demonstrated.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 47,
+        "line_end": 47,
+        "quote": "This is the doubling circuit, and it is the trace of a rotor. The sequence is isomorphic to multiplication in the multiplicative group of integers modulo 9, generated by 2, with order 6. Every element in the loop is a power of two reduced to its digital root. The mathematics is elementary. What is not elementary is what the loop leaves out."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The claim that the doubling circuit (1-2-4-8-7-5) is isomorphic to multiplication in the multiplicative group of integers modulo 9 generated by 2 is mathematically correct. The group (Z/9Z)* has elements {1,2,4,5,7,8} and 2 is indeed a generator of order 6, producing the cycle 2^0=1, 2^1=2, 2^2=4, 2^3=8, 2^4=16→7, 2^5=32→5, 2^6=64→1. This is verifiable elementary number theory.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 49,
+        "line_end": 49,
+        "quote": "3, 6, and 9 never appear."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This is a direct observation about the doubling circuit sequence: when repeatedly doubling and reducing to digital roots (sum of digits until single digit), the sequence 1→2→4→8→7→5→1 never produces 3, 6, or 9. This is empirically verifiable by performing the calculation.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 51,
+        "line_end": 51,
+        "quote": "Double 3 and the result is 6. Multiply 6 by 2 and you obtain 12, whose digits sum to 3. The pair oscillates: 3-6-3-6, a 2-cycle trapped in its own orbit. Double 9 and you get 18, whose digits sum to 9. The number stands still. A fixed point."
+      },
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This describes the behavior of 3, 6, and 9 under the doubling-digital-root operation: 3→6→12→3 (2-cycle) and 9→18→9 (fixed point). These are straightforward arithmetic calculations that can be verified directly.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "So the full field splits into three regimes: a 6-cycle on the rim, a 2-cycle oscillating through the interior, and a fixed point at the axis. That is not a metaphor. That is the fundamental group of the torus."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "evidence_eligible": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        }
+      },
+      "rationale": "The author declares the mathematical structure (6-cycle, 2-cycle, fixed point) to be analogous to the fundamental group of the torus (Z×Z), presenting it as declared metaphor rather than claiming strict equivalence. While the structural similarity exists (both have two generators), this is presented as an interpretive analogy rather than a strict mathematical equivalence claim.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "math",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 57,
+        "line_end": 57,
+        "quote": "Marko Rodin mapped this in the 1980s, not by inventing the pattern but by noticing that the decimal system, when read as a dynamical map, draws its own ambient geometry. The number line we were taught in school is a projection — one coordinate of this system flattened onto an axis. It is useful. It is also a dimensional reduction that hides the knot."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This attributes the discovery/observation of the vortex-based mathematics pattern to Marko Rodin in the 1980s. While Rodin did promote these ideas starting in that era, the specific mathematical pattern described (doubling circuit, 3-6-9 oscillation) is elementary arithmetic that would have been known much earlier. The attribution is plausible but not definitively verified as an original discovery.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 59,
+        "line_end": 60,
+        "quote": "The Rodin coil attempts to reverse that reduction. The winding geometry follows the 1-2-4-8-7-5 circuit around a toroidal core, with the 3-9-6 axis as a center tap. The claim is that this produces a non-dipole magnetic field with a non-decaying spin component at the center axis — a sustained rotation without the energy dissipation typical of dipole fields."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": [
+        "R-MODEL"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "This describes the Rodin coil's wound geometry following the doubling circuit pattern and claims it produces a non-dipole magnetic field with non-decaying spin. While the geometric description of the winding is plausible and matches the described pattern, the physical claim about producing special magnetic fields lacks empirical support in the cited literature and remains unverified, making it an unsupported house model extrapolation from the mathematical pattern.",
+      "legacy": {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "New blind-pass coverage finding; legacy ledger not consulted per BLIND rule — no provenance counterfeited."
+      }
+    }
+  ]
+}

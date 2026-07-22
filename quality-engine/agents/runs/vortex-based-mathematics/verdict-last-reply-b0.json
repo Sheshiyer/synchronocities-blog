@@ -1,0 +1,19 @@
+{
+ "agent": "verdict-b0",
+ "round": 1,
+ "latency_s": 30.9,
+ "blocks": [
+  {
+   "type": "ThinkingBlock",
+   "thinking_chars": 8672
+  },
+  {
+   "type": "TextBlock",
+   "text": "{\n  \"verdicts\": [\n    {\n      \"id\": \"C006\",\n      \"claim_mode\": \"HISTORICAL-CLAIM\",\n      \"claim_status\": \"VERIFIED\",\n      \"remediation_codes\": [\"KEEP\"],\n      \"math\": {\n        \"role\": \"NONE\",\n        \"load_bearing\": false,\n        \"evidence_eligible\": false,\n        \"locks\": {\n          \"correctness\": \"NOT-APPLICABLE\",\n          \"consequence\": \"NOT-APPLICABLE\",\n          \"provenance\": \"NOT-APPLICABLE\"\n        }\n      },\n      \"rationale\": \"The claim attributes the formalization of zero and place-value notation to Brahmagupta in the 7th century for accounting purposes, which is independently verifiable from his Brahmasphutasiddhanta (628 CE). The illustrative examples of grain ledgers, tax receipts, and temple inventories are contextual and do not affect the core historical truth.\",\n      \"anchor\": null,\n      \"new_claims\": []\n    },\n    {\n      \"id\": \"C007\",\n      \"claim_mode\": \"HOUSE-MODEL\",\n      \"claim_status\": \"MODE-CONFLATED\",\n      \"remediation_codes\": [\"R-METAPHOR\"],\n      \"math\": {\n        \"role\": \"NONE\",\n        \"load_bearing\": false,\n        \"evidence_eligible\": false,\n        \"locks\": {\n          \"correctness\": \"NOT-APPLICABLE\",\n          \"consequence\": \"NOT-APPLICABLE\",\n          \"provenance\": \"NOT-APPLICABLE\"\n        }\n      },\n      \"rationale\": \"The assertion that the doubling circuit is the trace of a rotor is a metaphorical analogy presented as literal fact without an explicit metaphor flag; the passage later treats it as a literal mathematical truth (fundamental group of the torus). This constitutes metaphor‑asserted‑as‑fact.\",\n      \"anchor\": null,\n      \"new_claims\": []\n    },\n    {\n      \"id\": \"C008\",\n      \"claim_mode\": \"DIRECT-OBSERVATION\",\n      \"claim_status\": \"VERIFIED\",\n      \"remediation_codes\": [\"KEEP\"],\n      \"math\": {\n        \"role\": \"NONE\",\n        \"load_bearing\": false,\n        \"evidence_eligible\": false,\n        \"locks\": {\n          \"correctness\": \"NOT-APPLICABLE\",\n          \"consequence\": \"NOT-APPLICABLE\",\n          \"provenance\": \"NOT-APPLICABLE\"\n        }\n      },\n      \"rationale\": \"The claim states that the digits 3, 6, and 9 never appear in the doubling/digital‑root sequence beginning with 1. Direct computation of the orbit of 2 modulo 9 yields the repeating cycle 1‑2‑4‑8‑7‑5, confirming the absence of 3, 6, and 9.\",\n      \"anchor\": null,\n      \"new_claims\": []\n    }\n  ]\n}"
+  }
+ ],
+ "usage": {
+  "input_tokens": 3472,
+  "output_tokens": 2905
+ }
+}

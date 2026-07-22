@@ -1,0 +1,19 @@
+{
+ "agent": "verdict-b3",
+ "round": 0,
+ "latency_s": 71.8,
+ "blocks": [
+  {
+   "type": "ThinkingBlock",
+   "thinking_chars": 20846
+  },
+  {
+   "type": "TextBlock",
+   "text": "{\n  \"verdicts\": [\n    {\n      \"id\": \"C012\",\n      \"claim_mode\": \"HOUSE-MODEL\",\n      \"claim_status\": \"UNSUPPORTED\",\n      \"remediation_codes\": [\"R-MODEL\"],\n      \"math\": {\"role\": \"NONE\", \"load_bearing\": false, \"evidence_eligible\": false, \"locks\": {\"correctness\": \"NOT-APPLICABLE\", \"consequence\": \"NOT-APPLICABLE\", \"provenance\": \"NOT-APPLICABLE\"}},\n      \"rationale\": \"The claim states that the Rodin coil’s winding follows the 1‑2‑4‑8‑7‑5 doubling circuit and that this geometry produces a non‑dipole magnetic field with a non‑decaying spin component at the axis. While the winding pattern matches the described doubling circuit, the post provides no empirical evidence or citation for the asserted magnetic effect, and independent verification of such a field is lacking. Hence the physical claim is unsupported.\",\n      \"anchor\": null,\n      \"new_claims\": []\n    },\n    {\n      \"id\": \"C003\",\n      \"claim_mode\": \"TRADITIONAL-SOURCE\",\n      \"claim_status\": \"CONTRADICTED\",\n      \"remediation_codes\": [\"R-SOURCE\"],\n      \"math\": {\"role\": \"NONE\", \"load_bearing\": false, \"evidence_eligible\": false, \"locks\": {\"correctness\": \"NOT-APPLICABLE\", \"consequence\": \"NOT-APPLICABLE\", \"provenance\": \"NOT-APPLICABLE\"}},\n      \"rationale\": \"The claim asserts that the I Ching’s 64 hexagrams arise from a binary doubling process (six lines each doubled from the previous) and that the Book of Changes forms a toroidal state machine. In reality, the hexagrams are all combinations of six yin/yang lines; their traditional ordering is not a binary doubling sequence, and there is no established toroidal state‑machine interpretation in the source. Therefore the statement is contradicted by the known structure of the I Ching.\",\n      \"anchor\": null,\n      \"new_claims\": []\n    },\n    {\n      \"id\": \"C004\",\n      \"claim_mode\": \"DECLARED-METAPHOR\",\n      \"claim_status\": \"DECLARED\",\n      \"remediation_codes\": [\"KEEP\"],\n      \"math\": {\"role\": \"ANALOGICAL\", \"load_bearing\": false, \"evidence_eligible\": false, \"locks\": {\"correctness\": \"NOT-APPLICABLE\", \"consequence\": \"NOT-APPLICABLE\", \"provenance\": \"NOT-APPLICABLE\"}},\n      \"rationale\": \"The passage offers an explicit interpretive mapping where the tarot Justice card’s pillars, scale, and sword are equated to the doubling/halving circuits, the 3‑6 oscillation, and the axis, prefaced by ‘Read through this lens’. This signals a declared metaphorical reading rather than an empirical claim about traditional tarot symbolism.\",\n      \"anchor\": null,\n      \"new_claims\": []\n    },\n    {\n      \"id\": \"C005\",\n      \"claim_mode\": \"DERIVED-SYNTHESIS\",\n      \"claim_status\": \"UNSUPPORTED\",\n      \"remediation_codes\": [\"R-SYNTHESIS\"],\n      \"math\": {\"role\": \"NONE\", \"load_bearing\": false, \"evidence_eligible\": false, \"locks\": {\"correctness\": \"NOT-APPLICABLE\", \"consequence\": \"NOT-APPLICABLE\", \"provenance\": \"NOT-APPLICABLE\"}},\n      \"rationale\": \"The claim synthesizes observations that the decimal‑system doubling pattern appears in atomic electron shells, musical fifths, the I Ching, and consciousness, presenting the torus as a universal kinematic signature. No in‑post evidence or citation is provided for these cross‑domain assertions, and the synthesis remains unverified, rendering it an unsupported derived synthesis.\",\n      \"anchor\": null,\n      \"new_claims\": []\n    }\n  ]\n}"
+  }
+ ],
+ "usage": {
+  "input_tokens": 4734,
+  "output_tokens": 6198
+ }
+}

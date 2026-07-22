@@ -1,12 +1,23 @@
-"""Sequential 2-agent pipeline: Extractor -> Verifier (driver-bounded loop).
+"""Sequential 3-stage pipeline: Extractor -> Verifier -> Verdict.
 
 Extractor reads a post and writes a blind albedo v2.3.1 ledger into
 quality-engine/agents/runs/<slug>/. The Verifier is then driven in a
 Python-bounded loop (max 5 iterations): the driver validates, hands the
 verbatim failures to the Verifier, and the Verifier repairs the ledger.
+
+The Verdict stage (run_verdict_pass) re-judges every claim with a
+thinking-enabled model: extraction runs thinking-OFF (fast but over-lenient —
+a real math error slipped through as VERIFIED), so the verdict pass pays for
+~2-5 min thinking turns, batched 3-4 claims per turn. Verdict agents are
+single-turn (no ReAct loop): they return a strict-JSON verdict document and
+the DRIVER applies it through the existing patch_ledger / append_claims
+tools. This keeps each batch at exactly one thinking turn (a 2-turn ReAct
+loop would risk the ~300 s execution budget) while still routing every
+ledger mutation through the schema-validated tools.
 """
 import asyncio
 import json
+import shutil
 import time
 from pathlib import Path
 from typing import AsyncGenerator, Callable
@@ -16,7 +27,7 @@ from agentscope.message import UserMsg
 from agentscope.middleware import MiddlewareBase
 from agentscope.tool import Toolkit
 
-from .config import build_model
+from .config import build_model, build_verdict_model
 from . import tools as T
 
 MAX_VERIFIER_ITERS = 5
@@ -474,3 +485,414 @@ async def run_pipeline(slug: str, run_dir: Path) -> dict:
     run_dir.mkdir(parents=True, exist_ok=True)
     replies = await run_extractor(slug, run_dir)
     return await run_verifier(slug, run_dir, replies)
+
+
+# ---------------------------------------------------------------------------
+# VERDICT stage (thinking-enabled re-judgement)
+# ---------------------------------------------------------------------------
+
+VERDICT_BATCH_SIZE = 3
+VERDICT_CONTEXT_PAD = 6  # post lines of context around each batch's anchors
+VERDICT_MAX_ATTEMPTS = 2  # per batch (initial + 1 regeneration on failure)
+
+VERDICT_SYSTEM = """You are QE-Verdict, a rigorous epistemic re-judgement specialist for albedo \
+v2.3.1 blind audit ledgers. A fast extraction pass already produced draft \
+claims; several verdicts are over-lenient. Your job is to RE-JUDGE each claim \
+with full rigor and return a strict-JSON verdict document. A driver applies \
+your document to the ledger through schema-validated patch/append tools — \
+you do NOT call tools yourself.
+
+ENUMS (exact, uppercase):
+- claim_mode: DIRECT-OBSERVATION | EMPIRICAL-CORRELATE | TRADITIONAL-SOURCE \
+| HISTORICAL-CLAIM | HOUSE-MODEL | DERIVED-SYNTHESIS | DECLARED-METAPHOR
+- claim_status: VERIFIED | ATTRIBUTED | COHERENT | DECLARED | UNSUPPORTED \
+| CONTRADICTED | MISATTRIBUTED | MODE-CONFLATED
+- math.role: NONE | LOAD-BEARING | ANALOGICAL | DECORATIVE | WRONG
+- math.locks values: PASS | FAIL | UNASSESSED | NOT-APPLICABLE
+- remediation_codes (unique array): KEEP, R-SPLIT, R-REMODE, R-SCOPE, \
+R-SOURCE, R-ATTRIBUTE, R-CAUSE, R-MODEL, R-SYNTHESIS, R-METAPHOR, R-MATH, \
+R-PROVENANCE, R-DELETE, R-MANUAL. If claim_status is failing (UNSUPPORTED, \
+CONTRADICTED, MISATTRIBUTED, MODE-CONFLATED) codes must NOT be ["KEEP"].
+
+STATUS DEFINITIONS:
+- VERIFIED: independently checkable AND correct. For math: you recomputed it \
+in your thinking and it holds. For facts: well-established and accurately stated.
+- ATTRIBUTED: the claim reports what a person/text/traction holds or did, and \
+the attribution itself is accurate.
+- COHERENT: internal house-model reasoning; consistent, not externally checkable.
+- DECLARED: the author explicitly flags it as metaphor, lens, or speculation.
+- UNSUPPORTED: a checkable empirical/factual assertion with no in-post \
+evidence or citation and not independently verifiable.
+- CONTRADICTED: demonstrably false. For math you must show the failing \
+computation in the rationale.
+- MISATTRIBUTED: attributed to the wrong person, era, or text.
+- MODE-CONFLATED: a metaphor, analogy, or author interpretation asserted as \
+literal external fact.
+
+EPISTEMIC RULES (this is why you exist — the fast pass violated these):
+1. MATH CLAIMS MUST ACTUALLY BE CHECKED. Recompute digit by digit in your \
+thinking before judging. Example of the failure mode you must catch: \
+"the circle of fifths generates every pitch class by repeated multiplication \
+by 3 (modulo 12), closing after twelve steps" — powers of 3 mod 12 are \
+1,3,9,3,... an order-4 cycle on {0,3,6,9}; it never reaches the other 8 \
+pitch classes. (The actual circle of fifths adds 7 semitones mod 12; \
+multiplication by 3 mod 12 is a different, non-generating map.) Such a claim \
+is CONTRADICTED with math.role=WRONG, not VERIFIED.
+2. Empirical or historical assertions need in-post evidence/citation OR \
+independent verifiability; otherwise UNSUPPORTED.
+3. Metaphors or author synthesis presented as literal fact -> MODE-CONFLATED \
+(or DERIVED-SYNTHESIS + UNSUPPORTED when it is checkable synthesis without \
+evidence). When you set MODE-CONFLATED, math.role must NOT be ANALOGICAL \
+(use NONE, or WRONG if the underlying math is also false).
+4. Author-framed interpretations ("read through this lens", "I do not know \
+whether...") stay DECLARED/DECLARED-METAPHOR.
+
+MATH-BLOCK CONDITIONAL RULES (hard schema constraints — your output must satisfy them):
+- role LOAD-BEARING => load_bearing=true, evidence_eligible=true, all locks PASS.
+- role DECORATIVE => load_bearing=false, evidence_eligible=false, \
+correctness=PASS, at least one of consequence/provenance = FAIL.
+- role ANALOGICAL => claim_mode=DECLARED-METAPHOR AND claim_status=DECLARED, \
+load_bearing=false, evidence_eligible=false, all locks NOT-APPLICABLE.
+- role NONE => load_bearing=false, evidence_eligible=false, all locks NOT-APPLICABLE.
+- role WRONG => load_bearing=false, evidence_eligible=false, correctness=FAIL \
+(other locks NOT-APPLICABLE or UNASSESSED).
+
+SPLITS: if one claim covers multiple assertions that deserve DIFFERENT \
+verdicts (e.g. a true mathematical statement plus a false topological claim \
+in one sentence), split it:
+- Re-anchor the ORIGINAL claim id to the first assertion: set "anchor" to \
+{"line_start": int, "line_end": int, "quote": "<verbatim substring of those \
+lines>"} and judge that assertion only.
+- Add each remaining assertion as an entry in "new_claims" with its own tight \
+anchor (verbatim quote), mode, status, remediation_codes, requires_review, \
+math, rationale. Do NOT include "id" or "legacy" in new claims — the driver \
+assigns ids and injects the legacy block.
+- Add "R-SPLIT" to the original claim's remediation_codes when splitting.
+ANCHOR IMMUTABILITY: apart from splits, NEVER change a claim's anchor lines \
+or quote. If an anchor looks slightly off but the claim is judgeable, judge \
+it and leave the anchor alone.
+
+OUTPUT CONTRACT — your ENTIRE reply must be ONE strict JSON object, no prose, \
+no code fences, no trailing commas:
+{
+  "verdicts": [
+    {
+      "id": "<existing claim id>",
+      "claim_mode": "<enum>",
+      "claim_status": "<enum>",
+      "remediation_codes": ["<enum>", ...],
+      "math": {"role": "<enum>", "load_bearing": <bool>,
+               "evidence_eligible": <bool>,
+               "locks": {"correctness": "<enum>", "consequence": "<enum>",
+                          "provenance": "<enum>"}},
+      "rationale": "<1-3 sentences, audit voice: what is asserted, why this \
+status, and the evidence or computation it was checked against>",
+      "anchor": null,
+      "new_claims": []
+    }
+  ]
+}
+One verdicts entry per claim you were given, including every key above even \
+when the judgement is unchanged (use the current values). "anchor" is null \
+unless splitting. "new_claims" is [] unless splitting. Refine rationales \
+whenever the old one is vague, wrong, or cites the wrong standard."""
+
+
+def _verdict_paths(run_dir: Path, slug: str) -> dict:
+    return {
+        "orig": run_dir / f"{slug}-albedo-ledger.orig.json",
+        "state": run_dir / "verdict-state.json",
+        "verdict": run_dir / f"{slug}-albedo-ledger.verdict.json",
+    }
+
+
+def _claim_sort_key(c: dict):
+    a = c.get("anchor", {})
+    return (a.get("line_start", 0), a.get("line_end", 0), str(c.get("id", "")))
+
+
+def _blind_legacy(math_block: dict) -> dict:
+    """The standard blind-pass legacy block for split-derived new claims."""
+    role = (math_block or {}).get("role", "NONE")
+    return {
+        "anchor": "BLIND-NEW-COVERAGE",
+        "quote": "(no legacy row; blind-pass extraction)",
+        "type": "math" if role != "NONE" else "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": bool((math_block or {}).get("load_bearing", False)),
+        "note": "New blind-pass coverage finding; legacy ledger not consulted "
+                "per BLIND rule — no provenance counterfeited.",
+    }
+
+
+def _extract_json_doc(text: str) -> dict | None:
+    """Parse the verdict agent's reply as one JSON object, tolerating code
+    fences and stray prose around it."""
+    t = text.strip()
+    if t.startswith("```"):
+        t = t.split("\n", 1)[-1] if "\n" in t else t
+        if t.rstrip().endswith("```"):
+            t = t.rstrip()[:-3]
+    start, end = t.find("{"), t.rfind("}")
+    if start == -1 or end <= start:
+        return None
+    try:
+        return json.loads(t[start:end + 1])
+    except json.JSONDecodeError:
+        return None
+
+
+def _apply_verdict_doc(rel_run_dir: str, doc: dict) -> dict:
+    """Apply one batch's verdict document through the EXISTING patch/append
+    tools (schema-validated, atomic append). Raises RuntimeError on tool
+    errors so the batch can be regenerated."""
+    verdicts = doc.get("verdicts")
+    if not isinstance(verdicts, list) or not verdicts:
+        raise RuntimeError("verdict document has no 'verdicts' array")
+    ops: list[dict] = []
+    new_claims: list[tuple[str, dict]] = []
+    per_claim: list[dict] = []
+    for v in verdicts:
+        cid = v.get("id")
+        if not cid:
+            raise RuntimeError(f"verdict entry missing id: {str(v)[:200]}")
+        a = v.get("anchor")
+        if a:  # split re-anchor of the original claim (only place anchors may change)
+            ops.append({"op": "set_anchor", "claim_id": cid,
+                        "line_start": int(a["line_start"]),
+                        "line_end": int(a["line_end"]),
+                        "quote": str(a["quote"])})
+        for field in ("claim_mode", "claim_status", "remediation_codes", "rationale"):
+            if field in v:
+                ops.append({"op": "set", "claim_id": cid, "field": field,
+                            "value": v[field]})
+        m = v.get("math")
+        if isinstance(m, dict):
+            ops.append({"op": "set", "claim_id": cid, "field": "math.role",
+                        "value": m.get("role", "NONE")})
+            ops.append({"op": "set", "claim_id": cid, "field": "math.load_bearing",
+                        "value": bool(m.get("load_bearing", False))})
+            ops.append({"op": "set", "claim_id": cid, "field": "math.evidence_eligible",
+                        "value": bool(m.get("evidence_eligible", False))})
+            for lk in ("correctness", "consequence", "provenance"):
+                ops.append({"op": "set", "claim_id": cid,
+                            "field": f"math.locks.{lk}",
+                            "value": m.get("locks", {}).get(lk, "NOT-APPLICABLE")})
+        for nc in v.get("new_claims") or []:
+            nc = dict(nc)
+            nc.pop("id", None)
+            nc.pop("new_claims", None)  # no nested splits; schema is additionalProperties:false
+            nc.setdefault("requires_review", False)
+            nc.setdefault("legacy", _blind_legacy(nc.get("math")))
+            new_claims.append((cid, nc))
+        per_claim.append({"id": cid, "claim_status": v.get("claim_status"),
+                          "split": bool(new_claims and new_claims[-1][0] == cid
+                                        and (v.get("new_claims") or []))})
+
+    applied = {"patch": None, "appended": {}}
+    if ops:
+        res = T.patch_ledger(rel_run_dir, json.dumps(ops))
+        if res.startswith("ERROR"):
+            raise RuntimeError(f"patch_ledger failed: {res}")
+        applied["patch"] = json.loads(res)
+        if applied["patch"].get("errors"):
+            raise RuntimeError(f"patch_ledger op errors: {applied['patch']['errors']}")
+    if new_claims:
+        res = T.append_claims(rel_run_dir,
+                              json.dumps([nc for _, nc in new_claims],
+                                         ensure_ascii=False))
+        if res.startswith("ERROR"):
+            raise RuntimeError(f"append_claims failed: {res}")
+        out = json.loads(res)
+        for (orig_id, _), new_id in zip(new_claims, out.get("appended", [])):
+            applied["appended"].setdefault(orig_id, []).append(new_id)
+    applied["per_claim"] = per_claim
+    return applied
+
+
+def _verdict_batch_prompt(slug: str, claims: list[dict], excerpt: str,
+                          feedback: str | None) -> str:
+    ids = ", ".join(c["id"] for c in claims)
+    prompt = (
+        f"Post: {slug}.md — numbered excerpt covering the claims below:\n\n"
+        f"{excerpt}\n\n"
+        "Current draft claims to re-judge (full ledger entries):\n"
+        f"{json.dumps(claims, indent=1, ensure_ascii=False)}\n\n"
+        f"Re-judge EVERY claim ({ids}) under the epistemic rules: actually "
+        "recompute any math, demand in-post evidence for empirical claims, "
+        "flag metaphors-asserted-as-fact as MODE-CONFLATED, and split claims "
+        "that bundle assertions needing different verdicts. Return ONLY the "
+        "strict JSON verdict document — one verdicts entry per claim id."
+    )
+    if feedback:
+        prompt += (
+            "\n\nPREVIOUS ATTEMPT FAILED — regenerate the COMPLETE document "
+            f"with this fixed:\n{feedback}"
+        )
+    return prompt
+
+
+async def _run_verdict_batch(slug: str, rel_run_dir: str, ledger_path: Path,
+                             state: dict, bi: int) -> list[dict]:
+    """One thinking-enabled verdict turn over one batch; driver applies the
+    returned document via patch_ledger/append_claims. One regeneration retry."""
+    claim_ids = state["batches"][bi]
+    replies: list[dict] = []
+    feedback = None
+    for attempt in range(VERDICT_MAX_ATTEMPTS):
+        ledger = json.loads(ledger_path.read_text())
+        claims = sorted((c for c in ledger["claims"] if c["id"] in claim_ids),
+                        key=_claim_sort_key)
+        if not claims:
+            raise RuntimeError(f"batch {bi}: none of {claim_ids} found in ledger")
+        lo = max(1, min(c["anchor"]["line_start"] for c in claims) - VERDICT_CONTEXT_PAD)
+        hi = max(c["anchor"]["line_end"] for c in claims) + VERDICT_CONTEXT_PAD
+        T.set_current_agent(f"verdict-b{bi}")
+        excerpt = T.read_post_lines(slug, lo, hi)  # tool fn; logged to trace
+        agent = Agent(
+            name=f"QE-Verdict-B{bi}",
+            system_prompt=VERDICT_SYSTEM,
+            model=build_verdict_model(),  # thinking ENABLED; ~2-5 min/turn
+            middlewares=[ModelCallCounter()],
+            react_config=ReActConfig(max_iters=1),  # single turn, no ReAct loop
+        )
+        t0 = time.monotonic()
+        reply = await reply_with_backoff(
+            agent,
+            UserMsg(name="user", content=_verdict_batch_prompt(
+                slug, claims, excerpt, feedback)),
+            f"verdict-b{bi}", max_retries=2)
+        rec = {"agent": f"verdict-b{bi}", "round": attempt,
+               "latency_s": round(time.monotonic() - t0, 1),
+               **serialize_reply(reply)}
+        replies.append(rec)
+        # Persist the raw reply for post-mortem debugging (cheap, on disk).
+        debug_path = ledger_path.parent / f"verdict-last-reply-b{bi}.json"
+        debug_path.write_text(json.dumps(rec, indent=1, ensure_ascii=False))
+        texts = [b.get("text", "") for b in rec["blocks"] if b.get("text")]
+        doc = _extract_json_doc(texts[-1]) if texts else None
+        if isinstance(doc, list):  # model returned a bare array of verdicts
+            doc = {"verdicts": doc}
+        if isinstance(doc, dict) and "verdicts" not in doc:
+            for alt in ("claims", "verdict", "results", "judgements"):
+                if isinstance(doc.get(alt), list):
+                    doc = {"verdicts": doc[alt]}
+                    break
+        if doc is None or "verdicts" not in doc:
+            feedback = ("Your reply was not the required JSON document with a "
+                        "'verdicts' array (see the OUTPUT CONTRACT). Return ONLY "
+                        "that JSON object (no prose, no code fences).")
+            continue
+        try:
+            T.set_current_agent("driver")
+            applied = _apply_verdict_doc(rel_run_dir, doc)
+        except RuntimeError as exc:
+            feedback = str(exc)
+            continue
+        # Success — record old->new for the report.
+        orig = state["original_claims"]
+        change = {"batch": bi, "latency_s": rec["latency_s"], "claims": []}
+        for v in doc["verdicts"]:
+            cid = v["id"]
+            old = orig.get(cid, {})
+            change["claims"].append({
+                "id": cid,
+                "old_status": old.get("claim_status"),
+                "new_status": v.get("claim_status"),
+                "old_mode": old.get("claim_mode"),
+                "new_mode": v.get("claim_mode"),
+                "split_new_ids": applied["appended"].get(cid, []),
+            })
+        state["changes"].append(change)
+        state["done"].append(bi)
+        return replies
+    raise RuntimeError(f"verdict batch {bi} failed after "
+                       f"{VERDICT_MAX_ATTEMPTS} attempts: {feedback}")
+
+
+async def run_verdict_pass(ledger_path: str | Path, post_slug: str,
+                           batch_index: int | None = None,
+                           batch_size: int = VERDICT_BATCH_SIZE) -> dict:
+    """VERDICT stage: re-judge a draft ledger with thinking ENABLED.
+
+    Loads the draft ledger at ledger_path (runs/<slug>/<slug>-albedo-ledger.json),
+    batches its claims (3-4 per thinking turn), sends each batch with the
+    surrounding post context to a single-turn Verdict agent, and applies the
+    returned verdicts through the existing patch_ledger/append_claims tools —
+    including fine-splits (re-anchored original + appended claims with
+    corrected auto-assigned ids). Anchors are never changed except where a
+    split requires it.
+
+    Resume-safe: the draft is preserved at <slug>-albedo-ledger.orig.json on
+    first invocation; progress lives in verdict-state.json, so per-batch CLI
+    invocations accumulate. When all batches are done, a thinking-OFF verifier
+    loop brings the ledger green, the result is written to
+    <slug>-albedo-ledger.verdict.json, and the original draft is restored
+    untouched at its original path.
+    """
+    ledger_path = Path(ledger_path)
+    run_dir = ledger_path.parent
+    slug = post_slug
+    rel_run_dir = str(run_dir.relative_to(T.REPO_ROOT))
+    paths = _verdict_paths(run_dir, slug)
+    replies: list[dict] = []
+    validator_iters: list[dict] = []
+    final_validation = {"failure_count": -1,
+                        "failures": ["verdict pass not finalized yet"]}
+
+    if not paths["orig"].exists():
+        shutil.copy(ledger_path, paths["orig"])
+    if paths["state"].exists():
+        state = json.loads(paths["state"].read_text())
+    else:
+        ledger = json.loads(ledger_path.read_text())
+        ordered = sorted(ledger["claims"], key=_claim_sort_key)
+        state = {
+            "slug": slug,
+            "batch_size": batch_size,
+            "batches": [[c["id"] for c in ordered[i:i + batch_size]]
+                        for i in range(0, len(ordered), batch_size)],
+            "done": [],
+            "changes": [],
+            "original_claims": {c["id"]: c for c in ledger["claims"]},
+            "finalized": False,
+        }
+        paths["state"].write_text(json.dumps(state, indent=1, ensure_ascii=False))
+
+    pending = ([batch_index] if batch_index is not None
+               else [i for i in range(len(state["batches"]))
+                     if i not in state["done"]])
+    for bi in pending:
+        if bi in state["done"]:
+            continue
+        replies.extend(await _run_verdict_batch(
+            slug, rel_run_dir, ledger_path, state, bi))
+        paths["state"].write_text(json.dumps(state, indent=1, ensure_ascii=False))
+
+    if (not state["finalized"]
+            and len(state["done"]) == len(state["batches"])):
+        # All batches judged: thinking-OFF verifier loop to green, then swap
+        # the verdict ledger into <slug>-albedo-ledger.verdict.json and
+        # restore the untouched draft at its original path.
+        vres = await run_verifier(slug, run_dir, replies)
+        replies = vres["replies"]
+        validator_iters = vres["validator_iters"]
+        final_validation = vres["final_validation"]
+        if final_validation["failure_count"] == 0:
+            shutil.move(str(ledger_path), paths["verdict"])
+            shutil.copy(paths["orig"], ledger_path)
+            state["finalized"] = True
+            paths["state"].write_text(
+                json.dumps(state, indent=1, ensure_ascii=False))
+
+    out_ledger_path = paths["verdict"] if state["finalized"] else ledger_path
+    return {
+        "slug": slug,
+        "ledger_path": str(out_ledger_path),
+        "ledger": json.loads(out_ledger_path.read_text()),
+        "replies": replies,
+        "validator_iters": validator_iters,
+        "final_validation": final_validation,
+        "model_calls": MODEL_CALLS["count"],
+        "verdict_state": state,
+    }

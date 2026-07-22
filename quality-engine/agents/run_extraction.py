@@ -92,12 +92,52 @@ async def main() -> None:
                         help="skip extraction; reuse existing ledger in run dir")
     parser.add_argument("--expand", metavar="START-END",
                         help="second-pass extraction over a line range, appending claims")
+    parser.add_argument("--verdict-only", action="store_true",
+                        help="thinking-enabled verdict pass over the existing "
+                             "runs/<slug>/ ledger; writes <slug>-albedo-ledger.verdict.json "
+                             "and keeps the original draft untouched")
+    parser.add_argument("--batch", type=int, default=None,
+                        help="verdict mode: run only this batch index "
+                             "(default: all pending batches, then finalize)")
+    parser.add_argument("--batch-size", type=int, default=3,
+                        help="verdict mode: claims per verdict batch (pass init only)")
     args = parser.parse_args()
 
     run_dir = T.RUNS_DIR / args.slug
     run_dir.mkdir(parents=True, exist_ok=True)
     T.set_trace_file(run_dir / "trace.jsonl")
     t0 = time.monotonic()
+    if args.verdict_only:
+        from qe_agents.pipeline import run_verdict_pass
+        ledger_path = run_dir / f"{args.slug}-albedo-ledger.json"
+        result = await run_verdict_pass(ledger_path, args.slug,
+                                        batch_index=args.batch,
+                                        batch_size=args.batch_size)
+        wall = time.monotonic() - t0
+        state = result["verdict_state"]
+        (run_dir / "verdict-trace.json").write_text(json.dumps({
+            "slug": args.slug,
+            "wall_time_s": round(wall, 1),
+            "model_calls": result["model_calls"],
+            "replies": result["replies"],
+            "validator_iters": result["validator_iters"],
+            "verdict_state": state,
+        }, indent=1, ensure_ascii=False))
+        fv = result["final_validation"]
+        print(f"VERDICT slug={args.slug} batches_done={len(state['done'])}/{len(state['batches'])} "
+              f"finalized={state['finalized']} final_failures={fv['failure_count']} "
+              f"model_calls={result['model_calls']} wall={wall:.0f}s "
+              f"ledger={result['ledger_path']}")
+        for ch in state["changes"]:
+            for c in ch["claims"]:
+                mark = " " if c["old_status"] == c["new_status"] else "*"
+                split = f" split->{c['split_new_ids']}" if c["split_new_ids"] else ""
+                print(f" {mark} {c['id']}: {c['old_status']} -> {c['new_status']}{split}")
+        if fv["failure_count"] > 0:
+            print("REMAINING FAILURES:")
+            for f in fv["failures"]:
+                print(f"  - {f}")
+        return
     if args.verifier_only:
         from qe_agents.pipeline import run_verifier_only
         result = await run_verifier_only(args.slug, run_dir)

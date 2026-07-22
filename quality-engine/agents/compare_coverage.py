@@ -15,7 +15,13 @@ REPO = Path(__file__).resolve().parents[2]
 
 def main() -> None:
     slug = sys.argv[1]
-    agent = json.loads((REPO / f"quality-engine/agents/runs/{slug}/{slug}-albedo-ledger.json").read_text())
+    # Optional argv[2]: agent ledger path (default: the run's draft ledger).
+    # Optional argv[3]: report file to append to (default: RUN-REPORT.md).
+    agent_path = (Path(sys.argv[2]) if len(sys.argv) > 2
+                  else REPO / f"quality-engine/agents/runs/{slug}/{slug}-albedo-ledger.json")
+    report_path = (Path(sys.argv[3]) if len(sys.argv) > 3
+                   else REPO / f"quality-engine/agents/runs/{slug}/RUN-REPORT.md")
+    agent = json.loads(agent_path.read_text())
     prod = json.loads((REPO / f"quality-engine/audits/albedo-v231-blind/{slug}-albedo-ledger.json").read_text())
 
     a_claims = agent["claims"]
@@ -52,7 +58,7 @@ def main() -> None:
         "",
         "---",
         "",
-        "## Coverage comparison vs production ledger (post-extraction)",
+        f"## Coverage comparison vs production ledger ({agent_path.name})",
         "",
         f"- Agent claims: **{len(a_claims)}** | Production claims: **{len(p_claims)}**",
         f"- Agent claims with a production anchor within ±3 lines: "
@@ -86,11 +92,10 @@ def main() -> None:
         lines.append("- (none)")
     lines.append("")
 
-    report = REPO / f"quality-engine/agents/runs/{slug}/RUN-REPORT.md"
-    with open(report, "a") as fh:
+    with open(report_path, "a") as fh:
         fh.write("\n".join(lines))
     print("\n".join(lines[:14]))
-    print(f"appended to {report}")
+    print(f"appended to {report_path}")
 
 
 if __name__ == "__main__":

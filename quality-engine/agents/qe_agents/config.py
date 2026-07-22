@@ -50,3 +50,16 @@ def build_model(stream: bool = True, think: bool = False) -> OpenAIChatModel:
         stream=stream,  # works with streaming ON for tool use
         extra_body={"chat_template_kwargs": {"enable_thinking": think}},
     )
+
+
+def build_verdict_model(stream: bool = True) -> OpenAIChatModel:
+    """Second model client factory for the VERDICT stage: thinking ENABLED.
+
+    The extraction/verifier stages run with ``enable_thinking: False`` (fast,
+    seconds per turn) but that proved over-lenient on verdicts — a real math
+    error (circle of fifths as repeated multiplication by 3 mod 12) was marked
+    VERIFIED. The verdict pass pays for thinking: expect ~2-5 min per turn.
+    Use single-turn agents (no ReAct loop) so each batch costs exactly one
+    thinking turn and stays inside the ~300 s execution budget.
+    """
+    return build_model(stream=stream, think=True)

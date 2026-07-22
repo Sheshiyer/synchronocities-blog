@@ -1,0 +1,88 @@
+{
+  "verdicts": [
+    {
+      "id": "C009",
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["KEEP"],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "evidence_eligible": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        }
+      },
+      "rationale": "The claim describes the doubling-digital-root operation on 3, 6, and 9: 3→6→3 (2-cycle) and 9→9 (fixed point). These are elementary arithmetic operations that can be verified directly, so the claim is VERIFIED.",
+      "anchor": null,
+      "new_claims": []
+    },
+    {
+      "id": "C010",
+      "claim_mode": "DIRECT-OBSERVATION",
+      "claim_status": "VERIFIED",
+      "remediation_codes": ["R-MATH", "R-SPLIT"],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "evidence_eligible": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        }
+      },
+      "rationale": "The claim describes the observed splitting of the doubling map into a 6-cycle (numbers not divisible by 3), a 2-cycle (3↔6), and a fixed point (9). This follows directly from computing digital roots of successive doublings, which can be verified by elementary arithmetic. Hence the claim is VERIFIED.",
+      "anchor": {
+        "line_start": 53,
+        "line_end": 53,
+        "quote": "So the full field splits into three regimes: a 6-cycle on the rim, a 2-cycle oscillating through the interior, and a fixed point at the axis."
+      },
+      "new_claims": [
+        {
+          "claim_mode": "DERIVED-SYNTHESIS",
+          "claim_status": "CONTRADICTED",
+          "remediation_codes": ["R-MATH"],
+          "math": {
+            "role": "WRONG",
+            "load_bearing": false,
+            "evidence_eligible": false,
+            "locks": {
+              "correctness": "FAIL",
+              "consequence": "NOT-APPLICABLE",
+              "provenance": "NOT-APPLICABLE"
+            }
+          },
+          "rationale": "The claim asserts that the observed 6-cycle, 2-cycle, and fixed point together constitute the fundamental group of the torus. The fundamental group of the torus is Z×Z, an infinite abelian group, not a finite product of cycles. Hence the claim is contradicted by basic algebraic topology.",
+          "anchor": {
+            "line_start": 53,
+            "line_end": 53,
+            "quote": "That is not a metaphor. That is the fundamental group of the torus."
+          },
+          "new_claims": []
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "UNSUPPORTED",
+      "remediation_codes": ["R-SOURCE"],
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "evidence_eligible": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        }
+      },
+      "rationale": "The claim attributes the discovery of the vortex-based pattern to Marko Rodin in the 1980s. The post provides no citation or independent verification of this historical attribution, so the claim lacks support and is UNSUPPORTED.",
+      "anchor": null,
+      "new_claims": []
+    }
+  ]
+}
