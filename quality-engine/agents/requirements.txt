@@ -1,0 +1,5 @@
+# Pinned deps for the weekly audit agent (CI: .github/workflows/weekly-audit.yml)
+# agentscope 2.0 API (Agent + ReActConfig + FunctionTool) per SPIKE-REPORT.md
+agentscope==2.0.*
+# imported (lazily) by qe_agents.tools.validate_ledger
+jsonschema==4.*

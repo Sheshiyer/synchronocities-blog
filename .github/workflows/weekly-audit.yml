@@ -1,0 +1,127 @@
+name: weekly quality audit
+
+# Agent-owned weekly 7-dimension quality audit (scripts/ci-audit.py) with a
+# bounded fix stage, driven by quality-engine/agents/weekly_audit_agent.py.
+# Schedule matches the previously documented manual cron in
+# scripts/cron-setup.md (Monday 03:17 UTC, off-peak minute) — the manual
+# crontab is superseded by this workflow.
+#
+# Fix stage scope:
+#   - idempotent repo scripts (frontmatter metadata only)
+#   - deterministic token fixes (vault refs, CRITICAL vocabulary term)
+#   - LLM fixer (AgentScope × NVIDIA NIM), enabled ONLY when the
+#     NVIDIA_API_KEY secret is set; skips gracefully otherwise.
+#
+# Push safety: the agent writes docs/weekly-audit-gate.json comparing FAIL
+# counts before/after the fix stage. This workflow commits ONLY when the
+# audit is same-or-better (never pushes a regression).
+#
+# Commit hygiene: results land in a single [skip ci] commit so
+# synchronocities-ai-deploy.yml does not re-deploy on audit artifacts.
+#
+# Secrets:
+#   NVIDIA_API_KEY — optional; enables the LLM fix stage. Absent → skipped.
+
+on:
+  schedule:
+    - cron: '17 3 * * 1'   # Mon 03:17 UTC — matches scripts/cron-setup.md
+  workflow_dispatch:       # allow manual runs from the Actions tab
+
+permissions:
+  contents: write          # required to commit results back to main
+
+concurrency:
+  group: weekly-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    name: Weekly quality audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up node (for the repo's idempotent fix scripts)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install node deps (js-yaml for scripts/lib/postMigration.ts)
+        run: npm ci --ignore-scripts
+
+      - name: Install agent deps
+        run: pip install -r quality-engine/agents/requirements.txt
+
+      - name: Run weekly audit agent
+        id: audit
+        env:
+          # Optional secret — the LLM fix stage skips cleanly when unset.
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: |
+          set +e
+          python quality-engine/agents/weekly_audit_agent.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Read push gate (fail counts before/after fix stage)
+        id: gate
+        run: |
+          python - <<'EOF'
+          import json, os
+          with open("docs/weekly-audit-gate.json") as fh:
+              g = json.load(fh)
+          print(f"fails {g['fail_before']} -> {g['fail_after']} | "
+                f"warns {g['warn_before']} -> {g['warn_after']} | "
+                f"worse={g['worse']} | llm_fix_stage={g['llm_fix_stage']}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"worse={'true' if g['worse'] else 'false'}\n")
+              out.write(f"fail_before={g['fail_before']}\n")
+              out.write(f"fail_after={g['fail_after']}\n")
+          EOF
+
+      - name: Check for changed artifacts
+        id: diff
+        run: |
+          if git diff --quiet docs/ci-audit-report.json docs/ci-audit-history.jsonl docs/quality-dashboard.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "▸ No audit artifact changes since last run."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "▸ Audit artifacts changed — eligible to commit."
+          fi
+
+      - name: Commit + push results (same-or-better only)
+        if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.worse == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add docs/ci-audit-report.json docs/ci-audit-history.jsonl docs/quality-dashboard.md
+          git commit -m "chore(audit): weekly quality audit — fails ${{ steps.gate.outputs.fail_before }} → ${{ steps.gate.outputs.fail_after }} [skip ci]" \
+            -m "Auto-committed by .github/workflows/weekly-audit.yml. Fix-stage edits to posts are working-tree-only by design and are re-applied deterministically each run; [skip ci] suppresses the deploy workflow."
+          git push origin HEAD:main
+
+      - name: Refuse to push a regression
+        if: steps.gate.outputs.worse == 'true'
+        run: |
+          echo "::error::Fix stage made the audit WORSE (fails ${{ steps.gate.outputs.fail_before }} → ${{ steps.gate.outputs.fail_after }}). Commit suppressed; investigate the uploaded report artifact."
+
+      - name: Upload JSON report on failure
+        if: steps.audit.outputs.exit_code != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-audit-report-${{ github.run_id }}
+          path: |
+            docs/ci-audit-report.json
+            docs/weekly-audit-gate.json
+          retention-days: 30

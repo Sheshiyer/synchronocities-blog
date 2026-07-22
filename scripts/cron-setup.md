@@ -93,3 +93,34 @@ python3 scripts/weekly-audit.py
 ```
 
 Then open `docs/quality-dashboard.md` to review the results.
+
+## ⚠️ Superseded by GitHub Action (2026-07)
+
+The manual crontab above is **superseded** by `.github/workflows/weekly-audit.yml`,
+which runs the agent-owned loop (`quality-engine/agents/weekly_audit_agent.py`)
+on the same schedule — **Monday 03:17 UTC** (`cron: '17 3 * * 1'`) — plus
+`workflow_dispatch` for manual triggers from the Actions tab. Remove any local
+crontab entry to avoid double runs.
+
+What the Action adds over the raw cron:
+
+- **Fix stage** before the final audit: idempotent repo scripts
+  (`apply-cluster-tags.ts`, `backfill-entry-kind.ts`), deterministic token fixes
+  (`[vault: …]` removal, WitnessOS → "Noesis Engine"), and an optional
+  AgentScope × NVIDIA NIM LLM fixer (term-level tools only, never prose
+  rewrites) that runs **only when the `NVIDIA_API_KEY` repo secret is set** and
+  skips cleanly otherwise.
+- **Regression gate**: the agent writes `docs/weekly-audit-gate.json` comparing
+  FAIL counts before/after the fix stage; the workflow commits
+  report/history/dashboard (with `[skip ci]`) **only when same-or-better** and
+  uploads the JSON report as an artifact on failure.
+- Fix-stage edits to `src/content/posts/` are applied in the CI working tree
+  only and are **not committed** — they are re-applied deterministically on
+  each run. To persist them instead, add the fixed posts to the workflow's
+  `git add` line.
+
+Local dry-run of the full agent loop (writes nothing):
+
+```bash
+python3 quality-engine/agents/weekly_audit_agent.py --dry-run
+```
