@@ -54,6 +54,11 @@ NIM_SAFETY_MODEL        = "nvidia/llama-3.1-nemoguard-8b-content-safety"  # 453m
 # (Task 13 of /expand/v2.1 — vault indexer adds source_type/source_path metadata).
 CORPUS_VERSION = "4"
 
+# Feature flag: bounded tool-use loop inside /chat (lib/chat-tools.ts).
+# "1" = one tool-planning round before the final stream (max 2 rounds,
+# max 3 tool calls; silent fallback on any error). "0" = legacy single-pass.
+CHAT_TOOLS = "1"
+
 # ────────────────────────────────────────────────────────────────────────────
 # KV — query cache (binds to existing CACHE namespace from `wrangler kv namespace list`)
 # ────────────────────────────────────────────────────────────────────────────

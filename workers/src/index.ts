@@ -41,6 +41,10 @@ export interface Env {
   NIM_SAFETY_MODEL: string;
   CORPUS_VERSION: string;
 
+  // Feature flag (wrangler.toml [vars]): "1" enables the bounded tool-use
+  // loop in /chat; "0" (or absent) = legacy single-pass behavior.
+  CHAT_TOOLS?: string;
+
   // Bindings
   CACHE: KVNamespace;
   CORPUS_INDEX: VectorizeIndex;

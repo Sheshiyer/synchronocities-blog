@@ -15,6 +15,9 @@
  *   event: citations
  *   data: [{n, slug, title, similarity}, ...]
  *
+ *   event: tool                        (only when CHAT_TOOLS=1 and tools ran)
+ *   data: {name, status: 'start'|'done', ms?, results?}
+ *
  *   event: token
  *   data: <text delta>
  *
@@ -41,6 +44,7 @@
 
 import type { Env } from '../index';
 import { chatStream } from '../lib/nim';
+import { runChatToolLoop, type ToolEvent } from '../lib/chat-tools';
 import { runSurface, withFailOpen, type RoutingConfig } from '../lib/routing';
 
 // Content-Type/method headers only — Access-Control-* is applied centrally
@@ -238,13 +242,30 @@ export async function handleChat(
     .map((c) => `[${c.n}] ${c.title}\n${c.excerpt ?? '(no excerpt available)'}`)
     .join('\n\n---\n\n');
 
+  // ─── 4.5 Tool-planning round (CHAT_TOOLS=1) ─────────────────────────────
+  // One bounded, non-streaming planner call decides whether to invoke corpus
+  // tools (corpus_search / related_posts / cluster_map — see lib/chat-tools.ts).
+  // Tool results are appended to the RAG context below; tool start/done SSE
+  // events are emitted before citations. Caps: 2 rounds, 3 calls. Any failure
+  // falls back silently to single-pass behavior (empty events + context).
+  let toolEvents: ToolEvent[] = [];
+  let toolContextBlock = '';
+  if (env.CHAT_TOOLS === '1') {
+    const retrievedSummary = citations
+      .map((c) => `[${c.n}] ${c.title} — ${(c.excerpt ?? '').slice(0, 80)}`)
+      .join('\n');
+    const outcome = await runChatToolLoop(env, ctx, query, retrievedSummary);
+    toolEvents = outcome.events;
+    toolContextBlock = outcome.contextBlock;
+  }
+
   // ─── 5. Build chat messages with history + RAG context ──────────────────
   const messages = [
     { role: 'system' as const, content: SYSTEM_PROMPT },
     ...(body.history ?? []).slice(-6), // last 3 turns max
     {
       role: 'user' as const,
-      content: `Question: ${query}\n\nRelevant passages from the corpus:\n\n${contextBlock}\n\nAnswer using the passages, citing them inline by number.`,
+      content: `Question: ${query}\n\nRelevant passages from the corpus:\n\n${contextBlock}${toolContextBlock ? `\n\n${toolContextBlock}` : ''}\n\nAnswer using the passages, citing them inline by number.`,
     },
   ];
 
@@ -274,6 +295,13 @@ export async function handleChat(
     async start(controller) {
       let tokenCount = 0;
       try {
+        // Tool execution events first (CHAT_TOOLS=1 only) — the frontend
+        // ignores unknown event types, so these are telemetry for tool-aware
+        // clients and invisible to CorpusChat today.
+        for (const evt of toolEvents) {
+          controller.enqueue(encoder.encode(formatSSE('tool', evt)));
+        }
+
         // Citations immediately — frontend renders sources before the answer
         controller.enqueue(encoder.encode(formatSSE('citations', citations)));
 

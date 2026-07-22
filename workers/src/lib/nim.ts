@@ -150,6 +150,108 @@ export async function chat(config: NimConfig, opts: ChatOptions): Promise<string
   return res.choices[0]?.message?.content ?? '';
 }
 
+// ============================================================================
+// CHAT WITH TOOLS — non-streaming function-calling round (planner pattern)
+// ============================================================================
+
+export interface ChatToolCall {
+  id: string;
+  type: 'function';
+  function: { name: string; arguments: string };
+}
+
+/**
+ * Message shapes allowed in a tool-use conversation. Extends ChatMessage
+ * with the assistant/tool frames the OpenAI tools protocol requires.
+ */
+export type ToolLoopMessage =
+  | { role: 'system' | 'user'; content: string }
+  | { role: 'assistant'; content: string | null; tool_calls?: ChatToolCall[] }
+  | { role: 'tool'; tool_call_id: string; content: string };
+
+export interface ChatWithToolsOptions {
+  model: string;
+  messages: ToolLoopMessage[];
+  /** OpenAI tools schema array: [{type:'function', function:{name, description, parameters}}] */
+  tools: unknown[];
+  tool_choice?: 'auto' | 'none' | 'required';
+  max_tokens?: number;
+  temperature?: number;
+  top_p?: number;
+  rateLimiter?: RateLimiter;
+  signal?: AbortSignal;
+}
+
+export interface ChatWithToolsResult {
+  /** Text content (may be '' when the model only emits tool_calls). */
+  content: string;
+  /** Normalized tool calls; empty when the model chose not to call any tool. */
+  tool_calls: ChatToolCall[];
+}
+
+interface ChatWithToolsResponse {
+  choices: Array<{
+    message: {
+      role: string;
+      content: string | null;
+      tool_calls?: Array<{
+        id?: string;
+        type?: string;
+        function?: { name?: string; arguments?: unknown };
+      }>;
+    };
+    finish_reason: string;
+  }>;
+}
+
+/**
+ * Single-shot chat completion with OpenAI-style function calling. Returns
+ * the assistant content AND any tool_calls. Callers own the execution loop
+ * (see lib/chat-tools.ts for the bounded /chat loop).
+ *
+ * Normalization: tool_calls entries missing a function name are dropped;
+ * non-string arguments are JSON-stringified (some models return objects).
+ */
+export async function chatWithTools(
+  config: NimConfig,
+  opts: ChatWithToolsOptions,
+): Promise<ChatWithToolsResult> {
+  const res = await nimFetch<ChatWithToolsResponse>(config, {
+    path: '/chat/completions',
+    body: {
+      model: opts.model,
+      messages: opts.messages,
+      tools: opts.tools,
+      tool_choice: opts.tool_choice ?? 'auto',
+      max_tokens: opts.max_tokens ?? 512,
+      temperature: opts.temperature ?? 0,
+      top_p: opts.top_p ?? 0.95,
+      stream: false,
+    },
+    rateLimiter: opts.rateLimiter,
+    signal: opts.signal,
+  });
+
+  const message = res.choices[0]?.message;
+  const toolCalls: ChatToolCall[] = (message?.tool_calls ?? [])
+    .filter((tc): tc is NonNullable<typeof tc> & { function: { name: string } } =>
+      Boolean(tc && (tc.type === 'function' || tc.type === undefined) && tc.function?.name),
+    )
+    .map((tc, i) => ({
+      id: tc.id ?? `call_${i}`,
+      type: 'function' as const,
+      function: {
+        name: tc.function.name,
+        arguments:
+          typeof tc.function.arguments === 'string'
+            ? tc.function.arguments
+            : JSON.stringify(tc.function.arguments ?? {}),
+      },
+    }));
+
+  return { content: message?.content ?? '', tool_calls: toolCalls };
+}
+
 /**
  * Streaming chat. Returns a ReadableStream of content deltas (not full SSE
  * frames — the wrapper parses the SSE protocol and yields plain text chunks).
