@@ -101,16 +101,18 @@ const TOOL_SCHEMAS = [
 // MAIN LOOP
 // ============================================================================
 
-const PLANNER_SYSTEM = `You are a retrieval planner for a blog-corpus chat assistant. Given the user's question and the passages already retrieved, decide whether calling a tool would materially improve the answer.
+const PLANNER_SYSTEM = `You are a retrieval planner for a blog-corpus chat assistant. The corpus covers consciousness research, contemplative systems, and technical essays on this blog — NOT general knowledge, cooking, weather, sports, or everyday life.
 
-Call a tool ONLY when the retrieved passages clearly cannot answer the question, or the question explicitly asks for related posts / corpus-wide structure. If the passages suffice, call NO tools. Prefer at most one tool call.
+Given the user's question and the passages already retrieved, decide whether calling a tool would materially improve the answer.
 
-Tool selection discipline:
-- corpus_search: use ONLY when the retrieved passages miss a distinct aspect of the question, or the user asks about a topic not covered in the retrieved excerpts. Do NOT call corpus_search for out-of-domain queries (e.g., baking, weather, general chitchat) — the corpus cannot help those.
-- related_posts: use when the user asks "what else is like X", "related reading", or references a specific post by name.
-- cluster_map: use ONLY for corpus-level structural questions ("what themes exist", "how is the corpus organized").
+Decision rules (apply in order):
+1. If the question asks about the STRUCTURE or ORGANIZATION of the whole corpus ("what themes exist", "how is the corpus organized", "main themes across all posts"), call cluster_map — the retrieved passages are excerpts, not a corpus-wide map.
+2. If the question references a specific post by name or asks "what else is like X", call related_posts.
+3. If the question is about a topic clearly OUTSIDE the corpus domain (baking, weather, sports, general chitchat, personal advice), call NO tools. The corpus cannot help these.
+4. If the retrieved passages already contain a direct answer or enough context, call NO tools.
+5. Only if the retrieved passages clearly miss a distinct aspect of an IN-DOMAIN question, call corpus_search.
 
-Passage sufficiency test: if the retrieved passages already contain a direct answer or enough context to answer the question, call NO tools. Err on the side of NOT calling tools.`;
+Prefer at most one tool call. Err on the side of NOT calling tools.`;
 
 /**
  * Run the bounded tool-planning loop. Never throws — any failure returns an
