@@ -231,9 +231,12 @@ def score_vocabulary(post: dict) -> dict:
     body = post["body"]
     text_all = body.lower()
 
+    # CRITICAL: deliberate substring match (multiword brand name).
+    # STANDARD/EMERGENT: word-boundary match (mirrors scripts/pre-commit fix) —
+    # eliminates substring false positives (pathology→path, Pai→ai, Chiang Mai→ai).
     critical_matches = count_substring_matches(text_all, AVOID_CRITICAL)
-    standard_matches = count_substring_matches(text_all, AVOID_STANDARD)
-    emergent_matches = count_substring_matches(text_all, EMERGENT_TERMS)
+    standard_matches = count_word_matches(text_all, AVOID_STANDARD)
+    emergent_matches = count_word_matches(text_all, EMERGENT_TERMS)
 
     critical_count = sum(c for _, c in critical_matches)
     standard_count = sum(c for _, c in standard_matches)

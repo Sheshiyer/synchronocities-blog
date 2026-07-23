@@ -103,7 +103,14 @@ const TOOL_SCHEMAS = [
 
 const PLANNER_SYSTEM = `You are a retrieval planner for a blog-corpus chat assistant. Given the user's question and the passages already retrieved, decide whether calling a tool would materially improve the answer.
 
-Call a tool ONLY when the retrieved passages clearly cannot answer the question, or the question explicitly asks for related posts / corpus-wide structure. If the passages suffice, call NO tools. Prefer at most one tool call.`;
+Call a tool ONLY when the retrieved passages clearly cannot answer the question, or the question explicitly asks for related posts / corpus-wide structure. If the passages suffice, call NO tools. Prefer at most one tool call.
+
+Tool selection discipline:
+- corpus_search: use ONLY when the retrieved passages miss a distinct aspect of the question, or the user asks about a topic not covered in the retrieved excerpts. Do NOT call corpus_search for out-of-domain queries (e.g., baking, weather, general chitchat) — the corpus cannot help those.
+- related_posts: use when the user asks "what else is like X", "related reading", or references a specific post by name.
+- cluster_map: use ONLY for corpus-level structural questions ("what themes exist", "how is the corpus organized").
+
+Passage sufficiency test: if the retrieved passages already contain a direct answer or enough context to answer the question, call NO tools. Err on the side of NOT calling tools.`;
 
 /**
  * Run the bounded tool-planning loop. Never throws — any failure returns an
@@ -140,7 +147,7 @@ export async function runChatToolLoop(
         messages,
         tools: TOOL_SCHEMAS,
         tool_choice: 'auto',
-        max_tokens: 512,
+        max_tokens: 256,
         temperature: 0,
         signal: AbortSignal.timeout(PLANNING_TIMEOUT_MS),
       });

@@ -34,7 +34,7 @@ hero:
   subtitle: The Bali Padyami — the Indian observance of King Bali's return on the first tithi after Deepavali — does not wait for the system to crash. It runs on a schedule — a cron job written in days and lunar phases.
   variant: image
 prompts:
-  card_image: "The Hanged Man suspended from a cosmic gallows made of a Balinese calendar (palelintangan). One leg is held by ritual participants, the other hangs free. Below, a scapegoat figure walks toward a city gate. The Hanged Man's face is serene, eyes open. Gold and crimson on black."
+  card_image: "The Hanged Man suspended from a cosmic gallows made of a panchang — an Indian lunisolar calendar dial marked with tithi, paksha, and nakshatra, its indicator resting on Kartika Shukla Pratipada. One leg is held by ritual participants, the other hangs free. Below, a scapegoat figure walks toward a city gate. The Hanged Man's face is serene, eyes open. Gold and crimson on black."
   hero_image: "A Balinese temple ceremony at night. Offerings arranged in a precise geometric pattern. Incense smoke forms a stack trace — function calls ascending into the stars. The Bali Padyami ritual as scheduled garbage collection. Deep indigo, fire-gold, incense white, 16:9."
 ---
 
@@ -78,7 +78,7 @@ The three operate as a loop: Kha recognizes, Ba receives, La generates the press
 
 ## When the Protocol Fails
 
-I have seen what happens when the Padyami is skipped. Not in Bali — in myself, and in organizations I have worked with. The calendar says nothing. There is no scheduled flush. The corruption accumulates invisibly: small resentments that never get named, a team that stops speaking honestly until every meeting is performance, a body that keeps performing until the HPA axis downregulates its own receptor density and the cortisol that once mobilized energy now circulates uselessly, like a signal with no receiver.
+I have seen what happens when the Padyami is skipped. Not in Bali — in myself, and in organizations I have worked with. The calendar says nothing. There is no scheduled flush. The corruption accumulates invisibly: small resentments that never get named, a team that stops speaking honestly until every meeting is performance, a body that keeps performing until the HPA axis downregulates its own receptor density and the cortisol that once mobilized glucose now circulates uselessly, like a signal with no receiver.
 
 There is no effigy. There is no procession. There is only the slow realization that the system has been running hot for months and no one scheduled the maintenance. The Greeks had a protocol for this: wait for the plague, then pick someone to blame. Modern organizations have a different protocol: wait for the quarterly review, then pick someone to fire. The architecture is identical. Reactive garbage collection always requires a body. Preventive garbage collection requires a calendar and a field that trusts it.
 
