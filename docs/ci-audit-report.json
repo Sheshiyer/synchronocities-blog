@@ -1,13 +1,13 @@
 {
   "report_type": "ci_audit",
   "total_posts": 125,
-  "pass_count": 25,
-  "warn_count": 100,
+  "pass_count": 26,
+  "warn_count": 99,
   "fail_count": 0,
   "top_avoid_signatures": [
     {
       "term": "path",
-      "count": 74
+      "count": 73
     },
     {
       "term": "ai ",
@@ -29,7 +29,7 @@
   "top_emergent_signatures": [
     {
       "term": "energy",
-      "count": 97
+      "count": 90
     },
     {
       "term": "quantum",
@@ -521,7 +521,7 @@
             ],
             [
               "protocol",
-              3
+              2
             ],
             [
               "ritual",
@@ -7261,39 +7261,30 @@
     },
     {
       "post": "magnetic-substrate.md",
-      "overall": "WARNING",
-      "severity_score": 74,
+      "overall": "PASS",
+      "severity_score": 79,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
           "verdict": "PASS",
-          "kha_count": 6,
-          "ba_count": 16,
-          "la_count": 10,
-          "triad_count": 3,
+          "kha_count": 2,
+          "ba_count": 4,
+          "la_count": 7,
+          "triad_count": 1,
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 0,
-          "verdict": "FAIL",
+          "score": 70,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
             [
               "path",
-              4
-            ],
-            [
-              "abundance",
-              1
+              2
             ]
           ],
-          "emergent_matches": [
-            [
-              "energy",
-              6
-            ]
-          ],
-          "total_violations": 11
+          "emergent_matches": [],
+          "total_violations": 2
         },
         "voice": {
           "score": 100,
@@ -7301,23 +7292,15 @@
           "use_matches": [
             [
               "coherence",
-              8
-            ],
-            [
-              "integration",
-              1
+              3
             ],
             [
               "pattern",
-              3
+              12
             ],
             [
               "structure",
               3
-            ],
-            [
-              "capacity",
-              2
             ],
             [
               "compass",
@@ -7325,33 +7308,29 @@
             ],
             [
               "kha",
-              6
+              2
             ],
             [
               "ba",
-              16
+              4
             ],
             [
               "la",
-              10
+              7
             ],
             [
               "kha-ba-la",
-              3
+              1
             ]
           ],
           "generic_matches": [
             [
-              "path",
-              1
-            ],
-            [
               "light",
-              15
+              17
             ],
             [
               "heart",
-              11
+              8
             ]
           ]
         },
@@ -7361,15 +7340,23 @@
           "engine_matches": [
             [
               "engine",
-              3
+              7
             ],
             [
               "compass",
               1
             ],
             [
+              "full-spectrum",
+              1
+            ],
+            [
+              "noesis",
+              1
+            ],
+            [
               "kha-ba-la",
-              3
+              1
             ],
             [
               "framework",
@@ -7377,37 +7364,33 @@
             ],
             [
               "system",
-              19
+              9
             ],
             [
               "architecture",
-              6
+              7
+            ],
+            [
+              "model",
+              75
             ],
             [
               "protocol",
-              5
-            ],
-            [
-              "practice",
-              2
+              3
             ],
             [
               "consciousness",
-              22
+              11
             ]
           ]
         },
         "fractal_depth": {
-          "score": 90,
+          "score": 70,
           "verdict": "PASS",
           "scale_matches": [
             [
               "body",
-              7
-            ],
-            [
-              "cellular",
-              2
+              6
             ],
             [
               "neural",
@@ -7418,37 +7401,38 @@
               1
             ],
             [
-              "cosmic",
-              2
-            ],
-            [
               "planetary",
-              3
+              6
             ]
           ],
           "recursive_count": 0
         },
         "source_grounding": {
-          "score": 30,
+          "score": 33,
           "verdict": "WARNING",
-          "source_matches": [],
+          "source_matches": [
+            [
+              "\\b(?:source|reference|citation|footnote|see also|further reading)\\b",
+              1
+            ]
+          ],
           "vault_reference_count": 0
         },
         "shadow_integration": {
-          "score": 100,
+          "score": 78,
           "verdict": "PASS",
           "shadow_matches": [
             [
-              "resistance",
-              1
-            ],
-            [
               "failure",
-              3
+              2
             ],
             [
               "collapse",
-              2
+              1
+            ],
+            [
+              "constraint",
+              1
             ]
           ],
           "skipped": false
@@ -7458,7 +7442,7 @@
         "flags": [
           {
             "flag": "warmth_excess",
-            "count": 26,
+            "count": 25,
             "examples": [
               "light",
               "heart"
@@ -7466,9 +7450,9 @@
           }
         ],
         "flag_count": 1,
-        "warmth_count": 26,
+        "warmth_count": 25,
         "motivational_count": 0,
-        "generic_count": 1,
+        "generic_count": 0,
         "academic_excess": false
       }
     },
@@ -7812,7 +7796,7 @@
             ],
             [
               "body",
-              2
+              3
             ],
             [
               "neural",
@@ -11471,7 +11455,7 @@
     {
       "post": "sacred-runtime-bali-padiyami.md",
       "overall": "WARNING",
-      "severity_score": 80,
+      "severity_score": 79,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -11566,16 +11550,12 @@
           ]
         },
         "fractal_depth": {
-          "score": 50,
+          "score": 40,
           "verdict": "WARNING",
           "scale_matches": [
             [
               "body",
               7
-            ],
-            [
-              "planetary",
-              1
             ]
           ],
           "recursive_count": 0
@@ -12838,17 +12818,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 90,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
           "standard_matches": [],
-          "emergent_matches": [
-            [
-              "energy",
-              1
-            ]
-          ],
-          "total_violations": 1
+          "emergent_matches": [],
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -12864,7 +12839,7 @@
             ],
             [
               "structure",
-              5
+              4
             ],
             [
               "inhabitation",
@@ -12925,13 +12900,9 @@
           ]
         },
         "fractal_depth": {
-          "score": 60,
-          "verdict": "PASS",
+          "score": 50,
+          "verdict": "WARNING",
           "scale_matches": [
-            [
-              "body",
-              1
-            ],
             [
               "historical",
               2
@@ -14477,7 +14448,7 @@
             ],
             [
               "ritual",
-              4
+              3
             ],
             [
               "practice",
@@ -17137,7 +17108,7 @@
     {
       "post": "vessel-prepare-ukha-sambharana.md",
       "overall": "WARNING",
-      "severity_score": 79,
+      "severity_score": 77,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -17149,13 +17120,13 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 25,
+          "score": 10,
           "verdict": "FAIL",
           "critical_matches": [],
           "standard_matches": [
             [
               "path",
-              3
+              4
             ]
           ],
           "emergent_matches": [
@@ -17164,7 +17135,7 @@
               3
             ]
           ],
-          "total_violations": 6
+          "total_violations": 7
         },
         "voice": {
           "score": 100,
@@ -18691,10 +18662,6 @@
             [
               "architecture",
               2
-            ],
-            [
-              "ritual",
-              1
             ],
             [
               "practice",
