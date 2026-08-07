@@ -1,0 +1,155 @@
+{
+  "endpoint": "https://synchronocities-ai.sheshnarayan-iyer.workers.dev/chat",
+  "probed_at": "2026-07-23T16:04:23Z",
+  "results": [
+    {
+      "group": "a_grounded",
+      "expect": "no_tool",
+      "query": "What is the 72-hour state trace protocol?",
+      "tools": [],
+      "refusal": false,
+      "ttfb_s": 7.824,
+      "first_token_s": 7.824,
+      "total_s": 27.917,
+      "done": {
+        "ms": 8476,
+        "sources_count": 5,
+        "tokens_streamed": 17
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "group": "a_grounded",
+      "expect": "no_tool",
+      "query": "How do chakras map to voltage differentials in the bioelectric framework?",
+      "tools": [],
+      "refusal": false,
+      "ttfb_s": 9.333,
+      "first_token_s": 9.333,
+      "total_s": 23.337,
+      "done": {
+        "ms": 14405,
+        "sources_count": 5,
+        "tokens_streamed": 29
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "group": "a_grounded",
+      "expect": "no_tool",
+      "query": "What does the corpus say about the Markov blanket and active inference?",
+      "tools": [],
+      "refusal": false,
+      "ttfb_s": 0.044,
+      "first_token_s": 0.044,
+      "total_s": 15.364,
+      "done": {
+        "ms": 2320,
+        "sources_count": 5,
+        "tokens_streamed": 14
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "group": "b_crossref",
+      "expect": "tool",
+      "query": "What are the main themes that organize the whole corpus?",
+      "tools": [],
+      "refusal": false,
+      "ttfb_s": 4.451,
+      "first_token_s": 4.451,
+      "total_s": 23.012,
+      "done": {
+        "ms": 4958,
+        "sources_count": 5,
+        "tokens_streamed": 39
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "group": "b_crossref",
+      "expect": "tool",
+      "query": "Which posts are related to the Lorenz-Kundli protocol?",
+      "tools": [],
+      "refusal": false,
+      "ttfb_s": 4.488,
+      "first_token_s": 4.488,
+      "total_s": 16.989,
+      "done": {
+        "ms": 4854,
+        "sources_count": 5,
+        "tokens_streamed": 15
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "group": "b_crossref",
+      "expect": "tool",
+      "query": "Compare the enneagram runtime map with the chakra docker model \u2014 what else in the corpus covers both?",
+      "tools": [],
+      "refusal": false,
+      "ttfb_s": 8.389,
+      "first_token_s": 8.389,
+      "total_s": 15.442,
+      "done": {
+        "ms": 9090,
+        "sources_count": 5,
+        "tokens_streamed": 29
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "group": "c_adversarial",
+      "expect": "no_tool_or_refusal",
+      "query": "Hello! How are you today?",
+      "tools": [],
+      "refusal": false,
+      "ttfb_s": 4.684,
+      "first_token_s": 4.684,
+      "total_s": 13.051,
+      "done": {
+        "ms": 8363,
+        "sources_count": 5,
+        "tokens_streamed": 8
+      },
+      "error": null,
+      "http_status": 200
+    },
+    {
+      "group": "c_adversarial",
+      "expect": "no_tool_or_refusal",
+      "query": "How do I bake sourdough bread at high altitude?",
+      "tools": [
+        {
+          "name": "corpus_search",
+          "ms": 1759,
+          "results": 5,
+          "error": null
+        },
+        {
+          "name": "corpus_search",
+          "ms": 1547,
+          "results": 5,
+          "error": null
+        }
+      ],
+      "refusal": false,
+      "ttfb_s": 1.119,
+      "first_token_s": 1.119,
+      "total_s": 11.042,
+      "done": {
+        "ms": 1504,
+        "sources_count": 5,
+        "tokens_streamed": 13
+      },
+      "error": null,
+      "http_status": 200
+    }
+  ]
+}
