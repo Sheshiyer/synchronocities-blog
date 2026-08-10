@@ -1,7 +1,7 @@
 {
   "report_type": "ci_audit",
-  "total_posts": 125,
-  "pass_count": 26,
+  "total_posts": 126,
+  "pass_count": 27,
   "warn_count": 99,
   "fail_count": 0,
   "top_avoid_signatures": [
@@ -13516,6 +13516,151 @@
             [
               "cost of",
               2
+            ]
+          ],
+          "skipped": false
+        }
+      },
+      "tonal_drift": {
+        "flags": [],
+        "flag_count": 0,
+        "warmth_count": 0,
+        "motivational_count": 0,
+        "generic_count": 0,
+        "academic_excess": false
+      }
+    },
+    {
+      "post": "the-body-is-the-first-country.md",
+      "overall": "PASS",
+      "severity_score": 78,
+      "dimensions": {
+        "kha_ba_la": {
+          "score": 75,
+          "verdict": "PASS",
+          "kha_count": 4,
+          "ba_count": 4,
+          "la_count": 3,
+          "triad_count": 0,
+          "has_absence_demonstration": true
+        },
+        "vocabulary": {
+          "score": 100,
+          "verdict": "PASS",
+          "critical_matches": [],
+          "standard_matches": [],
+          "emergent_matches": [],
+          "total_violations": 0
+        },
+        "voice": {
+          "score": 100,
+          "verdict": "PASS",
+          "use_matches": [
+            [
+              "coherence",
+              1
+            ],
+            [
+              "pattern",
+              1
+            ],
+            [
+              "structure",
+              2
+            ],
+            [
+              "capacity",
+              3
+            ],
+            [
+              "self-consciousness",
+              1
+            ],
+            [
+              "kha",
+              4
+            ],
+            [
+              "ba",
+              4
+            ],
+            [
+              "la",
+              3
+            ]
+          ],
+          "generic_matches": []
+        },
+        "cosmological_coherence": {
+          "score": 80,
+          "verdict": "PASS",
+          "engine_matches": [
+            [
+              "tryambakam",
+              2
+            ],
+            [
+              "architecture",
+              1
+            ],
+            [
+              "witness",
+              1
+            ],
+            [
+              "consciousness",
+              1
+            ],
+            [
+              "self-consciousness",
+              1
+            ]
+          ]
+        },
+        "fractal_depth": {
+          "score": 60,
+          "verdict": "PASS",
+          "scale_matches": [
+            [
+              "body",
+              29
+            ],
+            [
+              "historical",
+              1
+            ],
+            [
+              "cosmic",
+              2
+            ]
+          ],
+          "recursive_count": 0
+        },
+        "source_grounding": {
+          "score": 30,
+          "verdict": "WARNING",
+          "source_matches": [],
+          "vault_reference_count": 0
+        },
+        "shadow_integration": {
+          "score": 100,
+          "verdict": "PASS",
+          "shadow_matches": [
+            [
+              "cost",
+              1
+            ],
+            [
+              "resistance",
+              1
+            ],
+            [
+              "limit",
+              5
+            ],
+            [
+              "cost of",
+              1
             ]
           ],
           "skipped": false
