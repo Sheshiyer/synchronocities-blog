@@ -65,9 +65,16 @@ CANONICAL_PASS = [
 ]
 
 # ── Thresholds ───────────────────────────────────────────────────────────────
-OK_THRESHOLD = 0.65      # cosine similarity >= 0.65 → OK
-WARNING_THRESHOLD = 0.45  # >= 0.45 and < 0.65 → WARNING
-# < 0.45 → Drift
+# Recalibrated 2026-07-22 for e5-v5 (1024-d cosine) from the live corpus
+# distribution. The MiniLM-era bands (OK >= 0.65, WARNING >= 0.45) produced
+# OK 5 / WARNING 61 / Drift 59 under e5-v5 because e5-v5's cosine mass sits
+# in a different band. Grounding (n=125, see docs/semantic-similarity-report.json
+# → threshold_rationale):
+#   mean 0.4802, sd 0.1234; non-self percentiles p85 0.5516 / p90 0.5854;
+#   largest low-end gap 0.3299 → 0.2975; upper knee at 0.5435 → 0.5313.
+OK_THRESHOLD = 0.57      # >= 0.57 → OK  (≈ p86 of non-self scores; mean + 0.73σ)
+WARNING_THRESHOLD = 0.37  # >= 0.37 and < 0.57 → WARNING  (≈ mean − 0.9σ)
+# < 0.37 → Drift (the 13-post bottom tail above the 0.33 → 0.30 outlier gap)
 
 # ── Frontmatter / text helpers ───────────────────────────────────────────────
 

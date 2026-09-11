@@ -546,6 +546,20 @@ evidence). When you set MODE-CONFLATED, math.role must NOT be ANALOGICAL \
 (use NONE, or WRONG if the underlying math is also false).
 4. Author-framed interpretations ("read through this lens", "I do not know \
 whether...") stay DECLARED/DECLARED-METAPHOR.
+5. SPLIT BUNDLED CLAIMS AGGRESSIVELY. If a claim contains a checkable true \
+assertion alongside metaphorical or house-model framing, you MUST split it: \
+judge the checkable core on its own merits (VERIFIED/ATTRIBUTED/UNSUPPORTED) \
+and the framing separately (DECLARED/COHERENT). Do NOT downgrade the entire \
+claim to MODE-CONFLATED or CONTRADICTED because one bundled element is \
+metaphorical or questionable. The production standard favors splitting over \
+blanket harsh verdicts.
+6. HOUSE-MODEL CLAIMS WITH TRUE CORES. When the blog uses its own conceptual \
+vocabulary (e.g., "trace of a rotor", "toroidal state machine") to describe \
+a mathematically or structurally true object, do NOT penalize the vocabulary \
+choice. If the underlying math/fact is correct, the claim mode should be \
+HOUSE-MODEL or DERIVED-SYNTHESIS and the status should reflect the truth of \
+the core — not MODE-CONFLATED. MODE-CONFLATED is reserved for cases where \
+the metaphor is asserted as literal external fact WITHOUT a separable true core.
 
 MATH-BLOCK CONDITIONAL RULES (hard schema constraints — your output must satisfy them):
 - role LOAD-BEARING => load_bearing=true, evidence_eligible=true, all locks PASS.
