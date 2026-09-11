@@ -46,6 +46,11 @@ export interface RoutingConfig {
   NIM_SAFETY_MODEL: string;
   CORPUS_VERSION: string;
   CACHE: KVNamespace;
+
+  // Optional embedding-provider override — see NimConfig in lib/nim.ts.
+  EMBED_BASE_URL?: string;
+  EMBED_API_KEY?: string;
+  EMBED_DIMENSIONS?: string;
 }
 
 // ============================================================================

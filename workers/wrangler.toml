@@ -59,30 +59,61 @@ NIM_BASE_URL = "https://integrate.api.nvidia.com/v1"
 #
 # Overridable per-surface in src/routing.ts (phase B).
 
-# 🔴 EOL 2026-08-25 — DEAD. NVIDIA returns HTTP 410 "Gone" for this model and it has
-# dropped out of /v1/models entirely. Verified 2026-09-12 via `wrangler tail` on a live
-# /search call. Everything that embeds NEW text is down: /search (500), /chat (hangs),
-# /embed/batch, POST /maps/cluster, scripts/semantic-vectorizer.py. /related/:slug still
-# works because it reads a STORED vector by id and never calls the embed model.
+# ── EMBEDDINGS: moved OFF NVIDIA NIM, 2026-09-12 ────────────────────────────
+# nvidia/nv-embedqa-e5-v5 reached end of life 2026-08-25 and NVIDIA now returns HTTP 410
+# for it (confirmed via `wrangler tail` on a live /search, and it is gone from /v1/models).
+# That took out /search, /chat, /embed/batch and POST /maps/cluster — everything that
+# embeds NEW text. /related/:slug survived because it reads a STORED vector by id.
 #
-# Not a one-line swap: Vectorize caps at 1536-d, and every embed model reachable on this
-# tier is wider — nemotron-3-embed-1b (2048), llama-nemotron-embed-1b-v2 (2048),
+# No NIM replacement fits: Cloudflare Vectorize caps at 1536-d and every embed model left
+# on this tier is wider — nemotron-3-embed-1b (2048), llama-nemotron-embed-1b-v2 (2048),
 # llama-nemotron-embed-vl-1b-v2 (2048), nv-embed-v1 (4096), nv-embedcode-7b-v1 (4096).
-# A fix needs dimension truncation to <=1536 or a new index at the replacement's native
-# width — and a full reindex of all 28,290 vectors either way. See docs/INFRA.md §3.
-NIM_EMBED_MODEL         = "nvidia/nv-embedqa-e5-v5"                       # 1024-d — EOL 2026-08-25, see block above
+#
+# So embeddings now route to Nebius (EMBED_BASE_URL below) while chat, rerank and safety
+# stay on NIM. Qwen3-Embedding-8B is natively 4096-d but supports Matryoshka truncation
+# via the OpenAI `dimensions` param — verified 2026-09-12 returning exactly 1024, 1536 and
+# 4096 on request, and batching correctly. 1024 is chosen to match the EXISTING
+# synchronocities-corpus index geometry, so no new index is needed.
+#
+# ⚠️ EMBED_DIMENSIONS must equal the Vectorize index dimension. nim.ts hard-fails if the
+# provider returns a different width rather than silently corrupting the index.
+NIM_EMBED_MODEL         = "Qwen/Qwen3-Embedding-8B"                       # 1024-d via MRL truncation
+EMBED_BASE_URL          = "https://api.studio.nebius.com/v1"              # OpenAI-compatible
+EMBED_DIMENSIONS        = "1024"                                          # MUST match the index
 # Swapped 2026-07-20: llama-3.3-70b-instruct went unreachable on the NIM tier
 # (daily probe 2026-07-18 timeout; live /chat verification 2026-07-20 returned
 # 0 bytes in 110s). Replacement confirmed reachable in the same probe snapshot.
 NIM_CHAT_MODEL          = "nvidia/nemotron-3-super-120b-a12b"             # 120B, 385ms — primary synthesis
-NIM_RERANK_MODEL        = "nvidia/nemotron-mini-4b-instruct"              # 4B, 405ms — LLM-as-judge rerank
-NIM_CLUSTER_LABEL_MODEL = "nvidia/nemotron-mini-4b-instruct"              # same cheap model — cluster naming
+# 🔴 UNREACHABLE as of the 2026-09-11 daily probe — nemotron-mini-4b-instruct dropped off
+# the NIM tier (reachable count fell 39 -> 12 between 2026-07-22 and 2026-09-11).
+# Consequence: rerank FAILS OPEN, so /search still answers but every rerank_score is the
+# neutral 5 and ordering is pure vector similarity. Cluster labelling is likewise degraded.
+#
+# Replacement is not obvious. Of what is still reachable on this tier:
+#   • nemotron-3.5-lightning-30b-a3b  reachable, but emits chain-of-thought into content
+#     ("Here's a thinking process:") — would corrupt the numeric rerank parser, same trap
+#     already documented for nemotron-super-49b-v1.5 below.
+#   • mistral-nemotron                NIM 500 after 82s — unreachable in practice.
+#   • nemotron-3-nano-omni-…-reasoning  reachable but also a reasoning model.
+# An INSTRUCT (non-reasoning) model is required. Nebius has suitable ones
+# (Qwen/Qwen3-30B-A3B-Instruct-2507, google/gemma-3-27b-it) and the embed override in
+# lib/nim.ts could be generalised to route rerank there too. Left unchanged pending that
+# decision — failing open is a degradation, not an outage.
+NIM_RERANK_MODEL        = "nvidia/nemotron-mini-4b-instruct"              # UNREACHABLE — fails open
+NIM_CLUSTER_LABEL_MODEL = "nvidia/nemotron-mini-4b-instruct"              # UNREACHABLE — fails open
 NIM_SAFETY_MODEL        = "nvidia/llama-3.1-nemoguard-8b-content-safety"  # 453ms — content moderation on /chat
 
 # Bumped to 2 after the embed model swap (1024-d invalidates all 4096-d cached vectors).
 # Bumped to 3 to reindex with body_excerpt in Vectorize metadata (Task 5 of /expand/v2 plan).
 # Bumped to 4 to widen the corpus from 125 blog posts to ~3,600 vault docs
 # (Task 13 of /expand/v2.1 — vault indexer adds source_type/source_path metadata).
+#
+# ⚠️ Bump to 5 when the corpus is reindexed on Qwen3-Embedding-8B. The 28,290 vectors
+# currently in synchronocities-corpus were produced by the now-dead e5-v5 and are in a
+# different vector language: query vectors from the new model will NOT match them.
+# Until that reindex runs, /search and /chat return semantically meaningless neighbours
+# even though the plumbing works. CORPUS_VERSION also keys the KV query cache, so
+# bumping it invalidates stale cached results in the same move.
 CORPUS_VERSION = "4"
 
 # Feature flag: bounded tool-use loop inside /chat (lib/chat-tools.ts).

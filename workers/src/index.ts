@@ -41,6 +41,13 @@ export interface Env {
   NIM_SAFETY_MODEL: string;
   CORPUS_VERSION: string;
 
+  // Embedding-provider override (wrangler.toml [vars] + one Worker Secret).
+  // Lets embeddings run on Nebius/OpenRouter while chat, rerank and safety
+  // stay on NVIDIA NIM. See lib/nim.ts NimConfig for the full rationale.
+  EMBED_BASE_URL?: string;
+  EMBED_API_KEY?: string;
+  EMBED_DIMENSIONS?: string;
+
   // Feature flag (wrangler.toml [vars]): "1" enables the bounded tool-use
   // loop in /chat; "0" (or absent) = legacy single-pass behavior.
   CHAT_TOOLS?: string;

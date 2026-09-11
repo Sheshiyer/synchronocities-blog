@@ -30,6 +30,40 @@
 export interface NimConfig {
   NIM_BASE_URL: string;
   NVIDIA_API_KEY: string;
+
+  // ── Embedding-provider override ───────────────────────────────────────────
+  // Embeddings can be routed to a DIFFERENT OpenAI-compatible provider than
+  // chat/rerank/safety. Added 2026-09-12 because NVIDIA retired
+  // nv-embedqa-e5-v5 (HTTP 410 from 2026-08-25) and every remaining NIM embed
+  // model is 2048-d or wider — past Cloudflare Vectorize's 1536-d cap.
+  //
+  // When EMBED_BASE_URL is set, embed() uses it with EMBED_API_KEY; everything
+  // else keeps using NIM_BASE_URL/NVIDIA_API_KEY. Unset = NIM for everything,
+  // so this is backwards-compatible.
+  /** e.g. https://api.studio.nebius.com/v1 — omit to keep embeddings on NIM. */
+  EMBED_BASE_URL?: string;
+  /** Secret paired with EMBED_BASE_URL. Falls back to NVIDIA_API_KEY. */
+  EMBED_API_KEY?: string;
+  /**
+   * Matryoshka output width for models that support it (Qwen3-Embedding,
+   * OpenAI text-embedding-3-*). MUST match the Vectorize index dimension —
+   * synchronocities-corpus is 1024. Sent as the OpenAI `dimensions` param.
+   */
+  EMBED_DIMENSIONS?: string;
+}
+
+/**
+ * Resolve which upstream a given surface talks to. Embeddings may be pointed at
+ * a separate provider; everything else stays on NIM.
+ */
+function upstreamFor(config: NimConfig, kind: 'embed' | 'nim'): { baseUrl: string; apiKey: string } {
+  if (kind === 'embed' && config.EMBED_BASE_URL) {
+    return {
+      baseUrl: config.EMBED_BASE_URL,
+      apiKey: config.EMBED_API_KEY || config.NVIDIA_API_KEY,
+    };
+  }
+  return { baseUrl: config.NIM_BASE_URL, apiKey: config.NVIDIA_API_KEY };
 }
 
 // ============================================================================
@@ -76,17 +110,35 @@ export async function embed(
   // Non-linear: all batches dispatched simultaneously.
   const batchResults = await Promise.all(
     batches.map(async (batch) => {
+      // `input_type` is NVIDIA-specific. Verified 2026-09-12 that Nebius and
+      // OpenRouter accept and ignore it, so it is sent unconditionally rather
+      // than branching on provider.
+      const body: Record<string, unknown> = {
+        input: batch,
+        model: opts.model,
+        input_type: inputType,
+        encoding_format: 'float',
+      };
+      const dims = config.EMBED_DIMENSIONS ? Number(config.EMBED_DIMENSIONS) : undefined;
+      if (dims && Number.isFinite(dims) && dims > 0) body.dimensions = dims;
+
       const res = await nimFetch<EmbedResponse>(config, {
         path: '/embeddings',
-        body: {
-          input: batch,
-          model: opts.model,
-          input_type: inputType,
-          encoding_format: 'float',
-        },
+        body,
+        upstream: 'embed',
         rateLimiter: opts.rateLimiter,
         signal: opts.signal,
       });
+
+      const first = res.data[0];
+      if (dims && first && first.embedding.length !== dims) {
+        throw new NimModelError(
+          `Embedding provider returned ${first.embedding.length}-d vectors, expected ${dims}. ` +
+            `A mismatch here silently corrupts the Vectorize index — refusing.`,
+          200,
+          '',
+        );
+      }
       // Re-sort by index in case NIM returns out of order
       const sorted = [...res.data].sort((a, b) => a.index - b.index);
       return sorted.map((d) => new Float32Array(d.embedding));
@@ -505,6 +557,8 @@ const defaultLimiter = new InMemoryTokenBucket();
 interface NimFetchOpts {
   path: string;
   body: unknown;
+  /** Which upstream to talk to. 'embed' honours the embedding-provider override. */
+  upstream?: 'embed' | 'nim';
   rateLimiter?: RateLimiter;
   signal?: AbortSignal;
   maxRetries?: number;
@@ -515,7 +569,8 @@ const DEFAULT_MAX_RETRIES = 3;
 async function nimFetch<T>(config: NimConfig, opts: NimFetchOpts): Promise<T> {
   const limiter = opts.rateLimiter ?? defaultLimiter;
   const maxRetries = opts.maxRetries ?? DEFAULT_MAX_RETRIES;
-  const url = `${config.NIM_BASE_URL}${opts.path}`;
+  const { baseUrl, apiKey } = upstreamFor(config, opts.upstream ?? 'nim');
+  const url = `${baseUrl}${opts.path}`;
 
   let lastError: Error | undefined;
 
@@ -527,7 +582,7 @@ async function nimFetch<T>(config: NimConfig, opts: NimFetchOpts): Promise<T> {
       res = await fetch(url, {
         method: 'POST',
         headers: {
-          Authorization: `Bearer ${config.NVIDIA_API_KEY}`,
+          Authorization: `Bearer ${apiKey}`,
           'Content-Type': 'application/json',
           Accept: 'application/json',
         },
