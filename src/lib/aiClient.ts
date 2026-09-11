@@ -1,6 +1,7 @@
 /**
  * synchronocities-ai client — tiny wrapper for the Cloudflare Worker
- * at https://synchronocities-ai.sheshnarayan-iyer.workers.dev.
+ * at https://synchronocities-ai.tryambakam.space (custom domain, added 2026-09-12;
+ * synchronocities-ai.sheshnarayan-iyer.workers.dev remains live for ops scripts).
  *
  * Used both at build time (Astro pages calling getRelatedPosts) and at
  * runtime (React components calling search and chat).
@@ -17,7 +18,7 @@
 
 const DEFAULT_BASE =
   (import.meta.env?.PUBLIC_AI_BASE_URL as string | undefined) ??
-  'https://synchronocities-ai.sheshnarayan-iyer.workers.dev';
+  'https://synchronocities-ai.tryambakam.space';
 
 export interface SearchResult {
   slug: string;

@@ -1,0 +1,59 @@
+# Edge headers for Cloudflare Workers Static Assets.
+# Astro copies public/ verbatim into dist/, and the assets runtime reads this
+# file from the deployed root.
+#
+# ⚠️ Rules are CUMULATIVE, not first-match: every pattern that matches a request
+# contributes its headers. A bare `/*  Cache-Control: ...` therefore leaks into
+# /_astro/* too, producing a spliced value like
+#   "public, max-age=0, must-revalidate, public, max-age=31536000, immutable"
+# whose FIRST max-age wins — silently defeating the immutable caching below.
+# (Observed on the 2026-09-12 first deploy.) Hence the explicit `! Cache-Control`
+# unset at the top of every rule that sets its own.
+
+# ── Immutable, content-hashed build output ──────────────────────────────────
+# Astro fingerprints everything under /_astro/, so these can never go stale.
+/_astro/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+# ── Fonts (Panchang + Satoshi) — self-hosted, versioned by path ─────────────
+/fonts/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# ── Imagery: tarot cards, post art, Three.js textures and models ────────────
+/cards/*
+  ! Cache-Control
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+/images/*
+  ! Cache-Control
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+/models/*
+  ! Cache-Control
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+# ── LLM-facing plain-text surfaces — short cache, they track content ────────
+/llms.txt
+  ! Cache-Control
+  Cache-Control: public, max-age=3600
+/llms-full.txt
+  ! Cache-Control
+  Cache-Control: public, max-age=3600
+/llms-manifest.json
+  ! Cache-Control
+  Cache-Control: public, max-age=3600
+/start.txt
+  ! Cache-Control
+  Cache-Control: public, max-age=3600
+
+# ── Everything else: HTML. Revalidate so new posts publish immediately. ─────
+# Security headers live here so every document gets them regardless of path.
+# No CSP yet — Astro emits inline bootstrap scripts and the Three.js islands
+# compile GLSL at runtime, so a policy needs testing before it lands.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()

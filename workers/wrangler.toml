@@ -13,6 +13,26 @@ compatibility_flags = ["nodejs_compat"]
 # Migrated 2026-07-20 from the tirak-court account to the owner's account.
 account_id = "9d9d23b27f32e70ae3afb6a1aa2c0f10"
 
+# Custom domain on the tryambakam.space zone (3c1066df55d4e99464c8bcf1f850894b),
+# added 2026-09-12. Cloudflare creates the DNS record and provisions the cert.
+#
+# ⚠️ ONE level deep, deliberately. The zone is on the Free plan, whose Universal SSL
+# covers exactly `tryambakam.space` and `*.tryambakam.space` — not `*.*.tryambakam.space`.
+# The first attempt used ai.synchronocities.tryambakam.space; DNS resolved but TLS never
+# came up (curl exit 35) because no certificate can cover a second label on this plan.
+# Going deeper needs Advanced Certificate Manager (~$10/mo) or a Business plan.
+routes = [
+  { pattern = "synchronocities-ai.tryambakam.space", custom_domain = true }
+]
+
+# ⚠️ REQUIRED alongside `routes`. Wrangler DISABLES the *.workers.dev subdomain by
+# default the moment a route is declared — observed 2026-09-12, when adding the custom
+# domain above took synchronocities-ai.sheshnarayan-iyer.workers.dev to 404. That URL is
+# hardcoded in every ops script (index-corpus.ts, index-vault.ts, probe-catalog.ts,
+# expand-*.ts, semantic-vectorizer.py, eval-embed.py), in the integration tests, and in
+# .github/workflows/synchronocities-ai-deploy.yml. Keep this true until those are migrated.
+workers_dev = true
+
 [observability]
 enabled = true
 head_sampling_rate = 1.0
@@ -39,7 +59,18 @@ NIM_BASE_URL = "https://integrate.api.nvidia.com/v1"
 #
 # Overridable per-surface in src/routing.ts (phase B).
 
-NIM_EMBED_MODEL         = "nvidia/nv-embedqa-e5-v5"                       # 1024-d, 585ms — fits Vectorize cap (1536-d max)
+# 🔴 EOL 2026-08-25 — DEAD. NVIDIA returns HTTP 410 "Gone" for this model and it has
+# dropped out of /v1/models entirely. Verified 2026-09-12 via `wrangler tail` on a live
+# /search call. Everything that embeds NEW text is down: /search (500), /chat (hangs),
+# /embed/batch, POST /maps/cluster, scripts/semantic-vectorizer.py. /related/:slug still
+# works because it reads a STORED vector by id and never calls the embed model.
+#
+# Not a one-line swap: Vectorize caps at 1536-d, and every embed model reachable on this
+# tier is wider — nemotron-3-embed-1b (2048), llama-nemotron-embed-1b-v2 (2048),
+# llama-nemotron-embed-vl-1b-v2 (2048), nv-embed-v1 (4096), nv-embedcode-7b-v1 (4096).
+# A fix needs dimension truncation to <=1536 or a new index at the replacement's native
+# width — and a full reindex of all 28,290 vectors either way. See docs/INFRA.md §3.
+NIM_EMBED_MODEL         = "nvidia/nv-embedqa-e5-v5"                       # 1024-d — EOL 2026-08-25, see block above
 # Swapped 2026-07-20: llama-3.3-70b-instruct went unreachable on the NIM tier
 # (daily probe 2026-07-18 timeout; live /chat verification 2026-07-20 returned
 # 0 bytes in 110s). Replacement confirmed reachable in the same probe snapshot.
@@ -60,7 +91,15 @@ CORPUS_VERSION = "4"
 CHAT_TOOLS = "1"
 
 # ────────────────────────────────────────────────────────────────────────────
-# KV — query cache (binds to existing CACHE namespace from `wrangler kv namespace list`)
+# KV — query cache
+#
+# ⚠️ Match on ID, never on title. This Cloudflare account is shared across many projects
+# and contains a SEPARATE, unrelated namespace literally titled "CACHE"
+# (d5aa9b42b2f948bfa59143d5a56ea58b). The ids below are the synchronocities ones; in the
+# dashboard / `wrangler kv namespace list` they appear as SYNCHRONOCITIES_CACHE and
+# SYNCHRONOCITIES_CACHE_preview. Verified 2026-09-12. (An earlier version of this comment
+# claimed the binding pointed at the namespace titled "CACHE" — it does not, and
+# "correcting" it to match that title would silently repoint the cache at another project.)
 # ────────────────────────────────────────────────────────────────────────────
 
 [[kv_namespaces]]

@@ -1,0 +1,37 @@
+{
+  // Frontend: the Astro static build, served by Cloudflare Workers Static Assets.
+  // The AI backend is a SEPARATE Worker with its own config at workers/wrangler.toml
+  // — deploy that one with `cd workers && wrangler deploy`, not from here.
+  //
+  //   build:  npm run build      (prebuild runs validate:posts)
+  //   deploy: wrangler deploy    (from the repo root)
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "synchronocities-site",
+  "compatibility_date": "2026-09-12",
+  "account_id": "9d9d23b27f32e70ae3afb6a1aa2c0f10",
+
+  // No "main" — this is a pure assets Worker. Adding a script entrypoint later
+  // would let you intercept requests, but nothing here needs to.
+  "assets": {
+    "directory": "./dist",
+    // Astro has no src/pages/404.astro, so there is no dist/404.html to serve.
+    // "none" returns a bare 404. Switch this to "404-page" the moment a
+    // designed 404 exists — see the follow-ups in docs/INFRA.md.
+    "not_found_handling": "none",
+    // Astro emits directory-style routes (/posts/slug/index.html). This serves
+    // /posts/slug without a redirect hop to the trailing-slash form.
+    "html_handling": "auto-trailing-slash"
+  },
+
+  // Custom domain on the tryambakam.space zone (3c1066df55d4e99464c8bcf1f850894b).
+  // One level deep, so Universal SSL's *.tryambakam.space already covers it.
+  "routes": [
+    { "pattern": "synchronocities.tryambakam.space", "custom_domain": true }
+  ],
+
+  // Declaring routes otherwise silently disables the workers.dev subdomain.
+  // Kept on as a fallback URL for checking a deploy independently of DNS.
+  "workers_dev": true,
+
+  "observability": { "enabled": true }
+}

@@ -107,6 +107,10 @@ export function requireAdmin(request: Request, env: AdminAuthEnv): Response | nu
 
 /** Exact-match production origins. */
 const ALLOWED_ORIGINS: ReadonlySet<string> = new Set([
+  // Live site (Workers Static Assets, zone tryambakam.space) — added 2026-09-12.
+  'https://synchronocities.tryambakam.space',
+  // Reserved: the .com canonical is not yet delegated to Cloudflare (GoDaddy NS).
+  // Kept on the allowlist so a later nameserver move needs no Worker redeploy.
   'https://synchronocities.tryambakam.com',
 ]);
 

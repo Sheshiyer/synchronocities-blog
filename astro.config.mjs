@@ -9,7 +9,7 @@ import glsl from 'vite-plugin-glsl';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://synchronocities.tryambakam.com',
+  site: 'https://synchronocities.tryambakam.space',
   integrations: [react(), sitemap()],
 
   vite: {

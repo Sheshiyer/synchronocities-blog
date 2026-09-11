@@ -2,11 +2,35 @@
 
 NVIDIA NIM multi-model router for the synchronocities blog. Cloudflare Workers.
 
+> ### 🔴 Current state — verified 2026-09-12
+>
+> Deployed at `https://synchronocities-ai.sheshnarayan-iyer.workers.dev`
+> (last deploy **2026-07-23**, behind the working tree).
+>
+> **The embedding model is end-of-life.** `nvidia/nv-embedqa-e5-v5` retired 2026-08-25 and
+> NVIDIA now returns HTTP 410. Every surface that embeds new text is down:
+>
+> | Endpoint | State |
+> |---|---|
+> | `GET /` · `/healthz` · `/models` | ✅ |
+> | `GET /maps/cluster` | ✅ (cached R2 artifact) |
+> | `GET /related/:slug` | ✅ (stored vector lookup — never embeds) |
+> | `GET /search` | ❌ 500 · `error code: 1101` |
+> | `POST /chat` | ❌ hangs at the query-embed step |
+> | `POST /embed/batch` · `POST /maps/cluster` | ❌ |
+>
+> The 28,290 vectors in `synchronocities-corpus` are orphaned — no live model produces
+> that vector language, and every replacement on this tier exceeds Vectorize's 1536-d cap.
+> Full analysis and re-verification commands: [`../docs/INFRA.md`](../docs/INFRA.md).
+>
+> **The Astro frontend in the diagram below is not deployed.**
+> `synchronocities.tryambakam.com` is NXDOMAIN.
+
 ## Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│  Astro frontend (synchronocities.tryambakam.com)                     │
+│  Astro frontend (synchronocities.tryambakam.com — NOT YET DEPLOYED)  │
 │   ├─ /research          → fetches /search at runtime                 │
 │   ├─ /posts/[slug]      → fetches /related/:slug at build            │
 │   ├─ /maps              → reads R2 cluster artifact at build         │
@@ -48,14 +72,15 @@ NVIDIA NIM multi-model router for the synchronocities blog. Cloudflare Workers.
 
 ## Model selection (defaults in `wrangler.toml [vars]`)
 
-All five models below are validated callable on this account's NIM tier via
-`/test/probe-one`. The original picks (nv-embedqa-mistral-7b-v2,
+All five models below **were** validated callable on this account's NIM tier via
+`/test/probe-one` (last snapshot 2026-07-22, `.catalog-probe.md`). The embed model has
+since been retired — re-run `bun scripts/probe-catalog.ts` before trusting this table. The original picks (nv-embedqa-mistral-7b-v2,
 llama-3.1-nemotron-70b, llama-3.2-nv-rerankqa-1b-v2) either 404 on this tier
 or exceed the Vectorize dimension cap — see the notes in `wrangler.toml`.
 
 | Surface | Model | Why |
 |---|---|---|
-| Embeddings (search, related, RAG retrieval, clustering input) | `nvidia/nv-embedqa-e5-v5` | 1024-d, ~585ms — fits the Cloudflare Vectorize cap (1536-d max) |
+| Embeddings (search, related, RAG retrieval, clustering input) | `nvidia/nv-embedqa-e5-v5` | 1024-d — **🔴 EOL 2026-08-25, returns HTTP 410.** Was chosen because it fits the Vectorize 1536-d cap; every reachable replacement is 2048-d or wider. See `wrangler.toml` and `../docs/INFRA.md` §3 |
 | Chat (summaries, canonical questions, RAG answers) | `nvidia/nemotron-3-super-120b-a12b` | 120B, ~385ms — primary synthesis; swapped in 2026-07-20 after llama-3.3-70b-instruct went unreachable on this tier |
 | Reranking (RAG result refinement, /llms.txt ordering) | `nvidia/nemotron-mini-4b-instruct` | 4B, ~405ms — cheap LLM-as-judge rerank on every search/RAG call |
 | Cluster labeling (concept-cluster surface) | `nvidia/nemotron-mini-4b-instruct` | Same cheap model reused for the lower-frequency cluster-naming job |

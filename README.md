@@ -9,7 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://synchronocities.tryambakam.com">Live Site</a> &middot;
+  <a href="https://synchronocities.tryambakam.space">Live Site</a> &middot;
+  <a href="docs/INFRA.md">Infrastructure</a> &middot;
   <a href="https://github.com/Sheshiyer/synchronocities-blog/milestone/1">Milestone 1</a> &middot;
   <a href="https://github.com/Sheshiyer/synchronocities-blog/milestone/2">Milestone 2</a>
 </p>
@@ -19,17 +20,35 @@
   <img src="https://img.shields.io/badge/Three.js-r183-000000?style=flat-square&logo=three.js" alt="Three.js" />
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react" alt="React 19" />
   <img src="https://img.shields.io/badge/Tailwind-4.2-06B6D4?style=flat-square&logo=tailwind-css" alt="Tailwind 4" />
-  <img src="https://img.shields.io/badge/posts-20-C5A017?style=flat-square" alt="20 Posts" />
-  <img src="https://img.shields.io/badge/cards-20-2D0050?style=flat-square" alt="20 Cards" />
+  <img src="https://img.shields.io/badge/entries-126-C5A017?style=flat-square" alt="126 Entries" />
+  <img src="https://img.shields.io/badge/tarot%20cards-43-2D0050?style=flat-square" alt="43 Card Entries" />
 </p>
 
 ---
+
+> ### Status — verified 2026-09-12
+>
+> **Live on Cloudflare.** The site runs on Workers Static Assets at
+> **[synchronocities.tryambakam.space](https://synchronocities.tryambakam.space)**; the AI
+> backend runs at `synchronocities-ai.tryambakam.space`. The `.com` canonical is not in
+> use — `tryambakam.com` is still on GoDaddy nameservers, so no Cloudflare custom domain
+> can bind to it.
+>
+> **⚠️ The retrieval stack is down.** The embedding model (`nvidia/nv-embedqa-e5-v5`)
+> reached end-of-life on 2026-08-25, so `/search` returns 500 and `/chat` hangs.
+> `/related/:slug` and `/maps/cluster` still serve from stored vectors and a cached R2
+> artifact. Restoring search needs a replacement model **and** a full 28k reindex.
+>
+> Full verified map, evidence, and re-verification commands: **[`docs/INFRA.md`](docs/INFRA.md)**.
+> Agent working context: **[`AGENTS.md`](AGENTS.md)**.
 
 ## The Experience
 
 Content lives on the **Z-axis** — not a feed. The homepage is a Three.js depth gallery where each blog post is a floating tarot card plane. Scroll through depth, click to read. No pagination, no sidebar, no archive page.
 
-Each of the 20 posts is a unique step on the spiral:
+The archive holds 126 entries. 43 of them carry a tarot card and form the travelogue
+spiral; the other 83 are essays, hubs, and references reached through `/research` and
+`/maps`. The spiral itself:
 
 ```
 0   The Fool Before the Leap        Mumbai → Shenzhen
@@ -80,27 +99,49 @@ src/
 │   ├── Experience.js        # Orchestrator (Gallery + Background + Trail + Label)
 │   ├── Gallery.js           # Z-axis planes with parallax + breath animation
 │   ├── Scroll.js            # Wheel/touch → camera Z + velocity tracking
-│   ├── galleryData.ts       # Maps 20 posts → unique depth planes
+│   ├── galleryData.ts       # Maps card entries → unique depth planes
 │   ├── Background/          # GLSL shader — mood-reactive blob gradients
 │   │   └── shaders/         # Vertex + fragment shaders
 │   └── Plane/shaders/       # Per-card procedural GLSL
-├── content/posts/           # 20 markdown posts with tarot frontmatter
+├── content/posts/           # 126 entries — 43 tarot-card, 83 essay/hub/reference
 ├── components/
 │   ├── DepthGallery.tsx     # React island — Three.js canvas wrapper
 │   ├── ReadingProgress.tsx  # Scroll-driven reading progress bar
 │   ├── ScrollReveal.tsx     # IntersectionObserver paragraph reveal
-│   └── JourneyProgress.tsx  # 20-dot journey position indicator
+│   ├── JourneyProgress.tsx  # Journey position indicator
+│   ├── CorpusChat.tsx       # SSE chat island → Worker /chat
+│   └── ResearchDiscovery.tsx / ArchiveDiscovery.tsx / ConstellationGrid.tsx
 ├── lib/
 │   ├── tarot.ts             # 22 Major Arcana + 4 suits data
 │   ├── cardColors.ts        # Per-card color palettes (image-extracted)
-│   └── cardExperience.ts    # Per-card Easter eggs, layout types, quotes
+│   ├── cardExperience.ts    # Per-card Easter eggs, layout types, quotes
+│   └── aiClient.ts          # Worker client (PUBLIC_AI_BASE_URL override)
 ├── pages/
 │   ├── index.astro          # Depth gallery homepage
 │   ├── posts/[...slug].astro # Immersive post pages (8 layout types)
-│   └── card/[card].astro    # Card index pages
+│   ├── card/[card].astro    # Card index pages
+│   ├── journeys / research / maps / chat .astro
+│   └── llms.txt.ts · llms-full.txt.ts · llms-manifest.json.ts · start.txt.ts
 ├── layouts/BaseLayout.astro # Shell with View Transitions
 └── styles/global.css        # Design tokens + 8 card-specific CSS layouts
+
+workers/                     # synchronocities-ai — Cloudflare Worker (NVIDIA NIM router)
+quality-engine/              # Nigredo/Albedo/Rubedo content-quality audit engine
+scripts/                     # validate-post-metadata · ci-audit · semantic-vectorizer
+docs/                        # INFRA.md · VOICE.md · TAGS.md · plans/ · audit artifacts
 ```
+
+## AI Layer
+
+`workers/` deploys **`synchronocities-ai`**, a Cloudflare Worker fronting NVIDIA NIM:
+semantic search, SSE RAG chat, related-posts kNN, LLM rerank, concept clustering, and
+content-safety screening. Bindings: Vectorize (`synchronocities-corpus`), R2
+(`synchronocities-artifacts`), KV query cache, and a 20 req/min ratelimit on `/chat`.
+The frontend reaches it through `src/lib/aiClient.ts`.
+
+See [`workers/README.md`](workers/README.md) for the route and auth tables, and
+[`docs/INFRA.md`](docs/INFRA.md) for verified live state (including the current
+embedding-model outage).
 
 ## Content Model
 
@@ -138,15 +179,32 @@ tags: ["earthquake", "tower", "rupture"]
 
 ```bash
 npm install
-npm run dev          # localhost:4321
-npm run build        # static output → dist/ (43 pages)
+npm run dev              # localhost:4321
+npm run build            # prebuild runs validate:posts; static output → dist/ (153 pages)
+npm run test             # node --test over tests/*.test.ts
+npm run validate:posts   # frontmatter + tag-taxonomy gate
 ```
 
 > If you see Vite cache errors after changes, run `rm -rf node_modules/.vite` then restart.
 
+### Deploying
+
+```bash
+npm run build && wrangler deploy                          # site  → synchronocities.tryambakam.space
+cd workers && wrangler deploy --config ./wrangler.toml    # AI    → synchronocities-ai.tryambakam.space
+```
+
+The `--config` flag on the second command is required — without it Wrangler resolves the
+root `wrangler.jsonc` and redeploys the site instead. Neither unit has a deploy workflow
+yet; see [`docs/INFRA.md`](docs/INFRA.md) §5.
+
 ## Quality & Semantic QA
 
 The local QA similarity checker (`scripts/semantic-vectorizer.py`) measures each post against the canonical PASS posts and writes `docs/semantic-similarity-report.json`.
+
+> ⚠️ **Currently broken.** `nvidia/nv-embedqa-e5-v5` reached end-of-life on 2026-08-25
+> and returns HTTP 410. Every path below that embeds new text fails until a replacement
+> model and a full reindex land — see [`docs/INFRA.md`](docs/INFRA.md).
 
 **Single embedding language:** e5-v5 (`nvidia/nv-embedqa-e5-v5`, 1024-d, cosine), served by the `synchronocities-ai` Cloudflare Worker — the same model and text form (title + excerpt + cleaned body[:800]) that embeds the production Vectorize index `synchronocities-corpus`. Local and production scores are directly comparable.
 
