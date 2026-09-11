@@ -225,13 +225,36 @@ returning `vault:resource:<hash>#chunk-N` ids the frontend cannot link.
 | Surface | Scope |
 |---|---|
 | `/related/:slug`, `related_posts` chat tool | `filter: { source_type: 'blog' }` |
-| `/maps` clustering | blog only — filters `vault:` slug prefix |
+| `/maps` clustering | blog only — filters `vault:` slug prefix, in **both** `routes/maps-cluster.ts` and `scripts/compute-clusters.ts` |
 | `/search`, `corpus_search` chat tool | whole corpus, deliberately |
 
 > ⚠️ `maps-cluster.ts` uses `getByIds`, not `query()`, so a Vectorize metadata filter
 > does **not** apply there — it filters by slug prefix instead. Filtering also drops its
 > working set from ~28,290 to ~126, back under `MAX_IN_WORKER_SLUGS`, so the in-Worker
 > clustering path works again instead of returning 413.
+
+> ⚠️ **Two places filter, and they must agree.** `routes/maps-cluster.ts` computes;
+> `scripts/compute-clusters.ts` produces the R2 artifact that `GET /maps/cluster`
+> actually serves. Filtering only the route leaves `/maps` still serving vault clusters.
+
+### Rebuilding the cluster artifact
+
+`GET /maps/cluster` reads `clusters-v{CORPUS_VERSION}.json` from R2, so **bumping
+CORPUS_VERSION 404s `/maps` until the artifact is regenerated** — which is exactly what
+happened on the 4 → 5 bump. Rebuild with:
+
+```bash
+curl -X POST https://synchronocities-ai.tryambakam.space/maps/cluster -H "X-Admin-Key: $ADMIN_API_KEY"
+```
+
+The in-Worker path is viable again now that clustering is blog-scoped (~126 vectors, ~10s).
+Use `bun workers/scripts/compute-clusters.ts` only if the working set ever exceeds
+`MAX_IN_WORKER_SLUGS` again — note that script talks to NIM directly for cluster labels
+and would need the provider override to match `wrangler.toml`.
+
+v5 result: 126 posts, k=12, 0 vault chunks — clusters like *Bangkok Journey*,
+*Bioelectric Consciousness*, *Shesh Identity Prologue*. The v4 artifact had clustered
+28,290 vault chunks into blobs like *Pattern Compendium* (4,049 posts).
 
 > ⚠️ Metadata filtering required creating a `source_type` metadata index on
 > `synchronocities-corpus` (done 2026-09-12). **Vectorize only indexes metadata for
@@ -254,10 +277,24 @@ returning `vault:resource:<hash>#chunk-N` ids the frontend cannot link.
 | 10 | `scripts/semantic-vectorizer.py` bands (OK 0.57 / WARN 0.37) were calibrated for e5-v5's cosine distribution and need recalibrating for Qwen3 | 🟡 medium |
 | 11 | Queues scaffolded-but-commented since Phase B | 🟢 low |
 
-**Standing risk:** this NIM tier lost two of five configured models in seven weeks. The
-daily probe records it; nothing acts on it. A reachability assertion in CI that fails the
-build when a configured model leaves `.reachable-models.txt` would turn a silent outage
-into a red run.
+**Standing risk — now guarded.** This NIM tier lost two of five configured models in
+seven weeks. The daily probe recorded both; nothing compared that record against what the
+Worker was configured to call, so `/search` was 500 for ~2.5 weeks.
+
+`workers/scripts/assert-models-reachable.ts` closes that loop. It parses `NIM_*_MODEL`
+from `wrangler.toml`, skips surfaces routed to another provider, and asserts the rest
+appear in `.reachable-models.txt`. Wired **hard** into `probe-catalog-daily.yml` (after
+the snapshot refreshes; the commit steps carry `if: always()` so the artifact is still
+recorded on failure) and **warn-only** into the deploy workflow, where a lagging snapshot
+shouldn't block an unrelated ship.
+
+Verified both directions: against the 2026-09-11 pre-fix config it flags all three dead
+entries and exits 1; against the current config it exits 0.
+
+```bash
+cd workers && bun scripts/assert-models-reachable.ts        # exit 1 on any miss
+cd workers && bun scripts/assert-models-reachable.ts --warn # report only
+```
 
 ---
 

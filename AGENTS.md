@@ -52,7 +52,14 @@ Routing lives in `upstreamFor()` in `lib/nim.ts` plus a per-surface `upstream` i
 comma-separated integers; a reasoning model emits chain-of-thought into `content` and
 silently degrades rerank to the fail-open neutral 5.
 
-### 2. The vault reindex may still be running
+### 2. Bumping CORPUS_VERSION 404s `/maps` until the artifact is rebuilt
+
+`GET /maps/cluster` serves `clusters-v{CORPUS_VERSION}.json` from R2. After a bump,
+rebuild with `POST /maps/cluster` (admin-gated) — viable in-Worker now that clustering is
+blog-scoped. Both `routes/maps-cluster.ts` and `scripts/compute-clusters.ts` filter
+`vault:` slugs and must stay in lockstep.
+
+### 3. The vault reindex may still be running
 
 `CORPUS_VERSION` is **5**. Blog entries (126) are reindexed on Qwen3. The ~28,290 vault
 chunks take ~6h at ~1.4 chunks/sec — check `workers/.vault-reindex-v5.log`. Until it
@@ -180,9 +187,8 @@ Node `>=22.12.0`. Vite cache errors after edits → `rm -rf node_modules/.vite`.
 
 | # | Thread | Blocking |
 |---|---|---|
-| 1 | Let the vault reindex finish, then regenerate the R2 cluster artifact (`bun workers/scripts/compute-clusters.ts`) for v5 | `/maps` |
-| 2 | Add a CI assertion that fails when a configured model leaves `.reachable-models.txt` — this tier lost 2 of 5 models in 7 weeks and nothing noticed | next silent outage |
-| 8 | Recalibrate `scripts/semantic-vectorizer.py` bands for Qwen3 — the 0.57/0.37 thresholds were fitted to e5-v5 | local QA accuracy |
+| 1 | Let the vault reindex finish (`workers/.vault-reindex-v5.log`) — until then `/search` and `/chat` mix fresh blog vectors with stale vault ones | retrieval quality |
+| 2 | Review the 12 posts the recalibrated vectorizer flags as Drift — they are the technical/bioelectric essays | voice consistency |
 | 3 | Add a `404.astro`, then flip `not_found_handling` to `"404-page"` in `wrangler.jsonc` | misses return a bare CF 404 |
 | 4 | Decide the Cloudflare **Managed robots.txt** question — it `Disallow: /`s GPTBot, ClaudeBot, CCBot and friends at zone level, which contradicts shipping `llms.txt` | LLM discoverability |
 | 5 | Filter `/related` and `/maps` by `source_type` so vault chunks stop leaking into blog-facing surfaces | discovery UX |
