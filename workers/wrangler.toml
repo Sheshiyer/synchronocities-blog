@@ -84,23 +84,23 @@ EMBED_DIMENSIONS        = "1024"                                          # MUST
 # (daily probe 2026-07-18 timeout; live /chat verification 2026-07-20 returned
 # 0 bytes in 110s). Replacement confirmed reachable in the same probe snapshot.
 NIM_CHAT_MODEL          = "nvidia/nemotron-3-super-120b-a12b"             # 120B, 385ms — primary synthesis
-# 🔴 UNREACHABLE as of the 2026-09-11 daily probe — nemotron-mini-4b-instruct dropped off
-# the NIM tier (reachable count fell 39 -> 12 between 2026-07-22 and 2026-09-11).
-# Consequence: rerank FAILS OPEN, so /search still answers but every rerank_score is the
-# neutral 5 and ordering is pure vector similarity. Cluster labelling is likewise degraded.
+# ── RERANK + CLUSTER LABELLING: moved OFF NVIDIA NIM, 2026-09-12 ────────────
+# nemotron-mini-4b-instruct went unreachable in the same tier contraction that
+# killed the embed model (2026-09-11 daily probe: 39 -> 12 reachable). Rerank was
+# failing open, so /search answered but every rerank_score was the neutral 5.
 #
-# Replacement is not obvious. Of what is still reachable on this tier:
-#   • nemotron-3.5-lightning-30b-a3b  reachable, but emits chain-of-thought into content
-#     ("Here's a thinking process:") — would corrupt the numeric rerank parser, same trap
-#     already documented for nemotron-super-49b-v1.5 below.
-#   • mistral-nemotron                NIM 500 after 82s — unreachable in practice.
-#   • nemotron-3-nano-omni-…-reasoning  reachable but also a reasoning model.
-# An INSTRUCT (non-reasoning) model is required. Nebius has suitable ones
-# (Qwen/Qwen3-30B-A3B-Instruct-2507, google/gemma-3-27b-it) and the embed override in
-# lib/nim.ts could be generalised to route rerank there too. Left unchanged pending that
-# decision — failing open is a degradation, not an outage.
-NIM_RERANK_MODEL        = "nvidia/nemotron-mini-4b-instruct"              # UNREACHABLE — fails open
-NIM_CLUSTER_LABEL_MODEL = "nvidia/nemotron-mini-4b-instruct"              # UNREACHABLE — fails open
+# No NIM replacement works: every reachable candidate is a REASONING model that
+# emits chain-of-thought into `content` (nemotron-3.5-lightning-30b-a3b probes OK
+# but returns "Here's a thinking process:"), which would corrupt parseScores().
+# The same trap is documented for nemotron-super-49b-v1.5 above.
+#
+# Qwen3-30B-A3B-Instruct-2507 on Nebius is an INSTRUCT model, so it emits the bare
+# comma-separated integers the parser expects. Routed via RERANK_BASE_URL; the
+# cluster-label surface follows it (routing.ts marks it upstream: 'rerank') since
+# it shared the same dead model.
+NIM_RERANK_MODEL        = "Qwen/Qwen3-30B-A3B-Instruct-2507"
+NIM_CLUSTER_LABEL_MODEL = "Qwen/Qwen3-30B-A3B-Instruct-2507"
+RERANK_BASE_URL         = "https://api.studio.nebius.com/v1"              # OpenAI-compatible
 NIM_SAFETY_MODEL        = "nvidia/llama-3.1-nemoguard-8b-content-safety"  # 453ms — content moderation on /chat
 
 # Bumped to 2 after the embed model swap (1024-d invalidates all 4096-d cached vectors).
@@ -108,13 +108,12 @@ NIM_SAFETY_MODEL        = "nvidia/llama-3.1-nemoguard-8b-content-safety"  # 453m
 # Bumped to 4 to widen the corpus from 125 blog posts to ~3,600 vault docs
 # (Task 13 of /expand/v2.1 — vault indexer adds source_type/source_path metadata).
 #
-# ⚠️ Bump to 5 when the corpus is reindexed on Qwen3-Embedding-8B. The 28,290 vectors
-# currently in synchronocities-corpus were produced by the now-dead e5-v5 and are in a
-# different vector language: query vectors from the new model will NOT match them.
-# Until that reindex runs, /search and /chat return semantically meaningless neighbours
-# even though the plumbing works. CORPUS_VERSION also keys the KV query cache, so
-# bumping it invalidates stale cached results in the same move.
-CORPUS_VERSION = "4"
+# Bumped to 5 on 2026-09-12 for the Qwen3-Embedding-8B reindex. The previous 28,290
+# vectors were produced by the now-dead e5-v5 and are in a different vector language —
+# query vectors from the new model do not match them (observed scores ~0.09 with
+# semantically unrelated neighbours). CORPUS_VERSION also keys the KV query cache and
+# the R2 cluster artifact, so bumping it invalidates both in the same move.
+CORPUS_VERSION = "5"
 
 # Feature flag: bounded tool-use loop inside /chat (lib/chat-tools.ts).
 # "1" = one tool-planning round before the final stream (max 2 rounds,

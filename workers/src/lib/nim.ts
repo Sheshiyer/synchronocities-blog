@@ -45,6 +45,16 @@ export interface NimConfig {
   /** Secret paired with EMBED_BASE_URL. Falls back to NVIDIA_API_KEY. */
   EMBED_API_KEY?: string;
   /**
+   * Same override for the LLM-as-judge rerank and cluster labelling, which lost
+   * nemotron-mini-4b-instruct in the same tier contraction (2026-09-11 probe:
+   * 39 -> 12 reachable). Every reachable NIM candidate is a REASONING model that
+   * emits chain-of-thought into `content`, which would corrupt parseScores().
+   * An instruct model is required. Omit to keep rerank on NIM.
+   */
+  RERANK_BASE_URL?: string;
+  /** Secret paired with RERANK_BASE_URL. Falls back to NVIDIA_API_KEY. */
+  RERANK_API_KEY?: string;
+  /**
    * Matryoshka output width for models that support it (Qwen3-Embedding,
    * OpenAI text-embedding-3-*). MUST match the Vectorize index dimension —
    * synchronocities-corpus is 1024. Sent as the OpenAI `dimensions` param.
@@ -56,11 +66,20 @@ export interface NimConfig {
  * Resolve which upstream a given surface talks to. Embeddings may be pointed at
  * a separate provider; everything else stays on NIM.
  */
-function upstreamFor(config: NimConfig, kind: 'embed' | 'nim'): { baseUrl: string; apiKey: string } {
+function upstreamFor(
+  config: NimConfig,
+  kind: 'embed' | 'rerank' | 'nim',
+): { baseUrl: string; apiKey: string } {
   if (kind === 'embed' && config.EMBED_BASE_URL) {
     return {
       baseUrl: config.EMBED_BASE_URL,
       apiKey: config.EMBED_API_KEY || config.NVIDIA_API_KEY,
+    };
+  }
+  if (kind === 'rerank' && config.RERANK_BASE_URL) {
+    return {
+      baseUrl: config.RERANK_BASE_URL,
+      apiKey: config.RERANK_API_KEY || config.NVIDIA_API_KEY,
     };
   }
   return { baseUrl: config.NIM_BASE_URL, apiKey: config.NVIDIA_API_KEY };
@@ -165,6 +184,11 @@ export interface ChatOptions {
   top_p?: number;
   /** Force JSON output when the model supports response_format. */
   response_format?: { type: 'json_object' };
+  /**
+   * Route this call to a non-NIM provider. 'rerank' is used by rerank() and by
+   * the cluster-label surface, whose NIM model went unreachable.
+   */
+  upstream?: 'rerank' | 'nim';
   rateLimiter?: RateLimiter;
   signal?: AbortSignal;
 }
@@ -195,6 +219,7 @@ export async function chat(config: NimConfig, opts: ChatOptions): Promise<string
   const res = await nimFetch<ChatResponse>(config, {
     path: '/chat/completions',
     body,
+    upstream: opts.upstream,
     rateLimiter: opts.rateLimiter,
     signal: opts.signal,
   });
@@ -430,6 +455,7 @@ export async function rerank(config: NimConfig, opts: RerankOptions): Promise<Re
       messages: [{ role: 'user', content: prompt }],
       max_tokens: 64 + opts.passages.length * 4,
       temperature: 0,
+      upstream: 'rerank',
       rateLimiter: opts.rateLimiter,
       signal: opts.signal,
     });
@@ -557,8 +583,8 @@ const defaultLimiter = new InMemoryTokenBucket();
 interface NimFetchOpts {
   path: string;
   body: unknown;
-  /** Which upstream to talk to. 'embed' honours the embedding-provider override. */
-  upstream?: 'embed' | 'nim';
+  /** Which upstream to talk to. 'embed'/'rerank' honour their provider overrides. */
+  upstream?: 'embed' | 'rerank' | 'nim';
   rateLimiter?: RateLimiter;
   signal?: AbortSignal;
   maxRetries?: number;

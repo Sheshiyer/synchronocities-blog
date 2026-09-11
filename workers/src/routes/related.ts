@@ -99,10 +99,17 @@ export async function handleRelated(
 
   // ─── 3. kNN search — over-fetch by 1 since the post's own vector is the
   //        nearest match and will need to be filtered out ─────────────────
+  // Blog-facing surface: restrict to source_type 'blog'. CORPUS_VERSION 4 widened
+  // the index from ~126 blog posts to ~28,290 vault chunks, so without this the
+  // endpoint returns ids shaped `vault:resource:<hash>#chunk-N` that the frontend
+  // cannot resolve to a post URL. Requires the source_type metadata index on
+  // synchronocities-corpus (created 2026-09-12) AND vectors inserted after it —
+  // Vectorize only indexes metadata for vectors written once the index exists.
   const knn = await env.CORPUS_INDEX.query(sourceVector, {
     topK: limit + 1,
     returnValues: false,
     returnMetadata: 'all',
+    filter: { source_type: 'blog' },
   });
 
   const related: RelatedPost[] = knn.matches

@@ -47,6 +47,8 @@ export interface Env {
   EMBED_BASE_URL?: string;
   EMBED_API_KEY?: string;
   EMBED_DIMENSIONS?: string;
+  RERANK_BASE_URL?: string;
+  RERANK_API_KEY?: string;
 
   // Feature flag (wrangler.toml [vars]): "1" enables the bounded tool-use
   // loop in /chat; "0" (or absent) = legacy single-pass behavior.

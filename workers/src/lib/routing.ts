@@ -51,6 +51,8 @@ export interface RoutingConfig {
   EMBED_BASE_URL?: string;
   EMBED_API_KEY?: string;
   EMBED_DIMENSIONS?: string;
+  RERANK_BASE_URL?: string;
+  RERANK_API_KEY?: string;
 }
 
 // ============================================================================
@@ -75,6 +77,11 @@ interface BaseSurface {
   defaults: Record<string, unknown>;
   /** Cache TTL in seconds. 0 = don't cache. */
   cacheTtlSeconds: number;
+  /**
+   * Route this surface's chat call to the rerank provider instead of NIM.
+   * Only meaningful for primitive: 'chat'. rerank.default routes itself.
+   */
+  upstream?: 'rerank';
 }
 
 export const SURFACES: Record<SurfaceName, BaseSurface> = {
@@ -107,6 +114,8 @@ export const SURFACES: Record<SurfaceName, BaseSurface> = {
     modelOf: (c) => c.NIM_CLUSTER_LABEL_MODEL,
     defaults: { max_tokens: 32, temperature: 0.2 },
     cacheTtlSeconds: 60 * 60 * 24, // 1d — clusters change with each reindex
+    // Shared the dead nemotron-mini-4b-instruct with rerank; follows it off NIM.
+    upstream: 'rerank',
   },
   'chat.rag-answer': {
     primitive: 'chat',
@@ -290,6 +299,7 @@ export async function runSurface<S extends SurfaceName>(
       ...(chatInput.max_tokens !== undefined ? { max_tokens: chatInput.max_tokens } : {}),
       ...(chatInput.temperature !== undefined ? { temperature: chatInput.temperature } : {}),
       ...(chatInput.top_p !== undefined ? { top_p: chatInput.top_p } : {}),
+      ...(surfaceConfig.upstream ? { upstream: surfaceConfig.upstream } : {}),
       ...(opts.rateLimiter ? { rateLimiter: opts.rateLimiter } : {}),
       ...(opts.signal ? { signal: opts.signal } : {}),
     });

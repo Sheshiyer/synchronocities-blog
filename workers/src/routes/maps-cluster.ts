@@ -107,7 +107,13 @@ export async function handleMapsCluster(
     const page: KVNamespaceListResult<unknown> = await env.CACHE.list({ prefix, cursor });
     for (const key of page.keys) {
       const slug = key.name.replace(prefix, '');
-      if (slug) allSlugs.push(slug);
+      // Blog only. /maps is a blog-facing surface, and vault chunk slugs
+      // (`vault:<type>:<hash>#chunk-N`) cannot be linked to a post URL.
+      // Filtering by slug prefix rather than metadata because this path uses
+      // getByIds, not query(), so a Vectorize filter does not apply. Side
+      // effect: drops the working set from ~28,290 to ~126, back under the
+      // MAX_IN_WORKER_SLUGS ceiling below, so the in-Worker path works again.
+      if (slug && !slug.startsWith('vault:')) allSlugs.push(slug);
     }
     cursor = page.list_complete ? undefined : page.cursor;
   } while (cursor);

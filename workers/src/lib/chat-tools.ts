@@ -312,10 +312,14 @@ async function execRelatedPosts(env: Env, slug: string): Promise<{ content: stri
     return { content: JSON.stringify({ error: 'slug not found in index', slug }), count: 0 };
   }
 
+  // related_posts is a blog-facing answer surface — same reasoning as
+  // routes/related.ts. corpus_search above deliberately stays unfiltered so
+  // /chat can still reason over the whole vault.
   const knn = await env.CORPUS_INDEX.query(sourceVector, {
     topK: 6,
     returnValues: false,
     returnMetadata: 'all',
+    filter: { source_type: 'blog' },
   });
 
   const related = knn.matches
