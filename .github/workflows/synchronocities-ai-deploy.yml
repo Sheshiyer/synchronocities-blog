@@ -39,27 +39,65 @@ jobs:
   deploy:
     name: Deploy Worker
     runs-on: ubuntu-latest
-    # contains() on an array is exact-match — join first so 'workers/' works as a prefix check
-    if: contains(join(github.event.head_commit.modified, ','), 'workers/') || contains(join(github.event.head_commit.added, ','), 'workers/') || github.event_name == 'workflow_dispatch'
     outputs:
       worker_url: ${{ steps.deploy.outputs.url }}
+      workers_changed: ${{ steps.changes.outputs.workers }}
+      posts_changed: ${{ steps.changes.outputs.posts }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Detect changes by diffing the whole push range rather than reading
+      # github.event.head_commit. The old gate inspected only the HEAD commit, so
+      # a push whose workers/ edits sat in any earlier commit skipped the deploy
+      # entirely — observed 2026-09-11 on 80527fa, which modified three files
+      # under workers/ and was still skipped.
+      - name: Detect changed paths
+        id: changes
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "workers=true" >> "$GITHUB_OUTPUT"
+            echo "posts=true"   >> "$GITHUB_OUTPUT"
+            echo "▸ manual dispatch — treating everything as changed"
+            exit 0
+          fi
+          before="${{ github.event.before }}"
+          # All-zero SHA means a new branch; fall back to the first parent.
+          if [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ]; then
+            before=$(git rev-parse "${{ github.sha }}^" 2>/dev/null || echo "")
+          fi
+          if [ -n "$before" ] && git cat-file -e "$before^{commit}" 2>/dev/null; then
+            changed=$(git diff --name-only "$before" "${{ github.sha }}")
+          else
+            changed=$(git show --name-only --format= "${{ github.sha }}")
+          fi
+          echo "▸ changed files in push range:"; echo "$changed" | sed 's/^/    /'
+          grep -q '^workers/'           <<< "$changed" && w=true || w=false
+          grep -q '^src/content/posts/' <<< "$changed" && p=true || p=false
+          echo "workers=$w" >> "$GITHUB_OUTPUT"
+          echo "posts=$p"   >> "$GITHUB_OUTPUT"
+          echo "▸ workers=$w posts=$p"
       - uses: oven-sh/setup-bun@v2
+        if: steps.changes.outputs.workers == 'true'
         with:
           bun-version: latest
       - name: Install dependencies
+        if: steps.changes.outputs.workers == 'true'
         working-directory: workers
         run: bun install --frozen-lockfile
       - name: Deploy
         id: deploy
+        if: steps.changes.outputs.workers == 'true'
         working-directory: workers
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          bunx wrangler deploy
-          echo "url=https://synchronocities-ai.sheshnarayan-iyer.workers.dev" >> "$GITHUB_OUTPUT"
+          # --config is REQUIRED: a bare `wrangler deploy` from workers/ resolves the
+          # repo-root wrangler.jsonc and ships the SITE Worker instead.
+          bunx wrangler deploy --config ./wrangler.toml
+          echo "url=https://synchronocities-ai.tryambakam.space" >> "$GITHUB_OUTPUT"
 
   index:
     name: Reindex corpus
@@ -68,9 +106,7 @@ jobs:
     if: |
       always() &&
       (needs.deploy.result == 'success' || needs.deploy.result == 'skipped') &&
-      (contains(join(github.event.head_commit.modified, ','), 'src/content/posts/') ||
-       contains(join(github.event.head_commit.added, ','), 'src/content/posts/') ||
-       github.event_name == 'workflow_dispatch')
+      needs.deploy.outputs.posts_changed == 'true'
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
