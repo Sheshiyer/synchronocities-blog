@@ -34,10 +34,10 @@
 > use — `tryambakam.com` is still on GoDaddy nameservers, so no Cloudflare custom domain
 > can bind to it.
 >
-> **⚠️ The retrieval stack is down.** The embedding model (`nvidia/nv-embedqa-e5-v5`)
-> reached end-of-life on 2026-08-25, so `/search` returns 500 and `/chat` hangs.
-> `/related/:slug` and `/maps/cluster` still serve from stored vectors and a cached R2
-> artifact. Restoring search needs a replacement model **and** a full 28k reindex.
+> **Inference is split across two providers.** The NVIDIA NIM tier lost 2 of the 5
+> configured models in seven weeks, so embeddings and rerank now run on Nebius
+> (`Qwen3-Embedding-8B` @ 1024-d, `Qwen3-30B-A3B-Instruct-2507`) while chat and safety
+> stay on NIM. `/search` and `/chat` are working again.
 >
 > Full verified map, evidence, and re-verification commands: **[`docs/INFRA.md`](docs/INFRA.md)**.
 > Agent working context: **[`AGENTS.md`](AGENTS.md)**.

@@ -30,18 +30,25 @@
 | R2 `synchronocities-artifacts` | Cloudflare | live; serves the cached cluster artifact |
 | KV `SYNCHRONOCITIES_CACHE` | Cloudflare | live (`5e7bd812…aa88`) |
 
-## 🔴 Blockers
+## 🟢 Recently resolved (2026-09-12)
 
-1. **Embedding model EOL.** `nvidia/nv-embedqa-e5-v5` retired 2026-08-25 → HTTP 410.
-   `/search` returns 500, `/chat` hangs, reindexing is impossible. Every replacement on
-   this NIM tier is 2048-d or 4096-d and exceeds Vectorize's 1536-d cap, so a fix needs a
-   dimension strategy *and* a full 28k reindex.
-2. **No git remote / no history.** Nothing is pushed; CI cannot run — including
-   `probe-catalog-daily.yml`, the workflow whose job was to catch blocker 1 early.
-3. **`.com` canonical unusable.** `tryambakam.com` is still on GoDaddy nameservers, so no
-   Cloudflare custom domain can bind to it. The site is canonical on `.space` until/unless
-   those nameservers move. Note the `tryambakam.space` zone is on the **Free plan**, so
-   hostnames must stay one label deep (Universal SSL covers `*.tryambakam.space` only).
+1. **Embedding model EOL** — `nv-embedqa-e5-v5` retired 2026-08-25. Embeddings moved to
+   Nebius (`Qwen3-Embedding-8B` @ 1024-d). `/search` and `/chat` restored.
+2. **Rerank model unreachable** — `nemotron-mini-4b-instruct` gone; rerank was failing
+   open. Moved to Nebius `Qwen3-30B-A3B-Instruct-2507`.
+3. **Git detached from origin** — the local repo had been re-initialized with an empty
+   commit and no remote. Reattached to the real 294-commit history and pushed. CI itself
+   was never broken.
+4. **Vault chunks leaking into blog surfaces** — `source_type` metadata index + filters
+   on `/related` and `/maps`.
+5. **Site had no deploy pipeline**, and the Worker's CI gate silently skipped real
+   deploys. Both fixed.
+
+## 🟠 In flight
+
+- **Vault reindex** (~28,290 chunks, ~6h at ~1.4/sec) — `workers/.vault-reindex-v5.log`.
+  Idempotent and resumable. Until it finishes, `/search` and `/chat` mix fresh blog
+  vectors with stale vault ones.
 
 ## ✅ Suggested next actions
 

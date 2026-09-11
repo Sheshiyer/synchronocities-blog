@@ -32,27 +32,32 @@ The frontend calls the Worker through `src/lib/aiClient.ts`
 
 Four facts that invalidate most reasonable assumptions about this repo:
 
-### 1. 🔴 The retrieval stack is broken in production
+### 1. Inference is split across two providers
 
-`NIM_EMBED_MODEL = "nvidia/nv-embedqa-e5-v5"` **reached end-of-life 2026-08-25** and now
-returns HTTP 410 from NVIDIA. Live consequences:
+The NVIDIA NIM tier collapsed from **39 reachable models to 12** between 2026-07-22 and
+2026-09-11, killing `nv-embedqa-e5-v5` (embeddings, EOL 2026-08-25) and
+`nemotron-mini-4b-instruct` (rerank + cluster labelling). Since 2026-09-12:
 
-- `GET /search` → 500 (`error code: 1101`)
-- `POST /chat` → hangs at the query-embed step
-- `POST /embed/batch`, `POST /maps/cluster`, `scripts/semantic-vectorizer.py` → all fail
-- `GET /related/:slug` still works — it reads a **stored** vector by id and never embeds
+| Surface | Provider | Model |
+|---|---|---|
+| embeddings | **Nebius** | `Qwen/Qwen3-Embedding-8B` @ 1024-d (Matryoshka) |
+| rerank + cluster label | **Nebius** | `Qwen/Qwen3-30B-A3B-Instruct-2507` |
+| chat / RAG, safety | NVIDIA NIM | `nemotron-3-super-120b-a12b`, `nemoguard-8b` |
 
-The 28,290 vectors in `synchronocities-corpus` are orphaned: no live model produces that
-vector language. Every replacement candidate on this NIM tier is 2048-d or 4096-d and
-**exceeds Vectorize's 1536-d cap**, so a swap means dimension truncation or a new index —
-and a full reindex either way. Do not treat this as a one-line config fix.
+Routing lives in `upstreamFor()` in `lib/nim.ts` plus a per-surface `upstream` in
+`routing.ts`. `EMBED_DIMENSIONS` **must** equal the Vectorize index width (1024) —
+`embed()` hard-fails on a mismatch rather than corrupting the index.
 
-### 2. 🔴 There is no git remote and no history
+**Rerank needs an INSTRUCT model, never a reasoning one.** `parseScores()` expects bare
+comma-separated integers; a reasoning model emits chain-of-thought into `content` and
+silently degrades rerank to the fail-open neutral 5.
 
-`git log` = one empty "Initial commit". 0 tracked files. 21 untracked top-level entries.
-Nothing is pushed anywhere. Consequently **all three GitHub Actions workflows are inert** —
-including `probe-catalog-daily.yml`, the job whose entire purpose is warning about the
-model EOL in (1). Assume no CI has run since the repo was re-initialized.
+### 2. The vault reindex may still be running
+
+`CORPUS_VERSION` is **5**. Blog entries (126) are reindexed on Qwen3. The ~28,290 vault
+chunks take ~6h at ~1.4 chunks/sec — check `workers/.vault-reindex-v5.log`. Until it
+finishes, unfiltered surfaces (`/search`, `/chat`) mix fresh blog vectors with stale
+e5-v5 vault ones. The indexer is idempotent, so re-running resumes rather than redoing.
 
 ### 3. 🟠 The canonical domain is `.space`, not `.com`
 
@@ -63,11 +68,12 @@ bind to it. It was never on Vercel either. The live canonical is
 text endpoints derive it via `import.meta.env.SITE`. Only `public/robots.txt` still writes
 the host by hand.
 
-### 4. 🟡 The site has no deploy pipeline
+### 4. Both Workers deploy from CI
 
-`synchronocities-site` is deployed **by hand** (`npm run build && wrangler deploy`). The
-three GitHub workflows only cover the Worker, the model probe, and the quality audit — and
-none of them can run anyway (see 2).
+`synchronocities-site-deploy.yml` builds and ships the site; `synchronocities-ai-deploy.yml`
+ships the Worker and reindexes when posts change. The AI workflow's change detection was
+rewritten to diff the whole push range — it used to read only `head_commit`, so `workers/`
+edits in a non-head commit silently skipped the deploy.
 
 ---
 
@@ -174,8 +180,9 @@ Node `>=22.12.0`. Vite cache errors after edits → `rm -rf node_modules/.vite`.
 
 | # | Thread | Blocking |
 |---|---|---|
-| 1 | Pick a Vectorize-compatible embedding model (≤1536-d) and reindex the corpus | `/search`, `/chat`, all reindexing |
-| 2 | Restore the git remote and push, so CI and the daily model probe run again | early warning on the next EOL |
+| 1 | Let the vault reindex finish, then regenerate the R2 cluster artifact (`bun workers/scripts/compute-clusters.ts`) for v5 | `/maps` |
+| 2 | Add a CI assertion that fails when a configured model leaves `.reachable-models.txt` — this tier lost 2 of 5 models in 7 weeks and nothing noticed | next silent outage |
+| 8 | Recalibrate `scripts/semantic-vectorizer.py` bands for Qwen3 — the 0.57/0.37 thresholds were fitted to e5-v5 | local QA accuracy |
 | 3 | Add a `404.astro`, then flip `not_found_handling` to `"404-page"` in `wrangler.jsonc` | misses return a bare CF 404 |
 | 4 | Decide the Cloudflare **Managed robots.txt** question — it `Disallow: /`s GPTBot, ClaudeBot, CCBot and friends at zone level, which contradicts shipping `llms.txt` | LLM discoverability |
 | 5 | Filter `/related` and `/maps` by `source_type` so vault chunks stop leaking into blog-facing surfaces | discovery UX |

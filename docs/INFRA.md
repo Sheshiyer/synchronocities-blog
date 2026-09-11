@@ -15,8 +15,8 @@
 | Is this on Vercel? | **No — and it never was.** No `.vercel/`, no `vercel.json`, no adapter, no matching project in the Vercel account. |
 | Where is the frontend? | **`https://synchronocities.tryambakam.space`** — Cloudflare Workers Static Assets, deployed 2026-09-12. |
 | Where is the backend? | **`https://synchronocities-ai.tryambakam.space`** — Cloudflare Worker, custom domain added 2026-09-12. `*.workers.dev` still live. |
-| Is the backend healthy? | **Partially.** `/`, `/healthz`, `/models`, `/maps/cluster`, `/related/:slug` OK. **`/search` returns 500 and `/chat` hangs** — the embedding model hit end-of-life. |
-| Is CI running? | **No.** The local git repo has no remote and no history, so the workflows in `.github/` have nothing to run against. |
+| Is the backend healthy? | **Yes**, as of 2026-09-12. `/search` and `/chat` were restored by moving embeddings and rerank off NVIDIA NIM onto Nebius. |
+| Is CI running? | **Yes.** 294+ commits, daily probe and weekly audit have been running all along. Both Workers now have deploy pipelines. |
 
 ---
 
@@ -159,72 +159,105 @@ unknown origin gets no `Access-Control-Allow-Origin` header.
 
 ---
 
-## 3. The production break — embedding model EOL 🔴
+## 3. Provider split — NIM tier contraction, resolved 2026-09-12
 
-`wrangler tail` on a live `/search` call:
+The NVIDIA NIM tier this account uses collapsed from **39 reachable models
+(2026-07-22) to 12 (2026-09-11)**, taking two of the five configured models with it.
 
-```
-NimModelError: NIM 410: {"type":"about:blank","title":"Gone","status":410,
-"detail":"The model 'nvidia/nv-embedqa-e5-v5' has reached its end of life
-on 2026-08-25T09:00:00Z and is no longer available."}
-    at nimFetch → embed → runSurface → handleSearch
-```
-
-`nvidia/nv-embedqa-e5-v5` is `NIM_EMBED_MODEL`. It is **gone from the live catalog**
-(absent from the 80 models `/models` now returns). Every surface that embeds *new text* is
-dead: `/search`, `/chat`, `/embed/batch`, `POST /maps/cluster`, and
-`scripts/semantic-vectorizer.py`.
-
-`GET /related/:slug` survives because it looks up a **stored** vector by id and runs a
-vector-to-vector kNN — it never calls the embedding model. That asymmetry is the tell.
-
-### Why the replacement is not a one-line swap
-
-Cloudflare Vectorize caps at **1536 dimensions**. Of the embed models reachable at the last probe:
-
-| Model | Dims | Fits Vectorize? |
+| Model | Role | What happened |
 |---|---|---|
-| `nvidia/nv-embedqa-e5-v5` | 1024 | — **EOL 2026-08-25** |
-| `nvidia/nemotron-3-embed-1b` | 2048 | ❌ |
-| `nvidia/llama-nemotron-embed-1b-v2` | 2048 | ❌ |
-| `nvidia/llama-nemotron-embed-vl-1b-v2` | 2048 | ❌ |
-| `nvidia/nv-embed-v1` | 4096 | ❌ |
-| `nvidia/nv-embedcode-7b-v1` | 4096 | ❌ |
+| `nvidia/nv-embedqa-e5-v5` | embeddings | **EOL 2026-08-25**, HTTP 410, gone from the catalog |
+| `nvidia/nemotron-mini-4b-instruct` | rerank + cluster labelling | went unreachable |
 
-Restoring search means (a) a model with Matryoshka/`dimensions` truncation to ≤1536,
-(b) a new Vectorize index at the replacement's native width, or (c) a different provider.
-**All three require a full 28,290-vector reindex** — the existing index is in a vector
-language nothing live can still speak. Treat it as orphaned, not as an asset to preserve.
+Symptoms: `/search` returned 500, `/chat` hung, `/embed/batch` and
+`POST /maps/cluster` could not run. `/related/:slug` survived because it reads a
+**stored** vector by id and never embeds — that asymmetry is the diagnostic tell.
+Rerank failed open, so search answered once embeddings returned but every
+`rerank_score` was the neutral `5`.
 
-`probe-catalog-daily.yml` exists to catch exactly this drift. It has not run (see §5), so
-the EOL landed silently on 2026-08-25.
+### Why NIM had no replacement
 
-### Second-order issue: corpus scope drift
+Cloudflare Vectorize caps at **1536 dimensions**, and every remaining NIM embed
+model is wider: `nemotron-3-embed-1b` (2048), `llama-nemotron-embed-1b-v2` (2048),
+`llama-nemotron-embed-vl-1b-v2` (2048), `nv-embed-v1` (4096), `nv-embedcode-7b-v1` (4096).
+For rerank, every reachable candidate is a **reasoning** model that emits
+chain-of-thought into `content` — `nemotron-3.5-lightning-30b-a3b` probes fine but
+returns `"Here's a thinking process:"`, which would corrupt `parseScores()`. The same
+trap is already documented in `wrangler.toml` for `nemotron-super-49b-v1.5`.
 
-`CORPUS_VERSION = "4"` widened the index from ~125 blog posts to the whole vault
-(28,290 vectors). `/maps/cluster` reports `total_posts: 28290` and `/related/:slug` returns
-`vault:resource:…#chunk-N` ids. Any frontend surface assuming a blog slug —
-`RelatedPostModules.astro`, `/maps`, `/research` — gets ids it cannot link. A `source_type`
-filter on the Vectorize query is the likely fix.
+### The fix: per-surface upstream override
 
----
+`lib/nim.ts` gained `upstreamFor(config, 'embed' | 'rerank' | 'nim')`. Embeddings and
+rerank route to Nebius; chat, safety and streaming stay on NIM. Unset vars mean NIM
+for everything, so the change is backwards-compatible.
+
+| Surface | Provider | Model |
+|---|---|---|
+| embeddings | Nebius | `Qwen/Qwen3-Embedding-8B`, Matryoshka-truncated to **1024-d** |
+| rerank + cluster label | Nebius | `Qwen/Qwen3-30B-A3B-Instruct-2507` (instruct, not reasoning) |
+| chat / RAG answers | NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` |
+| safety | NVIDIA NIM | `nvidia/llama-3.1-nemoguard-8b-content-safety` |
+
+`EMBED_DIMENSIONS = "1024"` matches the existing index geometry, so no new Vectorize
+index was needed. **`embed()` hard-fails if the provider returns a different width** —
+a silent mismatch would corrupt the index rather than error.
+
+Config lives in `workers/wrangler.toml` (`EMBED_BASE_URL`, `EMBED_DIMENSIONS`,
+`RERANK_BASE_URL`); `EMBED_API_KEY` and `RERANK_API_KEY` are Worker Secrets.
+
+### CORPUS_VERSION 4 → 5 and the reindex
+
+Stored vectors were in e5-v5's vector language; Qwen3 query vectors scored ~0.09
+against them with semantically unrelated neighbours. The bump invalidates the KV query
+cache and the R2 cluster artifact alongside the reindex.
+
+- **Blog (126 entries): reindexed, 0 errors.** `/related/arrival-room-3` now returns
+  blog slugs at 0.49–0.62 similarity; `"tower earthquake bangkok"` returns the Bangkok
+  travelogue entries; `rerank_score` varies (9/8/7/5) instead of a uniform 5.
+- **Vault (~28,290 chunks): long-running**, ~1.4 chunks/sec (~6h). Idempotent via the
+  post-hash KV check, so it resumes safely. Progress: `workers/.vault-reindex-v5.log`.
+
+### source_type filtering
+
+`CORPUS_VERSION` 4 widened the corpus to the whole vault, so blog-facing surfaces were
+returning `vault:resource:<hash>#chunk-N` ids the frontend cannot link.
+
+| Surface | Scope |
+|---|---|
+| `/related/:slug`, `related_posts` chat tool | `filter: { source_type: 'blog' }` |
+| `/maps` clustering | blog only — filters `vault:` slug prefix |
+| `/search`, `corpus_search` chat tool | whole corpus, deliberately |
+
+> ⚠️ `maps-cluster.ts` uses `getByIds`, not `query()`, so a Vectorize metadata filter
+> does **not** apply there — it filters by slug prefix instead. Filtering also drops its
+> working set from ~28,290 to ~126, back under `MAX_IN_WORKER_SLUGS`, so the in-Worker
+> clustering path works again instead of returning 413.
+
+> ⚠️ Metadata filtering required creating a `source_type` metadata index on
+> `synchronocities-corpus` (done 2026-09-12). **Vectorize only indexes metadata for
+> vectors written after the index exists**, so this had to precede the reindex — getting
+> the order wrong would have meant running the ~6h pass twice.
 
 ## 4. Gaps and risks
 
 | # | Finding | Severity |
 |---|---|---|
-| 1 | `NIM_EMBED_MODEL` is EOL → `/search` 500, `/chat` hangs, reindex impossible; 28,290 vectors orphaned | 🔴 critical |
-| 2 | Local git has **no remote and no history** — one empty "Initial commit", 0 tracked files. All three workflows inert | 🔴 critical |
-| 3 | `/related` and `/maps` return vault chunk ids the frontend cannot resolve to posts | 🟠 high |
-| 4 | No `404.astro`; misses return a bare Cloudflare 404 | 🟡 medium |
-| 5 | Cloudflare Managed robots.txt blocks the AI crawlers the `llms.txt` surfaces are built for | 🟡 medium |
-| 6 | `synchronocities.tryambakam.com` still unusable (GoDaddy NS); any external links to it stay dead | 🟡 medium |
-| 7 | Ops scripts + CI still hardcode `*.workers.dev`, so `workers_dev = true` can't be turned off | 🟡 medium |
-| 8 | No CSP on the site | 🟡 medium |
-| 9 | Queues scaffolded-but-commented since Phase B | 🟢 low |
+| 1 | ~~`NIM_EMBED_MODEL` EOL~~ — **resolved 2026-09-12**, embeddings on Nebius (§3) | ✅ |
+| 2 | ~~Local git detached from origin~~ — **resolved**, reattached and pushed; CI was never actually broken | ✅ |
+| 3 | ~~`/related` and `/maps` return vault chunk ids~~ — **resolved**, `source_type` filtering (§3) | ✅ |
+| 4 | Vault reindex (~28,290 chunks) still running; until it finishes, unfiltered surfaces (`/search`, `/chat`) mix fresh blog vectors with stale vault ones | 🟠 high |
+| 5 | No `404.astro`; misses return a bare Cloudflare 404 | 🟡 medium |
+| 6 | Cloudflare Managed robots.txt blocks the AI crawlers the `llms.txt` surfaces are built for | 🟡 medium |
+| 7 | `synchronocities.tryambakam.com` still unusable (GoDaddy NS); any external links to it stay dead | 🟡 medium |
+| 8 | Ops scripts + CI still hardcode `*.workers.dev`, so `workers_dev = true` can't be turned off | 🟡 medium |
+| 9 | No CSP on the site | 🟡 medium |
+| 10 | `scripts/semantic-vectorizer.py` bands (OK 0.57 / WARN 0.37) were calibrated for e5-v5's cosine distribution and need recalibrating for Qwen3 | 🟡 medium |
+| 11 | Queues scaffolded-but-commented since Phase B | 🟢 low |
 
-**Ordering note:** #2 gates #1. Restoring the embed model without a remote means the daily
-probe still can't warn you the next time a model retires.
+**Standing risk:** this NIM tier lost two of five configured models in seven weeks. The
+daily probe records it; nothing acts on it. A reachability assertion in CI that fails the
+build when a configured model leaves `.reachable-models.txt` would turn a silent outage
+into a red run.
 
 ---
 
