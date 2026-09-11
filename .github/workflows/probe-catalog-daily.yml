@@ -70,8 +70,22 @@ jobs:
           ADMIN_API_KEY: ${{ secrets.ADMIN_API_KEY }}
         run: bun scripts/probe-catalog.ts --concurrency=8
 
+      # The probe has recorded model deaths faithfully since July; nothing compared
+      # that record against what the Worker is configured to call. Two models died
+      # that way — embeddings (EOL 2026-08-25) and rerank — and /search was 500 for
+      # ~2.5 weeks before anyone noticed. This turns that into a red run.
+      #
+      # Runs AFTER the snapshot is refreshed above, so it asserts against today's
+      # reachability, and BEFORE the commit steps so the artifact is still recorded
+      # even when the assertion fails (see `if: always()` on those).
+      - name: Assert configured models are still reachable
+        id: reachable
+        working-directory: workers
+        run: bun scripts/assert-models-reachable.ts
+
       - name: Check for artifact changes
         id: diff
+        if: always()
         run: |
           if git diff --quiet workers/.reachable-models.txt workers/.catalog-probe.json workers/.catalog-probe.md; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -82,7 +96,7 @@ jobs:
           fi
 
       - name: Summarize reachability shift
-        if: steps.diff.outputs.changed == 'true'
+        if: always() && steps.diff.outputs.changed == 'true'
         run: |
           before_count=$(git show HEAD:workers/.reachable-models.txt 2>/dev/null | grep -c . || echo 0)
           after_count=$(grep -c . workers/.reachable-models.txt || echo 0)
@@ -99,7 +113,7 @@ jobs:
                    <(sort workers/.reachable-models.txt) | sed 's/^/  - /'
 
       - name: Commit + push snapshot
-        if: steps.diff.outputs.changed == 'true'
+        if: always() && steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -113,6 +127,7 @@ jobs:
           git push origin HEAD:main
 
       - name: Upload artifact for the run (always)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: catalog-probe-${{ github.run_id }}

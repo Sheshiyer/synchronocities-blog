@@ -182,7 +182,12 @@ async function listAllSlugs(
     }
     for (const key of body.result ?? []) {
       const slug = key.name.replace(prefix, '');
-      if (slug) slugs.push(slug);
+      // Blog only — must stay in lockstep with routes/maps-cluster.ts, which
+      // filters the same way. This script produces the R2 artifact that
+      // GET /maps/cluster actually serves, so if only the Worker route filtered,
+      // /maps would still surface `vault:<type>:<hash>#chunk-N` clusters that the
+      // frontend cannot link. Added 2026-09-12 alongside the route filter.
+      if (slug && !slug.startsWith('vault:')) slugs.push(slug);
     }
     cursor = body.result_info?.cursor ?? null;
     if (slugs.length % 5000 < 1000) {

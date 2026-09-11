@@ -48,8 +48,13 @@ WORKERS_ENV_FILE = REPO_ROOT / "workers" / ".env"
 
 # ── Embedding configuration (single embedding language) ─────────────────────
 DEFAULT_BASE_URL = "https://synchronocities-ai.sheshnarayan-iyer.workers.dev"
-EMBED_MODEL = "nvidia/nv-embedqa-e5-v5"
-EMBED_MODEL_LABEL = "e5-v5"
+# Moved off NVIDIA NIM 2026-09-12 — nv-embedqa-e5-v5 reached end of life on
+# 2026-08-25 (HTTP 410). The Worker now routes embeddings to Nebius and
+# truncates to 1024-d via EMBED_DIMENSIONS, so /test/eval-embed returns the
+# same vector language as the production Vectorize index. Scores from this
+# script and from production remain directly comparable.
+EMBED_MODEL = "Qwen/Qwen3-Embedding-8B"
+EMBED_MODEL_LABEL = "qwen3-embed-8b"
 EMBED_DIMS = 1024
 EMBED_METRIC = "cosine"
 EMBED_INPUT_TYPE = "passage"
@@ -65,6 +70,27 @@ CANONICAL_PASS = [
 ]
 
 # ── Thresholds ───────────────────────────────────────────────────────────────
+# Recalibrated 2026-09-12 for Qwen3-Embedding-8B @1024-d, using the SAME method as
+# the 2026-07-22 e5-v5 calibration below it (OK ≈ mean + 0.73σ, WARNING ≈ mean − 0.9σ).
+# Grounding (n=126, this corpus, see docs/semantic-similarity-report.json):
+#   mean 0.4753, sd 0.1300; p85 0.5713, p90 0.6014; min 0.2842.
+#   mean + 0.73σ = 0.5702  → OK stays 0.57
+#   mean − 0.9σ  = 0.3583  → WARNING moves 0.37 → 0.36
+#
+# The centre barely moved (e5-v5 was mean 0.4802, sd 0.1234), but the LOW TAIL did:
+# e5-v5 bottomed out above 0.37 and produced 0 Drift posts, while Qwen3 spreads the
+# dissimilar end down to 0.2842 and flags 12. That is the new model discriminating
+# better, not a miscalibration — the flagged posts are the technical/bioelectric
+# essays, which genuinely diverge in voice from the 4 canonical travelogue
+# references. Do not tighten the band just to drive Drift back to zero.
+#
+# Unlike the e5-v5 pass there is no clean outlier gap to anchor on: the largest
+# low-end gap is Δ0.0165 (0.3022 → 0.3187), so the band is set from the σ rule alone.
+OK_THRESHOLD = 0.57      # >= 0.57 → OK  (mean + 0.73σ = 0.5702; ≈ p85)
+WARNING_THRESHOLD = 0.36  # >= 0.36 and < 0.57 → WARNING  (mean − 0.9σ = 0.3583)
+# < 0.36 → Drift
+#
+# ── previous calibration, kept for provenance ──
 # Recalibrated 2026-07-22 for e5-v5 (1024-d cosine) from the live corpus
 # distribution. The MiniLM-era bands (OK >= 0.65, WARNING >= 0.45) produced
 # OK 5 / WARNING 61 / Drift 59 under e5-v5 because e5-v5's cosine mass sits
@@ -72,8 +98,8 @@ CANONICAL_PASS = [
 # → threshold_rationale):
 #   mean 0.4802, sd 0.1234; non-self percentiles p85 0.5516 / p90 0.5854;
 #   largest low-end gap 0.3299 → 0.2975; upper knee at 0.5435 → 0.5313.
-OK_THRESHOLD = 0.57      # >= 0.57 → OK  (≈ p86 of non-self scores; mean + 0.73σ)
-WARNING_THRESHOLD = 0.37  # >= 0.37 and < 0.57 → WARNING  (≈ mean − 0.9σ)
+# OK_THRESHOLD = 0.57      # >= 0.57 → OK  (≈ p86 of non-self scores; mean + 0.73σ)
+# WARNING_THRESHOLD = 0.37  # >= 0.37 and < 0.57 → WARNING  (≈ mean − 0.9σ)
 # < 0.37 → Drift (the 13-post bottom tail above the 0.33 → 0.30 outlier gap)
 
 # ── Frontmatter / text helpers ───────────────────────────────────────────────

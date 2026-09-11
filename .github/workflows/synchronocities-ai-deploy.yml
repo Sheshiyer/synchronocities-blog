@@ -86,6 +86,15 @@ jobs:
         if: steps.changes.outputs.workers == 'true'
         working-directory: workers
         run: bun install --frozen-lockfile
+      # Cheap guard: refuse to ship a Worker configured to call a model that left
+      # the NIM catalog. --warn because the snapshot can lag a same-day retirement
+      # and a stale snapshot should not block an unrelated deploy; the daily probe
+      # job is the one that fails hard.
+      - name: Check configured models against the reachability snapshot
+        if: steps.changes.outputs.workers == 'true'
+        working-directory: workers
+        run: bun scripts/assert-models-reachable.ts --warn
+
       - name: Deploy
         id: deploy
         if: steps.changes.outputs.workers == 'true'
