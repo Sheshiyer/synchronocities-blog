@@ -1,8 +1,8 @@
 {
   "base_url": "https://synchronocities-ai.sheshnarayan-iyer.workers.dev",
-  "fetched_at": "2026-09-11T08:23:35.420Z",
-  "catalog_size": 80,
-  "reachable_count": 12,
+  "fetched_at": "2026-09-12T08:12:55.435Z",
+  "catalog_size": 82,
+  "reachable_count": 9,
   "results": [
     {
       "id": "01-ai/yi-large",
@@ -17,7 +17,7 @@
         "family": "Yi Large"
       },
       "reachable": false,
-      "probe_ms": 131,
+      "probe_ms": 167,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '23bd454d-b225-49a3-8118-582a62fc51b8': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -36,7 +36,7 @@
         "family": "Fuyu 8B"
       },
       "reachable": false,
-      "probe_ms": 147,
+      "probe_ms": 137,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'e598bfc1-b058-41af-869d-556d3c7e1b48': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -54,7 +54,7 @@
         "family": "Jamba 1.5"
       },
       "reachable": false,
-      "probe_ms": 143,
+      "probe_ms": 138,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '6497fc2b-7ff8-4019-8946-123dccbfc863': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -72,7 +72,7 @@
         "family": "Sea-Lion"
       },
       "reachable": false,
-      "probe_ms": 140,
+      "probe_ms": 143,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '02f84bf4-c1a1-489b-a9de-ac3e8dcdec14': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -90,7 +90,7 @@
         "family": "StarCoder"
       },
       "reachable": false,
-      "probe_ms": 104,
+      "probe_ms": 33,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: 404 page not found\n"
@@ -108,7 +108,7 @@
         "family": "DBRX"
       },
       "reachable": false,
-      "probe_ms": 140,
+      "probe_ms": 138,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '3d6c2ff8-8bfc-4d10-8fd0-b7337288e869': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -126,7 +126,7 @@
         "family": "DeepSeek Coder"
       },
       "reachable": false,
-      "probe_ms": 135,
+      "probe_ms": 127,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'e503b15c-62b0-4d69-b532-a88f0bfa2656': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -144,7 +144,7 @@
         "family": "DeepSeek V4"
       },
       "reachable": false,
-      "probe_ms": 90002,
+      "probe_ms": 90018,
       "dimensions": null,
       "excerpt": null,
       "error": "The operation was aborted."
@@ -161,11 +161,11 @@
         "context_source": "family-kb",
         "family": "DeepSeek V4"
       },
-      "reachable": false,
-      "probe_ms": 90000,
+      "reachable": true,
+      "probe_ms": 12290,
       "dimensions": null,
-      "excerpt": null,
-      "error": "The operation was aborted."
+      "excerpt": "ack",
+      "error": null
     },
     {
       "id": "google/codegemma-1.1-7b",
@@ -180,7 +180,7 @@
         "family": "CodeGemma"
       },
       "reachable": false,
-      "probe_ms": 152,
+      "probe_ms": 64,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'e2d298c5-204e-4213-b921-9f492cc9011b': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -198,7 +198,7 @@
         "family": "CodeGemma"
       },
       "reachable": false,
-      "probe_ms": 113,
+      "probe_ms": 66,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '7dfc10a8-3cc4-448e-97c1-2213308dc222': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -217,7 +217,7 @@
         "family": "DePlot"
       },
       "reachable": false,
-      "probe_ms": 104,
+      "probe_ms": 107,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '784a8ca4-ea7d-4c93-bb46-ec027c3fae47': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -235,10 +235,10 @@
         "family": "Gemma 2"
       },
       "reachable": false,
-      "probe_ms": 4499,
+      "probe_ms": 90001,
       "dimensions": null,
       "excerpt": null,
-      "error": "unknown"
+      "error": "The operation was aborted."
     },
     {
       "id": "google/gemma-2b",
@@ -253,7 +253,7 @@
         "family": "Gemma 2"
       },
       "reachable": false,
-      "probe_ms": 110,
+      "probe_ms": 60,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '04174188-f742-4069-9e72-d77c2b77d3cb': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -271,7 +271,7 @@
         "family": "Gemma 3"
       },
       "reachable": false,
-      "probe_ms": 107,
+      "probe_ms": 65,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ee47df99-c92b-4dc9-b3a7-f3fb0f087b73': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -289,7 +289,7 @@
         "family": "Gemma 3"
       },
       "reachable": false,
-      "probe_ms": 64,
+      "probe_ms": 69,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'c322f327-55a3-4af3-a91f-c757e2b8b135': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -325,7 +325,7 @@
         "family": "Gemma 2"
       },
       "reachable": false,
-      "probe_ms": 62,
+      "probe_ms": 59,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '2f495340-a99f-4b4b-89bd-1beb003dd896': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -343,7 +343,7 @@
         "family": "Granite 3"
       },
       "reachable": false,
-      "probe_ms": 72,
+      "probe_ms": 61,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '67324577-3f91-4aa6-b750-97468262530d': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -361,7 +361,7 @@
         "family": "Granite 3"
       },
       "reachable": false,
-      "probe_ms": 113,
+      "probe_ms": 62,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '5a24a4f0-2d59-46b3-ac65-42307f2633d1': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -379,7 +379,7 @@
         "family": "Granite 3"
       },
       "reachable": false,
-      "probe_ms": 61,
+      "probe_ms": 53,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '4df48b4f-e3c5-4ade-82c7-c06b65e25d18': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -397,7 +397,7 @@
         "family": "Granite Code"
       },
       "reachable": false,
-      "probe_ms": 51,
+      "probe_ms": 61,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'af7b6f03-f615-4c5f-86c6-388bd35cede0': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -415,7 +415,7 @@
         "family": "CodeLlama"
       },
       "reachable": false,
-      "probe_ms": 112,
+      "probe_ms": 93,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'f6b06895-d073-4714-8bb2-26c09e9f6597': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -434,7 +434,7 @@
         "family": "Llama 3.x"
       },
       "reachable": true,
-      "probe_ms": 488,
+      "probe_ms": 3098,
       "dimensions": null,
       "excerpt": "ack",
       "error": null
@@ -489,7 +489,7 @@
         "family": "Llama 2"
       },
       "reachable": false,
-      "probe_ms": 57,
+      "probe_ms": 62,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '2fddadfb-7e76-4c8a-9b82-f7d3fab94471': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -507,7 +507,7 @@
         "family": "meta"
       },
       "reachable": false,
-      "probe_ms": 4725,
+      "probe_ms": 3972,
       "dimensions": null,
       "excerpt": null,
       "error": "unknown"
@@ -526,7 +526,7 @@
         "family": "Kosmos"
       },
       "reachable": false,
-      "probe_ms": 116,
+      "probe_ms": 64,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '6018fed7-f227-48dc-99bc-3fd4264d5037': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -545,7 +545,7 @@
         "family": "Phi 3 Vision"
       },
       "reachable": false,
-      "probe_ms": 58,
+      "probe_ms": 56,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '20f2537e-8593-4eb9-ad40-60eee3bbaa55': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -581,7 +581,7 @@
         "family": "Codestral"
       },
       "reachable": false,
-      "probe_ms": 59,
+      "probe_ms": 61,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '9a10b012-e6df-46fd-83b2-700dcbc75814': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -599,7 +599,7 @@
         "family": "Mistral 7B"
       },
       "reachable": false,
-      "probe_ms": 57,
+      "probe_ms": 62,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'cd89bd68-13e3-47a9-861e-9a62e6e14b05': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -617,7 +617,7 @@
         "family": "Mistral Large"
       },
       "reachable": false,
-      "probe_ms": 63,
+      "probe_ms": 70,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '767b5b9a-3f9d-4c1d-86e8-fa861988cee7': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -635,7 +635,7 @@
         "family": "Mistral Large"
       },
       "reachable": false,
-      "probe_ms": 110,
+      "probe_ms": 61,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '7fadd4de-e22a-48e4-90e9-f02ef14a74b9': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -652,11 +652,11 @@
         "context_source": "family-kb",
         "family": "Nemotron"
       },
-      "reachable": true,
-      "probe_ms": 5675,
+      "reachable": false,
+      "probe_ms": 90001,
       "dimensions": null,
-      "excerpt": "ack",
-      "error": null
+      "excerpt": null,
+      "error": "The operation was aborted."
     },
     {
       "id": "mistralai/mixtral-8x22b-v0.1",
@@ -671,7 +671,7 @@
         "family": "Mixtral 8x22B"
       },
       "reachable": false,
-      "probe_ms": 53,
+      "probe_ms": 56,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '39655fc1-9ebc-4b24-963e-6915ea6680de': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -707,10 +707,10 @@
         "family": "moonshotai"
       },
       "reachable": false,
-      "probe_ms": 86276,
+      "probe_ms": 90000,
       "dimensions": null,
       "excerpt": null,
-      "error": "unknown"
+      "error": "The operation was aborted."
     },
     {
       "id": "nv-mistralai/mistral-nemo-12b-instruct",
@@ -725,7 +725,7 @@
         "family": "Mistral Nemo"
       },
       "reachable": false,
-      "probe_ms": 60,
+      "probe_ms": 53,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'f8c05193-d2e2-4f0f-bb4d-7ad70070002b': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -744,7 +744,7 @@
         "family": "nvidia"
       },
       "reachable": false,
-      "probe_ms": 4736,
+      "probe_ms": 4525,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 500: {\"type\":\"urn:nvcf-worker-service:problem-details:internal-server-error\",\"title\":\"Internal Server Error\",\"status\":500,\"detail\":\"Internal error while making inference request\"}"
@@ -780,10 +780,10 @@
         "family": "nvidia"
       },
       "reachable": false,
-      "probe_ms": 54,
+      "probe_ms": 746,
       "dimensions": null,
       "excerpt": null,
-      "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '09c64e32-2b65-4892-a285-2f585408d118': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
+      "error": "NIM 404: {\"detail\":\"The model `nvidia/embed-qa-4` does not exist.\"}"
     },
     {
       "id": "nvidia/ising-calibration-1.5-31b",
@@ -798,7 +798,7 @@
         "family": "nvidia"
       },
       "reachable": true,
-      "probe_ms": 653,
+      "probe_ms": 438,
       "dimensions": null,
       "excerpt": "ack",
       "error": null
@@ -815,11 +815,11 @@
         "context_source": "family-kb",
         "family": "Llama 3.x"
       },
-      "reachable": true,
-      "probe_ms": 323,
+      "reachable": false,
+      "probe_ms": 90003,
       "dimensions": null,
-      "excerpt": "{\"User Safety\": \"safe\"} ",
-      "error": null
+      "excerpt": null,
+      "error": "The operation was aborted."
     },
     {
       "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
@@ -834,10 +834,10 @@
         "family": "Llama 3.x"
       },
       "reachable": false,
-      "probe_ms": 4978,
+      "probe_ms": 4572,
       "dimensions": null,
       "excerpt": null,
-      "error": "NIM 500: {\"error\":\"Error during inference of request chat-c81a7147cb5c46379e5245008b65b6b4 -- Encountered an error in forwardAsync function: [TensorRT-LLM][ERROR] CUDA runtime error in cudaMemcpyAsync"
+      "error": "NIM 500: {\"error\":\"Error during inference of request chat-552c161ab7d747efaa0af96d92822f7f -- Encountered an error in forwardAsync function: [TensorRT-LLM][ERROR] CUDA runtime error in cudaMemcpyAsync"
     },
     {
       "id": "nvidia/llama-3.1-nemotron-51b-instruct",
@@ -852,7 +852,7 @@
         "family": "Llama 3.x Nemotron"
       },
       "reachable": false,
-      "probe_ms": 61,
+      "probe_ms": 122,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '5beba52c-65a9-4f46-8cd9-656689a1b205': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -870,7 +870,7 @@
         "family": "Llama 3.x Nemotron"
       },
       "reachable": false,
-      "probe_ms": 56,
+      "probe_ms": 134,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '9b96341b-9791-4db9-a00d-4e43aa192a39': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -888,7 +888,7 @@
         "family": "Llama 3.x Nemotron"
       },
       "reachable": true,
-      "probe_ms": 403,
+      "probe_ms": 374,
       "dimensions": null,
       "excerpt": "{\"User Safety\": \"safe\"} ",
       "error": null
@@ -906,7 +906,7 @@
         "family": "Llama 3.x Nemotron"
       },
       "reachable": false,
-      "probe_ms": 58,
+      "probe_ms": 70,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '84bf12ff-edbd-4435-baea-0fa6a7453d2e': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -924,10 +924,10 @@
         "family": "Llama 3.x"
       },
       "reachable": false,
-      "probe_ms": 57,
+      "probe_ms": 574,
       "dimensions": null,
       "excerpt": null,
-      "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '6cb5bc77-9adc-48ac-85e2-c0ebceda934f': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
+      "error": "NIM 404: {\"detail\":\"The model `nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1` does not exist.\"}"
     },
     {
       "id": "nvidia/llama-3.2-nv-embedqa-1b-v1",
@@ -942,10 +942,10 @@
         "family": "Llama 3.x"
       },
       "reachable": false,
-      "probe_ms": 56,
+      "probe_ms": 224,
       "dimensions": null,
       "excerpt": null,
-      "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'b51e8011-e772-4c9a-8b02-618e99ae4467': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
+      "error": "NIM 404: {\"detail\":\"The model `nvidia/llama-3.2-nv-embedqa-1b-v1` does not exist.\"}"
     },
     {
       "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
@@ -959,11 +959,11 @@
         "context_source": "family-kb",
         "family": "Nemotron"
       },
-      "reachable": true,
-      "probe_ms": 535,
-      "dimensions": 2048,
+      "reachable": false,
+      "probe_ms": 499,
+      "dimensions": null,
       "excerpt": null,
-      "error": null
+      "error": "NIM 404: {\"detail\":\"The model `nvidia/llama-nemotron-embed-vl-1b-v2` does not exist.\"}"
     },
     {
       "id": "nvidia/llama3-chatqa-1.5-70b",
@@ -978,7 +978,7 @@
         "family": "Llama 3"
       },
       "reachable": false,
-      "probe_ms": 58,
+      "probe_ms": 65,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '46594287-38b9-481c-a37f-baa02f2d3ba1': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -996,7 +996,7 @@
         "family": "Mistral Nemo"
       },
       "reachable": false,
-      "probe_ms": 56,
+      "probe_ms": 98,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '5aa06dd2-0a02-4a5d-be4c-bf88e956965d': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -1013,11 +1013,11 @@
         "context_source": "family-kb",
         "family": "Nemotron 3"
       },
-      "reachable": true,
-      "probe_ms": 377,
-      "dimensions": 2048,
+      "reachable": false,
+      "probe_ms": 291,
+      "dimensions": null,
       "excerpt": null,
-      "error": null
+      "error": "NIM 404: {\"detail\":\"The model `nvidia/nemotron-3-embed-1b` does not exist.\"}"
     },
     {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
@@ -1034,7 +1034,7 @@
         "family": "Nemotron 3"
       },
       "reachable": true,
-      "probe_ms": 955,
+      "probe_ms": 1170,
       "dimensions": null,
       "excerpt": "ack",
       "error": null
@@ -1052,9 +1052,9 @@
         "family": "Nemotron 3"
       },
       "reachable": true,
-      "probe_ms": 1403,
+      "probe_ms": 918,
       "dimensions": null,
-      "excerpt": "We need to reply with the single word \"ack\". No extra text. So",
+      "excerpt": "The user says: \"Reply with the single word: ack\". So we",
       "error": null
     },
     {
@@ -1070,7 +1070,7 @@
         "family": "Nemotron 3"
       },
       "reachable": true,
-      "probe_ms": 6037,
+      "probe_ms": 38365,
       "dimensions": null,
       "excerpt": "ack",
       "error": null
@@ -1088,7 +1088,7 @@
         "family": "Nemotron 3"
       },
       "reachable": true,
-      "probe_ms": 2213,
+      "probe_ms": 157,
       "dimensions": null,
       "excerpt": "User Safety: safe",
       "error": null
@@ -1106,7 +1106,7 @@
         "family": "Nemotron 3"
       },
       "reachable": true,
-      "probe_ms": 2639,
+      "probe_ms": 565,
       "dimensions": null,
       "excerpt": "Here's a thinking process:\n\n1.  **Analyze User Input:** The",
       "error": null
@@ -1124,7 +1124,7 @@
         "family": "Nemotron 4 340B"
       },
       "reachable": false,
-      "probe_ms": 66,
+      "probe_ms": 57,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'b0fcd392-e905-4ab4-8eb9-aeae95c30b37': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -1142,7 +1142,7 @@
         "family": "Nemotron 4 340B"
       },
       "reachable": false,
-      "probe_ms": 61,
+      "probe_ms": 59,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'c53ee0e9-bad9-4e09-b365-52c9d6b71254': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -1160,7 +1160,7 @@
         "family": "Nemotron"
       },
       "reachable": false,
-      "probe_ms": 61,
+      "probe_ms": 48,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '2b2dcd47-c858-425a-9c04-4cacf2eac993': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -1179,10 +1179,29 @@
         "family": "Nemotron"
       },
       "reachable": false,
-      "probe_ms": 720,
+      "probe_ms": 132,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 400: {\"object\":\"error\",\"message\":\"Content cannot be a plain string. The model does not support text input. Content cannot be a plain string. The model does not support text input.\",\"type\":\"BadRequ"
+    },
+    {
+      "id": "nvidia/nemotron-parse-2.0",
+      "classification": {
+        "kind": "parser",
+        "modalities": [
+          "text-in",
+          "text-out",
+          "image-in"
+        ],
+        "context_window": 128000,
+        "context_source": "family-kb",
+        "family": "Nemotron"
+      },
+      "reachable": false,
+      "probe_ms": 178,
+      "dimensions": null,
+      "excerpt": null,
+      "error": "unknown"
     },
     {
       "id": "nvidia/neva-22b",
@@ -1198,7 +1217,7 @@
         "family": "NeVA"
       },
       "reachable": false,
-      "probe_ms": 59,
+      "probe_ms": 51,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'bc205f8e-1740-40df-8d32-c4321763498a': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -1216,10 +1235,10 @@
         "family": "NV EmbedQA"
       },
       "reachable": false,
-      "probe_ms": 58,
+      "probe_ms": 142,
       "dimensions": null,
       "excerpt": null,
-      "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '6caf65cf-1c3a-4823-89a5-21b821640d99': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
+      "error": "NIM 404: {\"detail\":\"The model `nvidia/nv-embedqa-mistral-7b-v2` does not exist.\"}"
     },
     {
       "id": "nvidia/nvclip",
@@ -1235,7 +1254,7 @@
         "family": "NV CLIP"
       },
       "reachable": false,
-      "probe_ms": 31,
+      "probe_ms": 27,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: 404 page not found\n"
@@ -1311,7 +1330,7 @@
         "family": "VILA"
       },
       "reachable": false,
-      "probe_ms": 61,
+      "probe_ms": 59,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '1c8df143-2303-419b-8b28-b4dd82cfe113': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -1329,7 +1348,7 @@
         "family": "GPT-OSS 20B"
       },
       "reachable": false,
-      "probe_ms": 3112,
+      "probe_ms": 2237,
       "dimensions": null,
       "excerpt": null,
       "error": "unknown"
@@ -1347,10 +1366,10 @@
         "family": "poolside"
       },
       "reachable": false,
-      "probe_ms": 90007,
+      "probe_ms": 4615,
       "dimensions": null,
       "excerpt": null,
-      "error": "The operation was aborted."
+      "error": "NIM 503: {\"error\":{\"message\":\"ResourceExhausted: Worker local total request limit reached (297/32)\",\"type\":\"Service Unavailable\",\"code\":503}}"
     },
     {
       "id": "snowflake/arctic-embed-l",
@@ -1365,10 +1384,10 @@
         "family": "Snowflake Arctic Embed"
       },
       "reachable": false,
-      "probe_ms": 59,
+      "probe_ms": 545,
       "dimensions": null,
       "excerpt": null,
-      "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '1528a0ad-205a-46ac-a783-94e2372586a9': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
+      "error": "NIM 404: {\"detail\":\"The model `snowflake/arctic-embed-l` does not exist.\"}"
     },
     {
       "id": "writer/palmyra-creative-122b",
@@ -1383,7 +1402,7 @@
         "family": "Palmyra"
       },
       "reachable": false,
-      "probe_ms": 62,
+      "probe_ms": 46,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '00bdd0a7-e38f-4423-9007-c4d8730a3f78': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -1401,7 +1420,7 @@
         "family": "Palmyra"
       },
       "reachable": false,
-      "probe_ms": 61,
+      "probe_ms": 49,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '316490c6-f1ed-41f9-9da8-3fa9e885653b': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -1419,7 +1438,7 @@
         "family": "Palmyra"
       },
       "reachable": false,
-      "probe_ms": 61,
+      "probe_ms": 48,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'aab71274-5281-4941-b0b8-20f339d1fc7e': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
@@ -1437,10 +1456,28 @@
         "family": "Palmyra"
       },
       "reachable": false,
-      "probe_ms": 60,
+      "probe_ms": 49,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'd6faa974-3591-49a4-963d-97221d074b2e': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "classification": {
+        "kind": "chat",
+        "modalities": [
+          "text-in",
+          "text-out"
+        ],
+        "context_window": null,
+        "context_source": "unknown",
+        "family": "z-ai"
+      },
+      "reachable": false,
+      "probe_ms": 558,
+      "dimensions": null,
+      "excerpt": null,
+      "error": "unknown"
     },
     {
       "id": "zyphra/zamba2-7b-instruct",
@@ -1455,7 +1492,7 @@
         "family": "Zamba"
       },
       "reachable": false,
-      "probe_ms": 63,
+      "probe_ms": 52,
       "dimensions": null,
       "excerpt": null,
       "error": "NIM 404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function '8378ffb2-51b0-4140-9684-dda1889373e6': Not found for account '8F6PphTNBR2wwYoObwfTYqwFQXyt9IYyIhiDV8yamZg'\"}"
