@@ -1,21 +1,13 @@
 {
   "report_type": "ci_audit",
   "total_posts": 126,
-  "pass_count": 27,
-  "warn_count": 99,
+  "pass_count": 40,
+  "warn_count": 86,
   "fail_count": 0,
   "top_avoid_signatures": [
     {
-      "term": "path",
-      "count": 73
-    },
-    {
-      "term": "ai ",
-      "count": 21
-    },
-    {
       "term": "vibration",
-      "count": 15
+      "count": 13
     },
     {
       "term": "optimization",
@@ -24,20 +16,28 @@
     {
       "term": "healing",
       "count": 7
+    },
+    {
+      "term": "ai ",
+      "count": 7
+    },
+    {
+      "term": "truth",
+      "count": 5
     }
   ],
   "top_emergent_signatures": [
     {
       "term": "energy",
-      "count": 90
+      "count": 86
     },
     {
       "term": "quantum",
-      "count": 15
+      "count": 14
     },
     {
       "term": "vibration",
-      "count": 15
+      "count": 13
     },
     {
       "term": "optimization",
@@ -185,7 +185,7 @@
     {
       "post": "72-hour-state-trace-protocol.md",
       "overall": "WARNING",
-      "severity_score": 61,
+      "severity_score": 65,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
@@ -197,17 +197,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 2
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -1104,7 +1099,7 @@
     {
       "post": "bhava-aspects-neural-networks.md",
       "overall": "WARNING",
-      "severity_score": 54,
+      "severity_score": 56,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -1116,14 +1111,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 60,
+          "score": 75,
           "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "optimization",
               1
@@ -1135,7 +1126,7 @@
               1
             ]
           ],
-          "total_violations": 3
+          "total_violations": 2
         },
         "voice": {
           "score": 85,
@@ -1413,7 +1404,7 @@
     {
       "post": "bioelectric-pattern-framework.md",
       "overall": "PASS",
-      "severity_score": 89,
+      "severity_score": 91,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -1425,17 +1416,12 @@
           "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -1620,8 +1606,8 @@
     },
     {
       "post": "bioelectric-protocol.md",
-      "overall": "WARNING",
-      "severity_score": 74,
+      "overall": "PASS",
+      "severity_score": 84,
       "dimensions": {
         "kha_ba_la": {
           "score": 75,
@@ -1633,22 +1619,17 @@
           "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 15,
-          "verdict": "FAIL",
+          "score": 90,
+          "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              5
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "energy",
               1
             ]
           ],
-          "total_violations": 6
+          "total_violations": 1
         },
         "voice": {
           "score": 100,
@@ -1978,7 +1959,7 @@
     {
       "post": "celestial-patterns-meteor-enneagram.md",
       "overall": "WARNING",
-      "severity_score": 69,
+      "severity_score": 74,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -1990,22 +1971,17 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 50,
-          "verdict": "FAIL",
+          "score": 80,
+          "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "energy",
               2
             ]
           ],
-          "total_violations": 4
+          "total_violations": 2
         },
         "voice": {
           "score": 100,
@@ -2857,7 +2833,7 @@
     {
       "post": "consciousness-legacy-code.md",
       "overall": "WARNING",
-      "severity_score": 50,
+      "severity_score": 51,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -2869,7 +2845,7 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 80,
+          "score": 90,
           "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [],
@@ -2877,13 +2853,9 @@
             [
               "energy",
               1
-            ],
-            [
-              "quantum",
-              1
             ]
           ],
-          "total_violations": 2
+          "total_violations": 1
         },
         "voice": {
           "score": 80,
@@ -3083,7 +3055,7 @@
     {
       "post": "death-at-the-border.md",
       "overall": "PASS",
-      "severity_score": 88,
+      "severity_score": 90,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -3095,17 +3067,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -3392,7 +3359,7 @@
     {
       "post": "docker-for-chakras.md",
       "overall": "WARNING",
-      "severity_score": 64,
+      "severity_score": 69,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
@@ -3404,22 +3371,17 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 40,
-          "verdict": "FAIL",
+          "score": 70,
+          "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "energy",
               3
             ]
           ],
-          "total_violations": 5
+          "total_violations": 3
         },
         "voice": {
           "score": 81,
@@ -3554,7 +3516,7 @@
     {
       "post": "endocrine-constellation-patterns.md",
       "overall": "WARNING",
-      "severity_score": 58,
+      "severity_score": 60,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -3566,17 +3528,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -3817,7 +3774,7 @@
     {
       "post": "endocrine-muse-integration.md",
       "overall": "WARNING",
-      "severity_score": 55,
+      "severity_score": 57,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -3829,14 +3786,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 50,
-          "verdict": "FAIL",
+          "score": 65,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "healing",
               1
@@ -3852,7 +3805,7 @@
               1
             ]
           ],
-          "total_violations": 4
+          "total_violations": 3
         },
         "voice": {
           "score": 100,
@@ -4798,7 +4751,7 @@
     {
       "post": "fungal-intelligence-distributed-processing.md",
       "overall": "PASS",
-      "severity_score": 77,
+      "severity_score": 79,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
@@ -4810,17 +4763,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -6094,7 +6042,7 @@
     {
       "post": "judgement-recollection-in-pai.md",
       "overall": "WARNING",
-      "severity_score": 37,
+      "severity_score": 44,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -6106,21 +6054,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 55,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ],
-            [
-              "ai ",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 3
+          "total_violations": 0
         },
         "voice": {
           "score": 60,
@@ -6174,7 +6113,7 @@
     {
       "post": "kha-ba-la-operational-compass.md",
       "overall": "WARNING",
-      "severity_score": 79,
+      "severity_score": 81,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -6186,21 +6125,17 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
+          "score": 85,
           "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "community",
               1
             ]
           ],
           "emergent_matches": [],
-          "total_violations": 2
+          "total_violations": 1
         },
         "voice": {
           "score": 100,
@@ -6345,7 +6280,7 @@
     {
       "post": "kubernetes-for-karma.md",
       "overall": "PASS",
-      "severity_score": 81,
+      "severity_score": 86,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -6357,17 +6292,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 2
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -7262,7 +7192,7 @@
     {
       "post": "magnetic-substrate.md",
       "overall": "PASS",
-      "severity_score": 79,
+      "severity_score": 83,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -7274,17 +7204,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 2
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -7476,10 +7401,6 @@
           "critical_matches": [],
           "standard_matches": [
             [
-              "path",
-              1
-            ],
-            [
               "vibration",
               7
             ]
@@ -7490,7 +7411,7 @@
               7
             ]
           ],
-          "total_violations": 15
+          "total_violations": 14
         },
         "voice": {
           "score": 100,
@@ -7667,8 +7588,8 @@
     },
     {
       "post": "master-synthesis.md",
-      "overall": "WARNING",
-      "severity_score": 80,
+      "overall": "PASS",
+      "severity_score": 89,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -7680,17 +7601,12 @@
           "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 40,
-          "verdict": "FAIL",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "ai ",
-              4
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 4
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -8079,8 +7995,8 @@
     },
     {
       "post": "model-temperature-and-tapas.md",
-      "overall": "WARNING",
-      "severity_score": 74,
+      "overall": "PASS",
+      "severity_score": 81,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
@@ -8092,30 +8008,17 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 35,
-          "verdict": "FAIL",
+          "score": 90,
+          "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ],
-            [
-              "truth",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
-            [
-              "truth",
-              1
-            ],
             [
               "energy",
               1
             ]
           ],
-          "total_violations": 5
+          "total_violations": 1
         },
         "voice": {
           "score": 100,
@@ -8280,7 +8183,7 @@
     {
       "post": "morphic-resonance-network-protocol.md",
       "overall": "WARNING",
-      "severity_score": 63,
+      "severity_score": 65,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -8292,15 +8195,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 65,
+          "score": 80,
           "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "energy",
@@ -8311,7 +8209,7 @@
               1
             ]
           ],
-          "total_violations": 3
+          "total_violations": 2
         },
         "voice": {
           "score": 85,
@@ -8419,7 +8317,7 @@
     {
       "post": "muse-enneagram-framework-overview.md",
       "overall": "WARNING",
-      "severity_score": 54,
+      "severity_score": 56,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -8431,14 +8329,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 60,
+          "score": 75,
           "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "healing",
               1
@@ -8450,7 +8344,7 @@
               1
             ]
           ],
-          "total_violations": 3
+          "total_violations": 2
         },
         "voice": {
           "score": 100,
@@ -8558,7 +8452,7 @@
     {
       "post": "muse-enneagram-matrix.md",
       "overall": "PASS",
-      "severity_score": 86,
+      "severity_score": 89,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -8570,17 +8464,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -8742,7 +8631,7 @@
     {
       "post": "nadi-bioimpedance-protocol.md",
       "overall": "WARNING",
-      "severity_score": 47,
+      "severity_score": 49,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -8754,14 +8643,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 0,
+          "score": 20,
           "verdict": "FAIL",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              10
-            ],
             [
               "healing",
               2
@@ -8777,7 +8662,7 @@
               3
             ]
           ],
-          "total_violations": 17
+          "total_violations": 7
         },
         "voice": {
           "score": 70,
@@ -9235,10 +9120,6 @@
           "critical_matches": [],
           "standard_matches": [
             [
-              "path",
-              1
-            ],
-            [
               "vibration",
               3
             ]
@@ -9257,7 +9138,7 @@
               2
             ]
           ],
-          "total_violations": 11
+          "total_violations": 10
         },
         "voice": {
           "score": 100,
@@ -9508,7 +9389,7 @@
     {
       "post": "pattern-cross-reference-system.md",
       "overall": "WARNING",
-      "severity_score": 67,
+      "severity_score": 69,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -9520,14 +9401,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 60,
+          "score": 75,
           "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "optimization",
               1
@@ -9539,7 +9416,7 @@
               1
             ]
           ],
-          "total_violations": 3
+          "total_violations": 2
         },
         "voice": {
           "score": 100,
@@ -9672,8 +9549,8 @@
     },
     {
       "post": "pattern-recognition-is-a-method.md",
-      "overall": "WARNING",
-      "severity_score": 71,
+      "overall": "PASS",
+      "severity_score": 76,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
@@ -9685,17 +9562,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 2
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -9984,8 +9856,8 @@
     },
     {
       "post": "ports-of-call.md",
-      "overall": "WARNING",
-      "severity_score": 81,
+      "overall": "PASS",
+      "severity_score": 83,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -9997,14 +9869,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 45,
-          "verdict": "FAIL",
+          "score": 60,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "higher self",
               1
@@ -10020,7 +9888,7 @@
               1
             ]
           ],
-          "total_violations": 4
+          "total_violations": 3
         },
         "voice": {
           "score": 100,
@@ -10385,7 +10253,7 @@
     {
       "post": "reality-compile-ancient-source.md",
       "overall": "WARNING",
-      "severity_score": 49,
+      "severity_score": 51,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -10397,14 +10265,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 25,
+          "score": 40,
           "verdict": "FAIL",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "optimization",
               2
@@ -10420,7 +10284,7 @@
               1
             ]
           ],
-          "total_violations": 6
+          "total_violations": 5
         },
         "voice": {
           "score": 64,
@@ -10512,8 +10376,8 @@
     },
     {
       "post": "repetition-is-architecture.md",
-      "overall": "WARNING",
-      "severity_score": 72,
+      "overall": "PASS",
+      "severity_score": 74,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -10525,17 +10389,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "ai ",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -10630,7 +10489,7 @@
     {
       "post": "reptilian-bios-architecture.md",
       "overall": "WARNING",
-      "severity_score": 50,
+      "severity_score": 52,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -10642,17 +10501,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 53,
@@ -10743,8 +10597,8 @@
     },
     {
       "post": "root-access-to-reality.md",
-      "overall": "WARNING",
-      "severity_score": 71,
+      "overall": "PASS",
+      "severity_score": 77,
       "dimensions": {
         "kha_ba_la": {
           "score": 40,
@@ -10756,17 +10610,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 55,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              3
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 3
+          "total_violations": 0
         },
         "voice": {
           "score": 98,
@@ -11454,8 +11303,8 @@
     },
     {
       "post": "sacred-runtime-bali-padiyami.md",
-      "overall": "WARNING",
-      "severity_score": 79,
+      "overall": "PASS",
+      "severity_score": 80,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -11467,17 +11316,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 90,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
           "standard_matches": [],
-          "emergent_matches": [
-            [
-              "energy",
-              1
-            ]
-          ],
-          "total_violations": 1
+          "emergent_matches": [],
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -11972,7 +11816,7 @@
     {
       "post": "shadbala-tensor-field-theory.md",
       "overall": "WARNING",
-      "severity_score": 77,
+      "severity_score": 81,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -11984,22 +11828,17 @@
           "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 60,
+          "score": 90,
           "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "energy",
               1
             ]
           ],
-          "total_violations": 3
+          "total_violations": 1
         },
         "voice": {
           "score": 100,
@@ -12117,7 +11956,7 @@
     {
       "post": "signal-state-story-debug-edition.md",
       "overall": "WARNING",
-      "severity_score": 64,
+      "severity_score": 69,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
@@ -12129,14 +11968,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 45,
-          "verdict": "FAIL",
+          "score": 75,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              2
-            ],
             [
               "vibration",
               1
@@ -12148,7 +11983,7 @@
               1
             ]
           ],
-          "total_violations": 4
+          "total_violations": 2
         },
         "voice": {
           "score": 100,
@@ -12268,8 +12103,8 @@
     },
     {
       "post": "sixteen-engines-one-purpose.md",
-      "overall": "WARNING",
-      "severity_score": 74,
+      "overall": "PASS",
+      "severity_score": 80,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -12281,28 +12116,16 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 25,
-          "verdict": "FAIL",
+          "score": 65,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
-            [
-              "vibration",
-              1
-            ],
             [
               "truth",
               1
             ]
           ],
           "emergent_matches": [
-            [
-              "vibration",
-              1
-            ],
             [
               "truth",
               1
@@ -12312,7 +12135,7 @@
               1
             ]
           ],
-          "total_violations": 6
+          "total_violations": 3
         },
         "voice": {
           "score": 100,
@@ -12649,7 +12472,7 @@
     {
       "post": "spolski-endocrine-framework.md",
       "overall": "WARNING",
-      "severity_score": 61,
+      "severity_score": 64,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -12661,14 +12484,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 50,
-          "verdict": "FAIL",
+          "score": 65,
+          "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "healing",
               1
@@ -12684,7 +12503,7 @@
               1
             ]
           ],
-          "total_violations": 4
+          "total_violations": 3
         },
         "voice": {
           "score": 100,
@@ -13050,7 +12869,7 @@
     {
       "post": "tarot-major-arcana-journal.md",
       "overall": "WARNING",
-      "severity_score": 66,
+      "severity_score": 73,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -13062,22 +12881,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 50,
-          "verdict": "FAIL",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "journey",
-              2
-            ]
-          ],
-          "emergent_matches": [
-            [
-              "journey",
-              2
-            ]
-          ],
-          "total_violations": 4
+          "standard_matches": [],
+          "emergent_matches": [],
+          "total_violations": 0
         },
         "voice": {
           "score": 82,
@@ -13234,7 +13043,7 @@
     {
       "post": "temperance-compresses-to-essence.md",
       "overall": "WARNING",
-      "severity_score": 40,
+      "severity_score": 44,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -13246,17 +13055,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "ai ",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 2
+          "total_violations": 0
         },
         "voice": {
           "score": 50,
@@ -13310,7 +13114,7 @@
     {
       "post": "temperature-consciousness.md",
       "overall": "PASS",
-      "severity_score": 86,
+      "severity_score": 89,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -13322,22 +13126,17 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 75,
+          "score": 90,
           "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "ai ",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "energy",
               1
             ]
           ],
-          "total_violations": 2
+          "total_violations": 1
         },
         "voice": {
           "score": 100,
@@ -14498,7 +14297,7 @@
     {
       "post": "the-ineffable-secrets-of-a-breathing-sprite.md",
       "overall": "WARNING",
-      "severity_score": 74,
+      "severity_score": 76,
       "dimensions": {
         "kha_ba_la": {
           "score": 60,
@@ -14510,22 +14309,17 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 75,
+          "score": 90,
           "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "quantum",
               1
             ]
           ],
-          "total_violations": 2
+          "total_violations": 1
         },
         "voice": {
           "score": 63,
@@ -14809,7 +14603,7 @@
     {
       "post": "the-sacred-runtime.md",
       "overall": "WARNING",
-      "severity_score": 62,
+      "severity_score": 64,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -14821,17 +14615,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 92,
@@ -14966,8 +14755,8 @@
     },
     {
       "post": "the-seventh-floor.md",
-      "overall": "WARNING",
-      "severity_score": 76,
+      "overall": "PASS",
+      "severity_score": 84,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -14979,22 +14768,17 @@
           "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 30,
-          "verdict": "FAIL",
+          "score": 90,
+          "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "ai ",
-              4
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "quantum",
               1
             ]
           ],
-          "total_violations": 5
+          "total_violations": 1
         },
         "voice": {
           "score": 100,
@@ -15148,8 +14932,8 @@
     },
     {
       "post": "the-source-code-has-authors.md",
-      "overall": "WARNING",
-      "severity_score": 82,
+      "overall": "PASS",
+      "severity_score": 91,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -15161,22 +14945,17 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 30,
-          "verdict": "FAIL",
+          "score": 90,
+          "verdict": "WARNING",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              4
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [
             [
               "energy",
               1
             ]
           ],
-          "total_violations": 5
+          "total_violations": 1
         },
         "voice": {
           "score": 100,
@@ -15984,7 +15763,7 @@
     {
       "post": "the-word-as-code.md",
       "overall": "PASS",
-      "severity_score": 87,
+      "severity_score": 91,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -15996,22 +15775,12 @@
           "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 75,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "vibration",
-              1
-            ]
-          ],
-          "emergent_matches": [
-            [
-              "vibration",
-              1
-            ]
-          ],
-          "total_violations": 2
+          "standard_matches": [],
+          "emergent_matches": [],
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -16187,7 +15956,7 @@
     {
       "post": "three-layer-consciousness-stack.md",
       "overall": "WARNING",
-      "severity_score": 64,
+      "severity_score": 66,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -16199,14 +15968,10 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 60,
+          "score": 75,
           "verdict": "WARNING",
           "critical_matches": [],
           "standard_matches": [
-            [
-              "path",
-              1
-            ],
             [
               "vibration",
               1
@@ -16218,7 +15983,7 @@
               1
             ]
           ],
-          "total_violations": 3
+          "total_violations": 2
         },
         "voice": {
           "score": 100,
@@ -16313,7 +16078,7 @@
     {
       "post": "three-modes-of-intelligence.md",
       "overall": "PASS",
-      "severity_score": 86,
+      "severity_score": 89,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -16325,17 +16090,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -16984,7 +16744,7 @@
     {
       "post": "vedic-mathematical-architecture.md",
       "overall": "WARNING",
-      "severity_score": 58,
+      "severity_score": 62,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -16996,17 +16756,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 70,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              2
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 2
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -17252,8 +17007,8 @@
     },
     {
       "post": "vessel-prepare-ukha-sambharana.md",
-      "overall": "WARNING",
-      "severity_score": 77,
+      "overall": "PASS",
+      "severity_score": 90,
       "dimensions": {
         "kha_ba_la": {
           "score": 100,
@@ -17265,22 +17020,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 10,
-          "verdict": "FAIL",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              4
-            ]
-          ],
-          "emergent_matches": [
-            [
-              "energy",
-              3
-            ]
-          ],
-          "total_violations": 7
+          "standard_matches": [],
+          "emergent_matches": [],
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -17432,12 +17177,12 @@
           "recursive_count": 1
         },
         "source_grounding": {
-          "score": 51,
+          "score": 54,
           "verdict": "PASS",
           "source_matches": [
             [
               "\\b(?:source|reference|citation|footnote|see also|further reading)\\b",
-              7
+              8
             ]
           ],
           "vault_reference_count": 0
@@ -18556,8 +18301,8 @@
     },
     {
       "post": "your-consciousness-needs-better-error-handling.md",
-      "overall": "WARNING",
-      "severity_score": 78,
+      "overall": "PASS",
+      "severity_score": 80,
       "dimensions": {
         "kha_ba_la": {
           "score": 75,
@@ -18569,17 +18314,12 @@
           "has_absence_demonstration": true
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
@@ -18717,7 +18457,7 @@
     {
       "post": "your-reality-is-a-smart-contract.md",
       "overall": "WARNING",
-      "severity_score": 67,
+      "severity_score": 69,
       "dimensions": {
         "kha_ba_la": {
           "score": 0,
@@ -18729,17 +18469,12 @@
           "has_absence_demonstration": false
         },
         "vocabulary": {
-          "score": 85,
-          "verdict": "WARNING",
+          "score": 100,
+          "verdict": "PASS",
           "critical_matches": [],
-          "standard_matches": [
-            [
-              "path",
-              1
-            ]
-          ],
+          "standard_matches": [],
           "emergent_matches": [],
-          "total_violations": 1
+          "total_violations": 0
         },
         "voice": {
           "score": 100,
