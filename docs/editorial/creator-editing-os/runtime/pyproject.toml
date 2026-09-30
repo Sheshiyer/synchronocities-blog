@@ -1,0 +1,17 @@
+[project]
+name = "creator-editing-steward-pilot"
+version = "0.1.0"
+description = "Local Creator Editing Steward pilot controller (stdlib only)"
+requires-python = ">=3.11"
+
+[project.scripts]
+ceos = "ceos.cli:main_author"
+ceos-operator = "ceos.cli:main_operator"
+ceos-mcp = "ceos.mcp:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ceos*"]

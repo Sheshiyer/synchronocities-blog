@@ -1,0 +1,36 @@
+{
+  "name": "video-studio",
+  "version": "1.0.0",
+  "description": "Creator Editing OS — Remotion v4 TypeScript video studio",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "check": "tsc --noEmit && node scripts/motion-lint.mjs",
+    "new-video": "node scripts/new-video.mjs",
+    "prep": "node scripts/prep.mjs",
+    "refs": "node scripts/refs.mjs",
+    "stills": "node scripts/stills.mjs",
+    "render-final": "node scripts/render-final.mjs",
+    "clean": "node scripts/clean.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "ingest-draft": "node scripts/ingest-draft.mjs",
+    "update-registry": "node scripts/update-registry.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.531",
+    "@remotion/renderer": "4.0.531",
+    "@remotion/google-fonts": "4.0.531",
+    "remotion": "4.0.531",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "@types/node": "22.15.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
