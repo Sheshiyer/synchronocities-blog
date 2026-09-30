@@ -1,5 +1,15 @@
 # Scoped calendar execution
 
+## Low-maintenance workflow
+
+Preparation continues when a channel is unavailable: read, adapt and queue drafts independently of transport readiness. Use working CLIs for bounded research and verified supported publication; use Codex IAB when a CLI fails before claim. Substack normally uses IAB. Instagram/Reddit browser login alone does not establish a tested publishing workflow.
+
+All transports share the approval ledger, hashes, cadence and receipts. Choose transport before claim. After a claim or possible submission, never switch and resubmit automatically: reconcile against the actual platform first. Refresh visible account identity before each write. Browser identity and CLI identity are independent.
+
+Keep browser credentials in the browser. Do not create a copied-cookie .env store as a routine fallback. Existing protected CLI credentials may enter the child process environment in memory. A future supported cookie adapter must verify exact account identity before enabling writes; credential extraction must not become a dependency of preparation.
+
+Cap scheduled maintenance investigation at 15 minutes per run. Record the failing capability and defer deeper repair to a reviewable task. Suppress unchanged known failures; notify once for newly actionable session expiry. Upgrade for a concrete capability need or meaningful benefit, retaining tested versions and rollback receipts.
+
 `python3 scripts/calendar_runner.py` is a stdlib CLI. Run from this skill directory. The private state defaults to `~/.codex/editorial/tryambakam`; it must remain outside Git. Files use mode 600, directories mode 700. No command grants approval.
 
 - `plan --date 2026-10-01 --blog-root /absolute/current/blog` reads the actual 26-week baseline table. It selects the next article week (including its Saturday Note), emits source paths/hashes and Paris offsets, and labels X slots as additional proposals. First article October 8, Notes October 6/10. The October 3 reintroduction is a separate prose proposal. Missing manuscript/vault sources remain held. These are preparation tasks, not completed adaptations.
