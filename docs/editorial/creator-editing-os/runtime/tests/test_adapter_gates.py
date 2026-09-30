@@ -294,7 +294,7 @@ class TestA3DraftVersionRecheck(_Base):
         # current artifact on disk has changed.  However the adapter checks the controller's
         # recorded plan SHA vs the approval record.  To test the recheck we need to
         # simulate what happens when save_artifact is called AFTER approval to update the
-        # plan: that invalidates the approval but the stage stays at plan_approved... 
+        # plan: that invalidates the approval but the stage stays at plan_approved...
         # Actually the cleanest test: save a new plan version after approval and verify
         # the adapter catches the drift.
         #
