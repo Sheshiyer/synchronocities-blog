@@ -30,3 +30,7 @@ Every channel—including public comments and replies—uses this rule. The plan
 6. Never change blog infrastructure, DNS, secrets, Vectorize or R2 during editorial runs. The unresolved 18765 and indexing 401 are separate operational tasks.
 
 Invocation examples: `$tryambakam-editorial prepare this week`, `$tryambakam-editorial discover conversations`, `$tryambakam-editorial publish approved`, `$tryambakam-editorial review month`.
+
+## Verified social tools
+
+Read [social tooling](references/social-tooling.md) before selecting a channel adapter. Bird handles X read/post/reply commands after expected-account verification; current identity is blocked. Arcplume current skill handles Grok Build images. Glam only reads/downloads Instagram content. Reddit Flux supports public reads and OAuth writes in source, but local runtime is unverified. The maintenance heartbeat checks these tools weekly. Preserve individual exact-item publishing approval.
