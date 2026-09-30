@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-09-30T13:14:29.473505+00:00",
+  "phase": "1",
+  "phase_name": "aleph-brand-x-transport-listener",
+  "phase_dir": ".planning",
+  "plan": 1,
+  "task": 2,
+  "total_tasks": 5,
+  "status": "paused",
+  "completed_tasks": [
+    {
+      "id": 1,
+      "name": "Install editorial skill and two cron automations",
+      "status": "done",
+      "commit": "10198cb"
+    },
+    {
+      "id": 2,
+      "name": "Read-only Aleph path scan and installed ft capability inspection",
+      "status": "done",
+      "evidence": "655 Aleph-related Markdown paths; 26 canonical brand files. Installed ft 1.3.22 exposes bookmark sync but no post/reply/listener command. Scan and report in docs/editorial."
+    }
+  ],
+  "remaining_tasks": [
+    {
+      "id": 3,
+      "name": "Locate existing protected X auth adapter/store and source checkout; verify read identity and available write/timeline capabilities",
+      "status": "not_started"
+    },
+    {
+      "id": 4,
+      "name": "Build umbrella-specific topic/account watchlist and bounded deduplicated listener; reconcile X-first brand guidance with Substack calendar",
+      "status": "not_started"
+    },
+    {
+      "id": 5,
+      "name": "Integrate tested X post/reply adapter with exact-item approval ledger and update installed skill/automation prompts",
+      "status": "not_started"
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Context guard requires a new chat after the current atomic scan.",
+      "type": "external",
+      "workaround": "Resume using this handoff."
+    },
+    {
+      "description": "Installed ft help/source does not establish persisted credentials or post/reply/listener transport.",
+      "type": "technical",
+      "workaround": "Inspect actual local source/adapter without exposing credentials; do not invent a transport or request raw tokens."
+    }
+  ],
+  "human_actions_pending": [],
+  "decisions": [
+    {
+      "decision": "Public items still require individual exact-item human approval.",
+      "rationale": "User selected this policy; X credential access does not waive it.",
+      "phase": "1"
+    },
+    {
+      "decision": "Use only IAB for browser UI; direct local CLI source inspection allowed.",
+      "rationale": "Existing user constraint.",
+      "phase": "1"
+    },
+    {
+      "decision": "X handle in Aleph branding is witnessalchemst, pending actual session identity verification.",
+      "rationale": "Do not mistake declared brand identity for authenticated account.",
+      "phase": "1"
+    }
+  ],
+  "uncommitted_files": [
+    "docs/editorial/2026-09-30-aleph-brand-scan.json",
+    "docs/editorial/2026-09-30-aleph-x-discovery.md",
+    ".planning/HANDOFF.json"
+  ],
+  "next_action": "Read the Aleph/X report, locate the ft source checkout and any protected X session adapter/store, then verify independent read identity/timeline and post/reply capabilities. Do not print tokens or run broad sync.",
+  "context_notes": "Clean release checkout /tmp/synchronocities-blog-release-20260930 contains local commits 8f7d8de and 10198cb, not pushed. Primary remains dirty with new owned .agents/skills/tryambakam-editorial and docs/editorial files copied in. Installed skill ~/.codex/skills/tryambakam-editorial; runtime queue ~/.codex/editorial/tryambakam/queue.json empty. Active automation IDs tryambakam-weekly-editorial-studio and tryambakam-conversations-and-approved-publisher. Canonical Aleph brand root /Volumes/madara/2026/Projects/tryambakam-noesis/brand-docs-final/tryambakam-noesis-aleph. 18765 alias/redirect choice and provider-indexing 401 remain separate outstanding items; no repeats of release work."
+}
