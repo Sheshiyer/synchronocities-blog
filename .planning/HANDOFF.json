@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-09-30T12:34:45.523522+00:00",
+  "phase": "1",
+  "phase_name": "expanded-corpus-editorial-research",
+  "phase_dir": ".planning",
+  "plan": 1,
+  "task": 3,
+  "total_tasks": 7,
+  "status": "paused",
+  "completed_tasks": [
+    {
+      "id": 1,
+      "name": "Publish illustrated Lighted Clearing bundle to main and Cloudflare",
+      "status": "done",
+      "commit": "c085a2d",
+      "evidence": "Site workflow 36714659732 succeeded; article HTTP 200 and rendered in IAB; SHA matches Albedo ledger."
+    },
+    {
+      "id": 2,
+      "name": "Read requested Substacks in signed-in IAB and save initial plan",
+      "status": "done",
+      "commit": "c45625e",
+      "evidence": "Plan docs/plans/2026-09-30-substack-series-plan.md. User subsequently expanded scope; this is an initial proposal, not the accepted full calendar."
+    },
+    {
+      "id": 3,
+      "name": "Inventory broader TWC vault",
+      "status": "in_progress",
+      "progress": "README and MOC navigation inspected. Markdown counts: 01-Projects 62, 02-Areas 384, 03-Resources 4577, 04-Archives 25965. Counts are raw file totals, not unique publishable works. No full source audit yet."
+    }
+  ],
+  "remaining_tasks": [
+    {
+      "id": 3,
+      "name": "Read brand/content-system indexes and MOCs; inventory all blog sources and vault repertoire with provenance and deduplication",
+      "status": "in_progress"
+    },
+    {
+      "id": 4,
+      "name": "Replace narrow six-week plan with source-grounded multi-series editorial map, prioritized backlog and broader dated calendar",
+      "status": "not_started"
+    },
+    {
+      "id": 5,
+      "name": "Resolve and implement 18765.tryambakam.space alternate host or redirect, with exact DNS receipt and live verification",
+      "status": "not_started"
+    },
+    {
+      "id": 6,
+      "name": "Record provider-auth indexing failure and diagnose within authorized scope without broad reindex or secret changes",
+      "status": "not_started"
+    },
+    {
+      "id": 7,
+      "name": "Commit final plan, verify artifacts, report completed and held states",
+      "status": "not_started"
+    }
+  ],
+  "blockers": [
+    {
+      "description": "18765 currently points to Vercel and returns DEPLOYMENT_NOT_FOUND; desired alias versus redirect behavior unclear. Async question already asked and unanswered.",
+      "type": "human_action",
+      "workaround": "Continue editorial research while awaiting choice; do not infer approval from elapsed time."
+    },
+    {
+      "description": "Wrangler OAuth account access works, but direct DNS-record read returned 403.",
+      "type": "technical",
+      "workaround": "Use existing Cloudflare dashboard in IAB or approved scoped credential; do not expose tokens."
+    },
+    {
+      "description": "Content-index CI exited success but logs show lighted-clearing-loka-akshara-dhi NIM auth failed (401), 0 embedded, 126 skipped, 1 error.",
+      "type": "technical",
+      "workaround": "Published page is live; AI retrieval acceptance remains unproven. Do not rotate secrets or broad-reindex speculatively."
+    },
+    {
+      "description": "Developer context rollover guard requires stopping after current atomic step and new chat.",
+      "type": "external",
+      "workaround": "Resume from this handoff in a new chat in the same directory."
+    }
+  ],
+  "human_actions_pending": [
+    {
+      "action": "Choose whether 18765.tryambakam.space should serve the same blog or redirect to synchronocities.tryambakam.space",
+      "context": "Exact behavior is required before DNS/routing mutation.",
+      "blocking": true
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "User expanded planning scope to entire blog repertoire plus /Volumes/madara/2026/twc-vault",
+      "rationale": "The one-article-centered launch series was too narrow; replace the plan rather than treating it as final.",
+      "phase": "1"
+    },
+    {
+      "decision": "Use only IAB for browser work; planning does not authorize sending Substack emails or publishing Notes",
+      "rationale": "User requested a plan to begin uploading; no Substack drafts, schedules, settings or posts changed.",
+      "phase": "1"
+    },
+    {
+      "decision": "Keep release in isolated checkout based on latest origin/main",
+      "rationale": "Primary checkout main is 22 automated commits behind and contains unrelated dirty status/docs; preserve them.",
+      "phase": "5"
+    },
+    {
+      "decision": "Do not treat vault resources and archive copies as author-owned publishable essays",
+      "rationale": "Large reference and extraction directories require provenance, duplicate, privacy, and claim review before adaptation.",
+      "phase": "1"
+    }
+  ],
+  "uncommitted_files": [
+    "AGENTS.md",
+    "_PROJECT-STATUS.md",
+    "docs/INFRA.md",
+    "tasks/todo.md",
+    "ISA.md (untracked primary copy; committed in release)",
+    "docs/plans/2026-09-12-pending-work.md",
+    "docs/plans/2026-09-30-substack-series-plan.md (primary copy; committed in release)",
+    "public/cards/sync-lighted-clearing.webp (primary copy; committed in release)",
+    "public/images/posts/lighted-clearing/ (primary copy; committed in release)",
+    "quality-engine/audits/albedo-v231-blind/lighted-clearing-loka-akshara-dhi-albedo-ledger.json (primary copy; committed in release)",
+    "src/content/posts/lighted-clearing-loka-akshara-dhi.md (primary copy; committed in release)"
+  ],
+  "next_action": "Read vault 02-Areas/TheWhyChromosome-Brand, 02-Areas/Content-System and _System/MOCs indexes, then build a deduplicated source catalogue covering every blog entry and authorial vault note; replace the narrow plan with a multi-series calendar.",
+  "context_notes": "Release checkout /tmp/synchronocities-blog-release-20260930, branch codex/blog-substack-release at c45625e pushed to main. Primary checkout intentionally unchanged except local copy of plan and this handoff. No active goal created. No agents spawned. Initial research: Harsh consciousness/cosmology full text read; Steven Fall of Scientism and Elemental Constitution written overviews inspected, videos not watched. Substack dashboard confirms nine published posts and two drafts; do not overwrite them. Source snapshot: 02-Areas includes brand 56, technical-mystical 44, pattern 24, consciousness 19, creative 15, Enneagram 8, content-system 5; Resources Social-Inbox 1607, Knowledge 390, Health 352, Occult 335, Authors 237, Technology 207, Skills 197, Critical-Thinking 132; Archives extraction 20950 is not canonical authored repertoire. Live screenshot /tmp/synchronocities-live-lighted-clearing.png. Browser handles may need reacquisition after rewriteDocumentation; use IAB only."
+}
