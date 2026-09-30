@@ -31,3 +31,7 @@ Bird account identity and timeline readback; bounded deduplicated listener local
 Sources: https://github.com/Sheshiyer/arcplume/blob/main/SKILL.md, https://github.com/Sheshiyer/glam-cli, https://github.com/Sheshiyer/reddit-flux. CLI help and bounded local probes are authoritative for installed capabilities.
 
 Execution receipt: Execute combo returned HTTP 429 with no implementation. Build selected command-code/xiaomi/mimo-v2.5-pro but produced no output or file changes for over three minutes and was stopped. Listener remains unimplemented. Existing queue test script passes; due query returns an empty list. Corrected the installed skill example to pass the runtime directory to `--state`.
+
+## Bounded trial update
+
+September 30: Bird search returned current complete post bodies and supports research-candidate preparation. Direct post reads, replies and account timelines returned 401; whoami remains unverified. Glam saved --limit 1 --metadata-only retrieved one post JSON successfully, despite GraphQL warnings during check. Reddit Flux was executed in an isolated checkout/venv; public auth and search returned 403, including a specific User-Agent check. Existing approval tests pass; a source-hashed candidate draft is held as not approved outside the live queue. See 2026-09-30-social-tooling-trial.md in docs/editorial. This is partial discovery acceptance, not listener or publisher acceptance.

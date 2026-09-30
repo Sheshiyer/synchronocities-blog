@@ -33,4 +33,4 @@ Invocation examples: `$tryambakam-editorial prepare this week`, `$tryambakam-edi
 
 ## Verified social tools
 
-Read [social tooling](references/social-tooling.md) before selecting a channel adapter. Bird handles X read/post/reply commands after expected-account verification; current identity is blocked. Arcplume current skill handles Grok Build images. Glam only reads/downloads Instagram content. Reddit Flux supports public reads and OAuth writes in source, but local runtime is unverified. The maintenance heartbeat checks these tools weekly. Preserve individual exact-item publishing approval.
+Read [social tooling](references/social-tooling.md) before selecting a channel adapter. Bird public conversation search is trial-verified for research packets; X posting/replies and account polling require expected-account verification, which remains blocked. Arcplume current skill handles Grok Build images. Glam only reads/downloads Instagram content. Reddit Flux executes in an isolated trial environment, but public reads return 403 and OAuth writes are unverified. The maintenance heartbeat checks these tools weekly. Preserve individual exact-item publishing approval.
