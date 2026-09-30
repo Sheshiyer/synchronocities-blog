@@ -1,0 +1,18 @@
+{
+  "status": "prepared; not registered with a cloud execution environment",
+  "command": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "args": [
+    "-m",
+    "ceos.mcp",
+    "--state-root",
+    "/Users/sheshnarayaniyer/.codex/editorial/creator-editing-os-pilot"
+  ],
+  "cwd": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/creator-editing-os/runtime",
+  "env": {
+    "PYTHONPATH": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/creator-editing-os/runtime",
+    "CEOS_ALLOWED_SOURCE_ROOTS": "/Users/sheshnarayaniyer/Downloads/Creator Editing OS Playbook.pdf:/tmp/creator-editing-fixtures"
+  },
+  "transport": "stdio",
+  "approval_tools": false,
+  "receipt_required": "IMPLEMENTATION-RECEIPT.md before operational acceptance"
+}
