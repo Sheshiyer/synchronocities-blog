@@ -1,10 +1,10 @@
 ---
-task: "Rewrite the Gāyatrī synthesis in established Synchronocities voice"
+task: "Map the full repertoire into a source-grounded Substack calendar"
 project: synchronocities-blog
 effort: E3
 effort_source: auto
 phase: complete
-progress: 42/42
+progress: 58/58
 mode: interactive
 started: 2026-09-30T16:00:00+02:00
 updated: 2026-09-30T13:55:00+02:00
@@ -88,6 +88,26 @@ Rewrite the complete body of `lighted-clearing-loka-akshara-dhi.md` in the estab
 - [x] ISC-40: Rendered production preview returns 200 with zero application console errors and zero failed requests (probe: Playwright).
 - [x] ISC-41: Anti: the rewrite introduces no literal quantum-state, ancient-topology, or guaranteed spiritual-efficacy claim (probe: contextual search).
 - [x] ISC-42: Anti: no deploy, reindex, remote write, or unrelated dirty-tree mutation occurs (probe: command and status review).
+
+
+### Editorial iteration — 2026-09-30
+
+- [x] ISC-43: Every blog Markdown entry appears once in the catalogue.
+- [x] ISC-44: Every catalogue source hash matches the current file.
+- [x] ISC-45: Every blog record has one primary series.
+- [x] ISC-46: The plan includes a narrative strand with canonical-edition gate.
+- [x] ISC-47: The calendar contains 26 Thursday dates.
+- [x] ISC-48: The calendar begins 2026-10-08.
+- [x] ISC-49: The calendar ends 2027-04-01.
+- [x] ISC-50: Every calendar blog slug resolves locally.
+- [x] ISC-51: The plan differentiates reference library from authored candidates.
+- [x] ISC-52: The plan records exact duplicate-group methodology.
+- [x] ISC-53: The preliminary six-week calendar is superseded.
+- [x] ISC-54: The plan includes a prioritized backlog.
+- [x] ISC-55: The indexing 401 is retained as unresolved.
+- [x] ISC-56: The alternate-domain behavior remains awaiting the user.
+- [x] ISC-57: Anti: private vault file-level inventory is not committed.
+- [x] ISC-58: Anti: unrelated primary checkout dirty files remain untouched.
 
 ## Test Strategy
 
@@ -189,6 +209,10 @@ Rewrite the complete body of `lighted-clearing-loka-akshara-dhi.md` in the estab
   parallelizable: false
 ```
 
+### FullRepertoireEditorialMap
+
+Catalogue, provenance boundary, nine-series map and dated calendar satisfy ISC-43 through ISC-58. The authority of the older essay criteria and receipts is preserved. Verification uses catalogue/source hash comparison, date/slug checks, diff inspection and explicit scope review.
+
 ## Decisions
 
 - 2026-09-30 16:00 +02:00: E3 selected because the request spans supplied source synthesis, mathematical repair, public prose, metadata, and a quality receipt. The 32-ISC soft floor is intentionally not padded: 24 binary probes cover the bounded single-essay change, while arbitrary splitting would reduce information value.
@@ -261,3 +285,7 @@ Rewrite the complete body of `lighted-clearing-loka-akshara-dhi.md` in the estab
 - ISC-40: native browser probe — the production preview rendered the title, 13 sections, figures, acoustic model, and agent-witness section; browser error/warning log was empty.
 - ISC-41: contextual anti-probe — the torus is called `our instrument`, the text says `Nothing quantum is required`, and no spiritual efficacy guarantee is made.
 - ISC-42: command/status review — no deployment, reindex, R2, Vectorize, or remote-write command ran; unrelated pre-existing modifications remain untouched.
+
+- Editorial iteration source review: the full repertoire is the planning unit. Vault file counts are inventory totals, not authorship or publication-readiness evidence. Generic NIM error names do not identify the actual embedding upstream.
+
+- ISC-43–ISC-58: catalogue validator passes: 127 unique entries, 127 matching SHA-256 hashes, 26 consecutive Thursday slots from 2026-10-08 to 2027-04-01, all source slugs resolved. Private vault inventory is outside the repository. Plan states authorship/review limits and both held infrastructure items. Git diff is scoped to planning/ISA files. No remote mutation performed.
