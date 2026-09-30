@@ -4,7 +4,7 @@ project: synchronocities-blog
 effort: E3
 effort_source: auto
 phase: complete
-progress: 58/58
+progress: 74/74
 mode: interactive
 started: 2026-09-30T16:00:00+02:00
 updated: 2026-09-30T13:55:00+02:00
@@ -289,3 +289,27 @@ Catalogue, provenance boundary, nine-series map and dated calendar satisfy ISC-4
 - Editorial iteration source review: the full repertoire is the planning unit. Vault file counts are inventory totals, not authorship or publication-readiness evidence. Generic NIM error names do not identify the actual embedding upstream.
 
 - ISC-43–ISC-58: catalogue validator passes: 127 unique entries, 127 matching SHA-256 hashes, 26 consecutive Thursday slots from 2026-10-08 to 2027-04-01, all source slugs resolved. Private vault inventory is outside the repository. Plan states authorship/review limits and both held infrastructure items. Git diff is scoped to planning/ISA files. No remote mutation performed.
+
+
+### Recurring editorial workflow — 2026-09-30
+
+User requested a dedicated skill, scheduled articles/Notes/X Articles, relevant author comments, and organic project discovery. User explicitly selected publication of individually approved items. Installed `$tryambakam-editorial`, preserved source boundaries, and created two ACTIVE local cron automations. Local gate does not submit to platforms; account and channel-capability verification remain preconditions for actual publication.
+
+- [x] ISC-59: Installed skill passes the skill validator.
+- [x] ISC-60: Versioned skill provides weekly preparation.
+- [x] ISC-61: Versioned skill provides fully read author-conversation discovery.
+- [x] ISC-62: Every channel requires individually approved exact payload.
+- [x] ISC-63: Queue rejects copy edited after approval.
+- [x] ISC-64: Queue rejects changed source or media bytes.
+- [x] ISC-65: Queue rejects draft publication.
+- [x] ISC-66: Repeated claims cannot submit twice.
+- [x] ISC-67: Uncertain submission blocks automatic retry.
+- [x] ISC-68: Publication receipt requires a local readback artifact.
+- [x] ISC-69: Weekly automation is ACTIVE in saved app configuration.
+- [x] ISC-70: Daily automation is ACTIVE in saved app configuration.
+- [x] ISC-71: X Article entitlement is checked rather than assumed.
+- [x] ISC-72: Organic discovery plan covers twelve weeks and project-specific evidence.
+- [x] ISC-73: Anti: no public post, comment or subscriber email was submitted.
+- [x] ISC-74: Anti: pre-existing dirty primary files remain untouched.
+
+Verification: installed quick_validate.py reports Skill is valid; synthetic gate checks passed for ISC-63–68. Both automation TOML files read back ACTIVE with intended local schedules. Only new owned skill/docs directories copied into the primary checkout. Empty durable queue yields zero due items. Live platform transport/account identity is not yet accepted and cannot be inferred from local tests.
