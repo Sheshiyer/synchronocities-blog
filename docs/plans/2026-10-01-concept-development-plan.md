@@ -114,3 +114,11 @@ The [continuation packet](../editorial/concepts/claude-ideas-2026-09-30/continua
 The vocabulary/format sheet treats inherited terms and newly proposed roles separately. Language is provisionally interpreted as vocabulary and adaptation planning; translation awaits a specified target. No new calendar slot or queue item follows. The two exposure axes, counter-reading, proposed decision experiment and pending return are explicit. Eleven source hashes match; existing posts and queue are preserved. This is outline preparation, not a completed manuscript or adopted canon.
 
 Next: develop the sandbox draft only after its asynchronous-meaning choice and the companion Entrodromia definition/form choice are resolved, while Gananatha remains first awaiting both longer drafts. Consecration retains its named-source hold. Reversible research and outlining remain authorized.
+
+## Author correction: selected pieces from vault infrastructure
+
+The October 1 correction replaces whole-note-to-article conversion with topic-led selection from content, context and vault sources. Use [selected pieces and synthesis](../editorial/concepts/claude-ideas-2026-09-30/vault-fragments-2026-10-01/SOURCE-PIECES-AND-SYNTHESIS.md) and its machine-readable fragment lattice. The first brief combines two Areas notes, one Resources synthesis and project context around recognition, response and consequence. It is newly proposed synthesis, not recovered author wording.
+
+The canonical Noesis Writer v2.17.0 was found in the vault `.agents/skills/noesis-writer-skill/`; its `.claude` mirror matches. Earlier discovery did not locate it and must not be treated as evidence that no package exists. Its covenant, fresh claim extraction and Albedo grammar govern drafting; the blog workflow retains tracking and delivery approval. Documented semantic-retrieval paths were unavailable at their named locations, so this bounded packet uses local reading without asserting runtime acceptance.
+
+Next: perform fresh atomic claim extraction, then develop a subject-first essay section by section from selected pieces. Preserve the source exclusions, independent exposure axes and counter-reading. The prior paired outline remains an ingredient. Manuscript holds, private information boundaries and individual publication approval remain unchanged.
