@@ -39,3 +39,9 @@ The next governed Build attempt passed admission, then failed with HTTP429 befor
 Independent execution reproduced a forged terminal receipt ending another actor’s claim. A bounded root repair now binds terminal receipt schema/attempt/task/executor/issue/route/source. Independent verification rejects the prior forged fixture, preserves the active claim, and accepts a fully matching receipt. Fourteen new regression tests pass across the baseline, completed/failed/blocked and ten isolated mismatches. This tests consistency only; caller-supplied metadata is not authenticated identity.
 
 A separate bounded schema repair removes overlapping provider/model oneOf alternatives. Local Draft202012 validation accepts UNRESOLVED once and rejects empty/null values; route shape grants no execution permission. Full contract acceptance remains pending. Original supplied attachments contain no exact Grok bot destination. The Snow Gloves planning record already reports its Mac-mini handoff restored; unrelated WIP is preserved.
+
+## Independent authorial preparation
+
+A smaller governed Execute attempt also admitted then failed HTTP429 after31seconds with no sourcechanges; no routingcontrols changed. SourceWIP checkpoint521fb4a remainsunaccepted. Advisor timedout30seconds with noverdict.
+
+During the capacityhold, independentprivatepreparation produced The Answer After Recognition (1739words) and its optional185wordobservationcard. Two independentreviewpasses nowacceptlocalDRAFT:3sourcehashes,5fragments,26claimrows,23exactpublicspans. The conceptualcontribution distinguishes recognition, rehearsal, performedchoice and returnedconsequence; no autobiography, biologicalwarrant, outcome, publicapproval or canonicadoption is invented. Programmeprojection records preparation separately from pendingagent/runtime/publication/returngates.

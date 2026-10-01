@@ -14,7 +14,19 @@
       "title": "Implement offline delegation contracts",
       "dependencies": [],
       "state": "in_progress",
-      "evidence_required": "Antahkarana #48; isolated source worker"
+      "evidence_required": "Antahkarana #48; isolated source worker",
+      "source_checkpoint": {
+        "branch": "codex/delegation-48",
+        "commit": "521fb4a",
+        "acceptance": "unaccepted draft"
+      },
+      "remaining": [
+        "Effectful approval/type validation",
+        "Scope containment and current HEAD",
+        "Complete evidence/artifact/route binding",
+        "Claim lifecycle and provenance limits",
+        "Label preview and additive documentation"
+      ]
     },
     {
       "id": "AGENT-02",
@@ -22,8 +34,15 @@
       "dependencies": [
         "AGENT-01"
       ],
-      "state": "pending",
-      "evidence_required": "Fresh test/build/secret output and review"
+      "state": "in_progress",
+      "evidence_required": "Fresh test/build/secret output and review",
+      "evidence": {
+        "baseline_cli": 245,
+        "baseline_truth": 95,
+        "targeted_regressions": 16,
+        "independent_fixtures": "verification/",
+        "full_contract": "not accepted"
+      }
     },
     {
       "id": "AGENT-03",
@@ -66,8 +85,11 @@
       "dependencies": [
         "AGENT-02"
       ],
-      "state": "planned",
-      "evidence_required": "Source-ready subject; Gananatha/Consecration holds preserved"
+      "state": "source_prepared",
+      "evidence_required": "Source-ready subject; Gananatha/Consecration holds preserved",
+      "preparation_can_run_independently": true,
+      "evidence": "Three freshlyreadhashedworkingnotes;26claimrows withexclusions and exactpublicspans",
+      "local_review": "PASS for private DRAFT; downstream integration/publication/return dependencies pending"
     },
     {
       "id": "WRITER-02",
@@ -75,8 +97,11 @@
       "dependencies": [
         "WRITER-01"
       ],
-      "state": "planned",
-      "evidence_required": "Observation/model/teaching/synthesis distinguished"
+      "state": "reviewed_draft",
+      "evidence_required": "Observation/model/teaching/synthesis distinguished",
+      "artifact": "../../editorial/noesis-programme-first-cycle-2026-10-02/the-answer-after-recognition.md",
+      "integration_dependencies_pending": true,
+      "local_review": "PASS for private DRAFT; downstream integration/publication/return dependencies pending"
     },
     {
       "id": "PUBLIC-01",
@@ -102,8 +127,11 @@
       "dependencies": [
         "RETURN-01"
       ],
-      "state": "planned",
-      "evidence_required": "Small useful artifact, separate evidence"
+      "state": "reviewed_draft",
+      "evidence_required": "Small useful artifact, separate evidence",
+      "artifact": "../../editorial/noesis-programme-first-cycle-2026-10-02/recognition-return-card.md",
+      "observed_return": "pending; optionalobservationprompt only",
+      "local_review": "PASS for private DRAFT; downstream integration/publication/return dependencies pending"
     },
     {
       "id": "FIELD-01",
@@ -114,5 +142,6 @@
       "state": "planned",
       "evidence_required": "Human usefulness/consent and product-specific evidence"
     }
-  ]
+  ],
+  "preparation_policy": "Agent ecosystem remains first delivery priority. Independentprivateauthorialpreparation can proceed during externalcapacityhold; it does not satisfy agentfoundation/runtime/publication/returngates."
 }

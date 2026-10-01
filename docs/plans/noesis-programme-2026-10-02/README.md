@@ -25,7 +25,7 @@ The planning horizon extends across the existing editorial programme into April 
 | Creative companion | One optional reflection companion or named symbolic short | Source/meaning boundaries, actual artifact acceptance, useful participant return |
 | Wider field | Repeatable writing, narrative, teaching/mentorship or product pilot | Independent use, consent, observed usefulness; product/effect claims need their own evidence |
 
-Only the foundation implementation is presently admitted as source work. Later tasks are specific continuation units with prerequisites. A passing synthetic cycle does not advance the connected or recurring runtime milestones.
+Agent foundation remains the first delivery priority. Independent private authorial preparation may proceed during an observed provider-capacity hold; its reviewed draft does not satisfy foundation or runtime gates. Later tasks are specific continuation units with prerequisites. A passing synthetic cycle does not advance the connected or recurring runtime milestones.
 
 ## Responsibilities
 
@@ -56,3 +56,7 @@ Every delivery records: task and attempt identity, source revision, allowed scop
 No replacement bot, recurring heartbeat or new queue is created as a workaround for unresolved transport. The existing bot must prove its supported persistence and stop controls before continuous acceptance. Exact public approval remains required for new posts; approved native schedules are reconciled rather than resubmitted.
 
 The programme stops admitting a task when its source revision, scope, approval, cap or dependency is unresolved. It preserves the best artifact and substantive blocked reason so the next run can resume without duplicating work. It does not stop independent safe source work merely because another strand awaits input.
+
+## Current private authorial artifact
+
+The first-cycle package at `../../editorial/noesis-programme-first-cycle-2026-10-02/` contains an independently reviewed 1,739-word conceptual draft and a 185-word optional companion. These advance source preparation; they introduce no publication dates, approvals or observed returns. The existing queue and manuscript holds remain in force.
