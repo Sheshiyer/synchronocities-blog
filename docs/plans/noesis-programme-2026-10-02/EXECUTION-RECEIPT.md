@@ -27,3 +27,15 @@ The repair slice also reached its 300-second cap. A test-only slice reached 181 
 A bounded native verification file then reproduced invalid-claim success. Root added error propagation in three missing branches. The same two subprocess smoke tests now pass: invalid claim-array rejection and no synthetic-token exposure for the tested malformed JSON fixture. This does not establish complete secret safety or claims lifecycle correctness.
 
 The next explicit slice selects the Build rail for approval/schema/type repair only, followed by fresh tests. All other independent review defects remain pending. Existing editorial queue hash remains identical to the recorded baseline.
+
+## Live Build admission refusal
+
+The Build dry-run showed a candidate, but live admission refused before creating a worker: circuit-open, no eligible candidates, empty selected order. Dry-run selection was not live readiness. No provider call or new source changes occurred in that attempt. Heavy implementation remains pending a healthy governed route; the circuit was not changed or bypassed.
+
+## Fresh continuation and targeted repairs
+
+The next governed Build attempt passed admission, then failed with HTTP429 before implementation (169seconds; task correlation tc_exec_1790897651734_33148_1811612695_task_0_delegation-gates). Selected transport was cheaperinference/claude-sonnet-5; successful provider execution, usage and cost remain unresolved. The read-only health response was stale and did not authorize capacity.
+
+Independent execution reproduced a forged terminal receipt ending another actor’s claim. A bounded root repair now binds terminal receipt schema/attempt/task/executor/issue/route/source. Independent verification rejects the prior forged fixture, preserves the active claim, and accepts a fully matching receipt. Fourteen new regression tests pass across the baseline, completed/failed/blocked and ten isolated mismatches. This tests consistency only; caller-supplied metadata is not authenticated identity.
+
+A separate bounded schema repair removes overlapping provider/model oneOf alternatives. Local Draft202012 validation accepts UNRESOLVED once and rejects empty/null values; route shape grants no execution permission. Full contract acceptance remains pending. Original supplied attachments contain no exact Grok bot destination. The Snow Gloves planning record already reports its Mac-mini handoff restored; unrelated WIP is preserved.
