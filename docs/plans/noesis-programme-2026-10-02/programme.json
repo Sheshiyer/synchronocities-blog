@@ -1,0 +1,118 @@
+{
+  "schema": "noesis.programme-projection.v1",
+  "planning_owner": "synchronocities-blog",
+  "started": "2026-10-02",
+  "effort": "E5",
+  "priority": "agent ecosystem first",
+  "acceptance_source": "ISA.md",
+  "operational_authority": false,
+  "publication_authority": false,
+  "queue_sha256_before": "46331d23176058211980cacc05f2b7fa6420a44cf5534535a411d50d3f51206c",
+  "tasks": [
+    {
+      "id": "AGENT-01",
+      "title": "Implement offline delegation contracts",
+      "dependencies": [],
+      "state": "in_progress",
+      "evidence_required": "Antahkarana #48; isolated source worker"
+    },
+    {
+      "id": "AGENT-02",
+      "title": "Independent source review and regression acceptance",
+      "dependencies": [
+        "AGENT-01"
+      ],
+      "state": "pending",
+      "evidence_required": "Fresh test/build/secret output and review"
+    },
+    {
+      "id": "AGENT-03",
+      "title": "Existing Grok identity and supported transport",
+      "dependencies": [],
+      "state": "awaiting_input",
+      "evidence_required": "Exact existing bot destination; no replacement runtime"
+    },
+    {
+      "id": "AGENT-04",
+      "title": "One read-only planner/reporting handoff",
+      "dependencies": [
+        "AGENT-02",
+        "AGENT-03"
+      ],
+      "state": "gated",
+      "evidence_required": "Substantive receipt identifies current issue/base"
+    },
+    {
+      "id": "AGENT-05",
+      "title": "Restart, replay and stop acceptance",
+      "dependencies": [
+        "AGENT-04"
+      ],
+      "state": "gated",
+      "evidence_required": "Actual supported runtime, not synthetic-only proof"
+    },
+    {
+      "id": "AGENT-06",
+      "title": "Bounded recurring operation",
+      "dependencies": [
+        "AGENT-05"
+      ],
+      "state": "gated",
+      "evidence_required": "Actual caps/backoff/one scheduler per responsibility"
+    },
+    {
+      "id": "WRITER-01",
+      "title": "Fresh atomic fragment extraction",
+      "dependencies": [
+        "AGENT-02"
+      ],
+      "state": "planned",
+      "evidence_required": "Source-ready subject; Gananatha/Consecration holds preserved"
+    },
+    {
+      "id": "WRITER-02",
+      "title": "One cosmological contribution and reviewed draft",
+      "dependencies": [
+        "WRITER-01"
+      ],
+      "state": "planned",
+      "evidence_required": "Observation/model/teaching/synthesis distinguished"
+    },
+    {
+      "id": "PUBLIC-01",
+      "title": "Exact approved delivery and public readback",
+      "dependencies": [
+        "WRITER-02"
+      ],
+      "state": "gated",
+      "evidence_required": "Existing editorial queue, account/audience/email/media approval"
+    },
+    {
+      "id": "RETURN-01",
+      "title": "Record actual lived or reader return",
+      "dependencies": [
+        "PUBLIC-01"
+      ],
+      "state": "gated",
+      "evidence_required": "Supplied experience/observed response; pending is allowed"
+    },
+    {
+      "id": "COMPANION-01",
+      "title": "One practice or symbolic-media companion",
+      "dependencies": [
+        "RETURN-01"
+      ],
+      "state": "planned",
+      "evidence_required": "Small useful artifact, separate evidence"
+    },
+    {
+      "id": "FIELD-01",
+      "title": "Teaching, narrative or product pilot",
+      "dependencies": [
+        "COMPANION-01"
+      ],
+      "state": "planned",
+      "evidence_required": "Human usefulness/consent and product-specific evidence"
+    }
+  ]
+}
