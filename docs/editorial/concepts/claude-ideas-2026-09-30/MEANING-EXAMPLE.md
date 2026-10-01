@@ -17,6 +17,22 @@ These are conceptual encounters, not newly claimed observations. The example doe
 
 ## Differentiate
 
+### Existing lived-source anchor
+
+The personal-context review supplies a real source for the question: [Fool Journey Entry 1](</Volumes/madara/2026/twc-vault/03-Resources/Travel-Logs/Fool-Journey-Entry-1-Arrival.md>). This is an edited journey record attributed to the author, with later ingestion and synthesis notes. The ingestion date is not a verified event date. It describes returning to Bangkok and reading the familiar city differently after the preceding Shenzhen experience.
+
+| Part of the living loop | What the record supports |
+|---|---|
+| Encounter | A return to a previously visited place |
+| Felt expression | The author describes a familiar setting experienced differently |
+| Meaning then | Earlier rupture contrasted with the present possibility of release and creation |
+| Chosen action | The record describes an arrival ritual; this example does not prescribe it |
+| Reported consequence | The author describes steadiness during that arrival; it is a narrative report, not an independently measured mechanism |
+| Current editorial proposal | A repeated location need not restore its previous meaning; changed experience can alter what a return makes possible |
+| Later lived return | No later outcome is established by this selected entry; leave it open |
+
+This anchors the bodily/concrete side without filling every exposure cell with invented life. The systemic cyclic image and counter-reading above remain conceptual material. The current proposal is not inserted into the historical record as something the author said then.
+
 Recovering a pattern is not the same operation as recovering its previous interpretation. On the scale axis, distinguish recurrence of a world-image from recurrence of a particular habit. On the encounter axis, distinguish recognition from what a new question permits the recogniser to notice.
 
 The productive resistance: if everything new is called remembering, what would count as an actual alteration rather than a renamed repetition?
@@ -46,3 +62,5 @@ It also returns to Self-Worth: ask whether a repeated financial situation is bei
 What must persist for a return to remain recognisable? How much difference can a cosmology carry before its terms change? A future essay can sharpen these questions instead of announcing one universal answer.
 
 **Status: proposed.** The author has approved the writer's purpose and both exposure axes, but has not adopted this particular operator. Source facts remain in the existing claim sheets. This walkthrough demonstrates the intended editorial method; it is not an autonomous model-generation test.
+
+The next lived question is whether another return changes the interpretation again, including a return that resists the proposed spiral. Record what happens before deciding how it fits. This example contributes a brief and a revisit question, not a new travel episode or a completed article.

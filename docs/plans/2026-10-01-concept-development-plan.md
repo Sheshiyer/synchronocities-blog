@@ -12,6 +12,10 @@ The earlier review is a source-integrity layer, not a conformity-first brief. Un
 
 ## Start here
 
+The author's further direction makes **lived experience the generative centre**. Read [the personal-context review](../../.agents/skills/tryambakam-editorial/references/living-cosmology-context.md). The Occultured Fool supplies the felt-expression-choice-return loop; Entrodromia supplies relations between symbolic systems and contextual revision. The writer moves from encounter to new meaning, through action and consequence, into a changed cosmology that shapes another encounter. Record actual consequences when available and leave unobserved returns pending. Keep historical expression and later interpretation side by side.
+
+Prepare each selected concept with its lived anchor or the open lived question it addresses. Alongside the source kernel and meaning delta, record the chosen action or proposed experiment, non-fit and unresolved friction, and the next encounter that could change the reading. The equation is a working language for this process; the experience comes first. This contextual integration does not set new publication dates or turn draft school concepts into adopted doctrine.
+
 Read [the development dossier](../editorial/concepts/claude-ideas-2026-09-30/README.md), [article briefs](../editorial/concepts/claude-ideas-2026-09-30/ARTICLE-BRIEFS.md), and [the registry](../editorial/concepts/claude-ideas-2026-09-30/registry.json). Full carried notes are included locally under `sources/intake/`; chat URLs are provenance only. The unavailable conversations are not reconstructed.
 
 The author chose **Gananatha first, in grounded blog voice**, and then explicitly chose to **wait for its two longer drafts before writing the article**. Preparation proceeds; the manuscript is held. **Consecration waits for the named Āgama/source text** the author will provide. These October 1 answers govern the older handoff's suggested sequence.

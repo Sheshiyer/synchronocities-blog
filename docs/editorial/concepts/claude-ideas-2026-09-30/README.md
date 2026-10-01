@@ -6,6 +6,8 @@ This folder carries the actual local intake text and a plan for turning it into 
 
 **Current author decisions:** Gananatha is first and uses grounded blog voice. Its manuscript waits for **both long Claude.ai drafts**. Consecration waits for the **named Āgama/source text**. These holds do not prevent independent outlining and source review of the other concepts.
 
+**Lived cosmology:** [the Occultured Fool and Entrodromia context review](../../../../.agents/skills/tryambakam-editorial/references/living-cosmology-context.md) grounds the writer in encounter, felt expression, chosen action, consequence and revision. Historical interpretations remain accessible beside later readings. The worked example carries an existing journey-record anchor and an open return, without inventing a new episode. This context informs all briefs; it does not assign dates or replace the carried sources.
+
 ## What is here
 
 - Eleven verbatim intake snapshots: `_INDEX`, `HANDOFF`, seven full concept notes, and the two project/seed dumps. They total 78,341 bytes.

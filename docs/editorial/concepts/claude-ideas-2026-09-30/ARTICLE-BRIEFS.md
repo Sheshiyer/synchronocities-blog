@@ -42,6 +42,8 @@ Each original article must record a semantic delta: a distinction, relation, axi
 
 The following are **new editorial contribution prompts**, not recovered author canon or required conclusions:
 
+For each prompt, first recover a supplied lived encounter or name the lived question still awaiting material. Use [the personal-context review](../../../../.agents/skills/tryambakam-editorial/references/living-cosmology-context.md) and the expanded meaning-delta record. Keep event, expression, original reading and later interpretation distinct. Carry the construction toward an owned action and actual consequence when available; a proposed experiment and pending observation remain valid open work. New meaning returns to life as well as to another concept. The private [worked example](MEANING-EXAMPLE.md) now includes an existing journey-record anchor.
+
 | Brief | Differentiation to explore | Integration to construct | Return into the cosmology |
 |---|---|---|---|
 | 01 Gananatha | Continuity, weighting and understanding perform different work | A threshold that holds movement accountable to meaning | Re-read the Decision Mirror as holding a decision before committing it |

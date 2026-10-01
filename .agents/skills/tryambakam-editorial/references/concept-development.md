@@ -4,6 +4,8 @@
 
 The October 1 Claude ideas intake is integrated into the blog's existing editorial planning at `/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/plans/2026-10-01-concept-development-plan.md`.
 
+**Lived context:** read [the Occultured Fool and Entrodromia synthesis](living-cosmology-context.md). Carry the encounter, expression, interpretation, chosen action and consequence into the meaning-delta record. Distinguish actual observations from a proposed experiment and keep earlier readings when revising. A later field note may reopen a concept without altering the calendar.
+
 Its dossier is `/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/concepts/claude-ideas-2026-09-30/`. Read `README.md`, `registry.json`, the selected entry in `ARTICLE-BRIEFS.md`, and its complete source snapshot. The source manifest records SHA-256 and provenance. Chat links are provenance, not recoverable source text.
 
 Recorded author decisions: Gananatha first, grounded blog voice, with its manuscript waiting for both longer drafts; Consecration waits for the named Āgama/source text. Do not re-ask resolved choices. Independent outline/source-review work on other entries may proceed. L2/L1/L0 source gaps stay visible; new suggestions do not become recovered author canon.
