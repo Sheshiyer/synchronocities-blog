@@ -1,5 +1,5 @@
 {
-  "state": "local checks passed; independent review pending",
+  "state": "PASS for bounded fragment-selection brief",
   "checks": [
     "A1 source hash and selected locators pass",
     "A2 source hash and selected locators pass",
@@ -12,5 +12,11 @@
     "No semantic runtime acceptance",
     "No empirical verification",
     "No manuscript completion or publication approval"
-  ]
+  ],
+  "independent_review": {
+    "result": "PASS",
+    "scope": "Four source hashes, seven fragment locators, recursive canonical/mirror comparison across sixteen files; topic-led synthesis, exclusions, routes, axes and manuscript holds.",
+    "limits": "Does not certify semantic retrieval, complete claim ledger, empirical evidence, manuscript readiness or publication.",
+    "fragment_fidelity": "Wording preserved; leading indentation normalized."
+  }
 }
