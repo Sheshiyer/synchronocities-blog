@@ -19,3 +19,11 @@ The caller decomposed continuation into a bounded checker/claims/test slice foll
 Narrow inspection found local Grok profiles and a local Antahkarana recipe, but did not identify the owner's existing bot destination or an accepted transport. This does not refute the owner's configured-bot statement. The exact existing handle, chat link or runtime/project path remains pending. No replacement bot or scheduler has been created.
 
 Independent source acceptance precedes the substantive read-only handoff; actual restart, replay and stop evidence precedes continuous-operation acceptance. Synthetic approval remains outside real owner approval. Archived services and existing publication schedules remain preserved.
+
+## Bounded continuation evidence
+
+The repair slice also reached its 300-second cap. A test-only slice reached 181 seconds without creating a test file. The subsequent tiny-task route refused admission: circuit-open, no eligible candidates. None of those events establishes acceptance or provider attribution.
+
+A bounded native verification file then reproduced invalid-claim success. Root added error propagation in three missing branches. The same two subprocess smoke tests now pass: invalid claim-array rejection and no synthetic-token exposure for the tested malformed JSON fixture. This does not establish complete secret safety or claims lifecycle correctness.
+
+The next explicit slice selects the Build rail for approval/schema/type repair only, followed by fresh tests. All other independent review defects remain pending. Existing editorial queue hash remains identical to the recorded baseline.
