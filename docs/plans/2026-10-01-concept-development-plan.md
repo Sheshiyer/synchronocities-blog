@@ -106,3 +106,11 @@ Collect these decisions when the corresponding concept is selected; there is no 
 ## Acceptance of this integration
 
 The source-manifest hashes match the carried content; every registry row has a state and next action; the briefs develop real argument arcs; source gaps and author holds are explicit; current editorial planning links here; old work and the private queue remain preserved. Evidence is in [VERIFICATION.md](../editorial/concepts/claude-ideas-2026-09-30/VERIFICATION.md). Root `ISA.md` owns the acceptance criteria. Completing this integration does not complete the manuscripts.
+
+## October 1 continued extraction and outline preparation
+
+The [continuation packet](../editorial/concepts/claude-ideas-2026-09-30/continuation-2026-10-01/ESSAY-OUTLINE.md) develops the Inherited Sandbox/Entrodromia pairing already proposed in intake 05. Its new distinction is inherited coordinates as substrate and revisable remembering as a proposed operation on that substrate. Extraction distinguishes lightly cleaned carried author wording, generated chat reply and new editorial construction. Close reading covers three local neighbouring essays; it does not verify their empirical claims.
+
+The vocabulary/format sheet treats inherited terms and newly proposed roles separately. Language is provisionally interpreted as vocabulary and adaptation planning; translation awaits a specified target. No new calendar slot or queue item follows. The two exposure axes, counter-reading, proposed decision experiment and pending return are explicit. Eleven source hashes match; existing posts and queue are preserved. This is outline preparation, not a completed manuscript or adopted canon.
+
+Next: develop the sandbox draft only after its asynchronous-meaning choice and the companion Entrodromia definition/form choice are resolved, while Gananatha remains first awaiting both longer drafts. Consecration retains its named-source hold. Reversible research and outlining remain authorized.

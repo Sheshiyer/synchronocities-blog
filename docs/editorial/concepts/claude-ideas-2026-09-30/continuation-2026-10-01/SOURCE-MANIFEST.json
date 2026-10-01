@@ -1,0 +1,141 @@
+{
+  "manifest_version": 1,
+  "compiled_at": "2026-10-01",
+  "compiled_from": "docs/editorial/concepts/claude-ideas-2026-09-30/continuation-2026-10-01/",
+  "purpose": "Editorial scaffolding manifest for the Inherited Sandbox / Entrodromia continuation. Records exactly which files were read and at what hash. Not a publication artifact. No queue mutation or public release.",
+  "holds": {
+    "gananatha": "First in grounded voice. Waits for both drafts. This continuation does not advance it.",
+    "consecration": "Waits for the named source. This continuation does not advance it."
+  },
+  "deliverables_in_this_directory": [
+    "EXTRACTION.md",
+    "ESSAY-OUTLINE.md",
+    "LANGUAGE-AND-FORMATS.md",
+    "SOURCE-MANIFEST.json"
+  ],
+  "sources_read": [
+    {
+      "role": "anchor-concept-04",
+      "path": "docs/editorial/concepts/claude-ideas-2026-09-30/sources/intake/04-the-inherited-sandbox.md",
+      "sha256": "49a048d6a5428c965f24f61bd60fdb0385f1412855ca9521319446836dc38ed1",
+      "reading_scope": "entire file, source sections",
+      "notes": "Primary source for the sandbox concept. Thesis quote preserved at source sections. Ledger carried forward with constraints. Proposed frontmatter at source sections treated as proposal only; no date adoption."
+    },
+    {
+      "role": "anchor-concept-05",
+      "path": "docs/editorial/concepts/claude-ideas-2026-09-30/sources/intake/05-entrodromia-all-learning-is-remembering.md",
+      "sha256": "2785c1f631353fa6a316f27a99d969d07e79726ba31906befe697032c32ee12a",
+      "reading_scope": "entire file, source sections",
+      "notes": "Primary source for entrodromia. Thesis at source sections. 'Entrodromic' correction at source sections. Public definition gate open; private _System/entrodromia/ directory NOT accessed by this continuation."
+    },
+    {
+      "role": "method-concept-08D-and-08H",
+      "path": "docs/editorial/concepts/claude-ideas-2026-09-30/sources/intake/08-project-held-dump.md",
+      "sha256": "b00a9a9b3b7e94ca1b09f8ccc03e43c62fe69780e26be82b90052572bf2400ab",
+      "reading_scope": "entire file, source sections; load-bearing entries at source sections (08-D) and source sections (08-H); entries A, B, C, E, F, G, I, J, K read for context only",
+      "notes": "08-D and 08-H treated as governing method rules. Entry 08-E noted as a candidate section for the sandbox essay per the brief; not extracted in detail."
+    },
+    {
+      "role": "constraints-and-exclusions-09",
+      "path": "docs/editorial/concepts/claude-ideas-2026-09-30/sources/intake/09-seeds-and-residue.md",
+      "sha256": "33e10c006d9ba3313781313d64ce49ef43d63fe2dcb5337642fafd907ac234e2",
+      "reading_scope": "entire file, source sections",
+      "notes": "Cited for the Truth-Bomb cut (\u00a74.2) and the Substack-reconciliation note (\u00a72.1). SlickDissident vault-side analyses (\u00a73) and product/tool entries (\u00a75) read for exclusion, not extracted."
+    },
+    {
+      "role": "briefs",
+      "path": "docs/editorial/concepts/claude-ideas-2026-09-30/ARTICLE-BRIEFS.md",
+      "sha256": "2f0965319bc7e701e31bf46700ca38c815c423e653956284ccff452b725577db",
+      "reading_scope": "full index rows 12-13 and 50-53; \u00a704 at source sections; \u00a705 at source sections; \u00a706 opening at source sections for the sandbox cross-reference; final status table rows 659-660",
+      "notes": "Treated as governing editorial brief. Exit conditions preserved. No change to the brief itself proposed."
+    },
+    {
+      "role": "voice",
+      "path": "docs/VOICE.md",
+      "sha256": "8b387b3b560ede95599db17ab13f50a2342ce2ca4f48888db5af261611b5c324",
+      "reading_scope": "entire file, source sections",
+      "notes": "Signal Essay and Field Note contracts observed in LANGUAGE-AND-FORMATS \u00a73.1-3.2. Voice calibration applied in \u00a72."
+    },
+    {
+      "role": "method-reference",
+      "path": ".agents/skills/tryambakam-editorial/references/noesis-writer-meaning.md",
+      "sha256": "6170477cbc5be4515406d3f037a8106f559b9f75bac954dddde2e6edb4de407b",
+      "reading_scope": "entire file, source sections",
+      "notes": "Noesis Writer method applied: encounter loop (source sections), two independent exposure axes (source sections), private brief / meaning-delta record (source sections), repeatable writing method (source sections), review criteria (source sections)."
+    },
+    {
+      "role": "method-reference",
+      "path": ".agents/skills/tryambakam-editorial/references/living-cosmology-context.md",
+      "sha256": "6d5f1af19bb4d53cd90b943af845bb37cd6bbc1201aa2716edae30d428b1ec4d",
+      "reading_scope": "entire file, source sections",
+      "notes": "Treated as personal-context synthesis for the Noesis Writer method. Private source register path at source sections noted but NOT accessed by this continuation."
+    },
+    {
+      "role": "close-read-post",
+      "path": "src/content/posts/the-downstream-mind.md",
+      "sha256": "7a30c2c60bf025ccdc5b80774166c286e09d269dbfbdf83d591eee7a7fab6b5f",
+      "reading_scope": "frontmatter (source sections) and essay body (source sections)",
+      "notes": "Primary content-layer neighbour. Section I and section X close read for authorship-vs-reception argument. easter_eggs block read for vocabulary inheritance. No modification of this post proposed or performed."
+    },
+    {
+      "role": "close-read-post",
+      "path": "src/content/posts/active-inference-prediction-engine.md",
+      "sha256": "b3257bacee3e3e78a64cbf1dcef06705502867baa28f235cd014169f16234d8b",
+      "reading_scope": "entire file, source sections",
+      "notes": "Primary mechanism neighbour. Line 45 and source sections close read for predictive-processing anchor and Quine closing. No modification proposed."
+    },
+    {
+      "role": "close-read-post",
+      "path": "src/content/posts/the-source-code-has-authors.md",
+      "sha256": "f999091e0df74739376bed3f9d7c18f7de82cbd1c70eb3fcb7ee273c2884a304",
+      "reading_scope": "entire file, source sections",
+      "notes": "Interpersonal-scale neighbour. Section 0 (source sections) and \u00a7Structural Point (source sections) close read for the relational-conditions argument that the sandbox essay returns to. No modification proposed."
+    }
+  ],
+  "sources_deliberately_not_read": [
+    {
+      "path": "/Volumes/madara/2026/twc-vault/_System/entrodromia/",
+      "reason": "Private directory. Brief at ARTICLE-BRIEFS.md line 240 and 269 and intake 05 line 48 confirm this directory does not resolve the public-definition gate and must stay out of public prose. Not accessed."
+    },
+    {
+      "path": "~/.codex/editorial/tryambakam/context/living-cosmology-2026-10-01/",
+      "reason": "Private source register path named at living-cosmology-context.md line 69. Private material by design; not accessed."
+    },
+    {
+      "path": "docs/plans/2026-09-30-substack-series-plan.md",
+      "reason": "Named at intake 09 line 46 as a prior session's plan requiring separate reconciliation. Reconciliation is out of scope for this continuation and may belong to the author or a later session. Not read."
+    },
+    {
+      "path": "docs/editorial/substack/",
+      "reason": "Same as above. Not read."
+    },
+    {
+      "path": "twc-vault/03-Resources/Video-Analysis/SlickDissident/",
+      "reason": "Third-party conspiratorial source material named at intake 09 \u00a73. Not relevant to the sandbox/entrodromia continuation. Not read."
+    }
+  ],
+  "non_adoptions": [
+    "No publication date set.",
+    "No queue change proposed.",
+    "No ROADMAP, PLAN, PROJECT, or registry mutation.",
+    "No fabricated lived experience.",
+    "No private personal details copied into any deliverable.",
+    "No manuscript drafted for Gananatha or Consecration.",
+    "The relation between inherited sandbox and entrodromia proposed in EXTRACTION.md \u00a72.4 and ESSAY-OUTLINE.md \u00a75 is this continuation's construction, not adopted canon."
+  ],
+  "verification_commands": [
+    "shasum -a 256 docs/editorial/concepts/claude-ideas-2026-09-30/sources/intake/04-the-inherited-sandbox.md",
+    "shasum -a 256 docs/editorial/concepts/claude-ideas-2026-09-30/sources/intake/05-entrodromia-all-learning-is-remembering.md",
+    "shasum -a 256 docs/editorial/concepts/claude-ideas-2026-09-30/sources/intake/08-project-held-dump.md",
+    "shasum -a 256 docs/editorial/concepts/claude-ideas-2026-09-30/sources/intake/09-seeds-and-residue.md",
+    "shasum -a 256 docs/editorial/concepts/claude-ideas-2026-09-30/ARTICLE-BRIEFS.md",
+    "shasum -a 256 docs/VOICE.md",
+    "shasum -a 256 .agents/skills/tryambakam-editorial/references/noesis-writer-meaning.md",
+    "shasum -a 256 .agents/skills/tryambakam-editorial/references/living-cosmology-context.md",
+    "shasum -a 256 src/content/posts/the-downstream-mind.md",
+    "shasum -a 256 src/content/posts/active-inference-prediction-engine.md",
+    "shasum -a 256 src/content/posts/the-source-code-has-authors.md"
+  ],
+  "producer_attribution": "Routed files observed; wrapper reports missing-session-attribution and UNRESOLVED. No resolved provider/model claim.",
+  "verification_scope": "Source snapshots and local overlap; no external empirical verification, original chat recovery or current public readback."
+}
