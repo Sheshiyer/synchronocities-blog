@@ -2,6 +2,8 @@
 
 This folder carries the actual local intake text and a plan for turning it into articles. Start with [the execution plan](../../../plans/2026-10-01-concept-development-plan.md), then [ARTICLE-BRIEFS.md](ARTICLE-BRIEFS.md) and [registry.json](registry.json). The [source manifest](source-manifest.json) identifies original paths, provenance, byte sizes, and SHA-256 hashes.
 
+**Writer purpose:** these concepts contribute to the author's own evolving cosmology. [Meaning operators](../../../../.agents/skills/tryambakam-editorial/references/noesis-writer-meaning.md) makes original synthesis, two independent exposure axes, differentiation/integration and a returned semantic delta the working method. Source-integrity review supports this construction; conformity to established frameworks is not the writing goal. See [the worked development example](MEANING-EXAMPLE.md).
+
 **Current author decisions:** Gananatha is first and uses grounded blog voice. Its manuscript waits for **both long Claude.ai drafts**. Consecration waits for the **named Āgama/source text**. These holds do not prevent independent outlining and source review of the other concepts.
 
 ## What is here

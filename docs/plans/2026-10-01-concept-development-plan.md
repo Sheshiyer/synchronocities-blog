@@ -2,6 +2,14 @@
 
 Updated 2026-10-01. This is the execution plan for the second-pass Claude intake. Its deliverable is a usable development backlog and briefs; article completion has separate source and author gates. No article is approved for publication by this plan.
 
+## Governing purpose: evolve the author's cosmology
+
+The author's October 1 refinement makes original synthesis the destination of this lane. Follow [Noesis Writer meaning operators](../../.agents/skills/tryambakam-editorial/references/noesis-writer-meaning.md): encounter a topic across **cosmic-to-lived scale** and **familiar-to-unfamiliar exposure**, differentiate what changes, integrate a new relation, and return its contribution to another concept. Both axes were explicitly confirmed as independent. The mean is a situated centre of meaning, not automatic consensus or a compromise.
+
+Each original manuscript carries a private meaning-delta record: what distinction, relation, axiom or operator it adds; which other concept changes as a result; what remains unresolved; and the next inquiry. New constructions may depart from established frameworks. Existing traditions and scientific/mathematical tools can sharpen the work without deciding its cosmology. Factual attribution and source fidelity remain distinct from permission to invent meaning. Proposed updates become adopted canon through the author's decision.
+
+The earlier review is a source-integrity layer, not a conformity-first brief. Unsupported source/mechanism claims can be transformed into explicitly authored cosmological proposals rather than automatically discarded. Keep the public voice inside the inquiry; source and process distinctions belong in natural attribution and private sidecars. Gananatha's and Consecration's explicit source holds remain in force.
+
 ## Start here
 
 Read [the development dossier](../editorial/concepts/claude-ideas-2026-09-30/README.md), [article briefs](../editorial/concepts/claude-ideas-2026-09-30/ARTICLE-BRIEFS.md), and [the registry](../editorial/concepts/claude-ideas-2026-09-30/registry.json). Full carried notes are included locally under `sources/intake/`; chat URLs are provenance only. The unavailable conversations are not reconstructed.

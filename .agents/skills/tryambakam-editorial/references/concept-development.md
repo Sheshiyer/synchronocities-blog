@@ -1,5 +1,7 @@
 # Concept-to-article preparation
 
+**Governing purpose:** read [Noesis Writer meaning operators](noesis-writer-meaning.md). Develop these concepts into the author's own evolving cosmology. Every original article records a new distinction/integration, its present centre of meaning, a cross-system return and an open question. Both exposure axes are independent. Source verification concerns attributed facts; it is not a demand that original cosmological construction conform to existing standards. The detailed contribution prompts are in the dossier's ARTICLE-BRIEFS.md.
+
 The October 1 Claude ideas intake is integrated into the blog's existing editorial planning at `/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/plans/2026-10-01-concept-development-plan.md`.
 
 Its dossier is `/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/concepts/claude-ideas-2026-09-30/`. Read `README.md`, `registry.json`, the selected entry in `ARTICLE-BRIEFS.md`, and its complete source snapshot. The source manifest records SHA-256 and provenance. Chat links are provenance, not recoverable source text.

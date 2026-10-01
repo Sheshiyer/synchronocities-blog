@@ -34,6 +34,30 @@ author_decisions_recorded:
 
 Self-contained editorial development dossier. Every brief carries its source status, the author's thesis *as stated*, a clearly labelled editorial suggestion for refinement, 4–7 numbered argument moves, intended tier and word band, named overlap targets, evidence tasks, open author questions, and exit conditions. Source notes are data for orientation; they are not authority for factual claims.
 
+## Governing direction: authorial cosmology
+
+The October 1 author direction changes the creative destination of every brief. Follow [Noesis Writer meaning operators](../../../../.agents/skills/tryambakam-editorial/references/noesis-writer-meaning.md). Traverse two independent axes—cosmic/systemic to bodily/lived scale, and familiar to unfamiliar/opposing encounter—then differentiate, integrate and return new meaning to the cosmology. The earlier outlines are starting material for this construction; standards and source checks do not delimit the author's possible world.
+
+Each original article must record a semantic delta: a distinction, relation, axiom or operator absent from the source kernel alone. It must show how that contribution changes another concept and what question remains open. The mean is the present centre formed across exposure, not the average truth of competing systems. Authored speculative relations can remain central to a work; their source, status and limits stay traceable outside the flow of the prose. Existing factual corrections and explicit manuscript holds still apply.
+
+The following are **new editorial contribution prompts**, not recovered author canon or required conclusions:
+
+| Brief | Differentiation to explore | Integration to construct | Return into the cosmology |
+|---|---|---|---|
+| 01 Gananatha | Continuity, weighting and understanding perform different work | A threshold that holds movement accountable to meaning | Re-read the Decision Mirror as holding a decision before committing it |
+| 02 Consecration | Ritual presence, repeated attention and instrument configuration have different accounts | A relation between an installed centre and the community that renews it | Ask how the inherited sandbox acquires centres that later feel natural |
+| 03 Clearing | Less urgency and more truth need not coincide | A change in desire as an opening for revaluation, with the body as one encounter | Re-read Self-Worth through what remains valued when pursuit quiets |
+| 04 Inherited Sandbox | Received coordinates and present perception can diverge | Inheritance as a revisable arrangement of time, attention and possibility | Ask how Entrodromia's remembering alters inherited coordinates |
+| 05 Entrodromia | Recovering a pattern and returning unchanged are different | Remembering that revises its own conditions of return | Use this to evolve the initiation rings rather than repeat a fixed cycle |
+| 06 Breath expansion | Traditional carrier language, measured rhythm and felt state are different registers | A feedback relation that makes habitual loops available to attention | Give the Clearing a bodily counter-reading without claiming an identical mechanism |
+| 07 Self-Worth | Dignity, capacity, resources and a chosen aim differ | A capacity-to-act relation oriented by vision without turning wealth into worth | Re-read will/power/meaning through the consequences of a selected aim |
+| 08-A Will/power/meaning | Each lens selects a different account of action | Witnessing as the author's way of changing a relation to motivation | Test what a Decision Mirror must leave open for choice |
+| 08-B Decision Mirror | A temporal register is not a gland, personality type or judgement | Multiple symbolic clocks as a way of holding a decision across scales | Ask how initiation changes the questions visible at each clock |
+| 08-C Completion | Missing knowledge, disagreement and suppression are distinct | Completion as an operation that preserves a question instead of closing explanation | Re-read every bridge for the productive difference it carries forward |
+| 08-I Initiation hub | Routing an archive differs from prescribing a person's progress | A revisitable journey whose encounters change the meaning of earlier rings | Let the hub expose changes in the cosmology across essays |
+
+Before a manuscript is called complete, apply the private meaning-delta record and review method. A supported recap may be useful research; an original cosmology article needs a consequence of its own.
+
 'Not on blog' below means no dedicated treatment was identified by the intake and bounded local keyword review. It is provisional until related posts receive close reading; live publication and remote history were not checked. VA identifiers are reading labels: VA-01–06 map respectively to registry IDs `09-3-houdini`, `09-3-marvel`, `09-3-fool`, `09-3-iron-man`, `09-3-72`, `09-3-events`.
 
 ---
