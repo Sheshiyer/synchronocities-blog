@@ -1,0 +1,26 @@
+[
+  {
+    "schema": "antahkarana-claim.v1",
+    "claim_id": "c-safe",
+    "task_id": "t-safe",
+    "issue": {
+      "repository": "safe/repo",
+      "issue_id": 48
+    },
+    "executor": {
+      "id": "builder",
+      "adapter": "codex"
+    },
+    "route": {
+      "provider": "local",
+      "model": "synthetic"
+    },
+    "claimed_at": "2026-10-01T00:00:00Z",
+    "expires_at": "2026-10-03T00:00:00Z",
+    "head": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "server_metadata": {
+      "server_timestamp": "2026-10-01T00:00:00Z",
+      "comment_id": 123
+    }
+  }
+]

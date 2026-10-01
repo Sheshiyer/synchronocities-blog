@@ -1,0 +1,13 @@
+{
+  "description": "Resolved provider. UNRESOLVED if attribution is unavailable.",
+  "oneOf": [
+    {
+      "type": "string",
+      "minLength": 1
+    },
+    {
+      "type": "string",
+      "const": "UNRESOLVED"
+    }
+  ]
+}

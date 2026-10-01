@@ -1,0 +1,55 @@
+{
+  "claims_source_sha256": "2d7e25b90ce3cd62907888556d5fdab7eabc4a69a471342afb02080638edefc5",
+  "validator": "jsonschema 4.26.0",
+  "commands": {
+    "baseline": [
+      "node",
+      "/tmp/antahkarana-delegation-48/scripts/check-delegation-claims.mjs",
+      "--claims",
+      "/tmp/noesis-delegation-independent-2026-10-02/claims.json",
+      "--now",
+      "2026-10-02T00:00:00Z"
+    ],
+    "forged_terminal": [
+      "node",
+      "/tmp/antahkarana-delegation-48/scripts/check-delegation-claims.mjs",
+      "--claims",
+      "/tmp/noesis-delegation-independent-2026-10-02/claims.json",
+      "--now",
+      "2026-10-02T00:00:00Z",
+      "--receipts",
+      "/tmp/noesis-delegation-independent-2026-10-02/forged-terminal.json"
+    ]
+  },
+  "results": {
+    "baseline": {
+      "exit": 0,
+      "ok": true,
+      "winner": "c-safe",
+      "active_count": 1,
+      "errors": []
+    },
+    "forged_terminal": {
+      "exit": 0,
+      "ok": true,
+      "winner": null,
+      "active_count": 0,
+      "errors": []
+    },
+    "schema_provider": {
+      "value": "UNRESOLVED",
+      "valid": false,
+      "errors": [
+        "'UNRESOLVED' is valid under each of {'type': 'string', 'const': 'UNRESOLVED'}, {'type': 'string', 'minLength': 1}"
+      ]
+    },
+    "schema_model": {
+      "value": "UNRESOLVED",
+      "valid": false,
+      "errors": [
+        "'UNRESOLVED' is valid under each of {'type': 'string', 'const': 'UNRESOLVED'}, {'type': 'string', 'minLength': 1}"
+      ]
+    }
+  },
+  "schema_source_sha256": "eb6ea700726471f11feca0b039f463fa3b264e9819c49c16b3d500cfd35bd1f8"
+}
