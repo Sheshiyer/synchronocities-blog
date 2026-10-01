@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-01T16:02:38.322915+00:00",
+  "source_thread": "01a0f425-7772-7e71-9923-489363d0ff47",
+  "destination_thread": "01a0f82e-f890-72f0-ace5-1b0f2ee84628",
+  "original_handoff_sha256": "9b56f4e6043d6cded090ab3e49204fabc3f5cc009dbec06284dab0e4340bc68a",
+  "archive": "mixed-session-handoff.json",
+  "restored_pilot_equal_to_commit": "0a3d0f0",
+  "snow_changed_paths": [
+    ".planning/HANDOFF.json"
+  ],
+  "preserved_axtech_files_sha256": {
+    ".planning/EDITORIAL-INTEGRATION-HANDOFF.json": "96269f5e382aa310bb26a5d4943fcf3a0ca4be5c3afad841dbad04797661f4e2",
+    "docs/EDITORIAL-ORG-INTEGRATION.md": "f784f0d011e691adfaaba70cef7f46a6edc1095e47064b757eb2d8c78fd7e7e0",
+    "docs/PORTFOLIO-ORG-MAP.md": "f688005e37ea45310b0d6516e65da3c66f91660699876803ac401333b7e1f456",
+    "specs/006-editorial-steward-integration/organization.json": "627939284c2f2e5e60a296a72f1cac44fdfaa7c310090eb95a53a3cac2f93ddb",
+    "specs/006-editorial-steward-integration/plan.md": "c1d29a77ae4a4632f56427c13808fa9ff167f50e7dc83a9903e925b15daaabe2",
+    "specs/006-editorial-steward-integration/portfolio-map-proposal.json": "03aa0546fb21b08c0a3492806d342491552d7e0defa657520c1a88cac0402912",
+    "specs/006-editorial-steward-integration/readiness.json": "a9a7b6f9ab88a3fee676fada7cc5ccc14583de02416af8b8e9c24db7c3ec7468",
+    "specs/006-editorial-steward-integration/spec.md": "5123bb2ea09358bfe8a9f401672ae551a182f84aefd69218db11f3836e086dfb",
+    "specs/006-editorial-steward-integration/tasks.md": "3982dcc96b3e72f264af41427403d3868df7036571808a9c9f1be850da9189f5"
+  },
+  "history_policy": "Restore current files with an additive commit; retain prior Git commits and chat history.",
+  "live_actions": "None; queue, schedules, runtime pointers and external profiles unchanged.",
+  "snow_restoration_commit": "b76f82982143e2ea57e0cc3db8b80511c9d24d47",
+  "checks": "Archive hash, pilot semantic equality, nine Axtech hashes, canonical references, plan links, queue hash and diff whitespace pass."
+}
