@@ -44,9 +44,10 @@ Registry strand assignments are primary routing choices; a brief may connect to 
 | 2 | Clearing | Primary physiology review plus title/coda choices | One 1,500–3,500-word framework draft with bounded mechanism claims |
 | 3 | Inherited Sandbox + Entrodromia | Author confirms each outline and defines Entrodromia | Anchor outline → signal essay; companion form chosen without invented experience |
 | 4 | Self-Worth + witness/power/meaning | Author confirms scope and metaphor boundaries | Two distinct outline-led arguments, or a consciously merged essay |
-| 5 | Decision Mirror + initiation hub | Read project documents, verify units, confirm article scope | Symbolic framework plus routing hub; no engine availability claim |
-| 6 | Consecration | Named Āgama/source supplied and scope clarified | Tradition-led framework; numerical correlation retained only if warranted |
-| 7 | Six video candidates | Original video/transcript and independent relevant sources reviewed | One original cultural essay at a time; current-events item remains parked |
+| 5 | Completion over conspiracy | Select a concrete sourced case; confirm scope | Signal essay distinguishing inference, omission and documented suppression |
+| 6 | Decision Mirror + initiation hub | Read project documents, verify units, confirm article scope | Symbolic framework plus routing hub; no engine availability claim |
+| 7 | Consecration | Named Āgama/source supplied and scope clarified | Tradition-led framework; numerical correlation retained only if warranted |
+| 8 | Six video candidates | Original video/transcript and independent relevant sources reviewed | One original cultural essay at a time; current-events item remains parked |
 | Separate | Breath expansion | Author selects this existing-post revision | Patch in a scratch copy; before/after prose and metadata reviewed before application |
 | Separate | Downstream Mind distribution | Full essay read; remote/history overlap checked | Complete thread, Substack teaser, Medium adaptation; each independent draft |
 
