@@ -1,72 +1,65 @@
 # synchronocities-blog — Project Status
 
-> Manually verified 2026-09-12 by a deep infra pass (Cloudflare account, live HTTP probes,
-> DNS, Vercel account). Supersedes the 2026-07-28 auto-generated snapshot — do not
-> regenerate over this without re-running the checks in `docs/INFRA.md`.
+> Updated 2026-09-12 after reconciling GitHub issues, historical plans, and the
+> live tree at `5986f6e`. Full infra evidence: [`docs/INFRA.md`](docs/INFRA.md).
+> Live execution queue: [`docs/plans/2026-09-12-pending-work.md`](docs/plans/2026-09-12-pending-work.md).
 
-## 🔗 Links
+## Links
 
 - **Agent context:** [`AGENTS.md`](AGENTS.md)
 - **Infrastructure map:** [`docs/INFRA.md`](docs/INFRA.md)
 - **Live site:** https://synchronocities.tryambakam.space
 - **Live AI worker:** https://synchronocities-ai.tryambakam.space
-- **GitHub repo (referenced, not connected):** https://github.com/Sheshiyer/synchronocities-blog
+- **GitHub:** https://github.com/Sheshiyer/synchronocities-blog
 
-## 📍 Where the project is at (git state)
+## Git state
 
-- **Branch:** `main`
-- **History:** one empty `2081568 Initial commit` — **0 tracked files, 21 untracked
-  top-level entries.** The working tree has never been committed.
-- **Remote:** **none configured.** All three GitHub Actions workflows are therefore inert.
-- **Package:** `synchronocities-blog` (node, engines `>=22.12.0`)
+- **Branch:** `main` @ `5986f6e`, tracking `origin/main`, working tree clean.
+- **Remote:** `origin` → `https://github.com/Sheshiyer/synchronocities-blog.git`
+- **CI:** four workflows. Daily probe and weekly audit have been running on the remote all along.
 
-## 🚦 Deployment truth
+## Deployment truth
 
 | Unit | Where | State |
 |---|---|---|
-| `synchronocities-site` (Astro) | Workers Static Assets, zone `tryambakam.space` | ✅ live at synchronocities.tryambakam.space — deployed 2026-09-12, **by hand** (no workflow) |
-| `synchronocities-ai` Worker | Cloudflare acct `9d9d23b2…c0f10` | ✅ live at synchronocities-ai.tryambakam.space + `*.workers.dev`; redeployed 2026-09-12 (picked up the Jul 23 → Aug 7 delta) |
-| Vectorize `synchronocities-corpus` | Cloudflare | 1024-d cosine, 28,290 vectors, last mutation 2026-07-22 — **orphaned** (see blockers) |
-| R2 `synchronocities-artifacts` | Cloudflare | live; serves the cached cluster artifact |
+| `synchronocities-site` (Astro) | Workers Static Assets, zone `tryambakam.space` | live at synchronocities.tryambakam.space; workflow `synchronocities-site-deploy.yml` |
+| `synchronocities-ai` Worker | Cloudflare acct `9d9d23b2…c0f10` | live at synchronocities-ai.tryambakam.space + `*.workers.dev` |
+| Vectorize `synchronocities-corpus` | Cloudflare | 1024-d cosine; blog reindexed on Qwen3 (v5); vault reindex still running |
+| R2 `synchronocities-artifacts` | Cloudflare | live; `clusters-v5.json` is blog-scoped (126 posts, k=12) |
 | KV `SYNCHRONOCITIES_CACHE` | Cloudflare | live (`5e7bd812…aa88`) |
 
-## 🟢 Recently resolved (2026-09-12)
+## Recently resolved (2026-09-12)
 
-1. **Embedding model EOL** — `nv-embedqa-e5-v5` retired 2026-08-25. Embeddings moved to
-   Nebius (`Qwen3-Embedding-8B` @ 1024-d). `/search` and `/chat` restored.
-2. **Rerank model unreachable** — `nemotron-mini-4b-instruct` gone; rerank was failing
-   open. Moved to Nebius `Qwen3-30B-A3B-Instruct-2507`.
-3. **Git detached from origin** — the local repo had been re-initialized with an empty
-   commit and no remote. Reattached to the real 294-commit history and pushed. CI itself
-   was never broken.
-4. **Vault chunks leaking into blog surfaces** — `source_type` metadata index + filters
-   on `/related` and `/maps`.
-5. **Site had no deploy pipeline**, and the Worker's CI gate silently skipped real
-   deploys. Both fixed.
+1. Embeddings and rerank moved off dead NIM models onto Nebius. `/search` and `/chat` restored.
+2. Local git reattached to the real remote history and pushed. CI was never actually broken.
+3. `source_type` filters on `/related` and `/maps`; cluster artifact rebuilt blog-only.
+4. Site deploy workflow added; AI Worker change-detection fixed to diff the whole push range.
 
-## 🟠 In flight
+## In flight
 
-- **Vault reindex** (~28,290 chunks, ~6h at ~1.4/sec) — `workers/.vault-reindex-v5.log`.
-  Idempotent and resumable. Until it finishes, `/search` and `/chat` mix fresh blog
-  vectors with stale vault ones.
+- **Vault reindex v5** — `workers/.vault-reindex-v5.log`. `02-Areas` finished (2,876 emitted, 0 errors); `03-Resources` in progress (~3,692 chunks embedded when last read). Until it finishes, unfiltered `/search` and `/chat` mix fresh blog vectors with stale vault ones.
 
-## ✅ Suggested next actions
+## Live queue (see the 2026-09-12 plan)
 
-- [x] ~~Stand up a host for the Astro build and point DNS at it~~ — done 2026-09-12 (Workers Static Assets + custom domain)
-- [x] ~~Deploy the 2026-07-23 → 2026-08-07 Worker delta~~ — done 2026-09-12
-- [ ] Commit the working tree and attach a git remote, then push (unblocks CI + the daily model probe)
-- [ ] Choose a ≤1536-d embedding model (or a new index at the replacement's native width) and reindex
-- [ ] Add `src/pages/404.astro`, then flip `not_found_handling` to `"404-page"`
-- [ ] Decide the Cloudflare Managed robots.txt question (it blocks the AI crawlers `llms.txt` targets)
-- [ ] Add a deploy workflow for `synchronocities-site`
-- [ ] Filter `/related` and `/maps` by `source_type` so vault chunks stop leaking into blog surfaces
+1. Let the vault reindex finish. Do not start a second one.
+2. ~~GitHub hygiene~~ — done 2026-09-12. Milestone [#5](https://github.com/Sheshiyer/synchronocities-blog/milestone/5), 34 open issues all on it; 14 false-closed expansions reopened; #201–#210 closed as duplicates.
+3. Expansion tooling #243 / #245 before the next auto-expand loop.
+4. `404.astro` + `not_found_handling: "404-page"`.
+5. Decide Cloudflare Managed robots.txt vs `llms.txt`.
+6. Voice review of the 12 Qwen3 Drift posts.
+7. Remaining 4× expansions (epic #242), one post per session, via `/expand/v2`.
+8. Optional: move `tryambakam.com` nameservers to Cloudflare.
 
-## 🧠 Agent context
+## What is *not* pending
 
-`AGENTS.md` exists at the repo root. `.cursor/rules/codegraph.mdc` configures CodeGraph MCP
-for structural search.
+- Non-card article engine, Downstream Mind pilot, `/start.txt` / `llms*` surfaces — shipped (milestone #4 closed).
+- `/journeys` travelogue-only cleanup — shipped (`tasks/todo.md`).
+- Historical March–May plans in `docs/plans/` — history, not the board.
+- `_processing/the-body-is-the-first-country-*` — staging residue; the post is already published. The leftover v2.4 patch does not apply cleanly.
 
-## ♻️ PAI workflow state
+## GitHub snapshot (2026-09-12, after hygiene)
 
-No PAI artifacts (`.prd/`, `.planning/`, `MEMORY/WORK/`). The last closed task loop is
-recorded in `tasks/todo.md` (`/journeys` travelogue reprioritization).
+- Open issues: **34**, all on milestone [#5 Corpus + edge leftovers](https://github.com/Sheshiyer/synchronocities-blog/milestone/5). Open PRs: **0**.
+- Epic still open: [#242](https://github.com/Sheshiyer/synchronocities-blog/issues/242) (annotated).
+- Draft intake leftovers #201–#210: **closed as duplicate**.
+- 14 expansions previously closed without meeting word targets: **reopened**.

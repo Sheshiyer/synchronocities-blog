@@ -165,8 +165,9 @@ Node `>=22.12.0`. Vite cache errors after edits → `rm -rf node_modules/.vite`.
   it and its `max-age` wins.
 - **Never deploy speculatively.** Both Workers are live and the backend is mid-incident.
 - **Never rewrite the Vectorize index or R2 artifacts speculatively.** A reindex is
-  ~28k vectors and costs real NIM calls; `/maps/cluster` currently serves a cached R2
-  artifact that is the *only* working discovery surface.
+  ~28k vectors and costs real provider calls. `/maps/cluster` serves
+  `clusters-v{CORPUS_VERSION}.json` from R2 — bumping the version 404s `/maps` until
+  that artifact is rebuilt.
 - **Match KV bindings by id, not title.** This Cloudflare account is shared across many
   projects. There is an unrelated namespace literally titled `CACHE`
   (`d5aa9b42b2f948bfa59143d5a56ea58b`). The synchronocities one is titled
@@ -175,24 +176,28 @@ Node `>=22.12.0`. Vite cache errors after edits → `rm -rf node_modules/.vite`.
 - **Secrets** — `NVIDIA_API_KEY` and `ADMIN_API_KEY` are Worker Secrets, set via
   `wrangler secret put`, never in the repo. `workers/.env` and `workers/.dev.vars` hold a
   local `ADMIN_API_KEY` and are confirmed git-ignored. Don't print, echo, or commit them.
-- **Don't claim the site is live.** Until DNS and a host exist, "deployed" means the
-  Worker only.
-- **Ordering** — restoring the git remote (blocker 2) should precede the embed-model fix
-  (blocker 1). Without a remote, the daily catalog probe still can't warn you the next
-  time a model retires.
+- **Canonical host is live:** `https://synchronocities.tryambakam.space`. The `.com` is
+  still on GoDaddy and cannot bind a Workers custom domain until its nameservers move.
+- **Do not start a second vault reindex** while `workers/.vault-reindex-v5.log` is still
+  running. The indexer is idempotent; concurrent runs are not.
 
 ---
 
 ## Open threads
 
+Live queue with evidence: [`docs/plans/2026-09-12-pending-work.md`](docs/plans/2026-09-12-pending-work.md).
+
 | # | Thread | Blocking |
 |---|---|---|
 | 1 | Let the vault reindex finish (`workers/.vault-reindex-v5.log`) — until then `/search` and `/chat` mix fresh blog vectors with stale vault ones | retrieval quality |
-| 2 | Review the 12 posts the recalibrated vectorizer flags as Drift — they are the technical/bioelectric essays | voice consistency |
-| 3 | Add a `404.astro`, then flip `not_found_handling` to `"404-page"` in `wrangler.jsonc` | misses return a bare CF 404 |
-| 4 | Decide the Cloudflare **Managed robots.txt** question — it `Disallow: /`s GPTBot, ClaudeBot, CCBot and friends at zone level, which contradicts shipping `llms.txt` | LLM discoverability |
-| 5 | Filter `/related` and `/maps` by `source_type` so vault chunks stop leaking into blog-facing surfaces | discovery UX |
-| 6 | Add a deploy workflow for `synchronocities-site` (currently hand-deployed) | release repeatability |
-| 7 | Optional: move `tryambakam.com` nameservers to Cloudflare to reclaim the `.com` canonical | branding |
+| 2 | ~~GitHub hygiene~~ — done 2026-09-12. Milestone [#5](https://github.com/Sheshiyer/synchronocities-blog/milestone/5), 34 open issues, 14 false-closed expansions reopened, #201–#210 closed as duplicates | tracking truth |
+| 3 | Expansion tooling #243 (retry) and #245 (per-post 4× threshold) before the next auto-expand loop | content pipeline |
+| 4 | Review the 12 posts the Qwen3 vectorizer flags as Drift — technical/bioelectric essays | voice consistency |
+| 5 | Add a `404.astro`, then flip `not_found_handling` to `"404-page"` in `wrangler.jsonc` | misses return a bare CF 404 |
+| 6 | Decide the Cloudflare **Managed robots.txt** question — it `Disallow: /`s GPTBot, ClaudeBot, CCBot and friends at zone level, which contradicts shipping `llms.txt` | LLM discoverability |
+| 7 | Remaining 4× expansions (epic #242), one post per session, via `/expand/v2` — none of the 30 are at target | corpus depth |
+| 8 | Optional: move `tryambakam.com` nameservers to Cloudflare to reclaim the `.com` canonical | branding |
 
-Detail, evidence, and re-verification commands for each: `docs/INFRA.md`.
+Resolved 2026-09-12 and dropped from the live queue: `source_type` filters on `/related` and `/maps`; `synchronocities-site-deploy.yml`.
+
+Detail, evidence, and re-verification commands for each infra item: `docs/INFRA.md`.

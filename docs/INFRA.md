@@ -298,22 +298,22 @@ cd workers && bun scripts/assert-models-reachable.ts --warn # report only
 
 ---
 
-## 5. CI/CD — present but inert
+## 5. CI/CD — live
 
-Three workflows in `.github/workflows/`, none of which can fire (no remote):
+Four workflows in `.github/workflows/`. The remote is connected; they fire.
 
 | Workflow | Trigger | Does |
 |---|---|---|
-| `synchronocities-ai-deploy.yml` | push to `main` touching `workers/**` or `src/content/posts/**` | `wrangler deploy`, then `index-corpus.ts` reindex |
-| `probe-catalog-daily.yml` | cron `0 4 * * *` | probes the NIM catalog, commits snapshots with `[skip ci]` |
+| `synchronocities-site-deploy.yml` | push to `main` touching `src/**`, `public/**`, site config | `npm run build` then `wrangler deploy` (root `wrangler.jsonc`) |
+| `synchronocities-ai-deploy.yml` | push to `main` touching `workers/**` or `src/content/posts/**` | `wrangler deploy --config ./wrangler.toml`, then `index-corpus.ts` reindex. Change detection diffs the whole push range, not just `head_commit`. |
+| `probe-catalog-daily.yml` | cron `0 4 * * *` | probes the NIM catalog, commits snapshots with `[skip ci]`, then `assert-models-reachable.ts` |
 | `weekly-audit.yml` | cron `17 3 * * 1` | 7-dimension quality audit + bounded fix stage, same-or-better gate |
 
 Required secrets: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ADMIN_API_KEY`, and
-optional `NVIDIA_API_KEY`. Note **none of them deploys the site** — `synchronocities-site`
-has no workflow yet and is currently deployed by hand.
+optional `NVIDIA_API_KEY`.
 
-Local `.reachable-models.txt` / `.catalog-probe.md` snapshot is dated **2026-07-22** —
-7 weeks stale, predating the e5-v5 EOL.
+Live execution queue (GitHub issues + leftover product work):
+[`docs/plans/2026-09-12-pending-work.md`](plans/2026-09-12-pending-work.md).
 
 ---
 
@@ -328,13 +328,13 @@ Local `.reachable-models.txt` / `.catalog-probe.md` snapshot is dated **2026-07-
 | `docs/quality-dashboard.md` | Generated audit dashboard | 2026-08-07 — 125 posts, 25 PASS / 100 WARN / 0 FAIL |
 | `docs/ci-audit-report.json` · `ci-audit-history.jsonl` | Audit artifacts | 2026-08-07 |
 | `docs/semantic-similarity-report.json` | Local QA similarity scores | 2026-07-21 |
-| `docs/plans/*.md` | 10 dated design/execution plans | historical |
+| `docs/plans/*.md` | Dated design/execution plans | March–May historical; **live queue is `2026-09-12-pending-work.md`** |
 | `workers/README.md` | Worker architecture, model + route tables, auth | model table flagged (EOL) |
 | `quality-engine/` | Nigredo/Albedo/Rubedo audit engine | 2026-07/08 |
-| `_PROJECT-STATUS.md` | Project snapshot | current |
-| `plan.md` | Cosmology/Noesis-writer plan | brand-level |
-| `tasks/todo.md` · `lessons.md` | Last closed task loop | closed |
-| `_processing/` | Staging for `propose-processing-import.ts` | working set |
+| `_PROJECT-STATUS.md` | Project snapshot | current (rewritten 2026-09-12) |
+| `plan.md` | Cosmology/Noesis-writer plan | brand-level, not this repo's board |
+| `tasks/todo.md` · `lessons.md` | Live queue prepended 2026-09-12; rest is closed April work | mixed |
+| `_processing/` | Staging residue for `the-body-is-the-first-country` (already published) | leftover |
 
 ---
 

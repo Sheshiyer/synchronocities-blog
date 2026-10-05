@@ -1,3 +1,27 @@
+# Pending Work — 2026-09-12
+
+Canonical plan: [`docs/plans/2026-09-12-pending-work.md`](../docs/plans/2026-09-12-pending-work.md).
+Status snapshot: [`_PROJECT-STATUS.md`](../_PROJECT-STATUS.md).
+
+Everything below this heading in this file is **closed historical work** (April 2026).
+Do not treat those checked boxes as the live board.
+
+## Current queue
+
+- [x] 9. Claude ideas integration: both passes reconciled; 53 registry rows, eleven briefs, six video assessments and source/verification receipts connected to the existing calendar. See `docs/plans/2026-10-01-concept-development-plan.md`. Local preparation complete. Future manuscripts remain pending: Gananatha first after both long drafts; Consecration after the named Āgama/source.
+
+- [ ] 0. Let vault reindex v5 finish (`workers/.vault-reindex-v5.log`). Do not start a second run.
+- [x] 1. GitHub hygiene: milestone [#5](https://github.com/Sheshiyer/synchronocities-blog/milestone/5) created; 14 false-closed expansions reopened; #201–#210 closed as duplicates; #242 annotated. Proved 2026-09-12: 34 open issues, all on milestone 5.
+- [ ] 2. Expansion tooling: #243 auto-retry + #245 per-post threshold (flat 4000w still in `expand-posts.ts` / `expand-v2-posts.ts`).
+- [ ] 3. `src/pages/404.astro` + `not_found_handling: "404-page"`.
+- [ ] 4. Decide Cloudflare Managed robots.txt vs `llms.txt`.
+- [ ] 5. Voice-review the 12 Qwen3 Drift posts before expanding any of them.
+- [ ] 6. Remaining 4× expansions under epic #242, one post per session, via `/expand/v2`.
+- [ ] 7. Optional: move `tryambakam.com` NS to Cloudflare.
+- [ ] 8. Archive `_processing/the-body-is-the-first-country-*` once the published essay is confirmed (v2.4 patch no longer applies).
+
+---
+
 # Journeys Travelogue Reprioritization
 
 ## Discovery Summary
@@ -528,3 +552,13 @@
   - alternate-route proof:
     - `dist/research/index.html` still contains `consciousness-architecture-hub`, `lorenz-kundli-system-index`, and `lorenz-kundli-pattern-hub`
     - `dist/journeys/index.html` still contains all four doc-like nodes, so they remain reachable through the other archive surfaces
+
+## Living cosmology writer — October 1
+
+- [x] Review Occultured Fool and selected Entrodromia personal context; preserve source depth and privacy.
+- [x] Install lived encounter, expression, action, consequence and revision within the two-axis meaning method.
+- [x] Connect concept briefs and plan; anchor worked example in an existing edited journey record.
+- [x] Verify installed reference parity and unchanged queue, posts and source snapshots.
+- [ ] Receive both Gananatha long drafts before its grounded-voice manuscript.
+- [ ] Receive named Āgama/source before Consecration.
+- [ ] Record later lived returns when supplied; adopted cosmology and manuscript completion remain author-led.

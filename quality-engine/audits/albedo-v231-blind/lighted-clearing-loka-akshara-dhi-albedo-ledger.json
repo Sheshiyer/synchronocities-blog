@@ -1,0 +1,670 @@
+{
+  "schema_version": "2.3",
+  "ledger_state": "RECERTIFIED",
+  "post": "lighted-clearing-loka-akshara-dhi.md",
+  "source_path": "src/content/posts/lighted-clearing-loka-akshara-dhi.md",
+  "source_sha256": "15d2df210f39fe87d1105fac6075ad1c437140db9992cea9da554aa11d9ddfbe",
+  "legacy_audit_path": "quality-engine/audits/nigredo/lighted-clearing-loka-akshara-dhi.md-nigredo-audit.md",
+  "claims": [
+    {
+      "id": "C001",
+      "anchor": {
+        "line_start": 118,
+        "line_end": 118,
+        "quote": "The sequence is not a secret doctrine hidden inside the words. It is a way of placing them where they can illuminate one another."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The opening thesis is explicitly marked as an interpretation and bounded by the distinct histories of the Sanskrit terms that follow.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "A world is not first a globe, a map, or a container.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "New source-grounded synthesis; no historical audit existed for this new post."
+      }
+    },
+    {
+      "id": "C002",
+      "anchor": {
+        "line_start": 124,
+        "line_end": 124,
+        "quote": "Sanskrit *loka* can name free space, place, region, world, or the people who inhabit it."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The lexical range is sourced to Sanskrit dictionaries and Gonda is named in the same paragraph and Sources section.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "Sanskrit lexicons give loka a wide range",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Traditional and historical lexical claim; public source link supplied."
+      }
+    },
+    {
+      "id": "C003",
+      "anchor": {
+        "line_start": 138,
+        "line_end": 138,
+        "quote": "Pāṇini’s *Aṣṭādhyāyī* begins its technical designation of verbal roots with *bhūvādayo dhātavaḥ*"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The exact rule and primary-text link appear in the Sources section; the sentence limits the claim to grammatical designation.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "bhūvādayo dhātavaḥ",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Traditional grammatical claim with adjacent scope correction."
+      }
+    },
+    {
+      "id": "C004",
+      "anchor": {
+        "line_start": 142,
+        "line_end": 142,
+        "quote": "The *Taittirīya Upaniṣad* gives *bhūr*, *bhuvaḥ*, and *suvaḥ* as the three *vyāhṛtis*"
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The Shiksha Valli source directly supplies these identifications and additional correspondences; the essay reports rather than universalizes them.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "bhūr, bhuvaḥ, and suvaḥ",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Traditional source claim with primary-text citation."
+      }
+    },
+    {
+      "id": "C005",
+      "anchor": {
+        "line_start": 152,
+        "line_end": 152,
+        "quote": "*Ākāra* is form, figure, outward shape. *Sākṣātkāra* is immediate encounter"
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The lexical claim is bounded as common usage and paired with a note that technical weight differs across contexts.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "Ākāra commonly means form",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": false,
+        "note": "Lexical claim qualified for context variation."
+      }
+    },
+    {
+      "id": "C006",
+      "anchor": {
+        "line_start": 170,
+        "line_end": 170,
+        "quote": "The word *akṣara* carries its answer inside the fracture. It can mean a letter or syllable. It can also mean imperishable."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The essay names the grammatical tradition and cites primary and lexical sources; it does not treat the etymology as an empirical mechanism.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "It can mean a letter or syllable, and it can mean imperishable.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Lexical and traditional claim with sources supplied."
+      }
+    },
+    {
+      "id": "C007",
+      "anchor": {
+        "line_start": 170,
+        "line_end": 170,
+        "quote": "The *Muṇḍaka Upaniṣad* lets the world arise from the Imperishable; the *Bṛhadāraṇyaka Upaniṣad* describes space as woven upon it."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "Both texts are named and linked in the Sources section; the immediately following sentence explicitly separates traditional teaching from laboratory conclusion.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "world arises from the Imperishable",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Traditional source claims framed as teachings rather than empirical facts."
+      }
+    },
+    {
+      "id": "C008",
+      "anchor": {
+        "line_start": 189,
+        "line_end": 189,
+        "quote": "The familiar *oṃ bhūr bhuvaḥ svaḥ* belongs to the later recitational frame, not to the wording of the Ṛgvedic verse."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The linked Rigvedic source displays the verse without the prefix, while the Taittiriya source provides the later vyahriti context.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "absent from the Ṛgvedic verse itself",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Primary-source comparison supports the historical distinction."
+      }
+    },
+    {
+      "id": "C009",
+      "anchor": {
+        "line_start": 202,
+        "line_end": 202,
+        "quote": "The mantra does not ask for more symbols. It asks that seeing survive the symbol."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The five-part contemporary reading is explicitly identified as a limited reading and separated from final or exhaustive meaning.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "The mantra can be approached as a sequence of attention",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Derived interpretive move marked transparently in public prose."
+      }
+    },
+    {
+      "id": "C010",
+      "anchor": {
+        "line_start": 212,
+        "line_end": 212,
+        "quote": "The *Taittirīya Upaniṣad* opens its lesson on śikṣā with six coordinated dimensions: *varṇa*, *svara*, *mātrā*, *bala*, *sāma*, *santāna*."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The six-part śikṣā list is quoted from a named Upaniṣadic source and the prose explicitly limits the English glosses rather than universalizing them.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "varṇa, svara, mātrā, bala, sāma, and santāna",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Traditional phonetics claim with direct primary-source citation."
+      }
+    },
+    {
+      "id": "C011",
+      "anchor": {
+        "line_start": 218,
+        "line_end": 218,
+        "quote": "Vedic *svara* is primarily tonal, not a synonym for stress. The syllable is the tone-bearing unit in current phonological analysis."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The wording tracks Ryan's current phonological analysis and the source list names the work; tradition-specific realization is qualified in the same paragraph.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "tone-bearing unit is the syllable",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Current scholarship is attributed and bounded from living performance evidence."
+      }
+    },
+    {
+      "id": "C012",
+      "anchor": {
+        "line_start": 220,
+        "line_end": 220,
+        "quote": "Now the curve can be written without pretending the writing is the curve."
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "The state vector and residual are explicitly introduced as a contemporary measurement model; their variables are defined, and the model makes no efficacy claim beyond fit to a declared reference.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "xₙ = (vₙ, pₙ(τ), dₙ, bₙ, sₙ(ω), jₙ)",
+        "type": "math",
+        "verdict": "pass — safe harbor",
+        "load_bearing": true,
+        "note": "New bounded house model with every coordinate and consequence defined."
+      }
+    },
+    {
+      "id": "C013",
+      "anchor": {
+        "line_start": 262,
+        "line_end": 262,
+        "quote": "The preserved Ṛgvedic verse is commonly counted as a nicṛd Gāyatrī of twenty-three syllables: the first pāda is short."
+      },
+      "claim_mode": "HISTORICAL-CLAIM",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The primary verse is linked and the text distinguishes the preserved 23-syllable wording from the vareṇiyam restoration used to supply a 24-position rendering.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "nicṛd Gāyatrī of twenty-three syllables",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Metrical irregularity and restoration are kept in distinct provenance registers."
+      }
+    },
+    {
+      "id": "C014",
+      "anchor": {
+        "line_start": 270,
+        "line_end": 270,
+        "quote": "Seventy-three is an integer. The complex phase returns exactly."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "VERIFIED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "LOAD-BEARING",
+        "load_bearing": true,
+        "locks": {
+          "correctness": "PASS",
+          "consequence": "PASS",
+          "provenance": "PASS"
+        },
+        "evidence_eligible": true
+      },
+      "rationale": "Substitution gives 3·3 + 8·8 = 73, and exp(i·73·2π) = 1; the section correctly separates this phase return from winding count and rejects the unsupported homology claim.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "the complex phase returns exactly",
+        "type": "math",
+        "verdict": "pass — safe harbor",
+        "load_bearing": true,
+        "note": "The supplied non-return claim is explicitly corrected by elementary phase arithmetic."
+      }
+    },
+    {
+      "id": "C015",
+      "anchor": {
+        "line_start": 280,
+        "line_end": 280,
+        "quote": "It does not turn the chant into a quantum state, `|Ψ|²` into witness density, or listening into collapse."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The complex field is explicitly declared a visualization, its amplitude and phase are assigned modeller-defined meanings, and quantum probability or collapse claims are denied.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "not a quantum wave function",
+        "type": "math",
+        "verdict": "Pass — §5 safe harbor (declared analogy)",
+        "load_bearing": false,
+        "note": "Analogy boundary is stated at the exact point where quantum vocabulary could otherwise mislead."
+      }
+    },
+    {
+      "id": "C016",
+      "anchor": {
+        "line_start": 296,
+        "line_end": 296,
+        "quote": "The comparison to checksums is modern, but the discipline is older and more embodied than the analogy."
+      },
+      "claim_mode": "DECLARED-METAPHOR",
+      "claim_status": "DECLARED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "ANALOGICAL",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The article marks the comparison as analogy and expressly denies a claim of historical software conception.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "That comparison is an analogy.",
+        "type": "math",
+        "verdict": "Pass — §5 safe harbor (declared analogy)",
+        "load_bearing": false,
+        "note": "Declared analogy carries no literal historical or mathematical conclusion."
+      }
+    },
+    {
+      "id": "C017",
+      "anchor": {
+        "line_start": 308,
+        "line_end": 308,
+        "quote": "Patañjali’s *Yoga Sūtra* 1.11 defines *smṛti* as the non-loss of an experienced object."
+      },
+      "claim_mode": "TRADITIONAL-SOURCE",
+      "claim_status": "ATTRIBUTED",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The exact sutra is named and linked; the claim reports the text's definition and narrows its setting to memory as a vritti.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "Yoga Sūtra 1.11 gives smṛti",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Traditional source claim with direct citation."
+      }
+    },
+    {
+      "id": "C018",
+      "anchor": {
+        "line_start": 312,
+        "line_end": 312,
+        "quote": "Memory needs at least three chambers:"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The three-layer source/working-memory/witness model is declared contemporary in the following sentence and remains internally consistent throughout the agent section.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "The table is a contemporary design model.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Declared house model; no traditional attribution laundering."
+      }
+    },
+    {
+      "id": "C019",
+      "anchor": {
+        "line_start": 340,
+        "line_end": 340,
+        "quote": "This is not a Vedic description of software. It is software placed under a Vedic demand: **hold before you impel**."
+      },
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The agent mapping is bounded before it begins, and dhī is explicitly declared an analogy rather than a historic system specification.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "Call it dhī only as an explicit analogy.",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Contemporary synthesis preserves the historical boundary."
+      }
+    },
+    {
+      "id": "C020",
+      "anchor": {
+        "line_start": 364,
+        "line_end": 364,
+        "quote": "**When witness is empty, halt on Bhūloka.**"
+      },
+      "claim_mode": "HOUSE-MODEL",
+      "claim_status": "COHERENT",
+      "remediation_codes": [
+        "KEEP"
+      ],
+      "requires_review": false,
+      "math": {
+        "role": "NONE",
+        "load_bearing": false,
+        "locks": {
+          "correctness": "NOT-APPLICABLE",
+          "consequence": "NOT-APPLICABLE",
+          "provenance": "NOT-APPLICABLE"
+        },
+        "evidence_eligible": false
+      },
+      "rationale": "The operational constraints derive directly from the declared contemporary model and remain recommendation-level rather than empirical prediction.",
+      "legacy": {
+        "anchor": "new-draft blind coverage",
+        "quote": "Require a present human witness before a system crosses",
+        "type": "science",
+        "verdict": "NOT FLAGGED (§5 safe harbor)",
+        "load_bearing": true,
+        "note": "Normative house-model recommendation, not an empirical efficacy claim."
+      }
+    }
+  ]
+}
