@@ -6,37 +6,38 @@
 
 | Metric | Count |
 |--------|-------|
-| Total Posts | 126 |
-| ✅ PASS | 27 |
-| ⚠️ WARNING | 99 |
-| ❌ FAIL | 0 |
+| Total Posts | 127 |
+| ✅ PASS | 40 |
+| ⚠️ WARNING | 86 |
+| ❌ FAIL | 1 |
 
-**Overall Health: 21.4%**
+**Overall Health: 31.5%**
 
 ## 🔬 Top 5 Contamination Signatures
 
 | Rank | Term | Occurrences |
 |------|------|-------------|
-| 1 | `path` | 73 |
-| 2 | `ai ` | 21 |
-| 3 | `vibration` | 15 |
-| 4 | `optimization` | 8 |
-| 5 | `healing` | 7 |
+| 1 | `vibration` | 13 |
+| 2 | `optimization` | 8 |
+| 3 | `ai ` | 8 |
+| 4 | `healing` | 7 |
+| 5 | `path` | 6 |
 
 ## 📈 Trend Over Time
 
 ```
 Audit History (PASS / WARN / FAIL)
 
-2026-07-17  ███████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░  P:23 W:98 F:4
-2026-07-17  ████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:24 W:101 F:0
-2026-07-27  ██████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:26 W:99 F:0
 2026-08-03  ██████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:26 W:99 F:0
 2026-08-10  ███████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:27 W:99 F:0
 2026-08-17  ███████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:27 W:99 F:0
 2026-08-24  ███████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:27 W:99 F:0
 2026-08-31  ███████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:27 W:99 F:0
 2026-09-07  ███████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:27 W:99 F:0
+2026-09-14  ████████████████████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:40 W:86 F:0
+2026-09-21  ████████████████████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:40 W:86 F:0
+2026-09-28  ████████████████████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  P:40 W:86 F:0
+2026-10-05  ████████████████████████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░  P:40 W:86 F:1
 ```
 
 ## 🏆 Canonical PASS Posts (Reference Models)
@@ -52,34 +53,34 @@ These posts are the gold standard for brand voice, structural integrity, and Kha
 
 | Classification | Count |
 |------------------|-------|
-| OK | 5 |
-| WARNING | 61 |
-| Drift | 59 |
+| OK | 20 |
+| WARNING | 94 |
+| Drift | 12 |
 
 ## 🚨 Posts Needing Attention
 
 | Post | Overall | Severity | Top Issue |
 |------|---------|----------|-----------|
-| `judgement-recollection-in-pai.md` | WARNING | 37 | Voice |
-| `temperance-compresses-to-essence.md` | WARNING | 40 | Vocabulary |
 | `bangkok-initiation-samui-invitation.md` | WARNING | 43 | Cosmological Coherence |
 | `the-star-names-you.md` | WARNING | 43 | Cosmological Coherence |
+| `judgement-recollection-in-pai.md` | WARNING | 44 | Vocabulary |
+| `temperance-compresses-to-essence.md` | WARNING | 44 | Vocabulary |
 | `deep-trench-forge-shenzhen.md` | WARNING | 45 | Cosmological Coherence |
 | `the-earthquake-that-said-goodbye.md` | WARNING | 45 | Cosmological Coherence |
 | `the-sword-of-speech.md` | WARNING | 45 | Vocabulary |
 | `the-fool-before-the-leap.md` | WARNING | 46 | Vocabulary |
-| `nadi-bioimpedance-protocol.md` | WARNING | 47 | Cosmological Coherence |
 | `the-hermit-72-hours.md` | WARNING | 47 | Vocabulary |
 | `ashtakavarga-hypercube-geometry.md` | WARNING | 48 | Cosmological Coherence |
 | `circle-over-inanna.md` | WARNING | 48 | Vocabulary |
 | `the-tower-speaks-in-richter-scale.md` | WARNING | 48 | Vocabulary |
 | `the-universe-four-creatures-assemble.md` | WARNING | 48 | Voice |
 | `enneagram-planetary-market.md` | WARNING | 49 | Voice |
-| `reality-compile-ancient-source.md` | WARNING | 49 | Cosmological Coherence |
-| `consciousness-legacy-code.md` | WARNING | 50 | Voice |
+| `nadi-bioimpedance-protocol.md` | WARNING | 49 | Cosmological Coherence |
 | `noetic-aether-einsteinian-knot.md` | WARNING | 50 | Cosmological Coherence |
-| `reptilian-bios-architecture.md` | WARNING | 50 | Cosmological Coherence |
+| `consciousness-legacy-code.md` | WARNING | 51 | Voice |
 | `enlightenment-lite-method.md` | WARNING | 51 | Cosmological Coherence |
+| `reality-compile-ancient-source.md` | WARNING | 51 | Cosmological Coherence |
+| `endocrine-constellation-transcript.md` | WARNING | 52 | Cosmological Coherence |
 
 ---
 

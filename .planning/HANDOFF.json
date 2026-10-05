@@ -158,6 +158,30 @@
     {
       "type": "technical",
       "description": "Bird CLI identity/read credentials fail independently of signed-in X IAB. Reddit public403/OAuth unavailable; Instagram and X Articles submission unsupported."
+    },
+    {
+      "description": "18765 currently points to Vercel and returns DEPLOYMENT_NOT_FOUND; desired alias versus redirect behavior unclear. Async question already asked and unanswered.",
+      "type": "human_action",
+      "workaround": "Continue editorial research while awaiting choice; do not infer approval from elapsed time.",
+      "carried_from": "origin/main handoff 2026-09-30 (merge 2026-10-05)"
+    },
+    {
+      "description": "Wrangler OAuth account access works, but direct DNS-record read returned 403.",
+      "type": "technical",
+      "workaround": "Use existing Cloudflare dashboard in IAB or approved scoped credential; do not expose tokens.",
+      "carried_from": "origin/main handoff 2026-09-30 (merge 2026-10-05)"
+    },
+    {
+      "description": "Content-index CI exited success but logs show lighted-clearing-loka-akshara-dhi NIM auth failed (401), 0 embedded, 126 skipped, 1 error.",
+      "type": "technical",
+      "workaround": "Published page is live; AI retrieval acceptance remains unproven. Do not rotate secrets or broad-reindex speculatively.",
+      "carried_from": "origin/main handoff 2026-09-30 (merge 2026-10-05)"
+    },
+    {
+      "description": "Developer context rollover guard requires stopping after current atomic step and new chat.",
+      "type": "external",
+      "workaround": "Resume from this handoff in a new chat in the same directory.",
+      "carried_from": "origin/main handoff 2026-09-30 (merge 2026-10-05)"
     }
   ],
   "human_actions_pending": [
@@ -168,6 +192,12 @@
     {
       "lane": "concept-development",
       "action": "Supply named Agama/source text for Consecration; already promised."
+    },
+    {
+      "action": "Choose whether 18765.tryambakam.space should serve the same blog or redirect to synchronocities.tryambakam.space",
+      "context": "Exact behavior is required before DNS/routing mutation.",
+      "blocking": true,
+      "carried_from": "origin/main handoff 2026-09-30 (merge 2026-10-05)"
     }
   ],
   "decisions": [
