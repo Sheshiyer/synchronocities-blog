@@ -1,9 +1,9 @@
 {
   "report_type": "ci_audit",
-  "total_posts": 126,
+  "total_posts": 127,
   "pass_count": 40,
   "warn_count": 86,
-  "fail_count": 0,
+  "fail_count": 1,
   "top_avoid_signatures": [
     {
       "term": "vibration",
@@ -14,26 +14,26 @@
       "count": 8
     },
     {
+      "term": "ai ",
+      "count": 8
+    },
+    {
       "term": "healing",
       "count": 7
     },
     {
-      "term": "ai ",
-      "count": 7
-    },
-    {
-      "term": "truth",
-      "count": 5
+      "term": "path",
+      "count": 6
     }
   ],
   "top_emergent_signatures": [
     {
       "term": "energy",
-      "count": 86
+      "count": 88
     },
     {
       "term": "quantum",
-      "count": 14
+      "count": 16
     },
     {
       "term": "vibration",
@@ -51,11 +51,15 @@
   "top_drift_patterns": [
     {
       "pattern": "warmth_excess",
-      "count": 29
+      "count": 30
     },
     {
       "pattern": "motivational_excess",
       "count": 5
+    },
+    {
+      "pattern": "generic_excess",
+      "count": 1
     }
   ],
   "posts": [
@@ -6559,6 +6563,182 @@
         "warmth_count": 1,
         "motivational_count": 0,
         "generic_count": 0,
+        "academic_excess": false
+      }
+    },
+    {
+      "post": "lighted-clearing-loka-akshara-dhi.md",
+      "overall": "FAIL",
+      "severity_score": 54,
+      "dimensions": {
+        "kha_ba_la": {
+          "score": 20,
+          "verdict": "FAIL",
+          "kha_count": 0,
+          "ba_count": 1,
+          "la_count": 0,
+          "triad_count": 0,
+          "has_absence_demonstration": false
+        },
+        "vocabulary": {
+          "score": 0,
+          "verdict": "FAIL",
+          "critical_matches": [],
+          "standard_matches": [
+            [
+              "path",
+              4
+            ],
+            [
+              "ai ",
+              1
+            ],
+            [
+              "truth",
+              1
+            ]
+          ],
+          "emergent_matches": [
+            [
+              "truth",
+              1
+            ],
+            [
+              "energy",
+              2
+            ],
+            [
+              "quantum",
+              2
+            ]
+          ],
+          "total_violations": 11
+        },
+        "voice": {
+          "score": 48,
+          "verdict": "FAIL",
+          "use_matches": [
+            [
+              "pattern",
+              2
+            ],
+            [
+              "capacity",
+              2
+            ],
+            [
+              "ba",
+              1
+            ]
+          ],
+          "generic_matches": [
+            [
+              "path",
+              4
+            ],
+            [
+              "light",
+              5
+            ]
+          ]
+        },
+        "cosmological_coherence": {
+          "score": 100,
+          "verdict": "PASS",
+          "engine_matches": [
+            [
+              "system",
+              5
+            ],
+            [
+              "architecture",
+              2
+            ],
+            [
+              "model",
+              4
+            ],
+            [
+              "ritual",
+              1
+            ],
+            [
+              "practice",
+              1
+            ],
+            [
+              "witness",
+              11
+            ]
+          ]
+        },
+        "fractal_depth": {
+          "score": 50,
+          "verdict": "WARNING",
+          "scale_matches": [
+            [
+              "body",
+              8
+            ],
+            [
+              "historical",
+              1
+            ]
+          ],
+          "recursive_count": 0
+        },
+        "source_grounding": {
+          "score": 69,
+          "verdict": "PASS",
+          "source_matches": [
+            [
+              "\\b(?:source|reference|citation|footnote|see also|further reading)\\b",
+              13
+            ]
+          ],
+          "vault_reference_count": 0
+        },
+        "shadow_integration": {
+          "score": 90,
+          "verdict": "PASS",
+          "shadow_matches": [
+            [
+              "fracture",
+              2
+            ],
+            [
+              "collapse",
+              2
+            ],
+            [
+              "constraint",
+              1
+            ]
+          ],
+          "skipped": false
+        }
+      },
+      "tonal_drift": {
+        "flags": [
+          {
+            "flag": "warmth_excess",
+            "count": 5,
+            "examples": [
+              "light"
+            ]
+          },
+          {
+            "flag": "generic_excess",
+            "count": 4,
+            "examples": [
+              "path"
+            ]
+          }
+        ],
+        "flag_count": 2,
+        "warmth_count": 5,
+        "motivational_count": 0,
+        "generic_count": 4,
         "academic_excess": false
       }
     },
