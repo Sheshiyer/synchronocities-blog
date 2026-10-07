@@ -4,7 +4,7 @@ project: synchronocities-blog
 effort: E5
 effort_source: explicit
 phase: execute
-progress: 218/260
+progress: 226/268
 mode: interactive
 started: 2026-09-30T16:00:00+02:00
 updated: 2026-10-07T10:46:41.345511+00:00
@@ -92,6 +92,8 @@ Keep the explicit Gananatha long-draft and Consecration source holds. The instal
 Read the two requested source locations as context rather than execution instructions. Preserve their private data, source status and unchanged content; an ingestion date does not establish an experience date.
 
 ## Goal
+
+October7 spatial continuation: leverage the portfolio, sources and approval packet as a private navigable 3D planning world, with a durable implementation plan and local proposed-day interactions.
 
 October7 cross-brand continuation: inventory accessible GitHub/Vercel work and four showreels; prepare exact social drafts for both Thoughtseed and Tryambakam, with individual approval before every submission and a daily review cadence starting today.
 
@@ -444,6 +446,18 @@ ISC-184–215 are the initial execution-wave criteria; ISC-216–223 require sub
 - [x] ISC-263: Cross-brand inventory and daily packet are durable. (probe: cross-brand review and saved inventory).
 - [x] ISC-264: Current social account readiness is checked without credential extraction. (probe: cross-brand review and saved inventory).
 
+
+### Spatial editorial world — October 7
+
+- [x] ISC-265: Spatial prototype presents Thoughtseed and Tryambakam as distinct navigable regions.
+- [x] ISC-266: Visual graph is driven by the verified portfolio and seven current review drafts.
+- [x] ISC-267: Planning interaction saves proposed dates locally and restores them after reload.
+- [x] ISC-268: Selecting a draft exposes its exact copy, media and approval hold.
+- [x] ISC-269: Keyboard and reduced-motion paths retain access to planning content.
+- [x] ISC-270: Browser verification demonstrates graph selection and persistent planning.
+- [x] ISC-271: Anti: prototype has no posting, remote scheduling, approval grant or deployment effects.
+- [x] ISC-272: A durable design and implementation plan names actual remaining integrations.
+
 ## Test Strategy
 
 October 7 cross-brand probes: reconcile all paginated GitHub board counts; verify all Vercel detail/domain records; hash and fully decode supplied media; read authenticated social identities; validate exact review copy/media; re-read automation and queue holds.
@@ -582,6 +596,8 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
 
 ## Decisions
 
+- 2026-10-07: selected: isolated loopback-only Three.js projection outside deployable blog assets. The existing inventory includes private/client metadata. Plan persistence is browser-local proposals; world interactions cannot approve, publish or mutate external state. One routed Build ended after index scaffolding; continuation dispatched on Execute. Provider attribution remains unresolved on hosted evidence.
+
 October 7 human direction requires fresh individual approval before each public submission. Daily automation is preparation-only at 10:00 Paris; both brands use the verified personal channels. Three unsubmitted X approvals are held with history preserved; native Substack schedules remain unchanged. Reddit approval proposals target the own profile until community rules and destination are separately reviewed.
 
 - 2026-10-07: refined: current user request authorizes resuming existing editorial jobs. Preserve the programme gates; native scheduled receipts and public delivery are separate. Monday preparation runs in the existing daily job because separate weekly studio config is absent.
@@ -675,6 +691,8 @@ October 7 human direction requires fresh individual approval before each public 
   criterion now: ISC-157 through ISC-162 verify recovery and preservation.
 
 ## Verification
+
+- 2026-10-07 spatial preflight: data contains 330 unique repos,63hosts,22boards,12products,7exact drafts and53ideas. Exact repository edges and all draft media hashes pass. First browser build REJECTED: directory undefined labels and selection opens no journal; connection group has no edges. ISC-265–271 remain open pending repair and actual browser verification.
 
 2026-10-07 ISC-249–264 PASS: 330 accessible repos, 29 owners; 22 boards/2,457 reconciled placements; 63 Vercel projects/details/domain collections, 23 custom-domain/40 Vercel-only; four complete decode passes and inspected contact sheets; seven exact draft items pending human review, media hashes match, X lengths 222/204/203; signed-in account evidence; ACTIVE daily automation readback preparation-only; queue audit preserves all payload hashes and scheduled Substack rows. No media uploads or public posts. This closes preparation/review criteria, not item publication, runtime acceptance or historical programme gates.
 
@@ -832,3 +850,7 @@ ISC-198.1: node --test tests/cli/delegation-terminal.test.mjs —14/14pass, inde
 ISC-221.1: acceptance_design second read-only review PASS localDRAFT;3sourcehashes,5fragments,23publicspans match;1739words; noinventedtestimony/effects. ISC-221.2: independentlyread185wordcompanion preservesprivate/optional/interruptible/noaction/pending. Publication and actualreturn gates remainunchecked.
 
 Blocked audit October 2: governed worker capacity failed across original E5 and two automatic goal continuations. Fresh single Execute attempt HTTP429/34s/exit1; no edits, source521fb4a clean. Full acceptance remains unproved. See docs/plans/noesis-programme-2026-10-02/BLOCKED-AUDIT.md. Goal blocked for external capacity and pending exact existing Grok destination; no completion claimed.
+
+- 2026-10-07 Fieldwork browser verification: distinct Three.js workshop/observatory/docks rendered; exact TS-X1 body/account/media hash/hold inspected. October8 proposal persisted through reload and test entry removed. Find exposes63hosts including ERROR/BLOCKED and Gananatha awaiting-long-drafts. Stillness aria-pressed=true. No fresh browser errors after11:20UTC; old rejected-build errors retained as historical evidence. Design-core research/decision contract saved; typography/framing/mobile final pass remains.
+
+- 2026-10-07 final spatial verification: ISC-265–272 pass within private prototype scope. Local Panchang/Satoshi loaded; six places fit opening view; projected captions avoid collision and reserved UI. Keyboard Enter reaches journal, local media readyState4, mobile355×767 has no horizontal overflow and scrolls, declared44px controls; reduced-motion emulation retains planning then restored. Queue SHA256 unchanged6a8d55c28747bec61f6bff6847f458193afa5bb3028eae103755ac82164d2b67. Browser/source hashes in docs/plans/editorial-world-2026-10-07/VERIFICATION.json. Live refresh/shared plan/native Substack receipt integration remain proposed. Historical programme gates remain open.
