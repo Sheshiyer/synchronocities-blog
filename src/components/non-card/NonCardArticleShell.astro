@@ -2,6 +2,7 @@
 import PostTOC from '../PostTOC';
 import BackToTop from '../BackToTop';
 import RelatedPostModules from '../RelatedPostModules.astro';
+import ArticleConversation from '../ArticleConversation.astro';
 import { buildNonCardArticleModel } from '../../lib/nonCardArticle.ts';
 
 const {
@@ -260,6 +261,10 @@ const sourceBridgeVisible = Boolean(
           <div id="post-reading" class="prose-synchronocities non-card-prose">
             <Content />
           </div>
+
+          {post.id === 'lighted-clearing-loka-akshara-dhi' && (
+            <ArticleConversation title={normalizedPost.title} url={new URL(`/posts/${post.id}/`, Astro.site).toString()} />
+          )}
 
           {model.sectionFigures.length > 0 && (
             <section class="non-card-module">

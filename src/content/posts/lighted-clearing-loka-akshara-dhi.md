@@ -161,6 +161,20 @@ A map can bring the mountain into relation. It cannot replace the mountain. A di
 
 The mistake begins when *ākāra* forgets that it is a shape.
 
+Harsh Truths brings the experiencing subject back into this field in [“Materialism is Baloney”](https://harshtruths3321.substack.com/p/an-end-to-upside-down-thinking):
+
+> Constant in those emotions—or in any experience—is “I”: the subject that is experiencing something.
+
+Her essay, drawing on Mark Gober and idealist thinkers, places consciousness before matter. Here the encounter opens a distinction: the presence of experience and an explanation of its origin are different claims. The “I” is where a world is encountered. What that encounter tells us about the world's ultimate substance remains a further question.
+
+Steven A. Young approaches relation through another vocabulary. In the written introduction to [“The Aether Conspiracy — How Science Conceals Spirit”](https://stevenalexanderyoung.substack.com/p/the-aether-conspiracy-how-science), he describes aether as:
+
+> the one thing that ties together all other things.
+
+Young proposes a unifying medium; Harsh places the subject at the beginning of inquiry. *Loka* lets this essay ask a third question: what conditions allow a relation to appear? A medium, an experiencing subject, and a field of appearance do different work. Their contact is productive because the words do not become interchangeable.
+
+In this reading, the clearing is where connection becomes encounter. *Dhī* is the discernment that asks what the encounter permits us to conclude—and what it asks us to do. A cosmology can open the field. The witness must still meet what appears inside it.
+
 ## Akṣara is the part that must not leak
 
 Every carrier fails.
@@ -321,6 +335,10 @@ The first chamber protects *akṣara*. The second lets *smṛti* work. The third
 
 Store everything in the source chamber and the system becomes rigid. Store everything in working memory and the system drifts. Remove the witness and both stores continue speaking after nobody remains to answer for the act.
 
+Consider a familiar conversation. We recognize the beginning of a sentence and supply its ending before the other person has finished. Memory has preserved a pattern; attention has stopped receiving. The source may be accurately remembered while the present speaker has already changed.
+
+A discipline of witness keeps both available: the line that returned and the difference this encounter brings. Harsh's emphasis on the experiencing subject now acquires an ordinary consequence. Someone must remain available to be surprised. Young's image of connection acquires a corresponding demand: relation must leave room for difference, or it becomes another total description that nobody can interrupt.
+
 ## A design reading for agents
 
 A modern agent is an impeller.
@@ -402,6 +420,8 @@ Then move.
 - [Kevin M. Ryan, “The role of pitch accent in Vedic Sanskrit poetics”](https://www.cambridge.org/core/journals/phonological-data-and-analysis/article/role-of-pitch-accent-in-vedic-sanskrit-poetics/A0AFFD6F77CE35F9E76A31A2131AE028) for the syllable as tone-bearing unit, the tonal analysis of Vedic accent, and the limits of treating accent as stress.
 - [J. F. Staal, “An analysis of Ṛgvedic recitation”](https://www.cambridge.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/abs/an-analysis-of-rgvedic-recitation/23EC415E2C7B0DDE0106D57844DE5D6C) for measured and tradition-specific complexity in the realization of Ṛgvedic accent.
 - [T. V. Ananthapadmanabha, Kim Silverman, and M. G. Prasad, “Vedic Chanting and Vowel Intrinsic Pitch”](https://www.nokia.com/bell-labs/publications-and-media/publications/vedic-chanting-and-vowel-intrinsic-pitch-new-evidence-from-an-ancient-source/) for an acoustic study of fundamental frequency in Vedic chanting.
+- [Harsh Truths, “Materialism is Baloney”](https://harshtruths3321.substack.com/p/an-end-to-upside-down-thinking), October 1, 2026, for a contemporary idealist argument foregrounding the experiencing subject; the essay names Mark Gober among its sources.
+- [Steven A. Young, “The Aether Conspiracy — How Science Conceals Spirit”](https://stevenalexanderyoung.substack.com/p/the-aether-conspiracy-how-science), June 29, 2026, for his proposed unifying medium; the quotation above comes from the written introduction accompanying the video.
 - [Patañjali, *Yoga Sūtra* 1.11](https://sa.wikisource.org/wiki/योगसूत्रम्/पादः_१) for one classical definition of *smṛti*.
 
-The historical, grammatical, and traditional claims above are attributed to their sources. The system-design model in “A design reading for agents” is a contemporary interpretation authored for this essay. It does not claim ancient precedent for modern AI systems.
+The historical, grammatical, and traditional claims above are attributed to their sources. Harsh Truths and Steven A. Young enter as contemporary philosophical interlocutors. Their proposals are read alongside this essay’s framework; they do not establish the Sanskrit meanings or the acoustic model. The system-design model in “A design reading for agents” is a contemporary interpretation authored for this essay. It does not claim ancient precedent for modern AI systems.
