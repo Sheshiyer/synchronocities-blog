@@ -4,7 +4,7 @@ project: synchronocities-blog
 effort: E5
 effort_source: explicit
 phase: execute
-progress: 226/268
+progress: 228/270
 mode: interactive
 started: 2026-09-30T16:00:00+02:00
 updated: 2026-10-07T10:46:41.345511+00:00
@@ -458,6 +458,11 @@ ISC-184–215 are the initial execution-wave criteria; ISC-216–223 require sub
 - [x] ISC-271: Anti: prototype has no posting, remote scheduling, approval grant or deployment effects.
 - [x] ISC-272: A durable design and implementation plan names actual remaining integrations.
 
+### Fieldwork second-pass review — October 7
+
+- [x] ISC-273: A source-grounded second pass identifies functional and visual gaps without claiming new runtime capabilities.
+- [x] ISC-274: The upgrade sequence prioritizes a working daily mission loop and preserves exact human publication authority.
+
 ## Test Strategy
 
 October 7 cross-brand probes: reconcile all paginated GitHub board counts; verify all Vercel detail/domain records; hash and fully decode supplied media; read authenticated social identities; validate exact review copy/media; re-read automation and queue holds.
@@ -854,3 +859,5 @@ Blocked audit October 2: governed worker capacity failed across original E5 and 
 - 2026-10-07 Fieldwork browser verification: distinct Three.js workshop/observatory/docks rendered; exact TS-X1 body/account/media hash/hold inspected. October8 proposal persisted through reload and test entry removed. Find exposes63hosts including ERROR/BLOCKED and Gananatha awaiting-long-drafts. Stillness aria-pressed=true. No fresh browser errors after11:20UTC; old rejected-build errors retained as historical evidence. Design-core research/decision contract saved; typography/framing/mobile final pass remains.
 
 - 2026-10-07 final spatial verification: ISC-265–272 pass within private prototype scope. Local Panchang/Satoshi loaded; six places fit opening view; projected captions avoid collision and reserved UI. Keyboard Enter reaches journal, local media readyState4, mobile355×767 has no horizontal overflow and scrolls, declared44px controls; reduced-motion emulation retains planning then restored. Queue SHA256 unchanged6a8d55c28747bec61f6bff6847f458193afa5bb3028eae103755ac82164d2b67. Browser/source hashes in docs/plans/editorial-world-2026-10-07/VERIFICATION.json. Live refresh/shared plan/native Substack receipt integration remain proposed. Historical programme gates remain open.
+
+- 2026-10-07 ISC-273–274: current source/schema and IAB overview reviewed; bounded routed read-only review completed with unresolved provider attribution. UPGRADE-PASS-2.md records concrete defects, mission/calendar/district/adapter/review/persistence slices, migration/acceptance journeys, and corrections to invented approval/quota constraints. Current private runtime and queues were not changed by this second-pass review.
