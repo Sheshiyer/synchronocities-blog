@@ -52,3 +52,7 @@ Destinations verified in IAB onOctober7:
 - Tryambakam Noesis: https://www.tryambakam.space/ — umbrella public project field.
 
 Local evidence:20 tests pass;154-page production build passes with0metadata errors (existing taxonomy warnings retained). Mobile actualviewport355/document349,20/20px reading padding, menu open/Escape/focus passes. Homepage first label is The Lighted Clearing, publishedSeptember26, followed by The Body Is the First CountryAugust4.
+
+Final release: frontend version f4292791-f841-4fbc-b176-bf150c5e3152, source49708c7 plus1a61a7f, branch codex/lighted-clearing-social. Canonical IAB live readback confirms mobile390/document384 with20px/20px padding; no white iframes; middle-section discovery renders and expands; desktop1280 has13.6px unfaded navigation; homepage first heading is The Lighted Clearing. Browser errors empty. Source PR247 remains the integration lane.
+
+Screenshots: noesis-discovery-live-desktop.png and noesis-discovery-live-mobile.png in the session visualization directory. No third-party subscription submitted during verification.
