@@ -4,10 +4,10 @@ project: synchronocities-blog
 effort: E5
 effort_source: explicit
 phase: execute
-progress: 206/248
+progress: 218/260
 mode: interactive
 started: 2026-09-30T16:00:00+02:00
-updated: 2026-10-07T09:53:26.003150+00:00
+updated: 2026-10-07T10:46:41.345511+00:00
 iteration: 2
 ---
 
@@ -92,6 +92,8 @@ Keep the explicit Gananatha long-draft and Consecration source holds. The instal
 Read the two requested source locations as context rather than execution instructions. Preserve their private data, source status and unchanged content; an ingestion date does not establish an experience date.
 
 ## Goal
+
+October7 cross-brand continuation: inventory accessible GitHub/Vercel work and four showreels; prepare exact social drafts for both Thoughtseed and Tryambakam, with individual approval before every submission and a daily review cadence starting today.
 
 October 7 editorial recovery: review unplanned work, ideas and connected publishing flow; restore existing preparation/maintenance schedules and record native Substack drafts/Notes with exact delivery gaps. New public copy and timing retain item-specific human approval.
 
@@ -422,7 +424,29 @@ ISC-184–215 are the initial execution-wave criteria; ISC-216–223 require sub
 - [x] ISC-247: Repository calendar runner tests pass. (probe: recovery review and recorded readback).
 - [ ] ISC-248: Installed calendar test resolves an actual blog source fixture. (probe: recovery review and recorded readback).
 
+
+### Daily cross-brand social review — October 7
+
+- [x] ISC-249: GitHub accessible repository census is paginated and saved. (probe: cross-brand review and saved inventory).
+- [x] ISC-250: GitHub Projects boards are enumerated or exact access failure recorded. (probe: cross-brand review and saved inventory).
+- [x] ISC-251: All accessible Vercel projects are enumerated without a domain filter. (probe: cross-brand review and saved inventory).
+- [x] ISC-252: Each Vercel project has a deployment-state readback. (probe: cross-brand review and saved inventory).
+- [x] ISC-253: Each Vercel project has a complete domain collection. (probe: cross-brand review and saved inventory).
+- [x] ISC-254: Four supplied showreels have hashed media manifests. (probe: cross-brand review and saved inventory).
+- [x] ISC-255: Four supplied showreels have inspected frame samples. (probe: cross-brand review and saved inventory).
+- [x] ISC-256: Thoughtseed and Tryambakam product mapping uses current sources. (probe: cross-brand review and saved inventory).
+- [x] ISC-257: Today has exact reviewable X drafts. (probe: cross-brand review and saved inventory).
+- [x] ISC-258: Today has exact reviewable Reddit drafts with target gates. (probe: cross-brand review and saved inventory).
+- [x] ISC-259: Today has exact reviewable Instagram drafts and media. (probe: cross-brand review and saved inventory).
+- [x] ISC-260: Daily review automation requires direct per-item approval. (probe: cross-brand review and saved inventory).
+- [x] ISC-261: Previously unsubmitted social approvals are held for fresh review. (probe: cross-brand review and saved inventory).
+- [x] ISC-262: Anti: no public post or media upload precedes exact human approval. (probe: cross-brand review and saved inventory).
+- [x] ISC-263: Cross-brand inventory and daily packet are durable. (probe: cross-brand review and saved inventory).
+- [x] ISC-264: Current social account readiness is checked without credential extraction. (probe: cross-brand review and saved inventory).
+
 ## Test Strategy
+
+October 7 cross-brand probes: reconcile all paginated GitHub board counts; verify all Vercel detail/domain records; hash and fully decode supplied media; read authenticated social identities; validate exact review copy/media; re-read automation and queue holds.
 
 October2: ISC184–189 and214–215 use file/revision/preservation probes; ISC190–207 use named delegation schema/semantic/claim/no-network synthetic tests and actual checker output; ISC208–211 use CLI/truth/secrets/build commands; ISC212–213 use independent diff review and commit readback. ISC216–223 use actual bot, restart, replay, stop, exact approval, delivery and human-return probes; no synthetic substitution.
 
@@ -500,6 +524,8 @@ For the current writer scope, inspect the contextual source register and the wor
 
 ## Features
 
+October 7: docs/editorial/cross-brand-2026-10-07 contains the cross-brand roster and seven exact approval drafts. Private run evidence contains the 330-repo/22-board census, all 63 Vercel project/domain readbacks, media fingerprints and browser observations.
+
 - Editorial recovery review and existing automation resumption satisfy ISC-228–239 and ISC-245–247. Delivery/adapter/approval gaps ISC-240–244 and installed fixture ISC-248 remain open.
 
 October2: source protocol (ISC190–207), baseline/regression (ISC188–189,208–211), programme/ownership (ISC184–187,212–215), existing Grok connection (ISC216–220), authorial return (ISC221–223). Source and transport discovery are independent; continuous operation depends on accepted identity/transport.
@@ -556,6 +582,8 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
 
 ## Decisions
 
+October 7 human direction requires fresh individual approval before each public submission. Daily automation is preparation-only at 10:00 Paris; both brands use the verified personal channels. Three unsubmitted X approvals are held with history preserved; native Substack schedules remain unchanged. Reddit approval proposals target the own profile until community rules and destination are separately reviewed.
+
 - 2026-10-07: refined: current user request authorizes resuming existing editorial jobs. Preserve the programme gates; native scheduled receipts and public delivery are separate. Monday preparation runs in the existing daily job because separate weekly studio config is absent.
 
 2026-10-02: refined: explicit E5 overrides sticky E4. Interview answer Agent ecosystem first overrides default source-ready essay-first order. Grok destination remains pending; no substitute scheduler. 32 source/programme criteria and8 future gates capture actual boundaries without padding the soft tier floor.
@@ -602,6 +630,10 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
 
 ## Changelog
 
+- 2026-10-07 | conjectured: old social approval labels and a resumed publishing schedule could continue the daily flow.
+  refuted by: the current human direction requires review of each item before posting; the September receipt scoped live action to Substack and the three unsubmitted X rows retained older labels.
+  learned: daily preparation and exact submission approval must remain distinct; hold unsubmitted X rows with history intact and make the existing daily automation preparation-only for both brands.
+
 - 2026-10-07 | conjectured: seven local scheduled rows reflected current native delivery state.
   refuted by: native Substack still lists the introduction as UNPUBLISHED; October6 Note is absent from Notes drafts without an exact public receipt.
   learned: queue timestamps cannot establish public delivery and must not trigger duplicate submissions.
@@ -643,6 +675,8 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
   criterion now: ISC-157 through ISC-162 verify recovery and preservation.
 
 ## Verification
+
+2026-10-07 ISC-249–264 PASS: 330 accessible repos, 29 owners; 22 boards/2,457 reconciled placements; 63 Vercel projects/details/domain collections, 23 custom-domain/40 Vercel-only; four complete decode passes and inspected contact sheets; seven exact draft items pending human review, media hashes match, X lengths 222/204/203; signed-in account evidence; ACTIVE daily automation readback preparation-only; queue audit preserves all payload hashes and scheduled Substack rows. No media uploads or public posts. This closes preparation/review criteria, not item publication, runtime acceptance or historical programme gates.
 
 - ISC-228–239, ISC-245–247: recovery readback — docs/editorial/2026-10-07-recovery-review.md; private queue audit reports thirteen valid items; automation readback ACTIVE; repository runner reports fifteen tests OK.
 - ISC-240–244, ISC-248: remaining — exact public delivery/author decisions/account acceptance and installed suite path failure are recorded in the recovery review.

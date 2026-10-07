@@ -89,3 +89,6 @@ Repository editorial runner suite: 15/15 passes. Installed-copy suite: 14/15 pas
 Private browser readbacks, screenshots and queue audit: /Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-07-recovery/. No credentials, subscriber data or raw private draft body is committed here.
 
 Next: verify October8 essay delivery, locate the exact October6 public Note, and retain the reintroduction discrepancy until an approved timing/copy decision. Review the ready private essay and the Gananatha source hold. Prepare the next calendar package on Monday; deliver Instagram/Reddit only after concrete identity, destination, adapter and exact-item approval gates. No speculative deploy, reindex, archive activation or queue promotion occurred.
+
+
+October 7 cross-brand follow-up: [the complete portfolio/hosting review and exact daily packet](cross-brand-2026-10-07/README.md) supersede the earlier publisher cadence. Daily runs are now preparation-only; three unsubmitted X rows are held for fresh individual review. Authenticated IAB reads confirm X, Instagram and Reddit identities; their public submission remains subject to each exact human approval and platform readback. Native Substack schedules are preserved.
