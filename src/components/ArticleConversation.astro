@@ -14,12 +14,12 @@ const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encod
   <h2 id="conversation-heading">Follow the voices in this essay</h2>
   <p class="intro">Read the authors in their own words, and subscribe to follow their work.</p>
   <div class="publications">
-    {publications.map(({ name, host, note }) => (
+    {publications.map(({ name, host, note }, index) => (
       <article class="publication">
+        <p class="publication-label">VOICE 0{index + 1} · SUBSTACK</p>
         <h3>{name}</h3>
         <p>{note}</p>
-        <iframe src={`https://${host}.substack.com/embed`} title={`Subscribe to ${name} on Substack`} width="480" height="320" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        <a class="action" href={`https://${host}.substack.com/subscribe`} target="_blank" rel="noopener noreferrer">Subscribe to {name} <span aria-hidden="true">↗</span></a>
+        <a class="action subscribe" aria-label={`Subscribe to ${name} on Substack`} href={`https://${host}.substack.com/subscribe`} target="_blank" rel="noopener noreferrer">Subscribe on Substack <span aria-hidden="true">↗</span></a>
         <a class="read" href={`https://${host}.substack.com/`} target="_blank" rel="noopener noreferrer">Read on Substack</a>
       </article>
     ))}
@@ -73,28 +73,32 @@ const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encod
 </script>
 
 <style>
-  .conversation { margin-block: 3rem; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid var(--article-border, #38444e); border-radius: 1rem; background: var(--article-surface, #121820); color: #edf1f3; }
-  .eyebrow { font-size: .7rem; letter-spacing: .16em; color: #d6bb65; }
+  .conversation { margin-block: 3rem; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid var(--article-border, #38444e); border-radius: 1rem; background: var(--color-deep-surface); color: var(--color-parchment); }
+  .eyebrow { font-size: .7rem; letter-spacing: .16em; color: var(--color-sacred-gold); }
   h2 { margin: .75rem 0; font-size: clamp(1.4rem, 3vw, 2rem); line-height: 1.25; }
   h3 { font-size: 1.15rem; margin: 0 0 .65rem; }
-  .intro, .publication p, .sharing p { color: #bdc8d2; line-height: 1.65; }
+  .intro, .publication p, .sharing p { color: var(--color-muted-silver-strong); line-height: 1.65; }
   .publications { display: grid; gap: 1.5rem; margin-top: 1.5rem; }
-  .publication { min-width: 0; padding: 1.25rem; background: #0c1118; border: 1px solid #38444e; border-radius: .75rem; }
-  iframe { display: block; width: 100%; max-width: 480px; height: 320px; margin: 1rem auto; border: 0; border-radius: .5rem; background: #fff; }
-  .action, button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 44px; padding: .65rem 1rem; border: 1px solid #73838f; border-radius: .4rem; color: #edf1f3; background: transparent; font: inherit; font-size: .85rem; text-decoration: none; cursor: pointer; }
-  .action:hover, button:hover { border-color: #d6bb65; color: #f1d985; }
+  .publication { min-width: 0; padding: 1.25rem; background: var(--color-void-black); border: 1px solid #38444e; border-radius: .75rem; }
+  .publication-label { font-family: var(--font-mono); font-size: .65rem; letter-spacing: .12em; color: var(--color-sacred-gold) !important; margin: 0 0 1.25rem; }
+  .publication { display: flex; flex-direction: column; }
+  .publication > p:not(.publication-label) { flex: 1; margin-bottom: 1.5rem; }
+  .subscribe { background: var(--color-sacred-gold); border-color: var(--color-sacred-gold); color: var(--color-void-black); font-weight: 600; }
+  .subscribe:hover { background: var(--color-parchment); color: var(--color-void-black); }
+  .action, button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 44px; padding: .65rem 1rem; border: 1px solid #73838f; border-radius: .4rem; color: var(--color-parchment); background: transparent; font: inherit; font-size: .85rem; text-decoration: none; cursor: pointer; }
+  .action:hover, button:hover { border-color: var(--color-sacred-gold); color: #f1d985; }
   a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid #f1d985; outline-offset: 4px; }
-  .read { display: block; width: fit-content; margin-top: .65rem; padding-block: .65rem; color: #d6bb65; font-size: .85rem; }
+  .read { display: block; width: fit-content; margin-top: .65rem; padding-block: .65rem; color: var(--color-sacred-gold); font-size: .85rem; }
   .sharing { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #38444e; }
   .actions { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: 1rem; }
   .status { font-size: .85rem; min-height: 1.5em; }
   .manual { font-size: .85rem; }
-  input { display: block; box-sizing: border-box; width: 100%; margin-top: .5rem; padding: .75rem; color: #edf1f3; background: #0c1118; border: 1px solid #73838f; border-radius: .4rem; }
+  input { display: block; box-sizing: border-box; width: 100%; margin-top: .5rem; padding: .75rem; color: var(--color-parchment); background: var(--color-void-black); border: 1px solid #73838f; border-radius: .4rem; }
   [hidden] { display: none !important; }
   @media (max-width: 600px) {
     .conversation { padding: 0; border: 0; background: transparent; }
     .publication { padding: .75rem; }
-    iframe { height: 400px; }
+
   }
-  @media (min-width: 1200px) { .publications { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 700px) { .publications { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 </style>

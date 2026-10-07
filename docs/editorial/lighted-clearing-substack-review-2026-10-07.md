@@ -35,3 +35,20 @@ User explicitly requested publication plus subscribe widgets and social enhancem
 Fresh worktree begins at origin/main 2e905b9, avoiding the primary checkout’s unrelated programme commits. npm ci, metadata/prebuild, production build and all 20 existing tests pass. Narrow IAB viewport: innerWidth355, document width349, frames267px wide and400px tall, no horizontal overflow. Desktop embeds rendered, console error log empty. Another article’s generated HTML excludes the engagement module.
 
 Publication: synchronocities-site version ad2ead31-18d3-439f-9d4c-774fd9909818 deployed from scoped commit a834ed2. Canonical-domain IAB readback contains quotations and both embeds; both forms render and copy-link confirms; console error log empty. A separate urllib probe returned403, so no CLI HTTP200 claim is made. Native share dialog and actual third-party subscriptions/social submissions were not exercised.
+
+## Presentation and discovery refinement
+
+User requested branded subscriptions, mobile reading gutters, readable navigation and newest-first homepage. User then supplied The Why Chromosome and requested Noesis project discovery, explicitly selecting **within articles only**.
+
+Official third-party iframe forms cannot inherit parent CSS. Native dark/gold cards now link directly to each author’s official subscription page. Existing sharing controls remain. The mobile prose rule now uses symmetric20px padding. Navigation loses its fading mask, uses stronger contrast and44px controls, with desktop links from1024px and an Escape-aware menu below. Homepage uses descending publication date with slug tie-breaks.
+
+The reusable article invitation sits at a middle H2 section boundary, with an end-of-body fallback without JavaScript. Its expandable directory keeps the reading pause compact. Installed in both card and non-card article templates; no discovery insertion in the homepage gallery.
+
+Destinations verified in IAB onOctober7:
+- The Why Chromosome: https://thewhychromosome.substack.com/ — public description/byline verified.
+- Somatic Canticles: https://www.tryambakam.space/?linear=1#somatic-canticles — public trilogy reading section and chapter preview.
+- Urania137: https://urania.tryambakam.space/ — public instrument site; private application access is separate.
+- Selemene—The Fivefold Atlas: https://atlas.tryambakam.space/ — interactive public atlas.
+- Tryambakam Noesis: https://www.tryambakam.space/ — umbrella public project field.
+
+Local evidence:20 tests pass;154-page production build passes with0metadata errors (existing taxonomy warnings retained). Mobile actualviewport355/document349,20/20px reading padding, menu open/Escape/focus passes. Homepage first label is The Lighted Clearing, publishedSeptember26, followed by The Body Is the First CountryAugust4.
