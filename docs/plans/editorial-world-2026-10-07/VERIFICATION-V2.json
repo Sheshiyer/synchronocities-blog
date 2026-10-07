@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "verifiedAt": "2026-10-07T12:30:11.056765+00:00",
+  "scope": "implemented and verified private local world; public posting and live connector synchronization excluded",
+  "artifact": "/Users/sheshnarayaniyer/.codex/visualizations/2026/10/07/01a115bf-769c-7712-b02a-bb799d835331/fieldwork-v2",
+  "url": "http://127.0.0.1:4390/",
+  "serverSession": 96833,
+  "counts": {
+    "records": 510,
+    "products": 12,
+    "repositories": 330,
+    "hosts": 63,
+    "boards": 22,
+    "ideas": 53,
+    "socialDrafts": 7,
+    "editorialRecords": 15,
+    "workItems": 8,
+    "explicitEdges": 26
+  },
+  "tests": {
+    "missionModel": {
+      "passed": 9
+    },
+    "privateServer": {
+      "passed": 10
+    }
+  },
+  "browser": {
+    "surface": "Codex in-app browser",
+    "journeysPassed": [
+      "six district navigation and differentiated product architecture",
+      "510-record paginated text index",
+      "mission notes output effort date and steps survive reload into another Paris week",
+      "v1 unknown identity and historical date migration; preview cancel; merge then undo",
+      "exact TS-X1 draft body identity destination media fingerprint",
+      "Substack unpublished introduction and unresolved October6 Note remain explicit",
+      "manifest-hashed local source preview",
+      "Escape restores originating result keyboard focus",
+      "mobile journal scroll and no horizontal overflow",
+      "reduced-motion retains planning; emulation reset",
+      "blocked world-data fetch recovers valid historical cache; normal source restored after CDP Network.disable"
+    ],
+    "independentQA": "Initial independent QATester pass found three UI defects; parent verified implemented repairs. Independent retest lacked IAB access and is not claimed.",
+    "screenshots": [
+      "world-final.png",
+      "workshop-final.png",
+      "mobile-final.png",
+      "mission-persistence.png",
+      "legacy-migration.png",
+      "source-recovery.png"
+    ],
+    "idleRendering": {
+      "renderCountStayed": 117,
+      "sampleCpuMs": 2.9,
+      "drawCalls": 757,
+      "triangles": 45786,
+      "gpuFpsCertified": false
+    }
+  },
+  "preservation": {
+    "originalPrototypeHashesMatch": true,
+    "queueUnchanged": true,
+    "queueSha256": "6a8d55c28747bec61f6bff6847f458193afa5bb3028eae103755ac82164d2b67",
+    "testMissionsRemoved": true,
+    "planRevision": 4
+  },
+  "authority": {
+    "proposalOnly": true,
+    "publicMutations": false,
+    "exactIndividualHumanApprovalRequired": true
+  },
+  "limits": [
+    "Dated snapshots; live platform sync not implemented",
+    "Native Reality.compile full body absent; Cu(A)/Cu(B) title seed only",
+    "Introduction unpublished discrepancy and October6 Note delivery unresolved",
+    "No multi-device plan synchronization",
+    "No certified device GPU frame rate",
+    "Original local source/media files required outside portable bundle"
+  ],
+  "sourceHashes": {
+    "source-manifest.json": "4c73196102935be5051c3f7b602cca37eb351ed2548d708a00d90f9c87bc2100",
+    "index.html": "36b40ca5ad31009f0e460a2fa7f571a878d9dc380254e2ad0e7d2f28701bf1b6",
+    "world.css": "854bda41a55b737d79a8f543848efffcab700f0b008ea8bf12955706945672f1",
+    "world-data.json": "271adce87f369e0e2c2dc6b9d44cbbd51889954f2e16bd87a22716500a837916",
+    "serve.py": "e8a8343b77206561ddfc5a0ae9d0eee726fe0afec0012576fcb28ff2ec06e087",
+    "README.md": "0d922c3f6bb6df963d66eac3dd8b53b36aa52cf0ee376d3c5c855134414dbee7",
+    "media-map.json": "a7ce4115db24abcad2a169b19b1a22fd0fd4ce5b55e5f25093228be48e5fab7c",
+    "DESIGN.md": "e3108696bd800f49a9e00a86b4a2253560a7193d7463641ead21e698aefbffdb",
+    "tests/missions.test.mjs": "58d89bbe6c49ec216336b41835fceeff4d22eb767e7a4f48d985199a7224e7d3",
+    "tests/server_test.py": "4953d51dbb60c577bf09853b6b5158d941602b24f6116a9e08aa85e00858aea0",
+    "modules/missions.js": "d693969f43973dce7813d6f28eb121824aed7092b558371a9271666fe5990633",
+    "modules/scene.js": "f77c6aaeecdfe3d8d931385080086eb630f6f430b981e7d25392ac54ed6023e9",
+    "modules/app.js": "175701a8cb34b5672fedf11930499764e4ccea1de862ffe9cf7a642fabb50ceb",
+    "fonts/Panchang-Variable.woff2": "85ac3844e93cc8b52b64d5ad2a74ea142b6091a2154c878a0800761f0fa6fc3e",
+    "fonts/Satoshi-Variable.woff2": "e739aff9b4d02c264341d6d4872edcda28e79373aeda936f659566a1cd3eb47f",
+    "vendor/three.module.js": "e8ac51bc2f6b7eb17bc88c6540eb0a1fee872f848949373de39d55f34b5c5a8f",
+    "vendor/three.core.min.js": "0a9c2f0672c7b8d993ba7639e71919db181ca50c9dff99c78476d3e19057ca9c",
+    "vendor/three.webgpu.nodes.min.js": "7460eb3481f26cf4d9393190c3fa37e920e64d5ae8db19486da76fb050917eb3",
+    "vendor/three.webgpu.nodes.js": "70dc8d9b6ebaaff5f914fdfcdf9121279536f0811723b2f9cdd61b99041b0011",
+    "vendor/three.tsl.js": "fa4d6cb5956401db6bf721393379ce9e798249cd99563d5416b0ee7ed0afb14b",
+    "vendor/three.core.js": "6a7fc83437818534d5e30ce8c8e0ce76230ca2245446ea24744bb3d88c436583",
+    "vendor/three.webgpu.min.js": "dccccd78b3ccc2af2e82342a2fadd09b1a6535b17023e25dcfff8d24e0d4a336",
+    "vendor/three.cjs": "284f4cdcf395356830e2ed2972b4fbec8eb7061bd920c54488c1ca7081c91641",
+    "vendor/three.tsl.min.js": "fa13299b1c6ba00a5df2f01c3cc0c6944aea9642411c94f42233a8a3f98598dd",
+    "vendor/three.module.min.js": "0a61c95f14e0fa015b3083475c73424f360e5f6f5b74c282b50fdbc2f4c228fc",
+    "vendor/three.webgpu.js": "57a163ba4264255f65de4c903bc9d12790098d7e28aadc35f5978a0d6850f814"
+  },
+  "bundle": {
+    "path": "/Users/sheshnarayaniyer/.codex/visualizations/2026/10/07/01a115bf-769c-7712-b02a-bb799d835331/fieldwork-v2/fieldwork-v2-source.zip",
+    "sha256": "94449cbdaa2032a0bc8708d486da1417b173bc8481fe72e95522ffaa23da9ffb"
+  }
+}

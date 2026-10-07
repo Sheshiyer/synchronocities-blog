@@ -4,10 +4,10 @@ project: synchronocities-blog
 effort: E5
 effort_source: explicit
 phase: execute
-progress: 228/270
+progress: 244/286
 mode: interactive
 started: 2026-09-30T16:00:00+02:00
-updated: 2026-10-07T10:46:41.345511+00:00
+updated: 2026-10-07T12:30:11.056765+00:00
 iteration: 2
 ---
 
@@ -463,6 +463,21 @@ ISC-184–215 are the initial execution-wave criteria; ISC-216–223 require sub
 - [x] ISC-273: A source-grounded second pass identifies functional and visual gaps without claiming new runtime capabilities.
 - [x] ISC-274: The upgrade sequence prioritizes a working daily mission loop and preserves exact human publication authority.
 
+### Fieldwork second-pass implementation — October 7
+
+- [x] ISC-275: Versioned upgrade preserves the verified first prototype and its source/queue hashes.
+- [x] ISC-276: Mission calendar derives today in Europe/Paris and navigates weeks without losing assignments.
+- [x] ISC-277: Mission notes, outputs, steps and holds persist with validated v1 migration and visible orphan records.
+- [x] ISC-278: Import preview, export and reversible undo retain proposal-only authority.
+- [x] ISC-279: District navigation and differentiated product architecture provide discoverable focused exploration.
+- [x] ISC-280: Typed relationship filtering and selected neighborhoods retain explicit source provenance.
+- [x] ISC-281: Read-only editorial projection includes actual Substack draft and Note evidence with unresolved delivery stated.
+- [x] ISC-282: Exact draft review preserves body, identity, destination, media order and fingerprint.
+- [x] ISC-283: Private atomic proposal persistence rejects malformed state and unauthorized external-origin writes.
+- [x] ISC-284: Keyboard, mobile, reduced-motion and failed-source paths permit meaningful planning.
+- [x] ISC-285: Browser journeys and meaningful storage/migration tests independently verify the integrated version.
+- [x] ISC-286: Anti: agents cannot approve, publish, upload, schedule externally or infer delivered state from game progress.
+
 ## Test Strategy
 
 October 7 cross-brand probes: reconcile all paginated GitHub board counts; verify all Vercel detail/domain records; hash and fully decode supplied media; read authenticated social identities; validate exact review copy/media; re-read automation and queue holds.
@@ -861,3 +876,5 @@ Blocked audit October 2: governed worker capacity failed across original E5 and 
 - 2026-10-07 final spatial verification: ISC-265–272 pass within private prototype scope. Local Panchang/Satoshi loaded; six places fit opening view; projected captions avoid collision and reserved UI. Keyboard Enter reaches journal, local media readyState4, mobile355×767 has no horizontal overflow and scrolls, declared44px controls; reduced-motion emulation retains planning then restored. Queue SHA256 unchanged6a8d55c28747bec61f6bff6847f458193afa5bb3028eae103755ac82164d2b67. Browser/source hashes in docs/plans/editorial-world-2026-10-07/VERIFICATION.json. Live refresh/shared plan/native Substack receipt integration remain proposed. Historical programme gates remain open.
 
 - 2026-10-07 ISC-273–274: current source/schema and IAB overview reviewed; bounded routed read-only review completed with unresolved provider attribution. UPGRADE-PASS-2.md records concrete defects, mission/calendar/district/adapter/review/persistence slices, migration/acceptance journeys, and corrections to invented approval/quota constraints. Current private runtime and queues were not changed by this second-pass review.
+
+- 2026-10-07 ISC-275–286: Fieldwork v2 implemented and verified privately at4390. 9 mission-model and10 server tests pass; IAB persistence, migration, exact review, focus/mobile/reduced-motion and cached-source recovery verified. Original prototype and queue unchanged; test missions removed via undo, revision4 empty. Final source hashes, screenshots and limits: docs/plans/editorial-world-2026-10-07/VERIFICATION-V2.json. Dated sources are not live platform sync; no public approval/post/upload/schedule/deployment occurred. Historical programme gates remain open.
