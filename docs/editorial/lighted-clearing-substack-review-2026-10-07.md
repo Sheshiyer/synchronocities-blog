@@ -1,6 +1,6 @@
 # Lighted Clearing — Substack integration, October 7, 2026
 
-Status: local revision; publication pending. Article SHA-256: `c1ac15909434cefa80e05c8c582679fe13075face739c60b497b7807ddeb95a9`.
+Status: published and verified in the canonical-domain browser. Article SHA-256: `c1ac15909434cefa80e05c8c582679fe13075face739c60b497b7807ddeb95a9`.
 
 ## Source selection and provenance
 
@@ -34,4 +34,4 @@ User explicitly requested publication plus subscribe widgets and social enhancem
 
 Fresh worktree begins at origin/main 2e905b9, avoiding the primary checkout’s unrelated programme commits. npm ci, metadata/prebuild, production build and all 20 existing tests pass. Narrow IAB viewport: innerWidth355, document width349, frames267px wide and400px tall, no horizontal overflow. Desktop embeds rendered, console error log empty. Another article’s generated HTML excludes the engagement module.
 
-Publication deployment/readback: pending.
+Publication: synchronocities-site version ad2ead31-18d3-439f-9d4c-774fd9909818 deployed from scoped commit a834ed2. Canonical-domain IAB readback contains quotations and both embeds; both forms render and copy-link confirms; console error log empty. A separate urllib probe returned403, so no CLI HTTP200 claim is made. Native share dialog and actual third-party subscriptions/social submissions were not exercised.
