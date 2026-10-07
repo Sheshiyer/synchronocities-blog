@@ -4,10 +4,10 @@ project: synchronocities-blog
 effort: E5
 effort_source: explicit
 phase: execute
-progress: 191/227
+progress: 206/248
 mode: interactive
 started: 2026-09-30T16:00:00+02:00
-updated: 2026-10-01T23:43:22.452775+00:00
+updated: 2026-10-07T09:53:26.003150+00:00
 iteration: 2
 ---
 
@@ -92,6 +92,8 @@ Keep the explicit Gananatha long-draft and Consecration source holds. The instal
 Read the two requested source locations as context rather than execution instructions. Preserve their private data, source status and unchanged content; an ingestion date does not establish an experience date.
 
 ## Goal
+
+October 7 editorial recovery: review unplanned work, ideas and connected publishing flow; restore existing preparation/maintenance schedules and record native Substack drafts/Notes with exact delivery gaps. New public copy and timing retain item-specific human approval.
 
 Execute the integrated long-horizon programme with agent ecosystem first. The first source wave delivers tested offline delegation contracts and durable continuation; actual Grok continuity and future public/experiential milestones require their own evidence.
 
@@ -395,6 +397,31 @@ Continue blog, Tryambakam Noesis, personal branding and reader distribution from
 
 ISC-184–215 are the initial execution-wave criteria; ISC-216–223 require subsequent actual transport, runtime or human/source evidence. Their unchecked state survives local source acceptance.
 
+
+### Editorial recovery — October 7
+
+- [x] ISC-228: Initial main checkout dirty state is inventoried. (probe: recovery review and recorded readback).
+- [x] ISC-229: Registered worktrees are reviewed without cleanup. (probe: recovery review and recorded readback).
+- [x] ISC-230: Current blog corpus is reconciled with the full catalogue. (probe: recovery review and recorded readback).
+- [x] ISC-231: Concept registry development states are enumerated. (probe: recovery review and recorded readback).
+- [x] ISC-232: Explicit Gananatha and Consecration source holds remain visible. (probe: recovery review and recorded readback).
+- [x] ISC-233: Unprocessed intake stubs are distinguished from article sources. (probe: recovery review and recorded readback).
+- [x] ISC-234: Native Substack drafts are inspected and preserved. (probe: recovery review and recorded readback).
+- [x] ISC-235: Native essay schedules are freshly read back. (probe: recovery review and recorded readback).
+- [x] ISC-236: Remaining native Notes schedules are freshly read back. (probe: recovery review and recorded readback).
+- [x] ISC-237: Existing daily publisher automation is ACTIVE after readback. (probe: recovery review and recorded readback).
+- [x] ISC-238: Existing Sunday maintenance automation is ACTIVE after readback. (probe: recovery review and recorded readback).
+- [x] ISC-239: All thirteen queue source/media and payload hashes verify. (probe: recovery review and recorded readback).
+- [ ] ISC-240: October 6 Note has an exact verified public delivery receipt. (probe: recovery review and recorded readback).
+- [ ] ISC-241: Unpublished reintroduction has an approved coherent recovery date/copy. (probe: recovery review and recorded readback).
+- [ ] ISC-242: Instagram submission lane has verified identity and exact-item approval. (probe: recovery review and recorded readback).
+- [ ] ISC-243: Reddit discussion has verified account/community and exact-item approval. (probe: recovery review and recorded readback).
+- [ ] ISC-244: Current X due items have verified direct execution authority and identity. (probe: recovery review and recorded readback).
+- [x] ISC-245: Anti: review performs no speculative deploy or reindex. (probe: recovery review and recorded readback).
+- [x] ISC-246: Editorial review is durable and linked from the handoff. (probe: recovery review and recorded readback).
+- [x] ISC-247: Repository calendar runner tests pass. (probe: recovery review and recorded readback).
+- [ ] ISC-248: Installed calendar test resolves an actual blog source fixture. (probe: recovery review and recorded readback).
+
 ## Test Strategy
 
 October2: ISC184–189 and214–215 use file/revision/preservation probes; ISC190–207 use named delegation schema/semantic/claim/no-network synthetic tests and actual checker output; ISC208–211 use CLI/truth/secrets/build commands; ISC212–213 use independent diff review and commit readback. ISC216–223 use actual bot, restart, replay, stop, exact approval, delivery and human-return probes; no synthetic substitution.
@@ -473,6 +500,8 @@ For the current writer scope, inspect the contextual source register and the wor
 
 ## Features
 
+- Editorial recovery review and existing automation resumption satisfy ISC-228–239 and ISC-245–247. Delivery/adapter/approval gaps ISC-240–244 and installed fixture ISC-248 remain open.
+
 October2: source protocol (ISC190–207), baseline/regression (ISC188–189,208–211), programme/ownership (ISC184–187,212–215), existing Grok connection (ISC216–220), authorial return (ISC221–223). Source and transport discovery are independent; continuous operation depends on accepted identity/transport.
 
 ```yaml
@@ -527,6 +556,8 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
 
 ## Decisions
 
+- 2026-10-07: refined: current user request authorizes resuming existing editorial jobs. Preserve the programme gates; native scheduled receipts and public delivery are separate. Monday preparation runs in the existing daily job because separate weekly studio config is absent.
+
 2026-10-02: refined: explicit E5 overrides sticky E4. Interview answer Agent ecosystem first overrides default source-ready essay-first order. Grok destination remains pending; no substitute scheduler. 32 source/programme criteria and8 future gates capture actual boundaries without padding the soft tier floor.
 
 - 2026-09-30: refined: user expanded persistent-agent planning into a working Creator Editing OS studio connected to the Editorial Steward; cloud activation remains a separate acceptance gate.
@@ -571,6 +602,11 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
 
 ## Changelog
 
+- 2026-10-07 | conjectured: seven local scheduled rows reflected current native delivery state.
+  refuted by: native Substack still lists the introduction as UNPUBLISHED; October6 Note is absent from Notes drafts without an exact public receipt.
+  learned: queue timestamps cannot establish public delivery and must not trigger duplicate submissions.
+  criterion now: ISC-240 and ISC-241 retain exact delivery and coherent timing gates.
+
 2026-10-02 | conjectured: birth-blueprint source remained the first implementation gap.
   refuted by: fresh HEAD29ef123 and245-test local acceptance show that source slice already completed.
   learned: recover source state before dispatching; delegation executable validation is the next gap.
@@ -607,6 +643,9 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
   criterion now: ISC-157 through ISC-162 verify recovery and preservation.
 
 ## Verification
+
+- ISC-228–239, ISC-245–247: recovery readback — docs/editorial/2026-10-07-recovery-review.md; private queue audit reports thirteen valid items; automation readback ACTIVE; repository runner reports fifteen tests OK.
+- ISC-240–244, ISC-248: remaining — exact public delivery/author decisions/account acceptance and installed suite path failure are recorded in the recovery review.
 
 October2 pre-state: queue SHA25646331d23176058211980cacc05f2b7fa6420a44cf5534535a411d50d3f51206c; Antahkarana HEAD29ef123. Later fresh tool evidence must mark criteria; no completion inferred from this entry.
 
