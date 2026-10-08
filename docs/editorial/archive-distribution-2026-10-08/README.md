@@ -30,3 +30,7 @@ The existing author-selected policy is **publish individually approved items**, 
 ## Verification
 
 [VERIFICATION.json](VERIFICATION.json) records source integrity, catalogue coverage, CSV agreement, queue preservation, draft lengths, X limits, source-link destinations and unchanged daily drafts. Full platform history, live referral outcomes and human voice/canon acceptance are separate pending checks. The routed generation launch was refused by the host-pressure admission guard before execution; manuscripts were completed directly. No provider output is claimed.
+
+## Field Report review UI — live October 8
+
+The six exact drafts,24 series concepts,127 archive rows and full series plan are now in the existing private [Field Report Publishing shore](https://field-report.witnessalchemist.chatgpt.site/details.html?district=publishing). [Open the Substack article Review](https://field-report.witnessalchemist.chatgpt.site/details.html?district=publishing&record=draft%3ATN-ARCHIVE-20261008-SUBSTACK&page=review). Substack proposals show email off; Reddit proposal is own-profile only, no subreddit. The live UI supports individual approval and queueing. Its delivery adapter remains unconfigured; queueing is a held handoff, not automatic posting. Live readback:668records,planrevision2,publicationqueue0,newdraftsunapproved. Receipt: FIELD-REPORT-LIVE.json.
