@@ -120,6 +120,13 @@ def discover(root, fixture=None, live=False, now=None, runner=subprocess.run):
 def enqueue(root, packet):
     row = load(Path(packet), {})
     if row.get('status') != 'draft' or not row.get('id') or not row.get('body') or not row.get('sources'): raise ValueError('complete draft payload required')
+    review = row.get('writer_review')
+    if not isinstance(review, dict) or review.get('contract') != 'noesis-writer-human-direction-2026-10-08-v1' or review.get('skill_version') != '2.17.0':
+        raise ValueError('current noesis writer review required before enqueue')
+    if review.get('payload_sha256') != queue.digest(row):
+        raise ValueError('writer review does not cover current exact payload')
+    if review.get('verdict') != 'ready-for-human-review' or not review.get('reviewer') or review.get('source_coverage') is not True or review.get('unresolved_findings') != []:
+        raise ValueError('unresolved or incomplete writer review')
     for field in ('approved_by', 'approved_at', 'authorization_receipt', 'approved_payload_sha256'):
         if row.get(field): raise ValueError('draft cannot carry approval')
     probe = dict(row, status='approved', approved_by='validation', approved_at='1970-01-01T00:00:00+00:00', authorization_receipt='validation')

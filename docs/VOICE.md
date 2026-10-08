@@ -1,5 +1,9 @@
 # Editorial Voice Tiers
 
+## Current writer authority
+
+All new writing and revisions follow the canonical **noesis-writer-skill v2.17.0** and the [ecosystem writing contract](editorial/WRITER-CONTRACT.md). The author's October 8 direction rejects formulaic “not X, but Y” reframes, manufactured aphorisms and repetitive short-line cadence. This direction overrides older voice examples and platform templates. Genre, source and subject determine the prose; uncertainty follows the evidence.
+
 Posts on Synchronocities span four registers — from short personal field notes to large-scope research essays to schema-level reference indexes. This document defines the tiers, sets word-count expectations, and explains how each renders.
 
 The tier is declared via `entry_kind` and (for non-card posts) `article_mode` in frontmatter.
@@ -67,7 +71,7 @@ Run through these questions in order. Stop at the first match.
 Across all tiers, the voice baseline is:
 - **Anatomist who sees fractals** — clinical-visionary balance
 - **PubMed × Alex Grey** — clinical terminology rendered with visionary artistry
-- **Direct, no hedging** — claim the structural pattern; don't soften
+- **Direct and evidence-bounded** — state what the source supports; distinguish observation, interpretation and proposed models
 - **Three tones**: grounded, direct, respectful-challenging (per the [voice-and-tone guide](../01-Projects/tryambakam-noesis/brand-docs-final/tryambakam-noesis-aleph/03-voice-and-tone.md) in the vault)
 
 Tier-specific calibration:

@@ -47,7 +47,9 @@ class RunnerTests(unittest.TestCase):
     def test_readback_reconcile(self,_):
         self.assertEqual(c.publish(self.state,'trial',True,self.fake(mismatch=True))['status'],'reconcile')
     def test_calendar_dst(self):
-        blog=Path(__file__).resolve().parents[4]
+        blog=self.root/'blog'; posts=blog/'src/content/posts';posts.mkdir(parents=True)
+        for slug in c.re.findall(r'`([a-z0-9-]+)`', (c.REF/'baseline-calendar.md').read_text()):
+            (posts/(slug+'.md')).write_text('Synthetic source for calendar lookup')
         a=c.plan('2026-10-01',blog);self.assertEqual(a['weeks'],26);self.assertTrue(a['article'].startswith('2026-10-08T10:00:00+02:00'));self.assertTrue(a['sources'])
         self.assertTrue(c.plan('2026-10-29',blog)['article'].endswith('+01:00'))
     def test_discovery_dedup_lock_and_replay(self):
@@ -80,11 +82,23 @@ class RunnerTests(unittest.TestCase):
         (self.state/'queue.json').unlink()
         draft=dict(self.row,status='draft')
         for key in ['approved_by','approved_at','authorization_receipt','approved_payload_sha256']:draft.pop(key,None)
+        draft['writer_review']={'contract':'noesis-writer-human-direction-2026-10-08-v1','skill_version':'2.17.0','payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
         path=self.root/'draft.json';c.atomic(path,draft)
         self.assertEqual(c.enqueue(self.state,path)['status'],'draft')
         now=dt.datetime.now(c.UTC)
         prior=dict(self.row,status='published',kind='article',published_at=(now-dt.timedelta(days=6)).isoformat())
         self.assertEqual(c.cadence([prior],dict(self.row,kind='article'),now),'one article per platform per seven days')
+    def test_writer_review_missing_stale_and_unresolved(self):
+        draft=dict(self.row,status='draft')
+        for key in ['approved_by','approved_at','authorization_receipt','approved_payload_sha256']:draft.pop(key,None)
+        path=self.root/'writer.json';c.atomic(path,draft)
+        with self.assertRaisesRegex(ValueError,'writer review required'):c.enqueue(self.state,path)
+        draft['writer_review']={'contract':'noesis-writer-human-direction-2026-10-08-v1','skill_version':'2.17.0','payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
+        draft['body']='Changed after editorial review';c.atomic(path,draft)
+        with self.assertRaisesRegex(ValueError,'current exact payload'):c.enqueue(self.state,path)
+        draft['writer_review']['payload_sha256']=c.queue.digest(draft)
+        draft['writer_review']['unresolved_findings']=['unsupported personal anecdote'];c.atomic(path,draft)
+        with self.assertRaisesRegex(ValueError,'unresolved'):c.enqueue(self.state,path)
     def test_crash_after_packet_before_state_replays(self):
         fixture=self.root/'fixture.json';c.atomic(fixture,[{'id':'321','text':'external'}]);real=c.atomic
         def crash(path,value):
