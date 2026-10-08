@@ -64,37 +64,39 @@ const isActive = (href: string) => {
     </span>
   </a>
 
-  <!-- Desktop nav (hidden below sm — mobile uses the hamburger + dropdown below). -->
+  <!-- Desktop nav (hidden below lg — mobile uses the hamburger + dropdown below). -->
   <nav
-    class="site-header-nav hidden max-w-[58vw] items-center justify-end gap-x-3 overflow-x-auto whitespace-nowrap pl-3 sm:flex sm:max-w-none sm:gap-x-5 sm:pl-0"
-    style="font-family: var(--font-mono); font-size: clamp(0.63rem, 0.75vw, 0.8rem); scrollbar-width: none; -webkit-mask-image: linear-gradient(to right, black 86%, transparent 100%); mask-image: linear-gradient(to right, black 86%, transparent 100%);"
+    aria-label="Primary navigation"
+    class="site-header-nav hidden max-w-[58vw] items-center justify-end gap-x-3 overflow-x-auto whitespace-nowrap pl-3 lg:flex lg:max-w-none lg:gap-x-5 lg:pl-0"
+    style="font-family: var(--font-mono); font-size: 0.85rem; scrollbar-width: none;"
   >
     {links.map(({ href, label, count }) => {
       const active = isActive(href);
       return (
         <a
           href={href}
+          aria-current={active ? 'page' : undefined}
           class="group inline-flex items-baseline gap-1 transition-colors hover:text-[var(--color-sacred-gold)]"
-          style={`color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
+          style={`color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver-strong)'};`}
         >
           <span>{label}</span>
           <span
             class="tabular-nums transition-opacity"
-            style={`font-size: 0.78em; opacity: ${active ? 0.78 : 0.42}; color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
+            style={`font-size: 0.78em; opacity: 0.78; color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver-strong)'};`}
           >{count}</span>
         </a>
       );
     })}
   </nav>
 
-  <!-- Mobile hamburger button — shown only below sm, hidden at/above sm. -->
+  <!-- Mobile hamburger button — shown only below lg, hidden at/above lg. -->
   <button
     id="site-nav-toggle"
     type="button"
     aria-expanded="false"
     aria-controls="site-nav-mobile-panel"
     aria-label="Open navigation"
-    class="site-nav-toggle inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[rgba(138,155,168,0.18)] bg-[rgba(7,11,29,0.62)] text-[var(--color-sacred-gold)] transition-colors hover:bg-[rgba(197,160,23,0.12)] sm:hidden"
+    class="site-nav-toggle inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[rgba(138,155,168,0.18)] bg-[rgba(7,11,29,0.62)] text-[var(--color-sacred-gold)] transition-colors hover:bg-[rgba(197,160,23,0.12)] lg:hidden"
   >
     <!-- Hamburger icon (shown when collapsed) -->
     <svg
@@ -135,12 +137,11 @@ const isActive = (href: string) => {
   <!-- Mobile dropdown panel — drops in just below the header pill on mobile.
        `hidden` attribute by default; JS toggles it. Matches the pill's
        backdrop-blur, border, and brand-color palette. -->
-  <div
+  <nav
     id="site-nav-mobile-panel"
-    role="menu"
-    aria-labelledby="site-nav-toggle"
+    aria-label="Primary navigation"
     hidden
-    class="absolute left-3 right-3 top-full z-10 mt-2 flex flex-col gap-1 rounded-2xl border border-[rgba(138,155,168,0.18)] bg-[rgba(7,11,29,0.92)] p-2 shadow-[0_18px_50px_rgba(0,0,0,0.32)] backdrop-blur-md sm:hidden"
+    class="absolute left-3 right-3 top-full z-10 mt-2 flex flex-col gap-1 rounded-2xl border border-[rgba(138,155,168,0.18)] bg-[rgba(7,11,29,0.92)] p-2 shadow-[0_18px_50px_rgba(0,0,0,0.32)] backdrop-blur-md lg:hidden"
     style="font-family: var(--font-mono); font-size: 0.85rem;"
   >
     {links.map(({ href, label, count }) => {
@@ -148,20 +149,20 @@ const isActive = (href: string) => {
       return (
         <a
           href={href}
-          role="menuitem"
+          aria-current={active ? 'page' : undefined}
           data-site-nav-link
           class="flex items-center justify-between gap-3 rounded-xl px-3 py-2 transition-colors hover:bg-[rgba(197,160,23,0.08)]"
-          style={`color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
+          style={`color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver-strong)'};`}
         >
           <span class="font-semibold tracking-[0.04em]">{label}</span>
           <span
             class="tabular-nums"
-            style={`font-size: 0.85em; opacity: ${active ? 0.85 : 0.5}; color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver)'};`}
+            style={`font-size: 0.85em; opacity: ${active ? 0.85 : 0.78}; color: ${active ? 'var(--color-sacred-gold)' : 'var(--color-muted-silver-strong)'};`}
           >{count}</span>
         </a>
       );
     })}
-  </div>
+  </nav>
 </header>
 
 <script>
@@ -172,7 +173,7 @@ const isActive = (href: string) => {
   //                   leftover open panel)
   //   - Tap outside → close
   //   - Press ESC   → close
-  //   - sm breakpoint resize → close (the desktop nav takes over)
+  //   - lg breakpoint resize → close (the desktop nav takes over)
   const toggle = document.getElementById('site-nav-toggle');
   const panel = document.getElementById('site-nav-mobile-panel');
   if (toggle && panel) {
@@ -215,12 +216,19 @@ const isActive = (href: string) => {
       }
     });
 
-    // If the viewport grows past sm while the panel is open, close it —
+    // If the viewport grows past lg while the panel is open, close it —
     // the desktop nav becomes visible and the open mobile panel would
     // otherwise float there as a stale overlay.
-    const mql = window.matchMedia('(min-width: 640px)');
+    const mql = window.matchMedia('(min-width: 1024px)');
     mql.addEventListener('change', (ev) => {
       if (ev.matches) setOpen(false);
     });
   }
 </script>
+
+<style>
+  #site-nav-mobile-panel[hidden] { display: none; }
+  .site-header-nav a { min-height: 44px; align-items: center; }
+  [data-site-nav-link] { min-height: 44px; }
+  @media (max-width: 400px) { header > a { gap: .4rem; } header > a > span:last-child { font-size: .65rem; letter-spacing: .03em; } }
+</style>
