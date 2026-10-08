@@ -17,3 +17,9 @@ Proposed operational crosswalk, not a physiological classification. Names reuse 
 The installed ft CLI is a bookmark/knowledge tool, not a posting adapter. Creating a Bot is not delivery capability or profile persistence proof. Registry tracks each actual state. Existing Thalia is a group chat and remains separate. Setup Bots perform read-only capability discovery; they must not create schedules or submit articles.
 
 Bridge target: human exact approval → human queueing → fingerprint/account/capability validation → bounded actor claim → submission once → public receipt/readback or unresolved hold. No claim/retry endpoint or verified channel executor is live yet. An approval alone is not a delivered article.
+
+## Verified setup
+
+All nine native Grok Bots were created, named and received their role briefs. The main Bot and pre-existing Thalia group were preserved. The same owner-private Field Report now includes nine role records and a pillar index, plus Muse ownership on127 source rows,24 concepts and six drafts.
+
+[Open live Muse index](https://field-report.witnessalchemist.chatgpt.site/details?district=publishing&record=editorial%3Anine-muses-field-theory-20261008&page=review). See [delivery contract](DELIVERY-CONTRACT.md) for current capability evidence and outstanding executor work. Public posting remains unconfigured.
