@@ -1,6 +1,6 @@
-# Deep integration and human review — proposed implementation
+# Deep integration and human review — implementation status
 
-Source inspection: 8 October 2026. This is a design, not an activated connector or implemented question service.
+Source inspection: 8 October 2026. The one-post operator pilot is implemented and published. The full unattended Muse bridge remains a design.
 
 ## Current foundation
 
@@ -72,3 +72,14 @@ Proposed implementation additions (not existing endpoints): report/review/questi
 - Missing access is visible and cannot be bypassed by another tool.
 - Owner sees pending/deferred/resolved questions and exact result stage on desktop/mobile.
 - First real loop is verified from submission through answer, acknowledgement and revised proposal.
+
+
+## Implemented pilot — 8 October, 18:22 Paris
+
+Let the Sentence Finish is public at https://thewhychromosome.substack.com/p/let-the-sentence-finish (post219450210,16:13:05.777Z). Exact existing approval and normalized visible-copy comparison verified. Subscriber email/app delivery off read in native publishing dialog; no newsletter send.
+
+Private Site now has D1 review_questions and source_reviews, typed source evidence, Questions tab and Needs you inbox. Human same-origin answers save with revision checks and atomic pending outbox. Acknowledgement route records exact answer ID/revision; tests verify retry/conflict handling. Published receipt writer validates prior exact approval, matching destination, and preserves a completed receipt against duplicate queue/revoke/approve actions. Native operator relay wrote real receipt, Euterpe proposal and Clio review; no fabricated human answer.
+
+Euterpe question concerns only the NEXT companion and awaits the owner. Clio reviewed public copy and both source links. Vault source lattice links all nine role records to hashed framework/workflow sources; approved payload unchanged. Existing Calliope digest is being updated in place with the question link.
+
+Scope limit: service access is trusted operator access, not per-Muse scoped authentication. Grok still cannot read private Site or refused vault folders. No unattended dispatcher, publication execution claim lease, native human-answer mirror or automatic answer-return transport is installed. Published action used signed-in operator IAB; future public actions retain their exact individual approval gate. Answer/ack loop is tested with isolated in-memory human identity; the live next-companion question remains unanswered.
