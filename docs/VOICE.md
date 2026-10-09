@@ -2,7 +2,7 @@
 
 ## Current writer authority
 
-All new writing and revisions follow the canonical **noesis-writer-skill v2.17.0** and the [ecosystem writing contract](editorial/WRITER-CONTRACT.md). The author's October 8 direction rejects formulaic “not X, but Y” reframes, manufactured aphorisms and repetitive short-line cadence. This direction overrides older voice examples and platform templates. Genre, source and subject determine the prose; uncertainty follows the evidence.
+All new writing and revisions follow the canonical **noesis-writer-skill v2.18.0** and the [ecosystem writing contract](editorial/WRITER-CONTRACT.md). The author's October 8–9 direction rejects formulaic “not X, but Y” reframes and restores the embodied observation, irreverent humour, technical imagination and symbolic inquiry found in the [earlier-blog close reading](editorial/voice-reading-2026-10-09/READING.md). These traits are available expressive resources, not quotas. Review repeated rhetoric in context; meaningful contrasts, fragments and metaphors remain available. This direction overrides older examples and platform templates. Genre, source and subject determine the prose; uncertainty follows the evidence. Preserve the living cosmology's ambition and the writer's personality through revision.
 
 Posts on Synchronocities span four registers — from short personal field notes to large-scope research essays to schema-level reference indexes. This document defines the tiers, sets word-count expectations, and explains how each renders.
 
@@ -76,11 +76,11 @@ Across all tiers, the voice baseline is:
 
 Tier-specific calibration:
 
-- **Signal Essay** — strongest argumentative drive. Each section names a claim and pays it off. Open with the thesis, not the setup. Cite authors/works (not "the vault").
+- **Signal Essay** — strongest argumentative drive. Each section names a claim and pays it off. Choose an opening that carries the actual argument; a thesis, image, encounter or question can earn its place. Cite authors/works (not "the vault").
 - **Field Note** — closer to lived prose. First-person OK. Dates, locations, somatic details welcome. Less argument, more observation.
 - **Framework** — pedagogical-structural. Numbered components, diagrams, code snippets where they earn their place. Voice is "here is how this works."
 - **Hub** — cool curator's voice. Each section header introduces a sub-domain; each paragraph annotates one related-post.
-- **Reference** — almost no voice. Information density wins.
+- **Reference** — prioritize clear information and navigability; retain character where it helps orientation without adding compulsory narrative.
 
 ## Migrating legacy posts
 

@@ -1,0 +1,1 @@
+One decision in the publishing workflow I’m building: every draft stops for review. Copy, destination and delivery settings stay attached to the item. Generating more should leave me with clearer choices about what deserves to be read.

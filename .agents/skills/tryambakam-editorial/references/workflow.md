@@ -8,6 +8,8 @@ For original work, the living loop starts with a supplied encounter or open live
 
 Choose the next date in the 26-week calendar, read the full canonical article and inspect its ledger/references. Rotate across the entire eight-strand blog catalogue plus the conditional narrative strand. Refresh source hashes; compare existing Published and Drafts before adaptation. Prepare one Substack essay, two original Notes (Tuesday/Saturday), two short X posts and one X Article every other week. X Articles should be a distinct complete argument, not an essay split into a thread. An outline remains draft until the full text is complete.
 
+Before drafting, read the current writer contract and [October 9 close reading](/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/voice-reading-2026-10-09/READING.md). Preserve imagery, irreverence and consequential technical connections where the genre and material support them; pattern findings request judgment rather than automatic deletion. Review the full adaptation for its own voice and source integrity.
+
 Write `packets/YYYY-Www/` under the runtime state root, with exact copy and a source/claim sheet. Queue each channel variant independently with timezone-aware `not_before`. No automatic approval. Incomplete article text, unknown account, placeholder link, unsupported claim, missing asset or transport means draft/blocked. Do not fill the queue to meet a quota.
 
 ## Conversation discovery — daily 09:30 Europe/Paris

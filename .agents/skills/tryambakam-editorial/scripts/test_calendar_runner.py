@@ -7,6 +7,9 @@ class RunnerTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory(); self.root = Path(self.tmp.name)
         self.source = self.root / 'source.md'; self.source.write_text('source')
+        self.contract = self.root / 'WRITER-CONTRACT.md'; self.contract.write_text('Fixture current writer contract')
+        contract_patch = patch.object(c, 'WRITER_CONTRACT_PATH', self.contract)
+        contract_patch.start(); self.addCleanup(contract_patch.stop)
         self.row = dict(id='trial', platform='x', kind='post', account='@tester', destination='https://x.com/tester', target_url=None, audience='public', send_email=False, body='Exact text', media=[], sources=[{'path':str(self.source), 'sha256':c.hashlib.sha256(b'source').hexdigest()}], status='approved', approved_by='human', approved_at='2020-01-01T00:00:00+00:00', authorization_receipt='human exact item', not_before='2020-01-01T00:00:00+00:00')
         self.row['payload_sha256']=self.row['approved_payload_sha256']=c.queue.digest(self.row)
         self.state=self.root/'private'; self.save()
@@ -82,7 +85,7 @@ class RunnerTests(unittest.TestCase):
         (self.state/'queue.json').unlink()
         draft=dict(self.row,status='draft')
         for key in ['approved_by','approved_at','authorization_receipt','approved_payload_sha256']:draft.pop(key,None)
-        draft['writer_review']={'contract':'noesis-writer-human-direction-2026-10-08-v1','skill_version':'2.17.0','payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
+        draft['writer_review']={'contract':c.WRITER_CONTRACT_ID,'skill_version':c.WRITER_SKILL_VERSION,'contract_sha256':c.writer_contract_hash(),'payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
         path=self.root/'draft.json';c.atomic(path,draft)
         self.assertEqual(c.enqueue(self.state,path)['status'],'draft')
         now=dt.datetime.now(c.UTC)
@@ -93,12 +96,29 @@ class RunnerTests(unittest.TestCase):
         for key in ['approved_by','approved_at','authorization_receipt','approved_payload_sha256']:draft.pop(key,None)
         path=self.root/'writer.json';c.atomic(path,draft)
         with self.assertRaisesRegex(ValueError,'writer review required'):c.enqueue(self.state,path)
-        draft['writer_review']={'contract':'noesis-writer-human-direction-2026-10-08-v1','skill_version':'2.17.0','payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
+        draft['writer_review']={'contract':c.WRITER_CONTRACT_ID,'skill_version':c.WRITER_SKILL_VERSION,'contract_sha256':c.writer_contract_hash(),'payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
         draft['body']='Changed after editorial review';c.atomic(path,draft)
         with self.assertRaisesRegex(ValueError,'current exact payload'):c.enqueue(self.state,path)
         draft['writer_review']['payload_sha256']=c.queue.digest(draft)
         draft['writer_review']['unresolved_findings']=['unsupported personal anecdote'];c.atomic(path,draft)
         with self.assertRaisesRegex(ValueError,'unresolved'):c.enqueue(self.state,path)
+    def test_writer_review_stale_version_contract_and_contract_source(self):
+        draft=dict(self.row,status='draft')
+        for key in ['approved_by','approved_at','authorization_receipt','approved_payload_sha256']:draft.pop(key,None)
+        review={'contract':c.WRITER_CONTRACT_ID,'skill_version':c.WRITER_SKILL_VERSION,'contract_sha256':c.writer_contract_hash(),'payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
+        path=self.root/'stale-writer.json'
+        original_queue=(self.state/'queue.json').read_bytes()
+        for field,value,message in [('skill_version','2.17.0','current noesis writer'),('contract','noesis-writer-human-direction-2026-10-08-v1','current noesis writer'),('contract_sha256','0'*64,'current contract source')]:
+            draft['writer_review']=dict(review,**{field:value});c.atomic(path,draft)
+            with self.subTest(field=field),self.assertRaisesRegex(ValueError,message):c.enqueue(self.state,path)
+            self.assertEqual((self.state/'queue.json').read_bytes(),original_queue)
+        draft['writer_review']=review;c.atomic(path,draft)
+        self.contract.write_text('Current contract changed after review')
+        with self.assertRaisesRegex(ValueError,'current contract source'):c.enqueue(self.state,path)
+        self.contract.unlink()
+        with self.assertRaisesRegex(ValueError,'contract source unavailable'):c.enqueue(self.state,path)
+        self.assertEqual((self.state/'queue.json').read_bytes(),original_queue)
+
     def test_crash_after_packet_before_state_replays(self):
         fixture=self.root/'fixture.json';c.atomic(fixture,[{'id':'321','text':'external'}]);real=c.atomic
         def crash(path,value):

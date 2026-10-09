@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproducible local prose-pattern triage. Does not classify authorship or approve copy."""
+"""Reproducible local prose-pattern triage. Contextual review prompts only: devices may be intentional. Does not classify authorship, measure voice fit or approve copy."""
 import argparse
 import hashlib
 import json
@@ -59,7 +59,7 @@ def main():
                     else:
                         visit(child, pointer+'/'+str(index))
         visit(data)
-    report = {'schema': 'noesis.voice-triage.v1', 'contract': 'noesis-writer-human-direction-2026-10-08-v1', 'scope': 'Local blog archive and October 8 prepared platform copy; not a live ecosystem crawl', 'status': 'contextual-review-required', 'records': records, 'summary': {'records': len(records), 'flagged_records': sum(bool(r['findings']) for r in records), 'findings': sum(len(r['findings']) for r in records)}}
+    report = {'schema': 'noesis.voice-triage.v1', 'contract': 'noesis-writer-human-direction-2026-10-09-v2', 'scope': 'Local blog archive and October 8 prepared platform copy; not a live ecosystem crawl', 'status': 'contextual-review-required', 'records': records, 'summary': {'records': len(records), 'flagged_records': sum(bool(r['findings']) for r in records), 'findings': sum(len(r['findings']) for r in records)}}
     Path(args.output).write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
     print(json.dumps(report['summary']))
 

@@ -8,6 +8,15 @@ queue = importlib.util.module_from_spec(spec); spec.loader.exec_module(queue)
 UTC = dt.timezone.utc
 PARIS = ZoneInfo('Europe/Paris')
 REF = Path(__file__).resolve().parents[1] / 'references'
+WRITER_CONTRACT_ID = 'noesis-writer-human-direction-2026-10-09-v2'
+WRITER_SKILL_VERSION = '2.18.0'
+WRITER_CONTRACT_PATH = Path('/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/WRITER-CONTRACT.md')
+
+def writer_contract_hash():
+    try:
+        return hashlib.sha256(WRITER_CONTRACT_PATH.read_bytes()).hexdigest()
+    except OSError as exc:
+        raise ValueError('current writer contract source unavailable') from exc
 
 def atomic(path, value):
     path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
@@ -121,8 +130,10 @@ def enqueue(root, packet):
     row = load(Path(packet), {})
     if row.get('status') != 'draft' or not row.get('id') or not row.get('body') or not row.get('sources'): raise ValueError('complete draft payload required')
     review = row.get('writer_review')
-    if not isinstance(review, dict) or review.get('contract') != 'noesis-writer-human-direction-2026-10-08-v1' or review.get('skill_version') != '2.17.0':
+    if not isinstance(review, dict) or review.get('contract') != WRITER_CONTRACT_ID or review.get('skill_version') != WRITER_SKILL_VERSION:
         raise ValueError('current noesis writer review required before enqueue')
+    if review.get('contract_sha256') != writer_contract_hash():
+        raise ValueError('writer review does not cover current contract source')
     if review.get('payload_sha256') != queue.digest(row):
         raise ValueError('writer review does not cover current exact payload')
     if review.get('verdict') != 'ready-for-human-review' or not review.get('reviewer') or review.get('source_coverage') is not True or review.get('unresolved_findings') != []:

@@ -1,0 +1,1 @@
+I’m building Tryambakam Noesis: tools and writing for examining how we notice, interpret and choose. I’ll share design decisions, essays and small practices as the work takes shape. What part of making do you wish builders showed more clearly?

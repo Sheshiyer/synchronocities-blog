@@ -1,0 +1,17 @@
+# Corpus census for the October 9 writer refresh
+
+The local revision window is June 9–October 9, 2026. The census includes an article if its frontmatter date falls within that window, its body was created or changed since the window opened, or Git history shows an intervening body change even when the current body returned to the original. Metadata-only edits do not make older prose a new article. The Git comparison baseline is June 8 commit `719901714ad3b567473ab1abec9330d365f39711`.
+
+`inventory.json` is the primary manifest. It contains 134 source-copy records, including 74 blogs and 60 prepared-copy records. Exact body deduplication produces 111 representatives: 74 blogs and 37 drafts/copy packs. Alias records retain their separate source locations, local statuses, destinations and original hashes. Hash equivalence is not a claim that related arguments or paraphrases are duplicates.
+
+`inventory-blogs.json` and `inventory-drafts.json` are the complete representative work lists. Each row points to the immutable current source snapshot under `snapshots/` and a proposed separate revision path. No candidate revision is represented as existing merely because that path is listed. IDs001–074 are blogs. All134 snapshots were verified against manifest SHA256 values.
+
+The127 current blog files comprise72 with net body changes since the baseline,2 new files,1 metadata-only change and52 unchanged files. The latter53 are excluded after date and intervening-history checks. The existing dirty Lighted Clearing file is included as its current working copy and explicitly marked; nothing was reverted.
+
+The prepared-copy census includes archive-distribution adaptations, the previous pilot revision, daily cross-brand review copy, all11 private runtime packets,13 queue bodies, full October launch drafts and worksheet, profile/reintroduction/social copy, and the Recognition essay/return card. Complete mixed copy packs retain their operational framing in snapshots; that framing must stay outside any public revision. Runtime files contribute only their intended public prose and sanitized record metadata. Raw queue JSON, authorization text, private research and credentials are excluded.
+
+The53-row concept registry is recorded separately with its states and next actions. Its manuscript directory does not exist. Concept source snapshots, briefs and outlines are not silently promoted into finished manuscripts. Gananatha waits for both long drafts; Consecration waits for the named Agama/source. The old temporary release checkout is absent, so the installed skill's September30 baseline calendar/catalogue is the historical planning fallback, reconciled against this current127-file census.
+
+Local queue statuses are dated ledger observations, not confirmation of current native platform state. The queue SHA256 remained unchanged through the census. Updating a source or drafting a replacement does not transfer an existing human approval to changed copy. External-only platform drafts remain outside this local census; raw client/private research, third-party excerpts, historical reading extracts, audits, reports, receipts and runtime dependencies are intentionally excluded.
+
+Reproduce with `python3 docs/editorial/corpus-refresh-2026-10-09/inventory_build.py` only before revision sources change. The script writes exclusively its inventory manifests and snapshots; it does not alter articles, drafts, queue entries or external platforms.
