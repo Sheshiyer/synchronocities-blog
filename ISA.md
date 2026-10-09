@@ -911,3 +911,27 @@ Verification ISC-362: all37 distinct planning bodies and complete candidates rea
 Verification ISC-361/363–365: corpus-refresh-2026-10-09/VERIFICATION.json passes all1878 structural/source/coverage checks. All74 eligible blogs and37 distinct drafts have complete candidates and exact per-piece reviews;88copies revised,23retained. Independent111 whole-piece records bind finalbytes; corpus voice assessment reviewed101 successive prose/context followup edits plus1format-only EOF repair across43candidates and finalcandidate-set digest6185b19848642b2a2c37e5870efa4b455ba1e5ee534192c7bfb9cee9671f3bb9. All134snapshot/live-container hashes, exact74frontmatters, originalURLs/Markdown destinations,17-file canonical/mirror archive and10preservation hashes pass;17writer-gate regressions pass. Scientific/historical/traditional/model/metadata/media/account/timing issues stay explicit perpiece. No public copy, queue approval or delivery was changed. Existing preparationautomationprompt updated/readback in place with10:00schedule/model/project/status retained. RemoteMuseprofiles not newly updated.
 
 Changelog — four-month writer refresh: Conjectured: removing obvious template phrases would recover the native voice. Refuted by: complete comparative reading and independent followups found flattened prose, repeated triad tours, process narration and adjacent old guarantees. Learned: complete-piece context, preserved imagery and technical wit, and a second reader’s changed-span/adjacency checks improve revision fidelity. Criterion now: a latest-writer pass retains genre/personality, binds exact final copy, and separates completed editorial work from unresolved evidence and publication decisions.
+
+## Older Substack close reading — October 9
+
+Problem: previous calibration used local blog versions; the author now asks for older live Substack posts.
+Vision: source-linked judgment separates the author’s useful technical imagination from recurring scaffolding and unsupported claims.
+Out of Scope: no public editing, publication, queue mutation, private subscriber data or blanket AI-authorship verdict.
+Constraints: read complete accessible bodies through the signed-in IAB; distinguish live versions from repository versions; retain external state and unrelated WIP.
+Goal: review every older article currently exposed by The Why Chromosome archive, with dated per-piece findings and explicit access limits.
+Features: archive census; nine complete close readings; one recent published comparison; selective primary-text checks; durable review.
+Test strategy: observed archive list reconciles to nine older URLs; each has its own findings; source checks linked; local review links resolve; preservation hashes match.
+
+- [x] ISC-366: Live archive identifies the older-post review set and dates.
+- [x] ISC-367: Every accessible older article has a whole-body reading record.
+- [x] ISC-368: Each older article has specific keep/change/source findings.
+- [x] ISC-369: Live Substack findings are compared with the current writer calibration.
+- [x] ISC-370: Selective factual corrections cite inspected primary texts and retain unverified holds.
+- [x] ISC-371: Durable review and source manifest are readable and internally consistent.
+- [x] ISC-372: Anti: external content, queue, skills and unrelated WIP remain unchanged.
+
+Decisions: bounded synchronous nine-article review; no delegation needed for this reading set. Seven outcome criteria replace ceremonial per-paragraph expansion. ContextSearch checks native/archive divergence; FirstPrinciples/Challenge tests the assumption that older work is uniformly exemplary; ISA records scope/probes; ReReadCheck binds the final review to the user’s actual ask. No empirical or authorship certification inferred from familiar prose.
+
+Verification ISC-366–372: docs/editorial/substack-older-posts-review-2026-10-09/README.md and SOURCES.json record nine live older complete accessible bodies (January2023–January2025) plus one recent published comparison; eleven archive entries reconciled. Perpiece keep/change/source findings supplied. Chamakam sequence checked against primary transcription, odd1–33 then multiplesof4 through48; Sikshavalli sixquotedterms compared with articlefour.23coverage/preservation assertions pass,11inheritedWIP/queue hashes unchanged. Review-only; no skills/publiccopy/approval mutation. Advisorattempt unavailable429quota; no independent advisor or AI-authorship verdict claimed.
+
+Changelog — olderSubstackreview: conjectured: the older archive could supply a uniform voice baseline. Refuted by: fullbodies contain both distinctive technicalhumour and repeated negation/list/promotion scaffolding, plus specific primary-text mismatches. Learned: temporalage does not certify stylequality or claimvalidity. Criterion now: calibrate selected moves incontext, keep provenance, and separate voicevalue from factualwarrant.
