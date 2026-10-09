@@ -81,16 +81,6 @@ The Indian philosophical tradition maps four levels at which language executes. 
 
 **Para** — Silence. The init process. Unexecuted code containing all possible outputs. The position of the observer prior to observation, the compiler prior to compilation. Access to this layer is what the tradition calls *turiya* — the fourth state beyond waking, dreaming, and deep sleep. Not a mystical achievement. A register access.
 
-## What Happens When Kha-Ba-La Is Absent
-
-Kha-Ba-La organizes the difficulties I want to examine here: observing a pattern, acting within it and noticing what keeps it in place. It is a house reading, not a universal failure specification.
-
-**Without Kha (the observer position):** You fuse with the output. The Madhyama function call "I am not enough" executes and you experience it as reality rather than as compiled code. There is no space between the instruction and the sensation. The observer becomes the observed, and the loop never terminates because there is no process watching it terminate.
-
-**Without Ba (the body/compiler):** The code remains syntax. Intellectual understanding without somatic compilation. You can describe the pattern perfectly and never change it, because the description never reaches the hardware that executes it. Words remain pointers to memory addresses, never programs that alter state.
-
-**Without La (the inherited pattern):** You operate under the illusion that you are writing fresh code. You believe your reactions are chosen, your beliefs are examined, your responses are original. In fact, you are executing inherited instructions from mitochondrial lineage, early attachment, cultural conditioning, and epigenetic load. You cannot rewrite what you cannot see, and you cannot see what you believe is already yours.
-
 ## Karma as Inherited Codebase
 
 The compiler analogy changes the question I bring to lineage: what is carried by instruction, what is learned through repeated practice, and what does the body contribute? It cannot dismiss the teacher-student relation simply because an engineering vocabulary makes another route imaginable.
@@ -100,18 +90,6 @@ The compiler is not in the lineage. It is in the nervous system. It was always t
 The subconscious does not distinguish between instructions you installed deliberately and instructions installed by repetition, trauma, cultural conditioning, or epigenetic inheritance. It compiles all of them with equal fidelity. "I am not safe" triggers the same endocrine cascade whether you chose it or absorbed it from a parent's nervous system at age two. The function does not check authorship. It checks syntax.
 
 What the tradition calls *samskara* — refined impression, grooved pattern — is what happens when karma is metabolized. Not erased. Not transcended. Metabolized. The subconscious instruction is brought into conscious awareness (from Madhyama to Vaikhari, or from Pashyanti to Madhyama), examined as code rather than experienced as reality, and either rewritten or allowed to complete its execution while the observer watches. This integration of the subconscious into the conscious is the executional permission.
-
-## Scaling: From Personal to Cosmic
-
-The code image can be tried at several scales, but each crossing needs its own explanation.
-
-**Personal:** Your own nervous system. The internal narration running at Madhyama. The cost is metabolic: cortisol load, vagal withdrawal, immune suppression. The fracture is the split between what you say you want and what your code actually executes. The rupture is the moment you realize the program has been running without your authorship.
-
-**Interpersonal:** Two nervous systems in conversation. One person's Vaikhari becomes another's Madhyama. The words you speak are not merely information. They are instructions that compile on the listener's hardware. A parent who repeatedly says "you are clumsy" installs a function that runs for decades. The interpersonal scale is where inherited code is transmitted between biological machines.
-
-**Systemic:** Language atrophies as a compiler when entire populations stop using it as one. The phonemic precision of Sanskrit, the letter-as-force of Hebrew, the phonemic density of Quranic Arabic — these are not cultural curiosities. They are documented hardware interfaces that have been abandoned as the populations using them switched to purely informational speech. The systemic cost is a species-wide decoupling of utterance from effect.
-
-**Limit of the analogy:** Pāṇini’s grammar is a particular linguistic achievement. A contemporary compiler reading cannot establish a universal biological property of every symbolic system.
 
 ## Mantra as Compiled Instruction
 

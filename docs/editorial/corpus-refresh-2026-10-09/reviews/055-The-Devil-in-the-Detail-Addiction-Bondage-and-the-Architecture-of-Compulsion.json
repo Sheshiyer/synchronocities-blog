@@ -1,7 +1,7 @@
 {
   "id": "055-The-Devil-in-the-Detail-Addiction-Bondage-and-the-Architecture-of-Compulsion",
   "source_sha256": "d05a31bbe06865d392098f2ad4c55dad285d1b83058e4d1205e10c38b65f5e0a",
-  "candidate_sha256": "ee76601bd09ea919982efc6f235501bb675379da4b399e4c37a6eff7ab4e300e",
+  "candidate_sha256": "741ef389eb77f321599bd431ef48c70fc5024eceac9032af5461c1bab88d9af5",
   "frontmatter_unchanged": true,
   "skill_version": "2.18.0",
   "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
@@ -93,5 +93,30 @@
     "candidate_word_count": 1453,
     "source_word_count": 1865,
     "exact_change_trace_complete": true
+  },
+  "independent_followup_edits": [
+    {
+      "id": "055-The-Devil-in-the-Detail-Addiction-Bondage-and-the-Architecture-of-Compulsion",
+      "before": "At the systemic scale, the same specificity applies. The platform's reward schedule is not abstract. It is a specific sequence of notifications, delivered at specific intervals, with specific decay envelopes. To decouple is not to reject technology. It is to re-engineer the specific detail: turn off the chime, change the interval, remove the variable ratio. The detail is the interface.",
+      "after": "The detail is the interface: turn off the chime, change the interval, notice what the hand does when the phone stays silent.",
+      "reason": "Cut the repeated systemic reward-schedule exposition; retain a concrete experiment and its sound."
+    },
+    {
+      "id": "055-The-Devil-in-the-Detail-Addiction-Bondage-and-the-Architecture-of-Compulsion",
+      "before": "## Reading the Chime\n\n\n\n\n\n",
+      "after": "## Reading the Chime\n\n",
+      "reason": "Normalize the empty-line run identified by independent full reading; no prose change."
+    }
+  ],
+  "followup_readback": "Independent reader proposals applied as exact unique spans; original full comparison plus final changed-span/context reread must be rebound to this candidate hash.",
+  "human_approval": false,
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-a-review.json",
+    "candidate_sha256": "741ef389eb77f321599bd431ef48c70fc5024eceac9032af5461c1bab88d9af5",
+    "source_sha256": "d05a31bbe06865d392098f2ad4c55dad285d1b83058e4d1205e10c38b65f5e0a",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
   }
 }

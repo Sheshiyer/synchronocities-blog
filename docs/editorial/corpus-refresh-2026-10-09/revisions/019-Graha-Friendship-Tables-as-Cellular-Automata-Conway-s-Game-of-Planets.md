@@ -101,7 +101,7 @@ def evolve_planetary_state(current_state, rules, steps=1):
     return new_state
 ```
 
-This is precisely how Conway's Life works. The gliders, oscillators, and still lifes that emerge from Life's three rules have direct analogs in Vedic chart interpretation. Yogas (beneficial planetary combinations) are stable configurations — still lifes in automata terminology. Dashas create oscillating patterns — blinkers and pulsars. Transits act as gliders, propagating influence across the house grid.
+Conway’s gliders, oscillators and still lifes give me a vocabulary to try against chart interpretation. I place yogas beside still lifes, dashas beside oscillators, transits beside gliders. Whether those pairings survive a specified update rule is the next question for the model.
 
 ## The Asymmetry Problem
 
@@ -111,17 +111,17 @@ In computational terms, this makes the Graha automaton more akin to a directed g
 
 ## Pattern Stability and Field Coherence
 
-The most remarkable property of the Graha automaton is its stability classification. Certain planetary configurations produce stable equilibria — states that persist indefinitely under rule application. These correspond to what Vedic astrology calls Raj Yogas, Dhana Yogas, and other auspicious combinations. They are attractors in the automaton's state space.
+A Graha automaton would let us ask about stability. Which initial configurations persist under the chosen update rule? I would begin by testing the combinations called Raj Yogas and Dhana Yogas, rather than declaring them attractors before running the model.
 
-Other configurations produce oscillating patterns — planetary combinations that cycle between constructive and destructive phases. These correspond to the lived experience of periodic challenges and opportunities that characterize most human lives. The automaton oscillates, never settling, never diverging — bounded chaos within a deterministic rule set.
+An oscillating configuration would be another result to look for: a state that returns after a defined number of updates. That recurrence could then be compared with the periods used in a chart reading. Calling a life an oscillator would go further than the model permits.
 
-Still other configurations are inherently unstable — combinations where enemy relationships dominate, producing rapid state changes and pattern dissolution. These are the difficult charts, the lives marked by constant transition and upheaval. A working implementation would let us examine instability inside the model. It would not, by itself, predict upheaval in a life.
+Enemy relationships suggest another test case: do they make the proposed automaton settle, cycle or keep changing? The result would describe the rule set we built. Reading upheaval into a life would require a separate argument.
 
 ## Reading the Source Code
 
-The Graha friendship matrix is a lookup table for a cellular automaton that the ancient seers ran in their minds. They did not call it a cellular automaton. They called it Jyotish — the science of light. But the computational structure is identical. Rules applied to a grid. States evolving through neighborhood interactions. Complex patterns emerging from simple relationships.
+The Graha friendship matrix gives this proposed automaton its lookup table. What draws me is the possibility of a sparse rule set producing elaborate patterns. The work begins where the analogy becomes inconvenient: choosing a neighborhood, defining an update and finding out what the grid actually does.
 
-When you study a birth chart, you are examining the initial configuration of a cellular automaton. When you study transits, you are watching the automaton evolve. When you study dashas, you are observing the automaton's oscillation periods. The comparison is useful if it makes the rule choices visible. A shared vocabulary of patterns is only the beginning of that work.
+A chart gives me one proposed starting state. Transits and dashas would then need distinct operations before I could watch the grid move. Until those choices are made, the automaton remains on the drawing board.
 
 ---
 

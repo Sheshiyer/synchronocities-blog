@@ -64,7 +64,7 @@ The Hanged Man (XII) is suspended between assignment and expulsion. One leg is b
 
 This is the most vulnerable moment in any garbage collection protocol. The system has admitted that something is corrupt. It has named the corruption. But the corruption still occupies memory. The pointer still resolves. The pharmakos still breathes, or the offering still sits on the shore awaiting the tide, or the Hanged Man still dangles in the interval between states, eyes open, watching.
 
-The priests — the *pedanda* I watched at Sanur, the pujaris of a Kartika morning — understand this interval. The Padyami is not a single moment but a sequence: preparation, procession, deposit, return. The effigy is not destroyed immediately. It is carried, displayed, witnessed. The assembly must look at what it is about to release. This is not cruelty. It is calendrical precision. The pause between mark and sweep is where recognition happens. Without that pause, the garbage collector becomes an executioner. With it, the system acknowledges what it is releasing before the release occurs. The Hanged Man's open eyes are not a sign of suffering. They are a sign that the witness function is still active during the deallocation.
+The pause before release is what I carry from the Sanur scene into this comparison. The procession gave the assembly time to look. I cannot use that observation to supply the sequence of the Indian observance whose name I carried home. In the Hanged Man’s open eyes I find the image I need: attention remaining with what is being released.
 
 ## Kha-Ba-La as Maintenance Loop
 
@@ -74,7 +74,7 @@ Ba is the vessel that receives the load. It is the effigy, the offerings, the pr
 
 La is the resistance that makes the protocol necessary. Social systems generate entropy. Kinship networks accumulate obligation debt. Rice terraces accumulate salt and pest load. The body accumulates cortisol, glycated hemoglobin, fragmented sleep. Without La, there would be no need for maintenance. La is not the enemy. La is the material that shapes the ritual, the way marble shapes the chisel, the way resistance in a circuit defines the current. The friction generates the form.
 
-The three operate as a loop: Kha recognizes, Ba receives, La generates the pressure that makes the next recognition inevitable. This is not a one-time event. This is infrastructure. The Padyami does not repair the collective. It maintains it. The difference matters because maintenance admits the system will accumulate corruption again. It does not promise coherence. It promises only that the next cycle will find the calendar still running, the field still watching, the vessel still ready.
+The calendar keeps returning. That is what interests me in the maintenance image: attention given a date, rather than summoned only by crisis. The next cycle still has to find people willing to look.
 
 ## When the Protocol Fails
 

@@ -14,7 +14,7 @@
     "Motion-study copy retained; media and live destination not newly verified by this text pass. Preserve inherited asset review holds."
   ],
   "source_coverage": "Complete supplied draft and current writer contract reviewed; no new independent live-account, product-runtime, clinical or historical verification claimed.",
-  "publication_state": "Separate review candidate only; original approval and existing delivery state do not transfer.",
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
   "human_approval": false,
   "material_claim_treatments": [
     {
@@ -27,5 +27,13 @@
     }
   ],
   "full_source_read": true,
-  "full_candidate_read": true
+  "full_candidate_read": true,
+  "independent_review": {
+    "path": "independent/drafts-review.json",
+    "candidate_sha256": "fa15685d797a63672e468af5c72e0d3f20eaab0c9045effa08ba63e6dc10f6a3",
+    "source_sha256": "fa15685d797a63672e468af5c72e0d3f20eaab0c9045effa08ba63e6dc10f6a3",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
+  }
 }

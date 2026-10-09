@@ -1,0 +1,33 @@
+--- source/078-x-article.md
++++ candidate/078-x-article.md
+@@ -4,7 +4,7 @@
+ 
+ Imagine an assistant that remembers a preference for early meetings. A new request arrives: “Find a time after lunch.” The assistant treats the saved preference as more authoritative than the current sentence and offers 8 a.m.
+ 
+-This is a hypothetical design failure. No product incident is being reported. The example makes a distinction visible: remembering what someone usually wants is different from deciding what their current request permits.
++In this hypothetical design failure, the assistant has treated a useful memory as a standing order. A morning preference has somehow acquired diplomatic immunity from the user who supplied it.
+ 
+ A useful interface needs a place where that distinction can be corrected before it becomes an external act.
+ 
+@@ -18,7 +18,7 @@
+ 
+ The **witness** judges what can happen now. For a consequential action, someone must remain able to inspect, correct or stop the proposal. Merely displaying a summary does not establish that anyone approved the act.
+ 
+-These are design responsibilities, not three magical boxes that make a system trustworthy by themselves. The implementation still has to preserve the distinction when information moves between components.
++The distinctions have to survive the handoff between components. Three beautifully labelled boxes in a diagram can still deliver the same unwanted 8 a.m. invitation.
+ 
+ ## Show the assumption where it matters
+ 
+@@ -50,10 +50,10 @@
+ 
+ More prompts can make a flow exhausting. A system that asks for confirmation at every trivial step may teach people to approve without reading.
+ 
+-The design problem is therefore not to maximize interruptions. It is to preserve the distinctions that can change a consequential decision and make them legible at the moment they matter.
++Put the assumption where a correction can still change the decision. If the invitation has already gone out, the beautifully timed question has missed its appointment.
+ 
+ Test the flow with an actual conflicting request: does the new sentence change the proposal? Does the correction survive into execution? Can the user tell what has already happened?
+ 
+-An interface should make the present capable of revising the remembered pattern.
++In the meeting flow, the decisive evidence is the invitation: which time did the correction actually produce?
+ 
+ The fuller philosophical argument is in my essay [The Lighted Clearing](https://synchronocities.tryambakam.space/posts/lighted-clearing-loka-akshara-dhi/), part of Synchronocities and Tryambakam Noesis. This companion applies its distinction to an interface; it makes no claim that a deployed product already implements the design.

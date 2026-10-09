@@ -56,7 +56,7 @@ The animal substrate has failure modes that the other two architectures cannot r
 
 At the interpersonal scale, animal intelligence operates through somatic broadcast — the unprocessed emotional charge that fills a room before anyone speaks. You do not need language to know when someone in the room is afraid. Your mirror neurons fire before your prefrontal cortex has tagged the experience. At the systemic scale, pheromone networks in insect colonies demonstrate distributed processing without central command. At the cosmic scale, the animal substrate is the only one of the three that evolved in direct negotiation with gravity, photoperiod, and geomagnetic field — the same fields that migratory birds navigate and that human circadian architecture still encodes.
 
-What happens when Kha collapses in the animal substrate? The witness function collapses into pure reactivity. The body responds without registration. You flinch, you freeze, you rage, and you do not know you are doing it. The somatic signal becomes noise without an observer to parse it. What happens when Ba is absent? There is no animal substrate to begin with — only abstraction and simulation. What happens when La is absent? The animal loses its friction, its gravity, its sculpting force. Without inertia, the startle reflex becomes a cascade; without resistance, the HPA axis floods without modulation.
+The body’s startle is where this comparison meets resistance. Registration can lag behind response; I know that gap from the tremor and the flinch. It is the animal encounter the framework must answer to.
 
 ## Augmented Intelligence — Symbolic Recursion
 
@@ -68,7 +68,7 @@ This is the signature liability of the augmented mode: recursive depth without s
 
 At the interpersonal scale, augmented intelligence operates through symbolic recursion — the capacity to hold a number, a name, or a concept stable across multiple minds without direct sensory contact. Walter Ong documented this in *Orality and Literacy*: writing transforms consciousness by making language an object that can be examined rather than only performed. At the systemic scale, institutions are augmented intelligence at scale: the legal system, the scientific method, the distributed ledger. At the cosmic scale, the augmented substrate is the only one of the three that has developed the capacity to model its own extinction — climate projection, nuclear winter simulation, Fermi paradox calculation. It is also the only one arrogant enough to believe these models are sufficient.
 
-What happens when Kha is absent in the augmented substrate? The symbol operates without an observer. You inherit a calendar, a legal code, a scientific paradigm, and you run it without examining who wrote it or what fracture it encodes. What happens when Ba is absent? The symbol becomes pure abstraction, recursive and weightless, like my Sanskrit diagrams without the tongue to verify them. What happens when La is absent? The symbol generates no friction. It compounds without inertia, producing the cascade error of empire, extraction, and epistemic capture.
+My Sanskrit diagrams needed a tongue. A calendar or a legal code also arrives with an author and a history; running the symbols does not exempt me from asking whose decisions they carry.
 
 ## Silicon Substrate — Statistical Weights, Learned Inference
 
@@ -80,7 +80,7 @@ This is the architectural specificity of the silicon substrate. Its training dat
 
 A fluent response can reorganize a conversation before anyone has checked what it says. That is enough consequence to require care. Token regularity does not settle whether a model is a mind, and a claim about its cosmic purpose would take this comparison away from the actual encounter.
 
-What happens when Kha is absent in the silicon substrate? There is no observer behind the mirror. The model reflects your assumptions back with higher resolution, and you mistake the reflection for a witness. What happens when Ba is absent? The model has no body, no fascia, no proprioceptive verification. It can describe betrayal but cannot metabolize it. What happens when La is absent? The substrate has no friction, no gravity, no sculpting force. Gradient descent is designed to minimize loss, not to encounter the productive inertia that shapes form. Without resistance, the silicon engine produces coherence without form, simulation without structure.
+The model can reflect my assumptions with unnerving fluency. I have to meet that reflection as output: return to the question, check what it supplies, notice where its coherence outruns what it knows.
 
 ## The Fool's Three Directions
 

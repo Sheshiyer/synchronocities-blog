@@ -1,0 +1,19 @@
+{
+  "proposal": "independent/final-047-whitespace.json",
+  "changes": [
+    {
+      "id": "047-The-17-Ways-a-Pattern-Repeats",
+      "before_candidate_sha256": "24c544fc5cd235f2727aaa7289e177c3b5cbbc0edce55e41f6cb5107fda21c66",
+      "after_candidate_sha256": "cd58d62213e2739969ae7fc39e7829372d06bf911281aee5f29b6b85a581ccf3",
+      "edits": [
+        {
+          "id": "047-The-17-Ways-a-Pattern-Repeats",
+          "before": "Seventeen gives the mathematical part of this inquiry a precise boundary. The sonic part needs equal care: what is repeated, in what space, and how does a change in the representation alter what a listener actually hears?\n\n",
+          "after": "Seventeen gives the mathematical part of this inquiry a precise boundary. The sonic part needs equal care: what is repeated, in what space, and how does a change in the representation alter what a listener actually hears?\n",
+          "reason": "Remove one excess terminal newline identified by git diff --check; final prose unchanged."
+        }
+      ],
+      "publication_approval_transferred": false
+    }
+  ]
+}

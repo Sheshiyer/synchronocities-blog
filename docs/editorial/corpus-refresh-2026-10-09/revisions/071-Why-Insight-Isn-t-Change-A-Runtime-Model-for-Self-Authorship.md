@@ -66,45 +66,31 @@ I use Kha-Ba-La to hold three questions together when looking at a recurring pat
 - **Ba** — embodiment. Can you act from that seeing, not just describe it?
 - **La** — inertia. What resists change, and what stabilizes it?
 
-These are not stages you move through. They are simultaneous conditions. When any one is absent, the work fails in a specific, predictable way.
+These are not stages you move through. They are simultaneous conditions. I use them together to ask what a particular attempt at change is missing.
 
-### What happens when Kha is absent
+### Seeing the replay
 
-Without witness capacity, you act from the loop itself. The pattern sees through your eyes. You explain your behavior brilliantly, but the explanation is part of the loop. You become a sophisticated narrator of your own captivity. Every insight is folded back into the pattern it describes.
+Sometimes an explanation becomes another turn of the loop. I can describe a reaction brilliantly while repeating it. The question is whether seeing it gives me anything to do when it returns.
 
-### What happens when Ba is absent
+### Seeing and still repeating
 
 You can see clearly and still not move. You know exactly what you are doing, and you do it anyway. The body has not been recruited. The nervous system still executes the old branch. Seeing without embodiment is a different form of paralysis—one that feels like progress because you are so articulate about it.
 
-### What happens when La is absent
+### Giving change a form
 
-You try to change everything at once. You generate intense interventions, dramatic reinventions, and then collapse. Without La, there is no form to hold the new shape. Inertia is not the enemy. It is the continuity that allows a pattern to stabilize long enough to be tested. Without it, you have only noise.
-
----
-
-## Scaling: From the Single Loop to the Recurrent Pattern
-
-The runtime image can also be tried in relationships and institutions. Each comparison needs to show its own work.
-
-### Personal
-
-At the individual level, a person discovers that their "insight" into childhood patterning is itself a replay. They can explain their father's coldness, their mother's anxiety, their own compensatory strategies. They have built a museum of self-knowledge. But under stress, they still withdraw, attack, or freeze in the exact same geometry. The insight is a more ornate version of the same loop.
-
-### Interpersonal
-
-In relation, the pattern doubles. One person's default meets another's default, and they form a circuit. You see this in couples who both "understand" their attachment styles intellectually but still enact the same pursuit-withdrawal sequence every time one partner is tired. The knowledge is there. The runtime is not.
-
-### Systemic
-
-Institutions run on this same logic. A company can hire consultants, conduct retreats, and distribute frameworks about "psychological safety" while the actual decision-making runtime remains dominated by the same fear-avoidance structure that produced the original crisis. The framework is adopted. The execution branch is not updated.
-
-### Cosmic
-
-At the largest scale, civilizations inherit runtime. The inherited code of a culture is not its stated values but its stress responses—what it does when resources contract, when threat rises, when the future becomes uncertain. Insight at this scale is philosophy. Change at this scale is alteration in what executes under pressure.
+Trying to change everything at once can leave no form in which to test a change. La names the continuity I would keep long enough to observe what the intervention does.
 
 ---
 
-## Metabolizing the Shadow: Cost, Fracture, Rupture, Inherited Code
+## When Two Loops Meet
+
+The runtime image becomes useful in a relationship when two people can name a pattern and still find themselves inside it. The pursuit and withdrawal return at the end of a tiring day. What would have to change in that particular exchange?
+
+An institution gives the question another address. A company can distribute a framework about psychological safety while its decisions still reward avoiding bad news. The document is available; the next difficult meeting is where the comparison has to earn its keep.
+
+---
+
+## What the Pattern Protects
 
 Real change requires contact with what the pattern protects.
 
@@ -169,10 +155,3 @@ You need better access to the architecture that is already running.
 Self-authorship, in this reading, starts with enough room to notice a response before it takes the whole encounter.
 
 That room may be small. It can still change what happens next.
-
-
-
-
-
-
-

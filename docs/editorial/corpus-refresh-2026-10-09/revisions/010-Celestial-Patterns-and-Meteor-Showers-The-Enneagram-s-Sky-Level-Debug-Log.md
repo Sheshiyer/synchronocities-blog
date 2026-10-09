@@ -49,7 +49,7 @@ The Christmas Tree Nebula is a star-forming region. New stars ignite inside clou
 
 The cortisol that governs Type 5 — the stress hormone, the scarcity signal — serves the same function as the nebula's compression. Stars form under pressure. Insight forms under constraint. The Monoceros shower is the annual reminder that the pressure is not punishment. It is the necessary condition for ignition. What fractures in this process is the inherited code that says knowledge must be complete before action is permitted. The rupture comes when incomplete information proves sufficient — when the Type 5 discovers that the nebula does not wait for perfect conditions before igniting.
 
-Without interior witness, the Type 5 collects indefinitely and never integrates. The data hoard becomes a mausoleum. Without somatic relation, the insight never leaves the skull. The nebula forms stars that no one sees. Without recursive structure, the pattern recognition never updates the system's operational code. The same insight is born and dies in every generation.
+
 
 ## The Sun's Annual Circuit: Types 1, 8, 6, 4
 
@@ -61,7 +61,7 @@ The sun's apparent route through the constellations traces an integration sequen
 
 **Ophiuchus to Lyra**: Types 6 and 4 in sequence. The serpent handler releases the serpent and picks up the lyre. Security consciousness (Type 6, mapped to the region's transitional energy) transforms into artistic expression (Type 4, mapped to Lyra — the constellation of Orpheus's instrument). Fear becomes creative output. Vigilance becomes music. The rupture that enables this is the recognition that security is not a destination but a platform — that the vigilance once spent on threat detection can be redirected toward pattern creation.
 
-This proposed progression is an interpretive sequence. Calling it integration describes my reading of the symbols; it does not establish that the sky sends personality types activation signals. Whether you respond to those signals is a matter of attention, not fate. The systemic level is recursive: cultures that track this circuit develop calendars that synchronize human activity with celestial maintenance. The cosmic level is structural: the same triadic grammar governs stellar ignition, nervous system recalibration, and social transformation.
+I use this progression as an interpretive sequence, a calendar of questions to bring beneath the sky. The constellations give the reading its figures; attention determines what I notice in them.
 
 ## Historical Pattern Recognition
 

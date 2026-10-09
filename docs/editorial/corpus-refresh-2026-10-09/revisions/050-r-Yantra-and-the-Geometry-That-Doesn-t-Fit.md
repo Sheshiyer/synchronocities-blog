@@ -132,7 +132,7 @@ The flat drawing and the stepped form remain worth putting side by side. I would
 
 The pattern recurs and is worth marking explicitly.
 
-**Fedorov classified the 17 wallpaper groups in 1891.** The Indian tradition was constructing yantras using the 4-fold, 6-fold, and 8-fold (and forbidden 5-fold, 7-fold, 9-fold) structures for at least 1,500 years before that. Not formally — empirically.
+**Fedorov classified the 17 wallpaper groups in 1891.** The yantra asks a different question of the page: how a bounded figure can hold an intricate arrangement of lines. Putting them beside each other is interesting precisely because a finite drawing and a periodic tiling have different constraints.
 
 **Pascal published the binomial triangle in 1654.** Pingala encoded its recursion ~1,800 years earlier, in service of sonic enumeration; the explicit triangle is documented in Halāyudha's 10th-century commentary, still ~700 years before Pascal.
 

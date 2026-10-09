@@ -1,7 +1,7 @@
 {
   "id": "050-r-Yantra-and-the-Geometry-That-Doesn-t-Fit",
   "source_sha256": "8b7afec912d6e31a1336726472f9907ff4dda1a6642e609af523410ae6778a8f",
-  "candidate_sha256": "c9e2e96951a2ade3114caed80d4ca3e61d72d7b3a6aa9312fc1e77ddcbf56639",
+  "candidate_sha256": "67b823b3f1e27b4472c0081a42682ad94f5567d355968cd9b10abeb2685d6830",
   "frontmatter_unchanged": true,
   "skill_version": "2.18.0",
   "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
@@ -119,5 +119,24 @@
     "candidate_word_count": 2053,
     "source_word_count": 2591,
     "exact_change_trace_complete": true
+  },
+  "independent_followup_edits": [
+    {
+      "id": "050-r-Yantra-and-the-Geometry-That-Doesn-t-Fit",
+      "before": "**Fedorov classified the 17 wallpaper groups in 1891.** The Indian tradition was constructing yantras using the 4-fold, 6-fold, and 8-fold (and forbidden 5-fold, 7-fold, 9-fold) structures for at least 1,500 years before that. Not formally — empirically.",
+      "after": "**Fedorov classified the 17 wallpaper groups in 1891.** The yantra asks a different question of the page: how a bounded figure can hold an intricate arrangement of lines. Putting them beside each other is interesting precisely because a finite drawing and a periodic tiling have different constraints.",
+      "reason": "Remove reintroduced forbidden finite symmetries and unsupported chronological competition while retaining the mathematical juxtaposition."
+    }
+  ],
+  "followup_readback": "Independent reader proposals applied as exact unique spans; original full comparison plus final changed-span/context reread must be rebound to this candidate hash.",
+  "human_approval": false,
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-a-review.json",
+    "candidate_sha256": "67b823b3f1e27b4472c0081a42682ad94f5567d355968cd9b10abeb2685d6830",
+    "source_sha256": "8b7afec912d6e31a1336726472f9907ff4dda1a6642e609af523410ae6778a8f",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
   }
 }

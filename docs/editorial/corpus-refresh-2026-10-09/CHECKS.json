@@ -1,0 +1,31 @@
+{
+  "scope": "Writer contract/integration and local editorial artifacts; no site source changes by this refresh.",
+  "checks": [
+    {
+      "command": "python3 -m unittest discover -s .agents/skills/tryambakam-editorial/scripts -p test_calendar_runner.py",
+      "exit_code": 0,
+      "tests": 17,
+      "result": "OK",
+      "purpose": "New-enqueue exact copy/contract/version/source gate and stale/missing review behavior."
+    },
+    {
+      "command": "diff -qr /Volumes/madara/2026/twc-vault/.agents/skills/noesis-writer-skill /Volumes/madara/2026/twc-vault/.claude/skills/noesis-writer-skill",
+      "exit_code": 0,
+      "output": "empty",
+      "purpose": "Canonical/runtime writer mirror byte identity."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": "empty",
+      "purpose": "Tracked diff whitespace check; repeated at final commit."
+    },
+    {
+      "command": "git diff --cached --check -- . \":(exclude)docs/editorial/corpus-refresh-2026-10-09/diffs/**\" \":(exclude)docs/editorial/corpus-refresh-2026-10-09/revisions/029-*.md\"",
+      "exit_code": 0,
+      "purpose": "Staged whitespace check excluding faithful unified diff artifacts and candidate029, which retains one trailing space. All other staged files pass; candidate bytes and exact reviews are preserved."
+    }
+  ],
+  "publication_actions": [],
+  "limitations": "No live platform publication, media approval, new product-runtime acceptance, or empirical/historical literature certification. Structural corpus verification is recorded separately."
+}

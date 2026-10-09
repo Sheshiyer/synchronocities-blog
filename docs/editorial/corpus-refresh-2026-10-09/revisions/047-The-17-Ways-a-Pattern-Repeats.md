@@ -118,7 +118,7 @@ The Devanagari sparśa register is a 5×5 lattice. The bare enumeration with no 
 
 Which class a given mantra inhabits depends on which symmetries the trajectory actually invokes under repetition.
 
-***Om Maṇi Padme Hūṁ*** — six syllables, hexagonal cadence. Standard Tibetan rhythm preserves six-fold rotational periodicity; the trajectory tiles as **p6**. Add the reflective bracketing between the *Om* opening and *Hūṁ* closing — standard chant reads them as mirror-points — and the trajectory lifts to **p6mm**, the most symmetric wallpaper group available. By the Symmetry Theory of Valence, the highest-valence wallpaper class. The mantra's empirical reputation as profound, all-encompassing, operative across many states tracks its symmetry class with no remainder.
+***Om Maṇi Padme Hūṁ*** — six syllables, hexagonal cadence. I want to draw the returning rhythm as a pattern and ask what survives the drawing. A syllable count alone cannot assign a wallpaper group or explain the mantra’s effect; the trajectory and its transformations would have to be specified.
 
 **The Gāyatrī mantra** — a square visualization would need a scansion that actually belongs to the recitation. The proposed four-by-eight construction does not supply that basis. Keep the p4mm image as an unfinished model rather than asking it to explain a listener’s experience.
 
@@ -138,7 +138,7 @@ This is a sharp constraint. It is also a sharp clue.
 
 Mystical traditions across cultures treat 5-fold and 7-fold and 9-fold symmetry as carrying special character — the pentagram, the heptagonal seal, the seven-petaled rose, the nine-triangle inner figure of Sri Yantra. DMT-class phenomenology (Strassman, *DMT: The Spirit Molecule*; the McKenna corpus; Shanon's *The Antipodes of the Mind* on ayahuasca) consistently reports these orders. The reports of *more pattern than fits* in high-load states describe symmetries the flat plane refuses to host periodically.
 
-If the substrate inhabits symmetries the flat plane forbids, the substrate is not on the flat plane. The plane is one geometric option. There are others — the hyperbolic plane, where the crystallographic restriction vanishes and five-fold and seven-fold periodic symmetries become routine. Mantra at sufficient depth drives the substrate off the flat plane and into curvature.
+If the substrate inhabits symmetries the flat plane forbids, the substrate is not on the flat plane. The plane is one geometric option. There are others — the hyperbolic plane, where the crystallographic restriction vanishes and five-fold and seven-fold periodic symmetries become routine. Curvature offers another geometry for the comparison. Whether a mantra changes the geometry of a substrate remains an open claim.
 
 ## Why the Traditions Converged on Four-Fold and Six-Fold
 
@@ -149,5 +149,3 @@ The reason is now structurally sayable. Those are the rotational orders the wall
 The relation between historical cadence and planar symmetry remains an investigation. A tradition’s preservation of a chant does not demonstrate that practitioners selected wallpaper classes or maximized a valence metric.
 
 Seventeen gives the mathematical part of this inquiry a precise boundary. The sonic part needs equal care: what is repeated, in what space, and how does a change in the representation alter what a listener actually hears?
-
-Read through Kha-Ba-La: **Kha** witnesses which class the cadence selects. **Ba** is the substrate that entrains to the orbit. **La** is the crystallographic restriction itself — the structural friction that gives the orbit a definite form, and simultaneously the cliff at the edge of flatness that forces the substrate elsewhere when the orbit it wants to inhabit is forbidden.

@@ -63,17 +63,9 @@ These are not lazy storytelling choices. They are the only patterns that the sub
 
 This is why propaganda works. This is why advertising works. This is why certain political narratives feel correct even when they are demonstrably false. They activate mythological pattern recognition at the subconscious level, and the subconscious does not fact-check. It pattern-matches. If the pattern matches a template in the mitochondrial base layer, the subconscious accepts the input as real and adjusts behavior accordingly.
 
-## The Kha-Ba-La Architecture
+## Reading inheritance
 
-The mitochondrial subconscious operates as a Kha-Ba-La triad — not because the words are decorative, but because the structure is real. The triad is visible when you look for what happens when one of its three forces is absent.
-
-**When Kha is absent, the witness vanishes.** The pattern runs without observation. The ancient template activates, the subconscious processes the input, and the conscious mind never notices. This is the default state for most people: full pattern activation, zero pattern recognition. The inherited code executes, the behavior follows, and the person experiences the result as personal choice. Without Kha, the operating system runs in the dark.
-
-**When Ba is absent, the pattern stays disembodied.** The pattern is recognized intellectually but not felt somatically. You know, in theory, that your maternal lineage carries a template for interpreting scarcity, but you do not feel it in your chest when a modern stimulus triggers it. The pattern remains abstract — a concept, not a lived voltage. Without Ba, recognition does not become metabolization. The pattern is catalogued, not integrated.
-
-**When La is absent, the pattern stays personal.** You see the template in your own reactions, but you miss the recursion. You do not see how the same mitochondrial pattern drives your family dynamics, your workplace politics, the political movements you are drawn to, the economic systems you participate in. Without La, the pattern is a private quirk, not a structural current. You treat the symptom as yours alone, missing the architecture that keeps reproducing it.
-
-The triad is a house model for organizing the inquiry, not a biological diagnostic. When all three forces are present — when the witness observes, the body registers, and the structural recursion is visible — the pattern moves from automatic execution to conscious relation. This is not transcendence. It is precision.
+The compiler image is useful only while its different inheritances stay visible. A mother’s story, a family habit and mitochondrial DNA are not the same kind of record. Kha-Ba-La gives me questions about noticing, bodily response and persistence. It cannot identify a cultural template in a cell or diagnose a maternal mechanism from a feeling in the chest.
 
 ## The Four Scales
 

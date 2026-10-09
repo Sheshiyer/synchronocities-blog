@@ -86,7 +86,7 @@ Beneath all sixteen engines sits a triadic foundation:
 
 **La** (Inertia) — the resistance that gives form. Without inertia, there is no structure. Without structure, there is no lens. La is the reason the engines work — because form resists formlessness, and in that resistance, perception becomes possible.
 
-These three forces co-arise in every calculation. They are not inputs to the system but the system itself — the operating kernel on which all sixteen engines run.
+I use these three forces to read across the sixteen engines: a question about what notices, what carries the calculation and what constrains it. Their usefulness depends on what each engine actually does.
 
 ## The Compass
 

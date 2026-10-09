@@ -97,7 +97,7 @@ You don't need more tools. You need the capacity to see the tools you're already
 
 A quine is a program whose output is its own source code. It produces itself. A quine gives me an image for the ambition of Tryambakam Noesis.
 
-The aim is for repeated inquiry to become usable without constant dependence on the platform. The quine gives me an image for that ambition: the pattern becomes available in the practitioner's own decisions. Whether the practice achieves it is a question to keep asking.
+The aim is for repeated inquiry to become usable without constant dependence on the platform. The pattern becomes available in the practitioner's own decisions. Whether the practice achieves it is a question to keep asking.
 
 ## Explore Further
 

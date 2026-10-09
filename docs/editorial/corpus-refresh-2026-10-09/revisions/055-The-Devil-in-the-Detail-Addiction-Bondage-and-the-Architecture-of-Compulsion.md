@@ -75,7 +75,7 @@ Pratyahara enters my reading here as a question about attention and the senses. 
 
 The detail nevertheless matters to the account: the duration of a chime, the movement of a thumb, the time when checking begins. Those observations can make a pattern easier to describe. They do not establish that naming a craving will remove its power, or supply an explanation of how a clinical practice such as urge surfing works.
 
-At the systemic scale, the same specificity applies. The platform's reward schedule is not abstract. It is a specific sequence of notifications, delivered at specific intervals, with specific decay envelopes. To decouple is not to reject technology. It is to re-engineer the specific detail: turn off the chime, change the interval, remove the variable ratio. The detail is the interface.
+The detail is the interface: turn off the chime, change the interval, notice what the hand does when the phone stays silent.
 
 ## Kha-Ba-La and the Compulsion Triad
 
@@ -84,9 +84,5 @@ The triad helps me keep three questions in the room. What can I notice before re
 The first question does not grant the witness unlimited command. In the account above, the hand often moved first. Calling awareness a control plane is useful only while that failure remains visible. There was a chime, a reach, and occasionally an interval in which the sequence could be noticed. That is the scale of the evidence here.
 
 ## Reading the Chime
-
-
-
-
 
 The card leaves me with the chime rather than a diagnosis. A B-flat, a reach toward the phone, the day interrupted before the thought could finish. Changing the tone gave the sequence a different edge. What that interruption can become is a question for the days that follow, not a cure contained in the name of a card.

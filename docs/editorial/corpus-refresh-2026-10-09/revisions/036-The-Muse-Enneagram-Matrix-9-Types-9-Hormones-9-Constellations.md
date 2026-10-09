@@ -66,21 +66,11 @@ Urania studies the stars. Her domain is cosmic order — the geometry of the uni
 
 The matrix is a symbolic reading aid. It cannot diagnose a hormone level, a personality type or a bodily condition.
 
-## Kha-Ba-La: The Matrix as Operating System
+## What a row can ask
 
-**Kha (The Observer)** — The matrix only functions when someone is watching it function. Without the witness, the correspondence table is just a spreadsheet. The Type 5 who reads their cortisol-Melpomene entry and feels nothing is not failing the matrix. The matrix is failing them because Kha — the recognition function — is not engaged. The observer must be present for the pattern to become operational.
-
-**Ba (The Embodied Signal)** — The hormones do not cause the types. The types do not cause the hormones. Both are expressions of the same underlying pattern — the same function signature instantiated simultaneously in chemistry and psychology. The Muses named these functions thousands of years before endocrinology isolated the molecules. But the names are only handles. The body is where the pattern lives. When a Type 1's melatonin rhythm is disrupted by moral disorder, the body knows before the mind names it. When a Type 8's adrenaline floods at a control threat, the sensation arrives as somatic urgency, not as abstract insight. Ba is the channel. Without it, the matrix is mythology.
-
-**La (The Resistance)** — The matrix has a cost. Type 3's endorphin-Euterpe circuit produces performance without metabolization. Type 7's testosterone-Calliope drive generates epics without closure. Type 9's serotonin-Urania equilibrium calcifies into inaction. Each pairing contains its own failure mode — not a bug but a feature, the friction that makes the pattern legible. The shadow is not something to transcend. It is the resistance that shapes the channel. Without La, the matrix becomes a horoscope: flattering, empty, useless.
-
-The three operate as a loop: Kha recognizes which Muse is singing, Ba receives the signal through its hormonal channel, La generates the resistance that makes the recognition real. This is not a one-time diagnosis. This is infrastructure.
-
-When you know which Muse governs your type, you know the creative channel your system was built to access. When you know which hormone mediates that channel, you know where the body stores the pattern. When you know which constellation holds the celestial address, you know where to look when the pattern activates.
+A Muse, a type description and a hormone name occupy the same row because I placed them there. The juxtaposition may prompt a useful question: does this image help someone describe a creative habit, or does it make the person fit the table? Kha-Ba-La keeps attention on the reader, the bodily language and the resistance encountered.
 
 The Spolski correspondence framework supplies this particular endocrine-archetypal proposal. Resemblance between a hormone’s popular description and a type’s traits does not demonstrate a correlation exceeding chance.
-
-The hormones do not cause the types. The types do not cause the hormones. Both are expressions of the same underlying pattern — the same function signature instantiated simultaneously in chemistry and psychology. The Muses named these functions thousands of years before endocrinology isolated the molecules.
 
 ## The Practical Application
 
@@ -88,6 +78,6 @@ Notice which parts of the symbolic pairing feel recognisable, and which do not. 
 
 The celestial overlay proposes a timing interpretation. Meteor showers do not establish type-specific transformation windows merely by occupying a place in the matrix.
 
-The matrix does not tell you who you are. It tells you what your system was designed to process, through which chemical channel, at which cosmic frequency. The free will is in what you do with that information.
+A row may suggest a creative question. It cannot tell you which chemical channel carries your personality or assign a cosmic frequency to your work.
 
 The matrix becomes more interesting when a row fails to describe the person reading it. That disagreement belongs in the inquiry rather than being treated as a missing capacity to hear.

@@ -40,7 +40,7 @@ Mark-and-sweep is my analogy for this assignment and expulsion. It should make t
 
 The Yom Kippur account offers a separate ritual comparison. Two goats are selected. One is sacrificed (the data is permanently deleted). The other — the *azazel* goat — is sent into the wilderness carrying the sins of the polis (the data is moved to cold storage rather than deleted). This dual approach addresses both types of corrupt data: the kind that must be destroyed and the kind that must merely be relocated.
 
-Modern therapy uses the same architecture. The therapist does not absorb your corruption, but the therapeutic container functions as a bounded environment where corrupt data can be addressed, marked, and either processed (deleted) or recontextualized (moved to a different storage location with updated metadata).
+The therapeutic container offers a different use for the bounded-environment image: room to address something painful without casting a person out. The debugger comparison becomes useful only while it keeps that difference visible. A person is never the corrupt address to deallocate.
 
 ## Mercury and the Debugging Protocol
 
@@ -90,9 +90,9 @@ The Buddhist protocol of right view, right intention, right speech, right action
 
 The humor in the title of this article — "when ancient debugging actually meant throwing someone out of the city" — is deliberate. Humor is itself a debugging tool. It creates a momentary gap in the ego's event loop, a brief window where the system can observe itself without the ego's filtering. Laughter is a stack overflow in the best possible sense — the recursive self-reference of consciousness catching itself in the act of being serious about things that are, from the kernel's perspective, entirely provisional.
 
-Ancient ritual and modern programming meet here through comparison. Their histories, purposes and consequences remain different. They understood that bugs are not foreign objects to be removed but systemic conditions to be addressed through systemic protocols. They understood that the debugger must operate at the boundary between the system and its own observation of itself. And they understood that the deepest bug — the one that generates all the others — is the confusion of the process with the processor.
+Ancient ritual and modern programming meet here through comparison. Their histories, purposes and consequences remain different. The debugger image lets me ask where a system locates its trouble—and who pays when it gets the address wrong.
 
-The stack trace becomes more interesting when it includes the person who pays for the fix. That question survives the joke about the moth.
+
 
 ---
 

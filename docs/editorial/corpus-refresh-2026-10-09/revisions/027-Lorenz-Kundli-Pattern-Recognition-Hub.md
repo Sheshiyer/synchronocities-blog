@@ -37,17 +37,9 @@ Both systems describe the territory without prescribing the route. Both demand t
 
 This hub compares two ways of representing change. Its proposed parallels are questions for investigation; they do not establish a shared mathematical solution.
 
-## The Kha-Ba-La Architecture of Pattern Recognition
+## Reading without a verdict
 
-Every pattern-recognition system operates on three forces. Remove one, and the structure collapses into a different kind of failure.
-
-**When the witness (Kha) is absent**, the Kundli becomes a fortune-telling machine. The chart is read as deterministic prophecy rather than dynamic attractor. The client receives a verdict instead of a map. The astrologer becomes a mouthpiece for inherited code, repeating caste-inflected interpretations that were fixed centuries ago. This is the shadow of determinism: the map becomes the territory, and the person inside it disappears.
-
-**When the soma (Ba) is absent**, the Lorenz attractor remains a screensaver. You can plot it, rotate it, publish papers about its topological properties. But if you have never felt the sensitivity of your own system to initial conditions — if you have never noticed how a single sentence at the wrong moment altered the trajectory of a decade — then you are studying the geometry without inhabiting it. The math becomes decoration.
-
-**When structural recursion (La) is absent**, each insight dies in isolation. A personal revelation about your own chart never scales to see how the same pattern operates in your family system, in the astrological tradition's institutional reproduction, or in the planetary weather itself. The fractal collapses to a single scale. You get the map of one room but never see the building.
-
-The Lorenz-Kundli parallel only holds when all three forces are present. The witness sees the pattern. The body feels it. The recursive structure shows where else it lives.
+The butterfly and the birth chart ask different things of their readers. A plotted trajectory can be tested against its equations. A chart interpretation also reaches a person who may change a decision because of it. Kha-Ba-La keeps my attention on the reader, the embodied consequences and the habits of interpretation. It does not establish a mathematical parallel between the two systems.
 
 ## Core Parallels
 
@@ -79,7 +71,7 @@ This combination of local sensitivity and global stability is the signature of a
 
 The comparison matters when it changes how a reading is made and how much authority that reading is allowed.
 
-**Personal.** You read your own chart. You see Saturn in the seventh house and recognize the pattern of delayed partnership, not as fate but as attractor geometry. You feel the butterfly effect in your own life: a single decision made in haste, a conversation that altered the Dasha sequence.
+**Personal.** You read your own chart. You see Saturn in the seventh house and recognize the pattern of delayed partnership, not as fate but as attractor geometry. You feel the butterfly effect in your own life: a single decision made in haste, a conversation that altered how you understood a Dasha period.
 
 **Interpersonal.** The astrologer-client encounter is itself a dynamic system. The chart becomes a strange attractor for the relationship between two nervous systems. The astrologer's interpretation is not a delivery of information but a perturbation — a small change in initial conditions that can send the client's trajectory in a new direction. The ethical weight of this is enormous. A careless reading is not wrong information; it is a destabilizing perturbation.
 

@@ -880,3 +880,34 @@ Blocked audit October 2: governed worker capacity failed across original E5 and 
 - 2026-10-07 ISC-275–286: Fieldwork v2 implemented and verified privately at4390. 9 mission-model and10 server tests pass; IAB persistence, migration, exact review, focus/mobile/reduced-motion and cached-source recovery verified. Original prototype and queue unchanged; test missions removed via undo, revision4 empty. Final source hashes, screenshots and limits: docs/plans/editorial-world-2026-10-07/VERIFICATION-V2.json. Dated sources are not live platform sync; no public approval/post/upload/schedule/deployment occurred. Historical programme gates remain open.
 
 - 2026-10-07 Field Report extracted into its own private GitHub repository https://github.com/Sheshiyer/field-report, checkout /Volumes/madara/2026/Projects/thoughtseed/fieldwork, authoritative ISA at that root. Separate overview/island/product pages,30 local tests, native illustrated assets, README Generator,25reviewquestions and activity proposal CLI implemented. Currentruntime4391, originalv2 runtime4390 preserved. Exact public posts still need individual approval; routine-comment profile policy is future/unconfigured. No old programme criterion is closed by this extraction.
+
+## Four-month writer refresh — October 9
+
+Problem: recent revision removed template patterns but flattened the established clinical-visionary, playful and image-led voice.
+Vision: each article sounds particular to its subject and author, with source fidelity and exploratory meaning intact.
+Scope: authorizes local skill updates and reviewable revisions of blogs written or substantively revised June9–October9 plus complete planning drafts. Publication, queue approvals, remote drafts and infrastructure are separate.
+Constraints: preserve current dirty sources, original metadata, historical versions, attributable claims, source holds and exact-item human publication decisions.
+Goal: updated canonical/mirrored writer and editorial integration, a complete dated census, substantive context-reviewed candidates and reversible per-item traces.
+Features: writer calibration; corpus census; per-piece revision; draft reconciliation; structural and editorial verification.
+Test strategy: compare source hashes/frontmatter, verify mirror diff and current packet gate tests, inspect complete prose and cross-batch repetition; report source holds and unfinished items explicitly.
+
+- [x] ISC-356: Canonical writer incorporates full-reading findings and current author direction.
+- [x] ISC-357: Runtime writer mirror is byte-identical to the updated package.
+- [x] ISC-358: Editorial preparation enforces the new exact-copy writer contract and version.
+- [x] ISC-359: Four-month census distinguishes body revisions from metadata-only changes.
+- [x] ISC-360: Complete planning drafts are reconciled with source holds and existing delivery states.
+- [x] ISC-361: Each eligible blog has a context-reviewed candidate or justified unchanged verdict.
+- [x] ISC-362: Each eligible complete planning draft has a context-reviewed candidate or justified unchanged verdict.
+- [x] ISC-363: Revised candidates retain exact frontmatter and source/change traces.
+- [x] ISC-364: Independent verification checks source fidelity, voice and cross-piece repetition.
+- [x] ISC-365: Anti: published copy, approvals, queue state and unrelated WIP are preserved.
+
+Decision: Human request authorizes skill/style updates; covenant identity and publication authority are unchanged. Use source-window and substantiveGitbody-change evidence together. Archive and candidate prose are kept distinct; source-held outlines are not fabricated into manuscripts.
+
+Verification ISC-356–360: canonicalwriter2.18.0/mirror recursive diff empty,17-file versioned package captured; downstream17gate tests pass, source-hash/contract/version checks reject stale packets; census134snapshot hashesverified,74blogs/37distinctdrafts,53conceptstates held separately. Preservation10filehashes pass. Prose revision batches A/B/C own isolated worktrees; review ISCs remain open.
+
+Verification ISC-362: all37 distinct planning bodies and complete candidates read,14revised/23retained with individual reasons; independent/drafts-review.json binds all37 source/candidate hashes and whole-body reading. Thread repetition repaired and final copy rebound. Media/account/community/source/timing holds remain; two pilot versions intentionally converge to one revision, no release or approval transferred.
+
+Verification ISC-361/363–365: corpus-refresh-2026-10-09/VERIFICATION.json passes all1878 structural/source/coverage checks. All74 eligible blogs and37 distinct drafts have complete candidates and exact per-piece reviews;88copies revised,23retained. Independent111 whole-piece records bind finalbytes; corpus voice assessment reviewed101 successive prose/context followup edits plus1format-only EOF repair across43candidates and finalcandidate-set digest6185b19848642b2a2c37e5870efa4b455ba1e5ee534192c7bfb9cee9671f3bb9. All134snapshot/live-container hashes, exact74frontmatters, originalURLs/Markdown destinations,17-file canonical/mirror archive and10preservation hashes pass;17writer-gate regressions pass. Scientific/historical/traditional/model/metadata/media/account/timing issues stay explicit perpiece. No public copy, queue approval or delivery was changed. Existing preparationautomationprompt updated/readback in place with10:00schedule/model/project/status retained. RemoteMuseprofiles not newly updated.
+
+Changelog — four-month writer refresh: Conjectured: removing obvious template phrases would recover the native voice. Refuted by: complete comparative reading and independent followups found flattened prose, repeated triad tours, process narration and adjacent old guarantees. Learned: complete-piece context, preserved imagery and technical wit, and a second reader’s changed-span/adjacency checks improve revision fidelity. Criterion now: a latest-writer pass retains genre/personality, binds exact final copy, and separates completed editorial work from unresolved evidence and publication decisions.

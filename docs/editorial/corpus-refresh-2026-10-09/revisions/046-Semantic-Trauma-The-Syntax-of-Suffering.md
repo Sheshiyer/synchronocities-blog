@@ -85,7 +85,7 @@ The person remains more particular than the repair diagram. No one should have t
 
 Kha asks what can be observed without demanding a finished story. Ba keeps the person's particular bodily experience in the account. La asks what makes change difficult and what support is available.
 
-Those questions offer no universal sequence of repair. A body need not complete a prescribed arc, discharge a specified charge or produce a narrative resolution before care can begin.
+
 
 ## The Moon Illuminates
 
@@ -93,6 +93,6 @@ This is what the Moon card illuminates.
 
 The Moon does not show what happened. It shows the traces that what happened left behind — the residual imprints that linger in the nervous system like uncompiled code. The crayfish emerging from the water is raw emotional data, still wet, still pre-verbal. The two towers are the hippocampus and the amygdala, now operating in isolation, no longer speaking the same language. The broken route between them is the syntax error itself.
 
-The card is numbered XVIII, the phase before integration. It is the territory where the grammar has been damaged but the repair protocol exists. The work is not to find a way out. It is to recompile the grammar that makes routes possible at all.
+I place XVIII in the territory before integration: the crayfish still emerging, the towers still apart. The card gives the unfinished story somewhere to stand. It need not demand a completed grammar before a person can receive care.
 
 The system that maps you is the map you already are — but the map got redrawn in emergency ink. The emergency ink may remain on the map. Authorship, in this image, includes the right to leave part of it unfinished and to decide who may read it.

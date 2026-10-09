@@ -46,7 +46,7 @@ Three functions became visible to me in this arrangement. I name them as part of
 
 **La** is the recognition. The third force that reads the arrangement and understands it as code. Without La, the bag is merely a bag. The tools are merely tools. The person carrying them is merely a traveler with a nicotine habit and a wallet. La is the intelligence that sees the Magician's altar compressed into zippers and fabric. It is the metabolization of raw material into symbol.
 
-When any one of these three is absent, the others collapse into noise. Kha without Ba is a coffin. Ba without Kha is a fire in an empty room. La without Kha or Ba is paranoia — pattern without ground, meaning without matter.
+
 
 ## The Fool's Satchel: Personal
 
@@ -124,7 +124,7 @@ In that image, the three terms take another assignment:
 **Ba:** the energy that makes those relations dynamic rather than static
 **La:** the intelligence that reads the resulting pattern and calls it cosmos
 
-Without Kha, the universe is vapor. Without Ba, it is a frozen crystal. Without La, it is a machine that no one observes. The assignments belong to this reading. They do not establish the structure of the universe.
+
 
 The Bangkok walk gives the cosmic image its weight: a strap on a shoulder, a wallet to find, a lighter that can still roll under the bed. The cosmos does not need me to carry its bag. I still need to know what I have put in mine.
 

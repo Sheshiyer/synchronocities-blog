@@ -1,0 +1,19 @@
+{
+  "proposal": "independent/final-071-whitespace.json",
+  "changes": [
+    {
+      "id": "071-Why-Insight-Isn-t-Change-A-Runtime-Model-for-Self-Authorship",
+      "before_candidate_sha256": "46f90c781d08be8f0b1a170fe5068225a46f01a9ec39b8f601f0120b467b1417",
+      "after_candidate_sha256": "e9b33cc1e531824b6598dc3ae05a9d793fbd52c5075a45af5b34f1190d01eaeb",
+      "edits": [
+        {
+          "id": "071-Why-Insight-Isn-t-Change-A-Runtime-Model-for-Self-Authorship",
+          "before": "That room may be small. It can still change what happens next.\n\n\n\n\n\n\n\n",
+          "after": "That room may be small. It can still change what happens next.\n",
+          "reason": "Normalize trailing blank-line run; prose is unchanged."
+        }
+      ],
+      "publication_approval_transferred": false
+    }
+  ]
+}

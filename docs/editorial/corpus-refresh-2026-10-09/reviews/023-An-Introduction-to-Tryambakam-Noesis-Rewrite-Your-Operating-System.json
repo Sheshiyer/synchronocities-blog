@@ -1,7 +1,7 @@
 {
   "id": "023-An-Introduction-to-Tryambakam-Noesis-Rewrite-Your-Operating-System",
   "source_sha256": "ceb990a2263cecb594e8e174c8bf9c1d4a7b6068121dd7218e6c2a3122d31bc2",
-  "candidate_sha256": "9ea6e0fd024b1f6e8d1adffe49cb849df5f1980b7045f7ea5f6c6318bef06bb7",
+  "candidate_sha256": "3718f850d4738667cb0f2614f0b4b52c042403532e4ad6d3067207ab980e058f",
   "frontmatter_unchanged": true,
   "skill_version": "2.18.0",
   "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
@@ -110,5 +110,23 @@
     "candidate_word_count": 846,
     "source_word_count": 873,
     "exact_change_trace_complete": true
+  },
+  "primary_followup_edits": [
+    {
+      "before": "The aim is for repeated inquiry to become usable without constant dependence on the platform. The quine gives me an image for that ambition: the pattern becomes available in the practitioner's own decisions. Whether the practice achieves it is a question to keep asking.",
+      "after": "The aim is for repeated inquiry to become usable without constant dependence on the platform. The pattern becomes available in the practitioner's own decisions. Whether the practice achieves it is a question to keep asking.",
+      "reason": "Independent reader caught a duplicated quine-image lead-in in adjacent paragraphs."
+    }
+  ],
+  "candidate_readback_followup": "Exact changed passage and adjacent full closing/opening context reread after independent finding; independent reader must bind to new hash.",
+  "human_approval": false,
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-a-review.json",
+    "candidate_sha256": "3718f850d4738667cb0f2614f0b4b52c042403532e4ad6d3067207ab980e058f",
+    "source_sha256": "ceb990a2263cecb594e8e174c8bf9c1d4a7b6068121dd7218e6c2a3122d31bc2",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
   }
 }

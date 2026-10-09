@@ -1,7 +1,7 @@
 {
   "id": "033-Model-Temperature-and-the-Ancient-Siddic-Practice-of-Tapas",
   "source_sha256": "c5c78d9529b2693afa953954f12d616d831265834b7e1ef702312db282542b05",
-  "candidate_sha256": "d45bde9c15b971a9c3cc73e13b22cfc65f73bba9c726e8519cd04b7c5b4a69c2",
+  "candidate_sha256": "5774308edd943fb0a2842a4153fe3623fe7bd1237cb3c015dca7a7368c898043",
   "frontmatter_unchanged": true,
   "skill_version": "2.18.0",
   "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
@@ -116,5 +116,24 @@
     "candidate_word_count": 2610,
     "source_word_count": 2807,
     "exact_change_trace_complete": true
+  },
+  "independent_followup_edits": [
+    {
+      "id": "033-Model-Temperature-and-the-Ancient-Siddic-Practice-of-Tapas",
+      "before": "The urge to repeat a familiar response is what the sampling comparison brings into view. The sampling image helps describe a habitual response; it does not give the body a biological `T` setting.",
+      "after": "The sampling image brings the urge to repeat a familiar response into view; it does not give the body a biological `T` setting.",
+      "reason": "Combine adjacent sentences repeating the same sampling qualification."
+    }
+  ],
+  "followup_readback": "Independent reader proposals applied as exact unique spans; original full comparison plus final changed-span/context reread must be rebound to this candidate hash.",
+  "human_approval": false,
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-a-review.json",
+    "candidate_sha256": "5774308edd943fb0a2842a4153fe3623fe7bd1237cb3c015dca7a7368c898043",
+    "source_sha256": "c5c78d9529b2693afa953954f12d616d831265834b7e1ef702312db282542b05",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
   }
 }

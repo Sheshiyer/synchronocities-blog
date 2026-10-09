@@ -1,7 +1,7 @@
 {
   "id": "019-Graha-Friendship-Tables-as-Cellular-Automata-Conway-s-Game-of-Planets",
   "source_sha256": "ab53439fa9c1783def30007f99186dd36437190a1b5c3ce5b176596cc70640aa",
-  "candidate_sha256": "7951e12a79a1176f662579b7a5c95a5d77b646767bbce18a053dd289577c62b2",
+  "candidate_sha256": "0f37a8111f727d3c2476298f00b3fc82938300f2c4a6c372f5793c764e871d2c",
   "frontmatter_unchanged": true,
   "skill_version": "2.18.0",
   "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
@@ -99,5 +99,54 @@
     "candidate_word_count": 1251,
     "source_word_count": 1187,
     "exact_change_trace_complete": true
+  },
+  "independent_followup_edits": [
+    {
+      "id": "019-Graha-Friendship-Tables-as-Cellular-Automata-Conway-s-Game-of-Planets",
+      "before": "This is precisely how Conway's Life works. The gliders, oscillators, and still lifes that emerge from Life's three rules have direct analogs in Vedic chart interpretation. Yogas (beneficial planetary combinations) are stable configurations — still lifes in automata terminology. Dashas create oscillating patterns — blinkers and pulsars. Transits act as gliders, propagating influence across the house grid.",
+      "after": "Conway’s gliders, oscillators and still lifes give me a vocabulary to try against chart interpretation. I place yogas beside still lifes, dashas beside oscillators, transits beside gliders. Whether those pairings survive a specified update rule is the next question for the model.",
+      "reason": "Present the automaton as a proposed mapping consistent with the opening rather than demonstrated identity."
+    },
+    {
+      "id": "019-Graha-Friendship-Tables-as-Cellular-Automata-Conway-s-Game-of-Planets",
+      "before": "The most remarkable property of the Graha automaton is its stability classification. Certain planetary configurations produce stable equilibria — states that persist indefinitely under rule application. These correspond to what Vedic astrology calls Raj Yogas, Dhana Yogas, and other auspicious combinations. They are attractors in the automaton's state space.",
+      "after": "A Graha automaton would let us ask about stability. Which initial configurations persist under the chosen update rule? I would begin by testing the combinations called Raj Yogas and Dhana Yogas, rather than declaring them attractors before running the model.",
+      "reason": "Retain technical inquiry; distinguish a testable proposal from uncomputed equilibrium claims."
+    },
+    {
+      "id": "019-Graha-Friendship-Tables-as-Cellular-Automata-Conway-s-Game-of-Planets",
+      "before": "Other configurations produce oscillating patterns — planetary combinations that cycle between constructive and destructive phases. These correspond to the lived experience of periodic challenges and opportunities that characterize most human lives. The automaton oscillates, never settling, never diverging — bounded chaos within a deterministic rule set.",
+      "after": "An oscillating configuration would be another result to look for: a state that returns after a defined number of updates. That recurrence could then be compared with the periods used in a chart reading. Calling a life an oscillator would go further than the model permits.",
+      "reason": "Keep recurrence inquiry without asserting a mathematical classification of lives."
+    },
+    {
+      "id": "019-Graha-Friendship-Tables-as-Cellular-Automata-Conway-s-Game-of-Planets",
+      "before": "Still other configurations are inherently unstable — combinations where enemy relationships dominate, producing rapid state changes and pattern dissolution. These are the difficult charts, the lives marked by constant transition and upheaval. A working implementation would let us examine instability inside the model. It would not, by itself, predict upheaval in a life.",
+      "after": "Enemy relationships suggest another test case: do they make the proposed automaton settle, cycle or keep changing? The result would describe the rule set we built. Reading upheaval into a life would require a separate argument.",
+      "reason": "Scope instability to the constructed automaton."
+    },
+    {
+      "id": "019-Graha-Friendship-Tables-as-Cellular-Automata-Conway-s-Game-of-Planets",
+      "before": "The Graha friendship matrix is a lookup table for a cellular automaton that the ancient seers ran in their minds. They did not call it a cellular automaton. They called it Jyotish — the science of light. But the computational structure is identical. Rules applied to a grid. States evolving through neighborhood interactions. Complex patterns emerging from simple relationships.",
+      "after": "The Graha friendship matrix gives this proposed automaton its lookup table. What draws me is the possibility of a sparse rule set producing elaborate patterns. The work begins where the analogy becomes inconvenient: choosing a neighborhood, defining an update and finding out what the grid actually does.",
+      "reason": "Remove unsupported historical computational identity; retain ambition and technical play."
+    },
+    {
+      "id": "019-Graha-Friendship-Tables-as-Cellular-Automata-Conway-s-Game-of-Planets",
+      "before": "When you study a birth chart, you are examining the initial configuration of a cellular automaton. When you study transits, you are watching the automaton evolve. When you study dashas, you are observing the automaton's oscillation periods. The comparison is useful if it makes the rule choices visible. A shared vocabulary of patterns is only the beginning of that work.",
+      "after": "A chart gives me one proposed starting state. Transits and dashas would then need distinct operations before I could watch the grid move. Until those choices are made, the automaton remains on the drawing board.",
+      "reason": "Resolve literal automaton identity left immediately after the newly proposed rule-set framing."
+    }
+  ],
+  "followup_readback": "Independent reader proposals applied as exact unique spans; original full comparison plus final changed-span/context reread must be rebound to this candidate hash.",
+  "human_approval": false,
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-a-review.json",
+    "candidate_sha256": "0f37a8111f727d3c2476298f00b3fc82938300f2c4a6c372f5793c764e871d2c",
+    "source_sha256": "ab53439fa9c1783def30007f99186dd36437190a1b5c3ce5b176596cc70640aa",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
   }
 }

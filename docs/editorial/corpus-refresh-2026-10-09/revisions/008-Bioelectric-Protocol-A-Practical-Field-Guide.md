@@ -74,13 +74,9 @@ The heart becomes the primary oscillator for the entire bioelectric network, set
 
 The Kha is the operator reading the coherence trace. The Ba is the cardiac tissue generating the rhythm. The La is the habitual breathing pattern that fights the six-per-minute cadence — the chest-breath, the shallow sip, the held exhale. Every exhale that does not fully complete is a small refusal to let the system reset. The protocol is to breathe at five to six cycles per minute, feeling the heart follow, until the meter confirms phase-lock. Then stay there. This is Citrinitas: the solar integration of methodology. The transmutation of silver — the emotional quality of the practice — into gold: the structural perfection of a calibrated instrument.
 
-## Kha, Ba, La: The Triad as Failure Modes
+## Reading the practice
 
-What happens when one is absent? Without Kha — without the observer — the practices become mechanical superstition. You switch nostrils while planning dinner. You stand on the ground while scrolling. You breathe to the meter while your attention is elsewhere. The body executes the protocol but nobody is home to read the result. This is how energetic practices become choreography. The movements are correct. The circuit is open.
-
-Without Ba — without the body as substrate — the practices become dissociative fantasy. The observer notices everything except the physical sensations that would ground the observation in reality. This is the meditator who can describe their consciousness in exquisite detail but cannot feel their own feet. The Kha is present. The La is absent. But the Ba — the meat, the resistance, the actual nostril — has been abandoned.
-
-Without La — without the friction — the practices become too easy, which means they are not working. If Nadi Shodhana feels effortless, you are not noticing the resistance. If grounding feels like a spa treatment, you are not encountering the inertia of a system that has been insulated from the earth for decades. If HRV coherence locks immediately, you are either a highly trained athlete or you are not reading the meter correctly. The La is the difficulty that proves the practice is real. Remove it and you are performing empty theater.
+The nasal reading, skin contact and HRV trace offer different kinds of information. I need to notice what each practice feels like and what its instrument can report, without making one answer stand for all three. Difficulty alone cannot prove a practice is working; ease cannot prove that it has failed. The house triad helps me keep attention, bodily participation and resistance in view, but it supplies no diagnostic threshold.
 
 ## The Four Scales
 

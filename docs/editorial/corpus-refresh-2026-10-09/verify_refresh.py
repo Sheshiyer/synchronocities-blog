@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Verify the frozen corpus and separate candidates; never apply or enqueue copy."""
 from pathlib import Path
-import collections, difflib, hashlib, importlib.util, json, re
+import collections, difflib, hashlib, importlib.util, json, re, tomllib
 
 ROOT = Path(__file__).resolve().parents[3]
 BASE = Path(__file__).resolve().parent
@@ -11,7 +11,7 @@ def frontmatter(raw):
     match = re.match(br'\A---\r?\n.*?\r?\n---(?:\r?\n|$)', raw, re.S)
     return match.group(0) if match else b''
 def links(text):
-    return set(re.findall(r'https?://[^\s<>"\])]+',text))
+    return set(re.findall(r'https?://[^\s<>"\])]+',text)) | set(re.findall(r'\]\(([^)]+)\)',text))
 def main():
     inventory=load(BASE/'inventory.json'); rows=load(BASE/'inventory-blogs.json')+load(BASE/'inventory-drafts.json')
     checks=[]; notes=[]
@@ -43,6 +43,15 @@ def main():
         check(id+': current contract bytes',review.get('contract_sha256')==contract_hash)
         check(id+': exact frontmatter',frontmatter(source)==frontmatter(raw))
         check(id+': no lost source URL',links(before)<=links(text),sorted(links(before)-links(text)))
+        trace=review.get('exact_revision_trace',review.get('concretechanges',review.get('concrete_changes')))
+        if isinstance(trace,list) and trace and all(isinstance(e,dict) and 'before' in e and 'after' in e for e in trace):
+            if 'exact_revision_trace' not in review:
+                trace=trace+review.get('primary_followup_edits',[])+review.get('independent_followup_edits',[])
+            prefix=frontmatter(source).decode();replay=before[len(prefix):];valid=True
+            for e in trace:
+                if e['before'] not in replay:valid=False;break
+                replay=replay.replace(e['before'],e['after'],1)
+            check(id+': exact body edit trace replay',valid and prefix+replay==text)
         changed=raw!=source;summary['revised' if changed else 'unchanged']+=1
         summary[row['kind']+('_revised' if changed else '_unchanged')]+=1
         unresolved=review.get('unresolved_findings',[])
@@ -77,6 +86,19 @@ def main():
             check(row['id']+': independent current candidate',rec.get('candidate_sha256')==sha(path.read_bytes()))
             check(row['id']+': independent source hash',rec.get('source_sha256')==row['sha256'])
             check(row['id']+': independent full reading',rec.get('full_source_read') and rec.get('full_candidate_read'))
+    corpus_path=BASE/'independent/CORPUS-VOICE-REVIEW.json'
+    check('Corpus contextual assessment exists',corpus_path.exists())
+    if corpus_path.exists():
+        assessment=load(corpus_path)['assessment']
+        ordered=sum((load(BASE/f'batch-{n}.json')['rows'] for n in ('a','b','c')),[])+load(BASE/'inventory-drafts.json')
+        hashes=[{'id':r['id'],'candidate_sha256':sha((ROOT/r['candidate_output_path']).read_bytes())} for r in ordered]
+        digest=sha(json.dumps(hashes,sort_keys=True,separators=(',',':')).encode())
+        check('Corpus contextual assessment current final set',assessment.get('candidate_set_sha256')==digest)
+        check('Corpus contextual assessment current contract',assessment.get('contract_sha256')==contract_hash)
+    automation=load(BASE/'AUTOMATION-REFRESH.json')
+    saved=tomllib.loads((Path.home()/'.codex/automations'/automation['id']/'automation.toml').read_text())
+    check('Existing preparation automation current prompt',saved['prompt']==automation['after_prompt'])
+    check('Existing preparation schedule preserved',saved['rrule']=='FREQ=DAILY;BYHOUR=10;BYMINUTE=0;BYSECOND=0')
     # Thread ordering is the six paragraphs after its editorial heading.
     thread=(BASE/'revisions/079-x-thread.md').read_text().strip().split('\n\n')[1:]
     check('X thread six ordered posts',len(thread)==6)

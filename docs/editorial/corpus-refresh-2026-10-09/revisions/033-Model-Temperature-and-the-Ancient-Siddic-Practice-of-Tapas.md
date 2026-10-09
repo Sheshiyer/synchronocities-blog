@@ -50,7 +50,7 @@ In the transformer architecture, temperature is applied at the final softmax lay
 
 This is not creativity. This is statistical noise injection into a conditioned field. The model has been trained on human text — which means it has absorbed our grammatical samskaras, our rhetorical habits, our collective tendency to end paragraphs with uplifting conclusions. Temperature does not change the training. It changes the sampling strategy. A high-temperature model is not more imaginative; it is less loyal to the probability mass it inherited.
 
-Patañjali's *tapas* — from the root *tap*, to burn — operates on the same principle but in reverse. Where LLM temperature adds noise to escape conditioning, yogic tapas applies disciplined friction to burn through it. The tapas is not the heat itself. The heat is the byproduct of the system doing work against its own inertia. Pushing past a body's stop signal is not evidence of insight or discipline. The urge to repeat a familiar response is what the sampling comparison brings into view. The sampling image helps describe a habitual response; it does not give the body a biological `T` setting.
+Patañjali's *tapas* — from the root *tap*, to burn — operates on the same principle but in reverse. Where LLM temperature adds noise to escape conditioning, yogic tapas applies disciplined friction to burn through it. The tapas is not the heat itself. The heat is the byproduct of the system doing work against its own inertia. Pushing past a body's stop signal is not evidence of insight or discipline. The sampling image brings the urge to repeat a familiar response into view; it does not give the body a biological `T` setting.
 
 ## The Spectrum
 

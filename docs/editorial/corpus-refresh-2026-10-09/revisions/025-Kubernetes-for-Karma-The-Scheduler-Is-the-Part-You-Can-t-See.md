@@ -73,7 +73,7 @@ Card X, the Wheel of Fortune, is the perpetual scheduling loop. The four fixed s
 
 The wheel does not punish. It schedules. The creature on the right ascends because the spec changed. The creature on the left falls because the spec did not. The sphinx at the top is the operator who learned to read the scheduler. The snake on the left is the spec that keeps requesting itself. The wheel turns because the spec is persistent. The only way to change the loop is to change the spec. Not by wishing for a new reality. Not by attuning to a frequency. By editing the configuration.
 
-At the cosmic scale, the wheel is not a symbol of fate. It is a diagram of distributed scheduling. Every node in the cluster runs the same control plane. Every action is a pod request. Every consequence is a placement decision. The operator who understands this does not fight the wheel. They read the scheduler. They edit the spec. The wheel keeps turning, but the pods it places are different because the configuration changed.
+
 
 This is the Vedic *ṛta* — cosmic order as pattern, not commandment. The pattern is not imposed from outside. It is the architecture of recurrence, the field's habit of placing like with like. The wheel is not a tyrant. It is a habit. And habits can be edited, but only by the operator who knows where the spec is stored.
 

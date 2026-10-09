@@ -74,21 +74,11 @@ And in that presence, I stopped trying to "understand" the passage.
 
 I simply bowed, **internally**, **entirely**.
 
-## What Happens When Kha Is Absent
+## The Passenger and the Witness
 
-Without the Witness, 707 is just a room number. The numerology becomes paranoia. The spiral becomes a vacation itinerary, and the self becomes a passenger in its own transit. You photograph Doi Suthep from the balcony, post it, and move on. The mountain does not see you, because you are not there to be seen. The I dissolves into the feed, and the field never forms.
+I have been that passenger. In earlier phases, I collected destinations like stamps. The circuit was running, but no one was home to record the signal. Here, the balcony kept asking me to stay long enough to look.
 
-I have been that passenger. In earlier phases, I collected destinations like stamps. The pattern was invisible because the observer was absent. The circuit was running, but no one was home to record the signal. Without Kha — the personal register of conscious witness — the entire architecture collapses into tourism.
-
-## What Happens When Ba Is Absent
-
-Without the body, the 7th floor is just altitude. The mountain becomes a postcard. The breath that should slow in the presence of something older than your species keeps rushing, because the nervous system has not been invited. You read about Yod in a book and feel nothing. The numerology stays in the head, never dropping into the sternum, never curling the fingers inward.
-
-In Bangkok, the earthquake cracked the building. My body remembered before my mind could name it. The floor lurched, the glass swayed, and something in my gut — deeper than thought — knew this was not just tectonic. It was structural. The fracture was physical, yes, but it also tore a seam in the inherited code I had been carrying since childhood: the code that says the ground is always about to leave you. Without Ba — the embodied register, the somatic ground — that rupture would have stayed dissociated, filed as "a scary thing that happened," never metabolized into intelligence.
-
-## What Happens When La Is Absent
-
-Without the system, the four phases are just four islands. Bangkok, Samui, Phangan, Chiang Mai — a hopscotch of beaches and temples. The Tarot XXI (the World, or Universe, in the Marseille and Rider-Waite-Smith traditions) becomes a decorative image on a yoga studio wall. The four creatures — the eagle, the lion, the bull, the human — become mascots, not governors. The recursion breaks. The spiral becomes a line.
+In Bangkok, the earthquake cracked the building. My body remembered before my mind could name it. The floor lurched, the glass swayed, and something in my gut knew the ground could leave me. I read that memory beside the inherited expectation I had carried since childhood.
 
 La names the way I was holding these places together: Bangkok’s quake, Samui’s slow repair, Phangan’s reflections. Calling them one circuit is an interpretation of the journey, not evidence that still water and a nervous system run on identical physics.
 
@@ -125,7 +115,7 @@ I read the correspondences as **field-coded choreography**. That sense of timing
 
 What this cost: the fracture in Bangkok did not resolve easily. For days after the quake, every footstep on a tile floor sent a premonitory shiver up my calves. The inherited code — my mother's fear of instability, my father's silence around danger, the ancestral pattern of waiting for the ground to betray — activated in full. I could have swallowed it. I could have called it "travel stress" and booked a flight home.
 
-Instead, I stayed. I let the rupture complete itself. The cost was nights of shallow sleep, the cost was a body that refused to relax for weeks, the cost was the humiliation of discovering that I was not as free from inherited code as my philosophy suggested. But metabolization is not the absence of cost. It is the conversion of fracture into architecture. The rupture became the staircase. The inherited code became the material I could now recognize — and therefore no longer repeat.
+Instead, I stayed. I let the rupture complete itself. The cost was nights of shallow sleep, the cost was a body that refused to relax for weeks, the cost was the humiliation of discovering that I was not as free from inherited code as my philosophy suggested. But metabolization is not the absence of cost. It is the conversion of fracture into architecture. The rupture became the staircase. The inherited code became material I could recognize when it returned.
 
 ## Aletheos Emerges (Silently, Powerfully)
 

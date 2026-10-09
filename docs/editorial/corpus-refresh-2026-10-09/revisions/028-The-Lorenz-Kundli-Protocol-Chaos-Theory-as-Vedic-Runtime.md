@@ -62,7 +62,7 @@ The Graha friendship tables encode a cellular automaton: each graha's next state
 
 I have seen this in compatibility readings. Two charts with Sun-Mercury conjunctions in friendly signs settle into a stable oscillator — low friction, predictable mutual reinforcement. Two charts with Saturn-Mars oppositions enter chaotic regime: each activation triggers defensive patterning in the other, the system never settles. The Jyotishi reading compatibility is not doing romance. The Jyotishi is reading the coupling matrix of an 18-graha dynamical system, checking for attracting fixed points or divergent trajectories.
 
-The same structure governs organizations. A Mars-dominant CEO (action-first, directional) and a Saturn-dominant CFO (risk-averse, structural) oscillate between expansion and contraction lobes. Unless a Jupiter-dominant board chair provides convergent influence, the corporate attractor never stabilizes. The restructuring consultant calls this "alignment." Jyotish calls it "yoga." Lorenz calls it "attractor geometry." All three read the same diagram.
+I can sketch an organization through the same comparison: a Mars-dominant CEO pressing for expansion, a Saturn-dominant CFO demanding constraint, a Jupiter-dominant chair trying to hold the argument together. “Alignment,” “yoga” and “attractor geometry” become neighboring vocabularies on my page. The sketch does not make them the same diagram.
 
 ## Tensor Fields and Dimensional Collapse
 
@@ -89,7 +89,5 @@ I inherited my grandfather's Kundli and his debt structures. Both were determini
 ## The Wheel of Fortune
 
 Card X is not a circle. It is a toroidal phase space trajectory. The wheel turns not because fortune is capricious, but because the attractor has no fixed points — only orbits. The sphinx, the serpent, the Anubis figure are state variables. Each occupies a rim position, each is carried by rotation, none controls the lobe transition. The sphinx knows the rule. The serpent knows the inertia. Anubis knows that every trajectory crosses every lobe, given enough time.
-
-The Lorenz model supplies a way to draw repeated motion between lobes. The chart has its cycles; the screen draws motion between lobes. Holding them beside each other makes the comparison visible without proving an isomorphism.
 
 The chart and the screen can remain beside each other. The next useful step is to specify where their motions differ, as carefully as where they appear to meet.

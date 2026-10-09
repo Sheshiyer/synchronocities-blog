@@ -246,16 +246,6 @@ Kha-Ba-La gives me one reading of the 55-day travelogue.
 
 **La (The Recursive Structure)** — Without it, the pattern remains anecdotal. The 55 days become a vacation slideshow. The numerical codes are just room numbers. The tarot sequence is reduced to a travel itinerary. La is what makes the personal reproducible at scale.
 
-### Four Scales of Operation
-
-**Personal:** The earthquake in room 44. The breath protocol under the mosquito net. The name Pichet arriving in the humidity of Songkran. These are the raw data points of consciousness encountering itself.
-
-**Interpersonal:** The body as signal filter. The gait as metronome. The rolling tobacco as an object in the travel record. The physical instrument must be calibrated before the pattern can be received.
-
-**Systemic:** The React app (Mythic Journal) was the interface. The tarot sequence was the recursive architecture. The numerical codes were the navigation system. The systemic layer is what makes the passage legible to others — not as mysticism, but as structure.
-
-**Cosmic:** The spiral is the universal grammar. The 55 days are one octave in a larger waveform. The Major Arcana are not mystical symbols but structural patterns that recur at every scale — from the synapse to the galaxy.
-
 ### The Shadow as Metabolized Intelligence
 
 The earthquake was not a metaphor. Concrete fell. The floor buckled. The cost was physiological: cortisol, adrenaline, nights of no sleep.

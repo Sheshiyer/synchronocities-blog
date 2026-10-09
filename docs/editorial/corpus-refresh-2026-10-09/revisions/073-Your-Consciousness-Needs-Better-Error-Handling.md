@@ -80,7 +80,7 @@ In 2019, getting out of bed could feel like a `finally` block. Eating regularly 
 
 ---
 
-This is not a promise of stability. The architecture I have described does not prevent errors. Errors are the signal, not the noise. What changes is the response protocol. You learn to recognize the two defective modes in real time: the swallow and the scream. You build the `try` block through pratyahara — the deliberate withdrawal of attention to create a bounded space where error can occur without destroying the stack. You build the `catch` block through somatic literacy — learning to read the body before the narrative compiles. You build the `finally` block through repetition — the daily, boring, non-negotiable return to baseline.
+
 
 The work is not glamorous. It is debugging. It is noticing a racing heart at 3 AM without letting a software metaphor decide its medical severity. It is feeling the jaw clench in a meeting and logging it: somatic error code, trapezius origin, escalation prevented. It is waking with catastrophic projections and running the `finally` block anyway: breath, posture, sleep hygiene, dawn.
 

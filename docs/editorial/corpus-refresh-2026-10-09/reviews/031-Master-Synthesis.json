@@ -1,7 +1,7 @@
 {
   "id": "031-Master-Synthesis",
   "source_sha256": "e29d28814b995ff592344a83700bf4455a0b0b2cf15a3dcccd61185adaf71a54",
-  "candidate_sha256": "c2a4c58341a5afba00a810cdb99a2075ff16360c0b6dac866914269775291a4b",
+  "candidate_sha256": "65da34f94b6102453be1c7f79a09ca5edf537328a83bf91149395003436751f0",
   "frontmatter_unchanged": true,
   "skill_version": "2.18.0",
   "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
@@ -100,5 +100,24 @@
     "candidate_word_count": 1621,
     "source_word_count": 1603,
     "exact_change_trace_complete": true
+  },
+  "independent_followup_edits": [
+    {
+      "id": "031-Master-Synthesis",
+      "before": "### Four Scales of Operation\n\n**Personal:** The earthquake in room 44. The breath protocol under the mosquito net. The name Pichet arriving in the humidity of Songkran. These are the raw data points of consciousness encountering itself.\n\n**Interpersonal:** The body as signal filter. The gait as metronome. The rolling tobacco as an object in the travel record. The physical instrument must be calibrated before the pattern can be received.\n\n**Systemic:** The React app (Mythic Journal) was the interface. The tarot sequence was the recursive architecture. The numerical codes were the navigation system. The systemic layer is what makes the passage legible to others — not as mysticism, but as structure.\n\n**Cosmic:** The spiral is the universal grammar. The 55 days are one octave in a larger waveform. The Major Arcana are not mystical symbols but structural patterns that recur at every scale — from the synapse to the galaxy.\n\n",
+      "after": "",
+      "reason": "Remove the appended mandatory scale taxonomy; the journey and project interface already provide its concrete material."
+    }
+  ],
+  "followup_readback": "Independent reader proposals applied as exact unique spans; original full comparison plus final changed-span/context reread must be rebound to this candidate hash.",
+  "human_approval": false,
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-a-review.json",
+    "candidate_sha256": "65da34f94b6102453be1c7f79a09ca5edf537328a83bf91149395003436751f0",
+    "source_sha256": "e29d28814b995ff592344a83700bf4455a0b0b2cf15a3dcccd61185adaf71a54",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
   }
 }

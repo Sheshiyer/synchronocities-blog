@@ -311,11 +311,9 @@ The decommissioning matters as an operation with its own time and form. It deser
 
 The same principle governs every inner-fire architecture worth building. Frameworks. Practices. Identities. Doctrines. **Each is a vessel.** Each is justified by its capacity to hold without distortion during its cycle. None are justified by surviving past the cycle for which they were prepared.
 
-This includes the [Kha-Ba-La operational compass](/posts/kha-ba-la-operational-compass). It includes the [pancha-kosha doctrine itself](/posts/reality-compile-ancient-source) — yes, even the doctrine that this essay treats as load-bearing. A practitioner who has internalized the doctrine fully no longer needs the doctrine; the doctrine has become the practitioner's own discernment, and the discrete-doctrinal-vessel-of-five-koshas is shattered into direct perception of the architecture it described. The doctrine, having done its work, has done its work.
+This includes the [Kha-Ba-La operational compass](/posts/kha-ba-la-operational-compass). It includes the [pancha-kosha doctrine itself](/posts/reality-compile-ancient-source) — yes, even the doctrine that this essay treats as load-bearing. A practitioner who has internalized the doctrine fully no longer needs the doctrine; the doctrine has become the practitioner's own discernment, and the five-kosha vessel can be released with the same care with which it was prepared.
 
 This is the Noesis Engine's founding constraint named in vessel-language: *the system succeeds when you no longer need it.* The ukha is the original prototype of independence-by-design. The eleven-stage operation produces an operator who is now capable of holding the fire without the vessel they were prepared in. The vessel served. The vessel is released. The fire continues, but now it is held by an operator-architecture rather than by an operator-using-an-instrument.
-
-The operator is the only thing that remains.
 
 The operator does not need to remain in the vessel that prepared them.
 

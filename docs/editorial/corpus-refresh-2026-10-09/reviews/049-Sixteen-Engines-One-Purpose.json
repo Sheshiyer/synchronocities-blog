@@ -1,7 +1,7 @@
 {
   "id": "049-Sixteen-Engines-One-Purpose",
   "source_sha256": "80e0e68e3d7d756585a64d78c8f50b6144d43e05aba2ee61bd34b338e7435f3c",
-  "candidate_sha256": "dc28509c61bda3ce06e4f08ff274815710914ec556d7946d55a87900a895d8ca",
+  "candidate_sha256": "ebbcb2094f5dddae61b987d349331f402cfbec8741e15c7b1275338a620a0d39",
   "frontmatter_unchanged": true,
   "skill_version": "2.18.0",
   "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
@@ -93,7 +93,31 @@
       "before": "*The operating system itself needs replacing. These are the tools for writing the replacement.*\n",
       "after": "*Keep the lenses available, and let an encounter show which one has stopped helping.*",
       "reason": "Replace repeated rhetorical chassis or unsupported identity claim with subject-specific development."
+    },
+    {
+      "id": "049-Sixteen-Engines-One-Purpose",
+      "before": "These three forces co-arise in every calculation. They are not inputs to the system but the system itself — the operating kernel on which all sixteen engines run.",
+      "after": "I use these three forces to read across the sixteen engines: a question about what notices, what carries the calculation and what constrains it. Their usefulness depends on what each engine actually does.",
+      "reason": "Resolve universal kernel assertion without adding implementation claims."
     }
   ],
-  "human_approval": false
+  "human_approval": false,
+  "independent_followup_edits": [
+    {
+      "id": "049-Sixteen-Engines-One-Purpose",
+      "before": "These three forces co-arise in every calculation. They are not inputs to the system but the system itself — the operating kernel on which all sixteen engines run.",
+      "after": "I use these three forces to read across the sixteen engines: a question about what notices, what carries the calculation and what constrains it. Their usefulness depends on what each engine actually does.",
+      "reason": "Resolve universal kernel assertion without adding implementation claims."
+    }
+  ],
+  "followup_readback": "Independent reader proposals applied as exact unique spans; original full comparison plus final changed-span/context reread must be rebound to this candidate hash.",
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-c-last-review.json",
+    "candidate_sha256": "ebbcb2094f5dddae61b987d349331f402cfbec8741e15c7b1275338a620a0d39",
+    "source_sha256": "80e0e68e3d7d756585a64d78c8f50b6144d43e05aba2ee61bd34b338e7435f3c",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
+  }
 }

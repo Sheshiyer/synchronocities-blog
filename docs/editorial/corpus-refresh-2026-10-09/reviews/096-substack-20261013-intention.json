@@ -14,7 +14,7 @@
     "Retained relative Thursday timing from the dated source plan; re-confirm intended schedule before use."
   ],
   "source_coverage": "Complete supplied draft and current writer contract reviewed; no new independent live-account, product-runtime, clinical or historical verification claimed.",
-  "publication_state": "Separate review candidate only; original approval and existing delivery state do not transfer.",
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
   "human_approval": false,
   "material_claim_treatments": [
     {
@@ -27,5 +27,13 @@
     }
   ],
   "full_source_read": true,
-  "full_candidate_read": true
+  "full_candidate_read": true,
+  "independent_review": {
+    "path": "independent/drafts-review.json",
+    "candidate_sha256": "1173d9c84bbd29efa0b740d79a9c6d690b7c57ae386b0310e8404c5cd03e71d8",
+    "source_sha256": "1173d9c84bbd29efa0b740d79a9c6d690b7c57ae386b0310e8404c5cd03e71d8",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
+  }
 }

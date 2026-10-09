@@ -112,17 +112,9 @@ for r in range(1, 11):
 
 At r = 10, the hyperbolic disk contains 219 times the area of its Euclidean counterpart. The divergence is not gradual. It is a phase transition in what "nearby" means. This geometry gives the essay its speculative question: can a description of negatively curved space illuminate some reported qualities of experience? The calculation alone cannot answer it.
 
-## What Each Force Costs When It Is Absent
+## An instrument for the question
 
-Kha-Ba-La is the house lens through which I explore that question. Its terms organize the reading; removing one in thought is not an experiment on the geometry of consciousness.
-
-Remove Kha — the witness — and Ba wanders through hyperbolic space without recognition. This is the DMT user who returns with no residue, the meditator who enters absorption and emerges unchanged. The geometry was traversed. No one was there to record it. Without Kha, curvature is experienced as noise, not as information. The cost is amnesia disguised as transcendence.
-
-Remove Ba — the body — and Kha sees curvature without entering it. This is the disembodied intellect that maps consciousness states it has never inhabited. The cartographer who never leaves the observatory. Without Ba, hyperbolic geometry remains a theorem. The fracture is permanent: knowledge without scar tissue.
-
-Remove La — the resistance — and there is no form at all. Pure noise. The psychotic break. The amnesia level where curvature exceeds encoding capacity not because the instrument is too weak, but because there is nothing to push against. La is the stone the sculptor works. Remove the stone and the chisel has nothing to push against. The rupture is total: geometry without a geometer.
-
-The triad holds only when all three forces are present and in tension. Inherited code — the Euclidean assumptions baked into every circuit by evolution, by culture, by trauma — is not dissolved. It is metabolized. La is the meal, not the poison.
+Kha-Ba-La is the house lens through which I explore the question. The observer, the body and the resistance of familiar habits give me three places to look while describing an experience. Removing one in thought is not an experiment on consciousness geometry, and it cannot classify amnesia or psychosis. The geometric proposal needs evidence beyond the vocabulary that makes it inviting.
 
 ## Kale, Triangles, and the Seventeen Wallpaper Groups
 
@@ -196,15 +188,15 @@ The proposed connection between ambient temperature, mitochondrial function and 
 
 Technical English and Sanskrit can carry different kinds of density in particular texts. A geography-based division into flat and hyperbolic minds would flatten the speakers it claims to explain.
 
-LLM "hallucination" at high temperature is amnesia-level geometry. The model enters a branching regime where Euclidean coherence is impossible. Calling an output non-Euclidean does not rescue an incorrect claim. You call it hallucination because your decoder is calibrated for flat space and the signal arrived in curved space. The problem was never the signal. It was the instrument.
+An unreliable LLM output can tempt the same geometric reading: a branching path that loses its bearings. But the comparison cannot turn an incorrect claim into another kind of knowledge. The model still owes the reader an accurate answer.
 
 ## The Cartography Imperative
 
-Flat space constrains symmetry to seventeen groups. Curvature liberates it to infinity. Temperature is the parameter that moves between them — in crystal lattices, in kale leaves, in DMT phenomenology, in LLM token distributions, in the mitochondrial calibration of equatorial versus polar cognition.
+Flat space constrains symmetry to seventeen groups. Curvature liberates it to infinity. Temperature is the parameter that moves between them — in crystal lattices, in kale leaves, in DMT phenomenology, in LLM token distributions, in the proposed comparison with biological experience.
 
 The pandemic curve supplies a concrete example of exponential change outrunning an intuitive projection. Extending that difficulty to relationships, institutions or the [Lorenz-Kundli program](/posts/lorenz-kundli-system-index) requires separate models, not a repeated declaration that each has the same curvature.
 
-The [Vedic astronomical systems](/posts/vedic-mathematical-parallels) are not proto-science waiting for validation. They are maps drawn by cultures whose languages, metabolisms, and contemplative technologies were calibrated for hyperbolic territory. Sanskrit is not a container for meaning. It is a traversal instrument evolved for exponentially branching meaning-space — the linguistic equivalent of the Poincaré disk, compressing infinite semantic area into [finite phonemic sequence](/posts/nakshatra-fibonacci-sequences).
+The [Vedic astronomical systems](/posts/vedic-mathematical-parallels) are not proto-science waiting for validation. I am bringing those maps into a contemporary geometric reading. The Poincaré disk offers an image for exploring how a [finite phonemic sequence](/posts/nakshatra-fibonacci-sequences) can carry many relations; it does not establish a linguistic or metabolic adaptation to hyperbolic space.
 
 Kha — the observer — inhabits this curved space natively. Kha does not need annealing, does not need DMT, does not need a thermometer. The observer sees curvature because the observer is not bound to Ba's coordinate system. The [noetic aether framework](/posts/noetic-aether-einsteinian-knot) provides the ontological ground: consciousness is not produced by spacetime. Spacetime is a structure within the noetic field.
 

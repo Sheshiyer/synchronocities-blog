@@ -1,7 +1,7 @@
 {
   "id": "008-Bioelectric-Protocol-A-Practical-Field-Guide",
   "source_sha256": "214cb7cb4dbdef6b1421e13c816e6ef03b619f4fb3cd2792b1a1e19c3473eda0",
-  "candidate_sha256": "a7d50501e796ff252d13cbbe601e711fb3488a1f8c1cd0fb51e56cd961fbe428",
+  "candidate_sha256": "0da04c70d41949fac4afc197a2b2d120189d87355600c6e3564d4cb2ffd069f8",
   "frontmatter_unchanged": true,
   "skill_version": "2.18.0",
   "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
@@ -97,7 +97,31 @@
       "before": "For this draft, the task",
       "after": "The task",
       "reason": "Full candidate readback: remove process commentary or an incoherent retained ending."
+    },
+    {
+      "id": "008-Bioelectric-Protocol-A-Practical-Field-Guide",
+      "before": "## Kha, Ba, La: The Triad as Failure Modes\n\nWhat happens when one is absent? Without Kha — without the observer — the practices become mechanical superstition. You switch nostrils while planning dinner. You stand on the ground while scrolling. You breathe to the meter while your attention is elsewhere. The body executes the protocol but nobody is home to read the result. This is how energetic practices become choreography. The movements are correct. The circuit is open.\n\nWithout Ba — without the body as substrate — the practices become dissociative fantasy. The observer notices everything except the physical sensations that would ground the observation in reality. This is the meditator who can describe their consciousness in exquisite detail but cannot feel their own feet. The Kha is present. The La is absent. But the Ba — the meat, the resistance, the actual nostril — has been abandoned.\n\nWithout La — without the friction — the practices become too easy, which means they are not working. If Nadi Shodhana feels effortless, you are not noticing the resistance. If grounding feels like a spa treatment, you are not encountering the inertia of a system that has been insulated from the earth for decades. If HRV coherence locks immediately, you are either a highly trained athlete or you are not reading the meter correctly. The La is the difficulty that proves the practice is real. Remove it and you are performing empty theater.\n\n",
+      "after": "## Reading the practice\n\nThe nasal reading, skin contact and HRV trace offer different kinds of information. I need to notice what each practice feels like and what its instrument can report, without making one answer stand for all three. Difficulty alone cannot prove a practice is working; ease cannot prove that it has failed. The house triad helps me keep attention, bodily participation and resistance in view, but it supplies no diagnostic threshold.\n\n",
+      "reason": "Remove repetitive failure tour and unsupported claim that friction proves efficacy."
     }
   ],
-  "human_approval": false
+  "human_approval": false,
+  "independent_followup_edits": [
+    {
+      "id": "008-Bioelectric-Protocol-A-Practical-Field-Guide",
+      "before": "## Kha, Ba, La: The Triad as Failure Modes\n\nWhat happens when one is absent? Without Kha — without the observer — the practices become mechanical superstition. You switch nostrils while planning dinner. You stand on the ground while scrolling. You breathe to the meter while your attention is elsewhere. The body executes the protocol but nobody is home to read the result. This is how energetic practices become choreography. The movements are correct. The circuit is open.\n\nWithout Ba — without the body as substrate — the practices become dissociative fantasy. The observer notices everything except the physical sensations that would ground the observation in reality. This is the meditator who can describe their consciousness in exquisite detail but cannot feel their own feet. The Kha is present. The La is absent. But the Ba — the meat, the resistance, the actual nostril — has been abandoned.\n\nWithout La — without the friction — the practices become too easy, which means they are not working. If Nadi Shodhana feels effortless, you are not noticing the resistance. If grounding feels like a spa treatment, you are not encountering the inertia of a system that has been insulated from the earth for decades. If HRV coherence locks immediately, you are either a highly trained athlete or you are not reading the meter correctly. The La is the difficulty that proves the practice is real. Remove it and you are performing empty theater.\n\n",
+      "after": "## Reading the practice\n\nThe nasal reading, skin contact and HRV trace offer different kinds of information. I need to notice what each practice feels like and what its instrument can report, without making one answer stand for all three. Difficulty alone cannot prove a practice is working; ease cannot prove that it has failed. The house triad helps me keep attention, bodily participation and resistance in view, but it supplies no diagnostic threshold.\n\n",
+      "reason": "Remove repetitive failure tour and unsupported claim that friction proves efficacy."
+    }
+  ],
+  "followup_readback": "Independent reader proposals applied as exact unique spans; original full comparison plus final changed-span/context reread must be rebound to this candidate hash.",
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-c-first-review.json",
+    "candidate_sha256": "0da04c70d41949fac4afc197a2b2d120189d87355600c6e3564d4cb2ffd069f8",
+    "source_sha256": "214cb7cb4dbdef6b1421e13c816e6ef03b619f4fb3cd2792b1a1e19c3473eda0",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
+  }
 }

@@ -30,17 +30,9 @@ Michael Levin’s work on developmental bioelectricity makes a demanding startin
 
 The bioelectric pattern framework documents this precedence — not as a historical curiosity about embryology, but as an operational reality about consciousness. Your cells are still running the pattern system that built your body. They remember what happened. They encode it in voltage. And they do this without consulting your narrative mind, without filing memories in the hippocampus, without any involvement of the structures you normally associate with "knowing."
 
-## What Kha-Ba-La Looks Like When One Force Goes Missing
+## Reading a pattern in the body
 
-I use Kha-Ba-La here to ask how observing, bodily participation and persistence can come apart. The lens may organize an inquiry; its three terms are not measurements of cellular voltage.
-
-**Kha without Ba** — the observer without the body. You see the pattern clearly but cannot inhabit it. The voltage map is readable but the current does not flow. This is the state of hyper-cognitive self-awareness: you can articulate your trauma with clinical precision, cite the relevant researchers, diagram the feedback loop — and nothing changes. The field is mapped but not lived. The pattern is known but not conducted.
-
-**Ba without Kha** — the body without the observer. You do the practices, attend the somatic sessions, follow the breath protocols — but no one is watching. The current flows without direction. This is compulsive embodiment: more movement, more sensation, more intensity, but no pattern recognition. The cells receive charge but no instruction. The field oscillates without coherence.
-
-**La without Kha-Ba** — inertia without observer or body. The charge differential persists but the current is blocked. This is the frozen state: the voltage map shows the wound clearly, the body feels the charge, but neither observation nor movement can penetrate the pattern. The field remembers what the organism cannot metabolize. The gradient hardens into scar.
-
-When all three co-arise, the pattern becomes readable, conductible, and mutable. When any one is absent, the pattern persists in a state of partial resolution — visible but stuck, felt but unnamed, or named but frozen.
+I use Kha-Ba-La to ask what I can notice, what I can feel, and what remains difficult to change. Someone may describe a painful pattern fluently and still find it returning. Another may move or breathe without finding words for what happened. These differences belong in the inquiry. Calling them voltage maps would require measurements the account has not supplied.
 
 ## Four Scales of the Same Pattern
 

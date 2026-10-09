@@ -1,7 +1,7 @@
 {
   "id": "025-Kubernetes-for-Karma-The-Scheduler-Is-the-Part-You-Can-t-See",
   "source_sha256": "1b95358d399f14b6f00b4f2d11c102cbb3b27f1a95386273bbfcc02ff542a12a",
-  "candidate_sha256": "c56cbddcc8e7c9f588aa867774699ba6014c594a14699a9cda133bbe9ebb41e8",
+  "candidate_sha256": "9293f007ed215f592d2d6d3505d2f4e69b04fd4c34fe94ad26fcb161767e78eb",
   "frontmatter_unchanged": true,
   "skill_version": "2.18.0",
   "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
@@ -105,5 +105,24 @@
     "candidate_word_count": 2443,
     "source_word_count": 2489,
     "exact_change_trace_complete": true
+  },
+  "independent_followup_edits": [
+    {
+      "id": "025-Kubernetes-for-Karma-The-Scheduler-Is-the-Part-You-Can-t-See",
+      "before": "At the cosmic scale, the wheel is not a symbol of fate. It is a diagram of distributed scheduling. Every node in the cluster runs the same control plane. Every action is a pod request. Every consequence is a placement decision. The operator who understands this does not fight the wheel. They read the scheduler. They edit the spec. The wheel keeps turning, but the pods it places are different because the configuration changed.",
+      "after": "",
+      "reason": "Second wheel scheduling explanation repeats the immediately preceding card reading."
+    }
+  ],
+  "followup_readback": "Independent reader proposals applied as exact unique spans; original full comparison plus final changed-span/context reread must be rebound to this candidate hash.",
+  "human_approval": false,
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-a-review.json",
+    "candidate_sha256": "9293f007ed215f592d2d6d3505d2f4e69b04fd4c34fe94ad26fcb161767e78eb",
+    "source_sha256": "1b95358d399f14b6f00b4f2d11c102cbb3b27f1a95386273bbfcc02ff542a12a",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
   }
 }

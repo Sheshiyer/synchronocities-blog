@@ -1,0 +1,82 @@
+{
+  "id": "012-Compassion-Runtime-The-Limbic-Kernel-and-the-Architecture-of-Emotional-Memory",
+  "source_sha256": "056eb657d48f1a34084fad0de07e32d47add25a444ac5257cb33d976a6318fa4",
+  "candidate_sha256": "932c3dcb51f7251179003dd51e3d6ca055d960f67001dfa34ebf3038c56864cc",
+  "frontmatter_unchanged": true,
+  "skill_version": "2.18.0",
+  "contract": "noesis-writer-human-direction-2026-10-09-v2",
+  "contract_sha256": "09b7e78e136e040c3d7def1880cb9f2aec6d5cc44a7cbe898cfc6dabef18aa52",
+  "reviewer": "editorial_integration",
+  "state": "DRAFT",
+  "human_review_required": true,
+  "verdict": "needs-source-review",
+  "concretechanges": [
+    {
+      "before": "The emotion was the output of the circuit, not a reaction to the environment. Your sadness, your rage, your desire — these are not responses to the world. They are the world, generated internally and then projected outward for confirmation.",
+      "after": "The stimulation experiments complicate a simple picture of emotion as a passive response to events. They do not make the environment irrelevant. Sadness, rage and desire belong to a continuing exchange between a body and its circumstances."
+    },
+    {
+      "before": "Your \"I am angry because of what she said\" is the same confabulation. The anger fired before the reason. The reason is marketing.",
+      "after": "That research offers a caution for the explanation “I am angry because of what she said.” An explanation can be sincere and incomplete. Sometimes the reason sounds suspiciously like marketing; the comparison does not establish that every account of anger is a confabulation."
+    },
+    {
+      "before": "Compassion begins with the recognition that the self is not the author of its emotional states. It is the witness. This is not a spiritual claim. It is a neuroanatomical one. The default mode network — the circuit active during self-referential thought — can be decoupled from the salience network through specific practices. The decoupling does not stop the emotional process. It changes the relationship to it. The process runs. The witness watches. The witness does not intervene because intervention is not available. Intervention at the limbic level requires pharmacology, deep brain stimulation, or sustained neuroplastic restructuring — not a pep talk.",
+      "after": "Here compassion begins with a less managerial relationship to emotion. I use the witness as a description of that relationship: noticing a process without immediately taking its demands as instructions. This is an interpretive frame, not a neuroanatomical location or proof that intervention is unavailable. The kernel metaphor helps expose the fantasy of executive control; it should not become a reason to abandon care or agency."
+    },
+    {
+      "before": "## The Systemic Architecture of Affect",
+      "after": "## Compassion between people"
+    },
+    {
+      "before": "## Kha-Ba-La: The Triad as Emotional Architecture",
+      "after": "## Reading compassion through Kha-Ba-La"
+    },
+    {
+      "before": "The three operate as a loop: Kha recognizes, Ba hosts, La generates the pressure that makes the recognition meaningful. This is not a one-time event. This is infrastructure.",
+      "after": "In this interpretive loop, Kha recognises, Ba hosts and La names the resistance encountered in practice."
+    },
+    {
+      "before": "The Noesis Engine does not promise that compassion will make you feel better. It promises that compassion will make you more accurate — more able to read the telemetry, more able to recognize the process, more able to hold the loop without breaking. The goal is not control. Control is not available at the limbic level. The goal is clarity: to know what is running, to know that you did not start it, and to know that it will end — not because you ended it, but because all processes terminate, and the witness is still there when they do.",
+      "after": "The useful question is whether this way of attending makes a particular exchange clearer. Can I recognise a familiar reaction without requiring the other person to regulate it for me? Can I also recognise when I need rest, a boundary or help? The emotional process may still run. The next build has to incorporate what the last encounter actually cost."
+    }
+  ],
+  "voicepreserved": [
+    "Insomnia opening retained as supplied; shell/sudo and telemetry imagery; reason-as-marketing wit; failed builds and error logs."
+  ],
+  "unresolved_findings": [
+    "LeDoux circuitry, Panksepp circuit descriptions, Gazzaniga extrapolation, van der Kolk memory claims, Gendlin efficacy claims and cultural/emotional fatigue mechanisms need primary-source verification.",
+    "Supplied insomnia/cortisol/autonomic interpretations are not independent measurements; preserve as unverified author reports pending review."
+  ],
+  "source_coverage": {
+    "scope": "Full assigned local snapshot read; contextual prose revision, not external factual verification. Existing first-person reports retained as supplied, not independently corroborated.",
+    "full_snapshot_read": true,
+    "candidate_reread": true,
+    "external_sources_verified": false,
+    "readback_scope": "Full candidate read followed by contextual readback corrections; exact replacement replay and frontmatter/link-target preservation verified. External source accuracy remains unverified."
+  },
+  "materialclaimtreatments": [
+    {
+      "claim": "Witness is neuroanatomical and intervention unavailable",
+      "treatment": "Removed network-decoupling and exclusive intervention claim; witness explicitly interpretive."
+    },
+    {
+      "claim": "Emotion is internally generated world",
+      "treatment": "Removed universal projection claim; retained bounded experimental implication."
+    },
+    {
+      "claim": "Noesis promises accuracy",
+      "treatment": "Removed product efficacy promise; ending asks situated questions."
+    }
+  ],
+  "stylistic_completion": "Contextual skill pass and adjacent-piece review complete; meaningful contrasts and house vocabulary retained where they serve the piece.",
+  "human_approval": false,
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-b-review.json",
+    "candidate_sha256": "932c3dcb51f7251179003dd51e3d6ca055d960f67001dfa34ebf3038c56864cc",
+    "source_sha256": "056eb657d48f1a34084fad0de07e32d47add25a444ac5257cb33d976a6318fa4",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
+  }
+}

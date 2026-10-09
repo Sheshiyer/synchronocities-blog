@@ -14,7 +14,7 @@
     "Requires fresh review of exact destination, parent discussion/community rules and account before any delivery; no inherited queue approval transfers."
   ],
   "source_coverage": "Complete supplied draft and current writer contract reviewed; no new independent live-account, product-runtime, clinical or historical verification claimed.",
-  "publication_state": "Separate review candidate only; original approval and existing delivery state do not transfer.",
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
   "human_approval": false,
   "material_claim_treatments": [
     {
@@ -27,5 +27,13 @@
     }
   ],
   "full_source_read": true,
-  "full_candidate_read": true
+  "full_candidate_read": true,
+  "independent_review": {
+    "path": "independent/drafts-review.json",
+    "candidate_sha256": "e2d12f1f34b021124b139539da0a3bada362cc317b2a66835b88b327a940cd85",
+    "source_sha256": "e2d12f1f34b021124b139539da0a3bada362cc317b2a66835b88b327a940cd85",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
+  }
 }
