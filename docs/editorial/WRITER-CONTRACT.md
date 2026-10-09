@@ -2,7 +2,7 @@
 
 Effective 2026-10-09. Applies to preparation of blog essays, Substack articles and Notes, X articles/posts/threads, Reddit contributions, project copy and Muse editorial reports produced through this workspace.
 
-Canonical writer: `/Volumes/madara/2026/twc-vault/.agents/skills/noesis-writer-skill/SKILL.md`, v2.18.0. The user-designated `.claude/skills/noesis-writer-skill/` is its runtime mirror. Read the skill and the references appropriate to the actual assignment before drafting. This contract carries the author's latest direction; it does not replace the skill's source and claim requirements.
+Canonical writer: `/Volumes/madara/2026/twc-vault/.agents/skills/noesis-writer-skill/SKILL.md`, v2.19.0. The user-designated `.claude/skills/noesis-writer-skill/` is its runtime mirror. Read the skill and the references appropriate to the actual assignment before drafting. This contract carries the author's latest direction; it does not replace the skill's source and claim requirements.
 
 ## Current human direction
 
@@ -14,6 +14,10 @@ Review manufactured contrasts, aphorisms assembled for quotability, repetitive s
 
 Do not manufacture scenes, bodily sensations, memories, dialogue, lived results or certainty. Label constructed examples naturally. Earlier repository versions establish wording rather than independently verified autobiography; calibration extracts include later rewrites. Distinguish source evidence, metaphor and authored interpretation privately and through natural attribution. Ambitious original synthesis remains welcome without presenting its imaginative relations as established empirical mechanisms.
 
+## Worldview and vocabulary continuity
+
+Read the canonical `references/cosmology-evolution-and-lexicon.md` when these dimensions are material. The [October 9 evolution package](cosmology-evolution-2026-10-09/README.md) distinguishes source positions, proposed author interpretations and adopted author positions. Young’s primary writing informs source vocabulary; automatic technical recoding and automatic adoption of all his physical claims are excluded. Neti-neti can remove an assumption and leave inquiry open. Record contextual word policies with reasons, senses, exceptions and dates; preserve historical wording. Canon adoption, claim validation and exact-copy publication review are distinct decisions. The local records and skill instructions are implemented; remote HITL integration remains a specified future step.
+
 ## Preparation and review
 
 1. Read the assigned source and record its hash. Select subject, audience, genre and source contribution before drafting.
@@ -23,7 +27,7 @@ Do not manufacture scenes, bodily sensations, memories, dialogue, lived results 
 5. Run `python3 scripts/audit-editorial-voice.py --output /tmp/editorial-voice-audit.json` for corpus triage. Findings are review prompts, never an AI detector or a voice-fit score. Contextual human judgment remains necessary even with zero findings.
 6. New calendar-runner packets must include `writer_review` with this contract ID, canonical skill version, `contract_sha256` of the exact current WRITER-CONTRACT.md bytes, exact public-copy hash, reviewer, source coverage and a clear review verdict. A changed contract requires a fresh writer review for new enqueue operations. A changed public payload requires a fresh review. An agent's editorial review does not authorize publication.
 
-Contract ID: `noesis-writer-human-direction-2026-10-09-v2`.
+Contract ID: `noesis-writer-human-direction-2026-10-09-v3`.
 
 Existing approvals and published artifacts retain their original copy and receipts. Revisions are separate candidates with claim/change traces; each exact revision follows the established human publication review. No retrospective scan silently rewrites the archive or transfers approval to new wording.
 

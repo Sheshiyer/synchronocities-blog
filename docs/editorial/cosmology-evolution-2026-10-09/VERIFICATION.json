@@ -1,0 +1,1006 @@
+{
+  "result": "PASS",
+  "scope": "File/hash/record consistency and preservation; not worldview truth, stylistic certification or live UI acceptance",
+  "checks": [
+    {
+      "check": "canonical-mirror exact file set and hashes",
+      "pass": true
+    },
+    {
+      "check": "canonical archive exact file set and hashes",
+      "pass": true
+    },
+    {
+      "check": "18 writer package files",
+      "pass": true
+    },
+    {
+      "check": "manifest binds every writer file",
+      "pass": true
+    },
+    {
+      "check": "contract hash",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/.DS_Store",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content.config.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/ArchiveDiscovery.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/ArchiveSearchGateway.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/ArticleConversation.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/BackToTop.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/ConstellationGrid.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/CorpusChat.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/DepthGallery.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/FlowingMenu.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/JourneyProgress.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/JourneysAnimator.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/NextPostReveal.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/NoesisDiscovery.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/PostFooterNav.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/PostTOC.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/ReadingProgress.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/RelatedPostModules.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/ResearchDiscovery.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/ScrollReveal.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/SiteHeader.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/SpiralTimeline.tsx",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/.DS_Store",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/CardLabel.js",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Engine.js",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Experience.js",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Gallery.js",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/galleryData.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Scroll.js",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Trail.js",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/TrailController.js",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/TrailHeadParticles.js",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/layouts/BaseLayout.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/aiClient.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/archive.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/articleExperience.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/cardColors.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/cardExperience.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/cardImageAssets.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/llmDiscovery.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/nonCardArticle.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/postMetadata.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/lib/tarot.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/chat.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/index.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/journeys.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/llms-full.txt.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/llms-manifest.json.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/llms.txt.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/maps.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/research.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/start.txt.ts",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/styles/global.css",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/card/[card].astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/posts/[...slug].astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Background/index.js",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Plane/shaders/fragment.glsl",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Plane/shaders/vertex.glsl",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Background/shaders/fragment.glsl",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/experience/Background/shaders/vertex.glsl",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/200-ok-mental-status-codes.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/72-hour-state-trace-protocol.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/active-inference-prediction-engine.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/ancient-debugging-protocols.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/arrival-room-3.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/ashtakavarga-hypercube-geometry.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/awareness-isnt-access.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/bangkok-initiation-samui-invitation.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/bhava-aspects-neural-networks.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/bicameral-consciousness-patch.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/bioelectric-pattern-framework.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/bioelectric-protocol.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/body-as-blockchain.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/celestial-patterns-meteor-enneagram.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/chakra-bioelectricity-mapping.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/chaos-theory-vedic-astrology.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/circle-over-inanna.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/compassion-runtime.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/consciousness-architecture-hub.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/consciousness-legacy-code.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/consciousness-runtime-diagrams.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/death-at-the-border.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/deep-trench-forge-shenzhen.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/docker-for-chakras.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/endocrine-constellation-patterns.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/endocrine-constellation-transcript.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/endocrine-muse-integration.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/endocrine-muse-pattern-analysis.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/enlightenment-lite-method.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/enneagram-planetary-market.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/enneagram-runtime-map.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/event-pattern-leverage.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/five-field-pattern-log.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/from-insight-to-intervention.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/fungal-intelligence-distributed-processing.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/graha-friendship-cellular-automata.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/hidden-history-cultural-amnesia.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/historical-knowledge-patterns.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/hyperbolic-consciousness.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/hyperbolic-mantra.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/implosion-paradigm.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/introduction-to-tryambakam-noesis.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/judgement-recollection-in-pai.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/kha-ba-la-operational-compass.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/kubernetes-for-karma.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/leviathan-enneagram-analysis.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/lighted-clearing-loka-akshara-dhi.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/lorenz-kundli-implementation.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/lorenz-kundli-pattern-hub.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/lorenz-kundli-protocol.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/lorenz-kundli-system-index.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/magnetic-substrate.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/mantra-as-source-code.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/master-synthesis.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/mitochondrial-subconsciousness.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/model-temperature-and-tapas.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/morphic-resonance-network-protocol.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/muse-enneagram-framework-overview.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/muse-enneagram-matrix.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/nadi-bioimpedance-protocol.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/nakshatra-fibonacci-sequences.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/nine-muses-endocrine-system.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/noetic-aether-einsteinian-knot.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/noetic-aether-substrate.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/pain-information-architecture.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/pattern-cross-reference-system.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/pattern-recognition-is-a-method.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/pharmacos-protocol.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/ports-of-call.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/qualified-to-qualia-fied.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/reality-compile-ancient-source.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/repetition-is-architecture.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/reptilian-bios-architecture.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/root-access-to-reality.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/runtime-of-god.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/sacred-geometry-processing-units.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/sacred-runtime-ancient-debugging.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/sacred-runtime-bali-padiyami.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/semantic-trauma.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/seven-day-type-pressure-audit.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/seventeen-ways-pattern-repeats.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/shadbala-tensor-field-theory.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/signal-state-story-debug-edition.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/sixteen-engines-one-purpose.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/spell-work-reservoir.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/spolski-endocrine-framework.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/sri-yantra-geometry-that-doesnt-fit.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/stop-branding-your-enneagram.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/tarot-major-arcana-journal.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/temperance-compresses-to-essence.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/temperature-consciousness.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-body-is-the-first-country.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-devil-in-the-detail.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-downstream-mind.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-earthquake-that-said-goodbye.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-fool-before-the-leap.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-fools-satchel.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-hermit-72-hours.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-ineffable-secrets-of-a-breathing-sprite.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-moon-refracts-everything.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-sacred-runtime.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-seventh-floor.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-source-code-has-authors.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-star-names-you.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-sun-names-you.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-sword-of-speech.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-tower-speaks-in-richter-scale.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-universe-four-creatures-assemble.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/the-word-as-code.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/three-layer-consciousness-stack.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/three-modes-of-intelligence.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/timelessness-dilation.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/topological-pocket-consciousness.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/type-is-not-identity.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/unix-guide-to-consciousness.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/vedic-mathematical-architecture.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/vedic-mathematical-parallels.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/vessel-prepare-ukha-sambharana.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/vimshottari-dasha-markov-chains.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/vortex-based-mathematics.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/water-fourth-phase.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/who-tf-is-shesh.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/why-insight-isnt-change.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/yantra-and-tantra-in-the-age-of-llms.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/you-dont-need-more-frameworks.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/your-consciousness-needs-better-error-handling.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/your-reality-is-a-smart-contract.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/non-card/NonCardArticleShell.astro",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/assets/cards/tarot-00-fool.webp",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/assets/cards/tarot-09-hermit.webp",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/assets/cards/tarot-14-art.webp",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/assets/cards/tarot-16-tower.webp",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/assets/cards/tarot-17-star.webp",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/assets/cards/tarot-18-moon.webp",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/assets/cards/tarot-20-aeon.webp",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/assets/cards/tarot-21-universe.webp",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/.planning/HANDOFF.json.18747.tmp",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/lighted-clearing-substack-review-2026-10-07.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Users/sheshnarayaniyer/.codex/editorial/tryambakam/queue.json",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/twc-vault/03-Resources/Authors/Steven-A-Young/_index.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/twc-vault/.agents/skills/noesis-writer-skill/references/albedo-epistemic-grammar.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/twc-vault/.agents/skills/noesis-writer-skill/references/aletheos-prana-inference-covenant.md",
+      "pass": true
+    },
+    {
+      "check": "preserved /Volumes/madara/2026/twc-vault/01-Projects/tryambakam-noesis/ALETHEOS-PRANA-PRATISHTHAPANA-SOUL.md",
+      "pass": true
+    },
+    {
+      "check": "local source hash Y-BOOK-OCR",
+      "pass": true
+    },
+    {
+      "check": "local source hash V-DOSSIER",
+      "pass": true
+    },
+    {
+      "check": "local source hash V-LIVING",
+      "pass": true
+    },
+    {
+      "check": "local source hash V-OLD-REVIEW",
+      "pass": true
+    },
+    {
+      "check": "local source hash V-VOICE-POLICY",
+      "pass": true
+    },
+    {
+      "check": "source IDs unique",
+      "pass": true
+    },
+    {
+      "check": "EVOLUTION.json IDs unique",
+      "pass": true
+    },
+    {
+      "check": "source references E-SOURCE-PRIORITY",
+      "pass": true
+    },
+    {
+      "check": "source references E-NETI",
+      "pass": true
+    },
+    {
+      "check": "source references E-RECODING-REVIEW",
+      "pass": true
+    },
+    {
+      "check": "source references E-MATERIALISM",
+      "pass": true
+    },
+    {
+      "check": "unadopted E-RECODING-REVIEW",
+      "pass": true
+    },
+    {
+      "check": "unadopted E-MATERIALISM",
+      "pass": true
+    },
+    {
+      "check": "LEXICON.json IDs unique",
+      "pass": true
+    },
+    {
+      "check": "source references L-AETHER",
+      "pass": true
+    },
+    {
+      "check": "source references L-ELEMENTS",
+      "pass": true
+    },
+    {
+      "check": "source references L-CORRESPONDENCE",
+      "pass": true
+    },
+    {
+      "check": "source references L-SALT",
+      "pass": true
+    },
+    {
+      "check": "source references L-SULPHUR",
+      "pass": true
+    },
+    {
+      "check": "source references L-MERCURY",
+      "pass": true
+    },
+    {
+      "check": "source references L-NETI",
+      "pass": true
+    },
+    {
+      "check": "lexicon remains proposed L-AETHER",
+      "pass": true
+    },
+    {
+      "check": "lexicon remains proposed L-ELEMENTS",
+      "pass": true
+    },
+    {
+      "check": "lexicon remains proposed L-CORRESPONDENCE",
+      "pass": true
+    },
+    {
+      "check": "lexicon remains proposed L-SALT",
+      "pass": true
+    },
+    {
+      "check": "lexicon remains proposed L-SULPHUR",
+      "pass": true
+    },
+    {
+      "check": "lexicon remains proposed L-MERCURY",
+      "pass": true
+    },
+    {
+      "check": "lexicon remains proposed L-NETI",
+      "pass": true
+    },
+    {
+      "check": "VOCABULARY-POLICIES.json IDs unique",
+      "pass": true
+    },
+    {
+      "check": "source references P-CONTRAST",
+      "pass": true
+    },
+    {
+      "check": "source references P-TECHNICAL-RECODE",
+      "pass": true
+    },
+    {
+      "check": "source references P-MATERIALISM",
+      "pass": true
+    },
+    {
+      "check": "source references P-ENERGY",
+      "pass": true
+    },
+    {
+      "check": "source references P-QUANTUM",
+      "pass": true
+    },
+    {
+      "check": "source references P-PROMISE",
+      "pass": true
+    },
+    {
+      "check": "proposal exact hash",
+      "pass": true
+    },
+    {
+      "check": "proposal no invented decision or approval",
+      "pass": true
+    },
+    {
+      "check": "installed editorial scripts/calendar_runner.py",
+      "pass": true
+    },
+    {
+      "check": "installed editorial references/execution.md",
+      "pass": true
+    },
+    {
+      "check": "installed editorial references/noesis-writer-meaning.md",
+      "pass": true
+    },
+    {
+      "check": "installed editorial method paragraph",
+      "pass": true
+    }
+  ],
+  "calendar_runner_regression_tests": {
+    "passed": 17,
+    "command": "python3 -m unittest discover -s .agents/skills/tryambakam-editorial/scripts -p test_calendar_runner.py"
+  }
+}

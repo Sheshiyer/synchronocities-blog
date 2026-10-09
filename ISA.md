@@ -935,3 +935,28 @@ Decisions: bounded synchronous nine-article review; no delegation needed for thi
 Verification ISC-366–372: docs/editorial/substack-older-posts-review-2026-10-09/README.md and SOURCES.json record nine live older complete accessible bodies (January2023–January2025) plus one recent published comparison; eleven archive entries reconciled. Perpiece keep/change/source findings supplied. Chamakam sequence checked against primary transcription, odd1–33 then multiplesof4 through48; Sikshavalli sixquotedterms compared with articlefour.23coverage/preservation assertions pass,11inheritedWIP/queue hashes unchanged. Review-only; no skills/publiccopy/approval mutation. Advisorattempt unavailable429quota; no independent advisor or AI-authorship verdict claimed.
 
 Changelog — olderSubstackreview: conjectured: the older archive could supply a uniform voice baseline. Refuted by: fullbodies contain both distinctive technicalhumour and repeated negation/list/promotion scaffolding, plus specific primary-text mismatches. Learned: temporalage does not certify stylequality or claimvalidity. Criterion now: calibrate selected moves incontext, keep provenance, and separate voicevalue from factualwarrant.
+
+## Cosmology evolution and alchemical lexicon — October 9
+
+Problem: static style calibration cannot represent changing worldview, source influence, purposeful negation or historical vocabulary.
+Vision: writer retrieves a dated author-owned cosmology, interprets vocabulary in context and proposes traceable changes grounded in direct sources.
+Out of Scope: no automatic belief adoption, wholesale Young imitation, publication, remote Muse configuration or invented complete video reading.
+Constraints: user prioritises Steven A. Young as a primary source for lexicon/alchemical perspective; distinguish source position, author adoption and empirical warrant. Preserve earlier versions, covenant and existing approvals.
+Goal: design a source-linked evolution/merge method and integrate it into the canonical writer with current neti-neti direction, dated seeds and explicit reading limits.
+Features: primary reading; temporal worldview events; contextual vocabulary policies; source lexicon; reviewable merge workflow; skill integration.
+Test strategy: direct source locators and reading depths; author-direction provenance; prior-state preservation; mirror hash equality; regression checks appropriate to changed gates.
+
+- [x] ISC-373: Young primary-source reading records distinguish full articles from video introductions.
+- [x] ISC-374: Evolution design separates source positions, proposed interpretation and author adoption.
+- [x] ISC-375: Neti-neti is distinguished from empty contrast scaffolding in the writer.
+- [x] ISC-376: Contextual vocabulary policies capture reasons and historical scope without universal token bans.
+- [x] ISC-377: Dated seeds represent observed evolution without inventing retrospective belief dates.
+- [x] ISC-378: Canonical writer and mirror contain the verified evolution reference.
+- [x] ISC-379: Review/merge and future HITL integration are concrete with honest implementation boundaries.
+- [x] ISC-380: Anti: originals, published content, approvals and unrelated WIP remain preserved.
+
+Decision: build on existing living-cosmology loop and v2.18calibration rather than replace them. Current user directly prioritises Young and philosophicalneti-neti; specificadoption of allYoungphysicalclaims is not implied. Optional favourite-source question pending; proceed with relevant elemental/alchemical sources. No publication authority requested.
+
+Verification ISC-373–380: cosmology-evolution-2026-10-09 records four Young primary pages with written-body/video-introduction coverage distinguished, selected book OCR locators, four dated evolution events, seven proposed lexicon entries, six contextual vocabulary policies and one exact-hash undecided merge proposal. Writer v2.19.0 canonical/mirror/archive18filehashes match; contractv3/downstreamcurrentversion gate17regressions pass. VERIFICATION.json records file/source/record/preservation checks PASS. Sourcecopy, queue, historicaldossier and governancehashes unchanged. Local method and skill implemented; full Young videos, author-specific adoption, complete retrospective mapping and remoteHITL runtime remain future work.
+
+Changelog — cosmologyevolution: conjectured: a revised anti-list could carry philosophical change. Refuted by: the old dossier substitutes technical field language for source meanings and document dates cannot establish belief dates. Learned: term senses, reasons, historical scope and exact author decisions need separate records. Criterion now: preserve source meaning, dated change and unresolved remainder; merge a chosen author position explicitly without silently revising history or transferring publication approval.

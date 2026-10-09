@@ -8,8 +8,8 @@ queue = importlib.util.module_from_spec(spec); spec.loader.exec_module(queue)
 UTC = dt.timezone.utc
 PARIS = ZoneInfo('Europe/Paris')
 REF = Path(__file__).resolve().parents[1] / 'references'
-WRITER_CONTRACT_ID = 'noesis-writer-human-direction-2026-10-09-v2'
-WRITER_SKILL_VERSION = '2.18.0'
+WRITER_CONTRACT_ID = 'noesis-writer-human-direction-2026-10-09-v3'
+WRITER_SKILL_VERSION = '2.19.0'
 WRITER_CONTRACT_PATH = Path('/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/WRITER-CONTRACT.md')
 
 def writer_contract_hash():
