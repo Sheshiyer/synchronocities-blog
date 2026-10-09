@@ -1,0 +1,97 @@
+{
+  "schema": "noesis.integrated-writer.validation.v1",
+  "skill_version": "2.20.0",
+  "contract_id": "noesis-writer-human-direction-2026-10-09-v4",
+  "contract_sha256": "1a2c43ee30c7bf5f47b27d7f136895de3d5d8b8c6e0f64c45a05089f911e783d",
+  "package_sha256": "cf65f39765acfdb55c53766adf1a22cba9ddc8a7e470cf1139fc999ad0c2ef04",
+  "records": [
+    {
+      "id": "philosophical-essay",
+      "path": "docs/editorial/integrated-writer-2026-10-09/candidates/philosophical-essay.md",
+      "candidate_sha256": "4b306376f86ef1c1da57e60ce3ca4e5fb42047c6d54e872389f39153b57f9008",
+      "word_count": 584,
+      "character_count": 3634,
+      "route": "A",
+      "artifact_state": "DRAFT",
+      "human_approved": false,
+      "reviewer": "writer_skill_update",
+      "full_candidate_read": true,
+      "full_selected_sources_read": true,
+      "semantic_assessment": "Mercury senses become a proposed mediation question while preserving source differences, Kha–Ba–La non-equivalence and an open neti-neti remainder.",
+      "voice_assessment": "Guest/drawer, shower audience and badge/rental imagery carry the inquiry; paragraph development differs from repeated contrast/triad templates.",
+      "verdict": "editorially-coherent-candidate; human-review-pending",
+      "local_repairs": [
+        "Philosophy: removed universal anyone/shower phrasing; source citation uses chapter titles; first-person Kha–Ba–La referent corrected"
+      ],
+      "unresolved_findings": [
+        "Full Lighted Clearing adaptation not claimed; that source was not freshly read in this validation phase",
+        "First-person intellectual proposal remains draft, not canon adoption",
+        "OCR paraphrase faithful; facsimile and diagrams unverified"
+      ]
+    },
+    {
+      "id": "short-social",
+      "path": "docs/editorial/integrated-writer-2026-10-09/candidates/short-social.md",
+      "candidate_sha256": "8afe0afdaadbc02c1a01cb2dd3affa1ef4c64fbce7394585609bc5958e018d31",
+      "word_count": 36,
+      "character_count": 195,
+      "route": "A",
+      "artifact_state": "DRAFT",
+      "human_approved": false,
+      "reviewer": "writer_skill_update",
+      "full_candidate_read": true,
+      "full_selected_sources_read": true,
+      "semantic_assessment": "One philosophical distinction carries forward the essay's open remainder without installing a replacement identity.",
+      "voice_assessment": "Single connected observation and name-badge image; no signature credo or miniature essay scaffolding.",
+      "verdict": "editorially-coherent-candidate; human-review-pending",
+      "local_repairs": [],
+      "unresolved_findings": [
+        "No account/editor delivery verification",
+        "No lived result, treatment or autobiography asserted"
+      ]
+    },
+    {
+      "id": "thoughtseed-report",
+      "path": "docs/editorial/integrated-writer-2026-10-09/candidates/thoughtseed-report.md",
+      "candidate_sha256": "18dd56c609942485432f8791eb0cee39855c928f6b3e60dd85095f40031ba571",
+      "word_count": 333,
+      "character_count": 2154,
+      "route": "D",
+      "artifact_state": "DRAFT",
+      "human_approved": false,
+      "reviewer": "writer_skill_update",
+      "full_candidate_read": true,
+      "full_selected_sources_read": true,
+      "semantic_assessment": "Cambium showreel product-source report distinguishes source definitions, documented pipeline and proposed acceptance work.",
+      "voice_assessment": "Plain operational register, consequential timing and clear next review; no alchemical vocabulary or forced joke.",
+      "verdict": "editorially-coherent-candidate; human-review-pending",
+      "local_repairs": [
+        "Thoughtseed: replaced initial writer-process report with actual Cambium product report at parent request"
+      ],
+      "unresolved_findings": [
+        "Source-only review: no render, playback, loudness, strobe, determinism or live-service tests",
+        "Current deployed delivery and user comprehension remain unverified"
+      ]
+    }
+  ],
+  "whole_output_review": {
+    "complete": true,
+    "method": "Read whole candidates; compare source assertions, proposal boundaries, referents, causal/temporal scope and later conclusions; reread repaired paragraphs with adjacent context.",
+    "cross_candidate_assessment": "Three different openings/forms/endings. Shared philosophical concept in essay/social is intentional adaptation; operational report develops source implementation and acceptance questions. No material common rhetorical scaffold found.",
+    "authority": "Agent editorial evidence only; no self-promotion to HUMAN-APPROVED."
+  },
+  "automated_triage": {
+    "command": "python3 scripts/audit-editorial-voice.py --output /tmp/integrated-writer-v220-corpus-triage.json",
+    "exit_code": 0,
+    "configured_corpus_records": 141,
+    "flagged_records": 114,
+    "findings": 551,
+    "scope": "Configured existing corpus, not these three files; triage prompts only, no candidate voice certification."
+  },
+  "archive_parity": {
+    "archive": "docs/editorial/integrated-writer-2026-10-09/writer-package-v2.20.0",
+    "file_count": 20,
+    "exact_file_hash_mapping_equal": true,
+    "package_sha256": "cf65f39765acfdb55c53766adf1a22cba9ddc8a7e470cf1139fc999ad0c2ef04"
+  }
+}

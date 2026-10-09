@@ -5,6 +5,9 @@ import calendar_runner as c
 
 class RunnerTests(unittest.TestCase):
     def setUp(self):
+        # These legacy tests isolate transport/ledger behavior; real context gates are exercised end-to-end in test_context_pipeline.py.
+        context_patch = patch.object(c.pipeline, 'validate_packet', return_value=True)
+        context_patch.start(); self.addCleanup(context_patch.stop)
         self.tmp = tempfile.TemporaryDirectory(); self.root = Path(self.tmp.name)
         self.source = self.root / 'source.md'; self.source.write_text('source')
         self.contract = self.root / 'WRITER-CONTRACT.md'; self.contract.write_text('Fixture current writer contract')

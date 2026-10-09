@@ -995,23 +995,31 @@ Goal: implement accepted writer/retrieval/dynamic-review/daily schedule plan, va
 Features: writer integration; local retrieval/projection; Cloudflare asset review; dynamic Site draft storage; workflow gates; scheduled preparation; real pilot.
 Test strategy: whole-source coverage; semantic examples; canonical/mirror digests; source/asset mutation and path tests; Site API revision/auth/persistence tests; browser review; exact runtime schedule readback; preservation hashes.
 
-- [ ] ISC-387: Young book reading coverage and Substack source limits recorded.
-- [ ] ISC-388: Writer integrated reference explains assumptions, vocabulary and alchemical relationships.
-- [ ] ISC-389: Chronological drafting requirements removed from active writer workflow.
-- [ ] ISC-390: Annotated semantic examples and three complete validation cases supplied.
-- [ ] ISC-391: Canonical writer/mirror/versioned package hashes match.
-- [ ] ISC-392: Repository/vault/project projection preserves identities and coverage.
-- [ ] ISC-393: Cloudflare assets mapped with purpose, access, evidence and verified subset.
-- [ ] ISC-394: Direct retrieval produces bounded source-linked context bundles.
-- [ ] ISC-395: Current writer, context, media and exact-copy binding enforced on new drafts.
-- [ ] ISC-396: Dynamic drafts persist and appear without Site rebuild.
-- [ ] ISC-397: Existing static records and published receipts retain behavior.
-- [ ] ISC-398: Revision/conflict/idempotence/approval boundaries tested.
-- [ ] ISC-399: Current UI displays dynamic candidate context, media and writer findings.
-- [ ] ISC-400: Existing daily preparation changed to10:30Paris with one lead story.
-- [ ] ISC-401: Missing/stale Muse access and handoff status are explicit.
-- [ ] ISC-402: Pilot source/asset bundle and reviewed copy validated end-to-end.
-- [ ] ISC-403: Field Report private deployment and actual pilot readback verified.
-- [ ] ISC-404: Anti: public copy, existing queue approvals and unrelated WIP preserved.
+- [x] ISC-387: Young book reading coverage and Substack source limits recorded.
+- [x] ISC-388: Writer integrated reference explains assumptions, vocabulary and alchemical relationships.
+- [x] ISC-389: Chronological drafting requirements removed from active writer workflow.
+- [x] ISC-390: Annotated semantic examples and three complete validation cases supplied.
+- [x] ISC-391: Canonical writer/mirror/versioned package hashes match.
+- [x] ISC-392: Repository/vault/project projection preserves identities and coverage.
+- [x] ISC-393: Cloudflare assets mapped with purpose, access, evidence and verified subset.
+- [x] ISC-394: Direct retrieval produces bounded source-linked context bundles.
+- [x] ISC-395: Current writer, context, media and exact-copy binding enforced on new drafts.
+- [x] ISC-396: Dynamic drafts persist and appear without Site rebuild.
+- [x] ISC-397: Existing static records and published receipts retain behavior.
+- [x] ISC-398: Revision/conflict/idempotence/approval boundaries tested.
+- [x] ISC-399: Current UI displays dynamic candidate context, media and writer findings.
+- [x] ISC-400: Existing daily preparation changed to10:30Paris with one lead story.
+- [x] ISC-401: Missing/stale Muse access and handoff status are explicit.
+- [x] ISC-402: Pilot source/asset bundle and reviewed copy validated end-to-end.
+- [x] ISC-403: Field Report private deployment and actual pilot readback verified.
+- [x] ISC-404: Anti: public copy, existing queue approvals and unrelated WIP preserved.
 
 Decisions: user explicitly requests implementation of accepted plan; portfolio foundation and semantic fidelity replace timeline focus.18criteria cover independent deliverable probes rather than ceremonial256splits; depth supplied through fullbook reading, three bounded ownership lanes and real runtime verification. Route requests returned admitted=false/adapter=none exit125; no provider execution claimed. ContextSearch/FirstPrinciples/SystemsThinking/Science/ISA/ReReadCheck govern source-continuity, semantic ownership, transport constraints, failure probes and final acceptance.
+
+Verification checkpoint ISC-387–390/393/400: complete265OCR-page reading and four written-primary-page coverage recorded; integrated reference/annotatedexamples and three complete candidates inspected; source distinctions and purposeful negation retained. Current20-file writer package and contract digests independently match trustedSitepolicy. DefaultOAuth account-pinned list confirms20R2buckets;9purpose/access mappings and11local/liveSiteobjectintegrity checks recorded. Existingdailyautomation updated/readback10:30Paris.199source/queue/inheritedWIP preservation hashes unchanged. Site31tests/build pass; finalMusemetadata alignment and livepilot verification remain open.
+
+Verification checkpoint ISC-392/394/395/397/398/401: source projection retains343editorial/projectidentities, linked331repositorycensus withvisibilityandprovenance;32pipeline regressionspass andactualvault/publicprojectpassages verifyagainstpinnedbyte-rangeauthorizations. Canonical/installed21fileeditorialpackageparity passes.33Site regressions andactualfinalpilot-envelopeofflinePUT/readback/retry/held-approval-block pass; staticpublishedreceipt regressions retained. Muse profiles andunknownfreshreports are separate; localreview identifiesagent, nothuman. Productiondeploy correction pendingreadback; liveUI andpilot criteria remainopen.
+
+Verification ISC-396/399/402–404: privateSite source2405c0f47121b864d19ca30f528a9c565435ca6b deploymentappgdep_6ac8d7b78f588191b84c957a7d4ea7ff succeeded; actualpilot revision1 persisted/readback and nine live API checks pass, all678existing operation records unchanged. Browser displays exactcopy, originalpassages, writer/Musecontext,1080x1350media and unansweredhumanquestion through read-only authenticated liveSitepreview; servicecannotapprove. All199preservation hashes match. Pilot heldforoverlap/mediafit/missingfreshreports; no publicsubmission.32pipeline/33Site tests and builds pass; independentthreecase and fullpilot semanticreviews recorded.
+
+Changelog — integratedpublishing: conjectured: fixture-level schema tests would suffice for producer integration. Refuted by: firstactualpilot included legitimate projection fields absent from fixtures. Learned: test the actual producer envelope plus live persistence and complete rendered context. Criterion now: exact current writer/context/assets/copy binding, meaningful semantic review, live private presentation and explicit human publication boundaries.

@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-09T11:47:12.430208+00:00",
+  "tests": {
+    "command": "python3 -B -m unittest discover -s .agents/skills/tryambakam-editorial/scripts -p 'test_*.py'",
+    "count": 32,
+    "result": "pass"
+  },
+  "installed_parity": {
+    "files": 21,
+    "mapping": {
+      "SKILL.md": "7138b2211945cfb555a1014e07b3b423672c42f73b7baf0e25ce1a0740cbc868",
+      "agents/openai.yaml": "c5fb61262abb980e6a91776153e56d70043c5b0050ea08dc9c79134d34a4fc24",
+      "references/baseline-calendar.md": "b9306beb9c7dcc084b5fc8e3800a03c8aea18b4c519b83aa32f857486f57ba3a",
+      "references/baseline-catalogue.json": "c7b4844eed8c1ca81d10d27a847c277623e679b81d6fb97f3d91aa6e7580ff4f",
+      "references/concept-development.md": "f71c784adf6e5664e76c6e2c98f18ed14f0b31f4f5672ac369fbffb28003168c",
+      "references/creator-editing-steward.md": "093bb860fa68952bc86207059547685262f6cc946e7798095b31ca4a2df092aa",
+      "references/discovery-plan.md": "5c5e69830362e98fbaa47f006c048864afc92a84136e6dcadf144eba3b4a6387",
+      "references/execution.md": "01e0168cdeff6568641f978d5a7aced8278996f27f5b6b6ab4b03e8969396e92",
+      "references/living-cosmology-context.md": "6d5f1af19bb4d53cd90b943af845bb37cd6bbc1201aa2716edae30d428b1ec4d",
+      "references/noesis-writer-meaning.md": "3fde7f30f777709831509a3a0f5d26701fe44eb04d2760d10b2d9d096bc4e6e3",
+      "references/social-tooling.md": "711b647d5f3072dd279283a6871e6c2a7b9dc4f950c0968368f4e9c6ca105069",
+      "references/source-context-pipeline.md": "89e431ed51afc1f51efc8a536bdca6cd396113d65c1b488334527c3a48eb3252",
+      "references/watchlist.json": "6f22ac7f4faa876f411b08cf009538711120481445920579a7ee8d2da339918e",
+      "references/workflow.md": "bd2a708e70ffbdad6be6aef0ca9ac80c8850d98f639643ad2236ebac2946266d",
+      "references/writer-foundation.md": "4b0c6ac289a32ef66f7fdefceaf62fd92bd43c876b9a074c4925b6d44e502e39",
+      "scripts/calendar_runner.py": "ad6bb09fb197b62e8e3479954e123e54399e0f7bff61940227d3b6a385929ebd",
+      "scripts/context_pipeline.py": "80462756bdcae997fbb0d318e88aa117dec9caa2a43e6c748e832735c1faf2de",
+      "scripts/queue.py": "ac8d5d8cc2c726fe8c85e16a453a7a130ef1872059c37963b4ebd48363ced4f9",
+      "scripts/test_calendar_runner.py": "c5a74d17aa725d6c9c94b011b100ef0e6e75a81bb6130a7753eebf5a4107824f",
+      "scripts/test_context_pipeline.py": "7153d7e59420d90a41ab4354025f6773523ca60e35279c21cb513e2154b888c3",
+      "scripts/test_queue.py": "c98c8b154780bafaea8a35d6fee84e1392be7c63b8223b38152124411c43ae02"
+    },
+    "result": "all source package files match installed mirror"
+  },
+  "real_preparation": {
+    "lead_source": "blog:lighted-clearing-loka-akshara-dhi",
+    "one_lead": true,
+    "replay": "byte-identical",
+    "thoughtseed_without_evidence": "held-source-selection; byte-identical replay"
+  },
+  "projection_counts": {
+    "identities": 343,
+    "eligible": 127,
+    "repository_census": {
+      "repositories": 331,
+      "public": 222,
+      "private": 109,
+      "forks": 15,
+      "workObject_links": 44
+    }
+  },
+  "held_pilot": {
+    "digests": "all current and verified",
+    "original_passages": "re-read/authorization/range/hash verified",
+    "enqueue_gate": "correctly rejects unresolved assignment context",
+    "human_approval": false
+  },
+  "external_actions": []
+}

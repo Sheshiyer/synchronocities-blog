@@ -1,0 +1,20 @@
+{
+  "id": "tryambakam-conversations-and-approved-publisher",
+  "kind": "cron",
+  "name": "Thoughtseed and Tryambakam daily editorial review",
+  "status": "ACTIVE",
+  "rrule": "FREQ=DAILY;BYHOUR=10;BYMINUTE=30;BYSECOND=0",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "execution_environment": "local",
+  "target": {
+    "type": "project",
+    "project_id": "ea516e8e-bd5a-4948-8df4-d11933de03b4"
+  },
+  "cwds": [
+    "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog"
+  ],
+  "timezone": "Europe/Paris (host/app local timezone)",
+  "prompt_sha256": "87be3b5d4fa5b5e40a42b0abed80e0beecddf36a1a8e4451cf6c97c76a19b7b0",
+  "schedule_run_claimed": false
+}
