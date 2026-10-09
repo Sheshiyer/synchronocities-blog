@@ -1,5 +1,7 @@
 # Repeatable workflow
 
+Start with the [shared writer foundation](writer-foundation.md), then follow this operation. Load current writer/contract and carry relevant meaning and worldview context through adaptation and review.
+
 ## Weekly preparation — Monday 09:00 Europe/Paris
 
 Use the Noesis Writer meaning method for original essays. For adaptations, preserve the source essay's semantic delta, cross-system relation and unresolved question; do not dilute them into generic explanations or invent novelty merely to fill a channel slot. Keep the private meaning-delta record with the source/claim sheet. Read [meaning operators](noesis-writer-meaning.md) before creating a new conceptual piece.

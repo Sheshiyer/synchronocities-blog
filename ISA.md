@@ -960,3 +960,26 @@ Decision: build on existing living-cosmology loop and v2.18calibration rather th
 Verification ISC-373–380: cosmology-evolution-2026-10-09 records four Young primary pages with written-body/video-introduction coverage distinguished, selected book OCR locators, four dated evolution events, seven proposed lexicon entries, six contextual vocabulary policies and one exact-hash undecided merge proposal. Writer v2.19.0 canonical/mirror/archive18filehashes match; contractv3/downstreamcurrentversion gate17regressions pass. VERIFICATION.json records file/source/record/preservation checks PASS. Sourcecopy, queue, historicaldossier and governancehashes unchanged. Local method and skill implemented; full Young videos, author-specific adoption, complete retrospective mapping and remoteHITL runtime remain future work.
 
 Changelog — cosmologyevolution: conjectured: a revised anti-list could carry philosophical change. Refuted by: the old dossier substitutes technical field language for source meanings and document dates cannot establish belief dates. Learned: term senses, reasons, historical scope and exact author decisions need separate records. Criterion now: preserve source meaning, dated change and unresolved remainder; merge a chosen author position explicitly without silently revising history or transferring publication approval.
+
+## Writer foundation for publishing — October 9
+
+Problem: individual publishing workflow references do not consistently carry the latest worldview context through adaptation and review.
+Vision: one canonical writer foundation supplies author meaning and voice before each existing publishing process.
+Out of Scope: no new doctrine, belief adoption, publication, scheduling changes or remote Bot/UI deployment.
+Constraints: retain current canonical writer v2.19.0, exact-item approval, queue state, cadence and inherited WIP.
+Goal: bind preparation, adaptation, discovery and learning to one shared writer foundation and document current runtime boundaries.
+Features: common foundation reference; explicit operation entry points; channel context continuity; installed reference parity.
+Test strategy: inspect five workflow entry links, compare installed changed files, run existing enqueue/publish regressions and check preservation hashes.
+
+- [x] ISC-381: Shared foundation defines source/worldview/voice input before publishing operations.
+- [x] ISC-382: Editorial entry point and operation references load the shared foundation.
+- [x] ISC-383: Channel adaptations preserve relevant meaning and unresolved questions.
+- [x] ISC-384: Installed changed references match repository copies.
+- [x] ISC-385: Existing automated preparation reads current writer/contract without schedule mutation.
+- [x] ISC-386: Anti: queue, canonical governance, public sources and inherited WIP remain unchanged.
+
+Decision: current clarification makes writer the upstream foundation, not an additional publishing system. ContextSearch checks continuity; FirstPrinciples identifies semantic ownership before format; ISA bounds instruction integration; ReReadCheck tests against the requested layering. Bounded document integration needs no delegated fleet or remote update.
+
+Verification ISC-381–386: shared writer-foundation reference linked by main editorial skill and workflow/execution/concept entry points. Four installed references match exactly; installed main skill has equivalent entry. Existing daily preparation explicitly loads current canonical writer and contract; configuration unchanged and no run invoked. All 231 parity/preservation/entry checks PASS and17calendar regressions PASS. Canonical2.19.0 package/mirror unchanged; sourcecopy/queue/inherited WIP hashes retained. Remote profiles and UI integration not claimed.
+
+Changelog — writerfoundation: conjectured: a versioned writer alone ensures downstream continuity. Refuted by: operation references lacked an explicit handoff of relevant meaning and open questions into adaptations. Learned: one common entry reference makes the layer usable across operations without a parallel publishing system. Criterion now: load current foundation, carry selected meaning, review each exact adaptation, and retain existing publication authority.

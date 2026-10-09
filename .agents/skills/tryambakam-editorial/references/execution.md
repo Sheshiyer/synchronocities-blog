@@ -1,5 +1,7 @@
 # Scoped calendar execution
 
+Start with the [shared writer foundation](writer-foundation.md), then follow this operation. Load current writer/contract and carry relevant meaning and worldview context through adaptation and review.
+
 ## Low-maintenance workflow
 
 Preparation continues when a channel is unavailable: read, adapt and queue drafts independently of transport readiness. Use working CLIs for bounded research and verified supported publication; use Codex IAB when a CLI fails before claim. Substack normally uses IAB. Instagram/Reddit browser login alone does not establish a tested publishing workflow.

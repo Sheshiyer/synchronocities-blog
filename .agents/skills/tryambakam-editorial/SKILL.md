@@ -9,6 +9,10 @@ Follow the low-maintenance workflow in references/execution.md: prepare content 
 
 Use this for weekly preparation, conversation discovery, approved publication, or monthly learning. Read [workflow](references/workflow.md) for the selected operation and [discovery plan](references/discovery-plan.md) for topic-to-project routing.
 
+## Shared foundation for every publishing process
+
+Read [writer foundation](references/writer-foundation.md) before the selected operation. The current Noesis writer supplies meaning, worldview context, vocabulary and voice to the existing pipeline. Carry relevant context into each adaptation and exact-copy review; preserve original approval and delivery semantics.
+
 ## Noesis Writer purpose
 
 Before any prose preparation or revision, read the canonical `/Volumes/madara/2026/twc-vault/.agents/skills/noesis-writer-skill/SKILL.md` and `/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/WRITER-CONTRACT.md`. Current canonical writer version is v2.19.0; contract ID is `noesis-writer-human-direction-2026-10-09-v3`. Read the [full voice close reading](/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/voice-reading-2026-10-09/READING.md) for source calibration. Current author direction overrides historical fingerprint/platform examples: review formulaic rhetoric in context while preserving embodied observation, irreverent humour, imagery, technical play and original symbolic inquiry. Genre determines treatment; no blanket device bans or compulsory jokes, scenes, triads or endings. Do not flatten the voice into sterile explanatory prose. Apply this across both brands and every channel, including Muse reports. Record source coverage, current contract SHA256 (`contract_sha256`) and exact-copy writer review in each new packet; a pattern scan is triage, not voice certification. Changed prose requires fresh review and exact publication authorization.
