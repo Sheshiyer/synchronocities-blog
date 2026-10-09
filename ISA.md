@@ -478,6 +478,36 @@ ISC-184–215 are the initial execution-wave criteria; ISC-216–223 require sub
 - [x] ISC-285: Browser journeys and meaningful storage/migration tests independently verify the integrated version.
 - [x] ISC-286: Anti: agents cannot approve, publish, upload, schedule externally or infer delivered state from game progress.
 
+### Lighted Clearing Substack integration — October 7
+
+- [x] ISC-287: Harsh Truths’s selected quotation is verified against the named post’s rendered body.
+- [x] ISC-288: Steven A. Young’s selected quotation is verified against the named post’s written introduction.
+- [x] ISC-289: Both quotations link directly to their posts and Sources lists dates and interpretive scope.
+- [x] ISC-290: The new synthesis distinguishes subject, proposed medium, appearance and discernment.
+- [x] ISC-291: The revised post passes metadata validation and a production build.
+- [x] ISC-292: Anti: no deployment, publication, reindex or unrelated dirty-file change occurs.
+
+### Lighted Clearing subscription and publication — October 7
+
+- [x] ISC-293: Both official Substack subscribe embeds render in IAB with direct subscribe fallbacks.
+- [x] ISC-294: Article sharing links target the canonical URL; copy-link confirms in IAB.
+- [x] ISC-295: Narrow-screen subscription layout is readable without horizontal overflow.
+- [x] ISC-296: Metadata/build and all 20 existing tests pass for the scoped release.
+- [x] ISC-297: The scoped frontend deployment succeeds and live readback contains quotations and engagement controls.
+- [x] ISC-298: Source is committed on an isolated release branch; the primary checkout’s unrelated dirty state is preserved.
+
+### Daily editorial review — October 8
+
+- [x] ISC-305: Three exact proposed items contain account, destination/community, audience, title/body, time, email and ordered media fields. Probe: items.json field validation.
+- [x] ISC-306: Current GitHub delta records reconciled pagination and visibility counts. Probe: github-delta-private.json.
+- [x] ISC-307: Vercel delta distinguishes current list from inherited detail coverage. Probe: vercel-delta-private.json.
+- [x] ISC-308: Substack web delivery has native/public readback and no resubmission. Probe: substack-readonly-reconciliation.json.
+- [x] ISC-309: LinkedIn coordination names an existing story key and a distinct reader question. Probe: TS-X item's linkedin_coordination field.
+- [x] ISC-310: Gananatha and Consecration holds remain explicit. Probe: dated README.
+- [x] ISC-311: Anti: Existing queue and unrelated dirty files retain original bytes; ISA/handoff receive only additive run context. Probe: preservation verification.
+- [x] ISC-312: Exact body/source/media hashes and review fingerprints reproduce. Probe: final VERIFICATION.json.
+- [x] ISC-313: Anti: No external publishing, scheduling, upload, comment, deployment or access mutation occurs. Probe: run operation receipt.
+
 ## Test Strategy
 
 October 7 cross-brand probes: reconcile all paginated GitHub board counts; verify all Vercel detail/domain records; hash and fully decode supplied media; read authenticated social identities; validate exact review copy/media; re-read automation and queue holds.
@@ -881,6 +911,120 @@ Blocked audit October 2: governed worker capacity failed across original E5 and 
 
 - 2026-10-07 Field Report extracted into its own private GitHub repository https://github.com/Sheshiyer/field-report, checkout /Volumes/madara/2026/Projects/thoughtseed/fieldwork, authoritative ISA at that root. Separate overview/island/product pages,30 local tests, native illustrated assets, README Generator,25reviewquestions and activity proposal CLI implemented. Currentruntime4391, originalv2 runtime4390 preserved. Exact public posts still need individual approval; routine-comment profile policy is future/unconfigured. No old programme criterion is closed by this extraction.
 
+- 2026-10-07 Lighted Clearing: ISC-287–290,292 verified from named Substack sources and scoped diff. Source/claim review: docs/editorial/lighted-clearing-substack-review-2026-10-07.md. New quotations are contemporary philosophical dialogue; earlier Albedo audit remains tied to its original hash. ISC-291: metadata/build exit 0, 154 generated pages; compiled article retains both exact quotes, direct URLs and figure anchors.
+
+- 2026-10-07 ISC-293–298 verified: scoped source commits a834ed2 and1e86734;20 tests, metadata/build pass; narrow viewport355/document349; canonical IAB renders two Substack forms and copy confirmation. Frontend version ad2ead31-18d3-439f-9d4c-774fd9909818 published with direct authority. Backend/index untouched; primary unrelated dirty handoff retained. Raw HTTP probe403; browser readback is the live evidence.
+
+## Article presentation and discovery — October 7
+
+- [x] ISC-299: Subscription cards use site tokens and direct official Substack subscription destinations.
+- [x] ISC-300: Mobile article reading has symmetric20px inner gutters without horizontal overflow.
+- [x] ISC-301: Menu has no fading mask; mobile toggle/Escape/focus behavior verified.
+- [x] ISC-302: Homepage depth scroll opens with newest eligible published article.
+- [x] ISC-303: Article-only Why Chromosome invitation and verified public Noesis project links appear at a section boundary.
+- [x] ISC-304: Production build, frontend deployment and live desktop/mobile readback verify final refinements.
+
+Decision: The user selected within articles only for discovery cards. Homepage ordering still changes to newest first. Discovery uses a compact mid-article invitation with an expandable project directory; only verified public destinations are listed. Fieldwork ISA is an unrelated injected pointer and stays untouched.
+
+- 2026-10-07 ISC-299–304 verified:20tests/154pages pass; all121depth entries descending bydate; first Lighted Clearing. Discovery verified once per card/non-card body, mid-H2 boundary with13original essayTOC sections. Live mobile390/document384 gutters20/20px; desktop1280nav13.6px/masknone; consoleerrors[]; frontendversionf4292791-f841-4fbc-b176-bf150c5e3152. Exact source49708c7/1a61a7f, PR247open. No backend deployment.
+
+- 2026-10-08 daily editorial preparation: ISC-305–313 verified against docs/editorial/cross-brand-2026-10-08/items.json and private runs/2026-10-08-daily/VERIFICATION.json. Three exact drafts awaiting human review; Reddit/Note alternatives. Native Substack10published/1scheduled/3drafts; October8 essay public, introduction UNPUBLISHED, October6 Note unresolved. Queue unchanged; no submissions. GitHub331/public222/private109, Vercel63/one metadata delta. Additive ledger only; no historical open gate closed. Independent fallback review passes; configured Cato unavailable, Advisor failed before judgment.
+
+## Archive distribution and supplementary series — October 8
+
+- [x] ISC-314: Every current blog Markdown entry has a unique source-hashed distribution catalogue row.
+- [x] ISC-315: Existing native Substack publications and ledger overlap are reconciled without claiming unknown X/Reddit history as absent.
+- [x] ISC-316: Existing nine-strand calendar is extended with distinct complementary angles and bidirectional reader paths.
+- [x] ISC-317: A first full Substack companion, X article/sequence and Reddit discussion draft are source-linked and reviewed.
+- [x] ISC-318: Draft artefacts and link/source hashes pass verification, preserving the existing publication queue and scheduled work.
+
+Decision: Prepare supplementary series across the full archive. Preserve the existing Thursday newsletter calendar and individually approved publication policy. No external submission or automated publishing is authorized by this preparation request.
+
+- 2026-10-08 ISC-314–318 verified in docs/editorial/archive-distribution-2026-10-08/VERIFICATION.json:127 unique current source hashes,24 valid companion concepts plus conditional narrative lane, native Substack10/1/3 read-only overlap, complete first packet1121/671/336words and six X posts143–227weighted characters. Queue fingerprint unchanged; daily exact drafts matchHEAD. Catalogue is full inventory, only three sources close-read for first packet; X/Reddit absence unknown. No submissions, schedule changes, site edits or measured traffic results. Revision window proposed, not author-adopted canon. Routed launch declined exit125 by pressure guard before execution; bounded packet completed directly.
+
+## Archive packet in existing Field Report UI — October 8
+
+- [x] ISC-319: Six exact draft payloads,24 concepts,127 source entries and series plan are in the existing owner-private Site.
+- [x] ISC-320: Existing records and shared human state preserved; review displays format/email/destination and exact payload fingerprint.
+- [x] ISC-321: Private deployment and signed-in review verified; live adapter hold distinguished from public delivery.
+
+Verification: FIELD-REPORT-LIVE.json; source15fd197e, deploymentappgdep_6ac79224bab08191a0812fd98b87fc44,13tests pass, live668records/planrevision2/queue0. No approval or public action executed. Existing daily schedule retained.
+
+## Nine Muses and Field Theory delivery — October 8
+
+- [x] ISC-322: Nine distinct source-grounded role contracts map real blog series and Field Theory categories.
+- [x] ISC-323: Nine named Grok Bots exist with their exact role briefs delivered and read back.
+- [x] ISC-324: Existing Field Report UI exposes Muse ownership while preserving approved publication payloads.
+- [x] ISC-325: Actual delivery capabilities and missing executor requirements are documented from current evidence.
+- [x] ISC-326: Anti: Existing Bots, human approval state, public posts and unrelated checkout changes remain preserved.
+
+Verification ISC-322: registry.json read back contains nine unique profiles; categories from ft metadata and author Muse framework. Calliope Bot name and complete role brief visible in native Grok Bot accessibility state. Remaining Bots not yet created.
+
+ISC-323: Native Grok Bot UI readback verifies nine unique names and each delivered role brief; existing main Bot and Thalia group preserved. registry.json records confirmed creation separately from unverified Bot-owned memory and delivery.
+
+ISC-324–326: Same owner-private Site source0e10aca7, deploymentappgdep_6ac79cd9e81c8191a5ab7371d2e9e1ec succeeded. Live678records include nine Muse roles plus index,127 source owners,24 concept owners and6 draft owners.14tests/build pass; native IAB index and review render. Exact approved Substack fingerprint1861037e andtimestamp13:02:45Z preserved; planrevision2 and queue0 unchanged. DELIVERY-CONTRACT.md records 401 private Site, unverified browser publication, X reading-only, no Substack connector and Reddit identity mismatch as Bot reports. No public submission or new access grant performed. Automatic delivery remains unimplemented.
+
+Decision October8: Creating nine editorial Bots is not installing a publishing executor. Source/category routing can ship while queue access, actor claim, supported channel action and delivery receipt remain explicit implementation gaps. Undefined fingerprints must never compare as approval; new regression verifies non-draft/missing/stale cases.
+
+## Muse ecosystem reporting and Grok routines — October 8
+
+- [x] ISC-327: Nine reporting remits connect Field Theory aspects to actual project and source locators.
+- [x] ISC-328: Exact bounded schedule setup briefs delivered to all nine existing Muse Bots.
+- [x] ISC-329: Nine native recurring report jobs have confirmed persisted schedules and enabled state.
+- [x] ISC-330: Calliope daily digest and weekly review have confirmed native schedules.
+- [x] ISC-331: Initial reports or current run status and access gaps are read back without invented coverage.
+- [x] ISC-332: Anti: No publication, permission expansion, unrelated routine change or source-access bypass.
+
+Verification ISC-327–328: REPORTING.json contains nine unique project/category remits and native UI readback confirms nine delivered setup briefs. ft status465bookmarks, Sept29timestamp, disconnected; used as dated baseline only. Each job has120word/two-source/five-minute report bounds and excludes paid X search, public action and refused-folder bypass. Calliope reports native chat pull supported across eight Muses and no existing matching routine. Schedule persistence remains pending.
+
+ISC-329–332: Native routine detail panels show nine daily report schedules with Pause controls. Calliope Details shows three routines with switches on:09:53own report,10:15daily digest,Monday10:30review. Saved digest instruction uses ReadTranscript with eight actual Muse conversation IDs plus own chat. Initial aggregate contains all nine manual reports; first timed execution remains unobserved. Existing digest jobs refined in place for dated attribution/exact IDs/word count. Field Report sameprivateSite sourced6b5ddcb, deploymentappgdep_6ac7a20226508191b20a8d8f1df101d1 succeeded, buildpass, live11-routine timetable read back. Draft fields unchanged. No public delivery or expanded source permissions. Historical Erato refused-folder workaround surfaced in coverage and explicitly prohibited in all new jobs; no historical behavior accepted as new access authority.
+
+## Live publication and structured review pilot — October 8
+
+- [x] ISC-333: User-provided vault Muse matrix, skill vocabulary and resource lattice are source-hashed and connected to review routing.
+- [x] ISC-334: Structured questions, human answers and acknowledgement outbox persist in the existing private Site with revision checks.
+- [x] ISC-335: Exact-approved Let the Sentence Finish is publicly published on The Why Chromosome with subscriber email off and verified links.
+- [x] ISC-336: Field Report records the actual publication receipt and refuses mismatched, duplicate or unapproved delivery claims.
+- [x] ISC-337: Meaningful tests, private deployment and native browser readback verify the pilot without changing unrelated drafts or routines.
+
+Decision: Latest user explicitly requests implementation and one real publication test. Reuse existing human exact-copy approval; do not fabricate a new editorial answer. New vault source pointers ground future reviews without changing approved copy. Routed Build attempt was declined by host-pressure admission before execution (exit125); no provider/model success claimed.
+
+ISC-333–337 verified: PUBLICATION-RECEIPT.json and PILOT-VERIFICATION.json; approved public post219450210, normalized copy identical, both blog links confirmed, email/app delivery off. Site source0f0736d3 private deploymentappgdep_6ac7c3de53188191a849aae882bafdf0 succeeded.17checks pass; live service human-answer403, receipt retry alreadySaved, planrevision2/zero missions retained. Live Questions has native Euterpe next-companion proposal and Clio review, answer remains null. Fixture proves answer/outbox/ack; actual human decision and automatic transport are not claimed. Existing digest routines updated in place. Mobile override ineffective; no new mobile acceptance claimed.
+
+## Ecosystem voice correction — October 8
+
+- [x] ISC-338: Canonical noesis-writer skill and current human style override are connected to editorial preparation.
+- [x] ISC-339: Local archive and prepared copy have source-hashed contextual voice triage.
+- [x] ISC-340: A separate pilot revision preserves constructed example and supported claim boundaries.
+- [x] ISC-341: New enqueue packets require a current exact-payload writer review.
+- [x] ISC-342: Existing daily preparation automation and eleven Muse reporting routines retain schedules and carry the new writer direction.
+- [x] ISC-343: Anti: Published copy, original exact approval, unrelated checkout changes and source-access restrictions are preserved.
+
+Verification ISC-338–343: docs/editorial/voice-revision-2026-10-08/README.md, revision-trace.json and MUSE-VERIFICATION.json. Canonical/mirror diff empty;141 local records,114 flagged,551 contextual findings.849-word pilot candidate has no detected triage patterns, without an AI-authorship verdict or fabricated VFS score.16 Python checks pass including missing/stale/unresolved writer reviews. Native UI shows writer contract in all11 saved routine panels and original schedules. Existing10:00 preparation automation saved prompt read back. Installed skill copy also updated; published post219450210 remains unchanged and candidate awaits exact human review. Routed Build declined prelaunch for host pressure, exit125; no resolved provider claimed. Archive prose has not been mass rewritten and the private Site handler has no new enforced voice gate.
+
+## Daily cross-brand preparation — October 9
+
+- [x] ISC-344: October9 exact candidate payloads contain title/account/destination/audience/timing/ordered media and hashes.
+- [x] ISC-345: Current writer sources and October8 direction have a source-hashed read record.
+- [x] ISC-346: Incremental GitHub census separates public source changes from private/fork/client research holds.
+- [x] ISC-347: Vercel delta records current deployment/domain/protection evidence with bounded coverage.
+- [x] ISC-348: Substack read-only reconciliation preserves schedules, introduction and unresolved Note status.
+- [x] ISC-349: Writer review covers exact payload hashes with reviewer and unresolved findings.
+- [x] ISC-350: Antecedent: complete drafts and neighbouring candidates receive contextual prose review.
+- [x] ISC-351: LinkedIn story keys and cross-brand rotating roster prevent blind story duplication.
+- [x] ISC-352: Anti: publication queue, pre-existing dirty files and external state remain unchanged by preparation.
+
+
+Verification ISC-344–352: docs/editorial/cross-brand-2026-10-09/VERIFICATION.json records53passing payload/source/link/preservation assertions. Final items and TODAY agree byte-for-byte; exact writer-review hashes bind both texts and fourteen-row canonical claim trace. Independent native review PASS; Reddit awaits direct human review, Instagram remains QUARANTINED for full motion/sound review. GitHub331repos/33publicdefaultbranchtriage;Vercel63projects/13freshdeltaREADY; nativeSubstack11published/1scheduled/3drafts. Published companion unchanged, intro explicitlyUNPUBLISHED, futureNotes preserved with inheritedOctober7evidence, exactOctober6Note unresolved. Queue and all11other pre-existing filebytes unchanged; ISA/handoff additive only. No external submissions, uploads, schedules, comments, deployments or access changes. Gananatha/Consecration holds retained. Historical openISCs remain outside this bounded preparation.
+
+## Full voice and source reading — October 9
+
+- [x] ISC-353: Entire writer package is read without unacknowledged truncation.
+- [x] ISC-354: Earlier blog bodies and full brand voice documents are compared with recent prose.
+- [x] ISC-355: Source-linked reading findings distinguish living voice from template imitation.
+
+Verification ISC-353–355: docs/editorial/voice-reading-2026-10-09/READING.md and SOURCES.json. All16 writer-package files, both full brand guides and VOICE.md read;8 current blog files,2 complete earlier Git versions and1 recent revision compared. Truncated portions reread in bounded calls; canonical/mirror diff empty. Source hashes and report links verified. Referenced06-copy-style-guide.md is absent after scoped search; documented without inventing a substitute. No public prose, writer governance or delivery changed.
+
 ## Four-month writer refresh — October 9
 
 Problem: recent revision removed template patterns but flattened the established clinical-visionary, playful and image-led voice.
@@ -1023,3 +1167,45 @@ Verification checkpoint ISC-392/394/395/397/398/401: source projection retains34
 Verification ISC-396/399/402–404: privateSite source2405c0f47121b864d19ca30f528a9c565435ca6b deploymentappgdep_6ac8d7b78f588191b84c957a7d4ea7ff succeeded; actualpilot revision1 persisted/readback and nine live API checks pass, all678existing operation records unchanged. Browser displays exactcopy, originalpassages, writer/Musecontext,1080x1350media and unansweredhumanquestion through read-only authenticated liveSitepreview; servicecannotapprove. All199preservation hashes match. Pilot heldforoverlap/mediafit/missingfreshreports; no publicsubmission.32pipeline/33Site tests and builds pass; independentthreecase and fullpilot semanticreviews recorded.
 
 Changelog — integratedpublishing: conjectured: fixture-level schema tests would suffice for producer integration. Refuted by: firstactualpilot included legitimate projection fields absent from fixtures. Learned: test the actual producer envelope plus live persistence and complete rendered context. Criterion now: exact current writer/context/assets/copy binding, meaningful semantic review, live private presentation and explicit human publication boundaries.
+
+## Repository reconciliation and connected ecosystem MOC — October 9
+
+### Problem
+Completed editorial, presentation and pipeline work spans uncommitted primary files, detached refresh worktrees, stale registrations and divergent branch history.
+### Vision
+One navigable source connects writer understanding, vault/project evidence, assets, Muse findings, private review and platform receipts; Git recovery stays explicit.
+### Out of Scope
+No remote main push, public deployment, public publication, blanket250repository cleanup or private-body disclosure. Open PRs and platform approvals remain independently governed.
+### Principles
+Preserve distinct historical work before consolidation. Map evidence, identity and authority separately. Recoverability precedes removal.
+### Constraints
+Retain original draft snapshots and unreachable tips, exact queue approvals and canonical/mirror parity. Mainline remote workflow removals remain authoritative. Commit only inspected related changes.
+### Goal
+Commit the related completed work, reconcile relevant local branch histories and archive/remove obsolete worktrees without lost bytes, and supply a connected verified ecosystem MOC.
+### Criteria
+- [x] ISC-405: All relevant checkouts, branches and unique tips have a dated inventory.
+- [x] ISC-406: Distinct refresh snapshots have verified recoverable commits before removal.
+- [x] ISC-407: Missing worktree tips and legacy branch histories retain recovery refs.
+- [x] ISC-408: Reviewed article/presentation changes are committed with exact source parity.
+- [x] ISC-409: Legacy missing catalogue records are restored with provenance.
+- [x] ISC-410: Current remote main changes are locally reconciled without remote mutation.
+- [x] ISC-411: Eligible obsolete worktrees are removed; protected checkout is explicitly retained with recovery evidence.
+- [x] ISC-412: Canonical writer changes are scoped and committed without unrelated vault state.
+- [x] ISC-413: Connected MOC links actual source, project, assets, Muse and publishing identities.
+- [x] ISC-414: Typed ecosystem graph resolves all node/edge IDs and local document links.
+- [x] ISC-415: Build, meaningful regressions and recovery integrity checks pass.
+- [x] ISC-416: Anti: no queue approval, external publication, remote branch or unrelated repository is mutated.
+### Test Strategy
+Git status/ref/reachability and byte manifests before/after; source parity; archive/bundle verification; graph/link validation; Astro build and existing tests; queue hashes; exact staged diff review.
+### Features
+Inventory/recovery; source reconciliation; local history consolidation; canonical skill checkpoint; connected ecosystem map; verification and durable handoff.
+### Decisions
+User explicitly authorizes commits and cleanup of related work; source implementation and250+repository ecosystem mapping are distinct scopes. Interview resolved from stated request and existing session: reversible local cleanup, whole connected publishing map, preservation of history. No extra human approval required for local commits or recoverable archiving. ContextSearch and FeedbackMemoryConsult use bounded memory/worktree history; FirstPrinciples separates source history from delivered states; SystemsThinking follows real writer→context→review→delivery relationships; Science tests content equality rather than ancestry assumptions; BitterPillEngineering avoids merging obsolete versions as current; ISA/ReReadCheck bind acceptance to user asks. Eight substantive capabilities including Advisor checked against the closed enumeration. Three independent lanes: parent commits/cleanup, read-only worktree audit, isolated new MOC production; no concurrent mutation of the same files.
+### Changelog
+Conjectured: refresh worktrees were redundant copies. Refuted by: snapshots have distinct bytes and a missing detached worktree tip has no retaining ref. Learned: path equality and apparent completion cannot establish safe deletion. Criterion now: preserve exact snapshot commits and recovery refs before cleanup.
+### Verification
+Pending current run probes.
+
+Verification ISC-405–416: docs/reconciliation/2026-10-09 records exactbeforeinventory,9recoverytags/26refverified143969030-bytebundle,148archiveddraftfilehashes, original9presentationfileparity, scopedcanonicalwritercommit95491794c with20filemirror/archiveparityand1,525unrelatedstagedvaultpathsunchanged. Fourcleancheckoutsremoved/twostalemissingregistrationspruned/twobranchaliasesremoved; socialworktreeprotectedbyCodexpinnedtaskandretainedintact. Remote9e8f0deandreviewedsocialhistorylocallymerged; no remote mutation. Restoredcatalogue2files/fullhistoricalplan and repairedactiveinstalledskillpath. ConnectedMOC446nodes/1104edges includes343identities/103workobjects,43+localchecks/438evidencehashes;20blogtests/32editorialtests/154pagebuildpass (333existingwarnings,0errors). Queuehashunchanged. Nativeadvisor429returnednoopinion; independentauditrequested.
+
+Final independent audit ISC-405–416: native read-only reviewer independently verifies148snapshotSHA/bytechecks,9tags, verifiedbundle, legacycatalogues/planbyteparity, mainmergeancestry, exactly2worktrees, nestedSiteclean, graph446nodes/1104edges/438evidencehashes/46links and writer20fileparity. Minorfindings resolved by refreshedlinkreceipt and preciseHITLverification_scope. Parentexactbaselineindexserializationrecheck matches35cfd5c7c43c1cd971ee00b50db277e86c486a7a2a4b27eca3763047062f67ff;1,525unrelatedstagedvaultpaths preserved. ReReadCheck: commitallrelatedwork, reconcile/cleaneligiblebranches/worktrees, createMOCandconnectedecosystemmap—alladdressed; pinnedprotectedcheckout explicitlyretained. No remote push/merge/publication.

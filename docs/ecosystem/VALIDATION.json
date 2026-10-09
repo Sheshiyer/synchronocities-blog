@@ -1,0 +1,19 @@
+{
+  "schema": "noesis.ecosystem-map-validation.v1",
+  "observedAt": "2026-10-09",
+  "checks": {
+    "unique_node_ids": true,
+    "unique_edge_ids": true,
+    "all_edge_endpoints_resolve": true,
+    "single_connected_component": true,
+    "markdown_local_links_checked": 46,
+    "evidence_hashes_checked": 438,
+    "source_identities": 343,
+    "work_identities": 103
+  },
+  "errors": [],
+  "limits": [
+    "No new account/API probes or source body ingestion; reuses dated evidence",
+    "Markdown links were checked locally; external links not re-fetched"
+  ]
+}

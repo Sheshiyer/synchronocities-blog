@@ -1,188 +1,31 @@
 {
   "version": "1.0",
-  "timestamp": "2026-10-02T00:05:02.860455+00:00",
+  "timestamp": "2026-10-07T15:10:45.629080+00:00",
   "phase": "1",
   "phase_name": "noesis-writer-living-cosmology",
   "phase_dir": ".planning",
   "plan": 1,
-  "task": 5,
+  "task": "Completed publishing work, recoverable local Git reconciliation and connected ecosystem MOC",
   "total_tasks": 5,
-  "status": "writer-refresh-local-editorial-pass-complete",
+  "status": "reconciled-local",
   "completed_tasks": [
-    {
-      "id": 1,
-      "name": "Install editorial skill and two cron automations",
-      "status": "done",
-      "commit": "10198cb"
-    },
-    {
-      "id": 2,
-      "name": "Read-only Aleph path scan and installed ft capability inspection",
-      "status": "done",
-      "evidence": "655 Aleph-related Markdown paths; 26 canonical brand files. Installed ft 1.3.22 exposes bookmark sync but no post/reply/listener command. Scan and report in docs/editorial."
-    },
-    {
-      "id": 6,
-      "name": "Bounded social tooling trial",
-      "status": "done",
-      "evidence": "Bird search and Glam saved metadata retrieval pass; direct X identity/read/thread/account endpoints held, Reddit public read 403; draft packet held by approval gate; no public write."
-    },
-    {
-      "id": 7,
-      "name": "Reddit authentication-readiness repair and local CLI installation",
-      "status": "done",
-      "evidence": "Local branch commit209d40c; six synthetic regression tests pass; stable isolated source and venv under ~/.codex/editorial/tryambakam/tools; ~/.local/bin/reddit-cli symlink installed. No upstream push or live write."
-    },
-    {
-      "id": 8,
-      "name": "Fresh Substack session and draft inventory",
-      "status": "done",
-      "evidence": "IAB authenticated to The Why Chromosome, Published9 Drafts2; private readiness receipt saved; no remote changes."
-    },
-    {
-      "id": 9,
-      "name": "Calendar runner implementation and initial independent acceptance",
-      "status": "done",
-      "evidence": "Worker four files implemented;14 synthetic tests and queue safety script pass. Independent first-week plan matches Oct8/Oct6/Oct10. Final review requested postclaim status guard and actual Bird authorId schema correction."
-    },
-    {
-      "id": 10,
-      "name": "Install scoped runner and connect schedules",
-      "status": "done",
-      "evidence": "15 runner tests plus queue safety pass; installed five files; live discovery17packets; first-week plan saved; weekly/daily schedules use runner; Sunday maintenance active; X IAB correct account verified.",
-      "commit": "d1d521b"
-    },
-    {
-      "id": 13,
-      "name": "First two Substack weeks drafted and dated",
-      "status": "done",
-      "evidence": "Two complete essays1358/1313words, four Notes, two built-in imagegen covers, worksheet, claim ledger, independent review, six draft-only queue rows; sources/media hashes verified. Daily check10Paris.",
-      "commit": "5fe5fac"
-    },
-    {
-      "id": 14,
-      "name": "Personal profile and cross-platform content package",
-      "status": "done",
-      "evidence": "Vault historical plan review; bios and About; reintroduction; four X posts; seven PNG plus editable SVG cards; Reddit discussion; independent PASS; eleven draft-only rows with source/media hashes; existing weekly/daily automations updated.",
-      "commit": "57365db"
-    },
-    {
-      "id": "REMOTE-VERIFIED",
-      "name": "Human approval and six native Substack schedules",
-      "status": "done",
-      "evidence": "User approved current drafts and web-only delivery. IAB restored. Three articles and Notes October6/10/13 confirmed scheduled; private approval and readback receipts saved. Existing old drafts preserved."
-    },
-    {
-      "id": "OCTOBER-DELIVERY",
-      "name": "Seven approved web-only native Substack schedules and recurring job update",
-      "status": "done",
-      "evidence": "Three articles October1/8/15 and four Notes October6/10/13/17 confirmed at10Paris. Runtime queue seven scheduled, four X approved. Existing two drafts preserved. Exact local receipt JSON and screenshots saved. Weekly/daily automations updated, existing cadence preserved.",
-      "commit": "9b3aa84"
-    },
-    {
-      "id": "CREATOR-PILOT-PLAN",
-      "name": "Read 49-page private PDF and establish practical studio/controller plan",
-      "status": "done",
-      "evidence": "docs/editorial/creator-editing-os contains source manifest, implementation plan, Steward instructions and controller review gates. Root ISA extended ISC43-58; existing prior criteria preserved."
-    },
-    {
-      "id": "CREATOR-SKILL-CONNECTION",
-      "name": "Add scoped video draft handoff to editorial skill",
-      "status": "done",
-      "commit": "3f51aba",
-      "evidence": "New reference committed; additive SKILL section in repo and installed skill, reference copied to installed skill. Does not grant publication or assert runtime acceptance."
-    },
-    {
-      "id": "CREATOR-LOCAL-VERIFIED",
-      "name": "Local synthetic video studio and scoped Editorial Steward connection",
-      "status": "done",
-      "evidence": "108 controller tests,24 studio tests,official SDK10tools,actual10-second final with restart/cache/drift gates; no queue mutation."
-    },
-    {
-      "id": "CLAUDE-CONCEPT-INTEGRATION",
-      "name": "Carry second-pass Claude source content into executable article development",
-      "status": "done",
-      "evidence": "18 hashed snapshots,53 registry rows,11 briefs,6 video assessments,source/parser/metadata gates and continuation integration. Author manuscript holds retained.",
-      "commit": "f8af5a3"
-    },
-    {
-      "id": "LIVING-COSMOLOGY-WRITER",
-      "name": "Review personal context and install the living-cosmology writer method",
-      "status": "done",
-      "evidence": "Selected source review explicit; separate exposure axes; lived encounter/action/consequence/revision loop; private source register and template; example anchored in an existing journey record; 24 local checks and ISA97-144."
-    },
-    {
-      "id": "OCT1-EXTRACTION-OUTLINE",
-      "name": "Prepare source extraction, paired essay outline and vocabulary/format packet",
-      "status": "done",
-      "evidence": "Six local packet files; 12/12 document/hash checks, 11/11 source hashes, independent bounded PASS. Existing posts and queue preserved. Manuscripts remain pending."
-    }
+    "Committed reviewedarticlepresentation2144a81",
+    "Localremote/socialhistorymergesc11a7ce/5557166",
+    "Canonicalwriter95491794c committed without unrelatedvaultindex",
+    "148snapshotfiles/9recoverytags/verifiedcompletebundle preserved",
+    "Fourcheckoutsremoved/twostalemissingregistrationspruned/twobranchaliasesremoved",
+    "ConnectedMOC446nodes/1104edges plus vaultnavigationentry",
+    "Source/build/tests/graph/recovery/queuechecks pass",
+    "Independent native audit PASS; exact vault index baseline digest still matches"
   ],
   "remaining_tasks": [
-    {
-      "id": "FUTURE-PUBLIC-READBACK",
-      "name": "Verify native schedules execute on their dates; formalize scheduled reconciliation before ledger promotion",
-      "status": "scheduled-follow-up"
-    },
-    {
-      "id": "AGENT-IMPLEMENTATION",
-      "name": "Implement proposed local MCP and event dispatcher only when requested",
-      "status": "design-ready"
-    },
-    {
-      "id": "CREATOR-CONTROLLER-REPAIR",
-      "name": "Complete and independently verify controller repair",
-      "status": "local complete; cloud activation remains unactivated",
-      "evidence": "Routed Execute session29800. Own runtime directory. Initial controller16tests pass but defects in duplicate mutation, transaction recovery, stale approvals, arbitrary final evidence and MCP Content-Length framing require repair per CONTROLLER-REVIEW.md. Previous producer stopped; current worker uses noesis-execute."
-    },
-    {
-      "id": "CREATOR-STUDIO",
-      "name": "Finish Remotion studio, render samples and install into ~/VideoStudio",
-      "status": "local complete; cloud activation remains unactivated",
-      "evidence": "Routed Execute session56891; cc/claude-sonnet-4-6. Sandbox caused staging at /tmp/VideoStudio (allowed). Components/scripts arriving. Primary must install completed staging into home; existing home VideoStudio absent at start."
-    },
-    {
-      "id": "CREATOR-INTEGRATION",
-      "name": "Verify scoped adapter, seed private actual PDF job and connect Editorial Steward",
-      "status": "local complete; cloud activation remains unactivated",
-      "evidence": "Private state intended ~/.codex/editorial/creator-editing-os-pilot separate existing queue. Worker cannot seed home due sandbox; primary executes. Actual footage absent; synthetic sample labelled as such. No cloud activation or publication."
-    },
-    {
-      "id": "LIVING-COSMOLOGY-WRITER",
-      "name": "Complete personal-context review and lived-experience writer integration",
-      "status": "done",
-      "evidence": "Installed references, context review, source-anchored example and 24 local checks complete. Future articles and journal/application work remain separate."
-    }
+    "Pinned socialworktree retained; unpin through Codex before archive if desired",
+    "Remote push/PR reconciliation remains separate; no remote mutation",
+    "Held publishingpilot awaits exact human editorial decision"
   ],
   "blockers": [
-    {
-      "type": "technical",
-      "description": "Bird CLI identity/read credentials fail independently of signed-in X IAB. Reddit public403/OAuth unavailable; Instagram and X Articles submission unsupported."
-    },
-    {
-      "description": "18765 currently points to Vercel and returns DEPLOYMENT_NOT_FOUND; desired alias versus redirect behavior unclear. Async question already asked and unanswered.",
-      "type": "human_action",
-      "workaround": "Continue editorial research while awaiting choice; do not infer approval from elapsed time.",
-      "carried_from": "origin/main handoff 2026-09-30 (merge 2026-10-05)"
-    },
-    {
-      "description": "Wrangler OAuth account access works, but direct DNS-record read returned 403.",
-      "type": "technical",
-      "workaround": "Use existing Cloudflare dashboard in IAB or approved scoped credential; do not expose tokens.",
-      "carried_from": "origin/main handoff 2026-09-30 (merge 2026-10-05)"
-    },
-    {
-      "description": "Content-index CI exited success but logs show lighted-clearing-loka-akshara-dhi NIM auth failed (401), 0 embedded, 126 skipped, 1 error.",
-      "type": "technical",
-      "workaround": "Published page is live; AI retrieval acceptance remains unproven. Do not rotate secrets or broad-reindex speculatively.",
-      "carried_from": "origin/main handoff 2026-09-30 (merge 2026-10-05)"
-    },
-    {
-      "description": "Developer context rollover guard requires stopping after current atomic step and new chat.",
-      "type": "external",
-      "workaround": "Resume from this handoff in a new chat in the same directory.",
-      "carried_from": "origin/main handoff 2026-09-30 (merge 2026-10-05)"
-    }
+    "Codex archive_worktree rejected protected socialcheckout",
+    "Advisor quota429; no judgment claimed"
   ],
   "human_actions_pending": [
     {
@@ -250,18 +93,8 @@
       "phase": "noesis-writer"
     }
   ],
-  "uncommitted_files": [
-    ".planning/HANDOFF.json",
-    ".planning/STATE.md",
-    "ISA.md",
-    "docs/editorial/creator-editing-os/runtime",
-    "tasks/todo.md",
-    ".agents/skills/tryambakam-editorial/SKILL.md",
-    "docs/plans/2026-09-30-claude-ideas-intake.md",
-    "docs/plans/2026-09-30-substack-series-plan.md",
-    ".agents/skills/tryambakam-editorial/references/workflow.md"
-  ],
-  "next_action": "Review the held pilot human question in private Field Report; exact publication remains individually approved.",
+  "uncommitted_files": [],
+  "next_action": "Open connected ecosystem MOC; keep pinned worktree intact until user unpins its workspace.",
   "context_notes": "Signed-in Codex IAB is available and scheduling is complete. Human approval and web-only choice resolved for this exact batch. No API cloud agent or MCP server activated. Primary unrelated dirty files preserved. Owned delivery receipts and researched design are copied to managed content worktree for an exact-path local commit. Publication is still future, not completed. All remaining platform capability limits remain explicit. Managed content worktree local commit9b3aa84 saves exact owned execution/design files; no push. Current run goal exists (planning objective expanded by user into local practical build). No memory writes. Existing queue hash baseline /tmp/creator-pilot-original-queue-sha captured mid-run; preserve queue/schedules. Studio initial noesis-build quota failed before files; Execute retry functioning. Controller initial Opus produced source and16tests but was stopped at seed due review defects; repair dispatched. Keep native light; heavy code routed. Source PDF at /Users/sheshnarayaniyer/Downloads/Creator Editing OS Playbook.pdf; extraction /tmp/creator-editing-os-playbook.txt. Plan-only files locally committed8df2fd1 on primary main per explicit checkpoint instruction. STUDIO-REVIEW.md added afterward records major first-code defects. Controller duplicate-save probe raised DuplicateEvent but advanced version1to2. MCP first-code framing wrong(Content-Length) corrected in repair scope. Official Remotion latest npm4.0.531; initial studio4.0.290 stale. Current studio stderr temp.Jl8mvqSMMa; controller repair stderr temp.16VufjzdTD under /private/var/folders/zx/_wycnwwx3p1f_4gclpnhr8rm0000gn/T. Do not print full logs; contain prompts and output. User answered use synthetic media. Generated /tmp/creator-editing-fixtures/synthetic-original.mp4:10seconds720x1280 H26430fps+AAC440Hztesttone, explicitly not voice. Actual real footage no longer needed to finish selected pilot. Controller current regression suite39tests fails5(replay2errors, crash recovery, final-after-draft-change, source traversal); repair worker still running and will run/fix own suite. Studio first worker now npm install at/tmp/VideoStudio; network sandbox may stall; root can finish install once worker ends. Initial studio known defects in STUDIO-REVIEW.md require second repair pass before acceptance. Must not claim source as verified. Bundled Python has pypdf, no MCP SDK; official SDK client can be installed in isolated temp venv if necessary. First native queue fingerprint file remains/tmp/creator-pilot-original-queue-sha. Local build permission includes installation, no public write/cloud runtime activation. Source task goal expanded by current user synthetic reply. Studio repair session54649 resolved cc/claude-sonnet-4-6; studio install257packages finished. Do not rerun tests while worker modifies source; recent controller temporary NameError is in-progress edit, producer must run its own final tests then root tests. Isolated official MCP SDK1.26 client venv being installed at/tmp/creator-mcp-client-venv for actual stdio interoperability, no cloud API call. Existing memory used MEMORY.md48-78 final must append memory citation with editorial prior scope rollout IDs01a0f254-01d9-7f71-a01b-98c3fdc3ce1c and01a0f242-b562-7411-b575-d5aff9cde836 if final. Current final-integration controller worker33581 resolves cc/claude-sonnet-4-6. Prior SDK probe at/tmp/creator-mcp-sdk-probe.py and venv/tmp/creator-mcp-client-venv installed mcp1.26.0. Protocol latest client2025-11-25 falls back2025-06-18 as spec; primary altered mcp.py and test_regressions.py. Native55tests pass after patch. REVIEW-2 document is uncommitted. Existing publication queue preserved.",
   "local_checkpoint_commit": "9c8d1d8",
   "previous_next_action": "Review private pilot plan when user supplies next editing idea; retain exact plan/draft approval gates. Cloud API agent and executor require separate activation acceptance. Existing scheduled editorial delivery follow-ups remain separate.",
@@ -527,6 +360,667 @@
     "next_action": "On next run read this report, refresh due helper; check native reintroduction read-only without resubmitting; next approved X item is October5.",
     "preserves_existing_programme_next_action": true
   },
+  "schema": "temperance.handoff.v2",
+  "extends": "gsd.pause-work.v1",
+  "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+  "isc_open": [],
+  "isc_done_count": 12,
+  "wave": "repository-reconciliation",
+  "tier": "E5",
+  "session_budget": {
+    "window": 258400,
+    "rollover_at": 155040,
+    "used_at_handoff": 232467
+  },
+  "next_command": "python3 docs/ecosystem/validate_map.py",
+  "editorial_recovery_2026_10_07": {
+    "status": "existing jobs resumed; delivery and unsupported channel gates remain",
+    "report": "docs/editorial/2026-10-07-recovery-review.md",
+    "private_report": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-07-recovery/report.md",
+    "completed": [
+      "Preserved main/worktree state",
+      "Reviewed ideas and raw-intake status",
+      "Fresh native drafts and Notes schedule readback",
+      "Resumed daily publisher and Sunday maintenance",
+      "Verified queue hashes and repository runner tests"
+    ],
+    "remaining": [
+      "Exact October6 public Note readback",
+      "Coherent approved introduction recovery",
+      "X/Instagram/Reddit execution authority and account/adapter gates",
+      "Installed test fixture path repair"
+    ],
+    "blockers": [
+      "Native introduction explicitly UNPUBLISHED",
+      "Scheduled-to-published helper absent",
+      "Bird identity fails",
+      "Instagram/Reddit submission not accepted"
+    ],
+    "decisions": [
+      "No duplicate submissions",
+      "No queue promotions without delivery evidence",
+      "Monday preparation covered by existing daily job",
+      "Preserve existing source holds and programme gates"
+    ],
+    "uncommitted_files": [
+      ".planning/HANDOFF.json"
+    ],
+    "next_action": "Verify October8 essay delivery and exact October6 Note public readback; prepare next complete calendar package; collect introduction recovery decision only on concrete revised copy.",
+    "checkpoint_commit": "5ac5e8b"
+  },
+  "cross_brand_social_2026_10_07": {
+    "status": "review-preparation complete; publication awaiting individual human approvals",
+    "report": "docs/editorial/cross-brand-2026-10-07/README.md",
+    "packet": "docs/editorial/cross-brand-2026-10-07/TODAY.md",
+    "completed": [
+      "330-repo/22-board GitHub census reconciled",
+      "63 Vercel projects with all domains and deployment readbacks",
+      "Four hashed/decode-verified showreels with frame samples",
+      "Authenticated X/Instagram/Reddit account reads",
+      "Seven exact cross-brand drafts and media approval fingerprints",
+      "Daily preparation-only automation ACTIVE at10 Paris",
+      "Three unsubmitted X approvals held with history preserved"
+    ],
+    "remaining": [
+      "Individual human approval by item ID",
+      "Supported submission, duplicate check and visible readback after approval",
+      "Substack October6 Note delivery and unpublished introduction reconciliation",
+      "Specific Vercel ERROR/BLOCKED and overlap diagnosis before campaign CTAs"
+    ],
+    "blockers": [
+      "No human approval yet for today\u2019s social items",
+      "r/threejs rules route renders empty shell; own-profile Reddit drafts offered"
+    ],
+    "decisions": [
+      "Each item individually approved; changes invalidate approval",
+      "No posting/upload/scheduling in daily preparation run",
+      "Both brands explicitly represented through source-backed rotation",
+      "Private/client/fork/unresolved work needs exact disclosure/source review"
+    ],
+    "uncommitted_files": [
+      ".planning/HANDOFF.json"
+    ],
+    "next_action": "Present TODAY.md and collect individual item approvals; only then submit exact approved items with duplicate checks and public readback.",
+    "checkpoint_commit": "701407d"
+  },
+  "previous_next_action_before_cross_brand": "Resume only when governed worker capacity is usable or the owner provides a supported alternative authority. Continue focused #48 approval/type repair from clean isolated 521fb4a; then independently verify remaining contract before integration. Resolve exact existing Grok destination for real handoff/restart/replay/stop. Do not publish reviewed drafts or invent return.",
+  "previous_next_action_before_spatial_world": "Present TODAY.md and collect individual item approvals; only then submit exact approved items with duplicate checks and public readback.",
+  "spatial_editorial_world_2026_10_07": {
+    "status": "private prototype and design pass verified",
+    "artifact": "/Users/sheshnarayaniyer/.codex/visualizations/2026/10/07/01a115bf-769c-7712-b02a-bb799d835331/editorial-world",
+    "url": "http://127.0.0.1:4387/",
+    "plan": "docs/plans/editorial-world-2026-10-07/README.md",
+    "completed": [
+      "Source data projection:330repos63hosts22boards12products7drafts53ideas",
+      "Data/media hashes and exact repository edges verified",
+      "Loopback server started",
+      "Design and six-stage integration plan saved",
+      "Exact draft review and source holds browser verified",
+      "Local planning persists through reload; test proposal removed",
+      "Design-core and relevant craft skills applied through DESIGN.md"
+    ],
+    "remaining": [
+      "Individual human approval for public items",
+      "Live synchronization/shared planning/approved-delivery integration as proposed"
+    ],
+    "workers": {
+      "server_session": 89367,
+      "creative_workers": "terminal; no remaining design workers",
+      "provider": "unresolved; no hosted result accepted"
+    },
+    "next_action": "Review the delivered private Fieldwork world and TODAY.md; collect each exact public item approval separately. Future integration follows the six-stage design plan; no posting or deployment inferred.",
+    "verification": "docs/plans/editorial-world-2026-10-07/VERIFICATION.json",
+    "checkpoint_commit": "94e272d"
+  },
+  "fieldwork_second_pass": {
+    "status": "review and upgrade plan complete; implementation proposed",
+    "plan": "docs/plans/editorial-world-2026-10-07/UPGRADE-PASS-2.md",
+    "first_slice": "Dynamic Europe/Paris weeks and versioned mission journal with notes, steps, holds, reversible proposals and migration",
+    "authority": "No publication permission inferred; existing per-item human gate retained",
+    "worker": "read-only routed noesis-plan-max completed; provider/model unresolved"
+  },
+  "fieldwork_v2": {
+    "status": "implemented and browser-verified private world",
+    "artifact": "/Users/sheshnarayaniyer/.codex/visualizations/2026/10/07/01a115bf-769c-7712-b02a-bb799d835331/fieldwork-v2",
+    "workers": [
+      "/root/mission_ui",
+      "/root/world_design",
+      "/root/source_integration"
+    ],
+    "contracts": "separate app/mission, scene/CSS, source/server ownership; scene createWorld API; plan v2 proposal-only",
+    "next_action": "Fieldwork v2 private implementation complete. Use4390 to plan and review; future live adapters/public hosting require separate bounded work, and each post requires exact owner approval. Historical programme work remains open.",
+    "url": "http://127.0.0.1:4390/",
+    "server_session": 96833,
+    "verification": "docs/plans/editorial-world-2026-10-07/VERIFICATION-V2.json",
+    "tests_passed": 19,
+    "provider_attribution": "unresolved; authorized in-session workers used after stalled routed attempts",
+    "limits": [
+      "Dated snapshots; live platform sync not implemented",
+      "Native Reality.compile full body absent; Cu(A)/Cu(B) title seed only",
+      "Introduction unpublished discrepancy and October6 Note delivery unresolved",
+      "No multi-device plan synchronization",
+      "No certified device GPU frame rate",
+      "Original local source/media files required outside portable bundle"
+    ],
+    "checkpoint_commit": "a9cee93",
+    "finished_criteria": [
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286
+    ]
+  },
+  "field_report": {
+    "status": "implemented, pushed and clean-clone CI verified",
+    "repository": "https://github.com/Sheshiyer/field-report",
+    "private": true,
+    "checkout": "/Volumes/madara/2026/Projects/thoughtseed/fieldwork",
+    "isa": "/Volumes/madara/2026/Projects/thoughtseed/fieldwork/ISA.md",
+    "runtime": "http://127.0.0.1:4391/",
+    "server_session": 25776,
+    "commit": "86271a93c9c784304beebb4dd08237910346bd84",
+    "sourceRuntime": "ignored private observations copied locally; original v2 preserved",
+    "tests": "30 local tests pass; parent IAB desktop/mobile browser verification and design-worker actual screenshot inspection",
+    "questions": "docs/REVIEW-QUESTIONS.md contains25questions and received choices",
+    "commentPolicy": "future profile-specific authority selected; exact profiles/groups/limits unconfigured and execution inactive",
+    "next_action": "Review remaining25questionnaire inputs; exact profiles, communities and routine-comment authority remain pending. Use separate Field Report repository as the implementation home.",
+    "ci": "success https://github.com/Sheshiyer/field-report/actions/runs/37646235082"
+  },
+  "field_report_inside_pass": {
+    "status": "implemented and verified",
+    "checkout": "/Volumes/madara/2026/Projects/thoughtseed/fieldwork",
+    "isa": "/Volumes/madara/2026/Projects/thoughtseed/fieldwork/ISA.md",
+    "open_criteria": [],
+    "workers": [
+      "mission_ui",
+      "world_design",
+      "source_integration"
+    ],
+    "constraint": "native Codex-generated paintings are GitHub README-only; remove app references and deny runtime image routes",
+    "source": "Cambium docs/assets/visual-flow with canonical asset maps",
+    "next_action": "Complete bounded GitHub checkpoint and preserve exact public-item human gates.",
+    "checkpoint_commit": "86271a9"
+  },
+  "field_report_sites": {
+    "status": "complete: owner-private Site published, all media imported, GitHub CI successful, original local workspace restored",
+    "project_id": "appgprj_6ac6631e1ae88191b5ebfe97560a256f",
+    "checkout": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/.sites/field-report",
+    "next_action": "Use the private Sites workspace for planning and exact review. Existing daily preparation stays at10Paris. Public actions require individual approval; future comment policy and deliberate source refresh remain separate. Historical programme ISCs stay open.",
+    "url": "https://field-report.witnessalchemist.chatgpt.site",
+    "commit": "e6768ea62bf068af4d685ca360a8b8cf7bf480eb",
+    "deployment_id": "appgdep_6ac66652b154819181ed19a2e0b27041",
+    "tests": 38,
+    "media_bytes": 169801672,
+    "github_checkpoint": "86271a9",
+    "github_ci": "https://github.com/Sheshiyer/field-report/actions/runs/37646235082"
+  },
+  "field_report_recurring_ops": {
+    "status": "complete: private Site published; initial research and enabled daily schedule verified; implementation CI successful",
+    "site_project_id": "appgprj_6ac6631e1ae88191b5ebfe97560a256f",
+    "site_checkout": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/.sites/field-report",
+    "isa": "/Volumes/madara/2026/Projects/thoughtseed/fieldwork/ISA.md",
+    "open_criteria": [],
+    "research_session": 18957,
+    "routed_prototype_session": 69269,
+    "prototype_patch": "/tmp/field-report-ops.patch",
+    "repository_reviews": "/Volumes/madara/2026/Projects/thoughtseed/fieldwork/local-evidence/research-2026-10-07/repository-reviews.json",
+    "github_connector_read": "Verified exact private Field Report README content/path/blob SHA through native GitHub connector",
+    "site_source_opening": "e6768ea62bf068af4d685ca360a8b8cf7bf480eb",
+    "schedule": {
+      "id": "Automation_b0280dc9a3d08191a00c800f38de28ce",
+      "enabled": true,
+      "time": "09:30",
+      "timezone": "Europe/Paris",
+      "first_date": "2026-10-08",
+      "scheduled_run_observed": false
+    },
+    "authority": "Cron writes research proposals only; archive decisions and exact-item approvals require human browser identity; publishing queue cannot invent provider delivery",
+    "next_action": "Use the owner-private Field Report Site for review, archive/restore, planning and exact approval. Daily source refresh startsOctober8 at09:30Paris. Public provider delivery and future routine-comment policy remain held; no unapproved public actions.",
+    "github_commit": "0772941",
+    "site_commit": "9b1aaa91b25e6019a1ac35a6b8fa93fb3f3c0012",
+    "deployment_id": "appgdep_6ac6796adef08191aaf626056e31b014",
+    "writer_verification": "All510 initial proposals saved in six batches and read back, plans/human fields preserved, service approval403,11 media imports intact",
+    "routed_prototype_result": "Ended without producing patch; owner implemented and verified the operations layer",
+    "checks": "41 checks pass; actual local IAB archive/reload/filter/restore, planning/save/reload/undo, isolated fixture approval/queue/revoke, mobile no overflow",
+    "local_server_session": 7180,
+    "implementation_commit": "97d30e07238138deb2b6f5991b9eaad4f4ad5ace",
+    "github_ci": "https://github.com/Sheshiyer/field-report/actions/runs/37656045299"
+  },
+  "lighted_clearing_publication": {
+    "status": "published_refinements_verified",
+    "release_root": "/Users/sheshnarayaniyer/.codex/worktrees/lighted-clearing-social/synchronocities-blog",
+    "branch": "codex/lighted-clearing-social",
+    "completed": [
+      "attributed essay sources and author subscriptions",
+      "branded cards and20px mobile gutters",
+      "readable navigation and mobile Escape/focus",
+      "newest-first homepage121entries",
+      "article-only WhyChromosome and publicproject discovery",
+      "20tests and154page productionbuild",
+      "live desktop/mobile verification"
+    ],
+    "remaining": [
+      "source PR247integration into main"
+    ],
+    "next_action": "Published refinements complete; integrate source PR247 when authorized",
+    "authority": "user requested publication and engagement additions",
+    "unrelated_state": "primary checkout .planning/HANDOFF.json and prior ISA programme changes retained",
+    "deployment_version": "f4292791-f841-4fbc-b176-bf150c5e3152",
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "isc_open": [],
+    "wave": "refinements",
+    "tier": "E3",
+    "next_command": "Read release worktree build log and reload local preview",
+    "source_commits": [
+      "49708c7",
+      "1a61a7f"
+    ]
+  },
+  "uncommitted_files_note": "Parent handoff and historical editorial/programme WIP remain separate; do not commit unrelated files.",
+  "updated_at": "2026-10-09T12:16:45.701153+00:00",
+  "field_report_spatial_pass": {
+    "schema": "temperance.handoff.v2",
+    "status": "complete; same private Site published and live verified",
+    "isa": "/Volumes/madara/2026/Projects/thoughtseed/fieldwork/ISA.md",
+    "isc_open": [],
+    "isc_done_count": 84,
+    "wave": "spatial-inside-pages",
+    "tier": "E3",
+    "session_budget": "Native goal complete after release verification; usage reported by goal tool",
+    "completed_tasks": [
+      "Owner integrated scene and folio into same Site checkout",
+      "Twelve-record compact atlas and role geometry replace repeated PNG grid",
+      "Supplied reference bytes and sanitized provenance preserved",
+      "Local13checks pass",
+      "Isolated IAB archive and actual plan server revision3 verified",
+      "Actual pointer drag/keyboard and final mobile proof",
+      "Sequential build and13 Site checks",
+      "Original34checks and clean-clone CI success",
+      "Same private Site source push/package/publication",
+      "Live IAB desktop390px mobile and authenticated store/media/client readback",
+      "Preserved native daily schedule and complete84/84ISA"
+    ],
+    "remaining_tasks": [],
+    "blockers": [],
+    "decisions": [
+      "No native-generated paintings in app",
+      "Per-item human public-action approval remains",
+      "Site owner alone edits and deploys; prototype workers outside checkout",
+      "Source references do not confer product identity or runtime health"
+    ],
+    "uncommitted_files": [
+      "Parent historical handoff extended only"
+    ],
+    "site_checkout": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/.sites/field-report",
+    "preview_session": null,
+    "preview_url": null,
+    "site_source_opening": "9b1aaa91b25e6019a1ac35a6b8fa93fb3f3c0012",
+    "credential_status": "not required; pushed source privately deployed",
+    "evidence": "/Volumes/madara/2026/Projects/thoughtseed/fieldwork/local-evidence/spatial-atlas-2026-10-07",
+    "next_action": "Spatial release complete. Await operator review; exact public posting and community actions still require individual human approval.",
+    "next_command": "Open the same private Field Report Hosting atlas or any district.",
+    "implementation_commit": "ae63af8287d2cb703f2e8e4f11afc042d8f4fcfb",
+    "site_source_commit": "fc1c08e02469dda7801b3b94b47c86fedb963a69",
+    "deployment_id": "appgdep_6ac68f828eac8191ad76717275c70be3",
+    "github_receipt_commit": "1d00f9372b11bc04bfec46e1aa8ec8780ca2bbee",
+    "ci_url": "https://github.com/Sheshiyer/field-report/actions/runs/37667412837",
+    "live_url": "https://field-report.witnessalchemist.chatgpt.site",
+    "live_readback": {
+      "records": 510,
+      "research": 510,
+      "plan_revision": 2,
+      "missions": 0,
+      "media_imported": 11,
+      "approvals": 0,
+      "public_queue": 0
+    },
+    "daily_research": {
+      "id": "Automation_b0280dc9a3d08191a00c800f38de28ce",
+      "enabled": true,
+      "time": "09:30",
+      "timezone": "Europe/Paris",
+      "first_run": "2026-10-08"
+    },
+    "final_receipt_ci_url": "https://github.com/Sheshiyer/field-report/actions/runs/37668167346",
+    "final_receipt_ci": "success",
+    "owned_preview": "4392 owned session stopped; original4391 preview preserved"
+  },
+  "editorial_daily_2026_10_08": {
+    "schema": "temperance.handoff.v2",
+    "timestamp": "2026-10-08T08:19:11.957717+00:00",
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "tier": "E4",
+    "wave": "daily-editorial-preparation",
+    "completed_tasks": [
+      "Read designated handoff, ISA, skill, current profile/voice and last receipt",
+      "Incremental GitHub/Vercel refresh",
+      "Read-only native/public Substack reconciliation",
+      "Three exact unapproved drafts and LinkedIn de-duplication",
+      "Independent fallback audit repaired affiliation and alternatives"
+    ],
+    "remaining_tasks": [
+      "Human exact-item review",
+      "Separate authorized continuation only if a specific unchanged item is approved",
+      "Read-only exact October6 Note recovery and native/queue status reconciliation",
+      "Monday October12 weekly calendar preparation"
+    ],
+    "blockers": [
+      "October6 Note delivery unresolved",
+      "Introduction native UNPUBLISHED conflicts with scheduled local row",
+      "Cambium film disclosure and complete motion/sound review require exact human approval",
+      "No configured Cato receipt; Advisor auth-source failure"
+    ],
+    "decisions": [
+      "Reddit and Substack Note are alternatives; choose one first",
+      "No new Instagram item or overdue catch-up",
+      "Private/client/fork/unresolved work stays research input",
+      "Actual project ledger is synchronocities ISA; injected Fieldwork pointer is unrelated"
+    ],
+    "uncommitted_files": [
+      "docs/editorial/cross-brand-2026-10-08/",
+      "ISA.md additive receipt",
+      ".planning/HANDOFF.json additive nested continuation"
+    ],
+    "next_action": "Present exact dated packet; await direct human review. Run no publication in daily preparation.",
+    "isc_open": [],
+    "isc_done_count": 9,
+    "session_budget": "Bounded preparation; platform reads capped; no infrastructure repair",
+    "next_command": "Read docs/editorial/cross-brand-2026-10-08/README.md and TODAY.md; do not submit."
+  },
+  "archive_distribution": {
+    "schema": "temperance.handoff.v2",
+    "status": "preparation_complete; individual publication review pending",
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "isc_open": [],
+    "isc_done_count": 5,
+    "wave": "archive-distribution",
+    "tier": "E3",
+    "session_budget": "Preparation objective complete; no user token budget requested",
+    "completed_tasks": [
+      "127-source catalogue with hashes and existing series",
+      "native Substack10published/1scheduled/3draft overlap",
+      "24 companion concepts and conditional narrative lane",
+      "complete Substack/XArticle/thread/Notes/Reddit packet",
+      "13 local integrity checks pass; queue and existing daily drafts preserved"
+    ],
+    "remaining_tasks": [],
+    "blockers": [],
+    "decisions": [
+      "No public submission or added schedules",
+      "X/Reddit full-history absence unknown",
+      "First packet proposed authorial construction; individual exact-copy approval retained",
+      "Per-essay companion backlinks await real public receipts"
+    ],
+    "uncommitted_files": [
+      "ISA.md additive receipt",
+      ".planning/HANDOFF.json additive nested continuation",
+      "Historical primary presentation WIP retained"
+    ],
+    "next_action": "Review docs/editorial/archive-distribution-2026-10-08/README.md and first draft manuscripts. Any publication is a separately approved exact item.",
+    "next_command": "python3 docs/editorial/archive-distribution-2026-10-08/verify_packet.py",
+    "evidence": "docs/editorial/archive-distribution-2026-10-08/VERIFICATION.json",
+    "timestamp": "2026-10-08T12:24:50.325277+00:00"
+  },
+  "field_report_archive_packet": {
+    "schema": "temperance.handoff.v2",
+    "status": "live review packet complete; delivery adapter unconfigured",
+    "completed_tasks": [
+      "Six exact drafts and complete archive/series imported",
+      "Original records identical;13tests/build/artifact pass",
+      "Private deployment succeeded",
+      "Owner signed-in Review and live data readback verified"
+    ],
+    "remaining_tasks": [],
+    "blockers": [],
+    "decisions": [
+      "Approval stays in existing UI",
+      "No human approve/queue action performed",
+      "Live queue remains approved-awaiting-adapter; do not claim automatic posting"
+    ],
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "isc_open": [],
+    "isc_done_count": 3,
+    "wave": "archive-ui-import",
+    "tier": "E3",
+    "uncommitted_files": [
+      "Historical ISA/handoff/presentation WIP retained"
+    ],
+    "next_action": "User reviews new items on existing Field Report Publishing shore. Supported delivery integration is a separate follow-up; current queue makes no platform calls.",
+    "next_command": "Read docs/editorial/archive-distribution-2026-10-08/FIELD-REPORT-LIVE.json",
+    "source_commit": "15fd197e09ec5a672fa047b0c98cdd254ee74440",
+    "live_url": "https://field-report.witnessalchemist.chatgpt.site"
+  },
+  "nine_muses": {
+    "schema": "temperance.handoff.v2",
+    "timestamp": "2026-10-08T13:19:13.000943+00:00",
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "isc_open": [],
+    "isc_done_count": 5,
+    "wave": "grok-muses",
+    "tier": "E4",
+    "session_budget": "Continue same objective across compaction",
+    "completed_tasks": [
+      "Nine role contracts and category mapping written and read back",
+      "Calliope Bot created, named and exact role brief delivered",
+      "Eight remaining named Bots created and exact role briefs read back",
+      "127 sources,24 concepts and6 drafts mapped in existing Site",
+      "Current exact human approval and queue0 preserved",
+      "Fourteen tests, build and live index/review verified",
+      "Approval display crash fixed with regression"
+    ],
+    "remaining_tasks": [
+      "Implement a narrowly scoped queue-to-executor access route",
+      "Authenticate and verify intended publishing accounts and supported actions",
+      "Add execution claim, idempotency and platform receipt reconciliation"
+    ],
+    "blockers": [
+      "Private Site has no configured posting adapter; Grok channel capabilities unverified"
+    ],
+    "decisions": [
+      "Author Muse framework informs roles without endocrine claims",
+      "Human exact approval and queued handoff remain authoritative",
+      "Existing Thalia group and main Grok work preserved"
+    ],
+    "uncommitted_files": [
+      "docs/editorial/nine-muses-2026-10-08/",
+      "ISA.md scoped addition",
+      ".planning/HANDOFF.json scoped addition"
+    ],
+    "next_action": "Complete the delivery adapter in a separately verified integration; preserve human queue authority and account-matched exact payloads.",
+    "next_command": "Read docs/editorial/nine-muses-2026-10-08/DELIVERY-CONTRACT.md before any integration change.",
+    "status": "Muse setup and private Site routing complete; automatic delivery unconfigured",
+    "source_commit": "0e10aca7fc3b97724269f25fa0f76f1a397e6390",
+    "deployment_id": "appgdep_6ac79cd9e81c8191a5ab7371d2e9e1ec"
+  },
+  "muse_reporting": {
+    "schema": "temperance.handoff.v2",
+    "status": "11 native reporting routines active; initial aggregation verified; first timed execution pending",
+    "timestamp": "2026-10-08T14:05:46.898555+00:00",
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "isc_open": [],
+    "isc_done_count": 6,
+    "wave": "muse-reporting",
+    "tier": "E3",
+    "session_budget": "Same task completed; no native goal created",
+    "completed_tasks": [
+      "Nine exact daily remits connected to project/source locators",
+      "Nine daily Grok routines saved and active",
+      "Calliope daily digest and Monday review saved and active",
+      "Initial nine reports and combined digest read back",
+      "Saved ReadTranscript linkage and evidence refinement verified",
+      "Same private Field Report schedule published and read back"
+    ],
+    "remaining_tasks": [
+      "Observe first timed daily and Monday executions",
+      "Private Field Report authentication and bookmark live-sync remain separate integration gaps"
+    ],
+    "blockers": [
+      "Bots private Site401",
+      "Field Theory bookmark sync disconnected; Sept29cache only"
+    ],
+    "decisions": [
+      "Daily at09:35\u201309:59, digest10:15 andMonday10:30 Europe/Paris",
+      "Reporting only; exact publication approval remains separate",
+      "No refused-folder bypass, other Bot messages or paid X routine searches"
+    ],
+    "uncommitted_files": [
+      "ISA.md scoped receipt",
+      ".planning/HANDOFF.json scoped receipt",
+      "Historical presentation WIP retained"
+    ],
+    "next_action": "Use Calliope \u00b7 Field Theory chat for daily digest; retain visibility of missing/stale sources. Do not claim first timed execution until observed.",
+    "next_command": "Read docs/editorial/nine-muses-2026-10-08/REPORTING.json",
+    "site_source_commit": "d6b5ddcbcd58e908431f5be7ca62a1b38f94a490",
+    "deployment_id": "appgdep_6ac7a20226508191b20a8d8f1df101d1"
+  },
+  "temperance_handoff": {
+    "schema": "temperance.handoff.v2",
+    "updated_at": "2026-10-08T16:18:38.632529+00:00",
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "tier": "E3",
+    "wave": "HITL-publication-pilot",
+    "completed_tasks": [
+      "Actual Substack post219450210 public with email off",
+      "Approved visible copy and both return links match",
+      "Vault matrix and workflow sources read and hashed",
+      "Question/answer/outbox and receipt routes implemented; first16tests pass",
+      "Private Site final deployment succeeded",
+      "Real receipt, Euterpe question, Clio review persisted and UI verified",
+      "17checks pass; live human-answer service403",
+      "Existing digest routines updated without duplicate"
+    ],
+    "remaining_tasks": [],
+    "blockers": [
+      "Routed Build held prelaunch by host pressure; bounded direct fallback",
+      "Grok private Site401 and folder allowlist persist; native operator relay only"
+    ],
+    "decisions": [
+      "Reuse exact existing approval; no second approval",
+      "No fabricated live human question answers",
+      "No unattended publishing adapter claimed"
+    ],
+    "uncommitted_files": [
+      "ISA.md",
+      ".planning/HANDOFF.json",
+      "docs/editorial/nine-muses-2026-10-08/VAULT-SOURCE-LATTICE.json",
+      "docs/editorial/nine-muses-2026-10-08/PUBLICATION-RECEIPT.json",
+      ".sites/field-report owned implementation"
+    ],
+    "isc_open": [],
+    "isc_done_count": 337,
+    "next_action": "Pilot complete: post219450210 is already public. Await actual human next-companion answer; do not republish or invent answer. Unattended scoped Muse bridge remains future work.",
+    "next_command": "Read PILOT-VERIFICATION.json and current question before any next-companion continuation",
+    "session_budget": {
+      "context_checkpoint": "hard",
+      "native_goal": "active"
+    }
+  },
+  "writer_correction": {
+    "schema": "temperance.handoff.v2",
+    "completed_tasks": [
+      "Canonical writer skill/mirror read; current human style override explicit",
+      "141-record local contextual audit",
+      "849-word separate pilot revision and claim trace",
+      "Exact-payload writer review gate;16checks pass",
+      "Installed editorial skill copy updated",
+      "All11nativeMuse routine panels verified; daily preparation automation updated"
+    ],
+    "remaining_tasks": [
+      "Human review of exact pilot revision",
+      "Individual substantive archive revisions; no mass rewrite performed",
+      "Future Site-level writer-review gate remains distinct"
+    ],
+    "blockers": [
+      "Routed Build host-pressure prelaunch hold",
+      "Remote Muses cannot read local vault or private Site"
+    ],
+    "decisions": [
+      "Current human style overrides historical fingerprint templates",
+      "Pattern scan is contextual triage only",
+      "Original publication/approval preserved"
+    ],
+    "uncommitted_files": [
+      "Inherited presentation, ISA and structured handoff WIP retained; owned voice correction checkpointed"
+    ],
+    "next_action": "Review the concrete voice-revision candidate and continue individual archive revisions under the current writer contract; original public copy requires exact human revision approval.",
+    "next_command": "Read docs/editorial/voice-revision-2026-10-08/README.md",
+    "source_commit": "fb02e2f",
+    "status": "current preparation and reporting contract implemented; exact revision review remains human"
+  },
+  "next_action_before_editorial_2026_10_09": "Review the concrete voice-revision candidate and continue individual archive revisions under the current writer contract; original public copy requires exact human revision approval.",
+  "editorial_daily_2026_10_09": {
+    "schema": "temperance.handoff.v2",
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "tier": "E4",
+    "wave": "daily-editorial-preparation",
+    "session_budget": "bounded preparation; continue same objective across compaction",
+    "completed_tasks": [
+      "Current canonical writer/contract and10869 sources read and hashed",
+      "GitHub331repos/publiccommittriage;Vercel13changedprojectdetail/domain/deployment refresh",
+      "Two final exact candidates and canonical claim trace",
+      "Complete text/neighbour primary and independent review PASS",
+      "NativeSubstack11published/1scheduled/3drafts; preserved introduction and scheduledNotes",
+      "53payload/source/link/preservation checks pass"
+    ],
+    "remaining_tasks": [],
+    "blockers": [
+      "Complete portrait-film motion/sound review pending; held from publication review readiness",
+      "October6 Note exact public receipt unresolved"
+    ],
+    "decisions": [
+      "No publication or schedule authority",
+      "Existing same-kernel drafts are alternatives; no catch-up",
+      "Public source inspection is not live product acceptance"
+    ],
+    "uncommitted_files": [
+      "ISA.md additive receipt; original dirty bytes retained",
+      ".planning/HANDOFF.json additive checkpoint; original fields retained"
+    ],
+    "next_action": "Review October9 exact Reddit candidate in cross-brand-2026-10-09/TODAY.md. Instagram remains held for complete film motion/sound review. Any submission requires a separate direct human authorization for the unchanged exact item; preparation confers no approval. MondayOctober12 prepare weekly calendar; reconcile exactOctober6Note read-only without resubmission.",
+    "next_command": "Open docs/editorial/cross-brand-2026-10-09/TODAY.md for human review",
+    "isc_open": [],
+    "isc_done_count": 9,
+    "updated_at": "2026-10-09T08:15:35.422053+00:00",
+    "verification": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-09/VERIFICATION.json",
+    "packet_commit": "1dbb21e2674cf6203dd1acf916d1ff96d40ee39c"
+  },
+  "voice_full_read": {
+    "schema": "temperance.handoff.v2",
+    "completed_tasks": [
+      "Read all16 writer-package files and full available brand voice/messaging guides",
+      "Compared8 current blog files,2 earlier repository versions and1 recent revision",
+      "Saved source-linked findings and hash inventory; verified source hashes and links"
+    ],
+    "remaining_tasks": [],
+    "blockers": [],
+    "decisions": [
+      "Read and compare only; do not change public articles or skill governance",
+      "Preserve technical imagery and humour; reject repetitive template imitation"
+    ],
+    "uncommitted_files": [
+      "ISA.md and handoff additive updates; inherited WIP preserved"
+    ],
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "isc_open": [],
+    "isc_done_count": 313,
+    "wave": "full-writer-reading",
+    "tier": "E3",
+    "session_budget": "Continue across compaction",
+    "next_action": "Full voice reading complete; use the source-linked findings for subsequent human-directed editorial work",
+    "next_command": "Read docs/editorial/voice-reading-2026-10-09/READING.md before the next prose revision",
+    "limitations": [
+      "Referenced06-copy-style-guide.md absent; no substitute invented",
+      "Selected close reading, not all archive articles"
+    ]
+  },
   "writer_refresh": {
     "schema": "temperance.handoff.v2",
     "completed_tasks": [
@@ -571,10 +1065,7 @@
     "verification": "docs/editorial/corpus-refresh-2026-10-09/VERIFICATION.json",
     "candidate_set_sha256": "6185b19848642b2a2c37e5870efa4b455ba1e5ee534192c7bfb9cee9671f3bb9"
   },
-  "next_command": "Open private pilot Questions page",
-  "wave": "four-month-writer-refresh-complete",
-  "updated_at": "2026-10-09T10:06:06.679090+00:00",
-  "schema": "temperance.handoff.v2",
+  "previous_next_action_before_writer_refresh_complete": "Continue primary planning-draft revisions while three prose batches run; collect all111 per-piece reviews before finishing",
   "substack_older_review": {
     "status": "complete-local-review",
     "completed_tasks": [
@@ -693,5 +1184,42 @@
     "isc_open": [],
     "isc_done_count": 18,
     "updated_at": "2026-10-09T12:03:41.982557+00:00"
+  },
+  "repository_reconciliation": {
+    "schema": "temperance.handoff.v2",
+    "isa": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/ISA.md",
+    "completed_tasks": [
+      "Committed reviewedarticlepresentation2144a81",
+      "Localremote/socialhistorymergesc11a7ce/5557166",
+      "Canonicalwriter95491794c committed without unrelatedvaultindex",
+      "148snapshotfiles/9recoverytags/verifiedcompletebundle preserved",
+      "Fourcheckoutsremoved/twostalemissingregistrationspruned/twobranchaliasesremoved",
+      "ConnectedMOC446nodes/1104edges plus vaultnavigationentry",
+      "Source/build/tests/graph/recovery/queuechecks pass",
+      "Independent native audit PASS; exact vault index baseline digest still matches"
+    ],
+    "remaining_tasks": [
+      "Pinned socialworktree retained; unpin through Codex before archive if desired",
+      "Remote push/PR reconciliation remains separate; no remote mutation",
+      "Held publishingpilot awaits exact human editorial decision"
+    ],
+    "blockers": [
+      "Codex archive_worktree rejected protected socialcheckout",
+      "Advisor quota429; no judgment claimed"
+    ],
+    "decisions": [
+      "Recovery before cleanup",
+      "Map fullportfolio metadata without claimingallruntimeintegration",
+      "Preserve unrelated1525stagedvaultpaths"
+    ],
+    "isc_open": [],
+    "isc_done_count": 12,
+    "wave": "repository-reconciliation",
+    "tier": "E5",
+    "session_budget": "Bounded source reconciliation and connected navigation",
+    "uncommitted_files": [],
+    "next_action": "Open connected ecosystem MOC; keep pinned worktree intact until user unpins its workspace.",
+    "next_command": "python3 docs/ecosystem/validate_map.py",
+    "updated_at": "2026-10-09T12:16:45.701153+00:00"
   }
 }
