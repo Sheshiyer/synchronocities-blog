@@ -1,0 +1,368 @@
+{
+  "schema": "noesis.albedo.v2.3",
+  "raw_source_extraction": "Blind claim extraction from complete film README/relevant public source patches/full regression source before writing candidates. Extracted scene sequence, empty-description and original-authorship boundaries; source coverage compared after complete draft read.",
+  "coverage": "Every material public assertion mapped; questions are invitations, not claims. No private lived scene, outcome, licensed text or mechanism used.",
+  "claims": [
+    {
+      "claim_id": "TS1",
+      "exact_text": "Temperance Engine is part of my work at Thoughtseed on local agent operation.",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "ATTRIBUTED",
+      "evidence": [
+        {
+          "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/10869-space-v1/src/content/identity.ts",
+          "sha256": "277c75c33bddc8cb7056ffe2d076f738e13cff4aff554d69702d66f2fde51257",
+          "role": "Author-designated public identity foundation",
+          "url": null,
+          "read_scope": "Complete file read"
+        },
+        {
+          "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md",
+          "sha256": "98cb6143966b3757f9ba31c15ba491baa04382c2fa65d89d151920cd3e647082",
+          "role": "Author-designated brand roster; editorial affiliation only",
+          "url": null,
+          "read_scope": "Complete file read"
+        }
+      ],
+      "evidence_rationale": "Author-designated public identity and brand roster establish editorial affiliation, without legal ownership inference.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [],
+      "transformation": null,
+      "noesis_authorship": null,
+      "public_disclosure": "Source claim stays bounded to supplied artifact or public code; no live acceptance inferred"
+    },
+    {
+      "claim_id": "TS2",
+      "exact_text": "This 15-second portrait motion study follows a task through seven phases, a routing handoff and a sequence of checks.",
+      "claim_mode": "DIRECT-OBSERVATION",
+      "evidence_status": "VERIFIED",
+      "evidence": [
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/temperance-showreel-public-README.md",
+          "sha256": "6decf0f26c61fba54768527add4995cb5dd0ad0f047e5cc9f2bb4c9ef20cb626",
+          "role": "Public film construction and scene sequence",
+          "url": "https://github.com/Sheshiyer/temperance_engine/blob/main/package/showreel/README.md",
+          "read_scope": "Complete file read"
+        }
+      ],
+      "evidence_rationale": "Primary read complete public film README and contact-sheet frames; asset bytes match prior decode manifest. This verifies scene description only; playback/sound disclosure review stays open.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [],
+      "transformation": null,
+      "noesis_authorship": null,
+      "public_disclosure": "Source claim stays bounded to supplied artifact or public code; no live acceptance inferred"
+    },
+    {
+      "claim_id": "TS3",
+      "exact_text": "The counters and success states are animated examples.",
+      "claim_mode": "DIRECT-OBSERVATION",
+      "evidence_status": "VERIFIED",
+      "evidence": [
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/temperance-showreel-public-README.md",
+          "sha256": "6decf0f26c61fba54768527add4995cb5dd0ad0f047e5cc9f2bb4c9ef20cb626",
+          "role": "Public film construction and scene sequence",
+          "url": "https://github.com/Sheshiyer/temperance_engine/blob/main/package/showreel/README.md",
+          "read_scope": "Complete file read"
+        }
+      ],
+      "evidence_rationale": "README rendering sequence and sampled gauge/console frames identify animation; no real routing success inferred.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [],
+      "transformation": null,
+      "noesis_authorship": null,
+      "public_disclosure": "Source claim stays bounded to supplied artifact or public code; no live acceptance inferred"
+    },
+    {
+      "claim_id": "TS4",
+      "exact_text": "The pacing is the design question here: a phase has to remain on screen long enough to be read while the sequence keeps moving.",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "evidence": [
+        "TS2",
+        "TS3"
+      ],
+      "evidence_rationale": "Proposed design criterion; readability remains a question, not a measured result.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [
+        "TS2",
+        "TS3"
+      ],
+      "transformation": "Compare finite scene sequence with required reading time; ask for feedback without claiming audience evidence.",
+      "noesis_authorship": "Noesis-authored proposal prepared for Shesh Iyer; author adoption pending",
+      "public_disclosure": "The pacing is the design question here"
+    },
+    {
+      "claim_id": "TN1",
+      "exact_text": "I’m building Selemene as part of Tryambakam Noesis.",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "ATTRIBUTED",
+      "evidence": [
+        {
+          "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/10869-space-v1/src/content/identity.ts",
+          "sha256": "277c75c33bddc8cb7056ffe2d076f738e13cff4aff554d69702d66f2fde51257",
+          "role": "Author-designated public identity foundation",
+          "url": null,
+          "read_scope": "Complete file read"
+        },
+        {
+          "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md",
+          "sha256": "98cb6143966b3757f9ba31c15ba491baa04382c2fa65d89d151920cd3e647082",
+          "role": "Author-designated brand roster; editorial affiliation only",
+          "url": null,
+          "read_scope": "Complete file read"
+        }
+      ],
+      "evidence_rationale": "Author-designated brand roster and identity foundation; public repository verifies project existence.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [],
+      "transformation": null,
+      "noesis_authorship": null,
+      "public_disclosure": "Source claim stays bounded to supplied artifact or public code; no live acceptance inferred"
+    },
+    {
+      "claim_id": "TN2",
+      "exact_text": "A recent change in its public Gene Keys code separates short labels from the fuller meanings that are unavailable in the supplied material.",
+      "claim_mode": "DIRECT-OBSERVATION",
+      "evidence_status": "VERIFIED",
+      "evidence": [
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/f804c6970df5-commit.json",
+          "sha256": "74e0bf1293cc4f46d58f50fcf31e8797e486e7b3420bc851e30b4239ec426d38",
+          "role": "Public commit with source changes",
+          "url": "https://github.com/Sheshiyer/Selemene-engine/commit/f804c6970df5",
+          "read_scope": "Commit metadata and engine serialization/frequency/wisdom patches read; not a full ten-file code audit"
+        },
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/public_labels_regression.rs",
+          "sha256": "f72a9ac79f862722b36da8503f0e682c7414fc78d554b21104d920437f415726",
+          "role": "Full public regression source read; tests inspected, not executed",
+          "url": "https://github.com/Sheshiyer/Selemene-engine/blob/f804c6970df5/crates/engine-gene-keys/tests/public_labels_regression.rs",
+          "read_scope": "Complete file read"
+        }
+      ],
+      "evidence_rationale": "Primary read current public commit metadata, relevant serializer patches and full regression source. Description is about committed code, not deployed behavior.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [],
+      "transformation": null,
+      "noesis_authorship": null,
+      "public_disclosure": "Source claim stays bounded to supplied artifact or public code; no live acceptance inferred"
+    },
+    {
+      "claim_id": "TN3",
+      "exact_text": "Those description fields remain empty",
+      "claim_mode": "DIRECT-OBSERVATION",
+      "evidence_status": "VERIFIED",
+      "evidence": [
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/public_labels_regression.rs",
+          "sha256": "f72a9ac79f862722b36da8503f0e682c7414fc78d554b21104d920437f415726",
+          "role": "Full public regression source read; tests inspected, not executed",
+          "url": "https://github.com/Sheshiyer/Selemene-engine/blob/f804c6970df5/crates/engine-gene-keys/tests/public_labels_regression.rs",
+          "read_scope": "Complete file read"
+        }
+      ],
+      "evidence_rationale": "Full regression source explicitly asserts empty descriptions and serialized nulls; no test execution claimed.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [],
+      "transformation": null,
+      "noesis_authorship": null,
+      "public_disclosure": "Source claim stays bounded to supplied artifact or public code; no live acceptance inferred"
+    },
+    {
+      "claim_id": "TN4",
+      "exact_text": "the code identifies Selemene’s reflection questions as its own writing.",
+      "claim_mode": "DIRECT-OBSERVATION",
+      "evidence_status": "VERIFIED",
+      "evidence": [
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/f804c6970df5-commit.json",
+          "sha256": "74e0bf1293cc4f46d58f50fcf31e8797e486e7b3420bc851e30b4239ec426d38",
+          "role": "Public commit with source changes",
+          "url": "https://github.com/Sheshiyer/Selemene-engine/commit/f804c6970df5",
+          "read_scope": "Commit metadata and engine serialization/frequency/wisdom patches read; not a full ten-file code audit"
+        },
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/public_labels_regression.rs",
+          "sha256": "f72a9ac79f862722b36da8503f0e682c7414fc78d554b21104d920437f415726",
+          "role": "Full public regression source read; tests inspected, not executed",
+          "url": "https://github.com/Sheshiyer/Selemene-engine/blob/f804c6970df5/crates/engine-gene-keys/tests/public_labels_regression.rs",
+          "read_scope": "Complete file read"
+        }
+      ],
+      "evidence_rationale": "Serializer and regression identify recognition_prompts_source as selemene_original_questions_not_author_text.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [],
+      "transformation": null,
+      "noesis_authorship": null,
+      "public_disclosure": "Source claim stays bounded to supplied artifact or public code; no live acceptance inferred"
+    },
+    {
+      "claim_id": "TN5",
+      "exact_text": "A heading can look complete on a screen even when it gives very little context.",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "evidence": [
+        "TN2",
+        "TN3"
+      ],
+      "evidence_rationale": "Conditional design concern, not a measured usability finding.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [
+        "TN2",
+        "TN3"
+      ],
+      "transformation": "Distinguish presence of heading from availability of fuller explanation.",
+      "noesis_authorship": "Noesis-authored proposal prepared for Shesh Iyer; author adoption pending",
+      "public_disclosure": "can look complete"
+    },
+    {
+      "claim_id": "TN6",
+      "exact_text": "For a reader-facing version, I would put the source link beside the available label and explain what is absent at the point where someone expects to read more.",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "evidence": [
+        "TN2",
+        "TN3"
+      ],
+      "evidence_rationale": "Explicit prospective treatment; no existing UI claim.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [
+        "TN2",
+        "TN3"
+      ],
+      "transformation": "Turn source-presence boundary into a visible link and local explanation of absence.",
+      "noesis_authorship": "Noesis-authored proposal prepared for Shesh Iyer; author adoption pending",
+      "public_disclosure": "For a reader-facing version, I would"
+    },
+    {
+      "claim_id": "TN7",
+      "exact_text": "An original reflection question could occupy its own section, with its authorship stated.",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "evidence": [
+        "TN4"
+      ],
+      "evidence_rationale": "Proposal preserves original/source authorship distinction.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [
+        "TN4"
+      ],
+      "transformation": "Carry separate provenance into separate presentation.",
+      "noesis_authorship": "Noesis-authored proposal prepared for Shesh Iyer; author adoption pending",
+      "public_disclosure": "could occupy"
+    },
+    {
+      "claim_id": "TN8",
+      "exact_text": "This is a proposed screen treatment. The public evidence here is the source change.",
+      "claim_mode": "DIRECT-OBSERVATION",
+      "evidence_status": "VERIFIED",
+      "evidence": [
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/f804c6970df5-commit.json",
+          "sha256": "74e0bf1293cc4f46d58f50fcf31e8797e486e7b3420bc851e30b4239ec426d38",
+          "role": "Public commit with source changes",
+          "url": "https://github.com/Sheshiyer/Selemene-engine/commit/f804c6970df5",
+          "read_scope": "Commit metadata and engine serialization/frequency/wisdom patches read; not a full ten-file code audit"
+        }
+      ],
+      "evidence_rationale": "Review scope is source observation and authored proposal; live frontend not inspected or claimed.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [],
+      "transformation": null,
+      "noesis_authorship": null,
+      "public_disclosure": "Source claim stays bounded to supplied artifact or public code; no live acceptance inferred"
+    },
+    {
+      "claim_id": "TN9",
+      "exact_text": "Someone may choose to work with a short label, look for the author’s explanation, or leave the reading unfinished.",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "evidence": [
+        "TN2",
+        "TN3",
+        "TN6"
+      ],
+      "evidence_rationale": "Possible choices; no claim about actual readers or their outcomes.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [
+        "TN2",
+        "TN3",
+        "TN6"
+      ],
+      "transformation": "Identify optional reader actions under incomplete source availability.",
+      "noesis_authorship": "Noesis-authored proposal prepared for Shesh Iyer; author adoption pending",
+      "public_disclosure": "may choose"
+    },
+    {
+      "claim_id": "TN10",
+      "exact_text": "The tool needs to make the available material clear enough for that choice.",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "evidence": [
+        "TN6",
+        "TN7",
+        "TN9"
+      ],
+      "evidence_rationale": "Normative design aim; leaves symbolic interpretation and empirical validity open.",
+      "math_role": "NONE",
+      "remediation": [
+        "KEEP"
+      ],
+      "ingredients": [
+        "TN6",
+        "TN7",
+        "TN9"
+      ],
+      "transformation": "Connect visibility of source limits with informed selection of reader action.",
+      "noesis_authorship": "Noesis-authored proposal prepared for Shesh Iyer; author adoption pending",
+      "public_disclosure": "Proposed treatment in preceding paragraph"
+    }
+  ],
+  "payloads": {
+    "TS-IG-20261009-PHASE-READABILITY": "481ed3379d2d1bc86e84413ed41b56d3b4750524cb5f483c1f725460bdd0e91b",
+    "TN-R-20261009-UNAVAILABLE-SOURCES": "f1396eba0915c2b40c07c09802ea82613cce93c9863a28523118921e63fde968"
+  },
+  "unresolved_media_hold": [
+    "Complete motion and soundtrack review remains outstanding; contact-sheet inspection and inherited decode receipt do not clear it."
+  ]
+}

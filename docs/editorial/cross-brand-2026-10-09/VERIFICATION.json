@@ -1,0 +1,408 @@
+{
+  "schema": "editorial.preparation-verification.v1",
+  "verified_at": "2026-10-09T08:15:01.824478+00:00",
+  "operation": "preparation-only",
+  "isa_criteria": [
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352
+  ],
+  "result": "PASS",
+  "checks": [
+    {
+      "check": "TS-IG-20261009-PHASE-READABILITY exact payload",
+      "pass": true,
+      "details": "481ed3379d2d1bc86e84413ed41b56d3b4750524cb5f483c1f725460bdd0e91b"
+    },
+    {
+      "check": "TS-IG-20261009-PHASE-READABILITY body hash",
+      "pass": true,
+      "details": "fa15685d797a63672e468af5c72e0d3f20eaab0c9045effa08ba63e6dc10f6a3"
+    },
+    {
+      "check": "TS-IG-20261009-PHASE-READABILITY review binding",
+      "pass": true,
+      "details": "held-for-media-review"
+    },
+    {
+      "check": "TS-IG-20261009-PHASE-READABILITY TODAY exact",
+      "pass": true,
+      "details": "Rendered exact body and final hash present"
+    },
+    {
+      "check": "TS-IG-20261009-PHASE-READABILITY source/media temperance-showreel-public-README.md",
+      "pass": true,
+      "details": "6decf0f26c61fba54768527add4995cb5dd0ad0f047e5cc9f2bb4c9ef20cb626"
+    },
+    {
+      "check": "TS-IG-20261009-PHASE-READABILITY source/media identity.ts",
+      "pass": true,
+      "details": "277c75c33bddc8cb7056ffe2d076f738e13cff4aff554d69702d66f2fde51257"
+    },
+    {
+      "check": "TS-IG-20261009-PHASE-READABILITY source/media README.md",
+      "pass": true,
+      "details": "98cb6143966b3757f9ba31c15ba491baa04382c2fa65d89d151920cd3e647082"
+    },
+    {
+      "check": "TS-IG-20261009-PHASE-READABILITY source/media temperance-showreel-9x16.mp4",
+      "pass": true,
+      "details": "e6b5da90b6c70faea21e941c31b7ddde46028af02a1e1ec5beeb1e228f26386a"
+    },
+    {
+      "check": "TN-R-20261009-UNAVAILABLE-SOURCES exact payload",
+      "pass": true,
+      "details": "f1396eba0915c2b40c07c09802ea82613cce93c9863a28523118921e63fde968"
+    },
+    {
+      "check": "TN-R-20261009-UNAVAILABLE-SOURCES body hash",
+      "pass": true,
+      "details": "f0a6cc8db32e365bbd44c2d5a07384d33c0c5cd98abaa1f27d9d1822250e323a"
+    },
+    {
+      "check": "TN-R-20261009-UNAVAILABLE-SOURCES review binding",
+      "pass": true,
+      "details": "ready-for-human-review"
+    },
+    {
+      "check": "TN-R-20261009-UNAVAILABLE-SOURCES TODAY exact",
+      "pass": true,
+      "details": "Rendered exact body and final hash present"
+    },
+    {
+      "check": "TN-R-20261009-UNAVAILABLE-SOURCES source/media public_labels_regression.rs",
+      "pass": true,
+      "details": "f72a9ac79f862722b36da8503f0e682c7414fc78d554b21104d920437f415726"
+    },
+    {
+      "check": "TN-R-20261009-UNAVAILABLE-SOURCES source/media f804c6970df5-commit.json",
+      "pass": true,
+      "details": "74e0bf1293cc4f46d58f50fcf31e8797e486e7b3420bc851e30b4239ec426d38"
+    },
+    {
+      "check": "TN-R-20261009-UNAVAILABLE-SOURCES source/media identity.ts",
+      "pass": true,
+      "details": "277c75c33bddc8cb7056ffe2d076f738e13cff4aff554d69702d66f2fde51257"
+    },
+    {
+      "check": "TN-R-20261009-UNAVAILABLE-SOURCES source/media README.md",
+      "pass": true,
+      "details": "98cb6143966b3757f9ba31c15ba491baa04382c2fa65d89d151920cd3e647082"
+    },
+    {
+      "check": "Source authority manifest hashes",
+      "pass": true,
+      "details": 22
+    },
+    {
+      "check": "Claim trace exact payload map",
+      "pass": true,
+      "details": 14
+    },
+    {
+      "check": "Media hold retained",
+      "pass": true,
+      "details": "Complete motion/sound review unresolved"
+    },
+    {
+      "check": "No agent approval",
+      "pass": true,
+      "details": "No approval; exact packet must first be presented to human"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/SiteHeader.astro",
+      "pass": true,
+      "details": "17e43a41630cb13e7b6f169dec4651bf215569bf543e8ea63f17b4c7c42b3ab7"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/non-card/NonCardArticleShell.astro",
+      "pass": true,
+      "details": "bac943737cf80ff3d3e7faa5be8656af08458fd95c51042c1969add7aebaa90d"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/lighted-clearing-loka-akshara-dhi.md",
+      "pass": true,
+      "details": "c1ac15909434cefa80e05c8c582679fe13075face739c60b497b7807ddeb95a9"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/index.astro",
+      "pass": true,
+      "details": "a9891c9a8677ebd1c4a48e6ff3fce290db93daed15a255a4ad07cbd2efd267bc"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/posts/[...slug].astro",
+      "pass": true,
+      "details": "cba77e20da9e444c0bdcb2602111364f37b9e467cff69e74415559029bfc6e2d"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/styles/global.css",
+      "pass": true,
+      "details": "574caf2c70c4a9661d70310036ffd8677963d201171dabc31f6fb315baab7f49"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/.planning/HANDOFF.json.18747.tmp",
+      "pass": true,
+      "details": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/lighted-clearing-substack-review-2026-10-07.md",
+      "pass": true,
+      "details": "27b6439b53f82254c0ebb5fbc99a3dc1542f80d37a3d01c390fc36b0444cbd90"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/ArticleConversation.astro",
+      "pass": true,
+      "details": "ff7f8917436dfaf6cdeb7e4d3b1b7ae9276a9f39a1b305630983498d0af0cdf6"
+    },
+    {
+      "check": "Preserved /Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/NoesisDiscovery.astro",
+      "pass": true,
+      "details": "a2a873964c99fc447d7b2fa08632d19bdf14eefe217f683eb12e284879413a5e"
+    },
+    {
+      "check": "Preserved /Users/sheshnarayaniyer/.codex/editorial/tryambakam/queue.json",
+      "pass": true,
+      "details": "6a8d55c28747bec61f6bff6847f458193afa5bb3028eae103755ac82164d2b67"
+    },
+    {
+      "check": "Original ISA byte prefix retained",
+      "pass": true,
+      "details": "Additive criteria only; historical checkboxes retained"
+    },
+    {
+      "check": "Original handoff fields retained",
+      "pass": true,
+      "details": "Original next_action saved separately; isc_open refreshed from additive ISA criteria; new nested checkpoint only"
+    },
+    {
+      "check": "Local review link TODAY.md",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-09/TODAY.md"
+    },
+    {
+      "check": "Local review link items.json",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-09/items.json"
+    },
+    {
+      "check": "Local review link temperance-showreel-9x16.mp4",
+      "pass": true,
+      "details": "/Users/sheshnarayaniyer/Downloads/temperance-showreel-9x16.mp4"
+    },
+    {
+      "check": "Local review link WRITER-REVIEW.json",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-09/WRITER-REVIEW.json"
+    },
+    {
+      "check": "Local review link daily-candidates-albedo-ledger.json",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-09/daily-candidates-albedo-ledger.json"
+    },
+    {
+      "check": "Local review link source-manifest.json",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-09/source-manifest.json"
+    },
+    {
+      "check": "Local review link evidence",
+      "pass": true,
+      "details": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence"
+    },
+    {
+      "check": "Local review link account-and-substack-readback.json",
+      "pass": true,
+      "details": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/account-and-substack-readback.json"
+    },
+    {
+      "check": "Local review link 2026-10-06-linkedin-sapling-field-notes.md",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/thoughtseed/thoughtseed-labs/20-operations/growth/2026-10-06-linkedin-sapling-field-notes.md"
+    },
+    {
+      "check": "Local review link temperance-showreel-9x16.mp4",
+      "pass": true,
+      "details": "/Users/sheshnarayaniyer/Downloads/temperance-showreel-9x16.mp4"
+    },
+    {
+      "check": "Local review link README.md",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md"
+    },
+    {
+      "check": "Local review link temperance-showreel-public-README.md",
+      "pass": true,
+      "details": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/temperance-showreel-public-README.md"
+    },
+    {
+      "check": "Local review link identity.ts",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/10869-space-v1/src/content/identity.ts"
+    },
+    {
+      "check": "Local review link README.md",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md"
+    },
+    {
+      "check": "Local review link README.md",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md"
+    },
+    {
+      "check": "Local review link public_labels_regression.rs",
+      "pass": true,
+      "details": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/public_labels_regression.rs"
+    },
+    {
+      "check": "Local review link f804c6970df5-commit.json",
+      "pass": true,
+      "details": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/f804c6970df5-commit.json"
+    },
+    {
+      "check": "Local review link identity.ts",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/10869-space-v1/src/content/identity.ts"
+    },
+    {
+      "check": "Local review link README.md",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md"
+    },
+    {
+      "check": "Local review link WRITER-REVIEW.json",
+      "pass": true,
+      "details": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-09/WRITER-REVIEW.json"
+    }
+  ],
+  "preservation": [
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/SiteHeader.astro",
+      "before_sha256": "17e43a41630cb13e7b6f169dec4651bf215569bf543e8ea63f17b4c7c42b3ab7",
+      "after_sha256": "17e43a41630cb13e7b6f169dec4651bf215569bf543e8ea63f17b4c7c42b3ab7",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/non-card/NonCardArticleShell.astro",
+      "before_sha256": "bac943737cf80ff3d3e7faa5be8656af08458fd95c51042c1969add7aebaa90d",
+      "after_sha256": "bac943737cf80ff3d3e7faa5be8656af08458fd95c51042c1969add7aebaa90d",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/lighted-clearing-loka-akshara-dhi.md",
+      "before_sha256": "c1ac15909434cefa80e05c8c582679fe13075face739c60b497b7807ddeb95a9",
+      "after_sha256": "c1ac15909434cefa80e05c8c582679fe13075face739c60b497b7807ddeb95a9",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/index.astro",
+      "before_sha256": "a9891c9a8677ebd1c4a48e6ff3fce290db93daed15a255a4ad07cbd2efd267bc",
+      "after_sha256": "a9891c9a8677ebd1c4a48e6ff3fce290db93daed15a255a4ad07cbd2efd267bc",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/pages/posts/[...slug].astro",
+      "before_sha256": "cba77e20da9e444c0bdcb2602111364f37b9e467cff69e74415559029bfc6e2d",
+      "after_sha256": "cba77e20da9e444c0bdcb2602111364f37b9e467cff69e74415559029bfc6e2d",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/styles/global.css",
+      "before_sha256": "574caf2c70c4a9661d70310036ffd8677963d201171dabc31f6fb315baab7f49",
+      "after_sha256": "574caf2c70c4a9661d70310036ffd8677963d201171dabc31f6fb315baab7f49",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/.planning/HANDOFF.json.18747.tmp",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/lighted-clearing-substack-review-2026-10-07.md",
+      "before_sha256": "27b6439b53f82254c0ebb5fbc99a3dc1542f80d37a3d01c390fc36b0444cbd90",
+      "after_sha256": "27b6439b53f82254c0ebb5fbc99a3dc1542f80d37a3d01c390fc36b0444cbd90",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/ArticleConversation.astro",
+      "before_sha256": "ff7f8917436dfaf6cdeb7e4d3b1b7ae9276a9f39a1b305630983498d0af0cdf6",
+      "after_sha256": "ff7f8917436dfaf6cdeb7e4d3b1b7ae9276a9f39a1b305630983498d0af0cdf6",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/components/NoesisDiscovery.astro",
+      "before_sha256": "a2a873964c99fc447d7b2fa08632d19bdf14eefe217f683eb12e284879413a5e",
+      "after_sha256": "a2a873964c99fc447d7b2fa08632d19bdf14eefe217f683eb12e284879413a5e",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/queue.json",
+      "before_sha256": "6a8d55c28747bec61f6bff6847f458193afa5bb3028eae103755ac82164d2b67",
+      "after_sha256": "6a8d55c28747bec61f6bff6847f458193afa5bb3028eae103755ac82164d2b67",
+      "unchanged": true
+    }
+  ],
+  "permitted_additive_changes": [
+    "ISA.md",
+    ".planning/HANDOFF.json"
+  ],
+  "external_actions": {
+    "publish": 0,
+    "schedule": 0,
+    "upload_media": 0,
+    "send_comment": 0,
+    "submit": 0,
+    "deploy": 0,
+    "dns_or_provider_access_change": 0,
+    "queue_mutation": 0
+  },
+  "external_action_evidence_scope": "Operator/tool history confirms read-only API/browser activity; no publication flow opened. Not a global audit of other sessions.",
+  "remote_coverage": {
+    "github_repositories": 331,
+    "public": 222,
+    "private": 109,
+    "forks": 15,
+    "changed_public_metadata": 37,
+    "changed_private_metadata": 24,
+    "changed_public_forks_held": 4,
+    "public_default_branches_triaged": 33,
+    "commit_rows_including_merge_parents": 42,
+    "vercel_projects": 63,
+    "changed_projects_fresh_details_domains_and_deployment": 13,
+    "latest_ready": 13,
+    "deployment_protection_enabled": 10,
+    "other_details_inherited": 50,
+    "substack": {
+      "published": 11,
+      "scheduled": 1,
+      "drafts": 3,
+      "scheduled_essay": "218233591 October15",
+      "introduction": "218232539 explicitly UNPUBLISHED",
+      "future_notes": "October10/13/17 preserved; inherited October7 native readback",
+      "october6_note": "unresolved; no resubmit"
+    }
+  },
+  "known_holds": [
+    "Instagram full film motion/sound review",
+    "Exact October6 Note read-only delivery receipt",
+    "Gananatha both long drafts",
+    "Consecration named source",
+    "Private/client/fork/unresolved disclosure requires exact human decision"
+  ],
+  "files": {
+    "daily-candidates-albedo-ledger.json": "6f2891fd0ed73937a6f82fccc731e7bf2df84338b78b70d80542d29182c476d8",
+    "items.json": "f1961c7869e7a8974d2cb25e5c56560ee3221b20390e7c04d13f5b9ef2327498",
+    "README.md": "ed4967b741c6d334598b9d58a4c3c428e1e176b1f79ac5cbbca2eb094d1d5792",
+    "source-manifest.json": "087417fceddcffee6628cb5d1c31dc6d7ea3ff3b0c6a0da95628878444b8cec9",
+    "TODAY.md": "d912388d7061b4e3bab9f24bcd730c3391968e2cd603b40d634f98b3e971882c",
+    "WRITER-REVIEW.json": "dfc50233c89e83d9ff6e95505608a9e242057600656649cfa87df2371e0f5a4f"
+  },
+  "tests": "Document/payload/source/preservation assertions only; no application build or deployment necessary for this local packet."
+}
