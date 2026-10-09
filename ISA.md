@@ -983,3 +983,35 @@ Decision: current clarification makes writer the upstream foundation, not an add
 Verification ISC-381–386: shared writer-foundation reference linked by main editorial skill and workflow/execution/concept entry points. Four installed references match exactly; installed main skill has equivalent entry. Existing daily preparation explicitly loads current canonical writer and contract; configuration unchanged and no run invoked. All 231 parity/preservation/entry checks PASS and17calendar regressions PASS. Canonical2.19.0 package/mirror unchanged; sourcecopy/queue/inherited WIP hashes retained. Remote profiles and UI integration not claimed.
 
 Changelog — writerfoundation: conjectured: a versioned writer alone ensures downstream continuity. Refuted by: operation references lacked an explicit handoff of relevant meaning and open questions into adaptations. Learned: one common entry reference makes the layer usable across operations without a parallel publishing system. Criterion now: load current foundation, carry selected meaning, review each exact adaptation, and retain existing publication authority.
+
+## Integrated understanding and daily publishing implementation — October 9
+
+Problem: prior writer uses chronological context and the publishing pipeline lacks executable vault/asset handoff and dynamic daily drafts.
+Vision: philosophical understanding appears naturally in meanings, arguments and images, backed by real portfolio sources and usable assets.
+Out of Scope: no bulk public archive rewrite, author belief timeline, private disclosure, autonomous approval, speculative resource migration or unattended Muse-access claim.
+Principles: human authorship and publication authority; source meanings preserved; semantic fidelity judged in complete prose; private/public boundaries explicit.
+Constraints: canonical writer/mirror parity; preserve inherited WIP and approvals; one daily story10:30Paris; existing private Site and publishing channels.
+Goal: implement accepted writer/retrieval/dynamic-review/daily schedule plan, validate three writing cases and present one end-to-end source/asset-backed pilot in Field Report.
+Features: writer integration; local retrieval/projection; Cloudflare asset review; dynamic Site draft storage; workflow gates; scheduled preparation; real pilot.
+Test strategy: whole-source coverage; semantic examples; canonical/mirror digests; source/asset mutation and path tests; Site API revision/auth/persistence tests; browser review; exact runtime schedule readback; preservation hashes.
+
+- [ ] ISC-387: Young book reading coverage and Substack source limits recorded.
+- [ ] ISC-388: Writer integrated reference explains assumptions, vocabulary and alchemical relationships.
+- [ ] ISC-389: Chronological drafting requirements removed from active writer workflow.
+- [ ] ISC-390: Annotated semantic examples and three complete validation cases supplied.
+- [ ] ISC-391: Canonical writer/mirror/versioned package hashes match.
+- [ ] ISC-392: Repository/vault/project projection preserves identities and coverage.
+- [ ] ISC-393: Cloudflare assets mapped with purpose, access, evidence and verified subset.
+- [ ] ISC-394: Direct retrieval produces bounded source-linked context bundles.
+- [ ] ISC-395: Current writer, context, media and exact-copy binding enforced on new drafts.
+- [ ] ISC-396: Dynamic drafts persist and appear without Site rebuild.
+- [ ] ISC-397: Existing static records and published receipts retain behavior.
+- [ ] ISC-398: Revision/conflict/idempotence/approval boundaries tested.
+- [ ] ISC-399: Current UI displays dynamic candidate context, media and writer findings.
+- [ ] ISC-400: Existing daily preparation changed to10:30Paris with one lead story.
+- [ ] ISC-401: Missing/stale Muse access and handoff status are explicit.
+- [ ] ISC-402: Pilot source/asset bundle and reviewed copy validated end-to-end.
+- [ ] ISC-403: Field Report private deployment and actual pilot readback verified.
+- [ ] ISC-404: Anti: public copy, existing queue approvals and unrelated WIP preserved.
+
+Decisions: user explicitly requests implementation of accepted plan; portfolio foundation and semantic fidelity replace timeline focus.18criteria cover independent deliverable probes rather than ceremonial256splits; depth supplied through fullbook reading, three bounded ownership lanes and real runtime verification. Route requests returned admitted=false/adapter=none exit125; no provider execution claimed. ContextSearch/FirstPrinciples/SystemsThinking/Science/ISA/ReReadCheck govern source-continuity, semantic ownership, transport constraints, failure probes and final acceptance.
