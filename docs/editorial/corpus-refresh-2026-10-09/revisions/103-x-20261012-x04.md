@@ -1,0 +1,1 @@
+A five-field record: trigger, signal, felt shift, action, story. “A request arrived” and “they needed an immediate answer” belong in different fields. I’m developing a worksheet that leaves room to say: I don’t know yet.

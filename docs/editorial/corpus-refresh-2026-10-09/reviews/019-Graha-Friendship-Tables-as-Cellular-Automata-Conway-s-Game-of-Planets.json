@@ -1,0 +1,103 @@
+{
+  "id": "019-Graha-Friendship-Tables-as-Cellular-Automata-Conway-s-Game-of-Planets",
+  "source_sha256": "ab53439fa9c1783def30007f99186dd36437190a1b5c3ce5b176596cc70640aa",
+  "candidate_sha256": "7951e12a79a1176f662579b7a5c95a5d77b646767bbce18a053dd289577c62b2",
+  "frontmatter_unchanged": true,
+  "skill_version": "2.18.0",
+  "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
+  "contract_sha256": "09b7e78e136e040c3d7def1880cb9f2aec6d5cc44a7cbe898cfc6dabef18aa52",
+  "reviewer": "revision_inventory / prose batch A",
+  "route": "C",
+  "state": "QUARANTINED",
+  "publication_status": "needs-human-review; no approval transferred",
+  "verdict": "needs-source-review",
+  "concrete_changes": [
+    {
+      "before": "This is not personality typing. This is a rule set. And rule sets, when applied iteratively across a grid of states, produce cellular automata.",
+      "after": "I want to read that relationship table as material for a rule set. To make it an automaton, I still have to specify states, neighbourhoods and an update rule.",
+      "reason": "Replace performed equivalence with actual modelling burden."
+    },
+    {
+      "before": "These values are not arbitrary. They represent the strength of constructive interference between planetary fields.",
+      "after": "The values encode the categories in this proposed model. They are not measurements of interference between planetary fields.",
+      "reason": "Separate chosen weights from unsupported empirical strength."
+    },
+    {
+      "before": "Mercury befriends everyone except the Moon.",
+      "after": "In the displayed Mercury row, Sun, Mercury and Venus have weight5; the other entries, including Moon, have weight4.",
+      "reason": "Repair prose inconsistent with the displayed matrix without claiming classical accuracy."
+    },
+    {
+      "before": "The Graha friendship matrix exhibits identical behavior. Nine planets. Three relationship types. A fixed rule set.",
+      "after": "The proposed Graha model starts with nine planets, three relationship types and a fixed table. Whether its update rules produce interesting behaviour has to be demonstrated.",
+      "reason": "Remove unproven identical-behaviour and fragment triad."
+    },
+    {
+      "before": "No two charts produce identical automata evolution, yet all charts follow the same fundamental rules.",
+      "after": "Different initial charts could be compared under the same specified rules; their evolution is a result to compute, not assume.",
+      "reason": "Remove universal uniqueness without computation."
+    },
+    {
+      "before": "The automaton's rules predict instability before it manifests.",
+      "after": "A working implementation would let us examine instability inside the model. It would not, by itself, predict upheaval in a life.",
+      "reason": "Bound predictive claim."
+    },
+    {
+      "before": "The language is different. The mathematics is the same.",
+      "after": "The comparison is useful if it makes the rule choices visible. A shared vocabulary of patterns is only the beginning of that work.",
+      "reason": "Replace interchangeable identity conclusion."
+    },
+    {
+      "before": "weight5",
+      "after": "weight 5",
+      "reason": "Repair spacing."
+    },
+    {
+      "before": "weight4",
+      "after": "weight 4",
+      "reason": "Repair spacing."
+    }
+  ],
+  "voice_preserved": [
+    "Game of Planets title,programmer vantage,code blocks,asymmetricgraph inquiry retained"
+  ],
+  "unresolved_findings": [
+    "Classical friendship-table attribution and Rahu/Ketu extensions require source review.",
+    "Unimplemented get_neighbor_values/apply_rules and unspecified state transition mean no demonstrated automaton or stability results.",
+    "Frontmatter still says identical to Conway; metadata preserved and publication held.",
+    "Quoted Systems Architect proverb is unverified attribution; retained exactly."
+  ],
+  "source_coverage": {
+    "scope": "Full supplied source snapshot and full revised candidate read; contextual literary and claim-boundary review. No independent historical, medical, traditional, autobiographical or empirical verification is claimed.",
+    "source_paths": [
+      "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/graha-friendship-cellular-automata.md",
+      "docs/editorial/corpus-refresh-2026-10-09/snapshots/019-Graha-Friendship-Tables-as-Cellular-Automata-Conway-s-Game-of-Planets.md"
+    ],
+    "blind_review": true,
+    "external_fact_verification": false,
+    "legacy_audit_certification": false
+  },
+  "material_claim_treatments": [
+    {
+      "span": "Weights5,4,0",
+      "mode": "HOUSE-MODEL",
+      "status": "UNSUPPORTED",
+      "math_role": "LOAD-BEARING",
+      "treatment": "Declared encoding; no empirical planetary-field strength claimed."
+    },
+    {
+      "span": "Conway equivalence and stability/yoga mappings",
+      "mode": "DERIVED-SYNTHESIS",
+      "status": "UNSUPPORTED",
+      "treatment": "Selected universal conclusions narrowed; remaining structural-equivalence passages require substantive model/source review."
+    }
+  ],
+  "validation": {
+    "frontmatter_byte_identity": true,
+    "source_snapshot_sha_matches_manifest": true,
+    "links_preserved": true,
+    "candidate_word_count": 1251,
+    "source_word_count": 1187,
+    "exact_change_trace_complete": true
+  }
+}

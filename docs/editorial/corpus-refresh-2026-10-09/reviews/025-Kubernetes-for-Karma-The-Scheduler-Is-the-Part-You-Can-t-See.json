@@ -1,0 +1,109 @@
+{
+  "id": "025-Kubernetes-for-Karma-The-Scheduler-Is-the-Part-You-Can-t-See",
+  "source_sha256": "1b95358d399f14b6f00b4f2d11c102cbb3b27f1a95386273bbfcc02ff542a12a",
+  "candidate_sha256": "c56cbddcc8e7c9f588aa867774699ba6014c594a14699a9cda133bbe9ebb41e8",
+  "frontmatter_unchanged": true,
+  "skill_version": "2.18.0",
+  "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
+  "contract_sha256": "09b7e78e136e040c3d7def1880cb9f2aec6d5cc44a7cbe898cfc6dabef18aa52",
+  "reviewer": "revision_inventory / prose batch A",
+  "route": "C",
+  "state": "QUARANTINED",
+  "publication_status": "needs-human-review; no approval transferred",
+  "verdict": "needs-source-review",
+  "concrete_changes": [
+    {
+      "before": "This was not a metaphor. This was a body in a room with a specific problem:",
+      "after": "The scene joins a body in a room to a software problem:",
+      "reason": "Stop claiming anecdotal verification through emphatic negation."
+    },
+    {
+      "before": "Remove Kha from that room and you get what most engineers do: stare at the crash log without noticing the pattern. Remove Ba and you get pure abstraction, someone who can describe the problem in Slack but cannot feel the knot forming in their own neck while they describe it. Remove La and you get someone who fixes the pod but never asks why their node keeps accepting a workload it cannot sustain. All three were present. All three were necessary. None of them were optional.\n",
+      "after": "The screen kept asking me to inspect the failure. The cold coffee and the knot in my neck were part of the inspection too.",
+      "reason": "Remove compulsory absence-of-poles demonstration."
+    },
+    {
+      "before": "These are not metaphors. They are configurations that execute as reliably as any YAML file.",
+      "after": "These are the metaphor's configurations: habitual expectations given the legibility of a YAML file.",
+      "reason": "Declare analogy and remove deterministic human-behaviour assertion."
+    },
+    {
+      "before": "Every time you observe the panic without changing the spec, you confirm the spec.",
+      "after": "Noticing a recurrence gives you something to examine; it does not make you responsible for causing the panic by observing it.",
+      "reason": "Remove clinically unsupported and blaming observation-causes-panic assertion."
+    },
+    {
+      "before": "The nervous system does not forget. Every `OOMKilled` event writes to the epigenetic ledger, modifies the horizontal pod autoscaler of the stress response, adjusts the resource requests for the next scheduled pod. The loop is metabolized into the hardware.",
+      "after": "An epigenetic ledger would take this image further than the evidence here allows. What the scene gives us is smaller and more tangible: lost sleep, cold coffee, the knot at C7, and another restart on the screen.",
+      "reason": "Remove unmeasured epigenetic mechanism while retaining material stakes."
+    },
+    {
+      "before": "Samādhi is not bliss. It is root access to the specification.",
+      "after": "Samādhi becomes the root-access image in this reading; that image cannot stand in for the term's traditional meanings.",
+      "reason": "Attribute invented mapping instead of redefining tradition."
+    },
+    {
+      "before": "The panic did not run. The pattern was not deleted. It was simply not requested.",
+      "after": "The next placement changed. What that software adjustment can tell me about panic remains a separate question.",
+      "reason": "Remove implied panic cure via configuration."
+    },
+    {
+      "before": "Both are describing the same structural fact: something determines where the action lands.",
+      "after": "I place the two quotations beside each other to ask where an action lands. Their different subjects and warrants remain.",
+      "reason": "Preserve exact quotes while removing claimed identity."
+    },
+    {
+      "before": ".\n## The Scheduler You Can't See",
+      "after": ".\n\n## The Scheduler You Can't See",
+      "reason": "Restore blank line before section heading; format only."
+    }
+  ],
+  "voice_preserved": [
+    "On-call scene,coldcoffee,C7,kubectl/CrashLoopBackOff and wheel/scheduler imagery retained",
+    "QuotedKubernetes/Upanishadpassages unchanged"
+  ],
+  "unresolved_findings": [
+    "Opening3:47AM/relationship/grandfather narrative needs author confirmation.",
+    "Kubernetes responsibilities are conflated:controller/kubelet/scheduler and resource-request scheduling examples require technical verification.",
+    "Traditional/Hermetic quotations and causal/metaphysical extensions unverified.",
+    "Remaining trauma/body-storage and anxiety metaphors need medical-source scrutiny; no clinical efficacy claimed."
+  ],
+  "source_coverage": {
+    "scope": "Full supplied source snapshot and full revised candidate read; contextual literary and claim-boundary review. No independent historical, medical, traditional, autobiographical or empirical verification is claimed.",
+    "source_paths": [
+      "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/kubernetes-for-karma.md",
+      "docs/editorial/corpus-refresh-2026-10-09/snapshots/025-Kubernetes-for-Karma-The-Scheduler-Is-the-Part-You-Can-t-See.md"
+    ],
+    "blind_review": true,
+    "external_fact_verification": false,
+    "legacy_audit_certification": false
+  },
+  "material_claim_treatments": [
+    {
+      "span": "Epigenetic ledger",
+      "mode": "EMPIRICAL-CORRELATE",
+      "status": "UNSUPPORTED",
+      "treatment": "Removed empirical mechanism."
+    },
+    {
+      "span": "Observation confirms panic specification",
+      "mode": "EMPIRICAL-CORRELATE",
+      "status": "UNSUPPORTED",
+      "treatment": "Removed blame and causal guarantee."
+    },
+    {
+      "span": "Human/YAML andSamadhi/root",
+      "mode": "DECLARED-METAPHOR",
+      "status": "DECLARED",
+      "treatment": "Declared mapping; no traditional or clinical equivalence certified."
+    }
+  ],
+  "validation": {
+    "frontmatter_byte_identity": true,
+    "source_snapshot_sha_matches_manifest": true,
+    "links_preserved": true,
+    "candidate_word_count": 2443,
+    "source_word_count": 2489,
+    "exact_change_trace_complete": true
+  }
+}
