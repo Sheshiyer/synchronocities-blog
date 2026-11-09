@@ -13,6 +13,8 @@ REF = Path(__file__).resolve().parents[1] / 'references'
 WRITER_CONTRACT_ID = 'noesis-writer-human-direction-2026-10-09-v4'
 WRITER_SKILL_VERSION = '2.20.0'
 WRITER_CONTRACT_PATH = Path('/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/WRITER-CONTRACT.md')
+MAX_INPUT_BYTES = 2_000_000
+MAX_QUEUE_BYTES = 16_000_000
 
 def writer_contract_hash():
     try:
@@ -21,11 +23,14 @@ def writer_contract_hash():
         raise ValueError('current writer contract source unavailable') from exc
 
 def atomic(path, value):
+    payload = json.dumps(value, ensure_ascii=False, indent=2).encode('utf-8')
+    if path.name == 'queue.json' and len(payload) > MAX_QUEUE_BYTES:
+        raise ValueError('queue too large')
     path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
     fd, tmp = tempfile.mkstemp(dir=path.parent)
     try:
-        with os.fdopen(fd, 'w') as out:
-            json.dump(value, out, ensure_ascii=False, indent=2); out.flush(); os.fsync(out.fileno())
+        with os.fdopen(fd, 'wb') as out:
+            out.write(payload); out.flush(); os.fsync(out.fileno())
         os.replace(tmp, path)
         d = os.open(path.parent, os.O_RDONLY); os.fsync(d); os.close(d)
     finally:
@@ -45,8 +50,10 @@ def lock(root, name):
 
 def load(path, default):
     if not path.exists(): return default
-    if path.stat().st_size > 2_000_000: raise ValueError('input too large')
-    return json.loads(path.read_text())
+    limit = MAX_QUEUE_BYTES if path.name == 'queue.json' else MAX_INPUT_BYTES
+    with path.open('rb') as source: raw = source.read(limit + 1)
+    if len(raw) > limit: raise ValueError('input too large')
+    return json.loads(raw)
 
 def plan(day, blog):
     date = dt.date.fromisoformat(day) if day else dt.datetime.now(PARIS).date()
@@ -141,11 +148,14 @@ def enqueue(root, packet):
     if review.get('verdict') != 'ready-for-human-review' or not review.get('reviewer') or review.get('source_coverage') is not True or review.get('unresolved_findings') != []:
         raise ValueError('unresolved or incomplete writer review')
     pipeline.validate_packet(row, WRITER_CONTRACT_PATH.parents[2], WRITER_CONTRACT_PATH)
+    if row.get('payload_version') == 2 and row.get('writer_policy') != {k: review.get(k) for k in queue.POLICY_KEYS}:
+        raise ValueError('writer policy differs from reviewed policy')
     for field in ('approved_by', 'approved_at', 'authorization_receipt', 'approved_payload_sha256'):
         if row.get(field): raise ValueError('draft cannot carry approval')
     probe = dict(row, status='approved', approved_by='validation', approved_at='1970-01-01T00:00:00+00:00', authorization_receipt='validation')
     probe['payload_sha256'] = probe['approved_payload_sha256'] = queue.digest(row)
-    reason = queue.check(probe, dt.datetime.max.replace(tzinfo=UTC))
+    validation_now = dt.datetime.now(UTC) if row.get('payload_version') == 2 and row.get('delivery_mode') == 'schedule' else dt.datetime.max.replace(tzinfo=UTC)
+    reason = queue.check(probe, validation_now, intent=queue.intent_for(row), check_due=row.get('payload_version') != 2)
     if reason: raise ValueError(reason)
     with lock(root, 'queue.lock') as state:
         data = load(state / 'queue.json', {'version': 1, 'items': []})
@@ -218,16 +228,22 @@ def preparation(root, command, blog, day=None, source_id=None, asset_manifest=No
     """One lead per day; repeat returns identical bundle or holds on changed inputs."""
     date = day or dt.datetime.now(PARIS).date().isoformat()
     evidence = load(Path(evidence_path), []) if evidence_path else []
+    contract = Path(blog).resolve() / 'docs/editorial/WRITER-CONTRACT.md'
+    if hashlib.sha256(contract.read_bytes()).hexdigest() != writer_contract_hash():
+        raise ValueError('selected blog contract differs from current writer authority')
     with lock(Path(root) / 'preparation', 'prepare.lock') as state:
-        dest = state / ('assignment-' + date + '.json')
-        previous = load(dest, None) if command == 'prepare-day' else None
+        product = command == 'prepare-product'
+        if product and not source_id: raise ValueError('explicit product source ID required')
+        name = 'product-' + hashlib.sha256(source_id.encode()).hexdigest()[:20] + '-' + date if product else 'assignment-' + date
+        dest = state / (name + '.json')
+        previous = load(dest, None) if command in ('prepare-day', 'prepare-product') else None
         observed = previous.get('observedAt') if previous else dt.datetime.now(UTC).isoformat()
-        projection = pipeline.inventory(blog, observed)
+        projection = None if product else pipeline.inventory(blog, observed)
         if command == 'refresh-inventory':
             result = projection
         else:
-            history = [load(p, {}) for p in sorted(state.glob('assignment-*.json')) if p != dest]
-            result = pipeline.prepare_day(blog,date,projection,observed,WRITER_CONTRACT_PATH,history,source_id,asset_manifest,evidence)
+            history = [] if product else [load(p, {}) for p in sorted(state.glob('assignment-*.json')) if p != dest]
+            result = pipeline.prepare_product(blog,date,source_id,observed,contract,asset_manifest) if product else pipeline.prepare_day(blog,date,projection,observed,contract,history,source_id,asset_manifest,evidence)
             if previous:
                 if previous != result: raise ValueError('prepared day inputs changed; retain old bundle and prepare an explicit new assignment after review')
             else: atomic(dest,result)
@@ -238,7 +254,7 @@ def preparation(root, command, blog, day=None, source_id=None, asset_manifest=No
 def main():
     p = argparse.ArgumentParser(description=__doc__); p.add_argument('--state', default='~/.codex/editorial/tryambakam'); sub = p.add_subparsers(dest='command', required=True)
     s = sub.add_parser('plan'); s.add_argument('--date'); s.add_argument('--blog-root', required=True)
-    for cmd in ('refresh-inventory', 'prepare-day'):
+    for cmd in ('refresh-inventory', 'prepare-day', 'prepare-product'):
         s = sub.add_parser(cmd); s.add_argument('--date'); s.add_argument('--blog-root', required=True); s.add_argument('--source-id'); s.add_argument('--asset-manifest'); s.add_argument('--project-evidence'); s.add_argument('--output')
     s = sub.add_parser('discover'); g = s.add_mutually_exclusive_group(required=True); g.add_argument('--fixture'); g.add_argument('--live', action='store_true')
     s = sub.add_parser('enqueue-draft'); s.add_argument('--packet', required=True)
@@ -247,7 +263,7 @@ def main():
     a = p.parse_args()
     try:
         if a.command == 'plan': result = plan(a.date, a.blog_root)
-        elif a.command in ('refresh-inventory', 'prepare-day'): result = preparation(a.state,a.command,a.blog_root,a.date,a.source_id,a.asset_manifest,a.project_evidence,a.output)
+        elif a.command in ('refresh-inventory', 'prepare-day', 'prepare-product'): result = preparation(a.state,a.command,a.blog_root,a.date,a.source_id,a.asset_manifest,a.project_evidence,a.output)
         elif a.command == 'discover': result = discover(a.state, a.fixture, a.live)
         elif a.command == 'enqueue-draft': result = enqueue(a.state, a.packet)
         elif a.command == 'publish': result = publish(a.state, a.id, a.submit)

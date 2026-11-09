@@ -146,4 +146,33 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(calls,['whoami']);self.assertEqual(self.status(),'draft')
     def test_identity_parser_rejects_profile(self):
         with self.assertRaises(ValueError):c.identity('@tester public profile')
+
+    def test_large_queue_roundtrip_keeps_other_input_limit(self):
+        prior=dict(self.row,context_bundle={'reviewed_source':'x'*2_050_000})
+        path=self.state/'queue.json';data={'version':1,'items':[prior]}
+        c.atomic(path,data)
+        self.assertGreater(path.stat().st_size,c.MAX_INPUT_BYTES)
+        self.assertEqual(c.load(path,{}),data)
+        draft=dict(self.row,id='new-draft',status='draft')
+        for key in ('approved_by','approved_at','authorization_receipt','approved_payload_sha256'):draft.pop(key,None)
+        draft['writer_review']={'contract':c.WRITER_CONTRACT_ID,'skill_version':c.WRITER_SKILL_VERSION,
+            'contract_sha256':c.writer_contract_hash(),'payload_sha256':c.queue.digest(draft),
+            'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
+        packet=self.root/'small-draft.json';c.atomic(packet,draft)
+        self.assertEqual(c.enqueue(self.state,packet)['status'],'draft')
+        self.assertEqual(c.load(path,{})['items'][0],prior)
+        self.assertEqual(len(c.load(path,{})['items']),2)
+        packet=self.root/'draft-packet.json';c.atomic(packet,prior)
+        with self.assertRaisesRegex(ValueError,'input too large'):c.load(packet,{})
+
+    def test_oversized_queue_write_preserves_old_bytes_before_replacement(self):
+        path=self.state/'queue.json';before=path.read_bytes()
+        files=set(self.state.iterdir())
+        oversized={'version':1,'items':[dict(self.row,context_bundle={'source':'é'*int(c.MAX_QUEUE_BYTES/2)})]}
+        with patch.object(c.os,'replace',wraps=c.os.replace) as replace:
+            with self.assertRaisesRegex(ValueError,'queue too large'):c.atomic(path,oversized)
+            replace.assert_not_called()
+        self.assertEqual(path.read_bytes(),before)
+        self.assertEqual(set(self.state.iterdir()),files)
+        self.assertEqual(c.load(path,{})['items'],[self.row])
 if __name__=='__main__':unittest.main()

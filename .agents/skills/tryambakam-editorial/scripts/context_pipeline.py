@@ -57,6 +57,30 @@ def source(path,roots,id,provenance,observed,access='publication-eligible',start
     passage={'start_byte':start,'end_byte':end,'start_line':data[:start].count(b'\n')+1,'end_line':data[:end].count(b'\n')+1,'text':text,'sha256':sha(data[start:end])}
     return {'id':id,'path':str(path),'sha256':sha(data),'access':access,'observedAt':observed,'provenance':provenance,'passages':[passage]}
 
+def product_grant(blog, item, kind):
+    """Only source-owned exact public files; caller labels never extend roots."""
+    catalog=Path(blog)/'docs/editorial/social-launches-2026-11-02/product-evidence-allowlist.json'
+    registry=read_json(catalog,{'records':[]})
+    key=item.get('product_authorization_id')
+    grant=next((x for x in registry.get('records',[]) if x.get('id')==key and x.get('kind')==kind),None)
+    if not grant or grant.get('reviewed') is not True or grant.get('access')!='publication-eligible' or not grant.get('reviewer') or not grant.get('authorization_scope') or not str(grant.get('public_source_url','')).startswith('https://'):
+        raise ValueError('reviewed public product file required')
+    if item.get('path')!=grant.get('path') or item.get('sha256')!=grant.get('sha256'):
+        raise ValueError('product file authorization mismatch')
+    path=Path(grant['path'])
+    if not path.is_absolute() or path.is_symlink() or not path.is_file():raise ValueError('invalid product file path')
+    if path.stat().st_size>(25_000_000 if kind=='media' else 8_000_000):raise ValueError('product file exceeds bound')
+    if sha(path.read_bytes())!=grant['sha256']:raise ValueError('product file changed')
+    return grant,{'id':key,'catalog_path':str(catalog.resolve()),'catalog_sha256':sha(catalog.read_bytes())}
+
+def product_source(blog, item, observed):
+    grant,binding=product_grant(blog,item,'evidence')
+    for key in ('start_byte','end_byte'):
+        if key in item and item[key]!=grant[key]:raise ValueError('product passage authorization mismatch')
+    result=source(grant['path'],[Path(grant['path']).parent],item['id'],item.get('provenance',{}),observed,start=grant['start_byte'],end=grant['end_byte'])
+    result['product_authorization']=binding
+    return result
+
 def scalar(text,key,default=''):
     m=re.search(r'^'+re.escape(key)+r':\s*(.*)$',text,re.M)
     return m[1].strip().strip('"\'') if m else default
@@ -122,11 +146,16 @@ def assets(manifest,blog,observed):
     for a in reg.get('assets',[]):
         if a.get('access')!='publication-eligible' or a.get('reviewed') is not True or not a.get('reviewer'):
             result['unresolved_findings'].append('asset not explicitly reviewed/publication-eligible: '+str(a.get('id',a.get('role','unnamed'))));continue
-        path=contained(Path(a['path']),[Path(blog)/'public',Path(blog)/'docs/editorial']);data=path.read_bytes()
+        binding=None
+        if a.get('product_authorization_id'):
+            grant,binding=product_grant(blog,a,'media');path=Path(grant['path'])
+        else:path=contained(Path(a['path']),[Path(blog)/'public',Path(blog)/'docs/editorial'])
+        data=path.read_bytes()
         if len(data)>25_000_000:raise ValueError('asset exceeds bound')
         if sha(data)!=a.get('sha256'):raise ValueError('asset digest mismatch')
         if not a.get('alt') and a.get('role')!='worksheet':raise ValueError('reviewed visual requires alt')
         result['assets'].append({'id':a.get('id',path.name),'path':str(path),'sha256':sha(data),'access':'publication-eligible','observedAt':a.get('observedAt',observed),'provenance':{'manifest':str(Path(manifest).resolve()),'sha256':sha(Path(manifest).read_bytes()),'source':a.get('provenance')},'reviewed':True,'reviewer':a['reviewer'],'role':a.get('role'),'alt':a.get('alt','')})
+        if binding:result['assets'][-1]['product_authorization']=binding
     return result
 
 def reviewed_evidence(e,blog,observed):
@@ -148,7 +177,7 @@ def assemble(blog,row,observed,contract,asset_path=None,evidence=None,writer_roo
     blog=Path(blog).resolve();wr=Path(writer_root or WRITER_ROOT).resolve();contract=Path(contract).resolve()
     if not row.get('eligible') or row.get('access')!='publication-eligible':raise ValueError('source held')
     source_roots=[blog/'src/content/posts'] if row.get('kind')=='blog' else [blog/'docs/editorial']
-    s=reviewed_evidence(row,blog,observed) if row.get('authorization_id') else source(row['path'],source_roots,row['id'],row['provenance'],observed)
+    s=product_source(blog,row,observed) if row.get('product_authorization_id') else reviewed_evidence(row,blog,observed) if row.get('authorization_id') else source(row['path'],source_roots,row['id'],row['provenance'],observed)
     if s['sha256']!=row['sha256']:raise ValueError('inventory source drift')
     if f'v{SKILL_VERSION}' not in (wr/'SKILL.md').read_text() or CONTRACT_ID not in contract.read_text():raise ValueError('current writer/contract not installed')
     guidance=[]
@@ -161,7 +190,7 @@ def assemble(blog,row,observed,contract,asset_path=None,evidence=None,writer_roo
     projects=[]
     for e in evidence or []:
         if e.get('access')!='publication-eligible':raise ValueError('private project evidence')
-        projects.append(reviewed_evidence(e,blog,observed) if e.get('authorization_id') else source(e['path'],[blog/'docs/editorial',blog/'docs/INFRA.md'],e['id'],e.get('provenance',{}),e.get('observedAt',observed)))
+        projects.append(product_source(blog,e,observed) if e.get('product_authorization_id') else reviewed_evidence(e,blog,observed) if e.get('authorization_id') else source(e['path'],[blog/'docs/editorial',blog/'docs/INFRA.md'],e['id'],e.get('provenance',{}),e.get('observedAt',observed)))
         if projects[-1]['sha256']!=e.get('sha256'):raise ValueError('project evidence changed')
     coverage=muses(blog,observed);a=assets(asset_path,blog,observed)
     findings=list(row.get('unresolved_findings',[]))+['Human full-source and adjacent-draft review pending','Channel overlap and intended destination readback pending']
@@ -171,13 +200,24 @@ def assemble(blog,row,observed,contract,asset_path=None,evidence=None,writer_roo
     if len(canonical(context))>MAX_CONTEXT:raise ValueError('context bundle exceeds bound')
     return {'context_bundle':context,'asset_manifest':a,'package_sha256':package_hash(wr),'contract_sha256':sha(contract.read_bytes()),'context_sha256':digest(context),'assets_sha256':digest(a),'skill_version':SKILL_VERSION,'contract':CONTRACT_ID}
 
+def prepare_product(blog,date,source_id,observed,contract,asset_path=None,writer_root=None):
+    dt.date.fromisoformat(date)
+    catalog=read_json(Path(blog)/'docs/editorial/social-launches-2026-11-02/product-evidence-allowlist.json',{'records':[]})
+    grant=next((x for x in catalog.get('records',[]) if x.get('id')==source_id and x.get('kind')=='evidence'),None)
+    if not grant:raise ValueError('unknown public product source')
+    row={**grant,'product_authorization_id':grant['id'],'eligible':True,'provenance':{'public_source_url':grant['public_source_url'],'work_id':grant.get('work_id')}}
+    bundle=assemble(blog,row,observed,contract,asset_path,writer_root=writer_root)
+    result={'schema':'tryambakam.product-assignment.v1','id':'product-assignment:'+source_id+':'+date,'source_id':source_id,'date':date,'brand':'thoughtseed','work_id':grant.get('work_id'),'status':'prepared-context-only','authoring':{'body':None,'writer_review':None,'publication_approval':False},**bundle}
+    result['assignment_sha256']=digest(result)
+    return result
+
 def prepare_day(blog,date,projection,observed,contract,previous=None,source_id=None,asset_path=None,evidence=None,writer_root=None):
     day=dt.date.fromisoformat(date);brand=BRANDS[(day-dt.date(2026,10,9)).days%len(BRANDS)];previous=previous or []
     eligible=[x for x in projection['records'] if x.get('eligible') and x.get('access')=='publication-eligible'] if brand=='tryambakam-noesis' else []
     if brand=='thoughtseed':
         for e in evidence or []:
             if e.get('brand')=='thoughtseed' and e.get('access')=='publication-eligible' and e.get('source_kind')=='public-project-evidence':
-                eligible.append({**{k:e[k] for k in ('authorization_id','start_byte','end_byte') if k in e},'id':e['id'],'kind':'project-evidence','title':e.get('title',e['id']),'path':e['path'],'sha256':e['sha256'],'eligible':True,'access':'publication-eligible','provenance':e.get('provenance',{}),'unresolved_findings':[]})
+                eligible.append({**{k:e[k] for k in ('authorization_id','product_authorization_id','start_byte','end_byte') if k in e},'id':e['id'],'kind':'project-evidence','title':e.get('title',e['id']),'path':e['path'],'sha256':e['sha256'],'eligible':True,'access':'publication-eligible','provenance':e.get('provenance',{}),'unresolved_findings':[]})
         if not eligible:
             held={'schema':'tryambakam.daily-assignment.v1','id':'assignment:'+date,'date':date,'observedAt':observed,'brand':brand,'lead_count':0,'source_id':None,'status':'held-source-selection','authoring':{'body':None,'writer_review':None,'publication_approval':False},'context_bundle':{'schema':SCHEMA,'sources':[],'project_evidence':[],'writer_guidance':[],'muse_coverage':muses(blog,observed),'asset_projection':cloud_assets(blog),'unresolved_findings':['Thoughtseed day requires explicitly classified current Thoughtseed public-project evidence; registry metadata and a relabelled Noesis blog are insufficient']}}
             held['assignment_sha256']=digest(held);return held
@@ -190,18 +230,18 @@ def prepare_day(blog,date,projection,observed,contract,previous=None,source_id=N
     assignment['assignment_sha256']=digest(assignment)
     return assignment
 
-def validate_packet(row,blog,contract,writer_root=None):
+def validate_packet(row,blog,contract,writer_root=None,bindings_only=False):
     review=row.get('writer_review',{});context=row.get('context_bundle');a=row.get('asset_manifest')
     wr_current=Path(writer_root or WRITER_ROOT)
     if f'v{SKILL_VERSION}' not in (wr_current/'SKILL.md').read_text() or CONTRACT_ID not in Path(contract).read_text():raise ValueError('current writer/contract not installed')
     if not isinstance(context,dict) or context.get('schema')!=SCHEMA or not isinstance(a,dict) or a.get('schema')!='tryambakam.reviewed-assets.v1':raise ValueError('complete context/asset bundle required')
     if review.get('package_sha256')!=package_hash(writer_root):raise ValueError('writer package changed')
     if review.get('context_sha256')!=digest(context) or review.get('assets_sha256')!=digest(a):raise ValueError('context or assets changed after review')
-    if review.get('semantic_review') is not True:raise ValueError('semantic writer review required')
-    if context.get('unresolved_findings') or a.get('unresolved_findings'):raise ValueError('unresolved assignment context')
+    if not bindings_only and review.get('semantic_review') is not True:raise ValueError('semantic writer review required')
+    if not bindings_only and (context.get('unresolved_findings') or a.get('unresolved_findings')):raise ValueError('unresolved assignment context')
     coverage=context.get('muse_coverage',{});available=set(coverage.get('available',[]));missing=set(coverage.get('missing',[]))
     if available & missing or available | missing != set(MUSES):raise ValueError('incomplete Muse accounting')
-    if missing:
+    if missing and not bindings_only:
         disposition=coverage.get('disposition',{})
         if disposition.get('reviewed') is not True or not disposition.get('reviewer') or not disposition.get('reason') or set(disposition.get('missing',[]))!=missing or disposition.get('mode')!='local-source-review' or disposition.get('reviewer_kind') not in {'agent','human'}:raise ValueError('missing Muse reports need deliberate reviewed disposition')
     wr=Path(writer_root or WRITER_ROOT).resolve();blog=Path(blog).resolve()
@@ -211,6 +251,10 @@ def validate_packet(row,blog,contract,writer_root=None):
     if not selected:raise ValueError('missing actual source passages')
     for s in selected+context.get('project_evidence',[])+context.get('writer_guidance',[]):
         if s.get('access')!='publication-eligible':raise ValueError('private context source')
+        if s.get('product_authorization'):
+            item={**s,'product_authorization_id':s['product_authorization']['id']}
+            if product_source(blog,item,s['observedAt'])!=s:raise ValueError('product source authorization changed')
+            continue
         roots=[wr] if s['id'].startswith('writer:') and Path(s['path']).resolve().is_relative_to(wr) else [blog/'src/content/posts',blog/'docs/editorial',blog/'docs/VOICE.md',blog/'docs/INFRA.md',Path(__file__).resolve().parents[1]/'references']
         if s.get('authorization'):
             auth=s['authorization'];verified=reviewed_evidence({'id':s['id'],'path':s['path'],'sha256':s['sha256'],'authorization_id':auth['id'],'start_byte':auth['start_byte'],'end_byte':auth['end_byte'],'provenance':s.get('provenance',{})},blog,s['observedAt'])
@@ -231,7 +275,11 @@ def validate_packet(row,blog,contract,writer_root=None):
     if {(s['path'],s['sha256']) for s in selected}!={(s['path'],s['sha256']) for s in row.get('sources',[])}:raise ValueError('payload sources differ from reviewed context')
     for x in a.get('assets',[]):
         if x.get('access')!='publication-eligible' or x.get('reviewed') is not True or not x.get('reviewer'):raise ValueError('unreviewed/private asset')
-        path=contained(x['path'],[blog/'public',blog/'docs/editorial'])
+        if x.get('product_authorization'):
+            grant,binding=product_grant(blog,{**x,'product_authorization_id':x['product_authorization']['id']},'media')
+            if binding!=x['product_authorization']:raise ValueError('product asset authorization changed')
+            path=Path(grant['path'])
+        else:path=contained(x['path'],[blog/'public',blog/'docs/editorial'])
         if sha(path.read_bytes())!=x.get('sha256'):raise ValueError('reviewed asset changed')
     if {(x['path'],x['sha256']) for x in a.get('assets',[])}!={(x['path'],x['sha256']) for x in row.get('media',[])}:raise ValueError('payload media differs from reviewed assets')
     return True

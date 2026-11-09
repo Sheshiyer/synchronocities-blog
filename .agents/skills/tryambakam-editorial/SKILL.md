@@ -5,6 +5,8 @@ description: Develop the author's living cosmology through lived experience, ori
 
 # Tryambakam editorial
 
+Native handoff source extension: see [execution](references/execution.md#native-iab-handoff-source-extension). Opt-in v2 rows can prepare explicit X/Reddit IAB handoffs and attributable scheduled/published readbacks through the existing queue. Source presence does not establish installed parity or live publication acceptance; CLI media/Reddit submit limits below remain in force. Exact current writer review and separate human approval still govern every public item.
+
 Follow the low-maintenance workflow in references/execution.md: prepare content independently of channel health, share one ledger across CLI and IAB, select fallback before claim, and reconcile any possible submission before switching transports. Keep browser sessions in the browser. Cap scheduled maintenance investigation at 15 minutes and suppress repeated unchanged failures.
 
 Use this for weekly preparation, conversation discovery, approved publication, or monthly learning. Read [workflow](references/workflow.md) for the selected operation and [discovery plan](references/discovery-plan.md) for topic-to-project routing.
