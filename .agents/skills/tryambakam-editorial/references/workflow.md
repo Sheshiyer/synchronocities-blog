@@ -1,5 +1,7 @@
 # Repeatable workflow
 
+Start with the [shared writer foundation](writer-foundation.md), then follow this operation. Load current writer/contract and carry relevant meaning and worldview context through adaptation and review.
+
 ## Weekly preparation — Monday 09:00 Europe/Paris
 
 Use the Noesis Writer meaning method for original essays. For adaptations, preserve the source essay's semantic delta, cross-system relation and unresolved question; do not dilute them into generic explanations or invent novelty merely to fill a channel slot. Keep the private meaning-delta record with the source/claim sheet. Read [meaning operators](noesis-writer-meaning.md) before creating a new conceptual piece.
@@ -7,6 +9,8 @@ Use the Noesis Writer meaning method for original essays. For adaptations, prese
 For original work, the living loop starts with a supplied encounter or open lived question and returns through expression, chosen action and actual consequence. Read [personal context](living-cosmology-context.md); keep historical expression distinct from later interpretation, and record proposed experiments and pending observations without inventing outcomes. A later encounter can revise the cosmology without automatically changing the publishing cadence.
 
 Choose the next date in the 26-week calendar, read the full canonical article and inspect its ledger/references. Rotate across the entire eight-strand blog catalogue plus the conditional narrative strand. Refresh source hashes; compare existing Published and Drafts before adaptation. Prepare one Substack essay, two original Notes (Tuesday/Saturday), two short X posts and one X Article every other week. X Articles should be a distinct complete argument, not an essay split into a thread. An outline remains draft until the full text is complete.
+
+Before drafting, read the current writer contract and [October 9 close reading](/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/voice-reading-2026-10-09/READING.md). Preserve imagery, irreverence and consequential technical connections where the genre and material support them; pattern findings request judgment rather than automatic deletion. Review the full adaptation for its own voice and source integrity.
 
 Write `packets/YYYY-Www/` under the runtime state root, with exact copy and a source/claim sheet. Queue each channel variant independently with timezone-aware `not_before`. No automatic approval. Incomplete article text, unknown account, placeholder link, unsupported claim, missing asset or transport means draft/blocked. Do not fill the queue to meet a quota.
 

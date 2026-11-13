@@ -1,0 +1,1 @@
+I’m building Temperance Engine at Thoughtseed around a simple question: what has to be visible before an agent’s work can be trusted? This 15-second study turns that question into phases, routing and an inspectable record.

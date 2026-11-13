@@ -1,0 +1,1 @@
+After an insight, there is still the next request, the next interruption, the next choice. I’m writing about that interval: what becomes visible when attention moves from the realization to the response?

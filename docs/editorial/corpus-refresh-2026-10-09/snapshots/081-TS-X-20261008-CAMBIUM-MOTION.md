@@ -1,0 +1,1 @@
+I’m building Cambium at Thoughtseed. In this 15-second motion study, company functions become islands, then an interface. The counters are illustrative. Where does the spatial metaphor help you read the work—and where does it get in the way?

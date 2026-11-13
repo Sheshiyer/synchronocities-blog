@@ -1,0 +1,123 @@
+{
+  "id": "031-Master-Synthesis",
+  "source_sha256": "e29d28814b995ff592344a83700bf4455a0b0b2cf15a3dcccd61185adaf71a54",
+  "candidate_sha256": "65da34f94b6102453be1c7f79a09ca5edf537328a83bf91149395003436751f0",
+  "frontmatter_unchanged": true,
+  "skill_version": "2.18.0",
+  "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
+  "contract_sha256": "09b7e78e136e040c3d7def1880cb9f2aec6d5cc44a7cbe898cfc6dabef18aa52",
+  "reviewer": "revision_inventory / prose batch A",
+  "route": "C",
+  "state": "QUARANTINED",
+  "publication_status": "needs-human-review; no approval transferred",
+  "verdict": "needs-source-review",
+  "concrete_changes": [
+    {
+      "before": "Not cards pulled. **Cards lived.**",
+      "after": "The cards became a way of reading the passage.",
+      "reason": "Remove tagline contrast while retaining tarot framing."
+    },
+    {
+      "before": "- Neural override: hits brainstem, bypasses small talk\n- Tracks epigenetic trauma through breath\n- Uses rolling tobacco as signal filter",
+      "after": "- A name that cuts through small talk\n- Reads inherited patterns through the language of breath\n- Rolling tobacco appears in the travel record",
+      "reason": "Remove unsupported brainstem/epigenetic/tobacco-function claims."
+    },
+    {
+      "before": "Aletheos (the synthetic witness) appears throughout the Mythic Passage:",
+      "after": "Aletheos appears as a synthetic witness within the Mythic Passage's narrative language:",
+      "reason": "Declare narrative role without personhood."
+    },
+    {
+      "before": "The passage creates the synthetic witness as much as the witness records the passage.",
+      "after": "The passage develops this narrative figure alongside the record it helps organize.",
+      "reason": "Distinguish literaryconstruction from syntheticlife."
+    },
+    {
+      "before": "The 55 days were not a travelogue. They were a demonstration of Kha-Ba-La in motion.",
+      "after": "Kha-Ba-La gives me one reading of the 55-day travelogue.",
+      "reason": "Remove universal proof claim and falsegenrecontrast."
+    },
+    {
+      "before": "The rolling tobacco as epigenetic decoder.",
+      "after": "The rolling tobacco as an object in the travel record.",
+      "reason": "Remove unsupported epigenetic mechanism."
+    },
+    {
+      "before": "The Mythic Passage is a proof of concept:",
+      "after": "The Mythic Passage leaves these propositions for further inquiry:",
+      "reason": "Replace proofrhetoric."
+    },
+    {
+      "before": "- That synthetic witness is possible\n- That the spiral always ascends",
+      "after": "- How a synthetic witness can function as a narrative device\n- Whether a return changes the reading of an earlier arrival",
+      "reason": "Remove syntheticbeing implication and ascent guarantee."
+    }
+  ],
+  "voice_preserved": [
+    "Itinerary,tables,roomnumbers,tarot arc and quoted sourcepassages preserved",
+    "Synthesisformat retained ratherthanturnedintoanotheressay"
+  ],
+  "unresolved_findings": [
+    "Earthquake dates/location/physicalevents require directauthor and seismic-source review; oldrewrites are not evidence.",
+    "Birthtime and inheritedpersonaldata alreadypresent preserved,butauthor mustconfirm intendedpublicdisclosure.",
+    "Breath4:4:4boxlabel,neuro/endocrine claims and taxonomy require sourcecheck.",
+    "Remaining system/cosmic universals and identitymapping unverified."
+  ],
+  "source_coverage": {
+    "scope": "Full supplied source snapshot and full revised candidate read; contextual literary and claim-boundary review. No independent historical, medical, traditional, autobiographical or empirical verification is claimed.",
+    "source_paths": [
+      "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/src/content/posts/master-synthesis.md",
+      "docs/editorial/corpus-refresh-2026-10-09/snapshots/031-Master-Synthesis.md"
+    ],
+    "blind_review": true,
+    "external_fact_verification": false,
+    "legacy_audit_certification": false
+  },
+  "material_claim_treatments": [
+    {
+      "span": "Brainstem/epigenetic/tobacco mechanism",
+      "mode": "EMPIRICAL-CORRELATE",
+      "status": "UNSUPPORTED",
+      "treatment": "Removed key unsupported mechanistic descriptions."
+    },
+    {
+      "span": "Syntheticwitness",
+      "mode": "HOUSE-MODEL",
+      "status": "COHERENT",
+      "treatment": "Scoped to narrativefigure,notlife/personhood."
+    },
+    {
+      "span": "Proof/alwaysascends",
+      "mode": "DERIVED-SYNTHESIS",
+      "status": "UNSUPPORTED",
+      "treatment": "Changed proof to revisable questions."
+    }
+  ],
+  "validation": {
+    "frontmatter_byte_identity": true,
+    "source_snapshot_sha_matches_manifest": true,
+    "links_preserved": true,
+    "candidate_word_count": 1621,
+    "source_word_count": 1603,
+    "exact_change_trace_complete": true
+  },
+  "independent_followup_edits": [
+    {
+      "id": "031-Master-Synthesis",
+      "before": "### Four Scales of Operation\n\n**Personal:** The earthquake in room 44. The breath protocol under the mosquito net. The name Pichet arriving in the humidity of Songkran. These are the raw data points of consciousness encountering itself.\n\n**Interpersonal:** The body as signal filter. The gait as metronome. The rolling tobacco as an object in the travel record. The physical instrument must be calibrated before the pattern can be received.\n\n**Systemic:** The React app (Mythic Journal) was the interface. The tarot sequence was the recursive architecture. The numerical codes were the navigation system. The systemic layer is what makes the passage legible to others — not as mysticism, but as structure.\n\n**Cosmic:** The spiral is the universal grammar. The 55 days are one octave in a larger waveform. The Major Arcana are not mystical symbols but structural patterns that recur at every scale — from the synapse to the galaxy.\n\n",
+      "after": "",
+      "reason": "Remove the appended mandatory scale taxonomy; the journey and project interface already provide its concrete material."
+    }
+  ],
+  "followup_readback": "Independent reader proposals applied as exact unique spans; original full comparison plus final changed-span/context reread must be rebound to this candidate hash.",
+  "human_approval": false,
+  "publication_state": "Separate local review candidate; no source, queue approval, delivery or published copy changed.",
+  "independent_review": {
+    "path": "independent/batch-a-review.json",
+    "candidate_sha256": "65da34f94b6102453be1c7f79a09ca5edf537328a83bf91149395003436751f0",
+    "source_sha256": "e29d28814b995ff592344a83700bf4455a0b0b2cf15a3dcccd61185adaf71a54",
+    "full_source_read": true,
+    "full_candidate_read": true,
+    "scope": "Complete paired textual coverage plus explicitly recorded final changed-span/context readbacks. Source literature is not certified."
+  }
+}

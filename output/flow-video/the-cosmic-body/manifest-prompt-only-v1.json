@@ -1,0 +1,93 @@
+{
+  "project": "tryambakam-noesis",
+  "slug": "the-cosmic-body",
+  "status": "prepared",
+  "platform": "article companion; platform not specified",
+  "aspect_ratio": "16:9",
+  "requested_seconds": 24,
+  "source_paths": [
+    "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cosmic-body-2026-10-14/the-cosmic-body.md"
+  ],
+  "source_sha256": "7dda1e1ac1beea92eff9a9ac9f78fef7c1d38e0f704d2246a2d46c752fc8d20b",
+  "provider": null,
+  "credit_ceiling": null,
+  "credits_spent": 0,
+  "reference_images_generated": false,
+  "voiceover": {
+    "status": "script_only",
+    "lines": [
+      "The mold is empty until something enters it. Then every contour becomes consequential.",
+      "One Person. Knowledge speaks, protection holds, exchange circulates, skilled work carries the weight.",
+      "The cavity holds the movement. The value-orbit gives it somewhere to return."
+    ],
+    "word_count": 38
+  },
+  "shots": [
+    {
+      "id": "shot-01",
+      "title": "The cavity receives",
+      "preset_id": null,
+      "prompt_origin": "original article-specific composition using common assembly template",
+      "version": 1,
+      "status": "prepared",
+      "requested_seconds": 8,
+      "prompt_path": "shots.md",
+      "reference_status": "prompt_only",
+      "reference_path": null,
+      "clip_path": null,
+      "parent_shot_id": null,
+      "model": null,
+      "generation_settings": null,
+      "measured_seconds": null,
+      "audio_observed": null,
+      "review": null
+    },
+    {
+      "id": "shot-02",
+      "title": "One body, four functions",
+      "preset_id": null,
+      "prompt_origin": "original article-specific composition using common assembly template",
+      "version": 1,
+      "status": "prepared",
+      "requested_seconds": 8,
+      "prompt_path": "shots.md",
+      "reference_status": "prompt_only",
+      "reference_path": null,
+      "clip_path": null,
+      "parent_shot_id": "shot-01",
+      "model": null,
+      "generation_settings": null,
+      "measured_seconds": null,
+      "audio_observed": null,
+      "review": null
+    },
+    {
+      "id": "shot-03",
+      "title": "The value-orbit",
+      "preset_id": null,
+      "prompt_origin": "original article-specific composition using common assembly template",
+      "version": 1,
+      "status": "prepared",
+      "requested_seconds": 8,
+      "prompt_path": "shots.md",
+      "reference_status": "prompt_only",
+      "reference_path": null,
+      "clip_path": null,
+      "parent_shot_id": "shot-02",
+      "model": null,
+      "generation_settings": null,
+      "measured_seconds": null,
+      "audio_observed": null,
+      "review": null
+    }
+  ],
+  "verification": {
+    "shot_count": 3,
+    "complete_prompts": 3,
+    "reference_briefs": 3,
+    "all_source_paths_exist": true,
+    "files_read_back": true,
+    "render_review": "not applicable; no render",
+    "browser_verification": "not attempted; no provider/UI action"
+  }
+}

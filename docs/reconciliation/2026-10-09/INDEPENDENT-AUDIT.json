@@ -1,0 +1,20 @@
+{
+  "verdict": "PASS",
+  "kind": "native independent read-only audit; no cross-vendor claim",
+  "snapshot_files": 148,
+  "recovery_tags": 9,
+  "graph_nodes": 446,
+  "graph_edges": 1104,
+  "local_links": 46,
+  "evidence_hashes": 438,
+  "canonical_mirror_archive_files": 20,
+  "unrelated_vault_staged_paths": 1525,
+  "unrelated_index_digest_parent_recheck": "35cfd5c7c43c1cd971ee00b50db277e86c486a7a2a4b27eca3763047062f67ff",
+  "digest_serialization": "git ls-files -s -z rows joined with LF; exclude canonical writer prefix and new vault MOC only; matches pre-writer baseline",
+  "protected_worktree": "Retained; actual worktrees exactly primary plus pinned social",
+  "finding_resolution": [
+    "Refreshed46linkvalidation",
+    "QualifiedHITLgraphscope:questions/serviceboundaryverified;ownerloginflowuntested"
+  ],
+  "blockers": []
+}

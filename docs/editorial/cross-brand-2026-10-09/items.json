@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Europe/Paris",
+  "operation": "preparation-only",
+  "human_approver": "Shesh Iyer",
+  "approval_state": "No approval; exact packet must first be presented to human",
+  "items": [
+    {
+      "id": "TS-IG-20261009-PHASE-READABILITY",
+      "brand": "Thoughtseed",
+      "platform": "instagram",
+      "kind": "reel",
+      "account": "@witnessalchemist",
+      "destination": "https://www.instagram.com/witnessalchemist/",
+      "community": null,
+      "audience": "Public; interface designers and software builders",
+      "send_email": false,
+      "title": null,
+      "body": "Temperance Engine is part of my work at Thoughtseed on local agent operation. This 15-second portrait motion study follows a task through seven phases, a routing handoff and a sequence of checks.\n\nThe counters and success states are animated examples. The pacing is the design question here: a phase has to remain on screen long enough to be read while the sequence keeps moving.\n\nOn a phone, can you follow the change of phase, or would fewer labels make the sequence clearer?",
+      "proposed_timing": "2026-10-14T18:30:00+02:00",
+      "timing_rationale": "Optional Wednesday creative slot after Monday calendar review; never a schedule or catch-up obligation.",
+      "target_url": null,
+      "media": [
+        {
+          "path": "/Users/sheshnarayaniyer/Downloads/temperance-showreel-9x16.mp4",
+          "sha256": "e6b5da90b6c70faea21e941c31b7ddde46028af02a1e1ec5beeb1e228f26386a",
+          "accessible_description": "15-second portrait animation on a dark teal background. A gold and cyan seal becomes the Temperance Engine title, planetary symbols introduce seven labelled phases, an example routing console animates a failed attempt and a successful fallback, and an illustrative criteria gauge leads to the final wordmark. Synthesized instrumental soundtrack; no spoken content.",
+          "order": 1
+        }
+      ],
+      "sources": [
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/temperance-showreel-public-README.md",
+          "sha256": "6decf0f26c61fba54768527add4995cb5dd0ad0f047e5cc9f2bb4c9ef20cb626",
+          "role": "Public film construction and scene sequence",
+          "url": "https://github.com/Sheshiyer/temperance_engine/blob/main/package/showreel/README.md",
+          "read_scope": "Complete file read"
+        },
+        {
+          "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/10869-space-v1/src/content/identity.ts",
+          "sha256": "277c75c33bddc8cb7056ffe2d076f738e13cff4aff554d69702d66f2fde51257",
+          "role": "Author-designated public identity foundation",
+          "url": null,
+          "read_scope": "Complete file read"
+        },
+        {
+          "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md",
+          "sha256": "98cb6143966b3757f9ba31c15ba491baa04382c2fa65d89d151920cd3e647082",
+          "role": "Author-designated brand roster; editorial affiliation only",
+          "url": null,
+          "read_scope": "Complete file read"
+        }
+      ],
+      "disclosure": "Exact supplied film, all visible names, example counters and routing states, soundtrack and Thoughtseed affiliation require human disclosure approval.",
+      "unresolved_findings": [
+        "Complete motion and soundtrack review remains outstanding; contact-sheet inspection and inherited decode receipt do not clear it."
+      ],
+      "lifecycle": "QUARANTINED",
+      "publication_review_readiness": "held-for-media-review",
+      "linkedin_coordination": "Related radar key temperance-engine-onboarding owns onboarding/release; this candidate concerns portrait pacing. Replaces October7 TS-IG1 for selection only; do not release both.",
+      "supporting_claims": [
+        {
+          "claim": "Temperance is the author’s Thoughtseed work.",
+          "mode": "AUTHOR-SUPPLIED",
+          "evidence": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md",
+          "status": "supported editorial affiliation; no legal ownership claim"
+        },
+        {
+          "claim": "Film duration, phases, routing and criteria sequence.",
+          "mode": "OBSERVABLE-ARTIFACT",
+          "evidence": "https://github.com/Sheshiyer/temperance_engine/blob/main/package/showreel/README.md",
+          "status": "source and frames inspected; full playback held"
+        },
+        {
+          "claim": "Timing/readability question.",
+          "mode": "DERIVED-SYNTHESIS",
+          "evidence": "Authored design inquiry",
+          "status": "proposed; no audience outcome claimed"
+        }
+      ],
+      "body_sha256": "fa15685d797a63672e468af5c72e0d3f20eaab0c9045effa08ba63e6dc10f6a3",
+      "payload_fields": [
+        "platform",
+        "kind",
+        "account",
+        "destination",
+        "community",
+        "target_url",
+        "audience",
+        "send_email",
+        "title",
+        "body",
+        "proposed_timing",
+        "media",
+        "accessible_description",
+        "sources"
+      ],
+      "payload_sha256": "481ed3379d2d1bc86e84413ed41b56d3b4750524cb5f483c1f725460bdd0e91b",
+      "writer_review": {
+        "contract": "noesis-writer-human-direction-2026-10-08-v1",
+        "skill_version": "2.17.0",
+        "payload_sha256": "481ed3379d2d1bc86e84413ed41b56d3b4750524cb5f483c1f725460bdd0e91b",
+        "reviewer": "Codex primary and independent native editorial_packet_review",
+        "source_coverage": true,
+        "verdict": "held-for-media-review",
+        "unresolved_findings": [
+          "Complete motion and soundtrack review remains outstanding; contact-sheet inspection and inherited decode receipt do not clear it."
+        ],
+        "method": "Sentence-by-sentence complete copy read; compare both candidates with October7/8 daily drafts and October8 archive/revision drafts. No pattern-score certification.",
+        "read_at": "2026-10-09T08:15:01.824478+00:00",
+        "independent_review": "PASS on final exact text and canonical claim trace; no external action or publication approval"
+      },
+      "accessible_description": "Portrait motion study; detailed accessible description is attached to the ordered video asset."
+    },
+    {
+      "id": "TN-R-20261009-UNAVAILABLE-SOURCES",
+      "brand": "Tryambakam Noesis",
+      "platform": "reddit",
+      "kind": "text-post",
+      "account": "u/Mrhigh3r",
+      "destination": "https://www.reddit.com/user/Mrhigh3r/",
+      "community": "Own public profile only; no subreddit or cross-post",
+      "audience": "Public profile readers interested in symbolic tools, interpretation and interface design",
+      "send_email": false,
+      "title": "How should a symbolic tool show missing source material?",
+      "body": "I’m building Selemene as part of Tryambakam Noesis. A recent change in its public Gene Keys code separates short labels from the fuller meanings that are unavailable in the supplied material. Those description fields remain empty, and the code identifies Selemene’s reflection questions as its own writing.\n\nThat leaves a practical interface question. If a label is present but the explanation behind it is missing, what does a reader need to see before using it? A heading can look complete on a screen even when it gives very little context.\n\nFor a reader-facing version, I would put the source link beside the available label and explain what is absent at the point where someone expects to read more. An original reflection question could occupy its own section, with its authorship stated. This is a proposed screen treatment. The public evidence here is the source change.\n\nThe distinction matters to interpretation. Someone may choose to work with a short label, look for the author’s explanation, or leave the reading unfinished. The tool needs to make the available material clear enough for that choice.\n\nWhen you use a symbolic reference, how would you want it to show that part of the source is unavailable?",
+      "proposed_timing": "2026-10-12T18:00:00+02:00",
+      "timing_rationale": "Optional Monday discussion after weekly review; choose this or the earlier memory-revision Reddit draft, not both in one slot.",
+      "target_url": null,
+      "media": [],
+      "accessible_description": "Text-only discussion; no image, video or upload.",
+      "sources": [
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/public_labels_regression.rs",
+          "sha256": "f72a9ac79f862722b36da8503f0e682c7414fc78d554b21104d920437f415726",
+          "role": "Full public regression source read; tests inspected, not executed",
+          "url": "https://github.com/Sheshiyer/Selemene-engine/blob/f804c6970df5/crates/engine-gene-keys/tests/public_labels_regression.rs",
+          "read_scope": "Complete file read"
+        },
+        {
+          "path": "/Users/sheshnarayaniyer/.codex/editorial/tryambakam/runs/2026-10-09-daily/evidence/f804c6970df5-commit.json",
+          "sha256": "74e0bf1293cc4f46d58f50fcf31e8797e486e7b3420bc851e30b4239ec426d38",
+          "role": "Public commit with source changes",
+          "url": "https://github.com/Sheshiyer/Selemene-engine/commit/f804c6970df5",
+          "read_scope": "Commit metadata and engine serialization/frequency/wisdom patches read; not a full ten-file code audit"
+        },
+        {
+          "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/10869-space-v1/src/content/identity.ts",
+          "sha256": "277c75c33bddc8cb7056ffe2d076f738e13cff4aff554d69702d66f2fde51257",
+          "role": "Author-designated public identity foundation",
+          "url": null,
+          "read_scope": "Complete file read"
+        },
+        {
+          "path": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md",
+          "sha256": "98cb6143966b3757f9ba31c15ba491baa04382c2fa65d89d151920cd3e647082",
+          "role": "Author-designated brand roster; editorial affiliation only",
+          "url": null,
+          "read_scope": "Complete file read"
+        }
+      ],
+      "disclosure": "Exact public-source discussion and author affiliation only. No private records, client work, birth data, licensed passages or unreleased interface screenshots.",
+      "unresolved_findings": [],
+      "lifecycle": "DRAFT",
+      "publication_review_readiness": "awaiting-human-review",
+      "linkedin_coordination": "Existing Selemene capability/provenance story keys remain with LinkedIn. This asks readers about missing explanations and proposes a screen treatment; no release announcement or performance claim.",
+      "supporting_claims": [
+        {
+          "claim": "Public source keeps unavailable descriptions empty and distinguishes original reflection questions.",
+          "mode": "PUBLIC-SOURCE",
+          "evidence": "https://github.com/Sheshiyer/Selemene-engine/blob/f804c6970df5/crates/engine-gene-keys/tests/public_labels_regression.rs",
+          "status": "source inspection supported; current deployment/tests not claimed"
+        },
+        {
+          "claim": "Selemene belongs to author’s Tryambakam work.",
+          "mode": "AUTHOR-SUPPLIED",
+          "evidence": "/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/cross-brand-2026-10-07/README.md",
+          "status": "editorial affiliation supported"
+        },
+        {
+          "claim": "Proposed treatment and reader choices.",
+          "mode": "DERIVED-SYNTHESIS",
+          "evidence": "Noesis-authored design proposal grounded in public source distinction",
+          "status": "hypothetical; no measured effect, treatment, scientific validity or author endorsement claimed"
+        }
+      ],
+      "body_sha256": "f0a6cc8db32e365bbd44c2d5a07384d33c0c5cd98abaa1f27d9d1822250e323a",
+      "payload_fields": [
+        "platform",
+        "kind",
+        "account",
+        "destination",
+        "community",
+        "target_url",
+        "audience",
+        "send_email",
+        "title",
+        "body",
+        "proposed_timing",
+        "media",
+        "accessible_description",
+        "sources"
+      ],
+      "payload_sha256": "f1396eba0915c2b40c07c09802ea82613cce93c9863a28523118921e63fde968",
+      "writer_review": {
+        "contract": "noesis-writer-human-direction-2026-10-08-v1",
+        "skill_version": "2.17.0",
+        "payload_sha256": "f1396eba0915c2b40c07c09802ea82613cce93c9863a28523118921e63fde968",
+        "reviewer": "Codex primary and independent native editorial_packet_review",
+        "source_coverage": true,
+        "verdict": "ready-for-human-review",
+        "unresolved_findings": [],
+        "method": "Sentence-by-sentence complete copy read; compare both candidates with October7/8 daily drafts and October8 archive/revision drafts. No pattern-score certification.",
+        "read_at": "2026-10-09T08:15:01.824478+00:00",
+        "independent_review": "PASS on final exact text and canonical claim trace; no external action or publication approval"
+      }
+    }
+  ]
+}

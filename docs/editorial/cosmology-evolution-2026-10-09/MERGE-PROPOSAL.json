@@ -1,0 +1,40 @@
+{
+  "schema": "noesis.evolution.merge.v1",
+  "id": "M-MERCURY-SENSES-20261009",
+  "recorded_at": "2026-10-09",
+  "record_version": 1,
+  "status": "awaiting-author-review",
+  "before": "Historical generated dossier prescribes technical recoding of alchemical/religious vocabulary. No author-approved Mercury definition has been established here.",
+  "proposed_after": "Retain Young’s multiple Mercury senses in source discussion; write an explicit separate author definition only when an adaptation is chosen.",
+  "source_ids": [
+    "H-20261009",
+    "Y-BOOK-OCR",
+    "Y-MICROCOSM",
+    "V-DOSSIER"
+  ],
+  "affected_records": [
+    "E-RECODING-REVIEW",
+    "L-MERCURY",
+    "P-TECHNICAL-RECODE"
+  ],
+  "affected_articles": [],
+  "affected_articles_note": "No article-level philosophical changes proposed without reading the actual occurrence and argument.",
+  "questions": [
+    {
+      "id": "mercury-use",
+      "prompt": "For future writing, should Mercury retain Young’s distinct source senses, receive an explicit Noesis adaptation, or remain an open term?",
+      "options": [
+        "retain-source-senses",
+        "adapt-with-stated-difference",
+        "hold-open",
+        "decline"
+      ],
+      "free_text_allowed": true
+    }
+  ],
+  "decision": null,
+  "publication_approval": null,
+  "implementation": "Local proposal data; no review UI or automatic merge handler deployed.",
+  "proposal_sha256": "1f5901c09c70d2406521d6a1ef5d760ea75c5d1bc55ff8e5f7e242a35bc717bf",
+  "hash_rule": "SHA256 of UTF-8 canonical JSON (sorted keys, compact separators, ensure_ascii=false), excluding proposal_sha256 and hash_rule"
+}

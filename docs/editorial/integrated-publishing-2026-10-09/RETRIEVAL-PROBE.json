@@ -1,0 +1,14 @@
+{
+  "observedAt": "2026-10-09T11:33:54.506997+00:00",
+  "records": [
+    {
+      "path": "/healthz",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "/search?q=lighted%20clearing%20loka&limit=2&rerank=false",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "policy": "Do not rely on semantic service until successful matches are reconciled with source identities; direct verified local passages remain primary."
+}

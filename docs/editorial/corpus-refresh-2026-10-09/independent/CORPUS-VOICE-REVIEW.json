@@ -1,0 +1,266 @@
+{
+  "assessment": {
+    "reviewer": "Independent Codex writer-skill agent",
+    "state": "DRAFT",
+    "human_approval": false,
+    "skill_version": "2.18.0",
+    "contract_id": "noesis-writer-human-direction-2026-10-09-v2",
+    "contract_sha256": "09b7e78e136e040c3d7def1880cb9f2aec6d5cc44a7cbe898cfc6dabef18aa52",
+    "candidate_count": 111,
+    "candidate_set_sha256": "6185b19848642b2a2c37e5870efa4b455ba1e5ee534192c7bfb9cee9671f3bb9",
+    "candidate_set_digest_method": "SHA256 of compact sorted-key JSON array in batch-a, batch-b, batch-c, inventory-drafts row order, each containing id and candidate_sha256. Per-file hashes remain in existing review ledgers; they are not duplicated here.",
+    "scope": {
+      "full_source_and_candidate_read": "Batch C: 26 complete frozen blog sources and 26 entire candidates; all 37 prepared draft sources/candidates read, with identical bodies read once covering both.",
+      "opening_ending_context_read": "All 111 compared. A/B48 were reviewed through first approximately95 and last approximately125 substantive body words, excluding frontmatter, headings, decorative separators and image-only paragraphs. Expanded final sections of 023/028 and opening of034 inspected for exact local findings. These samples do not constitute full A/B factual/line editing; separate full-body readers own that review. C/draft bodies were already fully read.",
+      "comparison_dimensions": [
+        "new rhetorical shapes and adjacent meanings",
+        "specific imagery and technical/social wit",
+        "repeated conclusions or process commentary",
+        "fiction/autobiography and metaphor/mechanism boundaries",
+        "source/metadata and delivery holds",
+        "duplicate platform adaptations versus accidental repeated prose"
+      ],
+      "final_repair_readback": "Final revised 023 Quine section and 028 Wheel of Fortune closing reread in full; final 034 opening and following argument context reread after local repairs. Three findings are marked repaired; candidate-set digest covers these final bytes."
+    },
+    "verdict": "contextual-voice-review-with-source-holds",
+    "material_local_style_findings": [
+      {
+        "id": "023-An-Introduction-to-Tryambakam-Noesis-Rewrite-Your-Operating-System",
+        "finding": "Adjacent repetition of the quine image explanation",
+        "status": "repaired-in-final-candidate",
+        "blocking_for_editorial_release": false,
+        "scope": "Local contextual prose repair, not a ban on repetition, negation or epistemic qualification."
+      },
+      {
+        "id": "028-The-Lorenz-Kundli-Protocol-Chaos-Theory-as-Vedic-Runtime",
+        "finding": "Adjacent repetition of the chart/screen comparison closing",
+        "status": "repaired-in-final-candidate",
+        "blocking_for_editorial_release": false,
+        "scope": "Local contextual prose repair, not a ban on repetition, negation or epistemic qualification."
+      },
+      {
+        "id": "034-Morphic-Resonance-as-Network-Protocol-Why-Nature-Has-Habits-Not-Laws",
+        "finding": "Editor source-handling perspective leaks into public essay",
+        "status": "repaired-in-final-candidate",
+        "blocking_for_editorial_release": false,
+        "scope": "Local contextual prose repair, not a ban on repetition, negation or epistemic qualification."
+      }
+    ],
+    "cross_corpus_assessment": [
+      {
+        "finding": "Technical images regain consequential objects and wit.",
+        "evidence": [
+          "Shenzhen service ticket and the blades in015",
+          "Cup refusing expectation in001",
+          "Spent coffee grounds and resource accounting in018",
+          "Dental chair, anesthesia limit and kernel image in060",
+          "Calendar colour coding versus workplace power in094",
+          "Donut owing a mapping in068",
+          "Imaginary committee and five small inventions wearing one table border in097"
+        ],
+        "judgment": "These passages are distinguishable by subject and genre. Do not erase their imagery into a uniform plain-language synopsis or demand that every piece contain a joke."
+      },
+      {
+        "finding": "A new caution-and-open-question closing shape recurs across science-heavy essays.",
+        "evidence": [
+          "001 cup/model relation",
+          "007 compiler/voltage/memory distinctions",
+          "009 ledger/authenticated transaction",
+          "032 membrane versus maternal story",
+          "034 Hanged Man/law/habit",
+          "037 Star vessels and open metaphysics",
+          "043 Hierophant processor composite",
+          "050 diagrams/equivalence",
+          "065 tongue/diagram/model limits",
+          "068 loop/winding/experience"
+        ],
+        "judgment": "The recurring image/limit/open-question move remains a corpus style risk, even when literal paragraphs differ. Follow-up repairs removed repeated triad lectures and adjacent qualifications, and069 now develops a connected essay through stream/cockpit/cups instead of a succession of independent warning blocks. Subject-specific images preserve much of the distinction among pieces. Selective author review remains appropriate; no compulsory closing template or blanket device ban follows.",
+        "blocking_status": "No automatic blanket style failure. Revisit these contexts selectively during author review; do not remove truthful uncertainty to improve cadence."
+      },
+      {
+        "finding": "Some retained source claims still require whole-piece evidence treatment despite coherent local repairs.",
+        "evidence": [
+          "007 categorical cell-voltage/memory assertions remain source-held beyond the revised lens paragraph",
+          "037 retained claim that four traditions name the same structural fact remains a metaphysical/source question",
+          "032 adjacent mitochondrial-template claims are not established by a bodily feeling",
+          "064 retained neural/compiler/trauma mechanism claims are not verified by removal of repeated scale sections",
+          "036 hormone/type identity and019 existing-chart/automaton identity were locally repaired;069 no longer ends with an unqualified biological water-grammar assertion"
+        ],
+        "judgment": "The reviewed local contradictions have been repaired, including the immediate guarantee/repetition findings reported in follow-up. Those repairs do not authenticate remaining biological, technical, historical or traditional assertions. An authored metaphysical stance and an empirical mechanism still need different kinds of support; unresolved per-row claims remain held.",
+        "blocking_status": "Existing needs-source-review holds remain materially blocking for publication; no scientific or historical PASS is supplied."
+      },
+      {
+        "finding": "Old sentence-level fingerprint devices remain in context.",
+        "evidence": [
+          "Short declarations in personal travel notes",
+          "Kha/Ba/La lists in reference/index and practice artifacts",
+          "Negations marking limits of fiction, evidence and approval",
+          "Branded technical metaphors in code essays"
+        ],
+        "judgment": "Their presence alone is not contamination. The present direction allows useful contrasts, triads, short lines and synthesis. The relevant question is whether a repeated device advances this particular passage."
+      },
+      {
+        "finding": "Cross-platform adjacent copies require editorial selection and spacing.",
+        "evidence": [
+          "077 and080 are byte-identical complete alternate essay candidates",
+          "090 caption appears within120 carousel",
+          "081/087/091 share Cambium motion study;084/086/089 share Temperance study",
+          "092/123 offer alternative five-field Reddit openings",
+          "075/076/077/079 repeat deadline/reviewer scenario for one campaign"
+        ],
+        "judgment": "These are mostly legitimate artifact variants or companion formats, not111 unrelated publication slots. Release one chosen version of each duplicate and adapt contributions to their actual communities. Avoid serving the same audience serial copies as new discoveries."
+      },
+      {
+        "finding": "Draft rewrites preserve the boundary between fictional illustration and reported life.",
+        "evidence": [
+          "077/080 scene expressly invented",
+          "094 work request imagined",
+          "097 chest sensation belongs to invented example",
+          "118 two-reader/household scenes constructed",
+          "092 first-person worksheet illustration newly labelled imagined"
+        ],
+        "judgment": "No invented autobiographical scene identified in the14 revised draft bodies. Historical blog first-person passages still require author confirmation where recorded. This finding does not authenticate existing autobiography."
+      },
+      {
+        "finding": "Stable reference and biography forms need a different standard from essay prose.",
+        "evidence": [
+          "Five field labels repeated in sheets/captions",
+          "Profile/project identity across121/122/099",
+          "Travel index and Master Synthesis lists",
+          "Source/quote notes in research essays"
+        ],
+        "judgment": "These repetitions serve usability and attribution. Do not replace them merely to create verbal variation. Source notes may naturally expose unresolved attribution without becoming a generic end-of-essay warning block."
+      }
+    ],
+    "publication_limits": [
+      "Every candidate stays in the separate revision directory; existing source frontmatter, including draft:false and strong excerpts, was deliberately preserved for fidelity and does not authorize release.",
+      "Full C integrity checks preserved frontmatter bytes, quote lines, links and fenced code; draft source URLs preserved. No external links, quotations, medical mechanisms, traditional claims, personal history or attached media were independently verified in this voice comparison.",
+      "Current product/workflow claims and media captions require their own evidence. Past-date schedules, relative this-week/Thursday references, signed-in identities and community context retain per-ID holds in drafts-review.json.",
+      "No existing approval transfers to new candidate wording. Local editorial judgment does not publish or certify an operational delivery adapter."
+    ],
+    "recommended_next_use": "Use this as an author-facing contextual review alongside per-row exact edits and unresolved findings. Repair specific contradictions and redundant prose, choose duplicate/companion artifacts, then seek review of exact chosen copy. Do not run global deletion of negations, triads, technical terms, jokes or cautious statements.",
+    "final_coherence_followup": {
+      "scope": "Reviewed all 85 first-wave A/B/C repair spans against their original wording and adjacent candidate contexts; C frozen sources were already fully read, A/B frozen matching contexts and original repair spans were inspected. Deleted-span joins were read separately where needed. Full frozen069 source and full rewritten candidate read; entire final069 candidate reread after its three context repairs. All subsequent coherence/adjoining/071/whitespace repair spans and adjacent context reread. This is a final local-coherence review, not another claim of full A/B external factual review.",
+      "applied_edit_count_including_successive_edits": 101,
+      "distinct_candidates_touched": 43,
+      "receipt_coverage": [
+        {
+          "path": "independent/batch-a-repair-proposals-APPLIED.json",
+          "sha256": "2e1dcde873e62ff58f6fe14c55526ddd1aa7b9477051d2be1d81c21114a54512",
+          "edit_count": 31
+        },
+        {
+          "path": "independent/batch-b-074-repair-proposal-APPLIED.json",
+          "sha256": "1ffce3de079687c730ce4eca624055c18990ba3ac740ee3593c23824316db3ff",
+          "edit_count": 1
+        },
+        {
+          "path": "independent/batch-b-repair-proposals-APPLIED.json",
+          "sha256": "3df82b63068edfd9356dbcdcfc8eaf8ec69913ac6fa6c735f93008f92da6a2b2",
+          "edit_count": 14
+        },
+        {
+          "path": "independent/batch-c-first-repair-proposals-APPLIED.json",
+          "sha256": "423d2d5679acdd348e4da9d1bce9b65417dd4989d9a2917d61998ce7adf52b77",
+          "edit_count": 15
+        },
+        {
+          "path": "independent/batch-c-last-repair-proposals-APPLIED.json",
+          "sha256": "20117d32e15fc187f95d32a73f9cec688a3363a089b9aba5ae3653c62e1db4fc",
+          "edit_count": 24
+        },
+        {
+          "path": "independent/final-069-context-repairs-APPLIED.json",
+          "sha256": "c4b061f98ab1905fe58ec738b089def0bd780200d09fb758d293b029ac133856",
+          "edit_count": 3
+        },
+        {
+          "path": "independent/final-071-whitespace-APPLIED.json",
+          "sha256": "01cc5df274b7c3b0f87804cdd277ee29058c2b6a8f32a9effd33a19fdcb3f1b8",
+          "edit_count": 1
+        },
+        {
+          "path": "independent/final-adjacency-repairs-APPLIED.json",
+          "sha256": "18c0ac88c8d8c6f59dd0455cbf99382b13e0d3a7593427e015c6bfe9a8b834c3",
+          "edit_count": 4
+        },
+        {
+          "path": "independent/final-coherence-repair-proposals-APPLIED.json",
+          "sha256": "98c5664394e17fdc51805b926180bc454161ed6a6ceba557f7488ed558f04b21",
+          "edit_count": 5
+        },
+        {
+          "path": "independent/final-two-context-repairs-APPLIED.json",
+          "sha256": "10769eba1bc9390e0f86d0e91d9a5da6cc6c31288d247baec9734047f9a77343",
+          "edit_count": 2
+        },
+        {
+          "path": "independent/primary-069-repair-APPLIED.json",
+          "sha256": "427901a5a5476826f64996593132e9b9ecd471787fb22ebde97b37971bf4e8cd",
+          "edit_count": 1
+        }
+      ],
+      "verdict": "No remaining material local editorial blocker identified in the reviewed final repair contexts. Source/evidence/metadata/autobiography/delivery holds persist.",
+      "repairs_checked": [
+        {
+          "id": "040",
+          "finding": "Adjacent blood-flow/redness repetition and categorical scan conclusion combined into one image/question; contemplative steps no longer require unity or assert guaranteed output.",
+          "status": "repaired-and-context-reread"
+        },
+        {
+          "id": "021",
+          "finding": "LLM geometric identity and repeated error qualification replaced with an explicit comparison that still owes the reader accuracy.",
+          "status": "repaired-and-context-reread"
+        },
+        {
+          "id": "006",
+          "finding": "Duplicate ancient-mind/clinical catalogue removed after the prior Jaynes paragraph already bounded the historical inference; direct command/noticing inquiry retained.",
+          "status": "repaired-and-context-reread"
+        },
+        {
+          "id": "036",
+          "finding": "Duplicate endocrine disclaimer trimmed; actual diagnostic boundary remains explicit before the authored row and in source-held measurement distinctions.",
+          "status": "repaired-and-context-reread"
+        },
+        {
+          "id": "019",
+          "finding": "Literal existing-chart-equals-running-automaton paragraph replaced with proposed starting state and operations still to define.",
+          "status": "repaired-and-context-reread"
+        },
+        {
+          "id": "030",
+          "finding": "Immediate certainty and side-effect guarantees after no-guarantee paragraph replaced with preparation/transmission questions; dependent Nigredo paragraph remains an imaginative reading. Other substrate/traditional claims elsewhere are not certified.",
+          "status": "repaired-and-context-reread"
+        },
+        {
+          "id": "044",
+          "finding": "Adjacent who-pays conclusion repeated twice; duplicate removed while moth ending and the person harmed by a supposed fix remain.",
+          "status": "repaired-and-context-reread"
+        },
+        {
+          "id": "069",
+          "finding": "Complete rewrite retains stream, cockpit/upholstery and Temperance, with connected source questions. Attributed Pollack proposal supplies substantive orientation; suspicious-chaperone editorial strategy and unprepared antenna closing removed. Final full body coherent as speculative/source-held inquiry; it does not verify any water mechanism.",
+          "status": "full-source-and-final-candidate-read"
+        },
+        {
+          "id": "071",
+          "finding": "Residual predictable-failure sentence now an owned question; interpretive headings and relationship/institution examples remain connected. Trailing whitespace repair changes no meaning.",
+          "status": "repaired-and-context-reread"
+        },
+        {
+          "id": "051",
+          "finding": "Thirteen explicit entries/eight positions, one implicit Chariot and thirteen unwritten markers checked against the current candidate listing. This is a count of this selected index, not the current public archive; preserved stale metadata remains held.",
+          "status": "listing-context-checked"
+        }
+      ],
+      "format_only_acknowledgement": {
+        "id": "047-The-17-Ways-a-Pattern-Repeats",
+        "receipt": "independent/final-047-whitespace-APPLIED.json",
+        "receipt_sha256": "fb2a7d2e738c2585a9cd9040f12bfb0b71572b9abe41373f6e191dd9cc12278b",
+        "scope": "Final terminal-newline normalization only. Prose unchanged; no expanded editorial or factual review performed. Existing full/incremental reading boundaries and evidence holds retained.",
+        "candidate_sha256": "cd58d62213e2739969ae7fc39e7829372d06bf911281aee5f29b6b85a581ccf3"
+      }
+    },
+    "final_status": "Final candidate-set digest refreshed after all local repairs and final047 terminal-newline normalization. No additional prose change or expanded review; existing local-coherence verdict and all source holds retained."
+  }
+}

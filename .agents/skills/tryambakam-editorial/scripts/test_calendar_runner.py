@@ -5,8 +5,14 @@ import calendar_runner as c
 
 class RunnerTests(unittest.TestCase):
     def setUp(self):
+        # These legacy tests isolate transport/ledger behavior; real context gates are exercised end-to-end in test_context_pipeline.py.
+        context_patch = patch.object(c.pipeline, 'validate_packet', return_value=True)
+        context_patch.start(); self.addCleanup(context_patch.stop)
         self.tmp = tempfile.TemporaryDirectory(); self.root = Path(self.tmp.name)
         self.source = self.root / 'source.md'; self.source.write_text('source')
+        self.contract = self.root / 'WRITER-CONTRACT.md'; self.contract.write_text('Fixture current writer contract')
+        contract_patch = patch.object(c, 'WRITER_CONTRACT_PATH', self.contract)
+        contract_patch.start(); self.addCleanup(contract_patch.stop)
         self.row = dict(id='trial', platform='x', kind='post', account='@tester', destination='https://x.com/tester', target_url=None, audience='public', send_email=False, body='Exact text', media=[], sources=[{'path':str(self.source), 'sha256':c.hashlib.sha256(b'source').hexdigest()}], status='approved', approved_by='human', approved_at='2020-01-01T00:00:00+00:00', authorization_receipt='human exact item', not_before='2020-01-01T00:00:00+00:00')
         self.row['payload_sha256']=self.row['approved_payload_sha256']=c.queue.digest(self.row)
         self.state=self.root/'private'; self.save()
@@ -47,7 +53,9 @@ class RunnerTests(unittest.TestCase):
     def test_readback_reconcile(self,_):
         self.assertEqual(c.publish(self.state,'trial',True,self.fake(mismatch=True))['status'],'reconcile')
     def test_calendar_dst(self):
-        blog=Path(__file__).resolve().parents[4]
+        blog=self.root/'blog'; posts=blog/'src/content/posts';posts.mkdir(parents=True)
+        for slug in c.re.findall(r'`([a-z0-9-]+)`', (c.REF/'baseline-calendar.md').read_text()):
+            (posts/(slug+'.md')).write_text('Synthetic source for calendar lookup')
         a=c.plan('2026-10-01',blog);self.assertEqual(a['weeks'],26);self.assertTrue(a['article'].startswith('2026-10-08T10:00:00+02:00'));self.assertTrue(a['sources'])
         self.assertTrue(c.plan('2026-10-29',blog)['article'].endswith('+01:00'))
     def test_discovery_dedup_lock_and_replay(self):
@@ -80,11 +88,40 @@ class RunnerTests(unittest.TestCase):
         (self.state/'queue.json').unlink()
         draft=dict(self.row,status='draft')
         for key in ['approved_by','approved_at','authorization_receipt','approved_payload_sha256']:draft.pop(key,None)
+        draft['writer_review']={'contract':c.WRITER_CONTRACT_ID,'skill_version':c.WRITER_SKILL_VERSION,'contract_sha256':c.writer_contract_hash(),'payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
         path=self.root/'draft.json';c.atomic(path,draft)
         self.assertEqual(c.enqueue(self.state,path)['status'],'draft')
         now=dt.datetime.now(c.UTC)
         prior=dict(self.row,status='published',kind='article',published_at=(now-dt.timedelta(days=6)).isoformat())
         self.assertEqual(c.cadence([prior],dict(self.row,kind='article'),now),'one article per platform per seven days')
+    def test_writer_review_missing_stale_and_unresolved(self):
+        draft=dict(self.row,status='draft')
+        for key in ['approved_by','approved_at','authorization_receipt','approved_payload_sha256']:draft.pop(key,None)
+        path=self.root/'writer.json';c.atomic(path,draft)
+        with self.assertRaisesRegex(ValueError,'writer review required'):c.enqueue(self.state,path)
+        draft['writer_review']={'contract':c.WRITER_CONTRACT_ID,'skill_version':c.WRITER_SKILL_VERSION,'contract_sha256':c.writer_contract_hash(),'payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
+        draft['body']='Changed after editorial review';c.atomic(path,draft)
+        with self.assertRaisesRegex(ValueError,'current exact payload'):c.enqueue(self.state,path)
+        draft['writer_review']['payload_sha256']=c.queue.digest(draft)
+        draft['writer_review']['unresolved_findings']=['unsupported personal anecdote'];c.atomic(path,draft)
+        with self.assertRaisesRegex(ValueError,'unresolved'):c.enqueue(self.state,path)
+    def test_writer_review_stale_version_contract_and_contract_source(self):
+        draft=dict(self.row,status='draft')
+        for key in ['approved_by','approved_at','authorization_receipt','approved_payload_sha256']:draft.pop(key,None)
+        review={'contract':c.WRITER_CONTRACT_ID,'skill_version':c.WRITER_SKILL_VERSION,'contract_sha256':c.writer_contract_hash(),'payload_sha256':c.queue.digest(draft),'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
+        path=self.root/'stale-writer.json'
+        original_queue=(self.state/'queue.json').read_bytes()
+        for field,value,message in [('skill_version','2.17.0','current noesis writer'),('contract','noesis-writer-human-direction-2026-10-08-v1','current noesis writer'),('contract_sha256','0'*64,'current contract source')]:
+            draft['writer_review']=dict(review,**{field:value});c.atomic(path,draft)
+            with self.subTest(field=field),self.assertRaisesRegex(ValueError,message):c.enqueue(self.state,path)
+            self.assertEqual((self.state/'queue.json').read_bytes(),original_queue)
+        draft['writer_review']=review;c.atomic(path,draft)
+        self.contract.write_text('Current contract changed after review')
+        with self.assertRaisesRegex(ValueError,'current contract source'):c.enqueue(self.state,path)
+        self.contract.unlink()
+        with self.assertRaisesRegex(ValueError,'contract source unavailable'):c.enqueue(self.state,path)
+        self.assertEqual((self.state/'queue.json').read_bytes(),original_queue)
+
     def test_crash_after_packet_before_state_replays(self):
         fixture=self.root/'fixture.json';c.atomic(fixture,[{'id':'321','text':'external'}]);real=c.atomic
         def crash(path,value):
@@ -109,4 +146,33 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(calls,['whoami']);self.assertEqual(self.status(),'draft')
     def test_identity_parser_rejects_profile(self):
         with self.assertRaises(ValueError):c.identity('@tester public profile')
+
+    def test_large_queue_roundtrip_keeps_other_input_limit(self):
+        prior=dict(self.row,context_bundle={'reviewed_source':'x'*2_050_000})
+        path=self.state/'queue.json';data={'version':1,'items':[prior]}
+        c.atomic(path,data)
+        self.assertGreater(path.stat().st_size,c.MAX_INPUT_BYTES)
+        self.assertEqual(c.load(path,{}),data)
+        draft=dict(self.row,id='new-draft',status='draft')
+        for key in ('approved_by','approved_at','authorization_receipt','approved_payload_sha256'):draft.pop(key,None)
+        draft['writer_review']={'contract':c.WRITER_CONTRACT_ID,'skill_version':c.WRITER_SKILL_VERSION,
+            'contract_sha256':c.writer_contract_hash(),'payload_sha256':c.queue.digest(draft),
+            'verdict':'ready-for-human-review','reviewer':'fixture-editor','source_coverage':True,'unresolved_findings':[]}
+        packet=self.root/'small-draft.json';c.atomic(packet,draft)
+        self.assertEqual(c.enqueue(self.state,packet)['status'],'draft')
+        self.assertEqual(c.load(path,{})['items'][0],prior)
+        self.assertEqual(len(c.load(path,{})['items']),2)
+        packet=self.root/'draft-packet.json';c.atomic(packet,prior)
+        with self.assertRaisesRegex(ValueError,'input too large'):c.load(packet,{})
+
+    def test_oversized_queue_write_preserves_old_bytes_before_replacement(self):
+        path=self.state/'queue.json';before=path.read_bytes()
+        files=set(self.state.iterdir())
+        oversized={'version':1,'items':[dict(self.row,context_bundle={'source':'é'*int(c.MAX_QUEUE_BYTES/2)})]}
+        with patch.object(c.os,'replace',wraps=c.os.replace) as replace:
+            with self.assertRaisesRegex(ValueError,'queue too large'):c.atomic(path,oversized)
+            replace.assert_not_called()
+        self.assertEqual(path.read_bytes(),before)
+        self.assertEqual(set(self.state.iterdir()),files)
+        self.assertEqual(c.load(path,{})['items'],[self.row])
 if __name__=='__main__':unittest.main()

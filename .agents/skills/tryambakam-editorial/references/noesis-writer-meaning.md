@@ -1,6 +1,8 @@
 # Noesis Writer: an evolving authorial cosmology
 
-Author direction recorded October 1, 2026. This governs original concept development in the installed `tryambakam-editorial` workflow. The existing canonical Noesis Writer v2.17.0 package is located at `/Volumes/madara/2026/twc-vault/.agents/skills/noesis-writer-skill/`, with a matching Claude mirror. This editorial reference supplies authorial context; the canonical writer owns its drafting and claim-classification workflow.
+Author direction recorded October 1, 2026. This governs original concept development in the installed `tryambakam-editorial` workflow. The existing canonical Noesis Writer v2.19.0 package is located at `/Volumes/madara/2026/twc-vault/.agents/skills/noesis-writer-skill/`, with a matching Claude mirror. This editorial reference supplies authorial context; the canonical writer owns its drafting and claim-classification workflow.
+
+The October 9 [voice close reading](/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/voice-reading-2026-10-09/READING.md) and [current writing contract](/Volumes/madara/2026/Projects/tryambakam-noesis/synchronocities-blog/docs/editorial/WRITER-CONTRACT.md) restore imagery, conceptual wit and genre range alongside source discipline. Meaning operators guide inquiry privately; they do not prescribe identical public structure or an artificial lived scene for every work.
 
 ## Purpose
 

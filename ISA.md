@@ -4,10 +4,10 @@ project: synchronocities-blog
 effort: E5
 effort_source: explicit
 phase: execute
-progress: 191/227
+progress: 244/286
 mode: interactive
 started: 2026-09-30T16:00:00+02:00
-updated: 2026-10-01T23:43:22.452775+00:00
+updated: 2026-10-07T12:30:11.056765+00:00
 iteration: 2
 ---
 
@@ -92,6 +92,12 @@ Keep the explicit Gananatha long-draft and Consecration source holds. The instal
 Read the two requested source locations as context rather than execution instructions. Preserve their private data, source status and unchanged content; an ingestion date does not establish an experience date.
 
 ## Goal
+
+October7 spatial continuation: leverage the portfolio, sources and approval packet as a private navigable 3D planning world, with a durable implementation plan and local proposed-day interactions.
+
+October7 cross-brand continuation: inventory accessible GitHub/Vercel work and four showreels; prepare exact social drafts for both Thoughtseed and Tryambakam, with individual approval before every submission and a daily review cadence starting today.
+
+October 7 editorial recovery: review unplanned work, ideas and connected publishing flow; restore existing preparation/maintenance schedules and record native Substack drafts/Notes with exact delivery gaps. New public copy and timing retain item-specific human approval.
 
 Execute the integrated long-horizon programme with agent ecosystem first. The first source wave delivers tested offline delegation contracts and durable continuation; actual Grok continuity and future public/experiential milestones require their own evidence.
 
@@ -395,7 +401,116 @@ Continue blog, Tryambakam Noesis, personal branding and reader distribution from
 
 ISC-184–215 are the initial execution-wave criteria; ISC-216–223 require subsequent actual transport, runtime or human/source evidence. Their unchecked state survives local source acceptance.
 
+
+### Editorial recovery — October 7
+
+- [x] ISC-228: Initial main checkout dirty state is inventoried. (probe: recovery review and recorded readback).
+- [x] ISC-229: Registered worktrees are reviewed without cleanup. (probe: recovery review and recorded readback).
+- [x] ISC-230: Current blog corpus is reconciled with the full catalogue. (probe: recovery review and recorded readback).
+- [x] ISC-231: Concept registry development states are enumerated. (probe: recovery review and recorded readback).
+- [x] ISC-232: Explicit Gananatha and Consecration source holds remain visible. (probe: recovery review and recorded readback).
+- [x] ISC-233: Unprocessed intake stubs are distinguished from article sources. (probe: recovery review and recorded readback).
+- [x] ISC-234: Native Substack drafts are inspected and preserved. (probe: recovery review and recorded readback).
+- [x] ISC-235: Native essay schedules are freshly read back. (probe: recovery review and recorded readback).
+- [x] ISC-236: Remaining native Notes schedules are freshly read back. (probe: recovery review and recorded readback).
+- [x] ISC-237: Existing daily publisher automation is ACTIVE after readback. (probe: recovery review and recorded readback).
+- [x] ISC-238: Existing Sunday maintenance automation is ACTIVE after readback. (probe: recovery review and recorded readback).
+- [x] ISC-239: All thirteen queue source/media and payload hashes verify. (probe: recovery review and recorded readback).
+- [ ] ISC-240: October 6 Note has an exact verified public delivery receipt. (probe: recovery review and recorded readback).
+- [ ] ISC-241: Unpublished reintroduction has an approved coherent recovery date/copy. (probe: recovery review and recorded readback).
+- [ ] ISC-242: Instagram submission lane has verified identity and exact-item approval. (probe: recovery review and recorded readback).
+- [ ] ISC-243: Reddit discussion has verified account/community and exact-item approval. (probe: recovery review and recorded readback).
+- [ ] ISC-244: Current X due items have verified direct execution authority and identity. (probe: recovery review and recorded readback).
+- [x] ISC-245: Anti: review performs no speculative deploy or reindex. (probe: recovery review and recorded readback).
+- [x] ISC-246: Editorial review is durable and linked from the handoff. (probe: recovery review and recorded readback).
+- [x] ISC-247: Repository calendar runner tests pass. (probe: recovery review and recorded readback).
+- [ ] ISC-248: Installed calendar test resolves an actual blog source fixture. (probe: recovery review and recorded readback).
+
+
+### Daily cross-brand social review — October 7
+
+- [x] ISC-249: GitHub accessible repository census is paginated and saved. (probe: cross-brand review and saved inventory).
+- [x] ISC-250: GitHub Projects boards are enumerated or exact access failure recorded. (probe: cross-brand review and saved inventory).
+- [x] ISC-251: All accessible Vercel projects are enumerated without a domain filter. (probe: cross-brand review and saved inventory).
+- [x] ISC-252: Each Vercel project has a deployment-state readback. (probe: cross-brand review and saved inventory).
+- [x] ISC-253: Each Vercel project has a complete domain collection. (probe: cross-brand review and saved inventory).
+- [x] ISC-254: Four supplied showreels have hashed media manifests. (probe: cross-brand review and saved inventory).
+- [x] ISC-255: Four supplied showreels have inspected frame samples. (probe: cross-brand review and saved inventory).
+- [x] ISC-256: Thoughtseed and Tryambakam product mapping uses current sources. (probe: cross-brand review and saved inventory).
+- [x] ISC-257: Today has exact reviewable X drafts. (probe: cross-brand review and saved inventory).
+- [x] ISC-258: Today has exact reviewable Reddit drafts with target gates. (probe: cross-brand review and saved inventory).
+- [x] ISC-259: Today has exact reviewable Instagram drafts and media. (probe: cross-brand review and saved inventory).
+- [x] ISC-260: Daily review automation requires direct per-item approval. (probe: cross-brand review and saved inventory).
+- [x] ISC-261: Previously unsubmitted social approvals are held for fresh review. (probe: cross-brand review and saved inventory).
+- [x] ISC-262: Anti: no public post or media upload precedes exact human approval. (probe: cross-brand review and saved inventory).
+- [x] ISC-263: Cross-brand inventory and daily packet are durable. (probe: cross-brand review and saved inventory).
+- [x] ISC-264: Current social account readiness is checked without credential extraction. (probe: cross-brand review and saved inventory).
+
+
+### Spatial editorial world — October 7
+
+- [x] ISC-265: Spatial prototype presents Thoughtseed and Tryambakam as distinct navigable regions.
+- [x] ISC-266: Visual graph is driven by the verified portfolio and seven current review drafts.
+- [x] ISC-267: Planning interaction saves proposed dates locally and restores them after reload.
+- [x] ISC-268: Selecting a draft exposes its exact copy, media and approval hold.
+- [x] ISC-269: Keyboard and reduced-motion paths retain access to planning content.
+- [x] ISC-270: Browser verification demonstrates graph selection and persistent planning.
+- [x] ISC-271: Anti: prototype has no posting, remote scheduling, approval grant or deployment effects.
+- [x] ISC-272: A durable design and implementation plan names actual remaining integrations.
+
+### Fieldwork second-pass review — October 7
+
+- [x] ISC-273: A source-grounded second pass identifies functional and visual gaps without claiming new runtime capabilities.
+- [x] ISC-274: The upgrade sequence prioritizes a working daily mission loop and preserves exact human publication authority.
+
+### Fieldwork second-pass implementation — October 7
+
+- [x] ISC-275: Versioned upgrade preserves the verified first prototype and its source/queue hashes.
+- [x] ISC-276: Mission calendar derives today in Europe/Paris and navigates weeks without losing assignments.
+- [x] ISC-277: Mission notes, outputs, steps and holds persist with validated v1 migration and visible orphan records.
+- [x] ISC-278: Import preview, export and reversible undo retain proposal-only authority.
+- [x] ISC-279: District navigation and differentiated product architecture provide discoverable focused exploration.
+- [x] ISC-280: Typed relationship filtering and selected neighborhoods retain explicit source provenance.
+- [x] ISC-281: Read-only editorial projection includes actual Substack draft and Note evidence with unresolved delivery stated.
+- [x] ISC-282: Exact draft review preserves body, identity, destination, media order and fingerprint.
+- [x] ISC-283: Private atomic proposal persistence rejects malformed state and unauthorized external-origin writes.
+- [x] ISC-284: Keyboard, mobile, reduced-motion and failed-source paths permit meaningful planning.
+- [x] ISC-285: Browser journeys and meaningful storage/migration tests independently verify the integrated version.
+- [x] ISC-286: Anti: agents cannot approve, publish, upload, schedule externally or infer delivered state from game progress.
+
+### Lighted Clearing Substack integration — October 7
+
+- [x] ISC-287: Harsh Truths’s selected quotation is verified against the named post’s rendered body.
+- [x] ISC-288: Steven A. Young’s selected quotation is verified against the named post’s written introduction.
+- [x] ISC-289: Both quotations link directly to their posts and Sources lists dates and interpretive scope.
+- [x] ISC-290: The new synthesis distinguishes subject, proposed medium, appearance and discernment.
+- [x] ISC-291: The revised post passes metadata validation and a production build.
+- [x] ISC-292: Anti: no deployment, publication, reindex or unrelated dirty-file change occurs.
+
+### Lighted Clearing subscription and publication — October 7
+
+- [x] ISC-293: Both official Substack subscribe embeds render in IAB with direct subscribe fallbacks.
+- [x] ISC-294: Article sharing links target the canonical URL; copy-link confirms in IAB.
+- [x] ISC-295: Narrow-screen subscription layout is readable without horizontal overflow.
+- [x] ISC-296: Metadata/build and all 20 existing tests pass for the scoped release.
+- [x] ISC-297: The scoped frontend deployment succeeds and live readback contains quotations and engagement controls.
+- [x] ISC-298: Source is committed on an isolated release branch; the primary checkout’s unrelated dirty state is preserved.
+
+### Daily editorial review — October 8
+
+- [x] ISC-305: Three exact proposed items contain account, destination/community, audience, title/body, time, email and ordered media fields. Probe: items.json field validation.
+- [x] ISC-306: Current GitHub delta records reconciled pagination and visibility counts. Probe: github-delta-private.json.
+- [x] ISC-307: Vercel delta distinguishes current list from inherited detail coverage. Probe: vercel-delta-private.json.
+- [x] ISC-308: Substack web delivery has native/public readback and no resubmission. Probe: substack-readonly-reconciliation.json.
+- [x] ISC-309: LinkedIn coordination names an existing story key and a distinct reader question. Probe: TS-X item's linkedin_coordination field.
+- [x] ISC-310: Gananatha and Consecration holds remain explicit. Probe: dated README.
+- [x] ISC-311: Anti: Existing queue and unrelated dirty files retain original bytes; ISA/handoff receive only additive run context. Probe: preservation verification.
+- [x] ISC-312: Exact body/source/media hashes and review fingerprints reproduce. Probe: final VERIFICATION.json.
+- [x] ISC-313: Anti: No external publishing, scheduling, upload, comment, deployment or access mutation occurs. Probe: run operation receipt.
+
 ## Test Strategy
+
+October 7 cross-brand probes: reconcile all paginated GitHub board counts; verify all Vercel detail/domain records; hash and fully decode supplied media; read authenticated social identities; validate exact review copy/media; re-read automation and queue holds.
 
 October2: ISC184–189 and214–215 use file/revision/preservation probes; ISC190–207 use named delegation schema/semantic/claim/no-network synthetic tests and actual checker output; ISC208–211 use CLI/truth/secrets/build commands; ISC212–213 use independent diff review and commit readback. ISC216–223 use actual bot, restart, replay, stop, exact approval, delivery and human-return probes; no synthetic substitution.
 
@@ -473,6 +588,10 @@ For the current writer scope, inspect the contextual source register and the wor
 
 ## Features
 
+October 7: docs/editorial/cross-brand-2026-10-07 contains the cross-brand roster and seven exact approval drafts. Private run evidence contains the 330-repo/22-board census, all 63 Vercel project/domain readbacks, media fingerprints and browser observations.
+
+- Editorial recovery review and existing automation resumption satisfy ISC-228–239 and ISC-245–247. Delivery/adapter/approval gaps ISC-240–244 and installed fixture ISC-248 remain open.
+
 October2: source protocol (ISC190–207), baseline/regression (ISC188–189,208–211), programme/ownership (ISC184–187,212–215), existing Grok connection (ISC216–220), authorial return (ISC221–223). Source and transport discovery are independent; continuous operation depends on accepted identity/transport.
 
 ```yaml
@@ -527,6 +646,12 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
 
 ## Decisions
 
+- 2026-10-07: selected: isolated loopback-only Three.js projection outside deployable blog assets. The existing inventory includes private/client metadata. Plan persistence is browser-local proposals; world interactions cannot approve, publish or mutate external state. One routed Build ended after index scaffolding; continuation dispatched on Execute. Provider attribution remains unresolved on hosted evidence.
+
+October 7 human direction requires fresh individual approval before each public submission. Daily automation is preparation-only at 10:00 Paris; both brands use the verified personal channels. Three unsubmitted X approvals are held with history preserved; native Substack schedules remain unchanged. Reddit approval proposals target the own profile until community rules and destination are separately reviewed.
+
+- 2026-10-07: refined: current user request authorizes resuming existing editorial jobs. Preserve the programme gates; native scheduled receipts and public delivery are separate. Monday preparation runs in the existing daily job because separate weekly studio config is absent.
+
 2026-10-02: refined: explicit E5 overrides sticky E4. Interview answer Agent ecosystem first overrides default source-ready essay-first order. Grok destination remains pending; no substitute scheduler. 32 source/programme criteria and8 future gates capture actual boundaries without padding the soft tier floor.
 
 - 2026-09-30: refined: user expanded persistent-agent planning into a working Creator Editing OS studio connected to the Editorial Steward; cloud activation remains a separate acceptance gate.
@@ -571,6 +696,15 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
 
 ## Changelog
 
+- 2026-10-07 | conjectured: old social approval labels and a resumed publishing schedule could continue the daily flow.
+  refuted by: the current human direction requires review of each item before posting; the September receipt scoped live action to Substack and the three unsubmitted X rows retained older labels.
+  learned: daily preparation and exact submission approval must remain distinct; hold unsubmitted X rows with history intact and make the existing daily automation preparation-only for both brands.
+
+- 2026-10-07 | conjectured: seven local scheduled rows reflected current native delivery state.
+  refuted by: native Substack still lists the introduction as UNPUBLISHED; October6 Note is absent from Notes drafts without an exact public receipt.
+  learned: queue timestamps cannot establish public delivery and must not trigger duplicate submissions.
+  criterion now: ISC-240 and ISC-241 retain exact delivery and coherent timing gates.
+
 2026-10-02 | conjectured: birth-blueprint source remained the first implementation gap.
   refuted by: fresh HEAD29ef123 and245-test local acceptance show that source slice already completed.
   learned: recover source state before dispatching; delegation executable validation is the next gap.
@@ -607,6 +741,13 @@ OwnershipRecovery satisfies ISC-157–162: archive source handoff, restore exact
   criterion now: ISC-157 through ISC-162 verify recovery and preservation.
 
 ## Verification
+
+- 2026-10-07 spatial preflight: data contains 330 unique repos,63hosts,22boards,12products,7exact drafts and53ideas. Exact repository edges and all draft media hashes pass. First browser build REJECTED: directory undefined labels and selection opens no journal; connection group has no edges. ISC-265–271 remain open pending repair and actual browser verification.
+
+2026-10-07 ISC-249–264 PASS: 330 accessible repos, 29 owners; 22 boards/2,457 reconciled placements; 63 Vercel projects/details/domain collections, 23 custom-domain/40 Vercel-only; four complete decode passes and inspected contact sheets; seven exact draft items pending human review, media hashes match, X lengths 222/204/203; signed-in account evidence; ACTIVE daily automation readback preparation-only; queue audit preserves all payload hashes and scheduled Substack rows. No media uploads or public posts. This closes preparation/review criteria, not item publication, runtime acceptance or historical programme gates.
+
+- ISC-228–239, ISC-245–247: recovery readback — docs/editorial/2026-10-07-recovery-review.md; private queue audit reports thirteen valid items; automation readback ACTIVE; repository runner reports fifteen tests OK.
+- ISC-240–244, ISC-248: remaining — exact public delivery/author decisions/account acceptance and installed suite path failure are recorded in the recovery review.
 
 October2 pre-state: queue SHA25646331d23176058211980cacc05f2b7fa6420a44cf5534535a411d50d3f51206c; Antahkarana HEAD29ef123. Later fresh tool evidence must mark criteria; no completion inferred from this entry.
 
@@ -759,3 +900,312 @@ ISC-198.1: node --test tests/cli/delegation-terminal.test.mjs —14/14pass, inde
 ISC-221.1: acceptance_design second read-only review PASS localDRAFT;3sourcehashes,5fragments,23publicspans match;1739words; noinventedtestimony/effects. ISC-221.2: independentlyread185wordcompanion preservesprivate/optional/interruptible/noaction/pending. Publication and actualreturn gates remainunchecked.
 
 Blocked audit October 2: governed worker capacity failed across original E5 and two automatic goal continuations. Fresh single Execute attempt HTTP429/34s/exit1; no edits, source521fb4a clean. Full acceptance remains unproved. See docs/plans/noesis-programme-2026-10-02/BLOCKED-AUDIT.md. Goal blocked for external capacity and pending exact existing Grok destination; no completion claimed.
+
+- 2026-10-07 Fieldwork browser verification: distinct Three.js workshop/observatory/docks rendered; exact TS-X1 body/account/media hash/hold inspected. October8 proposal persisted through reload and test entry removed. Find exposes63hosts including ERROR/BLOCKED and Gananatha awaiting-long-drafts. Stillness aria-pressed=true. No fresh browser errors after11:20UTC; old rejected-build errors retained as historical evidence. Design-core research/decision contract saved; typography/framing/mobile final pass remains.
+
+- 2026-10-07 final spatial verification: ISC-265–272 pass within private prototype scope. Local Panchang/Satoshi loaded; six places fit opening view; projected captions avoid collision and reserved UI. Keyboard Enter reaches journal, local media readyState4, mobile355×767 has no horizontal overflow and scrolls, declared44px controls; reduced-motion emulation retains planning then restored. Queue SHA256 unchanged6a8d55c28747bec61f6bff6847f458193afa5bb3028eae103755ac82164d2b67. Browser/source hashes in docs/plans/editorial-world-2026-10-07/VERIFICATION.json. Live refresh/shared plan/native Substack receipt integration remain proposed. Historical programme gates remain open.
+
+- 2026-10-07 ISC-273–274: current source/schema and IAB overview reviewed; bounded routed read-only review completed with unresolved provider attribution. UPGRADE-PASS-2.md records concrete defects, mission/calendar/district/adapter/review/persistence slices, migration/acceptance journeys, and corrections to invented approval/quota constraints. Current private runtime and queues were not changed by this second-pass review.
+
+- 2026-10-07 ISC-275–286: Fieldwork v2 implemented and verified privately at4390. 9 mission-model and10 server tests pass; IAB persistence, migration, exact review, focus/mobile/reduced-motion and cached-source recovery verified. Original prototype and queue unchanged; test missions removed via undo, revision4 empty. Final source hashes, screenshots and limits: docs/plans/editorial-world-2026-10-07/VERIFICATION-V2.json. Dated sources are not live platform sync; no public approval/post/upload/schedule/deployment occurred. Historical programme gates remain open.
+
+- 2026-10-07 Field Report extracted into its own private GitHub repository https://github.com/Sheshiyer/field-report, checkout /Volumes/madara/2026/Projects/thoughtseed/fieldwork, authoritative ISA at that root. Separate overview/island/product pages,30 local tests, native illustrated assets, README Generator,25reviewquestions and activity proposal CLI implemented. Currentruntime4391, originalv2 runtime4390 preserved. Exact public posts still need individual approval; routine-comment profile policy is future/unconfigured. No old programme criterion is closed by this extraction.
+
+- 2026-10-07 Lighted Clearing: ISC-287–290,292 verified from named Substack sources and scoped diff. Source/claim review: docs/editorial/lighted-clearing-substack-review-2026-10-07.md. New quotations are contemporary philosophical dialogue; earlier Albedo audit remains tied to its original hash. ISC-291: metadata/build exit 0, 154 generated pages; compiled article retains both exact quotes, direct URLs and figure anchors.
+
+- 2026-10-07 ISC-293–298 verified: scoped source commits a834ed2 and1e86734;20 tests, metadata/build pass; narrow viewport355/document349; canonical IAB renders two Substack forms and copy confirmation. Frontend version ad2ead31-18d3-439f-9d4c-774fd9909818 published with direct authority. Backend/index untouched; primary unrelated dirty handoff retained. Raw HTTP probe403; browser readback is the live evidence.
+
+## Article presentation and discovery — October 7
+
+- [x] ISC-299: Subscription cards use site tokens and direct official Substack subscription destinations.
+- [x] ISC-300: Mobile article reading has symmetric20px inner gutters without horizontal overflow.
+- [x] ISC-301: Menu has no fading mask; mobile toggle/Escape/focus behavior verified.
+- [x] ISC-302: Homepage depth scroll opens with newest eligible published article.
+- [x] ISC-303: Article-only Why Chromosome invitation and verified public Noesis project links appear at a section boundary.
+- [x] ISC-304: Production build, frontend deployment and live desktop/mobile readback verify final refinements.
+
+Decision: The user selected within articles only for discovery cards. Homepage ordering still changes to newest first. Discovery uses a compact mid-article invitation with an expandable project directory; only verified public destinations are listed. Fieldwork ISA is an unrelated injected pointer and stays untouched.
+
+- 2026-10-07 ISC-299–304 verified:20tests/154pages pass; all121depth entries descending bydate; first Lighted Clearing. Discovery verified once per card/non-card body, mid-H2 boundary with13original essayTOC sections. Live mobile390/document384 gutters20/20px; desktop1280nav13.6px/masknone; consoleerrors[]; frontendversionf4292791-f841-4fbc-b176-bf150c5e3152. Exact source49708c7/1a61a7f, PR247open. No backend deployment.
+
+- 2026-10-08 daily editorial preparation: ISC-305–313 verified against docs/editorial/cross-brand-2026-10-08/items.json and private runs/2026-10-08-daily/VERIFICATION.json. Three exact drafts awaiting human review; Reddit/Note alternatives. Native Substack10published/1scheduled/3drafts; October8 essay public, introduction UNPUBLISHED, October6 Note unresolved. Queue unchanged; no submissions. GitHub331/public222/private109, Vercel63/one metadata delta. Additive ledger only; no historical open gate closed. Independent fallback review passes; configured Cato unavailable, Advisor failed before judgment.
+
+## Archive distribution and supplementary series — October 8
+
+- [x] ISC-314: Every current blog Markdown entry has a unique source-hashed distribution catalogue row.
+- [x] ISC-315: Existing native Substack publications and ledger overlap are reconciled without claiming unknown X/Reddit history as absent.
+- [x] ISC-316: Existing nine-strand calendar is extended with distinct complementary angles and bidirectional reader paths.
+- [x] ISC-317: A first full Substack companion, X article/sequence and Reddit discussion draft are source-linked and reviewed.
+- [x] ISC-318: Draft artefacts and link/source hashes pass verification, preserving the existing publication queue and scheduled work.
+
+Decision: Prepare supplementary series across the full archive. Preserve the existing Thursday newsletter calendar and individually approved publication policy. No external submission or automated publishing is authorized by this preparation request.
+
+- 2026-10-08 ISC-314–318 verified in docs/editorial/archive-distribution-2026-10-08/VERIFICATION.json:127 unique current source hashes,24 valid companion concepts plus conditional narrative lane, native Substack10/1/3 read-only overlap, complete first packet1121/671/336words and six X posts143–227weighted characters. Queue fingerprint unchanged; daily exact drafts matchHEAD. Catalogue is full inventory, only three sources close-read for first packet; X/Reddit absence unknown. No submissions, schedule changes, site edits or measured traffic results. Revision window proposed, not author-adopted canon. Routed launch declined exit125 by pressure guard before execution; bounded packet completed directly.
+
+## Archive packet in existing Field Report UI — October 8
+
+- [x] ISC-319: Six exact draft payloads,24 concepts,127 source entries and series plan are in the existing owner-private Site.
+- [x] ISC-320: Existing records and shared human state preserved; review displays format/email/destination and exact payload fingerprint.
+- [x] ISC-321: Private deployment and signed-in review verified; live adapter hold distinguished from public delivery.
+
+Verification: FIELD-REPORT-LIVE.json; source15fd197e, deploymentappgdep_6ac79224bab08191a0812fd98b87fc44,13tests pass, live668records/planrevision2/queue0. No approval or public action executed. Existing daily schedule retained.
+
+## Nine Muses and Field Theory delivery — October 8
+
+- [x] ISC-322: Nine distinct source-grounded role contracts map real blog series and Field Theory categories.
+- [x] ISC-323: Nine named Grok Bots exist with their exact role briefs delivered and read back.
+- [x] ISC-324: Existing Field Report UI exposes Muse ownership while preserving approved publication payloads.
+- [x] ISC-325: Actual delivery capabilities and missing executor requirements are documented from current evidence.
+- [x] ISC-326: Anti: Existing Bots, human approval state, public posts and unrelated checkout changes remain preserved.
+
+Verification ISC-322: registry.json read back contains nine unique profiles; categories from ft metadata and author Muse framework. Calliope Bot name and complete role brief visible in native Grok Bot accessibility state. Remaining Bots not yet created.
+
+ISC-323: Native Grok Bot UI readback verifies nine unique names and each delivered role brief; existing main Bot and Thalia group preserved. registry.json records confirmed creation separately from unverified Bot-owned memory and delivery.
+
+ISC-324–326: Same owner-private Site source0e10aca7, deploymentappgdep_6ac79cd9e81c8191a5ab7371d2e9e1ec succeeded. Live678records include nine Muse roles plus index,127 source owners,24 concept owners and6 draft owners.14tests/build pass; native IAB index and review render. Exact approved Substack fingerprint1861037e andtimestamp13:02:45Z preserved; planrevision2 and queue0 unchanged. DELIVERY-CONTRACT.md records 401 private Site, unverified browser publication, X reading-only, no Substack connector and Reddit identity mismatch as Bot reports. No public submission or new access grant performed. Automatic delivery remains unimplemented.
+
+Decision October8: Creating nine editorial Bots is not installing a publishing executor. Source/category routing can ship while queue access, actor claim, supported channel action and delivery receipt remain explicit implementation gaps. Undefined fingerprints must never compare as approval; new regression verifies non-draft/missing/stale cases.
+
+## Muse ecosystem reporting and Grok routines — October 8
+
+- [x] ISC-327: Nine reporting remits connect Field Theory aspects to actual project and source locators.
+- [x] ISC-328: Exact bounded schedule setup briefs delivered to all nine existing Muse Bots.
+- [x] ISC-329: Nine native recurring report jobs have confirmed persisted schedules and enabled state.
+- [x] ISC-330: Calliope daily digest and weekly review have confirmed native schedules.
+- [x] ISC-331: Initial reports or current run status and access gaps are read back without invented coverage.
+- [x] ISC-332: Anti: No publication, permission expansion, unrelated routine change or source-access bypass.
+
+Verification ISC-327–328: REPORTING.json contains nine unique project/category remits and native UI readback confirms nine delivered setup briefs. ft status465bookmarks, Sept29timestamp, disconnected; used as dated baseline only. Each job has120word/two-source/five-minute report bounds and excludes paid X search, public action and refused-folder bypass. Calliope reports native chat pull supported across eight Muses and no existing matching routine. Schedule persistence remains pending.
+
+ISC-329–332: Native routine detail panels show nine daily report schedules with Pause controls. Calliope Details shows three routines with switches on:09:53own report,10:15daily digest,Monday10:30review. Saved digest instruction uses ReadTranscript with eight actual Muse conversation IDs plus own chat. Initial aggregate contains all nine manual reports; first timed execution remains unobserved. Existing digest jobs refined in place for dated attribution/exact IDs/word count. Field Report sameprivateSite sourced6b5ddcb, deploymentappgdep_6ac7a20226508191b20a8d8f1df101d1 succeeded, buildpass, live11-routine timetable read back. Draft fields unchanged. No public delivery or expanded source permissions. Historical Erato refused-folder workaround surfaced in coverage and explicitly prohibited in all new jobs; no historical behavior accepted as new access authority.
+
+## Live publication and structured review pilot — October 8
+
+- [x] ISC-333: User-provided vault Muse matrix, skill vocabulary and resource lattice are source-hashed and connected to review routing.
+- [x] ISC-334: Structured questions, human answers and acknowledgement outbox persist in the existing private Site with revision checks.
+- [x] ISC-335: Exact-approved Let the Sentence Finish is publicly published on The Why Chromosome with subscriber email off and verified links.
+- [x] ISC-336: Field Report records the actual publication receipt and refuses mismatched, duplicate or unapproved delivery claims.
+- [x] ISC-337: Meaningful tests, private deployment and native browser readback verify the pilot without changing unrelated drafts or routines.
+
+Decision: Latest user explicitly requests implementation and one real publication test. Reuse existing human exact-copy approval; do not fabricate a new editorial answer. New vault source pointers ground future reviews without changing approved copy. Routed Build attempt was declined by host-pressure admission before execution (exit125); no provider/model success claimed.
+
+ISC-333–337 verified: PUBLICATION-RECEIPT.json and PILOT-VERIFICATION.json; approved public post219450210, normalized copy identical, both blog links confirmed, email/app delivery off. Site source0f0736d3 private deploymentappgdep_6ac7c3de53188191a849aae882bafdf0 succeeded.17checks pass; live service human-answer403, receipt retry alreadySaved, planrevision2/zero missions retained. Live Questions has native Euterpe next-companion proposal and Clio review, answer remains null. Fixture proves answer/outbox/ack; actual human decision and automatic transport are not claimed. Existing digest routines updated in place. Mobile override ineffective; no new mobile acceptance claimed.
+
+## Ecosystem voice correction — October 8
+
+- [x] ISC-338: Canonical noesis-writer skill and current human style override are connected to editorial preparation.
+- [x] ISC-339: Local archive and prepared copy have source-hashed contextual voice triage.
+- [x] ISC-340: A separate pilot revision preserves constructed example and supported claim boundaries.
+- [x] ISC-341: New enqueue packets require a current exact-payload writer review.
+- [x] ISC-342: Existing daily preparation automation and eleven Muse reporting routines retain schedules and carry the new writer direction.
+- [x] ISC-343: Anti: Published copy, original exact approval, unrelated checkout changes and source-access restrictions are preserved.
+
+Verification ISC-338–343: docs/editorial/voice-revision-2026-10-08/README.md, revision-trace.json and MUSE-VERIFICATION.json. Canonical/mirror diff empty;141 local records,114 flagged,551 contextual findings.849-word pilot candidate has no detected triage patterns, without an AI-authorship verdict or fabricated VFS score.16 Python checks pass including missing/stale/unresolved writer reviews. Native UI shows writer contract in all11 saved routine panels and original schedules. Existing10:00 preparation automation saved prompt read back. Installed skill copy also updated; published post219450210 remains unchanged and candidate awaits exact human review. Routed Build declined prelaunch for host pressure, exit125; no resolved provider claimed. Archive prose has not been mass rewritten and the private Site handler has no new enforced voice gate.
+
+## Daily cross-brand preparation — October 9
+
+- [x] ISC-344: October9 exact candidate payloads contain title/account/destination/audience/timing/ordered media and hashes.
+- [x] ISC-345: Current writer sources and October8 direction have a source-hashed read record.
+- [x] ISC-346: Incremental GitHub census separates public source changes from private/fork/client research holds.
+- [x] ISC-347: Vercel delta records current deployment/domain/protection evidence with bounded coverage.
+- [x] ISC-348: Substack read-only reconciliation preserves schedules, introduction and unresolved Note status.
+- [x] ISC-349: Writer review covers exact payload hashes with reviewer and unresolved findings.
+- [x] ISC-350: Antecedent: complete drafts and neighbouring candidates receive contextual prose review.
+- [x] ISC-351: LinkedIn story keys and cross-brand rotating roster prevent blind story duplication.
+- [x] ISC-352: Anti: publication queue, pre-existing dirty files and external state remain unchanged by preparation.
+
+
+Verification ISC-344–352: docs/editorial/cross-brand-2026-10-09/VERIFICATION.json records53passing payload/source/link/preservation assertions. Final items and TODAY agree byte-for-byte; exact writer-review hashes bind both texts and fourteen-row canonical claim trace. Independent native review PASS; Reddit awaits direct human review, Instagram remains QUARANTINED for full motion/sound review. GitHub331repos/33publicdefaultbranchtriage;Vercel63projects/13freshdeltaREADY; nativeSubstack11published/1scheduled/3drafts. Published companion unchanged, intro explicitlyUNPUBLISHED, futureNotes preserved with inheritedOctober7evidence, exactOctober6Note unresolved. Queue and all11other pre-existing filebytes unchanged; ISA/handoff additive only. No external submissions, uploads, schedules, comments, deployments or access changes. Gananatha/Consecration holds retained. Historical openISCs remain outside this bounded preparation.
+
+## Full voice and source reading — October 9
+
+- [x] ISC-353: Entire writer package is read without unacknowledged truncation.
+- [x] ISC-354: Earlier blog bodies and full brand voice documents are compared with recent prose.
+- [x] ISC-355: Source-linked reading findings distinguish living voice from template imitation.
+
+Verification ISC-353–355: docs/editorial/voice-reading-2026-10-09/READING.md and SOURCES.json. All16 writer-package files, both full brand guides and VOICE.md read;8 current blog files,2 complete earlier Git versions and1 recent revision compared. Truncated portions reread in bounded calls; canonical/mirror diff empty. Source hashes and report links verified. Referenced06-copy-style-guide.md is absent after scoped search; documented without inventing a substitute. No public prose, writer governance or delivery changed.
+
+## Four-month writer refresh — October 9
+
+Problem: recent revision removed template patterns but flattened the established clinical-visionary, playful and image-led voice.
+Vision: each article sounds particular to its subject and author, with source fidelity and exploratory meaning intact.
+Scope: authorizes local skill updates and reviewable revisions of blogs written or substantively revised June9–October9 plus complete planning drafts. Publication, queue approvals, remote drafts and infrastructure are separate.
+Constraints: preserve current dirty sources, original metadata, historical versions, attributable claims, source holds and exact-item human publication decisions.
+Goal: updated canonical/mirrored writer and editorial integration, a complete dated census, substantive context-reviewed candidates and reversible per-item traces.
+Features: writer calibration; corpus census; per-piece revision; draft reconciliation; structural and editorial verification.
+Test strategy: compare source hashes/frontmatter, verify mirror diff and current packet gate tests, inspect complete prose and cross-batch repetition; report source holds and unfinished items explicitly.
+
+- [x] ISC-356: Canonical writer incorporates full-reading findings and current author direction.
+- [x] ISC-357: Runtime writer mirror is byte-identical to the updated package.
+- [x] ISC-358: Editorial preparation enforces the new exact-copy writer contract and version.
+- [x] ISC-359: Four-month census distinguishes body revisions from metadata-only changes.
+- [x] ISC-360: Complete planning drafts are reconciled with source holds and existing delivery states.
+- [x] ISC-361: Each eligible blog has a context-reviewed candidate or justified unchanged verdict.
+- [x] ISC-362: Each eligible complete planning draft has a context-reviewed candidate or justified unchanged verdict.
+- [x] ISC-363: Revised candidates retain exact frontmatter and source/change traces.
+- [x] ISC-364: Independent verification checks source fidelity, voice and cross-piece repetition.
+- [x] ISC-365: Anti: published copy, approvals, queue state and unrelated WIP are preserved.
+
+Decision: Human request authorizes skill/style updates; covenant identity and publication authority are unchanged. Use source-window and substantiveGitbody-change evidence together. Archive and candidate prose are kept distinct; source-held outlines are not fabricated into manuscripts.
+
+Verification ISC-356–360: canonicalwriter2.18.0/mirror recursive diff empty,17-file versioned package captured; downstream17gate tests pass, source-hash/contract/version checks reject stale packets; census134snapshot hashesverified,74blogs/37distinctdrafts,53conceptstates held separately. Preservation10filehashes pass. Prose revision batches A/B/C own isolated worktrees; review ISCs remain open.
+
+Verification ISC-362: all37 distinct planning bodies and complete candidates read,14revised/23retained with individual reasons; independent/drafts-review.json binds all37 source/candidate hashes and whole-body reading. Thread repetition repaired and final copy rebound. Media/account/community/source/timing holds remain; two pilot versions intentionally converge to one revision, no release or approval transferred.
+
+Verification ISC-361/363–365: corpus-refresh-2026-10-09/VERIFICATION.json passes all1878 structural/source/coverage checks. All74 eligible blogs and37 distinct drafts have complete candidates and exact per-piece reviews;88copies revised,23retained. Independent111 whole-piece records bind finalbytes; corpus voice assessment reviewed101 successive prose/context followup edits plus1format-only EOF repair across43candidates and finalcandidate-set digest6185b19848642b2a2c37e5870efa4b455ba1e5ee534192c7bfb9cee9671f3bb9. All134snapshot/live-container hashes, exact74frontmatters, originalURLs/Markdown destinations,17-file canonical/mirror archive and10preservation hashes pass;17writer-gate regressions pass. Scientific/historical/traditional/model/metadata/media/account/timing issues stay explicit perpiece. No public copy, queue approval or delivery was changed. Existing preparationautomationprompt updated/readback in place with10:00schedule/model/project/status retained. RemoteMuseprofiles not newly updated.
+
+Changelog — four-month writer refresh: Conjectured: removing obvious template phrases would recover the native voice. Refuted by: complete comparative reading and independent followups found flattened prose, repeated triad tours, process narration and adjacent old guarantees. Learned: complete-piece context, preserved imagery and technical wit, and a second reader’s changed-span/adjacency checks improve revision fidelity. Criterion now: a latest-writer pass retains genre/personality, binds exact final copy, and separates completed editorial work from unresolved evidence and publication decisions.
+
+## Older Substack close reading — October 9
+
+Problem: previous calibration used local blog versions; the author now asks for older live Substack posts.
+Vision: source-linked judgment separates the author’s useful technical imagination from recurring scaffolding and unsupported claims.
+Out of Scope: no public editing, publication, queue mutation, private subscriber data or blanket AI-authorship verdict.
+Constraints: read complete accessible bodies through the signed-in IAB; distinguish live versions from repository versions; retain external state and unrelated WIP.
+Goal: review every older article currently exposed by The Why Chromosome archive, with dated per-piece findings and explicit access limits.
+Features: archive census; nine complete close readings; one recent published comparison; selective primary-text checks; durable review.
+Test strategy: observed archive list reconciles to nine older URLs; each has its own findings; source checks linked; local review links resolve; preservation hashes match.
+
+- [x] ISC-366: Live archive identifies the older-post review set and dates.
+- [x] ISC-367: Every accessible older article has a whole-body reading record.
+- [x] ISC-368: Each older article has specific keep/change/source findings.
+- [x] ISC-369: Live Substack findings are compared with the current writer calibration.
+- [x] ISC-370: Selective factual corrections cite inspected primary texts and retain unverified holds.
+- [x] ISC-371: Durable review and source manifest are readable and internally consistent.
+- [x] ISC-372: Anti: external content, queue, skills and unrelated WIP remain unchanged.
+
+Decisions: bounded synchronous nine-article review; no delegation needed for this reading set. Seven outcome criteria replace ceremonial per-paragraph expansion. ContextSearch checks native/archive divergence; FirstPrinciples/Challenge tests the assumption that older work is uniformly exemplary; ISA records scope/probes; ReReadCheck binds the final review to the user’s actual ask. No empirical or authorship certification inferred from familiar prose.
+
+Verification ISC-366–372: docs/editorial/substack-older-posts-review-2026-10-09/README.md and SOURCES.json record nine live older complete accessible bodies (January2023–January2025) plus one recent published comparison; eleven archive entries reconciled. Perpiece keep/change/source findings supplied. Chamakam sequence checked against primary transcription, odd1–33 then multiplesof4 through48; Sikshavalli sixquotedterms compared with articlefour.23coverage/preservation assertions pass,11inheritedWIP/queue hashes unchanged. Review-only; no skills/publiccopy/approval mutation. Advisorattempt unavailable429quota; no independent advisor or AI-authorship verdict claimed.
+
+Changelog — olderSubstackreview: conjectured: the older archive could supply a uniform voice baseline. Refuted by: fullbodies contain both distinctive technicalhumour and repeated negation/list/promotion scaffolding, plus specific primary-text mismatches. Learned: temporalage does not certify stylequality or claimvalidity. Criterion now: calibrate selected moves incontext, keep provenance, and separate voicevalue from factualwarrant.
+
+## Cosmology evolution and alchemical lexicon — October 9
+
+Problem: static style calibration cannot represent changing worldview, source influence, purposeful negation or historical vocabulary.
+Vision: writer retrieves a dated author-owned cosmology, interprets vocabulary in context and proposes traceable changes grounded in direct sources.
+Out of Scope: no automatic belief adoption, wholesale Young imitation, publication, remote Muse configuration or invented complete video reading.
+Constraints: user prioritises Steven A. Young as a primary source for lexicon/alchemical perspective; distinguish source position, author adoption and empirical warrant. Preserve earlier versions, covenant and existing approvals.
+Goal: design a source-linked evolution/merge method and integrate it into the canonical writer with current neti-neti direction, dated seeds and explicit reading limits.
+Features: primary reading; temporal worldview events; contextual vocabulary policies; source lexicon; reviewable merge workflow; skill integration.
+Test strategy: direct source locators and reading depths; author-direction provenance; prior-state preservation; mirror hash equality; regression checks appropriate to changed gates.
+
+- [x] ISC-373: Young primary-source reading records distinguish full articles from video introductions.
+- [x] ISC-374: Evolution design separates source positions, proposed interpretation and author adoption.
+- [x] ISC-375: Neti-neti is distinguished from empty contrast scaffolding in the writer.
+- [x] ISC-376: Contextual vocabulary policies capture reasons and historical scope without universal token bans.
+- [x] ISC-377: Dated seeds represent observed evolution without inventing retrospective belief dates.
+- [x] ISC-378: Canonical writer and mirror contain the verified evolution reference.
+- [x] ISC-379: Review/merge and future HITL integration are concrete with honest implementation boundaries.
+- [x] ISC-380: Anti: originals, published content, approvals and unrelated WIP remain preserved.
+
+Decision: build on existing living-cosmology loop and v2.18calibration rather than replace them. Current user directly prioritises Young and philosophicalneti-neti; specificadoption of allYoungphysicalclaims is not implied. Optional favourite-source question pending; proceed with relevant elemental/alchemical sources. No publication authority requested.
+
+Verification ISC-373–380: cosmology-evolution-2026-10-09 records four Young primary pages with written-body/video-introduction coverage distinguished, selected book OCR locators, four dated evolution events, seven proposed lexicon entries, six contextual vocabulary policies and one exact-hash undecided merge proposal. Writer v2.19.0 canonical/mirror/archive18filehashes match; contractv3/downstreamcurrentversion gate17regressions pass. VERIFICATION.json records file/source/record/preservation checks PASS. Sourcecopy, queue, historicaldossier and governancehashes unchanged. Local method and skill implemented; full Young videos, author-specific adoption, complete retrospective mapping and remoteHITL runtime remain future work.
+
+Changelog — cosmologyevolution: conjectured: a revised anti-list could carry philosophical change. Refuted by: the old dossier substitutes technical field language for source meanings and document dates cannot establish belief dates. Learned: term senses, reasons, historical scope and exact author decisions need separate records. Criterion now: preserve source meaning, dated change and unresolved remainder; merge a chosen author position explicitly without silently revising history or transferring publication approval.
+
+## Writer foundation for publishing — October 9
+
+Problem: individual publishing workflow references do not consistently carry the latest worldview context through adaptation and review.
+Vision: one canonical writer foundation supplies author meaning and voice before each existing publishing process.
+Out of Scope: no new doctrine, belief adoption, publication, scheduling changes or remote Bot/UI deployment.
+Constraints: retain current canonical writer v2.19.0, exact-item approval, queue state, cadence and inherited WIP.
+Goal: bind preparation, adaptation, discovery and learning to one shared writer foundation and document current runtime boundaries.
+Features: common foundation reference; explicit operation entry points; channel context continuity; installed reference parity.
+Test strategy: inspect five workflow entry links, compare installed changed files, run existing enqueue/publish regressions and check preservation hashes.
+
+- [x] ISC-381: Shared foundation defines source/worldview/voice input before publishing operations.
+- [x] ISC-382: Editorial entry point and operation references load the shared foundation.
+- [x] ISC-383: Channel adaptations preserve relevant meaning and unresolved questions.
+- [x] ISC-384: Installed changed references match repository copies.
+- [x] ISC-385: Existing automated preparation reads current writer/contract without schedule mutation.
+- [x] ISC-386: Anti: queue, canonical governance, public sources and inherited WIP remain unchanged.
+
+Decision: current clarification makes writer the upstream foundation, not an additional publishing system. ContextSearch checks continuity; FirstPrinciples identifies semantic ownership before format; ISA bounds instruction integration; ReReadCheck tests against the requested layering. Bounded document integration needs no delegated fleet or remote update.
+
+Verification ISC-381–386: shared writer-foundation reference linked by main editorial skill and workflow/execution/concept entry points. Four installed references match exactly; installed main skill has equivalent entry. Existing daily preparation explicitly loads current canonical writer and contract; configuration unchanged and no run invoked. All 231 parity/preservation/entry checks PASS and17calendar regressions PASS. Canonical2.19.0 package/mirror unchanged; sourcecopy/queue/inherited WIP hashes retained. Remote profiles and UI integration not claimed.
+
+Changelog — writerfoundation: conjectured: a versioned writer alone ensures downstream continuity. Refuted by: operation references lacked an explicit handoff of relevant meaning and open questions into adaptations. Learned: one common entry reference makes the layer usable across operations without a parallel publishing system. Criterion now: load current foundation, carry selected meaning, review each exact adaptation, and retain existing publication authority.
+
+## Integrated understanding and daily publishing implementation — October 9
+
+Problem: prior writer uses chronological context and the publishing pipeline lacks executable vault/asset handoff and dynamic daily drafts.
+Vision: philosophical understanding appears naturally in meanings, arguments and images, backed by real portfolio sources and usable assets.
+Out of Scope: no bulk public archive rewrite, author belief timeline, private disclosure, autonomous approval, speculative resource migration or unattended Muse-access claim.
+Principles: human authorship and publication authority; source meanings preserved; semantic fidelity judged in complete prose; private/public boundaries explicit.
+Constraints: canonical writer/mirror parity; preserve inherited WIP and approvals; one daily story10:30Paris; existing private Site and publishing channels.
+Goal: implement accepted writer/retrieval/dynamic-review/daily schedule plan, validate three writing cases and present one end-to-end source/asset-backed pilot in Field Report.
+Features: writer integration; local retrieval/projection; Cloudflare asset review; dynamic Site draft storage; workflow gates; scheduled preparation; real pilot.
+Test strategy: whole-source coverage; semantic examples; canonical/mirror digests; source/asset mutation and path tests; Site API revision/auth/persistence tests; browser review; exact runtime schedule readback; preservation hashes.
+
+- [x] ISC-387: Young book reading coverage and Substack source limits recorded.
+- [x] ISC-388: Writer integrated reference explains assumptions, vocabulary and alchemical relationships.
+- [x] ISC-389: Chronological drafting requirements removed from active writer workflow.
+- [x] ISC-390: Annotated semantic examples and three complete validation cases supplied.
+- [x] ISC-391: Canonical writer/mirror/versioned package hashes match.
+- [x] ISC-392: Repository/vault/project projection preserves identities and coverage.
+- [x] ISC-393: Cloudflare assets mapped with purpose, access, evidence and verified subset.
+- [x] ISC-394: Direct retrieval produces bounded source-linked context bundles.
+- [x] ISC-395: Current writer, context, media and exact-copy binding enforced on new drafts.
+- [x] ISC-396: Dynamic drafts persist and appear without Site rebuild.
+- [x] ISC-397: Existing static records and published receipts retain behavior.
+- [x] ISC-398: Revision/conflict/idempotence/approval boundaries tested.
+- [x] ISC-399: Current UI displays dynamic candidate context, media and writer findings.
+- [x] ISC-400: Existing daily preparation changed to10:30Paris with one lead story.
+- [x] ISC-401: Missing/stale Muse access and handoff status are explicit.
+- [x] ISC-402: Pilot source/asset bundle and reviewed copy validated end-to-end.
+- [x] ISC-403: Field Report private deployment and actual pilot readback verified.
+- [x] ISC-404: Anti: public copy, existing queue approvals and unrelated WIP preserved.
+
+Decisions: user explicitly requests implementation of accepted plan; portfolio foundation and semantic fidelity replace timeline focus.18criteria cover independent deliverable probes rather than ceremonial256splits; depth supplied through fullbook reading, three bounded ownership lanes and real runtime verification. Route requests returned admitted=false/adapter=none exit125; no provider execution claimed. ContextSearch/FirstPrinciples/SystemsThinking/Science/ISA/ReReadCheck govern source-continuity, semantic ownership, transport constraints, failure probes and final acceptance.
+
+Verification checkpoint ISC-387–390/393/400: complete265OCR-page reading and four written-primary-page coverage recorded; integrated reference/annotatedexamples and three complete candidates inspected; source distinctions and purposeful negation retained. Current20-file writer package and contract digests independently match trustedSitepolicy. DefaultOAuth account-pinned list confirms20R2buckets;9purpose/access mappings and11local/liveSiteobjectintegrity checks recorded. Existingdailyautomation updated/readback10:30Paris.199source/queue/inheritedWIP preservation hashes unchanged. Site31tests/build pass; finalMusemetadata alignment and livepilot verification remain open.
+
+Verification checkpoint ISC-392/394/395/397/398/401: source projection retains343editorial/projectidentities, linked331repositorycensus withvisibilityandprovenance;32pipeline regressionspass andactualvault/publicprojectpassages verifyagainstpinnedbyte-rangeauthorizations. Canonical/installed21fileeditorialpackageparity passes.33Site regressions andactualfinalpilot-envelopeofflinePUT/readback/retry/held-approval-block pass; staticpublishedreceipt regressions retained. Muse profiles andunknownfreshreports are separate; localreview identifiesagent, nothuman. Productiondeploy correction pendingreadback; liveUI andpilot criteria remainopen.
+
+Verification ISC-396/399/402–404: privateSite source2405c0f47121b864d19ca30f528a9c565435ca6b deploymentappgdep_6ac8d7b78f588191b84c957a7d4ea7ff succeeded; actualpilot revision1 persisted/readback and nine live API checks pass, all678existing operation records unchanged. Browser displays exactcopy, originalpassages, writer/Musecontext,1080x1350media and unansweredhumanquestion through read-only authenticated liveSitepreview; servicecannotapprove. All199preservation hashes match. Pilot heldforoverlap/mediafit/missingfreshreports; no publicsubmission.32pipeline/33Site tests and builds pass; independentthreecase and fullpilot semanticreviews recorded.
+
+Changelog — integratedpublishing: conjectured: fixture-level schema tests would suffice for producer integration. Refuted by: firstactualpilot included legitimate projection fields absent from fixtures. Learned: test the actual producer envelope plus live persistence and complete rendered context. Criterion now: exact current writer/context/assets/copy binding, meaningful semantic review, live private presentation and explicit human publication boundaries.
+
+## Repository reconciliation and connected ecosystem MOC — October 9
+
+### Problem
+Completed editorial, presentation and pipeline work spans uncommitted primary files, detached refresh worktrees, stale registrations and divergent branch history.
+### Vision
+One navigable source connects writer understanding, vault/project evidence, assets, Muse findings, private review and platform receipts; Git recovery stays explicit.
+### Out of Scope
+No remote main push, public deployment, public publication, blanket250repository cleanup or private-body disclosure. Open PRs and platform approvals remain independently governed.
+### Principles
+Preserve distinct historical work before consolidation. Map evidence, identity and authority separately. Recoverability precedes removal.
+### Constraints
+Retain original draft snapshots and unreachable tips, exact queue approvals and canonical/mirror parity. Mainline remote workflow removals remain authoritative. Commit only inspected related changes.
+### Goal
+Commit the related completed work, reconcile relevant local branch histories and archive/remove obsolete worktrees without lost bytes, and supply a connected verified ecosystem MOC.
+### Criteria
+- [x] ISC-405: All relevant checkouts, branches and unique tips have a dated inventory.
+- [x] ISC-406: Distinct refresh snapshots have verified recoverable commits before removal.
+- [x] ISC-407: Missing worktree tips and legacy branch histories retain recovery refs.
+- [x] ISC-408: Reviewed article/presentation changes are committed with exact source parity.
+- [x] ISC-409: Legacy missing catalogue records are restored with provenance.
+- [x] ISC-410: Current remote main changes are locally reconciled without remote mutation.
+- [x] ISC-411: Eligible obsolete worktrees are removed; protected checkout is explicitly retained with recovery evidence.
+- [x] ISC-412: Canonical writer changes are scoped and committed without unrelated vault state.
+- [x] ISC-413: Connected MOC links actual source, project, assets, Muse and publishing identities.
+- [x] ISC-414: Typed ecosystem graph resolves all node/edge IDs and local document links.
+- [x] ISC-415: Build, meaningful regressions and recovery integrity checks pass.
+- [x] ISC-416: Anti: no queue approval, external publication, remote branch or unrelated repository is mutated.
+### Test Strategy
+Git status/ref/reachability and byte manifests before/after; source parity; archive/bundle verification; graph/link validation; Astro build and existing tests; queue hashes; exact staged diff review.
+### Features
+Inventory/recovery; source reconciliation; local history consolidation; canonical skill checkpoint; connected ecosystem map; verification and durable handoff.
+### Decisions
+User explicitly authorizes commits and cleanup of related work; source implementation and250+repository ecosystem mapping are distinct scopes. Interview resolved from stated request and existing session: reversible local cleanup, whole connected publishing map, preservation of history. No extra human approval required for local commits or recoverable archiving. ContextSearch and FeedbackMemoryConsult use bounded memory/worktree history; FirstPrinciples separates source history from delivered states; SystemsThinking follows real writer→context→review→delivery relationships; Science tests content equality rather than ancestry assumptions; BitterPillEngineering avoids merging obsolete versions as current; ISA/ReReadCheck bind acceptance to user asks. Eight substantive capabilities including Advisor checked against the closed enumeration. Three independent lanes: parent commits/cleanup, read-only worktree audit, isolated new MOC production; no concurrent mutation of the same files.
+### Changelog
+Conjectured: refresh worktrees were redundant copies. Refuted by: snapshots have distinct bytes and a missing detached worktree tip has no retaining ref. Learned: path equality and apparent completion cannot establish safe deletion. Criterion now: preserve exact snapshot commits and recovery refs before cleanup.
+### Verification
+Pending current run probes.
+
+Verification ISC-405–416: docs/reconciliation/2026-10-09 records exactbeforeinventory,9recoverytags/26refverified143969030-bytebundle,148archiveddraftfilehashes, original9presentationfileparity, scopedcanonicalwritercommit95491794c with20filemirror/archiveparityand1,525unrelatedstagedvaultpathsunchanged. Fourcleancheckoutsremoved/twostalemissingregistrationspruned/twobranchaliasesremoved; socialworktreeprotectedbyCodexpinnedtaskandretainedintact. Remote9e8f0deandreviewedsocialhistorylocallymerged; no remote mutation. Restoredcatalogue2files/fullhistoricalplan and repairedactiveinstalledskillpath. ConnectedMOC446nodes/1104edges includes343identities/103workobjects,43+localchecks/438evidencehashes;20blogtests/32editorialtests/154pagebuildpass (333existingwarnings,0errors). Queuehashunchanged. Nativeadvisor429returnednoopinion; independentauditrequested.
+
+Final independent audit ISC-405–416: native read-only reviewer independently verifies148snapshotSHA/bytechecks,9tags, verifiedbundle, legacycatalogues/planbyteparity, mainmergeancestry, exactly2worktrees, nestedSiteclean, graph446nodes/1104edges/438evidencehashes/46links and writer20fileparity. Minorfindings resolved by refreshedlinkreceipt and preciseHITLverification_scope. Parentexactbaselineindexserializationrecheck matches35cfd5c7c43c1cd971ee00b50db277e86c486a7a2a4b27eca3763047062f67ff;1,525unrelatedstagedvaultpaths preserved. ReReadCheck: commitallrelatedwork, reconcile/cleaneligiblebranches/worktrees, createMOCandconnectedecosystemmap—alladdressed; pinnedprotectedcheckout explicitlyretained. No remote push/merge/publication.
