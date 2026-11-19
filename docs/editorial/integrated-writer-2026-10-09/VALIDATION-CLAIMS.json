@@ -1,0 +1,204 @@
+{
+  "schema": "noesis.integrated-writer.claims.v1",
+  "skill_version": "2.20.0",
+  "reviewer": "writer_skill_update",
+  "claims": [
+    {
+      "id": "E01",
+      "exact_text": "It arrives as a metal, a messenger, a planet and an alchemical principle.",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "ATTRIBUTED",
+      "source_locator": "Young book OCR PAGE151, Chapter15",
+      "evidence_rationale": "Four source senses read in full; guest/drawer imagery figurative, not a physical identity.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "E02",
+      "exact_text": "A message needs somewhere to go, and passage changes it.",
+      "claim_mode": "DECLARED-METAPHOR",
+      "evidence_status": "DECLARED",
+      "source_locator": "Essay paragraph3, furniture/missing-leg comparison; paragraph4 constructed conversation",
+      "evidence_rationale": "Conceptual carrier image; no measured communication effect or biological mechanism asserted.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "E03",
+      "exact_text": "Consider a deliberately constructed example.",
+      "claim_mode": "DECLARED-METAPHOR",
+      "evidence_status": "DECLARED",
+      "source_locator": "Essay paragraph4",
+      "evidence_rationale": "Hypothetical conversation naturally labelled; no author biography, observed result or actual participant claimed.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "E04",
+      "exact_text": "receptivity and mind in one passage, spirit and liquor in herbal work",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "ATTRIBUTED",
+      "source_locator": "Young book OCR PAGE204–206, Chapter20",
+      "evidence_rationale": "Faithful contextual paraphrase; preserves distinction rather than global synonym mapping.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "E05",
+      "exact_text": "Kha–Ba–La offers my working questions of witnessing, embodied carriage and resistance.",
+      "claim_mode": "HOUSE-MODEL",
+      "evidence_status": "COHERENT",
+      "source_locator": "Existing author method/noesis-writer-meaning.md and canonical Kha–Ba–La guidance",
+      "evidence_rationale": "Current author framework retained in proposed first-person draft; no new canon adopted and no traditional-origin attribution.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "E06",
+      "exact_text": "Their shared count gives us a place to compare",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "source_locator": "E04/E05; author conceptual comparison in essay paragraph7",
+      "evidence_rationale": "Noesis-authored comparison starts with two three-part frameworks, retains non-equivalence and asks where receptivity belongs; no mathematical proof implied.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "E07",
+      "exact_text": "If a role fails to describe a person, we can loosen the identification and look again.",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "source_locator": "Current author purposeful-negation direction; essay paragraph8",
+      "evidence_rationale": "Conditional editorial/philosophical proposal; does not assert one universal Vedantic teaching or promise psychological efficacy.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "E08",
+      "exact_text": "mediation as a place where meaning becomes answerable to what receives it",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "source_locator": "E01–E07 and essay paragraph9 explicit interpretive proposal",
+      "evidence_rationale": "Noesis-authored transformation relates contextual Mercury senses, constructed conversation and independent frameworks; response remains proposed, not observed.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "S01",
+      "exact_text": "A role can describe what the room expects while leaving the person unresolved.",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "source_locator": "E07; short-social entire candidate",
+      "evidence_rationale": "Bounded conceptual observation preserves open remainder; badge image nearby makes figurative register clear. No source teaching or personal memory invented.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T01",
+      "exact_text": "a fifteen-second roll-call and a two-minute guided tour",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "VERIFIED",
+      "source_locator": "Cambium showreel README cuts table; src/timeline.ts FPS/TOTAL_FRAMES; long/timeline.ts L_FPS/L_TOTAL",
+      "evidence_rationale": "Reports source definitions, not delivered runtime. 900/60=15 seconds;7200/60=120 seconds. Numerical correctness/structural consequence/provenance checked.",
+      "math_role": "LOAD-BEARING",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T02",
+      "exact_text": "The longer cut makes room for each organ's job, inputs, outputs and failure boundary",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "ATTRIBUTED",
+      "source_locator": "Showreel README long-cut chapter table bars9–20",
+      "evidence_rationale": "Reports documented film structure; does not verify product runtime behaviour.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T03",
+      "exact_text": "The short timeline sets 900 frames at 60 frames per second and 120 beats per minute.",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "VERIFIED",
+      "source_locator": "src/timeline.ts FPS,TOTAL_FRAMES,BPM",
+      "evidence_rationale": "Exact source constants read; duration calculation verified and defines short-cut pacing.",
+      "math_role": "LOAD-BEARING",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T04",
+      "exact_text": "The long timeline sets 7,200 frames at the same frame rate, with 80 beats per minute and forty three-second bars.",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "VERIFIED",
+      "source_locator": "long/timeline.ts L_FPS,L_BPM,L_BEAT,L_BAR,L_TOTAL and section boundaries",
+      "evidence_rationale": "60/80=.75seconds per beat;four beats=3seconds per bar;7200/180=40bars. Defines chapter timing; arithmetic and provenance checked.",
+      "math_role": "LOAD-BEARING",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T05",
+      "exact_text": "The README describes a three.js picture engine, headless browser capture into ffmpeg and a TypeScript synthesiser using the cue list.",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "ATTRIBUTED",
+      "source_locator": "Showreel README Picture/Capture/Sound bullets",
+      "evidence_rationale": "Accurate documented pipeline; no render execution claimed.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T06",
+      "exact_text": "The package exposes separate preparation, audio, render, mux and verification commands.",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "VERIFIED",
+      "source_locator": "Showreel package.json scripts prep/audio/render/mux/verify",
+      "evidence_rationale": "Script presence directly checked; no command success implied.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T07",
+      "exact_text": "Dotted states mean pending; settled states use chartreuse; peach marks warning or review.",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "ATTRIBUTED",
+      "source_locator": "Showreel README Brand rules followed",
+      "evidence_rationale": "Describes source visual contract and clearly scopes to depicted flow, not current service health.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T08",
+      "exact_text": "The long-cut description includes a reduced-motion demonstration.",
+      "claim_mode": "HISTORICAL-CLAIM",
+      "evidence_status": "ATTRIBUTED",
+      "source_locator": "Showreel README long-cut chapter table bars29–32",
+      "evidence_rationale": "Description confirmed; no delivered behaviour or accessibility acceptance inferred.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T09",
+      "exact_text": "No render, playback, loudness, strobe or determinism test was run for this editorial review.",
+      "claim_mode": "DIRECT-OBSERVATION",
+      "evidence_status": "VERIFIED",
+      "source_locator": "This phase tool log; source reads only for Cambium project",
+      "evidence_rationale": "Accurate actual review boundary; commands are proposed next acceptance work, not reported executions.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    },
+    {
+      "id": "T10",
+      "exact_text": "Together they should make it possible to judge whether a new viewer can name each organ's purpose",
+      "claim_mode": "DERIVED-SYNTHESIS",
+      "evidence_status": "COHERENT",
+      "source_locator": "T01/T02 and report final paragraph",
+      "evidence_rationale": "Noesis-authored proposed product-review question, not measured viewer comprehension or accepted demonstration.",
+      "math_role": "NONE",
+      "remediation": "KEEP"
+    }
+  ],
+  "coverage": "Full three candidates reread and material claims compared with complete selected source texts. Conceptual imagery and conditional proposals classified alongside source assertions. No empirical health/physical mechanism claim introduced.",
+  "limits": [
+    "OCR remains unverified against facsimile; paraphrase only",
+    "Constructed scene is not autobiography",
+    "Cambium source implementation review does not establish render/live acceptance",
+    "Editorial assessment is not author adoption or publication approval"
+  ]
+}

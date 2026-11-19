@@ -1,0 +1,124 @@
+{
+  "schema": "noesis.evolution.vocabulary.v1",
+  "policies": [
+    {
+      "id": "P-CONTRAST",
+      "target": "not X but Y / contrast constructions",
+      "reason": "Review the function of the negation; stock rebranding can substitute for an argument.",
+      "review_contexts": [
+        "Repeated interchangeable contrast across adjacent drafts"
+      ],
+      "exceptions": [
+        "Neti-neti that identifies what is being relinquished",
+        "Necessary disagreement, literal correction and precise technical negation"
+      ],
+      "recorded_at": "2026-10-09",
+      "effective_from": "2026-10-09",
+      "source_ids": [
+        "H-20261009"
+      ],
+      "status": "current-editorial-method",
+      "supersedes": []
+    },
+    {
+      "id": "P-TECHNICAL-RECODE",
+      "target": "soul / spirit / God → field / coherence / architecture",
+      "reason": "Automatic recoding changes meaning and may introduce unsupported physical claims.",
+      "review_contexts": [
+        "Historical generated dossier prescriptions"
+      ],
+      "exceptions": [
+        "Attributed source terminology",
+        "Author-declared adapted usage with a stated distinction"
+      ],
+      "recorded_at": "2026-10-09",
+      "effective_from": "2026-10-09",
+      "source_ids": [
+        "V-DOSSIER",
+        "H-20261009"
+      ],
+      "status": "current-editorial-method",
+      "supersedes": []
+    },
+    {
+      "id": "P-MATERIALISM",
+      "target": "materialism / matter / reduction",
+      "reason": "Separate ontological reduction, material description and practical use of matter; record the precise premise under review.",
+      "review_contexts": [
+        "Unspecified labels such as materialism is wrong"
+      ],
+      "exceptions": [
+        "Accurate attributed criticism",
+        "A clearly scoped author position",
+        "Historical discussion"
+      ],
+      "recorded_at": "2026-10-09",
+      "effective_from": null,
+      "source_ids": [
+        "H-20261009"
+      ],
+      "status": "proposed-author-policy",
+      "supersedes": []
+    },
+    {
+      "id": "P-ENERGY",
+      "target": "energy / field / vibration",
+      "reason": "The intended sense needs to remain legible.",
+      "review_contexts": [
+        "Sliding between feeling, symbolic principle and physical quantity"
+      ],
+      "exceptions": [
+        "Defined physical quantity with evidence",
+        "Situated felt description",
+        "Attributed alchemical principle or declared metaphor"
+      ],
+      "recorded_at": "2026-10-09",
+      "effective_from": "2026-10-09",
+      "source_ids": [
+        "V-VOICE-POLICY"
+      ],
+      "status": "current-editorial-method",
+      "supersedes": []
+    },
+    {
+      "id": "P-QUANTUM",
+      "target": "quantum as authority adjective",
+      "reason": "Technical terminology cannot validate an unrelated spiritual or philosophical claim.",
+      "review_contexts": [
+        "Borrowed scientific authority without mechanism or source"
+      ],
+      "exceptions": [
+        "Actual physics discussion supported by the cited source",
+        "Clearly declared metaphor"
+      ],
+      "recorded_at": "2026-10-09",
+      "effective_from": "2026-10-09",
+      "source_ids": [
+        "V-OLD-REVIEW"
+      ],
+      "status": "current-editorial-method",
+      "supersedes": []
+    },
+    {
+      "id": "P-PROMISE",
+      "target": "manifesting / abundance / healing / transformation",
+      "reason": "Review outcome guarantees and guru framing rather than ban a token.",
+      "review_contexts": [
+        "Guaranteed benefits and dependency-producing promises"
+      ],
+      "exceptions": [
+        "Quotation",
+        "Historical usage",
+        "Specific bounded description supported by evidence"
+      ],
+      "recorded_at": "2026-10-09",
+      "effective_from": "2026-10-09",
+      "source_ids": [
+        "V-VOICE-POLICY"
+      ],
+      "status": "current-editorial-method",
+      "supersedes": []
+    }
+  ],
+  "rule": "A policy records a reason, sense and context. It is not a global search-and-replace table."
+}

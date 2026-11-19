@@ -1,0 +1,482 @@
+<img src="assets/banner.png" alt="Temperance Engine banner" width="100%" />
+
+# Temperance Engine
+
+A shared operating layer for your AI coding tools.
+
+Built by [Thoughtseed Labs](https://github.com/Sheshiyer). Visual library (navy / gold / cyan, same as Manifest Zone): [docs/index.html](docs/index.html).
+
+![License](https://img.shields.io/github/license/Sheshiyer/temperance_engine?style=flat-square&labelColor=07090b&color=e9cf79)
+![Verify](https://img.shields.io/github/actions/workflow/status/Sheshiyer/temperance_engine/verify.yml?branch=main&style=flat-square&label=verify&labelColor=07090b&color=65d9e8)
+![Last Commit](https://img.shields.io/github/last-commit/Sheshiyer/temperance_engine?style=flat-square&labelColor=07090b&color=f39b54)
+![Repo Size](https://img.shields.io/github/repo-size/Sheshiyer/temperance_engine?style=flat-square&labelColor=07090b&color=394951)
+![Shell](https://img.shields.io/badge/shell-POSIX-e9cf79?style=flat-square&labelColor=07090b)
+![Bun](https://img.shields.io/badge/runtime-Bun-f39b54?style=flat-square&labelColor=07090b)
+![macOS Optional](https://img.shields.io/badge/voice-macOS_optional-65d9e8?style=flat-square&labelColor=07090b)
+
+Temperance Engine connects project context, reusable skills, structured workflows, model routing, and verification across your AI coding tools. Set up a configurable local operator runtime, choose the integrations you need, and keep control of approvals and changes.
+
+This repository distributes the public installer and runtime components. Client surfaces and integrations depend on the options you select; private memory, private configurations, credentials, and voice packs are not bundled.
+
+Current product release: **0.8.0**, implementing the **v4 hand-in-glove**
+architecture. Noesis/Cambium remains an optional personal layer. Start with the
+[guided seven-step TUI](package/install-surface/docs/guided-onboarding.md), or
+use the [shared agent flow, health checks, and local logs](package/install-surface/docs/agent-operations.md).
+See the [release boundaries](CHANGELOG.md#080---2026-10-13) before enabling
+routing or long-context policies: this release does not claim qualified 1M
+sessions, durable checkpoint recovery, or a completed v1.1 clean-host milestone.
+
+The portable phase kernel and read-only Vestibule orientation handler in this review branch extend the existing public composition and lifecycle contracts. They have synthetic source fixtures; installation, real host callbacks and acceptance remain held. See the [capability and provenance matrix](docs/plans/2026-11-02-portable-capabilities.md). The other five concrete advisory organ adapters remain optional and unproved.
+
+Product Hunt launch scheduled for November 6, 2026, 12:01 AM PST.
+
+<a href="https://www.producthunt.com/products/temperance-engine?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-temperance-engine" target="_blank" rel="noopener noreferrer"><img alt="Temperance Engine - A shared operating layer for your AI coding tools | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1301098&amp;theme=light&amp;t=1793589358027"></a>
+
+---
+
+## Showreel
+
+### Thirty-second architecture review
+
+[![Temperance Engine architecture film: phases, Koshas, advisory organs and tooling](assets/showreel/temperance-architecture-30s-poster.jpg)](assets/showreel/temperance-architecture-30s.mp4)
+
+A slower, 30-second landscape tour of the seven phases, five Koshas, six advisory organ roles, and selected Claude plugins and third-party tools. The film is an architecture illustration. Optional profile choices, draft adapters and held runtime acceptance retain their stated boundaries.
+
+**[Watch the 30-second film](assets/showreel/temperance-architecture-30s.mp4)** · [Descriptive transcript](assets/showreel/temperance-architecture-30s-transcript.md) · [Captions](assets/showreel/temperance-architecture-30s-captions.vtt) · [Editable source and render guide](package/showreel/architecture-30s/README.md)
+
+The editable source renders 1,800 frames at 1920×1080 and 60 fps. The web encode is 1080p at 30 fps. It reuses the original Canvas2D artwork and procedural soundtrack, with finite font assets and license notices. The [architecture explainer](docs/architecture-explainer.md) and [tooling credits](CREDITS.md) provide the full story and inventory. The current Kosha, organ and tooling callbacks were refined by Opus5.5 through the selected Phloem route, with independent source review and local rendering. The [production provenance](package/showreel/architecture-30s/PRODUCTION-PROVENANCE.json) separates that contribution from the original renderer, artwork and score.
+
+<details>
+<summary>Original 15-second concept film — preserved</summary>
+
+The earlier cut below includes illustrative provider failover and criteria displays. Those animations are not live provider or product acceptance receipts. The original media and editable source remain preserved.
+
+### Original 15-second showreel
+
+[![Six frames from the Temperance Engine showreel: the alchemical seal, the title, the BUILD step, OmniRoute failover, ISA verification, and the lockup](assets/showreel/poster.jpg)](assets/showreel/temperance-showreel.mp4)
+
+Fifteen seconds at 60 fps, with every cut on a beat of a 120 BPM soundtrack. It covers the seven alchemical steps, a 429 → 200 OmniRoute failover, the ISA as test harness, and a balance beam that settles level on the last note.
+
+**[Watch 16:9](assets/showreel/temperance-showreel.mp4)** · **[Watch 9:16 for socials](assets/showreel/temperance-showreel-9x16.mp4)** · [How it is made](package/showreel/README.md)
+
+The visuals are one hand-written Canvas2D file and the soundtrack is synthesized in code. There are no animation libraries. Run `bun run render` in `package/showreel/` to rebuild both cuts from source.
+
+
+</details>
+
+## Why It Exists
+
+Local AI-agent setups tend to sprawl across hidden config directories, voice hooks, MCP servers, skills, and search indexes. Temperance Engine turns a working local runtime into a reviewable public installer with backups, docs, skip-safe voice behavior, and explicit credits.
+
+Current tooling attribution is in [CREDITS.md](CREDITS.md), including the dated
+[installed Claude plugin inventory](docs/plans/2026-11-02-claude-tooling-metadata.json)
+and [exposed skill metadata](docs/plans/2026-11-02-claude-exposed-skills.json).
+These records describe a selected optional profile. They do not make its plugins
+portable defaults or prove that each tool ran in this session.
+
+## What It Installs
+
+- PAI instruction templates for OpenCode, Cursor, and portable `AGENTS.md` use.
+- **OmniRoute agent routing** — the guided installer defaults to the OmniRoute dashboard handoff. OmniRoute owns live models, connections, combos, and failover. The separate legacy `temperance-route` adapter retains 9Router compatibility for existing setups; it is not the guided default.
+- **Enrichment context** with automatic task classification — every prompt gets a `<temperance-context>` block with routing hints.
+- Optional templates **and compose UPS hooks** for Claude Code and Codex when a user opts in (`--with-claude` / `--with-codex` / `--with-spine`). `/gsd:*` binds PAI mode; a native card only on a bare first prompt with no saved mode.
+- **Optional Kimi surface** — kimi-cli and the Kimi desktop app opt into the governed `temperance/temperance-auto` lane via `scripts/configure-kimi-relay.sh`, with enrichment injected relay-side and the repo skills discoverable in Kimi's skill scopes (see [`docs/kimi-surface.md`](docs/kimi-surface.md)).
+- Optional local Pulse compatibility server on `localhost:31337` when Claude/Pulse compatibility is explicitly enabled.
+- Optional peon-ping phase routing for macOS users with local packs.
+- Skill-cluster resolver guidance and install hooks.
+- CodeGraph routing rules for `~/.agents`.
+- Verification and rollback helpers.
+
+## Highlights
+
+| Capability | What it does |
+|---|---|
+| **OmniRoute gateway** | Current guided default; the public catalog pins `omniroute@3.8.51`. The gateway owns provider credentials, models, combos, and failover. Legacy 9Router compatibility is separate. |
+| **Automatic task classification** | Classifies prompts as fast/long-horizon/reasoning/validation/creative and recommends optimal model. |
+| Guarded PAI templates | Installs `NOESIS`-style instruction surfaces without copying private memory. |
+| Pulse compatibility | Provides a tiny local `/notify` and `/healthz` endpoint for phase events. |
+| Optional peon-ping | Maps Algorithm phases to local sound packs without bundling audio files. |
+| Skill-cluster routing | Preserves startup debloat while keeping skill discovery explicit. |
+| CodeGraph-first search | Routes `.agents` structural lookup through a local AST index. |
+| Backup-first installer | Copies existing target files into timestamped backups before writes. |
+| **GSD slash spine** | Optional `--with-spine` installs `/gsd:*` on Claude, Codex, OpenCode, and Grok, `/gsd:doctor`, `/gsd:goal`, skip-quiz mode-bind, and Manifest LCARS. GSD core stays external. |
+| **Manifest projection** | Local bridge `:8766` + LCARS `:5173`. Projection only — no approve/launch. |
+
+## Quick Start
+
+```bash
+git clone https://github.com/Sheshiyer/temperance_engine.git
+cd temperance_engine
+./install.sh
+./verify.sh
+
+# Thoughtseed member glove (GSD slash remote + Manifest LCARS + Codex hooks)
+./install.sh --with-spine
+./verify.sh
+temperance-project-init --cwd . --check   # /gsd:doctor
+
+# Claude Code + Codex app + OpenCode surfaces (without the full spine)
+./install.sh --with-claude --with-codex --with-opencode --skip-voice
+
+# Optional: persist the automatic OpenCode relay provider
+./install.sh --with-claude --with-codex --with-opencode --with-relay --skip-voice
+./scripts/temperance-doctor.sh --require-auto
+
+# Optional: opt Kimi (CLI and/or desktop app) into the governed relay lane
+./scripts/configure-kimi-relay.sh enable
+./scripts/configure-kimi-desktop-relay.sh enable
+./scripts/temperance-doctor.sh --require-kimi
+```
+
+See [QUICKSTART.md](QUICKSTART.md) for multi-backend routing CLI usage and
+[`docs/omniroute-runtime.md`](docs/omniroute-runtime.md) for direct versus
+automatic OpenCode routing. The
+[`native integration guide`](docs/omniroute-native-integration.md) maps
+Context Settings, CLI Code/Agents, Hermes, Cloudflare, PAI/GSD/ISA ownership,
+and provider-topology semantics.
+
+Default install is OpenCode/Cursor-first. It does not install Claude Code or Codex templates unless you pass `--with-claude` or `--with-codex`. The portable core does not require Claude Code, Claude Pro/Max, or Anthropic authentication.
+
+## Current architecture and tooling
+
+The [architecture explainer](docs/architecture-explainer.md) connects seven work phases, five Koshas, and six advisory organ roles. The portable phase kernel and injected Vestibule handler are source-review additions. Other concrete portable organ adapters and real native callbacks remain held.
+
+The selected Claude profile has five enabled plugins: Feature Dev 1.0.1, rust-analyzer 1.0.0, Supabase 0.1.16, Superpowers 7.0.0, and the private Temperance rail 0.11.0. The [dated metadata](docs/plans/2026-11-02-claude-tooling-metadata.json) includes all installed records and their scope. Installed or enabled does not establish invocation or acceptance. These plugins are optional profile choices, rather than portable defaults.
+
+[Credits](CREDITS.md) attributes client surfaces, workflows, routing, search, optional services, direct package dependencies and launch production tools. The inventory is source-backed and is not a transitive SBOM.
+
+## Live Manifest Operator View
+
+Temperance provides the runtime half of a local operator view. The
+`package/manifest-bridge` package turns bounded hook and planning observations
+into a project-scoped JSONL read model and Server-Sent Events; the separate
+[Manifest Skill Cluster](https://github.com/Sheshiyer/manifest-skill-137)
+repository renders those facts as the five-page visual console.
+
+The authority boundary matters:
+
+- Temperance/PAI own planning, routing, approval policy, and execution rules.
+- The bridge and visual console are projection layers; they cannot authorize a worker.
+- Automatic paid-fleet launch is disabled by default and requires a PostgreSQL
+  one-use claim, a frozen request, fresh preflight evidence, and explicit
+  environment gates.
+
+See [docs/manifest-control-plane.md](docs/manifest-control-plane.md) for the
+full architecture, local startup sequence, and current release boundary.
+
+On non-macOS systems, voice installation is skipped automatically. On macOS, voice integration is enabled only if a local peon-ping script is present at `~/.claude/hooks/peon-ping/peon.sh` unless `--with-voice` or `--skip-voice` is provided.
+
+### Source convergence update — 8 September 2026
+
+The reviewed TypeScript foundation now shares routing-observation contracts and explicit installer ownership. Source verification covers disposable installation and rollback; host deployment and live research acceptance remain pending. The historical changelog was deidentified. The intelligence sections below reuse the existing NotebookLM research assets; this local README refresh does not represent a new NotebookLM research run. The asset manifest records the source revision and digest.
+
+<details>
+<summary>Historical NotebookLM research snapshot — retained for provenance</summary>
+
+These generated report, map, table, and metadata blocks describe the earlier research snapshot. Provider lists, model names, status labels, and setup advice in this disclosure are historical. Use the current release boundaries, onboarding guide, and source catalog above for current behavior. This editorial reconciliation does not represent a new NotebookLM run.
+
+<!-- readme-gen:start:notebooklm-report -->
+## 🚀 Project Intelligence Snapshot
+
+- The Temperance Engine, developed by Thoughtseed Labs, is a comprehensive packaging repository and one-time installer designed for local AI-operator runtimes. It specifically targets environments utilizing **OpenCode** and **Cursor**, providing a modular framework that consolidates scattered configurations, voice hooks, MCP servers, and search indexes into a reviewable, secure system.
+- The project focuses on "Absolute Source Fidelity" and safety, ensuring that the installation process does not leak private machine state, credentials, or proprietary data. By implementing a "backup-first" installation philosophy and utilizing a multi-backend routing system, the Temperance Engine allows operators to maintain local autonomy while benefiting from advanced AI orchestration patterns like the Personal AI Infrastructure (PAI) and CodeGraph structural search.
+- [Read the full report for deeper context](.readme-notebooklm/assets/notebooklm-report.md)
+
+<!-- readme-gen:end:notebooklm-report -->
+<!-- readme-gen:start:notebooklm-mindmap -->
+## 🧠 Concept Map
+
+```mermaid
+graph LR
+  N001["Temperance Engine"]
+  N002["Core Functionality"]
+  N001 --> N002
+  N003["Multi-backend Routing"]
+  N002 --> N003
+  N004["temperance-route CLI"]
+  N003 --> N004
+  N005["Automatic Task Classification"]
+  N003 --> N005
+  N006["Model Optimization (DeepSeek, Kimi, Grok, Claude)"]
+  N003 --> N006
+  N007["PAI Integration"]
+  N002 --> N007
+  N008["Algorithm Flow Templates"]
+  N007 --> N008
+  N009["ISA Preference Store"]
+  N007 --> N009
+  N010["Instruction Surfaces"]
+  N007 --> N010
+  N011["Search & Intelligence"]
+  N002 --> N011
+  N012["CodeGraph AST Indexing"]
+  N011 --> N012
+  N013["ripgrep Fallback Search"]
+  N011 --> N013
+  N014["System Architecture"]
+  N001 --> N014
+  N015["Components"]
+  N014 --> N015
+  N016["Skill-cluster Resolver"]
+  N015 --> N016
+  N017["Pulse Compatibility Server"]
+  N015 --> N017
+  N018["Parallel Dispatch Context"]
+  N015 --> N018
+  N019["Deployment Tools"]
+  N014 --> N019
+  N020["Backup-first Installer"]
+  N019 --> N020
+  N021["Verification Scripts"]
+  N019 --> N021
+  N022["Rollback Helpers"]
+  N019 --> N022
+  N023["Safety & Constraints"]
+  N001 --> N023
+  N024["Privacy Boundary (No Memory/Credentials)"]
+  N023 --> N024
+  N025["Portable Paths ($HOME/Env Vars)"]
+  N023 --> N025
+  N026["Optional Voice (Non-macOS Skip)"]
+  N023 --> N026
+  N027["No Binary Vendoring"]
+  N023 --> N027
+  N028["Supported Platforms"]
+  N001 --> N028
+  N029["OpenCode"]
+  N028 --> N029
+  N030["Cursor Rules (.mdc)"]
+  N028 --> N030
+  N031["Claude Code (Optional)"]
+  N028 --> N031
+  N032["OpenAI Codex CLI (Optional)"]
+  N028 --> N032
+  N033["Project Metadata"]
+  N001 --> N033
+  N034["Author: Thoughtseed Labs"]
+  N033 --> N034
+  N035["License: MIT"]
+  N033 --> N035
+  N036["Version: 0.1.0"]
+  N033 --> N036
+  N037["Documentation: ISA.md & QUICKSTART.md"]
+  N033 --> N037
+```
+
+<!-- readme-gen:end:notebooklm-mindmap -->
+<!-- readme-gen:start:notebooklm-table -->
+## 📊 Repository Signals Table
+
+| Project Name | Description | Integration Type | Upstream URL | Role in Runtime | Status | Source |
+| --- | --- | --- | --- | --- | --- | --- |
+| Personal AI Infrastructure (PAI) | Principal upstream inspiration for the PAI/Algorithm/ISA runtime pattern. Provides live infrastructure for AI assistance, memory, and instruction surfaces. | Principal / Template installation | https://github.com/danielmiessler/Personal_AI_Infrastructure | Core machine-specific runtime flow and execution logic; steering and memory (fully external). | verified / unreleased | [1], [2], [3], [4] |
+| OpenCode | Open-source coding assistant environment and configuration surface with routing context and MCP support. | Template installation / Referenced | https://github.com/anomalyco/opencode | Primary coding interface template; receives instruction templates and config; provides hooks with routing context. | verified / referenced | [1], [2], [3], [5] |
+| command-code | Primary, versatile backend supporting 35 models and an agentic execution model. | Principal | Not in source | Primary backend for versatile tasks. | verified | [5] |
+| CodeGraph | Local AST-backed code indexing, analysis, and structural search tool. | Principal / Referenced | https://github.com/colbymchenry/codegraph | Powers structural search, .agents routing rules, and runtime logic guidance. | verified / unreleased / referenced | [1], [2], [3], [4] |
+| peon-ping | Local voice notification pattern, sound pack mapping, and runtime signaling tool. | Principal / Referenced | https://github.com/PeonPing/peon-ping | Maps Algorithm phases to local sound packs; manages agent communication pings. | verified / unreleased | [1], [2], [3], [4] |
+| Cursor | AI-powered code editor with agent and project rule guidance surfaces. | Template installation / Referenced | https://cursor.com/docs/rules | Ships AGENTS.md and .cursor/rules guidance by default without Claude auth requirements. | verified / referenced | [1], [2], [3] |
+| Bun | High-performance JavaScript runtime and package manager. | Referenced / Optional | https://github.com/oven-sh/bun | Used for building scripts and running the local Pulse compatibility server on localhost:31337. | verified | [1], [2], [3] |
+| GitHub CLI (gh) | Official CLI for interacting with GitHub repositories and publishing workflows. | Referenced / Optional | https://github.com/cli/cli | Used for verifying upstream links, repository creation, and optional publishing operations. | verified / optional | [1], [2], [3] |
+| ripgrep | Fast line-oriented search tool for file and text patterns. | Referenced | https://github.com/BurntSushi/ripgrep | Dependency for efficient text searching and literal search patterns alongside structural indexing. | verified / referenced | [1], [2], [3] |
+| OpenAI Codex CLI | Local instruction, hook, and image generation surfaces. | Optional template installation / Referenced | https://github.com/openai/codex | Receives local instruction templates and provides image generation for assets when enabled. | verified / optional | [1], [2], [3] |
+| Pulse server | Compatibility server for runtime communication and Pulse-based operations. | Principal / Template installation | Not in source | Optional compatibility layer for runtime communication; skipped by default in standard install. | verified / optional | [1], [4] |
+| skill-cluster | Routing and resolution system for skill-based agent capabilities. | Principal | Not in source | Handles skill-cluster routing and resolver logic for agent skills. | verified | [1] |
+| superpowers | Runtime capability enhancements. | Principal | Not in source | Runtime core component. | verified | [4] |
+| kimi | Long-horizon coding specialist utilizing the K2.7 Code (262K) model. | Principal | Not in source | Long-horizon coding and time-critical simple tasks. | verified | [5] |
+| grok | Fast iteration tool located at ~/.grok/bin/grok. | Principal | Not in source | Fast iteration and time-critical simple tasks. | verified | [5] |
+| nvidia | API-based backend featuring Nemotron Ultra for deep reasoning. | Principal | Not in source | Deep reasoning tasks. | verified | [5] |
+| ParallelDispatchContext | System for parallel task dispatching. | Principal | Not in source | Hook-based parallel execution. | unreleased | [4] |
+| Enrichment core | Automatic task classification system. | Referenced | Not in source | Automatic task classification. | verified | [5] |
+| Claude Code | Optional AI product surface from Anthropic. | Optional template installation | Not in source | Receives local instruction templates only when enabled; optional compatibility target. | optional | [2], [3] |
+| Claude | Anthropic AI model templates and model-specific advisor paths. | Template installation | Not in source | Optional advisor path and template provider; skipped by default. | optional | [1] |
+| GSD (Get Stuff Done) | External workstream and task management system or configuration framework. | Referenced | Not in source | External configuration via read-only config.json; remains fully external to Temperance. | optional | [1], [4] |
+
+<!-- readme-gen:end:notebooklm-table -->
+<!-- readme-gen:start:notebooklm-metadata -->
+## 🔍 Asset Trail
+
+- assets-dir: .readme-notebooklm/assets
+- manifest-path: .readme-notebooklm/assets/manifest.json
+- source-reference: manifest.json
+- source-count: 6
+- source-note: README.md, CHANGELOG.md, CONTRIBUTING.md, CREDITS.md, ISA.md, QUICKSTART.md
+- generated-at: 2026-10-13T10:55:29+0000
+- notebook-id: a6e54ace-8597-4c34-b679-88cb66af7ccc
+- generation-command: READMEREBUILD_SKIP_NOTEBOOKLM=1 bash scripts/rebuild-readme.sh 'Temperance Engine' 'Sheshiyer'
+- continuity-mode: merge-queue refresh workflow
+- follow-up-target: readme-continuity-refresh
+- workflow-reference: .github/workflows/readme-auto-refresh.yml
+- notebooklm-owner: Sheshiyer
+
+<!-- readme-gen:end:notebooklm-metadata -->
+
+</details>
+## System Flow
+
+Temperance Engine helps by turning a scattered local-agent setup into one explicit, inspectable loop: install safely, route work through PAI instructions, keep skills discoverable without context bloat, use CodeGraph for structural understanding, and make phase progress audible when local peon-ping packs are available.
+
+```mermaid
+flowchart TB
+    U[Human operator] --> I[Temperance install.sh]
+
+    subgraph SafeInstall[Backup-first installation]
+        I --> B[Timestamped backups]
+        I --> T[OpenCode / Cursor templates]
+        I --> OPT[Optional Claude / Codex templates]
+        I --> P[Pulse compatibility server]
+        I --> R[Skill resolver shim]
+        I --> G[CodeGraph routing rules]
+    end
+
+    subgraph Runtime[Local operator runtime]
+        T --> A[PAI / NOESIS instruction surface]
+        A --> O[Observe]
+        O --> TH[Think]
+        TH --> PL[Plan]
+        PL --> BU[Build]
+        BU --> EX[Execute]
+        EX --> VE[Verify]
+        VE --> LE[Learn]
+    end
+
+    subgraph SearchAndSkills[Context without startup bloat]
+        R --> SI[skill-index.json]
+        SI --> SC[Active skill-cluster hubs]
+        G --> CG[CodeGraph index at $HOME/.agents]
+        CG --> SS[Structural symbol / file / flow search]
+    end
+
+    subgraph Voice[Optional voice feedback]
+        P --> N["/notify localhost:31337"]
+        O --> N
+        TH --> N
+        PL --> N
+        BU --> N
+        EX --> N
+        VE --> N
+        LE --> N
+        N --> PP[peon-ping local script]
+        PP --> VP[User-provided sound packs]
+    end
+
+    VE --> VFY[verify.sh evidence]
+    LE --> DOC[Docs, credits, rollback notes]
+```
+
+## How It Helps
+
+| Problem in local agent setups | Temperance Engine response |
+|---|---|
+| Hidden config sprawl | Installs visible templates and documents every touched surface. |
+| Risky setup scripts | Uses dry-run support and backup-first writes. |
+| Skill overload | Keeps skill-cluster discovery through `skill-index.json` instead of scanning everything at startup. |
+| Weak codebase search | Routes `.agents` structure through CodeGraph's local index. |
+| Silent long-running work | Optionally maps Algorithm phases to peon-ping voice packs. |
+| Hard rollback | Documents backups and rollback commands. |
+
+## Safe Defaults
+
+- Backs up existing target files before writing.
+- Uses `$HOME` and user-overridable environment variables.
+- Does not scan `~/.agents/skill-clusters/skills` wholesale.
+- Installs OpenCode and Cursor templates by default.
+- Keeps Claude Code and Codex templates opt-in; no Claude subscription or Anthropic auth is required.
+- Disables Augment in the OpenCode template because home and `.agents` retrieval can be blocked.
+- Does not install or vendor voice packs.
+
+## Install Flags
+
+```bash
+./install.sh --skip-voice
+./install.sh --with-voice
+./install.sh --dry-run
+./install.sh --with-claude
+./install.sh --with-codex
+./install.sh --skip-opencode
+./install.sh --skip-cursor
+./install.sh --with-gsd
+./install.sh --with-relay
+./install.sh --with-ste
+```
+
+`--with-ste` installs the optional [Simplified Technical English](docs/ste.md) skill from upstream at a pinned commit (referenced, not vendored) and links it into the enabled Claude and OpenCode surfaces. TE docs are held to STE by a ratchet gate in `scripts/verify-all.sh`.
+
+Useful environment variables:
+
+```bash
+PAI_HOME="$HOME/.claude"
+CODEX_HOME="$HOME/.codex"
+OPENCODE_HOME="$HOME/.config/opencode"
+CURSOR_HOME="$HOME/.cursor"
+AGENTS_HOME="$HOME/.agents"
+TEMPERANCE_BACKUP_DIR="$HOME/.temperance_engine/backups"
+```
+
+## Cursor Project Setup
+
+Cursor support is intentionally project-local. The installer places copyable templates under `$CURSOR_HOME/templates`; teams can then version them inside each project:
+
+```bash
+cp "$CURSOR_HOME/templates/temperance-engine.AGENTS.md" /path/to/project/AGENTS.md
+mkdir -p /path/to/project/.cursor/rules
+cp "$CURSOR_HOME/templates/temperance-engine.rules.mdc" /path/to/project/.cursor/rules/temperance-engine.mdc
+```
+
+Cursor's current rules documentation covers Project, Team, and User Rules plus `AGENTS.md`; this repo ships both a portable `AGENTS.md` template and a Cursor project-rule template.
+
+## Documentation
+
+Start at **[docs/README.md](docs/README.md)** (map) or **[docs/index.html](docs/index.html)** (themed library).
+
+Live glove: [QUICKSTART.md](QUICKSTART.md) · [VERSION](VERSION) · [CHANGELOG.md](CHANGELOG.md) · [V4 hand-in-glove architecture](docs/V4-HAND-IN-GLOVE-ARCHITECTURE.md) · [docs/release-control.md](docs/release-control.md) · [docs/COMPATIBILITY.md](docs/COMPATIBILITY.md) · [docs/gsd-manifest-spine.md](docs/gsd-manifest-spine.md) · [docs/gsd-goal-handoff.md](docs/gsd-goal-handoff.md) · [docs/pai-flow.md](docs/pai-flow.md) · [docs/architecture.md](docs/architecture.md) · [docs/ste.md](docs/ste.md)
+
+Legacy OmniRoute routing references (historical migration input; tests still pin these files): [docs/omniroute-runtime.md](docs/omniroute-runtime.md) · [docs/omniroute-integration.md](docs/omniroute-integration.md) · [docs/omniroute-connections.md](docs/omniroute-connections.md) · [docs/omniroute-fleet.md](docs/omniroute-fleet.md)
+
+Retired stubs (do not expand): [docs/parallel-dispatch.md](docs/parallel-dispatch.md) · [docs/multi-surface-architecture.md](docs/multi-surface-architecture.md)
+
+Also: [docs/rollback.md](docs/rollback.md) · [docs/manifest-control-plane.md](docs/manifest-control-plane.md) · [package/manifest-bridge/README.md](package/manifest-bridge/README.md) · [package/showreel/README.md](package/showreel/README.md) · [docs/SWARM-CONTROL-RUNBOOK.md](docs/SWARM-CONTROL-RUNBOOK.md) · [skills/temperance-engine/SKILL.md](skills/temperance-engine/SKILL.md) · [UPSTREAM.md](UPSTREAM.md) · [docs/skills-sh-upload.md](docs/skills-sh-upload.md) · `assets/`
+
+## Contributing
+
+See `CONTRIBUTING.md` for local checks, installer safety rules, and pull-request expectations.
+
+## Uploading To skills.sh
+
+Use `skills/temperance-engine/SKILL.md` as the marketplace-facing skill entry. The repo-level installer remains at the root so users can review the code before running it.
+
+Suggested listing metadata:
+
+- Name: `Temperance Engine`
+- Category: `Developer Tooling` or `Agent Operations`
+- Platforms: `macOS primary`, `Linux/other with voice skipped`
+- Entry file: `skills/temperance-engine/SKILL.md`
+- Banner: `assets/banner.png`
+- Icon: `assets/icon.png`
+
+## Upstream Links
+
+- [Personal AI Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure)
+- [CodeGraph](https://github.com/colbymchenry/codegraph)
+- [peon-ping](https://github.com/PeonPing/peon-ping)
+- [OpenCode](https://github.com/anomalyco/opencode)
+- [Cursor Rules](https://cursor.com/docs/rules)
+- [OpenAI Codex CLI](https://github.com/openai/codex)
+- [GitHub CLI](https://github.com/cli/cli)
+- [Bun](https://github.com/oven-sh/bun)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+
+See `UPSTREAM.md` and `CREDITS.md` for the fuller attribution map.
+
+## Status
+
+This is a packaging repo for a local runtime pattern. Review scripts before running them on any important machine.
+
+<div align="center">
+
+<img src="assets/icon.png" alt="Temperance Engine icon" width="96" />
+
+Built for operators who want local autonomy without hidden runtime sprawl.
+
+Built by Thoughtseed Labs.
+
+</div>

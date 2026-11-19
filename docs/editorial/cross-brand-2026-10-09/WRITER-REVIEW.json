@@ -1,0 +1,61 @@
+{
+  "schema": "editorial.writer-review.v1",
+  "reviewed_at": "2026-10-09T08:15:01.824478+00:00",
+  "contract": "noesis-writer-human-direction-2026-10-08-v1",
+  "skill_version": "2.17.0",
+  "reviewers": [
+    "Codex primary",
+    "independent native editorial_packet_review"
+  ],
+  "review_scope": "Complete exact titles/bodies and claim trace, compared with October7/8 daily drafts, October8 archive-distribution README and separate Let the Sentence Finish voice-revision candidate. Sources are scoped in each item. No reviewer grants human approval.",
+  "independent_review_result": "PASS after canonical Albedo ledger repair; hash readback passed. Native fallback; no cross-vendor Cato receipt.",
+  "repaired_findings": [
+    "Initial claim trace lacked canonical Albedo modes/statuses and synthesis trace. Separate fourteen-row ledger now supplies them.",
+    "Initial TODAY contained pre-review hashes and wording; regenerated from final frozen items before presentation."
+  ],
+  "source_manifest_sha256": "087417fceddcffee6628cb5d1c31dc6d7ea3ff3b0c6a0da95628878444b8cec9",
+  "claim_trace_sha256": "6f2891fd0ed73937a6f82fccc731e7bf2df84338b78b70d80542d29182c476d8",
+  "hash_scheme": "SHA256 of UTF-8 sorted-key compact JSON, ensure_ascii=false, over item.payload_fields. This packet envelope includes title, account, destination, timing, media, accessible description and sources. It is not a calendar-runner enqueue authorization.",
+  "items": [
+    {
+      "id": "TS-IG-20261009-PHASE-READABILITY",
+      "body_sha256": "fa15685d797a63672e468af5c72e0d3f20eaab0c9045effa08ba63e6dc10f6a3",
+      "payload_sha256": "481ed3379d2d1bc86e84413ed41b56d3b4750524cb5f483c1f725460bdd0e91b",
+      "writer_review": {
+        "contract": "noesis-writer-human-direction-2026-10-08-v1",
+        "skill_version": "2.17.0",
+        "payload_sha256": "481ed3379d2d1bc86e84413ed41b56d3b4750524cb5f483c1f725460bdd0e91b",
+        "reviewer": "Codex primary and independent native editorial_packet_review",
+        "source_coverage": true,
+        "verdict": "held-for-media-review",
+        "unresolved_findings": [
+          "Complete motion and soundtrack review remains outstanding; contact-sheet inspection and inherited decode receipt do not clear it."
+        ],
+        "method": "Sentence-by-sentence complete copy read; compare both candidates with October7/8 daily drafts and October8 archive/revision drafts. No pattern-score certification.",
+        "read_at": "2026-10-09T08:15:01.824478+00:00",
+        "independent_review": "PASS on final exact text and canonical claim trace; no external action or publication approval"
+      },
+      "publication_review_readiness": "held-for-media-review"
+    },
+    {
+      "id": "TN-R-20261009-UNAVAILABLE-SOURCES",
+      "body_sha256": "f0a6cc8db32e365bbd44c2d5a07384d33c0c5cd98abaa1f27d9d1822250e323a",
+      "payload_sha256": "f1396eba0915c2b40c07c09802ea82613cce93c9863a28523118921e63fde968",
+      "writer_review": {
+        "contract": "noesis-writer-human-direction-2026-10-08-v1",
+        "skill_version": "2.17.0",
+        "payload_sha256": "f1396eba0915c2b40c07c09802ea82613cce93c9863a28523118921e63fde968",
+        "reviewer": "Codex primary and independent native editorial_packet_review",
+        "source_coverage": true,
+        "verdict": "ready-for-human-review",
+        "unresolved_findings": [],
+        "method": "Sentence-by-sentence complete copy read; compare both candidates with October7/8 daily drafts and October8 archive/revision drafts. No pattern-score certification.",
+        "read_at": "2026-10-09T08:15:01.824478+00:00",
+        "independent_review": "PASS on final exact text and canonical claim trace; no external action or publication approval"
+      },
+      "publication_review_readiness": "awaiting-human-review"
+    }
+  ],
+  "approval_state": "None; direct human decision after exact packet presentation required",
+  "pattern_triage": "New candidates zero findings; corpus141 records/114flagged/551findings. Pattern results do not certify prose."
+}

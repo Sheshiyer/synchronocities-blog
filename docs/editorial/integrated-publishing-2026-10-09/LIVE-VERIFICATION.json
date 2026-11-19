@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-10-09T12:01:47.265035+00:00",
+  "checks": [
+    {
+      "check": "persisted-held-pilot",
+      "pass": true,
+      "fingerprint": "c84080f057b6d3fb234607a0269cd254b3b145d14b8c16f1fc9431ef5388daa8"
+    },
+    {
+      "check": "exact-retry-idempotent",
+      "pass": true,
+      "status": 200
+    },
+    {
+      "check": "stale-copy-review-rejected",
+      "pass": true,
+      "status": 400
+    },
+    {
+      "check": "revision-conflict-rejected",
+      "pass": true,
+      "status": 409
+    },
+    {
+      "check": "service-cannot-approve",
+      "pass": true,
+      "status": 403
+    },
+    {
+      "check": "human-question-persists-unanswered",
+      "pass": true,
+      "question_id": "question:TN-LC-INTEGRATION-20261009-DIRECTION"
+    },
+    {
+      "check": "existing-678-operations-preserved",
+      "pass": true,
+      "before": 678,
+      "after": 678,
+      "changed": []
+    },
+    {
+      "check": "pilot-has-no-approval-or-publication",
+      "pass": true
+    },
+    {
+      "check": "dynamic-list-without-rebuild",
+      "pass": true,
+      "items": 1
+    }
+  ],
+  "all_pass": true,
+  "publication": "No public submission; pilot held and human question unanswered."
+}

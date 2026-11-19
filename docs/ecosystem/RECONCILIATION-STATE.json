@@ -1,0 +1,21 @@
+{
+  "schema": "noesis.ecosystem-reconciliation-observation.v1",
+  "observedAt": "2026-10-09",
+  "scope": "Bounded git history observation during reconciliation; not a remote push or deployment receipt",
+  "workflow_migration": {
+    "sourceCommit": "9e8f0de53d1ac479d3fd903a1e8ec333b93b3302",
+    "removedPaths": [
+      ".github/workflows/probe-catalog-daily.yml",
+      ".github/workflows/synchronocities-ai-deploy.yml",
+      ".github/workflows/synchronocities-site-deploy.yml",
+      ".github/workflows/weekly-audit.yml"
+    ],
+    "removedFromCurrentTree": true,
+    "meaning": "GitHub Actions workflows removed for local job migration; do not treat older CI documentation as current automation proof",
+    "replacementDeploymentJobsVerified": false
+  },
+  "canonical_writer_scoped_commit": "95491794c79f64143e7d0aabef358f9fdd56169c",
+  "canonical_writer_commit_basis": "Parent reconciliation receipt; not independently re-committed by map generator",
+  "historical_plan": "Restored editorial catalogue and full repertoire plan remain proposals, not scheduled or approved candidates",
+  "publishing_automation": "The specific10:30Paris editorial preparation automation has its own readback; it does not prove replacement of all removed CI jobs"
+}

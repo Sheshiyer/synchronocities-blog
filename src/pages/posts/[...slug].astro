@@ -16,6 +16,7 @@ import NextPostReveal from '../../components/NextPostReveal';
 import PostTOC from '../../components/PostTOC';
 import BackToTop from '../../components/BackToTop';
 import RelatedPostModules from '../../components/RelatedPostModules.astro';
+import NoesisDiscovery from '../../components/NoesisDiscovery.astro';
 import NonCardArticleShell from '../../components/non-card/NonCardArticleShell.astro';
 import PostFooterNav from '../../components/PostFooterNav.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
@@ -380,6 +381,7 @@ const journeyCards = Object.entries(cardOrder)
           {/* Content column */}
           <div id="post-reading" class="prose-synchronocities w-full">
             <Content />
+            <NoesisDiscovery />
 
             {/* Closing line */}
             {experience && (

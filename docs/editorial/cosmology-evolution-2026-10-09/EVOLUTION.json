@@ -1,0 +1,93 @@
+{
+  "schema": "noesis.evolution.events.v1",
+  "rule": "Append a successor event when a position changes; never overwrite the earlier event. Document/publication dates do not date belief adoption.",
+  "events": [
+    {
+      "id": "E-SOURCE-PRIORITY",
+      "recorded_at": "2026-10-09",
+      "effective_from": "2026-10-09",
+      "earlier_effective_from": null,
+      "dimension": [
+        "lexicon",
+        "alchemical-perspective"
+      ],
+      "before": "Historical generated dossier recodes source terms into technical field language. This is a document policy, not an established former author belief.",
+      "after": "Read Young directly as a primary source for his lexicon and alchemical perspective; preserve senses before proposing author usage.",
+      "negated_assumption": "A secondary recoding table can stand in for the source meaning.",
+      "retained": "Source-linked original synthesis and current claim discipline.",
+      "open_question": "Which definitions and correspondences should become current author canon?",
+      "source_ids": [
+        "H-20261009",
+        "V-DOSSIER"
+      ],
+      "status": "author-directed-method",
+      "adoption_evidence": "Direct current request; scope is source priority and method only.",
+      "supersedes": []
+    },
+    {
+      "id": "E-NETI",
+      "recorded_at": "2026-10-09",
+      "effective_from": "2026-10-09",
+      "earlier_effective_from": null,
+      "dimension": [
+        "philosophical-method",
+        "rhetoric"
+      ],
+      "before": "Earlier style correction targets formulaic negation; existing v2.18 already permits meaningful negation.",
+      "after": "Treat neti-neti as deliberate inquiry into an identification or assumption; a removed assumption may leave an open question.",
+      "negated_assumption": "Every negative statement needs a positive counter-thesis or is an AI style defect.",
+      "retained": "Contextual scrutiny of empty contrast scaffolding.",
+      "open_question": "How does the author want to distinguish this working practice from named traditional interpretations in each essay?",
+      "source_ids": [
+        "H-20261009"
+      ],
+      "status": "author-directed-method",
+      "adoption_evidence": "Direct current request names neti-neti; no traditional doctrine certification inferred.",
+      "supersedes": []
+    },
+    {
+      "id": "E-RECODING-REVIEW",
+      "recorded_at": "2026-10-09",
+      "effective_from": null,
+      "earlier_effective_from": null,
+      "dimension": [
+        "worldview",
+        "vocabulary"
+      ],
+      "before": "Generated dossier treats soul/spirit/God as terms requiring automatic technical recoding.",
+      "after": "Propose context-specific decisions that preserve Young’s meanings, distinguish house usage, and keep plain words where they carry the intended meaning.",
+      "negated_assumption": "Technical synonyms are inherently more precise or empirically established.",
+      "retained": "Clarity, attribution and the ability to decline a source interpretation.",
+      "open_question": "Which source senses does the author retain, adapt, or leave behind?",
+      "source_ids": [
+        "H-20261009",
+        "V-DOSSIER"
+      ],
+      "status": "proposed-author-adoption",
+      "adoption_evidence": null,
+      "supersedes": []
+    },
+    {
+      "id": "E-MATERIALISM",
+      "recorded_at": "2026-10-09",
+      "effective_from": null,
+      "earlier_effective_from": null,
+      "dimension": [
+        "ontology",
+        "cosmology"
+      ],
+      "before": "A complete dated history of the author’s position on materialism has not been established.",
+      "after": "Create separate reviewable propositions about reduction, consciousness, matter and causation rather than infer a whole worldview from a word choice.",
+      "negated_assumption": "Criticism of one materialist premise commits the author to all of Young’s alternative physics.",
+      "retained": "Author can construct a philosophical model and revise it through inquiry.",
+      "open_question": "Which precise premise has ceased to describe your view, what remains useful, and what is still unresolved?",
+      "source_ids": [
+        "H-20261009",
+        "Y-GRAVITY"
+      ],
+      "status": "proposed-author-adoption",
+      "adoption_evidence": null,
+      "supersedes": []
+    }
+  ]
+}
